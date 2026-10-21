@@ -10,7 +10,7 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
 const write = (p, v) => writeFileSync(ROOT + p, JSON.stringify(v, null, 1) + '\n');
 
-const MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-nano';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
 const WINDOW_H = Number(process.env.WINDOW_HOURS || 36);
 const LIMITS = { cyber: 10, warfare: 8, world: 8 };
 const UA = 'OutpostDailyBot/1.0 (+https://outpostdaily.com)';
@@ -145,9 +145,9 @@ let kev = [];
 try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.message); kev = prev?.kev ?? []; }
 
 // Only unsummarised items go to the model. No new items + learn already written today => no call at all.
-const fresh = chosen.filter((i) => !cache[i.id]?.summary);
+const fresh = chosen.filter((i) => process.env.FORCE_AI || !cache[i.id]?.summary);
 let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [];
-if (fresh.length || !learn.length) {
+if (fresh.length || !learn.length || process.env.FORCE_AI) {
   const ai = await summarise(fresh, chosen.filter((i) => i.section !== 'world'));
   if (ai) {
     const byId = new Map(chosen.map((i) => [i.id, i]));

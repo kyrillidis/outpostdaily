@@ -3,7 +3,12 @@ name: Daily edition
 on:
   schedule:
     - cron: "17 4 * * *" # 04:17 UTC daily; off the :00 mark to dodge scheduler congestion
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_ai:
+        description: Re-summarise everything, ignoring the cache (use after changing the model)
+        type: boolean
+        default: false
 
 permissions:
   contents: write # commit the new edition back; Vercel deploys on that push
@@ -27,7 +32,8 @@ jobs:
       - name: Collect sources and write today's edition
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }} # optional; defaults to gpt-4.1-nano
+          FORCE_AI: ${{ inputs.force_ai && '1' || '' }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }} # optional; defaults to gpt-6-luna
         run: npm run fetch
       - name: Render (sanity check that the site builds)
         run: npm run build

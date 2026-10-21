@@ -21,7 +21,7 @@ The site build is pure, so an outage at a feed or at the AI provider can never b
 - Feeds, ranking, de-duplication across outlets, and the CVE table are plain code — no AI.
 - One batched call per day, only for items not already summarised (`data/cache.json`, 14-day memory). No new items → no call.
 - Input is the headline plus 260 characters per item (~26 items); output is capped at 2,600 tokens. Typically well under a cent per day.
-- Default model is `gpt-4.1-nano`. Change it with the repository variable `OPENAI_MODEL` (Settings → Secrets and variables → Actions → Variables) — no code change.
+- Default model is `gpt-6-luna`. Change it with the repository variable `OPENAI_MODEL` (Settings → Secrets and variables → Actions → Variables) — no code change.
 
 ## Accuracy guards
 
