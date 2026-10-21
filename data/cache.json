@@ -1,4 +1,14 @@
 {
+ "2810027585": {
+  "t": "2026-10-21",
+  "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
+  "why": "Check PHP-based web servers and CMS systems for exposure and patches.",
+  "tags": [
+   "PHP",
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ]
+ },
  "cvss:CVE-2026-106931": {
   "score": 8.5,
   "t": "2026-10-21"
@@ -49,11 +59,12 @@
  },
  "73d154fe3b": {
   "t": "2026-10-21",
-  "summary": "Microsoft says it mistakenly marked the Always On VPN connection bug as fixed in the October Windows 11 updates.",
-  "why": "Check whether affected devices still have VPN connection problems and monitor Microsoft's update guidance.",
+  "summary": "Microsoft says it mistakenly marked the Always On VPN connection issue as fixed in October 2026 Windows 11 updates.",
+  "why": "Check whether Always On VPN remains affected after the October updates.",
   "tags": [
    "Always On VPN",
-   "Windows 11"
+   "Windows 11",
+   "updates"
   ]
  },
  "190252fca7": {
@@ -147,21 +158,21 @@
  },
  "d0a81569c2": {
   "t": "2026-10-21",
-  "summary": "The article describes a changed Tehran after the death of former Supreme Leader Ali Khamenei in the war's first day; his son Mojtaba is described as the new Supreme Leader.",
-  "why": "Leadership change in Tehran may shape the strategic context of the war.",
+  "summary": "War on the Rocks describes changes in Tehran following the war’s first day and discusses Supreme Leader Mojtaba Khamenei.",
+  "why": "The article frames Tehran’s political context amid war.",
   "tags": [
    "Tehran",
-   "Supreme Leader",
-   "war"
+   "war",
+   "Supreme Leader"
   ]
  },
  "bce799c79e": {
   "t": "2026-10-21",
-  "summary": "European officials are considering giving utilities and infrastructure companies more power to bring down drones, amid concerns about attacks on power supplies.",
-  "why": "The proposal concerns how infrastructure operators could respond to drone threats.",
+  "summary": "Defense News reports that Europe is weighing greater powers for utilities and infrastructure companies to bring down drones amid concerns about attacks on power supplies.",
+  "why": "The debate concerns who can counter drones threatening critical infrastructure.",
   "tags": [
+   "Europe",
    "utilities",
-   "infrastructure",
    "drones"
   ]
  },
@@ -233,12 +244,12 @@
  },
  "39d76887bd": {
   "t": "2026-10-21",
-  "summary": "Russia released US citizen Stephen Hubbard without a swap, Trump says, as a Trump envoy meets Putin.",
-  "why": "The release and diplomatic meeting are relevant to US-Russia relations.",
+  "summary": "BBC World reports that Russia freed US citizen Stephen Hubbard without a swap, according to Trump, as a Trump envoy met Putin.",
+  "why": "The release and envoy meeting are developments in US–Russia relations.",
   "tags": [
    "Russia",
    "US citizen",
-   "release"
+   "envoy"
   ]
  },
  "adb13de83f": {
@@ -312,11 +323,12 @@
  },
  "ba8deb36fe": {
   "t": "2026-10-21",
-  "summary": "Microsoft says PowerToys 0.102 adds two mouse utilities, command-line tools, and Command Palette improvements.",
-  "why": "Check whether the new utilities and command-line tools are approved in your environment.",
+  "summary": "Microsoft released PowerToys 0.102 with two mouse utilities, command-line tools, and Command Palette improvements.",
+  "why": "Review the new utilities and tools before adopting them in managed environments.",
   "tags": [
    "PowerToys",
-   "mouse tools"
+   "CursorHide",
+   "Button Lock"
   ]
  },
  "2616dfa725": {
@@ -371,6 +383,206 @@
   "tags": [
    "Iran",
    "nuclear enrichment"
+  ]
+ },
+ "a5afc0aef8": {
+  "t": "2026-10-21",
+  "summary": "PHP’s security team released emergency patches for two critical remote code execution vulnerabilities collectively tracked as PHP2Shell.",
+  "why": "Defenders should identify affected PHP systems and apply the emergency patches.",
+  "tags": [
+   "PHP",
+   "RCE",
+   "PHP2Shell"
+  ]
+ },
+ "24755a352d": {
+  "t": "2026-10-21",
+  "summary": "Krebs on Security says many websites need core software updates for two vulnerabilities that could let attackers take control of affected servers.",
+  "why": "Check PHP and other core software versions, and prioritize updates.",
+  "tags": [
+   "PHP",
+   "websites",
+   "vulnerabilities"
+  ]
+ },
+ "b96c0a11c5": {
+  "t": "2026-10-21",
+  "summary": "Unit 42 describes a threat actor using AI to plan and carry out credential theft, VoIP fraud planning, and database exfiltration.",
+  "why": "Review controls for credential theft, VoIP fraud, and database exfiltration.",
+  "tags": [
+   "AI",
+   "credential theft",
+   "database exfiltration"
+  ]
+ },
+ "39edcc9fa9": {
+  "t": "2026-10-21",
+  "summary": "The Record reports that hundreds of websites have gone offline after PHP maintainers released patches for two severe vulnerabilities.",
+  "why": "Prioritize patching PHP systems and check websites for service disruption.",
+  "tags": [
+   "PHP",
+   "websites",
+   "patches"
+  ]
+ },
+ "bc6b0429e7": {
+  "t": "2026-10-21",
+  "summary": "BleepingComputer reports that ClickFix attacks use fake AI installers, malicious search results, and chatbot platforms to trick users into running malware.",
+  "why": "Warn users against running installers or commands from unverified search results and chatbots.",
+  "tags": [
+   "ClickFix",
+   "AI installers",
+   "malware"
+  ]
+ },
+ "a45dacf80c": {
+  "t": "2026-10-21",
+  "summary": "SecurityWeek reports tests in which deceptive prompts directed AI agents to fake targets, reducing attack success and increasing the cost of successful attacks.",
+  "why": "Consider decoy targets as a way to mislead AI agents, while assessing the test claims.",
+  "tags": [
+   "Context Bombs",
+   "AI agents",
+   "decoys"
+  ]
+ },
+ "67c1ab5168": {
+  "t": "2026-10-21",
+  "summary": "Rapid7’s Q3 analysis says high-severity flaws were exploited within three days on average, while AI appeared in 8% of tracked incidents.",
+  "why": "Prioritize rapid assessment and remediation of high-severity vulnerabilities.",
+  "tags": [
+   "Rapid7",
+   "high-severity flaws",
+   "ransomware"
+  ]
+ },
+ "836ce7db9f": {
+  "t": "2026-10-21",
+  "summary": "Australia marked missile and cyber ‘firsts’ in an exercise with Indonesia, amid a busy month of military drills, Breaking Defense reports.",
+  "why": "The exercise highlights missile and cyber capabilities in military cooperation.",
+  "tags": [
+   "Australia",
+   "Indonesia",
+   "exercise"
+  ]
+ },
+ "d15091b631": {
+  "t": "2026-10-21",
+  "summary": "The Army’s technology chief discussed autonomy, acquisition, and the future of drones in an interview with Breaking Defense.",
+  "why": "Autonomy and acquisition are relevant to the Army’s unmanned initiatives.",
+  "tags": [
+   "autonomy",
+   "acquisition",
+   "drones"
+  ]
+ },
+ "b1f346dd8d": {
+  "t": "2026-10-21",
+  "summary": "The UK Ministry of Defence says a cross-industry programme created to safeguard nuclear collaboration skills has concluded its work.",
+  "why": "The programme focused on preserving skills for nuclear collaboration.",
+  "tags": [
+   "nuclear collaboration",
+   "skills",
+   "programme"
+  ]
+ },
+ "8f4c14bd9b": {
+  "t": "2026-10-21",
+  "summary": "A report says German forces could face attacks at home, according to a classified internal analysis cited by WDR and SZ.",
+  "why": "The report raises the operational relevance of domestic military security.",
+  "tags": [
+   "German military",
+   "sabotage",
+   "attacks"
+  ]
+ },
+ "2cca973501": {
+  "t": "2026-10-21",
+  "summary": "War on the Rocks argues militaries are beginning to treat batteries as a limit on drone endurance as small unmanned systems become more widespread.",
+  "why": "Battery supply affects the endurance and sustained use of small drones.",
+  "tags": [
+   "batteries",
+   "drones",
+   "supply chain"
+  ]
+ },
+ "4434173b7b": {
+  "t": "2026-10-21",
+  "summary": "The US Marine Corps made the AI-enabled Maven battlefield management system available to all service commands and organizations.",
+  "why": "Service-wide availability expands access to an AI-enabled battlefield management system.",
+  "tags": [
+   "Maven",
+   "AI",
+   "battlefield management"
+  ]
+ },
+ "bd0ba69c46": {
+  "t": "2026-10-21",
+  "summary": "Atlantic Council authors argue Russian attacks on Ukrainian civilians may aim to make parts of the country unlivable and serve a domestic propaganda purpose.",
+  "why": "The analysis connects attacks on civilian areas with domestic messaging.",
+  "tags": [
+   "Ukraine",
+   "civilian targets",
+   "propaganda"
+  ]
+ },
+ "4d4f84241f": {
+  "t": "2026-10-21",
+  "summary": "Novaspace forecasts global satellite services revenue will grow 44% to $145 billion by 2035.",
+  "why": "The forecast signals the projected scale of the global satellite services market.",
+  "tags": [
+   "satellite services",
+   "revenue",
+   "Novaspace"
+  ]
+ },
+ "b36e793d10": {
+  "t": "2026-10-21",
+  "summary": "Foreign Policy reports that a broken asylum system and shrinking resettlement options leave people who fled Ethiopia’s war with few options.",
+  "why": "The report highlights constraints on asylum and resettlement.",
+  "tags": [
+   "Ethiopia",
+   "asylum",
+   "resettlement"
+  ]
+ },
+ "2a87dc06f9": {
+  "t": "2026-10-21",
+  "summary": "Space Nuclear Power Corporation says DARPA awarded it an agreement for a ground test of an autonomous nuclear reactor controller.",
+  "why": "The agreement concerns testing autonomous control for a space nuclear reactor.",
+  "tags": [
+   "DARPA",
+   "autonomous controller",
+   "nuclear reactor"
+  ]
+ },
+ "a0f9127e0b": {
+  "t": "2026-10-21",
+  "summary": "Inside GNSS reports that persistent GNSS interference on NATO’s eastern flank is being analyzed using ground-station data from Estonia.",
+  "why": "Ground-station data can help characterize GNSS interference across the Baltic signal environment.",
+  "tags": [
+   "GNSS interference",
+   "Estonia",
+   "Baltic"
+  ]
+ },
+ "b9648ec7c9": {
+  "t": "2026-10-21",
+  "summary": "Al Jazeera reports that Russia will send its first diesel tanker to the US to an undisclosed port.",
+  "why": "The shipment is a development in Russia–US energy trade.",
+  "tags": [
+   "Russia",
+   "diesel tanker",
+   "US"
+  ]
+ },
+ "eed8326137": {
+  "t": "2026-10-21",
+  "summary": "Al Jazeera reports that US envoy Steve Witkoff praised Russian President Vladimir Putin as a ‘humanitarian.’",
+  "why": "The remarks are relevant to US–Russia diplomatic messaging.",
+  "tags": [
+   "US envoy",
+   "Russia",
+   "Putin"
   ]
  }
 }
