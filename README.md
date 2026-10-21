@@ -1,6 +1,6 @@
 # Outpost
 
-An autonomous daily briefing on **cybersecurity, modern warfare and world news**, built only from open sources. Every headline links to its source; AI is used only to write short summaries and one "learn today" concept per domain.
+An autonomous daily briefing on **cybersecurity, modern warfare technology, geodata and geopolitics**, built only from open sources. Every headline links to its source; AI is used only to write short summaries and one "learn today" concept per domain.
 
 Live: https://www.outpostdaily.com
 
@@ -33,7 +33,7 @@ The site build is pure, so an outage at a feed or at the AI provider can never b
 
 ## Adding sources
 
-Edit `config/sources.json` (feeds, grouped by `cyber` / `warfare` / `world`) or `config/toolbox.json` (OSINT tool links shown on the Toolbox page). The toolbox is seeded with well-known OSINT resources; to mirror the [OSINT4All](https://start.me/p/L1rEYQ/osint4all) start.me page, export it from start.me and add its links to `toolbox.json`.
+Edit `config/sources.json` (feeds, grouped by `cyber` / `warfare` / `geo`; general outlets get `"filter": true` so only items matching the `relevance` pattern are kept) or `config/toolbox.json` (OSINT tool links shown on the Toolbox page). The toolbox is seeded with well-known OSINT resources; to mirror the [OSINT4All](https://start.me/p/L1rEYQ/osint4all) start.me page, export it from start.me and add its links to `toolbox.json`.
 
 ## License
 

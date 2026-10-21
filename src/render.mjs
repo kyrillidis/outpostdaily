@@ -25,19 +25,20 @@ const ROUTES = [
   { id: 'cyber', path: '/cyber/', nav: 'Cyber', num: '02' },
   { id: 'vulns', path: '/cves/', nav: 'CVEs', num: '03' },
   { id: 'warfare', path: '/warfare/', nav: 'Warfare', num: '04' },
-  { id: 'world', path: '/world/', nav: 'World', num: '05' },
+  { id: 'geo', path: '/geopolitics/', nav: 'Geopolitics', num: '05' },
   { id: 'today', path: '/today/', nav: 'Today &amp; Learn', num: '06' },
   { id: 'toolbox', path: '/toolbox/', nav: 'OSINT Toolbox', num: '07' },
   { id: 'archive', path: '/archive/', nav: 'Archive', num: '—' },
 ];
 const PAGES = [
-  { id: 'about', path: '/about/', title: 'About Outpost', desc: 'Outpost is a free daily briefing on cybersecurity, modern warfare and world news, compiled from open sources with every story linked to its outlet.' },
-  { id: 'methodology', path: '/methodology/', title: 'Methodology: how Outpost is compiled', desc: 'How Outpost collects, ranks and summarises cyber, warfare and world news each day, what the AI does and does not do, and the limits of the briefing.' },
+  { id: 'about', path: '/about/', title: 'About Outpost', desc: 'Outpost is a free daily briefing on cybersecurity, modern warfare technology, geodata and geopolitics, compiled from open sources with every story linked to its outlet.' },
+  { id: 'methodology', path: '/methodology/', title: 'Methodology: how Outpost is compiled', desc: 'How Outpost collects, ranks and summarises cyber, warfare technology and geopolitics news each day, what the AI does and does not do, and the limits of the briefing.' },
   { id: 'privacy', path: '/privacy/', title: 'Privacy policy', desc: 'Outpost has no accounts. How advertising, analytics and the email newsletter handle data.' },
 ];
 const R = Object.fromEntries(ROUTES.map((r) => [r.id, r]));
-const SECTION_ROUTE = { cyber: R.cyber, warfare: R.warfare, world: R.world };
-const SEC = { cyber: ['02', 'Cyber'], warfare: ['04', 'Warfare'], world: ['05', 'World'] };
+const SECTION_ROUTE = { cyber: R.cyber, warfare: R.warfare, geo: R.geo };
+const SEC = { cyber: ['02', 'Cyber'], warfare: ['04', 'Warfare'], geo: ['05', 'Geopolitics'] };
+const LEARN_LABEL = { cyber: 'Cyber', warfare: 'Warfare', geo: 'Geopolitics &amp; Geodata' };
 
 // ---------- ads (render nothing until a slot id is configured) ----------
 const adsense = site.adsense ?? {};
@@ -79,7 +80,7 @@ const kevTable = (kev) => head('03', 'Exploited Vulnerabilities (CISA KEV)', 'Ne
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalog; CVSS from NVD where published. “—” means NVD has no score yet.</p>`;
 
 function todayHtml(ed, top) {
-  const learn = (ed.learn ?? []).map((l) => `<div class="card kw-unit"><h3>Learn · ${l.domain === 'cyber' ? 'Cyber' : 'Warfare'}: ${esc(l.term)}</h3><p>${esc(l.explainer)}</p><div class="src">From: <a href="${href(l.from)}" target="_blank" rel="noopener">${esc(l.fromSource)}</a></div></div>`).join('');
+  const learn = (ed.learn ?? []).map((l) => `<div class="card kw-unit"><h3>Learn · ${LEARN_LABEL[l.domain] ?? 'Concept'}: ${esc(l.term)}</h3><p>${esc(l.explainer)}</p><div class="src">From: <a href="${href(l.from)}" target="_blank" rel="noopener">${esc(l.fromSource)}</a></div></div>`).join('');
   const down = (ed.health ?? []).filter((h) => !h.ok);
   const aiCount = ed.items.filter((i) => i.ai).length;
   return head('06', 'Today &amp; Learn', 'The five that matter, what to do about them, and one concept per domain to take away') +
@@ -118,14 +119,14 @@ function headMeta({ title, desc, path, type = 'website' }) {
 <meta property="og:image" content="${SITE}/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Outpost — daily cyber, warfare and world news briefing">
+<meta property="og:image:alt" content="Outpost — cyber, defence tech and geopolitics briefing">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${SITE}/og.png">`;
 }
 const ld = (objs) => `<script type="application/ld+json">${JSON.stringify(objs.length === 1 ? objs[0] : objs).replace(/</g, '\\u003c')}</script>`;
-const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE + '/#org', name: 'Outpost', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/favicon.png' }, publishingPrinciples: SITE + '/methodology/', ethicsPolicy: SITE + '/methodology/', sameAs: [site.repo] };
+const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE + '/#org', name: 'Outpost', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/logo.png', width: 512, height: 512 }, publishingPrinciples: SITE + '/methodology/', ethicsPolicy: SITE + '/methodology/', sameAs: [site.repo] };
 const WEBSITE = { '@type': 'WebSite', '@id': SITE + '/#site', url: SITE + '/', name: 'Outpost', inLanguage: 'en', publisher: { '@id': SITE + '/#org' } };
 function jsonLd({ title, desc, path, crumbs, list, modified }) {
   const nodes = [{ '@context': 'https://schema.org', '@graph': [ORG, WEBSITE,
@@ -139,6 +140,7 @@ function jsonLd({ title, desc, path, crumbs, list, modified }) {
 // ---------- assemble ----------
 const dir = ROOT + 'data/editions/';
 const editions = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.json')).sort().reverse().map((f) => JSON.parse(readFileSync(dir + f, 'utf8'))) : [];
+for (const e of editions) for (const i of e.items) if (i.section === 'world') i.section = 'geo';
 if (!editions.length) { console.error('No editions in data/editions — run `npm run fetch` first.'); process.exit(1); }
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
 const toolbox = json('config/toolbox.json', { groups: [] });
@@ -159,7 +161,7 @@ function render({ ed, route, main, title, desc, path, crumbs = [], list = [] }) 
     JSONLD: jsonLd({ title, desc, path, crumbs, list, modified: ed.compiled }),
     NAV: nav,
     WORDMARK: isHome
-      ? '<h1 class="wordmark">OUTPOST<span class="dot">.</span><span class="sr-only"> — daily cybersecurity, modern warfare and world news briefing</span></h1>'
+      ? '<h1 class="wordmark">OUTPOST<span class="dot">.</span><span class="sr-only"> — daily cybersecurity, defence technology, geodata and geopolitics briefing</span></h1>'
       : '<div class="wordmark"><a href="/" style="color:inherit;text-decoration:none">OUTPOST<span class="dot">.</span></a></div>',
     MAIN: main,
     AD_SIDEBAR: ad('sidebar'),
@@ -182,18 +184,18 @@ function pageFor(ed, route) {
   const d = dMid(ed.compiled);
   const heads = (sec, n) => ranked.filter((i) => i.section === sec).slice(0, n).map((i) => plain(i.title).replace(/[.\s]+$/, ''));
   const per = (s) => ranked.filter((i) => i.section === s).slice(0, 2);
-  const front = [per('cyber')[0], per('warfare')[0], per('world')[0], per('cyber')[1], per('warfare')[1], per('world')[1]].filter(Boolean);
+  const front = [per('cyber')[0], per('warfare')[0], per('geo')[0], per('cyber')[1], per('warfare')[1], per('geo')[1]].filter(Boolean);
   const secList = (s) => ranked.filter((i) => i.section === s);
   const r = R[route];
   const cfg = {
-    'top-stories': { title: `Outpost: Cyber, Warfare & World News Briefing — ${d}`, desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('world', 1)].join('; ')}. Daily, source-linked briefing.`, 158), main: head('01', 'Top Stories', 'The best of cyber, warfare and world — two from each, ranked by recency, source weight and how many outlets carry it') + ad('top') + withInlineAd(front.map(story)), list: front },
+    'top-stories': { title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`, desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158), main: head('01', 'Top Stories', 'The best of cyber, warfare technology and geopolitics — two from each, ranked by recency, source weight and how many outlets carry it') + ad('top') + withInlineAd(front.map(story)), list: front },
     cyber: { title: `Cybersecurity News Today — ${d} | Outpost`, desc: cut(`Cyber threat news for ${d}: ${heads('cyber', 3).join('; ')}. Breaches, campaigns and advisories, linked to source.`, 158), main: ad('top') + sectionHtml(ed, 'cyber', '02', 'Cyber Threat Intelligence', 'Breaches, campaigns, advisories and research', 'What to check'), list: secList('cyber') },
     vulns: { title: `Newly Exploited Vulnerabilities (CISA KEV) — ${d} | Outpost`, desc: cut(`The newest CVEs CISA lists as exploited in the wild, with CVSS scores and required actions: ${ed.kev.slice(0, 4).map((k) => k.cve).join(', ')} and more.`, 158), main: kevTable(ed.kev), list: [] },
-    warfare: { title: `Modern Warfare News & Analysis — ${d} | Outpost`, desc: cut(`Modern warfare today (${d}): ${heads('warfare', 3).join('; ')}. Operations, systems and analysis with sources.`, 158), main: ad('top') + sectionHtml(ed, 'warfare', '04', 'Modern Warfare', 'Operations, systems and analysis — from analysts, defense press and open-source investigators', 'Why it matters'), list: secList('warfare') },
-    world: { title: `World News Briefing for Security Readers — ${d} | Outpost`, desc: cut(`World news for ${d} through a security lens: ${heads('world', 3).join('; ')}.`, 158), main: ad('top') + sectionHtml(ed, 'world', '05', 'World', 'The general news that moves the security picture', 'Why it matters'), list: secList('world') },
+    warfare: { title: `Modern Warfare Technology News — ${d} | Outpost`, desc: cut(`Modern warfare technology today (${d}): ${heads('warfare', 3).join('; ')}. Drones, EW, missiles and defence systems, with sources.`, 158), main: ad('top') + sectionHtml(ed, 'warfare', '04', 'Modern Warfare Technology', 'Drones, electronic warfare, missiles, air defence and the systems behind the operations — from analysts, defence press and open-source investigators', 'Why it matters'), list: secList('warfare') },
+    geo: { title: `Geopolitics, Geodata & GNSS Security — ${d} | Outpost`, desc: cut(`Geopolitics and geospatial security for ${d}: ${heads('geo', 3).join('; ')}. Strategy, GNSS jamming, space and the geo wars, with sources.`, 158), main: ad('top') + sectionHtml(ed, 'geo', '05', 'Geopolitics &amp; Geodata', 'Strategy, geo wars, GNSS and satellite security — the contest over who sees and who controls the map', 'Strategic relevance'), list: secList('geo') },
     today: { title: `Today’s Top 5 & What to Learn — ${d} | Outpost`, desc: cut(`The five stories that matter on ${d}, a defender checklist, and today’s cyber and warfare concepts explained: ${(ed.learn ?? []).map((l) => l.term).join(', ')}.`, 158), main: todayHtml(ed, ranked), list: ranked.slice(0, 5) },
     toolbox: { title: 'OSINT Toolbox: Free Tools to Verify News Yourself | Outpost', desc: 'A curated list of free open-source intelligence tools for conflict mapping, flight and ship tracking, threat intelligence and image verification.', main: toolboxHtml(toolbox), list: [] },
-    archive: { title: 'Archive: Past Daily Briefings | Outpost', desc: 'Every past Outpost edition — daily cybersecurity, modern warfare and world news briefings.', main: archiveHtml(archiveRows), list: [] },
+    archive: { title: 'Archive: Past Daily Briefings | Outpost', desc: 'Every past Outpost edition — daily cybersecurity, defence technology, geodata and geopolitics briefings.', main: archiveHtml(archiveRows), list: [] },
   }[route];
   const crumbs = route === 'top-stories' ? [] : [[plain(r.nav), r.path]];
   return render({ ed, route, path: r.path, crumbs, ...cfg });
@@ -203,12 +205,12 @@ function editionPage(ed) {
   const ranked = [...ed.items].sort((a, b) => b.score - a.score);
   const d = dLong(ed.compiled);
   const path = `/archive/${ed.date}.html`;
-  const main = `<div class="sec-head"><span class="sec-num">${ed.edition}</span><div><h2 class="sec-title">Edition ${ed.edition} — ${d}</h2><p class="sec-sub">Cyber, warfare and world news as compiled on ${d}</p></div></div>` +
+  const main = `<div class="sec-head"><span class="sec-num">${ed.edition}</span><div><h2 class="sec-title">Edition ${ed.edition} — ${d}</h2><p class="sec-sub">Cyber, warfare technology and geopolitics as compiled on ${d}</p></div></div>` +
     sectionHtml(ed, 'cyber', '02', 'Cyber', 'Breaches, campaigns, advisories and research', 'What to check') +
     sectionHtml(ed, 'warfare', '04', 'Warfare', 'Operations, systems and analysis', 'Why it matters') +
-    sectionHtml(ed, 'world', '05', 'World', 'General news that moves the security picture', 'Why it matters') + kevTable(ed.kev);
+    sectionHtml(ed, 'geo', '05', 'Geopolitics &amp; Geodata', 'Strategy, geo wars, GNSS and satellite security', 'Strategic relevance') + kevTable(ed.kev);
   const top = ranked.slice(0, 3).map((i) => plain(i.title).replace(/[.\s]+$/, ''));
-  return render({ ed, route: 'archive', path, crumbs: [['Archive', '/archive/'], [d, path]], title: `Cyber, Warfare & World News — ${d} | Outpost`, desc: cut(`Edition ${ed.edition}, ${d}: ${top.join('; ')}.`, 158), main, list: ranked });
+  return render({ ed, route: 'archive', path, crumbs: [['Archive', '/archive/'], [d, path]], title: `Cyber, Warfare Tech & Geopolitics — ${d} | Outpost`, desc: cut(`Edition ${ed.edition}, ${d}: ${top.join('; ')}.`, 158), main, list: ranked });
 }
 
 function staticPage(ed, pg) {
@@ -240,7 +242,7 @@ for (const e of editions.slice(0, 3)) for (const i of [...e.items].sort((a, b) =
   seen.add(i.id);
   rssItems.push(`<item><title>${esc(plain(i.title))}</title><link>${SITE}/archive/${e.date}.html#s-${i.id}</link><guid isPermaLink="false">outpost-${i.id}</guid><pubDate>${new Date(i.published).toUTCString()}</pubDate><category>${SEC[i.section][1]}</category><description>${esc(i.summary)} (Source: ${esc(i.source)})</description></item>`);
 }
-writeFileSync(out + 'feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outpost — daily cyber, warfare and world briefing</title><link>${SITE}/</link><atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/><description>A daily, source-linked briefing on cybersecurity, modern warfare and world news.</description><language>en</language><lastBuildDate>${new Date(latest.compiled).toUTCString()}</lastBuildDate>\n${rssItems.join('\n')}\n</channel></rss>\n`);
+writeFileSync(out + 'feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outpost — cyber, defence tech and geopolitics</title><link>${SITE}/</link><atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/><description>A daily, source-linked briefing on cybersecurity, modern warfare technology, geodata and geopolitics.</description><language>en</language><lastBuildDate>${new Date(latest.compiled).toUTCString()}</lastBuildDate>\n${rssItems.join('\n')}\n</channel></rss>\n`);
 
 // sitemap: routes + pages + every edition (incl. legacy archive files shipped in public/)
 const old = existsSync(ROOT + 'public/archive') ? readdirSync(ROOT + 'public/archive').map((f) => f.match(/^(\d{4}-\d{2}-\d{2})\.html$/)?.[1]).filter(Boolean) : [];

@@ -24,9 +24,12 @@
      doesn't rasterize SVG/data-URI icons for the result thumbnail -- its
      supported formats are ICO/PNG/GIF/JPEG/BMP/TIFF at a real, stable URL --
      so a real PNG + root favicon.ico (same artwork, rendered once) cover that. -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHBhdGggZD0iTTYsMyBMMjYsMyBMMjYsMTQgQzI2LDIyIDIxLDI3IDE2LDI5IEMxMSwyNyA2LDIyIDYsMTQgWiIgZmlsbD0iIzJFNkI4QyIvPgogIDxwYXRoIGQ9Ik0xNiwzIEwyNiwzIEwyNiwxNCBDMjYsMjIgMjEsMjcgMTYsMjkgWiIgZmlsbD0iIzIwNEY2OCIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTQiIHI9IjMuNCIgZmlsbD0iI0YzRUZFNiIvPgo8L3N2Zz4K">
-<link rel="icon" type="image/png" sizes="128x128" href="/favicon.png">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 
 
 
@@ -110,8 +113,8 @@
     background:var(--bg);
     color:var(--ink);
     font-family:var(--serif);
-    font-size:17px;
-    line-height:1.55;
+    font-size:19px;
+    line-height:1.6;
     margin:0;
   }
   ::selection{ background:var(--accent-soft); color:var(--ink); }
@@ -122,11 +125,11 @@
   }
   h1,h2,h3{ font-family:var(--display); text-wrap:balance; margin:0; }
   .wrap{ max-width:880px; margin:0 auto; padding:0 24px 96px; }
-  .wrap-wide{ max-width:1320px; margin:0 auto; padding:0 24px 96px; }
+  .wrap-wide{ max-width:1640px; margin:0 auto; padding:0 24px 96px; }
 
   /* ---------- masthead ---------- */
   .masthead{ padding:26px 24px 0; }
-  .masthead-inner{ max-width:1320px; margin:0 auto; }
+  .masthead-inner{ max-width:1640px; margin:0 auto; }
   .mast-top{
     display:flex; justify-content:space-between; align-items:baseline; gap:16px; flex-wrap:wrap;
     font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint);
@@ -138,8 +141,8 @@
   }
   .wordmark .dot{ color:var(--accent); }
   .tagline{
-    font-family:var(--mono); font-size:15px; line-height:1.65; color:var(--ink-dim);
-    letter-spacing:.005em; margin-top:10px; max-width:64ch;
+    font-family:var(--mono); font-size:17px; line-height:1.65; color:var(--ink-dim);
+    letter-spacing:.005em; margin-top:10px; max-width:100ch;
   }
   .tagline .prompt{ color:var(--accent); font-weight:600; }
   .tagline .cursor{
@@ -187,7 +190,7 @@
     backdrop-filter:saturate(1.1) blur(6px);
   }
   .quicknav-inner{
-    max-width:1320px; margin:0 auto; padding:0 24px; display:flex; align-items:center; gap:14px;
+    max-width:1640px; margin:0 auto; padding:0 24px; display:flex; align-items:center; gap:14px;
   }
   .quicknav-links{
     display:flex; gap:2px; overflow-x:auto; scrollbar-width:none; min-width:0; flex:1 1 auto;
@@ -219,11 +222,11 @@
     .searchwrap{ width:100%; }
   }
   .no-matches{
-    display:none; max-width:1320px; margin:0 auto; padding:10px 24px 0; font-family:var(--mono); font-size:12.5px; color:var(--ink-faint);
+    display:none; max-width:1640px; margin:0 auto; padding:10px 24px 0; font-family:var(--mono); font-size:12.5px; color:var(--ink-faint);
   }
 
   /* ---------- two-column layout ---------- */
-  .layout{ display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:48px; align-items:start; padding-top:0; }
+  .layout{ display:grid; grid-template-columns:minmax(0,1fr) 420px; gap:56px; align-items:start; padding-top:0; }
   @media (max-width:980px){
     .layout{ grid-template-columns:1fr; gap:0; }
   }
@@ -308,9 +311,9 @@
   /* ---------- story cards ---------- */
   .story{ padding:22px 0; border-bottom:1px solid var(--rule); }
   .story:first-of-type{ padding-top:0; }
-  .story-head{ font-size:24px; font-weight:700; line-height:1.25; margin-bottom:6px; }
+  .story-head{ font-size:29px; font-weight:700; line-height:1.25; margin-bottom:6px; }
   .story-meta{ font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); margin-bottom:10px; }
-  .story p{ margin:0 0 10px; max-width:68ch; }
+  .story p{ margin:0 0 10px; max-width:78ch; }
   .story .impact{
     margin:10px 0 0; padding:10px 14px; background:var(--surface-2); border-left:3px solid var(--accent);
     font-size:14.5px; color:var(--ink-dim);
@@ -327,8 +330,8 @@
   /* ---------- generic item list ---------- */
   .item{ padding:16px 0; border-bottom:1px solid var(--rule); }
   .item:first-child{ padding-top:0; }
-  .item h4{ font-family:var(--serif); font-weight:600; font-size:17.5px; margin-bottom:4px; }
-  .item p{ margin:0 0 6px; color:var(--ink-dim); max-width:70ch; }
+  .item h4{ font-family:var(--serif); font-weight:600; font-size:20px; margin-bottom:4px; }
+  .item p{ margin:0 0 6px; color:var(--ink-dim); max-width:80ch; }
   .item .src{ margin-top:2px; }
 
   .callout{
@@ -400,7 +403,7 @@
   .gaps b{ font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint); display:block; margin-bottom:6px; }
 
   footer{
-    max-width:1320px; margin:48px auto 0; padding:28px 24px 36px; border-top:1px solid var(--rule);
+    max-width:1640px; margin:48px auto 0; padding:28px 24px 36px; border-top:1px solid var(--rule);
     display:flex; flex-direction:column; gap:18px;
   }
   .footer-newsletter .coupon{
@@ -418,7 +421,7 @@
   }
 
   @media (prefers-reduced-motion: reduce){ *{ transition:none !important; } }
-  .item h3.item-title{ font-family:var(--serif); font-weight:600; font-size:17.5px; margin:0 0 4px; }
+  .item h3.item-title{ font-family:var(--serif); font-weight:600; font-size:21px; margin:0 0 4px; }
   .item h3.item-title a{ color:var(--ink); }
   .sr-only{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
   .wordmark{ margin:0; font-family:var(--display); }
@@ -426,7 +429,7 @@
   .ad-slot::before{ content:"Advertisement"; display:block; font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:4px; }
   .ad-slot.ad-sidebar{ min-height:250px; margin-top:0; }
   .footer-links{ display:flex; flex-wrap:wrap; gap:6px 18px; font-family:var(--mono); font-size:12px; margin:0 0 14px; padding:0; list-style:none; }
-  .prose{ max-width:68ch; } .prose h2{ font-size:22px; margin:28px 0 8px; } .prose p, .prose li{ color:var(--ink-dim); }
+  .prose{ max-width:78ch; } .prose h2{ font-size:22px; margin:28px 0 8px; } .prose p, .prose li{ color:var(--ink-dim); }
 </style>
 
 </head>
@@ -439,10 +442,10 @@
       <span><span id="compiledStamp">Compiled {{COMPILED}}</span> <span id="staleness"></span></span>
     </div>
     {{WORDMARK}}
-    <p class="tagline"><span class="prompt" aria-hidden="true">&gt;</span> <span id="typedText">The wall you watch from. A daily reading of cyber threats, modern warfare and world events — every line linked to its source.</span><span class="cursor" id="cursor" aria-hidden="true"></span></p>
+    <p class="tagline">Cyber, defence tech and geopolitics — daily, every line sourced.</p>
     <div class="mast-rule"></div>
     <div class="mast-meta">
-      <span>For SOC teams, students of the field, and anyone who reads the news through a security lens.</span>
+      <span>For defenders, analysts and students of cyber, defence technology and the geo wars.</span>
       <span><b>Today:</b> {{META_TODAY}}</span>
     </div>
   </div>
@@ -592,21 +595,7 @@
     }
   })();
 
-  (function(){
-    var typed = document.getElementById('typedText');
-    if(!typed) return;
-    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(reduce) return;
-    var full = typed.textContent;
-    typed.textContent = '';
-    var i = 0;
-    (function tick(){
-      if(i <= full.length){
-        typed.textContent = full.slice(0, i);
-        i++;
-        setTimeout(tick, 15);
-      }
-    })();
+  
   })();
 
   (function(){
@@ -630,8 +619,8 @@
   // ---------- legacy hash links (/#cyber etc.) -> real URLs ----------
   (function(){
     if(location.pathname !== '/' || !location.hash) return;
-    var map = {'threat-intel':'/cyber/','cyber':'/cyber/','vulns':'/cves/','warfare':'/warfare/','world':'/world/','today':'/today/',
-      'secinfra':'/cyber/','ai-sec':'/cyber/','market':'/world/','archive-page':'/archive/','toolbox':'/toolbox/'};
+    var map = {'threat-intel':'/cyber/','cyber':'/cyber/','vulns':'/cves/','warfare':'/warfare/','world':'/geopolitics/','today':'/today/',
+      'secinfra':'/cyber/','ai-sec':'/cyber/','market':'/geopolitics/','archive-page':'/archive/','toolbox':'/toolbox/'};
     var to = map[location.hash.slice(1)];
     if(to) location.replace(to);
   })();

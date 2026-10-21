@@ -34,7 +34,7 @@
       ]
     },
     {
-      "source": "/(favicon.png|favicon.ico|og.png)",
+      "source": "/(favicon.png|favicon.ico|favicon-48x48.png|favicon-192x192.png|apple-touch-icon.png|logo.png|icon.svg|og.png)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -55,6 +55,11 @@
         }
       ],
       "destination": "https://www.outpostdaily.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/world/",
+      "destination": "/geopolitics/",
       "permanent": true
     }
   ]

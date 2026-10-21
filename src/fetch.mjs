@@ -14,7 +14,7 @@ const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
 // Reasoning models (gpt-5/6 family) bill hidden thinking tokens against the output cap; keep it minimal.
 const EFFORT = process.env.REASONING_EFFORT ?? (/^gpt-[56]/.test(MODEL) ? 'low' : '');
 const WINDOW_H = Number(process.env.WINDOW_HOURS || 36);
-const LIMITS = { cyber: 10, warfare: 8, world: 8 };
+const LIMITS = { cyber: 10, warfare: 8, geo: 8 };
 const UA = 'OutpostDailyBot/1.0 (+https://outpostdaily.com)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const sha = (s) => createHash('sha1').update(s).digest('hex').slice(0, 10);
@@ -38,7 +38,7 @@ const linkOf = (e) => {
   return alt ? alt['@_href'] || text(alt) : text(e.guid);
 };
 
-async function pullFeed(src, section) {
+async function pullFeed(src, section, rules) {
   const res = await fetch(src.url, { headers: { 'user-agent': UA, accept: 'application/rss+xml, application/atom+xml, text/xml, */*' }, signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const doc = xml.parse(await res.text());
@@ -52,6 +52,7 @@ async function pullFeed(src, section) {
     const title = clean(e.title);
     if (!/^https?:\/\//.test(url) || !title || isNaN(when) || when.getTime() < cutoff || when > now.getTime() + 3600e3) continue;
     const snippet = clean(e.description || e.summary || e['content:encoded'] || e.content).slice(0, 320);
+    if (src.filter && !rules[src.filter === 'tech' ? 'tech' : 'geo'].test(title + ' ' + snippet)) continue; // general outlets: only on-topic items
     out.push({ id: sha(url), section, source: src.name, weight: src.weight ?? 0.5, title, url, snippet, published: when.toISOString() });
   }
   return out;
@@ -92,14 +93,14 @@ const SCHEMA = {
       properties: { id: { type: 'string' }, summary: { type: 'string' }, why: { type: 'string' }, tags: { type: 'array', items: { type: 'string' } } } } },
     run_today: { type: 'array', items: { type: 'string' } },
     learn: { type: 'array', items: { type: 'object', additionalProperties: false, required: ['domain', 'term', 'explainer', 'from_id'],
-      properties: { domain: { type: 'string', enum: ['cyber', 'warfare'] }, term: { type: 'string' }, explainer: { type: 'string' }, from_id: { type: 'string' } } } },
+      properties: { domain: { type: 'string', enum: ['cyber', 'warfare', 'geo'] }, term: { type: 'string' }, explainer: { type: 'string' }, from_id: { type: 'string' } } } },
   },
 };
-const SYSTEM = `You edit Outpost, a daily briefing on cybersecurity, modern warfare and world news for people learning the field.
+const SYSTEM = `You edit Outpost, a daily briefing on cybersecurity, modern warfare technology, geodata/GNSS and geopolitics for people learning the field.
 Use ONLY the title and snippet supplied for each item. Never add names, numbers, dates, causes or outcomes that are not in them; if the snippet is thin, write less.
-Per item: summary (max 35 words, plain, neutral, attribute claims: "X says"), why (max 20 words; cyber = what a defender should check or do; warfare = operational or strategic relevance; world = why it matters for security), tags (1-3 short terms from the text).
+Per item: summary (max 35 words, plain, neutral, attribute claims: "X says"), why (max 20 words; cyber = what a defender should check or do; warfare = the technology or operational relevance; geo = the strategic or geospatial relevance), tags (1-3 short terms from the text).
 run_today: 3 short defender actions, each grounded in a cyber item above.
-learn: one entry for domain "cyber" and one for "warfare": term = a concept that appears in that day's items, explainer = max 60 words defining it for a beginner, from_id = the item it came from.
+learn: one entry each for domains "cyber", "warfare" and "geo": term = a concept that appears in that day's items, explainer = max 45 words defining it for a beginner, from_id = the item it came from.
 learn may draw on items or learn_from (titles only). Return the item ids exactly as given.`;
 
 async function summarise(items, learnPool) {
@@ -132,10 +133,12 @@ async function summarise(items, learnPool) {
 const sources = read('config/sources.json', {});
 const cache = read('data/cache.json', {});
 const prev = read(`data/editions/${date}.json`, null);
+if (prev?.items) prev.items.forEach((i) => { if (i.section === 'world') i.section = 'geo'; });
 const health = [];
 const pool = [];
-for (const section of ['cyber', 'warfare', 'world']) {
-  const results = await Promise.allSettled(sources[section].map((s) => pullFeed(s, section)));
+const rules = { geo: new RegExp(sources.relevance, 'i'), tech: new RegExp(sources.techRelevance, 'i') };
+for (const section of ['cyber', 'warfare', 'geo']) {
+  const results = await Promise.allSettled(sources[section].map((s) => pullFeed(s, section, rules)));
   results.forEach((r, i) => {
     const name = sources[section][i].name;
     if (r.status === 'fulfilled') { pool.push(...r.value); health.push({ name, section, ok: true, n: r.value.length }); }
@@ -155,7 +158,7 @@ try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.me
 const fresh = chosen.filter((i) => process.env.FORCE_AI || !cache[i.id]?.summary);
 let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [];
 if (fresh.length || !learn.length || process.env.FORCE_AI) {
-  const ai = await summarise(fresh, chosen.filter((i) => i.section !== 'world'));
+  const ai = await summarise(fresh, chosen);
   if (ai) {
     const byId = new Map(chosen.map((i) => [i.id, i]));
     for (const a of ai.items) {

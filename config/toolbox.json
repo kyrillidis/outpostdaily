@@ -1,35 +1,155 @@
 {
   "_note": "Static OSINT reference links shown on the Toolbox page. Replace/extend with the OSINT4All start.me export (see README).",
   "groups": [
-    { "title": "Conflict & geospatial", "links": [
-      { "name": "Sentinel Hub EO Browser", "url": "https://apps.sentinel-hub.com/eo-browser/", "desc": "Free Sentinel satellite imagery — check for yourself what changed on the ground." },
-      { "name": "NASA FIRMS", "url": "https://firms.modaps.eosdis.nasa.gov/map/", "desc": "Near-real-time active fire / thermal anomaly data; useful for verifying strikes and burns." },
-      { "name": "DeepStateMap", "url": "https://deepstatemap.live/en/", "desc": "Frontline map of the war in Ukraine." },
-      { "name": "Live Universal Awareness Map", "url": "https://liveuamap.com/", "desc": "Crowd-sourced conflict event map. Verify before relying on single posts." },
-      { "name": "Bellingcat Online Investigation Toolkit", "url": "https://bellingcat.gitbook.io/toolkit", "desc": "Curated, maintained list of open-source investigation tools." }
-    ]},
-    { "title": "Air, sea & radio", "links": [
-      { "name": "ADS-B Exchange", "url": "https://globe.adsbexchange.com/", "desc": "Unfiltered flight tracking, including many military aircraft." },
-      { "name": "MarineTraffic", "url": "https://www.marinetraffic.com/", "desc": "Live AIS vessel positions." },
-      { "name": "VesselFinder", "url": "https://www.vesselfinder.com/", "desc": "Second AIS source for cross-checking ship movements." }
-    ]},
-    { "title": "Cyber threat intelligence", "links": [
-      { "name": "CISA Known Exploited Vulnerabilities", "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog", "desc": "Authoritative list of vulnerabilities exploited in the wild, with federal deadlines." },
-      { "name": "NVD", "url": "https://nvd.nist.gov/", "desc": "CVE details and CVSS scores." },
-      { "name": "MITRE ATT&CK", "url": "https://attack.mitre.org/", "desc": "The common language for attacker tactics and techniques — the best single thing to learn." },
-      { "name": "VirusTotal", "url": "https://www.virustotal.com/", "desc": "File, URL, domain and IP reputation." },
-      { "name": "urlscan.io", "url": "https://urlscan.io/", "desc": "Safely inspect what a URL loads." },
-      { "name": "Shodan", "url": "https://www.shodan.io/", "desc": "Search engine for internet-exposed devices." },
-      { "name": "Censys Search", "url": "https://search.censys.io/", "desc": "Internet-wide host and certificate search." },
-      { "name": "ransomware.live", "url": "https://www.ransomware.live/", "desc": "Tracker of ransomware group leak-site victims." },
-      { "name": "Have I Been Pwned", "url": "https://haveibeenpwned.com/", "desc": "Check exposure in known breaches." }
-    ]},
-    { "title": "People, domains & archives", "links": [
-      { "name": "Wayback Machine", "url": "https://web.archive.org/", "desc": "Archived copies of pages — essential for verification." },
-      { "name": "Who.is / WHOIS lookup", "url": "https://who.is/", "desc": "Domain registration data." },
-      { "name": "crt.sh", "url": "https://crt.sh/", "desc": "Certificate transparency search — find subdomains and lookalike domains." },
-      { "name": "TinEye", "url": "https://tineye.com/", "desc": "Reverse image search for verifying where a photo came from." },
-      { "name": "OSINT Framework", "url": "https://osintframework.com/", "desc": "Browsable tree of OSINT tools by category." }
-    ]}
+    {
+      "title": "Conflict, geodata & GNSS",
+      "links": [
+        {
+          "name": "GPSJam",
+          "url": "https://gpsjam.org/",
+          "desc": "Daily map of GPS/GNSS interference derived from aircraft data — where jamming and spoofing are happening."
+        },
+        {
+          "name": "Copernicus Browser",
+          "url": "https://browser.dataspace.copernicus.eu/",
+          "desc": "Free Sentinel satellite imagery from the EU programme — check for yourself what changed on the ground."
+        },
+        {
+          "name": "Sentinel Hub EO Browser",
+          "url": "https://apps.sentinel-hub.com/eo-browser/",
+          "desc": "Free Sentinel satellite imagery — check for yourself what changed on the ground."
+        },
+        {
+          "name": "NASA FIRMS",
+          "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+          "desc": "Near-real-time active fire / thermal anomaly data; useful for verifying strikes and burns."
+        },
+        {
+          "name": "DeepStateMap",
+          "url": "https://deepstatemap.live/en/",
+          "desc": "Frontline map of the war in Ukraine."
+        },
+        {
+          "name": "Live Universal Awareness Map",
+          "url": "https://liveuamap.com/",
+          "desc": "Crowd-sourced conflict event map. Verify before relying on single posts."
+        },
+        {
+          "name": "Bellingcat Online Investigation Toolkit",
+          "url": "https://bellingcat.gitbook.io/toolkit",
+          "desc": "Curated, maintained list of open-source investigation tools."
+        },
+        {
+          "name": "Maxar Open Data",
+          "url": "https://www.maxar.com/open-data",
+          "desc": "High-resolution imagery released for major crises and disasters."
+        },
+        {
+          "name": "USGS EarthExplorer",
+          "url": "https://earthexplorer.usgs.gov/",
+          "desc": "Landsat and other public satellite and aerial archives."
+        }
+      ]
+    },
+    {
+      "title": "Air, sea & radio",
+      "links": [
+        {
+          "name": "ADS-B Exchange",
+          "url": "https://globe.adsbexchange.com/",
+          "desc": "Unfiltered flight tracking, including many military aircraft."
+        },
+        {
+          "name": "MarineTraffic",
+          "url": "https://www.marinetraffic.com/",
+          "desc": "Live AIS vessel positions."
+        },
+        {
+          "name": "VesselFinder",
+          "url": "https://www.vesselfinder.com/",
+          "desc": "Second AIS source for cross-checking ship movements."
+        }
+      ]
+    },
+    {
+      "title": "Cyber threat intelligence",
+      "links": [
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+          "desc": "Authoritative list of vulnerabilities exploited in the wild, with federal deadlines."
+        },
+        {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/",
+          "desc": "CVE details and CVSS scores."
+        },
+        {
+          "name": "MITRE ATT&CK",
+          "url": "https://attack.mitre.org/",
+          "desc": "The common language for attacker tactics and techniques — the best single thing to learn."
+        },
+        {
+          "name": "VirusTotal",
+          "url": "https://www.virustotal.com/",
+          "desc": "File, URL, domain and IP reputation."
+        },
+        {
+          "name": "urlscan.io",
+          "url": "https://urlscan.io/",
+          "desc": "Safely inspect what a URL loads."
+        },
+        {
+          "name": "Shodan",
+          "url": "https://www.shodan.io/",
+          "desc": "Search engine for internet-exposed devices."
+        },
+        {
+          "name": "Censys Search",
+          "url": "https://search.censys.io/",
+          "desc": "Internet-wide host and certificate search."
+        },
+        {
+          "name": "ransomware.live",
+          "url": "https://www.ransomware.live/",
+          "desc": "Tracker of ransomware group leak-site victims."
+        },
+        {
+          "name": "Have I Been Pwned",
+          "url": "https://haveibeenpwned.com/",
+          "desc": "Check exposure in known breaches."
+        }
+      ]
+    },
+    {
+      "title": "People, domains & archives",
+      "links": [
+        {
+          "name": "Wayback Machine",
+          "url": "https://web.archive.org/",
+          "desc": "Archived copies of pages — essential for verification."
+        },
+        {
+          "name": "Who.is / WHOIS lookup",
+          "url": "https://who.is/",
+          "desc": "Domain registration data."
+        },
+        {
+          "name": "crt.sh",
+          "url": "https://crt.sh/",
+          "desc": "Certificate transparency search — find subdomains and lookalike domains."
+        },
+        {
+          "name": "TinEye",
+          "url": "https://tineye.com/",
+          "desc": "Reverse image search for verifying where a photo came from."
+        },
+        {
+          "name": "OSINT Framework",
+          "url": "https://osintframework.com/",
+          "desc": "Browsable tree of OSINT tools by category."
+        }
+      ]
+    }
   ]
 }
