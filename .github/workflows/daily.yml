@@ -21,6 +21,10 @@ jobs:
   edition:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -46,3 +50,6 @@ jobs:
           git commit -m "edition: $(date -u +%F)"
           git pull --rebase -q
           git push
+      - name: Deploy to Vercel
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
