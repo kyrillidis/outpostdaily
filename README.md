@@ -30,13 +30,6 @@ The site build is pure, so an outage at a feed or at the AI provider can never b
 - Stories covered by several outlets are merged and show every outlet.
 - Feeds that fail are listed on the **Today & Learn** page instead of being hidden.
 
-## Setup
-
-1. Add the secret: **Settings → Secrets and variables → Actions → New repository secret** named `OPENAI_API_KEY`. Never commit keys; this repo is public.
-2. In Vercel, import this repo into the `outpostdaily` project (Settings → Git). `vercel.json` already sets the build and security headers.
-3. Run the workflow once from the **Actions** tab (`Daily edition` → Run workflow).
-
-Locally: `npm ci && OPENAI_API_KEY=... npm run daily` then open `dist/index.html`.
 
 ## Adding sources
 

@@ -11,6 +11,8 @@ const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p
 const write = (p, v) => writeFileSync(ROOT + p, JSON.stringify(v, null, 1) + '\n');
 
 const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
+// Reasoning models (gpt-5/6 family) bill hidden thinking tokens against the output cap; keep it minimal.
+const EFFORT = process.env.REASONING_EFFORT ?? (/^gpt-[56]/.test(MODEL) ? 'low' : '');
 const WINDOW_H = Number(process.env.WINDOW_HOURS || 36);
 const LIMITS = { cyber: 10, warfare: 8, world: 8 };
 const UA = 'OutpostDailyBot/1.0 (+https://outpostdaily.com)';
@@ -105,7 +107,8 @@ async function summarise(items, learnPool) {
   if (!key) { console.warn('OPENAI_API_KEY not set — using feed snippets only'); return null; }
   const payload = (list) => list.map((i) => ({ id: i.id, sec: i.section, src: i.source, title: i.title, text: i.snippet.slice(0, 260) }));
   const body = {
-    model: MODEL, max_completion_tokens: 2600,
+    model: MODEL, max_completion_tokens: 6000,
+    ...(EFFORT && { reasoning_effort: EFFORT }),
     messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: JSON.stringify({ items: payload(items), learn_from: payload(learnPool) }) }],
     response_format: { type: 'json_schema', json_schema: { name: 'edition', strict: true, schema: SCHEMA } },
   };
@@ -115,6 +118,7 @@ async function summarise(items, learnPool) {
       if (!res.ok) throw new Error(`OpenAI HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
       const j = await res.json();
       console.log('tokens', JSON.stringify(j.usage));
+      if (j.choices[0].finish_reason === 'length') { console.warn('AI output cut off (raise max_completion_tokens or lower reasoning effort)'); return null; }
       return JSON.parse(j.choices[0].message.content);
     } catch (e) { console.warn('AI attempt failed:', e.message); await sleep(3000); }
   }
