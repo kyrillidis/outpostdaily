@@ -423,6 +423,10 @@
   @media (prefers-reduced-motion: reduce){ *{ transition:none !important; } }
   .item h3.item-title{ font-family:var(--serif); font-weight:600; font-size:21px; margin:0 0 4px; }
   .item h3.item-title a{ color:var(--ink); }
+  .promo{ margin:0 0 24px; padding:18px 20px; border:1px solid var(--rule); border-left:3px solid var(--accent); background:var(--surface); border-radius:3px; }
+  .promo .pk{ font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); }
+  .promo h3{ font-size:22px; margin:4px 0 2px; } .promo p{ font-size:15px; margin:6px 0 12px; color:var(--ink-dim); }
+  .promo a.cta{ display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; padding:9px 14px; background:var(--accent); color:var(--accent-ink); text-decoration:none; border-radius:2px; font-weight:600; }
   .sr-only{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
   .wordmark{ margin:0; font-family:var(--display); }
   .ad-slot{ margin:24px 0; min-height:120px; text-align:center; }
@@ -474,6 +478,7 @@
     </main>
 
     <aside class="sidebar">
+      {{PROMO}}
       {{AD_SIDEBAR}}
       <div class="wire-head">
         <h2>The Wire</h2>

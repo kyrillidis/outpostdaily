@@ -149,7 +149,9 @@ const archiveRows = [
   ...editions.map((e) => ({ date: e.date, edition: e.edition, text: [...e.items].sort((a, b) => b.score - a.score).slice(0, 3).map((i) => i.title.replace(/[.\s]+$/, '')).join('; ') + '.', href: `archive/${e.date}.html` })),
   ...legacy,
 ];
-const footerLinks = [['/about/', 'About'], ['/methodology/', 'Methodology'], ['/privacy/', 'Privacy'], ['/feed.xml', 'RSS'], [site.repo, 'Source code']].map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join('');
+const promo = site.promo;
+const promoHtml = () => (promo ? `<aside class="promo" aria-label="${esc(promo.name)}"><div class="pk">Tool for analysts</div><h3>${esc(promo.name)}</h3><div class="sec-sub">${esc(promo.label)}</div><p>${esc(promo.text)}</p><a class="cta" href="${esc(promo.url)}/?utm_source=outpost&amp;utm_medium=sidebar" target="_blank" rel="noopener">Try Cylist →</a></aside>` : '');
+const footerLinks = [['/about/', 'About'], [promo ? promo.url + '/?utm_source=outpost&utm_medium=footer' : '/', promo ? promo.name : ''], ['/methodology/', 'Methodology'], ['/privacy/', 'Privacy'], ['/feed.xml', 'RSS'], [site.repo, 'Source code']].map(([h, t]) => `<li><a href="${esc(h)}">${t}</a></li>`).join('');
 
 function render({ ed, route, main, title, desc, path, crumbs = [], list = [] }) {
   const ranked = [...ed.items].sort((a, b) => b.score - a.score);
@@ -165,6 +167,7 @@ function render({ ed, route, main, title, desc, path, crumbs = [], list = [] }) 
       : '<div class="wordmark"><a href="/" style="color:inherit;text-decoration:none">OUTPOST<span class="dot">.</span></a></div>',
     MAIN: main,
     AD_SIDEBAR: ad('sidebar'),
+    PROMO: promoHtml(),
     FOOTER_LINKS: footerLinks,
     EDITION: ed.edition,
     COMPILED: `${hhmm(ed.compiled)} UTC · ${dLong(ed.compiled)}`,
