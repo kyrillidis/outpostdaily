@@ -100,16 +100,19 @@ Use ONLY the title and snippet supplied for each item. Never add names, numbers,
 Per item: summary (max 35 words, plain, neutral, attribute claims: "X says"), why (max 20 words; cyber = what a defender should check or do; warfare = operational or strategic relevance; world = why it matters for security), tags (1-3 short terms from the text).
 run_today: 3 short defender actions, each grounded in a cyber item above.
 learn: one entry for domain "cyber" and one for "warfare": term = a concept that appears in that day's items, explainer = max 60 words defining it for a beginner, from_id = the item it came from.
-Return the item ids exactly as given.`;
+learn may draw on items or learn_from (titles only). Return the item ids exactly as given.`;
 
 async function summarise(items, learnPool) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) { console.warn('OPENAI_API_KEY not set — using feed snippets only'); return null; }
   const payload = (list) => list.map((i) => ({ id: i.id, sec: i.section, src: i.source, title: i.title, text: i.snippet.slice(0, 260) }));
+  // learn_from only needs titles of stories NOT already in items — avoids sending the same text twice
+  const sent = new Set(items.map((i) => i.id));
+  const titles = learnPool.filter((i) => !sent.has(i.id)).map((i) => ({ id: i.id, title: i.title }));
   const body = {
     model: MODEL, max_completion_tokens: 6000,
     ...(EFFORT && { reasoning_effort: EFFORT }),
-    messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: JSON.stringify({ items: payload(items), learn_from: payload(learnPool) }) }],
+    messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: JSON.stringify({ items: payload(items), learn_from: titles }) }],
     response_format: { type: 'json_schema', json_schema: { name: 'edition', strict: true, schema: SCHEMA } },
   };
   for (let attempt = 0; attempt < 2; attempt++) {

@@ -44,4 +44,5 @@ jobs:
           git add data
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "edition: $(date -u +%F)"
+          git pull --rebase -q
           git push
