@@ -53,3 +53,7 @@ jobs:
       - name: Deploy to Vercel
         if: ${{ env.VERCEL_TOKEN != '' }}
         run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
+      - name: Notify search engines (IndexNow)
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        continue-on-error: true
+        run: sleep 30 && npm run build >/dev/null && node src/indexnow.mjs

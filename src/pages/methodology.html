@@ -1,0 +1,13 @@
+<div class="prose">
+<p>Outpost is compiled automatically once a day. This page explains exactly how, so you can judge how far to trust it.</p>
+<h2>1. Collection</h2>
+<p>A scheduled job reads about 27 public RSS/Atom feeds from named outlets (see the sources below each story) plus the CISA Known Exploited Vulnerabilities catalogue and NVD. Only items published in the last 36 hours are kept. Headlines, links, outlet names and dates are copied straight from the feeds.</p>
+<h2>2. Ranking</h2>
+<p>Stories are ranked by recency, the standing of the source and how many independent outlets report the same event. Near-identical headlines from different outlets are merged into one story that lists every outlet. No story is paid for or promoted.</p>
+<h2>3. Summaries</h2>
+<p>Short summaries and the “why it matters” lines are written by an AI model that is given only the headline and the first few hundred characters of each feed item. It is instructed not to add facts. As a safeguard, any number in its output that does not appear in the source text causes the summary to be discarded in favour of the outlet’s own snippet. The links are never written by the model.</p>
+<h2>4. Limits</h2>
+<p>Summaries are pointers, not a substitute for the source: always read the linked report before acting on it. Early reports of breaches and military events are frequently revised. If a feed fails, the Today &amp; Learn page says so rather than hiding it.</p>
+<h2>5. Open source</h2>
+<p>The pipeline is public at <a href="https://github.com/kyrillidis/outpostdaily" rel="noopener">github.com/kyrillidis/outpostdaily</a>, including the list of sources.</p>
+</div>

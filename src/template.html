@@ -1,9 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Outpost — Daily Briefing: Cyber, Conflict &amp; World</title>
-<meta name="description" content="A daily, source-linked reading of cybersecurity, modern warfare and world news — built from open sources, for people who want to learn the field and stay current.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://outpostdaily.com/">
+{{HEAD_META}}
 <meta name="google-adsense-account" content="ca-pub-9368478490924130">
 
 <!-- Google AdSense loader. CSP script-src/connect-src/frame-src/img-src are
@@ -28,28 +28,9 @@
 <link rel="icon" type="image/png" sizes="128x128" href="/favicon.png">
 <link rel="shortcut icon" href="/favicon.ico">
 
-<!-- Open Graph / Twitter Card -- social share previews -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Outpost">
-<meta property="og:title" content="Outpost — Daily Briefing: Cyber, Conflict &amp; World">
-<meta property="og:description" content="A daily, source-linked reading of cybersecurity, modern warfare and world news.">
-<meta property="og:url" content="https://outpostdaily.com/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Outpost — Daily Briefing: Cyber, Conflict &amp; World">
-<meta name="twitter:description" content="A daily, source-linked reading of cybersecurity, modern warfare and world news.">
 
-<!-- Structured data -- helps search engines understand this is a
-     periodically-updated news publication, not a static brochure page. -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsMediaOrganization",
-  "name": "Outpost",
-  "url": "https://outpostdaily.com/",
-  "description": "A daily, source-linked reading of cybersecurity, modern warfare and world news.",
-  "publishingPrinciples": "https://outpostdaily.com/"
-}
-</script>
+
+{{JSONLD}}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -437,8 +418,19 @@
   }
 
   @media (prefers-reduced-motion: reduce){ *{ transition:none !important; } }
+  .item h3.item-title{ font-family:var(--serif); font-weight:600; font-size:17.5px; margin:0 0 4px; }
+  .item h3.item-title a{ color:var(--ink); }
+  .sr-only{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+  .wordmark{ margin:0; font-family:var(--display); }
+  .ad-slot{ margin:24px 0; min-height:120px; text-align:center; }
+  .ad-slot::before{ content:"Advertisement"; display:block; font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:4px; }
+  .ad-slot.ad-sidebar{ min-height:250px; margin-top:0; }
+  .footer-links{ display:flex; flex-wrap:wrap; gap:6px 18px; font-family:var(--mono); font-size:12px; margin:0 0 14px; padding:0; list-style:none; }
+  .prose{ max-width:68ch; } .prose h2{ font-size:22px; margin:28px 0 8px; } .prose p, .prose li{ color:var(--ink-dim); }
 </style>
 
+</head>
+<body>
 <header class="masthead">
   <div class="masthead-inner">
     <div class="mast-top">
@@ -446,7 +438,7 @@
       <span id="liveClock" aria-live="off"></span>
       <span><span id="compiledStamp">Compiled {{COMPILED}}</span> <span id="staleness"></span></span>
     </div>
-    <h1 class="wordmark">OUTPOST<span class="dot">.</span></h1>
+    {{WORDMARK}}
     <p class="tagline"><span class="prompt" aria-hidden="true">&gt;</span> <span id="typedText">The wall you watch from. A daily reading of cyber threats, modern warfare and world events — every line linked to its source.</span><span class="cursor" id="cursor" aria-hidden="true"></span></p>
     <div class="mast-rule"></div>
     <div class="mast-meta">
@@ -459,14 +451,7 @@
 <nav class="quicknav" id="quicknav" aria-label="Primary">
   <div class="quicknav-inner">
     <div class="quicknav-links">
-      <a href="#top-stories"><b>01</b>Stories</a>
-      <a href="#cyber"><b>02</b>Cyber</a>
-      <a href="#vulns"><b>03</b>CVEs</a>
-      <a href="#warfare"><b>04</b>Warfare</a>
-      <a href="#world"><b>05</b>World</a>
-      <a href="#today"><b>06</b>Today &amp; Learn</a>
-      <a href="#toolbox"><b>07</b>OSINT Toolbox</a>
-      <a href="#archive-page"><b>—</b>Archive</a>
+      {{NAV}}
     </div>
     <div class="quicknav-search">
       <div class="searchwrap">
@@ -482,18 +467,11 @@
   <div class="layout">
 
     <main class="page-content">
-      <section id="top-stories" class="page active"><!--GEN:top-stories--><!--/GEN:top-stories--></section>
-      <section id="cyber" class="page"><!--GEN:cyber--><!--/GEN:cyber--></section>
-      <section id="vulns" class="page"><!--GEN:vulns--><!--/GEN:vulns--></section>
-      <section id="warfare" class="page"><!--GEN:warfare--><!--/GEN:warfare--></section>
-      <section id="world" class="page"><!--GEN:world--><!--/GEN:world--></section>
-      <section id="today" class="page"><!--GEN:today--><!--/GEN:today--></section>
-      <section id="toolbox" class="page"><!--GEN:toolbox--><!--/GEN:toolbox--></section>
-      <section id="archive-page" class="page"><!--GEN:archive--><!--/GEN:archive--></section>
-
+{{MAIN}}
     </main>
 
     <aside class="sidebar">
+      {{AD_SIDEBAR}}
       <div class="wire-head">
         <h2>The Wire</h2>
         <span>{{WIRE_COUNT}}, ranked</span>
@@ -527,6 +505,7 @@
       <p class="coupon-note"></p>
     </div>
   </div>
+  <ul class="footer-links">{{FOOTER_LINKS}}</ul>
   <div class="footer-meta">
     <span>{{FOOTER_STAMP}}</span>
     <span>Outpost · not investment or legal advice.</span>
@@ -648,57 +627,13 @@
     });
   })();
 
-  // ---------- page router: real page-switching, hash-addressable, back/forward friendly ----------
+  // ---------- legacy hash links (/#cyber etc.) -> real URLs ----------
   (function(){
-    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var pages = Array.prototype.slice.call(document.querySelectorAll('.page'));
-    var navLinks = Array.prototype.slice.call(document.querySelectorAll('.quicknav-links a'));
-    var pageIds = pages.map(function(p){ return p.id; });
-
-    function safeHistory(fn, id){
-      try { fn.call(history, { page: id }, '', '#' + id); } catch(err) {}
-    }
-
-    function setActiveNav(id){
-      navLinks.forEach(function(a){
-        a.classList.toggle('active', a.getAttribute('href') === '#' + id);
-      });
-    }
-
-    function showPage(id, push){
-      if(pageIds.indexOf(id) === -1) return;
-      pages.forEach(function(p){ p.classList.toggle('active', p.id === id); });
-      setActiveNav(id);
-      if(push !== false) safeHistory(history.pushState, id);
-      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
-      if(typeof window.recomputeSearch === 'function') window.recomputeSearch();
-    }
-    window.__showPage = showPage;
-
-    document.addEventListener('click', function(e){
-      var a = e.target.closest('a[href^="#"]');
-      if(!a) return;
-      var id = a.getAttribute('href').slice(1);
-      if(pageIds.indexOf(id) === -1) return;
-      e.preventDefault();
-      showPage(id);
-    });
-
-    window.addEventListener('popstate', function(){
-      var id = (location.hash || '').slice(1);
-      if(pageIds.indexOf(id) === -1) id = pageIds[0];
-      showPage(id, false);
-    });
-
-    var initial = (location.hash || '').slice(1);
-    var hadHash = !!location.hash;
-    if(pageIds.indexOf(initial) === -1) initial = pageIds[0];
-    pages.forEach(function(p){ p.classList.toggle('active', p.id === initial); });
-    setActiveNav(initial);
-    // Only stamp a hash into the address bar if one was already there (a
-    // deep link, possibly invalid and normalized above) -- a bare visit to
-    // "/" should stay "/", not silently become "/#top-stories".
-    if(hadHash) safeHistory(history.replaceState, initial);
+    if(location.pathname !== '/' || !location.hash) return;
+    var map = {'threat-intel':'/cyber/','cyber':'/cyber/','vulns':'/cves/','warfare':'/warfare/','world':'/world/','today':'/today/',
+      'secinfra':'/cyber/','ai-sec':'/cyber/','market':'/world/','archive-page':'/archive/','toolbox':'/toolbox/'};
+    var to = map[location.hash.slice(1)];
+    if(to) location.replace(to);
   })();
 
   // ---------- search + keyword index ----------
@@ -791,3 +726,5 @@
     }
   })();
 </script>
+</body>
+</html>
