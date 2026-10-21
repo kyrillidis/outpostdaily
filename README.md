@@ -2,7 +2,7 @@
 
 An autonomous daily briefing on **cybersecurity, modern warfare and world news**, built only from open sources. Every headline links to its source; AI is used only to write short summaries and one "learn today" concept per domain.
 
-Live: https://outpostdaily.com
+Live: https://www.outpostdaily.com
 
 ## How it works
 

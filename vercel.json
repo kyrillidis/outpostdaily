@@ -51,21 +51,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.outpostdaily.com"
-        }
-      ],
-      "destination": "https://outpostdaily.com/$1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
           "value": "outpostdaily.vercel.app"
         }
       ],
-      "destination": "https://outpostdaily.com/$1",
+      "destination": "https://www.outpostdaily.com/$1",
       "permanent": true
     }
   ]
