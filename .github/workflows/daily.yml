@@ -1,0 +1,41 @@
+name: Daily edition
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # 04:17 UTC daily; off the :00 mark to dodge scheduler congestion
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commit the new edition back; Vercel deploys on that push
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Collect sources and write today's edition
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }} # optional; defaults to gpt-4.1-nano
+        run: npm run fetch
+      - name: Render (sanity check that the site builds)
+        run: npm run build
+      - name: Commit edition
+        run: |
+          git config user.name "outpost-bot"
+          git config user.email "outpost-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "edition: $(date -u +%F)"
+          git push

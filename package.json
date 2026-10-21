@@ -1,0 +1,18 @@
+{
+  "name": "outpostdaily",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Outpost — an autonomous daily briefing on cybersecurity, modern warfare and world news, built from open sources.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node src/fetch.mjs",
+    "build": "node src/render.mjs",
+    "daily": "node src/fetch.mjs && node src/render.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  }
+}

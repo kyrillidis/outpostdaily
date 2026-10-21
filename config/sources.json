@@ -1,0 +1,36 @@
+{
+  "_note": "weight 0-1 nudges ranking toward primary / high-signal sources. Add a feed = add a line. A dead feed is skipped and reported in the Gaps box, never fatal.",
+  "cyber": [
+    { "name": "CISA Advisories",      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "weight": 0.9 },
+    { "name": "Krebs on Security",    "url": "https://krebsonsecurity.com/feed/",                      "weight": 0.7 },
+    { "name": "BleepingComputer",     "url": "https://www.bleepingcomputer.com/feed/",                 "weight": 0.6 },
+    { "name": "The Hacker News",      "url": "https://feeds.feedburner.com/TheHackersNews",            "weight": 0.5 },
+    { "name": "The Record",           "url": "https://therecord.media/feed",                           "weight": 0.6 },
+    { "name": "SecurityWeek",         "url": "https://feeds.feedburner.com/securityweek",              "weight": 0.5 },
+    { "name": "Help Net Security",    "url": "https://www.helpnetsecurity.com/feed/",                  "weight": 0.4 },
+    { "name": "Dark Reading",         "url": "https://www.darkreading.com/rss.xml",                    "weight": 0.4 },
+    { "name": "Unit 42",              "url": "https://unit42.paloaltonetworks.com/feed/",              "weight": 0.7 },
+    { "name": "Google Threat Intelligence", "url": "https://cloud.google.com/blog/topics/threat-intelligence/rss/", "weight": 0.7 },
+    { "name": "Microsoft Security",   "url": "https://www.microsoft.com/en-us/security/blog/feed/",    "weight": 0.6 },
+    { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/",                    "weight": 0.4 }
+  ],
+  "warfare": [
+    { "name": "International Crisis Group", "url": "https://www.crisisgroup.org/rss.xml", "weight": 0.7 },
+    { "name": "War on the Rocks",     "url": "https://warontherocks.com/feed/",                        "weight": 0.6 },
+    { "name": "The War Zone",         "url": "https://www.twz.com/feed",                               "weight": 0.6 },
+    { "name": "Breaking Defense",     "url": "https://breakingdefense.com/feed/",                      "weight": 0.6 },
+    { "name": "Defense One",          "url": "https://www.defenseone.com/rss/all/",                    "weight": 0.5 },
+    { "name": "Defense News",         "url": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "weight": 0.5 },
+    { "name": "Naval News",           "url": "https://www.navalnews.com/feed/",                        "weight": 0.5 },
+    { "name": "Bellingcat",           "url": "https://www.bellingcat.com/feed/",                       "weight": 0.7 },
+    { "name": "Oryx (visually confirmed losses)", "url": "https://www.oryxspioenkop.com/feeds/posts/default", "weight": 0.7 },
+    { "name": "UK Ministry of Defence", "url": "https://www.gov.uk/government/organisations/ministry-of-defence.atom", "weight": 0.5 }
+  ],
+  "world": [
+    { "name": "BBC World",            "url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "weight": 0.7 },
+    { "name": "Al Jazeera",           "url": "https://www.aljazeera.com/xml/rss/all.xml",              "weight": 0.6 },
+    { "name": "The Guardian World",   "url": "https://www.theguardian.com/world/rss",                  "weight": 0.6 },
+    { "name": "NPR World",            "url": "https://feeds.npr.org/1004/rss.xml",                     "weight": 0.5 },
+    { "name": "DW",                   "url": "https://rss.dw.com/rdf/rss-en-all",                      "weight": 0.5 }
+  ]
+}
