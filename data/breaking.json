@@ -1,35 +1,20 @@
 {
- "updated": "2026-10-22T16:39:31.343Z",
+ "updated": "2026-10-22T16:50:15.077Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Al Jazeera",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -39,22 +24,32 @@
   {
    "name": "The Record",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
-   "name": "Dark Reading",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
    "ok": true,
    "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "ransomware.live",
@@ -62,14 +57,19 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 503"
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -84,25 +84,179 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 6
+   "n": 2
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 16
+   "n": 13
   }
  ],
  "items": [
+  {
+   "id": "x2113311940978057546",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The UK pushed back against the description of Putin as a “humanitarian” given by Trump’s Ukraine war envoy",
+   "url": "https://x.com/business/status/2113311940978057546",
+   "published": "2026-10-22T16:50:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113311940177211855",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "MODERNA CONTINUES TO FALL, DOWN 20%",
+   "url": "https://x.com/FirstSquawk/status/2113311940177211855",
+   "published": "2026-10-22T16:50:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113311844601614777",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheRecord_Media",
+   "title": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on ConnectWise and is using the same techniques to try to compromise hundreds of other organizations around the globe, Microsoft…",
+   "url": "https://x.com/TheRecord_Media/status/2113311844601614777",
+   "published": "2026-10-22T16:49:41.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113311640888226029",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@cyb3rops",
+   "title": "I took this opportunity to update my 2022 presentation on post-exploitation detection The slides walk through how to turn an observation into a useful rule, which data you need, and why a match still needs context. There’s also my “Sigma…",
+   "url": "https://x.com/cyb3rops/status/2113311640888226029",
+   "published": "2026-10-22T16:48:53.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nc25c8f11db",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Young Americans are giving up their cars. It&#x2019;s a path to financial freedom, for some.",
+   "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+   "published": "2026-10-22T16:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9b4a059e7e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Zuckerberg&#x2019;s California tax move is a win for Meta &#x2014; and for him",
+   "url": "https://www.marketwatch.com/story/zuckerbergs-california-tax-move-is-a-win-for-meta-and-for-him-aa049c94?mod=mw_rss_topstories",
+   "published": "2026-10-22T16:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113311403868148119",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨 INTERPOL-led cybercrime crackdown results in 1,462 arrests and the recovery of over $105 million Law enforcement agencies from 21 countries carried out Operation Serengeti III between June 29 and August 31, targeting ransomware,…",
+   "url": "https://x.com/DarkWebInformer/status/2113311403868148119",
+   "published": "2026-10-22T16:47:56.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113311381231436006",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheRecord_Media",
+   "title": "More than 1,400 suspected cybercriminals were arrested across Africa this summer as part of an international crackdown on gangs perpetrating online fraud, ransomware and business email compromise attacks, Interpol announced",
+   "url": "https://x.com/TheRecord_Media/status/2113311381231436006",
+   "published": "2026-10-22T16:47:51.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113310914397307269",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "SENIOR IRANIAN SECURITY OFFICIAL SAYS TEHRAN WILL NOT DISTINGUISH BETWEEN NETANYAHU AND TRUMP IN ANY MILITARY ESCALATION",
+   "url": "https://x.com/FirstSquawk/status/2113310914397307269",
+   "published": "2026-10-22T16:46:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113310690605728245",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "US To Release Heating Oil Reserve In Northeast To Lower Prices",
+   "url": "https://x.com/zerohedge/status/2113310690605728245",
+   "published": "2026-10-22T16:45:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113310679050404180",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Partisanship isn't the main problem with the Supreme Court's conservative majority, says @profnoahfeldman, it's apathy about the real-world consequences of its rulings (via @opinion)",
+   "url": "https://x.com/business/status/2113310679050404180",
+   "published": "2026-10-22T16:45:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113310420295684597",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "US TREASURY 5-YEAR YIELD FALLS 15 BASIS POINTS ON DAY TO 4.80%",
+   "url": "https://x.com/FirstSquawk/status/2113310420295684597",
+   "published": "2026-10-22T16:44:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n39d569d5d1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
+   "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-22T16:40:07.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "x2113309420499177952",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Elon Musk has invested about $1 billion in Skydance, Semafor reported, providing a welcome financial injection for the newly formed media and entertainment company headed by David Ellison",
+   "url": "https://x.com/business/status/2113309420499177952",
+   "published": "2026-10-22T16:40:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113308901923779034",
    "kind": "x",
@@ -190,6 +344,17 @@
    "published": "2026-10-22T16:30:06.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n2a5b06ac50",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+   "url": "https://therecord.media/china-cyber-connectwise-ai",
+   "published": "2026-10-22T16:30:00.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113305725489283265",
