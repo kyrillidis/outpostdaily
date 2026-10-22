@@ -1,12 +1,13 @@
 // Invariants for the generated site: SEO, accessibility, CSP, image hygiene and size budgets.
 // Runs the real build once, then inspects dist/. Checks avoid depending on exact markup so the design can evolve.
+import { fileURLToPath } from 'node:url';
 import test, { before } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, extname } from 'node:path';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const DIST = join(ROOT, 'dist');
 const read = (p) => readFileSync(p, 'utf8');
 const site = JSON.parse(read(join(ROOT, 'config/site.json')));
@@ -19,7 +20,7 @@ let pages = [];
 before(() => {
   execFileSync('node', ['src/render.mjs'], { cwd: ROOT, stdio: 'pipe' });
   pages = walk(DIST).filter((f) => f.endsWith('.html')).map((file) => {
-    const rel = file.slice(DIST.length);
+    const rel = ('/' + file.slice(DIST.length)).replaceAll('\\', '/').replace(/^\/+/, '/');
     const path = rel.endsWith('/index.html') ? rel.slice(0, -'index.html'.length) : rel;
     return { file, rel, path, html: read(file), legacy: rel.startsWith('/archive/') && legacy.has(rel.slice('/archive/'.length)) };
   });

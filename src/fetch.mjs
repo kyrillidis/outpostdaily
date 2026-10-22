@@ -1,12 +1,13 @@
 // Collects today's edition: feeds + CISA KEV (no AI), then ONE small AI call to
 // summarise only items we haven't summarised before. Writes data/editions/<date>.json.
 // Every URL in the output comes from a feed; the model never produces links.
+import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
 const write = (p, v) => writeFileSync(ROOT + p, JSON.stringify(v, null, 1) + '\n');
 

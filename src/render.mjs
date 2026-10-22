@@ -2,10 +2,11 @@
 // this is what Vercel runs on every deploy, so a build can never fail because an API did.
 // Every section is its own crawlable URL (/cyber/, /warfare/, ...) with its own title,
 // description, canonical and structured data.
+import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, cpSync, rmSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const json = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
 const site = json('config/site.json', {});
 const SITE = site.url;
