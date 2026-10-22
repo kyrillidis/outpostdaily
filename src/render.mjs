@@ -48,39 +48,17 @@ const LEARN_LABEL = { cyber: 'Cyber', warfare: 'Warfare', geo: 'Geopolitics &amp
 const WHY_LABEL = { cyber: 'What to check', warfare: 'Why it matters', geo: 'Strategic relevance' };
 
 // ---------- imagery: generated plates (src/plates.mjs) and credited photos (config/images.json) ----------
-let makePlate = null;
-try { ({ plate: makePlate } = await import('./plates.mjs')); } catch { /* optional: pages render without illustrations */ }
-const plateHtml = (spec, variant) => { try { return makePlate ? makePlate({ tags: [], title: '', ...spec, variant }) : ''; } catch { return ''; } };
 const images = json('config/images.json', { slots: {} }).slots ?? {};
-const photoFigure = (slot, { priority = false } = {}) => {
+// The photo behind the logo and header changes with the page; the tint follows the section colour.
+const HEADER_ART = { 'top-stories': ['masthead', ''], cyber: ['cyber', 'cyber'], vulns: ['cyber', 'cyber'], warfare: ['warfare', 'warfare'], geo: ['geo', 'geo'], breaking: ['about', 'alert'], today: ['masthead', ''], toolbox: ['geo', 'geo'], archive: ['masthead', ''] };
+const headerArt = (route) => {
+  const [slot, tint] = HEADER_ART[route] ?? ['about', ''];
   const im = images[slot];
   if (!im?.src || !im.width || !im.height) return '';
-  const srcset = im.src800 ? ` srcset="${esc(im.src800)} 800w, ${esc(im.src)} ${im.width}w" sizes="(min-width:1180px) 800px, 100vw"` : '';
-  const credit = `Photo (cropped, tinted): ${esc(im.credit || 'see About page')}${im.creditUrl ? ` (<a href="${href(im.creditUrl)}" target="_blank" rel="noopener">${esc(im.license || 'source')}</a>)` : ''}`;
-  return `<figure class="banner" data-slot="${slot}"><img src="${esc(im.src)}"${srcset} width="${im.width}" height="${im.height}" alt="${esc(im.alt ?? '')}" decoding="async"${priority ? ' fetchpriority="high"' : ' loading="lazy"'}><figcaption class="banner-credit">${credit}</figcaption></figure>`;
-};
-const mastheadArt = () => {
-  const im = images.masthead;
-  if (!im?.src || !im.width || !im.height) return '';
   const srcset = im.src800 ? ` srcset="${esc(im.src800)} 800w, ${esc(im.src)} ${im.width}w" sizes="100vw"` : '';
-  return `<figure class="brand-art" aria-hidden="true"><img src="${esc(im.src)}"${srcset} width="${im.width}" height="${im.height}" alt="" decoding="async"></figure>`;
+  const credit = `Photo (cropped, tinted): ${esc(im.credit || 'see About page')}${im.creditUrl ? ` (<a href="${href(im.creditUrl)}" target="_blank" rel="noopener">${esc(im.license || 'source')}</a>)` : ''}`;
+  return `<figure class="brand-art" aria-hidden="true" data-tint="${tint}"><img src="${esc(im.src)}"${srcset} width="${im.width}" height="${im.height}" alt="" decoding="async" fetchpriority="low"></figure><p class="brand-credit">${credit}</p>`;
 };
-// pages without a photo slot get a generated banner plate with a fixed motif
-const PAGE_ART = {
-  cyber: { section: 'cyber', motif: 'graph' },
-  warfare: { section: 'warfare', motif: 'radar' },
-  geo: { section: 'geo', motif: 'topo' },
-  vulns: { section: 'cyber', motif: 'matrix' },
-  today: { section: 'warfare', motif: 'signal' },
-  toolbox: { section: 'geo', motif: 'orbit' },
-  archive: { section: 'cyber', motif: 'chart' },
-  breaking: { section: 'cyber', motif: 'signal' },
-  glossary: { section: 'geo', motif: 'constellation' },
-  about: { section: 'geo', motif: 'perimeter' },
-};
-const bannerFor = (route, section) => (['cyber', 'warfare', 'geo'].includes(section) && photoFigure(section, { priority: true })) ||
-  (route === 'about' && photoFigure('about', { priority: true })) ||
-  (PAGE_ART[route] ? plateHtml({ id: `page-${route}`, ...PAGE_ART[route] }, 'banner') : '');
 
 // ---------- ads (render nothing until a slot id is configured) ----------
 const adsense = site.adsense ?? {};
@@ -107,6 +85,8 @@ const chip = (sec) => `<span class="chip chip-domain" data-domain="${sec}"><svg 
 const tagList = (it) => (it.tags?.length ? `<ul class="tags">${it.tags.map((t) => `<li><button type="button" class="tag" data-kw="${esc(t)}">${esc(t)}</button></li>`).join('')}</ul>` : '');
 
 // the story's own picture, thumbnailed and self-hosted at fetch time; credited to the outlet and linked to the article
+// thumbnails are named after the story id, so a story shows its picture even if the edition JSON predates the file
+const storyImage = (it) => it.image || (existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '');
 const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="720" height="405" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
 
 function entry(it, { n, lvl = 3, lead = false }) {
@@ -114,7 +94,7 @@ function entry(it, { n, lvl = 3, lead = false }) {
   const cites = [{ source: it.source, url: it.url }, ...(it.also ?? [])]
     .map((c, i) => `<a class="cite" href="${href(c.url)}" target="_blank" rel="noopener"><sup>${i + 1}</sup>${esc(c.source)}</a>`).join('');
   return `<article class="entry kw-unit${lead ? ' entry-lead' : ''}" id="s-${it.id}" data-domain="${it.section}" data-rank="${n}">
-  ${it.image ? photoHtml(it) : plateHtml({ id: it.id, section: it.section, title: it.title, tags: it.tags ?? [] }, 'card')}
+  ${storyImage(it) ? photoHtml({ ...it, image: storyImage(it) }) : ''}
   <div class="entry-body">
     <h${lvl} class="entry-title"><span class="entry-no" aria-hidden="true">${String(n).padStart(2, '0')}</span><a href="${href(it.url)}" target="_blank" rel="noopener">${esc(it.title)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only"> (opens the original article)</span></a></h${lvl}>
     <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}">${dMid(it.published)}</time>${corr}</p>
@@ -133,13 +113,13 @@ function sectionPage(ed, section, { title, sub, lvl, route }) {
   const body = list.length
     ? entriesHtml(list, { lvl })
     : '<p class="sec-sub">No qualifying items in the last 36 hours from the sources that responded.</p>';
-  return secHead({ title, sub, art: bannerFor(route, section) }) + ad('top') + termsPanel(route) + body;
+  return secHead({ title, sub }) + ad('top') + termsPanel(route) + body;
 }
 
 const sevClass = (s) => (s == null ? 'sev-none' : s >= 9 ? 'sev-crit' : s >= 7 ? 'sev-high' : 'sev-med');
 const sevText = (s) => (s == null ? 'No score' : s >= 9 ? 'Critical' : s >= 7 ? 'High' : s >= 4 ? 'Medium' : 'Low');
 const kevTable = (kev, { head = true } = {}) =>
-  (head ? secHead({ title: 'Exploited vulnerabilities (CISA KEV)', sub: 'The newest additions to CISA’s Known Exploited Vulnerabilities catalogue. Every row is being exploited in the wild.', art: bannerFor('vulns') }) + termsPanel('cves') : '') +
+  (head ? secHead({ title: 'Exploited vulnerabilities (CISA KEV)', sub: 'The newest additions to CISA’s Known Exploited Vulnerabilities catalogue. Every row is being exploited in the wild.' }) + termsPanel('cves') : '') +
   `<div class="kev-wrap"><table class="kev"><caption class="sr-only">Newest CISA Known Exploited Vulnerabilities with severity, affected product, ransomware use and required action</caption><thead><tr><th scope="col">CVE</th><th scope="col">CVSS</th><th scope="col">Product</th><th scope="col">Ransomware</th><th scope="col">Added / due</th><th scope="col">Required action</th></tr></thead><tbody>` +
   kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
@@ -152,7 +132,7 @@ function todayHtml(ed, top) {
   }).join('');
   const down = (ed.health ?? []).filter((h) => !h.ok);
   const aiCount = ed.items.filter((i) => i.ai).length;
-  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.', art: bannerFor('today') }) + termsPanel('today') +
+  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.' }) + termsPanel('today') +
     `<div class="brief"><section aria-labelledby="top5-h"><h2 class="group-title" id="top5-h">Top 5, ranked</h2><ol class="rank-list">` +
     top.slice(0, 5).map((i, n) => `<li class="kw-unit"><span class="rank-num">${n + 1}</span><div><a class="rank-title" href="${href(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><p>${esc(i.summary)}</p></div></li>`).join('') +
     `</ol></section><section aria-labelledby="run-h"><h2 class="group-title" id="run-h">Run today</h2>${checks ? `<ul class="checklist">${checks}</ul>` : '<p class="sec-sub">No AI-generated checklist today.</p>'}</section></div>` +
@@ -161,7 +141,7 @@ function todayHtml(ed, top) {
     (down.length ? ` Feeds that did not respond today: ${down.map((d) => esc(d.name)).join(', ')}.` : ' All feeds responded.') + '</p></aside>';
 }
 
-const toolboxHtml = (tb) => secHead({ title: 'OSINT Toolbox', sub: 'Open-source tools for checking the news yourself. Verify, don’t just read.', art: bannerFor('toolbox') }) + termsPanel('toolbox') +
+const toolboxHtml = (tb) => secHead({ title: 'OSINT Toolbox', sub: 'Open-source tools for checking the news yourself. Verify, don’t just read.' }) + termsPanel('toolbox') +
   tb.groups.map((g) => `<section class="tool-group"><h2 class="group-title">${esc(g.title)}</h2><ul class="tools">${g.links.map((l) => `<li class="tool kw-unit"><a class="tool-name" href="${href(l.url)}" target="_blank" rel="noopener">${esc(l.name)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg></a><p class="tool-desc">${esc(l.desc)}</p></li>`).join('')}</ul></section>`).join('');
 
 function archiveHtml(rows) {
@@ -170,7 +150,7 @@ function archiveHtml(rows) {
     const key = dMonth(r.date);
     (months.find((m) => m.key === key) ?? months[months.push({ key, rows: [] }) - 1]).rows.push(r);
   }
-  return secHead({ title: 'Archive', sub: 'Every past edition. Real editions only; nothing is backfilled or invented.', art: bannerFor('archive') }) +
+  return secHead({ title: 'Archive', sub: 'Every past edition. Real editions only; nothing is backfilled or invented.' }) +
     months.map((m) => `<section class="archive-month"><h2 class="group-title">${m.key}</h2><ol class="archive-list">${m.rows.map((r) => {
       const label = `${dDay(r.date)} · Ed. ${r.edition}`;
       return `<li class="archive-row kw-unit">${r.href ? `<a class="archive-date" href="/${esc(r.href)}">${label}</a>` : `<span class="archive-date">${label}</span>`}<span class="archive-text">${esc(r.text)}</span></li>`;
@@ -284,17 +264,12 @@ function breakingHtml() {
     return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${list.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>` +
       (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${rest.length ? `<details class="panel-more"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show ${rest.length} more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
   };
-  return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.', art: bannerFor('breaking') }) +
+  return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.' }) +
     `<nav class="dash-nav" aria-label="Dashboard panels">${PANELS.map((p) => `<a href="#${p.id}">${p.title}<span class="dash-count">${by(p.group).length}</span></a>`).join('')}</nav>` +
     `<dl class="dash-stats"><div><dt>Last change</dt><dd>${breaking.updated ? `${hhmm(breaking.updated)} UTC` : '—'}</dd></div><div><dt>Items, 72 h</dt><dd>${breaking.items.length}</dd></div><div><dt>High signal</dt><dd>${high}</dd></div><div><dt>Sources responding</dt><dd>${health.length - down.length}/${health.length}</dd></div></dl>` +
     ad('top') + `<div class="dash">${PANELS.map(panel).join('')}</div>` +
     `<p class="sec-sub">${down.length ? `Not responding at the last check: ${down.map((h) => esc(h.name)).join(', ')}. ` : 'All sources responded at the last check. '}Items marked Unverified are third-party claims.</p>`;
 }
-const breakingStrip = () => {
-  const top = breaking.items.filter((i) => i.severity === 'high').slice(0, 4);
-  if (!top.length) return '';
-  return `<aside class="brk-strip" aria-label="Breaking"><h2 class="brk-strip-h"><a href="/breaking/">Breaking: open the dashboard</a></h2><ul>${top.map((i) => `<li><time datetime="${i.published}">${hhmm(i.published)}</time> <a href="${href(i.url)}" target="_blank" rel="noopener">${esc(cut(i.title, 120))}</a> <span class="brk-src">${esc(i.source)}</span></li>`).join('')}</ul></aside>`;
-};
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
 const toolbox = json('config/toolbox.json', { groups: [] });
 const legacy = json('data/archive-legacy.json', []);
@@ -321,7 +296,7 @@ function render({ ed, route, main, title, desc, path, crumbs = [], list = [], ar
     WORDMARK: isHome
       ? '<h1 class="wordmark"><img class="brand-mark" src="/icon.svg" alt="" width="36" height="42">OUTPOST<span class="dot">.</span><span class="sr-only"> — daily cybersecurity, defence technology, geodata and geopolitics briefing</span></h1>'
       : '<div class="wordmark"><a href="/"><img class="brand-mark" src="/icon.svg" alt="" width="36" height="42">OUTPOST<span class="dot">.</span><span class="sr-only"> — home</span></a></div>',
-    MASTHEAD_ART: isHome ? mastheadArt() : '',
+    MASTHEAD_ART: headerArt(route),
     MAIN: main,
     AD_SIDEBAR: ad('sidebar'),
     PROMO: promoHtml(),
@@ -353,7 +328,7 @@ function pageFor(ed, route) {
     'top-stories': {
       title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`,
       desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158),
-      main: breakingStrip() + secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
+      main: secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
         (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') + termsPanel('home') +
         (front.length > 1 ? `<div class="entries entries-2up">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline'),
       list: front.map((i) => ({ title: i.title, url: `${SITE}/#s-${i.id}` })),
@@ -399,11 +374,10 @@ function staticPage(ed, pg) {
   if (pg.id === 'about') body = body.replace('<!--FAQ-->', faqHtml()).replace('<!--CREDITS-->', creditsHtml());
   if (pg.id === 'glossary') body = glossaryHtml(`<div class="prose">${body}</div>`);
   else body = `<div class="prose">${body}</div>`;
-  const art = ['about', 'glossary'].includes(pg.id) ? bannerFor(pg.id) : '';
   const title = pg.seoTitle ?? (/outpost/i.test(pg.title) ? pg.title : `${pg.title} | Outpost`);
   return render({
     ed, route: pg.id, path: pg.path, crumbs: [[pg.title, pg.path]], title, desc: pg.desc,
-    main: secHead({ title: esc(pg.title), art }) + body,
+    main: secHead({ title: esc(pg.title) }) + body,
     ldType: pg.id === 'about' ? 'AboutPage' : 'WebPage',
     faq: pg.id === 'about' ? FAQ : null,
     terms: pg.id === 'glossary' ? glossary.terms : null,
@@ -463,4 +437,4 @@ writeFileSync(out + 'sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<url
   [...ROUTES.map((r) => u(r.path, latest.date, r.id === 'toolbox' ? 'monthly' : 'daily', priorityFor(r.path))),
    ...PAGES.map((p) => u(p.path, latest.date, p.id === 'glossary' ? 'monthly' : 'yearly', priorityFor(p.path))),
    ...dates.map((d) => u(`/archive/${d}.html`, d, 'never', '0.4'))].join('\n') + '\n</urlset>\n');
-console.log(`rendered ${ROUTES.length} routes, ${PAGES.length} pages, ${editions.length} edition(s); latest ${latest.date} (Ed. ${latest.edition}); plates ${makePlate ? 'on' : 'off'}, photos ${Object.keys(images).length}`);
+console.log(`rendered ${ROUTES.length} routes, ${PAGES.length} pages, ${editions.length} edition(s); latest ${latest.date} (Ed. ${latest.edition}); photos ${Object.keys(images).length}`);

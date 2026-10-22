@@ -114,8 +114,7 @@ The look is documented in [`DESIGN.md`](DESIGN.md) and the product rules in [`PR
 | --- | --- |
 | `src/assets/app.css`, `app.js` | the whole stylesheet and the small, optional client script (hashed into `dist/assets/` at build) |
 | `src/template.html` | the page shell; `src/render.mjs` fills it and writes every route, the sitemap and the RSS feed |
-| `src/plates.mjs` | generated line-art illustrations, one per story, drawn from the story's subject |
-| `config/images.json` + `public/img/` | credited photographs for the masthead and section banners (public domain, CC0 or CC BY only) |
+| `config/images.json` + `public/img/` | credited photographs shown behind the logo and header, one per page (public domain, CC0 or CC BY only) |
 | `config/glossary.json` | plain-language definitions; also feeds each page's "Key terms" panel |
 | `src/pages/*.html` | About, Methodology, Privacy and the Glossary introduction |
 

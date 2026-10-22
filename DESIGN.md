@@ -82,7 +82,7 @@ components:
 
 ## Overview
 
-A field handbook that is reissued every morning. Stories are numbered **entries** set between ruled lines, with footnoted sources, not cards. The page is serious and plain-spoken, but never cold: generous type, clear labels and a Read / Scan switch make it easy for a newcomer and fast for a daily reader. Nothing on it is decorative for its own sake. Illustration is original line art (plates); photography is documentary (satellite, radar, server hall) and always credited.
+A field handbook that is reissued every morning. Stories are numbered **entries** set between ruled lines, with footnoted sources, not cards. The page is serious and plain-spoken, but never cold: generous type, clear labels and a Read / Scan switch make it easy for a newcomer and fast for a daily reader. Nothing on it is decorative for its own sake. Imagery is photographic: documentary header photos (satellite, radar, server hall) and each story's own picture, always credited.
 
 Refuses: the card-grid news template, neon terminals, broadsheet italics, playful mascots.
 
@@ -119,9 +119,9 @@ Square-ish: 2–3px radius on controls and chips; plates and banners are hard re
 
 ## Components
 
-- **Entry:** number, headline link (external-link icon), dateline (domain chip, outlet, date, outlet count), summary, why-it-matters, tags, footnoted sources. A generated **plate** sits right of the text on desktop and above it on mobile; the lead entry has a 16:9 plate above the headline.
-- **Plate:** inline SVG line art generated per story from `src/plates.mjs`, painted only with CSS variables (`--plate-paper/ink/line/accent`), decorative, no text.
-- **Banner:** a credited photograph, greyscale with a domain-colour multiply tint, or a generated banner plate on pages without a photo.
+- **Entry:** number, headline link (external-link icon), dateline (domain chip, outlet, date, outlet count), summary, why-it-matters, tags, footnoted sources. The story image sits right of the text on desktop and above it on mobile; the lead entry puts its headline beside the image.
+- **Header photo:** a credited photograph behind the logo and header that changes with the page (masthead, server hall, radar site, Suez, night Earth), greyscale with a section-colour tint and a readable scrim.
+- **Story image:** the story's own picture, thumbnailed and self-hosted, shown right of the text and credited to the outlet. Stories without a picture simply have no image.
 - **Wire:** 20 ranked rows with rank, headline, domain chip, host and a link to the entry.
 - **Key terms:** a collapsed `details` panel per page, fed by `config/glossary.json`.
 - **Vulnerability table:** CISA KEV rows with a severity badge (filled critical, outlined high), reflowing to stacked rows below 760px.
