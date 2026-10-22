@@ -40,7 +40,9 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }} # optional; defaults to gpt-6-luna
         run: npm run fetch
       - name: Render (sanity check that the site builds)
-        run: npm run build
+        run: |
+          node --version
+          npm run build
       - name: Commit edition
         run: |
           git config user.name "outpost-bot"
