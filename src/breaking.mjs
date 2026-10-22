@@ -8,6 +8,8 @@ import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
+// local runs: read secrets from the git-ignored .env (Actions passes them as real environment variables)
+if (existsSync(ROOT + '.env')) for (const l of readFileSync(ROOT + '.env', 'utf8').split(/\r?\n/)) { const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/); if (m && !(m[1] in process.env)) process.env[m[1]] = m[2]; }
 const cfg = JSON.parse(readFileSync(ROOT + 'config/breaking.json', 'utf8'));
 const FILE = ROOT + 'data/breaking.json';
 const prev = existsSync(FILE) ? JSON.parse(readFileSync(FILE, 'utf8')) : { items: [], updated: null };
@@ -16,10 +18,11 @@ const KEEP_H = 72, MAX = 300;
 const now = Date.now();
 const sha = (s) => createHash('sha1').update(s).digest('hex').slice(0, 10);
 const critical = new RegExp(cfg.critical, 'i');
+const criticalOther = new RegExp(cfg.criticalOther, 'i');
 const interest = new RegExp(cfg.forumInterest, 'i');
 const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
-const sevOf = (t) => (critical.test(t) ? 'high' : 'normal');
+const sevOf = (t, group = 'cyber') => (({ cyber: critical, redteam: critical, blueteam: critical, darkweb: critical }[group] ?? criticalOther).test(t) ? 'high' : 'normal');
 const health = [];
 const found = [];
 
@@ -41,7 +44,7 @@ async function pullX() {
         const text = strip(t.text);
         if (text.length < 20) continue;
         const handle = t.author?.userName ?? '';
-        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: new Date(t.createdAt).toISOString(), severity: sevOf(text), verified: false });
+        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: new Date(t.createdAt).toISOString(), severity: sevOf(text, group), verified: false });
       }
       health.push({ name: `X ${group}`, ok: true, n: tweets.length });
     } catch (e) { health.push({ name: `X ${group}`, ok: false, error: String(e.message).slice(0, 80) }); }
@@ -63,7 +66,7 @@ async function pullNews(src) {
     const when = new Date(txt(e.pubDate || e.published || e.updated));
     const title = strip(txt(e.title));
     if (!/^https?:\/\//.test(url) || !title || isNaN(when) || now - when > 6 * 3600e3 || when - now > 3600e3) continue; // only the last 6 h
-    found.push({ id: 'n' + sha(url), kind: 'news', group: 'cyber', source: src.name, title, url, published: when.toISOString(), severity: sevOf(title), verified: true });
+    found.push({ id: 'n' + sha(url), kind: 'news', group: src.group ?? 'cyber', source: src.name, title, url, published: when.toISOString(), severity: sevOf(title, src.group), verified: true });
     n++;
   }
   return n;
@@ -78,7 +81,7 @@ async function pullRansomware() {
     const when = new Date(v.discovered);
     if (isNaN(when) || now - when > 6 * 3600e3 || !v.victim || !/^https:\/\//.test(v.url ?? '')) continue;
     const sector = v.activity && v.activity !== 'Not Found' ? ` — ${v.activity}` : '';
-    found.push({ id: 'r' + sha(v.url), kind: 'ransomware', group: 'cyber', source: 'ransomware.live', title: cut(`${v.group} claims ${v.victim}${v.country ? ` (${v.country})` : ''}${sector}`, 200), url: v.url, published: when.toISOString(), severity: 'normal', verified: false });
+    found.push({ id: 'r' + sha(v.url), kind: 'ransomware', group: 'darkweb', source: 'ransomware.live', title: cut(`${v.group} claims ${v.victim}${v.country ? ` (${v.country})` : ''}${sector}`, 200), url: v.url, published: when.toISOString(), severity: 'normal', verified: false });
     n++;
   }
   return n;
@@ -98,7 +101,7 @@ async function pullForum(f) {
     try { url = new URL(m[1].replace(/&amp;/g, '&'), f.url).href.replace(/#.*$/, '').replace(/[?&]action=.*$/, ''); } catch { continue; }
     if (title.length < 12 || seen.has(url) || !interest.test(title)) continue;
     seen.add(url);
-    found.push({ id: 'f' + sha(url), kind: 'forum', group: 'cyber', source: f.name, title: cut(title, 200), url, published: new Date(now).toISOString(), severity: sevOf(title), verified: false });
+    found.push({ id: 'f' + sha(url), kind: 'forum', group: 'darkweb', source: f.name, title: cut(title, 200), url, published: new Date(now).toISOString(), severity: sevOf(title, 'darkweb'), verified: false });
     if (++n >= 15) break;
   }
   return n;
