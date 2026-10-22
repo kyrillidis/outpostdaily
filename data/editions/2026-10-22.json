@@ -1,0 +1,929 @@
+{
+ "date": "2026-10-22",
+ "edition": 220,
+ "compiled": "2026-10-22T00:54:10.899Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "a5afc0aef8",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+   "snippet": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+   "published": "2026-10-21T14:07:05.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
+    }
+   ],
+   "score": 1.73,
+   "t": "2026-10-21",
+   "summary": "PHP’s security team released emergency patches for two critical remote code execution vulnerabilities collectively tracked as PHP2Shell.",
+   "why": "Defenders should identify affected PHP systems and apply the emergency patches.",
+   "tags": [
+    "PHP",
+    "RCE",
+    "PHP2Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8cb71048c1",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "snippet": "<p>CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109618\" target=\"_blank\">CVE-2026-109618</a> and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109619\" target=\"_blank\">CVE-2026-109619</a>. These vulne",
+   "published": "2026-10-21T12:00:00.000Z",
+   "also": [],
+   "score": 1.63,
+   "t": "2026-10-22",
+   "summary": "CISA urges organizations to immediately patch critical vulnerabilities in PHP.",
+   "why": "Check PHP deployments and apply the available security patches.",
+   "tags": [
+    "PHP",
+    "vulnerabilities",
+    "patching"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8321243890",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+   "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+   "snippet": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+   "published": "2026-10-21T22:16:26.000Z",
+   "also": [],
+   "score": 1.55,
+   "t": "2026-10-22",
+   "summary": "BleepingComputer reports Chrome is adding Gemini-powered detection for deceptive websites and warnings about suspicious commands associated with ClickFix attacks.",
+   "why": "Review browser protections and remind users not to run suspicious copied commands.",
+   "tags": [
+    "Chrome",
+    "Gemini",
+    "ClickFix"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2810027585",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared first on Unit 42 .",
+   "published": "2026-10-21T16:30:34.000Z",
+   "also": [],
+   "score": 1.53,
+   "t": "2026-10-21",
+   "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
+   "why": "Check PHP-based web servers and CMS systems for exposure and patches.",
+   "tags": [
+    "PHP",
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e9fd60a700",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+   "snippet": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+   "published": "2026-10-21T21:43:27.000Z",
+   "also": [],
+   "score": 1.53,
+   "t": "2026-10-22",
+   "summary": "BleepingComputer reports attackers compromised Onamae Desktop Cloud infrastructure and installed malware on customer servers.",
+   "why": "Check cloud-hosted servers for signs of compromise and malware.",
+   "tags": [
+    "Onamae Desktop Cloud",
+    "malware",
+    "servers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3371acd3dc",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+   "snippet": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+   "published": "2026-10-21T20:31:48.000Z",
+   "also": [],
+   "score": 1.51,
+   "t": "2026-10-22",
+   "summary": "BleepingComputer reports North Korean hackers are using a post-quantum cryptographic mechanism to protect malicious payload delivery.",
+   "why": "Review malware-delivery detections for unusual cryptographic mechanisms.",
+   "tags": [
+    "post-quantum cryptography",
+    "malware",
+    "payload delivery"
+   ],
+   "ai": true
+  },
+  {
+   "id": "565842927b",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Meta on the spot for $25 billion under New Mexico privacy ruling",
+   "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+   "snippet": "The Cambridge Analytica data privacy scandal from a decade ago is still weighing on Meta's finances.",
+   "published": "2026-10-21T20:25:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "t": "2026-10-22",
+   "summary": "The Record says the Cambridge Analytica privacy scandal continues to weigh on Meta's finances.",
+   "why": "The item highlights the continuing financial relevance of data privacy issues.",
+   "tags": [
+    "Meta",
+    "privacy",
+    "Cambridge Analytica"
+   ],
+   "ai": true
+  },
+  {
+   "id": "24755a352d",
+   "section": "cyber",
+   "source": "Krebs on Security",
+   "weight": 0.7,
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "snippet": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these cr",
+   "published": "2026-10-21T15:26:07.000Z",
+   "also": [],
+   "score": 1.5,
+   "t": "2026-10-21",
+   "summary": "Krebs on Security says many websites need core software updates for two vulnerabilities that could let attackers take control of affected servers.",
+   "why": "Check PHP and other core software versions, and prioritize updates.",
+   "tags": [
+    "PHP",
+    "websites",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "548b69cacc",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity",
+   "url": "https://therecord.media/utilities-cybersecurity-initiative-accenture",
+   "snippet": "Up to 500 under-resourced utilities will receive support in order to bolster their cybersecurity through a private sector initiative launched this week.",
+   "published": "2026-10-21T19:45:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "t": "2026-10-22",
+   "summary": "The Record reports a private-sector initiative will support up to 500 under-resourced utilities in bolstering cybersecurity.",
+   "why": "The initiative focuses cybersecurity support on utilities with fewer resources.",
+   "tags": [
+    "utilities",
+    "cybersecurity",
+    "initiative"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b96c0a11c5",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+   "snippet": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .",
+   "published": "2026-10-21T14:00:24.000Z",
+   "also": [],
+   "score": 1.47,
+   "t": "2026-10-21",
+   "summary": "Unit 42 describes a threat actor using AI to plan and carry out credential theft, VoIP fraud planning, and database exfiltration.",
+   "why": "Review controls for credential theft, VoIP fraud, and database exfiltration.",
+   "tags": [
+    "AI",
+    "credential theft",
+    "database exfiltration"
+   ],
+   "ai": true
+  },
+  {
+   "id": "15f98af412",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific",
+   "url": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific",
+   "snippet": "The Army wants to buy up to 100 new USVs and add autonomous capabilities into existing crewed vessels. The post How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific appeared first on TWZ .",
+   "published": "2026-10-21T23:30:27.000Z",
+   "also": [],
+   "score": 1.57,
+   "t": "2026-10-22",
+   "summary": "The War Zone reports the Army wants to buy up to 100 unmanned surface vessels and add autonomous capabilities to existing crewed vessels.",
+   "why": "The plans point to greater autonomy in Army maritime operations in the Pacific.",
+   "tags": [
+    "USVs",
+    "autonomous",
+    "Pacific"
+   ],
+   "ai": true
+  },
+  {
+   "id": "65356d0d0b",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Saudi Arabia’s nuclear program could outlive its government, so plan accordingly",
+   "url": "https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/",
+   "snippet": "Nuclear technology can outlive the strategic assumptions that justified its transfer, two experts caution US lawmakers.",
+   "published": "2026-10-21T18:35:00.000Z",
+   "also": [],
+   "score": 1.47,
+   "t": "2026-10-22",
+   "summary": "Two experts caution US lawmakers that nuclear technology can outlive the strategic assumptions behind its transfer.",
+   "why": "Long-lived nuclear technology can have strategic relevance beyond the assumptions behind its transfer.",
+   "tags": [
+    "nuclear technology",
+    "strategic assumptions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "aa5a0f4e3d",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Navy F/A-18 Super Hornet Spotted Carrying New AIM-174B And AIM-260 Long-Range Missiles Together",
+   "url": "https://www.twz.com/air/navy-f-a-18-super-hornet-spotted-carrying-new-aim-174b-and-aim-260-long-range-missiles-together",
+   "snippet": "The image of the VX-31 Super Hornet gives us a glimpse of what's soon to appear in the fleet, and the two missiles will also be joined by the AIM-424 Malice. The post Navy F/A-18 Super Hornet Spotted Carrying New AIM-174B And AIM-260 Long-Range Missiles Together appeared first on TWZ .",
+   "published": "2026-10-21T18:14:49.000Z",
+   "also": [],
+   "score": 1.46,
+   "t": "2026-10-22",
+   "summary": "The War Zone reports an image shows a Navy Super Hornet carrying AIM-174B and AIM-260 missiles together.",
+   "why": "The image offers a glimpse of a fighter carrying two long-range missile types together.",
+   "tags": [
+    "Super Hornet",
+    "AIM-174B",
+    "AIM-260"
+   ],
+   "ai": true
+  },
+  {
+   "id": "62f5a49b8d",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Fighting in Ethiopia and the Risk of Regional Spillover",
+   "url": "https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/",
+   "snippet": "In September, fighting broke out in Ethiopia’s Tigray region between Ethiopian government forces and the Tigray People’s Liberation Front (TPLF), effectively collapsing the 2022 peace deal. In October, Ethiopian forces recaptured an airport and towns from the TPLF and started moving closer to the border with Eritrea. T",
+   "published": "2026-10-21T17:40:20.000Z",
+   "also": [],
+   "score": 1.45,
+   "t": "2026-10-22",
+   "summary": "War on the Rocks reports renewed fighting in Ethiopia's Tigray region, the collapse of the 2022 peace deal, and Ethiopian forces recapturing an airport and towns.",
+   "why": "Fighting in Tigray raises concern about the risk of regional spillover.",
+   "tags": [
+    "Ethiopia",
+    "Tigray",
+    "spillover"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fae2d38308",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Any Decision To Buy New-Build F-16s Not An “Urgent” Priority: USAF",
+   "url": "https://www.twz.com/air/any-decision-to-buy-new-build-f-16s-not-an-urgent-priority-usaf",
+   "snippet": "A top USAF general said new F-16s are \"maybe the lazy\" route, but are an option as the service strives for 1,509 combat-coded fighters by 2035. The post Any Decision To Buy New-Build F-16s Not An “Urgent” Priority: USAF appeared first on TWZ .",
+   "published": "2026-10-21T17:55:28.000Z",
+   "also": [],
+   "score": 1.45,
+   "t": "2026-10-22",
+   "summary": "A top USAF general said buying new-build F-16s is an option but not an urgent priority as the service pursues its fighter goal.",
+   "why": "The choice of new F-16s is part of planning the future fighter fleet.",
+   "tags": [
+    "F-16",
+    "USAF",
+    "fighter fleet"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e27a5955e7",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Israel’s Elbit acquires Canadian company focused on autonomous underwater systems",
+   "url": "https://breakingdefense.com/2026/10/israels-elbit-acquires-canadian-company-focused-on-autonomous-underwater-systems/",
+   "snippet": "“ISE’s underwater technologies will further strengthen our position as a global provider of comprehensive, integrated maritime solutions,” Elbit President and CEO Bezhalel Machlis said in a company statement.",
+   "published": "2026-10-21T17:29:24.000Z",
+   "also": [],
+   "score": 1.45,
+   "t": "2026-10-22",
+   "summary": "Breaking Defense reports Elbit acquired a Canadian company focused on autonomous underwater systems. Elbit's president said the technologies would strengthen its maritime solutions.",
+   "why": "The acquisition connects autonomous underwater technology with integrated maritime solutions.",
+   "tags": [
+    "Elbit",
+    "autonomous",
+    "underwater systems"
+   ],
+   "ai": true
+  },
+  {
+   "id": "124ad15d64",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time",
+   "url": "https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time",
+   "snippet": "New video shows a 12-tube drone launcher and two deployable masts in action, offering new insights to what Ghost Shark can do and how it could be used. The post Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time appeared first on TWZ .",
+   "published": "2026-10-21T17:10:21.000Z",
+   "also": [],
+   "score": 1.44,
+   "t": "2026-10-22",
+   "summary": "The War Zone reports new video shows the Ghost Shark uncrewed submarine launching aerial drones from a 12-tube launcher.",
+   "why": "Launching aerial drones expands the uncrewed submarine's demonstrated capabilities.",
+   "tags": [
+    "Ghost Shark",
+    "uncrewed submarine",
+    "aerial drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "35b3fbb022",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "US Air Force outlines the fighter fleet it needs by 2035",
+   "url": "https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/",
+   "snippet": "A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s making up 40% of the fleet and F-47s replacing F-22s.",
+   "published": "2026-10-21T19:01:44.000Z",
+   "also": [],
+   "score": 1.38,
+   "t": "2026-10-22",
+   "summary": "A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s making up 40% and F-47s replacing F-22s.",
+   "why": "The report outlines the planned size and composition of the fighter fleet.",
+   "tags": [
+    "Air Force",
+    "F-35",
+    "F-47"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e07a7d005b",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Ukrainians are not fighting for Zelenskyy. They are fighting for national survival.",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainians-are-not-fighting-for-zelenskyy-they-are-fighting-for-survival/",
+   "snippet": "Trump and Putin both seem to think that removing Ukrainian President Volodymyr Zelenskyy would set the stage for a Kremlin-friendly peace deal, but most Ukrainians see the war as a fight for national survival that does not depend on any one man, writes Peter Dickinson. The post Ukrainians are not fighting for Zelenskyy",
+   "published": "2026-10-22T00:24:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-10-22",
+   "summary": "Peter D writes that many Ukrainians see the war as a fight for national survival, rather than one dependent on President Zelenskyy.",
+   "why": "The article frames Ukrainian national identity as a factor in the war's political outlook.",
+   "tags": [
+    "Ukraine",
+    "national survival",
+    "Zelenskyy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c7652cdc17",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+   "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+   "published": "2026-10-21T21:27:41.000Z",
+   "also": [],
+   "score": 1.53,
+   "t": "2026-10-22",
+   "summary": "The BBC reports missiles hit Kyiv after Moscow said it was ready in principle to resume peace talks; Trump said the world was close to ending the war.",
+   "why": "The report juxtaposes continued attacks with statements about restarting peace talks.",
+   "tags": [
+    "Kyiv",
+    "missiles",
+    "peace talks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c71be4767f",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "The new Middle East is modular",
+   "url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-new-middle-east-is-modular/",
+   "snippet": "In the Middle East today, states are aligning issue by issue, not choosing sides. They cooperate in one area and compete in the next. This modular alignment is shaping the region, even as it manages the shocks of war and energy-market volatility. The post The new Middle East is modular appeared first on Atlantic Counci",
+   "published": "2026-10-21T20:45:02.000Z",
+   "also": [],
+   "score": 1.51,
+   "t": "2026-10-22",
+   "summary": "The Atlantic Council says Middle Eastern states are aligning issue by issue, cooperating in some areas and competing in others.",
+   "why": "Issue-by-issue alignment shapes regional relationships amid war and energy-market volatility.",
+   "tags": [
+    "Middle East",
+    "modular alignment",
+    "energy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6884f9c8e6",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Witkoff Pushes Putin to Restart Peace Talks",
+   "url": "https://foreignpolicy.com/2026/10/21/witkoff-putin-russia-ukraine-peace-talks-zelensky-trump/",
+   "snippet": "The Russian leader said he is ready to resume negotiations but refused to compromise on key points.",
+   "published": "2026-10-21T20:04:14.000Z",
+   "also": [],
+   "score": 1.5,
+   "t": "2026-10-22",
+   "summary": "Foreign Policy reports Putin said he was ready to resume negotiations but would not compromise on key points.",
+   "why": "The stated refusal to compromise is relevant to the prospects for negotiations.",
+   "tags": [
+    "Putin",
+    "negotiations",
+    "compromise"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bf73ccd38e",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+   "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
+   "published": "2026-10-21T19:58:06.000Z",
+   "also": [],
+   "score": 1.5,
+   "t": "2026-10-22",
+   "summary": "The BBC's Russia editor writes that Putin does not feel under pressure to end the war.",
+   "why": "The assessment bears on expectations for diplomatic efforts to end the war.",
+   "tags": [
+    "Putin",
+    "Ukraine war",
+    "diplomacy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6f2bb2e75b",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
+   "snippet": "Iran's IRGC threatens to invade any country that attacks it under a new 'offensive and asymmetrical' doctrine.",
+   "published": "2026-10-22T00:00:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports Iran's IRGC threatened to invade any country that attacks Iran under a new offensive and asymmetrical doctrine.",
+   "why": "The stated doctrine signals how Iran says it may respond to an attack.",
+   "tags": [
+    "IRGC",
+    "offensive",
+    "asymmetrical"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2b218285c7",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
+   "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
+   "snippet": "The latest round of negotiations comes amid growing concerns in Kyiv the US is backing away from its support of Ukraine.",
+   "published": "2026-10-21T23:52:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports the latest Witkoff and Kushner meeting with Putin took place amid Kyiv's concerns about US support for Ukraine.",
+   "why": "The meeting's context reflects Ukrainian concerns about the direction of US support.",
+   "tags": [
+    "Putin",
+    "negotiations",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8de9a410c1",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
+   "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+   "snippet": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia.",
+   "published": "2026-10-21T23:13:35.000Z",
+   "also": [],
+   "score": 1.47,
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports the US ordered personnel to leave Saudi Arabia, citing a Houthi threat; the State Department said Houthis had increasingly engaged in hostilities against Saudi Arabia.",
+   "why": "The order reflects security concerns tied to reported Houthi hostilities against Saudi Arabia.",
+   "tags": [
+    "Saudi Arabia",
+    "Houthis",
+    "personnel"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-106931",
+   "vendor": "EG Secure Solutions",
+   "product": "SiteGuard Server Edition",
+   "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 8.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+  },
+  {
+   "cve": "CVE-2026-96656",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+  },
+  {
+   "cve": "CVE-2026-96655",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 5.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+  },
+  {
+   "cve": "CVE-2026-96654",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 6.9,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+  },
+  {
+   "cve": "CVE-2026-96652",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 5.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+  },
+  {
+   "cve": "CVE-2026-110936",
+   "vendor": "Siemens",
+   "product": "Software Center",
+   "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 8.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+  },
+  {
+   "cve": "CVE-2026-102764",
+   "vendor": "BeyondTrust",
+   "product": "Remote Support",
+   "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "added": "2026-10-16",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+  },
+  {
+   "cve": "CVE-2025-61624",
+   "vendor": "Fortinet",
+   "product": "Multiple Products",
+   "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+   "added": "2026-10-16",
+   "due": "2026-10-19",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+  },
+  {
+   "cve": "CVE-2026-21589",
+   "vendor": "Atlassian",
+   "product": "Multiple Products",
+   "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+   "added": "2026-10-15",
+   "due": "2026-10-18",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+  },
+  {
+   "cve": "CVE-2026-105134",
+   "vendor": "Ahsay",
+   "product": "AhsayCBS",
+   "name": "Ahsay AhsayCBS Command Injection Vulnerability",
+   "added": "2026-10-14",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+  },
+  {
+   "cve": "CVE-2026-76519",
+   "vendor": "Cisco",
+   "product": "Secure Email Gateway",
+   "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "added": "2026-10-14",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
+  },
+  {
+   "cve": "CVE-2026-105133",
+   "vendor": "Ahsay",
+   "product": "AhsayCBS",
+   "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+   "added": "2026-10-14",
+   "due": "2026-10-17",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 5.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
+  }
+ ],
+ "run_today": [
+  "Identify PHP deployments and apply the security patches CISA urges organizations to install.",
+  "Check Chrome's scam protections and caution users against copying or running suspicious commands.",
+  "Review Onamae Desktop Cloud-hosted servers for malware or other signs of compromise."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "PHP vulnerabilities",
+   "explainer": "A vulnerability is a flaw in software that may create a security risk. PHP vulnerabilities are flaws in the PHP software; CISA urges organizations to patch the critical ones described in this item.",
+   "from_id": "8cb71048c1",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "fromSource": "CISA Advisories"
+  },
+  {
+   "domain": "warfare",
+   "term": "Unmanned surface vessel (USV)",
+   "explainer": "A USV is a vessel that operates on the water's surface without a crew aboard. The Army wants to buy USVs and add autonomous capabilities to existing crewed vessels.",
+   "from_id": "15f98af412",
+   "from": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "Modular alignment",
+   "explainer": "Modular alignment means states cooperate on some issues while competing on others, rather than choosing one side across the board. The Atlantic Council describes this pattern in the Middle East.",
+   "from_id": "c71be4767f",
+   "from": "https://www.atlanticcouncil.org/content-series/the-big-story/the-new-middle-east-is-modular/",
+   "fromSource": "Atlantic Council"
+  }
+ ],
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 21
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  }
+ ]
+}
