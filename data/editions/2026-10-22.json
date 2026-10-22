@@ -1,7 +1,7 @@
 {
  "date": "2026-10-22",
  "edition": 220,
- "compiled": "2026-10-22T00:54:10.899Z",
+ "compiled": "2026-10-22T04:30:09.923Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,7 +19,7 @@
      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
     }
    ],
-   "score": 1.73,
+   "score": 1.65,
    "t": "2026-10-21",
    "summary": "PHP’s security team released emergency patches for two critical remote code execution vulnerabilities collectively tracked as PHP2Shell.",
    "why": "Defenders should identify affected PHP systems and apply the emergency patches.",
@@ -40,7 +40,7 @@
    "snippet": "<p>CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109618\" target=\"_blank\">CVE-2026-109618</a> and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109619\" target=\"_blank\">CVE-2026-109619</a>. These vulne",
    "published": "2026-10-21T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.56,
    "t": "2026-10-22",
    "summary": "CISA urges organizations to immediately patch critical vulnerabilities in PHP.",
    "why": "Check PHP deployments and apply the available security patches.",
@@ -61,7 +61,7 @@
    "snippet": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
    "published": "2026-10-21T22:16:26.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.47,
    "t": "2026-10-22",
    "summary": "BleepingComputer reports Chrome is adding Gemini-powered detection for deceptive websites and warnings about suspicious commands associated with ClickFix attacks.",
    "why": "Review browser protections and remind users not to run suspicious copied commands.",
@@ -69,27 +69,6 @@
     "Chrome",
     "Gemini",
     "ClickFix"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2810027585",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
-   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-   "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared first on Unit 42 .",
-   "published": "2026-10-21T16:30:34.000Z",
-   "also": [],
-   "score": 1.53,
-   "t": "2026-10-21",
-   "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
-   "why": "Check PHP-based web servers and CMS systems for exposure and patches.",
-   "tags": [
-    "PHP",
-    "CVE-2026-109618",
-    "CVE-2026-109619"
    ],
    "ai": true
   },
@@ -103,7 +82,7 @@
    "snippet": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
    "published": "2026-10-21T21:43:27.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.46,
    "t": "2026-10-22",
    "summary": "BleepingComputer reports attackers compromised Onamae Desktop Cloud infrastructure and installed malware on customer servers.",
    "why": "Check cloud-hosted servers for signs of compromise and malware.",
@@ -115,44 +94,23 @@
    "ai": true
   },
   {
-   "id": "3371acd3dc",
+   "id": "2810027585",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-   "snippet": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-   "published": "2026-10-21T20:31:48.000Z",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared first on Unit 42 .",
+   "published": "2026-10-21T16:30:34.000Z",
    "also": [],
-   "score": 1.51,
-   "t": "2026-10-22",
-   "summary": "BleepingComputer reports North Korean hackers are using a post-quantum cryptographic mechanism to protect malicious payload delivery.",
-   "why": "Review malware-delivery detections for unusual cryptographic mechanisms.",
+   "score": 1.45,
+   "t": "2026-10-21",
+   "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
+   "why": "Check PHP-based web servers and CMS systems for exposure and patches.",
    "tags": [
-    "post-quantum cryptography",
-    "malware",
-    "payload delivery"
-   ],
-   "ai": true
-  },
-  {
-   "id": "565842927b",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Meta on the spot for $25 billion under New Mexico privacy ruling",
-   "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
-   "snippet": "The Cambridge Analytica data privacy scandal from a decade ago is still weighing on Meta's finances.",
-   "published": "2026-10-21T20:25:00.000Z",
-   "also": [],
-   "score": 1.51,
-   "t": "2026-10-22",
-   "summary": "The Record says the Cambridge Analytica privacy scandal continues to weigh on Meta's finances.",
-   "why": "The item highlights the continuing financial relevance of data privacy issues.",
-   "tags": [
-    "Meta",
-    "privacy",
-    "Cambridge Analytica"
+    "PHP",
+    "CVE-2026-109618",
+    "CVE-2026-109619"
    ],
    "ai": true
   },
@@ -166,7 +124,7 @@
    "snippet": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these cr",
    "published": "2026-10-21T15:26:07.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.43,
    "t": "2026-10-21",
    "summary": "Krebs on Security says many websites need core software updates for two vulnerabilities that could let attackers take control of affected servers.",
    "why": "Check PHP and other core software versions, and prioritize updates.",
@@ -178,23 +136,23 @@
    "ai": true
   },
   {
-   "id": "548b69cacc",
+   "id": "3371acd3dc",
    "section": "cyber",
-   "source": "The Record",
+   "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity",
-   "url": "https://therecord.media/utilities-cybersecurity-initiative-accenture",
-   "snippet": "Up to 500 under-resourced utilities will receive support in order to bolster their cybersecurity through a private sector initiative launched this week.",
-   "published": "2026-10-21T19:45:00.000Z",
+   "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+   "snippet": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+   "published": "2026-10-21T20:31:48.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.43,
    "t": "2026-10-22",
-   "summary": "The Record reports a private-sector initiative will support up to 500 under-resourced utilities in bolstering cybersecurity.",
-   "why": "The initiative focuses cybersecurity support on utilities with fewer resources.",
+   "summary": "BleepingComputer reports North Korean hackers are using a post-quantum cryptographic mechanism to protect malicious payload delivery.",
+   "why": "Review malware-delivery detections for unusual cryptographic mechanisms.",
    "tags": [
-    "utilities",
-    "cybersecurity",
-    "initiative"
+    "post-quantum cryptography",
+    "malware",
+    "payload delivery"
    ],
    "ai": true
   },
@@ -208,7 +166,7 @@
    "snippet": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .",
    "published": "2026-10-21T14:00:24.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.4,
    "t": "2026-10-21",
    "summary": "Unit 42 describes a threat actor using AI to plan and carry out credential theft, VoIP fraud planning, and database exfiltration.",
    "why": "Review controls for credential theft, VoIP fraud, and database exfiltration.",
@@ -216,6 +174,47 @@
     "AI",
     "credential theft",
     "database exfiltration"
+   ],
+   "ai": true
+  },
+  {
+   "id": "71f0485320",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+   "published": "2026-10-21T18:34:42.000Z",
+   "also": [],
+   "score": 1.39,
+   "t": "2026-10-22",
+   "summary": "CISA warns that attackers are actively exploiting four vulnerabilities in Plex Media Server in Plex2Shell attacks.",
+   "why": "Check whether Plex Media Server is exposed and apply available security updates.",
+   "tags": [
+    "Plex Media Server",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "80aac9868c",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "snippet": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .",
+   "published": "2026-10-21T18:23:55.000Z",
+   "also": [],
+   "score": 1.39,
+   "t": "2026-10-22",
+   "summary": "Microsoft says Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise and abuse application credentials across Microsoft 365 environments.",
+   "why": "Review ConnectWise integrations and Microsoft 365 application credentials for unexpected access.",
+   "tags": [
+    "ARTEX",
+    "supply chain",
+    "credentials"
    ],
    "ai": true
   },
@@ -229,7 +228,7 @@
    "snippet": "The Army wants to buy up to 100 new USVs and add autonomous capabilities into existing crewed vessels. The post How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific appeared first on TWZ .",
    "published": "2026-10-21T23:30:27.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.5,
    "t": "2026-10-22",
    "summary": "The War Zone reports the Army wants to buy up to 100 unmanned surface vessels and add autonomous capabilities to existing crewed vessels.",
    "why": "The plans point to greater autonomy in Army maritime operations in the Pacific.",
@@ -237,26 +236,6 @@
     "USVs",
     "autonomous",
     "Pacific"
-   ],
-   "ai": true
-  },
-  {
-   "id": "65356d0d0b",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Saudi Arabia’s nuclear program could outlive its government, so plan accordingly",
-   "url": "https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/",
-   "snippet": "Nuclear technology can outlive the strategic assumptions that justified its transfer, two experts caution US lawmakers.",
-   "published": "2026-10-21T18:35:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "Two experts caution US lawmakers that nuclear technology can outlive the strategic assumptions behind its transfer.",
-   "why": "Long-lived nuclear technology can have strategic relevance beyond the assumptions behind its transfer.",
-   "tags": [
-    "nuclear technology",
-    "strategic assumptions"
    ],
    "ai": true
   },
@@ -270,7 +249,7 @@
    "snippet": "The image of the VX-31 Super Hornet gives us a glimpse of what's soon to appear in the fleet, and the two missiles will also be joined by the AIM-424 Malice. The post Navy F/A-18 Super Hornet Spotted Carrying New AIM-174B And AIM-260 Long-Range Missiles Together appeared first on TWZ .",
    "published": "2026-10-21T18:14:49.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.39,
    "t": "2026-10-22",
    "summary": "The War Zone reports an image shows a Navy Super Hornet carrying AIM-174B and AIM-260 missiles together.",
    "why": "The image offers a glimpse of a fighter carrying two long-range missile types together.",
@@ -282,23 +261,22 @@
    "ai": true
   },
   {
-   "id": "62f5a49b8d",
+   "id": "65356d0d0b",
    "section": "warfare",
-   "source": "War on the Rocks",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Fighting in Ethiopia and the Risk of Regional Spillover",
-   "url": "https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/",
-   "snippet": "In September, fighting broke out in Ethiopia’s Tigray region between Ethiopian government forces and the Tigray People’s Liberation Front (TPLF), effectively collapsing the 2022 peace deal. In October, Ethiopian forces recaptured an airport and towns from the TPLF and started moving closer to the border with Eritrea. T",
-   "published": "2026-10-21T17:40:20.000Z",
+   "title": "Saudi Arabia’s nuclear program could outlive its government, so plan accordingly",
+   "url": "https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/",
+   "snippet": "Nuclear technology can outlive the strategic assumptions that justified its transfer, two experts caution US lawmakers.",
+   "published": "2026-10-21T18:35:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.39,
    "t": "2026-10-22",
-   "summary": "War on the Rocks reports renewed fighting in Ethiopia's Tigray region, the collapse of the 2022 peace deal, and Ethiopian forces recapturing an airport and towns.",
-   "why": "Fighting in Tigray raises concern about the risk of regional spillover.",
+   "summary": "Two experts caution US lawmakers that nuclear technology can outlive the strategic assumptions behind its transfer.",
+   "why": "Long-lived nuclear technology can have strategic relevance beyond the assumptions behind its transfer.",
    "tags": [
-    "Ethiopia",
-    "Tigray",
-    "spillover"
+    "nuclear technology",
+    "strategic assumptions"
    ],
    "ai": true
   },
@@ -312,7 +290,7 @@
    "snippet": "A top USAF general said new F-16s are \"maybe the lazy\" route, but are an option as the service strives for 1,509 combat-coded fighters by 2035. The post Any Decision To Buy New-Build F-16s Not An “Urgent” Priority: USAF appeared first on TWZ .",
    "published": "2026-10-21T17:55:28.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.38,
    "t": "2026-10-22",
    "summary": "A top USAF general said buying new-build F-16s is an option but not an urgent priority as the service pursues its fighter goal.",
    "why": "The choice of new F-16s is part of planning the future fighter fleet.",
@@ -320,6 +298,27 @@
     "F-16",
     "USAF",
     "fighter fleet"
+   ],
+   "ai": true
+  },
+  {
+   "id": "62f5a49b8d",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Fighting in Ethiopia and the Risk of Regional Spillover",
+   "url": "https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/",
+   "snippet": "In September, fighting broke out in Ethiopia’s Tigray region between Ethiopian government forces and the Tigray People’s Liberation Front (TPLF), effectively collapsing the 2022 peace deal. In October, Ethiopian forces recaptured an airport and towns from the TPLF and started moving closer to the border with Eritrea. T",
+   "published": "2026-10-21T17:40:20.000Z",
+   "also": [],
+   "score": 1.37,
+   "t": "2026-10-22",
+   "summary": "War on the Rocks reports renewed fighting in Ethiopia's Tigray region, the collapse of the 2022 peace deal, and Ethiopian forces recapturing an airport and towns.",
+   "why": "Fighting in Tigray raises concern about the risk of regional spillover.",
+   "tags": [
+    "Ethiopia",
+    "Tigray",
+    "spillover"
    ],
    "ai": true
   },
@@ -333,7 +332,7 @@
    "snippet": "“ISE’s underwater technologies will further strengthen our position as a global provider of comprehensive, integrated maritime solutions,” Elbit President and CEO Bezhalel Machlis said in a company statement.",
    "published": "2026-10-21T17:29:24.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.37,
    "t": "2026-10-22",
    "summary": "Breaking Defense reports Elbit acquired a Canadian company focused on autonomous underwater systems. Elbit's president said the technologies would strengthen its maritime solutions.",
    "why": "The acquisition connects autonomous underwater technology with integrated maritime solutions.",
@@ -354,7 +353,7 @@
    "snippet": "New video shows a 12-tube drone launcher and two deployable masts in action, offering new insights to what Ghost Shark can do and how it could be used. The post Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time appeared first on TWZ .",
    "published": "2026-10-21T17:10:21.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.36,
    "t": "2026-10-22",
    "summary": "The War Zone reports new video shows the Ghost Shark uncrewed submarine launching aerial drones from a 12-tube launcher.",
    "why": "Launching aerial drones expands the uncrewed submarine's demonstrated capabilities.",
@@ -375,7 +374,7 @@
    "snippet": "A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s making up 40% of the fleet and F-47s replacing F-22s.",
    "published": "2026-10-21T19:01:44.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.3,
    "t": "2026-10-22",
    "summary": "A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s making up 40% and F-47s replacing F-22s.",
    "why": "The report outlines the planned size and composition of the fighter fleet.",
@@ -383,6 +382,52 @@
     "Air Force",
     "F-35",
     "F-47"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d8cc200e46",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+   "published": "2026-10-22T01:07:34.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/us-orders-some-diplomats-to-leave-saudi-arabia-amid-houthi-threat/a-79727353?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.88,
+   "t": "2026-10-22",
+   "summary": "The BBC reports that the US ordered some diplomats to leave Saudi Arabia as Houthi attacks escalate; at least three people died in strikes at an airport and an oil field.",
+   "why": "The warning and strikes highlight security risks affecting diplomatic presence and key sites.",
+   "tags": [
+    "Saudi Arabia",
+    "Houthi attacks",
+    "oil field"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b321979852",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "What is PHP and why did it spark a global cyber-security scramble?",
+   "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+   "published": "2026-10-22T03:48:50.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-10-22",
+   "summary": "The BBC says AI uncovered long-hidden programming flaws, prompting a rare global cybersecurity response around PHP.",
+   "why": "The response highlights the security relevance of flaws in widely used programming technology.",
+   "tags": [
+    "PHP",
+    "programming flaws"
    ],
    "ai": true
   },
@@ -396,7 +441,7 @@
    "snippet": "Trump and Putin both seem to think that removing Ukrainian President Volodymyr Zelenskyy would set the stage for a Kremlin-friendly peace deal, but most Ukrainians see the war as a fight for national survival that does not depend on any one man, writes Peter Dickinson. The post Ukrainians are not fighting for Zelenskyy",
    "published": "2026-10-22T00:24:00.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.51,
    "t": "2026-10-22",
    "summary": "Peter D writes that many Ukrainians see the war as a fight for national survival, rather than one dependent on President Zelenskyy.",
    "why": "The article frames Ukrainian national identity as a factor in the war's political outlook.",
@@ -417,7 +462,7 @@
    "snippet": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
    "published": "2026-10-21T21:27:41.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.45,
    "t": "2026-10-22",
    "summary": "The BBC reports missiles hit Kyiv after Moscow said it was ready in principle to resume peace talks; Trump said the world was close to ending the war.",
    "why": "The report juxtaposes continued attacks with statements about restarting peace talks.",
@@ -425,6 +470,47 @@
     "Kyiv",
     "missiles",
     "peace talks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6bb1c849e6",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russia frees American Stephen Hubbard after 4 years behind bars",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-frees-american-stephen-hubbard-after-4-years-behind-bars?traffic_source=rss",
+   "snippet": "Russia frees American Stephen Hubbard after 4 years behind bars",
+   "published": "2026-10-22T02:16:25.000Z",
+   "also": [],
+   "score": 1.45,
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports that Russia freed American Stephen Hubbard after four years behind bars.",
+   "why": "The release is relevant to relations between Russia and the United States.",
+   "tags": [
+    "Russia",
+    "United States"
+   ],
+   "ai": true
+  },
+  {
+   "id": "40bf5748c5",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Tigray resumes daily life amid fears of wider war",
+   "url": "https://www.aljazeera.com/news/2026/10/22/tigray-resumes-daily-life-amid-fears-of-wider-war?traffic_source=rss",
+   "snippet": "Mekelle’s reopening offers little relief as instability and economic hardship persist.",
+   "published": "2026-10-22T02:08:05.000Z",
+   "also": [],
+   "score": 1.45,
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports that Mekelle has reopened, but instability and economic hardship persist in Tigray amid fears of wider war.",
+   "why": "The reopening offers a local indicator of conditions amid ongoing instability.",
+   "tags": [
+    "Tigray",
+    "Mekelle",
+    "instability"
    ],
    "ai": true
   },
@@ -438,7 +524,7 @@
    "snippet": "In the Middle East today, states are aligning issue by issue, not choosing sides. They cooperate in one area and compete in the next. This modular alignment is shaping the region, even as it manages the shocks of war and energy-market volatility. The post The new Middle East is modular appeared first on Atlantic Counci",
    "published": "2026-10-21T20:45:02.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.44,
    "t": "2026-10-22",
    "summary": "The Atlantic Council says Middle Eastern states are aligning issue by issue, cooperating in some areas and competing in others.",
    "why": "Issue-by-issue alignment shapes regional relationships amid war and energy-market volatility.",
@@ -450,107 +536,23 @@
    "ai": true
   },
   {
-   "id": "6884f9c8e6",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Witkoff Pushes Putin to Restart Peace Talks",
-   "url": "https://foreignpolicy.com/2026/10/21/witkoff-putin-russia-ukraine-peace-talks-zelensky-trump/",
-   "snippet": "The Russian leader said he is ready to resume negotiations but refused to compromise on key points.",
-   "published": "2026-10-21T20:04:14.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-10-22",
-   "summary": "Foreign Policy reports Putin said he was ready to resume negotiations but would not compromise on key points.",
-   "why": "The stated refusal to compromise is relevant to the prospects for negotiations.",
-   "tags": [
-    "Putin",
-    "negotiations",
-    "compromise"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bf73ccd38e",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
-   "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
-   "published": "2026-10-21T19:58:06.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-10-22",
-   "summary": "The BBC's Russia editor writes that Putin does not feel under pressure to end the war.",
-   "why": "The assessment bears on expectations for diplomatic efforts to end the war.",
-   "tags": [
-    "Putin",
-    "Ukraine war",
-    "diplomacy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6f2bb2e75b",
+   "id": "9744cb2574",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
-   "snippet": "Iran's IRGC threatens to invade any country that attacks it under a new 'offensive and asymmetrical' doctrine.",
-   "published": "2026-10-22T00:00:00.000Z",
+   "title": "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
+   "url": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
+   "snippet": "Qatari and French leaders stress need to restore freedom of navigation in Strait of Hormuz.",
+   "published": "2026-10-22T01:45:48.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "t": "2026-10-22",
-   "summary": "Al Jazeera reports Iran's IRGC threatened to invade any country that attacks Iran under a new offensive and asymmetrical doctrine.",
-   "why": "The stated doctrine signals how Iran says it may respond to an attack.",
+   "summary": "Al Jazeera reports that Qatari and French leaders called for freedom of navigation in the Strait of Hormuz and implementation of a Gaza ceasefire.",
+   "why": "Freedom of navigation in the Strait of Hormuz is a strategic concern for maritime movement.",
    "tags": [
-    "IRGC",
-    "offensive",
-    "asymmetrical"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2b218285c7",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What happened during Witkoff and Kushner’s latest meeting with Putin",
-   "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
-   "snippet": "The latest round of negotiations comes amid growing concerns in Kyiv the US is backing away from its support of Ukraine.",
-   "published": "2026-10-21T23:52:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-10-22",
-   "summary": "Al Jazeera reports the latest Witkoff and Kushner meeting with Putin took place amid Kyiv's concerns about US support for Ukraine.",
-   "why": "The meeting's context reflects Ukrainian concerns about the direction of US support.",
-   "tags": [
-    "Putin",
-    "negotiations",
-    "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8de9a410c1",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-   "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
-   "snippet": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia.",
-   "published": "2026-10-21T23:13:35.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "Al Jazeera reports the US ordered personnel to leave Saudi Arabia, citing a Houthi threat; the State Department said Houthis had increasingly engaged in hostilities against Saudi Arabia.",
-   "why": "The order reflects security concerns tied to reported Houthi hostilities against Saudi Arabia.",
-   "tags": [
-    "Saudi Arabia",
-    "Houthis",
-    "personnel"
+    "Qatar",
+    "France",
+    "Strait of Hormuz"
    ],
    "ai": true
   }
@@ -702,34 +704,34 @@
   }
  ],
  "run_today": [
-  "Identify PHP deployments and apply the security patches CISA urges organizations to install.",
-  "Check Chrome's scam protections and caution users against copying or running suspicious commands.",
-  "Review Onamae Desktop Cloud-hosted servers for malware or other signs of compromise."
+  "Check whether Plex Media Server is exposed and apply available security updates.",
+  "Review ConnectWise integrations for unexpected activity linked to Microsoft 365 environments.",
+  "Audit Microsoft 365 application credentials for unexpected use. "
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "PHP vulnerabilities",
-   "explainer": "A vulnerability is a flaw in software that may create a security risk. PHP vulnerabilities are flaws in the PHP software; CISA urges organizations to patch the critical ones described in this item.",
-   "from_id": "8cb71048c1",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
-   "fromSource": "CISA Advisories"
+   "term": "Supply chain compromise",
+   "explainer": "A supply chain compromise targets a service or provider connected to other organizations, potentially enabling access to those organizations. The Microsoft post describes a ConnectWise compromise linked to application credential abuse.",
+   "from_id": "80aac9868c",
+   "from": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "fromSource": "Microsoft Security"
   },
   {
    "domain": "warfare",
-   "term": "Unmanned surface vessel (USV)",
-   "explainer": "A USV is a vessel that operates on the water's surface without a crew aboard. The Army wants to buy USVs and add autonomous capabilities to existing crewed vessels.",
+   "term": "Autonomous vessels",
+   "explainer": "Autonomous vessels are vessels designed to operate with some degree of autonomy. The title describes the U.S. Army’s plans to make its vessels in the Pacific more autonomous.",
    "from_id": "15f98af412",
    "from": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific",
    "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Modular alignment",
-   "explainer": "Modular alignment means states cooperate on some issues while competing on others, rather than choosing one side across the board. The Atlantic Council describes this pattern in the Middle East.",
-   "from_id": "c71be4767f",
-   "from": "https://www.atlanticcouncil.org/content-series/the-big-story/the-new-middle-east-is-modular/",
-   "fromSource": "Atlantic Council"
+   "term": "Strait of Hormuz",
+   "explainer": "The Strait of Hormuz is a strait where freedom of navigation is a stated concern in the item. A strait is a narrow waterway connecting larger bodies of water.",
+   "from_id": "9744cb2574",
+   "from": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "health": [
@@ -755,13 +757,13 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 21
+   "n": 17
   },
   {
    "name": "The Record",
    "section": "cyber",
-   "ok": true,
-   "n": 5
+   "ok": false,
+   "error": "HTTP 520"
   },
   {
    "name": "SecurityWeek",
@@ -779,7 +781,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 10
   },
   {
    "name": "Unit 42",
@@ -821,7 +823,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "Defense One",
@@ -833,7 +835,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "Naval News",
@@ -875,13 +877,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "SpaceNews",
@@ -899,7 +901,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "SatNews",
@@ -911,19 +913,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   }
  ]
 }
