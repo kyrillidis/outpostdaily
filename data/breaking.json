@@ -1,25 +1,25 @@
 {
- "updated": "2026-10-22T14:53:36.255Z",
+ "updated": "2026-10-22T15:00:39.410Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 1
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 4
+   "n": 10
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
@@ -37,14 +37,9 @@
    "n": 15
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -52,7 +47,7 @@
    "n": 12
   },
   {
-   "name": "X cyber",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -62,19 +57,24 @@
    "n": 7
   },
   {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 503"
   },
   {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X redteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,109 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 15
   }
  ],
  "items": [
+  {
+   "id": "x2113284310207807588",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@CrowdStrike",
+   "title": "George Kurtz, CrowdStrike CEO and Co-Founder, joins Sarah Guo and Elad Gil on No Priors to discuss the rise of the Agent-State, the shifting balance between offense and defense, and why the future of cybersecurity depends on giving…",
+   "url": "https://x.com/CrowdStrike/status/2113284310207807588",
+   "published": "2026-10-22T15:00:17.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113284305212334319",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Blackstone President Jon Gray pushed back on the notion that there’s an AI bubble, just days after billionaire Ken Griffin said investors are “almost certainly” in the midst of one",
+   "url": "https://x.com/business/status/2113284305212334319",
+   "published": "2026-10-22T15:00:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113284266528243906",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "\"Not To My Knowledge\": Ilhan Omar Can't Quite Rule Out Marrying Her Brother In Wild Interview... And Trump Noticed",
+   "url": "https://x.com/zerohedge/status/2113284266528243906",
+   "published": "2026-10-22T15:00:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113283898298052646",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "SPACEXSI LAUNCHES SPACEX SUPER INTELLIGENCE PARTNER NETWORK FOR COMPANIES BUILDING WITH GROK",
+   "url": "https://x.com/FirstSquawk/status/2113283898298052646",
+   "published": "2026-10-22T14:58:38.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113283878932615185",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨 “Header Accordions” attack can overwhelm HTTP/3 servers with a single connection FoxIO researchers found that QPACK compression can be abused to make a small HTTP/3 HEADERS frame expand into hundreds of thousands of header objects in…",
+   "url": "https://x.com/DarkWebInformer/status/2113283878932615185",
+   "published": "2026-10-22T14:58:34.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113283745042079866",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Nigeria expects its federal fiscal deficit to come in below target this year",
+   "url": "https://x.com/business/status/2113283745042079866",
+   "published": "2026-10-22T14:58:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113283484336918706",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "BREAKING: Major U.S. banks are detecting unauthorized third-party AI agents operating inside customer accounts, with some agents attempting to take actions that appear to be independent of user instructions, per Axios",
+   "url": "https://x.com/unusual_whales/status/2113283484336918706",
+   "published": "2026-10-22T14:57:00.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113283044677444026",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*CANADA BANS ITS DIPLOMATS FROM BEING SEEN WITH US CANDIDATES",
+   "url": "https://x.com/zerohedge/status/2113283044677444026",
+   "published": "2026-10-22T14:55:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113282988205052181",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Michigan’s high-stakes Senate race between Democrat Abdul El-Sayed and Republican Mike Rogers is becoming an all-out, last-ditch sprint to win over wavering party faithful on both sides of the aisle",
+   "url": "https://x.com/business/status/2113282988205052181",
+   "published": "2026-10-22T14:55:01.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113282360863035845",
    "kind": "x",
