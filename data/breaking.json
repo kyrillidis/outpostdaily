@@ -1,13 +1,18 @@
 {
- "updated": "2026-10-22T18:09:00.679Z",
+ "updated": "2026-10-22T18:11:03.088Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 4
   },
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -15,11 +20,6 @@
    "name": "The Record",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
   },
   {
    "name": "The DFIR Report",
@@ -32,29 +32,29 @@
    "n": 2
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 6
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "X cyber",
@@ -63,8 +63,8 @@
   },
   {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "ransomware.live",
@@ -89,20 +89,53 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 17
+   "n": 13
   }
  ],
  "items": [
+  {
+   "id": "x2113332418430251319",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "Trade smarter with IBKR's write & rollover options tool. Your edge isn't understanding covered calls, it's managing them efficiently. Start trading smarter with IBKR's write & rollover options tool. Paid post with @IBKR Ad. Learn more:",
+   "url": "https://x.com/unusual_whales/status/2113332418430251319",
+   "published": "2026-10-22T18:11:27.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113332074438389871",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Satellite maker Apex is in talks for a new funding round at a roughly $4 billion valuation, sources say, nearly doubling its value from a prior round in June.",
+   "url": "https://x.com/business/status/2113332074438389871",
+   "published": "2026-10-22T18:10:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113331988560035845",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "TRUMP ASKS MUSK TO RESTORE UKRAINE'S STARLINK CAPABILITIES Trump reportedly called Elon Musk and urged him to lift restrictions on Ukraine's military-grade Starlink service, according to the Wall Street Journal. The speed cap had limited…",
+   "url": "https://x.com/DeItaone/status/2113331988560035845",
+   "published": "2026-10-22T18:09:44.000Z",
+   "severity": "high",
+   "verified": false
+  },
   {
    "id": "x2113331872306463058",
    "kind": "x",
@@ -110,6 +143,17 @@
    "source": "@zerohedge",
    "title": "*NASDAQ 100 EXTENDS DECLINE TO 3%, S&P 500 DOWN 1.5%",
    "url": "https://x.com/zerohedge/status/2113331872306463058",
+   "published": "2026-10-22T18:09:16.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113331869387272548",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@BleepinComputer",
+   "title": "Get 2TB of cloud storage with zero-knowledge encryption for $59",
+   "url": "https://x.com/BleepinComputer/status/2113331869387272548",
    "published": "2026-10-22T18:09:16.000Z",
    "severity": "normal",
    "verified": false
@@ -3357,50 +3401,6 @@
    "url": "https://x.com/DailyDarkWeb/status/2113246429221453902",
    "published": "2026-10-22T12:29:45.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113246344496181573",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheRecord_Media",
-   "title": "The Russian state-linked hacking group Sandworm collaborated with another threat actor to carry out a destructive cyberattack against a Ukrainian grain logistics company last year, researchers found",
-   "url": "https://x.com/TheRecord_Media/status/2113246344496181573",
-   "published": "2026-10-22T12:29:25.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n51c5e7e4d9",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
-   "url": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
-   "published": "2026-10-22T12:22:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nec99b1cdf4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-   "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-   "published": "2026-10-22T12:20:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113242964973539633",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@H4ckmanac",
-   "title": "🚨Cyber Alert ‼️ 🇦🇪UAE - 𝗜𝘀𝘁𝗮𝗻𝗯𝘂𝗹 𝗙𝗼𝗼𝗱𝘀𝘁𝘂𝗳𝗳 𝗧𝗿𝗮𝗱𝗶𝗻𝗴 𝗖𝗼 𝗟𝗟𝗖 LockBit 5.0 ransomware group claims to have breached Istanbul Foodstuff Trading Co LLC.. Threat actor: LockBit 5.0 Sector: Wholesale / Retail Data…",
-   "url": "https://x.com/H4ckmanac/status/2113242964973539633",
-   "published": "2026-10-22T12:15:59.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
