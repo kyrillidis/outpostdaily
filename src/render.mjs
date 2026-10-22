@@ -97,7 +97,7 @@ function entry(it, { n, lvl = 3, lead = false }) {
   ${storyImage(it) ? photoHtml({ ...it, image: storyImage(it) }) : ''}
   <div class="entry-body">
     <h${lvl} class="entry-title"><span class="entry-no" aria-hidden="true">${String(n).padStart(2, '0')}</span><a href="${href(it.url)}" target="_blank" rel="noopener">${esc(it.title)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only"> (opens the original article)</span></a></h${lvl}>
-    <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}">${dMid(it.published)}</time>${corr}</p>
+    <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}" data-rel>${dMid(it.published)}</time>${corr}</p>
     <p class="entry-sum">${esc(it.summary)}</p>
     ${it.why ? `<p class="entry-why"><span class="why-label">${WHY_LABEL[it.section]}</span>${esc(it.why)}</p>` : ''}
     ${tagList(it)}
@@ -265,9 +265,9 @@ function breakingHtml() {
       (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${rest.length ? `<details class="panel-more"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show ${rest.length} more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
   };
   return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.' }) +
-    `<nav class="dash-nav" aria-label="Dashboard panels">${PANELS.map((p) => `<a href="#${p.id}">${p.title}<span class="dash-count">${by(p.group).length}</span></a>`).join('')}</nav>` +
-    `<dl class="dash-stats"><div><dt>Last change</dt><dd>${breaking.updated ? `${hhmm(breaking.updated)} UTC` : '—'}</dd></div><div><dt>Items, 72 h</dt><dd>${breaking.items.length}</dd></div><div><dt>High signal</dt><dd>${high}</dd></div><div><dt>Sources responding</dt><dd>${health.length - down.length}/${health.length}</dd></div></dl>` +
-    ad('top') + `<div class="dash">${PANELS.map(panel).join('')}</div>` +
+    `<nav class="dash-nav" aria-label="Dashboard panels">${PANELS.map((p) => `<a href="#${p.id}">${p.title}<span class="dash-count" data-count="${p.group}">${by(p.group).length}</span></a>`).join('')}</nav>` +
+    `<dl class="dash-stats"><div><dt>Last change</dt><dd data-stat="updated">${breaking.updated ? `${hhmm(breaking.updated)} UTC` : '—'}</dd></div><div><dt>Items, 72 h</dt><dd data-stat="items">${breaking.items.length}</dd></div><div><dt>High signal</dt><dd data-stat="high">${high}</dd></div><div><dt>Sources responding</dt><dd data-stat="sources">${health.length - down.length}/${health.length}</dd></div></dl>` +
+    ad('top') + `<div class="dash" data-updated="${esc(breaking.updated ?? '')}">${PANELS.map(panel).join('')}</div>` +
     `<p class="sec-sub">${down.length ? `Not responding at the last check: ${down.map((h) => esc(h.name)).join(', ')}. ` : 'All sources responded at the last check. '}Items marked Unverified are third-party claims.</p>`;
 }
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
@@ -306,6 +306,7 @@ function render({ ed, route, main, title, desc, path, crumbs = [], list = [], ar
     PROMO: promoHtml(),
     FOOTER_COLS: footerCols,
     EDITION: ed.edition,
+    BUILD: ed.compiled,
     LIVE: String(live),
     COMPILED: `${hhmm(ed.compiled)} UTC · ${dLong(ed.compiled)}`,
     META_TODAY: `${ok} sources · ${ed.items.length} stories · ${ed.kev.length} exploited CVEs`,
@@ -441,4 +442,5 @@ writeFileSync(out + 'sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<url
   [...ROUTES.map((r) => u(r.path, latest.date, r.id === 'toolbox' ? 'monthly' : 'daily', priorityFor(r.path))),
    ...PAGES.map((p) => u(p.path, latest.date, p.id === 'glossary' ? 'monthly' : 'yearly', priorityFor(p.path))),
    ...dates.map((d) => u(`/archive/${d}.html`, d, 'never', '0.4'))].join('\n') + '\n</urlset>\n');
+writeFileSync(out + 'version.json', JSON.stringify({ edition: latest.edition, compiled: latest.compiled }) + '\n');
 console.log(`rendered ${ROUTES.length} routes, ${PAGES.length} pages, ${editions.length} edition(s); latest ${latest.date} (Ed. ${latest.edition}); photos ${Object.keys(images).length}`);

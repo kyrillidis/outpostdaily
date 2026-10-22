@@ -189,4 +189,97 @@
     var cur = $('.tabs [aria-current="page"]'), box = cur && cur.parentNode;
     if (box && box.scrollWidth > box.clientWidth) box.scrollLeft = Math.max(0, cur.offsetLeft - 16);
   })();
+
+  /* ---- live: relative times, "new edition" prompt, and the Breaking dashboard feed ---- */
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function relTimes() {
+    $$('time[data-rel]').forEach(function (t) {
+      var d = new Date(t.getAttribute('datetime')), m = Math.round((Date.now() - d.getTime()) / 6e4);
+      if (isNaN(m) || m < 0) return;
+      if (!t.title) t.title = d.toLocaleString();
+      if (m < 1440) t.textContent = m < 1 ? 'just now' : m < 60 ? m + ' min ago' : Math.floor(m / 60) + ' h ago';
+    });
+  }
+  relTimes();
+  setInterval(relTimes, 60000);
+
+  function visibleEvery(ms, fn) {
+    setInterval(function () { if (!doc.hidden) fn(); }, ms);
+    doc.addEventListener('visibilitychange', function () { if (!doc.hidden) fn(); });
+  }
+  function getJSON(url, ok) {
+    if (!window.fetch) return;
+    fetch(url, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j) ok(j); }).catch(function () {});
+  }
+
+  // A newer edition has been deployed: offer a refresh instead of yanking the page.
+  (function () {
+    var built = Date.parse(doc.body.getAttribute('data-build') || ''), shown = false;
+    if (isNaN(built) || doc.body.getAttribute('data-live') !== 'true') return;
+    function check() {
+      if (shown) return;
+      getJSON('/version.json?t=' + Date.now(), function (v) {
+        if (!(Date.parse(v.compiled) > built + 1000)) return;
+        shown = true;
+        var bar = doc.createElement('div'), btn = doc.createElement('button');
+        bar.className = 'live-banner'; bar.setAttribute('role', 'status');
+        bar.appendChild(doc.createTextNode('A new edition is live. '));
+        btn.type = 'button'; btn.className = 'btn'; btn.textContent = 'Refresh now';
+        btn.addEventListener('click', function () { location.reload(); });
+        bar.appendChild(btn);
+        var tabs = $('.tabs'); if (tabs && tabs.parentNode) tabs.parentNode.insertBefore(bar, tabs.nextSibling);
+      });
+    }
+    setTimeout(check, 30000);
+    visibleEvery(300000, check);
+  })();
+
+  // Breaking dashboard: re-render the panels when /api/breaking reports a newer update.
+  (function () {
+    var dash = $('.dash[data-updated]');
+    if (!dash) return;
+    var KIND = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' }, SHOWN = 6, MAX = 14;
+    function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+    function row(i) {
+      var d = new Date(i.published), li = el('li', 'brk'), tm = el('time', null, pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes())), main = el('div', 'brk-main'), line = el('p', 'brk-line'), title = el('p', 'brk-title'), a = el('a', null, i.title);
+      li.setAttribute('data-sev', i.severity); li.setAttribute('data-kind', i.kind);
+      tm.setAttribute('datetime', i.published); tm.appendChild(el('span', 'brk-day', d.getUTCDate() + ' ' + MON[d.getUTCMonth()]));
+      if (i.severity === 'high') { line.appendChild(el('span', 'chip chip-alert', 'High signal')); }
+      line.appendChild(el('span', 'brk-src', i.source)); line.appendChild(el('span', 'brk-kind', KIND[i.kind] || ''));
+      if (!i.verified) line.appendChild(el('span', 'brk-unv', 'Unverified'));
+      if (/^https?:\/\//.test(i.url)) { a.href = i.url; a.target = '_blank'; a.rel = 'noopener' + (i.kind === 'forum' ? ' nofollow ugc' : ''); }
+      a.appendChild(el('span', 'sr-only', ' (opens the original)')); title.appendChild(a);
+      main.appendChild(line); main.appendChild(title); li.appendChild(tm); li.appendChild(main);
+      return li;
+    }
+    function list(items) { var ol = el('ol', 'brk-list'); items.forEach(function (i) { ol.appendChild(row(i)); }); return ol; }
+    function render(data) {
+      var items = data.items || [], high = items.filter(function (i) { return i.severity === 'high'; }).length, health = data.health || [];
+      $$('.panel[data-group]', dash).forEach(function (p) {
+        var g = p.getAttribute('data-group'), all = items.filter(function (i) { return i.group === g; }), shown = all.slice(0, MAX);
+        $$('.brk-list, .panel-more, .panel-empty', p).forEach(function (n) { n.remove(); });
+        var d0 = all[0] ? new Date(all[0].published) : null, meta = $('.panel-meta', p);
+        if (meta) meta.textContent = all.length + ' in 72 h' + (d0 ? ' · latest ' + pad(d0.getUTCHours()) + ':' + pad(d0.getUTCMinutes()) + ' UTC' : '');
+        if (!shown.length) { p.appendChild(el('p', 'panel-empty', 'Nothing new in the last 72 hours from the sources that responded.')); return; }
+        p.appendChild(list(shown.slice(0, SHOWN)));
+        if (shown.length > SHOWN) {
+          var more = el('details', 'panel-more'), sum = el('summary', null, 'Show ' + (shown.length - SHOWN) + ' more');
+          more.appendChild(sum); more.appendChild(list(shown.slice(SHOWN))); p.appendChild(more);
+        }
+        var c = $('.dash-count[data-count="' + g + '"]'); if (c) c.textContent = all.length;
+      });
+      var u = data.updated ? new Date(data.updated) : null;
+      var stats = { updated: u ? pad(u.getUTCHours()) + ':' + pad(u.getUTCMinutes()) + ' UTC' : '—', items: items.length, high: high, sources: (health.filter(function (h) { return h.ok; }).length) + '/' + health.length };
+      Object.keys(stats).forEach(function (k) { var n = $('[data-stat="' + k + '"]'); if (n) n.textContent = stats[k]; });
+      dash.setAttribute('data-updated', data.updated || '');
+    }
+    function poll() {
+      getJSON('/api/breaking/', function (data) {
+        if (data.updated && data.updated !== dash.getAttribute('data-updated')) { render(data); recompute(); }
+      });
+    }
+    setTimeout(poll, 5000);
+    visibleEvery(60000, poll);
+  })();
 })();

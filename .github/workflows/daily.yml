@@ -1,8 +1,8 @@
-name: Daily edition
+name: Edition refresh
 
 on:
   schedule:
-    - cron: "17 4 * * *" # 04:17 UTC daily; off the :00 mark to dodge scheduler congestion
+    - cron: "17 */2 * * *" # every 2 hours at :17 (12 runs a day, so 12 deploys; Vercel Hobby allows 100)
   workflow_dispatch:
     inputs:
       force_ai:
@@ -11,7 +11,7 @@ on:
         default: false
 
 permissions:
-  contents: write # commit the new edition back; Vercel deploys on that push
+  contents: write # commit the new edition back
 
 concurrency:
   group: daily-edition
@@ -44,18 +44,22 @@ jobs:
           node --version
           npm run build
       - name: Commit edition
+        id: commit
         run: |
           git config user.name "outpost-bot"
           git config user.email "outpost-bot@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "edition: $(date -u +%F)"
+          git add data public/img/news
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; echo "no changes"; exit 0; fi
+          git commit -m "edition: $(date -u +%FT%H:%MZ)"
           git pull --rebase -q
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Deploy to Vercel
-        if: ${{ env.VERCEL_TOKEN != '' }}
+        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
         run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
-      - name: Notify search engines (IndexNow)
-        if: ${{ env.VERCEL_TOKEN != '' }}
+      - name: Notify search engines (IndexNow, once a day)
+        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */2 * * *') }}
         continue-on-error: true
-        run: sleep 30 && npm run build >/dev/null && node src/indexnow.mjs
+        run: |
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "04" ]; then echo "only the 04:xx UTC run pings"; exit 0; fi
+          sleep 30 && npm run build >/dev/null && node src/indexnow.mjs

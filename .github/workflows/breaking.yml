@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # commit data/breaking.json when something new arrives
+  contents: write # commit data/breaking.json when something new arrives. No deploy: the page reads it live through /api/breaking
 
 concurrency:
   group: breaking-watch
@@ -16,10 +16,6 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    env:
-      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-      VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -43,6 +39,3 @@ jobs:
           git pull --rebase -q
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
-      - name: Deploy to Vercel
-        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
-        run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"

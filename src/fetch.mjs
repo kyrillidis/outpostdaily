@@ -201,7 +201,8 @@ try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.me
 // Only unsummarised items go to the model. No new items + learn already written today => no call at all.
 const fresh = chosen.filter((i) => process.env.FORCE_AI || !cache[i.id]?.summary);
 let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [];
-if (fresh.length || !learn.length || process.env.FORCE_AI) {
+const MIN_FRESH = Number(process.env.MIN_FRESH ?? 3); // frequent runs: only call the model when a few new stories have piled up
+if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
   const ai = await summarise(fresh, chosen);
   if (ai) {
     const byId = new Map(chosen.map((i) => [i.id, i]));
@@ -217,7 +218,12 @@ if (fresh.length || !learn.length || process.env.FORCE_AI) {
 }
 
 for (const it of chosen) { const t = await thumbnail(it); if (t) it.image = t; }
-for (const f of readdirSync(ROOT + IMG_DIR)) if (now.getTime() - statSync(ROOT + IMG_DIR + f).mtimeMs > 30 * 864e5) unlinkSync(ROOT + IMG_DIR + f);
+// thumbnails live as long as an edition from the last 30 days uses them (file times mean nothing in a fresh CI checkout)
+{
+  const keep = new Set(chosen.map((i) => i.id)), oldest = new Date(now.getTime() - 30 * 864e5).toISOString().slice(0, 10);
+  for (const e of readdirSync(ROOT + 'data/editions')) if (e.slice(0, 10) >= oldest) for (const i of JSON.parse(readFileSync(ROOT + 'data/editions/' + e, 'utf8')).items) keep.add(i.id);
+  for (const t of readdirSync(ROOT + IMG_DIR)) if (!keep.has(t.replace(/\.webp$/, ''))) unlinkSync(ROOT + IMG_DIR + t);
+}
 const items = chosen.map(({ img, ...i }) => ({ ...i, ...(cache[i.id] ?? {}), summary: cache[i.id]?.summary || i.snippet.slice(0, 220), ai: !!cache[i.id]?.summary }));
 for (const k of Object.keys(cache)) if (cache[k].t && Date.parse(cache[k].t) < now.getTime() - 14 * 864e5) delete cache[k];
 
