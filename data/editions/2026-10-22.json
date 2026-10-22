@@ -1,9 +1,36 @@
 {
  "date": "2026-10-22",
  "edition": 220,
- "compiled": "2026-10-22T18:33:49.177Z",
+ "compiled": "2026-10-22T20:29:19.420Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "5d4f96d6ac",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "snippet": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+   "published": "2026-10-22T17:18:22.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
+    }
+   ],
+   "score": 1.88,
+   "image": "/img/news/5d4f96d6ac.webp",
+   "t": "2026-10-22",
+   "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
+   "why": "Check for affected On-Prem deployments and apply the security updates.",
+   "tags": [
+    "VeloCloud Orchestrator",
+    "zero-day",
+    "updates"
+   ],
+   "ai": true
+  },
   {
    "id": "c78f979136",
    "section": "cyber",
@@ -19,7 +46,7 @@
      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/"
     }
    ],
-   "score": 1.84,
+   "score": 1.8,
    "image": "/img/news/c78f979136.webp",
    "t": "2026-10-22",
    "summary": "Amazon Threat Intelligence says attackers targeted PHP2Shell flaws four days before security patches were released.",
@@ -31,198 +58,167 @@
    "ai": true
   },
   {
-   "id": "72b4f49443",
+   "id": "76d592eba3",
    "section": "cyber",
    "source": "CISA Advisories",
    "weight": 0.9,
-   "title": "Managing AI Token Consumption for Operational Resilience",
-   "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
-   "snippet": "<p>CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, <a href=\"https://www.cyber.gc.ca/en/guidance/managing-ai-token-consumption-operational-resilience-itsm00125\" target=\"_blank\"><em>Managing AI Token Consumption for Operational Resilience</em></a>, to help organizat",
+   "title": "Siemens SIMATIC S7 Webserver API",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-10.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write a",
    "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.76,
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "CISA, the Canadian Centre for Cyber Security and partners released joint guidance titled “Managing AI Token Consumption for Operational Resilience.”",
-   "why": "Review AI token consumption practices as part of operational resilience.",
+   "summary": "A CISA advisory says the .NET Client Library for the SIMATIC S7 Webserver API contains multiple vulnerabilities.",
+   "why": "Check whether your environment uses the library and review the advisory.",
    "tags": [
-    "AI",
-    "token consumption",
-    "resilience"
+    "SIMATIC S7",
+    "API",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "101af1ca8d",
+   "id": "941935f089",
    "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "EMudhra Intermediate CA Certificates Compromised",
-   "url": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
-   "snippet": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .",
-   "published": "2026-10-22T17:15:32.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availabili",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.67,
-   "image": "/img/news/101af1ca8d.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Unit 42 says eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and man-in-the-middle interception.",
-   "why": "Check certificate trust and follow the available containment guidance.",
+   "summary": "A CISA advisory says Siemens APOGEE, TALON and Desigo PXC/PXM products contain vulnerabilities that could allow an attacker to cause an unspecified effect.",
+   "why": "Identify affected products and consult the advisory for mitigation guidance.",
    "tags": [
-    "CA certificates",
-    "TLS",
-    "MitM"
+    "APOGEE",
+    "TALON",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "ca5fc9dc16",
+   "id": "0772ceb52e",
    "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "The Current Landscape of OAuth Attacks",
-   "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
-   "snippet": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .",
-   "published": "2026-10-22T17:00:25.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens RUGGEDCOM CROSSBOW",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-12.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve s",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.67,
-   "image": "/img/news/ca5fc9dc16.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Unit 42 explores current OAuth threats and steps organizations can take to protect their environments.",
-   "why": "Review OAuth defenses and check how applications and accounts use authorization.",
+   "summary": "A CISA advisory says RUGGEDCOM CROSSBOW contains vulnerabilities that could allow an attacker to execute something; the snippet does not specify what.",
+   "why": "Check for RUGGEDCOM CROSSBOW and review the advisory before deciding on mitigations.",
    "tags": [
-    "OAuth",
-    "attacks",
-    "protection"
+    "RUGGEDCOM CROSSBOW",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "5d4f96d6ac",
+   "id": "5afddfa520",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-   "snippet": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-   "published": "2026-10-22T17:18:22.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens RUGGEDCOM APE1808 Devices",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-18.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected ",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.57,
-   "image": "/img/news/5d4f96d6ac.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
-   "why": "Check for affected On-Prem deployments and apply the security updates.",
+   "summary": "A CISA advisory about Siemens RUGGEDCOM APE1808 Devices says Nozomi Networks published information on vulnerabilities in Nozomi Guardian/CMC.",
+   "why": "Check whether Nozomi Guardian/CMC is in use and consult the advisory.",
    "tags": [
-    "VeloCloud Orchestrator",
-    "zero-day",
-    "updates"
+    "RUGGEDCOM APE1808",
+    "Nozomi Guardian/CMC",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "2a5b06ac50",
+   "id": "a7c265353a",
    "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
-   "url": "https://therecord.media/china-cyber-connectwise-ai",
-   "snippet": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said.",
-   "published": "2026-10-22T16:30:00.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Edge App Publisher",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backen",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/2a5b06ac50.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Microsoft said a Chinese government-aligned group used automated tools in the ConnectWise supply chain attack and is using similar techniques to target organizations.",
-   "why": "Review exposure to ConnectWise and monitor for automated compromise attempts.",
+   "summary": "A CISA advisory says Siemens Industrial Edge App Publisher contains a vulnerability chain involving improper certificate handling.",
+   "why": "Review certificate handling in the affected product and consult the advisory.",
    "tags": [
-    "ConnectWise",
-    "supply chain",
-    "automated tools"
+    "Industrial Edge App Publishe",
+    "certificate"
    ],
    "ai": true
   },
   {
-   "id": "0563a66ccd",
+   "id": "605d531ea3",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-   "snippet": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
-   "published": "2026-10-22T15:49:32.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-11_test.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.54,
-   "image": "/img/news/0563a66ccd.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services API to fix Exchange Online apps that stopped working.",
-   "why": "Check whether affected apps depend on EWS before changing Exchange Online settings.",
+   "summary": "A CISA advisory says multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP.",
+   "why": "Check whether the listed CPU is deployed and review the advisory.",
    "tags": [
-    "Exchange Online",
-    "EWS",
-    "apps"
+    "SIMATIC S7-1500",
+    "GNU/Linux",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "92b876190d",
+   "id": "236815939a",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Machine speed attacks require machine speed detection and response",
-   "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-   "snippet": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
-   "published": "2026-10-22T14:02:12.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens WinCC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-13.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the da",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/92b876190d.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Exaforce says attackers can steal credentials and start data exfiltration within minutes, citing attacks involving GitHub tokens, malicious AI installers, and MFA phishing.",
-   "why": "Assess detection and response speed for credential theft and data exfiltration.",
+   "summary": "A CISA advisory says multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability.",
+   "why": "Check affected WinCC versions and review database privilege controls.",
    "tags": [
-    "credentials",
-    "detection",
-    "exfiltration"
+    "SIMATIC WinCC",
+    "database",
+    "privilege escalation"
    ],
    "ai": true
   },
   {
-   "id": "14aa600d7f",
+   "id": "08d39f89ec",
    "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Cybercrime crackdown across Africa leads to 1,462 arrests, $105 million seized",
-   "url": "https://therecord.media/africa-cybercrime-interpol-arrests",
-   "snippet": "More than 1,400 suspected cybercriminals were arrested across Africa this summer as part of a crackdown on the gangs perpetrating online fraud, ransomware and business email compromise attacks, Interpol said.",
-   "published": "2026-10-22T13:30:00.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Edge Device Kit",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-09.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Users of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Addi",
+   "published": "2026-10-22T12:00:00.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/14aa600d7f.webp",
+   "score": 1.72,
    "t": "2026-10-22",
-   "summary": "Interpol says a cybercrime crackdown across Africa led to more than 1,400 arrests and $105 million seized.",
-   "why": "Review protections against online fraud, ransomware, and business email compromise.",
+   "summary": "A CISA advisory tells users of Industrial Edge Devices to consult the respective security advisories.",
+   "why": "Find the relevant advisory for each Industrial Edge Device in use.",
    "tags": [
-    "Africa",
-    "ransomware",
-    "business email compromise"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f74ce17a74",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-   "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-   "snippet": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' cer",
-   "published": "2026-10-22T18:12:43.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/f74ce17a74.webp",
-   "t": "2026-10-22",
-   "summary": "eMudhra says its board decided to exit the global SSL/TLS certificate business after a researcher reported recovering eight easily guessable intermediate CA private keys.",
-   "why": "Check whether your systems trust affected certificates and plan for certificate replacement if needed.",
-   "tags": [
-    "SSL/TLS",
-    "intermediate CA keys"
+    "Industrial Edge Devices",
+    "Security Advisories"
    ],
    "ai": true
   },
@@ -241,7 +237,7 @@
      "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/"
     }
    ],
-   "score": 1.83,
+   "score": 1.79,
    "image": "/img/news/b8ce359a66.webp",
    "t": "2026-10-22",
    "summary": "The Pentagon and Lockheed agreed to a tentative F-35 framework covering production and sustainment over the next 10 years; lawmakers must still approve it.",
@@ -250,6 +246,50 @@
     "F-35",
     "production",
     "sustainment"
+   ],
+   "ai": true
+  },
+  {
+   "id": "335b5446e7",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Brothers in Arms, Partners in Healing: A Story about a Breakthrough in Treating Post-Traumatic Stress",
+   "url": "https://warontherocks.com/brothers-in-arms-partners-in-healing-a-story-about-a-breakthrough-in-treating-post-traumatic-stress/",
+   "snippet": "After losing fellow marines in Iraq, Jeff Lindquist struggled with post-traumatic stress that was steadily destroying his life. Years later, an innovative technology helped him reclaim it. This is the story of Jeff and Erik Won, two veterans who served together, and how efforts to help Jeff recover was the first step o",
+   "published": "2026-10-22T19:53:30.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/335b5446e7.webp",
+   "t": "2026-10-22",
+   "summary": "War on the Rocks tells the story of veterans Jeff Lindquist and Erik Won, and an innovative technology that helped Lindquist reclaim his life after post-traumatic stress.",
+   "why": "The story highlights technology's role in treating post-traumatic stress among veterans.",
+   "tags": [
+    "veterans",
+    "technology",
+    "post-traumatic stress"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d7979933b4",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time",
+   "url": "https://www.twz.com/sea/ground-launched-rusty-dagger-low-cost-cruise-missile-seen-for-the-first-time",
+   "snippet": "The first public look at the missile in a surface-launched configuration comes as its manufacturer expands production. The post Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time appeared first on TWZ .",
+   "published": "2026-10-22T20:09:51.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/d7979933b4.webp",
+   "t": "2026-10-22",
+   "summary": "The War Zone reports the first public look at the Rusty Dagger low-cost cruise missile in a surface-launched configuration, as its manufacturer expands production.",
+   "why": "A surface-launched configuration and expanding production are relevant to missile deployment and availability.",
+   "tags": [
+    "Rusty Dagger",
+    "cruise missile",
+    "surface-launched"
    ],
    "ai": true
   },
@@ -263,7 +303,7 @@
    "snippet": "The A-4 Skyhawk, first flown seven decades ago, is famed for its role as a Cold War 'red air' aggressor, and it lives on doing that mission to this day in Europe. The post A-4 ‘Super’ Skyhawks Playing The Bad Guys In European Skies appeared first on TWZ .",
    "published": "2026-10-22T18:30:26.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.56,
    "image": "/img/news/3748c70127.webp",
    "t": "2026-10-22",
    "summary": "The A-4 Skyhawk continues to fly red-air aggressor missions in Europe, according to The War Zone.",
@@ -284,7 +324,7 @@
    "snippet": "[Sponsored] As social media and AI amplify dis- and misinformation campaigns, effectively countering them requires a coordinated response.",
    "published": "2026-10-22T18:22:00.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.56,
    "image": "/img/news/b86b185b22.webp",
    "t": "2026-10-22",
    "summary": "A sponsored article says social media and AI amplify disinformation campaigns and argues that countering them requires a coordinated response.",
@@ -306,7 +346,7 @@
    "snippet": "Copenhagen said it would purchase Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm.",
    "published": "2026-10-22T17:18:00.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/53be2cf839.webp",
    "t": "2026-10-22",
    "summary": "Copenhagen said Denmark would purchase Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm.",
@@ -328,7 +368,7 @@
    "snippet": "Long Wall is matching the Missile Defense Agency’s funding with its own capital to continue development of the Cyclops, according to the company.",
    "published": "2026-10-22T16:08:18.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.51,
    "image": "/img/news/486f4d3087.webp",
    "t": "2026-10-22",
    "summary": "Long Wall is matching Missile Defense Agency funding with its own capital to continue developing the Cyclops interceptor, according to the company.",
@@ -350,7 +390,7 @@
    "snippet": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. In September, the AI company Anthropic published a blog post that claimed its models were approaching “superhuman capabilities for geolocating outdoor photos”. Anthropic made this claim by comparing its models’ performan",
    "published": "2026-10-22T11:06:57.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.5,
    "image": "/img/news/4ef41757ea.webp",
    "t": "2026-10-22",
    "summary": "Bellingcat tests report improvements in LLM geolocation, while the title emphasizes that humans remain key. The snippet cites an Anthropic claim about model capabilities.",
@@ -363,73 +403,106 @@
    "ai": true
   },
   {
-   "id": "62ded14225",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
-   "url": "https://breakingdefense.com/2026/10/navy-awards-applied-intuition-25m-to-deploy-ai-sensor-fusion-at-sea/",
-   "snippet": "The Intelligent Perception System will help sailors understand a flood of sensor feeds while collecting data to train improved AI models, the company said.",
-   "published": "2026-10-22T15:43:21.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/62ded14225.webp",
-   "t": "2026-10-22",
-   "summary": "The company says its Intelligent Perception System will help sailors make sense of many sensor feeds and collect data to train improved AI models.",
-   "why": "Sensor fusion can help crews interpret multiple feeds in maritime operations.",
-   "tags": [
-    "sensor fusion",
-    "AI",
-    "sea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c6e22271d1",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Construction Of Iran’s “Eagle 44” Underground Airbase Hasn’t Stopped Despite War",
-   "url": "https://www.twz.com/news-features/construction-of-irans-eagle-44-underground-airbase-hasnt-stopped-despite-war",
-   "snippet": "Satellite imagery depicts new construction and cleared wreckage after strikes at an Iranian airbase with underground hangars and taxiway tunnels. The post Construction Of Iran’s “Eagle 44” Underground Airbase Hasn’t Stopped Despite War appeared first on TWZ .",
-   "published": "2026-10-22T14:11:02.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/c6e22271d1.webp",
-   "t": "2026-10-22",
-   "summary": "Satellite imagery depicts new construction and cleared wreckage at Iran’s Eagle 44 airbase, which has underground hangars and taxiway tunnels.",
-   "why": "Imagery offers a view of construction and damage at an underground airbase.",
-   "tags": [
-    "satellite imagery",
-    "airbase",
-    "underground hangars"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3fbf4f000e",
+   "id": "1f0fed73c9",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Germany arrests Ukrainian man accused of spying for Russia",
-   "url": "https://www.aljazeera.com/news/2026/10/22/germany-arrests-ukrainian-man-accused-of-spying-for-russia?traffic_source=rss",
-   "snippet": "Military has raised the threat level of ​Russian sabotage against German troops and facilities.",
-   "published": "2026-10-22T14:36:06.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/germany-arrests-ukrainian-man-suspected-of-spying-for-russia/a-79732373?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.77,
-   "image": "/img/news/3fbf4f000e.webp",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Tannebaum interviewed on CNBC’s Squawk Box about the implications of the US-Russia diesel deal",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-interviewed-on-cnbcs-squawk-box-about-the-implications-of-the-us-russia-diesel-deal/",
+   "snippet": "Watch the full interview here The post Tannebaum interviewed on CNBC’s Squawk Box about the implications of the US-Russia diesel deal appeared first on Atlantic Council .",
+   "published": "2026-10-22T19:56:12.000Z",
+   "also": [],
+   "score": 1.59,
    "t": "2026-10-22",
-   "summary": "Germany arrested a Ukrainian man accused of spying for Russia; the military raised the threat level of Russian sabotage against German troops and facilities.",
-   "why": "The reported threat highlights security concerns around German military personnel and facilities.",
+   "summary": "The Atlantic Council says Tannebaum discussed the implications of the US-Russia diesel deal on CNBC’s Squawk Box.",
+   "why": "The deal connects US-Russia relations with diesel trade.",
    "tags": [
-    "Germany",
-    "spying",
-    "sabotage"
+    "US-Russia",
+    "diesel deal"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6da3301d7b",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Lichfield quoted in Semafor on lasting ceasefire between Russia and Ukraine",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/lichfield-quoted-in-semafor-on-lasting-ceasefire-between-russia-and-ukraine/",
+   "snippet": "Read the full article here The post Lichfield quoted in Semafor on lasting ceasefire between Russia and Ukraine appeared first on Atlantic Council .",
+   "published": "2026-10-22T19:50:48.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-10-22",
+   "summary": "The Atlantic Council says Lichfield was quoted in Semafor on a lasting ceasefire between Russia and Ukraine.",
+   "why": "A lasting ceasefire bears on the course of the Russia-Ukraine conflict.",
+   "tags": [
+    "Russia",
+    "Ukraine",
+    "ceasefire"
+   ],
+   "ai": true
+  },
+  {
+   "id": "312ffa0ccf",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Fried quoted in The New Yorker article on Trump’s surprise pivot towards Russia",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/fried-quoted-in-the-new-yorker-article-on-trumps-surprise-pivot-towards-russia/",
+   "snippet": "Read the full article here The post Fried quoted in The New Yorker article on Trump’s surprise pivot towards Russia appeared first on Atlantic Council .",
+   "published": "2026-10-22T19:48:37.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-10-22",
+   "summary": "The Atlantic Council says Fried was quoted in The New Yorker on Trump’s surprise pivot towards Russia.",
+   "why": "The pivot is relevant to US relations with Russia.",
+   "tags": [
+    "Russia",
+    "US relations"
+   ],
+   "ai": true
+  },
+  {
+   "id": "506de0edd9",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Lichfield quoted in Foreign Policy article on the longevity of European support for Ukraine’s defense",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/lichfield-quoted-in-foreign-policy-article-on-the-longevity-of-european-support-for-ukraines-defense/",
+   "snippet": "Read the full article here The post Lichfield quoted in Foreign Policy article on the longevity of European support for Ukraine’s defense appeared first on Atlantic Council .",
+   "published": "2026-10-22T19:47:44.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-10-22",
+   "summary": "The Atlantic Council says Lichfield was quoted in Foreign Policy on how long European support for Ukraine’s defense may last.",
+   "why": "The longevity of European support is strategically relevant to Ukraine’s defense.",
+   "tags": [
+    "Europe",
+    "Ukraine",
+    "defense"
+   ],
+   "ai": true
+  },
+  {
+   "id": "063ade5031",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "The US-Israel relationship needs a reset. Here’s how to do it.",
+   "url": "https://www.atlanticcouncil.org/dispatches/the-us-israel-relationship-needs-a-reset-heres-how-to-do-it/",
+   "snippet": "A new Israeli government could offer a chance to reset strained relations with Washington. The post The US-Israel relationship needs a reset. Here’s how to do it. appeared first on Atlantic Council .",
+   "published": "2026-10-22T19:37:36.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/063ade5031.webp",
+   "t": "2026-10-22",
+   "summary": "The Atlantic Council argues that a new Israeli government could offer a chance to reset strained relations with Washington.",
+   "why": "The US-Israel relationship is strategically relevant to both countries.",
+   "tags": [
+    "US-Israel",
+    "Washington",
+    "relations"
    ],
    "ai": true
   },
@@ -443,7 +516,7 @@
    "snippet": "Leaders are debating what to call it—rather than what to do.",
    "published": "2026-10-22T18:26:54.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.56,
    "image": "/img/news/0279d44901.webp",
    "t": "2026-10-22",
    "summary": "Foreign Policy says European leaders are debating what to call Russia’s hybrid war rather than what to do about it.",
@@ -465,7 +538,7 @@
    "snippet": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
    "published": "2026-10-22T17:12:51.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/fff85f9e98.webp",
    "t": "2026-10-22",
    "summary": "Websites went offline after PHP developers said critical vulnerabilities had been discovered, prompting a race to update services’ computer systems.",
@@ -487,7 +560,7 @@
    "snippet": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
    "published": "2026-10-22T17:07:03.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/17be196275.webp",
    "t": "2026-10-22",
    "summary": "Merz said Germany is a target of intensive espionage after a Ukrainian man was arrested on suspicion of spying for Russia.",
@@ -496,93 +569,6 @@
     "Germany",
     "espionage",
     "Russia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fb3bc42b72",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
-   "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
-   "published": "2026-10-22T15:56:36.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/fb3bc42b72.webp",
-   "t": "2026-10-22",
-   "summary": "Raghad and Raad’s family fled on foot because of fighting between pro-government forces and the Houthis, as the newborn twins face Yemen’s hunger crisis.",
-   "why": "The item describes how conflict and displacement intersect with hunger in Yemen.",
-   "tags": [
-    "Yemen",
-    "fighting",
-    "hunger"
-   ],
-   "ai": true
-  },
-  {
-   "id": "42ced19a5a",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-   "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
-   "published": "2026-10-22T13:46:33.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/42ced19a5a.webp",
-   "t": "2026-10-22",
-   "summary": "Authorities say two people were killed in a Houthi attack on an airport in eastern Saudi Arabia, part of a series targeting sites in the kingdom.",
-   "why": "Repeated attacks on airports and other sites have regional security significance.",
-   "tags": [
-    "Houthi",
-    "Saudi Arabia",
-    "airport"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c6528b89d8",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israel frees suspects in two settler attacks as West Bank pogroms intensify",
-   "url": "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify?traffic_source=rss",
-   "snippet": "Israeli court releases nine settler suspects over West Bank attacks as investigations into recent assaults continue.",
-   "published": "2026-10-22T18:17:29.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/c6528b89d8.webp",
-   "t": "2026-10-22",
-   "summary": "Al Jazeera reports an Israeli court released nine settler suspects over West Bank attacks as investigations into recent assaults continue.",
-   "why": "The releases and continuing investigations are relevant to the security situation in the West Bank.",
-   "tags": [
-    "West Bank",
-    "settler attacks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b1e85441dd",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
-   "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss",
-   "snippet": "The US has pushed back on the IRGC's claims, dismissing them as an attempt to increase oil prices ahead of US elections.",
-   "published": "2026-10-22T17:58:04.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/b1e85441dd.webp",
-   "t": "2026-10-22",
-   "summary": "Iran says seven ships were hit in the Hormuz Strait and warns of a wider response; the US disputes the claims.",
-   "why": "The competing claims concern security in the strategically significant Hormuz Strait.",
-   "tags": [
-    "Hormuz Strait",
-    "Iran",
-    "US"
    ],
    "ai": true
   }
@@ -734,34 +720,34 @@
   }
  ],
  "run_today": [
-  "Review systems and trust stores for reliance on eMudhra certificates.",
-  "Check certificate inventories and identify certificates that may need replacement.",
-  "Verify certificate renewal and replacement procedures are ready to use."
+  "Inventory Siemens SIMATIC S7 Webserver API libraries and review the CISA advisory.",
+  "Check for Siemens Industrial Edge App Publisher and examine the advisory’s certificate-handling guidance.",
+  "Identify deployed SIMATIC WinCC versions and review database privilege controls against the advisory."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "intermediate CA key",
-   "explainer": "An intermediate CA key is a private key used by a certificate authority between its root authority and issued certificates. Protecting it helps preserve trust in certificates it signs.",
-   "from_id": "f74ce17a74",
-   "from": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-   "fromSource": "The Hacker News"
+   "term": "privilege escalation",
+   "explainer": "Privilege escalation is when a flaw can let a user or process gain higher-level permissions than intended. The SIMATIC WinCC advisory mentions a database privilege escalation vulnerability.",
+   "from_id": "236815939a",
+   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "red air",
-   "explainer": "Red air refers to aircraft acting as simulated adversaries in training. The A-4 Skyhawk is described as continuing this aggressor role in Europe.",
-   "from_id": "3748c70127",
-   "from": "https://www.twz.com/air/a-4-super-skyhawks-playing-the-bad-guys-in-european-skies",
+   "term": "surface-launched",
+   "explainer": "Surface-launched describes a missile configuration in which the missile is launched from a surface platform rather than from the air. The Rusty Dagger item describes this configuration.",
+   "from_id": "d7979933b4",
+   "from": "https://www.twz.com/sea/ground-launched-rusty-dagger-low-cost-cruise-missile-seen-for-the-first-time",
    "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "hybrid war",
-   "explainer": "Hybrid war is a term used for conflict discussed as something beyond a conventional military contest. The item focuses on Europe’s debate about how to respond to Russia’s hybrid war.",
-   "from_id": "0279d44901",
-   "from": "https://foreignpolicy.com/2026/10/22/europe-russia-hybrid-war-escalation/",
-   "fromSource": "Foreign Policy"
+   "term": "ceasefire",
+   "explainer": "A ceasefire is an agreement or arrangement to stop fighting. The item refers to discussion of a lasting ceasefire between Russia and Ukraine.",
+   "from_id": "6da3301d7b",
+   "from": "https://www.atlanticcouncil.org/insight-impact/in-the-news/lichfield-quoted-in-semafor-on-lasting-ceasefire-between-russia-and-ukraine/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "health": [
@@ -769,7 +755,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 21
   },
   {
    "name": "Krebs on Security",
@@ -829,7 +815,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Schneier on Security",
@@ -841,13 +827,13 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Breaking Defense",
@@ -865,7 +851,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 11
+   "n": 12
   },
   {
    "name": "Naval News",
@@ -901,13 +887,13 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "Foreign Policy",
@@ -949,13 +935,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   }
  ]
 }
