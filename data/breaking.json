@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-22T17:48:32.604Z",
+ "updated": "2026-10-22T17:55:32.967Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BleepingComputer",
@@ -17,27 +27,12 @@
    "n": 3
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
    "ok": true,
    "n": 6
   },
@@ -47,9 +42,9 @@
    "n": 10
   },
   {
-   "name": "Dark Reading",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "SecurityWeek",
@@ -57,17 +52,22 @@
    "n": 4
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "ransomware.live",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "ransomware.live",
+   "name": "X cyber",
    "ok": true,
    "n": 1
   },
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 6
+   "n": 8
   }
  ],
  "items": [
+  {
+   "id": "x2113328288546320562",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "In today’s India Edition, Siddhi Nayak looks at recent cyberattacks on India’s leading banks.",
+   "url": "https://x.com/business/status/2113328288546320562",
+   "published": "2026-10-22T17:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113327869661446513",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "FEDERAL COMMUNICATIONS COMMISSION BLOCKS TWO DEVICES FROM THE US MARKET THAT CONTAIN CHINESE-MADE SURVEILLANCE CHIPS PRODUCED BY A SUBSIDIARY OF HUAWEI - AGENCY",
+   "url": "https://x.com/FirstSquawk/status/2113327869661446513",
+   "published": "2026-10-22T17:53:22.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113327776027852930",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "$MRNA is down 24% today to $187. The GEX heatmap shows a huge negative gamma wall at $200. Dealers there could add fuel to moves, so $200 is now the level to reclaim. Small positive gamma sits at $187.50 and $180, which could act as…",
+   "url": "https://x.com/unusual_whales/status/2113327776027852930",
+   "published": "2026-10-22T17:53:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113327034726244470",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The developer behind AT&T’s new global headquarters in Plano, Texas, is seeking to raise about $3.5 billion via a niche form of financing to fund construction of the sprawling corporate campus",
+   "url": "https://x.com/business/status/2113327034726244470",
+   "published": "2026-10-22T17:50:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113326799467720990",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Virginia Governor Seeks 6-Year Rate-Freeze If Dominion-NextEra Merger Is Approved",
+   "url": "https://x.com/zerohedge/status/2113326799467720990",
+   "published": "2026-10-22T17:49:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113326771781144923",
    "kind": "x",
@@ -112,6 +167,17 @@
    "url": "https://x.com/DeItaone/status/2113326771781144923",
    "published": "2026-10-22T17:49:00.000Z",
    "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113326738302435509",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheHackersNews",
+   "title": "‼️ 3.2M secrets exposed. Source code stolen. Critical server takeover flaws. A bug that could keep your mic live after hang-up. And that's still not the full picture. This week's #ThreatsDay goes beyond the major headlines, covering 25…",
+   "url": "https://x.com/TheHackersNews/status/2113326738302435509",
+   "published": "2026-10-22T17:48:52.000Z",
+   "severity": "normal",
    "verified": false
   },
   {
@@ -3336,72 +3402,6 @@
    "published": "2026-10-22T11:35:55.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "n49b6fa6bfc",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.",
-   "url": "https://www.marketwatch.com/story/mideast-oil-exports-are-recovering-fresh-attacks-in-saudi-arabia-show-risks-remain-1473391a?mod=mw_rss_topstories",
-   "published": "2026-10-22T11:35:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113232275659743740",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "The Iranian Islamic Revolutionary Guard Corps-Navy (IRGC-N) has claimed responsibility for attacks on seven vessels in the past day who Iran claims violated regulations for transiting the Strait of Hormuz. In a notable shift, the IRGC-N…",
-   "url": "https://x.com/sentdefender/status/2113232275659743740",
-   "published": "2026-10-22T11:33:31.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113231374291533874",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🚨 GITLAB CRITICAL PATCH: CVSS 10.0 UNAUTHENTICATED RCE IN SELF-MANAGED CE/EE (CVE-2026-110264) GitLab released a critical patch on Oct 21, 2026 and urges all self-managed installations to upgrade immediately. What's reported: •…",
-   "url": "https://x.com/DailyDarkWeb/status/2113231374291533874",
-   "published": "2026-10-22T11:29:56.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nfaa3ce2ed8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "France reports first human Shamonda virus case, says no health risk",
-   "url": "https://www.aljazeera.com/news/2026/10/22/france-reports-first-human-shamonda-virus-case-says-no-health-risk?traffic_source=rss",
-   "published": "2026-10-22T11:28:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113229957040336907",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🛑 Railway reports a security incident involving systems storing customer environment variables. An unauthorized party may have accessed encrypted secrets and, in some cases, decrypted contents. Railway has invalidated API tokens and…",
-   "url": "https://x.com/TheHackersNews/status/2113229957040336907",
-   "published": "2026-10-22T11:24:18.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n4a2e0e9e8c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "At least four dead after storm brings flooding to southern France",
-   "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-22T11:23:16.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
