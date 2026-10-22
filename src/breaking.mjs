@@ -20,6 +20,7 @@ const sha = (s) => createHash('sha1').update(s).digest('hex').slice(0, 10);
 const critical = new RegExp(cfg.critical, 'i');
 const criticalOther = new RegExp(cfg.criticalOther, 'i');
 const interest = new RegExp(cfg.forumInterest, 'i');
+const crisisRel = new RegExp(cfg.crisisRelevant, 'i');
 const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 const sevOf = (t, group = 'cyber') => (({ cyber: critical, redteam: critical, blueteam: critical, darkweb: critical }[group] ?? criticalOther).test(t) ? 'high' : 'normal');
@@ -66,6 +67,7 @@ async function pullNews(src) {
     const when = new Date(txt(e.pubDate || e.published || e.updated));
     const title = strip(txt(e.title));
     if (!/^https?:\/\//.test(url) || !title || isNaN(when) || now - when > 6 * 3600e3 || when - now > 3600e3) continue; // only the last 6 h
+    if (src.group === 'crisis' && !crisisRel.test(title)) continue; // general world feeds: only conflict and security items reach the war room
     found.push({ id: 'n' + sha(url), kind: 'news', group: src.group ?? 'cyber', source: src.name, title, url, published: when.toISOString(), severity: sevOf(title, src.group), verified: true });
     n++;
   }

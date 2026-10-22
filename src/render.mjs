@@ -261,20 +261,39 @@ const editions = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.j
 for (const e of editions) for (const i of e.items) if (i.section === 'world') i.section = 'geo';
 if (!editions.length) { console.error('No editions in data/editions — run `npm run fetch` first.'); process.exit(1); }
 const breaking = json('data/breaking.json', { updated: null, items: [], health: [] });
-const GROUP_LABEL = { cyber: 'Cyber', redteam: 'Red team', blueteam: 'Blue team', darkweb: 'Dark web', crisis: 'Crisis & war', markets: 'Markets' };
+const crisisRel = new RegExp(json('config/breaking.json', {}).crisisRelevant ?? '$^', 'i');
+// general world-news items only belong in the war room when they are about conflict or security (older stored items included)
+breaking.items = breaking.items.filter((i) => !(i.group === 'crisis' && i.kind === 'news' && !crisisRel.test(i.title)));
 const KIND_LABEL = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' };
+// Dashboard panels, in reading order. `note` is shown under the panel title; `wide` panels span both columns.
+const PANELS = [
+  { group: 'crisis', id: 'war-room', title: 'War room', note: 'Conflict and crisis reports from OSINT accounts on X and wire outlets. Early reports are often revised.' },
+  { group: 'darkweb', id: 'dark-web', title: 'Dark web', note: 'Leak-site claims and public forum listings. These are claims by third parties, not confirmed incidents. Outpost links to them and never republishes leaked data.' },
+  { group: 'cyber', id: 'cyber', title: 'Cyber', note: 'Security researchers, advisories and security press.', wide: true },
+  { group: 'redteam', id: 'red-team', title: 'Red team', note: 'Offensive research and tooling from practitioners on X.' },
+  { group: 'blueteam', id: 'blue-team', title: 'Blue team', note: 'Detection, DFIR and threat-intel from defenders.' },
+  { group: 'markets', id: 'markets', title: 'Markets', note: 'Market-moving headlines, relevant when conflict or cyber events hit prices.', wide: true },
+];
+const SHOWN = 6;
 function breakingHtml() {
-  const list = breaking.items;
-  const row = (i) => `<li class="brk" data-sev="${i.severity}" data-kind="${i.kind}"><time datetime="${i.published}">${hhmm(i.published)} UTC<span class="brk-day">${dDay(i.published)}</span></time><div class="brk-main"><p class="brk-line">${i.severity === 'high' ? '<span class="chip chip-alert">High signal</span> ' : ''}<span class="chip chip-kind">${GROUP_LABEL[i.group] ?? 'Cyber'} · ${KIND_LABEL[i.kind]}</span>${i.verified ? '' : ' <span class="brk-unv">Unverified</span>'} <span class="brk-src">${esc(i.source)}</span></p><p class="brk-title"><a href="${href(i.url)}" target="_blank" rel="noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}">${esc(i.title)}<span class="sr-only"> (opens the original)</span></a></p></div></li>`;
-  const down = (breaking.health ?? []).filter((h) => !h.ok);
-  return secHead({ title: 'Breaking', sub: 'Fast-moving incidents, crises and market moves from security researchers on X (red and blue team), security and world news outlets, ransomware leak-site trackers and public forum listings. Checked every five minutes. Anything marked Unverified is a claim by a third party, not a confirmed incident; Outpost links to it and does not republish leaked data.' }) + ad('top') +
-    (list.length ? `<ol class="brk-list">${list.map(row).join('')}</ol>` : '<p class="sec-sub">Nothing new in the last 72 hours from the sources that responded.</p>') +
-    `<p class="sec-sub">${breaking.updated ? `Last change ${hhmm(breaking.updated)} UTC, ${dLong(breaking.updated)}.` : ''}${down.length ? ` Not responding: ${down.map((h) => esc(h.name)).join(', ')}.` : ''}</p>`;
+  const row = (i) => `<li class="brk" data-sev="${i.severity}" data-kind="${i.kind}"><time datetime="${i.published}">${hhmm(i.published)}<span class="brk-day">${dDay(i.published)}</span></time><div class="brk-main"><p class="brk-line">${i.severity === 'high' ? '<span class="chip chip-alert">High signal</span> ' : ''}<span class="brk-src">${esc(i.source)}</span> <span class="brk-kind">${KIND_LABEL[i.kind]}</span>${i.verified ? '' : ' <span class="brk-unv">Unverified</span>'}</p><p class="brk-title"><a href="${href(i.url)}" target="_blank" rel="noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}">${esc(i.title)}<span class="sr-only"> (opens the original)</span></a></p></div></li>`;
+  const by = (g) => breaking.items.filter((i) => i.group === g);
+  const health = breaking.health ?? [], down = health.filter((h) => !h.ok), high = breaking.items.filter((i) => i.severity === 'high').length;
+  const panel = (p) => {
+    const list = by(p.group), top = list.slice(0, SHOWN), rest = list.slice(SHOWN);
+    return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${list.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>` +
+      (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${rest.length ? `<details class="panel-more"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show ${rest.length} more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
+  };
+  return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.', art: bannerFor('breaking') }) +
+    `<nav class="dash-nav" aria-label="Dashboard panels">${PANELS.map((p) => `<a href="#${p.id}">${p.title}<span class="dash-count">${by(p.group).length}</span></a>`).join('')}</nav>` +
+    `<dl class="dash-stats"><div><dt>Last change</dt><dd>${breaking.updated ? `${hhmm(breaking.updated)} UTC` : '—'}</dd></div><div><dt>Items, 72 h</dt><dd>${breaking.items.length}</dd></div><div><dt>High signal</dt><dd>${high}</dd></div><div><dt>Sources responding</dt><dd>${health.length - down.length}/${health.length}</dd></div></dl>` +
+    ad('top') + `<div class="dash">${PANELS.map(panel).join('')}</div>` +
+    `<p class="sec-sub">${down.length ? `Not responding at the last check: ${down.map((h) => esc(h.name)).join(', ')}. ` : 'All sources responded at the last check. '}Items marked Unverified are third-party claims.</p>`;
 }
 const breakingStrip = () => {
   const top = breaking.items.filter((i) => i.severity === 'high').slice(0, 4);
   if (!top.length) return '';
-  return `<aside class="brk-strip" aria-label="Breaking"><h2 class="brk-strip-h"><a href="/breaking/">Breaking</a></h2><ul>${top.map((i) => `<li><time datetime="${i.published}">${hhmm(i.published)}</time> <a href="${href(i.url)}" target="_blank" rel="noopener">${esc(cut(i.title, 120))}</a> <span class="brk-src">${esc(i.source)}</span></li>`).join('')}</ul></aside>`;
+  return `<aside class="brk-strip" aria-label="Breaking"><h2 class="brk-strip-h"><a href="/breaking/">Breaking: open the dashboard</a></h2><ul>${top.map((i) => `<li><time datetime="${i.published}">${hhmm(i.published)}</time> <a href="${href(i.url)}" target="_blank" rel="noopener">${esc(cut(i.title, 120))}</a> <span class="brk-src">${esc(i.source)}</span></li>`).join('')}</ul></aside>`;
 };
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
 const toolbox = json('config/toolbox.json', { groups: [] });
@@ -343,7 +362,7 @@ function pageFor(ed, route) {
     vulns: { title: `Newly Exploited Vulnerabilities (CISA KEV) — ${d} | Outpost`, desc: cut(`The newest CVEs CISA lists as exploited in the wild, with CVSS scores and required actions: ${ed.kev.slice(0, 4).map((k) => k.cve).join(', ')} and more.`, 158), main: kevTable(ed.kev), list: ed.kev.map((k) => ({ title: `${k.cve}: ${k.vendor} ${k.product}`, url: k.url })) },
     warfare: { title: `Modern Warfare Technology News — ${d} | Outpost`, desc: cut(`Modern warfare technology today (${d}): ${heads('warfare', 3).join('; ')}. Drones, EW, missiles and defence systems, with sources.`, 158), main: sec('warfare', 'Modern Warfare Technology', 'Drones, electronic warfare, missiles, air defence and the systems behind the operations, from analysts, defence press and open-source investigators.'), list: secList('warfare', r.path) },
     geo: { title: `Geopolitics, Geodata & GNSS Security — ${d} | Outpost`, desc: cut(`Geopolitics and geospatial security for ${d}: ${heads('geo', 3).join('; ')}. Strategy, GNSS jamming, space and the geo wars, with sources.`, 158), main: sec('geo', 'Geopolitics &amp; Geodata', 'Strategy, geo wars, GNSS and satellite security: the contest over who sees and who controls the map.'), list: secList('geo', r.path) },
-    breaking: { title: `Breaking Cyber & Threat News — ${d} | Outpost`, desc: 'Fast-moving cyber incidents, ransomware claims and OSINT from security researchers, checked every five minutes, each linked to its source.', main: breakingHtml(), list: breaking.items.slice(0, 20).map((i) => ({ title: i.title, url: i.url })) },
+    breaking: { title: `Breaking Cyber & Threat News — ${d} | Outpost`, desc: 'Live dashboard of fast-moving cyber incidents, dark web leak claims, war-room OSINT and market moves, checked every five minutes and linked to source.', main: breakingHtml(), list: breaking.items.slice(0, 20).map((i) => ({ title: i.title, url: i.url })) },
     today: { title: `Today’s Top 5 & What to Learn — ${d} | Outpost`, desc: cut(`The five stories that matter on ${d}, a defender checklist, and today’s concepts explained: ${(ed.learn ?? []).map((l) => l.term).join(', ')}.`, 158), main: todayHtml(ed, ranked), list: ranked.slice(0, 5).map((i) => ({ title: i.title, url: `${SITE}${SECTION_ROUTE[i.section].path}#s-${i.id}` })) },
     toolbox: { title: 'OSINT Toolbox: Free Tools to Verify News Yourself | Outpost', desc: 'A curated list of free open-source intelligence tools for conflict mapping, flight and ship tracking, GNSS interference, threat intelligence and image verification.', main: toolboxHtml(toolbox), list: [] },
     archive: { title: 'Archive: Past Daily Briefings | Outpost', desc: 'Every past Outpost edition — daily cybersecurity, defence technology, geodata and geopolitics briefings.', main: archiveHtml(archiveRows), list: [] },
