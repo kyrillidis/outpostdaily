@@ -118,11 +118,16 @@
       <p class="coupon-note" aria-live="polite"></p>
     </form>
   </section>
-  <div class="bill">
-    <p class="bill-stamp">{{FOOTER_STAMP}}</p>
-    <ul class="footer-links">{{FOOTER_LINKS}}</ul>
-    <p class="bill-keys">Keyboard: <kbd>/</kbd> search · <kbd>j</kbd> <kbd>k</kbd> next / previous story · <kbd>s</kbd> switch Read / Scan</p>
-    <p class="bill-note">Illustrations are generated; any photographs are credited on the <a href="/about/">About</a> page. Summaries are written by AI from each source’s headline and snippet, so read the original before acting. <a href="/methodology/">How it works</a>.</p>
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <p class="foot-mark"><img src="/icon.svg" alt="" width="22" height="26">OUTPOST<span class="dot">.</span></p>
+      <p>A daily briefing on cybersecurity, defence technology and geopolitics, compiled from open sources.</p>
+    </div>
+    {{FOOTER_COLS}}
+  </div>
+  <div class="foot-base">
+    <p>{{FOOTER_STAMP}}</p>
+    <p class="foot-keys"><kbd>/</kbd> search · <kbd>j</kbd> <kbd>k</kbd> next / previous story · <kbd>s</kbd> Read / Scan</p>
   </div>
 </footer>
 </body>

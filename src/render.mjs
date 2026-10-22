@@ -254,14 +254,14 @@ const PANELS = [
   { group: 'blueteam', id: 'blue-team', title: 'Blue team', note: 'Detection, DFIR and threat-intel from defenders.' },
   { group: 'markets', id: 'markets', title: 'Markets', note: 'Market-moving headlines, relevant when conflict or cyber events hit prices.', wide: true },
 ];
-const SHOWN = 6;
+const SHOWN = 6, MAX_PER_PANEL = 14; // keeps the page light; the full 72 h window stays in data/breaking.json
 function breakingHtml() {
   const row = (i) => `<li class="brk" data-sev="${i.severity}" data-kind="${i.kind}"><time datetime="${i.published}">${hhmm(i.published)}<span class="brk-day">${dDay(i.published)}</span></time><div class="brk-main"><p class="brk-line">${i.severity === 'high' ? '<span class="chip chip-alert">High signal</span> ' : ''}<span class="brk-src">${esc(i.source)}</span> <span class="brk-kind">${KIND_LABEL[i.kind]}</span>${i.verified ? '' : ' <span class="brk-unv">Unverified</span>'}</p><p class="brk-title"><a href="${href(i.url)}" target="_blank" rel="noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}">${esc(i.title)}<span class="sr-only"> (opens the original)</span></a></p></div></li>`;
   const by = (g) => breaking.items.filter((i) => i.group === g);
   const health = breaking.health ?? [], down = health.filter((h) => !h.ok), high = breaking.items.filter((i) => i.severity === 'high').length;
   const panel = (p) => {
-    const list = by(p.group), top = list.slice(0, SHOWN), rest = list.slice(SHOWN);
-    return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${list.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>` +
+    const all = by(p.group), list = all.slice(0, MAX_PER_PANEL), top = list.slice(0, SHOWN), rest = list.slice(SHOWN);
+    return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${all.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>` +
       (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${rest.length ? `<details class="panel-more"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show ${rest.length} more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
   };
   return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.' }) +
@@ -279,8 +279,12 @@ const archiveRows = [
 ];
 const promo = site.promo;
 const promoHtml = () => (promo ? `<aside class="promo" aria-label="${esc(promo.name)}"><h2 class="promo-name">${esc(promo.name)}</h2><p class="promo-tag">${esc(promo.label)}</p><p class="promo-text">${esc(promo.text)}</p><a class="btn promo-cta" href="${esc(promo.url)}/?utm_source=outpost&amp;utm_medium=sidebar" target="_blank" rel="noopener">Try ${esc(promo.name)}<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><p class="promo-note">${esc(promo.name)} is made by Outpost’s publisher.</p></aside>` : '');
-const footerLinks = [['/about/', 'About'], ['/methodology/', 'Methodology'], ['/glossary/', 'Glossary'], ...(promo ? [[promo.url + '/?utm_source=outpost&utm_medium=footer', promo.name]] : []), ['/privacy/', 'Privacy'], ['/feed.xml', 'RSS'], [site.repo, 'Source code']]
-  .map(([h, t]) => `<li><a href="${esc(h)}">${t}</a></li>`).join('');
+const footCol = (title, links) => `<nav class="foot-col" aria-label="${title}"><h2>${title}</h2><ul>${links.map(([h, t, ext]) => `<li><a href="${esc(h)}"${ext ? ' target="_blank" rel="noopener"' : ''}>${t}</a></li>`).join('')}</ul></nav>`;
+const footerCols = [
+  footCol('Sections', ROUTES.map((x) => [x.path, x.nav])),
+  footCol('About', [['/about/', 'About Outpost'], ['/methodology/', 'Methodology'], ['/glossary/', 'Glossary'], ['/privacy/', 'Privacy']]),
+  footCol('Elsewhere', [...(promo ? [[promo.url + '/?utm_source=outpost&utm_medium=footer', promo.name, true]] : []), ['/feed.xml', 'RSS feed'], [site.repo, 'Source code', true]]),
+].join('');
 
 function render({ ed, route, main, title, desc, path, crumbs = [], list = [], article = false, live = true, wireBase, ldType, faq, terms, publishedTime }) {
   const ranked = [...ed.items].sort((a, b) => b.score - a.score);
@@ -300,7 +304,7 @@ function render({ ed, route, main, title, desc, path, crumbs = [], list = [], ar
     MAIN: main,
     AD_SIDEBAR: ad('sidebar'),
     PROMO: promoHtml(),
-    FOOTER_LINKS: footerLinks,
+    FOOTER_COLS: footerCols,
     EDITION: ed.edition,
     LIVE: String(live),
     COMPILED: `${hhmm(ed.compiled)} UTC · ${dLong(ed.compiled)}`,
