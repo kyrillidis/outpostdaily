@@ -86,6 +86,12 @@ GitHub Actions (daily cron)
 
 The site build is pure, so an outage at a feed or at the AI provider can never break a deploy. If the AI call fails or no key is set, the edition still publishes using each feed's own snippet.
 
+## Breaking watch (every 5 minutes)
+
+`.github/workflows/breaking.yml` runs `src/breaking.mjs`, which reads the X accounts in `config/breaking.json` through [twitterapi.io](https://twitterapi.io) (one search call per group, only posts newer than the last run), fast security RSS feeds, the ransomware.live victim feed and public forum listings. New items go to `data/breaking.json` (72-hour window) and appear on `/breaking/` and in a strip on the home page. The workflow commits and deploys only when something new arrived. Forum and leak-site entries are shown as **Unverified** claims: headline and link only, no leaked data.
+
+Required GitHub Actions secret: `TWITTERAPI_KEY`. Local run: `TWITTERAPI_KEY=... node src/breaking.mjs`. Article thumbnails on stories are downloaded and resized at fetch time into `public/img/news/` (self-hosted, credited to the outlet).
+
 ## Keeping AI usage minimal
 
 - Feeds, ranking, de-duplication across outlets, and the CVE table are plain code — no AI.

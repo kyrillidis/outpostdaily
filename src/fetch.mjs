@@ -2,9 +2,10 @@
 // summarise only items we haven't summarised before. Writes data/editions/<date>.json.
 // Every URL in the output comes from a feed; the model never produces links.
 import { fileURLToPath } from 'node:url';
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, statSync, unlinkSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
+import sharp from 'sharp';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -39,6 +40,18 @@ const linkOf = (e) => {
   return alt ? alt['@_href'] || text(alt) : text(e.guid);
 };
 
+const arr = (v) => (Array.isArray(v) ? v : v ? [v] : []);
+// Best image a feed offers for an entry: media:content / media:thumbnail / image enclosure / first <img> in the body.
+function feedImage(e) {
+  const cands = [
+    ...arr(e['media:content']).map((m) => (!m['@_medium'] || m['@_medium'] === 'image' || /^image/.test(m['@_type'] ?? '') ? m['@_url'] : null)),
+    ...arr(e['media:thumbnail']).map((m) => m['@_url']),
+    ...arr(e.enclosure).map((m) => (/^image/.test(m['@_type'] ?? '') ? m['@_url'] : null)),
+    ...[e['content:encoded'], e.description, e.summary, e.content].map((h) => String(text(h)).match(/<img[^>]+src=["']([^"']+)["']/i)?.[1]),
+  ];
+  return cands.find((u) => typeof u === 'string' && /^https:\/\//.test(u) && !/(pixel|spacer|avatar|logo|1x1|gravatar|feedburner)/i.test(u));
+}
+
 async function pullFeed(src, section, rules) {
   const res = await fetch(src.url, { headers: { 'user-agent': UA, accept: 'application/rss+xml, application/atom+xml, text/xml, */*' }, signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -54,7 +67,7 @@ async function pullFeed(src, section, rules) {
     if (!/^https?:\/\//.test(url) || !title || isNaN(when) || when.getTime() < cutoff || when > now.getTime() + 3600e3) continue;
     const snippet = clean(e.description || e.summary || e['content:encoded'] || e.content).slice(0, 320);
     if (src.filter && !rules[src.filter === 'tech' ? 'tech' : 'geo'].test(title + ' ' + snippet)) continue; // general outlets: only on-topic items
-    out.push({ id: sha(url), section, source: src.name, weight: src.weight ?? 0.5, title, url, snippet, published: when.toISOString() });
+    out.push({ id: sha(url), section, source: src.name, weight: src.weight ?? 0.5, title, url, snippet, published: when.toISOString(), img: feedImage(e) });
   }
   return out;
 }
@@ -130,6 +143,36 @@ async function summarise(items, learnPool) {
   return null;
 }
 
+// ---------- thumbnails: self-hosted (the site's CSP and privacy policy allow no third-party images) ----------
+const IMG_DIR = 'public/img/news/';
+mkdirSync(ROOT + IMG_DIR, { recursive: true });
+async function ogImage(url) {
+  try {
+    const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html' }, signal: AbortSignal.timeout(8000) });
+    if (!res.ok) return null;
+    const head = (await res.text()).slice(0, 200000);
+    const m = head.match(/<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["']/i) || head.match(/<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["']/i);
+    return m && /^https:\/\//.test(m[1].replace(/&amp;/g, '&')) ? m[1].replace(/&amp;/g, '&') : null;
+  } catch { return null; }
+}
+async function thumbnail(it) {
+  const rel = `${IMG_DIR}${it.id}.webp`;
+  if (existsSync(ROOT + rel)) return '/' + rel.slice('public/'.length);
+  for (const src of [it.img, await ogImage(it.url)].filter(Boolean)) {
+    try {
+      const res = await fetch(src, { headers: { 'user-agent': UA, accept: 'image/*' }, signal: AbortSignal.timeout(12000) });
+      if (!res.ok || !/^image\//.test(res.headers.get('content-type') ?? '')) continue;
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length > 8e6) continue;
+      const meta = await sharp(buf).metadata();
+      if ((meta.width ?? 0) < 400 || (meta.height ?? 0) < 200) continue; // logos and icons
+      writeFileSync(ROOT + rel, await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: 68 }).toBuffer());
+      return '/' + rel.slice('public/'.length);
+    } catch { /* try the next candidate */ }
+  }
+  return null;
+}
+
 // ---------- main ----------
 const sources = read('config/sources.json', {});
 const cache = read('data/cache.json', {});
@@ -173,7 +216,9 @@ if (fresh.length || !learn.length || process.env.FORCE_AI) {
   }
 }
 
-const items = chosen.map((i) => ({ ...i, ...(cache[i.id] ?? {}), summary: cache[i.id]?.summary || i.snippet.slice(0, 220), ai: !!cache[i.id]?.summary }));
+for (const it of chosen) { const t = await thumbnail(it); if (t) it.image = t; }
+for (const f of readdirSync(ROOT + IMG_DIR)) if (now.getTime() - statSync(ROOT + IMG_DIR + f).mtimeMs > 30 * 864e5) unlinkSync(ROOT + IMG_DIR + f);
+const items = chosen.map(({ img, ...i }) => ({ ...i, ...(cache[i.id] ?? {}), summary: cache[i.id]?.summary || i.snippet.slice(0, 220), ai: !!cache[i.id]?.summary }));
 for (const k of Object.keys(cache)) if (cache[k].t && Date.parse(cache[k].t) < now.getTime() - 14 * 864e5) delete cache[k];
 
 const state = read('data/state.json', { edition: 218, date: '2026-09-05' });

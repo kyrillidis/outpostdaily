@@ -30,6 +30,7 @@ const ROUTES = [
   { id: 'vulns', path: '/cves/', nav: 'CVEs', tab: 'cves' },
   { id: 'warfare', path: '/warfare/', nav: 'Warfare', tab: 'warfare' },
   { id: 'geo', path: '/geopolitics/', nav: 'Geopolitics', tab: 'geo' },
+  { id: 'breaking', path: '/breaking/', nav: 'Breaking', tab: 'breaking' },
   { id: 'today', path: '/today/', nav: 'Today &amp; Learn', tab: 'today' },
   { id: 'toolbox', path: '/toolbox/', nav: 'OSINT Toolbox', tab: 'toolbox' },
   { id: 'archive', path: '/archive/', nav: 'Archive', tab: 'archive' },
@@ -73,6 +74,7 @@ const PAGE_ART = {
   today: { section: 'warfare', motif: 'signal' },
   toolbox: { section: 'geo', motif: 'orbit' },
   archive: { section: 'cyber', motif: 'chart' },
+  breaking: { section: 'cyber', motif: 'signal' },
   glossary: { section: 'geo', motif: 'constellation' },
   about: { section: 'geo', motif: 'perimeter' },
 };
@@ -104,12 +106,15 @@ const secHead = ({ title, sub = '', art = '' }) =>
 const chip = (sec) => `<span class="chip chip-domain" data-domain="${sec}"><svg class="icon" aria-hidden="true"><use href="#i-${sec}"/></svg>${DOMAIN_LABEL[sec]}</span>`;
 const tagList = (it) => (it.tags?.length ? `<ul class="tags">${it.tags.map((t) => `<li><button type="button" class="tag" data-kw="${esc(t)}">${esc(t)}</button></li>`).join('')}</ul>` : '');
 
+// the story's own picture, thumbnailed and self-hosted at fetch time; credited to the outlet and linked to the article
+const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="720" height="405" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
+
 function entry(it, { n, lvl = 3, lead = false }) {
   const corr = it.also?.length ? ` <span class="corr">${it.also.length + 1} outlets</span>` : '';
   const cites = [{ source: it.source, url: it.url }, ...(it.also ?? [])]
     .map((c, i) => `<a class="cite" href="${href(c.url)}" target="_blank" rel="noopener"><sup>${i + 1}</sup>${esc(c.source)}</a>`).join('');
   return `<article class="entry kw-unit${lead ? ' entry-lead' : ''}" id="s-${it.id}" data-domain="${it.section}" data-rank="${n}">
-  ${plateHtml({ id: it.id, section: it.section, title: it.title, tags: it.tags ?? [] }, 'card')}
+  ${it.image ? photoHtml(it) : plateHtml({ id: it.id, section: it.section, title: it.title, tags: it.tags ?? [] }, 'card')}
   <div class="entry-body">
     <h${lvl} class="entry-title"><span class="entry-no" aria-hidden="true">${String(n).padStart(2, '0')}</span><a href="${href(it.url)}" target="_blank" rel="noopener">${esc(it.title)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only"> (opens the original article)</span></a></h${lvl}>
     <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}">${dMid(it.published)}</time>${corr}</p>
@@ -255,6 +260,21 @@ const dir = ROOT + 'data/editions/';
 const editions = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.json')).sort().reverse().map((f) => JSON.parse(readFileSync(dir + f, 'utf8'))) : [];
 for (const e of editions) for (const i of e.items) if (i.section === 'world') i.section = 'geo';
 if (!editions.length) { console.error('No editions in data/editions — run `npm run fetch` first.'); process.exit(1); }
+const breaking = json('data/breaking.json', { updated: null, items: [], health: [] });
+const KIND_LABEL = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' };
+function breakingHtml() {
+  const list = breaking.items;
+  const row = (i) => `<li class="brk" data-sev="${i.severity}" data-kind="${i.kind}"><time datetime="${i.published}">${hhmm(i.published)} UTC<span class="brk-day">${dDay(i.published)}</span></time><div class="brk-main"><p class="brk-line">${i.severity === 'high' ? '<span class="chip chip-alert">High signal</span> ' : ''}<span class="chip chip-kind">${KIND_LABEL[i.kind]}</span>${i.verified ? '' : ' <span class="brk-unv">Unverified</span>'} <span class="brk-src">${esc(i.source)}</span></p><p class="brk-title"><a href="${href(i.url)}" target="_blank" rel="noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}">${esc(i.title)}<span class="sr-only"> (opens the original)</span></a></p></div></li>`;
+  const down = (breaking.health ?? []).filter((h) => !h.ok);
+  return secHead({ title: 'Breaking', sub: 'Fast-moving incidents from security researchers on X, security outlets, ransomware leak-site trackers and public forum listings. Checked every five minutes. Anything marked Unverified is a claim by a third party, not a confirmed incident; Outpost links to it and does not republish leaked data.' }) + ad('top') +
+    (list.length ? `<ol class="brk-list">${list.map(row).join('')}</ol>` : '<p class="sec-sub">Nothing new in the last 72 hours from the sources that responded.</p>') +
+    `<p class="sec-sub">${breaking.updated ? `Last change ${hhmm(breaking.updated)} UTC, ${dLong(breaking.updated)}.` : ''}${down.length ? ` Not responding: ${down.map((h) => esc(h.name)).join(', ')}.` : ''}</p>`;
+}
+const breakingStrip = () => {
+  const top = breaking.items.filter((i) => i.severity === 'high').slice(0, 4);
+  if (!top.length) return '';
+  return `<aside class="brk-strip" aria-label="Breaking"><h2 class="brk-strip-h"><a href="/breaking/">Breaking</a></h2><ul>${top.map((i) => `<li><time datetime="${i.published}">${hhmm(i.published)}</time> <a href="${href(i.url)}" target="_blank" rel="noopener">${esc(cut(i.title, 120))}</a> <span class="brk-src">${esc(i.source)}</span></li>`).join('')}</ul></aside>`;
+};
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
 const toolbox = json('config/toolbox.json', { groups: [] });
 const legacy = json('data/archive-legacy.json', []);
@@ -313,7 +333,7 @@ function pageFor(ed, route) {
     'top-stories': {
       title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`,
       desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158),
-      main: secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
+      main: breakingStrip() + secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
         (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') + termsPanel('home') +
         (front.length > 1 ? `<div class="entries entries-2up">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline'),
       list: front.map((i) => ({ title: i.title, url: `${SITE}/#s-${i.id}` })),
@@ -322,6 +342,7 @@ function pageFor(ed, route) {
     vulns: { title: `Newly Exploited Vulnerabilities (CISA KEV) — ${d} | Outpost`, desc: cut(`The newest CVEs CISA lists as exploited in the wild, with CVSS scores and required actions: ${ed.kev.slice(0, 4).map((k) => k.cve).join(', ')} and more.`, 158), main: kevTable(ed.kev), list: ed.kev.map((k) => ({ title: `${k.cve}: ${k.vendor} ${k.product}`, url: k.url })) },
     warfare: { title: `Modern Warfare Technology News — ${d} | Outpost`, desc: cut(`Modern warfare technology today (${d}): ${heads('warfare', 3).join('; ')}. Drones, EW, missiles and defence systems, with sources.`, 158), main: sec('warfare', 'Modern Warfare Technology', 'Drones, electronic warfare, missiles, air defence and the systems behind the operations, from analysts, defence press and open-source investigators.'), list: secList('warfare', r.path) },
     geo: { title: `Geopolitics, Geodata & GNSS Security — ${d} | Outpost`, desc: cut(`Geopolitics and geospatial security for ${d}: ${heads('geo', 3).join('; ')}. Strategy, GNSS jamming, space and the geo wars, with sources.`, 158), main: sec('geo', 'Geopolitics &amp; Geodata', 'Strategy, geo wars, GNSS and satellite security: the contest over who sees and who controls the map.'), list: secList('geo', r.path) },
+    breaking: { title: `Breaking Cyber & Threat News — ${d} | Outpost`, desc: 'Fast-moving cyber incidents, ransomware claims and OSINT from security researchers, checked every five minutes, each linked to its source.', main: breakingHtml(), list: breaking.items.slice(0, 20).map((i) => ({ title: i.title, url: i.url })) },
     today: { title: `Today’s Top 5 & What to Learn — ${d} | Outpost`, desc: cut(`The five stories that matter on ${d}, a defender checklist, and today’s concepts explained: ${(ed.learn ?? []).map((l) => l.term).join(', ')}.`, 158), main: todayHtml(ed, ranked), list: ranked.slice(0, 5).map((i) => ({ title: i.title, url: `${SITE}${SECTION_ROUTE[i.section].path}#s-${i.id}` })) },
     toolbox: { title: 'OSINT Toolbox: Free Tools to Verify News Yourself | Outpost', desc: 'A curated list of free open-source intelligence tools for conflict mapping, flight and ship tracking, GNSS interference, threat intelligence and image verification.', main: toolboxHtml(toolbox), list: [] },
     archive: { title: 'Archive: Past Daily Briefings | Outpost', desc: 'Every past Outpost edition — daily cybersecurity, defence technology, geodata and geopolitics briefings.', main: archiveHtml(archiveRows), list: [] },

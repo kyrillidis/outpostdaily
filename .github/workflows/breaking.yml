@@ -1,0 +1,48 @@
+name: Breaking watch
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # GitHub runs this on a best-effort basis; expect some runs to start a few minutes late
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit data/breaking.json when something new arrives
+
+concurrency:
+  group: breaking-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Collect breaking items
+        env:
+          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
+        run: node src/breaking.mjs
+      - name: Commit if something new arrived
+        id: commit
+        run: |
+          git add data/breaking.json
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; echo "nothing new"; exit 0; fi
+          npm run build >/dev/null # sanity check before publishing
+          git config user.name "outpost-bot"
+          git config user.email "outpost-bot@users.noreply.github.com"
+          git commit -m "breaking: $(date -u +%FT%H:%MZ)"
+          git pull --rebase -q
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Deploy to Vercel
+        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
+        run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"

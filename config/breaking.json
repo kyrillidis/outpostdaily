@@ -1,0 +1,22 @@
+{
+ "_note": "Sources for the 5-minute Breaking pipeline (src/breaking.mjs). x = accounts read through twitterapi.io (key in env TWITTERAPI_KEY, never in this file). news = fast RSS feeds. forums = public thread-listing pages, reported only as UNVERIFIED claims: headline + link, never the leaked data. A source that is down is skipped and listed on the page.",
+ "x": {
+  "cyber": ["IntCyberDigest", "H4ckmanac", "DarkWebInformer", "vxunderground", "campuscodi", "GossiTheDog", "MalwareHunterTeam", "ESETresearch", "BleepinComputer", "TheHackersNews"],
+  "geo": ["sentdefender", "OSINTdefender", "Faytuks", "WarMonitors", "IntelCrab"]
+ },
+ "news": [
+  { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml" },
+  { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/" },
+  { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews" },
+  { "name": "The Record", "url": "https://therecord.media/feed" },
+  { "name": "SecurityWeek", "url": "https://feeds.feedburner.com/securityweek" },
+  { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/" }
+ ],
+ "ransomware": "https://api.ransomware.live/v2/recentvictims",
+ "forums": [
+  { "name": "DarkForums", "url": "https://darkforums.st/" },
+  { "name": "BreachForums", "url": "https://breachforums.hn/" }
+ ],
+ "critical": "\\b(zero[- ]?day|0[- ]?day|actively exploited|exploited in the wild|emergency (patch|update|directive)|critical (flaw|vulnerabilit\\w*|rce)|remote code execution|supply[- ]chain (attack|compromise)|wiper|mass exploitation|ransomware attack|data breach|millions? of|nation[- ]state|outage|cyberattack|cyber attack|leak(ed|s)?|breach(ed)?)\\b",
+ "forumInterest": "\\b(database|db|leak\\w*|dump|breach\\w*|combo|access|rce|0[- ]?day|zero[- ]?day|exploit|source ?code|stealer|logs)\\b"
+}
