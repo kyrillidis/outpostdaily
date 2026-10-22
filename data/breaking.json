@@ -1,25 +1,25 @@
 {
- "updated": "2026-10-22T16:25:37.708Z",
+ "updated": "2026-10-22T16:39:31.343Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 1
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 4
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "The Record",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 2
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "The DFIR Report",
@@ -32,19 +32,19 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "The Record",
    "ok": true,
-   "n": 6
+   "n": 2
   },
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Dark Reading",
@@ -64,12 +64,12 @@
   {
    "name": "X cyber",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "BreachForums",
@@ -79,7 +79,7 @@
   {
    "name": "X redteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X blueteam",
@@ -89,20 +89,108 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 16
   }
  ],
  "items": [
+  {
+   "id": "x2113308901923779034",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "\"Donald Trump has abandoned the Western order, turning America into a Russian ally,\" per the Atlantic",
+   "url": "https://x.com/unusual_whales/status/2113308901923779034",
+   "published": "2026-10-22T16:38:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113308464109760767",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "EU Trade Chief Hints At Future Response To Trump’s Drug Pricing Policy - POLITICO",
+   "url": "https://x.com/LiveSquawk/status/2113308464109760767",
+   "published": "2026-10-22T16:36:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113308157132877927",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Shares of oil and gas companies are rallying this year. Their momentum has traders expecting a pullback",
+   "url": "https://x.com/business/status/2113308157132877927",
+   "published": "2026-10-22T16:35:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n2f2c89e576",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "&#x2018;AI is on trial&#x2019;: Bond yields sink below 5% as investors look for safety",
+   "url": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories",
+   "published": "2026-10-22T16:35:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113307885937553437",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@BBCBreaking",
+   "title": "US President Donald Trump ordered to sit for deposition in his defamation case against BBC by 11 December",
+   "url": "https://x.com/BBCBreaking/status/2113307885937553437",
+   "published": "2026-10-22T16:33:58.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113307165947482170",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "CoreWe've Got Bills To Pay: Bernstein Sees $76 Billion Funding Hole At Imploding Neocloud",
+   "url": "https://x.com/zerohedge/status/2113307165947482170",
+   "published": "2026-10-22T16:31:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113307031461372104",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨🇺🇸 Summit Public Schools allegedly breached, with 100 GB of student and staff data exposed Summit Public Schools, a California-based public charter school network, has been named in a breach claim by the actor \"Sp1d3yG0nz4l3s\". The…",
+   "url": "https://x.com/DarkWebInformer/status/2113307031461372104",
+   "published": "2026-10-22T16:30:34.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113306915585310920",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "What does The Big Lebowski have to do with Trump’s White House Papers? @JasonLeopold and @mvtopic return for Season 2 of Disclosure to reveal how the US National Archives and Records Administration tried to alert the feds to potentially…",
+   "url": "https://x.com/business/status/2113306915585310920",
+   "published": "2026-10-22T16:30:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113305725489283265",
    "kind": "x",
@@ -366,6 +454,17 @@
    "published": "2026-10-22T16:12:54.000Z",
    "severity": "high",
    "verified": false
+  },
+  {
+   "id": "n6b7369ef16",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+   "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+   "published": "2026-10-22T16:12:31.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113302367881789742",
