@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-22T22:49:05.314Z",
+ "updated": "2026-10-22T22:56:00.886Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "The Record",
@@ -17,22 +22,22 @@
    "n": 4
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -42,9 +47,9 @@
    "n": 2
   },
   {
-   "name": "BBC World",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "SecurityWeek",
@@ -52,27 +57,22 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "X cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -84,7 +84,7 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X darkweb",
@@ -99,10 +99,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 6
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2113403786571981134",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "In New Zealand, soaring everyday costs are pushing politicians across the spectrum to propose sweeping market interventions to boost competition and lower prices ahead of next month’s election",
+   "url": "https://x.com/business/status/2113403786571981134",
+   "published": "2026-10-22T22:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113402601350083016",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "AUSTRALIA PROPOSES RAISING THE CAP ON BANKS’ COVERED BOND ISSUANCE AND HAS OPENED A CONSULTATION ON FINANCIAL SECTOR COMPETITION, INTENDING TO IMPLEMENT THE REFORMS FROM LATER THIS YEAR",
+   "url": "https://x.com/FirstSquawk/status/2113402601350083016",
+   "published": "2026-10-22T22:50:19.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113402548778328175",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "\"Melting Wax-Faced Goblin\" Calls For \"Pistols Firing At All Times\" At Vance",
+   "url": "https://x.com/zerohedge/status/2113402548778328175",
+   "published": "2026-10-22T22:50:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113402534769443182",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Investor jitters are kicking in ahead of Brazil’s presidential election runoff, sending the cost of hedging surging",
+   "url": "https://x.com/business/status/2113402534769443182",
+   "published": "2026-10-22T22:50:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113401276771827719",
    "kind": "x",
@@ -2205,6 +2249,17 @@
    "verified": false
   },
   {
+   "id": "ra4d92b83f4",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "qilin claims United Restaurant Supply (US) — Hospitality",
+   "url": "https://www.ransomware.live/id/VW5pdGVkIFJlc3RhdXJhbnQgU3VwcGx5QHFpbGlu",
+   "published": "2026-10-22T18:41:39.974Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113339628723802153",
    "kind": "x",
    "group": "markets",
@@ -3345,61 +3400,6 @@
    "title": "‼️ALERT - Two new unpatched CVSS 9.0 RCE flaws in #Linux's KSMBD SMB server were disclosed on public kernel mailing lists before fixes were ready. One can be triggered WITHOUT authentication. Neither has a mainline kernel fix. Details…",
    "url": "https://x.com/TheHackersNews/status/2113315655512731872",
    "published": "2026-10-22T17:04:50.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113315370941534429",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRADERS NO LONGER FULLY PRICE IN FED RATE HIKE BEFORE END-2026",
-   "url": "https://x.com/DeItaone/status/2113315370941534429",
-   "published": "2026-10-22T17:03:42.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113315227483681224",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "ISRAELI MILITARY OFFICIALS: NO REASON TO STRIKE IRAN BEFORE U.S. ELECTIONS Senior Israeli military officials say there is no reason to attack Iran before the U.S. midterms unless they detect preparations for an Iranian missile launch.…",
-   "url": "https://x.com/DeItaone/status/2113315227483681224",
-   "published": "2026-10-22T17:03:08.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "r02760ba8d5",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "bravox claims AMSAM (FR)",
-   "url": "https://www.ransomware.live/id/QU1TQU1AYnJhdm94",
-   "published": "2026-10-22T17:03:04.045Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113315207225413768",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "US 5-Year TIPS Sale: - High Yield Rate: 2.367% (prev 1.955%) - Bid-Cover Ratio: 2.41 (prev 2.61) - Direct Accepted: 32.4% (prev 28.0%) - Indirect Accepted: 62.0% (prev 68.6%) - WI: 2.36%",
-   "url": "https://x.com/LiveSquawk/status/2113315207225413768",
-   "published": "2026-10-22T17:03:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113315201684549991",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Elon Musk has finally said the quiet part out loud: He’s fully behind a historic combination of SpaceX and Tesla, his two most valuable companies, in what would be the biggest corporate transaction ever attempted. Now comes the race to…",
-   "url": "https://x.com/business/status/2113315201684549991",
-   "published": "2026-10-22T17:03:02.000Z",
    "severity": "normal",
    "verified": false
   }
