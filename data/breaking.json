@@ -1,35 +1,15 @@
 {
- "updated": "2026-10-22T20:52:28.063Z",
+ "updated": "2026-10-22T20:59:17.047Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -42,9 +22,34 @@
    "n": 5
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -52,19 +57,14 @@
    "n": 0
   },
   {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "X cyber",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
    "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "DarkForums",
@@ -72,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "ransomware.live",
+   "name": "BreachForums",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 15
+   "n": 8
   }
  ],
  "items": [
+  {
+   "id": "x2113374332751839738",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
+   "url": "https://x.com/unusual_whales/status/2113374332751839738",
+   "published": "2026-10-22T20:58:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113373886146596883",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "❗️ A Hacker News user apologised for posting the PHP2Shell CVE IDs two days early, saying his contact told him there was no embargo. PHP moved its patch up a day as the IDs spread. Amazon says attackers were already trying the exploit on…",
+   "url": "https://x.com/IntCyberDigest/status/2113373886146596883",
+   "published": "2026-10-22T20:56:13.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113373586727583889",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Have you played Alphadots today? Now you can see how your solving skills compare with other players! 🧩 Share your results:",
+   "url": "https://x.com/business/status/2113373586727583889",
+   "published": "2026-10-22T20:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113373153216913604",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "Yup... having a girlfriend is basically giving someone persistent physical access to your entire attack surface.",
+   "url": "https://x.com/DarkWebInformer/status/2113373153216913604",
+   "published": "2026-10-22T20:53:18.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113372930151498147",
    "kind": "x",
@@ -113,6 +157,17 @@
    "published": "2026-10-22T20:52:25.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n0589859b68",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Toronto crime tips org freezes operations after details of data breach come to light",
+   "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+   "published": "2026-10-22T20:52:00.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2113372394614075413",
@@ -300,6 +355,17 @@
    "published": "2026-10-22T20:34:47.000Z",
    "severity": "high",
    "verified": false
+  },
+  {
+   "id": "n0a62902654",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "What We Missed: Feds Lasso Texas Laptop Farms",
+   "url": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+   "published": "2026-10-22T20:33:10.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113367854523298045",
@@ -3334,72 +3400,6 @@
    "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
    "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-22T15:56:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113298368092942531",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "U.S. President Donald J. Trump took to his Truth Social app today and spoke on Iran, saying that Iranian actions in and around the Strait of Hormuz are meant to influence the price of oil in a pre-U.S. Midterm dynamic, adding that their…",
-   "url": "https://x.com/sentdefender/status/2113298368092942531",
-   "published": "2026-10-22T15:56:08.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113298090278990276",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Canadian diplomats working in the US have been directed to stay away from candidates running in the midterm elections, and to keep a low profile to avoid allegations by the Trump administration of political interference, sources say",
-   "url": "https://x.com/business/status/2113298090278990276",
-   "published": "2026-10-22T15:55:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113297836246970532",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Kering Q3 2026 Earnings: - Revenue: EUR3.35B (est EUR3.35B) - Comparable Revenue: -1% (est +0.6%) - Fashion & Leather Goods Comparable Revenue: -3% (est -2.82%) - Gucci Revenue: EUR1.29B (est EUR1.3B) - Gucci Comparable Revenue: -6% (est…",
-   "url": "https://x.com/FirstSquawk/status/2113297836246970532",
-   "published": "2026-10-22T15:54:01.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113297605174161670",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "European Central Bank Governing Council member Fabio Panetta said the jump in bond yields will restrain the region’s economy, though isn’t critical as things stand",
-   "url": "https://x.com/business/status/2113297605174161670",
-   "published": "2026-10-22T15:53:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113296835510944143",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Saudi Aramco evacuated its headquarters in Dhahran on Thursday",
-   "url": "https://x.com/business/status/2113296835510944143",
-   "published": "2026-10-22T15:50:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n0563a66ccd",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-   "published": "2026-10-22T15:49:32.000Z",
    "severity": "normal",
    "verified": true
   }
