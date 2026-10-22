@@ -15,7 +15,7 @@ const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
 const EFFORT = process.env.REASONING_EFFORT ?? (/^gpt-[56]/.test(MODEL) ? 'low' : '');
 const WINDOW_H = Number(process.env.WINDOW_HOURS || 36);
 const LIMITS = { cyber: 10, warfare: 8, geo: 8 };
-const UA = 'OutpostDailyBot/1.0 (+https://outpostdaily.com)';
+const UA = 'OutpostDailyBot/1.0 (+https://www.outpostdaily.com)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const sha = (s) => createHash('sha1').update(s).digest('hex').slice(0, 10);
 

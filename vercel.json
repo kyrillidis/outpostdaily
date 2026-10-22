@@ -29,7 +29,7 @@
         },
         {
           "key": "Strict-Transport-Security",
-          "value": "max-age=63072000; includeSubDomains; preload"
+          "value": "max-age=63072000; includeSubDomains"
         }
       ]
     },
@@ -109,6 +109,17 @@
   "trailingSlash": true,
   "cleanUrls": false,
   "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "outpostdaily.com"
+        }
+      ],
+      "destination": "https://www.outpostdaily.com/$1",
+      "permanent": true
+    },
     {
       "source": "/(.*)",
       "has": [
