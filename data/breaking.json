@@ -1,15 +1,25 @@
 {
- "updated": "2026-10-22T20:19:19.744Z",
+ "updated": "2026-10-22T20:32:48.388Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 6
   },
   {
    "name": "MarketWatch",
@@ -22,37 +32,32 @@
    "n": 5
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 4
   },
   {
-   "name": "The Record",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -62,14 +67,9 @@
    "n": 6
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -79,7 +79,7 @@
   {
    "name": "X redteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,142 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 14
   }
  ],
  "items": [
+  {
+   "id": "x2113367854523298045",
+   "kind": "x",
+   "group": "redteam",
+   "source": "@SpecterOps",
+   "title": "“It really makes it concrete and very visual.” Sahan Fernando, CISO at Rady Children’s Health San Diego, explains how BloodHound Enterprise helps show identity risk and make the case for remediation. Watch the latest #KnowYourAdversary:",
+   "url": "https://x.com/SpecterOps/status/2113367854523298045",
+   "published": "2026-10-22T20:32:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113367791835431008",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "🚨 Ransomware Alert 🚨 LEAKEDDATA ransomware group has added an unidentified victim (M...r) to its dark web portal. 🔍 Key Details: 🛡️ Threat Actor: LEAKEDDATA 📅 Reported on: 22/10/26",
+   "url": "https://x.com/FalconFeedsio/status/2113367791835431008",
+   "published": "2026-10-22T20:32:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113367345708056735",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Elisabeth Thand Ringqvist holds the key to Sweden’s next government. Now comes the hard part: finding a coalition her party can actually support",
+   "url": "https://x.com/business/status/2113367345708056735",
+   "published": "2026-10-22T20:30:14.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113366540896665876",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Anthropic’s imminent public listing is poised to create multibillion-dollar gains for top venture capital firms, technology companies and independent investors that have backed the Claude chatbot maker since its founding in 2021. Read…",
+   "url": "https://x.com/business/status/2113366540896665876",
+   "published": "2026-10-22T20:27:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113366043901002062",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Billionaire Jeff Yass gave almost $110 million to boost Republicans in the US midterms, making him the third-largest individual donor of this election cycle",
+   "url": "https://x.com/business/status/2113366043901002062",
+   "published": "2026-10-22T20:25:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n177124c993",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Capcom confirms data breach affecting 11.7 million accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+   "published": "2026-10-22T20:22:45.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "x2113365371248144517",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🚨 ARISTA VELOCLOUD ORCHESTRATOR ZERO-DAY ACTIVELY EXPLOITED (CVE-2026-114625) Arista published Security Advisory 0199 on Oct 22, 2026 for an actively exploited flaw in on-prem VeloCloud Orchestrator (VCO), the SD-WAN management portal.…",
+   "url": "https://x.com/DailyDarkWeb/status/2113365371248144517",
+   "published": "2026-10-22T20:22:23.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113365250653475193",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "OpenAI Nears $30B Funding At $1.25T Valuation Led By UAE Investors - CNBC",
+   "url": "https://x.com/LiveSquawk/status/2113365250653475193",
+   "published": "2026-10-22T20:21:54.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113364873929166973",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*OPENAI NEARS UP TO $30B FUNDING ROUND AT $1.25T VALUATION:CNBC",
+   "url": "https://x.com/zerohedge/status/2113364873929166973",
+   "published": "2026-10-22T20:20:25.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113364806379979173",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Nigerian billionaire Aliko Dangote is priming his three daughters to take over his business empire",
+   "url": "https://x.com/business/status/2113364806379979173",
+   "published": "2026-10-22T20:20:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113364800264675413",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Are Radicals Training In Paris?",
+   "url": "https://x.com/zerohedge/status/2113364800264675413",
+   "published": "2026-10-22T20:20:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113364772364181913",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@CrowdStrike",
+   "title": "What happens when you turn on Falcon Guardian? For Cogentrix, AI agents became visible immediately, including who was using them. 🔗 Explore Falcon Guardian:",
+   "url": "https://x.com/CrowdStrike/status/2113364772364181913",
+   "published": "2026-10-22T20:20:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113364400551956491",
    "kind": "x",
@@ -729,6 +861,28 @@
    "published": "2026-10-22T19:06:41.000Z",
    "severity": "high",
    "verified": false
+  },
+  {
+   "id": "nd76b50dba1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+   "published": "2026-10-22T19:05:35.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n23872cb198",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+   "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+   "published": "2026-10-22T19:05:17.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2113345909756940396",
@@ -3246,160 +3400,6 @@
    "title": "US HYPERSCALERS FALL TRACKING BROADER DECLINES IN AI STOCKS 🔸 ORACLE DOWN 2.4% 🔸 ALPHABET FALLS 2.3% 🔸 MICROSOFT SLIPS 1.5% 🔸 AMAZON OFF 4%",
    "url": "https://x.com/DeItaone/status/2113293420395630831",
    "published": "2026-10-22T15:36:29.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113293333988827596",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "RUSSIA CLAIMS ATTACKS ON 2 CARGO SHIPS IN THE BLACK SEA - IFX",
-   "url": "https://x.com/FirstSquawk/status/2113293333988827596",
-   "published": "2026-10-22T15:36:08.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113293055679758681",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Ex-OpenAI science head Kevin Weil launches startup with $215 million",
-   "url": "https://x.com/business/status/2113293055679758681",
-   "published": "2026-10-22T15:35:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113292650828726321",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨 Critical Arista VeloCloud Orchestrator SQL injection flaw actively exploited Arista has disclosed CVE-2026-114625, a critical vulnerability affecting on-premises VeloCloud Orchestrator deployments. ⠀ The SQL injection flaw allows any…",
-   "url": "https://x.com/DarkWebInformer/status/2113292650828726321",
-   "published": "2026-10-22T15:33:25.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n6096203d9c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Two big reasons Micron and other chip stocks are falling on Thursday",
-   "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
-   "published": "2026-10-22T15:33:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n12fe75beba",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "16-year-old Malaysian student attacks his teacher with axe",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/16-year-old-malaysian-student-attacks-his-teacher-with-axe?traffic_source=rss",
-   "published": "2026-10-22T15:31:58.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113292020257034453",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "AI raises questions about creativity, empowerment and business threats from Big Tech on the future of movies, television and social media. This roundtable brings together four prominent leaders from the entertainment world. Their…",
-   "url": "https://x.com/business/status/2113292020257034453",
-   "published": "2026-10-22T15:30:55.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113291847543959570",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Two wealthy Americans are locked in a bitter dispute over the future of an ecologically rich area of Panama’s western coast",
-   "url": "https://x.com/business/status/2113291847543959570",
-   "published": "2026-10-22T15:30:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113291817558970620",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "\"The Reflexivity Is Striking\": Goldman One-Delta Desk Explains Why AI's Pain Is The Bond Market's Gain",
-   "url": "https://x.com/zerohedge/status/2113291817558970620",
-   "published": "2026-10-22T15:30:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113290983555408245",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "DEEPSEEK、MINIMAX GET LICENSE FOR OVERSEAS USE: CHINA MEDIA",
-   "url": "https://x.com/FirstSquawk/status/2113290983555408245",
-   "published": "2026-10-22T15:26:48.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r1c0a98d946",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "rhysida claims DR.SCHNELL GmbH & Co. KGaA (DE) — Manufacturing",
-   "url": "https://www.ransomware.live/id/RFIuU0NITkVMTCBHbWJIICYgQ28uIEtHYUFAcmh5c2lkYQ==",
-   "published": "2026-10-22T15:26:05.905Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113290541223841952",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The Treasury Department proposed new regulations to bar large institutional investors from buying up single-family homes, the latest step in the process to implement the most controversial section of the sweeping bipartisan housing law",
-   "url": "https://x.com/business/status/2113290541223841952",
-   "published": "2026-10-22T15:25:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "rc3e9272f04",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "qilin claims Airtificial — Technology",
-   "url": "https://www.ransomware.live/id/QWlydGlmaWNpYWxAcWlsaW4=",
-   "published": "2026-10-22T15:24:55.724Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113290096883433939",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "‼️ Spectator Loader Advertised as FUD Resident Loader With Anti-Analysis and Evasion Features",
-   "url": "https://x.com/DarkWebInformer/status/2113290096883433939",
-   "published": "2026-10-22T15:23:16.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113289297180725590",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Jackie Reses, one of a handful of billionaires to buy a bank, now sees fintechs following the path she took",
-   "url": "https://x.com/business/status/2113289297180725590",
-   "published": "2026-10-22T15:20:06.000Z",
    "severity": "normal",
    "verified": false
   }
