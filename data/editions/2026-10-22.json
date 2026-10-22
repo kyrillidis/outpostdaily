@@ -1,7 +1,7 @@
 {
  "date": "2026-10-22",
  "edition": 220,
- "compiled": "2026-10-22T14:03:44.273Z",
+ "compiled": "2026-10-22T18:10:55.829Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,13 +19,167 @@
      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/"
     }
    ],
-   "score": 1.93,
+   "score": 1.85,
+   "image": "/img/news/c78f979136.webp",
    "t": "2026-10-22",
    "summary": "Amazon Threat Intelligence says attackers targeted PHP2Shell flaws four days before security patches were released.",
    "why": "Check for PHP2Shell exposure and apply available patches.",
    "tags": [
     "PHP2Shell",
     "patches"
+   ],
+   "ai": true
+  },
+  {
+   "id": "72b4f49443",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Managing AI Token Consumption for Operational Resilience",
+   "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+   "snippet": "<p>CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, <a href=\"https://www.cyber.gc.ca/en/guidance/managing-ai-token-consumption-operational-resilience-itsm00125\" target=\"_blank\"><em>Managing AI Token Consumption for Operational Resilience</em></a>, to help organizat",
+   "published": "2026-10-22T12:00:00.000Z",
+   "also": [],
+   "score": 1.77,
+   "t": "2026-10-22",
+   "summary": "CISA, the Canadian Centre for Cyber Security and partners released joint guidance titled “Managing AI Token Consumption for Operational Resilience.”",
+   "why": "Review AI token consumption practices as part of operational resilience.",
+   "tags": [
+    "AI",
+    "token consumption",
+    "resilience"
+   ],
+   "ai": true
+  },
+  {
+   "id": "101af1ca8d",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "EMudhra Intermediate CA Certificates Compromised",
+   "url": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
+   "snippet": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .",
+   "published": "2026-10-22T17:15:32.000Z",
+   "also": [],
+   "score": 1.68,
+   "image": "/img/news/101af1ca8d.webp",
+   "t": "2026-10-22",
+   "summary": "Unit 42 says eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and man-in-the-middle interception.",
+   "why": "Check certificate trust and follow the available containment guidance.",
+   "tags": [
+    "CA certificates",
+    "TLS",
+    "MitM"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ca5fc9dc16",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "The Current Landscape of OAuth Attacks",
+   "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+   "snippet": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .",
+   "published": "2026-10-22T17:00:25.000Z",
+   "also": [],
+   "score": 1.68,
+   "image": "/img/news/ca5fc9dc16.webp",
+   "t": "2026-10-22",
+   "summary": "Unit 42 explores current OAuth threats and steps organizations can take to protect their environments.",
+   "why": "Review OAuth defenses and check how applications and accounts use authorization.",
+   "tags": [
+    "OAuth",
+    "attacks",
+    "protection"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5d4f96d6ac",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "snippet": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+   "published": "2026-10-22T17:18:22.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/5d4f96d6ac.webp",
+   "t": "2026-10-22",
+   "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
+   "why": "Check for affected On-Prem deployments and apply the security updates.",
+   "tags": [
+    "VeloCloud Orchestrator",
+    "zero-day",
+    "updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2a5b06ac50",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+   "url": "https://therecord.media/china-cyber-connectwise-ai",
+   "snippet": "A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said.",
+   "published": "2026-10-22T16:30:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/2a5b06ac50.webp",
+   "t": "2026-10-22",
+   "summary": "Microsoft said a Chinese government-aligned group used automated tools in the ConnectWise supply chain attack and is using similar techniques to target organizations.",
+   "why": "Review exposure to ConnectWise and monitor for automated compromise attempts.",
+   "tags": [
+    "ConnectWise",
+    "supply chain",
+    "automated tools"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0563a66ccd",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+   "snippet": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+   "published": "2026-10-22T15:49:32.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/0563a66ccd.webp",
+   "t": "2026-10-22",
+   "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services API to fix Exchange Online apps that stopped working.",
+   "why": "Check whether affected apps depend on EWS before changing Exchange Online settings.",
+   "tags": [
+    "Exchange Online",
+    "EWS",
+    "apps"
+   ],
+   "ai": true
+  },
+  {
+   "id": "92b876190d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Machine speed attacks require machine speed detection and response",
+   "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+   "snippet": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+   "published": "2026-10-22T14:02:12.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/92b876190d.webp",
+   "t": "2026-10-22",
+   "summary": "Exaforce says attackers can steal credentials and start data exfiltration within minutes, citing attacks involving GitHub tokens, malicious AI installers, and MFA phishing.",
+   "why": "Assess detection and response speed for credential theft and data exfiltration.",
+   "tags": [
+    "credentials",
+    "detection",
+    "exfiltration"
    ],
    "ai": true
   },
@@ -39,7 +193,8 @@
    "snippet": "More than 1,400 suspected cybercriminals were arrested across Africa this summer as part of a crackdown on the gangs perpetrating online fraud, ransomware and business email compromise attacks, Interpol said.",
    "published": "2026-10-22T13:30:00.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.5,
+   "image": "/img/news/14aa600d7f.webp",
    "t": "2026-10-22",
    "summary": "Interpol says a cybercrime crackdown across Africa led to more than 1,400 arrests and $105 million seized.",
    "why": "Review protections against online fraud, ransomware, and business email compromise.",
@@ -60,7 +215,8 @@
    "snippet": "The systems impacted by the attack include the MyColaSC platform that citizens use to pay utility bills, report non-emergency issues and access other city services.",
    "published": "2026-10-22T12:14:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.48,
+   "image": "/img/news/189c380ca7.webp",
    "t": "2026-10-22",
    "summary": "South Carolina officials offered assistance after a cyberattack affected systems including MyColaSC, used for utility bills and other city services.",
    "why": "Check continuity plans for citizen-facing services and utility payments.",
@@ -72,153 +228,73 @@
    "ai": true
   },
   {
-   "id": "0f812922fb",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "b8ce359a66",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "GitLab warns of new max severity code execution vulnerability",
-   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-   "snippet": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
-   "published": "2026-10-22T11:41:48.000Z",
-   "also": [],
-   "score": 1.55,
-   "t": "2026-10-22",
-   "summary": "GitLab released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run code on vulnerable servers.",
-   "why": "Apply GitLab patches and check whether exposed servers are affected.",
-   "tags": [
-    "GitLab",
-    "code execution",
-    "patches"
-   ],
-   "ai": true
-  },
-  {
-   "id": "df0211e45e",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-   "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-   "snippet": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
-   "published": "2026-10-22T08:27:11.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-10-22",
-   "summary": "Law enforcement agencies disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III.",
-   "why": "Review controls against business email compromise, ransomware, and online scams.",
-   "tags": [
-    "Operation Serengeti III",
-    "ransomware",
-    "online scams"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6a8ba679d4",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-   "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
-   "snippet": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek .",
-   "published": "2026-10-22T13:00:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-10-22",
-   "summary": "Indurex plans to use its $8 million funding for research and development and commercial expansion in Europe and the Middle East.",
-   "why": "Industrial cybersecurity platforms are relevant to protecting industrial systems.",
-   "tags": [
-    "industrial cybersecurity",
-    "research and development"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2bd447638f",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-   "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-   "snippet": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek .",
-   "published": "2026-10-22T12:34:31.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "A bug in RingRTC, an open source calling library, prevented Signal calls from ending properly when malicious callers exploited it.",
-   "why": "Check whether applications using RingRTC need updates or mitigations.",
-   "tags": [
-    "Signal",
-    "RingRTC",
-    "vulnerability"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ec99b1cdf4",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-   "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-   "snippet": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
-   "published": "2026-10-22T12:20:23.000Z",
-   "also": [],
-   "score": 1.46,
-   "t": "2026-10-22",
-   "summary": "Vendors are checking products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching.",
-   "why": "Check vendor guidance, deploy detections, and prioritize PHP2Shell patching.",
-   "tags": [
-    "PHP2Shell",
-    "detections",
-    "patching"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a5afc0aef8",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-   "snippet": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
-   "published": "2026-10-21T14:07:05.000Z",
+   "title": "Pentagon, Lockheed agree to decade-long F-35 framework deal for hundreds of jets",
+   "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/",
+   "snippet": "The tentative agreement, which still needs lawmakers’ blessing, covers production and sustainment over the 10 years.",
+   "published": "2026-10-22T12:57:21.000Z",
    "also": [
     {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
+     "source": "Defense News",
+     "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/"
     }
    ],
-   "score": 1.45,
-   "t": "2026-10-21",
-   "summary": "PHP’s security team released emergency patches for two critical remote code execution vulnerabilities collectively tracked as PHP2Shell.",
-   "why": "Defenders should identify affected PHP systems and apply the emergency patches.",
+   "score": 1.84,
+   "image": "/img/news/b8ce359a66.webp",
+   "t": "2026-10-22",
+   "summary": "The Pentagon and Lockheed agreed to a tentative F-35 framework covering production and sustainment over the next 10 years; lawmakers must still approve it.",
+   "why": "The framework concerns long-term fighter production and sustainment.",
    "tags": [
-    "PHP",
-    "RCE",
-    "PHP2Shell"
+    "F-35",
+    "production",
+    "sustainment"
    ],
    "ai": true
   },
   {
-   "id": "d76b50dba1",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-   "snippet": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would cal",
-   "published": "2026-10-22T11:45:00.000Z",
+   "id": "53be2cf839",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "‘Ability to strike back’: Denmark commits to long-range missile orders",
+   "url": "https://breakingdefense.com/2026/10/ability-to-strike-back-denmark-commits-to-long-range-missile-orders/",
+   "snippet": "Copenhagen said it would purchase Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm.",
+   "published": "2026-10-22T17:18:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.58,
+   "image": "/img/news/53be2cf839.webp",
    "t": "2026-10-22",
-   "summary": "The item warns that AI agents may store credentials and access internal systems without reviewed access or an identified owner.",
-   "why": "Inventory AI agents, assign owners, and review their credentials and access.",
+   "summary": "Copenhagen said Denmark would purchase Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm.",
+   "why": "The purchases add long-range strike capabilities across aircraft and ground-launched systems.",
    "tags": [
-    "AI agent",
-    "API keys",
-    "access"
+    "Denmark",
+    "F-35s",
+    "missiles"
+   ],
+   "ai": true
+  },
+  {
+   "id": "486f4d3087",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "MDA awards $75M to Long Wall for low-cost, midcourse interceptor testing",
+   "url": "https://breakingdefense.com/2026/10/mda-awards-75m-to-long-wall-for-low-cost-midcourse-interceptor-testing/",
+   "snippet": "Long Wall is matching the Missile Defense Agency’s funding with its own capital to continue development of the Cyclops, according to the company.",
+   "published": "2026-10-22T16:08:18.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/486f4d3087.webp",
+   "t": "2026-10-22",
+   "summary": "Long Wall is matching Missile Defense Agency funding with its own capital to continue developing the Cyclops interceptor, according to the company.",
+   "why": "The funding supports continued development and testing of a low-cost midcourse interceptor.",
+   "tags": [
+    "Cyclops",
+    "interceptor",
+    "testing"
    ],
    "ai": true
   },
@@ -232,7 +308,8 @@
    "snippet": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. In September, the AI company Anthropic published a blog post that claimed its models were approaching “superhuman capabilities for geolocating outdoor photos”. Anthropic made this claim by comparing its models’ performan",
    "published": "2026-10-22T11:06:57.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.55,
+   "image": "/img/news/4ef41757ea.webp",
    "t": "2026-10-22",
    "summary": "Bellingcat tests report improvements in LLM geolocation, while the title emphasizes that humans remain key. The snippet cites an Anthropic claim about model capabilities.",
    "why": "AI-assisted geolocation may aid image analysis, but human review remains relevant.",
@@ -240,6 +317,50 @@
     "LLMs",
     "geolocation",
     "outdoor photos"
+   ],
+   "ai": true
+  },
+  {
+   "id": "62ded14225",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
+   "url": "https://breakingdefense.com/2026/10/navy-awards-applied-intuition-25m-to-deploy-ai-sensor-fusion-at-sea/",
+   "snippet": "The Intelligent Perception System will help sailors understand a flood of sensor feeds while collecting data to train improved AI models, the company said.",
+   "published": "2026-10-22T15:43:21.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/62ded14225.webp",
+   "t": "2026-10-22",
+   "summary": "The company says its Intelligent Perception System will help sailors make sense of many sensor feeds and collect data to train improved AI models.",
+   "why": "Sensor fusion can help crews interpret multiple feeds in maritime operations.",
+   "tags": [
+    "sensor fusion",
+    "AI",
+    "sea"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c6e22271d1",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Construction Of Iran’s “Eagle 44” Underground Airbase Hasn’t Stopped Despite War",
+   "url": "https://www.twz.com/news-features/construction-of-irans-eagle-44-underground-airbase-hasnt-stopped-despite-war",
+   "snippet": "Satellite imagery depicts new construction and cleared wreckage after strikes at an Iranian airbase with underground hangars and taxiway tunnels. The post Construction Of Iran’s “Eagle 44” Underground Airbase Hasn’t Stopped Despite War appeared first on TWZ .",
+   "published": "2026-10-22T14:11:02.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/c6e22271d1.webp",
+   "t": "2026-10-22",
+   "summary": "Satellite imagery depicts new construction and cleared wreckage at Iran’s Eagle 44 airbase, which has underground hangars and taxiway tunnels.",
+   "why": "Imagery offers a view of construction and damage at an underground airbase.",
+   "tags": [
+    "satellite imagery",
+    "airbase",
+    "underground hangars"
    ],
    "ai": true
   },
@@ -253,7 +374,8 @@
    "snippet": "The Army is testing drone-mounted cyber and electronic warfare capabilities as it works to determine the standard-issue equipment for its 11th Cyber Battalion and a forthcoming second battalion.",
    "published": "2026-10-22T13:59:00.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.51,
+   "image": "/img/news/5be57d8163.webp",
    "t": "2026-10-22",
    "summary": "The Army is testing drone-mounted cyber and electronic warfare capabilities to help determine standard equipment for its cyber battalions.",
    "why": "The tests explore combining drones with cyber and electronic warfare capabilities.",
@@ -265,127 +387,117 @@
    "ai": true
   },
   {
-   "id": "b8ce359a66",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Pentagon, Lockheed agree to decade-long F-35 framework deal for hundreds of jets",
-   "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/",
-   "snippet": "The tentative agreement, which still needs lawmakers’ blessing, covers production and sustainment over the next 10 years.",
-   "published": "2026-10-22T12:57:21.000Z",
-   "also": [],
-   "score": 1.58,
-   "t": "2026-10-22",
-   "summary": "The Pentagon and Lockheed agreed to a tentative F-35 framework covering production and sustainment over the next 10 years; lawmakers must still approve it.",
-   "why": "The framework concerns long-term fighter production and sustainment.",
-   "tags": [
-    "F-35",
-    "production",
-    "sustainment"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9eebb8ded1",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Euronaval 2026: Global Naval Shipbuilding Surges 50%",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
-   "snippet": "The Euronaval 2026 report reveals a 50% surge in global naval shipbuilding, with China now vastly outproducing the US. The post Euronaval 2026: Global Naval Shipbuilding Surges 50% appeared first on Naval News .",
-   "published": "2026-10-22T13:51:41.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-10-22",
-   "summary": "Naval News reports that a Euronaval 2026 report found a 50% surge in global naval shipbuilding and says China is outproducing the US.",
-   "why": "Shipbuilding capacity is relevant to comparing naval industrial capabilities.",
-   "tags": [
-    "naval shipbuilding",
-    "China",
-    "US"
-   ],
-   "ai": true
-  },
-  {
-   "id": "50512e4576",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Elbit Systems Expands Underwater and Maritime Autonomy Capabilities with Acquisition of ISE",
-   "url": "https://www.navalnews.com/naval-news/2026/10/elbit-systems-expands-underwater-and-maritime-autonomy-capabilities-with-acquisition-of-ise/",
-   "snippet": "Elbit Systems Ltd. has completed the acquisition of International Submarine Engineering Ltd. (ISE), a Canada-based company specializing in advanced autonomous underwater and remotely operated systems for the maritime domain. The acquisition was completed for a purchase price that is not material to Elbit Systems. Elbit",
-   "published": "2026-10-22T13:20:51.000Z",
-   "also": [],
-   "score": 1.49,
-   "t": "2026-10-22",
-   "summary": "Elbit Systems completed its acquisition of ISE, a Canada-based company specializing in autonomous underwater and remotely operated maritime systems.",
-   "why": "The acquisition expands capabilities in underwater and maritime autonomous systems.",
-   "tags": [
-    "underwater",
-    "autonomous systems",
-    "maritime"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4170333f04",
+   "id": "f675c530d4",
    "section": "warfare",
    "source": "Defense News",
    "weight": 0.5,
-   "title": "Pentagon ignored cybersecurity flaws before data breach, Marines’ lawsuit says",
-   "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-ignored-cybersecurity-flaws-before-data-breach-marines-lawsuit-says/",
-   "snippet": "A pair of Marines filed a class-action lawsuit Tuesday against the Pentagon over a data breach at the Defense Manpower Data Center.",
-   "published": "2026-10-22T13:03:46.000Z",
+   "title": "Trump, Putin negotiate release of US Air Force veteran from Russian prison",
+   "url": "https://www.defensenews.com/news/your-military/2026/10/22/trump-putin-negotiate-release-of-us-air-force-veteran-from-russian-prison/",
+   "snippet": "Stephen Hubbard, a retired teacher and U.S. Air Force veteran, was released from Russian custody on Wednesday after spending over four years in prison.",
+   "published": "2026-10-22T17:17:19.000Z",
    "also": [],
    "score": 1.48,
+   "image": "/img/news/f675c530d4.webp",
    "t": "2026-10-22",
-   "summary": "Two Marines filed a class-action lawsuit against the Pentagon over a data breach at the Defense Manpower Data Center; the title says the lawsuit alleges officials ignored cybersecurity flaws.",
-   "why": "The case highlights the operational importance of addressing cybersecurity flaws in data systems.",
+   "summary": "Stephen Hubbard, a retired teacher and U.S. Air Force veteran, was released from Russian custody after spending over four years in prison.",
+   "why": "The item concerns a release from Russian custody negotiated by Trump and Putin.",
    "tags": [
-    "data breach",
-    "cybersecurity flaws",
-    "Pentagon"
+    "Russia",
+    "release",
+    "prison"
    ],
    "ai": true
   },
   {
-   "id": "27ed8a0089",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "The Endless Chip War",
-   "url": "https://warontherocks.com/cogs-of-war/the-endless-chip-war/",
-   "snippet": "This exclusive Cogs of War interview is with Rakesh Kumar, the author of Chip Age: How Semiconductors Became the World’s Most Powerful Resource. Rakesh has worked as a co-founder, professor, researcher, and advisor in the chip industry for more than two decades. Chipmaking is an evergreen technology with ever-increasin",
-   "published": "2026-10-22T08:00:46.000Z",
-   "also": [],
-   "score": 1.47,
+   "id": "3fbf4f000e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Germany arrests Ukrainian man accused of spying for Russia",
+   "url": "https://www.aljazeera.com/news/2026/10/22/germany-arrests-ukrainian-man-accused-of-spying-for-russia?traffic_source=rss",
+   "snippet": "Military has raised the threat level of ​Russian sabotage against German troops and facilities.",
+   "published": "2026-10-22T14:36:06.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/germany-arrests-ukrainian-man-suspected-of-spying-for-russia/a-79732373?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.78,
+   "image": "/img/news/3fbf4f000e.webp",
    "t": "2026-10-22",
-   "summary": "The item is an interview with Rakesh Kumar, author of a book about semiconductors and their role as a powerful resource.",
-   "why": "Semiconductors are presented as a strategically important resource.",
+   "summary": "Germany arrested a Ukrainian man accused of spying for Russia; the military raised the threat level of Russian sabotage against German troops and facilities.",
+   "why": "The reported threat highlights security concerns around German military personnel and facilities.",
    "tags": [
-    "semiconductors",
-    "chips"
+    "Germany",
+    "spying",
+    "sabotage"
    ],
    "ai": true
   },
   {
-   "id": "eca8a2c27a",
-   "section": "warfare",
-   "source": "War on the Rocks",
+   "id": "fff85f9e98",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "The West Is Thinking Too Small About Ukraine’s Victory",
-   "url": "https://warontherocks.com/the-west-is-thinking-too-small-about-ukraines-victory/",
-   "snippet": "Since fall 2023, Ukraine’s supporters have fallen into a pattern: Ukrainians warn that Russia is targeting its energy infrastructure to prevent them from heating their homes, schools, and businesses in the coming winter. Allies provide insufficient support to Ukraine’s efforts to harden its energy grid and other critic",
-   "published": "2026-10-22T07:30:35.000Z",
+   "title": "Race to update services' computer systems after cyber-security flaw found",
+   "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+   "published": "2026-10-22T17:12:51.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.58,
+   "image": "/img/news/fff85f9e98.webp",
    "t": "2026-10-22",
-   "summary": "The article says Ukraine’s supporters have followed a pattern of insufficient support as Ukrainians warn that Russia is targeting energy infrastructure.",
-   "why": "Energy infrastructure and support for Ukraine are central to the conflict’s operational context.",
+   "summary": "Websites went offline after PHP developers said critical vulnerabilities had been discovered, prompting a race to update services’ computer systems.",
+   "why": "Organizations should check PHP-dependent services and apply relevant updates.",
    "tags": [
-    "Ukraine",
-    "energy infrastructure",
+    "PHP",
+    "vulnerabilities",
+    "updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "17be196275",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+   "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
+   "published": "2026-10-22T17:07:03.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/17be196275.webp",
+   "t": "2026-10-22",
+   "summary": "Merz said Germany is a target of intensive espionage after a Ukrainian man was arrested on suspicion of spying for Russia.",
+   "why": "The report points to espionage concerns affecting Germany.",
+   "tags": [
+    "Germany",
+    "espionage",
     "Russia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fb3bc42b72",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+   "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+   "published": "2026-10-22T15:56:36.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/fb3bc42b72.webp",
+   "t": "2026-10-22",
+   "summary": "Raghad and Raad’s family fled on foot because of fighting between pro-government forces and the Houthis, as the newborn twins face Yemen’s hunger crisis.",
+   "why": "The item describes how conflict and displacement intersect with hunger in Yemen.",
+   "tags": [
+    "Yemen",
+    "fighting",
+    "hunger"
    ],
    "ai": true
   },
@@ -399,7 +511,8 @@
    "snippet": "It is the latest in a series of attacks by the Houthi movement targeting airports and other sites in the kingdom.",
    "published": "2026-10-22T13:46:33.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.51,
+   "image": "/img/news/42ced19a5a.webp",
    "t": "2026-10-22",
    "summary": "Authorities say two people were killed in a Houthi attack on an airport in eastern Saudi Arabia, part of a series targeting sites in the kingdom.",
    "why": "Repeated attacks on airports and other sites have regional security significance.",
@@ -407,6 +520,50 @@
     "Houthi",
     "Saudi Arabia",
     "airport"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b7e5a8a27b",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "‘Longer we wait, worse it gets’: Struggle of Gaza’s breast cancer patients",
+   "url": "https://www.aljazeera.com/features/2026/10/22/longer-we-wait-worse-it-gets-struggle-of-gazas-breast-cancer-patients?traffic_source=rss",
+   "snippet": "Breast cancer patients in Gaza face delayed diagnoses, medicine shortages and limited access to scans and treatment.",
+   "published": "2026-10-22T17:40:24.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/b7e5a8a27b.webp",
+   "t": "2026-10-22",
+   "summary": "Breast cancer patients in Gaza face delayed diagnoses, medicine shortages, and limited access to scans and treatment.",
+   "why": "The reported shortages and restricted access indicate pressures on Gaza’s health services.",
+   "tags": [
+    "Gaza",
+    "cancer",
+    "treatment"
+   ],
+   "ai": true
+  },
+  {
+   "id": "587ced7114",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli attacks in Gaza kill four, including a young girl",
+   "url": "https://www.aljazeera.com/news/2026/10/22/israeli-attacks-in-gaza-kill-four-including-a-young-girl?traffic_source=rss",
+   "snippet": "Four Palestinians killed as Israeli military expands control across Gaza, displacing millions and destroying homes.",
+   "published": "2026-10-22T16:06:55.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/587ced7114.webp",
+   "t": "2026-10-22",
+   "summary": "Al Jazeera reports that Israeli attacks killed four Palestinians, including a young girl, as the military expands control across Gaza, displacing millions and destroying homes.",
+   "why": "The report describes displacement and destruction alongside expanding military control in Gaza.",
+   "tags": [
+    "Gaza",
+    "displacement",
+    "attacks"
    ],
    "ai": true
   },
@@ -420,7 +577,8 @@
    "snippet": "The US president inherited Russia’s war on Ukraine, but he will own the consequences of how it ends. The post Trump will define his legacy through Russia—one way or the other appeared first on Atlantic Council .",
    "published": "2026-10-22T11:00:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.45,
+   "image": "/img/news/256e2444bc.webp",
    "t": "2026-10-22",
    "summary": "The Atlantic Council argues that the US president will own the consequences of how Russia’s war on Ukraine ends.",
    "why": "US decisions on Russia and Ukraine have strategic consequences.",
@@ -428,132 +586,6 @@
     "Russia",
     "Ukraine",
     "US"
-   ],
-   "ai": true
-  },
-  {
-   "id": "57cb04e34d",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Brazil’s Sovereignty Is on the Ballot",
-   "url": "https://foreignpolicy.com/2026/10/22/brazil-election-lula-bolsonaro-trump-us-military-shield-americas/",
-   "snippet": "A far-right win in the country’s presidential election would open the door to U.S. military activity on Brazilian soil.",
-   "published": "2026-10-22T11:00:35.000Z",
-   "also": [],
-   "score": 1.54,
-   "t": "2026-10-22",
-   "summary": "Foreign Policy says a far-right win in Brazil’s presidential election would open the door to US military activity on Brazilian soil.",
-   "why": "The election could affect Brazil’s sovereignty and the prospect of US military activity.",
-   "tags": [
-    "Brazil",
-    "sovereignty",
-    "US military"
-   ],
-   "ai": true
-  },
-  {
-   "id": "78f535dda6",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "El Salvador's president threatens Haitian gangs over military hostages",
-   "url": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Four members of the so-called Gang Suppression Force have been missing since Sunday.",
-   "published": "2026-10-22T10:17:48.000Z",
-   "also": [],
-   "score": 1.52,
-   "t": "2026-10-22",
-   "summary": "El Salvador’s president threatened Haitian gangs over four missing members of the so-called Gang Suppression Force.",
-   "why": "The threat links missing personnel to tensions involving Haitian gangs.",
-   "tags": [
-    "El Salvador",
-    "Haitian gangs",
-    "hostages"
-   ],
-   "ai": true
-  },
-  {
-   "id": "aa618b1b49",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "How do Israel's elections work and who are the main contenders?",
-   "url": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
-   "published": "2026-10-22T09:27:10.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-10-22",
-   "summary": "The BBC explains how Israel’s elections work and identifies the main contenders; the item says many view the election as pivotal with global implications.",
-   "why": "The election has potential implications beyond Israel.",
-   "tags": [
-    "Israel",
-    "elections",
-    "contenders"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4dea125f87",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Yemenis face severe shortages in Taiz amid Houthi blockade",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/yemenis-face-severe-shortages-in-taiz-amid-houthi-blockade?traffic_source=rss",
-   "snippet": "Residents in Yemen’s Taiz are facing severe food and water shortages as a Houthi blockade cuts off a key supply route.",
-   "published": "2026-10-22T13:42:26.000Z",
-   "also": [],
-   "score": 1.49,
-   "t": "2026-10-22",
-   "summary": "Al Jazeera reports severe food and water shortages in Taiz as a Houthi blockade cuts off a key supply route.",
-   "why": "The blocked route connects access to essential supplies with control of movement.",
-   "tags": [
-    "Taiz",
-    "blockade",
-    "supply route"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0df5fe9bb8",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "How Sudan’s shift to drone warfare is fuelling a civilian crisis",
-   "url": "https://www.aljazeera.com/news/2026/10/22/how-sudans-shift-to-drone-warfare-is-fuelling-a-civilian-crisis?traffic_source=rss",
-   "snippet": "Drone attacks on supply lines and safe cities are taking a devastating toll on civilians.",
-   "published": "2026-10-22T13:35:31.000Z",
-   "also": [],
-   "score": 1.49,
-   "t": "2026-10-22",
-   "summary": "Al Jazeera reports that drone attacks on supply lines and safe cities in Sudan are taking a devastating toll on civilians.",
-   "why": "Drone attacks affect supply lines, safe cities, and civilian conditions.",
-   "tags": [
-    "Sudan",
-    "drones",
-    "supply lines"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bca9560a88",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What’s the PHP coding flaw that could pull down 70 percent of the internet?",
-   "url": "https://www.aljazeera.com/news/2026/10/22/whats-the-php-coding-flaw-that-could-pull-down-70-percent-of-the-internet?traffic_source=rss",
-   "snippet": "The vulnerability allows a hacker to change a website or extract data, including personal information.",
-   "published": "2026-10-22T12:37:34.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "The item says a PHP coding flaw could let a hacker change a website or extract data, including personal information.",
-   "why": "Check PHP-based sites for exposure and apply relevant security fixes.",
-   "tags": [
-    "PHP",
-    "website",
-    "personal information"
    ],
    "ai": true
   }
@@ -705,34 +737,34 @@
   }
  ],
  "run_today": [
-  "Check for PHP2Shell exposure and apply available patches.",
-  "Patch affected GitLab servers and review whether they were exposed to remote code execution.",
-  "Inventory AI agents, assign owners, and review their stored credentials and internal access."
+  "Check certificate trust and investigate possible exposure related to compromised eMudhra intermediate CA keys.",
+  "Identify affected VeloCloud Orchestrator On-Prem deployments and apply Arista’s security updates.",
+  "Review detection speed for credential theft and data exfiltration, including activity involving tokens and MFA phishing."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "PHP2Shell",
-   "explainer": "PHP2Shell refers here to flaws that attackers can target and for which security patches have been released. Patching helps address the vulnerability.",
-   "from_id": "c78f979136",
-   "from": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-   "fromSource": "BleepingComputer"
+   "term": "OAuth",
+   "explainer": "OAuth is an authorization framework that lets applications obtain access to resources. The item notes that it faces modern threats and that organizations can take steps to protect their environments.",
+   "from_id": "ca5fc9dc16",
+   "from": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+   "fromSource": "Unit 42"
   },
   {
    "domain": "warfare",
-   "term": "electronic warfare",
-   "explainer": "Electronic warfare involves capabilities that operate in the electronic domain. The Army is testing these capabilities mounted on small drones alongside cyber capabilities.",
-   "from_id": "5be57d8163",
-   "from": "https://breakingdefense.com/2026/10/army-unit-experimenting-with-small-drones-for-tailored-cyber-effects/",
+   "term": "sensor fusion",
+   "explainer": "Sensor fusion means bringing information from multiple sensor feeds together to help people understand what is happening. The company says its system is intended to help sailors interpret a flood of feeds.",
+   "from_id": "62ded14225",
+   "from": "https://breakingdefense.com/2026/10/navy-awards-applied-intuition-25m-to-deploy-ai-sensor-fusion-at-sea/",
    "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "supply route",
-   "explainer": "A supply route is a path used to move supplies. In Taiz, the report says a Houthi blockade cuts off a key route and residents face food and water shortages.",
-   "from_id": "4dea125f87",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/22/yemenis-face-severe-shortages-in-taiz-amid-houthi-blockade?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "espionage",
+   "explainer": "Espionage is gathering information secretly for another party. The item describes a man arrested in Germany on suspicion of spying for Russia and Merz’s warning about intensive espionage.",
+   "from_id": "17be196275",
+   "from": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "health": [
@@ -740,7 +772,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Krebs on Security",
@@ -752,13 +784,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 24
+   "n": 25
   },
   {
    "name": "The Record",
@@ -788,7 +820,7 @@
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 4
   },
   {
    "name": "Google Threat Intelligence",
@@ -800,7 +832,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Schneier on Security",
@@ -818,25 +850,25 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 11
   },
   {
    "name": "Naval News",
@@ -902,25 +934,25 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 7
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 9
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 6
   },
   {
    "name": "DW",
