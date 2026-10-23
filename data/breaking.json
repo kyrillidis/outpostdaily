@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-23T07:54:04.464Z",
+ "updated": "2026-10-23T08:00:30.691Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -19,7 +29,7 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -32,6 +42,11 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "The Record",
    "ok": true,
    "n": 0
@@ -42,29 +57,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "X cyber",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "DarkForums",
@@ -73,6 +68,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "ransomware.live",
    "ok": true,
    "n": 0
   },
@@ -99,10 +99,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 7
+   "n": 8
   }
  ],
  "items": [
+  {
+   "id": "x2113541134706168211",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Eurozone S&P Global Manufacturing PMI Oct P: 52.4 (est 52.8; prev 52.9) - Services PMI: 51.7 (est 52.5; prev 53.0) - Composite PMI: 51.9 (est 52.7; prev 53.1)",
+   "url": "https://x.com/LiveSquawk/status/2113541134706168211",
+   "published": "2026-10-23T08:00:48.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113540985388929500",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Higgsfield, an AI video startup founded by a former Snap executive, said it has attracted investment from Nvidia and TCV to help fund global infrastructure and hiring to capture growing demand.",
+   "url": "https://x.com/business/status/2113540985388929500",
+   "published": "2026-10-23T08:00:13.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113540887380963480",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@vxunderground",
+   "title": "Lots of arguments online surrounding who truly discovered PHP2Shell, who gets the clout, etc. I am the person who found. I found it in like 2013, or something, whatever. Trust me, bro. I'm hardcore and 1337. Now give me lots of monies and…",
+   "url": "https://x.com/vxunderground/status/2113540887380963480",
+   "published": "2026-10-23T07:59:49.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113539680817811533",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Shares in Europe’s biggest luxury firms trade at the cheapest levels in more than a decade, with results from Hermès International and LVMH Moët Hennessy Louis Vuitton dashing hopes that an industry slump will end anytime soon.",
+   "url": "https://x.com/business/status/2113539680817811533",
+   "published": "2026-10-23T07:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113538808126038500",
    "kind": "x",
@@ -190,6 +234,17 @@
    "published": "2026-10-23T07:40:03.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n0a871a3396",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
+   "url": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
+   "published": "2026-10-23T07:37:12.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113534649502679351",
@@ -3347,61 +3402,6 @@
    "published": "2026-10-22T22:54:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2113402601350083016",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "AUSTRALIA PROPOSES RAISING THE CAP ON BANKS’ COVERED BOND ISSUANCE AND HAS OPENED A CONSULTATION ON FINANCIAL SECTOR COMPETITION, INTENDING TO IMPLEMENT THE REFORMS FROM LATER THIS YEAR",
-   "url": "https://x.com/FirstSquawk/status/2113402601350083016",
-   "published": "2026-10-22T22:50:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113402548778328175",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "\"Melting Wax-Faced Goblin\" Calls For \"Pistols Firing At All Times\" At Vance",
-   "url": "https://x.com/zerohedge/status/2113402548778328175",
-   "published": "2026-10-22T22:50:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113402534769443182",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Investor jitters are kicking in ahead of Brazil’s presidential election runoff, sending the cost of hedging surging",
-   "url": "https://x.com/business/status/2113402534769443182",
-   "published": "2026-10-22T22:50:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113401276771827719",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Andy Silver, credit-trading head at Brevan Howard, is leaving his role, according to people with knowledge of the matter",
-   "url": "https://x.com/business/status/2113401276771827719",
-   "published": "2026-10-22T22:45:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113401186095120831",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Buy a seedbox if you're going to torrent.",
-   "url": "https://x.com/DarkWebInformer/status/2113401186095120831",
-   "published": "2026-10-22T22:44:42.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
