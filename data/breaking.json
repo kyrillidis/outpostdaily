@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-23T20:19:35.632Z",
+ "updated": "2026-10-23T20:33:29.396Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -8,33 +13,13 @@
   },
   {
    "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "BleepingComputer",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -44,12 +29,37 @@
   {
    "name": "BBC World",
    "ok": true,
-   "n": 5
+   "n": 6
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -67,16 +77,6 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "X redteam",
    "ok": true,
    "n": 1
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 6
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2113729718713209172",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@Unit42_Intel",
+   "title": "An update to our threat brief on PHP CVE-2026-109618 & CVE-2026-109619: We observed an attack using agentic AI platforms for rapid post-exploitation and access to MFA secrets within 2 hours. Read the updated brief for analysis and hunting…",
+   "url": "https://x.com/Unit42_Intel/status/2113729718713209172",
+   "published": "2026-10-23T20:30:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113729697850773624",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Clearlake Capital Group-backed Springs Window Fashions is gearing up for restructuring talks with lenders as it looks to build up cash reserves, according to people familiar with the situation.",
+   "url": "https://x.com/business/status/2113729697850773624",
+   "published": "2026-10-23T20:30:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113728919308571024",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "This is unusual. Big bearish bet on Howmet Aerospace, $HWM. Someone just bought $8.44 million of Howmet puts. Contract: $195 puts expiring Nov. 20 Size: 5,375 contracts at about $15.70 each All bought at the ask, with rising fill prices…",
+   "url": "https://x.com/unusual_whales/status/2113728919308571024",
+   "published": "2026-10-23T20:27:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113728430306984201",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "US funding markets risk facing a volatile, last-minute “scramble” to meet a key 2027 deadline for mandatory central clearing of daily transactions, strategists at Canadian Imperial Bank of Commerce warned",
+   "url": "https://x.com/business/status/2113728430306984201",
+   "published": "2026-10-23T20:25:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113728006275367158",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨🇺🇸 Railway says breach potentially exposed secrets in around 100,000 workspaces Cloud development platform Railway says an attacker gained access to internal systems and potentially exposed encrypted environment variables belonging to…",
+   "url": "https://x.com/DarkWebInformer/status/2113728006275367158",
+   "published": "2026-10-23T20:23:22.000Z",
+   "severity": "high",
+   "verified": false
+  },
   {
    "id": "x2113727189451509954",
    "kind": "x",
@@ -135,6 +190,28 @@
    "published": "2026-10-23T20:19:01.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n7cf7738543",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
+   "url": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
+   "published": "2026-10-23T20:19:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n410e940e96",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+   "url": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T20:18:13.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113725923165888596",
@@ -3323,83 +3400,6 @@
    "title": "It took Travis Knight 16 years and $100 million to make Wildwood, the critically acclaimed stop-motion film that’s opening in cinemas this weekend",
    "url": "https://x.com/business/status/2113647900337094994",
    "published": "2026-10-23T15:05:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113647895484289042",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "US President Trump: Spoke With UK Today, Discussed Opening Up North Sea Oil - Some Discussion On Iran, Ukraine",
-   "url": "https://x.com/LiveSquawk/status/2113647895484289042",
-   "published": "2026-10-23T15:05:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113647113703665823",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP: CANADA IS WORKING HARD TO MAKE DEAL WITH US",
-   "url": "https://x.com/DeItaone/status/2113647113703665823",
-   "published": "2026-10-23T15:01:56.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113647101632475347",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@RALee85",
-   "title": "This operation was conducted by one of the most innovative SSO battalions who pioneered the use of DJI Avata 2 and 5-inch fiber optic cable FPVs in assault operations. Small assault teams can defeat larger forces with proper planning and…",
-   "url": "https://x.com/RALee85/status/2113647101632475347",
-   "published": "2026-10-23T15:01:53.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113647082388984083",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "ZELENSKIY: INTERCEPTOR DELIVERIES ARE DELAYED, THIS IS A REAL PROBLEM FOR US",
-   "url": "https://x.com/DeItaone/status/2113647082388984083",
-   "published": "2026-10-23T15:01:48.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113647029519810928",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP: VERY CLOSE TO DEAL WITH MEXICO",
-   "url": "https://x.com/DeItaone/status/2113647029519810928",
-   "published": "2026-10-23T15:01:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113646904902881569",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP: SPOKE WITH BRITISH FOREIGN MINISTER TODAY TRUMP: DISCUSSED OPENING UP NORTH SEA OIL",
-   "url": "https://x.com/DeItaone/status/2113646904902881569",
-   "published": "2026-10-23T15:01:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113646779812221073",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "ZELENSKIY: AGREED TO HOLD TRILATERAL MEETING AT THE TEAM LEVEL WITH US, RUSSIA AND UKRAINE IN FIRST HALF OF NOVEMBER",
-   "url": "https://x.com/DeItaone/status/2113646779812221073",
-   "published": "2026-10-23T15:00:36.000Z",
    "severity": "normal",
    "verified": false
   }
