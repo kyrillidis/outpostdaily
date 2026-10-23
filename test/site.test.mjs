@@ -60,6 +60,11 @@ test('every current page has sound SEO basics', () => {
   assert.deepEqual(errs, []);
 });
 
+test('no double-escaped entities leak into pages', () => {
+  const bad = pages.filter((p) => !p.legacy && /&amp;(amp|quot|lt|gt|#x?[0-9a-f]+);/i.test(p.html)).map((p) => p.rel);
+  assert.deepEqual(bad, []);
+});
+
 test('markup is accessible and well formed', () => {
   const errs = collect([
     ['landmarks', (p) => [/<main[^>]*\sid="main"/, /<nav[^>]*\saria-label=/, /<footer/, /<header/].filter((r) => !r.test(p.html)).map(String).join(' ')],

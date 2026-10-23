@@ -21,7 +21,7 @@ const critical = new RegExp(cfg.critical, 'i');
 const criticalOther = new RegExp(cfg.criticalOther, 'i');
 const interest = new RegExp(cfg.forumInterest, 'i');
 const crisisRel = new RegExp(cfg.crisisRelevant, 'i');
-const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 const sevOf = (t, group = 'cyber') => (({ cyber: critical, redteam: critical, blueteam: critical, darkweb: critical }[group] ?? criticalOther).test(t) ? 'high' : 'normal');
 const health = [];
