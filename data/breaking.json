@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-23T16:37:52.545Z",
+ "updated": "2026-10-23T16:50:12.420Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -17,29 +22,19 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "The Record",
@@ -52,14 +47,14 @@
    "n": 2
   },
   {
-   "name": "Dark Reading",
+   "name": "BBC World",
    "ok": true,
-   "n": 3
+   "n": 5
   },
   {
-   "name": "X cyber",
+   "name": "DarkForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "ransomware.live",
@@ -67,9 +62,14 @@
    "n": 3
   },
   {
-   "name": "DarkForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -89,20 +89,174 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 7
+   "n": 4
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 9
+   "n": 13
   }
  ],
  "items": [
+  {
+   "id": "x2113674326385832259",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Rogers beat analyst earnings expectations on gains from sports assets, but the company’s core wireless business is still struggling to find growth",
+   "url": "https://x.com/business/status/2113674326385832259",
+   "published": "2026-10-23T16:50:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113673706610516318",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "Top 5 free checkers for PHP2Shell (CVE-2026-109618 / CVE-2026-109619), the critical PHP RCE pair: 1. SOCRadar php2shell Checker (online) 2. Assetnote php2shell-scanner (CLI) 3. ProjectDiscovery Nuclei template (CLI) 4. php2shell[.]site…",
+   "url": "https://x.com/DailyDarkWeb/status/2113673706610516318",
+   "published": "2026-10-23T16:47:36.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113673611689222473",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "US NY Fed GDP Nowcast Q3: 2.67% (prev 2.67%) - GDP Nowcast Q4: 2.81% (prev 2.82%)",
+   "url": "https://x.com/LiveSquawk/status/2113673611689222473",
+   "published": "2026-10-23T16:47:13.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113673334328287651",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "BP, STATE OF LOUISIANA AGREE TO RESOLVE LONG-STANDING MATTERS",
+   "url": "https://x.com/FirstSquawk/status/2113673334328287651",
+   "published": "2026-10-23T16:46:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113673302837174724",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "BREAKING: Anthropic executive says cybersecurity issues are going to \"get a lot worse before they get better\"",
+   "url": "https://x.com/unusual_whales/status/2113673302837174724",
+   "published": "2026-10-23T16:46:00.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113673100189401168",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Apple has already shown there’s a strong appetite for its $2,000-and-up iPhone Duo. Now it needs to meet that demand. On this episode of the Power On podcast, @AndruEdwards joins @markgurman to discuss Apple’s big pre-order blunder of the…",
+   "url": "https://x.com/business/status/2113673100189401168",
+   "published": "2026-10-23T16:45:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113673067733917986",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Cambricon reported a slower-than-expected revenue growth",
+   "url": "https://x.com/business/status/2113673067733917986",
+   "published": "2026-10-23T16:45:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113672938402849208",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Quite the barbell: 94% chance Anthropic has a $1.5TN valuation by Dec 31, and 9% chance Anthropic files for bankruptcy by Dec 31, 2027",
+   "url": "https://x.com/zerohedge/status/2113672938402849208",
+   "published": "2026-10-23T16:44:33.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nb2fabeb9ae",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
+   "url": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
+   "published": "2026-10-23T16:41:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113672013457826287",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "$AAPL | The First Broken iPhone Duos Are Here - @verge",
+   "url": "https://x.com/LiveSquawk/status/2113672013457826287",
+   "published": "2026-10-23T16:40:52.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113671835296395651",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Infosys lowered its annual sales forecast in a sign companies continue to curb spending on major information technology projects",
+   "url": "https://x.com/business/status/2113671835296395651",
+   "published": "2026-10-23T16:40:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nf582252343",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Quest Diagnostics confirms data breach exposed patient records",
+   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "published": "2026-10-23T16:40:07.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "x2113671823669772573",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Major Oil Spill From Attacked Tanker Forces Closure Of UAE Beaches",
+   "url": "https://x.com/zerohedge/status/2113671823669772573",
+   "published": "2026-10-23T16:40:07.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "nf2a9120d11",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli roadblocks disrupt schools and medical care in West Bank village",
+   "url": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village?traffic_source=rss",
+   "published": "2026-10-23T16:37:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2113670766117937194",
    "kind": "x",
@@ -190,6 +344,17 @@
    "published": "2026-10-23T16:30:10.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n4cda5f4ce7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+   "url": "https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss",
+   "published": "2026-10-23T16:29:51.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2113668778605129966",
@@ -3235,171 +3400,6 @@
    "title": "The $1.5 billion hemp drink market pioneered by Cheech & Chong and Willie Nelson faces last call, unless lawmakers step in before a December deadline",
    "url": "https://x.com/business/status/2113605122886455554",
    "published": "2026-10-23T12:15:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113604983060897917",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "OIL FUTURES EXTEND GAINS, US WTI RISES OVER $2/BBL TO $101.62 ON CONCERNS OVER ESCALATING MIDDLE EAST TENSIONS",
-   "url": "https://x.com/DeItaone/status/2113604983060897917",
-   "published": "2026-10-23T12:14:31.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113604696912871647",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "DB's Jim Reid in his daily wrap: \"It’s difficult to know where to start given everything going on at the moment\"",
-   "url": "https://x.com/zerohedge/status/2113604696912871647",
-   "published": "2026-10-23T12:13:23.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113604320436347089",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Top Overnight News The US is preparing for a protracted conflict with Iran, even as the Trump administration hopes its bombing campaigns and economic sanctions will force major concessions from the Islamic republic. Mike Waltz, Donald…",
-   "url": "https://x.com/zerohedge/status/2113604320436347089",
-   "published": "2026-10-23T12:11:53.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113603856013607244",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "When people talk about Amsterdam, they talk about the parties and the art, not the food. That's changing. Here are the five top restaurants in town",
-   "url": "https://x.com/business/status/2113603856013607244",
-   "published": "2026-10-23T12:10:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113602675187110017",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Premarket movers: Mag 7 stocks are mixed (Alphabet (GOOGL) -0.2%, Amazon (AMZN) -0.2%, Apple (AAPL) -0.1%, Meta Platforms (META) -0.5%, Microsoft (MSFT) -0.5%, Nvidia (NVDA) +0.2%, Tesla (TSLA) +0.1%) Tower companies gain and wireless…",
-   "url": "https://x.com/zerohedge/status/2113602675187110017",
-   "published": "2026-10-23T12:05:21.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113602597869244572",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Muse's computing costs will need to fall at least tenfold before the AI assistant is scalable, a significant challenge if Zuckerberg is to reach his stated goal of more than a billion users, @DaveLeeBBG says (via @opinion)",
-   "url": "https://x.com/business/status/2113602597869244572",
-   "published": "2026-10-23T12:05:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113602587404714160",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Palo Alto firewall VMs and Citrix NetScaler run without ASLR, a basic memory defence, Kevin Beaumont says. He warns that makes the PHP2Shell flaws trivial to exploit through internet-facing management interfaces. Neither has a patch…",
-   "url": "https://x.com/IntCyberDigest/status/2113602587404714160",
-   "published": "2026-10-23T12:05:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113601984993656966",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇪🇸 AUDIT TEAM ransomware group has added an unidentified victim (Ca***ka) to their dark web portal. NB: The group intends to publish the data within 7–8 days. 🔍Key Details: 🛡️Threat Actor: AUDIT TEAM 📅 Reported…",
-   "url": "https://x.com/FalconFeedsio/status/2113601984993656966",
-   "published": "2026-10-23T12:02:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113600694435680758",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "⚠️ UPDATE: PHP WARNS OF NEW, UNPATCHED RCE VECTOR (CVE-2026-115560), TWO DAYS AFTER PHP2SHELL FIXES PHP published an informational advisory on Oct 23 about a separate remote code execution vector in session upload progress. It is NOT…",
-   "url": "https://x.com/DailyDarkWeb/status/2113600694435680758",
-   "published": "2026-10-23T11:57:29.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113600620330655968",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "ZELENSKIY SAYS UKRAINE BRINGS BACK 270 PEOPLE IN PRISONER SWAP WITH RUSSIA,",
-   "url": "https://x.com/FirstSquawk/status/2113600620330655968",
-   "published": "2026-10-23T11:57:11.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113600573643604117",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "The income needed to afford a home has pulled far ahead of what most Americans earn. You now need over $120,000 a year to afford a median-priced home, per the Atlanta Fed. The typical U.S. household earns $87,460.",
-   "url": "https://x.com/unusual_whales/status/2113600573643604117",
-   "published": "2026-10-23T11:57:00.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113600080624157159",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The UK government published guidance urging households to “be ready” in the event of a national emergency by stocking up on essentials and signing up for government support",
-   "url": "https://x.com/business/status/2113600080624157159",
-   "published": "2026-10-23T11:55:02.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113599002709049695",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@BBCBreaking",
-   "title": "Anti-terror police investigate after one person killed and four others injured in shooting in Paris suburb",
-   "url": "https://x.com/BBCBreaking/status/2113599002709049695",
-   "published": "2026-10-23T11:50:45.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113598823889084796",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The price of food has been rising since the pandemic, but US consumers are especially sensitive when it comes to their steaks, burgers and sloppy Joes.",
-   "url": "https://x.com/business/status/2113598823889084796",
-   "published": "2026-10-23T11:50:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r463cc4dda3",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "sarcoma claims Don Pickett & Associates — Professional Services",
-   "url": "https://www.ransomware.live/id/RG9uIFBpY2tldHQgJiBBc3NvY2lhdGVzQHNhcmNvbWE=",
-   "published": "2026-10-23T11:48:24.826Z",
    "severity": "normal",
    "verified": false
   }
