@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-23T13:19:21.775Z",
+ "updated": "2026-10-23T13:33:54.518Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -8,18 +13,8 @@
   },
   {
    "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 6
   },
   {
    "name": "MarketWatch",
@@ -37,6 +32,11 @@
    "n": 4
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
@@ -44,17 +44,22 @@
   {
    "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
-   "name": "Krebs on Security",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 2
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -65,11 +70,6 @@
    "name": "ransomware.live",
    "ok": true,
    "n": 5
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "BreachForums",
@@ -104,6 +104,193 @@
  ],
  "items": [
   {
+   "id": "x2113624527045575127",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "NASDAQ DOWN 111.60 POINTS, OR 0.43 PERCENT, AT 25,897.26 AFTER MARKET OPEN DOW JONES DOWN 507.17 POINTS, OR 0.96 PERCENT, AT 52,360.81 AFTER MARKET OPEN S&P 500 DOWN 40.07 POINTS, OR 0.52 PERCENT, AT 7,623.36 AFTER MARKET OPEN",
+   "url": "https://x.com/FirstSquawk/status/2113624527045575127",
+   "published": "2026-10-23T13:32:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113624011527598510",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Investors in the riskiest instruments sold by US and European banks are starting to demand more compensation on new deals",
+   "url": "https://x.com/business/status/2113624011527598510",
+   "published": "2026-10-23T13:30:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nff1522ac28",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+   "url": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+   "published": "2026-10-23T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113623315705413970",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert 🇹🇼 Trevi Technology ( a Taiwan-based software development company, has reportedly fallen victim to Orova ransomware. 🔍 Key Details: 🛡️ Threat Actor: Orova 📅 Reported On: 23/10/2026 ⚠️ Data Compromised: 435.87 GB",
+   "url": "https://x.com/FalconFeedsio/status/2113623315705413970",
+   "published": "2026-10-23T13:27:22.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113623286932459812",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Anthropic: Newer Models Are Less Likely To Begin An Attack - Claude Opus 5.5 & Claude Mythos 5.1 Still Fall Short",
+   "url": "https://x.com/LiveSquawk/status/2113623286932459812",
+   "published": "2026-10-23T13:27:15.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113623270058864740",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "CHINA'S FOREIGN MINISTER WANG YI SAYS CHINA AND THE US MUST WORK TOGETHER TO MANAGE AI AND IS LOOKING FOR COOPERATION ON THIS ISSUE.",
+   "url": "https://x.com/FirstSquawk/status/2113623270058864740",
+   "published": "2026-10-23T13:27:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113623259833123029",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "ANTHROPIC REPORTED THAT MYTHOS 5 TRIED TO UPLOAD MALICIOUS CODE TO THEIR REPOSITORY.",
+   "url": "https://x.com/FirstSquawk/status/2113623259833123029",
+   "published": "2026-10-23T13:27:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113623248852369766",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "ANTHROPIC'S CLAUDE OPUS 5.5 AND CLAUDE MYTHOS 5.1 FAIL TO CONSISTENTLY PREVENT ONGOING ATTACKS, WHILE THE COMPANY'S INTERNAL RESEARCH MODEL DOES ACHIEVE THIS CONSISTENCY.",
+   "url": "https://x.com/FirstSquawk/status/2113623248852369766",
+   "published": "2026-10-23T13:27:06.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113623237355786532",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "ANTHROPIC IS LOOKING INTO SPECIFIC BEHAVIORS OF CLAUDE MYTHOS 5 TO GAIN INSIGHT INTO THE MODEL'S ALIGNMENT.",
+   "url": "https://x.com/FirstSquawk/status/2113623237355786532",
+   "published": "2026-10-23T13:27:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113623234826412277",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "LISTEN: What’s next for Indonesia after MSCI’s downgrade warning whipsawed markets? Bloomberg journalists discuss here ⤵️",
+   "url": "https://x.com/business/status/2113623234826412277",
+   "published": "2026-10-23T13:27:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113623176420917724",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert 🇬🇧 ADL Lift Services Ltd ( a UK-based lift engineering company, has reportedly fallen victim to AUDIT TEAM ransomware. Note: Initially, on 13 October 2026, the group listed the victim as unidentified (AD***ed),…",
+   "url": "https://x.com/FalconFeedsio/status/2113623176420917724",
+   "published": "2026-10-23T13:26:49.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nb49db17578",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "UK proposes 14-year prison terms for undersea cable sabotage",
+   "url": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+   "published": "2026-10-23T13:26:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113622748220002489",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Is Liquidity To Blame For The Sea Of Red On Your Screens?",
+   "url": "https://x.com/zerohedge/status/2113622748220002489",
+   "published": "2026-10-23T13:25:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113622728477413513",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Retail stock and option trading is hitting record levels, unleashing a frenzy due in large part to a recent rule change that made day trading easier for small investors",
+   "url": "https://x.com/business/status/2113622728477413513",
+   "published": "2026-10-23T13:25:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113622456111915361",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Quantum computing timelines are shrinking faster than markets appreciate. And institutional allocators are already pulling back from Bitcoin and Ethereum exposure because of it. @credo__v makes the case on LiveSquawk Market Talk. Out now.…",
+   "url": "https://x.com/LiveSquawk/status/2113622456111915361",
+   "published": "2026-10-23T13:23:57.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113622292722790558",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "A provincial election in the heart of Canada’s lumber country is exposing the limits of using US President Donald Trump as a political foil, even in one of the places hardest hit by his tariffs. Bloomberg’s Thomas Seal has more",
+   "url": "https://x.com/business/status/2113622292722790558",
+   "published": "2026-10-23T13:23:18.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113621481204687351",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The market for graduate education is distorted. Many degrees aren't worth the price tag. What students need is a better risk signal, @AllisonSchrager says (via @opinion)",
+   "url": "https://x.com/business/status/2113621481204687351",
+   "published": "2026-10-23T13:20:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113620948561895492",
    "kind": "x",
    "group": "darkweb",
@@ -113,6 +300,17 @@
    "published": "2026-10-23T13:17:57.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n2d3c826fdf",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia drops cluster bombs on Ukraine as Kyiv consolidates front line",
+   "url": "https://www.aljazeera.com/news/2026/10/23/russia-drops-cluster-bombs-on-ukraine-as-kyiv-consolidates-front-line?traffic_source=rss",
+   "published": "2026-10-23T13:17:18.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113620706303103139",
@@ -2040,6 +2238,17 @@
    "verified": false
   },
   {
+   "id": "rf8fcc3c995",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "N0n claims Horn of Africa Regional Environment Centre and Network (ET) — Other",
+   "url": "https://www.ransomware.live/id/SG9ybiBvZiBBZnJpY2EgUmVnaW9uYWwgRW52aXJvbm1lbnQgQ2VudHJlIGFuZCBOZXR3b3JrQE4wbg==",
+   "published": "2026-10-23T09:23:08.588Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113561579732271240",
    "kind": "x",
    "group": "markets",
@@ -3193,215 +3402,6 @@
    "published": "2026-10-23T07:00:13.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "x2113525864071901489",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "LiveSquawk Mid-Morning Rundown (23/10/2026)",
-   "url": "https://x.com/LiveSquawk/status/2113525864071901489",
-   "published": "2026-10-23T07:00:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113524588672139540",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "BOJ Policy and Capital Flows Support Japanese Yen Gains Against US Dollar, Commerzbank Says-FX",
-   "url": "https://x.com/FirstSquawk/status/2113524588672139540",
-   "published": "2026-10-23T06:55:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113524584385302886",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Swiggy shares fell to a record low after intense competition led to wider-than-expected loss at the Indian food-delivery contender, raising questions about its long-term earnings potential.",
-   "url": "https://x.com/business/status/2113524584385302886",
-   "published": "2026-10-23T06:55:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113523324672250042",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Prague preserved its historic core while other European capitals rebuilt. Now billionaire-backed projects are transforming old rail yards and industrial land into entirely new neighborhoods.",
-   "url": "https://x.com/business/status/2113523324672250042",
-   "published": "2026-10-23T06:50:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113522083003089148",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Italy Makes Parents Pay For Milan Rioters: Meloni Decree Fines Families, Adds Riot Crime Carrying Up To 5 Years",
-   "url": "https://x.com/zerohedge/status/2113522083003089148",
-   "published": "2026-10-23T06:45:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113522078318055673",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Anthropic should get on with its public listing to soothe the AI trade, writes @hughes_chris (via @opinion)",
-   "url": "https://x.com/business/status/2113522078318055673",
-   "published": "2026-10-23T06:45:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113520812648988683",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Singapore Exchange Chief Executive Officer Loh Boon Chye said he’s preparing to step down as the bourse moves into its next phase of growth.",
-   "url": "https://x.com/business/status/2113520812648988683",
-   "published": "2026-10-23T06:40:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nfcaeed9175",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Iran&#8217;s Prince of Persia APT Hosts C&#038;C in US for First Time Since 2016",
-   "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-   "published": "2026-10-23T06:39:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113520662312857993",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Volvo Cars CEO Sees Limited Scope for China Improvement Until Six China-Specific Models Arrive",
-   "url": "https://x.com/FirstSquawk/status/2113520662312857993",
-   "published": "2026-10-23T06:39:27.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113520605954023627",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Good night to everyone:",
-   "url": "https://x.com/unusual_whales/status/2113520605954023627",
-   "published": "2026-10-23T06:39:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113519549471432931",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Putin has many reasons to want a three-way summit in China, and all of them are reasons for Trump to decline, writes @MarcChampion1 (via @opinion)",
-   "url": "https://x.com/business/status/2113519549471432931",
-   "published": "2026-10-23T06:35:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113518325237948739",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The Central Bank of Ireland fined cryptocurrency platform Coinbase's Irish arm $3.6 million over claims it has weaknesses in its internal processes",
-   "url": "https://x.com/business/status/2113518325237948739",
-   "published": "2026-10-23T06:30:10.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113518163245650403",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇫🇷 🚨 FRANCE: NATIONAL PET IDENTIFICATION REGISTRY I-CAD ALLEGEDLY BREACHED, 2.9M RECORDS FOR SALE A threat actor on an underground forum claims to be selling a partial database of I-CAD, the official French national identification…",
-   "url": "https://x.com/DailyDarkWeb/status/2113518163245650403",
-   "published": "2026-10-23T06:29:32.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113517050802913573",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Barclays' prime brokerage and equity derivatives businesses drove 90% of the firm’s growth in stocks trading, which blasted past analysts’ expectations on Thursday",
-   "url": "https://x.com/business/status/2113517050802913573",
-   "published": "2026-10-23T06:25:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113516546371047911",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Volvo Cars Commercial Chief Says Company Must Be Selective About Where It Competes in the US",
-   "url": "https://x.com/FirstSquawk/status/2113516546371047911",
-   "published": "2026-10-23T06:23:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113516243403833765",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert: 🇨🇴 B2Chat, Inc. ( a Colombia-based information technology services company, has reportedly fallen victim to EMPERADOR ransomware. NB: The group intends to publish the data within 14–15 days. 🔍 Key Details: 🛡️…",
-   "url": "https://x.com/FalconFeedsio/status/2113516243403833765",
-   "published": "2026-10-23T06:21:54.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113515777466781883",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Lockheed Martin lifted its full-year outlook as the company’s missile systems portfolio was buoyed by rising global defense spending",
-   "url": "https://x.com/business/status/2113515777466781883",
-   "published": "2026-10-23T06:20:03.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113514525739602264",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "UK regulators plan to spare 139,000 bank executives from yearly checks under the senior managers and certification regime in an effort to spur growth",
-   "url": "https://x.com/business/status/2113514525739602264",
-   "published": "2026-10-23T06:15:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nbcbd955c93",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I&#x2019;m crazy. Who&#x2019;s right?",
-   "url": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-   "published": "2026-10-23T06:15:00.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
