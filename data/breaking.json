@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-23T17:29:17.117Z",
+ "updated": "2026-10-23T17:41:20.155Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "CISA Advisories",
@@ -17,6 +22,16 @@
    "n": 1
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
@@ -27,22 +42,22 @@
    "n": 6
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
    "name": "SecurityWeek",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "X cyber",
    "ok": true,
    "n": 2
   },
@@ -62,34 +77,19 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X redteam",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BBC World",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
    "name": "X blueteam",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,109 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 12
+   "n": 11
   }
  ],
  "items": [
+  {
+   "id": "x2113686923289997631",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Hegseth Barred Trans Troops - Yet Navy And Marine Boards Are Voting To Keep Them",
+   "url": "https://x.com/zerohedge/status/2113686923289997631",
+   "published": "2026-10-23T17:40:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113686913458569366",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "France is in a financial crisis as well as one on the streets, writes @johnauthers. And 'whatever it takes' won't be good enough (via @opinion)",
+   "url": "https://x.com/business/status/2113686913458569366",
+   "published": "2026-10-23T17:40:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113686640715878887",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "‼️ The tracking server for VIDAA smart TVs, the system on Hisense sets, needed no login. In 3 hours, Northeastern researchers pulled 57M+ records of what 1M+ TVs were watching, sorted into categories like religion and politics.",
+   "url": "https://x.com/IntCyberDigest/status/2113686640715878887",
+   "published": "2026-10-23T17:39:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113686640761925786",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "American Express, $AXP, is laying off 5% of its employees",
+   "url": "https://x.com/unusual_whales/status/2113686640761925786",
+   "published": "2026-10-23T17:39:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113685650608136630",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Susan Collins has a lesson for current and future candidates: Run on your strength. Be who you are (or who you want voters to believe you are) and don’t chase, or run from, presidents, @DavidMDrucker says (via @opinion)",
+   "url": "https://x.com/business/status/2113685650608136630",
+   "published": "2026-10-23T17:35:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113685377055969470",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheRecord_Media",
+   "title": "The FCC blocked two devices from entering the U.S. market because they contain chips manufactured by HiSilicon, a Huawei subsidiary that designs products for the \"surveillance market\"",
+   "url": "https://x.com/TheRecord_Media/status/2113685377055969470",
+   "published": "2026-10-23T17:33:58.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113685166149292297",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@CrowdStrike",
+   "title": "Since launching in September, CrowdStrike Falcon Guardian has been deployed at hundreds of organizations worldwide. Discover five reasons organizations are choosing Falcon Guardian to secure AI agents:",
+   "url": "https://x.com/CrowdStrike/status/2113685166149292297",
+   "published": "2026-10-23T17:33:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113684390727319936",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@Mandiant",
+   "title": "Friday focus: CTI. 🧑‍💻 Explore Mandiant Academy courses on OSINT, network enrichment, & attribution. Swipe for the details and find links in the thread below. 👇",
+   "url": "https://x.com/Mandiant/status/2113684390727319936",
+   "published": "2026-10-23T17:30:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113684390890836007",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "President Donald Trump stepped up his support for a controversial ad featuring the estranged mother of Ohio’s Democratic candidate for governor, Amy Acton, despite intensifying Republican opposition to the campaign spot",
+   "url": "https://x.com/business/status/2113684390890836007",
+   "published": "2026-10-23T17:30:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113684242160931096",
    "kind": "x",
@@ -135,6 +234,28 @@
    "published": "2026-10-23T17:28:50.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n90f70db295",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "FCC bans two devices with surveillance chips linked to Huawei",
+   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+   "published": "2026-10-23T17:28:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb95d5610d1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+   "published": "2026-10-23T17:26:59.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113683151872471209",
@@ -815,6 +936,17 @@
    "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
    "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-23T16:19:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n089811ca83",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
+   "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T16:17:02.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3268,138 +3400,6 @@
    "title": "Belgium Business Confidence Oct: -9.8 (prev -12.1)",
    "url": "https://x.com/LiveSquawk/status/2113616507049816081",
    "published": "2026-10-23T13:00:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nf34f57e317",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Over 40% of Americans are heading toward retirement &#x2018;blind&#x2019; &#x2014; with no plan",
-   "url": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
-   "published": "2026-10-23T13:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113616168267227266",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "US Proposes Further Suspension Of Section 301 Investigation Into China’s Targeting Of Maritime, Logistics, And Shipbuilding Sectors For Dominance Through Jan. 9, 2027 -Office Of USTR",
-   "url": "https://x.com/LiveSquawk/status/2113616168267227266",
-   "published": "2026-10-23T12:58:58.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113615673200922796",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Employees who trust their CEO and senior leaders are 41% more likely to be engaged at work, per ADP CEO",
-   "url": "https://x.com/unusual_whales/status/2113615673200922796",
-   "published": "2026-10-23T12:57:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113615180001083509",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Some of the most prominent early investors in Bitcoin are squaring off again",
-   "url": "https://x.com/business/status/2113615180001083509",
-   "published": "2026-10-23T12:55:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n2b28ceeac1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia-Ukraine talks planned for November in UAE: Kremlin",
-   "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin?traffic_source=rss",
-   "published": "2026-10-23T12:54:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113614555276251298",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "The AI layoffs are here: *AMERICAN EXPRESS TO CUT 5% OF JOBS, ABOUT 3,500 EMPLOYEES *BARCLAYS TO CUT 5,000 JOBS AS AI STARTS CREATING EFFICIENCY *EBAY CONFIRMS JOB CUTS OF ABOUT 9% *NETFLIX TO LAY OFF 6% OF GLOBAL STAFF, OR ABOUT 1,000…",
-   "url": "https://x.com/zerohedge/status/2113614555276251298",
-   "published": "2026-10-23T12:52:33.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n8bb708370d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
-   "url": "https://therecord.media/quest-diagnostics-network-intrusion",
-   "published": "2026-10-23T12:52:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113614404017324167",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "ENI EXEC SAYS GROUP HAS SUBMITTED DEVELOPMENT PLAN FOR VENEZUELA GAS FIELD PERLA; FINAL INVESTMENT DECISION ON VENEZUELA'S PERLA FIELD WILL COME ONCE GOVERNMENT HAS APPROVED DEVELOPMENT PLAN",
-   "url": "https://x.com/FirstSquawk/status/2113614404017324167",
-   "published": "2026-10-23T12:51:57.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113613941339234415",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Trump Invokes Defense Production Act To Increase Petroleum Production",
-   "url": "https://x.com/zerohedge/status/2113613941339234415",
-   "published": "2026-10-23T12:50:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113613929905598535",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Storm Austen knocked out electricity to more than 160,000 customers in western France on Friday",
-   "url": "https://x.com/business/status/2113613929905598535",
-   "published": "2026-10-23T12:50:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113613888822673750",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨 DDoS Alert 🇮🇹 NoName claims to have targeted the website of Conemar Shipping and Chartering s.r.l. (",
-   "url": "https://x.com/FalconFeedsio/status/2113613888822673750",
-   "published": "2026-10-23T12:49:54.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113613745960448119",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇺🇸 VinSolutions ( a US-based automotive software company, has reportedly fallen victim to SCARLETTGROUP ransomware. NB: The group intends to publish the data within 5-6 days. 🔍 Key Details: 🛡️Threat Actor:…",
-   "url": "https://x.com/FalconFeedsio/status/2113613745960448119",
-   "published": "2026-10-23T12:49:20.000Z",
    "severity": "normal",
    "verified": false
   }
