@@ -1,9 +1,121 @@
 {
  "date": "2026-10-23",
  "edition": 221,
- "compiled": "2026-10-23T16:34:44.963Z",
+ "compiled": "2026-10-23T18:35:52.958Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "f582252343",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Quest Diagnostics confirms data breach exposed patient records",
+   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "snippet": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+   "published": "2026-10-23T16:40:07.000Z",
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/"
+    }
+   ],
+   "score": 1.91,
+   "image": "/img/news/f582252343.webp",
+   "t": "2026-10-23",
+   "summary": "Quest Diagnostics disclosed that patient records were exposed after a threat actor gained unauthorized access to its Quanum LSM system.",
+   "why": "Review access to Quanum LSM and check whether patient data or related systems require investigation.",
+   "tags": [
+    "patient records",
+    "Quanum LSM"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d887f828b4",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114625\" target=\"_blank\">CVE-",
+   "published": "2026-10-23T12:00:00.000Z",
+   "also": [],
+   "score": 1.76,
+   "t": "2026-10-23",
+   "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
+   "why": "Check the KEV Catalog and prioritize remediation for affected systems.",
+   "tags": [
+    "CISA",
+    "KEV Catalog",
+    "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "abfff6ba39",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+   "snippet": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog ",
+   "published": "2026-10-23T18:12:19.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/abfff6ba39.webp",
+   "t": "2026-10-23",
+   "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, covering Python startup hooks, credential theft, remote code loading, detections, and mitigations.",
+   "why": "Review Python startup hooks and credentials, and apply relevant detections and mitigations.",
+   "tags": [
+    "LiteLLM",
+    "Python startup hooks",
+    "credential theft"
+   ],
+   "ai": true
+  },
+  {
+   "id": "90f70db295",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "FCC bans two devices with surveillance chips linked to Huawei",
+   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+   "snippet": "The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”",
+   "published": "2026-10-23T17:28:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/90f70db295.webp",
+   "t": "2026-10-23",
+   "summary": "The FCC banned a wireless video transmitter and dashboard camera made with chips from Huawei subsidiary HiSilicon, which markets them for surveillance.",
+   "why": "Check whether the named devices are present in organizational equipment inventories.",
+   "tags": [
+    "FCC",
+    "surveillance chips",
+    "HiSilicon"
+   ],
+   "ai": true
+  },
+  {
+   "id": "27be26c6f1",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+   "snippet": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
+   "published": "2026-10-23T17:05:07.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/27be26c6f1.webp",
+   "t": "2026-10-23",
+   "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after reaching end of support in January 2027.",
+   "why": "Identify Windows Server 2016 systems and plan for support ending.",
+   "tags": [
+    "Windows Server 2016",
+    "security updates"
+   ],
+   "ai": true
+  },
   {
    "id": "5d4b1321ac",
    "section": "cyber",
@@ -14,7 +126,7 @@
    "snippet": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
    "published": "2026-10-23T15:38:05.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.54,
    "image": "/img/news/5d4b1321ac.webp",
    "t": "2026-10-23",
    "summary": "The PHP security team shared mitigation measures for a new remote code execution vulnerability affecting non-default configurations; no patch is available.",
@@ -36,7 +148,7 @@
    "snippet": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercep",
    "published": "2026-10-23T14:00:10.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.5,
    "image": "/img/news/4eed9c7e04.webp",
    "t": "2026-10-23",
    "summary": "Gen Digital says malicious emails, websites, and plugins can manipulate AI agents into executing commands, stealing data, or deleting files using their legitimate permissions.",
@@ -63,7 +175,7 @@
      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/"
     }
    ],
-   "score": 1.53,
+   "score": 1.49,
    "image": "/img/news/177124c993.webp",
    "t": "2026-10-23",
    "summary": "Capcom confirms hackers breached its CAPCOM ID membership service, exposing customer email addresses and associated information.",
@@ -85,7 +197,7 @@
    "snippet": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of £1,000 and five years’ imprisonment in cases of deliberate damage.",
    "published": "2026-10-23T13:26:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.49,
    "image": "/img/news/b49db17578.webp",
    "t": "2026-10-23",
    "summary": "The British government proposes updating a law on deliberate undersea cable damage, which currently carries a maximum fine of £1,000 and five years’ imprisonment.",
@@ -98,139 +210,46 @@
    "ai": true
   },
   {
-   "id": "eb477469ff",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-   "snippet": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-   "published": "2026-10-23T12:48:00.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/eb477469ff.webp",
-   "t": "2026-10-23",
-   "summary": "HPE released updates for 72 ArubaOS vulnerabilities, including eight maximum-severity authentication bypass and code execution issues.",
-   "why": "Check ArubaOS versions and apply HPE’s security updates to address authentication bypass and code execution flaws.",
-   "tags": [
-    "ArubaOS",
-    "authentication bypass",
-    "code execution"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8bb708370d",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
-   "url": "https://therecord.media/quest-diagnostics-network-intrusion",
-   "snippet": "Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.",
-   "published": "2026-10-23T12:52:00.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/8bb708370d.webp",
-   "t": "2026-10-23",
-   "summary": "Quest Diagnostics said one of its key systems may have experienced a breach of patient data.",
-   "why": "Review exposure of patient data and monitor relevant systems for signs of unauthorized access.",
-   "tags": [
-    "Quest Diagnostics",
-    "patient data",
-    "breach"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5d4f96d6ac",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-   "snippet": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-   "published": "2026-10-22T17:18:22.000Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
-    }
-   ],
-   "score": 1.47,
-   "image": "/img/news/5d4f96d6ac.webp",
-   "t": "2026-10-22",
-   "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
-   "why": "Check for affected On-Prem deployments and apply the security updates.",
-   "tags": [
-    "VeloCloud Orchestrator",
-    "zero-day",
-    "updates"
-   ],
-   "ai": true
-  },
-  {
-   "id": "52d3232953",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-   "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-   "snippet": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware appeared first on SecurityWeek .",
-   "published": "2026-10-23T14:23:37.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/52d3232953.webp",
-   "t": "2026-10-23",
-   "summary": "SecurityWeek highlights reports about hijacked Tor exit relays, banks spotting rogue AI agents, and other security stories.",
-   "why": "Review how AI agents are monitored and controlled, given reports of rogue agents at banks.",
-   "tags": [
-    "Tor exit relays",
-    "rogue AI agents",
-    "banks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f059789b24",
+   "id": "4645fb818a",
    "section": "cyber",
    "source": "The Hacker News",
    "weight": 0.5,
-   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-   "snippet": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizat",
-   "published": "2026-10-23T13:50:56.000Z",
+   "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "snippet": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, po",
+   "published": "2026-10-23T17:54:08.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/f059789b24.webp",
+   "score": 1.49,
+   "image": "/img/news/4645fb818a.webp",
    "t": "2026-10-23",
-   "summary": "Researchers disclosed a campaign targeting exposed network-edge devices, including Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.",
-   "why": "Inventory exposed firewalls and VPNs, and check them for signs of compromise.",
+   "summary": "Ruby released versions 4.0.9, 3.4.12, and 3.3.13 to fix three Onigmo bugs behind four critical GitLab security flaws.",
+   "why": "Check Ruby and GitLab versions and apply the relevant fixes.",
    "tags": [
-    "firewalls",
-    "VPNs",
-    "credentials"
+    "Ruby",
+    "Onigmo",
+    "GitLab"
    ],
    "ai": true
   },
   {
-   "id": "ceaaccb7c7",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-   "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-   "snippet": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek .",
-   "published": "2026-10-23T12:45:52.000Z",
+   "id": "74afc83725",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Denmark To Buy Anthem Munitions, Joint Strike Missiles In Dual Long-Range Strike Push",
+   "url": "https://www.twz.com/air/denmark-to-buy-anthem-munitions-joint-strike-missiles-in-dual-long-range-strike-push",
+   "snippet": "The ground- and air-launched weapons will give Denmark all-new options for striking deep behind enemy lines as NATO reinforces its Baltic flank. The post Denmark To Buy Anthem Munitions, Joint Strike Missiles In Dual Long-Range Strike Push appeared first on TWZ .",
+   "published": "2026-10-23T16:59:11.000Z",
    "also": [],
-   "score": 1.42,
-   "image": "/img/news/ceaaccb7c7.webp",
+   "score": 1.57,
+   "image": "/img/news/74afc83725.webp",
    "t": "2026-10-23",
-   "summary": "Researchers tie PHP2Shell attempts to a Mirai botnet and report an ASLR bypass; no successful compromise has been confirmed.",
-   "why": "Check PHP systems for exposure to PHP2Shell attempts and follow available security guidance.",
+   "summary": "The War Zone reports Denmark plans to buy ground- and air-launched Anthem Munitions and Joint Strike Missiles for long-range strike options.",
+   "why": "The weapons add ground- and air-launched options for striking deep behind enemy lines.",
    "tags": [
-    "PHP2Shell",
-    "Mirai",
-    "ASLR bypass"
+    "Denmark",
+    "long-range strike",
+    "NATO"
    ],
    "ai": true
   },
@@ -244,7 +263,7 @@
    "snippet": "“This is a significant achievement, particularly as we continue to expand Qatar’s domestic defence and security capabilities in a year where we have had to rise to a number of regional challenges,” the company said in a statement.",
    "published": "2026-10-23T15:10:00.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/5792ffdb34.webp",
    "t": "2026-10-23",
    "summary": "Qatari Barzan unveiled aerial drones and unmanned surface vessels at Milipol 2026. The company says the display reflects efforts to expand Qatar’s domestic defence and security capabilities.",
@@ -266,7 +285,7 @@
    "snippet": "“We think now’s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense.",
    "published": "2026-10-23T12:03:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.46,
    "image": "/img/news/1f1150f3ec.webp",
    "t": "2026-10-23",
    "summary": "Natilus secured an Air Force contract to develop a blended wing body aircraft. Its chief operating officer told Breaking Defense the company thinks it is the right time for the design to debut.",
@@ -288,7 +307,7 @@
    "snippet": "Washington blamed Moscow for deliberately moving a Russian military satellite with an undisclosed mission close last week to a U.S.-registered satellite.",
    "published": "2026-10-23T15:48:02.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/e424b4a060.webp",
    "t": "2026-10-23",
    "summary": "Washington blamed Moscow for deliberately moving a Russian military satellite with an undisclosed mission close to a U.S.-registered satellite.",
@@ -310,7 +329,7 @@
    "snippet": "“This is a revolution for the Strategic Air Forces, which have always operated in complete autonomy since their creation in the 1960s,” said one analyst.",
    "published": "2026-10-23T14:56:29.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.42,
    "image": "/img/news/ad34725676.webp",
    "t": "2026-10-23",
    "summary": "France and the UK carried out a joint airborne nuclear-strike exercise for the first time. An analyst called it a revolution for the Strategic Air Forces.",
@@ -332,7 +351,7 @@
    "snippet": "The goal is for AI to automatically analyze refueling operations from cameras mounted on the tankers and provide “hot wash” feedback to the tanker crews.",
    "published": "2026-10-23T14:29:17.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.41,
    "image": "/img/news/3921825a48.webp",
    "t": "2026-10-23",
    "summary": "The US Air Force wants AI to analyze tanker-camera footage of aerial refueling and provide feedback to tanker crews.",
@@ -354,7 +373,7 @@
    "snippet": "The defense companies secured two contracts with the Italian Army for $4.16 billion for armored vehicles, an Italian financial newspaper reported.",
    "published": "2026-10-23T14:10:15.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.41,
    "image": "/img/news/84f593047a.webp",
    "t": "2026-10-23",
    "summary": "An Italian financial newspaper reported that Leonardo and Rheinmetall secured two Italian Army contracts for armored vehicles.",
@@ -376,7 +395,7 @@
    "snippet": "More capable missiles could help Saudi Arabia deter Iranian attacks and make its military more self-reliant, but they risk fueling a regional missile race.",
    "published": "2026-10-23T13:57:29.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.4,
    "image": "/img/news/bce95f313b.webp",
    "t": "2026-10-23",
    "summary": "A study says an expanded Saudi missile plant may produce more capable missiles, potentially aiding deterrence and military self-reliance while risking a regional missile race.",
@@ -389,24 +408,51 @@
    "ai": true
   },
   {
-   "id": "e8188755d8",
-   "section": "warfare",
-   "source": "Naval News",
+   "id": "f2ee87d193",
+   "section": "geo",
+   "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Kongsberg demonstrates containerised ‘NSM in a box’",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/",
-   "snippet": "Kongsberg has successfully demonstrated a containerised Naval Strike Missile (NSM) transportation and launch system... The post Kongsberg demonstrates containerised ‘NSM in a box’ appeared first on Naval News .",
-   "published": "2026-10-23T13:29:33.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/e8188755d8.webp",
+   "title": "Romania blames Russia after drone sinks ship in the Black Sea",
+   "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
+   "snippet": "One sailor killed and three others missing after Comoros-flagged Khoryv hit near Romanian waters.",
+   "published": "2026-10-23T17:26:13.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/romania-blames-russia-for-ship-attack-in-the-black-sea/a-79743425?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.83,
+   "image": "/img/news/f2ee87d193.webp",
    "t": "2026-10-23",
-   "summary": "Kongsberg demonstrated a containerised transportation and launch system for the Naval Strike Missile.",
-   "why": "The demonstration highlights a containerised approach to transporting and launching a naval missile.",
+   "summary": "The report says Romania blames Russia after a drone hit the Comoros-flagged Khoryv near Romanian waters; one sailor was killed and three are missing.",
+   "why": "The incident highlights the strategic significance of maritime activity near Romanian waters in the Black Sea.",
    "tags": [
-    "Kongsberg",
-    "Naval Strike Missile",
-    "containerised"
+    "Black Sea",
+    "drone",
+    "Romania"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0b1c12183b",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+   "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+   "published": "2026-10-23T16:59:51.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/0b1c12183b.webp",
+   "t": "2026-10-23",
+   "summary": "The White House says Melania Trump brokered a truce for Russian-occupied Oleshky; Ukraine and Russia have not confirmed it.",
+   "why": "The unconfirmed claim concerns a truce in a Russian-occupied Ukrainian city.",
+   "tags": [
+    "Oleshky",
+    "Ukraine",
+    "truce"
    ],
    "ai": true
   },
@@ -420,7 +466,7 @@
    "snippet": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
    "published": "2026-10-23T16:19:36.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.55,
    "image": "/img/news/9b3091f737.webp",
    "t": "2026-10-22",
    "summary": "The BBC reports that Trump says Musk restored Ukraine’s access after a Starlink dispute. It says Ukraine relies on Starlink for military uses, while Musk has denied restricting access.",
@@ -429,28 +475,6 @@
     "Starlink",
     "Ukraine",
     "access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0b1c12183b",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-   "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-   "published": "2026-10-23T15:48:04.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/0b1c12183b.webp",
-   "t": "2026-10-23",
-   "summary": "The White House says Melania Trump brokered a truce for Russian-occupied Oleshky; Ukraine and Russia have not confirmed it.",
-   "why": "The unconfirmed claim concerns a truce in a Russian-occupied Ukrainian city.",
-   "tags": [
-    "Oleshky",
-    "Ukraine",
-    "truce"
    ],
    "ai": true
   },
@@ -464,7 +488,7 @@
    "snippet": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife",
    "published": "2026-10-23T15:30:47.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.54,
    "image": "/img/news/1758144911.webp",
    "t": "2026-10-23",
    "summary": "Satellite images show oil spreading for miles along the UAE coastline after a tanker strike, threatening local marine wildlife.",
@@ -486,7 +510,7 @@
    "snippet": "Pyongyang is gaining combat experience, technology, and money by supporting Russia's invasion, raising security risks for the Indo-Pacific. The post North Korea may be the biggest winner of Russia’s war in Ukraine appeared first on Atlantic Council .",
    "published": "2026-10-23T15:02:42.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/b3369e0f6e.webp",
    "t": "2026-10-23",
    "summary": "The Atlantic Council says North Korea is gaining combat experience, technology, and money by supporting Russia’s invasion, raising security risks for the Indo-Pacific.",
@@ -499,95 +523,85 @@
    "ai": true
   },
   {
-   "id": "a4b03efae8",
+   "id": "56f7f0de4f",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
-   "url": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
-   "snippet": "Democrats are framing the conflict as an affordability issue to criticise Republican candidates backed by Trump.",
-   "published": "2026-10-23T15:51:29.000Z",
+   "title": "Jerusalem Daily: Israel to ‘lock down’ occupied West Bank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
+   "snippet": "Israeli Prime Minister Benjamin Netanyahu orders a “full lockdown” of the occupied West Bank following a shooting.",
+   "published": "2026-10-23T17:30:51.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/a4b03efae8.webp",
+   "image": "/img/news/56f7f0de4f.webp",
    "t": "2026-10-23",
-   "summary": "Democrats are framing the Iran conflict as an affordability issue to criticise Republican candidates backed by Trump.",
-   "why": "The story links foreign policy to economic framing in the US midterm vote.",
+   "summary": "The report says Benjamin Netanyahu ordered a full lockdown of the occupied West Bank following a shooting.",
+   "why": "The lockdown is relevant to movement and security conditions across the occupied West Bank.",
    "tags": [
-    "Iran",
-    "foreign policy",
-    "economy"
+    "West Bank",
+    "lockdown",
+    "shooting"
    ],
    "ai": true
   },
   {
-   "id": "46f05c1f6c",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-   "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-   "published": "2026-10-23T10:23:07.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/46f05c1f6c.webp",
-   "t": "2026-10-23",
-   "summary": "A BBC investigation finds Sudan's RSF fighters deliberately targeted hospitals. The UN human rights chief says the multiple attacks may amount to war crimes.",
-   "why": "The allegations highlight the strategic and humanitarian significance of attacks on hospitals in Sudan.",
-   "tags": [
-    "Sudan",
-    "hospitals",
-    "war crimes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9cad698319",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
-   "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "One person has died after being swept away by waves in Taiwan's Liuqiu island, authorities say.",
-   "published": "2026-10-23T08:45:58.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/9cad698319.webp",
-   "t": "2026-10-23",
-   "summary": "Typhoon Champi shut Taiwan, with hundreds of flights cancelled. Authorities say one person died after being swept away by waves on Liuqiu island.",
-   "why": "The cancellations indicate disruption to air travel across Taiwan during the typhoon.",
-   "tags": [
-    "Typhoon Champi",
-    "Taiwan",
-    "flights"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5edeee1dcd",
+   "id": "9de1432dd1",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Finland nearing opening of world’s first permanent nuclear waste repository",
-   "url": "https://www.aljazeera.com/news/2026/10/23/finland-nearing-opening-of-worlds-first-permanent-nuclear-waste-repository?traffic_source=rss",
-   "snippet": "Facilities are being built in many countries, but Finland is the first to licence its underground storage facility.",
-   "published": "2026-10-23T13:50:26.000Z",
+   "title": "Indonesia seizes more than a tonne of ketamine from tanker",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_indonesia-seizes-more-than-a-tonne-of-ketamine-231026?traffic_source=rss",
+   "snippet": "Indonesian authorities seized 1.16 tonnes of ketamine from a Malaysian vessel in the Strait of Malacca.",
+   "published": "2026-10-23T17:00:22.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/5edeee1dcd.webp",
+   "score": 1.47,
+   "image": "/img/news/9de1432dd1.webp",
    "t": "2026-10-23",
-   "summary": "Finland is nearing the opening of an underground nuclear waste storage facility, the first of its kind to be licensed.",
-   "why": "The facility is a strategic example of licensed, long-term underground nuclear waste storage.",
+   "summary": "Indonesian authorities seized 1.16 tonnes of ketamine from a Malaysian vessel in the Strait of Malacca.",
+   "why": "The seizure concerns maritime activity along a strategic strait.",
    "tags": [
-    "Finland",
-    "nuclear waste",
-    "repository"
+    "Indonesia",
+    "ketamine",
+    "Strait of Malacca"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4cda5f4ce7",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+   "url": "https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks?traffic_source=rss",
+   "snippet": "An escalation would 'create nothing but losers', French foreign minister says as US official warns of possible strike.",
+   "published": "2026-10-23T16:29:51.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/4cda5f4ce7.webp",
+   "t": "2026-10-23",
+   "summary": "European and Middle East ministers urged US-Iran diplomacy; the French foreign minister warned escalation would create losers, while a US official warned of a possible strike.",
+   "why": "The statements frame diplomacy and possible military action as competing paths in US-Iran relations.",
+   "tags": [
+    "US-Iran",
+    "diplomacy",
+    "strike"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-114625",
+   "vendor": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
+  },
   {
    "cve": "CVE-2026-106931",
    "vendor": "EG Secure Solutions",
@@ -719,62 +733,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
    "cvss": 9.8,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
-  },
-  {
-   "cve": "CVE-2026-105133",
-   "vendor": "Ahsay",
-   "product": "AhsayCBS",
-   "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage",
-   "cvss": 5.5,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
   }
  ],
  "run_today": [
-  "Check whether PHP systems use non-default configurations.",
-  "Apply the PHP security team’s mitigation measures where relevant.",
-  "Track affected PHP systems while no patch is available."
+  "Check the KEV Catalog and prioritize remediation for affected systems.",
+  "Review Python startup hooks and credentials in environments using LiteLLM; apply relevant detections and mitigations.",
+  "Inventory Windows Server 2016 systems and plan for the end of security updates."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Remote code execution",
-   "explainer": "Remote code execution (RCE) is a vulnerability that can let someone run code on a system from elsewhere. The PHP item reports an RCE vulnerability affecting systems with non-default configurations.",
-   "from_id": "5d4b1321ac",
-   "from": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
+   "explainer": "A CISA catalog of vulnerabilities with evidence of active exploitation. Defenders can use it to identify issues that may need prompt remediation.",
+   "from_id": "d887f828b4",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "Unmanned surface vessel",
-   "explainer": "An unmanned surface vessel is a vessel that operates on the water without a crew aboard. Barzan unveiled unmanned surface vessels alongside aerial drones.",
-   "from_id": "5792ffdb34",
-   "from": "https://breakingdefense.com/2026/10/qatari-barzan-unveils-aerial-drones-unmanned-surface-vessels-at-milipol-2026/",
-   "fromSource": "Breaking Defense"
+   "term": "long-range strike",
+   "explainer": "A military strike option intended to reach targets far from the launching position. The Denmark report describes ground- and air-launched weapons as providing such options.",
+   "from_id": "74afc83725",
+   "from": "https://www.twz.com/air/denmark-to-buy-anthem-munitions-joint-strike-missiles-in-dual-long-range-strike-push",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Satellite imagery",
-   "explainer": "Satellite imagery is a view of Earth captured by satellites. In the UAE spill report, images show oil spreading along the coastline and indicate where the spill may threaten marine wildlife.",
-   "from_id": "1758144911",
-   "from": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "Black Sea",
+   "explainer": "A sea named in the report of a drone striking a ship near Romanian waters. Its location makes maritime incidents there relevant to regional geography and security.",
+   "from_id": "f2ee87d193",
+   "from": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Security, infrastructure and capability across contested domains",
+  "headline": "Access, exposure and security across connected systems",
   "paragraphs": [
-   "The stories connect operational dependence with uncertainty. Ukraine says Starlink remains restricted despite Trump saying limits were lifted; the PHP security team has mitigation measures but no patch for a vulnerability affecting non-default configurations. In both cases, users must work within constraints rather than assume access or protection is settled.",
-   "The other reports show how military activity and its consequences extend across domains: Barzan unveiled aerial drones and unmanned surface vessels, while satellite images show oil spreading along the UAE coast after a tanker strike. The North Korea analysis also links support for Russia’s invasion with gains that may affect Indo-Pacific security.",
-   "For defenders and analysts, the practical value lies in checking what is actually available, exposed or visible. Watch for further information on PHP mitigations, Starlink restrictions, the spill’s extent, and how reported military support and capabilities develop. The stories suggest that technical and geopolitical assessments need to keep their limits explicit."
+   "The cyber stories point to different ways systems and data can be put at risk: Quest disclosed unauthorized access and exposed patient records, while Microsoft describes credential theft and remote code loading in the LiteLLM compromise. CISA’s KEV addition also makes active exploitation a practical prioritization concern.",
+   "For defenders, these reports suggest checking access controls, credentials, affected software and asset inventories. The Windows Server 2016 support deadline adds a lifecycle task; the FCC device ban makes equipment provenance and inventory relevant too. These items describe distinct issues, not a shared cause.",
+   "The Black Sea report shifts attention to physical security near Romanian waters: a drone hit a ship, with casualties reported. Denmark’s planned long-range strike purchases also show changing military options on NATO’s Baltic flank. Analysts should watch how these separate cyber, equipment and maritime developments evolve."
   ],
   "takeaways": [
-   "Verify PHP configurations and apply the available mitigation measures.",
-   "Treat claims about access and restrictions as potentially unsettled.",
-   "Use satellite imagery to assess the reported coastal spill."
+   "Investigate access to systems holding sensitive records.",
+   "Use CISA’s KEV Catalog to guide remediation checks.",
+   "Track maritime incidents and changing long-range strike options."
   ]
  },
  "health": [
@@ -782,7 +784,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 20
+   "n": 21
   },
   {
    "name": "Krebs on Security",
@@ -794,13 +796,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 14
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 20
+   "n": 21
   },
   {
    "name": "The Record",
@@ -842,7 +844,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Schneier on Security",
@@ -860,7 +862,7 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Breaking Defense",
@@ -884,7 +886,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Bellingcat",
@@ -944,7 +946,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 9
   },
   {
    "name": "SatNews",
@@ -968,7 +970,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   }
  ]
 }
