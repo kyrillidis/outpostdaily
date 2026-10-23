@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T04:22:44.378Z",
+ "updated": "2026-10-23T04:38:29.536Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "CISA Advisories",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -17,9 +17,24 @@
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -32,37 +47,22 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "ransomware.live",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,87 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 17
+   "n": 10
   }
  ],
  "items": [
+  {
+   "id": "x2113489349178257549",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Chinese stocks slid deeper into a bear market as persistent selling pressure tests efforts by state-backed funds to stabilize the market",
+   "url": "https://x.com/business/status/2113489349178257549",
+   "published": "2026-10-23T04:35:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113488104749142092",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Indian Prime Minister Narendra Modi’s cockroach problem is proving difficult to eradicate",
+   "url": "https://x.com/business/status/2113488104749142092",
+   "published": "2026-10-23T04:30:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113488027955917195",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "US Consults France, Israel and Lebanon Over Potential Replacement Force for UNIFIL",
+   "url": "https://x.com/FirstSquawk/status/2113488027955917195",
+   "published": "2026-10-23T04:29:47.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113487779330142460",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇮🇩 🚨 INDONESIA: UNIVERSITAS MUHAMMADIYAH BANGKA BELITUNG (UNMUH BABEL) STUDENT DATABASE ALLEGEDLY LEAKED FOR FREE A threat actor on an underground forum claims to be freely sharing a student database belonging to Universitas…",
+   "url": "https://x.com/DailyDarkWeb/status/2113487779330142460",
+   "published": "2026-10-23T04:28:47.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113486876925731085",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "ECB Set To Raise Rates In December After Pause, Economists Say – BBG",
+   "url": "https://x.com/LiveSquawk/status/2113486876925731085",
+   "published": "2026-10-23T04:25:12.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113486854506864788",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "\"High Likelihood Of Error\": Judge Halts DHS Voter-Fraud Door-Knocks In Nine States",
+   "url": "https://x.com/zerohedge/status/2113486854506864788",
+   "published": "2026-10-23T04:25:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113486844004388967",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "All eyes are on UK Chancellor of the Exchequer John Healey as he prepares the country’s next budget, which is widely expected to include higher levies on bank profits.",
+   "url": "https://x.com/business/status/2113486844004388967",
+   "published": "2026-10-23T04:25:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113486131761422815",
    "kind": "x",
@@ -3325,83 +3402,6 @@
    "published": "2026-10-22T20:34:47.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "n0a62902654",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "What We Missed: Feds Lasso Texas Laptop Farms",
-   "url": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
-   "published": "2026-10-22T20:33:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113367854523298045",
-   "kind": "x",
-   "group": "redteam",
-   "source": "@SpecterOps",
-   "title": "“It really makes it concrete and very visual.” Sahan Fernando, CISO at Rady Children’s Health San Diego, explains how BloodHound Enterprise helps show identity risk and make the case for remediation. Watch the latest #KnowYourAdversary:",
-   "url": "https://x.com/SpecterOps/status/2113367854523298045",
-   "published": "2026-10-22T20:32:15.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113367791835431008",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨 Ransomware Alert 🚨 LEAKEDDATA ransomware group has added an unidentified victim (M...r) to its dark web portal. 🔍 Key Details: 🛡️ Threat Actor: LEAKEDDATA 📅 Reported on: 22/10/26",
-   "url": "https://x.com/FalconFeedsio/status/2113367791835431008",
-   "published": "2026-10-22T20:32:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113367345708056735",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Elisabeth Thand Ringqvist holds the key to Sweden’s next government. Now comes the hard part: finding a coalition her party can actually support",
-   "url": "https://x.com/business/status/2113367345708056735",
-   "published": "2026-10-22T20:30:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113366540896665876",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Anthropic’s imminent public listing is poised to create multibillion-dollar gains for top venture capital firms, technology companies and independent investors that have backed the Claude chatbot maker since its founding in 2021. Read…",
-   "url": "https://x.com/business/status/2113366540896665876",
-   "published": "2026-10-22T20:27:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113366043901002062",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Billionaire Jeff Yass gave almost $110 million to boost Republicans in the US midterms, making him the third-largest individual donor of this election cycle",
-   "url": "https://x.com/business/status/2113366043901002062",
-   "published": "2026-10-22T20:25:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n177124c993",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Capcom confirms data breach affecting 11.7 million accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-   "published": "2026-10-22T20:22:45.000Z",
-   "severity": "high",
-   "verified": true
   }
  ]
 }
