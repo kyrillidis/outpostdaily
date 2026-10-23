@@ -1,25 +1,15 @@
 {
- "updated": "2026-10-23T15:53:17.807Z",
+ "updated": "2026-10-23T15:59:52.917Z",
  "health": [
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
   },
   {
    "name": "BleepingComputer",
@@ -27,9 +17,9 @@
    "n": 3
   },
   {
-   "name": "BBC World",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -37,9 +27,9 @@
    "n": 5
   },
   {
-   "name": "The Record",
+   "name": "BBC World",
    "ok": true,
-   "n": 2
+   "n": 5
   },
   {
    "name": "Krebs on Security",
@@ -47,9 +37,19 @@
    "n": 0
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Dark Reading",
@@ -57,14 +57,14 @@
    "n": 3
   },
   {
-   "name": "ransomware.live",
+   "name": "DarkForums",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "ransomware.live",
    "ok": true,
-   "n": 1
+   "n": 5
   },
   {
    "name": "BreachForums",
@@ -72,7 +72,7 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -94,15 +94,59 @@
   {
    "name": "X crisis",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 15
+   "n": 8
   }
  ],
  "items": [
+  {
+   "id": "n8b54fe70f1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
+   "url": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
+   "published": "2026-10-23T15:56:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113660513657704865",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "The Pentagon has spent months building a new agency to covertly disrupt and sabotage foreign technology programs seen as threats to U.S. military superiority, according to a dozen current and former U.S. national security officials who…",
+   "url": "https://x.com/sentdefender/status/2113660513657704865",
+   "published": "2026-10-23T15:55:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113660502781927459",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "France Braces For Moody's Downgrade As OAT-Bund Spread Hits EU Crisis Level Highs",
+   "url": "https://x.com/zerohedge/status/2113660502781927459",
+   "published": "2026-10-23T15:55:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113660478425571385",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Carney said he’s concerned about the manipulation of SpaceX’s Starlink satellite system that has made it harder for Ukraine to defend itself",
+   "url": "https://x.com/business/status/2113660478425571385",
+   "published": "2026-10-23T15:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113659562108821798",
    "kind": "x",
@@ -2986,6 +3030,17 @@
    "verified": false
   },
   {
+   "id": "r463cc4dda3",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "sarcoma claims Don Pickett & Associates — Professional Services",
+   "url": "https://www.ransomware.live/id/RG9uIFBpY2tldHQgJiBBc3NvY2lhdGVzQHNhcmNvbWE=",
+   "published": "2026-10-23T11:48:24.826Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113597590121980280",
    "kind": "x",
    "group": "markets",
@@ -3346,61 +3401,6 @@
    "url": "https://x.com/business/status/2113588763691458667",
    "published": "2026-10-23T11:10:04.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113587496739045532",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Paschi CEO Luigi Lovaglio is facing almost certain defeat and perhaps even a crushing one at an upcoming investor meeting, paving the way for rival Intesa Sanpaolo to take over the bank",
-   "url": "https://x.com/business/status/2113587496739045532",
-   "published": "2026-10-23T11:05:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113587268678025459",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "$AXP | American Express Q3 2026 Earnings - Rev: USD 20.06B (est USD 20.12B) - Adj EPS: USD 4.68 - Billed Business: USD 454B (est USD 456.93B) - Provision For Credit Losses: USD 1B - Total Expenses: USD 14.5B (est USD 14.81B) - Sees FY Adj…",
-   "url": "https://x.com/LiveSquawk/status/2113587268678025459",
-   "published": "2026-10-23T11:04:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113587252169515334",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "American Express Q3 2026 Earnings - Rev: USD 20.06B (est USD 20.12B) - Booked USD 982M Pre-Tax Gain On GBTG Sale - Adj EPS: USD 4.68 - Billed Business: USD 454B (est USD 456.93B) - Provision For Credit Losses: USD 1B - Total Expenses: USD…",
-   "url": "https://x.com/FirstSquawk/status/2113587252169515334",
-   "published": "2026-10-23T11:04:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113587042412048713",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "A search and rescue mission is underway in the Black Sea after an incident with the Comoros flagged cargo ship \"Khoryv\", reportedly a Russian drone attack, about 13 nautical miles east of Constanta, Romania. One person is dead and three…",
-   "url": "https://x.com/sentdefender/status/2113587042412048713",
-   "published": "2026-10-23T11:03:14.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113587021612814712",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🌐 🛠️ ISC BIND 9: FOUR HIGH-SEVERITY FLAWS PATCHED, INCLUDING GSS-TSIG MEMORY CORRUPTION (CVSS 8.1) ISC has published four new BIND 9 security advisories (Oct 21), all rated High and remotely exploitable: * CVE-2026-94300 (CVSS 8.1):…",
-   "url": "https://x.com/DailyDarkWeb/status/2113587021612814712",
-   "published": "2026-10-23T11:03:09.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
