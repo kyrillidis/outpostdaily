@@ -1,7 +1,7 @@
 {
  "date": "2026-10-23",
  "edition": 221,
- "compiled": "2026-10-23T10:29:16.060Z",
+ "compiled": "2026-10-23T12:39:14.293Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,7 +19,7 @@
      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/"
     }
    ],
-   "score": 1.66,
+   "score": 1.61,
    "image": "/img/news/177124c993.webp",
    "t": "2026-10-23",
    "summary": "Capcom confirms hackers breached its CAPCOM ID membership service, exposing customer email addresses and associated information.",
@@ -46,7 +46,7 @@
      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
     }
    ],
-   "score": 1.59,
+   "score": 1.55,
    "image": "/img/news/5d4f96d6ac.webp",
    "t": "2026-10-22",
    "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
@@ -59,23 +59,68 @@
    "ai": true
   },
   {
-   "id": "9480845765",
+   "id": "3bc9a46d29",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "snippet": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an ",
+   "published": "2026-10-23T11:25:43.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/3bc9a46d29.webp",
+   "t": "2026-10-23",
+   "summary": "PHP warns of another potential remote code execution issue after emergency PHP2Shell fixes. It says the new issue affects web applications configured in an unusual way.",
+   "why": "Review PHP web application configurations and check for available fixes.",
+   "tags": [
+    "PHP",
+    "RCE",
+    "PHP2Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "80697809b2",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "snippet": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phis",
+   "published": "2026-10-23T11:11:23.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/80697809b2.webp",
+   "t": "2026-10-23",
+   "summary": "The title reports a destructive attack on a Ukrainian logistics company involving a new mesh network backdoor. ESET is cited in the snippet, which cuts off before describing the attack further.",
+   "why": "Check for unexpected mesh-network backdoors and signs of destructive activity.",
+   "tags": [
+    "mesh network",
+    "backdoor",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "713a68aa81",
    "section": "cyber",
    "source": "SecurityWeek",
    "weight": 0.5,
-   "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
-   "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-   "snippet": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek .",
-   "published": "2026-10-23T09:58:34.000Z",
+   "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+   "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+   "snippet": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek .",
+   "published": "2026-10-23T10:31:16.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/9480845765.webp",
+   "score": 1.46,
+   "image": "/img/news/713a68aa81.webp",
    "t": "2026-10-23",
-   "summary": "The critical SQL injection flaw in VeloCloud Orchestrator allows attackers to access privileged internal functionality and gain operator privileges.",
-   "why": "Check VeloCloud Orchestrator for exposure and apply available security fixes.",
+   "summary": "The title says China-linked hackers used the AI pentest tool Artex in ConnectWise attacks; the snippet says hundreds of organizations were targeted and some environments gained privileged access.",
+   "why": "Review ConnectWise access and investigate unexpected privileged access.",
    "tags": [
-    "SQL injection",
-    "operator privileges"
+    "Artex",
+    "ConnectWise",
+    "privileged access"
    ],
    "ai": true
   },
@@ -89,7 +134,7 @@
    "snippet": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to",
    "published": "2026-10-23T09:36:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/3a89e69463.webp",
    "t": "2026-10-23",
    "summary": "A flaw in Pillow’s handling of EPS images can allow operating system commands to run on a server when it opens a specified file.",
@@ -98,6 +143,27 @@
     "Pillow",
     "EPS images",
     "code execution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9480845765",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+   "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+   "snippet": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek .",
+   "published": "2026-10-23T09:58:34.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/9480845765.webp",
+   "t": "2026-10-23",
+   "summary": "The critical SQL injection flaw in VeloCloud Orchestrator allows attackers to access privileged internal functionality and gain operator privileges.",
+   "why": "Check VeloCloud Orchestrator for exposure and apply available security fixes.",
+   "tags": [
+    "SQL injection",
+    "operator privileges"
    ],
    "ai": true
   },
@@ -111,7 +177,7 @@
    "snippet": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to th",
    "published": "2026-10-23T08:40:43.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/a2a9e372db.webp",
    "t": "2026-10-23",
    "summary": "Researchers demonstrated that malicious Brotli data can make an application on an official Node.js build run attacker-supplied code.",
@@ -133,7 +199,7 @@
    "snippet": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to age",
    "published": "2026-10-23T08:35:45.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/6f084559d7.webp",
    "t": "2026-10-23",
    "summary": "Security firm V12 says a malicious API could ask x402 SDK clients to sign payments for their full balance of a supported token.",
@@ -155,7 +221,7 @@
    "snippet": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek .",
    "published": "2026-10-23T08:25:06.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.41,
    "image": "/img/news/0515431e74.webp",
    "t": "2026-10-23",
    "summary": "Quest Diagnostics reported unauthorized access to Quanum Lab Services Manager, where certain clients can place test orders.",
@@ -168,68 +234,46 @@
    "ai": true
   },
   {
-   "id": "8d39c401e7",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-   "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-   "snippet": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .",
-   "published": "2026-10-23T08:10:46.000Z",
+   "id": "1f1150f3ec",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Natilus secures Air Force contract to develop blended wing body aircraft",
+   "url": "https://breakingdefense.com/2026/10/natilus-secures-air-force-contract-to-develop-blended-wing-body-aircraft/",
+   "snippet": "“We think now’s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense.",
+   "published": "2026-10-23T12:03:00.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/8d39c401e7.webp",
+   "score": 1.59,
+   "image": "/img/news/1f1150f3ec.webp",
    "t": "2026-10-23",
-   "summary": "SecurityWeek reports hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker.",
-   "why": "Review OAuth token access and verify packages and approvals in software supply chains.",
+   "summary": "Natilus secured an Air Force contract to develop a blended wing body aircraft. Its chief operating officer told Breaking Defense the company thinks it is the right time for the design to debut.",
+   "why": "The contract advances development of a blended wing body aircraft.",
    "tags": [
-    "OAuth tokens",
-    "PyPI",
-    "Docker"
+    "Air Force",
+    "blended wing body",
+    "aircraft"
    ],
    "ai": true
   },
   {
-   "id": "76ce6885fc",
-   "section": "cyber",
-   "source": "SecurityWeek",
+   "id": "5eda808f1a",
+   "section": "warfare",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-   "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-   "snippet": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek .",
-   "published": "2026-10-23T07:54:47.000Z",
+   "title": "China’s first aircraft carrier forms ‘evolving pattern’ of voyages in disputed Asian seas",
+   "url": "https://www.defensenews.com/global/asia-pacific/2026/10/23/chinas-first-aircraft-carrier-forms-evolving-pattern-of-voyages-in-disputed-asian-seas/",
+   "snippet": "The carrier group’s passages not far from Taiwan, Japan and the Philippines have raised alerts.",
+   "published": "2026-10-23T12:35:20.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/76ce6885fc.webp",
+   "score": 1.5,
+   "image": "/img/news/5eda808f1a.webp",
    "t": "2026-10-23",
-   "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues in third-party components; the title says it patched 75 flaws.",
-   "why": "Check affected Data Center and Server products and prioritize relevant third-party component updates.",
+   "summary": "China’s first aircraft carrier has an evolving pattern of voyages in disputed Asian seas. Passages near Taiwan, Japan and the Philippines have raised alerts.",
+   "why": "The voyages are relevant to regional military activity near disputed areas.",
    "tags": [
-    "Atlassian",
-    "vulnerabilities",
-    "third-party components"
-   ],
-   "ai": true
-  },
-  {
-   "id": "199bd0864f",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-   "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-   "snippet": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-20",
-   "published": "2026-10-23T07:40:45.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/199bd0864f.webp",
-   "t": "2026-10-23",
-   "summary": "Researchers observed unsuccessful attempts to exploit PHP2Shell vulnerabilities to add systems to a Mirai botnet variant called Potassium.",
-   "why": "Check for PHP2Shell exploitation attempts and review exposed systems for signs of compromise.",
-   "tags": [
-    "PHP2Shell",
-    "Mirai",
-    "Potassium"
+    "aircraft carrier",
+    "Taiwan",
+    "disputed seas"
    ],
    "ai": true
   },
@@ -243,7 +287,7 @@
    "snippet": "“[T]he exigencies of desperate survival do stimulate wise leaders to seek such unorthodox solutions.” —Barton Whaley, StratagemOn the night of Jan. 5, 2025, my first mission in the Pokrovsk command post was to make a fake radio call. We knew Russian forces were listening in. We did not know whether the position our men",
    "published": "2026-10-23T07:30:37.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.49,
    "image": "/img/news/57a63a8f60.webp",
    "t": "2026-10-23",
    "summary": "The article describes a fake radio call in a command post and examines deception in mass autonomous warfare.",
@@ -270,7 +314,7 @@
      "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/"
     }
    ],
-   "score": 1.5,
+   "score": 1.46,
    "image": "/img/news/b8ce359a66.webp",
    "t": "2026-10-22",
    "summary": "The Pentagon and Lockheed agreed to a tentative F-35 framework covering production and sustainment over the next 10 years; lawmakers must still approve it.",
@@ -279,28 +323,6 @@
     "F-35",
     "production",
     "sustainment"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1ee04e50ca",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class",
-   "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
-   "snippet": "The Spanish Navy and Navantia are developing the new F110 IAMD frigate. This evolution of the Bonifaz class features advanced integrated air and missile defense capabilities The post Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class appeared first on Naval News .",
-   "published": "2026-10-23T08:57:42.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/1ee04e50ca.webp",
-   "t": "2026-10-23",
-   "summary": "The Spanish Navy and Navantia are developing an F110 IAMD frigate, an evolution of the Bonifaz class with integrated air and missile defense capabilities.",
-   "why": "The planned frigate’s air and missile defense capabilities are relevant to naval force protection.",
-   "tags": [
-    "F110",
-    "IAMD",
-    "frigate"
    ],
    "ai": true
   },
@@ -314,7 +336,7 @@
    "snippet": "The Ministry of Defence (MOD) is proposing to redevelop Cawdor Barracks as the UK host site for the DARC radar programme.",
    "published": "2026-10-23T09:06:00.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.43,
    "image": "/img/news/ff598a5b5b.webp",
    "t": "2026-10-23",
    "summary": "The UK Ministry of Defence is proposing to redevelop Cawdor Barracks as the UK host site for the DARC radar programme.",
@@ -323,6 +345,28 @@
     "DARC",
     "radar",
     "Cawdor Barracks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1ee04e50ca",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class",
+   "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+   "snippet": "The Spanish Navy and Navantia are developing the new F110 IAMD frigate. This evolution of the Bonifaz class features advanced integrated air and missile defense capabilities The post Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class appeared first on Naval News .",
+   "published": "2026-10-23T08:57:42.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/1ee04e50ca.webp",
+   "t": "2026-10-23",
+   "summary": "The Spanish Navy and Navantia are developing an F110 IAMD frigate, an evolution of the Bonifaz class with integrated air and missile defense capabilities.",
+   "why": "The planned frigate’s air and missile defense capabilities are relevant to naval force protection.",
+   "tags": [
+    "F110",
+    "IAMD",
+    "frigate"
    ],
    "ai": true
   },
@@ -336,7 +380,7 @@
    "snippet": "Bombers are now being viewed as another potential air-to-air asset on top of growing the fighter fleet and establishing a CCA force. The post USAF Confirms Bombers Could Have A Major Air-To-Air Combat Role appeared first on TWZ .",
    "published": "2026-10-22T21:31:48.000Z",
    "also": [],
-   "score": 1.33,
+   "score": 1.28,
    "image": "/img/news/fa5f7200b0.webp",
    "t": "2026-10-22",
    "summary": "The War Zone reports that the USAF sees bombers as a potential air-to-air asset, alongside expanding the fighter fleet and establishing a CCA force.",
@@ -344,28 +388,6 @@
    "tags": [
     "bombers",
     "air-to-air"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cfaf0faba7",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "Are yearlong deployments the Navy’s new normal?",
-   "url": "https://www.defenseone.com/policy/2026/10/yearlong-deployments-navy-new-normal/416777/",
-   "snippet": "That's what officials are telling sailors' families in Japan, where two destroyers are slated for 12- and 14-month cruises.",
-   "published": "2026-10-23T01:44:00.000Z",
-   "also": [],
-   "score": 1.32,
-   "image": "/img/news/cfaf0faba7.webp",
-   "t": "2026-10-23",
-   "summary": "Officials are telling sailors’ families in Japan that two destroyers are slated for 12- and 14-month cruises.",
-   "why": "Longer cruises may affect deployment planning and sailors’ families.",
-   "tags": [
-    "destroyers",
-    "cruises",
-    "Japan"
    ],
    "ai": true
   },
@@ -379,7 +401,7 @@
    "snippet": "The KJ-3000 is the most capable of China’s rapidly expanding airborne early warning and control aircraft fleet. The post Four KJ-3000 Radar Jets At Chinese Factory Point To Serial Production appeared first on TWZ .",
    "published": "2026-10-22T20:46:07.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.27,
    "image": "/img/news/1205db8b2b.webp",
    "t": "2026-10-22",
    "summary": "The War Zone says four KJ-3000 radar jets at a Chinese factory point to serial production. It describes the aircraft as China’s most capable airborne early warning and control aircraft.",
@@ -392,50 +414,51 @@
    "ai": true
   },
   {
-   "id": "33cbbc2304",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Space Force shifts into high gear on cislunar warfare, with RFIs coming soon",
-   "url": "https://breakingdefense.com/2026/10/space-force-shifts-into-high-gear-on-cislunar-warfare-with-rfis-coming-soon/",
-   "snippet": "Maj. Gen. Stephen Purdy, the Space Force’s portfolio acquisition executive for advanced programs, said the service wants to field cislunar capabilities by the end of fiscal 2029.",
-   "published": "2026-10-22T20:27:12.000Z",
-   "also": [],
-   "score": 1.31,
-   "image": "/img/news/33cbbc2304.webp",
-   "t": "2026-10-22",
-   "summary": "Breaking Defense reports that the Space Force wants to field cislunar capabilities by the end of fiscal 2029, according to Gen. Stephen Purdy.",
-   "why": "Cislunar capabilities extend military planning into the space between Earth and the Moon.",
+   "id": "ff3a9907d1",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "South Korea invites North for military talks over border",
+   "url": "https://www.aljazeera.com/news/2026/10/23/south-korea-invites-north-for-military-talks-over-border?traffic_source=rss",
+   "snippet": "The proposal comes days after Pyongyang says it moved new military units into 'firing positions' along the border.",
+   "published": "2026-10-23T10:20:31.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/south-korea-proposes-military-talks-with-north-again/a-79739208?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.8,
+   "image": "/img/news/ff3a9907d1.webp",
+   "t": "2026-10-23",
+   "summary": "South Korea invited North Korea to military talks over the border after Pyongyang said it moved new military units into firing positions there.",
+   "why": "The invitation concerns military tensions along the border.",
    "tags": [
-    "Space Force",
-    "cislunar"
+    "military talks",
+    "border",
+    "firing positions"
    ],
    "ai": true
   },
   {
-   "id": "dd6cd06717",
+   "id": "9b3091f737",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
-   "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
-   "snippet": "Clampdown comes as Israeli pogroms heighten tensions and spread violence across Palestinian territory.",
-   "published": "2026-10-23T04:09:28.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/israel-preparing-full-closure-of-west-bank-netanyahu-says/a-79739292?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.72,
-   "image": "/img/news/dd6cd06717.webp",
-   "t": "2026-10-23",
-   "summary": "Al Jazeera reports that Israel arrested 36 Palestinians in the West Bank as attacks on farmers and their lands intensified during the olive harvest.",
-   "why": "The reported arrests and attacks affect farmers and land in the West Bank.",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
+   "published": "2026-10-23T11:01:08.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/9b3091f737.webp",
+   "t": "2026-10-22",
+   "summary": "The BBC reports that Trump says Musk restored Ukraine’s access after a Starlink dispute. It says Ukraine relies on Starlink for military uses, while Musk has denied restricting access.",
+   "why": "Ukraine’s reliance on Starlink makes access to the service strategically relevant to its military.",
    "tags": [
-    "West Bank",
-    "farmers",
-    "olive harvest"
+    "Starlink",
+    "Ukraine",
+    "access"
    ],
    "ai": true
   },
@@ -446,10 +469,10 @@
    "weight": 0.6,
    "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
    "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The attack comes at a time of heightened tensions in the West Bank and four days before Israel's general election.",
+   "snippet": "The attack comes at a time of heightened tensions in the occupied West Bank and four days before Israel's general election.",
    "published": "2026-10-23T10:26:06.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.55,
    "image": "/img/news/ac5401e1a8.webp",
    "t": "2026-10-23",
    "summary": "The BBC reports that five Israelis were wounded and two suspected Palestinian attackers were killed in a West Bank shooting, amid heightened tensions and days before Israel's general election.",
@@ -471,7 +494,7 @@
    "snippet": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
    "published": "2026-10-23T10:23:07.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.55,
    "image": "/img/news/46f05c1f6c.webp",
    "t": "2026-10-23",
    "summary": "A BBC investigation finds Sudan's RSF fighters deliberately targeted hospitals. The UN human rights chief says the multiple attacks may amount to war crimes.",
@@ -480,28 +503,6 @@
     "Sudan",
     "hospitals",
     "war crimes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9b3091f737",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
-   "published": "2026-10-23T09:36:43.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/9b3091f737.webp",
-   "t": "2026-10-22",
-   "summary": "The BBC reports that Trump says Musk restored Ukraine’s access after a Starlink dispute. It says Ukraine relies on Starlink for military uses, while Musk has denied restricting access.",
-   "why": "Ukraine’s reliance on Starlink makes access to the service strategically relevant to its military.",
-   "tags": [
-    "Starlink",
-    "Ukraine",
-    "access"
    ],
    "ai": true
   },
@@ -515,7 +516,7 @@
    "snippet": "One person has died after being swept away by waves in Taiwan's Liuqiu island, authorities say.",
    "published": "2026-10-23T08:45:58.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.52,
    "image": "/img/news/9cad698319.webp",
    "t": "2026-10-23",
    "summary": "Typhoon Champi shut Taiwan, with hundreds of flights cancelled. Authorities say one person died after being swept away by waves on Liuqiu island.",
@@ -524,6 +525,50 @@
     "Typhoon Champi",
     "Taiwan",
     "flights"
+   ],
+   "ai": true
+  },
+  {
+   "id": "daee4efc2c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US-Iran war, then and now: How the landscape has changed since February",
+   "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february?traffic_source=rss",
+   "snippet": "The positions of Washington and Tehran have changed dramatically since US-Israeli strikes began the war, analysts say.",
+   "published": "2026-10-23T11:43:53.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/daee4efc2c.webp",
+   "t": "2026-10-23",
+   "summary": "Analysts say Washington and Tehran’s positions have changed dramatically since US-Israeli strikes began the war.",
+   "why": "The changing positions matter to understanding US-Iran relations and the conflict’s regional context.",
+   "tags": [
+    "US-Iran war",
+    "Washington",
+    "Tehran"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5b4ffbd10e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "‘Pink blooms from among the rubble’: Battling breast cancer in Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/pink-blooms-from-among-the-rubble-battling-breast-cancer-in-gaza?traffic_source=rss",
+   "snippet": "Health workers in Gaza are participating in a breast cancer campaign called ‘pink blooms from among the rubble’.",
+   "published": "2026-10-23T11:27:35.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/5b4ffbd10e.webp",
+   "t": "2026-10-23",
+   "summary": "Health workers in Gaza are participating in a breast cancer campaign called “pink blooms from among the rubble.”",
+   "why": "The campaign highlights health workers’ activity in Gaza amid the conditions described in the title.",
+   "tags": [
+    "Gaza",
+    "breast cancer",
+    "health workers"
    ],
    "ai": true
   },
@@ -537,7 +582,7 @@
    "snippet": "Latest smartphones are finding their way into Iran despite sanctions and trade restrictions, but many can't afford them.",
    "published": "2026-10-23T09:56:28.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.44,
    "image": "/img/news/e8b82648c5.webp",
    "t": "2026-10-23",
    "summary": "Al Jazeera reports that the latest smartphones are reaching Iran despite sanctions and trade restrictions, but many people cannot afford them.",
@@ -546,49 +591,6 @@
     "Iran",
     "smartphones",
     "sanctions"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fb228bc655",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What role does the military play in Israeli schools?",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/what-role-does-the-military-play-in-israeli-schools?traffic_source=rss",
-   "snippet": "For Israeli teenagers, military life ordinarily kicks off in school.",
-   "published": "2026-10-23T09:32:33.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/fb228bc655.webp",
-   "t": "2026-10-23",
-   "summary": "Al Jazeera reports that Israeli teenagers’ experience of military life ordinarily begins in school.",
-   "why": "The story connects schooling with military life in Israel.",
-   "tags": [
-    "Israeli schools",
-    "military life"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e635f47855",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israeli military kills two in gun battle in occupied West Bank",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-military-kills-two-in-gun-battle-in-occupied-west-bank?traffic_source=rss",
-   "snippet": "Israel’s PM is preparing to order a shutdown in the occupied West Bank lockdown after a shooting near Hebron.",
-   "published": "2026-10-23T09:12:38.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/e635f47855.webp",
-   "t": "2026-10-23",
-   "summary": "Al Jazeera reports that Israel’s prime minister is preparing to order a shutdown in the occupied West Bank after a shooting near Hebron.",
-   "why": "The reported planned shutdown is relevant to movement and access across the occupied West Bank.",
-   "tags": [
-    "West Bank",
-    "Hebron",
-    "shutdown"
    ],
    "ai": true
   }
@@ -740,33 +742,33 @@
   }
  ],
  "run_today": [
-  "Check VeloCloud Orchestrator for exposure and apply available security fixes.",
-  "Review whether servers using Pillow open EPS images, and strengthen safeguards for those files.",
-  "Verify that x402 SDK payments have limits before AI agents call APIs."
+  "Review PHP web application configurations and check for available fixes for the newly warned-of issue.",
+  "Check for unexpected mesh-network backdoors and signs of destructive activity in relevant environments.",
+  "Review ConnectWise access and investigate unexpected privileged access. "
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "SQL injection",
-   "explainer": "SQL injection is a flaw that can let attackers interfere with an application’s database queries. The VeloCloud Orchestrator item says its SQL injection flaw can expose privileged functionality.",
-   "from_id": "9480845765",
-   "from": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-   "fromSource": "SecurityWeek"
+   "term": "Remote code execution",
+   "explainer": "Remote code execution (RCE) is a flaw that can let an attacker run code on a system from elsewhere. The PHP item reports another potential RCE affecting web applications with an unusual configuration.",
+   "from_id": "3bc9a46d29",
+   "from": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "IAMD",
-   "explainer": "IAMD means integrated air and missile defense: capabilities brought together to defend against air and missile threats. The item describes these capabilities as part of the proposed F110 frigate.",
-   "from_id": "1ee04e50ca",
-   "from": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
-   "fromSource": "Naval News"
+   "term": "Blended wing body",
+   "explainer": "A blended wing body is an aircraft design in which the wing and main body form a more integrated shape. The item says Natilus has an Air Force contract to develop one.",
+   "from_id": "1f1150f3ec",
+   "from": "https://breakingdefense.com/2026/10/natilus-secures-air-force-contract-to-develop-blended-wing-body-aircraft/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "sanctions",
-   "explainer": "Sanctions are restrictions imposed by governments or other authorities. The Iran item says smartphones are reaching the country despite sanctions and trade restrictions.",
-   "from_id": "e8b82648c5",
-   "from": "https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss",
+   "term": "Military talks",
+   "explainer": "Military talks are discussions between military sides. In this item, South Korea invites North Korea to talks over the border after North Korea says it moved units into firing positions.",
+   "from_id": "ff3a9907d1",
+   "from": "https://www.aljazeera.com/news/2026/10/23/south-korea-invites-north-for-military-talks-over-border?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
@@ -793,7 +795,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 18
+   "n": 20
   },
   {
    "name": "The Record",
@@ -817,7 +819,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 7
   },
   {
    "name": "Unit 42",
@@ -834,14 +836,14 @@
   {
    "name": "Microsoft Security",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "War on the Rocks",
@@ -853,13 +855,13 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Defense One",
@@ -871,7 +873,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Naval News",
@@ -949,19 +951,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   }
  ]
 }
