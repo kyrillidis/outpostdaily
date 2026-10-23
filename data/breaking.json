@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T22:20:29.833Z",
+ "updated": "2026-10-23T22:31:47.854Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -7,7 +7,7 @@
    "n": 4
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -17,14 +17,14 @@
    "n": 1
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The Hacker News",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "MarketWatch",
@@ -32,24 +32,24 @@
    "n": 10
   },
   {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "SecurityWeek",
@@ -59,7 +59,12 @@
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 12
+   "n": 9
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "DarkForums",
@@ -70,11 +75,6 @@
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "X redteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 8
+   "n": 6
   }
  ],
  "items": [
+  {
+   "id": "x2113759902250172745",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "On electoral prediction markets, bets can be placed in an attempt to influence the results, not just predict them. Here's what to know",
+   "url": "https://x.com/business/status/2113759902250172745",
+   "published": "2026-10-23T22:30:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113759188295778470",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "⚠️ Unexpected login prompt in Outlook Web: what a researcher observed, and why it matters Security researcher Jesus A. ( shared an unusual observation with us. While reading a newsletter email in Outlook Web, a browser-native \"Sign in\"…",
+   "url": "https://x.com/DailyDarkWeb/status/2113759188295778470",
+   "published": "2026-10-23T22:27:16.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113758642121969983",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Space War Fears Rise As Russian Satellite Makes Dangerous Maneuver",
+   "url": "https://x.com/zerohedge/status/2113758642121969983",
+   "published": "2026-10-23T22:25:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113758626372268086",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "In an election that is seen as a referendum on Benjamin Netanyahu, the Prime Minister is neck-and-neck with challenger Gadi Eisenkot.",
+   "url": "https://x.com/business/status/2113758626372268086",
+   "published": "2026-10-23T22:25:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113757391179174370",
    "kind": "x",
@@ -157,6 +201,17 @@
    "published": "2026-10-23T22:05:02.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n8b48db5000",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why is Israel increasing its presence in the Balkans?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/why-is-israel-increasing-its-presence-in-the-balkans?traffic_source=rss",
+   "published": "2026-10-23T22:01:52.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113752399613509765",
@@ -3347,61 +3402,6 @@
    "published": "2026-10-23T16:17:02.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2113665932035785152",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨 Critical Okta Access Gateway flaw allows administrators to execute system commands; CVE-2026-115547 The vulnerability affects the Okta Access Gateway Admin Console and carries a CVSS score of 9.1. ⠀ An authenticated administrator can…",
-   "url": "https://x.com/DarkWebInformer/status/2113665932035785152",
-   "published": "2026-10-23T16:16:42.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113665617530061028",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "Interesting, as the approximately two-week long high export window from late September, ostensibly when Iran’s leverage over the Strait of Hormuz had fallen significantly, saw similar levels (~$114-$120). The threat of future and ongoing…",
-   "url": "https://x.com/sentdefender/status/2113665617530061028",
-   "published": "2026-10-23T16:15:27.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113665530729214176",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@socradar",
-   "title": "10 stories from the last 24 hours in cyber: an actively exploited VeloCloud zero-day, 2 unpatched Linux KSMBD flaws, and what your team should do about each. #ThreatIntelligence #CyberSecurity #VulnerabilityManagement",
-   "url": "https://x.com/socradar/status/2113665530729214176",
-   "published": "2026-10-23T16:15:07.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113665534071837090",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Wall Street strategists who recommended loading up on Brazil assets after Flávio Bolsonaro emerged as the frontrunner for president are about to see if they led clients astray or to profits",
-   "url": "https://x.com/business/status/2113665534071837090",
-   "published": "2026-10-23T16:15:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113664649652818035",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "US TO PUSH FOR NEW LABELS ON SEAFOOD AT GROCERY STORES: CBS",
-   "url": "https://x.com/FirstSquawk/status/2113664649652818035",
-   "published": "2026-10-23T16:11:37.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
