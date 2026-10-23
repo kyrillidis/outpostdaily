@@ -1,15 +1,30 @@
 {
- "updated": "2026-10-23T22:48:07.414Z",
+ "updated": "2026-10-23T22:54:56.346Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "The Record",
@@ -22,27 +37,7 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -52,19 +47,24 @@
    "n": 3
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 8
+   "n": 7
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X cyber",
@@ -84,7 +84,7 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X darkweb",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 3
+   "n": 5
   }
  ],
  "items": [
+  {
+   "id": "x2113766178094989817",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "IndyCar is adding Barcelona to its 2027 racing calendar, marking the circuit’s first European event in nearly two decades",
+   "url": "https://x.com/business/status/2113766178094989817",
+   "published": "2026-10-23T22:55:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113764940074869215",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Photo Finish: Brazil Votes With Polls Tied, Bettors All-In On Bolsonaro, And The Market Priced For A Lula Shock",
+   "url": "https://x.com/zerohedge/status/2113764940074869215",
+   "published": "2026-10-23T22:50:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113764921909330338",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "“We have been fighting against the environment,” says the vice mayor of Novo Progresso, an Amazon town that overwhelmingly supports conservative presidential candidate Flávio Bolsonaro",
+   "url": "https://x.com/business/status/2113764921909330338",
+   "published": "2026-10-23T22:50:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n1a41f3b5e5",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+   "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "published": "2026-10-23T22:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113764480454635659",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@CrowdStrike",
+   "title": "CrowdStrike Intelligence has reproduced variants of remote code execution (RCE) tied to PHP2Shell. Why hasn't widespread exploitation been confirmed? Our researchers explain the technical obstacles and what organizations should know:",
+   "url": "https://x.com/CrowdStrike/status/2113764480454635659",
+   "published": "2026-10-23T22:48:18.000Z",
+   "severity": "high",
+   "verified": false
+  },
   {
    "id": "x2113764121208324424",
    "kind": "x",
@@ -3346,61 +3401,6 @@
    "url": "https://www.ransomware.live/id/S2FsZSBCYWxhdGEgQUBxaWxpbg==",
    "published": "2026-10-23T16:26:08.593Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r37f868c6f6",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "qilin claims MaxiSeguridad (AR) — Professional Services",
-   "url": "https://www.ransomware.live/id/TWF4aVNlZ3VyaWRhZEBxaWxpbg==",
-   "published": "2026-10-23T16:25:48.851Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113668048632545366",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Harvard Medical School Holds Panel Raising Whether Weight Loss Drugs Are An Imperialistic, Militaristic Plot",
-   "url": "https://x.com/zerohedge/status/2113668048632545366",
-   "published": "2026-10-23T16:25:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113668030400016514",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Barclays will offer staff opportunities in other teams and prioritize internal moves over outside hiring, its CEO told employees after the bank announced plans to cut 5% of the workforce this year",
-   "url": "https://x.com/business/status/2113668030400016514",
-   "published": "2026-10-23T16:25:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113667796794061244",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "A Withdrawn Immigration Application, Corrected Tax Returns, And 'Military Officer' Father: Ilhan Omar Evidence Piles Up",
-   "url": "https://x.com/zerohedge/status/2113667796794061244",
-   "published": "2026-10-23T16:24:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113667706134393179",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇱🇧 🚨 LEBANESE HOSPITAL NAMED ON LOCKBIT 5.0 LEAK SITE The LockBit 5.0 ransomware operation has listed Mount Lebanon Hospital University Medical Center (MLHUMC), a university hospital in Lebanon, as a victim on its leak site. The…",
-   "url": "https://x.com/DailyDarkWeb/status/2113667706134393179",
-   "published": "2026-10-23T16:23:45.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
