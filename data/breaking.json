@@ -1,25 +1,15 @@
 {
- "updated": "2026-10-23T19:51:36.831Z",
+ "updated": "2026-10-23T19:58:34.527Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
+   "n": 5
   },
   {
    "name": "MarketWatch",
@@ -34,12 +24,27 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 4
+   "n": 3
+  },
+  {
+   "name": "ransomware.live",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Krebs on Security",
@@ -57,24 +62,19 @@
    "n": 2
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -89,20 +89,141 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 5
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 15
+   "n": 10
   }
  ],
  "items": [
+  {
+   "id": "x2113721352498635260",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@CISACyber",
+   "title": "🛡️ We added Collabora/Online Built-in CODE Server #RCE vulnerability CVE-2026-110447 to our Known Exploited Vulnerabilities Catalog. Visit & apply mitigations to protect your org from cyberattacks. #Cybersecurity #InfoSec",
+   "url": "https://x.com/CISACyber/status/2113721352498635260",
+   "published": "2026-10-23T19:56:56.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113721191500231059",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "‼️ China's Moonshot says it nerfed Kimi K3.1 Pro by stripping cyber training data from the open-weights version to curb misuse. Its solve rate on Moonshot's cyber benchmark went from 90.5% to 81%. Artificial Analysis ranks it China's…",
+   "url": "https://x.com/IntCyberDigest/status/2113721191500231059",
+   "published": "2026-10-23T19:56:17.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113721165294539150",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Instacart Is Exploring A Sale – @theinformation",
+   "url": "https://x.com/LiveSquawk/status/2113721165294539150",
+   "published": "2026-10-23T19:56:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720900843712668",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "🚨 DDoS Alert: 🇰🇵 Dark Storm Team claims to have targeted multiple websites in North Korea. * Naenara * Voice of Korea * Democratic People's Republic of Korea * The Pyongyang Times * The Rodong Sinmun * Korean Central News Agency *…",
+   "url": "https://x.com/FalconFeedsio/status/2113720900843712668",
+   "published": "2026-10-23T19:55:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720876415750238",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Lycia Therapeutics shares leapt 59% in its trading debut, after the biotechnology firm focused on treatments for allergies and autoimmune diseases raised $317.5 million in an upsized US initial public offering.",
+   "url": "https://x.com/business/status/2113720876415750238",
+   "published": "2026-10-23T19:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720853603246160",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Trump says we may do another operation against Iran, doubts Iran will say ‘let’s get down to business’ \"We may do another little Epic Fury, or they'll agree.\" \"If they're smart, they'll just say, 'let's get down to business.' But, you…",
+   "url": "https://x.com/zerohedge/status/2113720853603246160",
+   "published": "2026-10-23T19:54:57.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720662162563101",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: n0n ransomware group has added an unidentified victim (Company #110) to their dark web portal. NB: The group intends to publish the data within 2–3 days. 🔍Key Details: 🛡️Threat actor: n0n 📅 Reported on: 23/10/2026",
+   "url": "https://x.com/FalconFeedsio/status/2113720662162563101",
+   "published": "2026-10-23T19:54:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720601492005039",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*IRAN SAYS SOUTHERN PORTS BLOCKADE CUT IMPORTS 25%: ISNA",
+   "url": "https://x.com/zerohedge/status/2113720601492005039",
+   "published": "2026-10-23T19:53:57.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113720452883595757",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: 🇺🇸 Mickey Truck Bodies ( a U.S.-based Motor Vehicle Manufacturing company, has reportedly fallen victim to CHAOS ransomware. 🔍 Key Details: 🛡️ Threat Actor: CHAOS 📅 Reported on: 23/10/26 ⚠️ Data Compromised: 425 GB",
+   "url": "https://x.com/FalconFeedsio/status/2113720452883595757",
+   "published": "2026-10-23T19:53:21.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720354019643662",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*SPECULATIVE TRADERS TURN MOST BEARISH EURO SINCE 2020: CFTC",
+   "url": "https://x.com/zerohedge/status/2113720354019643662",
+   "published": "2026-10-23T19:52:58.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113720351897337933",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: 🇨🇭 ARX | smart minds ( a Switzerland-based Civil Engineering company, has reportedly fallen victim to Aur0ra ransomware. NB: The group intends to publish the data within 12–13 days. 🔍 Key Details: 🛡️ Threat Actor:…",
+   "url": "https://x.com/FalconFeedsio/status/2113720351897337933",
+   "published": "2026-10-23T19:52:57.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113719946916315188",
    "kind": "x",
@@ -3280,127 +3401,6 @@
    "url": "https://x.com/DeItaone/status/2113644366661361760",
    "published": "2026-10-23T14:51:01.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113644120417665070",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "A wave of independent populist candidates is forcing the GOP to defend Senate seats in some of their traditional strongholds, as voters are increasingly dissatisfied with both parties",
-   "url": "https://x.com/business/status/2113644120417665070",
-   "published": "2026-10-23T14:50:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113644063618634140",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "SENIOR UKRAINIAN OFFICIAL: CEASEFIRE IN RUSSIAN-OCCUPIED OLESHKY TO BE ESTABLISHED SOON",
-   "url": "https://x.com/FirstSquawk/status/2113644063618634140",
-   "published": "2026-10-23T14:49:49.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113643932709974426",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP ADMINISTRATION SUES TO BLOCK ALASKA SENATE RACE CERTIFICATION IF REPUBLICAN LOSES, CITING CANDIDATE NAME CONFUSION -AP REPORTER ON X",
-   "url": "https://x.com/DeItaone/status/2113643932709974426",
-   "published": "2026-10-23T14:49:17.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113643511778009231",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "CEASEFIRE IN RUSSIAN-OCCUPIED OLESHKY TO BE ESTABLISHED SOON, SENIOR UKRAINIAN OFFICIAL SAYS",
-   "url": "https://x.com/DeItaone/status/2113643511778009231",
-   "published": "2026-10-23T14:47:37.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113643096127013375",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "EU'S SEFCOVIC: TRADE DEFICIT WITH CHINA COULD BREAK 2022 RECORD",
-   "url": "https://x.com/FirstSquawk/status/2113643096127013375",
-   "published": "2026-10-23T14:45:58.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nac5401e1a8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-   "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-23T14:45:43.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113642871983096262",
-   "kind": "x",
-   "group": "redteam",
-   "source": "@SpecterOps",
-   "title": "Where does frontier AI fit into federal cyber defense? Join @robwinchester3 & @ne0nd0g for a webinar on AI’s defensive value, oversight and the role of experienced operators. 📆 Oct. 29 | 2 PM EDT / 11 AM PDT 💻 Virtual Register 👉",
-   "url": "https://x.com/SpecterOps/status/2113642871983096262",
-   "published": "2026-10-23T14:45:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113642866991866297",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Brazil’s annual inflation rate shot through the target ceiling in early October, adding to voters’ frustrations as they prepare to pick their next president on Sunday",
-   "url": "https://x.com/business/status/2113642866991866297",
-   "published": "2026-10-23T14:45:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113641623976305118",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Trump Calls For Rep. Ilhan Omar's Resignation Over Alleged Fake Name",
-   "url": "https://x.com/zerohedge/status/2113641623976305118",
-   "published": "2026-10-23T14:40:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "ne88b48cb20",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-   "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-   "published": "2026-10-23T14:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113640840262275539",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Millions of hacking attempts have been made since critical vulnerabilities were discovered in a PHP, per ABC",
-   "url": "https://x.com/unusual_whales/status/2113640840262275539",
-   "published": "2026-10-23T14:37:00.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
