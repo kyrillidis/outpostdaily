@@ -1,10 +1,30 @@
 {
- "updated": "2026-10-23T17:49:07.977Z",
+ "updated": "2026-10-23T17:56:13.789Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Al Jazeera",
@@ -17,19 +37,9 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -37,19 +47,9 @@
    "n": 0
   },
   {
-   "name": "CISA Advisories",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Dark Reading",
@@ -57,22 +57,22 @@
    "n": 3
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -84,12 +84,12 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "X crisis",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 8
+   "n": 9
   }
  ],
  "items": [
+  {
+   "id": "x2113690701053497411",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Trump Admin Asks Supreme Court To Allow Border Wall Construction In Texas",
+   "url": "https://x.com/zerohedge/status/2113690701053497411",
+   "published": "2026-10-23T17:55:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113690676537758013",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Ardshinbank OJSC is exploring a potential initial public offering, according to sources, with London among the venues under consideration",
+   "url": "https://x.com/business/status/2113690676537758013",
+   "published": "2026-10-23T17:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113689832761471041",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheHackersNews",
+   "title": "🚨 Exposed infrastructure reveals how ransomware affiliates used AI to hack networks and steal data. 8,257 messages. 133 AI sessions. 62 organizations targeted. Operators exploited Fortinet, SimpleHelp, and cPanel flaws. Inside the…",
+   "url": "https://x.com/TheHackersNews/status/2113689832761471041",
+   "published": "2026-10-23T17:51:41.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113689655103410359",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "Threat actor Evil Markhors claims to have leaked sensitive data belonging to Bharat Electronics Limited (BEL), India’s state-owned defence electronics company. 🔴 Claimed exposure: • 1,069 files (~1 GB) • 23,553 shareholder KYC records •…",
+   "url": "https://x.com/FalconFeedsio/status/2113689655103410359",
+   "published": "2026-10-23T17:50:58.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113689419945300238",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "AI is changing work whether you’re ready or not. Wharton’s Ethan Mollick says the best response is to get much better at using it",
+   "url": "https://x.com/business/status/2113689419945300238",
+   "published": "2026-10-23T17:50:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113689256313102828",
    "kind": "x",
@@ -3107,6 +3162,28 @@
    "verified": false
   },
   {
+   "id": "re8d0ec2ec8",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "akira claims Bravilor Bonamat (NL) — Manufacturing",
+   "url": "https://www.ransomware.live/id/QnJhdmlsb3IgQm9uYW1hdEBha2lyYQ==",
+   "published": "2026-10-23T13:30:32.533Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "r0641ed370b",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "akira claims SCHWAB-SYSTEM (DE) — Financial Services",
+   "url": "https://www.ransomware.live/id/U0NIV0FCLVNZU1RFTUBha2lyYQ==",
+   "published": "2026-10-23T13:30:30.816Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113624011527598510",
    "kind": "x",
    "group": "markets",
@@ -3325,83 +3402,6 @@
    "published": "2026-10-23T13:23:18.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "x2113621481204687351",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The market for graduate education is distorted. Many degrees aren't worth the price tag. What students need is a better risk signal, @AllisonSchrager says (via @opinion)",
-   "url": "https://x.com/business/status/2113621481204687351",
-   "published": "2026-10-23T13:20:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113620948561895492",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇮🇹 Zena Office ( an Italy-based IT services and consulting company, has reportedly fallen victim to AUDIT TEAM ransomware. 🔍 Key Details: 🛡️ Threat Actor: AUDIT TEAM 📅 Reported On: 23/10/2026",
-   "url": "https://x.com/FalconFeedsio/status/2113620948561895492",
-   "published": "2026-10-23T13:17:57.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n2d3c826fdf",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia drops cluster bombs on Ukraine as Kyiv consolidates front line",
-   "url": "https://www.aljazeera.com/news/2026/10/23/russia-drops-cluster-bombs-on-ukraine-as-kyiv-consolidates-front-line?traffic_source=rss",
-   "published": "2026-10-23T13:17:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113620706303103139",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Governments are borrowing at the fastest pace since the pandemic. Net borrowing by advanced economies will reach 5.2% of GDP this year, the highest since 2021, per the IMF. The U.S. and China are on track for deficits of 8% of GDP or more…",
-   "url": "https://x.com/unusual_whales/status/2113620706303103139",
-   "published": "2026-10-23T13:17:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113620511540568339",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇵🇹 Bi-silque S.A. ( a Portugal-based business supplies & equipment company, has reportedly fallen victim to MAJINAHANASHI ransomware. NB: The group intends to publish the data within 2–3 days. 🔍 Key Details: 🛡️…",
-   "url": "https://x.com/FalconFeedsio/status/2113620511540568339",
-   "published": "2026-10-23T13:16:13.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113620230966530080",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Germany is planning to purchase thousands of precision deep-strike weapons from several European manufacturers",
-   "url": "https://x.com/business/status/2113620230966530080",
-   "published": "2026-10-23T13:15:06.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n4e3ea013b3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter&#x2019;s $50,000 debt. How can I keep him from becoming destitute?",
-   "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-   "published": "2026-10-23T13:15:00.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
