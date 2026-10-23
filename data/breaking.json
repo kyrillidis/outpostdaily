@@ -1,35 +1,25 @@
 {
- "updated": "2026-10-23T08:28:08.862Z",
+ "updated": "2026-10-23T08:47:36.648Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -42,19 +32,34 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "X cyber",
    "ok": true,
    "n": 1
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 4
+   "n": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "ransomware.live",
@@ -63,18 +68,13 @@
   },
   {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "X redteam",
@@ -84,25 +84,168 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 13
   }
  ],
  "items": [
+  {
+   "id": "x2113552273267683351",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Erroneous data from the Tokyo Stock Exchange showed leveraged long positions in Kioxia Holdings had plunged, leading some investors to believe that selling pressure had eased.",
+   "url": "https://x.com/business/status/2113552273267683351",
+   "published": "2026-10-23T08:45:04.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113551440585052662",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "BoJ Yen Index Oct-23: 74.13 (prev 73.44)",
+   "url": "https://x.com/LiveSquawk/status/2113551440585052662",
+   "published": "2026-10-23T08:41:45.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113551014242464052",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "California’s pension giant is shifting away from investment in large US technology companies and increasing its exposure to private equity, the Financial Times reported",
+   "url": "https://x.com/business/status/2113551014242464052",
+   "published": "2026-10-23T08:40:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113550887901675675",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheHackersNews",
+   "title": "🚨 A malicious API could drain an AI agent's token balance via an x402 SDK flaw. V12 rated 3 bugs critical: — No default spending cap — Solana approvals passed as payments — Logins signed for other sites All patched. No advisory, so npm…",
+   "url": "https://x.com/TheHackersNews/status/2113550887901675675",
+   "published": "2026-10-23T08:39:34.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113550452025663955",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇵🇪 🚨 PERU: CLÍNICA VESALIO PATIENT DATA ALLEGEDLY LEAKED, ~1.1M RECORDS CLAIMED A threat actor on a dark web forum is advertising a database of about 1.1 million records allegedly stolen from Clínica Vesalio, a private hospital and…",
+   "url": "https://x.com/DailyDarkWeb/status/2113550452025663955",
+   "published": "2026-10-23T08:37:50.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113550364561580185",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@BBCBreaking",
+   "title": "Thousands without power as Storm Austen sweeps across large parts of UK - follow live",
+   "url": "https://x.com/BBCBreaking/status/2113550364561580185",
+   "published": "2026-10-23T08:37:29.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n9b3091f737",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T08:36:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113549747780727124",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The UK has voiced concerns that the European Union’s push for technological autonomy will damage British digital companies, arguing that it should be eligible to compete for contracts under forthcoming “Made in Europe” tech rules.",
+   "url": "https://x.com/business/status/2113549747780727124",
+   "published": "2026-10-23T08:35:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n962b531106",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "11 Million Impacted by Capcom Data Breach",
+   "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+   "published": "2026-10-23T08:34:14.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "x2113548746097328249",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "UK S&P Global Services PMI Oct P: 53.1 (est 51.8; prev 52.1) - Manufacturing PMI: 52.8 (est 51.8; prev 51.9) - Composite PMI: 53.1 (est 51.7; prev 52.0)",
+   "url": "https://x.com/LiveSquawk/status/2113548746097328249",
+   "published": "2026-10-23T08:31:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113548671166095460",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UK OCTOBER COMPOSITE PMI JUMPS TO 53.1, BEATING ESTIMATE OF 51.7.",
+   "url": "https://x.com/FirstSquawk/status/2113548671166095460",
+   "published": "2026-10-23T08:30:45.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113548614102622367",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UK SERVICES PMI FOR OCTOBER INCREASES TO 53.1, ABOVE EXPECTATION OF 51.8.",
+   "url": "https://x.com/FirstSquawk/status/2113548614102622367",
+   "published": "2026-10-23T08:30:32.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113548502223479135",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Eni said it will return more cash to shareholders after the Middle East war drove up energy prices and sent refining margins soaring.",
+   "url": "https://x.com/business/status/2113548502223479135",
+   "published": "2026-10-23T08:30:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "n0515431e74",
    "kind": "news",
@@ -3257,149 +3400,6 @@
    "title": "JAPAN’S NIKKEI FUTURES FALL 1.5% IN EARLY TRADE",
    "url": "https://x.com/FirstSquawk/status/2113416685508276237",
    "published": "2026-10-22T23:46:17.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113416375368667511",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "A major Canadian bank disputes claims that China is hiding hundreds of billions of dollars in US debt through Canadian accounts",
-   "url": "https://x.com/business/status/2113416375368667511",
-   "published": "2026-10-22T23:45:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113415289262235776",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "CNN, CITING OFFICIALS, SAYS U.S. MILITARY USE OF MOTHER-OF-ALL-BOMBS AGAINST IRANIAN ENERGY FACILITIES AND NUCLEAR SITES IS AN OPTION UNDER CONSIDERATION",
-   "url": "https://x.com/FirstSquawk/status/2113415289262235776",
-   "published": "2026-10-22T23:40:44.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113415265891578007",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "CNN, CITING U.S. OFFICIALS, SAYS THE LIKELIHOOD OF RENEWED CONFLICT WITH IRAN WOULD BE SHORT-TERM BUT INTENSE, AND THAT TRUMP’S ADVISORS HAVE PREPARED PLANS FOR STRIKES ON IRAN IN COORDINATION WITH ISRAEL IMMEDIATELY UPON THE PRESIDENT’S…",
-   "url": "https://x.com/FirstSquawk/status/2113415265891578007",
-   "published": "2026-10-22T23:40:39.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "rc2b53f4e39",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "qilin claims SEPIVER (MX)",
-   "url": "https://www.ransomware.live/id/U0VQSVZFUkBxaWxpbg==",
-   "published": "2026-10-22T23:40:29.746Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113415130650128844",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Bukele Launches Military Rescue Operation For Four Salvadoran Troops Kidnapped In Haiti",
-   "url": "https://x.com/zerohedge/status/2113415130650128844",
-   "published": "2026-10-22T23:40:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113415122882285642",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Is China shutting off its cheap AI after getting the world hooked? Not yet, writes @cathythorbecke, but Beijing is reminding the world that it can (via @opinion)",
-   "url": "https://x.com/business/status/2113415122882285642",
-   "published": "2026-10-22T23:40:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113414604307251704",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "THE STATE DEPARTMENT SAYS THE VENEZUELAN-LED PROCESS CONTINUES TO STRENGTHEN DEMOCRATIC INSTITUTIONS AND LAY THE GROUNDWORK FOR FREE, FAIR AND CREDIBLE ELECTIONS",
-   "url": "https://x.com/FirstSquawk/status/2113414604307251704",
-   "published": "2026-10-22T23:38:01.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113414589954351320",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "THE U.S. STATE DEPARTMENT SAYS IT WELCOMES THE CONCLUSION OF A THIRD ROUND OF POLITICAL RECONCILIATION TALKS BETWEEN VENEZUELA’S 2015 NATIONAL ASSEMBLY AND INTERIM GOVERNMENT, AND CONTINUES TO URGE THE IMMEDIATE RELEASE OF ALL POLITICAL…",
-   "url": "https://x.com/FirstSquawk/status/2113414589954351320",
-   "published": "2026-10-22T23:37:58.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113414530722328582",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "BREAKING: SpaceX, $SPCX, is seeking access to at least 80,000 US cell tower sites as it prepares to launch a nationwide wireless carrier, per Bloomberg",
-   "url": "https://x.com/unusual_whales/status/2113414530722328582",
-   "published": "2026-10-22T23:37:44.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113413853413253252",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The Trump administration imposed visa restrictions on dozens of Colombians and Bolivians, including former Ecopetrol CEO Ricardo Roa, as Washington expands a regional campaign against corruption and drug trafficking",
-   "url": "https://x.com/business/status/2113413853413253252",
-   "published": "2026-10-22T23:35:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113412972874027457",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "DESPITE CRUDE FLOWS THROUGH THE STRAIT OF HORMUZ RECOVERING TOWARD PRE-WAR LEVELS, CONSTRAINED FUEL SHIPMENTS AND RUSSIAN REFINERY ATTACKS ARE TIGHTENING DIESEL SUPPLIES, WHILE A PLANNED 40,000-TON RUSSIAN DIESEL SHIPMENT TO THE US DRAWS…",
-   "url": "https://x.com/FirstSquawk/status/2113412972874027457",
-   "published": "2026-10-22T23:31:32.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113412959603159349",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "OIL SURGED AS DEADLY ATTACKS IN SAUDI ARABIA HEIGHTENED SUPPLY DISRUPTION FEARS, WITH BRENT RISING 4% TO $113.17/BBL AND WTI GAINING 2.4% TO $99.47; US EMBASSY PERSONNEL WERE ORDERED TO LEAVE SOME POSTS AMID ESCALATING REGIONAL TENSIONS.",
-   "url": "https://x.com/FirstSquawk/status/2113412959603159349",
-   "published": "2026-10-22T23:31:29.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113412860080472268",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "Japan Natl CPI (Y/Y) Sep: 2.1% (est 2.1%; prev 1.9%) - Natl CPI Ex Fresh Food (Y/Y): 2.1% (est 2.1%; prev 1.7%) - Natl CPI Ex Fresh Food, Energy (Y/Y): 2.4% (est 2.3%; prev 1.9%)",
-   "url": "https://x.com/LiveSquawk/status/2113412860080472268",
-   "published": "2026-10-22T23:31:05.000Z",
    "severity": "normal",
    "verified": false
   }
