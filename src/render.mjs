@@ -33,6 +33,7 @@ const ROUTES = [
   { id: 'warfare', path: '/warfare/', nav: 'Warfare', tab: 'warfare' },
   { id: 'geo', path: '/geopolitics/', nav: 'Geopolitics', tab: 'geo' },
   { id: 'breaking', path: '/breaking/', nav: 'Breaking', tab: 'breaking' },
+  { id: 'dark-web', path: '/dark-web/', nav: 'Dark web', tab: 'darkweb' },
   { id: 'today', path: '/today/', nav: 'Today &amp; Learn', tab: 'today' },
   { id: 'toolbox', path: '/toolbox/', nav: 'OSINT Toolbox', tab: 'toolbox' },
   { id: 'archive', path: '/archive/', nav: 'Archive', tab: 'archive' },
@@ -52,7 +53,7 @@ const WHY_LABEL = { cyber: 'What to check', warfare: 'Why it matters', geo: 'Str
 // ---------- imagery: generated plates (src/plates.mjs) and credited photos (config/images.json) ----------
 const images = json('config/images.json', { slots: {} }).slots ?? {};
 // The photo behind the logo and header changes with the page; the tint follows the section colour.
-const HEADER_ART = { 'top-stories': ['masthead', ''], cyber: ['cyber', 'cyber'], vulns: ['cyber', 'cyber'], warfare: ['warfare', 'warfare'], geo: ['geo', 'geo'], breaking: ['about', 'alert'], today: ['masthead', ''], toolbox: ['geo', 'geo'], archive: ['masthead', ''] };
+const HEADER_ART = { 'top-stories': ['masthead', ''], cyber: ['cyber', 'cyber'], vulns: ['cyber', 'cyber'], warfare: ['warfare', 'warfare'], geo: ['geo', 'geo'], breaking: ['about', 'alert'], 'dark-web': ['about', 'dark'], today: ['masthead', ''], toolbox: ['geo', 'geo'], archive: ['masthead', ''] };
 const headerArt = (route) => {
   const [slot, tint] = HEADER_ART[route] ?? ['about', ''];
   const im = images[slot];
@@ -126,6 +127,29 @@ const kevTable = (kev, { head = true } = {}) =>
   kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
 
+const analysisHtml = (ed, lvl = 3) => {
+  const a = ed.analysis;
+  if (!a?.headline) return '';
+  const paras = (a.paragraphs ?? []).filter(Boolean), take = (a.takeaways ?? []).filter(Boolean);
+  return `<section class="analysis kw-unit" aria-labelledby="analysis-h"><h${lvl} class="analysis-title" id="analysis-h"><span class="analysis-kicker">Outpost analysis:</span> ${esc(a.headline)}</h${lvl}><p class="analysis-note">Written by AI from today’s headlines; read the sources.</p>${paras.map((t) => `<p>${esc(t)}</p>`).join('')}${take.length ? `<h${lvl + 1} class="analysis-sub">Takeaways</h${lvl + 1}><ul class="analysis-take">${take.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}</section>`;
+};
+
+function darkwebHtml() {
+  const lines = (v) => (Array.isArray(v) ? v : typeof v === 'string' && v ? [v] : []).filter(Boolean);
+  const card = (i) => {
+    const rel = `noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}`;
+    const adv = lines(i.advice);
+    return `<article class="dw-item kw-unit" id="dw-${esc(i.id)}" data-kind="${esc(i.kind)}"><h2 class="dw-title">${esc(i.headline)}</h2><p class="dw-line"><span class="dw-src">${esc(i.source)}</span> <time datetime="${esc(i.published)}">${dMid(i.published)}, ${hhmm(i.published)} UTC</time> <span class="brk-unv">Unverified claim</span></p>` +
+      (i.claim ? `<p class="dw-claim">${esc(i.claim)}</p>` : '') +
+      (i.context ? `<h3 class="dw-sub">Context</h3><p>${esc(i.context)}</p>` : '') +
+      (adv.length ? `<h3 class="dw-sub">What defenders can do</h3><ul class="dw-adv">${adv.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : '') +
+      (/^https?:\/\//.test(i.url) ? `<p class="dw-source"><a href="${href(i.url)}" target="_blank" rel="${rel}">Source: original claim on ${esc(host(i.url) || i.source)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only"> (opens the original)</span></a></p>` : '') + '</article>';
+  };
+  return secHead({ title: 'Dark web', sub: 'Short write-ups of leak-site and forum claims, with context and what defenders can do. Newest first.' }) +
+    '<aside class="dw-note" aria-label="About these claims"><p>Everything here is a claim made by a third party, such as a ransomware group or a forum seller. Outpost has not verified it and may be wrong. Outpost never republishes leaked data and links only to the original claim. See the <a href="/methodology/">methodology</a>.</p></aside>' +
+    (dwItems.length ? `<div class="dw-list">${dwItems.map(card).join('\n')}</div>` : '<p class="panel-empty">No dark web claims have been written up yet. Check back after the next update.</p>');
+}
+
 function todayHtml(ed, top) {
   const checks = (ed.run_today ?? []).map((r, i) => `<li><label><input type="checkbox" data-check-id="run-${i}"><span>${esc(r)}</span></label></li>`).join('');
   const learn = (ed.learn ?? []).map((l) => {
@@ -134,7 +158,7 @@ function todayHtml(ed, top) {
   }).join('');
   const down = (ed.health ?? []).filter((h) => !h.ok);
   const aiCount = ed.items.filter((i) => i.ai).length;
-  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.' }) + termsPanel('today') +
+  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.' }) + termsPanel('today') + analysisHtml(ed, 2) +
     `<div class="brief"><section aria-labelledby="top5-h"><h2 class="group-title" id="top5-h">Top 5, ranked</h2><ol class="rank-list">` +
     top.slice(0, 5).map((i, n) => `<li class="kw-unit"><span class="rank-num">${n + 1}</span><div><a class="rank-title" href="${href(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><p>${esc(i.summary)}</p></div></li>`).join('') +
     `</ol></section><section aria-labelledby="run-h"><h2 class="group-title" id="run-h">Run today</h2>${checks ? `<ul class="checklist">${checks}</ul>` : '<p class="sec-sub">No AI-generated checklist today.</p>'}</section></div>` +
@@ -160,8 +184,9 @@ function archiveHtml(rows) {
 }
 
 function glossaryHtml(body) {
-  const group = (d, label) => `<section class="gloss-group" data-domain="${d}"><h2>${label}</h2><dl class="glossary">${glossary.terms.filter((t) => t.domain === d).map((t) => `<div class="gloss kw-unit" id="${t.slug}"><dt>${esc(t.term)}${t.full ? `<span class="gloss-full">${esc(t.full)}</span>` : ''}</dt><dd>${esc(t.def)}${t.see ? ` <a href="${href(t.see)}" target="_blank" rel="noopener">Learn more</a>` : ''}</dd></div>`).join('')}</dl></section>`;
-  return body + group('cyber', 'Cyber') + group('warfare', 'Warfare') + group('geo', 'Geopolitics &amp; geodata');
+  const group = (d, label) => `<section class="gloss-group" id="g-${d}" data-domain="${d}"><h2>${label}</h2><dl class="glossary">${glossary.terms.filter((t) => t.domain === d).map((t) => `<div class="gloss kw-unit" id="${t.slug}"><dt>${esc(t.term)}${t.full ? `<span class="gloss-full">${esc(t.full)}</span>` : ''}</dt><dd>${esc(t.def)}${t.see ? ` <a href="${href(t.see)}" target="_blank" rel="noopener">Learn more</a>` : ''}</dd></div>`).join('')}</dl></section>`;
+  const jump = `<nav class="gloss-jump" aria-label="Jump to a domain"><a href="#g-cyber">Cyber</a><a href="#g-warfare">Warfare</a><a href="#g-geo">Geopolitics</a></nav>`;
+  return body + jump + group('cyber', 'Cyber') + group('warfare', 'Warfare') + group('geo', 'Geopolitics &amp; geodata');
 }
 
 const wireHtml = (top, base) => top.map((i, n) => `<li class="wire-item kw-unit" data-domain="${i.section}"><a class="wire-link" href="${href(i.url)}" target="_blank" rel="noopener"><span class="wire-rank">${String(n + 1).padStart(2, '0')}</span><span class="wire-headline">${esc(i.title)}</span></a><span class="wire-meta">${chip(i.section)}<span class="wire-host">${esc(host(i.url))}</span><a class="wire-more" href="${base ?? SECTION_ROUTE[i.section].path}#s-${i.id}">Entry<span class="sr-only"> for ${esc(i.title)}</span></a></span></li>`).join('\n');
@@ -184,7 +209,7 @@ const creditsHtml = () => {
 // ---------- head: meta, social, structured data ----------
 const robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 function headMeta({ title, desc, path, type = 'website', publishedTime }) {
-  const url = SITE + path;
+  const url = SITE + path, v = site.verification || {};
   return `<title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <meta name="author" content="Outpost">
@@ -208,7 +233,7 @@ function headMeta({ title, desc, path, type = 'website', publishedTime }) {
 ${publishedTime ? `<meta property="article:published_time" content="${esc(publishedTime)}">\n` : ''}<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
-<meta name="twitter:image" content="${SITE}/og.jpg">`;
+<meta name="twitter:image" content="${SITE}/og.jpg">${v.google ? `\n<meta name="google-site-verification" content="${esc(v.google)}">` : ''}${v.bing ? `\n<meta name="msvalidate.01" content="${esc(v.bing)}">` : ''}`;
 }
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE + '/#org', name: 'Outpost', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/logo.png', width: 512, height: 512 }, publishingPrinciples: SITE + '/methodology/', ethicsPolicy: SITE + '/methodology/', sameAs: [site.repo] };
@@ -246,6 +271,10 @@ const breaking = json('data/breaking.json', { updated: null, items: [], health: 
 const crisisRel = new RegExp(json('config/breaking.json', {}).crisisRelevant ?? '$^', 'i');
 // general world-news items only belong in the war room when they are about conflict or security (older stored items included)
 breaking.items = breaking.items.filter((i) => !(i.group === 'crisis' && i.kind === 'news' && !crisisRel.test(i.title)));
+// forum listings now get their own write-ups on /dark-web/; the dashboard keeps only leak-site claims, X and news
+breaking.items = breaking.items.filter((i) => i.kind !== 'forum');
+const darkweb = json('data/darkweb.json', { updated: null, items: [] });
+const dwItems = (Array.isArray(darkweb.items) ? darkweb.items : []).filter((i) => i && i.headline && i.id).sort((a, b) => String(b.published).localeCompare(String(a.published)));
 const KIND_LABEL = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' };
 // Dashboard panels, in reading order. `note` is shown under the panel title; `wide` panels span both columns.
 const PANELS = [
@@ -256,15 +285,15 @@ const PANELS = [
   { group: 'blueteam', id: 'blue-team', title: 'Blue team', note: 'Detection, DFIR and threat-intel from defenders.' },
   { group: 'markets', id: 'markets', title: 'Markets', note: 'Market-moving headlines, relevant when conflict or cyber events hit prices.', wide: true },
 ];
-const SHOWN = 6, MAX_PER_PANEL = 14; // keeps the page light; the full 72 h window stays in data/breaking.json
+const SHOWN = 6, MOB_SHOWN = 4, MAX_PER_PANEL = 14; // phones show MOB_SHOWN rows via CSS; the rest sit behind the same 'Show more' // keeps the page light; the full 72 h window stays in data/breaking.json
 function breakingHtml() {
   const row = (i) => `<li class="brk" data-sev="${i.severity}" data-kind="${i.kind}"><time datetime="${i.published}">${hhmm(i.published)}<span class="brk-day">${dDay(i.published)}</span></time><div class="brk-main"><p class="brk-line">${i.severity === 'high' ? '<span class="chip chip-alert">High signal</span> ' : ''}<span class="brk-src">${esc(i.source)}</span> <span class="brk-kind">${KIND_LABEL[i.kind]}</span>${i.verified ? '' : ' <span class="brk-unv">Unverified</span>'}</p><p class="brk-title"><a href="${href(i.url)}" target="_blank" rel="noopener${i.kind === 'forum' ? ' nofollow ugc' : ''}">${esc(i.title)}<span class="sr-only"> (opens the original)</span></a></p></div></li>`;
   const by = (g) => breaking.items.filter((i) => i.group === g);
   const health = breaking.health ?? [], down = health.filter((h) => !h.ok), high = breaking.items.filter((i) => i.severity === 'high').length;
   const panel = (p) => {
     const all = by(p.group), list = all.slice(0, MAX_PER_PANEL), top = list.slice(0, SHOWN), rest = list.slice(SHOWN);
-    return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${all.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>` +
-      (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${rest.length ? `<details class="panel-more"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show ${rest.length} more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
+    return `<section class="panel${p.wide ? ' panel-wide' : ''}" id="${p.id}" data-group="${p.group}" aria-labelledby="${p.id}-h"><header class="panel-head"><h2 id="${p.id}-h">${p.title}</h2><p class="panel-meta">${all.length} in 72 h${list[0] ? ` · latest ${hhmm(list[0].published)} UTC` : ''}</p></header><p class="panel-note">${p.note}</p>${p.group === 'darkweb' ? '<p class="panel-link"><a href="/dark-web/">Read the dark web write-ups</a></p>' : ''}` +
+      (list.length ? `<ol class="brk-list">${top.map(row).join('')}</ol>${list.length > MOB_SHOWN ? `<details class="panel-more${rest.length ? '' : ' mob-only'}"><summary><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg>Show <span class="n-d">${rest.length}</span><span class="n-m">${list.length - MOB_SHOWN}</span> more</summary><ol class="brk-list">${rest.map(row).join('')}</ol></details>` : ''}` : '<p class="panel-empty">Nothing new in the last 72 hours from the sources that responded.</p>') + '</section>';
   };
   return secHead({ title: 'Breaking', sub: 'A live dashboard of fast-moving incidents, crises and market moves, checked every five minutes. Each panel is one stream; every item links to its source.' }) +
     `<nav class="dash-nav" aria-label="Dashboard panels">${PANELS.map((p) => `<a href="#${p.id}">${p.title}<span class="dash-count" data-count="${p.group}">${by(p.group).length}</span></a>`).join('')}</nav>` +
@@ -336,7 +365,7 @@ function pageFor(ed, route) {
       title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`,
       desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158),
       main: secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
-        (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') + termsPanel('home') +
+        (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') + analysisHtml(ed, 3) + termsPanel('home') +
         (front.length > 1 ? `<div class="entries entries-2up">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline'),
       list: front.map((i) => ({ title: i.title, url: `${SITE}/#s-${i.id}` })),
     },
@@ -345,6 +374,7 @@ function pageFor(ed, route) {
     warfare: { title: `Modern Warfare Technology News — ${d} | Outpost`, desc: cut(`Modern warfare technology today (${d}): ${heads('warfare', 3).join('; ')}. Drones, EW, missiles and defence systems, with sources.`, 158), main: sec('warfare', 'Modern Warfare Technology', 'Drones, electronic warfare, missiles, air defence and the systems behind the operations, from analysts, defence press and open-source investigators.'), list: secList('warfare', r.path) },
     geo: { title: `Geopolitics, Geodata & GNSS Security — ${d} | Outpost`, desc: cut(`Geopolitics and geospatial security for ${d}: ${heads('geo', 3).join('; ')}. Strategy, GNSS jamming, space and the geo wars, with sources.`, 158), main: sec('geo', 'Geopolitics &amp; Geodata', 'Strategy, geo wars, GNSS and satellite security: the contest over who sees and who controls the map.'), list: secList('geo', r.path) },
     breaking: { title: `Breaking Cyber & Threat News — ${d} | Outpost`, desc: 'Live dashboard of fast-moving cyber incidents, dark web leak claims, war-room OSINT and market moves, checked every five minutes and linked to source.', main: breakingHtml(), list: breaking.items.slice(0, 20).map((i) => ({ title: i.title, url: i.url })) },
+    'dark-web': { title: `Dark Web Leak Claims Explained — ${d} | Outpost`, desc: 'Plain write-ups of ransomware leak-site and forum claims, marked unverified, with context and what defenders can do. No leaked data is republished.', main: darkwebHtml(), list: dwItems.slice(0, 20).map((i) => ({ title: i.headline, url: `${SITE}/dark-web/#dw-${i.id}` })) },
     today: { title: `Today’s Top 5 & What to Learn — ${d} | Outpost`, desc: cut(`The five stories that matter on ${d}, a defender checklist, and today’s concepts explained: ${(ed.learn ?? []).map((l) => l.term).join(', ')}.`, 158), main: todayHtml(ed, ranked), list: ranked.slice(0, 5).map((i) => ({ title: i.title, url: `${SITE}${SECTION_ROUTE[i.section].path}#s-${i.id}` })) },
     toolbox: { title: 'OSINT Toolbox: Free Tools to Verify News Yourself | Outpost', desc: 'A curated list of free open-source intelligence tools for conflict mapping, flight and ship tracking, GNSS interference, threat intelligence and image verification.', main: toolboxHtml(toolbox), list: [] },
     archive: { title: 'Archive: Past Daily Briefings | Outpost', desc: 'Every past Outpost edition — daily cybersecurity, defence technology, geodata and geopolitics briefings.', main: archiveHtml(archiveRows), list: [] },
@@ -392,7 +422,7 @@ function staticPage(ed, pg) {
 }
 
 // ---------- write ----------
-const out = ROOT + 'dist/';
+const out = process.env.OUT_DIR ? ROOT + process.env.OUT_DIR.replace(/\/?$/, '/') : ROOT + 'dist/'; // OUT_DIR lets parallel previews build elsewhere
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out + 'archive', { recursive: true });
 cpSync(ROOT + 'public', out, { recursive: true });

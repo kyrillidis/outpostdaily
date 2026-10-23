@@ -239,7 +239,7 @@
   (function () {
     var dash = $('.dash[data-updated]');
     if (!dash) return;
-    var KIND = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' }, SHOWN = 6, MAX = 14;
+    var KIND = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' }, SHOWN = 6, MOB = 4, MAX = 14;
     function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
     function row(i) {
       var d = new Date(i.published), li = el('li', 'brk'), tm = el('time', null, pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes())), main = el('div', 'brk-main'), line = el('p', 'brk-line'), title = el('p', 'brk-title'), a = el('a', null, i.title);
@@ -255,7 +255,7 @@
     }
     function list(items) { var ol = el('ol', 'brk-list'); items.forEach(function (i) { ol.appendChild(row(i)); }); return ol; }
     function render(data) {
-      var items = data.items || [], high = items.filter(function (i) { return i.severity === 'high'; }).length, health = data.health || [];
+      var items = (data.items || []).filter(function (i) { return i.kind !== 'forum'; }), high = items.filter(function (i) { return i.severity === 'high'; }).length, health = data.health || [];
       $$('.panel[data-group]', dash).forEach(function (p) {
         var g = p.getAttribute('data-group'), all = items.filter(function (i) { return i.group === g; }), shown = all.slice(0, MAX);
         $$('.brk-list, .panel-more, .panel-empty', p).forEach(function (n) { n.remove(); });
@@ -263,8 +263,9 @@
         if (meta) meta.textContent = all.length + ' in 72 h' + (d0 ? ' · latest ' + pad(d0.getUTCHours()) + ':' + pad(d0.getUTCMinutes()) + ' UTC' : '');
         if (!shown.length) { p.appendChild(el('p', 'panel-empty', 'Nothing new in the last 72 hours from the sources that responded.')); return; }
         p.appendChild(list(shown.slice(0, SHOWN)));
-        if (shown.length > SHOWN) {
-          var more = el('details', 'panel-more'), sum = el('summary', null, 'Show ' + (shown.length - SHOWN) + ' more');
+        if (shown.length > MOB) {
+          var more = el('details', 'panel-more' + (shown.length > SHOWN ? '' : ' mob-only')), sum = el('summary', null, 'Show ');
+          sum.appendChild(el('span', 'n-d', shown.length - SHOWN > 0 ? shown.length - SHOWN : 0)); sum.appendChild(el('span', 'n-m', shown.length - MOB)); sum.appendChild(doc.createTextNode(' more'));
           more.appendChild(sum); more.appendChild(list(shown.slice(SHOWN))); p.appendChild(more);
         }
         var c = $('.dash-count[data-count="' + g + '"]'); if (c) c.textContent = all.length;
@@ -274,6 +275,8 @@
       Object.keys(stats).forEach(function (k) { var n = $('[data-stat="' + k + '"]'); if (n) n.textContent = stats[k]; });
       dash.setAttribute('data-updated', data.updated || '');
     }
+    // phones clamp long titles; tapping the row (not the link) reads the whole text
+    dash.addEventListener('click', function (e) { var li = e.target.closest && e.target.closest('.brk'); if (li && !e.target.closest('a')) li.classList.toggle('open'); });
     function poll() {
       getJSON('/api/breaking/', function (data) {
         if (data.updated && data.updated !== dash.getAttribute('data-updated')) { render(data); recompute(); }

@@ -7,6 +7,7 @@ import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
 import sharp from 'sharp';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
+import { updateDarkweb } from './darkweb.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
@@ -101,11 +102,13 @@ async function pullKev(cache) {
 
 // ---------- AI (one batched call, new items only) ----------
 const SCHEMA = {
-  type: 'object', additionalProperties: false, required: ['items', 'run_today', 'learn'],
+  type: 'object', additionalProperties: false, required: ['items', 'run_today', 'learn', 'analysis'],
   properties: {
     items: { type: 'array', items: { type: 'object', additionalProperties: false, required: ['id', 'summary', 'why', 'tags'],
       properties: { id: { type: 'string' }, summary: { type: 'string' }, why: { type: 'string' }, tags: { type: 'array', items: { type: 'string' } } } } },
     run_today: { type: 'array', items: { type: 'string' } },
+    analysis: { type: 'object', additionalProperties: false, required: ['headline', 'paragraphs', 'takeaways'],
+      properties: { headline: { type: 'string' }, paragraphs: { type: 'array', items: { type: 'string' } }, takeaways: { type: 'array', items: { type: 'string' } } } },
     learn: { type: 'array', items: { type: 'object', additionalProperties: false, required: ['domain', 'term', 'explainer', 'from_id'],
       properties: { domain: { type: 'string', enum: ['cyber', 'warfare', 'geo'] }, term: { type: 'string' }, explainer: { type: 'string' }, from_id: { type: 'string' } } } },
   },
@@ -115,9 +118,10 @@ Use ONLY the title and snippet supplied for each item. Never add names, numbers,
 Per item: summary (max 35 words, plain, neutral, attribute claims: "X says"), why (max 20 words; cyber = what a defender should check or do; warfare = the technology or operational relevance; geo = the strategic or geospatial relevance), tags (1-3 short terms from the text).
 run_today: 3 short defender actions, each grounded in a cyber item above.
 learn: one entry each for domains "cyber", "warfare" and "geo": term = a concept that appears in that day's items, explainer = max 45 words defining it for a beginner, from_id = the item it came from.
+analysis ("Outpost analysis", ~180 words in total): synthesis across the stories in top (today's top stories): what connects them, what it means for defenders and analysts, what to watch. headline (max 12 words), paragraphs (exactly 3, max 55 words each), takeaways (exactly 3, max 20 words each). Use ONLY the titles/snippets supplied; no invented facts or numbers; no predictions stated as fact; hedge uncertainty ("may", "suggests"); neutral tone; write numbers only if they appear in top.
 learn may draw on items or learn_from (titles only). Return the item ids exactly as given.`;
 
-async function summarise(items, learnPool) {
+async function summarise(items, learnPool, top) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) { console.warn('OPENAI_API_KEY not set — using feed snippets only'); return null; }
   const payload = (list) => list.map((i) => ({ id: i.id, sec: i.section, src: i.source, title: i.title, text: i.snippet.slice(0, 260) }));
@@ -125,9 +129,9 @@ async function summarise(items, learnPool) {
   const sent = new Set(items.map((i) => i.id));
   const titles = learnPool.filter((i) => !sent.has(i.id)).map((i) => ({ id: i.id, title: i.title }));
   const body = {
-    model: MODEL, max_completion_tokens: 6000,
+    model: MODEL, max_completion_tokens: 7000,
     ...(EFFORT && { reasoning_effort: EFFORT }),
-    messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: JSON.stringify({ items: payload(items), learn_from: titles }) }],
+    messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: JSON.stringify({ items: payload(items), learn_from: titles, top: top.map((i) => ({ title: i.title, text: i.snippet.slice(0, 200) })) }) }],
     response_format: { type: 'json_schema', json_schema: { name: 'edition', strict: true, schema: SCHEMA } },
   };
   for (let attempt = 0; attempt < 2; attempt++) {
@@ -200,10 +204,11 @@ try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.me
 
 // Only unsummarised items go to the model. No new items + learn already written today => no call at all.
 const fresh = chosen.filter((i) => process.env.FORCE_AI || !cache[i.id]?.summary);
-let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [];
+let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [], analysis = prev?.analysis ?? null;
 const MIN_FRESH = Number(process.env.MIN_FRESH ?? 3); // frequent runs: only call the model when a few new stories have piled up
 if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
-  const ai = await summarise(fresh, chosen);
+  const top = [...chosen].sort((a, b) => b.score - a.score).slice(0, 8);
+  const ai = await summarise(fresh, chosen, top);
   if (ai) {
     const byId = new Map(chosen.map((i) => [i.id, i]));
     for (const a of ai.items) {
@@ -213,6 +218,14 @@ if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
       cache[a.id] = { t: date, summary: guardNumbers(a.summary, basis), why: guardNumbers(a.why, basis), tags: a.tags.slice(0, 3).map((t) => t.slice(0, 28)) };
     }
     runToday = ai.run_today.slice(0, 3);
+    try {
+      const basis = top.map((i) => i.title + ' ' + i.snippet.slice(0, 200)).join(' ');
+      const a = ai.analysis, g = (t) => guardNumbers(String(t ?? ''), basis);
+      const paragraphs = (a?.paragraphs ?? []).slice(0, 3).map(g).filter(Boolean);
+      const takeaways = (a?.takeaways ?? []).slice(0, 3).map(g).filter(Boolean);
+      const headline = g(a?.headline).slice(0, 140);
+      if (headline && paragraphs.length) analysis = { headline, paragraphs, takeaways };
+    } catch (e) { console.warn('analysis failed:', e.message); }
     learn = ai.learn.filter((l) => byId.has(l.from_id)).map((l) => ({ ...l, from: byId.get(l.from_id).url, fromSource: byId.get(l.from_id).source }));
   }
 }
@@ -231,7 +244,9 @@ const state = read('data/state.json', { edition: 218, date: '2026-09-05' });
 if (state.date !== date) { state.edition += 1; state.date = date; }
 if (!items.length && !kev.length) { console.error('Nothing collected — not publishing an empty edition.'); process.exit(1); }
 
-write(`data/editions/${date}.json`, { date, edition: state.edition, compiled: now.toISOString(), model: MODEL, items, kev, run_today: runToday, learn, health });
+write(`data/editions/${date}.json`, { date, edition: state.edition, compiled: now.toISOString(), model: MODEL, items, kev, run_today: runToday, learn, ...(analysis && { analysis }), health });
 write('data/cache.json', cache);
 write('data/state.json', state);
 console.log(`edition ${state.edition} (${date}): ${items.length} items, ${kev.length} KEV, ${fresh.length} needed summarising`);
+
+try { await updateDarkweb(); } catch (e) { console.warn('darkweb failed:', e.message); }

@@ -7,6 +7,8 @@ An autonomous daily briefing on **cybersecurity, modern warfare technology, geod
 
 **Live site:** [outpostdaily.com](https://www.outpostdaily.com)
 
+Going live (Search Console, AdSense, newsletter): see [docs/LAUNCH.md](docs/LAUNCH.md) and run `node src/launch.mjs`.
+
 ## Quick Start
 
 Prerequisites: Node.js 20+
@@ -91,6 +93,11 @@ The site build is pure, so an outage at a feed or at the AI provider can never b
 `.github/workflows/breaking.yml` runs `src/breaking.mjs`, which reads the X accounts in `config/breaking.json` through [twitterapi.io](https://twitterapi.io) (one search call per group, only posts newer than the last run), fast security RSS feeds, the ransomware.live victim feed and public forum listings. New items go to `data/breaking.json` (72-hour window) and appear on `/breaking/` and in a strip on the home page. The workflow commits and deploys only when something new arrived. Forum and leak-site entries are shown as **Unverified** claims: headline and link only, no leaked data.
 
 Required GitHub Actions secret: `TWITTERAPI_KEY`. Local run: `TWITTERAPI_KEY=... node src/breaking.mjs`. Article thumbnails on stories are downloaded and resized at fetch time into `public/img/news/` (self-hosted, credited to the outlet).
+
+## Data additions
+
+- `data/editions/<date>.json` gains `analysis: { headline, paragraphs: [<=3], takeaways: [<=3] }` (same AI call; numbers guarded; reused when the call is skipped; absent if the model's text fails the guard).
+- `data/darkweb.json` = `{ updated, items: [{ id, kind, source, url, published, headline, claim, context, advice: [2], verified: false }] }`, newest first, 14 days, max 40. Written by `src/darkweb.mjs` (one batched call for new forum/ransomware/darkweb-X claims; `url` is the original claim link; without a key `headline`/`claim` = title, `context` empty, `advice` []).
 
 ## Keeping AI usage minimal
 

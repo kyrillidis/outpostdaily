@@ -160,3 +160,9 @@ test('today’s edition is fully present on the site', () => {
   const cves = read(fileFor('/cves/'));
   assert.deepEqual(latest.kev.filter((k) => !cves.includes(k.cve)).map((k) => k.cve), [], 'KEV rows missing from /cves/');
 });
+
+test('the dark web page is built and listed, and forum items stay off the Breaking dashboard', () => {
+  assert.ok(pages.some((p) => p.rel === '/dark-web/index.html'), 'missing /dark-web/');
+  assert.ok(read(join(DIST, 'sitemap.xml')).includes(`${site.url}/dark-web/`), 'dark-web not in sitemap');
+  assert.ok(!/data-kind="forum"/.test(pages.find((p) => p.rel === '/breaking/index.html').html), 'forum items on Breaking');
+});
