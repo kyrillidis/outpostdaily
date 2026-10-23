@@ -1,23 +1,8 @@
 {
- "updated": "2026-10-23T14:10:52.477Z",
+ "updated": "2026-10-23T14:29:57.641Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -27,19 +12,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -47,29 +22,54 @@
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 5
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Dark Reading",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -89,20 +89,284 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 19
   }
  ],
  "items": [
+  {
+   "id": "x2113639097461784956",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "American Express is cutting 5% of its headcount globally as Chief Executive Officer Steve Squeri seeks to keep a lid on the company’s rising costs.",
+   "url": "https://x.com/business/status/2113639097461784956",
+   "published": "2026-10-23T14:30:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113639010228752409",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "GOLD TESTS $4,000 AS INFLATION FEARS TRIGGER SELLING Gold futures fell 1.10% to $3,980.80/oz, heading for a nearly 4% weekly loss. Rising oil prices are fueling inflation concerns and expectations of higher interest rates, pressuring the…",
+   "url": "https://x.com/DeItaone/status/2113639010228752409",
+   "published": "2026-10-23T14:29:44.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113638853781180858",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "A suspect opened fire from a car, leaving one person dead and at least four wounded",
+   "url": "https://x.com/business/status/2113638853781180858",
+   "published": "2026-10-23T14:29:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113637936038375599",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UKRAINE’S ZELENSKIY: HOPES US DELIVERS ON PATRIOT INTERCEPTORS",
+   "url": "https://x.com/FirstSquawk/status/2113637936038375599",
+   "published": "2026-10-23T14:25:28.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113637922423619700",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UKRAINE’S ZELENSKIY: RUSSIA HAS ALREADY BEGUN ITS 'WINTER ATTACKS",
+   "url": "https://x.com/FirstSquawk/status/2113637922423619700",
+   "published": "2026-10-23T14:25:24.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113637906539823575",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UKRAINE’S ZELENSKIY: DELIVERY OF MISSILE INTERCEPTORS DELAYED STILL",
+   "url": "https://x.com/FirstSquawk/status/2113637906539823575",
+   "published": "2026-10-23T14:25:21.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113637848637165718",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Tech Layoffs Surge As Corporate America's AI Blitz Raises Fears The Worst Is Yet To Come",
+   "url": "https://x.com/zerohedge/status/2113637848637165718",
+   "published": "2026-10-23T14:25:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113637825895690736",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "US consumer sentiment edged down to a five-month low in October as high prices and rising interest rates depressed morale",
+   "url": "https://x.com/business/status/2113637825895690736",
+   "published": "2026-10-23T14:25:01.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n52d3232953",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+   "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+   "published": "2026-10-23T14:23:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n59f8ef9c79",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Surging economy gets off to a good start in the fourth quarter &#x2014; but there&#x2019;s one big problem",
+   "url": "https://www.marketwatch.com/story/surging-economy-gets-off-to-a-good-start-in-the-fourth-quarter-but-theres-one-big-problem-5657f399?mod=mw_rss_topstories",
+   "published": "2026-10-23T14:23:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113636877643444311",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🛡️ FORTINET URGES IMMEDIATE UPGRADES: SECURITY HARDENING RELEASE FOR FORTIOS, FORTIMANAGER, FORTIANALYZER, FORTIMAIL AND FORTIAUTHENTICATOR Fortinet's CISO says the releases include critical and high-severity fixes, some found through…",
+   "url": "https://x.com/DailyDarkWeb/status/2113636877643444311",
+   "published": "2026-10-23T14:21:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113636574743191772",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Mass cybersecurity disruptions, such as this week’s scramble by governments and companies to patch two critical software flaws, are about to “get a lot worse before they get better,” a top executive at Anthropic has warned",
+   "url": "https://x.com/business/status/2113636574743191772",
+   "published": "2026-10-23T14:20:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113636217233555828",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "$CRWV - COREWEAVE SHARES FALL 2.4% AFTER 10% SLIDE IN PRIOR SESSION",
+   "url": "https://x.com/DeItaone/status/2113636217233555828",
+   "published": "2026-10-23T14:18:38.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113636172144812243",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "🚨 DDoS Alert 🇫🇷 Dark Storm Team claims to have targeted multiple websites in France. * Brest Métropole * GTT * Eurenco",
+   "url": "https://x.com/FalconFeedsio/status/2113636172144812243",
+   "published": "2026-10-23T14:18:27.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635950391603677",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@SwiftOnSecurity",
+   "title": "IT Ops: \"Why is this Windows setting gray'd out?\" Me: \"It's insecure we can't... Actually, I jumped ahead. Why does the user know this option exists? What is the problem they are trying to solve by changing it?\" IT Ops: \"Actually we don't…",
+   "url": "https://x.com/SwiftOnSecurity/status/2113635950391603677",
+   "published": "2026-10-23T14:17:34.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635805994594364",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "BREAKING: Central banks around the world are quietly stockpiling four times as much gold as usual and are moving it out of the US, per FORTUNE",
+   "url": "https://x.com/unusual_whales/status/2113635805994594364",
+   "published": "2026-10-23T14:17:00.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113635764294819992",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UKRAINE’S ZELENSKIY: SPEED LIMITS ON STARLINK AND STARSHIELD STILL IN EFFECT",
+   "url": "https://x.com/FirstSquawk/status/2113635764294819992",
+   "published": "2026-10-23T14:16:50.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635589052379610",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Main St.-Wall St. Divide Reaches Record High As UMich Inflation Angst Re-Accelerates",
+   "url": "https://x.com/zerohedge/status/2113635589052379610",
+   "published": "2026-10-23T14:16:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635366590984332",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "🚨 Ransomware Alert 🚨 Akira ransomware group has added 2 new victims to its dark web portal. * Bravilor Bonamat 🇳🇱 * SCHWAB-SYSTEM🇨🇭",
+   "url": "https://x.com/FalconFeedsio/status/2113635366590984332",
+   "published": "2026-10-23T14:15:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635349587013672",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Ukraine’s Zelenskiy: Just Spoke With Witkoff And Kushner; Discussed Outcome Of The Meetings In Norway - Agreement For Trilateral Meeting At The Team Level - Aim To Meet In First Half Of November, Soon As Possible",
+   "url": "https://x.com/LiveSquawk/status/2113635349587013672",
+   "published": "2026-10-23T14:15:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113635322978275690",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Prague preserved its historic core while other European capitals rebuilt. Now billionaire-backed projects are transforming old rail yards and industrial land into entirely new neighborhoods. Read more: 📷: Martin Divisek/EPA/Shutterstock",
+   "url": "https://x.com/business/status/2113635322978275690",
+   "published": "2026-10-23T14:15:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n1a41f3b5e5",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "&#x2018;I don&#x2019;t feel sorry for myself&#x2019;: I&#x2019;m 64 and will be renting for the rest of my life. Is that so bad?",
+   "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "published": "2026-10-23T14:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113635249586659777",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "🚨 DDoS Alert 🇮🇱 BD Anonymous claims to have targeted the website of Imtirtzu (",
+   "url": "https://x.com/FalconFeedsio/status/2113635249586659777",
+   "published": "2026-10-23T14:14:47.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n0b1c12183b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
+   "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T14:13:33.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2113634057808490645",
    "kind": "x",
@@ -421,6 +685,17 @@
    "published": "2026-10-23T13:51:26.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "nf059789b24",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+   "published": "2026-10-23T13:50:56.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2113629123839221980",
@@ -2447,6 +2722,17 @@
    "verified": true
   },
   {
+   "id": "r23b758012c",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "rhysida claims Line2Line Coatings — Manufacturing",
+   "url": "https://www.ransomware.live/id/TGluZTJMaW5lIENvYXRpbmdzQHJoeXNpZGE=",
+   "published": "2026-10-23T10:20:13.465Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
    "id": "x2113576179399630909",
    "kind": "x",
    "group": "markets",
@@ -2489,6 +2775,17 @@
    "published": "2026-10-23T10:15:00.000Z",
    "severity": "normal",
    "verified": true
+  },
+  {
+   "id": "r68e39feed6",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "fulcrumsec claims EMARKETER (US) — Technology",
+   "url": "https://www.ransomware.live/id/RU1BUktFVEVSQGZ1bGNydW1zZWM=",
+   "published": "2026-10-23T10:10:20.716Z",
+   "severity": "normal",
+   "verified": false
   },
   {
    "id": "x2113573658778063342",
@@ -3103,303 +3400,6 @@
    "title": "🚨Cyber Alert ‼️ 🇯🇵Japan- TOKAI Holdings Corporation TOKAI Holdings Corporation announced the precautionary suspension of its TLC membership and rewards platform following suspected attempts by unidentified third parties to gain…",
    "url": "https://x.com/H4ckmanac/status/2113555087977042357",
    "published": "2026-10-23T08:56:15.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113554788994478342",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Russia’s grain industry is looking to increasingly niche solutions for shipping wheat. The latest alternative: a tiny port in the Kremlin-backed separatist region of Georgia",
-   "url": "https://x.com/business/status/2113554788994478342",
-   "published": "2026-10-23T08:55:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113553526173335677",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Global hedge funds suffered one of their broadest declines since the Covid pandemic following the stock market selloff on Thursday",
-   "url": "https://x.com/business/status/2113553526173335677",
-   "published": "2026-10-23T08:50:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n9cad698319",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
-   "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-23T08:45:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113552273267683351",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Erroneous data from the Tokyo Stock Exchange showed leveraged long positions in Kioxia Holdings had plunged, leading some investors to believe that selling pressure had eased.",
-   "url": "https://x.com/business/status/2113552273267683351",
-   "published": "2026-10-23T08:45:04.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113551440585052662",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "BoJ Yen Index Oct-23: 74.13 (prev 73.44)",
-   "url": "https://x.com/LiveSquawk/status/2113551440585052662",
-   "published": "2026-10-23T08:41:45.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "na2a9e372db",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-   "published": "2026-10-23T08:40:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113551014242464052",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "California’s pension giant is shifting away from investment in large US technology companies and increasing its exposure to private equity, the Financial Times reported",
-   "url": "https://x.com/business/status/2113551014242464052",
-   "published": "2026-10-23T08:40:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113550887901675675",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 A malicious API could drain an AI agent's token balance via an x402 SDK flaw. V12 rated 3 bugs critical: — No default spending cap — Solana approvals passed as payments — Logins signed for other sites All patched. No advisory, so npm…",
-   "url": "https://x.com/TheHackersNews/status/2113550887901675675",
-   "published": "2026-10-23T08:39:34.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113550452025663955",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇵🇪 🚨 PERU: CLÍNICA VESALIO PATIENT DATA ALLEGEDLY LEAKED, ~1.1M RECORDS CLAIMED A threat actor on a dark web forum is advertising a database of about 1.1 million records allegedly stolen from Clínica Vesalio, a private hospital and…",
-   "url": "https://x.com/DailyDarkWeb/status/2113550452025663955",
-   "published": "2026-10-23T08:37:50.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113550364561580185",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@BBCBreaking",
-   "title": "Thousands without power as Storm Austen sweeps across large parts of UK - follow live",
-   "url": "https://x.com/BBCBreaking/status/2113550364561580185",
-   "published": "2026-10-23T08:37:29.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n9b3091f737",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-23T08:36:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6f084559d7",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-   "published": "2026-10-23T08:35:45.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9c9b369cb6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces accused of killing disabled man in Syria raid",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-forces-accused-of-killing-disabled-man-in-syria-raid?traffic_source=rss",
-   "published": "2026-10-23T08:35:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113549747780727124",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The UK has voiced concerns that the European Union’s push for technological autonomy will damage British digital companies, arguing that it should be eligible to compete for contracts under forthcoming “Made in Europe” tech rules.",
-   "url": "https://x.com/business/status/2113549747780727124",
-   "published": "2026-10-23T08:35:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n962b531106",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "11 Million Impacted by Capcom Data Breach",
-   "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-   "published": "2026-10-23T08:34:14.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113548746097328249",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "UK S&P Global Services PMI Oct P: 53.1 (est 51.8; prev 52.1) - Manufacturing PMI: 52.8 (est 51.8; prev 51.9) - Composite PMI: 53.1 (est 51.7; prev 52.0)",
-   "url": "https://x.com/LiveSquawk/status/2113548746097328249",
-   "published": "2026-10-23T08:31:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113548671166095460",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "UK OCTOBER COMPOSITE PMI JUMPS TO 53.1, BEATING ESTIMATE OF 51.7.",
-   "url": "https://x.com/FirstSquawk/status/2113548671166095460",
-   "published": "2026-10-23T08:30:45.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113548614102622367",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "UK SERVICES PMI FOR OCTOBER INCREASES TO 53.1, ABOVE EXPECTATION OF 51.8.",
-   "url": "https://x.com/FirstSquawk/status/2113548614102622367",
-   "published": "2026-10-23T08:30:32.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113548502223479135",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Eni said it will return more cash to shareholders after the Middle East war drove up energy prices and sent refining margins soaring.",
-   "url": "https://x.com/business/status/2113548502223479135",
-   "published": "2026-10-23T08:30:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n0515431e74",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Quest Diagnostics Reports Cyber Breach Affecting &#8216;Certain Patient Records&#8217;",
-   "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-   "published": "2026-10-23T08:25:06.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113547230862774511",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Volvo said good momentum in North America and Europe helped deliver solid earnings during the third quarter with the truckmaker planning to gradually increase production.",
-   "url": "https://x.com/business/status/2113547230862774511",
-   "published": "2026-10-23T08:25:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113546895159427408",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "IRAN CLAIMS 'ILLICIT' VESSEL TRAFFIC IN HORMUZ STOPPED - FARS",
-   "url": "https://x.com/FirstSquawk/status/2113546895159427408",
-   "published": "2026-10-23T08:23:42.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113546026162565363",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇺🇸 Prism Medical Products ( a US-based consumer services company, has reportedly fallen victim to Wallstreet ransomware. NB: The group intends to publish the data within 6-7 days. 🔍 Key Details: 🛡️ Threat Actor:…",
-   "url": "https://x.com/FalconFeedsio/status/2113546026162565363",
-   "published": "2026-10-23T08:20:15.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113545980117233678",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Holcim raised its full-year guidance for the second time this year after robust demand for more sustainable building materials saw third-quarter profit beat expectations",
-   "url": "https://x.com/business/status/2113545980117233678",
-   "published": "2026-10-23T08:20:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113545550444351760",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇿🇦 🚨 SOUTH AFRICA: RAND MUTUAL ASSURANCE ALLEGEDLY BREACHED, 1.68M CLAIM RECORDS AND 366 GB CLAIMED A threat actor on an underground forum claims to have stolen 366 GB of data from Rand Mutual Assurance (RMA), the South African insurer…",
-   "url": "https://x.com/DailyDarkWeb/status/2113545550444351760",
-   "published": "2026-10-23T08:18:21.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113544732521492755",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Barclays To Axe 5,000 Jobs As Britain's Youth Employment Crisis Deepens",
-   "url": "https://x.com/zerohedge/status/2113544732521492755",
-   "published": "2026-10-23T08:15:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113544718713782450",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "CATL and Beijing Automotive Group will develop a battery-swapping system, with the aim of servicing 1 million vehicles, as the battery giant looks to grow what’s seen as a long-term revenue stream.",
-   "url": "https://x.com/business/status/2113544718713782450",
-   "published": "2026-10-23T08:15:03.000Z",
    "severity": "normal",
    "verified": false
   }
