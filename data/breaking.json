@@ -1,10 +1,40 @@
 {
- "updated": "2026-10-23T15:42:29.206Z",
+ "updated": "2026-10-23T15:53:17.807Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "The Record",
@@ -17,24 +47,9 @@
    "n": 0
   },
   {
-   "name": "CISA Advisories",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "Dark Reading",
@@ -42,29 +57,14 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "ransomware.live",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -72,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "DarkForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -89,20 +89,97 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 20
+   "n": 15
   }
  ],
  "items": [
+  {
+   "id": "x2113659562108821798",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "NOVARTIS: REMIBRUTINIB MEETS PRIMARY ENDPOINTS IN PHASE 3 TRIALS IN RMS",
+   "url": "https://x.com/FirstSquawk/status/2113659562108821798",
+   "published": "2026-10-23T15:51:24.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113659553933901827",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Banks, airlines and governments pulled down their websites as a precaution after researchers used AI to uncover holes in the programming language that underpins swathes of the internet. Jordan Robertson explains why we're entering an era…",
+   "url": "https://x.com/business/status/2113659553933901827",
+   "published": "2026-10-23T15:51:22.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113659223959609589",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Jio’s $3.1 billion initial public offering drew strong demand, particularly from institutional investors, as the country’s biggest-ever share sale defied the drag of a weeklong selloff in Indian equities",
+   "url": "https://x.com/business/status/2113659223959609589",
+   "published": "2026-10-23T15:50:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113658641823768874",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨 PHP warns of another unpatched remote code execution risk; CVE-2026-115560 The newly disclosed vulnerability is separate from the two PHP2Shell flaws patched earlier this week and is not fixed by PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35. ⠀…",
+   "url": "https://x.com/DarkWebInformer/status/2113658641823768874",
+   "published": "2026-10-23T15:47:44.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113658497930056100",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "TIKTOK U.S. IS LOOKING FOR FOUR GIGAWATTS OF COMPUTE POWER BY THE EARLY 2030S - CNBC",
+   "url": "https://x.com/FirstSquawk/status/2113658497930056100",
+   "published": "2026-10-23T15:47:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113658418812915899",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Novartis: Remibrutinib Meets Primary Endpoints In Phase 3 Trials In RMS - Cuts RMS Relapse Rate By 35% Versus Rival - To Seek Global Approval For Remibrutinib In RMS",
+   "url": "https://x.com/LiveSquawk/status/2113658418812915899",
+   "published": "2026-10-23T15:46:51.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113657968788926583",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "A tie between the two candidates in Thursday’s Datafolha poll boosted President Luiz Inácio Lula da Silva’s campaign, which saw signs of gains for Lula and stability for Senator Flávio Bolsonaro, according to Valor newspaper",
+   "url": "https://x.com/business/status/2113657968788926583",
+   "published": "2026-10-23T15:45:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113656936864321937",
    "kind": "x",
@@ -3324,83 +3401,6 @@
    "url": "https://x.com/DailyDarkWeb/status/2113587021612814712",
    "published": "2026-10-23T11:03:09.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n9b3091f737",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-23T11:01:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n518fa729fa",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here&#x2019;s what&#x2019;s going on.",
-   "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-   "published": "2026-10-23T11:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113586322686324977",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "When the cost of goods becomes too expensive, American consumers either stop buying something or replace it with something else. It's called “elastic demand.” But not when it comes to beef. @deenashanker joins @chafkin and @svaneksmith on…",
-   "url": "https://x.com/business/status/2113586322686324977",
-   "published": "2026-10-23T11:00:22.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113586287860920346",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "A strong El Niño that's pushing up food prices and fueling wildfires could make 2026 the hottest year ever recorded, scientists say",
-   "url": "https://x.com/business/status/2113586287860920346",
-   "published": "2026-10-23T11:00:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r5438b734a0",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "Scarlettgroup claims vinsolutions.com (US) — Professional Services",
-   "url": "https://www.ransomware.live/id/dmluc29sdXRpb25zLmNvbUBTY2FybGV0dGdyb3Vw",
-   "published": "2026-10-23T10:58:40.183Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113585481602466095",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Tech Rout Eases With Oil Strength Capping Relief. Get market insight on Bloomberg Surveillance. @tomkeene @ptsweeney @AlexisTVNews are LIVE on YouTube.",
-   "url": "https://x.com/business/status/2113585481602466095",
-   "published": "2026-10-23T10:57:01.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113585474367312353",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Emmanuel Macron has said “illegitimate” demonstrations will be banned over the coming days",
-   "url": "https://x.com/unusual_whales/status/2113585474367312353",
-   "published": "2026-10-23T10:57:00.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
