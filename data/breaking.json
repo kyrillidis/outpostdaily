@@ -1,38 +1,8 @@
 {
- "updated": "2026-10-23T08:47:36.648Z",
+ "updated": "2026-10-23T08:57:38.114Z",
  "health": [
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -42,14 +12,39 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 1
+   "n": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -68,13 +63,18 @@
   },
   {
    "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -89,20 +89,86 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 13
+   "n": 6
   }
  ],
  "items": [
+  {
+   "id": "x2113555289593020832",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "SpaceX-Tesla Merger Floated By Musk Could Face Antitrust Scrutiny - Semafor",
+   "url": "https://x.com/LiveSquawk/status/2113555289593020832",
+   "published": "2026-10-23T08:57:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113555257225847184",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇷🇺 🚨 RUSSIA: PHARMACY CHAIN VITA EXPRESS ALLEGEDLY BREACHED, ~1.9M CUSTOMER RECORDS CLAIMED A threat actor on a dark web forum is advertising a database of about 1.9 million customer records allegedly stolen from Vita Express, a…",
+   "url": "https://x.com/DailyDarkWeb/status/2113555257225847184",
+   "published": "2026-10-23T08:56:55.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113555087977042357",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@H4ckmanac",
+   "title": "🚨Cyber Alert ‼️ 🇯🇵Japan- TOKAI Holdings Corporation TOKAI Holdings Corporation announced the precautionary suspension of its TLC membership and rewards platform following suspected attempts by unidentified third parties to gain…",
+   "url": "https://x.com/H4ckmanac/status/2113555087977042357",
+   "published": "2026-10-23T08:56:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113554788994478342",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Russia’s grain industry is looking to increasingly niche solutions for shipping wheat. The latest alternative: a tiny port in the Kremlin-backed separatist region of Georgia",
+   "url": "https://x.com/business/status/2113554788994478342",
+   "published": "2026-10-23T08:55:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113553526173335677",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Global hedge funds suffered one of their broadest declines since the Covid pandemic following the stock market selloff on Thursday",
+   "url": "https://x.com/business/status/2113553526173335677",
+   "published": "2026-10-23T08:50:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n9cad698319",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+   "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T08:45:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2113552273267683351",
    "kind": "x",
@@ -3334,72 +3400,6 @@
    "title": "JAPAN’S FINANCE MINISTER KATAYAMA SAYS SHE BELIEVES JAPANESE FINANCIAL INSTITUTIONS HAVE HANDLED THE PHP ISSUE RELATIVELY SMOOTHLY AND EXPECTS THEM TO CONTINUE TO TAKE NECESSARY ACTION",
    "url": "https://x.com/FirstSquawk/status/2113418721167552789",
    "published": "2026-10-22T23:54:23.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113418675164508166",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "JAPAN’S FINANCE MINISTER KATAYAMA SAYS SHE CANNOT COMMENT ON A REVIVAL OF GASOLINE SUBSIDIES BUT WILL TAKE THE HOUSEHOLD SITUATION INTO CONSIDERATION",
-   "url": "https://x.com/FirstSquawk/status/2113418675164508166",
-   "published": "2026-10-22T23:54:12.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113418225140596818",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "今日必读 🖱黑石总裁看好AI需求前景 🤖SK海力士闪存业务放弃IPO ⏬法国各类资产因抗议活动普跌 获取免费中文电子报《彭博财经早茶》与音频播报，聚焦中国与全球市场最新动向，并有周末特别推送。 A daily Chinese-language briefing and audio broadcast of what's moving markets in China and around the world. Plus, a weekend edition.",
-   "url": "https://x.com/business/status/2113418225140596818",
-   "published": "2026-10-22T23:52:24.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113417916335247507",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "There is a 76% chance that the Fed hikes again in 2026, per Polymarket⁠.com. Last week, inflation for CPI and PPI came back hotter than expected.",
-   "url": "https://x.com/unusual_whales/status/2113417916335247507",
-   "published": "2026-10-22T23:51:11.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113417629960491478",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "As a new wave of YouTube-centric podcasts gain traction, some old favorites are losing ground",
-   "url": "https://x.com/business/status/2113417629960491478",
-   "published": "2026-10-22T23:50:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113416758426222624",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "JAPAN’S 10-YEAR JGB FUTURES RISE 0.6 POINT IN EARLY TRADE",
-   "url": "https://x.com/FirstSquawk/status/2113416758426222624",
-   "published": "2026-10-22T23:46:35.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113416685508276237",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "JAPAN’S NIKKEI FUTURES FALL 1.5% IN EARLY TRADE",
-   "url": "https://x.com/FirstSquawk/status/2113416685508276237",
-   "published": "2026-10-22T23:46:17.000Z",
    "severity": "normal",
    "verified": false
   }
