@@ -1,7 +1,7 @@
 {
  "date": "2026-10-23",
  "edition": 221,
- "compiled": "2026-10-23T08:37:13.872Z",
+ "compiled": "2026-10-23T10:29:16.060Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,7 +19,7 @@
      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/"
     }
    ],
-   "score": 1.69,
+   "score": 1.66,
    "image": "/img/news/177124c993.webp",
    "t": "2026-10-23",
    "summary": "Capcom confirms hackers breached its CAPCOM ID membership service, exposing customer email addresses and associated information.",
@@ -46,7 +46,7 @@
      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
     }
    ],
-   "score": 1.63,
+   "score": 1.59,
    "image": "/img/news/5d4f96d6ac.webp",
    "t": "2026-10-22",
    "summary": "Arista released updates for an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator On-Prem deployments.",
@@ -55,6 +55,93 @@
     "VeloCloud Orchestrator",
     "zero-day",
     "updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9480845765",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+   "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+   "snippet": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek .",
+   "published": "2026-10-23T09:58:34.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/9480845765.webp",
+   "t": "2026-10-23",
+   "summary": "The critical SQL injection flaw in VeloCloud Orchestrator allows attackers to access privileged internal functionality and gain operator privileges.",
+   "why": "Check VeloCloud Orchestrator for exposure and apply available security fixes.",
+   "tags": [
+    "SQL injection",
+    "operator privileges"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3a89e69463",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "snippet": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to",
+   "published": "2026-10-23T09:36:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/3a89e69463.webp",
+   "t": "2026-10-23",
+   "summary": "A flaw in Pillow’s handling of EPS images can allow operating system commands to run on a server when it opens a specified file.",
+   "why": "Check servers that use Pillow to open EPS images and review file-handling safeguards.",
+   "tags": [
+    "Pillow",
+    "EPS images",
+    "code execution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a2a9e372db",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "snippet": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to th",
+   "published": "2026-10-23T08:40:43.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/a2a9e372db.webp",
+   "t": "2026-10-23",
+   "summary": "Researchers demonstrated that malicious Brotli data can make an application on an official Node.js build run attacker-supplied code.",
+   "why": "Check how applications process Brotli data and monitor for unexpected code execution.",
+   "tags": [
+    "Brotli",
+    "Node.js",
+    "code execution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6f084559d7",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "snippet": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to age",
+   "published": "2026-10-23T08:35:45.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/6f084559d7.webp",
+   "t": "2026-10-23",
+   "summary": "Security firm V12 says a malicious API could ask x402 SDK clients to sign payments for their full balance of a supported token.",
+   "why": "Check x402 SDK payment limits before allowing AI agents to pay APIs.",
+   "tags": [
+    "x402 SDK",
+    "AI agents",
+    "token balances"
    ],
    "ai": true
   },
@@ -68,7 +155,7 @@
    "snippet": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek .",
    "published": "2026-10-23T08:25:06.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.46,
    "image": "/img/news/0515431e74.webp",
    "t": "2026-10-23",
    "summary": "Quest Diagnostics reported unauthorized access to Quanum Lab Services Manager, where certain clients can place test orders.",
@@ -90,7 +177,7 @@
    "snippet": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .",
    "published": "2026-10-23T08:10:46.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.45,
    "image": "/img/news/8d39c401e7.webp",
    "t": "2026-10-23",
    "summary": "SecurityWeek reports hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker.",
@@ -112,7 +199,7 @@
    "snippet": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek .",
    "published": "2026-10-23T07:54:47.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.45,
    "image": "/img/news/76ce6885fc.webp",
    "t": "2026-10-23",
    "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues in third-party components; the title says it patched 75 flaws.",
@@ -121,28 +208,6 @@
     "Atlassian",
     "vulnerabilities",
     "third-party components"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a2a9e372db",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-   "snippet": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to th",
-   "published": "2026-10-23T07:50:01.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/a2a9e372db.webp",
-   "t": "2026-10-23",
-   "summary": "Researchers demonstrated that malicious Brotli data can make an application on an official Node.js build run attacker-supplied code.",
-   "why": "Check how applications process Brotli data and monitor for unexpected code execution.",
-   "tags": [
-    "Brotli",
-    "Node.js",
-    "code execution"
    ],
    "ai": true
   },
@@ -156,7 +221,7 @@
    "snippet": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-20",
    "published": "2026-10-23T07:40:45.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/199bd0864f.webp",
    "t": "2026-10-23",
    "summary": "Researchers observed unsuccessful attempts to exploit PHP2Shell vulnerabilities to add systems to a Mirai botnet variant called Potassium.",
@@ -165,68 +230,6 @@
     "PHP2Shell",
     "Mirai",
     "Potassium"
-   ],
-   "ai": true
-  },
-  {
-   "id": "76d592eba3",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens SIMATIC S7 Webserver API",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-10.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write a",
-   "published": "2026-10-22T12:00:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "A CISA advisory says the .NET Client Library for the SIMATIC S7 Webserver API contains multiple vulnerabilities.",
-   "why": "Check whether your environment uses the library and review the advisory.",
-   "tags": [
-    "SIMATIC S7",
-    "API",
-    "vulnerabilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "941935f089",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availabili",
-   "published": "2026-10-22T12:00:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "A CISA advisory says Siemens APOGEE, TALON and Desigo PXC/PXM products contain vulnerabilities that could allow an attacker to cause an unspecified effect.",
-   "why": "Identify affected products and consult the advisory for mitigation guidance.",
-   "tags": [
-    "APOGEE",
-    "TALON",
-    "vulnerabilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0772ceb52e",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens RUGGEDCOM CROSSBOW",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-12.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve s",
-   "published": "2026-10-22T12:00:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-22",
-   "summary": "A CISA advisory says RUGGEDCOM CROSSBOW contains vulnerabilities that could allow an attacker to execute something; the snippet does not specify what.",
-   "why": "Check for RUGGEDCOM CROSSBOW and review the advisory before deciding on mitigations.",
-   "tags": [
-    "RUGGEDCOM CROSSBOW",
-    "vulnerabilities"
    ],
    "ai": true
   },
@@ -240,7 +243,7 @@
    "snippet": "“[T]he exigencies of desperate survival do stimulate wise leaders to seek such unorthodox solutions.” —Barton Whaley, StratagemOn the night of Jan. 5, 2025, my first mission in the Pokrovsk command post was to make a fake radio call. We knew Russian forces were listening in. We did not know whether the position our men",
    "published": "2026-10-23T07:30:37.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.54,
    "image": "/img/news/57a63a8f60.webp",
    "t": "2026-10-23",
    "summary": "The article describes a fake radio call in a command post and examines deception in mass autonomous warfare.",
@@ -267,7 +270,7 @@
      "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/"
     }
    ],
-   "score": 1.54,
+   "score": 1.5,
    "image": "/img/news/b8ce359a66.webp",
    "t": "2026-10-22",
    "summary": "The Pentagon and Lockheed agreed to a tentative F-35 framework covering production and sustainment over the next 10 years; lawmakers must still approve it.",
@@ -276,6 +279,50 @@
     "F-35",
     "production",
     "sustainment"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1ee04e50ca",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class",
+   "url": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+   "snippet": "The Spanish Navy and Navantia are developing the new F110 IAMD frigate. This evolution of the Bonifaz class features advanced integrated air and missile defense capabilities The post Spanish Navy and Navantia design an IAMD frigate aiming to extend F110 class appeared first on Naval News .",
+   "published": "2026-10-23T08:57:42.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/1ee04e50ca.webp",
+   "t": "2026-10-23",
+   "summary": "The Spanish Navy and Navantia are developing an F110 IAMD frigate, an evolution of the Bonifaz class with integrated air and missile defense capabilities.",
+   "why": "The planned frigate’s air and missile defense capabilities are relevant to naval force protection.",
+   "tags": [
+    "F110",
+    "IAMD",
+    "frigate"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ff598a5b5b",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "Deep Space Advanced Radar Capability (DARC)",
+   "url": "https://www.gov.uk/guidance/deep-space-advanced-radar-capability-darc",
+   "snippet": "The Ministry of Defence (MOD) is proposing to redevelop Cawdor Barracks as the UK host site for the DARC radar programme.",
+   "published": "2026-10-23T09:06:00.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/ff598a5b5b.webp",
+   "t": "2026-10-23",
+   "summary": "The UK Ministry of Defence is proposing to redevelop Cawdor Barracks as the UK host site for the DARC radar programme.",
+   "why": "The proposed site links military infrastructure to the DARC radar programme.",
+   "tags": [
+    "DARC",
+    "radar",
+    "Cawdor Barracks"
    ],
    "ai": true
   },
@@ -289,7 +336,7 @@
    "snippet": "Bombers are now being viewed as another potential air-to-air asset on top of growing the fighter fleet and establishing a CCA force. The post USAF Confirms Bombers Could Have A Major Air-To-Air Combat Role appeared first on TWZ .",
    "published": "2026-10-22T21:31:48.000Z",
    "also": [],
-   "score": 1.37,
+   "score": 1.33,
    "image": "/img/news/fa5f7200b0.webp",
    "t": "2026-10-22",
    "summary": "The War Zone reports that the USAF sees bombers as a potential air-to-air asset, alongside expanding the fighter fleet and establishing a CCA force.",
@@ -310,7 +357,7 @@
    "snippet": "That's what officials are telling sailors' families in Japan, where two destroyers are slated for 12- and 14-month cruises.",
    "published": "2026-10-23T01:44:00.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.32,
    "image": "/img/news/cfaf0faba7.webp",
    "t": "2026-10-23",
    "summary": "Officials are telling sailors’ families in Japan that two destroyers are slated for 12- and 14-month cruises.",
@@ -332,7 +379,7 @@
    "snippet": "The KJ-3000 is the most capable of China’s rapidly expanding airborne early warning and control aircraft fleet. The post Four KJ-3000 Radar Jets At Chinese Factory Point To Serial Production appeared first on TWZ .",
    "published": "2026-10-22T20:46:07.000Z",
    "also": [],
-   "score": 1.35,
+   "score": 1.31,
    "image": "/img/news/1205db8b2b.webp",
    "t": "2026-10-22",
    "summary": "The War Zone says four KJ-3000 radar jets at a Chinese factory point to serial production. It describes the aircraft as China’s most capable airborne early warning and control aircraft.",
@@ -354,7 +401,7 @@
    "snippet": "Maj. Gen. Stephen Purdy, the Space Force’s portfolio acquisition executive for advanced programs, said the service wants to field cislunar capabilities by the end of fiscal 2029.",
    "published": "2026-10-22T20:27:12.000Z",
    "also": [],
-   "score": 1.35,
+   "score": 1.31,
    "image": "/img/news/33cbbc2304.webp",
    "t": "2026-10-22",
    "summary": "Breaking Defense reports that the Space Force wants to field cislunar capabilities by the end of fiscal 2029, according to Gen. Stephen Purdy.",
@@ -366,68 +413,51 @@
    "ai": true
   },
   {
-   "id": "d7979933b4",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time",
-   "url": "https://www.twz.com/sea/ground-launched-rusty-dagger-low-cost-cruise-missile-seen-for-the-first-time",
-   "snippet": "The first public look at the missile in a surface-launched configuration comes as its manufacturer expands production. The post Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time appeared first on TWZ .",
-   "published": "2026-10-22T20:09:51.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/d7979933b4.webp",
-   "t": "2026-10-22",
-   "summary": "The War Zone reports the first public look at the Rusty Dagger low-cost cruise missile in a surface-launched configuration, as its manufacturer expands production.",
-   "why": "A surface-launched configuration and expanding production are relevant to missile deployment and availability.",
+   "id": "dd6cd06717",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
+   "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
+   "snippet": "Clampdown comes as Israeli pogroms heighten tensions and spread violence across Palestinian territory.",
+   "published": "2026-10-23T04:09:28.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/israel-preparing-full-closure-of-west-bank-netanyahu-says/a-79739292?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.72,
+   "image": "/img/news/dd6cd06717.webp",
+   "t": "2026-10-23",
+   "summary": "Al Jazeera reports that Israel arrested 36 Palestinians in the West Bank as attacks on farmers and their lands intensified during the olive harvest.",
+   "why": "The reported arrests and attacks affect farmers and land in the West Bank.",
    "tags": [
-    "Rusty Dagger",
-    "cruise missile",
-    "surface-launched"
+    "West Bank",
+    "farmers",
+    "olive harvest"
    ],
    "ai": true
   },
   {
-   "id": "335b5446e7",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Brothers in Arms, Partners in Healing: A Story about a Breakthrough in Treating Post-Traumatic Stress",
-   "url": "https://warontherocks.com/brothers-in-arms-partners-in-healing-a-story-about-a-breakthrough-in-treating-post-traumatic-stress/",
-   "snippet": "After losing fellow marines in Iraq, Jeff Lindquist struggled with post-traumatic stress that was steadily destroying his life. Years later, an innovative technology helped him reclaim it. This is the story of Jeff and Erik Won, two veterans who served together, and how efforts to help Jeff recover was the first step o",
-   "published": "2026-10-22T19:53:30.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/335b5446e7.webp",
-   "t": "2026-10-22",
-   "summary": "War on the Rocks tells the story of veterans Jeff Lindquist and Erik Won, and an innovative technology that helped Lindquist reclaim his life after post-traumatic stress.",
-   "why": "The story highlights technology's role in treating post-traumatic stress among veterans.",
-   "tags": [
-    "veterans",
-    "technology",
-    "post-traumatic stress"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9b3091f737",
+   "id": "ac5401e1a8",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
-   "published": "2026-10-23T08:36:32.000Z",
+   "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
+   "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The attack comes at a time of heightened tensions in the West Bank and four days before Israel's general election.",
+   "published": "2026-10-23T10:26:06.000Z",
    "also": [],
    "score": 1.6,
-   "image": "/img/news/9b3091f737.webp",
-   "t": "2026-10-22",
-   "summary": "The BBC reports that Trump says Musk restored Ukraine’s access after a Starlink dispute. It says Ukraine relies on Starlink for military uses, while Musk has denied restricting access.",
-   "why": "Ukraine’s reliance on Starlink makes access to the service strategically relevant to its military.",
+   "image": "/img/news/ac5401e1a8.webp",
+   "t": "2026-10-23",
+   "summary": "The BBC reports that five Israelis were wounded and two suspected Palestinian attackers were killed in a West Bank shooting, amid heightened tensions and days before Israel's general election.",
+   "why": "The incident’s location and timing place it within a period of heightened West Bank tensions.",
    "tags": [
-    "Starlink",
-    "Ukraine",
-    "access"
+    "West Bank",
+    "shooting",
+    "election"
    ],
    "ai": true
   },
@@ -439,9 +469,9 @@
    "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
    "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-   "published": "2026-10-23T07:52:32.000Z",
+   "published": "2026-10-23T10:23:07.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.6,
    "image": "/img/news/46f05c1f6c.webp",
    "t": "2026-10-23",
    "summary": "A BBC investigation finds Sudan's RSF fighters deliberately targeted hospitals. The UN human rights chief says the multiple attacks may amount to war crimes.",
@@ -454,134 +484,111 @@
    "ai": true
   },
   {
-   "id": "0a871a3396",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Are global oil reserves sufficient to withstand renewed US-Iran war?",
-   "url": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
-   "snippet": "With emergency stocks at multidecade lows, analysts say the world may have only a month or two if Hormuz shuts again.",
-   "published": "2026-10-23T07:37:12.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/0a871a3396.webp",
-   "t": "2026-10-23",
-   "summary": "Al Jazeera reports analysts say emergency stocks are at multidecade lows and may last only a month or two if Hormuz shuts again.",
-   "why": "The reported stock levels and Hormuz scenario highlight strategic exposure in oil supply.",
-   "tags": [
-    "oil reserves",
-    "emergency stocks",
-    "Hormuz"
-   ],
-   "ai": true
-  },
-  {
-   "id": "87956a863b",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Europe needs a war economy",
-   "url": "https://www.aljazeera.com/opinions/2026/10/23/europe-needs-a-war-economy?traffic_source=rss",
-   "snippet": "With US support increasingly uncertain, Europe must mobilise its financial and industrial power to defend itself.",
-   "published": "2026-10-23T07:08:10.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/87956a863b.webp",
-   "t": "2026-10-23",
-   "summary": "Al Jazeera argues Europe must mobilise its financial and industrial power to defend itself as US support becomes less certain.",
-   "why": "The article frames industrial and financial capacity as strategic factors in European defence.",
-   "tags": [
-    "Europe",
-    "war economy",
-    "defence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "757040d499",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "EU entering winter with lowest gas reserves on record, IEA boss warns",
-   "url": "https://www.aljazeera.com/economy/2026/10/23/eu-entering-winter-with-lowest-gas-reserves-on-record-iea-boss-warns?traffic_source=rss",
-   "snippet": "Al Jazeera interviews Fatih Birol in Berlin as the Iran war disrupts global energy supplies.",
-   "published": "2026-10-23T06:02:15.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/757040d499.webp",
-   "t": "2026-10-23",
-   "summary": "The IEA boss warns that the EU is entering winter with its lowest gas reserves on record; Al Jazeera says the Iran war is disrupting global energy supplies.",
-   "why": "Low reserves and disrupted supplies make energy security a strategic concern.",
-   "tags": [
-    "gas reserves",
-    "EU",
-    "energy supplies"
-   ],
-   "ai": true
-  },
-  {
-   "id": "38ff3dd213",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Grenade exercise sparked deadly fire at Canada military base, army says",
-   "url": "https://www.aljazeera.com/news/2026/10/23/grenade-exercise-sparked-deadly-fire-at-canada-military-base-army-says?traffic_source=rss",
-   "snippet": "High winds propelled the blaze across the army base in Wainwright, killing four soldiers and injuring dozens more.",
-   "published": "2026-10-23T04:41:24.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/38ff3dd213.webp",
-   "t": "2026-10-23",
-   "summary": "The army says a grenade exercise sparked a deadly fire at its Wainwright base; high winds spread the blaze, killing four soldiers and injuring dozens more.",
-   "why": "The incident highlights how wind and training exercises can affect safety across a military base.",
-   "tags": [
-    "grenade exercise",
-    "Wainwright",
-    "high winds"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6b9139be67",
+   "id": "9b3091f737",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
-   "url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Officials compare working in Russia since its full-scale invasion of Ukraine to the Cold War era.",
-   "published": "2026-10-22T23:16:20.000Z",
+   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Issues remain with the network used by the Ukrainian military, sources say, after repeated denials of a deliberate slowdown.",
+   "published": "2026-10-23T09:36:43.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/6b9139be67.webp",
-   "t": "2026-10-23",
-   "summary": "Western diplomats told the BBC that working in Russia since its full-scale invasion of Ukraine resembles the Cold War era, citing surveillance and constant paranoia.",
-   "why": "Diplomats’ accounts describe the working environment in wartime Moscow.",
+   "score": 1.58,
+   "image": "/img/news/9b3091f737.webp",
+   "t": "2026-10-22",
+   "summary": "The BBC reports that Trump says Musk restored Ukraine’s access after a Starlink dispute. It says Ukraine relies on Starlink for military uses, while Musk has denied restricting access.",
+   "why": "Ukraine’s reliance on Starlink makes access to the service strategically relevant to its military.",
    "tags": [
-    "surveillance",
-    "Moscow",
-    "diplomats"
+    "Starlink",
+    "Ukraine",
+    "access"
    ],
    "ai": true
   },
   {
-   "id": "dd6cd06717",
+   "id": "9cad698319",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+   "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "One person has died after being swept away by waves in Taiwan's Liuqiu island, authorities say.",
+   "published": "2026-10-23T08:45:58.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/9cad698319.webp",
+   "t": "2026-10-23",
+   "summary": "Typhoon Champi shut Taiwan, with hundreds of flights cancelled. Authorities say one person died after being swept away by waves on Liuqiu island.",
+   "why": "The cancellations indicate disruption to air travel across Taiwan during the typhoon.",
+   "tags": [
+    "Typhoon Champi",
+    "Taiwan",
+    "flights"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e8b82648c5",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Israeli military kills 2 in Hebron gun battle as tensions soar in West Bank",
-   "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
-   "snippet": "Violence flares as Israeli pogroms heighten tension across Palestinian territory.",
-   "published": "2026-10-23T04:09:28.000Z",
+   "title": "New electronics reach Iran, but prices soar as gov’t fees, US sanctions hit",
+   "url": "https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss",
+   "snippet": "Latest smartphones are finding their way into Iran despite sanctions and trade restrictions, but many can't afford them.",
+   "published": "2026-10-23T09:56:28.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/dd6cd06717.webp",
+   "score": 1.49,
+   "image": "/img/news/e8b82648c5.webp",
    "t": "2026-10-23",
-   "summary": "Al Jazeera reports that Israel arrested 36 Palestinians in the West Bank as attacks on farmers and their lands intensified during the olive harvest.",
-   "why": "The reported arrests and attacks affect farmers and land in the West Bank.",
+   "summary": "Al Jazeera reports that the latest smartphones are reaching Iran despite sanctions and trade restrictions, but many people cannot afford them.",
+   "why": "The story highlights how sanctions and trade restrictions intersect with access to electronics in Iran.",
+   "tags": [
+    "Iran",
+    "smartphones",
+    "sanctions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fb228bc655",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "What role does the military play in Israeli schools?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/what-role-does-the-military-play-in-israeli-schools?traffic_source=rss",
+   "snippet": "For Israeli teenagers, military life ordinarily kicks off in school.",
+   "published": "2026-10-23T09:32:33.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/fb228bc655.webp",
+   "t": "2026-10-23",
+   "summary": "Al Jazeera reports that Israeli teenagers’ experience of military life ordinarily begins in school.",
+   "why": "The story connects schooling with military life in Israel.",
+   "tags": [
+    "Israeli schools",
+    "military life"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e635f47855",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli military kills two in gun battle in occupied West Bank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israeli-military-kills-two-in-gun-battle-in-occupied-west-bank?traffic_source=rss",
+   "snippet": "Israel’s PM is preparing to order a shutdown in the occupied West Bank lockdown after a shooting near Hebron.",
+   "published": "2026-10-23T09:12:38.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/e635f47855.webp",
+   "t": "2026-10-23",
+   "summary": "Al Jazeera reports that Israel’s prime minister is preparing to order a shutdown in the occupied West Bank after a shooting near Hebron.",
+   "why": "The reported planned shutdown is relevant to movement and access across the occupied West Bank.",
    "tags": [
     "West Bank",
-    "farmers",
-    "olive harvest"
+    "Hebron",
+    "shutdown"
    ],
    "ai": true
   }
@@ -733,33 +740,33 @@
   }
  ],
  "run_today": [
-  "Review GitHub CLI OAuth token access and revoke tokens that are no longer needed.",
-  "Verify package provenance and approval activity for PyPI and Docker dependencies.",
-  "Check exposed PHP systems for PHP2Shell exploitation attempts and signs of compromise."
+  "Check VeloCloud Orchestrator for exposure and apply available security fixes.",
+  "Review whether servers using Pillow open EPS images, and strengthen safeguards for those files.",
+  "Verify that x402 SDK payments have limits before AI agents call APIs."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "OAuth tokens",
-   "explainer": "OAuth tokens grant applications or users authorized access. If compromised, they can be misused to perform actions under that access, such as pushing or approving packages.",
-   "from_id": "8d39c401e7",
-   "from": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+   "term": "SQL injection",
+   "explainer": "SQL injection is a flaw that can let attackers interfere with an application’s database queries. The VeloCloud Orchestrator item says its SQL injection flaw can expose privileged functionality.",
+   "from_id": "9480845765",
+   "from": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
    "fromSource": "SecurityWeek"
   },
   {
    "domain": "warfare",
-   "term": "Deception",
-   "explainer": "Deception means using misleading information or actions to affect an opponent’s understanding. The article describes a fake radio call in a command-post setting.",
-   "from_id": "57a63a8f60",
-   "from": "https://warontherocks.com/deception-in-mass-autonomous-warfare/",
-   "fromSource": "War on the Rocks"
+   "term": "IAMD",
+   "explainer": "IAMD means integrated air and missile defense: capabilities brought together to defend against air and missile threats. The item describes these capabilities as part of the proposed F110 frigate.",
+   "from_id": "1ee04e50ca",
+   "from": "https://www.navalnews.com/naval-news/2026/10/spanish-navy-and-navantia-design-an-iamd-frigate-aiming-to-extend-f110-class/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "Emergency stocks",
-   "explainer": "Emergency stocks are reserves held for use during a disruption. The article discusses oil reserves and how long they might last if Hormuz shuts again.",
-   "from_id": "0a871a3396",
-   "from": "https://www.aljazeera.com/news/2026/10/23/are-global-oil-reserves-sufficient-to-withstand-renewed-us-iran-war?traffic_source=rss",
+   "term": "sanctions",
+   "explainer": "Sanctions are restrictions imposed by governments or other authorities. The Iran item says smartphones are reaching the country despite sanctions and trade restrictions.",
+   "from_id": "e8b82648c5",
+   "from": "https://www.aljazeera.com/features/2026/10/23/new-electronics-reach-iran-but-prices-soar-as-govt-fees-us-sanctions-hit?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
@@ -780,13 +787,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 9
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 16
+   "n": 18
   },
   {
    "name": "The Record",
@@ -810,7 +817,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Unit 42",
@@ -827,8 +834,8 @@
   {
    "name": "Microsoft Security",
    "section": "cyber",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Schneier on Security",
@@ -870,7 +877,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Bellingcat",
@@ -888,7 +895,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "International Crisis Group",
@@ -930,7 +937,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "SatNews",
@@ -942,13 +949,13 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 9
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "DW",
