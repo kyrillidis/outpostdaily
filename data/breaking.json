@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T05:45:16.091Z",
+ "updated": "2026-10-23T05:54:20.397Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -8,31 +8,6 @@
   },
   {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -47,9 +22,24 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "SecurityWeek",
@@ -57,14 +47,14 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "BBC World",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "X cyber",
@@ -77,6 +67,16 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "X redteam",
    "ok": true,
    "n": 0
@@ -84,12 +84,12 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,43 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 12
+   "n": 5
   }
  ],
  "items": [
+  {
+   "id": "x2113509154031894550",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Volvo Cars CEO Leaves Door Open to Additional Measures, Will Evaluate Results in February",
+   "url": "https://x.com/FirstSquawk/status/2113509154031894550",
+   "published": "2026-10-23T05:53:44.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113508226020843719",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Palm oil futures traded near steady in Kuala Lumpur, after fluctuating between gains and losses.",
+   "url": "https://x.com/business/status/2113508226020843719",
+   "published": "2026-10-23T05:50:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113507601472483501",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: 🇨🇭 SunTechnics Fabrisolar AG ( a Switzerland-based renewable energy company, has reportedly fallen victim to n0n ransomware. NB: The group intends to publish the data within 3–4 days. 🔍 Key Details: 🛡️ Threat…",
+   "url": "https://x.com/FalconFeedsio/status/2113507601472483501",
+   "published": "2026-10-23T05:47:33.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113506971408077062",
    "kind": "x",
@@ -3367,39 +3400,6 @@
    "title": "THE U.S. 5-YEAR TIPS AUCTION DREW A HIGH YIELD OF 2.367%, UP FROM 1.955% PREVIOUSLY, WITH A BID-TO-COVER RATIO OF 2.410, DOWN FROM 2.610",
    "url": "https://x.com/FirstSquawk/status/2113379924547637564",
    "published": "2026-10-22T21:20:13.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113379898211344726",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "GTA VI Fever Takes Hold: US PlayStation 5 Sales Surge Ahead Of Blockbuster Launch",
-   "url": "https://x.com/zerohedge/status/2113379898211344726",
-   "published": "2026-10-22T21:20:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113379890808451492",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Fuel-making margins, which have dipped from a record, are poised to rise once again despite efforts by Washington to curb gasoline and diesel prices, a Valero executive said on Thursday",
-   "url": "https://x.com/business/status/2113379890808451492",
-   "published": "2026-10-22T21:20:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113379821392969962",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "SPACEX: ANY POTENTIAL TESLA COMBINATION WOULD BE SUBJECT TO FURTHER APPROVAL BY OUR SPECIAL COMMITTEE, BOARD & CONTROLLING SHAREHOLDER",
-   "url": "https://x.com/FirstSquawk/status/2113379821392969962",
-   "published": "2026-10-22T21:19:48.000Z",
    "severity": "normal",
    "verified": false
   }
