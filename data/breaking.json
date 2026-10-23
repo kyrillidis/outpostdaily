@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T19:58:34.527Z",
+ "updated": "2026-10-23T20:19:35.632Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,19 @@
    "n": 0
   },
   {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -17,34 +27,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "ransomware.live",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "Krebs on Security",
@@ -52,14 +37,29 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "BreachForums",
@@ -67,9 +67,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 503"
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X cyber",
@@ -79,17 +79,17 @@
   {
    "name": "X redteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "X crisis",
@@ -99,10 +99,219 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 10
+   "n": 20
   }
  ],
  "items": [
+  {
+   "id": "x2113727189451509954",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Here's One October Surprise, Anyway...",
+   "url": "https://x.com/zerohedge/status/2113727189451509954",
+   "published": "2026-10-23T20:20:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113727172099666174",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Look out, red and amber lights. Autonomous vehicles may soon bring another color to America’s roads.",
+   "url": "https://x.com/business/status/2113727172099666174",
+   "published": "2026-10-23T20:20:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113726913348800550",
+   "kind": "x",
+   "group": "redteam",
+   "source": "@SpecterOps",
+   "title": "Happy #BloodHoundBasics Friday from @sec_distilled! 🎉 Looking to get started with BloodHound but don't have an environment to collect from? We've got you covered with sample data for both Active Directory and Azure environments here:",
+   "url": "https://x.com/SpecterOps/status/2113726913348800550",
+   "published": "2026-10-23T20:19:01.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113725923165888596",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "A pivotal trial of vaccines against the strain of Ebola that’s driving a deadly outbreak across parts of Africa has begun in the Democratic Republic of Congo where the epidemic originated and the vast majority of cases have occurred",
+   "url": "https://x.com/business/status/2113725923165888596",
+   "published": "2026-10-23T20:15:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113725577937272889",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨🇺🇸 GoDaddy revokes hundreds of thousands of SSL certificates after policy errors GoDaddy has completed a mass revocation involving 403,643 SSL/TLS certificates issued under its GoDaddy and Starfield certificate chains. ⠀ The…",
+   "url": "https://x.com/DarkWebInformer/status/2113725577937272889",
+   "published": "2026-10-23T20:13:43.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113724670004404417",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "OpenAI has begun cutting off internet access for its most capable artificial intelligence models during the training process in response to prior incidents in which its systems breached other companies",
+   "url": "https://x.com/business/status/2113724670004404417",
+   "published": "2026-10-23T20:10:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113723997061820615",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "S&P: Greece Affirmed At 'BBB/A-2'; Outlook Stable",
+   "url": "https://x.com/LiveSquawk/status/2113723997061820615",
+   "published": "2026-10-23T20:07:26.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113723391739900372",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Investors snapped up almost $180 million in high-yield bonds this week sold to finance an expansion of the Villages, a 57,000-acre retirement community in Florida",
+   "url": "https://x.com/business/status/2113723391739900372",
+   "published": "2026-10-23T20:05:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113722937778020596",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "NASDAQ UNOFFICIALLY CLOSES DOWN 52.66 POINTS, OR 0.20 PERCENT, AT 25,956.20 DOW JONES UNOFFICIALLY CLOSES DOWN 632.70 POINTS, OR 1.20 PERCENT, AT 52,235.28 S&P 500 UNOFFICIALLY CLOSES DOWN 36.45 POINTS, OR 0.48 PERCENT, AT 7,626.98",
+   "url": "https://x.com/FirstSquawk/status/2113722937778020596",
+   "published": "2026-10-23T20:03:14.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "ndcfed4b2e0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+   "published": "2026-10-23T20:02:21.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "x2113722695930007771",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "*TRUMP: I DOUBT IRAN WILL SAY 'LET'S GET DOWN TO BUSINESS'",
+   "url": "https://x.com/DeItaone/status/2113722695930007771",
+   "published": "2026-10-23T20:02:16.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n612de26aab",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+   "url": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+   "published": "2026-10-23T20:02:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113722543731597362",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "The stock market this week:",
+   "url": "https://x.com/unusual_whales/status/2113722543731597362",
+   "published": "2026-10-23T20:01:40.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n5777b24c58",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump’s broken promises: economy, war and ICE",
+   "url": "https://www.aljazeera.com/video/head-to-head/2026/10/23/trumps-broken-promises-economy-war-and-ice?traffic_source=rss",
+   "published": "2026-10-23T20:01:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "x2113722412823122368",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "*TRUMP: WE'LL TAKE CARE OF CUBA ON OUR WAY BACK FROM IRAN",
+   "url": "https://x.com/DeItaone/status/2113722412823122368",
+   "published": "2026-10-23T20:01:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113722361195495785",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*INSTACART EXPLORING A SALE: INFORMATION",
+   "url": "https://x.com/zerohedge/status/2113722361195495785",
+   "published": "2026-10-23T20:00:56.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113722156785840466",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "\"The Very Thing Creating The Equity Problem Is Solving The Rates Problem\": A Week When Zuck's CapEx Wall Turned An Oil Spike Into A Bond Rally",
+   "url": "https://x.com/zerohedge/status/2113722156785840466",
+   "published": "2026-10-23T20:00:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113722153019257126",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Falling costs and expensive generator fuel are pushing solar into the mainstream in Nigeria",
+   "url": "https://x.com/business/status/2113722153019257126",
+   "published": "2026-10-23T20:00:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113722125185896542",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@CrowdStrike",
+   "title": "PHP2Shell: CVE-2026-109618 and CVE-2026-109619. See how CrowdStrike Falcon helps you identify affected assets and container images, assess risk, and investigate potential exploitation. Watch the technical demo:",
+   "url": "https://x.com/CrowdStrike/status/2113722125185896542",
+   "published": "2026-10-23T20:00:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113721352498635260",
    "kind": "x",
@@ -289,6 +498,17 @@
    "published": "2026-10-23T19:45:04.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "nf1cc9ef1de",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+   "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+   "published": "2026-10-23T19:41:23.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113717322758365307",
@@ -2656,6 +2876,17 @@
    "verified": true
   },
   {
+   "id": "nac5401e1a8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+   "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-23T15:37:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "x2113655948070023409",
    "kind": "x",
    "group": "markets",
@@ -3170,237 +3401,6 @@
    "url": "https://x.com/DeItaone/status/2113646779812221073",
    "published": "2026-10-23T15:00:36.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113646701311307949",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Canadian retail spending is on track to continue growing in September, although at a slower pace than in August",
-   "url": "https://x.com/business/status/2113646701311307949",
-   "published": "2026-10-23T15:00:17.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r59a1813808",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "akira claims Bankruptcy Software Specialists — Professional Services",
-   "url": "https://www.ransomware.live/id/QmFua3J1cHRjeSBTb2Z0d2FyZSBTcGVjaWFsaXN0c0Bha2lyYQ==",
-   "published": "2026-10-23T15:00:10.396Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113646630532513906",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@CrowdStrike",
-   "title": "Barcelona, we're almost there. 🇪🇸 Innovation. Intelligence. The next era of cybersecurity. See you at #FalConEurope 2026. 🔗",
-   "url": "https://x.com/CrowdStrike/status/2113646630532513906",
-   "published": "2026-10-23T15:00:01.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n8d8f0046bd",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Everyone&#x2019;s talking about Roth conversions, but here&#x2019;s how few people really do them &#x2014; and why you shouldn&#x2019;t have FOMO about it",
-   "url": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
-   "published": "2026-10-23T15:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113646086598348907",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP: WE COULD TAKE ALL OF THE OIL IN IRAN",
-   "url": "https://x.com/DeItaone/status/2113646086598348907",
-   "published": "2026-10-23T14:57:51.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645872743407861",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "OpenAI CEO Sam Altman: \"I don't even know a dramatic enough word to use… models can find bugs that are outside of the normal threat model of what we think a hacker can do… hardware-level, insane stuff… I no longer think we're gonna be…",
-   "url": "https://x.com/unusual_whales/status/2113645872743407861",
-   "published": "2026-10-23T14:57:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645872042873156",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP ON IRAN: DO WE WANT TO FINISH IT OR LET IT WITHER IS THE QUESTION",
-   "url": "https://x.com/DeItaone/status/2113645872042873156",
-   "published": "2026-10-23T14:57:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645700965970348",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP: WE COULD END IRAN WAR VERY QUICKLY",
-   "url": "https://x.com/DeItaone/status/2113645700965970348",
-   "published": "2026-10-23T14:56:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645480248828066",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "US President Trump: No Idea Who Slowed Starlink - Have Not Spoken To Musk On Starlink - If It's Not Fixed, I'll Speak To Musk",
-   "url": "https://x.com/LiveSquawk/status/2113645480248828066",
-   "published": "2026-10-23T14:55:26.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645446589468888",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "⚠️ The forum Patched has released a statement a month after going down, attributing the outage to a Russian drone strike that damaged its hosting infrastructure in Ukraine, with recovery efforts still ongoing and no confirmed date for its…",
-   "url": "https://x.com/DarkWebInformer/status/2113645446589468888",
-   "published": "2026-10-23T14:55:18.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113645398132764812",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "\"We're All Rudderless\": Goldman's Trading Floor Maps The AI Unwind, Either \"Cut CapEx, Delay, Or Dilute\"",
-   "url": "https://x.com/zerohedge/status/2113645398132764812",
-   "published": "2026-10-23T14:55:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645377949684120",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "A 2023 deal between CoreWeave and Blackstone became a blueprint for chip-backed debt that, three years on, is on track to become a trillion-dollar market",
-   "url": "https://x.com/business/status/2113645377949684120",
-   "published": "2026-10-23T14:55:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645271888666899",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP ON ACCESS TO STARLINK IN UKRAINE: IF IT'S NOT FIXED, I'LL SPEAK TO MUSK",
-   "url": "https://x.com/DeItaone/status/2113645271888666899",
-   "published": "2026-10-23T14:54:37.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645220948848936",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "- TRUMP ON ACCESS TO STARLINK IN UKRAINE: HAVE NOT SPOKEN TO MUSK",
-   "url": "https://x.com/DeItaone/status/2113645220948848936",
-   "published": "2026-10-23T14:54:24.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645199465578690",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@WarMonitors",
-   "title": "How do Shia explain this? Ali and Fatima (RA) are the parent-in-laws of Umar ibn Al-Khattab (ra) and grandparents of his children. What type of mental gymnastics do they use to reconcile this? Shia are clearly upon falsehood. Come back to…",
-   "url": "https://x.com/WarMonitors/status/2113645199465578690",
-   "published": "2026-10-23T14:54:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645036403593525",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "TRUMP ON STARLINK-UKRAINE: NO IDEA WHO SLOWED IT",
-   "url": "https://x.com/FirstSquawk/status/2113645036403593525",
-   "published": "2026-10-23T14:53:40.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113645016640061760",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "TRUMP ON MELANIA-BROKERED CEASEFIRE: BOTH SIDES WANTED TO DO IT",
-   "url": "https://x.com/FirstSquawk/status/2113645016640061760",
-   "published": "2026-10-23T14:53:36.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113644892484165644",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP ON ACCESS TO STARLINK IN UKRAINE: IF THERE IS PROBLEM, I'LL GET IT STRAIGHTENED OUT",
-   "url": "https://x.com/DeItaone/status/2113644892484165644",
-   "published": "2026-10-23T14:53:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113644679128392072",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "Turkish Foreign Minister: Nobody Approves Another Attack On Iran, Diplomacy Is The Only Way",
-   "url": "https://x.com/LiveSquawk/status/2113644679128392072",
-   "published": "2026-10-23T14:52:15.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113644641153073407",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "US President Trump, UK PM Burnham To Speak On Friday As Ukraine, Iran Tensions Mount",
-   "url": "https://x.com/LiveSquawk/status/2113644641153073407",
-   "published": "2026-10-23T14:52:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113644366661361760",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TURKISH FOREIGN MINISTER, SPEAKING AFTER MEETING REGIONAL AND EUROPEAN COUNTERPARTS, SAYS NOBODY APPROVES ANOTHER ATTACK ON IRAN, DIPLOMACY IS THE ONLY WAY",
-   "url": "https://x.com/DeItaone/status/2113644366661361760",
-   "published": "2026-10-23T14:51:01.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
