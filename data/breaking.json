@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T19:30:12.716Z",
+ "updated": "2026-10-24T19:39:06.539Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,14 +7,9 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Hacker News",
    "ok": false,
    "error": "fetch failed"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "BleepingComputer",
@@ -27,14 +22,19 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 1
+   "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Krebs on Security",
@@ -42,14 +42,9 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Dark Reading",
@@ -57,7 +52,7 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -65,6 +60,11 @@
    "name": "ransomware.live",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "BreachForums",
@@ -104,6 +104,17 @@
  ],
  "items": [
   {
+   "id": "x2114077776688869721",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "⚠️ UPDATE: UNIT 42 CONFIRMS PHP2SHELL EXPLOITATION WITH AGENTIC AI POST-EX Unit 42's Oct 23 threat-brief update confirms PHP2Shell (CVE-2026-109618 / CVE-2026-109619) is being exploited in the wild, with attackers using agentic AI…",
+   "url": "https://x.com/DailyDarkWeb/status/2114077776688869721",
+   "published": "2026-10-24T19:33:14.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
    "id": "x2114076996531536231",
    "kind": "x",
    "group": "markets",
@@ -135,6 +146,17 @@
    "published": "2026-10-24T19:17:31.000Z",
    "severity": "high",
    "verified": false
+  },
+  {
+   "id": "ne13f657c6a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Thousands of Israelis rally against Netanyahu gov’t days before election",
+   "url": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss",
+   "published": "2026-10-24T19:11:48.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114070702919712974",
@@ -3378,28 +3400,6 @@
    "title": "UKRAINE'S MITRONIC OPTICAL EQUIPMENT PRODUCER INLITARY: IT STRUCK RUSSIA'S LEADING ELEC ORYOL",
    "url": "https://x.com/FirstSquawk/status/2113908990602355056",
    "published": "2026-10-24T08:22:32.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113908855067566437",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Palo Alto confirms the PHP2Shell code execution flaws hit the management interface of its PAN-OS firewalls and Panorama. It says it knows of no exploitation. Hotfixes are due 26 to 30 October. Kevin Beaumont expects them \"after they’ve…",
-   "url": "https://x.com/IntCyberDigest/status/2113908855067566437",
-   "published": "2026-10-24T08:22:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113908850407649518",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "HSBC to open new wealth centre in Abu Dhabi despite regional conflict",
-   "url": "https://x.com/FirstSquawk/status/2113908850407649518",
-   "published": "2026-10-24T08:21:59.000Z",
    "severity": "normal",
    "verified": false
   }
