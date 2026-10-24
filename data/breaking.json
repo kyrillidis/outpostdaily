@@ -1,11 +1,6 @@
 {
- "updated": "2026-10-24T20:29:42.564Z",
+ "updated": "2026-10-24T20:40:05.103Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -22,9 +17,24 @@
    "n": 10
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "The DFIR Report",
@@ -37,32 +47,7 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -72,9 +57,24 @@
    "n": 0
   },
   {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X redteam",
@@ -89,12 +89,12 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X markets",
@@ -104,6 +104,17 @@
  ],
  "items": [
   {
+   "id": "x2114092780263796771",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇺🇸 🚨 US: THREAT ACTOR CLAIMS CISCO CRM ACCESS, LEAKS SAMPLE OF EXECUTIVE CONTACT RECORDS A threat actor using the name \"UNC6783\" claims to have leaked Cisco data after getting into a CRM system. The actor addressed Cisco directly,…",
+   "url": "https://x.com/DailyDarkWeb/status/2114092780263796771",
+   "published": "2026-10-24T20:32:51.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
    "id": "x2114092092112650688",
    "kind": "x",
    "group": "markets",
@@ -111,6 +122,17 @@
    "title": "The Next Fannie Mae Is Made Of GPUs",
    "url": "https://x.com/zerohedge/status/2114092092112650688",
    "published": "2026-10-24T20:30:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114092062190473501",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "‼️ An encrypted USB drive from SecZure has a backdoor that opens its files without the user's password. Two built-in accounts with fixed passwords decrypt them, Binary Ninja's Xusheng Li found. OpenAI's Codex broke Netac's FileLock in 7…",
+   "url": "https://x.com/IntCyberDigest/status/2114092062190473501",
+   "published": "2026-10-24T20:30:00.000Z",
    "severity": "normal",
    "verified": false
   },
@@ -903,6 +925,17 @@
    "title": "The Early Signs Of A Massive Market Rotation",
    "url": "https://x.com/zerohedge/status/2114032951503569310",
    "published": "2026-10-24T16:35:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "r5efa28c685",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "lamashtu claims Vins Viallet (FR) — Retail & E-Commerce",
+   "url": "https://www.ransomware.live/id/VmlucyBWaWFsbGV0QGxhbWFzaHR1",
+   "published": "2026-10-24T16:30:40.843Z",
    "severity": "normal",
    "verified": false
   },
@@ -3368,39 +3401,6 @@
    "url": "https://x.com/business/status/2113922215859159193",
    "published": "2026-10-24T09:15:05.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n956716ace4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why is Israel launching a new military operation in the occupied West Bank?",
-   "url": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank?traffic_source=rss",
-   "published": "2026-10-24T09:14:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113921772630482998",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "5.9 MAG. EARTHQUAKE 196 KM NW OF PORT-OLRY VANUATU -USGS",
-   "url": "https://x.com/FirstSquawk/status/2113921772630482998",
-   "published": "2026-10-24T09:13:20.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113920907433361872",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🚨 UPDATE: CISA ADDS NEXTCLOUD COLLABORA BUILT-IN CODE SERVER FLAW TO KEV (CVE-2026-110447) CISA added CVE-2026-110447 to its Known Exploited Vulnerabilities catalog on Oct 23, 2026. When we covered this flaw on Oct 14, it was not in KEV.…",
-   "url": "https://x.com/DailyDarkWeb/status/2113920907433361872",
-   "published": "2026-10-24T09:09:53.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
