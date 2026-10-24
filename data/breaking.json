@@ -1,23 +1,18 @@
 {
- "updated": "2026-10-24T23:40:16.839Z",
+ "updated": "2026-10-24T23:53:59.814Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
@@ -27,17 +22,22 @@
    "n": 5
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 6
   },
   {
-   "name": "SecurityWeek",
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -47,12 +47,22 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "ransomware.live",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
@@ -64,22 +74,12 @@
   {
    "name": "X cyber",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
    "n": 0
   },
   {
    "name": "X redteam",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -99,10 +99,21 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 5
+   "n": 2
   }
  ],
  "items": [
+  {
+   "id": "x2114142464588034149",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨 A crafted OpenAPI document can turn generated TypeScript clients into a code execution path; CVE-2026-108551 PoC: The flaw affects openapi-typescript-codegen and stems from unsafe interpolation inside Handlebars templates. An attacker…",
+   "url": "https://x.com/DarkWebInformer/status/2114142464588034149",
+   "published": "2026-10-24T23:50:17.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114138629375209873",
    "kind": "x",
@@ -3389,17 +3400,6 @@
    "title": "‼️ UPDATE: Ukraine says the Starlink and Starshield speed cap that hampered its drones is gone. Defence minister Yevhenii Khmara says terminals moving above 400 km/h now hold a stable link, up from a cap of 161 km/h. A day earlier,…",
    "url": "https://x.com/IntCyberDigest/status/2113947590840504367",
    "published": "2026-10-24T10:55:55.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113946966350786970",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "TWO PHILIPPINE AIR FORCE PLANES COLLIDED DURING A TRAINING FLIGHT SOUTH OF MANILA, KILLING ALL FOUR PILOTS, WITH THE SF-260 AIRCRAFT CRASHING AT FERNANDO AIR BASE ON FRIDAY",
-   "url": "https://x.com/FirstSquawk/status/2113946966350786970",
-   "published": "2026-10-24T10:53:26.000Z",
    "severity": "normal",
    "verified": false
   }
