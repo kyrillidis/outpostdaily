@@ -1,6 +1,66 @@
 {
- "updated": "2026-10-24T00:57:59.369Z",
+ "updated": "2026-10-24T02:35:33.455Z",
  "items": [
+  {
+   "id": "x2113818976035688495",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113818976035688495",
+   "published": "2026-10-24T02:24:51.000Z",
+   "headline": "Railway claims some workspaces faced potential secret exposure",
+   "claim": "Railway says about 100,000 workspaces faced potential secret exposure, with its preliminary report placing the upper bound at 1.85% of workspaces and citing potentially compromised environment variables and compromised CI credentials.",
+   "context": "CI systems commonly use environment variables to pass configuration and secrets to build processes. This is general background, not confirmation of this incident or its reported scope.",
+   "advice": [
+    "Review CI logs and workflows for exposed secrets.",
+    "Rotate credentials that may have been exposed."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113813204724031581",
+   "kind": "x",
+   "source": "@FalconFeedsio",
+   "url": "https://x.com/FalconFeedsio/status/2113813204724031581",
+   "published": "2026-10-24T02:01:55.000Z",
+   "headline": "PANZER claims Rahnuma–Family Planning Association of Pakistan as a victim",
+   "claim": "The post alleges that Rahnuma–Family Planning Association of Pakistan fell victim to PANZER ransomware and says the group intends to publish data within 21–22 days.",
+   "context": "Ransomware groups may use leak-site publication threats to pressure organizations. This is general background and does not verify the post's allegation or the stated intent.",
+   "advice": [
+    "Review incident-response and recovery procedures.",
+    "Monitor for suspicious access to critical systems."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113805379549225307",
+   "kind": "x",
+   "source": "@DarkWebInformer",
+   "url": "https://x.com/DarkWebInformer/status/2113805379549225307",
+   "published": "2026-10-24T01:30:49.000Z",
+   "headline": "Social media post makes a brief personal remark",
+   "claim": "The post says, “Hope she was worth it bro.”",
+   "context": "Brief social media posts can lack enough context to establish what they refer to. This is general background, not an assessment of the people or circumstances involved.",
+   "advice": [
+    "Avoid amplifying unverified personal claims.",
+    "Report posts that expose private information."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113803958598685015",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113803958598685015",
+   "published": "2026-10-24T01:25:10.000Z",
+   "headline": "Threat actor advertises a claimed Chinese data collection for sale",
+   "claim": "The post says a threat actor is advertising what it calls a Chinese data collection of more than 50 billion records, about 8–9 TB, for $20,000.",
+   "context": "Threat actors may advertise datasets with broad or unverifiable descriptions. This is general background and does not confirm the data's existence, provenance, or contents.",
+   "advice": [
+    "Monitor for account abuse and unusual access patterns.",
+    "Avoid accessing or sharing advertised data."
+   ],
+   "verified": false
+  },
   {
    "id": "x2113789201586192650",
    "kind": "x",
@@ -167,6 +227,21 @@
    "verified": false
   },
   {
+   "id": "r33ab58fe60",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/SGVuc2VsIEVsZWt0cmlrQERlYWRsb2Nr",
+   "published": "2026-10-23T21:50:47.029Z",
+   "headline": "Deadlock claims Hensel Elektrik on a ransomware leak site",
+   "claim": "The listing says Deadlock claims Hensel Elektrik, identified as a manufacturing organization in Germany.",
+   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
+   "advice": [
+    "Review endpoint alerts for signs of compromise.",
+    "Verify backups are isolated and recoverable."
+   ],
+   "verified": false
+  },
+  {
    "id": "x2113748390916038721",
    "kind": "x",
    "source": "@FalconFeedsio",
@@ -317,6 +392,36 @@
    "verified": false
   },
   {
+   "id": "r3a2d15249f",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/TWlsamF1cyBQcm9kdWNjaW9uZXMgUy5MICh3d3cubWlsamF1cy5jb20pQHFpbGlu",
+   "published": "2026-10-23T20:17:19.946Z",
+   "headline": "Qilin claims Miljaus Producciones S.L. on a ransomware leak site",
+   "claim": "The listing says Qilin claims Miljaus Producciones S.L., identified as an organization in Spain.",
+   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
+   "advice": [
+    "Review endpoint alerts for signs of compromise.",
+    "Verify backups are isolated and recoverable."
+   ],
+   "verified": false
+  },
+  {
+   "id": "r0f695cd99c",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/dm9uIFNjaGFld2VuQHFpbGlu",
+   "published": "2026-10-23T20:16:50.993Z",
+   "headline": "Qilin claims von Schaewen on a ransomware leak site",
+   "claim": "The listing says Qilin claims von Schaewen, identified as an organization in Germany.",
+   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
+   "advice": [
+    "Review endpoint alerts for signs of compromise.",
+    "Verify backups are isolated and recoverable."
+   ],
+   "verified": false
+  },
+  {
    "id": "x2113725577937272889",
    "kind": "x",
    "source": "@DarkWebInformer",
@@ -388,6 +493,21 @@
    "advice": [
     "Review endpoint and network alerts for suspicious activity.",
     "Check backup isolation and recovery readiness."
+   ],
+   "verified": false
+  },
+  {
+   "id": "rfa76fd5e88",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTEwQE4wbg==",
+   "published": "2026-10-23T19:52:50.371Z",
+   "headline": "N0n claims Company #110 on a ransomware leak site",
+   "claim": "The listing says N0n claims Company #110, identified as an organization in Spain.",
+   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
+   "advice": [
+    "Review endpoint alerts for signs of compromise.",
+    "Verify backups are isolated and recoverable."
    ],
    "verified": false
   },
@@ -478,126 +598,6 @@
    "advice": [
     "Review identity and endpoint alerts for suspicious activity.",
     "Confirm backups are protected and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113704738055401633",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113704738055401633",
-   "published": "2026-10-23T18:50:54.000Z",
-   "headline": "Qilin claims to have added victims to its dark web portal",
-   "claim": "The post claims Qilin added six new victims to its dark web portal.",
-   "context": "Ransomware groups may list organizations on leak sites as part of extortion campaigns. A listing is not independent verification of an intrusion or data exposure.",
-   "advice": [
-    "Monitor systems for suspicious access and encryption activity.",
-    "Validate incident reports through trusted channels."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113704503887474721",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113704503887474721",
-   "published": "2026-10-23T18:49:59.000Z",
-   "headline": "Actor claims ZELSIOR was affected by LOCKBIT 5.0 ransomware",
-   "claim": "The post alleges that ZELSIOR fell victim to LOCKBIT 5.0 ransomware and that the group intends to publish data.",
-   "context": "As general background, ransomware groups may use leak-site publication threats as pressure during extortion. Claims on such sites are not independent confirmation of access or data exposure.",
-   "advice": [
-    "Review endpoint and network alerts for signs of unauthorized access.",
-    "Verify backups are isolated and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113704389512933447",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113704389512933447",
-   "published": "2026-10-23T18:49:31.000Z",
-   "headline": "Dark Storm Team claims it targeted two websites in France",
-   "claim": "The post alleges that Dark Storm Team targeted the CORSICA LINEA SERVICE TRAINING and Ville de Saint-Malo websites.",
-   "context": "As general background, distributed denial-of-service activity attempts to disrupt online services by overwhelming them with traffic. A claimed target does not confirm that a service was disrupted or compromised.",
-   "advice": [
-    "Monitor web service availability and traffic levels.",
-    "Use upstream DDoS protection and filtering."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113704239818256454",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113704239818256454",
-   "published": "2026-10-23T18:48:56.000Z",
-   "headline": "INTERLOCK claims two new victims on its dark web portal",
-   "claim": "The post says the INTERLOCK ransomware group added Madison Honda and Custom Floors Unlimited, Inc. to its dark web portal.",
-   "context": "As general background, ransomware groups may list organizations on leak sites to apply pressure or promote their claims. Listings alone do not verify an intrusion or establish what information, if any, was accessed.",
-   "advice": [
-    "Review endpoint and network alerts for signs of unauthorized access.",
-    "Verify backups are isolated and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113697634506678703",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2113697634506678703",
-   "published": "2026-10-23T18:22:41.000Z",
-   "headline": "Actor claims NBA-associated database is offered on an underground forum",
-   "claim": "A threat actor claims to be selling a database associated with the National Basketball Association.",
-   "context": "As general background, databases offered on underground forums may be genuine, misrepresented, or fabricated. Organizations typically validate such claims before drawing conclusions about exposure.",
-   "advice": [
-    "Monitor for credible indicators of exposure.",
-    "Review access logs for unusual activity."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113697352645259636",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113697352645259636",
-   "published": "2026-10-23T18:21:34.000Z",
-   "headline": "Authorities reportedly bust suspected SIM farm and make arrests over alleged e-SIM supply",
-   "claim": "The title reports that Indian cybercrime authorities busted a suspected SIM farm and arrested people over alleged e-SIM supply.",
-   "context": "As general background, SIM farms and bulk telecommunications equipment can be misused to support fraud and other cyber-enabled crime. Law enforcement reports may describe allegations that remain subject to investigation.",
-   "advice": [
-    "Alert fraud teams to relevant abuse patterns.",
-    "Preserve records and escalate credible indicators to authorities."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113694759927832577",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113694759927832577",
-   "published": "2026-10-23T18:11:15.000Z",
-   "headline": "Telegram channel claiming Shiny affiliation circulates posts naming organizations",
-   "claim": "A Telegram channel claiming to represent ShinyHunters, LAPSUS$, and UNC6783 is circulating posts naming organizations.",
-   "context": "As general background, threat actors and unaffiliated accounts may use well-known group names to attract attention or imply credibility. A name appearing in a post does not establish that an organization was compromised.",
-   "advice": [
-    "Verify claims through trusted sources before responding.",
-    "Monitor relevant channels for further claims."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113689655103410359",
-   "kind": "x",
-   "source": "@FalconFeedsio",
-   "url": "https://x.com/FalconFeedsio/status/2113689655103410359",
-   "published": "2026-10-23T17:50:58.000Z",
-   "headline": "Evil Markhors claims to have leaked data belonging to Bharat Electronics",
-   "claim": "Evil Markhors claims to have leaked sensitive data belonging to Bharat Electronics Limited.",
-   "context": "As general background, leak claims may involve genuine data, recycled material, or fabricated samples. Organizations in sensitive sectors commonly assess claims through authorized incident-response processes.",
-   "advice": [
-    "Route the claim to the incident-response team.",
-    "Review access and data-transfer logs."
    ],
    "verified": false
   }
