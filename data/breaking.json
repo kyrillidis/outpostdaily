@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:47:40.297Z",
+ "updated": "2026-10-24T17:54:07.934Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,14 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -17,7 +22,7 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 1
   },
@@ -32,17 +37,17 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -52,12 +57,7 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
+   "name": "X cyber",
    "ok": true,
    "n": 1
   },
@@ -67,14 +67,14 @@
    "n": 0
   },
   {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "X redteam",
@@ -99,10 +99,43 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 5
+   "n": 6
   }
  ],
  "items": [
+  {
+   "id": "x2114051925306151262",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@vxunderground",
+   "title": "Just found a zero day If you right click on an executable on Windows, select run as administrator, it will run as administrator I'm calling it Program2Shell",
+   "url": "https://x.com/vxunderground/status/2114051925306151262",
+   "published": "2026-10-24T17:50:30.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114051826123210973",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Houthis Announce Massive Missile Attack On Saudi Territory, Including East-West Pipeline",
+   "url": "https://x.com/zerohedge/status/2114051826123210973",
+   "published": "2026-10-24T17:50:07.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114051426842296386",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "PSA has published a complete list of all 6,451 stolen items:",
+   "url": "https://x.com/DarkWebInformer/status/2114051426842296386",
+   "published": "2026-10-24T17:48:31.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114050549561643460",
    "kind": "x",
@@ -3367,39 +3400,6 @@
    "title": "France is braced for another round of protests with luxury shops boarded up, museums shut and PSG's football match delayed.",
    "url": "https://x.com/business/status/2113883200342589514",
    "published": "2026-10-24T06:40:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113882454197219811",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "LILLY PRESENTS FIRST CLINICAL DATA IN PLATINUM-SENSITIVE OVARIAN CANCER FOR ITS INVESTIGATIONAL, NEXT-GENERATION, FRΑ-TARGETING ADC AT ESMO 2026",
-   "url": "https://x.com/FirstSquawk/status/2113882454197219811",
-   "published": "2026-10-24T06:37:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113881923642892511",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "China's fiscal revenue grew steadily in the first three quarters of 2026, with general public budget revenue reaching about 17.23 trillion yuan (about 2.56 trillion U.S. dollars) during the period, latest official data showed.",
-   "url": "https://x.com/FirstSquawk/status/2113881923642892511",
-   "published": "2026-10-24T06:34:59.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113881785977434208",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "US President Donald Trump suggested sending a US warship close to Cuba’s coast after the Iran war, reviving the prospect of military intervention during a campaign rally in Fort Myers, Florida, on Friday.",
-   "url": "https://x.com/FirstSquawk/status/2113881785977434208",
-   "published": "2026-10-24T06:34:26.000Z",
    "severity": "normal",
    "verified": false
   }
