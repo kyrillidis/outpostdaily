@@ -1,20 +1,25 @@
 {
- "updated": "2026-10-24T15:39:06.478Z",
+ "updated": "2026-10-24T15:45:36.764Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -22,7 +27,7 @@
    "n": 10
   },
   {
-   "name": "Krebs on Security",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -32,37 +37,17 @@
    "n": 6
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 1
   },
   {
-   "name": "The Record",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 11
-  },
-  {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -72,14 +57,29 @@
    "n": 1
   },
   {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 11
+  },
+  {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
    "name": "X redteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X blueteam",
@@ -99,10 +99,43 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 8
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2114020367685558655",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "58% Of Americans Get Their News From Four Left-Leaning Aggregators; Study Finds",
+   "url": "https://x.com/zerohedge/status/2114020367685558655",
+   "published": "2026-10-24T15:45:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114019814335197192",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨🇴🇲 PHP2Shell Initial Access Claim: Oman's energy infrastructure access advertised for $35,000 An actor using the handle \"NanC\" is offering what they describe as full access to an unidentified energy infrastructure organization in…",
+   "url": "https://x.com/DarkWebInformer/status/2114019814335197192",
+   "published": "2026-10-24T15:42:54.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114019103371358567",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The riskiest junk bonds are reaching their highest yields since the pandemic, unnerving debt markets.",
+   "url": "https://x.com/business/status/2114019103371358567",
+   "published": "2026-10-24T15:40:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114017833558417553",
    "kind": "x",
@@ -3367,39 +3400,6 @@
    "title": "Colombia’s Ecopetrol Forecasts Q3 Oil Output at 740,000–750,000 BPD",
    "url": "https://x.com/FirstSquawk/status/2113833491184120300",
    "published": "2026-10-24T03:22:32.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113832295669112915",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Soaring Home Prices Squeeze Vietnamese Buyers as Property Sales Sink to Their Lowest Since 2021",
-   "url": "https://x.com/FirstSquawk/status/2113832295669112915",
-   "published": "2026-10-24T03:17:47.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113831344392548833",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ PHP disclosed an unpatched remote code execution flaw, two days after its emergency PHP2Shell fixes. CVE-2026-115560 needs an unusual setup that swaps the session serializer at runtime. No emergency release is planned. PHP says to set…",
-   "url": "https://x.com/IntCyberDigest/status/2113831344392548833",
-   "published": "2026-10-24T03:14:00.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113830148453900583",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "NHC Warns Vance Could Reach Major Hurricane Strength Tonight as It Intensifies Rapidly",
-   "url": "https://x.com/FirstSquawk/status/2113830148453900583",
-   "published": "2026-10-24T03:09:15.000Z",
    "severity": "normal",
    "verified": false
   }
