@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:17:03.743Z",
+ "updated": "2026-10-24T15:28:13.431Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -12,9 +12,14 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -22,19 +27,14 @@
    "n": 10
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 6
   },
   {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -42,12 +42,12 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -62,14 +62,14 @@
    "n": 0
   },
   {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 8
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "X cyber",
@@ -79,7 +79,7 @@
   {
    "name": "X redteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 8
+   "n": 5
   }
  ],
  "items": [
+  {
+   "id": "x2114016195808743730",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "CHINA MACHINERY ENGINEERING PLANS TO RESTART A 600-MEGAWATT OIL-FIRED UNIT AT VENEZUELA’S PLANTA CENTRO POWER COMPLEX NEXT MONTH, RESTORING ABOUT 25% OF THE FACILITY’S FORMER CAPACITY AND HELPING EASE CHRONIC BLACKOUTS.",
+   "url": "https://x.com/FirstSquawk/status/2114016195808743730",
+   "published": "2026-10-24T15:28:32.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114015883161133201",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "UKRAINE’S STARLINK AND STARSHIELD SATELLITE SPEEDS HAVE BEEN RESTORED TO PRE-RESTRICTION LEVELS AFTER MORE THAN A WEEK OF FRONT-LINE DISRUPTIONS, IMPROVING DRONE OPERATIONS, MILITARY COMMUNICATIONS AND LOGISTICS.",
+   "url": "https://x.com/FirstSquawk/status/2114015883161133201",
+   "published": "2026-10-24T15:27:17.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114015514498351559",
+   "kind": "x",
+   "group": "redteam",
+   "source": "@0xdf_",
+   "title": "Checkpoint from HackTheBox is an assume breach AD box featuring AD Recycle Bin restoration, a malicious VS Code extension, BetterSuccessor dMSA abuse after the BadSuccessor patch, and credential extraction from a VMware snapshot.",
+   "url": "https://x.com/0xdf_/status/2114015514498351559",
+   "published": "2026-10-24T15:25:49.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114014178717384837",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨🇫🇷 DEKRA France inspection records allegedly leaked The actor \"Syrv4x\" has released 16,171 records linked to DEKRA, an international company providing testing, inspection, and certification services. The 16 MB dataset contains…",
+   "url": "https://x.com/DarkWebInformer/status/2114014178717384837",
+   "published": "2026-10-24T15:20:31.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114014075654947084",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Netanyahu Locks Down West Bank, Launches Massive Operation After Two IDF Soldiers Killed",
+   "url": "https://x.com/zerohedge/status/2114014075654947084",
+   "published": "2026-10-24T15:20:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114012801731572007",
    "kind": "x",
@@ -3346,61 +3401,6 @@
    "url": "https://x.com/DailyDarkWeb/status/2113818976035688495",
    "published": "2026-10-24T02:24:51.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113818524254888045",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Kenya’s Index Case Has No Established Travel Link to Nigeria, but Viruses Appear Related, Nigerian Minister Says",
-   "url": "https://x.com/FirstSquawk/status/2113818524254888045",
-   "published": "2026-10-24T02:23:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113817773436530729",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Moneyball author Michael Lewis on this World Series: “If you told me this was going to happen 15 years ago, I’d have been really surprised.”",
-   "url": "https://x.com/business/status/2113817773436530729",
-   "published": "2026-10-24T02:20:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113816579880423437",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Uganda Brings Back Traveller Locator Forms for Everyone Entering the Country",
-   "url": "https://x.com/FirstSquawk/status/2113816579880423437",
-   "published": "2026-10-24T02:15:20.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113816517120848299",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Disruption has reverberated through mozzarella dairies — and the country’s kitchens.",
-   "url": "https://x.com/business/status/2113816517120848299",
-   "published": "2026-10-24T02:15:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113815992984080865",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Sweden's Government Offices will block ChatGPT and Claude on staff computers from Monday, Sveriges Radio reports. Officials are to use approved tools like Microsoft Copilot.",
-   "url": "https://x.com/IntCyberDigest/status/2113815992984080865",
-   "published": "2026-10-24T02:13:00.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
