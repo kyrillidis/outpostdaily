@@ -1,40 +1,10 @@
 {
- "updated": "2026-10-24T12:41:38.941Z",
+ "updated": "2026-10-24T12:53:37.944Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -47,9 +17,34 @@
    "n": 7
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Dark Reading",
@@ -57,12 +52,7 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "ransomware.live",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -70,6 +60,16 @@
    "name": "DarkForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -99,10 +99,32 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 11
+   "n": 8
   }
  ],
  "items": [
+  {
+   "id": "x2113975642501099791",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "IRAN PRESIDENT PEZESHKIAN BLAMES US FOR FAILURE OF INTERIM DEAL, SAYS HE STILL WANTS TO CONCLUDE IT — STATE TV",
+   "url": "https://x.com/FirstSquawk/status/2113975642501099791",
+   "published": "2026-10-24T12:47:23.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113975069172990378",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "\"The Saddest Day Of The Year\": Goldman's Charts To End A Week When Momentum Round-Tripped To Zero And Capital Stopped Being Cheap",
+   "url": "https://x.com/zerohedge/status/2113975069172990378",
+   "published": "2026-10-24T12:45:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113973805861531784",
    "kind": "x",
@@ -190,6 +212,17 @@
    "published": "2026-10-24T12:33:00.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n7e9d3ad79b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Malaysia considers complete ban on Israel-based navigation app Waze",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/malaysia-waze-israel-ban?traffic_source=rss",
+   "published": "2026-10-24T12:30:42.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2113971289526325409",
@@ -3367,39 +3400,6 @@
    "title": "Yeah, so pretty much I've scrapped a bunch of YouTube ideas because sometimes I can be a perfectionist about stuff. I ended up telling myself, \"nah, don't be a sissy, just choose a random goop and release the video\". Anyway, the random…",
    "url": "https://x.com/vxunderground/status/2113779805086744595",
    "published": "2026-10-23T23:49:12.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113779707510710616",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Added RF to the forums monitored on the threat feed.",
-   "url": "https://x.com/DarkWebInformer/status/2113779707510710616",
-   "published": "2026-10-23T23:48:49.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113778760981922164",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "MMG Seeks to Allay EU Concerns Over Anglo American Deal",
-   "url": "https://x.com/business/status/2113778760981922164",
-   "published": "2026-10-23T23:45:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113777524136116681",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Selling Gas Twice: Venture Global Courts Qatar While Plotting A $160 Billion AI Power Empire",
-   "url": "https://x.com/zerohedge/status/2113777524136116681",
-   "published": "2026-10-23T23:40:08.000Z",
    "severity": "normal",
    "verified": false
   }
