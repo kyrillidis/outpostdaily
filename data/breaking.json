@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T19:59:19.234Z",
+ "updated": "2026-10-24T20:17:38.489Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "CISA Advisories",
@@ -17,24 +17,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -42,7 +27,12 @@
    "n": 5
   },
   {
-   "name": "SecurityWeek",
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -52,17 +42,22 @@
    "n": 1
   },
   {
-   "name": "X cyber",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
    "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
@@ -73,6 +68,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -94,15 +94,92 @@
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 0
+   "n": 3
   }
  ],
  "items": [
+  {
+   "id": "x2114088622093717848",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "🚨 PoC published for a critical unauthenticated Fortinet FortiSIEM remote code execution vulnerability; CVE-2026-106173 PoC: The flaw affects FortiSIEM's gRPC QueryResultReq handler. Improper validation of attacker-controlled metadata…",
+   "url": "https://x.com/DarkWebInformer/status/2114088622093717848",
+   "published": "2026-10-24T20:16:20.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114086922729710027",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@WarMonitors",
+   "title": "Oromos when they meet a Somali in battle 😂",
+   "url": "https://x.com/WarMonitors/status/2114086922729710027",
+   "published": "2026-10-24T20:09:34.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114086675920077242",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@AuroraIntel",
+   "title": "RAF P8 en route from Lossiemouth to support this vessel",
+   "url": "https://x.com/AuroraIntel/status/2114086675920077242",
+   "published": "2026-10-24T20:08:36.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114085779718685154",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Volkswagen will build a new factory for its premium Audi brand in Georgia and expand a facility in South Carolina, President Donald Trump plans to announce Saturday, as he looks to notch a political win ahead of the midterms",
+   "url": "https://x.com/business/status/2114085779718685154",
+   "published": "2026-10-24T20:05:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114084764235776255",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "Here’s the median net worth of American families by age, per the Federal Reserve: Under 35: $33,000 35–44: $156,000 45–54: $255,000 55–64: $411,000 65–74: $432,000 75 and older: $505,000",
+   "url": "https://x.com/unusual_whales/status/2114084764235776255",
+   "published": "2026-10-24T20:01:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114084542269005880",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "JetBlue Creditors Call In Restructuring Advisers As Stock, Bonds Crater",
+   "url": "https://x.com/zerohedge/status/2114084542269005880",
+   "published": "2026-10-24T20:00:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n8e2b93abe3",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+   "published": "2026-10-24T20:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2114082857001931235",
    "kind": "x",
@@ -3325,83 +3402,6 @@
    "published": "2026-10-24T08:56:54.000Z",
    "severity": "high",
    "verified": true
-  },
-  {
-   "id": "x2113916077923303786",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "‼️ Alert - Critical Brotli flaw behind #Node2Shell RCE goes far beyond Node.js. Bun, Python Brotli packages, Envoy, Istio and other widely used software are also affected by the same CVE-2026-111497 memory-corruption vulnerability. Read…",
-   "url": "https://x.com/TheHackersNews/status/2113916077923303786",
-   "published": "2026-10-24T08:50:42.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "na0a9e49aec",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "published": "2026-10-24T08:45:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113914854289600891",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "VANCE NEAR MAJOR HURRICANE STRENGTH -NHC",
-   "url": "https://x.com/FirstSquawk/status/2113914854289600891",
-   "published": "2026-10-24T08:45:50.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113910961245704363",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "DANGER HAS PASSED IN JEDDAH - SAUDI CIVIL DEFENSE",
-   "url": "https://x.com/FirstSquawk/status/2113910961245704363",
-   "published": "2026-10-24T08:30:22.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113910888734277770",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Kenya Electricity Generating Companytapped Ronoh Kibet Charles as its next chief executive officer.",
-   "url": "https://x.com/business/status/2113910888734277770",
-   "published": "2026-10-24T08:30:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113910767468876230",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "DANGER HAS PASSED IN TAIF - SAUDI CIVIL DEFENSE",
-   "url": "https://x.com/FirstSquawk/status/2113910767468876230",
-   "published": "2026-10-24T08:29:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113910601504473361",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "DANGER HAS PASSED IN YANBU - SAUDI CIVIL DEFENSE",
-   "url": "https://x.com/FirstSquawk/status/2113910601504473361",
-   "published": "2026-10-24T08:28:56.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
