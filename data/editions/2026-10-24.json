@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "edition": 222,
- "compiled": "2026-10-24T06:41:18.217Z",
+ "compiled": "2026-10-24T08:33:04.943Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,7 +19,7 @@
      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/"
     }
    ],
-   "score": 1.66,
+   "score": 1.62,
    "image": "/img/news/f582252343.webp",
    "t": "2026-10-23",
    "summary": "Quest Diagnostics disclosed that patient records were exposed after a threat actor gained unauthorized access to its Quanum LSM system.",
@@ -40,7 +40,7 @@
    "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a class=\"Hyperlink SCXW162250516 BCX8\" href=\"https://www.cve.org/CVERecord?id=",
    "published": "2026-10-23T12:00:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.47,
    "t": "2026-10-23",
    "summary": "CISA says it added one vulnerability to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
    "why": "Check whether affected systems are present in your environment and prioritize remediation.",
@@ -61,7 +61,7 @@
    "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114625\" target=\"_blank\">CVE-",
    "published": "2026-10-23T12:00:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.47,
    "t": "2026-10-23",
    "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check the KEV Catalog and prioritize remediation for affected systems.",
@@ -69,6 +69,28 @@
     "CISA",
     "KEV Catalog",
     "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "838b4b1ce2",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilit",
+   "published": "2026-10-24T06:25:57.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/838b4b1ce2.webp",
+   "t": "2026-10-24",
+   "summary": "CISA added vulnerabilities affecting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog, citing reports of active exploitation.",
+   "why": "Check whether these products are in use and prioritize reviewing and addressing the listed vulnerabilities.",
+   "tags": [
+    "CISA",
+    "KEV",
+    "vulnerabilities"
    ],
    "ai": true
   },
@@ -82,7 +104,7 @@
    "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23) appeared first on Unit 42 .",
    "published": "2026-10-23T19:00:34.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/2810027585.webp",
    "t": "2026-10-21",
    "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
@@ -104,7 +126,7 @@
    "snippet": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
    "published": "2026-10-23T20:55:05.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.36,
    "image": "/img/news/201a6bfc4c.webp",
    "t": "2026-10-23",
    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, closing a flaw that could have allowed attackers to execute malicious code with elevated privileges.",
@@ -113,6 +135,33 @@
     "updater",
     "RCE",
     "Time4Popcorn"
+   ],
+   "ai": true
+  },
+  {
+   "id": "962b531106",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "11 Million Impacted by Capcom Data Breach",
+   "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+   "snippet": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek .",
+   "published": "2026-10-23T08:34:14.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/"
+    }
+   ],
+   "score": 1.35,
+   "image": "/img/news/962b531106.webp",
+   "t": "2026-10-24",
+   "summary": "The report says hackers stole 11 million CAPCOM ID email addresses and changed passwords for 196 accounts.",
+   "why": "Review affected account access and password-reset activity, and remind users to secure accounts that reuse credentials.",
+   "tags": [
+    "data breach",
+    "email addresses",
+    "passwords"
    ],
    "ai": true
   },
@@ -126,7 +175,7 @@
    "snippet": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
    "published": "2026-10-23T18:54:41.000Z",
    "also": [],
-   "score": 1.35,
+   "score": 1.32,
    "image": "/img/news/e62f85ca10.webp",
    "t": "2026-10-23",
    "summary": "Microsoft announced plans to add AI-powered, context-aware phishing detection to Teams messages starting in early November 2026.",
@@ -148,7 +197,7 @@
    "snippet": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog ",
    "published": "2026-10-23T18:12:19.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.3,
    "image": "/img/news/abfff6ba39.webp",
    "t": "2026-10-23",
    "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, covering Python startup hooks, credential theft, remote code loading, detections, and mitigations.",
@@ -157,27 +206,6 @@
     "LiteLLM",
     "Python startup hooks",
     "credential theft"
-   ],
-   "ai": true
-  },
-  {
-   "id": "27be26c6f1",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-   "snippet": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-   "published": "2026-10-23T17:05:07.000Z",
-   "also": [],
-   "score": 1.32,
-   "image": "/img/news/27be26c6f1.webp",
-   "t": "2026-10-23",
-   "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after reaching end of support in January 2027.",
-   "why": "Identify Windows Server 2016 systems and plan for support ending.",
-   "tags": [
-    "Windows Server 2016",
-    "security updates"
    ],
    "ai": true
   },
@@ -191,7 +219,7 @@
    "snippet": "The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”",
    "published": "2026-10-23T17:28:00.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.29,
    "image": "/img/news/90f70db295.webp",
    "t": "2026-10-23",
    "summary": "The FCC banned a wireless video transmitter and dashboard camera made with chips from Huawei subsidiary HiSilicon, which markets them for surveillance.",
@@ -204,24 +232,24 @@
    "ai": true
   },
   {
-   "id": "5d4b1321ac",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-   "snippet": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-   "published": "2026-10-23T15:38:05.000Z",
+   "id": "98b993d764",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+   "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+   "snippet": "Greece and Israel test new SPIKE NLOS and ER2 missile systems and sink a decommissioned frigate during joint Hellenic Navy live-fire drills in the Cretan Sea. The post Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel appeared first on Naval News .",
+   "published": "2026-10-24T07:42:50.000Z",
    "also": [],
-   "score": 1.29,
-   "image": "/img/news/5d4b1321ac.webp",
-   "t": "2026-10-23",
-   "summary": "The PHP security team shared mitigation measures for a new remote code execution vulnerability affecting non-default configurations; no patch is available.",
-   "why": "Check whether PHP systems use non-default configurations and apply the security team’s mitigation measures.",
+   "score": 1.48,
+   "image": "/img/news/98b993d764.webp",
+   "t": "2026-10-24",
+   "summary": "Greece and Israel tested SPIKE NLOS and ER2 missile systems during Hellenic Navy live-fire drills in the Cretan Sea, sinking a decommissioned frigate.",
+   "why": "The drills highlight missile-system testing in a joint naval exercise.",
    "tags": [
-    "PHP",
-    "RCE",
-    "mitigation"
+    "SPIKE NLOS",
+    "ER2",
+    "live-fire drills"
    ],
    "ai": true
   },
@@ -235,7 +263,7 @@
    "snippet": "How long are we going to be locked in here? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-10-24T00:57:14.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/60d4b0fa81.webp",
    "t": "2026-10-24",
    "summary": "The War Zone’s Bunker Talk post invites discussion of topics covered and not covered during the week.",
@@ -256,7 +284,7 @@
    "snippet": "Israeli Air Force operations, ship movements, ominous messaging and more point to the possibility that the war with Iran is about to erupt again. The post On The Brink Of Epic Fury Round Two? appeared first on TWZ .",
    "published": "2026-10-23T21:19:53.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.37,
    "image": "/img/news/bdd45e788e.webp",
    "t": "2026-10-23",
    "summary": "The War Zone says Israeli Air Force operations, ship movements and messaging point to the possibility that war with Iran could erupt again.",
@@ -278,7 +306,7 @@
    "snippet": "General Atomics is now working with Spirit Defense to help meet surging USAF demands for fighter drones within the next six years. The post General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary appeared first on TWZ .",
    "published": "2026-10-23T20:39:25.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.35,
    "image": "/img/news/28a81eb4ef.webp",
    "t": "2026-10-23",
    "summary": "General Atomics is working with Spirit Defense to help meet USAF demand for FQ-42 fighter drones within the next six years.",
@@ -300,7 +328,7 @@
    "snippet": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for satellites lost in a conflict.",
    "published": "2026-10-23T20:41:31.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.35,
    "image": "/img/news/586aa5cc87.webp",
    "t": "2026-10-23",
    "summary": "Space Systems Command officials say six initial contracts support the Commercial Augmentation Space Reserve initiative; unresolved issues include service denial rights and reimbursement for lost satellites.",
@@ -322,7 +350,7 @@
    "snippet": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine’s Starshield access that has all but grounded the countries military drones in its war with Russia.",
    "published": "2026-10-23T19:07:34.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.32,
    "image": "/img/news/5b229b8a75.webp",
    "t": "2026-10-23",
    "summary": "Kyiv is considering planned ICEYE and Nokia sovereign communication satellites, according to the report, amid concerns over access to Starshield.",
@@ -344,7 +372,7 @@
    "snippet": "The ground- and air-launched weapons will give Denmark all-new options for striking deep behind enemy lines as NATO reinforces its Baltic flank. The post Denmark To Buy Anthem Munitions, Joint Strike Missiles In Dual Long-Range Strike Push appeared first on TWZ .",
    "published": "2026-10-23T16:59:11.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.28,
    "image": "/img/news/74afc83725.webp",
    "t": "2026-10-23",
    "summary": "The War Zone reports Denmark plans to buy ground- and air-launched Anthem Munitions and Joint Strike Missiles for long-range strike options.",
@@ -366,7 +394,7 @@
    "snippet": "“This is a significant achievement, particularly as we continue to expand Qatar’s domestic defence and security capabilities in a year where we have had to rise to a number of regional challenges,” the company said in a statement.",
    "published": "2026-10-23T15:10:00.000Z",
    "also": [],
-   "score": 1.28,
+   "score": 1.24,
    "image": "/img/news/5792ffdb34.webp",
    "t": "2026-10-23",
    "summary": "Qatari Barzan unveiled aerial drones and unmanned surface vessels at Milipol 2026. The company says the display reflects efforts to expand Qatar’s domestic defence and security capabilities.",
@@ -379,51 +407,68 @@
    "ai": true
   },
   {
-   "id": "4dbb90c499",
-   "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "UK-France deepen nuclear defence ties in first joint exercise",
-   "url": "https://www.gov.uk/government/news/uk-france-deepen-nuclear-defence-ties-in-first-joint-exercise",
-   "snippet": "UK deepens nuclear defence ties with France in historic first joint air exercise as RAF Typhoon fighters join French Rafale jets in a French nuclear exercise.",
-   "published": "2026-10-23T19:54:18.000Z",
+   "id": "0b1c12183b",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+   "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+   "published": "2026-10-24T07:17:44.000Z",
    "also": [],
-   "score": 1.28,
-   "image": "/img/news/4dbb90c499.webp",
+   "score": 1.57,
+   "image": "/img/news/0b1c12183b.webp",
    "t": "2026-10-23",
-   "summary": "The UK and France held their first joint air exercise in a French nuclear exercise, with RAF Typhoon fighters joining French Rafale jets.",
-   "why": "The exercise demonstrates joint air operations linked to nuclear defence.",
+   "summary": "The White House says Melania Trump brokered a truce for Russian-occupied Oleshky; Ukraine and Russia have not confirmed it.",
+   "why": "The unconfirmed claim concerns a truce in a Russian-occupied Ukrainian city.",
    "tags": [
-    "UK-France",
-    "air exercise",
-    "nuclear defence"
+    "Oleshky",
+    "Ukraine",
+    "truce"
    ],
    "ai": true
   },
   {
-   "id": "dcfed4b2e0",
+   "id": "55b0f464ca",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
-   "snippet": "President Trump says it was First Lady Melania Trump’s initiative that led to a ceasefire in Oleshky.",
-   "published": "2026-10-23T20:02:21.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/russia-ukraine-agree-to-us-brokered-1-city-ceasefire/a-79746723?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.63,
-   "image": "/img/news/dcfed4b2e0.webp",
-   "t": "2026-10-23",
-   "summary": "President Trump says First Lady Melania Trump’s initiative led to a localized ceasefire in Oleshky.",
-   "why": "The reported ceasefire is a localized change in the Russia-Ukraine conflict.",
+   "title": "Displaced West Bank Palestinians face growing hunger after UN cuts food aid",
+   "url": "https://www.aljazeera.com/features/2026/10/24/displaced-west-bank-palestinians-face-growing-hunger-after-un-cuts-food-aid?traffic_source=rss",
+   "snippet": "Already struggling after losing homes to Israeli military operations, Palestinians face hardship as WFP halves aid.",
+   "published": "2026-10-24T07:09:55.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/55b0f464ca.webp",
+   "t": "2026-10-24",
+   "summary": "Al Jazeera reports that Palestinians displaced after losing homes face hardship as the World Food Programme halves aid.",
+   "why": "The reported aid reduction is relevant to understanding humanitarian conditions in the West Bank.",
    "tags": [
-    "ceasefire",
-    "Oleshky",
-    "Russia-Ukraine"
+    "West Bank",
+    "food aid",
+    "displacement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d152da5dce",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "North Korea’s Kim Jong Un arrives in China, South Korean media say",
+   "url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
+   "snippet": "The visit comes about a week after a major new bridge linking the two countries was officially opened.",
+   "published": "2026-10-24T07:07:20.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/d152da5dce.webp",
+   "t": "2026-10-24",
+   "summary": "South Korean media say Kim Jong Un arrived in China; the visit follows the opening of a major new bridge linking the countries.",
+   "why": "The visit and new bridge are relevant to cross-border connections between North Korea and China.",
+   "tags": [
+    "North Korea",
+    "China",
+    "bridge"
    ],
    "ai": true
   },
@@ -437,7 +482,7 @@
    "snippet": "As Israel heads to the polls on October 27, its polarising and longest-serving prime minister is seeking re-election.",
    "published": "2026-10-24T05:29:07.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.44,
    "image": "/img/news/68ed1f11ce.webp",
    "t": "2026-10-24",
    "summary": "Al Jazeera says Benjamin Netanyahu is seeking re-election as Israel heads to the polls on October 27.",
@@ -459,7 +504,7 @@
    "snippet": "Dialysis patients face shorter treatment sessions as severe shortages of fuel, medicines, and oxygen threaten hospitals.",
    "published": "2026-10-24T05:20:35.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.43,
    "image": "/img/news/d5b807bd61.webp",
    "t": "2026-10-24",
    "summary": "Al Jazeera reports that shortages of fuel, medicines, and oxygen threaten hospitals in Taiz, while dialysis patients face shorter sessions.",
@@ -481,7 +526,7 @@
    "snippet": "An oil spill off the UAE coast has prompted beach closures after a vessel reportedly hit a naval mine in early October.",
    "published": "2026-10-24T04:48:40.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/4c3ee0327c.webp",
    "t": "2026-10-24",
    "summary": "Al Jazeera reports an oil spill off the UAE coast prompted beach closures; a vessel reportedly hit a naval mine in early October.",
@@ -503,7 +548,7 @@
    "snippet": "Forensic anthropologists have identified the remains of at least 38 victims of Argentina’s last military dictatorship.",
    "published": "2026-10-24T03:51:58.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.4,
    "image": "/img/news/7ed915890f.webp",
    "t": "2026-10-24",
    "summary": "Forensic anthropologists have identified the remains of at least 38 victims of Argentina’s last military dictatorship.",
@@ -525,7 +570,7 @@
    "snippet": "Israeli military raid targets at least 15 towns in the northern West Bank, including Nablus and Jenin.",
    "published": "2026-10-24T03:47:14.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.4,
    "image": "/img/news/71aeb37fec.webp",
    "t": "2026-10-24",
    "summary": "The Israeli military raid targeted at least 15 towns in the northern West Bank, including Nablus and Jenin.",
@@ -534,50 +579,6 @@
     "West Bank",
     "raids",
     "Nablus"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a7d5e780da",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Pentagon designates Confucius Institutes a national security threat",
-   "url": "https://www.aljazeera.com/news/2026/10/24/pentagon-designates-confucius-institutes-a-national-security-threat?traffic_source=rss",
-   "snippet": "Pete Hegseth says the Pentagon dismantled 80 ‘propaganda cells’ operating under new names at 30 universities.",
-   "published": "2026-10-24T03:38:20.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/a7d5e780da.webp",
-   "t": "2026-10-24",
-   "summary": "The Pentagon designated Confucius Institutes a national security threat. Pete Hegseth says it dismantled 80 ‘propaganda cells’ operating under new names at 30 universities.",
-   "why": "The designation and Hegseth’s claims are relevant to how the Pentagon assesses activity at universities.",
-   "tags": [
-    "Confucius Institutes",
-    "Pentagon",
-    "universities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d2f0180bac",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "What’s at stake in Israel’s first elections since the October 7 attacks?",
-   "url": "https://www.atlanticcouncil.org/dispatches/whats-at-stake-in-israels-first-elections-since-the-october-7-attacks/",
-   "snippet": "An unclear outcome for Netanyahu or opponents could lead to prolonged coalition negotiations or even more elections. The post What’s at stake in Israel’s first elections since the October 7 attacks? appeared first on Atlantic Council .",
-   "published": "2026-10-23T21:47:03.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/d2f0180bac.webp",
-   "t": "2026-10-23",
-   "summary": "The Atlantic Council says an unclear outcome in Israel’s elections could lead to prolonged coalition negotiations or more elections.",
-   "why": "The election outcome may shape Israel’s political stability and the period of coalition negotiations.",
-   "tags": [
-    "Israel",
-    "elections",
-    "coalition"
    ],
    "ai": true
   }
@@ -729,47 +730,47 @@
   }
  ],
  "run_today": [
-  "Review access to Quest Diagnostics’ Quanum LSM system and check for unauthorized activity.",
-  "Assess whether exposed patient records require containment or response under your organization’s procedures.",
-  "Check CISA’s Known Exploited Vulnerabilities Catalog for the newly added vulnerability and prioritize applicable systems."
+  "Check whether Collabora Online Built-in CODE Server or Arista VeloCloud Orchestrator is in your environment.",
+  "Review and prioritize the CISA-listed vulnerabilities affecting those products.",
+  "Review account access and password-reset activity following the reported CAPCOM ID breach."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "data breach",
-   "explainer": "A data breach is an incident in which information is exposed or accessed without authorization. The Quest Diagnostics headline says patient records were exposed.",
-   "from_id": "f582252343",
-   "from": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities (KEV)",
+   "explainer": "A catalog of vulnerabilities that CISA identifies as known to be exploited. Inclusion can help defenders prioritize checking whether affected products are in use and addressing the listed flaws.",
+   "from_id": "838b4b1ce2",
+   "from": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "localized ceasefire",
-   "explainer": "A localized ceasefire is a halt in fighting limited to a particular place. The report describes an agreement involving Oleshky.",
-   "from_id": "dcfed4b2e0",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "SPIKE NLOS",
+   "explainer": "A missile system named in the report about Greece and Israel’s naval drills. The snippet says it was tested during live-fire exercises but does not explain its capabilities.",
+   "from_id": "98b993d764",
+   "from": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "siege",
-   "explainer": "A siege is an encirclement or blockade that restricts access to a place. The Taiz report connects a Houthi siege with shortages affecting hospital care.",
-   "from_id": "d5b807bd61",
-   "from": "https://www.aljazeera.com/features/2026/10/24/hospital-yemen-taiz-warns-collapse-houthi-siege?traffic_source=rss",
+   "term": "cross-border bridge",
+   "explainer": "A bridge linking two countries can be a physical connection across a border. The report notes a new bridge linking North Korea and China; it does not describe its effects.",
+   "from_id": "d152da5dce",
+   "from": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Institutions, infrastructure and risk across today’s stories",
+  "headline": "Exposure, exercises, and cross-border links",
   "paragraphs": [
-   "Today’s stories touch political institutions, essential services and coastal infrastructure. The Israel election item describes a prime minister seeking re-election; the Taiz report details shortages affecting hospitals; and the UAE coast report links beach closures to an oil spill after a vessel reportedly hit a naval mine. Together, they show how varied pressures can shape public life.",
-   "For defenders and analysts, the cyber reports in the top list add a different kind of exposure: Quest Diagnostics says patient records were exposed after unauthorized access to its Quanum LSM system, while CISA added a vulnerability to its KEV Catalog. These items suggest the value of tracking access, sensitive data and known exploited vulnerabilities, without assuming a connection between the incidents.",
-   "The ceasefire report says President Trump credited First Lady Melania Trump’s initiative for a localized ceasefire in Oleshky. That claim, alongside reporting on an election and on threatened hospital services, makes attribution and conditions important to follow. Watch for further details on the reported ceasefire, the hospital shortages, the spill and the cyber disclosures."
+   "The stories span cybersecurity, military activity, and geopolitics, but each concerns systems or connections with practical consequences: patient-record access, exploited software flaws, missile testing, aid delivery, and a newly opened bridge. Together, they show why analysts need to track both technical exposure and the wider operating environment.",
+   "For defenders, the Quest Diagnostics disclosure and CISA vulnerability entries make unauthorized access and vulnerable products concrete areas to review. The CAPCOM report also describes stolen email addresses and changed passwords. These reports differ in detail, so teams should verify relevance to their own systems rather than assume direct exposure.",
+   "The naval drills indicate testing of missile systems in a joint exercise, while the West Bank report describes hardship after aid was halved. Kim Jong Un’s reported arrival in China follows the bridge opening. Analysts should watch for further reporting that clarifies operational significance, access impacts, or changes in conditions without treating these snippets as a complete picture."
   ],
   "takeaways": [
-   "Review sensitive-system access and exposure after the Quest Diagnostics disclosure.",
-   "Check CISA’s KEV Catalog for vulnerabilities relevant to your environment.",
-   "Follow reporting on the Taiz hospital warning and UAE coastal spill."
+   "Verify whether the CISA-listed products are present and address relevant vulnerabilities.",
+   "Treat breach reports as prompts to review access and account-security controls.",
+   "Keep military and geopolitical developments in context; the snippets offer limited detail."
   ]
  },
  "health": [
@@ -789,13 +790,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 11
   },
   {
    "name": "The Record",
@@ -819,7 +820,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 9
   },
   {
    "name": "Unit 42",
@@ -849,19 +850,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "Defense One",
@@ -873,7 +874,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Naval News",
@@ -915,13 +916,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 3
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "SpaceNews",
@@ -945,19 +946,19 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 13
+   "n": 10
   },
   {
    "name": "DW",
