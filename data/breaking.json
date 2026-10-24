@@ -1,28 +1,8 @@
 {
- "updated": "2026-10-24T21:17:50.268Z",
+ "updated": "2026-10-24T21:29:17.253Z",
  "health": [
   {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -32,14 +12,24 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 4
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -47,14 +37,19 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "ransomware.live",
@@ -62,14 +57,19 @@
    "n": 2
   },
   {
-   "name": "X cyber",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -99,10 +99,21 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 4
+   "n": 2
   }
  ],
  "items": [
+  {
+   "id": "x2114105913732722844",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "In a filing, the company said that, after a series of meetings between Braskem, its main shareholders and investors, no proposal on the restructuring was accepted",
+   "url": "https://x.com/business/status/2114105913732722844",
+   "published": "2026-10-24T21:25:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114103234771955965",
    "kind": "x",
@@ -113,6 +124,17 @@
    "published": "2026-10-24T21:14:23.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n250c5583ff",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+   "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+   "published": "2026-10-24T21:08:51.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2114101653708193904",
@@ -157,6 +179,17 @@
    "published": "2026-10-24T21:00:07.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "na61ba70863",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Severe hunger stalks people in Gaza as bakeries close down",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/severe-hunger-stalks-people-in-gaza-as-bakeries-close-down?traffic_source=rss",
+   "published": "2026-10-24T20:52:55.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "n67d46dfd67",
@@ -3368,39 +3401,6 @@
    "url": "https://www.ransomware.live/id/QWRpcm9uZGFjayBOZXR3b3JrcywgSW5jLkBOMG4=",
    "published": "2026-10-24T09:53:23.606Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r0a9e0e42e9",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "N0n claims Arthritis Center of Riverside (US) — Healthcare",
-   "url": "https://www.ransomware.live/id/QXJ0aHJpdGlzIENlbnRlciBvZiBSaXZlcnNpZGVATjBu",
-   "published": "2026-10-24T09:52:48.628Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "na193853d4a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Three released without charge after fatal arson attack in Ireland",
-   "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-24T09:38:28.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113925640445423780",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇫🇷 🚨 FRANCE: LA FRANCE INSOUMISE CAMPAIGN DATA ALLEGEDLY LEAKED A threat actor on an underground forum has published a dataset it claims was taken from the website of La France Insoumise (lafranceinsoumise[.]fr), the French left-wing…",
-   "url": "https://x.com/DailyDarkWeb/status/2113925640445423780",
-   "published": "2026-10-24T09:28:42.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
