@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-24T03:44:56.348Z",
+ "updated": "2026-10-24T04:00:31.851Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -12,6 +17,11 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 0
@@ -19,30 +29,20 @@
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -52,17 +52,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -72,12 +62,22 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
    "ok": true,
    "n": 0
   },
   {
    "name": "X redteam",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "ransomware.live",
    "ok": true,
    "n": 0
   },
@@ -103,6 +103,83 @@
   }
  ],
  "items": [
+  {
+   "id": "x2113843002628051442",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The orders come nearly eight months into the war against Iran, and after Trump has made repeated threats to order a new round of strikes",
+   "url": "https://x.com/business/status/2113843002628051442",
+   "published": "2026-10-24T04:00:19.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113842642849243268",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Ecopetrol Estimates Third-Quarter Revenues at 33–36 Trillion Pesos",
+   "url": "https://x.com/FirstSquawk/status/2113842642849243268",
+   "published": "2026-10-24T03:58:54.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113842575765586025",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Colombia’s Ecopetrol Forecasts Third-Quarter Revenue of 33–36 Trillion Pesos",
+   "url": "https://x.com/FirstSquawk/status/2113842575765586025",
+   "published": "2026-10-24T03:58:38.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113842067722076448",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: 🇺🇸 Commonwealth Community Bank ( a USA-based bank, has reportedly fallen victim to Qilin ransomware. 🔍 Key Details: 🛡️ Threat Actor: Qilin 📅 Reported on: 24/10/26",
+   "url": "https://x.com/FalconFeedsio/status/2113842067722076448",
+   "published": "2026-10-24T03:56:36.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113841673025343557",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Singapore requests information from 10 locally registered firms as it expands its probe into haze-creating fires in Indonesia.",
+   "url": "https://x.com/business/status/2113841673025343557",
+   "published": "2026-10-24T03:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n7ed915890f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Argentina identifies dozens of victims killed in its ‘Dirty War’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
+   "published": "2026-10-24T03:51:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n71aeb37fec",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
+   "url": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank?traffic_source=rss",
+   "published": "2026-10-24T03:47:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2113836352039203165",
    "kind": "x",
@@ -3323,83 +3400,6 @@
    "title": "SEC examiners will step up scrutiny of private fund valuations and AI, the latest sign of regulatory concerns about emerging market risk",
    "url": "https://x.com/business/status/2113708296154563058",
    "published": "2026-10-23T19:05:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113707915991568873",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "IRAQ PM: AIMS TO GRADUALLY RAISE OIL PRODUCTION TO 10M BPD BY 2032",
-   "url": "https://x.com/FirstSquawk/status/2113707915991568873",
-   "published": "2026-10-23T19:03:32.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113707893384192473",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "IRAN SAYS SOUTHERN PORTS BLOCKADE CUT IMPORTS 25%: ISNA",
-   "url": "https://x.com/FirstSquawk/status/2113707893384192473",
-   "published": "2026-10-23T19:03:27.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113707683622629728",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@AuroraIntel",
-   "title": "I’m not eating yet, but it’s cooking.",
-   "url": "https://x.com/AuroraIntel/status/2113707683622629728",
-   "published": "2026-10-23T19:02:37.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113707105542672838",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "The Canadian private jet maker Bombardier says it’s hiring 800 people in the US as it regains President Donald Trump’s favor",
-   "url": "https://x.com/business/status/2113707105542672838",
-   "published": "2026-10-23T19:00:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n1dadde5848",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-   "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-   "published": "2026-10-23T18:58:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113706384386851097",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "EGYPT, SAUDI ARABIA, TURKEY, PAKISTAN FOREIGN MINISTERS: 'ISRAELI OCCUPATION IS MAIN SOURCE OF INSTABILITY IN REGION AND BEYOND' - STATEMENT",
-   "url": "https://x.com/FirstSquawk/status/2113706384386851097",
-   "published": "2026-10-23T18:57:27.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113705797481890259",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Rare Earth Stocks Hit 52-Week Low As William Blair Says China Supply Optimism Is \"Incorrect\"",
-   "url": "https://x.com/zerohedge/status/2113705797481890259",
-   "published": "2026-10-23T18:55:07.000Z",
    "severity": "normal",
    "verified": false
   }
