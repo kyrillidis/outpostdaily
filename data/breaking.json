@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T03:10:21.624Z",
+ "updated": "2026-10-24T03:27:52.995Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -12,14 +12,14 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 5
+   "n": 0
   },
   {
    "name": "Krebs on Security",
@@ -29,15 +29,25 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
-   "name": "The Record",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -52,22 +62,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "ransomware.live",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -80,6 +75,11 @@
    "name": "X redteam",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 4
+   "n": 5
   }
  ],
  "items": [
+  {
+   "id": "x2113834227833655298",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "Public Linux local-root exploit raises shared-hosting risk ZDI-CAN-33367 targets skb_zerocopy() in the kernel networking stack, letting a local user alter read-only file data through the page cache and gain root. * CloudLinux…",
+   "url": "https://x.com/DailyDarkWeb/status/2113834227833655298",
+   "published": "2026-10-24T03:25:27.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113834142659928452",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Everybody's Hitler! Ad Absurdum...",
+   "url": "https://x.com/zerohedge/status/2113834142659928452",
+   "published": "2026-10-24T03:25:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113833491184120300",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Colombia’s Ecopetrol Forecasts Q3 Oil Output at 740,000–750,000 BPD",
+   "url": "https://x.com/FirstSquawk/status/2113833491184120300",
+   "published": "2026-10-24T03:22:32.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113832295669112915",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Soaring Home Prices Squeeze Vietnamese Buyers as Property Sales Sink to Their Lowest Since 2021",
+   "url": "https://x.com/FirstSquawk/status/2113832295669112915",
+   "published": "2026-10-24T03:17:47.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113831344392548833",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "❗️ PHP disclosed an unpatched remote code execution flaw, two days after its emergency PHP2Shell fixes. CVE-2026-115560 needs an unusual setup that swaps the session serializer at runtime. No emergency release is planned. PHP says to set…",
+   "url": "https://x.com/IntCyberDigest/status/2113831344392548833",
+   "published": "2026-10-24T03:14:00.000Z",
+   "severity": "high",
+   "verified": false
+  },
   {
    "id": "x2113830148453900583",
    "kind": "x",
@@ -3347,61 +3402,6 @@
    "published": "2026-10-23T18:54:41.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2113705284757774694",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "$BE down 11% today to ~$193 after earnings Q3 was a beat: record $1.24B revenue (+138% YoY), adj EPS $0.94 vs $0.69 est, and 2026 guidance raised. But operating cash flow flipped to -$27M (from +$226M in Q2), and Roth, JPM, and BTIG cut…",
-   "url": "https://x.com/unusual_whales/status/2113705284757774694",
-   "published": "2026-10-23T18:53:05.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n9b3091f737",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-23T18:52:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113705046877913282",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert: 🇵🇭 JS Contractor, Inc. ( a Philippines-based Human Resources Services Company, has reportedly fallen victim to EMPERADOR ransomware. NB: The group intends to publish the data within 19–20 days. 🔍 Key Details: 🛡️…",
-   "url": "https://x.com/FalconFeedsio/status/2113705046877913282",
-   "published": "2026-10-23T18:52:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113704852148924776",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "‼️ Patched, but still exploitable. The new BlackX UEFI bootkit bypasses Secure Boot on Windows systems missing required revocations, even after the patch is installed. Attackers used it in breaches of Central Asian diplomatic networks…",
-   "url": "https://x.com/TheHackersNews/status/2113704852148924776",
-   "published": "2026-10-23T18:51:22.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113704738055401633",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨 Ransomware Alert 🚨 Qilin ransomware group has added 6 new victims to their dark web portal. - Miljaus Media 🇪🇸 - MaxiSeguridad 🇦🇷 - Kale Balata 🇹🇷 - Labaid Cancer Hospital and Super Speciality Centre 🇧🇩 - Grupo REVI 🇪🇸 - CDG…",
-   "url": "https://x.com/FalconFeedsio/status/2113704738055401633",
-   "published": "2026-10-23T18:50:54.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
