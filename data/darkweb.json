@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-24T04:31:23.305Z",
+ "updated": "2026-10-24T06:41:35.656Z",
  "items": [
+  {
+   "id": "x2113879390404657492",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113879390404657492",
+   "published": "2026-10-24T06:24:55.000Z",
+   "headline": "&ST HD claims customer records may have leaked after server intrusion",
+   "claim": "The title alleges that &ST HD said customer records may have leaked after attackers accessed business servers and extracted data.",
+   "context": "As general background, intrusions involving business servers can expose data stored on or accessible from those systems. Retail organizations commonly use access controls and monitoring to reduce the risk and impact of such incidents.",
+   "advice": [
+    "Review server access logs for unusual activity.",
+    "Verify backups and restrict server access to necessary accounts."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113864354600800640",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113864354600800640",
+   "published": "2026-10-24T05:25:10.000Z",
+   "headline": "GMO claims Onamae Desktop Cloud breach may have exposed account information",
+   "claim": "The title alleges that GMO said a breach may have exposed information stored on compromised customer servers, including trading-account login information.",
+   "context": "As general background, cloud-hosted customer servers can contain data and tools used by their customers. Strong access controls and careful handling of sensitive information can help limit exposure if a server is compromised.",
+   "advice": [
+    "Review access to affected cloud servers and investigate anomalies.",
+    "Rotate potentially exposed secrets and enable multifactor authentication."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113849256096174430",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113849256096174430",
+   "published": "2026-10-24T04:25:10.000Z",
+   "headline": "LiteLLM claims supply-chain attack involved an unrevoked agent-platform key",
+   "claim": "The title alleges that LiteLLM traced a supply-chain attack to an unrevoked agent-platform key and said an exposed master key remained valid.",
+   "context": "As general background, supply-chain attacks can exploit access provided by software dependencies, integrations, or service credentials. Regularly rotating and revoking keys can reduce the window in which exposed credentials remain useful.",
+   "advice": [
+    "Revoke and rotate keys that may be exposed.",
+    "Audit integrations and dependency access for unexpected activity."
+   ],
+   "verified": false
+  },
   {
    "id": "x2113842067722076448",
    "kind": "x",
@@ -133,6 +178,21 @@
    "advice": [
     "Check systems and accounts for suspicious access.",
     "Preserve relevant logs for investigation."
+   ],
+   "verified": false
+  },
+  {
+   "id": "rabce71aade",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/RmFtaWx5IFBsYW5uaW5nIEFzc29jaWF0aW9uIG9mIFBha2lzdGFuQFBhbnplcg==",
+   "published": "2026-10-24T00:24:57.173Z",
+   "headline": "Panzer claims the Family Planning Association of Pakistan on a leak site",
+   "claim": "The title alleges that Panzer claimed the Family Planning Association of Pakistan.",
+   "context": "As general background, ransomware groups may use leak-site listings to make claims about organizations. Such listings are not independently verified by their appearance alone.",
+   "advice": [
+    "Monitor relevant systems for signs of unauthorized access.",
+    "Review incident-response procedures and validate offline backups."
    ],
    "verified": false
   },
@@ -538,66 +598,6 @@
    "advice": [
     "Review endpoint and network alerts for suspicious activity.",
     "Check backup isolation and recovery readiness."
-   ],
-   "verified": false
-  },
-  {
-   "id": "rfa76fd5e88",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTEwQE4wbg==",
-   "published": "2026-10-23T19:52:50.371Z",
-   "headline": "N0n claims Company #110 on a ransomware leak site",
-   "claim": "The listing says N0n claims Company #110, identified as an organization in Spain.",
-   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
-   "advice": [
-    "Review endpoint alerts for signs of compromise.",
-    "Verify backups are isolated and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113719946916315188",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2113719946916315188",
-   "published": "2026-10-23T19:51:21.000Z",
-   "headline": "Post shares text associated with “Helena” by My Chemical Romance",
-   "claim": "The post shares text associated with “Helena” by My Chemical Romance.",
-   "context": "Social media feeds may contain material unrelated to cybersecurity incidents. This is general background and does not indicate a security event.",
-   "advice": [
-    "Verify relevance before escalating social media posts.",
-    "Use trusted sources for incident confirmation."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113716610125246469",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2113716610125246469",
-   "published": "2026-10-23T19:38:05.000Z",
-   "headline": "Fulcrumsec claims to have stolen data from EMARKETER",
-   "claim": "The post claims Fulcrumsec stole data from EMARKETER and posted a leak page.",
-   "context": "Threat actors may use leak-site posts to claim access to organizational data. Such claims alone do not verify access, theft, or publication.",
-   "advice": [
-    "Review access logs and alerts for unusual activity.",
-    "Preserve relevant evidence and assess incident response plans."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113715566238372212",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2113715566238372212",
-   "published": "2026-10-23T19:33:56.000Z",
-   "headline": "Post claims PHP2SHELL flaws affect PAN-OS and Panorama",
-   "claim": "The post claims PHP2SHELL flaws affect PAN-OS and Panorama management interfaces.",
-   "context": "Vulnerabilities in network security products can create risks when management interfaces are exposed or unpatched. This is general background, not confirmation of the claim or product impact.",
-   "advice": [
-    "Check vendor advisories for affected versions and mitigations.",
-    "Restrict management interfaces to trusted networks."
    ],
    "verified": false
   }
