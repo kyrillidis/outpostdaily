@@ -1,15 +1,30 @@
 {
- "updated": "2026-10-24T01:33:52.810Z",
+ "updated": "2026-10-24T01:52:29.510Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
   },
   {
    "name": "The DFIR Report",
@@ -19,17 +34,12 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
-   "name": "BBC World",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 0
   },
   {
    "name": "The Record",
@@ -37,39 +47,29 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "BBC World",
    "ok": true,
    "n": 1
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
-   "name": "X cyber",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -79,12 +79,12 @@
   {
    "name": "X redteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X darkweb",
@@ -94,15 +94,114 @@
   {
    "name": "X crisis",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 16
+   "n": 11
   }
  ],
  "items": [
+  {
+   "id": "x2113810467026288805",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "France’s Centre-Val de Loire Region Retains ‘A+’ Rating as Fitch Keeps Outlook Stable",
+   "url": "https://x.com/FirstSquawk/status/2113810467026288805",
+   "published": "2026-10-24T01:51:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113810217016184954",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Obama, Trump, and others will campaign in the marquee battleground state this weekend.",
+   "url": "https://x.com/business/status/2113810217016184954",
+   "published": "2026-10-24T01:50:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113809911096459468",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Most Russian KAB Guided Bombs Miss Bridge in Ukraine’s Kherson, Falling Into River",
+   "url": "https://x.com/FirstSquawk/status/2113809911096459468",
+   "published": "2026-10-24T01:48:50.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113808977825784309",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Anthony Fauci's Darkest Hours",
+   "url": "https://x.com/zerohedge/status/2113808977825784309",
+   "published": "2026-10-24T01:45:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113808968170578003",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Alliance wants the region’s economies working together better.",
+   "url": "https://x.com/business/status/2113808968170578003",
+   "published": "2026-10-24T01:45:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113808939578183803",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "According to the Saudi Arabia’s Joint Forces spokesperson a Houthi ballistic missile, heading towards Riyadh, Saudi Arabia was intercepted and destroyed.",
+   "url": "https://x.com/sentdefender/status/2113808939578183803",
+   "published": "2026-10-24T01:44:58.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113807712450388372",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Volkswagen is heading toward a fresh showdown with its German workforce",
+   "url": "https://x.com/business/status/2113807712450388372",
+   "published": "2026-10-24T01:40:05.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113807506141233507",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Yemen’s Houthis Launch Ballistic Missile Toward Riyadh, Saudi-Led Coalition Says",
+   "url": "https://x.com/FirstSquawk/status/2113807506141233507",
+   "published": "2026-10-24T01:39:16.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2113806446596899231",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "AI leaders want their models everywhere and under their control. They may not get both.",
+   "url": "https://x.com/business/status/2113806446596899231",
+   "published": "2026-10-24T01:35:04.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113805379549225307",
    "kind": "x",
@@ -1354,6 +1453,17 @@
    "title": "New York Attorney General Letitia James secured a $482k settlement with more than two dozen debt buyers over unlawful collections on \"zombie\" mortgages. The companies pursued past-due payments that were well past New York's six-year limit.",
    "url": "https://x.com/business/status/2113751076570534136",
    "published": "2026-10-23T21:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "r33ab58fe60",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "Deadlock claims Hensel Elektrik (DE) — Manufacturing",
+   "url": "https://www.ransomware.live/id/SGVuc2VsIEVsZWt0cmlrQERlYWRsb2Nr",
+   "published": "2026-10-23T21:50:47.029Z",
    "severity": "normal",
    "verified": false
   },
@@ -3290,116 +3400,6 @@
    "title": "TRUMP REPORTEDLY PLANS TO EASE 50% TARIFFS ON CANADA The Trump administration is reportedly preparing to remove 50% tariffs on certain Canadian agricultural and forestry products, potentially as early as Friday. The move is intended to…",
    "url": "https://x.com/DeItaone/status/2113694743167422845",
    "published": "2026-10-23T18:11:11.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113694685034320378",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "US SEN. COLLINS: APPLE, SEAWEED, BLUEBERRY, POTATO PRODUCERS TO GET CANADA TARIFF RELIEF",
-   "url": "https://x.com/FirstSquawk/status/2113694685034320378",
-   "published": "2026-10-23T18:10:58.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113694653145071682",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️The OrcaRouter team, known for their cybersecurity AI models, just released abliterated DeepSeek V4.1, one of the best and most cost-effective cyber models to date. Try it out at",
-   "url": "https://x.com/IntCyberDigest/status/2113694653145071682",
-   "published": "2026-10-23T18:10:50.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113694496856949010",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "US SEN. COLLINS: 9 PRODUCT TYPES TO GET EXEMPTION FROM CANADA TARIFFS",
-   "url": "https://x.com/FirstSquawk/status/2113694496856949010",
-   "published": "2026-10-23T18:10:13.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2113694482910568593",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Historic Degrossing: Hedge Funds Dump Most Tech Stock Since Sept 2024",
-   "url": "https://x.com/zerohedge/status/2113694482910568593",
-   "published": "2026-10-23T18:10:09.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113694455182045565",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "French President Emmanuel Macron said he would overhaul the country’s university admissions platform during his first meeting with representatives of high school students who have been protesting for weeks, Agence France-Presse reports",
-   "url": "https://x.com/business/status/2113694455182045565",
-   "published": "2026-10-23T18:10:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113694415072194667",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "IRAN'S FOREIGN MINISTER SAYS IRANIAN PRESIDENT WILL TRAVEL TO RUSSIA NEXT WEEK TO MEET WITH PUTIN",
-   "url": "https://x.com/DeItaone/status/2113694415072194667",
-   "published": "2026-10-23T18:09:53.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113693194760130882",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Moonshot AI, the Chinese upstart that had its own DeepSeek moment over the summer, released the first major upgrade to the seminal model that thrust the $50 billion company into the frontier",
-   "url": "https://x.com/business/status/2113693194760130882",
-   "published": "2026-10-23T18:05:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "ra2e8e56829",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "chaos claims mickeybody.com (US) — Retail & E-Commerce",
-   "url": "https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M=",
-   "published": "2026-10-23T18:00:12.687Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113691961546658223",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "In February, after getting served with subpoenas in a federal criminal investigation, the billionaire sports mogul Mark Walter’s insurance companies abruptly stopped lending to him.",
-   "url": "https://x.com/business/status/2113691961546658223",
-   "published": "2026-10-23T18:00:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113691673943257424",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "BREAKING: Amazon has scrapped a plan to build data centers in Northern Virginia after widespread opposition to the project from residents, per WaPo",
-   "url": "https://x.com/unusual_whales/status/2113691673943257424",
-   "published": "2026-10-23T17:59:00.000Z",
    "severity": "high",
    "verified": false
   }
