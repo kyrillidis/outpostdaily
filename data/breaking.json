@@ -1,13 +1,8 @@
 {
- "updated": "2026-10-24T06:52:38.650Z",
+ "updated": "2026-10-24T07:02:06.326Z",
  "health": [
   {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -17,7 +12,12 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -27,19 +27,24 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 6
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -47,12 +52,7 @@
    "n": 1
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -64,17 +64,17 @@
   {
    "name": "ransomware.live",
    "ok": true,
+   "n": 1
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
    "n": 0
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "X redteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X crisis",
@@ -99,7 +99,7 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 7
+   "n": 0
   }
  ],
  "items": [
@@ -837,6 +837,17 @@
    "title": "Woke Video Game Developer BioWare Shuts Down In Humiliating Failure",
    "url": "https://x.com/zerohedge/status/2113827849257754712",
    "published": "2026-10-24T03:00:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "r5f7d160e63",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "Deadlock claims Trinity Custom Homes (US) — Manufacturing",
+   "url": "https://www.ransomware.live/id/VHJpbml0eSBDdXN0b20gSG9tZXNARGVhZGxvY2s=",
+   "published": "2026-10-24T02:53:03.322Z",
    "severity": "normal",
    "verified": false
   },
@@ -3389,17 +3400,6 @@
    "title": "🚨 DDoS Alert: 🇰🇵 Dark Storm Team claims to have targeted multiple websites in North Korea. * Naenara * Voice of Korea * Democratic People's Republic of Korea * The Pyongyang Times * The Rodong Sinmun * Korean Central News Agency *…",
    "url": "https://x.com/FalconFeedsio/status/2113720900843712668",
    "published": "2026-10-23T19:55:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113720876415750238",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Lycia Therapeutics shares leapt 59% in its trading debut, after the biotechnology firm focused on treatments for allergies and autoimmune diseases raised $317.5 million in an upsized US initial public offering.",
-   "url": "https://x.com/business/status/2113720876415750238",
-   "published": "2026-10-23T19:55:02.000Z",
    "severity": "normal",
    "verified": false
   }
