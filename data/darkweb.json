@@ -1,6 +1,96 @@
 {
- "updated": "2026-10-24T08:33:28.869Z",
+ "updated": "2026-10-24T10:27:33.035Z",
  "items": [
+  {
+   "id": "x2113934916492911026",
+   "kind": "x",
+   "source": "@FalconFeedsio",
+   "url": "https://x.com/FalconFeedsio/status/2113934916492911026",
+   "published": "2026-10-24T10:05:33.000Z",
+   "headline": "Actor claims n0n ransomware group added victims to its dark web portal",
+   "claim": "The post claims the n0n ransomware group added five new victims to its dark web portal.",
+   "context": "As general background, ransomware groups may use leak sites to publicize alleged victims and apply pressure. This is general threat context, not confirmation of this claim.",
+   "advice": [
+    "Review endpoint and network alerts for signs of compromise.",
+    "Verify backups are isolated and restorable."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113934172725117023",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113934172725117023",
+   "published": "2026-10-24T10:02:36.000Z",
+   "headline": "Post claims JKAmaret database was leaked on a dark web forum",
+   "claim": "The post claims a database attributed to JKAmaret was released on a dark web forum.",
+   "context": "As general background, database exposure claims can involve stolen, fabricated, or previously circulated data. This is general context and does not verify the claim or the data's contents.",
+   "advice": [
+    "Review access and database logs for unusual activity.",
+    "Prepare incident-response and privacy teams to assess exposure."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113933199763980623",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113933199763980623",
+   "published": "2026-10-24T09:58:44.000Z",
+   "headline": "Actor claims ThaiHealthPass traveler database is for sale",
+   "claim": "The post claims a threat actor is selling a database attributed to ThaiHealthPass.",
+   "context": "As general background, databases advertised on cybercrime forums may be misrepresented or recycled. This is general context, not confirmation of this claim.",
+   "advice": [
+    "Check authentication and database access logs for anomalies.",
+    "Review data-protection incident procedures."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113932233786503270",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113932233786503270",
+   "published": "2026-10-24T09:54:54.000Z",
+   "headline": "Group claims it exfiltrated data from SAP Ecuador operations",
+   "claim": "The post claims a threat actor group exfiltrated data from SAP's Ecuador operations.",
+   "context": "As general background, exfiltration claims may accompany ransomware or other extortion activity. This is general threat context, not confirmation that data was accessed or removed in this incident.",
+   "advice": [
+    "Review cloud and network logs for unusual data transfers.",
+    "Restrict access to sensitive systems and verify monitoring coverage."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113925640445423780",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113925640445423780",
+   "published": "2026-10-24T09:28:42.000Z",
+   "headline": "Post claims La France Insoumise campaign data was leaked",
+   "claim": "The post claims a dataset attributed to La France Insoumise was published on an underground forum.",
+   "context": "As general background, political organizations can face data theft and publication attempts. This is general context, not confirmation of the claim or the dataset's origin.",
+   "advice": [
+    "Review website and account logs for unauthorized access.",
+    "Enable multifactor authentication on administrative accounts."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2113920907433361872",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2113920907433361872",
+   "published": "2026-10-24T09:09:53.000Z",
+   "headline": "Post says CISA added a Nextcloud Collabora code server flaw to KEV",
+   "claim": "The post says CISA added CVE-2026-110447 to its Known Exploited Vulnerabilities catalog.",
+   "context": "As general background, vulnerability catalogs help defenders prioritize remediation, while vendor advisories provide product-specific guidance. This is general knowledge, not independent verification of the post's claim.",
+   "advice": [
+    "Check official CISA and vendor advisories for current guidance.",
+    "Inventory affected systems and prioritize approved remediation."
+   ],
+   "verified": false
+  },
   {
    "id": "x2113905816059150754",
    "kind": "x",
@@ -508,96 +598,6 @@
    "advice": [
     "Validate monitoring coverage across relevant sources.",
     "Document collection gaps and retry failures."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113732855264362821",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2113732855264362821",
-   "published": "2026-10-23T20:42:38.000Z",
-   "headline": "Hacktivist group claims it accessed Sara Netanyahu’s personal phone",
-   "claim": "The post alleges that a pro-Jordanian hacktivist group hacked Sara Netanyahu’s personal phone and started an activity described in the title.",
-   "context": "As general background, claims of access to personal devices may be difficult to verify and can be used for publicity or intimidation. Public claims should not be treated as confirmation of device compromise.",
-   "advice": [
-    "Enable multifactor authentication on personal accounts.",
-    "Review account sessions and revoke unfamiliar access."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113728006275367158",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2113728006275367158",
-   "published": "2026-10-23T20:23:22.000Z",
-   "headline": "Railway says an attacker potentially exposed encrypted environment variables",
-   "claim": "The post says Railway reported an attacker gained access to internal systems and potentially exposed encrypted environment variables.",
-   "context": "As general background, cloud development platforms may store configuration values used by applications and workspaces. Potential exposure can prompt users to assess secrets, access controls, and provider guidance.",
-   "advice": [
-    "Rotate secrets that may have been exposed.",
-    "Review access logs for affected cloud workspaces."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r84c8e1c06d",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ==",
-   "published": "2026-10-23T20:18:08.289Z",
-   "headline": "Rhysida claims Sanders Law Group on a ransomware site",
-   "claim": "The title says Rhysida claims Sanders Law Group, identified as a professional-services organization.",
-   "context": "Ransomware groups may publish victim claims on leak sites to pressure organizations. A listing alone does not independently confirm compromise or data exposure.",
-   "advice": [
-    "Review endpoint and identity logs for signs of compromise.",
-    "Confirm offline or immutable backups are available."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r3a2d15249f",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/TWlsamF1cyBQcm9kdWNjaW9uZXMgUy5MICh3d3cubWlsamF1cy5jb20pQHFpbGlu",
-   "published": "2026-10-23T20:17:19.946Z",
-   "headline": "Qilin claims Miljaus Producciones S.L. on a ransomware leak site",
-   "claim": "The listing says Qilin claims Miljaus Producciones S.L., identified as an organization in Spain.",
-   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
-   "advice": [
-    "Review endpoint alerts for signs of compromise.",
-    "Verify backups are isolated and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r0f695cd99c",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/dm9uIFNjaGFld2VuQHFpbGlu",
-   "published": "2026-10-23T20:16:50.993Z",
-   "headline": "Qilin claims von Schaewen on a ransomware leak site",
-   "claim": "The listing says Qilin claims von Schaewen, identified as an organization in Germany.",
-   "context": "Ransomware leak-site listings are claims made by threat actors and may not independently verify an intrusion. This is general background, not confirmation of this listing.",
-   "advice": [
-    "Review endpoint alerts for signs of compromise.",
-    "Verify backups are isolated and recoverable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2113725577937272889",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2113725577937272889",
-   "published": "2026-10-23T20:13:43.000Z",
-   "headline": "Post claims GoDaddy revoked SSL certificates after policy errors",
-   "claim": "The post claims GoDaddy revoked SSL/TLS certificates following policy errors.",
-   "context": "Certificate authorities may revoke certificates when they identify compliance or issuance problems. This is general background, not confirmation of this claim.",
-   "advice": [
-    "Check certificate authority notices and certificate status.",
-    "Monitor certificate expiry and renewal workflows."
    ],
    "verified": false
   }
