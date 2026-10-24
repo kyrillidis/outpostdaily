@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-24T01:52:29.510Z",
+ "updated": "2026-10-24T02:00:56.868Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "The Hacker News",
@@ -27,22 +27,12 @@
    "n": 10
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -52,14 +42,19 @@
    "n": 1
   },
   {
-   "name": "X cyber",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "ransomware.live",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 7
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Dark Reading",
@@ -67,12 +62,17 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "X crisis",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 11
+   "n": 10
   }
  ],
  "items": [
+  {
+   "id": "x2113813028697477448",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Meta Acquires Sundial, an AI Data Platform, According to Axios",
+   "url": "https://x.com/FirstSquawk/status/2113813028697477448",
+   "published": "2026-10-24T02:01:13.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113812763516575979",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Portugal and Spain are building fewer homes than before the global financial crisis",
+   "url": "https://x.com/business/status/2113812763516575979",
+   "published": "2026-10-24T02:00:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113811968658465176",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Ukraine’s ‘CCC’ Credit Rating Reaffirmed by Fitch",
+   "url": "https://x.com/FirstSquawk/status/2113811968658465176",
+   "published": "2026-10-24T01:57:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113811477119520918",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Ireland Retains ‘AA’ Rating as Fitch Keeps Outlook Stable",
+   "url": "https://x.com/FirstSquawk/status/2113811477119520918",
+   "published": "2026-10-24T01:55:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2113811472501317696",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Coca-Cola’s acquisition of Costa Coffee is the latest example of an M&A deal from the consumer sector that has run into challenges.",
+   "url": "https://x.com/business/status/2113811472501317696",
+   "published": "2026-10-24T01:55:02.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2113810467026288805",
    "kind": "x",
@@ -3347,61 +3402,6 @@
    "published": "2026-10-23T18:19:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2113696457123311635",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@MsftSecIntel",
-   "title": "A compromised LiteLLM 1.107.0 release added files that Python could execute during normal interpreter initialization. Applications did not need to import LiteLLM for the payload to run; starting Python in an affected environment could be…",
-   "url": "https://x.com/MsftSecIntel/status/2113696457123311635",
-   "published": "2026-10-23T18:18:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113696203783201147",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Vance has become a hurricane as it churns off the coast of Mexico, the National Hurricane Center said. The center said the storm is expected to strengthen rapidly and could be a major Category 4 hurricane before the end of the day.",
-   "url": "https://x.com/unusual_whales/status/2113696203783201147",
-   "published": "2026-10-23T18:17:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113695731324174724",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "England’s Ian Poulter is leaving the league, joining Jon Rahm in deciding to forgo being part of its comeback attempt",
-   "url": "https://x.com/business/status/2113695731324174724",
-   "published": "2026-10-23T18:15:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113694759927832577",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨 The Shiny saga continues. A Telegram channel claiming to represent ShinyHunters, LAPSUS$ and UNC6783 is circulating posts naming Bugatti, Movistar Colombia, Rockstar Original, Audi UK, Canon Australia, Mercedes-Benz Trucks, Apollo. ee…",
-   "url": "https://x.com/FalconFeedsio/status/2113694759927832577",
-   "published": "2026-10-23T18:11:15.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113694743167422845",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP REPORTEDLY PLANS TO EASE 50% TARIFFS ON CANADA The Trump administration is reportedly preparing to remove 50% tariffs on certain Canadian agricultural and forestry products, potentially as early as Friday. The move is intended to…",
-   "url": "https://x.com/DeItaone/status/2113694743167422845",
-   "published": "2026-10-23T18:11:11.000Z",
-   "severity": "high",
-   "verified": false
   }
  ]
 }
