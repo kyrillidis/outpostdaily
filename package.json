@@ -12,6 +12,7 @@
     "fetch": "node src/fetch.mjs",
     "build": "node src/render.mjs",
     "daily": "node src/fetch.mjs && node src/render.mjs",
+    "watch": "node src/client-monitor.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
