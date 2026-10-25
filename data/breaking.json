@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T03:16:00.635Z",
+ "updated": "2026-10-25T03:38:07.066Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -12,9 +12,9 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -22,7 +22,12 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -32,14 +37,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "The Hacker News",
@@ -47,12 +47,7 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,17 +57,22 @@
    "n": 0
   },
   {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -84,7 +84,7 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X darkweb",
@@ -94,15 +94,48 @@
   {
    "name": "X crisis",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 2
+   "n": 1
   }
  ],
  "items": [
+  {
+   "id": "x2114199494006915541",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "Ukraine says the speed restrictions on Starlink’s military service Starshield have been lifted, ending nearly 11 days of limits, according to the Financial Times. Defence Minister Yevhenii Khmara said the ministry’s monitoring recorded a…",
+   "url": "https://x.com/sentdefender/status/2114199494006915541",
+   "published": "2026-10-25T03:36:53.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114197761205936448",
+   "kind": "x",
+   "group": "blueteam",
+   "source": "@SwiftOnSecurity",
+   "title": "Finally working! Deionized water removes ~all minerals from tap water. This makes car washing spotless, can significantly improve efficacy of surfactants that control many cleaning product's positive behaviors like…",
+   "url": "https://x.com/SwiftOnSecurity/status/2114197761205936448",
+   "published": "2026-10-25T03:30:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114196527916703949",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Ultrawealthy Reshaping Country-Fried City With $35 Million Estates And Lamborghinis",
+   "url": "https://x.com/zerohedge/status/2114196527916703949",
+   "published": "2026-10-25T03:25:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114193028130709531",
    "kind": "x",
@@ -168,6 +201,17 @@
    "published": "2026-10-25T02:46:00.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n8ff3510ef1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+   "published": "2026-10-25T02:45:43.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114184646321959239",
@@ -3356,50 +3400,6 @@
    "title": "qilin claims SLTN Inter Access (NL)",
    "url": "https://www.ransomware.live/id/U0xUTiBJbnRlciBBY2Nlc3NAcWlsaW4=",
    "published": "2026-10-24T13:17:20.097Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nc19a3b2667",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
-   "published": "2026-10-24T13:16:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2113982609281733049",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Elon Musk could do with some good PR. His recent announcement — giving kids stock in SpaceX — is probably just the latest in a history of empty promises (via @opinion)",
-   "url": "https://x.com/business/status/2113982609281733049",
-   "published": "2026-10-24T13:15:04.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113982465891328086",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "PALANTIR CEO ALEX KARP, ON AI, SAYS THAT WITH A MINOR EXCEPTION IN ISRAEL, CHINA AND THE U.S. ARE THE ONLY RELEVANT COUNTRIES, AND THAT THIS IS ONE THING HE IS APOPLECTIC ABOUT IN EUROPE, SAYING “YOU CAN’T HELP SOMEONE WHO DOESN’T WANT TO…",
-   "url": "https://x.com/FirstSquawk/status/2113982465891328086",
-   "published": "2026-10-24T13:14:30.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2113981360587112489",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "France Deploys 70,000 Police As Cities Brace For Far-Left Chaos",
-   "url": "https://x.com/zerohedge/status/2113981360587112489",
-   "published": "2026-10-24T13:10:06.000Z",
    "severity": "normal",
    "verified": false
   }
