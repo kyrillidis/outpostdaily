@@ -2,7 +2,7 @@ name: Edition refresh
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # every 10 minutes; it only deploys when something changed, and falls back to hourly deploys near the daily cap (see the budget step)
+    - cron: "*/30 * * * *" # every 30 minutes (at most 48 deploys a day, well inside the 100 Vercel Hobby allows); only deploys when something changed. The budget step is a safety net
   workflow_dispatch:
     inputs:
       force_ai:
@@ -74,7 +74,7 @@ jobs:
         if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
         run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
       - name: Notify search engines (IndexNow, once a day)
-        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '*/10 * * * *') }}
+        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '*/30 * * * *') }}
         continue-on-error: true
         run: |
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "04" ]; then echo "only the 04:xx UTC run pings"; exit 0; fi
