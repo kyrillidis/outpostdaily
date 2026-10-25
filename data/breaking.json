@@ -1,23 +1,38 @@
 {
- "updated": "2026-10-25T11:29:50.391Z",
+ "updated": "2026-10-25T11:39:46.500Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "MarketWatch",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -32,34 +47,19 @@
    "n": 2
   },
   {
-   "name": "The DFIR Report",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "ransomware.live",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "DarkForums",
@@ -99,10 +99,21 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 6
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2114319851917279342",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "IndiGo and Air India will move some of their international operations to Navi Mumbai International Airport as two of India’s biggest airlines expand their presence at the new facility",
+   "url": "https://x.com/business/status/2114319851917279342",
+   "published": "2026-10-25T11:35:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114318622663270674",
    "kind": "x",
@@ -113,6 +124,17 @@
    "published": "2026-10-25T11:30:16.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n4e84cc0a53",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s the real signal to watch for the Fed’s next move",
+   "url": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+   "published": "2026-10-25T11:30:00.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2114317325172088972",
@@ -848,6 +870,17 @@
    "title": "‼️ Attackers are exploiting a critical Fortinet FortiSIEM flaw that lets them run code without logging in, Canada's Cyber Centre says. Horizon3 released an exploit for CVE-2026-106173 on Oct 20. Version 7.5.1 fixes it. Fortinet still…",
    "url": "https://x.com/IntCyberDigest/status/2114258408304222593",
    "published": "2026-10-25T07:31:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "r650b25fe78",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "qilin claims ETO (DE)",
+   "url": "https://www.ransomware.live/id/RVRPQHFpbGlu",
+   "published": "2026-10-25T07:24:50.523Z",
    "severity": "normal",
    "verified": false
   },
@@ -3368,39 +3401,6 @@
    "url": "https://x.com/business/status/2114046783898767607",
    "published": "2026-10-24T17:30:05.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nf34f57e317",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
-   "url": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
-   "published": "2026-10-24T17:23:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neb75e57028",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-24T17:21:42.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114043547502444736",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇯🇵 🚨 JAPAN: THREAT ACTOR LEAKS ALLEGED YAKULT HONSHA CUSTOMER DATABASE A threat actor on a dark web forum has published a file it says was dumped from the official website of Yakult Honsha, the Japanese probiotic drinks maker. The…",
-   "url": "https://x.com/DailyDarkWeb/status/2114043547502444736",
-   "published": "2026-10-24T17:17:13.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
