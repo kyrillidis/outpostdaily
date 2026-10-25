@@ -132,6 +132,18 @@ const kevTable = (kev, { head = true } = {}) =>
   kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
 
+// whole-number percentages that add up to exactly 100 (largest remainder)
+const pctSplit = (counts) => { const t = counts.reduce((a, b) => a + b, 0) || 1, raw = counts.map((c) => (c * 100) / t), out = raw.map(Math.floor); let left = 100 - out.reduce((a, b) => a + b, 0); raw.map((v, i) => [v - out[i], i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (left-- > 0) out[i]++; }); return out; };
+function pulseHtml(ed) {
+  const secs = ['cyber', 'warfare', 'geo'], counts = secs.map((s) => ed.items.filter((i) => i.section === s).length);
+  if (!counts.some(Boolean)) return '';
+  const pct = pctSplit(counts), scored = ed.kev.filter((k) => k.cvss != null), crit = scored.filter((k) => k.cvss >= 9).length, rw = ed.kev.filter((k) => k.ransomware).length;
+  const share = (n, d) => (d ? Math.round((n * 100) / d) : 0);
+  return `<section class="pulse" aria-label="Today in numbers"><div class="pulse-mix"><p class="pulse-t">Today’s mix, ${ed.items.length} stories</p><div class="mixbar" role="img" aria-label="${secs.map((s, i) => `${DOMAIN_LABEL[s]} ${pct[i]} percent`).join(', ')}">${secs.map((s, i) => (pct[i] ? `<span data-domain="${s}" style="--w:${pct[i]}"></span>` : '')).join('')}</div><ul class="mixkey">${secs.map((s, i) => `<li data-domain="${s}">${DOMAIN_LABEL[s]} <b>${pct[i]}%</b></li>`).join('')}</ul></div>` +
+    (scored.length ? `<div class="pulse-stat"><b>${share(crit, scored.length)}%</b><span>of ${scored.length} newly exploited CVEs score critical (9.0 or higher)</span></div>` : '') +
+    (rw ? `<div class="pulse-stat"><b>${share(rw, ed.kev.length)}%</b><span>of ${ed.kev.length} are known to be used in ransomware attacks</span></div>` : ed.items.length ? `<div class="pulse-stat"><b>${new Set(ed.items.map((i) => i.source)).size}</b><span>outlets reporting across today’s ${ed.items.length} stories</span></div>` : '') + '</section>';
+}
+
 const analysisHtml = (ed, lvl = 3) => {
   const a = ed.analysis;
   if (!a?.headline) return '';
@@ -360,8 +372,8 @@ function pageFor(ed, route) {
   const ranked = [...ed.items].sort((a, b) => b.score - a.score);
   const d = dMid(ed.compiled);
   const heads = (sec, n) => ranked.filter((i) => i.section === sec).slice(0, n).map((i) => plain(i.title).replace(/[.\s]+$/, ''));
-  const per = (s) => ranked.filter((i) => i.section === s).slice(0, 2);
-  const front = [per('cyber')[0], per('warfare')[0], per('geo')[0], per('cyber')[1], per('warfare')[1], per('geo')[1]].filter(Boolean);
+  const per = (s) => ranked.filter((i) => i.section === s).slice(0, 4);
+  const front = [0, 1, 2, 3].flatMap((k) => ['cyber', 'warfare', 'geo'].map((s) => per(s)[k])).filter(Boolean).slice(0, 10);
   const secList = (s, path) => ranked.filter((i) => i.section === s).map((i) => ({ title: i.title, url: `${SITE}${path}#s-${i.id}` }));
   const r = R[route];
   const sec = (section, title, sub) => sectionPage(ed, section, { title, sub, lvl: 2, route });
@@ -369,9 +381,10 @@ function pageFor(ed, route) {
     'top-stories': {
       title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`,
       desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158),
-      main: secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
-        (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') +
-        (front.length > 1 ? `<h2 class="group-title">Latest</h2><div class="entries cards">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline') + analysisHtml(ed, 3) + termsPanel('home') +
+      main: secHead({ title: 'Top Stories', sub: 'Cyber, warfare technology and geopolitics, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
+        pulseHtml(ed) +
+        (front.length ? `<div class="front"><div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>${front.length > 1 ? `<aside class="front-side" aria-labelledby="side-h"><h2 class="group-title" id="side-h">Also leading</h2><div class="entries">${front.slice(1, 4).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div></aside>` : ''}</div>` : '') +
+        (front.length > 4 ? `<h2 class="group-title">Latest</h2><div class="entries cards">${front.slice(4).map((it, i) => entry(it, { n: i + 5, lvl: 3 })).join('\n')}</div>` : '') + ad('inline') + analysisHtml(ed, 3) + termsPanel('home') +
         ['cyber', 'warfare', 'geo'].map((sec) => {
           const more = ranked.filter((i) => i.section === sec && !front.includes(i)).slice(0, 3);
           return more.length ? `<section class="band" data-domain="${sec}"><h2 class="group-title"><a href="${SECTION_ROUTE[sec].path}">More from ${DOMAIN_LABEL[sec]}</a></h2><div class="entries cards">${more.map((it) => entry(it, { n: ranked.indexOf(it) + 1, lvl: 3 })).join('\n')}</div></section>` : '';
