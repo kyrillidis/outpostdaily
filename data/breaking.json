@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:46:26.171Z",
+ "updated": "2026-10-25T15:53:32.452Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,14 +7,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -22,9 +17,14 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "Al Jazeera",
@@ -37,17 +37,12 @@
    "n": 0
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -57,22 +52,27 @@
    "n": 1
   },
   {
-   "name": "ransomware.live",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "ransomware.live",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
    "name": "X cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,32 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 10
+   "n": 3
   }
  ],
  "items": [
+  {
+   "id": "x2114384027452948770",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "A Roche drug billed as a potential blockbuster helped patients with a form of lung cancer that had spread live almost six months longer than two competitive medicines, according to new findings",
+   "url": "https://x.com/business/status/2114384027452948770",
+   "published": "2026-10-25T15:50:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n9e8f060397",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "published": "2026-10-25T15:49:38.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2114382773330842070",
    "kind": "x",
@@ -3378,28 +3400,6 @@
    "title": "Trump Boasts: Greenland and Venezuela, We Got Them Both for Zero",
    "url": "https://x.com/FirstSquawk/status/2114153591485423837",
    "published": "2026-10-25T00:34:29.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114153466973295028",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ An anonymous X account outed Claude Code engineer Thariq Shihipar's exit from Anthropic over 4 hours before he announced it. Shihipar confirmed he had left, then asked Gmail to stop people scanning for deactivated email addresses. \"I…",
-   "url": "https://x.com/IntCyberDigest/status/2114153466973295028",
-   "published": "2026-10-25T00:34:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114153359523611042",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Trump Says US Should Prioritize Immigrants From Norway, Sweden and Denmark",
-   "url": "https://x.com/FirstSquawk/status/2114153359523611042",
-   "published": "2026-10-25T00:33:34.000Z",
    "severity": "normal",
    "verified": false
   }
