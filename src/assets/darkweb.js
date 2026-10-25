@@ -69,3 +69,13 @@
   update(true);
   if (live) setTimeout(function () { live.setAttribute('aria-live', 'polite'); }, 0);
 })();
+
+/* reveal a blurred post image on request (each image separately; nothing is stored) */
+(function () {
+  document.addEventListener('click', function (e) {
+    var b = e.target && e.target.closest ? e.target.closest('.dk-reveal') : null;
+    if (!b) return;
+    var fig = b.closest('.dk-media');
+    if (fig) fig.setAttribute('data-state', 'show');
+  });
+})();

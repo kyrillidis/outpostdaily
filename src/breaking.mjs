@@ -29,6 +29,17 @@ const sevOf = (t, group = 'cyber') => (({ cyber: critical, redteam: critical, bl
 const health = [];
 const found = [];
 
+// First attached photo of a post (only photos hosted on X's own image host). The page never hotlinks it: src/darkweb.mjs downloads a small copy.
+let seenShape = false;
+function photoOf(t) {
+  const lists = [t.extendedEntities?.media, t.extended_entities?.media, t.entities?.media, t.media, t.photos].filter(Array.isArray);
+  for (const l of lists) for (const m of l) {
+    const u = typeof m === 'string' ? m : m?.media_url_https ?? m?.media_url ?? m?.url ?? '';
+    if (/^https:\/\/pbs\.twimg\.com\//.test(u) && (typeof m === 'string' || !m.type || m.type === 'photo')) return u;
+  }
+  return '';
+}
+
 // ---------- X through twitterapi.io: one search call per group returns only tweets newer than the last run ----------
 async function pullX() {
   const key = process.env.TWITTERAPI_KEY;
@@ -47,7 +58,9 @@ async function pullX() {
         const text = strip(t.text);
         if (text.length < 20) continue;
         const handle = t.author?.userName ?? '';
-        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: new Date(t.createdAt).toISOString(), severity: sevOf(text, group), verified: false });
+        const img = group === 'darkweb' ? photoOf(t) : '';
+        if (group === 'darkweb' && !seenShape) { seenShape = true; console.log('x sample keys:', Object.keys(t).join(','), '| media keys:', Object.keys(t).filter((k) => /media|entit|photo/i.test(k)).join(',') || 'none'); }
+        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: new Date(t.createdAt).toISOString(), severity: sevOf(text, group), verified: false, ...(img && { img }) });
       }
       health.push({ name: `X ${group}`, ok: true, n: tweets.length });
     } catch (e) { health.push({ name: `X ${group}`, ok: false, error: String(e.message).slice(0, 80) }); }

@@ -1,7 +1,7 @@
 // Dark web context articles: one batched AI call per run for NEW forum/ransomware/darkweb-X claims.
 // The original claim link is kept unchanged; AI text is framed as an unverified claim plus general background.
 import { fileURLToPath } from 'node:url';
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => { try { return existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb; } catch { return fb; } };
@@ -48,6 +48,34 @@ async function callModel(list) {
 // X posts in the dark web group are only written up when they are actually about a security event
 const SECURITY = /\b(ransomware|breach\w*|leak\w*|hack\w*|data|records|customers?|victims?|vulnerabilit\w*|flaws?|exploit\w*|malware|ddos|targeted|attack\w*|extortion|portal|access|credentials?|patch\w*|certificate|threat|cyber\w*|stolen|sale|sells?|selling|compromis\w*|websites?|defacement|forum|qilin|lockbit|akira|cl0p|clop|blackcat|alphv|rhysida|medusa|bianlian|safepay|everest|dragonforce|cloak|falcon|panzer|inc ransom|play ransom|hunters)\b/i;
 
+// Small local copy of the picture attached to a post (config/breaking.json "darkwebImages": "off" | "blur" | "show").
+// Never hotlinked. Needs sharp; without it (or on any failure) the claim simply has no picture.
+const IMG_DIR = 'public/img/dw/';
+async function attachImages(items, rawById, mode) {
+  if (mode === 'off') return;
+  let sharp;
+  try { sharp = (await import('sharp')).default; } catch { return; }
+  mkdirSync(ROOT + IMG_DIR, { recursive: true });
+  let n = 0;
+  for (const it of items) {
+    const file = `${IMG_DIR}${it.id}.webp`;
+    if (!/^[\w-]+$/.test(it.id)) continue;
+    if (existsSync(ROOT + file) && it.image) continue;
+    const src = rawById.get(it.id)?.img;
+    if (!src || !/^https:\/\/pbs\.twimg\.com\//.test(src) || n >= 12) continue;
+    n++;
+    try {
+      const res = await fetch(src.includes('?') ? src : `${src}?name=medium`, { headers: { 'user-agent': 'OutpostDailyBot/1.0 (+https://www.outpostdaily.com)', accept: 'image/*' }, signal: AbortSignal.timeout(15000) });
+      if (!res.ok || !/^image\//.test(res.headers.get('content-type') ?? '')) continue;
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length > 8e6) continue;
+      const out = await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: 62 }).toBuffer({ resolveWithObject: true });
+      writeFileSync(ROOT + file, out.data);
+      it.image = '/' + file.slice('public/'.length); it.imageW = out.info.width; it.imageH = out.info.height;
+    } catch { /* no picture for this one */ }
+  }
+}
+
 export async function updateDarkweb({ now = new Date(), call = callModel } = {}) {
   const breaking = read('data/breaking.json', { items: [] });
   const store = read('data/darkweb.json', { items: [] });
@@ -75,6 +103,9 @@ export async function updateDarkweb({ now = new Date(), call = callModel } = {})
   const cutoff = now.getTime() - KEEP_DAYS * 864e5;
   const items = [...known.values()].filter((i) => Date.parse(i.published) >= cutoff)
     .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_ITEMS);
+  const mode = read('config/breaking.json', {}).darkwebImages ?? 'blur';
+  await attachImages(items, new Map((breaking.items ?? []).map((i) => [i.id, i])), mode);
+  if (existsSync(ROOT + IMG_DIR)) { const keep = new Set(items.map((i) => (i.image ?? '').split('/').pop())); for (const f of readdirSync(ROOT + IMG_DIR)) if (!keep.has(f)) unlinkSync(ROOT + IMG_DIR + f); }
   writeFileSync(ROOT + 'data/darkweb.json', JSON.stringify({ updated: now.toISOString(), items }, null, 1) + '\n');
   console.log(`darkweb: ${fresh.length} new, ${items.length} kept`);
   return items;

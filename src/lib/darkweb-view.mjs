@@ -87,7 +87,7 @@ const SECTOR_ICON = { Healthcare: 's-health', Government: 's-gov', Defence: 's-d
 const ORIGINAL = { x: 'Original post on X', forum: 'Original forum post', ransomware: 'Original listing' };
 
 // ---------- the page ----------
-export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, breaches = { items: [] }, now = Date.now() } = {}) {
+export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, breaches = { items: [] }, now = Date.now(), imageMode = 'blur' } = {}) {
   const t0 = Number(now) || Date.now();
   const used = new Set();
   const ic = (id, cls = 'dk-ic') => { used.add(id); return `<svg class="${cls}" aria-hidden="true"><use href="#dk-${id}"/></svg>`; };
@@ -106,7 +106,6 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
   const recentBreaches = leaks.filter((b) => within(b.addedDate, BREACH_DAYS));
 
   // ----- 1. note and 2. stats -----
-  const note = `<div class="dk-note" role="note">${ic('i-info')}<p><strong>Everything below is a claim by someone else.</strong> Outpost has not verified it. We restate each claim in neutral words, add general background and link the original post. We never republish leaked data or host screenshots of it. <a href="/methodology/">How we handle claims</a></p></div>`;
   const stat = (n, label) => `<div><dt>${esc(label)}</dt><dd>${n}</dd></div>`;
   const stats = `<dl class="dk-stats">${stat(posts.length, 'Claims written up')}${stat(recent.length, 'Ransomware listings, 7 days')}${stat(groupTally.size, 'Active groups, 7 days')}${stat(recentBreaches.length, 'Confirmed breaches, 45 days')}</dl>`;
 
@@ -123,7 +122,7 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
       : '';
     const rest = posts.length - LIMIT;
     return `<section class="dk-sec" id="dk-claims" aria-labelledby="dk-claims-h">${head(`<p class="dk-sechmeta">${plural(posts.length, 'write-up')}, newest first</p>`)}` +
-      `<p class="dk-lede">Each card restates one post in neutral words, with general background and what defenders can do. Every one links to the original.</p>${filters}` +
+      `${filters}` +
       `<p class="dk-live" id="dk-live" role="status" aria-live="polite">${posts.length === 1 ? 'Showing 1 claim.' : `Showing all ${posts.length} claims.`}</p>` +
       `<div class="dk-grid" id="dk-grid" data-limit="${LIMIT}">${rows.map(({ c, k }) => card(c, k)).join('')}</div>` +
       (rest > 0 ? `<p class="dk-morewrap"><button type="button" class="dk-morebtn" id="dk-more" aria-expanded="false" aria-controls="dk-grid">Show ${plural(rest, 'more claim')}</button></p>` : '') + '</section>';
@@ -146,7 +145,16 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
     const link = href
       ? `<a class="dk-orig" href="${esc(href)}" target="_blank" rel="${c.kind === 'forum' ? 'noopener nofollow ugc' : 'noopener'}">${esc(ORIGINAL[c.kind] ?? 'Original source')}${ic('i-ext')}<span class="sr-only"> (opens in a new tab)</span></a>`
       : '<span class="dk-n">Original link unavailable</span>';
-    return `<article class="dk-card kw-unit" data-cat="${cat}"><div class="dk-tile">${ic(`c-${cat}`)}<div class="dk-tb"><p class="dk-cat">${esc(k.categoryLabel)}</p>${facts ? `<dl class="dk-facts">${facts}</dl>` : ''}</div></div>` +
+    // the picture attached to the original post: our own small copy, blurred until clicked unless imageMode is 'show'
+    const shot = imageMode !== 'off' && /^\/img\/dw\/[\w-]+\.webp$/.test(str(c.image)) ? c.image : '';
+    const mediaFacts = [k.categoryLabel, k.sector, k.countryName || k.country, k.records].filter(Boolean).join(' · ');
+    const tile = shot ? '' : `<div class="dk-tile">${ic(`c-${cat}`)}<div class="dk-tb"><p class="dk-cat">${esc(k.categoryLabel)}</p>${facts ? `<dl class="dk-facts">${facts}</dl>` : ''}</div></div>`;
+    const visual = shot
+      ? `<figure class="dk-media" data-state="${imageMode === 'show' ? 'show' : 'blur'}"><img src="${esc(shot)}" width="${Number(c.imageW) || 720}" height="${Number(c.imageH) || 405}" alt="Image attached to the original post" loading="lazy" decoding="async">` +
+        `${imageMode === 'show' ? '' : '<div class="dk-hold"><button type="button" class="dk-reveal">Show image</button><p>From the original post. May show sensitive material.</p></div>'}` +
+        `<figcaption><span>${esc(mediaFacts)}</span><span>Image: ${esc(str(c.source) || 'original post')}</span></figcaption></figure>`
+      : '';
+    return `<article class="dk-card kw-unit" data-cat="${cat}">${shot ? visual : tile}` +
       `<h3 class="dk-title">${esc(headline)}</h3><p class="dk-meta">${actor ? `<span class="dk-actor">Actor: ${esc(actor)}</span>` : ''}${source ? `<span>${esc(source)}</span>` : ''}${timeTag(c.published, 'dk-time')}</p>` +
       `${sentence ? `<p class="dk-claim">${esc(sentence)}</p>` : ''}${more}<p class="dk-foot"><span class="dk-unv">Unverified claim</span>${link}</p></article>`;
   }
@@ -195,5 +203,5 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
 
   // ----- sprite: only the symbols this render references -----
   const sprite = `<svg class="dk-sprite" aria-hidden="true" focusable="false">${[...used].map((id) => `<symbol id="dk-${id}" viewBox="0 0 24 24">${ICONS[id]}</symbol>`).join('')}</svg>`;
-  return `<div class="dk" id="dk">${sprite}${note}${stats}${claimsHtml}${trackerHtml}${breachesHtml}${methodHtml}</div>`;
+  return `<div class="dk" id="dk">${sprite}${claimsHtml}${stats}${trackerHtml}${breachesHtml}${methodHtml}</div>`;
 }

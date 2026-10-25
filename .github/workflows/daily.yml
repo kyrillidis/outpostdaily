@@ -49,6 +49,7 @@ jobs:
           git config user.name "outpost-bot"
           git config user.email "outpost-bot@users.noreply.github.com"
           git add data public/img/news
+          if [ -d public/img/dw ]; then git add -A public/img/dw; fi
           if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; echo "no changes"; exit 0; fi
           git commit -m "edition: $(date -u +%FT%H:%MZ)"
           git pull --rebase -q

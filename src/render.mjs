@@ -158,7 +158,7 @@ const analysisHtml = (ed, lvl = 3) => {
 // The Dark web page body is built by src/lib/darkweb-view.mjs from three data files; this only adds the page header and ad slot.
 function darkwebHtml() {
   return secHead({ title: 'Dark web', sub: 'Claims from ransomware leak sites, forums and social media, with context, plus confirmed breaches. Newest first.' }) + ad('top') +
-    renderDarkwebBody({ claims: darkweb.items ?? [], ransomware: ransomware, breaches: breaches, now: Date.now() });
+    renderDarkwebBody({ claims: darkweb.items ?? [], ransomware: ransomware, breaches: breaches, now: Date.now(), imageMode: breakingCfg.darkwebImages ?? 'blur' });
 }
 
 function todayHtml(ed, top) {

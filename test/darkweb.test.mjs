@@ -52,7 +52,7 @@ test('renders real-shaped fixtures into the four sections', () => {
   const html = render();
   assert.equal(typeof html, 'string');
   for (const id of ['dk-claims', 'dk-tracker', 'dk-breaches', 'dk-method']) assert.ok(html.includes(`id="${id}"`), `missing section ${id}`);
-  assert.match(html, /Everything below is a claim by someone else/);
+  assert.doesNotMatch(html, /dk-note/); // the long note is gone; every card carries its own 'Unverified claim' label instead
   assert.match(html, /href="\/methodology\/"/);
   assert.match(html, /Latest 4 listings|Latest \d+ listings/);
 });
@@ -236,4 +236,32 @@ test('the real data renders within the size budget', { skip: !existsSync(ROOT + 
   assert.equal(cards(html).length, j('data/darkweb.json').items.length);
   const all = ids(html);
   assert.equal(new Set(all).size, all.length);
+});
+
+// ---------- pictures attached to X posts: our own copy, blurred until clicked, credited, never hotlinked ----------
+test('a claim with a stored picture shows it blurred behind a button, with a credit and a local src', () => {
+  const html = renderDarkwebBody({ claims: [claim({ image: '/img/dw/x1.webp', imageW: 720, imageH: 405 })], now: NOW });
+  assert.match(html, /<figure class="dk-media" data-state="blur"><img src="\/img\/dw\/x1\.webp" width="720" height="405"/);
+  assert.match(html, /class="dk-reveal"/);
+  assert.match(html, /Image: @DailyDarkWeb/);
+  assert.doesNotMatch(html, /<img[^>]+src="https?:/);
+});
+
+test('imageMode show drops the blur and the button; imageMode off hides the picture entirely', () => {
+  const c = [claim({ image: '/img/dw/x1.webp', imageW: 720, imageH: 405 })];
+  const shown = renderDarkwebBody({ claims: c, now: NOW, imageMode: 'show' });
+  assert.match(shown, /data-state="show"/); assert.doesNotMatch(shown, /dk-reveal/);
+  const off = renderDarkwebBody({ claims: c, now: NOW, imageMode: 'off' });
+  assert.doesNotMatch(off, /dk-media/); assert.match(off, /dk-tile/);
+});
+
+test('only local /img/dw/ webp paths are ever rendered as a picture', () => {
+  for (const bad of ['https://pbs.twimg.com/media/a.jpg', '//evil.test/a.webp', '/img/dw/../../x.webp', 'javascript:alert(1)', '/img/news/a.webp']) {
+    assert.doesNotMatch(renderDarkwebBody({ claims: [claim({ image: bad })], now: NOW }), /dk-media/, bad);
+  }
+});
+
+test('a claim without a picture keeps the drawn tile', () => {
+  const html = renderDarkwebBody({ claims: [claim()], now: NOW });
+  assert.match(html, /dk-tile/); assert.doesNotMatch(html, /dk-media/);
 });
