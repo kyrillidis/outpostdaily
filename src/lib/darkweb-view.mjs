@@ -87,6 +87,22 @@ const SECTOR_ICON = { Healthcare: 's-health', Government: 's-gov', Defence: 's-d
 const ORIGINAL = { x: 'Original post on X', forum: 'Original forum post', ransomware: 'Original listing' };
 
 // ---------- the page ----------
+// Forum threads need an account, so the page only ever has their titles. Point readers at public coverage of the same claim instead of generic filler:
+// another claim (usually an X write-up) that shares at least two distinctive words with the thread title.
+const STOP = new Set('about after alleged allegedly claim claims claimed data forum from have into leak leaks leaked post posts that their this threat actor sale selling source with'.split(' '));
+const words = (t) => new Set(String(dec(t)).toLowerCase().match(/[a-z0-9]{4,}/g)?.filter((w) => !STOP.has(w)) ?? []);
+function relatedTo(c, all) {
+  const mine = words(`${c.headline} ${c.claim}`);
+  let best = null, bestN = 1;
+  for (const o of all) {
+    if (o === c || o.kind === 'forum' || !/^https?:\/\//.test(str(o.url))) continue;
+    const theirs = words(`${o.headline} ${o.claim}`);
+    const n = [...mine].filter((w) => theirs.has(w)).length;
+    if (n > bestN) { best = o; bestN = n; }
+  }
+  return best;
+}
+
 export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, breaches = { items: [] }, now = Date.now(), imageMode = 'blur' } = {}) {
   const t0 = Number(now) || Date.now();
   const used = new Set();
@@ -139,9 +155,12 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
     const headline = str(c.headline) || str(c.claim);
     const sentence = str(c.claim) && str(c.claim) !== headline ? str(c.claim) : '';
     const advice = (Array.isArray(c.advice) ? c.advice : []).map(str).filter(Boolean);
-    const more = str(c.context) || advice.length
-      ? `<details class="dk-more"><summary>${ic('i-chev')}Context and what defenders can do</summary>${str(c.context) ? `<p>${esc(c.context)}</p>` : ''}${advice.length ? `<p class="dk-sub">What defenders can do</p><ul>${advice.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}</details>`
-      : '';
+    const rel = c.kind === 'forum' ? relatedTo(c, claims) : null;
+    const more = c.kind === 'forum'
+      ? `<details class="dk-more"><summary>${ic('i-chev')}What we can see</summary><p>Forum threads can only be read by members, so Outpost has the title of this post and nothing else. It does not log in to criminal forums.</p>${rel ? `<p>Public coverage of what looks like the same claim: <a href="${esc(url(rel.url))}" target="_blank" rel="noopener">${esc(str(rel.headline) || str(rel.claim))}</a> (${esc(str(rel.source))}).</p>` : '<p>No public write-up of this claim has been found yet.</p>'}</details>`
+      : str(c.context) || advice.length
+        ? `<details class="dk-more"><summary>${ic('i-chev')}Context and what defenders can do</summary>${str(c.context) ? `<p>${esc(c.context)}</p>` : ''}${advice.length ? `<p class="dk-sub">What defenders can do</p><ul>${advice.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}</details>`
+        : '';
     const link = href
       ? `<a class="dk-orig" href="${esc(href)}" target="_blank" rel="${c.kind === 'forum' ? 'noopener nofollow ugc' : 'noopener'}">${esc(ORIGINAL[c.kind] ?? 'Original source')}${ic('i-ext')}<span class="sr-only"> (opens in a new tab)</span></a>`
       : '<span class="dk-n">Original link unavailable</span>';

@@ -230,7 +230,7 @@ test('the real data renders within the size budget', { skip: !existsSync(ROOT + 
   const j = (p) => JSON.parse(readFileSync(ROOT + p, 'utf8'));
   const html = renderDarkwebBody({ claims: j('data/darkweb.json').items, ransomware: j('data/ransomware.json'), breaches: j('data/breaches.json'), now: Date.parse(j('data/ransomware.json').updated) });
   assert.ok(Buffer.byteLength(html) < 110 * 1024, `body is ${Buffer.byteLength(html)} bytes`);
-  assert.doesNotMatch(html, /<img\b/i);
+  for (const m of html.matchAll(/<img\b[^>]*>/gi)) assert.match(m[0], /src="\/img\/dw\/[\w-]+\.webp"/, 'only our own local copies may be images');
   assert.doesNotMatch(visible(html), /darkwebinformer/i);
   assert.doesNotMatch(visible(html), OLD_SOURCE);
   assert.equal(cards(html).length, j('data/darkweb.json').items.length);
