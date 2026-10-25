@@ -1,13 +1,43 @@
 {
- "updated": "2026-10-25T16:51:04.258Z",
+ "updated": "2026-10-25T16:57:34.753Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Krebs on Security",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -17,39 +47,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "Dark Reading",
@@ -89,20 +89,53 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 1
+   "n": 2
   }
  ],
  "items": [
+  {
+   "id": "x2114400593389158906",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "CENTCOM Commander Admiral Brad Cooper visited the AOR recently and conducted meeting with servicemembers involved in mine clearance operations, the ongoing U.S. blockade of vessels traveling to and from Iran, and other efforts. The visit…",
+   "url": "https://x.com/sentdefender/status/2114400593389158906",
+   "published": "2026-10-25T16:55:59.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114400381664952463",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Epicentr, a major Ukrainian home improvement retailer, said its business had been “destroyed” by a rapid-fire succession of Russian airstrikes on its distribution centers",
+   "url": "https://x.com/business/status/2114400381664952463",
+   "published": "2026-10-25T16:55:09.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114400122465354188",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Nearly 100 Election Ballots Discovered Among Discarded Mail in Seattle Dumpster",
+   "url": "https://x.com/zerohedge/status/2114400122465354188",
+   "published": "2026-10-25T16:54:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "n1a41f3b5e5",
    "kind": "news",
@@ -212,6 +245,17 @@
    "published": "2026-10-25T16:31:00.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n2af05852f8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+   "published": "2026-10-25T16:30:51.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114392824359624846",
@@ -3356,50 +3400,6 @@
    "title": "Trump Indicates Openness to Issuing Pardons for Administration Officials - WSN",
    "url": "https://x.com/FirstSquawk/status/2114169968787181700",
    "published": "2026-10-25T01:39:34.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114169736569532417",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Libya’s PM Dbeibah Says Tripoli Is Ready to Discuss Egypt’s Maritime Concerns - RTRS",
-   "url": "https://x.com/FirstSquawk/status/2114169736569532417",
-   "published": "2026-10-25T01:38:39.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114169160175632566",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Trump: We May Have to Settle the Iran Issue Once and for All, or Reach an Agreement",
-   "url": "https://x.com/FirstSquawk/status/2114169160175632566",
-   "published": "2026-10-25T01:36:21.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114168830649942184",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Former President Barack Obama pinned inflation and high prices on President Donald Trump and urged Democrats to get to the polls, especially for Senate hopeful Abdul El-Sayed",
-   "url": "https://x.com/business/status/2114168830649942184",
-   "published": "2026-10-25T01:35:03.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114167811308433717",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Britt McHenry is no longer in her role as a press advisor for Trump’s Department of State following a viral video that showed her throwing a drink at a Wizards game, per FOS She had just joined the admin last month",
-   "url": "https://x.com/unusual_whales/status/2114167811308433717",
-   "published": "2026-10-25T01:31:00.000Z",
    "severity": "normal",
    "verified": false
   }
