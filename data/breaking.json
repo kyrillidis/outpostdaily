@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:17:19.450Z",
+ "updated": "2026-10-25T15:28:49.013Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -8,6 +8,16 @@
   },
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -22,27 +32,17 @@
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BBC World",
    "ok": true,
    "n": 2
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -52,14 +52,14 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "ransomware.live",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -67,14 +67,14 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
-   "name": "DarkForums",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -99,10 +99,65 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 11
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2114378739580797260",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "\"Axios\": The White House sees Netanyahu's intensified moves to pressure Trump as \"a sign of desperation\"",
+   "url": "https://x.com/FirstSquawk/status/2114378739580797260",
+   "published": "2026-10-25T15:29:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114378687374389482",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "\"Axios\": Netanyahu pressures Trump to offer more support ahead of Tuesday's elections",
+   "url": "https://x.com/FirstSquawk/status/2114378687374389482",
+   "published": "2026-10-25T15:28:56.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114378422424371490",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Libyan Unity Government's Foreign Ministry: Summoning the US Chargé d'Affaires Following Offensive Statements from Washington Against Libya",
+   "url": "https://x.com/FirstSquawk/status/2114378422424371490",
+   "published": "2026-10-25T15:27:53.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114378198792180186",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DarkWebInformer",
+   "title": "‼️🇺🇸 Astrana Health appears in a new leak-site listing involving internal financial, regulatory, operational, and employee data. 🇺🇸 Astrana Health - A U.S.-based healthcare services company focused on physician networks, care…",
+   "url": "https://x.com/DarkWebInformer/status/2114378198792180186",
+   "published": "2026-10-25T15:27:00.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114376484357861570",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "While some investors position for AI earnings, geopolitics and interest rates to send stocks either to new highs or into a tailspin, zero-day option traders have increasingly bet that the S&P 500 Index will remain calm",
+   "url": "https://x.com/business/status/2114376484357861570",
+   "published": "2026-10-25T15:20:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114374425524990442",
    "kind": "x",
@@ -3346,61 +3401,6 @@
    "url": "https://x.com/zerohedge/status/2114144941853049234",
    "published": "2026-10-25T00:00:07.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "ndcab831000",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-   "published": "2026-10-25T00:00:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2114142464588034149",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨 A crafted OpenAPI document can turn generated TypeScript clients into a code execution path; CVE-2026-108551 PoC: The flaw affects openapi-typescript-codegen and stems from unsafe interpolation inside Handlebars templates. An attacker…",
-   "url": "https://x.com/DarkWebInformer/status/2114142464588034149",
-   "published": "2026-10-24T23:50:17.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114138629375209873",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Flávio Bolsonaro and President Luiz Inácio Lula da Silva were statistically tied in a poll released on the eve of Brazil’s runoff election",
-   "url": "https://x.com/business/status/2114138629375209873",
-   "published": "2026-10-24T23:35:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114137909356044325",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🚨 UPDATE: RUBY PATCHES THE REGEX ENGINE BUGS BEHIND GITLAB'S FOUR CRITICAL RCE FLAWS Ruby released 4.0.9, 3.4.12 and 3.3.13 on Oct 23, 2026. They fix the bugs in Onigmo, Ruby's regular expression engine, that sit under GitLab's…",
-   "url": "https://x.com/DailyDarkWeb/status/2114137909356044325",
-   "published": "2026-10-24T23:32:11.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114137612852342820",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "BREAKING: Trump turned his golf empire into a billion-dollar tax shelter. Trump made about $1.4 billion from crypto in 2025, plus more than $200 million from real estate, leaving him facing a projected tax bill of over $500 million, per…",
-   "url": "https://x.com/unusual_whales/status/2114137612852342820",
-   "published": "2026-10-24T23:31:00.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
