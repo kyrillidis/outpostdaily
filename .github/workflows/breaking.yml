@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "*/5 * * * *" # GitHub runs this on a best-effort basis; expect some runs to start a few minutes late
   workflow_dispatch:
+    inputs:
+      backfill_hours:
+        description: Re-read this many hours of X posts to fill in missing pictures (0 = normal run)
+        default: "0"
 
 permissions:
   contents: write # commit data/breaking.json when something new arrives. No deploy: the page reads it live through /api/breaking
@@ -26,6 +30,7 @@ jobs:
       - name: Collect breaking items
         env:
           TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
+          BACKFILL_HOURS: ${{ inputs.backfill_hours }}
         run: node src/breaking.mjs
       - name: Commit if something new arrived
         id: commit

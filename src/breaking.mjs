@@ -31,11 +31,14 @@ const found = [];
 
 // First attached photo of a post (only photos hosted on X's own image host). The page never hotlinks it: src/darkweb.mjs downloads a small copy.
 let seenShape = false;
-function photoOf(t) {
-  const lists = [t.extendedEntities?.media, t.extended_entities?.media, t.entities?.media, t.media, t.photos].filter(Array.isArray);
-  for (const l of lists) for (const m of l) {
-    const u = typeof m === 'string' ? m : m?.media_url_https ?? m?.media_url ?? m?.url ?? '';
-    if (/^https:\/\/pbs\.twimg\.com\//.test(u) && (typeof m === 'string' || !m.type || m.type === 'photo')) return u;
+// twitterapi.io has changed its media field names before, so search the whole post for X photo URLs instead of trusting one field.
+// Quoted and retweeted posts and the author block are skipped: their pictures belong to someone else.
+function photoOf(t, depth = 0) {
+  if (!t || typeof t !== 'object' || depth > 5) return '';
+  for (const [k, v] of Object.entries(t)) {
+    if (/^(author|quoted_tweet|retweeted_tweet|quotedTweet|retweetedTweet|user)$/.test(k)) continue;
+    if (typeof v === 'string' && /^https:\/\/pbs\.twimg\.com\/media\/[\w-]+/.test(v)) return v;
+    if (v && typeof v === 'object') { const r = photoOf(v, depth + 1); if (r) return r; }
   }
   return '';
 }
@@ -44,7 +47,8 @@ function photoOf(t) {
 async function pullX() {
   const key = process.env.TWITTERAPI_KEY;
   if (!key) { health.push({ name: 'X (twitterapi.io)', ok: false, error: 'TWITTERAPI_KEY not set' }); return; }
-  const since = Math.floor((prev.updated ? Date.parse(prev.updated) - 10 * 60e3 : now - 6 * 3600e3) / 1000);
+  const back = Number(process.env.BACKFILL_HOURS) || 0; // manual runs can re-read recent posts to fill in pictures
+  const since = Math.floor((back ? now - back * 3600e3 : prev.updated ? Date.parse(prev.updated) - 10 * 60e3 : now - 6 * 3600e3) / 1000);
   let first = true;
   for (const [group, handles] of Object.entries(cfg.x)) {
     if (!first) await new Promise((r) => setTimeout(r, 5200)); // free tier: one request per 5 s
@@ -122,7 +126,9 @@ const byTitle = new Set(prev.items.map((i) => i.title.toLowerCase().slice(0, 80)
 let added = 0;
 for (const it of found.sort((a, b) => a.published.localeCompare(b.published))) {
   const tk = it.title.toLowerCase().slice(0, 80);
-  if (byId.has(it.id) || byTitle.has(tk)) continue; // same item, or the same headline already carried from another source
+  const old = byId.get(it.id);
+  if (old) { if (it.img && !old.img) { old.img = it.img; added++; } continue; } // already known: only pick up a picture it lacked
+  if (byTitle.has(tk)) continue; // same item, or the same headline already carried from another source
   byId.set(it.id, it); byTitle.add(tk); added++;
 }
 const kept = [...byId.values()].filter((i) => now - Date.parse(i.published) < KEEP_H * 3600e3).sort((a, b) => b.published.localeCompare(a.published));
