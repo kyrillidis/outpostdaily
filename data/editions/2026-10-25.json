@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "edition": 223,
- "compiled": "2026-10-25T22:27:52.976Z",
+ "compiled": "2026-10-25T22:44:46.210Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -27,6 +27,94 @@
    "ai": true
   },
   {
+   "id": "4a81541514",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "snippet": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the ne",
+   "published": "2026-10-25T17:44:09.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/4a81541514.webp",
+   "t": "2026-10-25",
+   "summary": "A security researcher says an attacker with one hacked device on a Tailscale network could reach root on other reachable servers. The attack requires Tailscale SSH configured to allow port forwarding.",
+   "why": "Review Tailscale SSH port-forwarding settings and limit which devices and servers can reach one another.",
+   "tags": [
+    "Tailscale SSH",
+    "port forwarding",
+    "root access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3eda0d6ae7",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "snippet": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial",
+   "published": "2026-10-25T17:19:46.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/3eda0d6ae7.webp",
+   "t": "2026-10-25",
+   "summary": "Threat actors have been observed using agentic AI platforms for post-exploitation after abusing PHP2Shell vulnerabilities, according to the report. One case involved a government entity.",
+   "why": "Check for PHP2Shell exploitation and unusual post-exploitation activity involving AI platforms.",
+   "tags": [
+    "PHP2Shell",
+    "AI",
+    "post-exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e85723a0f6",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+   "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
+   "published": "2026-10-25T11:00:00.000Z",
+   "also": [],
+   "score": 1.26,
+   "image": "/img/news/e85723a0f6.webp",
+   "t": "2026-10-25",
+   "summary": "SecurityWeek reports Mave, founded by Unit 8200 alumni, uses AI agents to investigate alerts across existing security stacks.",
+   "why": "Defenders should check how AI-agent investigations fit into existing alert triage and security stacks.",
+   "tags": [
+    "AI agents",
+    "alerts",
+    "security stacks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5d0e99bc98",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel",
+   "published": "2026-10-25T06:54:29.000Z",
+   "also": [],
+   "score": 1.17,
+   "image": "/img/news/5d0e99bc98.webp",
+   "t": "2026-10-25",
+   "summary": "OpenAI announced plans to train frontier models without live internet access while resuming reinforcement learning and internal inference of its most advanced models.",
+   "why": "Check isolation and monitoring controls around model training and internal inference.",
+   "tags": [
+    "frontier model training",
+    "reinforcement learning",
+    "internet access"
+   ],
+   "ai": true
+  },
+  {
    "id": "3ddec341f6",
    "section": "cyber",
    "source": "Help Net Security",
@@ -36,7 +124,7 @@
    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, ea",
    "published": "2026-10-25T09:00:56.000Z",
    "also": [],
-   "score": 1.12,
+   "score": 1.11,
    "image": "/img/news/3ddec341f6.webp",
    "t": "2026-10-25",
    "summary": "Help Net Security says the PHP security team announced an urgent security release, with users urged to prepare to update.",
@@ -57,7 +145,7 @@
    "snippet": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
    "published": "2026-10-24T14:17:32.000Z",
    "also": [],
-   "score": 0.93,
+   "score": 0.92,
    "image": "/img/news/a6ce317099.webp",
    "t": "2026-10-24",
    "summary": "The report says the BlackX UEFI bootkit exploited the Baton Drop flaw to bypass Secure Boot and load a malicious driver in an espionage campaign.",
@@ -66,6 +154,50 @@
     "BlackX",
     "UEFI",
     "Secure Boot"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a0a9e49aec",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffe",
+   "published": "2026-10-24T11:09:29.000Z",
+   "also": [],
+   "score": 0.76,
+   "image": "/img/news/a0a9e49aec.webp",
+   "t": "2026-10-24",
+   "summary": "A memory-corruption flaw in Google's Brotli decoder affects software that unpacks Brotli data, including Bun, Python packages and some Envoy proxies; the title says it is behind Node.js RCE.",
+   "why": "Inventory Brotli-using software and check for fixes, especially in the listed packages and proxies.",
+   "tags": [
+    "Brotli",
+    "memory corruption",
+    "RCE"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3a1a036ef7",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+   "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness r",
+   "published": "2026-10-24T11:03:33.000Z",
+   "also": [],
+   "score": 0.76,
+   "image": "/img/news/3a1a036ef7.webp",
+   "t": "2026-10-24",
+   "summary": "LiteLLM says a master key published in a public GitHub repository ultimately enabled an attacker to push a malicious version of its Python package.",
+   "why": "Check for exposed secrets and review release-pipeline activity for unauthorized changes.",
+   "tags": [
+    "master key",
+    "GitHub",
+    "release pipeline"
    ],
    "ai": true
   },
@@ -79,7 +211,7 @@
    "snippet": "The money to start AUTOWARCOM is to come from a reconciliation bill whose passage is in doubt.",
    "published": "2026-10-25T10:00:00.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.23,
    "image": "/img/news/692a07c02f.webp",
    "t": "2026-10-25",
    "summary": "Defense One reports that funding for AUTOWARCOM would come from a reconciliation bill whose passage is in doubt.",
@@ -221,7 +353,7 @@
    "snippet": "Jerusalem Daily: Israel expels thousands from Hebron",
    "published": "2026-10-25T17:12:59.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/98798f828d.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera’s headline says Israel expels thousands from Hebron; the supplied snippet provides no further details.",
@@ -242,7 +374,7 @@
    "snippet": "The global trend may show young people leaning politically to the left, but in Israel… they’re leaning to the right.",
    "published": "2026-10-25T16:30:51.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.37,
    "image": "/img/news/2af05852f8.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera says young people in Israel are leaning to the right, contrasting with a global trend it describes as leaning left.",
@@ -263,7 +395,7 @@
    "snippet": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
    "published": "2026-10-25T09:00:00.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.31,
    "image": "/img/news/2eaec01ff2.webp",
    "t": "2026-10-25",
    "summary": "Musk says SpaceX restricted Ukraine's Starlink connection and restored service; he accuses Ukraine of violating terms by using the network for military activity.",
@@ -480,8 +612,8 @@
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 5
   },
   {
    "name": "The Record",
@@ -492,8 +624,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Help Net Security",
