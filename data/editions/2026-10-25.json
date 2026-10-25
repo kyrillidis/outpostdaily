@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "edition": 223,
- "compiled": "2026-10-25T22:24:42.521Z",
+ "compiled": "2026-10-25T22:27:52.976Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -23,94 +23,6 @@
     "AGENTS",
     "AI coding agent",
     "npm"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4a81541514",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "snippet": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the ne",
-   "published": "2026-10-25T17:44:09.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/4a81541514.webp",
-   "t": "2026-10-25",
-   "summary": "A security researcher says an attacker with one hacked device on a Tailscale network could reach root on other reachable servers. The attack requires Tailscale SSH configured to allow port forwarding.",
-   "why": "Review Tailscale SSH port-forwarding settings and limit which devices and servers can reach one another.",
-   "tags": [
-    "Tailscale SSH",
-    "port forwarding",
-    "root access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3eda0d6ae7",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "snippet": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial",
-   "published": "2026-10-25T17:19:46.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/3eda0d6ae7.webp",
-   "t": "2026-10-25",
-   "summary": "Threat actors have been observed using agentic AI platforms for post-exploitation after abusing PHP2Shell vulnerabilities, according to the report. One case involved a government entity.",
-   "why": "Check for PHP2Shell exploitation and unusual post-exploitation activity involving AI platforms.",
-   "tags": [
-    "PHP2Shell",
-    "AI",
-    "post-exploitation"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e85723a0f6",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
-   "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
-   "published": "2026-10-25T11:00:00.000Z",
-   "also": [],
-   "score": 1.26,
-   "image": "/img/news/e85723a0f6.webp",
-   "t": "2026-10-25",
-   "summary": "SecurityWeek reports Mave, founded by Unit 8200 alumni, uses AI agents to investigate alerts across existing security stacks.",
-   "why": "Defenders should check how AI-agent investigations fit into existing alert triage and security stacks.",
-   "tags": [
-    "AI agents",
-    "alerts",
-    "security stacks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5d0e99bc98",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-   "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel",
-   "published": "2026-10-25T06:54:29.000Z",
-   "also": [],
-   "score": 1.18,
-   "image": "/img/news/5d0e99bc98.webp",
-   "t": "2026-10-25",
-   "summary": "OpenAI announced plans to train frontier models without live internet access while resuming reinforcement learning and internal inference of its most advanced models.",
-   "why": "Check isolation and monitoring controls around model training and internal inference.",
-   "tags": [
-    "frontier model training",
-    "reinforcement learning",
-    "internet access"
    ],
    "ai": true
   },
@@ -154,72 +66,6 @@
     "BlackX",
     "UEFI",
     "Secure Boot"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a0a9e49aec",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffe",
-   "published": "2026-10-24T11:09:29.000Z",
-   "also": [],
-   "score": 0.77,
-   "image": "/img/news/a0a9e49aec.webp",
-   "t": "2026-10-24",
-   "summary": "A memory-corruption flaw in Google's Brotli decoder affects software that unpacks Brotli data, including Bun, Python packages and some Envoy proxies; the title says it is behind Node.js RCE.",
-   "why": "Inventory Brotli-using software and check for fixes, especially in the listed packages and proxies.",
-   "tags": [
-    "Brotli",
-    "memory corruption",
-    "RCE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3a1a036ef7",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-   "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness r",
-   "published": "2026-10-24T11:03:33.000Z",
-   "also": [],
-   "score": 0.76,
-   "image": "/img/news/3a1a036ef7.webp",
-   "t": "2026-10-24",
-   "summary": "LiteLLM says a master key published in a public GitHub repository ultimately enabled an attacker to push a malicious version of its Python package.",
-   "why": "Check for exposed secrets and review release-pipeline activity for unauthorized changes.",
-   "tags": [
-    "master key",
-    "GitHub",
-    "release pipeline"
-   ],
-   "ai": true
-  },
-  {
-   "id": "afec56c724",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-   "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-   "snippet": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services lik",
-   "published": "2026-10-24T10:36:33.000Z",
-   "also": [],
-   "score": 0.75,
-   "image": "/img/news/afec56c724.webp",
-   "t": "2026-10-24",
-   "summary": "Google says personalized AI features in Search or Gemini may allow targeted ads based on activity across connected Google services.",
-   "why": "Review connected-service settings and explain how AI feature use may affect ad personalization.",
-   "tags": [
-    "Google",
-    "AI",
-    "targeted ads"
    ],
    "ai": true
   },
@@ -276,7 +122,7 @@
    "snippet": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
    "published": "2026-10-25T22:11:13.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.59,
    "image": "/img/news/3774376e93.webp",
    "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
    "ai": false
@@ -354,7 +200,7 @@
    "snippet": "Israeli governments change. US presidents come and go. But settlement expansion on occupied Palestinian land continues.",
    "published": "2026-10-25T17:53:23.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.4,
    "image": "/img/news/2749cf3d2f.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera says Israeli governments and US presidents change, while settlement expansion on occupied Palestinian land continues.",
@@ -634,8 +480,8 @@
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": true,
-   "n": 6
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "The Record",
@@ -646,8 +492,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 1
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
