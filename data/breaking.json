@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-25T20:43:05.484Z",
+ "updated": "2026-10-25T20:50:17.772Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "MarketWatch",
@@ -27,9 +32,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "The Record",
@@ -37,9 +42,9 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -52,14 +57,9 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "ransomware.live",
@@ -67,14 +67,14 @@
    "n": 4
   },
   {
-   "name": "BreachForums",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "BreachForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,32 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 1
+   "n": 2
   }
  ],
  "items": [
+  {
+   "id": "x2114459005082870231",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Brazil Supreme Court Extends Voting By Two Hours At Socialist Lula's Request",
+   "url": "https://x.com/zerohedge/status/2114459005082870231",
+   "published": "2026-10-25T20:48:06.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114458064497868828",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "⚠️ TAILWORM: RESEARCHERS SAY TAILSCALE SSH FORWARDING CAN CROSS PRIVILEGE BOUNDARIES; TAILSCALE MERGES A FIX FOR A RELATED SERVE FLAW Cyberdione Labs published \"Tailworm\", a lab-tested assessment of Tailscale 1.104.2 and headscale 0.29.5.…",
+   "url": "https://x.com/DailyDarkWeb/status/2114458064497868828",
+   "published": "2026-10-25T20:44:21.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114456558448886011",
    "kind": "x",
@@ -3378,28 +3400,6 @@
    "title": "qilin claims ECOM (CH) — Retail & E-Commerce",
    "url": "https://www.ransomware.live/id/RUNPTUBxaWxpbg==",
    "published": "2026-10-25T10:35:02.202Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114302234120815030",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Pfizer sees a path forward for an experimental lung cancer drug in combination with other medicines, despite it failing a key clinical trial",
-   "url": "https://x.com/business/status/2114302234120815030",
-   "published": "2026-10-25T10:25:09.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114301898060611618",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "APOLLO: AI HAS DELIVERED “ZERO PAYOFF” OUTSIDE BIG TECH Apollo Chief Economist Torsten Slok warns that massive AI spending has yet to deliver measurable productivity gains across corporate America. Revenue per worker and profit margins…",
-   "url": "https://x.com/DeItaone/status/2114301898060611618",
-   "published": "2026-10-25T10:23:48.000Z",
    "severity": "normal",
    "verified": false
   }
