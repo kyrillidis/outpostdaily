@@ -6,6 +6,8 @@
   function $(s, c) { return (c || doc).querySelector(s); }
   function $$(s, c) { return Array.prototype.slice.call((c || doc).querySelectorAll(s)); }
   function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function sload(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }
+  function sstore(k, v) { try { if (v == null) sessionStorage.removeItem(k); else sessionStorage.setItem(k, v); } catch (e) {} }
   function store(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} }
   function tabsHeight() { var t = $('.tabs'); return t ? t.offsetHeight : 48; }
 
@@ -41,19 +43,20 @@
     });
   }
 
-  /* ---- reading view: Read (full entries) / Scan (headlines only) ---- */
+  /* ---- reading view: Full (pictures and descriptions) / Headlines. Lasts for the visit only, so nobody gets stuck in it. ---- */
   var viewBtns = $$('[data-view-set]');
   function applyView(v) {
     var scan = v === 'scan';
     if (scan) root.setAttribute('data-view', 'scan'); else root.removeAttribute('data-view');
     viewBtns.forEach(function (b) { b.setAttribute('aria-pressed', String((b.getAttribute('data-view-set') === 'scan') === scan)); });
-    store('outpost-view', scan ? 'scan' : null);
+    sstore('outpost-view', scan ? 'scan' : null);
   }
   function setView(v) {
     if (doc.startViewTransition && !reduce) doc.startViewTransition(function () { applyView(v); });
     else applyView(v);
   }
-  applyView(load('outpost-view'));
+  store('outpost-view', null); // clear the old long-lived setting
+  applyView(sload('outpost-view'));
   viewBtns.forEach(function (b) { b.addEventListener('click', function () { setView(b.getAttribute('data-view-set')); }); });
 
   /* ---- search over the visible page ---- */
@@ -148,8 +151,8 @@
     if (!m || mo === undefined) return;
     var at = new Date(Date.UTC(+m[5], mo, +m[3], +m[1], +m[2]));
     if (isNaN(at.getTime())) return;
-    stamp.textContent = 'Compiled ' + at.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' }) +
-      ' · ' + at.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' });
+    stamp.textContent = 'Updated ' + at.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' }) +
+      ' · ' + at.toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     var stale = $('#staleness');
     if (!stale || doc.body.getAttribute('data-live') !== 'true') return;
     function tick() {

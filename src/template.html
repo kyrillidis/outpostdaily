@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{var d=document.documentElement,t=localStorage.getItem('outpost-theme'),v=localStorage.getItem('outpost-view');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(v==='scan')d.setAttribute('data-view','scan')}catch(e){}</script>
+<script>try{var d=document.documentElement,t=localStorage.getItem('outpost-theme'),v=sessionStorage.getItem('outpost-view');localStorage.removeItem('outpost-view');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(v==='scan')d.setAttribute('data-view','scan')}catch(e){}</script>
 {{HEAD_META}}
 <meta name="google-adsense-account" content="ca-pub-9368478490924130">
 
@@ -51,7 +51,7 @@
 
 <header class="masthead">
   <div class="util">
-    <p class="util-edition">Edition No. {{EDITION}} · <span id="compiledStamp">Compiled {{COMPILED}}</span> <span id="staleness"></span></p>
+    <p class="util-edition"><span id="compiledStamp">Updated {{COMPILED}}</span> <span id="staleness"></span></p>
     <div class="util-tools">
       <form class="search" role="search" onsubmit="return false">
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
@@ -60,8 +60,8 @@
         <button id="kwClear" type="button" class="icon-btn" aria-label="Clear search" hidden><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
       </form>
       <div class="seg" role="group" aria-label="Reading view">
-        <button type="button" data-view-set="read" aria-pressed="true">Read</button>
-        <button type="button" data-view-set="scan" aria-pressed="false">Scan</button>
+        <button type="button" data-view-set="read" aria-pressed="true" title="Pictures and short descriptions">Full</button>
+        <button type="button" data-view-set="scan" aria-pressed="false" title="Headlines only">Headlines</button>
       </div>
       <button type="button" id="themeToggle" class="icon-btn" data-mode="auto" aria-label="Colour theme: auto. Activate to change.">
         <svg class="icon ic-auto" aria-hidden="true"><use href="#i-contrast"/></svg>
@@ -127,7 +127,7 @@
   </div>
   <div class="foot-base">
     <p>{{FOOTER_STAMP}}</p>
-    <p class="foot-keys"><kbd>/</kbd> search · <kbd>j</kbd> <kbd>k</kbd> next / previous story · <kbd>s</kbd> Read / Scan</p>
+    <p class="foot-keys"><kbd>/</kbd> search · <kbd>j</kbd> <kbd>k</kbd> next / previous story · <kbd>s</kbd> Full / Headlines</p>
   </div>
 </footer>
 </body>

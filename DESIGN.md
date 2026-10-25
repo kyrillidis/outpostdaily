@@ -107,7 +107,7 @@ Two editions of one palette. **Day** is bone-grey stock with ink-black type; **n
 
 A 1480px shell with a fluid gutter. At 1180px and above: main column plus a 380px sticky rail holding the Wire (scrolls inside itself) with the Cylist tool card pinned beneath. Below that the rail follows the main content. Sticky section tabs (48px) with scroll-margin everywhere. Single `h1` per page; entries are `h3` on the home and edition pages and `h2` on single-section pages.
 
-Reading views: **Read** (default) shows summary, why-it-matters, tags and sources; **Scan** shows headlines and datelines only. The choice persists in `localStorage` and switches through a view transition (the one authored motion; reduced motion disables it).
+Reading views: **Full** (default) shows the story picture, a short description under the headline and the dateline; **Headlines** shows a compact list with small thumbnails. The choice lasts for the visit only (`sessionStorage`) so nobody is left in it, and switches through a view transition (reduced motion disables it).
 
 ## Elevation & Depth
 

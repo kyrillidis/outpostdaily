@@ -230,7 +230,8 @@ if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
   }
 }
 
-for (const it of chosen) { const t = await thumbnail(it); if (t) it.image = t; }
+const noPhoto = new Set(['cyber', 'warfare', 'geo'].flatMap((s) => sources[s] ?? []).filter((x) => x.photos === false).map((x) => x.name)); // "photos": false in config/sources.json
+for (const it of chosen) { const t = noPhoto.has(it.source) ? null : await thumbnail(it); if (t) it.image = t; }
 // thumbnails live as long as an edition from the last 30 days uses them (file times mean nothing in a fresh CI checkout)
 {
   const keep = new Set(chosen.map((i) => i.id)), oldest = new Date(now.getTime() - 30 * 864e5).toISOString().slice(0, 10);

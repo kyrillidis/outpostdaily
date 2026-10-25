@@ -89,7 +89,8 @@ const tagList = (it) => (it.tags?.length ? `<ul class="tags">${it.tags.map((t) =
 
 // the story's own picture, thumbnailed and self-hosted at fetch time; credited to the outlet and linked to the article
 // thumbnails are named after the story id, so a story shows its picture even if the edition JSON predates the file
-const storyImage = (it) => it.image || (existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '');
+const noPhoto = new Set(['cyber', 'warfare', 'geo'].flatMap((s) => json('config/sources.json', {})[s] ?? []).filter((f) => f.photos === false).map((f) => f.name)); // sources whose pictures we do not show
+const storyImage = (it) => noPhoto.has(it.source) ? '' : it.image || (existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '');
 const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="960" height="540" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
 
 function entry(it, { n, lvl = 3, lead = false }) {
@@ -100,8 +101,8 @@ function entry(it, { n, lvl = 3, lead = false }) {
   ${storyImage(it) ? photoHtml({ ...it, image: storyImage(it) }) : ''}
   <div class="entry-body">
     <h${lvl} class="entry-title"><span class="entry-no" aria-hidden="true">${String(n).padStart(2, '0')}</span><a href="${href(it.url)}" target="_blank" rel="noopener">${esc(it.title)}<svg class="icon ext" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only"> (opens the original article)</span></a></h${lvl}>
-    <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}" data-rel>${dMid(it.published)}</time>${corr}</p>
     <p class="entry-sum">${esc(it.summary)}</p>
+    <p class="entry-line">${chip(it.section)} <span class="entry-outlet">${esc(it.source)}</span> <time datetime="${it.published}" data-rel>${dMid(it.published)}</time>${corr}</p>
     ${it.why ? `<p class="entry-why"><span class="why-label">${WHY_LABEL[it.section]}</span>${esc(it.why)}</p>` : ''}
     ${tagList(it)}
     <p class="cites"><span class="cites-label">Sources</span>${cites}</p>
@@ -138,10 +139,10 @@ function pulseHtml(ed) {
   const secs = ['cyber', 'warfare', 'geo'], counts = secs.map((s) => ed.items.filter((i) => i.section === s).length);
   if (!counts.some(Boolean)) return '';
   const pct = pctSplit(counts), scored = ed.kev.filter((k) => k.cvss != null), crit = scored.filter((k) => k.cvss >= 9).length, rw = ed.kev.filter((k) => k.ransomware).length;
-  const share = (n, d) => (d ? Math.round((n * 100) / d) : 0);
+  const share = (n, d) => (d ? Math.round((n * 100) / d) : 0), day0 = Date.parse(ed.compiled.slice(0, 10) + 'T00:00:00Z'), soon = ed.kev.filter((k) => { const d = Date.parse(`${k.due}T00:00:00Z`) - day0; return d >= 0 && d <= 7 * 864e5; }).length;
   return `<section class="pulse" aria-label="Today in numbers"><div class="pulse-mix"><p class="pulse-t">Today’s mix, ${ed.items.length} stories</p><div class="mixbar" role="img" aria-label="${secs.map((s, i) => `${DOMAIN_LABEL[s]} ${pct[i]} percent`).join(', ')}">${secs.map((s, i) => (pct[i] ? `<span data-domain="${s}" style="--w:${pct[i]}"></span>` : '')).join('')}</div><ul class="mixkey">${secs.map((s, i) => `<li data-domain="${s}">${DOMAIN_LABEL[s]} <b>${pct[i]}%</b></li>`).join('')}</ul></div>` +
     (scored.length ? `<div class="pulse-stat"><b>${share(crit, scored.length)}%</b><span>of ${scored.length} newly exploited CVEs score critical (9.0 or higher)</span></div>` : '') +
-    (rw ? `<div class="pulse-stat"><b>${share(rw, ed.kev.length)}%</b><span>of ${ed.kev.length} are known to be used in ransomware attacks</span></div>` : ed.items.length ? `<div class="pulse-stat"><b>${new Set(ed.items.map((i) => i.source)).size}</b><span>outlets reporting across today’s ${ed.items.length} stories</span></div>` : '') + '</section>';
+    (rw ? `<div class="pulse-stat"><b>${share(rw, ed.kev.length)}%</b><span>of ${ed.kev.length} are known to be used in ransomware attacks</span></div>` : soon ? `<div class="pulse-stat"><b>${soon}</b><span>of ${ed.kev.length} exploited CVEs have a CISA fix deadline in the next 7 days</span></div>` : '') + '</section>';
 }
 
 const analysisHtml = (ed, lvl = 3) => {

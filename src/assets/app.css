@@ -641,3 +641,13 @@ html:not([data-view="scan"]) .entries .entry:has(.plate) > .plate{ aspect-ratio:
   html[data-view="scan"] .entries .entry:has(.plate) > .plate{ grid-area:plate; grid-column:auto; grid-row:auto; width:auto; aspect-ratio:4/3; margin:0; }
   html[data-view="scan"] .entries .entry-lead:has(.plate){ grid-template-columns:minmax(0,1fr) 104px; grid-template-areas:"body plate"; }
 }
+
+/* ===== 19. Bigger pictures, description right under the headline, quieter photo credit ===== */
+html:not([data-view="scan"]) .entries .entry .entry-sum{ margin:0 0 .75rem; }
+html:not([data-view="scan"]) .entries .entry .entry-line{ margin:0; }
+@media (min-width:760px){
+  html:not([data-view="scan"]) .entries .entry:has(.plate){ grid-template-columns:minmax(0,1fr) minmax(300px,50%); }
+  html:not([data-view="scan"]) .entries .entry-lead:has(.plate){ grid-template-columns:minmax(0,1fr) minmax(0,1.45fr); }
+  html[data-view="scan"] .entries .entry:has(.plate){ grid-template-columns:minmax(0,1fr) 168px; }
+}
+.brand-credit{ top:6px; background:rgba(8,10,9,.5); font-size:.625rem; opacity:.85; }
