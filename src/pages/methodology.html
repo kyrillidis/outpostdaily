@@ -1,18 +1,19 @@
-<p>Outpost is compiled automatically once a day. This page explains exactly how, so you can judge how far to trust it.</p>
+<p>Outpost has two parts that work differently. The <strong>daily briefing</strong> (sections 1 to 4) is compiled from about 30 published feeds and rebuilt about every two hours. The <strong>Breaking</strong> and <strong>Dark web</strong> desks (<a href="#desks">section 5</a>) are fed more often, from faster and less reliable sources. This page explains exactly how each is made, so you can judge how far to trust it.</p>
 
 <h2>1. Sources</h2>
-<p>The briefing reads about 30 public RSS and Atom feeds: the security press and vendor research blogs (for example Krebs on Security, BleepingComputer, The Record, Unit 42, Microsoft Security and Google Threat Intelligence), defence press and analysts (Breaking Defense, Defense News, The War Zone, War on the Rocks, Bellingcat), and geopolitics, space and navigation outlets (Atlantic Council, Foreign Policy, The Diplomat, SpaceNews, Inside GNSS, BBC, Al Jazeera, DW). For vulnerabilities it uses the CISA Known Exploited Vulnerabilities catalogue and the NIST National Vulnerability Database. The complete list is in <a href="https://github.com/kyrillidis/outpostdaily/blob/main/config/sources.json" rel="noopener" target="_blank">config/sources.json</a>. Vendor blogs report their own research, so read them with that in mind.</p>
+<p>The briefing reads about 30 public RSS and Atom feeds: the security press and vendor research blogs (for example Krebs on Security, BleepingComputer, The Record, Unit 42, Microsoft Security and Google Threat Intelligence), defence press and analysts (Breaking Defense, Defense News, The War Zone, War on the Rocks, Bellingcat), and geopolitics, space and navigation outlets (Atlantic Council, Foreign Policy, The Diplomat, SpaceNews, Inside GNSS, BBC, Al Jazeera, DW). For vulnerabilities it uses the CISA Known Exploited Vulnerabilities catalogue and the NIST National Vulnerability Database. The complete list is in <a href="https://github.com/kyrillidis/outpostdaily/blob/main/config/sources.json" rel="noopener" target="_blank">config/sources.json</a>. Vendor blogs report their own research, so read them with that in mind. The Breaking and Dark web desks use further sources, described in section 5.</p>
 
 <h2>2. Collection</h2>
 <ul>
+<li><strong>Schedule:</strong> the edition is rebuilt about every two hours, so stories that appear during the day are added. Each page shows when it was last compiled.</li>
 <li><strong>Time window:</strong> only items published in the last 36 hours are kept.</li>
 <li><strong>Topic filter:</strong> general news outlets and defence press are filtered by keyword, so only items about security, defence technology, space and geopolitics get in. Everything else is dropped.</li>
-<li><strong>Copied, not rewritten:</strong> headlines, links, dates and outlet names are taken straight from the feeds.</li>
+<li><strong>Copied, not rewritten:</strong> headlines, links, dates and outlet names are taken straight from the feeds. The Breaking and Dark web desks tidy or rewrite their text, as section 5 explains.</li>
 <li><strong>Failures are shown:</strong> if a feed does not respond, it is skipped and listed on the Today &amp; Learn page.</li>
 </ul>
 
 <h2>3. Ranking</h2>
-<p>Stories are ranked by recency, a weight for the source, and how many different outlets cover the same story. Near-identical headlines from different outlets are merged into one entry that lists every outlet. Nobody can pay for inclusion or rank. The Cylist card sits outside the ranking and is labelled.</p>
+<p>Stories are ranked by recency, a weight for the source, and how many different outlets cover the same story. Near-identical headlines from different outlets are merged into one entry that names the lead outlet and up to three others that carried the story. Nobody can pay for inclusion or rank. The Cylist card sits outside the ranking and is labelled.</p>
 
 <h2>4. Summaries and the role of AI</h2>
 <ul>
@@ -20,22 +21,84 @@
 <li>It is given only the headline and the first few hundred characters of the outlet’s own snippet. It has no web access while writing.</li>
 <li>It is told not to add facts. As a safeguard, any number written in digits in its text that does not appear in the source text causes that summary to be discarded, and the outlet’s own snippet is shown instead.</li>
 <li>Links and outlet names are never written by the model.</li>
-<li>The daily checklist and the “Learn today” concepts are also model-written from the day’s headlines. Treat the checklist as a prompt for your own judgement, not as security advice.</li>
+<li>The short “Outpost analysis” on the home and Today &amp; Learn pages is written by the model from the top stories’ headlines and snippets and is labelled as AI-written. It passes through the same number check. The daily checklist and the “Learn today” concepts are also model-written from the day’s headlines but are not number-checked. Treat the checklist as a prompt for your own judgement, not as security advice.</li>
 </ul>
 <p>This guard catches invented figures. It cannot catch every misreading, so summaries can still be wrong.</p>
 
-<h2>5. What Outpost does not do</h2>
+<h2 id="desks">5. The Breaking and Dark web desks</h2>
+<p>These two pages are built for speed, not certainty. Much of what they show is a claim made by someone else that Outpost has not checked. Every item links to the original post, listing or article, so you can see it for yourself.</p>
+
+<h3>Breaking: collection</h3>
 <ul>
-<li>It does not verify events itself. It summarises and links other outlets’ reporting.</li>
-<li>It does not publish opinion or predictions of its own.</li>
+<li><strong>Schedule:</strong> a collector runs every five minutes. GitHub’s scheduler is best effort, so a run can start a few minutes late, and there is always some delay between a post and its appearance here. While the page is open in a visible tab, it asks for new items about once a minute.</li>
+<li><strong>Sources:</strong> public posts from X accounts, read through the third-party service twitterapi.io (original posts only, not replies or reposts), and the feeds of security, world and market news outlets. The accounts and feeds are listed in <a href="https://github.com/kyrillidis/outpostdaily/blob/main/config/breaking.json" rel="noopener" target="_blank">config/breaking.json</a>.</li>
+<li><strong>Streams:</strong> items are filed under Cyber, Red team, Blue team, War room (conflict and security news), Dark web and Markets.</li>
+<li><strong>Retention:</strong> items are kept for up to 72 hours. Each stream also has a cap on how many items it holds (between 50 and 140), so one busy stream cannot push the others out.</li>
+<li><strong>Failures are shown:</strong> a source that does not answer is skipped for that run, and the page says how many sources responded.</li>
+</ul>
+
+<h3>Breaking: tidying and merging</h3>
+<ul>
+<li><strong>Relevance:</strong> keyword rules drop promotional posts, require War room items to match conflict and security words, require Markets items to name a market event, and keep X posts in the cyber streams only if they match a topic label or a high-signal word. Anything that fails is dropped, so the desk is a filtered sample, not everything these accounts post.</li>
+<li><strong>Tidying:</strong> Outpost removes links, emoji, alert prefixes such as “BREAKING:” and trailing hashtags, turns text written in capitals into ordinary capitalisation, and cuts each headline to one line of at most 140 characters. The wording is otherwise the poster’s own, and the link goes to the original.</li>
+<li><strong>Merging:</strong> when several sources report the same thing, Outpost merges them into one item that lists every source. A news outlet’s report leads when there is one. Two items in the same stream count as the same story when they share several uncommon words, such as a name or a figure; common words count for very little. A merge can therefore occasionally join stories that are only similar, or miss a duplicate that is worded very differently.</li>
+</ul>
+
+<h3>Breaking: reading the labels</h3>
+<ul>
+<li><strong>Topic labels</strong> (for example Ransomware, Vulnerability, Strikes or Oil &amp; energy) come from simple keyword rules, up to two per item. They match words, not meaning, so they can be wrong: any post that mentions a database can be labelled Data breach.</li>
+<li><strong>High signal</strong> means the item matched a list of alarm words, such as “zero-day”, “actively exploited”, “data breach”, “ransomware attack”, “missile” or “ceasefire”. It is an automatic keyword match, not an editor’s judgement. It does not mean the item is confirmed, large or important.</li>
+<li><strong>Unverified</strong> marks a post by an individual account, or a third-party claim, that Outpost has not confirmed. Items from news outlets carry no such mark, but Outpost has not checked those either: it relies on the outlet’s reporting.</li>
+<li><strong>Top now</strong> shows the strongest items of the last 24 hours, at most two per stream, ranked by severity, number of sources, whether a news outlet reported them and how recent they are. Dark web and Markets are left out of it.</li>
+</ul>
+
+<h3>Dark web: what is on the page</h3>
+<p>The Dark web page gathers claims made by criminals and by people who watch them, plus a list of breaches kept by Have I Been Pwned. Treat every claim as unproven. It has four kinds of entry:</p>
+<ul>
+<li><strong>Claims from X accounts</strong> that monitor leak sites and forums. They arrive through the same five-minute collector. Outpost rewrites each post (see below) and links to the original post. It does not copy pictures or video from posts.</li>
+<li><strong>Forum claims:</strong> thread titles from the public, no-login listing pages of two criminal forums, kept when a title contains words such as database, leak, dump or breach. Outpost uses only the title and the link, never the thread itself. It does not log in and does not try to get past anti-bot checks. Links to forum posts are marked “nofollow ugc”.</li>
+<li><strong>Ransomware leak-site listings</strong> from the public API of <a href="https://www.ransomlook.io/" rel="noopener" target="_blank">RansomLook</a>, for the last seven days: the group’s name, the victim name it lists, the time, and a link to the group’s page on RansomLook. RansomLook says it tracks “what is publicly claimed on leak sites” and that claims from operators are “not independently verified”. A listing is therefore a criminal group’s claim, not a confirmed breach. Outpost keeps no screenshots and no descriptions from leak sites. The page also counts listings by group over the last seven days; these are counts of claims, not of confirmed incidents. Listings: <a href="https://www.ransomlook.io/" rel="noopener" target="_blank">RansomLook (ransomlook.io)</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a>.</li>
+<li><strong>Breaches listed by Have I Been Pwned</strong> (HIBP), added to its public breach list in the last 45 days. Outpost leaves out entries that HIBP flags as fabricated, spam lists, stealer logs, sensitive (such as adult sites) or retired. HIBP decides what to list, and it marks a breach as unverified when it may not have come from the named service; Outpost does not re-check any of it. Entries that HIBP has verified carry a “Verified breach” mark, and each entry links to its page on Have I Been Pwned. The data is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">Creative Commons Attribution 4.0</a> (CC BY 4.0). Outpost shortens the descriptions and keeps only a few fields. Source: <a href="https://haveibeenpwned.com/" rel="noopener" target="_blank">Have I Been Pwned</a> (haveibeenpwned.com).</li>
+</ul>
+
+<h3>Dark web: how AI is used</h3>
+<ul>
+<li><strong>What it does:</strong> for each new X post or forum title, a language model (the one named on the Today &amp; Learn page) writes a neutral headline framed as a claim, one sentence saying what is alleged, a short paragraph of general background and two suggested actions for defenders. Ransomware listings and breach entries are not rewritten by AI.</li>
+<li><strong>What it sees:</strong> only the text of the post or the thread title, and the name of the account or site it came from. It has no web access, does not open the link and sees no images.</li>
+<li><strong>What it is told never to do:</strong> state a claim as fact, add details of the incident that are not in the post (names, numbers, dates, outcomes), or include credentials or personal data. Its background paragraph is meant to be general knowledge about that kind of claim, and says so. The code cannot prove the model obeyed, and unlike the daily summaries there is no automatic number check on these rewrites. Treat each one as a pointer to the original post, not a record of what happened.</li>
+<li><strong>What the code checks:</strong> X posts are only picked up if they match a list of security words. Posts that contain email addresses, passwords, keys or tokens, or long strings that look like hashes or encoded data, are left off this page and never sent to the model, and any rewrite containing such text is replaced by the original wording. The link is copied unchanged from the source and never written by the model. If the AI step fails, the page shows the original wording, shortened, with no background or actions.</li>
+<li><strong>Categories, sectors, countries, claimed sizes and actor names</strong> on the claim cards (for example “Data for sale”, “Healthcare” or “Brazil”) are assigned by keyword rules, not by AI. They match words in the claim, so they can be wrong or missing, and a claim that names several countries gets only one.</li>
+</ul>
+
+<h3>What the desks never do</h3>
+<ul>
+<li>They never host screenshots or images from tweets, forums or leak sites, which often contain stolen personal data. The collectors read text and links only.</li>
+<li>They never republish leaked data. An entry states what is claimed, adds general background and links to the source.</li>
+<li>They do not verify claims, and they do not give advice on a specific incident. The suggested actions are general.</li>
+<li>They leave out sources whose terms do not allow this use. The list is the excludeSources entry in <a href="https://github.com/kyrillidis/outpostdaily/blob/main/config/breaking.json" rel="noopener" target="_blank">config/breaking.json</a>; items from those sources are filtered out of both desks.</li>
+</ul>
+
+<h3>What the desks cannot tell you</h3>
+<ul>
+<li>They are a sample. Breaking drops posts that fail its keyword rules and holds a limited number of items per stream. The Dark web page holds at most 40 claims from the last 14 days, so many claims never reach it.</li>
+<li>Claims are often exaggerated, recycled, wrong or withdrawn. A name on a leak site does not mean that organisation was breached.</li>
+<li>Keyword rules and the AI rewrite make mistakes. Open the original before acting.</li>
+<li>Links lead to sites run by others, including criminal forums. Outpost has not checked what is on them, so open them only with the precautions your organisation expects.</li>
+<li>To report an error or a withdrawn claim, see Corrections on the <a href="/about/">About</a> page.</li>
+</ul>
+
+<h2>6. What Outpost does not do</h2>
+<ul>
+<li>It does not verify events itself. It summarises and links other outlets’ reporting, and on the Breaking and Dark web desks it relays third-party claims, labelled as such.</li>
+<li>It does not publish human opinion or predictions. The short “Outpost analysis” is written by AI from the day’s headlines, is labelled as such, and is told to hedge uncertainty and not to state predictions as fact.</li>
 <li>It does not give financial, investment, legal or operational advice.</li>
 </ul>
 
-<h2>6. Illustrations</h2>
-<p>The diagrams beside each story are generated by code from the story’s subject. They are decorative, not photographs or maps of the event. Photographs, where used, are credited on the <a href="/about/">About</a> page.</p>
+<h2>7. Pictures</h2>
+<p>Each story’s picture is the lead image from the outlet’s own article or feed. Outpost resizes it, stores a copy on its own server, labels it with the outlet’s name and links it to the article. A picture illustrates the story; it is not evidence of the event, and stories without a suitable picture have none. The banner photographs behind the page header are credited under the banner and on the <a href="/about/">About</a> page. The Breaking and Dark web desks do not show pictures from posts, forums or leak sites.</p>
 
-<h2>7. Limits</h2>
-<p>Summaries are pointers, not substitutes for the source: always read the linked report before acting. Early reports of breaches and military events are often revised, and a ranked list can miss stories its sources did not carry.</p>
+<h2>8. Limits</h2>
+<p>Summaries are pointers, not substitutes for the source: always read the linked report before acting. Early reports of breaches and military events are often revised, and a ranked list can miss stories its sources did not carry. The Breaking and Dark web desks are less reliable still, as section 5 explains.</p>
 
-<h2>8. Open source</h2>
-<p>The pipeline, ranking rules and source list are public at <a href="https://github.com/kyrillidis/outpostdaily" rel="noopener" target="_blank">github.com/kyrillidis/outpostdaily</a> under the MIT licence. Corrections and source suggestions are welcome as issues or pull requests.</p>
+<h2>9. Open source</h2>
+<p>The pipeline, ranking rules and source list are public at <a href="https://github.com/kyrillidis/outpostdaily" rel="noopener" target="_blank">github.com/kyrillidis/outpostdaily</a> under the MIT licence. The licence covers the code; data taken from other sources keeps its own licence and credit, as described above. Corrections and source suggestions are welcome as issues or pull requests.</p>

@@ -4,10 +4,11 @@
   "cyber": ["IntCyberDigest", "H4ckmanac", "vxunderground", "campuscodi", "briankrebs", "GossiTheDog", "MalwareHunterTeam", "ESETresearch", "TheHackersNews", "BleepinComputer", "TheRecord_Media", "CISACyber"],
   "redteam": ["harmj0y", "_dirkjan", "mrd0x", "SpecterOps", "HackingDave", "bohops", "0xdf_", "TheHackerNews"],
   "blueteam": ["cyb3rops", "SwiftOnSecurity", "TheDFIRReport", "wdormann", "MsftSecIntel", "Mandiant", "unit42_intel", "TalosSecurity", "CrowdStrike", "RedCanary"],
-  "darkweb": ["DarkWebInformer", "FalconFeedsio", "DailyDarkWeb", "ransomwarelive", "SOCRadar"],
+  "darkweb": ["FalconFeedsio", "DailyDarkWeb", "SOCRadar"],
   "crisis": ["sentdefender", "OSINTdefender", "Faytuks", "WarMonitors", "IntelCrab", "BNONews", "Conflicts", "AuroraIntel", "RALee85", "BBCBreaking"],
   "markets": ["DeItaone", "FirstSquawk", "LiveSquawk", "unusual_whales", "zerohedge", "business"]
  },
+ "excludeSources": ["@DarkWebInformer", "@ransomwarelive", "ransomware.live"],
  "news": [
   { "name": "CISA Advisories", "group": "cyber", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml" },
   { "name": "BleepingComputer", "group": "cyber", "url": "https://www.bleepingcomputer.com/feed/" },
@@ -21,7 +22,6 @@
   { "name": "Al Jazeera", "group": "crisis", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
   { "name": "MarketWatch", "group": "markets", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories" }
  ],
- "ransomware": "https://api.ransomware.live/v2/recentvictims",
  "forums": [
   { "name": "DarkForums", "url": "https://darkforums.st/" },
   { "name": "BreachForums", "url": "https://breachforums.hn/" }

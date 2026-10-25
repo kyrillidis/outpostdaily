@@ -8,6 +8,7 @@ import { XMLParser } from 'fast-xml-parser';
 import sharp from 'sharp';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
 import { updateDarkweb } from './darkweb.mjs';
+import { updateIntel } from './intel.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
@@ -251,3 +252,4 @@ write('data/state.json', state);
 console.log(`edition ${state.edition} (${date}): ${items.length} items, ${kev.length} KEV, ${fresh.length} needed summarising`);
 
 try { await updateDarkweb(); } catch (e) { console.warn('darkweb failed:', e.message); }
+try { await updateIntel(); } catch (e) { console.warn('intel failed:', e.message); } // ransomware.live listings and Have I Been Pwned breaches

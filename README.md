@@ -125,6 +125,10 @@ The look is documented in [`DESIGN.md`](DESIGN.md) and the product rules in [`PR
 | `config/glossary.json` | plain-language definitions; also feeds each page's "Key terms" panel |
 | `src/pages/*.html` | About, Methodology, Privacy and the Glossary introduction |
 
+## Data sources and their terms
+
+Every external source is listed, with its licence or terms and what Outpost may do with it, in [`docs/DATA-SOURCES.md`](docs/DATA-SOURCES.md). In short: news feeds and X posts are rewritten into short items that link to the original; the Dark web page also uses [RansomLook](https://www.ransomlook.io/) listings and [Have I Been Pwned](https://haveibeenpwned.com/) breaches (both CC BY 4.0, credited on the page). Sources whose terms forbid commercial or automated use (ransomware.live, darkwebinformer.com) are excluded through `excludeSources` in `config/breaking.json`; remove a name from that list only after a written agreement. Leak-site and forum screenshots are never collected or hosted.
+
 ## Adding sources
 
 Edit `config/sources.json` (feeds, grouped by `cyber` / `warfare` / `geo`; general outlets get `"filter": true` so only items matching the `relevance` pattern are kept) or `config/toolbox.json` (OSINT tool links shown on the Toolbox page). The toolbox is seeded with well-known OSINT resources; to mirror the [OSINT4All](https://start.me/p/L1rEYQ/osint4all) start.me page, export it from start.me and add its links to `toolbox.json`.

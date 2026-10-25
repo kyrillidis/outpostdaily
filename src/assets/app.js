@@ -78,6 +78,8 @@
     }
     if (clear) clear.hidden = !q;
   }
+  window.outpost = window.outpost || {};
+  window.outpost.refilter = recompute; // re-apply the page search after live content changes
   if (input) {
     input.addEventListener('input', recompute);
     if (clear) clear.addEventListener('click', function () { input.value = ''; recompute(); input.focus(); });
@@ -193,7 +195,7 @@
     if (box && box.scrollWidth > box.clientWidth) box.scrollLeft = Math.max(0, cur.offsetLeft - 16);
   })();
 
-  /* ---- live: relative times, "new edition" prompt, and the Breaking dashboard feed ---- */
+  /* ---- live: relative times and the "new edition" prompt (the Breaking dashboard has its own live refresh in breaking.js) ---- */
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function relTimes() {
@@ -206,6 +208,8 @@
   }
   relTimes();
   setInterval(relTimes, 60000);
+  window.outpost = window.outpost || {};
+  window.outpost.relTimes = relTimes; // page partials call this after swapping in new HTML
 
   function visibleEvery(ms, fn) {
     setInterval(function () { if (!doc.hidden) fn(); }, ms);
@@ -238,54 +242,4 @@
     visibleEvery(300000, check);
   })();
 
-  // Breaking dashboard: re-render the panels when /api/breaking reports a newer update.
-  (function () {
-    var dash = $('.dash[data-updated]');
-    if (!dash) return;
-    var KIND = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' }, SHOWN = 6, MOB = 4, MAX = 14;
-    function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
-    function row(i) {
-      var d = new Date(i.published), li = el('li', 'brk'), tm = el('time', null, pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes())), main = el('div', 'brk-main'), line = el('p', 'brk-line'), title = el('p', 'brk-title'), a = el('a', null, i.title);
-      li.setAttribute('data-sev', i.severity); li.setAttribute('data-kind', i.kind);
-      tm.setAttribute('datetime', i.published); tm.appendChild(el('span', 'brk-day', d.getUTCDate() + ' ' + MON[d.getUTCMonth()]));
-      if (i.severity === 'high') { line.appendChild(el('span', 'chip chip-alert', 'High signal')); }
-      line.appendChild(el('span', 'brk-src', i.source)); line.appendChild(el('span', 'brk-kind', KIND[i.kind] || ''));
-      if (!i.verified) line.appendChild(el('span', 'brk-unv', 'Unverified'));
-      if (/^https?:\/\//.test(i.url)) { a.href = i.url; a.target = '_blank'; a.rel = 'noopener' + (i.kind === 'forum' ? ' nofollow ugc' : ''); }
-      a.appendChild(el('span', 'sr-only', ' (opens the original)')); title.appendChild(a);
-      main.appendChild(line); main.appendChild(title); li.appendChild(tm); li.appendChild(main);
-      return li;
-    }
-    function list(items) { var ol = el('ol', 'brk-list'); items.forEach(function (i) { ol.appendChild(row(i)); }); return ol; }
-    function render(data) {
-      var items = (data.items || []).filter(function (i) { return i.kind !== 'forum'; }), high = items.filter(function (i) { return i.severity === 'high'; }).length, health = data.health || [];
-      $$('.panel[data-group]', dash).forEach(function (p) {
-        var g = p.getAttribute('data-group'), all = items.filter(function (i) { return i.group === g; }), shown = all.slice(0, MAX);
-        $$('.brk-list, .panel-more, .panel-empty', p).forEach(function (n) { n.remove(); });
-        var d0 = all[0] ? new Date(all[0].published) : null, meta = $('.panel-meta', p);
-        if (meta) meta.textContent = all.length + ' in 72 h' + (d0 ? ' · latest ' + pad(d0.getUTCHours()) + ':' + pad(d0.getUTCMinutes()) + ' UTC' : '');
-        if (!shown.length) { p.appendChild(el('p', 'panel-empty', 'Nothing new in the last 72 hours from the sources that responded.')); return; }
-        p.appendChild(list(shown.slice(0, SHOWN)));
-        if (shown.length > MOB) {
-          var more = el('details', 'panel-more' + (shown.length > SHOWN ? '' : ' mob-only')), sum = el('summary', null, 'Show ');
-          sum.appendChild(el('span', 'n-d', shown.length - SHOWN > 0 ? shown.length - SHOWN : 0)); sum.appendChild(el('span', 'n-m', shown.length - MOB)); sum.appendChild(doc.createTextNode(' more'));
-          more.appendChild(sum); more.appendChild(list(shown.slice(SHOWN))); p.appendChild(more);
-        }
-        var c = $('.dash-count[data-count="' + g + '"]'); if (c) c.textContent = all.length;
-      });
-      var u = data.updated ? new Date(data.updated) : null;
-      var stats = { updated: u ? pad(u.getUTCHours()) + ':' + pad(u.getUTCMinutes()) + ' UTC' : '—', items: items.length, high: high, sources: (health.filter(function (h) { return h.ok; }).length) + '/' + health.length };
-      Object.keys(stats).forEach(function (k) { var n = $('[data-stat="' + k + '"]'); if (n) n.textContent = stats[k]; });
-      dash.setAttribute('data-updated', data.updated || '');
-    }
-    // phones clamp long titles; tapping the row (not the link) reads the whole text
-    dash.addEventListener('click', function (e) { var li = e.target.closest && e.target.closest('.brk'); if (li && !e.target.closest('a')) li.classList.toggle('open'); });
-    function poll() {
-      getJSON('/api/breaking/', function (data) {
-        if (data.updated && data.updated !== dash.getAttribute('data-updated')) { render(data); recompute(); }
-      });
-    }
-    setTimeout(poll, 5000);
-    visibleEvery(60000, poll);
-  })();
 })();

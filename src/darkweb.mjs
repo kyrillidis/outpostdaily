@@ -51,11 +51,13 @@ const SECURITY = /\b(ransomware|breach\w*|leak\w*|hack\w*|data|records|customers
 export async function updateDarkweb({ now = new Date(), call = callModel } = {}) {
   const breaking = read('data/breaking.json', { items: [] });
   const store = read('data/darkweb.json', { items: [] });
-  const known = new Map((store.items ?? []).map((i) => [i.id, i]));
+  const skip = new Set((read('config/breaking.json', {}).excludeSources ?? []).map((x) => String(x).toLowerCase()));
+  const allowed = (i) => !skip.has(String(i.source ?? '').toLowerCase());
+  const known = new Map((store.items ?? []).filter(allowed).map((i) => [i.id, i]));
   const fresh = (breaking.items ?? [])
     .filter((i) => (i.kind === 'forum' || i.kind === 'ransomware' || (i.kind === 'x' && i.group === 'darkweb')) && i.id && i.title && /^https?:\/\//.test(i.url ?? ''))
     .filter((i) => i.kind !== 'x' || SECURITY.test(i.title))
-    .filter((i) => !known.has(i.id) && !SENSITIVE.test(i.title))
+    .filter((i) => allowed(i) && !known.has(i.id) && !SENSITIVE.test(i.title))
     .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_NEW);
   if (fresh.length) {
     const ai = await call(fresh);

@@ -1,5 +1,5 @@
 // Breaking-news collector, run every 5 minutes by .github/workflows/breaking.yml.
-// Reads fast sources (X via twitterapi.io, security RSS, ransomware.live, public forum listings),
+// Reads fast sources (X via twitterapi.io, security RSS, public forum listings),
 // keeps a rolling 72-hour window in data/breaking.json and exits 0 whether or not anything changed.
 // Forum entries are published as UNVERIFIED claims: headline + link only, never leaked data.
 import { fileURLToPath } from 'node:url';
@@ -14,7 +14,9 @@ const cfg = JSON.parse(readFileSync(ROOT + 'config/breaking.json', 'utf8'));
 const FILE = ROOT + 'data/breaking.json';
 const prev = existsSync(FILE) ? JSON.parse(readFileSync(FILE, 'utf8')) : { items: [], updated: null };
 const UA = 'OutpostDailyBot/1.0 (+https://www.outpostdaily.com)';
-const KEEP_H = 72, MAX = 300;
+const KEEP_H = 72, MAX = 600;
+// per-stream caps keep one noisy stream (markets) from pushing real news out of the 72-hour window
+const CAP = { crisis: 140, cyber: 140, darkweb: 120, redteam: 60, blueteam: 60, markets: 50 };
 const now = Date.now();
 const sha = (s) => createHash('sha1').update(s).digest('hex').slice(0, 10);
 const critical = new RegExp(cfg.critical, 'i');
@@ -74,21 +76,6 @@ async function pullNews(src) {
   return n;
 }
 
-// ---------- ransomware.live: victims claimed by leak sites (claims, not confirmed incidents) ----------
-async function pullRansomware() {
-  const res = await fetch(cfg.ransomware, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(20000) });
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  let n = 0;
-  for (const v of (await res.json()).slice(0, 40)) {
-    const when = new Date(v.discovered);
-    if (isNaN(when) || now - when > 6 * 3600e3 || !v.victim || !/^https:\/\//.test(v.url ?? '')) continue;
-    const sector = v.activity && v.activity !== 'Not Found' ? ` — ${v.activity}` : '';
-    found.push({ id: 'r' + sha(v.url), kind: 'ransomware', group: 'darkweb', source: 'ransomware.live', title: cut(`${v.group} claims ${v.victim}${v.country ? ` (${v.country})` : ''}${sector}`, 200), url: v.url, published: when.toISOString(), severity: 'normal', verified: false });
-    n++;
-  }
-  return n;
-}
-
 // ---------- forums: public, no-login thread listings; headline + link only ----------
 async function pullForum(f) {
   const res = await fetch(f.url, { headers: { 'user-agent': UA, accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
@@ -113,7 +100,6 @@ const run = async (name, fn) => { try { health.push({ name, ok: true, n: await f
 await Promise.all([
   pullX(),
   ...cfg.news.map((s) => run(s.name, () => pullNews(s))),
-  run('ransomware.live', pullRansomware),
   ...cfg.forums.map((f) => run(f.name, () => pullForum(f))),
 ]);
 
@@ -126,7 +112,9 @@ for (const it of found.sort((a, b) => a.published.localeCompare(b.published))) {
   if (byId.has(it.id) || byTitle.has(tk)) continue; // same item, or the same headline already carried from another source
   byId.set(it.id, it); byTitle.add(tk); added++;
 }
-const items = [...byId.values()].filter((i) => now - Date.parse(i.published) < KEEP_H * 3600e3).sort((a, b) => b.published.localeCompare(a.published)).slice(0, MAX);
+const kept = [...byId.values()].filter((i) => now - Date.parse(i.published) < KEEP_H * 3600e3).sort((a, b) => b.published.localeCompare(a.published));
+const seenPerGroup = {};
+const items = kept.filter((i) => (seenPerGroup[i.group] = (seenPerGroup[i.group] ?? 0) + 1) <= (CAP[i.group] ?? 60)).slice(0, MAX);
 // the file (and therefore git) only changes when something was added or aged out
 if (added > 0 || items.length !== prev.items.length || !prev.updated) writeFileSync(FILE, JSON.stringify({ updated: new Date(now).toISOString(), health, items }, null, 1) + '\n');
 console.log(`breaking: +${added} new, ${items.length} kept; sources ok ${health.filter((h) => h.ok).length}/${health.length}${health.filter((h) => !h.ok).map((h) => `\n  ! ${h.name}: ${h.error}`).join('')}`);
