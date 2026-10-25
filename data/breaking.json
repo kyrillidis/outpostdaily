@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-25T13:28:34.346Z",
+ "updated": "2026-10-25T13:39:33.812Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -22,9 +22,14 @@
    "n": 4
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 7
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -32,9 +37,9 @@
    "n": 2
   },
   {
-   "name": "The Hacker News",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "The DFIR Report",
@@ -42,14 +47,9 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Record",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "Dark Reading",
@@ -62,12 +62,12 @@
    "n": 0
   },
   {
-   "name": "ransomware.live",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "ransomware.live",
    "ok": true,
    "n": 0
   },
@@ -94,15 +94,125 @@
   {
    "name": "X crisis",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 1
+   "n": 10
   }
  ],
  "items": [
+  {
+   "id": "x2114350098888998985",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "QATAR MEDIATES IN IRAN AS U.S. SEEKS TO EASE TENSIONS Qatari mediators are in Tehran as part of a diplomatic effort coordinated with the United States to de-escalate regional tensions, Reuters reports. The initiative comes amid heightened…",
+   "url": "https://x.com/DeItaone/status/2114350098888998985",
+   "published": "2026-10-25T13:35:20.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114349086690156595",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "Earlier this week, Secretary of War Pete Hegseth signed a memo directing the establishment of a new Air National Guard Special Tactics Squadron in Florida. Special Tactics is the Air Force’s special operations ground force, including…",
+   "url": "https://x.com/sentdefender/status/2114349086690156595",
+   "published": "2026-10-25T13:31:19.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114349003127304234",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Saudi civil defense: shrapnel from intercepting two ballistic missiles launched by Yemen's Houthis in Khamis Mushait and Ahad Rafidah injures two people",
+   "url": "https://x.com/FirstSquawk/status/2114349003127304234",
+   "published": "2026-10-25T13:30:59.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348965596668296",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "One killed in Ukrainian missile strike on industrial site in Russia's Lipetsk region: governor",
+   "url": "https://x.com/FirstSquawk/status/2114348965596668296",
+   "published": "2026-10-25T13:30:50.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114348932813795572",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Libya's Sirte oil firm says Brega gas unit restart will supply 60 million cubic feet of gas to system instead of flaring it - statement",
+   "url": "https://x.com/FirstSquawk/status/2114348932813795572",
+   "published": "2026-10-25T13:30:42.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348895711227935",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Libya's Sirte Oil Co. resumes natural gas processing unit at Brega plant after years-long closure: statement",
+   "url": "https://x.com/FirstSquawk/status/2114348895711227935",
+   "published": "2026-10-25T13:30:34.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348859153600775",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Libya's NOC announces restart of Sirte company's two methanol plants after maintenance: statement",
+   "url": "https://x.com/FirstSquawk/status/2114348859153600775",
+   "published": "2026-10-25T13:30:25.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348822017310856",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Canada's PM Carney: Crown Prince of Abu Dhabi to visit Ottawa from October 26 to 27",
+   "url": "https://x.com/FirstSquawk/status/2114348822017310856",
+   "published": "2026-10-25T13:30:16.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348785350635765",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Libya's NOC restarts Brega refinery after maintenance shutdown: statement",
+   "url": "https://x.com/FirstSquawk/status/2114348785350635765",
+   "published": "2026-10-25T13:30:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114348782645133368",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Appeals Court Throws Out Alex Berenson's Case Against Pfizer Executives",
+   "url": "https://x.com/zerohedge/status/2114348782645133368",
+   "published": "2026-10-25T13:30:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114346280365285436",
    "kind": "x",
@@ -3291,116 +3401,6 @@
    "url": "https://x.com/WarMonitors/status/2114086922729710027",
    "published": "2026-10-24T20:09:34.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114086675920077242",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@AuroraIntel",
-   "title": "RAF P8 en route from Lossiemouth to support this vessel",
-   "url": "https://x.com/AuroraIntel/status/2114086675920077242",
-   "published": "2026-10-24T20:08:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114085779718685154",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Volkswagen will build a new factory for its premium Audi brand in Georgia and expand a facility in South Carolina, President Donald Trump plans to announce Saturday, as he looks to notch a political win ahead of the midterms",
-   "url": "https://x.com/business/status/2114085779718685154",
-   "published": "2026-10-24T20:05:02.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114084764235776255",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Here’s the median net worth of American families by age, per the Federal Reserve: Under 35: $33,000 35–44: $156,000 45–54: $255,000 55–64: $411,000 65–74: $432,000 75 and older: $505,000",
-   "url": "https://x.com/unusual_whales/status/2114084764235776255",
-   "published": "2026-10-24T20:01:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114084542269005880",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "JetBlue Creditors Call In Restructuring Advisers As Stock, Bonds Crater",
-   "url": "https://x.com/zerohedge/status/2114084542269005880",
-   "published": "2026-10-24T20:00:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n8e2b93abe3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-   "published": "2026-10-24T20:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114082857001931235",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@SwiftOnSecurity",
-   "title": "The real tragedy of executives as you can tell the ones that miss it. Miss doing it. We have one doing grunt stuff on an incident.",
-   "url": "https://x.com/SwiftOnSecurity/status/2114082857001931235",
-   "published": "2026-10-24T19:53:25.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114081300512641175",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@WarMonitors",
-   "title": "Harar Ana iska leh Dir dhaba ana iska leh Moyaale ana iska leh Negelle ana iska leh Babile ana iska leh Awash ana iska leh Garissa Ana iska leh Somaliweyn ana iska leh 🇸🇴",
-   "url": "https://x.com/WarMonitors/status/2114081300512641175",
-   "published": "2026-10-24T19:47:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n38bfe08d35",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
-   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-   "published": "2026-10-24T19:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114080274262766059",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨🇫🇷 Renaissance, Emmanuel Macron's political party, hit by alleged 4.1 million-record data leak The actor \"ChimeraZ\" has published 4,157,404 records linked to Renaissance, the French political party founded by President Emmanuel…",
-   "url": "https://x.com/DarkWebInformer/status/2114080274262766059",
-   "published": "2026-10-24T19:43:09.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114077776688869721",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "⚠️ UPDATE: UNIT 42 CONFIRMS PHP2SHELL EXPLOITATION WITH AGENTIC AI POST-EX Unit 42's Oct 23 threat-brief update confirms PHP2Shell (CVE-2026-109618 / CVE-2026-109619) is being exploited in the wild, with attackers using agentic AI…",
-   "url": "https://x.com/DailyDarkWeb/status/2114077776688869721",
-   "published": "2026-10-24T19:33:14.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
