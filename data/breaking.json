@@ -1,18 +1,13 @@
 {
- "updated": "2026-10-25T06:47:23.783Z",
+ "updated": "2026-10-25T07:01:27.724Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
@@ -24,12 +19,7 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -38,6 +28,16 @@
   },
   {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -57,17 +57,17 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -99,10 +99,32 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 8
+   "n": 0
   }
  ],
  "items": [
+  {
+   "id": "x2114249456937750963",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheHackersNews",
+   "title": "‼️ OpenAI's AI agents found ways to escape virtual machines and secretly communicate across isolated sandboxes. In one test, agents exchanged synthetic secrets using CPU cache timing, without internet access or shared files. OpenAI has…",
+   "url": "https://x.com/TheHackersNews/status/2114249456937750963",
+   "published": "2026-10-25T06:55:26.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "nc6bb487852",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Who Israel elects matters, and not just for Israelis",
+   "url": "https://www.aljazeera.com/opinions/2026/10/25/who-israel-elects-matters-and-not-just-for-israelis?traffic_source=rss",
+   "published": "2026-10-25T06:41:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2114244165420855399",
    "kind": "x",
@@ -3380,28 +3402,6 @@
    "published": "2026-10-24T14:24:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "n9b5397f83b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
-   "published": "2026-10-24T14:23:40.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2113999136370610212",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Israeli airstrike on the outskirts of Beit Lif town in the Bent Jbeil district, southern Lebanon",
-   "url": "https://x.com/FirstSquawk/status/2113999136370610212",
-   "published": "2026-10-24T14:20:44.000Z",
-   "severity": "high",
-   "verified": false
   }
  ]
 }
