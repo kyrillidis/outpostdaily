@@ -156,9 +156,11 @@ const analysisHtml = (ed, lvl = 3) => {
 };
 
 // The Dark web page body is built by src/lib/darkweb-view.mjs from three data files; this only adds the page header and ad slot.
+const DW_TOPIC = /dark ?web|leak|breach|ransomware|threat actor|extortion|stolen|for sale|infostealer|credential|hacktivis/i;
+const darkwebNews = () => breakingItems.filter((i) => i.kind === 'news' && i.group === 'darkweb' && DW_TOPIC.test(i.title)).sort((a, b) => String(b.published).localeCompare(String(a.published)));
 function darkwebHtml() {
   return secHead({ title: 'Dark web', sub: 'Claims from ransomware leak sites, forums and social media, with context, plus confirmed breaches. Newest first.' }) + ad('top') +
-    renderDarkwebBody({ claims: darkweb.items ?? [], ransomware: ransomware, breaches: breaches, now: Date.now(), imageMode: breakingCfg.darkwebImages ?? 'blur' });
+    renderDarkwebBody({ news: darkwebNews(), claims: darkweb.items ?? [], ransomware: ransomware, breaches: breaches, now: Date.now(), imageMode: breakingCfg.darkwebImages ?? 'blur' });
 }
 
 function todayHtml(ed, top) {
@@ -205,7 +207,7 @@ const wireHtml = (top, base) => top.map((i, n) => `<li class="wire-item kw-unit"
 // ---------- about page: FAQ and photo credits ----------
 const FAQ = [
   ['What is Outpost?', 'A free daily briefing on cybersecurity, modern warfare technology and geopolitics, compiled automatically from open sources. Every story links to the outlet that reported it.'],
-  ['How often is it updated?', 'Every two hours. A scheduled job collects stories from the previous 36 hours, ranks them and publishes a refreshed edition; the Breaking desk is checked every five minutes. Each page shows when it was last updated.'],
+  ['How often is it updated?', 'Every hour. A scheduled job collects stories from the previous 36 hours, ranks them and publishes a refreshed edition; the Breaking desk is checked every five minutes. Each page shows when it was last updated.'],
   ['Do I need an account or to pay?', 'No. There are no accounts and no paywall. Outpost may show advertising, and promotes Cylist in a labelled card.'],
   ['Can I trust the summaries?', 'Treat them as pointers. A language model writes each short summary from the outlet’s headline and snippet only, and any figure it cannot find in that source text is discarded. Read the original article before acting on anything.'],
   ['Who publishes Outpost?', 'Outpost is published by the maker of Cylist, a threat-intelligence triage tool that is promoted on this site. Ranking is automatic, and no outlet or company can pay to be included or ranked higher.'],

@@ -1,34 +1,163 @@
 {
- "_note": "Sources for the 5-minute Breaking pipeline (src/breaking.mjs). x = accounts read through twitterapi.io (key in env TWITTERAPI_KEY or the git-ignored .env, never in this file); each group is one search call. news = fast RSS feeds with a group. forums = public thread-listing pages, reported only as UNVERIFIED claims: headline + link, never the leaked data. A source that is down is skipped and listed on the page.",
- "x": {
-  "cyber": ["IntCyberDigest", "H4ckmanac", "vxunderground", "campuscodi", "briankrebs", "GossiTheDog", "MalwareHunterTeam", "ESETresearch", "TheHackersNews", "BleepinComputer", "TheRecord_Media", "CISACyber"],
-  "redteam": ["harmj0y", "_dirkjan", "mrd0x", "SpecterOps", "HackingDave", "bohops", "0xdf_", "TheHackerNews"],
-  "blueteam": ["cyb3rops", "SwiftOnSecurity", "TheDFIRReport", "wdormann", "MsftSecIntel", "Mandiant", "unit42_intel", "TalosSecurity", "CrowdStrike", "RedCanary"],
-  "darkweb": ["FalconFeedsio", "DailyDarkWeb", "SOCRadar"],
-  "crisis": ["sentdefender", "OSINTdefender", "Faytuks", "WarMonitors", "IntelCrab", "BNONews", "Conflicts", "AuroraIntel", "RALee85", "BBCBreaking"],
-  "markets": ["DeItaone", "FirstSquawk", "LiveSquawk", "unusual_whales", "zerohedge", "business"]
- },
- "darkwebImages": "blur",
- "excludeSources": ["@DarkWebInformer", "@ransomwarelive", "ransomware.live"],
- "news": [
-  { "name": "CISA Advisories", "group": "cyber", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml" },
-  { "name": "BleepingComputer", "group": "cyber", "url": "https://www.bleepingcomputer.com/feed/" },
-  { "name": "The Hacker News", "group": "cyber", "url": "https://feeds.feedburner.com/TheHackersNews" },
-  { "name": "The Record", "group": "cyber", "url": "https://therecord.media/feed" },
-  { "name": "SecurityWeek", "group": "cyber", "url": "https://feeds.feedburner.com/securityweek" },
-  { "name": "Krebs on Security", "group": "cyber", "url": "https://krebsonsecurity.com/feed/" },
-  { "name": "Dark Reading", "group": "cyber", "url": "https://www.darkreading.com/rss.xml" },
-  { "name": "The DFIR Report", "group": "blueteam", "url": "https://thedfirreport.com/feed/" },
-  { "name": "BBC World", "group": "crisis", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
-  { "name": "Al Jazeera", "group": "crisis", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
-  { "name": "MarketWatch", "group": "markets", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories" }
- ],
- "forums": [
-  { "name": "DarkForums", "url": "https://darkforums.team/" },
-  { "name": "BreachForums", "url": "https://breachforums.hn/" }
- ],
- "critical": "\\b(zero[- ]?day|0[- ]?day|actively exploited|exploited in the wild|emergency (patch|update|directive)|critical (flaw|vulnerabilit\\w*|rce)|remote code execution|supply[- ]chain (attack|compromise)|wiper|mass exploitation|ransomware attack|data breach|millions? of|nation[- ]state|outage|cyberattack|cyber attack|leak(ed|s)?|breach(ed)?)\\b",
- "criticalOther": "\\b(breaking|missile|strikes?|airstrikes?|attack(ed|s)?|invasion|ceasefire|explosions?|shot down|sanctions?|nuclear|blockade|coup|emergency|crash(es|ed)?|plunge[sd]?|plummets?|soars?|halted|default|bank run|rate (cut|hike)|fed|tariffs?|opec)\\b",
- "crisisRelevant": "\\b(war|wars|military|army|navy|air force|troops?|missiles?|drones?|strikes?|airstrikes?|attack(ed|s)?|killed|casualt\\w*|invasion|ceasefire|truce|hostages?|bomb\\w*|explosions?|shelling|frontline|nato|russia\\w*|ukrain\\w*|iran\\w*|israel\\w*|gaza|hamas|hezbollah|houthi\\w*|china|taiwan|korea\\w*|sanctions?|nuclear|coup|terror\\w*|spy|spying|espionage|cyber\\w*|hack\\w*|emergency|evacuat\\w*|refugees?|conflict|embassy|intelligence)\\b",
- "forumInterest": "\\b(database|db|leak\\w*|dump|breach\\w*|combo|access|rce|0[- ]?day|zero[- ]?day|exploit|source ?code|stealer|logs)\\b"
+  "_note": "Sources for the 5-minute Breaking pipeline (src/breaking.mjs). x = accounts read through twitterapi.io (key in env TWITTERAPI_KEY or the git-ignored .env, never in this file); each group is one search call. news = fast RSS feeds with a group. forums = public thread-listing pages, reported only as UNVERIFIED claims: headline + link, never the leaked data. A source that is down is skipped and listed on the page.",
+  "x": {
+    "cyber": [
+      "IntCyberDigest",
+      "H4ckmanac",
+      "vxunderground",
+      "campuscodi",
+      "briankrebs",
+      "GossiTheDog",
+      "MalwareHunterTeam",
+      "ESETresearch",
+      "TheHackersNews",
+      "BleepinComputer",
+      "TheRecord_Media",
+      "CISACyber"
+    ],
+    "redteam": [
+      "harmj0y",
+      "_dirkjan",
+      "mrd0x",
+      "SpecterOps",
+      "HackingDave",
+      "bohops",
+      "0xdf_",
+      "TheHackerNews"
+    ],
+    "blueteam": [
+      "cyb3rops",
+      "SwiftOnSecurity",
+      "TheDFIRReport",
+      "wdormann",
+      "MsftSecIntel",
+      "Mandiant",
+      "unit42_intel",
+      "TalosSecurity",
+      "CrowdStrike",
+      "RedCanary"
+    ],
+    "darkweb": [
+      "FalconFeedsio",
+      "DailyDarkWeb",
+      "SOCRadar"
+    ],
+    "crisis": [
+      "sentdefender",
+      "OSINTdefender",
+      "Faytuks",
+      "WarMonitors",
+      "IntelCrab",
+      "BNONews",
+      "Conflicts",
+      "AuroraIntel",
+      "RALee85",
+      "BBCBreaking"
+    ],
+    "markets": [
+      "DeItaone",
+      "FirstSquawk",
+      "LiveSquawk",
+      "unusual_whales",
+      "zerohedge",
+      "business"
+    ]
+  },
+  "darkwebImages": "blur",
+  "excludeSources": [
+    "@DarkWebInformer",
+    "@ransomwarelive",
+    "ransomware.live"
+  ],
+  "news": [
+    {
+      "name": "CISA Advisories",
+      "group": "cyber",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    },
+    {
+      "name": "BleepingComputer",
+      "group": "cyber",
+      "url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "name": "The Hacker News",
+      "group": "cyber",
+      "url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "name": "The Record",
+      "group": "cyber",
+      "url": "https://therecord.media/feed"
+    },
+    {
+      "name": "SecurityWeek",
+      "group": "cyber",
+      "url": "https://feeds.feedburner.com/securityweek"
+    },
+    {
+      "name": "Krebs on Security",
+      "group": "cyber",
+      "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "name": "Dark Reading",
+      "group": "cyber",
+      "url": "https://www.darkreading.com/rss.xml"
+    },
+    {
+      "name": "The DFIR Report",
+      "group": "blueteam",
+      "url": "https://thedfirreport.com/feed/"
+    },
+    {
+      "name": "BBC World",
+      "group": "crisis",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "name": "Al Jazeera",
+      "group": "crisis",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "name": "MarketWatch",
+      "group": "markets",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    },
+    {
+      "name": "Hackread",
+      "url": "https://hackread.com/feed/",
+      "group": "darkweb"
+    },
+    {
+      "name": "Security Affairs",
+      "url": "https://securityaffairs.com/feed",
+      "group": "darkweb"
+    },
+    {
+      "name": "SOCRadar blog",
+      "url": "https://socradar.io/feed/",
+      "group": "darkweb"
+    },
+    {
+      "name": "Daily Dark Web",
+      "url": "https://dailydarkweb.net/feed/",
+      "group": "darkweb"
+    }
+  ],
+  "forums": [
+    {
+      "name": "DarkForums",
+      "url": "https://darkforums.team/"
+    },
+    {
+      "name": "BreachForums",
+      "url": "https://breachforums.hn/"
+    }
+  ],
+  "critical": "\\b(zero[- ]?day|0[- ]?day|actively exploited|exploited in the wild|emergency (patch|update|directive)|critical (flaw|vulnerabilit\\w*|rce)|remote code execution|supply[- ]chain (attack|compromise)|wiper|mass exploitation|ransomware attack|data breach|millions? of|nation[- ]state|outage|cyberattack|cyber attack|leak(ed|s)?|breach(ed)?)\\b",
+  "criticalOther": "\\b(breaking|missile|strikes?|airstrikes?|attack(ed|s)?|invasion|ceasefire|explosions?|shot down|sanctions?|nuclear|blockade|coup|emergency|crash(es|ed)?|plunge[sd]?|plummets?|soars?|halted|default|bank run|rate (cut|hike)|fed|tariffs?|opec)\\b",
+  "crisisRelevant": "\\b(war|wars|military|army|navy|air force|troops?|missiles?|drones?|strikes?|airstrikes?|attack(ed|s)?|killed|casualt\\w*|invasion|ceasefire|truce|hostages?|bomb\\w*|explosions?|shelling|frontline|nato|russia\\w*|ukrain\\w*|iran\\w*|israel\\w*|gaza|hamas|hezbollah|houthi\\w*|china|taiwan|korea\\w*|sanctions?|nuclear|coup|terror\\w*|spy|spying|espionage|cyber\\w*|hack\\w*|emergency|evacuat\\w*|refugees?|conflict|embassy|intelligence)\\b",
+  "forumInterest": "\\b(database|db|leak\\w*|dump|breach\\w*|combo|access|rce|0[- ]?day|zero[- ]?day|exploit|source ?code|stealer|logs)\\b"
 }

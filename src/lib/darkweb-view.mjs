@@ -103,7 +103,7 @@ function relatedTo(c, all) {
   return best;
 }
 
-export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, breaches = { items: [] }, now = Date.now(), imageMode = 'blur' } = {}) {
+export function renderDarkwebBody({ news = [], claims = [], ransomware = { items: [] }, breaches = { items: [] }, now = Date.now(), imageMode = 'blur' } = {}) {
   const t0 = Number(now) || Date.now();
   const used = new Set();
   const ic = (id, cls = 'dk-ic') => { used.add(id); return `<svg class="${cls}" aria-hidden="true"><use href="#dk-${id}"/></svg>`; };
@@ -214,6 +214,14 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
     return `<section class="dk-sec" id="dk-breaches" aria-labelledby="dk-breaches-h">${head}${credit}<ul class="dk-breaches">${items}</ul>${more}</section>`;
   })();
 
+  // ----- news: headlines and links to outlets that report on the dark web (no text copied) -----
+  const newsHtml = (() => {
+    const rows = (Array.isArray(news) ? news : []).filter((n) => url(n.url) && str(n.title)).slice(0, 8);
+    if (!rows.length) return '';
+    return `<section class="dk-sec" id="dk-news" aria-labelledby="dk-news-h"><header class="dk-sech"><h2 id="dk-news-h">Dark web in the news</h2><p class="dk-sechmeta">Headlines from outlets, newest first</p></header><ul class="dk-news">` +
+      rows.map((n) => `<li class="kw-unit"><a href="${esc(url(n.url))}" target="_blank" rel="noopener">${esc(str(n.title))}<span class="sr-only"> (opens in a new tab)</span></a><p class="dk-meta"><span>${esc(str(n.source))}</span>${timeTag(n.published, 'dk-time')}</p></li>`).join('') + '</ul></section>';
+  })();
+
   // ----- 6. method note -----
   const methodHtml = `<section class="dk-sec" id="dk-method" aria-labelledby="dk-method-h"><header class="dk-sech"><h2 id="dk-method-h">How this page is made</h2></header><div class="dk-method">` +
     '<div><h3>Labels</h3><p>Categories, sectors, countries and sizes on the claim cards are assigned automatically by fixed keyword rules. They can be wrong, and a missing label means the rules found nothing, not that nothing exists.</p></div>' +
@@ -222,5 +230,5 @@ export function renderDarkwebBody({ claims = [], ransomware = { items: [] }, bre
 
   // ----- sprite: only the symbols this render references -----
   const sprite = `<svg class="dk-sprite" aria-hidden="true" focusable="false">${[...used].map((id) => `<symbol id="dk-${id}" viewBox="0 0 24 24">${ICONS[id]}</symbol>`).join('')}</svg>`;
-  return `<div class="dk" id="dk">${sprite}${claimsHtml}${stats}${trackerHtml}${breachesHtml}${methodHtml}</div>`;
+  return `<div class="dk" id="dk">${sprite}${claimsHtml}${newsHtml}${stats}${trackerHtml}${breachesHtml}${methodHtml}</div>`;
 }
