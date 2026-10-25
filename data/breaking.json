@@ -1,28 +1,18 @@
 {
- "updated": "2026-10-25T10:18:06.309Z",
+ "updated": "2026-10-25T10:30:08.010Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Krebs on Security",
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
@@ -42,6 +32,11 @@
    "n": 0
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "The Record",
    "ok": true,
    "n": 0
@@ -57,14 +52,14 @@
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "ransomware.live",
@@ -73,6 +68,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X crisis",
@@ -99,10 +99,43 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 1
+   "n": 3
   }
  ],
  "items": [
+  {
+   "id": "x2114302234120815030",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Pfizer sees a path forward for an experimental lung cancer drug in combination with other medicines, despite it failing a key clinical trial",
+   "url": "https://x.com/business/status/2114302234120815030",
+   "published": "2026-10-25T10:25:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114301898060611618",
+   "kind": "x",
+   "group": "markets",
+   "source": "@DeItaone",
+   "title": "APOLLO: AI HAS DELIVERED “ZERO PAYOFF” OUTSIDE BIG TECH Apollo Chief Economist Torsten Slok warns that massive AI spending has yet to deliver measurable productivity gains across corporate America. Revenue per worker and profit margins…",
+   "url": "https://x.com/DeItaone/status/2114301898060611618",
+   "published": "2026-10-25T10:23:48.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114300981533872192",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The European Central Bank’s presidency race looks increasingly likely to hinge on which candidate can best take on the bond vigilantes",
+   "url": "https://x.com/business/status/2114300981533872192",
+   "published": "2026-10-25T10:20:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114300356981129314",
    "kind": "x",
@@ -113,6 +146,17 @@
    "published": "2026-10-25T10:17:41.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n5e29cdb0aa",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
+   "published": "2026-10-25T10:14:43.000Z",
+   "severity": "high",
+   "verified": true
   },
   {
    "id": "x2114293603879284758",
@@ -3356,50 +3400,6 @@
    "title": "French Press Agency: Houthis claim attack on naval base in Aden",
    "url": "https://x.com/FirstSquawk/status/2114023524361032111",
    "published": "2026-10-24T15:57:39.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114023488919154694",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Lebanese News Agency: Major Israeli explosion in Yahmor al-Shaqif, whose echoes reverberated across various areas of southern Lebanon",
-   "url": "https://x.com/FirstSquawk/status/2114023488919154694",
-   "published": "2026-10-24T15:57:31.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114023449765282190",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Sheikh Mohammed bin Zayed affirms the United Arab Emirates' solidarity with Jordan against all that targets the disruption of its security and the safety of its citizens.",
-   "url": "https://x.com/FirstSquawk/status/2114023449765282190",
-   "published": "2026-10-24T15:57:21.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114023408929546268",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "President of the UAE offers condolences by phone to the King of Jordan over the victims of the targeting of a church in Karak.",
-   "url": "https://x.com/FirstSquawk/status/2114023408929546268",
-   "published": "2026-10-24T15:57:12.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114023325387334032",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Wall Street Journal on US officials: Washington has evacuated individuals from military bases in the Middle East in anticipation of an Iranian strike",
-   "url": "https://x.com/FirstSquawk/status/2114023325387334032",
-   "published": "2026-10-24T15:56:52.000Z",
    "severity": "high",
    "verified": false
   }
