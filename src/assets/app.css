@@ -636,3 +636,6 @@ html[data-view="scan"] .entries-2up{ grid-template-columns:minmax(0,1fr); }
 .front-side .photo-credit{ display:none; }
 .front-side .entry-line{ font-size:.75rem; }
 @media (max-width:759px){ .front-side .entry{ grid-template-columns:112px minmax(0,1fr); } .front-side .entry > .plate{ aspect-ratio:3/2; } }
+
+/* CISA's required-action text is long boilerplate; keep rows scannable, full text stays in the page */
+@media (min-width:760px){ .kev-row td:last-child{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; } }

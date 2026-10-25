@@ -291,7 +291,8 @@ breaking.items = breaking.items.filter((i) => !(i.group === 'crisis' && i.kind =
 // forum listings now get their own write-ups on /dark-web/; the dashboard keeps only leak-site claims, X and news
 breaking.items = breaking.items.filter((i) => i.kind !== 'forum');
 const darkweb = json('data/darkweb.json', { updated: null, items: [] });
-const dwItems = (Array.isArray(darkweb.items) ? darkweb.items : []).filter((i) => i && i.headline && i.id).sort((a, b) => String(b.published).localeCompare(String(a.published)));
+const SECURITY_RX = /\b(ransomware|breach\w*|leak\w*|hack\w*|data|records|customers?|victims?|vulnerabilit\w*|flaws?|exploit\w*|malware|ddos|targeted|attack\w*|extortion|portal|access|credentials?|patch\w*|certificate|threat|cyber\w*|stolen|sale|sells?|selling|compromis\w*|websites?|defacement|forum|qilin|lockbit|akira|cl0p|clop|blackcat|alphv|rhysida|medusa|bianlian|safepay|everest|dragonforce|cloak|falcon|panzer|inc ransom|play ransom|hunters)\b/i; // keeps off-topic posts (entertainment, chatter) out of the write-ups
+const dwItems = (Array.isArray(darkweb.items) ? darkweb.items : []).filter((i) => i && i.headline && i.id && (i.kind !== 'x' || SECURITY_RX.test(`${i.headline} ${i.claim ?? ''}`.replace(/\b(claims?|alleges?|allegedly|shares?)\b/gi, '')))).sort((a, b) => String(b.published).localeCompare(String(a.published)));
 const KIND_LABEL = { x: 'X post', news: 'News', ransomware: 'Leak-site claim', forum: 'Forum claim' };
 // Dashboard panels, in reading order. `note` is shown under the panel title; `wide` panels span both columns.
 const PANELS = [

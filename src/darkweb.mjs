@@ -45,12 +45,16 @@ async function callModel(list) {
   } catch (e) { console.warn('darkweb AI failed:', e.message); return null; }
 }
 
+// X posts in the dark web group are only written up when they are actually about a security event
+const SECURITY = /\b(ransomware|breach\w*|leak\w*|hack\w*|data|records|customers?|victims?|vulnerabilit\w*|flaws?|exploit\w*|malware|ddos|targeted|attack\w*|extortion|portal|access|credentials?|patch\w*|certificate|threat|cyber\w*|stolen|sale|sells?|selling|compromis\w*|websites?|defacement|forum|qilin|lockbit|akira|cl0p|clop|blackcat|alphv|rhysida|medusa|bianlian|safepay|everest|dragonforce|cloak|falcon|panzer|inc ransom|play ransom|hunters)\b/i;
+
 export async function updateDarkweb({ now = new Date(), call = callModel } = {}) {
   const breaking = read('data/breaking.json', { items: [] });
   const store = read('data/darkweb.json', { items: [] });
   const known = new Map((store.items ?? []).map((i) => [i.id, i]));
   const fresh = (breaking.items ?? [])
     .filter((i) => (i.kind === 'forum' || i.kind === 'ransomware' || (i.kind === 'x' && i.group === 'darkweb')) && i.id && i.title && /^https?:\/\//.test(i.url ?? ''))
+    .filter((i) => i.kind !== 'x' || SECURITY.test(i.title))
     .filter((i) => !known.has(i.id) && !SENSITIVE.test(i.title))
     .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_NEW);
   if (fresh.length) {
