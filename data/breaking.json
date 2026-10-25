@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:53:11.408Z",
+ "updated": "2026-10-25T14:00:09.974Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -8,31 +8,6 @@
   },
   {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -47,27 +22,52 @@
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "DarkForums",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -99,10 +99,21 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 1
+   "n": 2
   }
  ],
  "items": [
+  {
+   "id": "x2114355074801520881",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Forget The Retail Trader: Goldman Says Everything Now Rides On The Top 10%, Who Own 87% Of Household Stocks",
+   "url": "https://x.com/zerohedge/status/2114355074801520881",
+   "published": "2026-10-25T13:55:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114353848642875846",
    "kind": "x",
@@ -113,6 +124,17 @@
    "published": "2026-10-25T13:50:14.000Z",
    "severity": "high",
    "verified": false
+  },
+  {
+   "id": "ne835ac8ceb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Saudi air defences intercept Houthi barrage near Mecca",
+   "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+   "published": "2026-10-25T13:49:33.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114353221091110963",
@@ -135,6 +157,17 @@
    "published": "2026-10-25T13:47:09.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n8f590579da",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza’s visually and hearing-impaired children miss school due to Israel war",
+   "url": "https://www.aljazeera.com/features/2026/10/25/gazas-visually-and-hearing-impaired-children-miss-school-due-to-israel-war?traffic_source=rss",
+   "published": "2026-10-25T13:46:51.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "n38bfe08d35",
@@ -3369,39 +3402,6 @@
    "published": "2026-10-24T20:37:02.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114092780263796771",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇺🇸 🚨 US: THREAT ACTOR CLAIMS CISCO CRM ACCESS, LEAKS SAMPLE OF EXECUTIVE CONTACT RECORDS A threat actor using the name \"UNC6783\" claims to have leaked Cisco data after getting into a CRM system. The actor addressed Cisco directly,…",
-   "url": "https://x.com/DailyDarkWeb/status/2114092780263796771",
-   "published": "2026-10-24T20:32:51.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114092092112650688",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "The Next Fannie Mae Is Made Of GPUs",
-   "url": "https://x.com/zerohedge/status/2114092092112650688",
-   "published": "2026-10-24T20:30:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114092062190473501",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ An encrypted USB drive from SecZure has a backdoor that opens its files without the user's password. Two built-in accounts with fixed passwords decrypt them, Binary Ninja's Xusheng Li found. OpenAI's Codex broke Netac's FileLock in 7…",
-   "url": "https://x.com/IntCyberDigest/status/2114092062190473501",
-   "published": "2026-10-24T20:30:00.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
