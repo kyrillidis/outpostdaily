@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-25T10:27:28.224Z",
+ "updated": "2026-10-25T12:36:22.891Z",
  "items": [
+  {
+   "id": "x2114323685276610890",
+   "kind": "x",
+   "source": "@FalconFeedsio",
+   "url": "https://x.com/FalconFeedsio/status/2114323685276610890",
+   "published": "2026-10-25T11:50:23.000Z",
+   "headline": "Post claims ETO GRUPPE was affected by Qilin ransomware",
+   "claim": "The post alleges that Germany-based automotive company ETO GRUPPE fell victim to Qilin ransomware.",
+   "context": "As general background, ransomware incidents can involve data theft, encryption, or both. Automotive organizations often rely on interconnected suppliers and business systems, making resilience and access controls important.",
+   "advice": [
+    "Review endpoint alerts and isolate systems showing ransomware indicators.",
+    "Verify backups are protected and test restoration procedures."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2114323659993047235",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2114323659993047235",
+   "published": "2026-10-25T11:50:17.000Z",
+   "headline": "Post claims AWS set a certificate deadline and is removing linked roots",
+   "claim": "The post claims AWS set an October 28 certificate deadline and is removing eMudhra-linked roots from its trust stores.",
+   "context": "As general background, certificate authorities and trusted root certificates help systems verify digital identities. Changes to trust stores can require organizations to review certificate dependencies and plan updates.",
+   "advice": [
+    "Inventory certificate dependencies in cloud and enterprise environments.",
+    "Monitor trusted certificate store updates and vendor advisories."
+   ],
+   "verified": false
+  },
+  {
+   "id": "x2114308556023296182",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2114308556023296182",
+   "published": "2026-10-25T10:50:16.000Z",
+   "headline": "Post alleges data attributed to Ukraine's Prosecutor General's Office was offered for sale",
+   "claim": "The post alleges that a threat actor offered for sale data claimed to be from Ukraine's Prosecutor General's Office.",
+   "context": "As general background, data-sale claims on underground forums may be unverified and can involve misattributed, recycled, or fabricated material. Public-sector organizations commonly prepare for potential data exposure through monitoring and incident-response processes.",
+   "advice": [
+    "Monitor credible sources for corroboration without downloading alleged data.",
+    "Review data-exposure response procedures and escalation contacts."
+   ],
+   "verified": false
+  },
   {
    "id": "x2114300356981129314",
    "kind": "x",
@@ -92,6 +137,21 @@
    "verified": false
   },
   {
+   "id": "r650b25fe78",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/RVRPQHFpbGlu",
+   "published": "2026-10-25T07:24:50.523Z",
+   "headline": "Qilin claims ETO",
+   "claim": "The listing says Qilin claims ETO.",
+   "context": "As general background, ransomware groups may publish claims on leak sites to pressure organizations. Such posts alone do not independently verify an intrusion or data exposure.",
+   "advice": [
+    "Check security telemetry for signs of unauthorized access.",
+    "Confirm backups are isolated and recoverable."
+   ],
+   "verified": false
+  },
+  {
    "id": "x2114256521349771639",
    "kind": "x",
    "source": "@FalconFeedsio",
@@ -118,6 +178,96 @@
    "advice": [
     "Check vendor advisories and validate affected software versions.",
     "Review certificate trust policies and monitor for unusual connections."
+   ],
+   "verified": false
+  },
+  {
+   "id": "r60bc2e2e1e",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/VE9QTElWTyBBREBOMG4=",
+   "published": "2026-10-25T06:56:34.098Z",
+   "headline": "N0n claims TOPLIVO AD",
+   "claim": "The listing says N0n claims TOPLIVO AD.",
+   "context": "As general background, energy and utilities organizations depend on operational and business systems that require careful separation and monitoring. Ransomware leak-site claims are not independently verified by their publication alone.",
+   "advice": [
+    "Review access controls between operational and corporate networks.",
+    "Investigate unusual authentication and endpoint activity."
+   ],
+   "verified": false
+  },
+  {
+   "id": "r586fcf620c",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/VGVjaG5vbGVhZHMgU2VydmljZXMgSW5jLkBOMG4=",
+   "published": "2026-10-25T06:56:05.946Z",
+   "headline": "N0n claims Technoleads Services Inc.",
+   "claim": "The listing says N0n claims Technoleads Services Inc.",
+   "context": "As general background, technology service providers may have access to customer environments and sensitive business systems. Ransomware claims should be assessed against independent telemetry rather than treated as confirmation.",
+   "advice": [
+    "Review privileged access and remote-management activity.",
+    "Check incident-response plans for customer notification steps."
+   ],
+   "verified": false
+  },
+  {
+   "id": "r22691ce0d4",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/UHVyZSBHcm93IERpYW1vbmRzIEluYy5ATjBu",
+   "published": "2026-10-25T06:55:37.623Z",
+   "headline": "N0n claims Pure Grow Diamonds Inc.",
+   "claim": "The listing says N0n claims Pure Grow Diamonds Inc.",
+   "context": "As general background, manufacturers often rely on a mix of production, inventory, and business systems. Ransomware preparedness commonly includes tested recovery plans and restricted administrative access.",
+   "advice": [
+    "Verify production and business-system backups are recoverable.",
+    "Review administrative access for unnecessary privileges."
+   ],
+   "verified": false
+  },
+  {
+   "id": "rf4c0785c72",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/TWFjaCBMYXcgQVBDIChTYW4gRGllZ28gZmFtaWx5IGxhdyBhbmQgZGl2b3JjZSBwcmFjdGljZSlATjBu",
+   "published": "2026-10-25T06:55:09.342Z",
+   "headline": "N0n claims Mach Law APC",
+   "claim": "The listing says N0n claims Mach Law APC.",
+   "context": "As general background, law practices may handle confidential client and case information. Organizations in professional services can reduce exposure through strong access controls, encryption, and tested response procedures.",
+   "advice": [
+    "Review access to confidential matter files and shared storage.",
+    "Confirm incident-response procedures address potential data exposure."
+   ],
+   "verified": false
+  },
+  {
+   "id": "re5fd9f7650",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/S2VpZGVsIFN1cHBseSBDb21wYW55IEluY29ycG9yYXRlZEBOMG4=",
+   "published": "2026-10-25T06:54:40.120Z",
+   "headline": "N0n claims Keidel Supply Company Incorporated",
+   "claim": "The listing says N0n claims Keidel Supply Company Incorporated.",
+   "context": "As general background, supply companies often depend on connected inventory, finance, and logistics systems. Ransomware resilience includes limiting access and maintaining tested, protected backups.",
+   "advice": [
+    "Check for unusual access to inventory and business systems.",
+    "Validate backup isolation and restoration readiness."
+   ],
+   "verified": false
+  },
+  {
+   "id": "rb916c23048",
+   "kind": "ransomware",
+   "source": "ransomware.live",
+   "url": "https://www.ransomware.live/id/QW5kcmV3cyBBZHZpc29yeSBHcm91cCBMTENATjBu",
+   "published": "2026-10-25T06:54:11.761Z",
+   "headline": "N0n claims Andrews Advisory Group LLC",
+   "claim": "The listing says N0n claims Andrews Advisory Group LLC.",
+   "context": "As general background, advisory firms may process sensitive business and client information. Ransomware claims on leak sites can be intended to create pressure and require independent verification.",
+   "advice": [
+    "Review sign-in and file-access logs for anomalies.",
+    "Ensure sensitive data is covered by recovery and response plans."
    ],
    "verified": false
   },
@@ -448,156 +598,6 @@
    "advice": [
     "Review official Ruby and GitLab advisories for remediation guidance.",
     "Test and deploy applicable security updates promptly."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114135916990410754",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114135916990410754",
-   "published": "2026-10-24T23:24:16.000Z",
-   "headline": "Report claims an exploit was published for an Adobe Commerce vulnerability",
-   "claim": "The title alleges that an exploit was published for CVE-2026-71362, an authorization flaw affecting Adobe Commerce and Magento Open Source.",
-   "context": "As general background, account-takeover vulnerabilities can put user accounts and application data at risk when authorization checks fail. Exploit reports should be validated against vendor guidance and affected configurations; this context is not confirmation of this report.",
-   "advice": [
-    "Check Adobe advisories and determine whether your deployments are affected.",
-    "Apply vendor fixes and review account activity for anomalies."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114123724022583784",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114123724022583784",
-   "published": "2026-10-24T22:35:48.000Z",
-   "headline": "Actor advertises GlobalProtect VPN access to two unnamed companies",
-   "claim": "The title alleges that a threat actor is advertising GlobalProtect SSL/VPN access to two unnamed companies.",
-   "context": "As general background, compromised remote-access accounts can provide an entry point into corporate networks. Access listings are unverified claims and may be stale or fabricated; this context is not confirmation of this incident.",
-   "advice": [
-    "Review VPN sign-in logs for unusual access patterns.",
-    "Enforce multifactor authentication and rotate exposed credentials."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114122869634658443",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114122869634658443",
-   "published": "2026-10-24T22:32:25.000Z",
-   "headline": "PingCAP reportedly confirms a breach following a Fulcrumsec claim",
-   "claim": "The title says PingCAP confirmed a breach involving a compromised GitHub account and exposed credentials, with access to internal systems and source code taken.",
-   "context": "As general background, compromised developer accounts and exposed credentials can create risks to internal systems and software supply chains. Organizations commonly review account access, secrets, and repository activity after such reports; this context adds no verification of this incident.",
-   "advice": [
-    "Revoke exposed credentials and review developer-account access.",
-    "Inspect repository and internal-system logs for unauthorized activity."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114107798367691066",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114107798367691066",
-   "published": "2026-10-24T21:32:32.000Z",
-   "headline": "Post claims ransomware caused service outages in Columbia, South Carolina",
-   "claim": "The post says Columbia's city manager confirmed that ransomware was behind city service outages.",
-   "context": "As general background, ransomware incidents can disrupt access to public-sector systems and services. This is general knowledge, not confirmation of this incident.",
-   "advice": [
-    "Review incident response and service-continuity plans.",
-    "Verify backups and test restoration procedures."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114092780263796771",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114092780263796771",
-   "published": "2026-10-24T20:32:51.000Z",
-   "headline": "Actor claims Cisco CRM access and data leak",
-   "claim": "A threat actor claims to have accessed a Cisco CRM system and leaked data.",
-   "context": "As general background, CRM systems may contain business and contact information, making access controls and monitoring important. This is general knowledge, not confirmation of this incident.",
-   "advice": [
-    "Review CRM sign-in and access logs for anomalies.",
-    "Enforce multifactor authentication and least-privilege access."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114088622093717848",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114088622093717848",
-   "published": "2026-10-24T20:16:20.000Z",
-   "headline": "Post claims a PoC was published for a FortiSIEM vulnerability",
-   "claim": "The post claims a proof of concept was published for a critical unauthenticated FortiSIEM remote code execution vulnerability.",
-   "context": "In general, proof-of-concept code can help defenders assess exposure, but it may also enable attempts to exploit a vulnerability. This is general background and does not verify the post or the vulnerability details.",
-   "advice": [
-    "Check vendor advisories and validate exposure.",
-    "Apply security updates when available."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114080274262766059",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114080274262766059",
-   "published": "2026-10-24T19:43:09.000Z",
-   "headline": "Actor claims a data leak linked to Renaissance",
-   "claim": "The post alleges that an actor published records linked to Renaissance, Emmanuel Macron's political party.",
-   "context": "In general, data-leak claims on social media may be unverified, and posted material may be incomplete or misattributed. This is general background, not confirmation of this claim.",
-   "advice": [
-    "Monitor official statements and relevant threat intelligence.",
-    "Review access logs for unusual activity."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114077776688869721",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114077776688869721",
-   "published": "2026-10-24T19:33:14.000Z",
-   "headline": "Post claims PHP2Shell exploitation was confirmed",
-   "claim": "The post claims Unit 42 confirmed PHP2Shell exploitation in the wild, with attackers using agentic AI.",
-   "context": "In general, reports of active exploitation can prompt defenders to review affected technologies and exposure. This is general background and does not verify the report or its details.",
-   "advice": [
-    "Check authoritative advisories for affected versions and mitigations.",
-    "Review relevant systems for suspicious activity."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114073820554256650",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114073820554256650",
-   "published": "2026-10-24T19:17:31.000Z",
-   "headline": "Post claims a payment supplier breach exposed prepaid-card records",
-   "claim": "The post alleges attackers exploited a web-server vulnerability at a subsidiary of Paycloud, exposing Value Card records.",
-   "context": "In general, payment-service incidents can involve exposed customer or transaction data, but initial reports may be incomplete. This is general background, not confirmation of this claim.",
-   "advice": [
-    "Review web-server logs and investigate anomalous requests.",
-    "Follow applicable incident-response and notification procedures."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114066825223016551",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114066825223016551",
-   "published": "2026-10-24T18:49:43.000Z",
-   "headline": "Video alleges a social-engineering scam involving Bitcoin theft",
-   "claim": "The title says a video tells the story of Malone Lam, who allegedly helped steal Bitcoin through a social-engineering scam.",
-   "context": "In general, social engineering uses deception to manipulate people into actions that can compromise accounts or assets. This is general background and does not verify the video’s account.",
-   "advice": [
-    "Use independent verification for urgent financial requests.",
-    "Enable multifactor authentication on relevant accounts."
    ],
    "verified": false
   }
