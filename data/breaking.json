@@ -1,30 +1,20 @@
 {
- "updated": "2026-10-25T13:46:25.926Z",
+ "updated": "2026-10-25T13:53:11.408Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
   {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "Al Jazeera",
@@ -35,6 +25,16 @@
    "name": "BBC World",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
@@ -58,13 +58,13 @@
   },
   {
    "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 0
   },
   {
    "name": "ransomware.live",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -89,7 +89,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -99,10 +99,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 9
+   "n": 1
   }
  ],
  "items": [
+  {
+   "id": "x2114353848642875846",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🚨 Lindt Japan: 3.15 million member records exposed in breach at e-commerce provider futureshop Lindt & Sprüngli Japan says attackers broke into futureshop, the SaaS platform that runs its online shop, and took data on 3,147,469 members…",
+   "url": "https://x.com/DailyDarkWeb/status/2114353848642875846",
+   "published": "2026-10-25T13:50:14.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114353221091110963",
+   "kind": "x",
+   "group": "crisis",
+   "source": "@sentdefender",
+   "title": "Following reports of an anti-ship missile launch towards the Strait of Hormuz, the IRGC has claimed that an “offending” vessel was just struck in the waterway. More to come.",
+   "url": "https://x.com/sentdefender/status/2114353221091110963",
+   "published": "2026-10-25T13:47:45.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114353069349564787",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "How would the stock market respond to a Democratic sweep? To a divided Congress? Here's what to know:",
+   "url": "https://x.com/business/status/2114353069349564787",
+   "published": "2026-10-25T13:47:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n38bfe08d35",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+   "published": "2026-10-25T13:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2114352120338239696",
    "kind": "x",
@@ -1037,6 +1081,17 @@
    "published": "2026-10-25T10:14:43.000Z",
    "severity": "high",
    "verified": true
+  },
+  {
+   "id": "rf722fa7b43",
+   "kind": "ransomware",
+   "group": "darkweb",
+   "source": "ransomware.live",
+   "title": "emperador claims AyT COMPUTERS SRL — Technology",
+   "url": "https://www.ransomware.live/id/QXlUIENPTVBVVEVSUyBTUkxAZW1wZXJhZG9y",
+   "published": "2026-10-25T09:52:04.948Z",
+   "severity": "normal",
+   "verified": false
   },
   {
    "id": "x2114293603879284758",
@@ -3346,61 +3401,6 @@
    "url": "https://x.com/IntCyberDigest/status/2114092062190473501",
    "published": "2026-10-24T20:30:00.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114091547763585258",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "Trump: It's a possibility i will attack Iran",
-   "url": "https://x.com/DeItaone/status/2114091547763585258",
-   "published": "2026-10-24T20:27:57.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114090697406271754",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "Trump: I may have to finish the job with Iran, or we make a deal. Either way we win",
-   "url": "https://x.com/DeItaone/status/2114090697406271754",
-   "published": "2026-10-24T20:24:34.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114090655748333668",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "Trump: Once we've got a deal with Russia and Ukraine we will be able to do business with both",
-   "url": "https://x.com/DeItaone/status/2114090655748333668",
-   "published": "2026-10-24T20:24:24.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114089754127966236",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "TRUMP ON STARLINK IN UKRAINE: I HAVE SPOKEN TO ELON MUSK",
-   "url": "https://x.com/DeItaone/status/2114089754127966236",
-   "published": "2026-10-24T20:20:49.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114088622093717848",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨 PoC published for a critical unauthenticated Fortinet FortiSIEM remote code execution vulnerability; CVE-2026-106173 PoC: The flaw affects FortiSIEM's gRPC QueryResultReq handler. Improper validation of attacker-controlled metadata…",
-   "url": "https://x.com/DarkWebInformer/status/2114088622093717848",
-   "published": "2026-10-24T20:16:20.000Z",
-   "severity": "high",
    "verified": false
   }
  ]
