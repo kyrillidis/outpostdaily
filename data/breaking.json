@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-25T16:57:34.753Z",
+ "updated": "2026-10-25T17:13:06.867Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -8,26 +13,11 @@
   },
   {
    "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Al Jazeera",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "MarketWatch",
    "ok": true,
    "n": 9
   },
@@ -52,7 +42,17 @@
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,17 +62,17 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
    "name": "X cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
    "n": 0
   },
@@ -89,20 +89,108 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 2
+   "n": 4
   }
  ],
  "items": [
+  {
+   "id": "x2114404788850786568",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇺🇸 🚨 QILIN RANSOMWARE CLAIMS GLOBAL LAW FIRM WHITE & CASE The Qilin ransomware group has added White & Case, one of the world's largest international law firms, to its leak site. The listing names the firm under law and legal services.…",
+   "url": "https://x.com/DailyDarkWeb/status/2114404788850786568",
+   "published": "2026-10-25T17:12:40.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114404329117372453",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇫🇷 🚨 FRANCE: THREAT ACTOR LEAKS ALLEGED 4.1M-LINE DATABASE OF MACRON'S RENAISSANCE PARTY A threat actor on an underground forum has released for free what it calls a partial database from parti-renaissance[.]fr, the website of…",
+   "url": "https://x.com/DailyDarkWeb/status/2114404329117372453",
+   "published": "2026-10-25T17:10:50.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114402105335406860",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@IntCyberDigest",
+   "title": "‼️ Filings to India's film censor board for 500+ titles, from scripts to distribution deals, were free downloads on the Internet Archive, The Hindu reports. The uploader's account bore ex-chairman Prasoon Joshi's name in Russian. The…",
+   "url": "https://x.com/IntCyberDigest/status/2114402105335406860",
+   "published": "2026-10-25T17:02:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114401854066958813",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "The American dream now costs $5.32 million, per a new Investopedia analysis. But a full-time worker with a bachelor’s degree earns about $3.6 million over a career, from age 25 to 64. Add 20 years of average Social Security, and it’s…",
+   "url": "https://x.com/unusual_whales/status/2114401854066958813",
+   "published": "2026-10-25T17:01:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114401666992640363",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "The pressure to find solutions may be especially strong in the US, where unemployment benefits are less generous than in many other wealthy countries. Here's what to know",
+   "url": "https://x.com/business/status/2114401666992640363",
+   "published": "2026-10-25T17:00:15.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "n53edf89bc9",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
+   "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+   "published": "2026-10-25T17:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbcbd955c93",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+   "url": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+   "published": "2026-10-25T17:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb58ee10f31",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+   "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+   "published": "2026-10-25T17:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "x2114400593389158906",
    "kind": "x",
@@ -3313,94 +3401,6 @@
    "url": "https://x.com/FirstSquawk/status/2114178368019325385",
    "published": "2026-10-25T02:12:57.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114177417510113408",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇯🇵 Japan: Treasure Factory says 746,277 customer email addresses were stolen from its pickup and moving booking system The Tokyo-listed reuse retailer says an attacker exploited a database access vulnerability on Oct 20 and took data…",
-   "url": "https://x.com/DailyDarkWeb/status/2114177417510113408",
-   "published": "2026-10-25T02:09:10.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "nc2f1350c5d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Mass rally against Netanyahu ahead of pivotal Israeli election",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
-   "published": "2026-10-25T02:07:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114175361231831087",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Trump: I called Google Maps to change the name of the Atlantic Ocean to Trump Ocean. Sundar said, “No, no, no. This time I'm not doing it.” He said, “Oceans are different, sir. They cover a lot of countries. Please don't ask us to do…",
-   "url": "https://x.com/unusual_whales/status/2114175361231831087",
-   "published": "2026-10-25T02:01:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114173506464174430",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@CrowdStrike",
-   "title": "Austin, what a weekend. 🏁 Taking in the sights with the @MercedesAMGF1 team. Because when the pace picks up, visibility matters at every turn.",
-   "url": "https://x.com/CrowdStrike/status/2114173506464174430",
-   "published": "2026-10-25T01:53:38.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114170356235980924",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Threat actor starter pack: $50K in designer accessories, $12 in OPSEC.",
-   "url": "https://x.com/DarkWebInformer/status/2114170356235980924",
-   "published": "2026-10-25T01:41:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114170228129353743",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert: 🇺🇸 Newcomer Cremations, Funerals & Receptions ( a U.S.-based funeral services provider, has reportedly fallen victim to Anubis ransomware. 🔍 Key Details: 🛡️ Threat Actor: Anubis 📅 Reported on: 25/10/26 ⚠️ Data…",
-   "url": "https://x.com/FalconFeedsio/status/2114170228129353743",
-   "published": "2026-10-25T01:40:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114170108549435430",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Pentagon Designates Confucius Institutes A National Security Threat",
-   "url": "https://x.com/zerohedge/status/2114170108549435430",
-   "published": "2026-10-25T01:40:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114169968787181700",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Trump Indicates Openness to Issuing Pardons for Administration Officials - WSN",
-   "url": "https://x.com/FirstSquawk/status/2114169968787181700",
-   "published": "2026-10-25T01:39:34.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
