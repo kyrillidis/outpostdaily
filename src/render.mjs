@@ -90,7 +90,7 @@ const tagList = (it) => (it.tags?.length ? `<ul class="tags">${it.tags.map((t) =
 // the story's own picture, thumbnailed and self-hosted at fetch time; credited to the outlet and linked to the article
 // thumbnails are named after the story id, so a story shows its picture even if the edition JSON predates the file
 const storyImage = (it) => it.image || (existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '');
-const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="720" height="405" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
+const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="960" height="540" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
 
 function entry(it, { n, lvl = 3, lead = false }) {
   const corr = it.also?.length ? ` <span class="corr">${it.also.length + 1} outlets</span>` : '';

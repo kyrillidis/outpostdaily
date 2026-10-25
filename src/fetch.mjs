@@ -170,7 +170,7 @@ async function thumbnail(it) {
       if (buf.length > 8e6) continue;
       const meta = await sharp(buf).metadata();
       if ((meta.width ?? 0) < 400 || (meta.height ?? 0) < 200) continue; // logos and icons
-      writeFileSync(ROOT + rel, await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: 68 }).toBuffer());
+      writeFileSync(ROOT + rel, await sharp(buf).rotate().resize({ width: 960, withoutEnlargement: true }).webp({ quality: 70 }).toBuffer());
       return '/' + rel.slice('public/'.length);
     } catch { /* try the next candidate */ }
   }

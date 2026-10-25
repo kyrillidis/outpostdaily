@@ -613,3 +613,31 @@ html[data-view="scan"] .entries-2up{ grid-template-columns:minmax(0,1fr); }
 .entry > .plate{ aspect-ratio:3/2; }
 .entry-lead > .plate{ aspect-ratio:3/2; }
 .photo-credit{ max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+/* ===== 18. Short words, big picture (Read view). Authoritative: overrides the earlier entry rules ===== */
+html:not([data-view="scan"]) .entries .entry :is(.entry-why,.tags,.cites){ display:none; }
+html:not([data-view="scan"]) .entries .entry .entry-sum{ display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; line-clamp:2; overflow:hidden; margin:0; font-size:1.0625rem; line-height:1.5; max-width:none; }
+html:not([data-view="scan"]) .entries .entry-lead .entry-sum{ -webkit-line-clamp:3; line-clamp:3; font-size:1.125rem; }
+html:not([data-view="scan"]) .entries .entry:has(.plate) > .plate{ aspect-ratio:16/10; width:auto; }
+@media (min-width:760px){
+  html:not([data-view="scan"]) .entries .entry:has(.plate){ grid-template-columns:minmax(0,1fr) minmax(280px,45%); grid-template-areas:"body plate"; column-gap:clamp(24px,3vw,40px); padding:28px 0; align-items:center; }
+  html:not([data-view="scan"]) .entries .entry:has(.plate) > .plate{ grid-area:plate; grid-column:auto; grid-row:auto; margin:0; align-self:center; }
+  html:not([data-view="scan"]) .entries .entry-lead:has(.plate){ grid-template-columns:minmax(0,1fr) minmax(0,1.25fr); padding-top:6px; }
+  html:not([data-view="scan"]) .entries .entry .entry-title{ font-size:var(--step-2); line-height:1.12; margin-bottom:.45rem; }
+  html:not([data-view="scan"]) .entries .entry-lead .entry-title{ font-size:clamp(1.7rem,1.2rem + 1.4vw,2.3rem); }
+  html:not([data-view="scan"]) .entries .entry .entry-line{ margin-bottom:.7rem; }
+}
+@media (max-width:759px){
+  html:not([data-view="scan"]) .entries .entry:has(.plate),html:not([data-view="scan"]) .entries .entry-lead:has(.plate){ grid-template-columns:minmax(0,1fr); grid-template-areas:"plate" "body"; padding:22px 0 24px; }
+  html:not([data-view="scan"]) .entries .entry:has(.plate) > .plate{ grid-area:plate; grid-column:auto; grid-row:auto; aspect-ratio:16/9; width:auto; margin:0 0 14px; }
+  html:not([data-view="scan"]) .entries .entry .entry-title{ font-size:1.375rem; line-height:1.14; }
+  html:not([data-view="scan"]) .entries .entry .entry-sum{ font-size:1rem; }
+}
+
+/* phones: keep the text block together so the picture sits above it (Read) or beside it (Scan) */
+@media (max-width:759px){
+  html:not([data-view="scan"]) .entries .entry:has(.plate) > .entry-body{ display:block; grid-area:body; }
+  html[data-view="scan"] .entries .entry > .entry-body{ display:block; grid-area:body; }
+  html[data-view="scan"] .entries .entry:has(.plate) > .plate{ grid-area:plate; grid-column:auto; grid-row:auto; width:auto; aspect-ratio:4/3; margin:0; }
+  html[data-view="scan"] .entries .entry-lead:has(.plate){ grid-template-columns:minmax(0,1fr) 104px; grid-template-areas:"body plate"; }
+}
