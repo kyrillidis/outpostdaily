@@ -111,10 +111,15 @@ function entry(it, { n, lvl = 3, lead = false }) {
 const entriesHtml = (items, { lvl, className = 'entries', inlineAd = true } = {}) =>
   `<div class="${className}">${items.map((it, i) => entry(it, { n: i + 1, lvl }) + (inlineAd && i === 2 ? ad('inline') : '')).join('\n')}</div>`;
 
+// front-page layout: one lead story with a large photo, then a grid of photo cards
+const newsLayout = (list, { lvl, start = 1, adSlot = true } = {}) => !list.length ? '' :
+  `<div class="entries">${entry(list[0], { n: start, lvl, lead: true })}</div>` + (adSlot ? ad('inline') : '') +
+  (list.length > 1 ? `<div class="entries cards">${list.slice(1).map((it, i) => entry(it, { n: start + 1 + i, lvl })).join('\n')}</div>` : '');
+
 function sectionPage(ed, section, { title, sub, lvl, route }) {
   const list = ed.items.filter((i) => i.section === section);
   const body = list.length
-    ? entriesHtml(list, { lvl })
+    ? newsLayout(list, { lvl })
     : '<p class="sec-sub">No qualifying items in the last 36 hours from the sources that responded.</p>';
   return secHead({ title, sub }) + ad('top') + termsPanel(route) + body;
 }
@@ -365,8 +370,12 @@ function pageFor(ed, route) {
       title: `Outpost: Cyber, Defence Tech & Geopolitics Briefing — ${d}`,
       desc: cut(`Today’s top stories: ${[...heads('cyber', 1), ...heads('warfare', 1), ...heads('geo', 1)].join('; ')}. Daily, source-linked briefing.`, 158),
       main: secHead({ title: 'Top Stories', sub: 'The best of cyber, warfare technology and geopolitics, two from each, ranked by recency, source weight and how many outlets carry the story.' }) + ad('top') +
-        (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') + analysisHtml(ed, 3) + termsPanel('home') +
-        (front.length > 1 ? `<div class="entries entries-2up">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline'),
+        (front.length ? `<div class="entries">${entry(front[0], { n: 1, lvl: 3, lead: true })}</div>` : '') +
+        (front.length > 1 ? `<h2 class="group-title">Latest</h2><div class="entries cards">${front.slice(1).map((it, i) => entry(it, { n: i + 2, lvl: 3 })).join('\n')}</div>` : '') + ad('inline') + analysisHtml(ed, 3) + termsPanel('home') +
+        ['cyber', 'warfare', 'geo'].map((sec) => {
+          const more = ranked.filter((i) => i.section === sec && !front.includes(i)).slice(0, 3);
+          return more.length ? `<section class="band" data-domain="${sec}"><h2 class="group-title"><a href="${SECTION_ROUTE[sec].path}">More from ${DOMAIN_LABEL[sec]}</a></h2><div class="entries cards">${more.map((it) => entry(it, { n: ranked.indexOf(it) + 1, lvl: 3 })).join('\n')}</div></section>` : '';
+        }).join(''),
       list: front.map((i) => ({ title: i.title, url: `${SITE}/#s-${i.id}` })),
     },
     cyber: { title: `Cybersecurity News Today — ${d} | Outpost`, desc: cut(`Cyber threat news for ${d}: ${heads('cyber', 3).join('; ')}. Breaches, campaigns and advisories, linked to source.`, 158), main: sec('cyber', 'Cyber Threat Intelligence', 'Breaches, campaigns, advisories and research.'), list: secList('cyber', r.path) },
