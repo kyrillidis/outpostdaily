@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "edition": 223,
- "compiled": "2026-10-25T16:28:45.286Z",
+ "compiled": "2026-10-25T18:31:36.413Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
    "published": "2026-10-25T15:49:38.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.54,
    "image": "/img/news/9e8f060397.webp",
    "t": "2026-10-25",
    "summary": "Researchers found a malicious AGENTS markdown file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
@@ -36,7 +36,7 @@
    "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
    "published": "2026-10-25T11:00:00.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.34,
    "image": "/img/news/e85723a0f6.webp",
    "t": "2026-10-25",
    "summary": "SecurityWeek reports Mave, founded by Unit 8200 alumni, uses AI agents to investigate alerts across existing security stacks.",
@@ -45,28 +45,6 @@
     "AI agents",
     "alerts",
     "security stacks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5d0e99bc98",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-   "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel",
-   "published": "2026-10-25T06:54:29.000Z",
-   "also": [],
-   "score": 1.3,
-   "image": "/img/news/5d0e99bc98.webp",
-   "t": "2026-10-25",
-   "summary": "OpenAI announced plans to train frontier models without live internet access while resuming reinforcement learning and internal inference of its most advanced models.",
-   "why": "Check isolation and monitoring controls around model training and internal inference.",
-   "tags": [
-    "frontier model training",
-    "reinforcement learning",
-    "internet access"
    ],
    "ai": true
   },
@@ -80,7 +58,7 @@
    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, ea",
    "published": "2026-10-25T09:00:56.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.2,
    "image": "/img/news/3ddec341f6.webp",
    "t": "2026-10-25",
    "summary": "Help Net Security says the PHP security team announced an urgent security release, with users urged to prepare to update.",
@@ -101,7 +79,7 @@
    "snippet": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
    "published": "2026-10-24T14:17:32.000Z",
    "also": [],
-   "score": 1.05,
+   "score": 1.01,
    "image": "/img/news/a6ce317099.webp",
    "t": "2026-10-24",
    "summary": "The report says the BlackX UEFI bootkit exploited the Baton Drop flaw to bypass Secure Boot and load a malicious driver in an espionage campaign.",
@@ -110,116 +88,6 @@
     "BlackX",
     "UEFI",
     "Secure Boot"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a0a9e49aec",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffe",
-   "published": "2026-10-24T11:09:29.000Z",
-   "also": [],
-   "score": 0.89,
-   "image": "/img/news/a0a9e49aec.webp",
-   "t": "2026-10-24",
-   "summary": "A memory-corruption flaw in Google's Brotli decoder affects software that unpacks Brotli data, including Bun, Python packages and some Envoy proxies; the title says it is behind Node.js RCE.",
-   "why": "Inventory Brotli-using software and check for fixes, especially in the listed packages and proxies.",
-   "tags": [
-    "Brotli",
-    "memory corruption",
-    "RCE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3a1a036ef7",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-   "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness r",
-   "published": "2026-10-24T11:03:33.000Z",
-   "also": [],
-   "score": 0.89,
-   "image": "/img/news/3a1a036ef7.webp",
-   "t": "2026-10-24",
-   "summary": "LiteLLM says a master key published in a public GitHub repository ultimately enabled an attacker to push a malicious version of its Python package.",
-   "why": "Check for exposed secrets and review release-pipeline activity for unauthorized changes.",
-   "tags": [
-    "master key",
-    "GitHub",
-    "release pipeline"
-   ],
-   "ai": true
-  },
-  {
-   "id": "afec56c724",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-   "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-   "snippet": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services lik",
-   "published": "2026-10-24T10:36:33.000Z",
-   "also": [],
-   "score": 0.88,
-   "image": "/img/news/afec56c724.webp",
-   "t": "2026-10-24",
-   "summary": "Google says personalized AI features in Search or Gemini may allow targeted ads based on activity across connected Google services.",
-   "why": "Review connected-service settings and explain how AI feature use may affect ad personalization.",
-   "tags": [
-    "Google",
-    "AI",
-    "targeted ads"
-   ],
-   "ai": true
-  },
-  {
-   "id": "94d51fe2d2",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-   "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-   "snippet": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a fre",
-   "published": "2026-10-24T09:04:24.000Z",
-   "also": [],
-   "score": 0.85,
-   "image": "/img/news/94d51fe2d2.webp",
-   "t": "2026-10-24",
-   "summary": "Eye Security says it pushed more than 2 million updates to computers it did not own to disable a Popcorn Time updater it said could let an outsider take over a machine.",
-   "why": "Check for the updater and assess whether affected systems received the disabling updates.",
-   "tags": [
-    "Popcorn Time",
-    "updater",
-    "botnet"
-   ],
-   "ai": true
-  },
-  {
-   "id": "838b4b1ce2",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilit",
-   "published": "2026-10-24T06:25:57.000Z",
-   "also": [],
-   "score": 0.79,
-   "image": "/img/news/838b4b1ce2.webp",
-   "t": "2026-10-24",
-   "summary": "CISA added vulnerabilities affecting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog, citing reports of active exploitation.",
-   "why": "Check whether these products are in use and prioritize reviewing and addressing the listed vulnerabilities.",
-   "tags": [
-    "CISA",
-    "KEV",
-    "vulnerabilities"
    ],
    "ai": true
   },
@@ -233,7 +101,7 @@
    "snippet": "The money to start AUTOWARCOM is to come from a reconciliation bill whose passage is in doubt.",
    "published": "2026-10-25T10:00:00.000Z",
    "also": [],
-   "score": 1.37,
+   "score": 1.32,
    "image": "/img/news/692a07c02f.webp",
    "t": "2026-10-25",
    "summary": "Defense One reports that funding for AUTOWARCOM would come from a reconciliation bill whose passage is in doubt.",
@@ -254,7 +122,7 @@
    "snippet": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
    "published": "2026-10-24T11:59:17.000Z",
    "also": [],
-   "score": 0.91,
+   "score": 0.86,
    "image": "/img/news/7b202954b9.webp",
    "t": "2026-10-24",
    "summary": "Naval News says USS Pinckney is the first U.S. Navy destroyer in Phase Two of DDG MOD 2.0, adding SPY-6 radars.",
@@ -276,7 +144,7 @@
    "snippet": "Greece and Israel test new SPIKE NLOS and ER2 missile systems and sink a decommissioned frigate during joint Hellenic Navy live-fire drills in the Cretan Sea. The post Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel appeared first on Naval News .",
    "published": "2026-10-24T07:42:50.000Z",
    "also": [],
-   "score": 0.82,
+   "score": 0.77,
    "image": "/img/news/98b993d764.webp",
    "t": "2026-10-24",
    "summary": "Greece and Israel tested SPIKE NLOS and ER2 missile systems during Hellenic Navy live-fire drills in the Cretan Sea, sinking a decommissioned frigate.",
@@ -303,7 +171,7 @@
      "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "score": 1.72,
+   "score": 1.67,
    "image": "/img/news/297905b4d0.webp",
    "t": "2026-10-25",
    "summary": "The Israeli Defense Forces says it will restrict Palestinian workers’ movement in the run-up to Tuesday’s election.",
@@ -312,6 +180,90 @@
     "West Bank",
     "crossings",
     "movement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e1f51c7014",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli air strike on Gaza City university kills three people",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+   "snippet": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City.",
+   "published": "2026-10-25T18:12:13.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/e1f51c7014.webp",
+   "t": "2026-10-25",
+   "summary": "Al Jazeera reports that two Israeli strikes hit students and security guards at the Islamic University in Gaza City; its headline says three people were killed.",
+   "why": "The reported strikes highlight the human and operational consequences of attacks on a university site.",
+   "tags": [
+    "Gaza City",
+    "university"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2749cf3d2f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US and Israel elections: New leaders, same policies?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/us-and-israel-elections-new-leaders-same-policies?traffic_source=rss",
+   "snippet": "Israeli governments change. US presidents come and go. But settlement expansion on occupied Palestinian land continues.",
+   "published": "2026-10-25T17:53:23.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/2749cf3d2f.webp",
+   "t": "2026-10-25",
+   "summary": "Al Jazeera says Israeli governments and US presidents change, while settlement expansion on occupied Palestinian land continues.",
+   "why": "The report frames settlement expansion as a continuing issue across changes in political leadership.",
+   "tags": [
+    "elections",
+    "settlement expansion"
+   ],
+   "ai": true
+  },
+  {
+   "id": "98798f828d",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Jerusalem Daily: Israel expels thousands from Hebron",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
+   "snippet": "Jerusalem Daily: Israel expels thousands from Hebron",
+   "published": "2026-10-25T17:12:59.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/98798f828d.webp",
+   "t": "2026-10-25",
+   "summary": "Al Jazeera’s headline says Israel expels thousands from Hebron; the supplied snippet provides no further details.",
+   "why": "The reported expulsions concern movement and conditions in Hebron.",
+   "tags": [
+    "Hebron",
+    "expulsions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2af05852f8",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+   "snippet": "The global trend may show young people leaning politically to the left, but in Israel… they’re leaning to the right.",
+   "published": "2026-10-25T16:30:51.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/2af05852f8.webp",
+   "t": "2026-10-25",
+   "summary": "Al Jazeera says young people in Israel are leaning to the right, contrasting with a global trend it describes as leaning left.",
+   "why": "The reported generational political shift may be relevant to understanding Israel’s political landscape.",
+   "tags": [
+    "Generation Right",
+    "Israel"
    ],
    "ai": true
   },
@@ -325,7 +277,7 @@
    "snippet": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
    "published": "2026-10-25T15:40:25.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/c96546db1a.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera reports an Israeli air strike killed three security guards in one of two attacks on the Islamic University in Gaza City.",
@@ -347,7 +299,7 @@
    "snippet": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
    "published": "2026-10-25T14:47:55.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/3a41108eb6.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera says rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
@@ -369,7 +321,7 @@
    "snippet": "Prime Minister Netanyahu mulls cryptocurrency as answer to economic sanctions on Israel, but there are few buyers.",
    "published": "2026-10-25T14:46:38.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.42,
    "image": "/img/news/4fa868489e.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera reports Prime Minister Netanyahu is considering cryptocurrency as an answer to economic sanctions on Israel, but there are few buyers.",
@@ -378,94 +330,6 @@
     "cryptocurrency",
     "sanctions",
     "buyers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f12c641a14",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Gaza content creator tells Al Jazeera how much her award win means",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/gaza-content-creator-tells-al-jazeera-how-much-her-award-win-means?traffic_source=rss",
-   "snippet": "Palestinian girl Nisreen Skaik tells Al Jazeera how much winning a Junior Digital Creator Award means",
-   "published": "2026-10-25T14:16:06.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/f12c641a14.webp",
-   "t": "2026-10-25",
-   "summary": "Al Jazeera reports that Palestinian girl Nisreen Skaik described what winning a Junior Digital Creator Award means to her.",
-   "why": "The story offers a view of a creator's experience in Gaza.",
-   "tags": [
-    "Palestinian",
-    "creator",
-    "award"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3f5fe1602f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "The search for gold is a dangerous and laborious gamble for Sudan’s miners",
-   "url": "https://www.aljazeera.com/features/2026/10/25/the-search-for-gold-is-a-dangerous-and-laborious-gamble-for-sudans-miners?traffic_source=rss",
-   "snippet": "As Sudan’s war destroys livelihoods, the death of 16-year-old Altayeb Alhadi highlights dangers of artisanal mining.",
-   "published": "2026-10-25T14:03:17.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/3f5fe1602f.webp",
-   "t": "2026-10-25",
-   "summary": "Al Jazeera reports that Sudan’s war is destroying livelihoods and highlights the dangers of artisanal mining through the death of 16-year-old Altayeb Alhadi.",
-   "why": "The story connects conflict-driven livelihood pressures with the risks of artisanal mining.",
-   "tags": [
-    "Sudan",
-    "artisanal mining",
-    "livelihoods"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2eaec01ff2",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-   "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-   "published": "2026-10-25T09:00:00.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/2eaec01ff2.webp",
-   "t": "2026-10-25",
-   "summary": "Musk says SpaceX restricted Ukraine's Starlink connection and restored service; he accuses Ukraine of violating terms by using the network for military activity.",
-   "why": "The dispute highlights the strategic relevance of service access to a communications network used for military activity.",
-   "tags": [
-    "Starlink",
-    "Ukraine",
-    "military activity"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e835ac8ceb",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Saudi air defences intercept Houthi barrage near Mecca",
-   "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-   "snippet": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
-   "published": "2026-10-25T13:49:33.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/e835ac8ceb.webp",
-   "t": "2026-10-25",
-   "summary": "Al Jazeera reports that Saudi air defences intercepted a Houthi barrage near Mecca, while attacks on Saudi Arabia escalate amid battles and a siege in Yemen’s Taiz.",
-   "why": "Air defences and ground fighting show the operational reach and multiple fronts of the conflict.",
-   "tags": [
-    "air defences",
-    "Houthi",
-    "Taiz"
    ],
    "ai": true
   }
@@ -617,47 +481,47 @@
   }
  ],
  "run_today": [
-  "Inspect Downloads folders for untrusted AGENTS.md files before AI coding agents use them.",
-  "Review agent instructions before allowing them to trigger code or package installation.",
-  "Verify npm packages installed by coding agents against approved sources and requirements."
+  "Check Downloads folders for unexpected AGENTS.md instruction files before AI coding agents use them.",
+  "Review npm package installation requests initiated by coding agents, especially packages triggered by repository instructions.",
+  "Inspect agent instructions and package changes for signs of a rogue npm package being introduced."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "AGENTS markdown instruction file",
-   "explainer": "A markdown file can provide instructions to an AI coding agent. In this report, researchers said a malicious file in a Downloads folder tricked an agent into installing a rogue npm package.",
+   "term": "AI coding agent",
+   "explainer": "An AI coding agent is software that can carry out coding-related tasks. In the reported incident, a malicious instruction file tricked an agent into installing a rogue npm package.",
    "from_id": "9e8f060397",
    "from": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "air strike",
-   "explainer": "An air strike is an attack carried out from the air. The report describes an Israeli air strike on the Islamic University in Gaza City.",
-   "from_id": "c96546db1a",
-   "from": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "DDG MOD 2.0 modernization",
+   "explainer": "Modernization means updating existing military equipment. The title describes a US Navy destroyer entering a phase of its DDG MOD 2.0 modernization program.",
+   "from_id": "7b202954b9",
+   "from": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "economic sanctions",
-   "explainer": "Economic sanctions are restrictions intended to put economic pressure on a country or other target. The report says Netanyahu is considering cryptocurrency as an answer to sanctions on Israel.",
-   "from_id": "4fa868489e",
-   "from": "https://www.aljazeera.com/news/2026/10/25/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions?traffic_source=rss",
+   "term": "settlement expansion",
+   "explainer": "Settlement expansion is the growth of settlements. The supplied report describes expansion on occupied Palestinian land as continuing despite changes in Israeli and US leadership.",
+   "from_id": "2749cf3d2f",
+   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/25/us-and-israel-elections-new-leaders-same-policies?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Movement, conflict and trust in systems",
+  "headline": "Political shifts, movement restrictions and digital trust",
   "paragraphs": [
-   "The stories span movement restrictions, attacks and wider political effects. The top report says Israel’s military announced restrictions on Palestinian workers ahead of an election; other reports describe attacks in Gaza and opposition in Europe linked to energy costs and protests. Together, they show how conflict can affect daily life and political debate.",
-   "A different kind of exposure appears in the AI coding-agent report: researchers say a malicious file in Downloads led an agent to install a rogue npm package. This suggests that trusted-looking local instructions can influence automated tools, making file provenance and package review relevant to defenders.",
-   "The top items also include a report that SpaceX restricted Ukraine’s Starlink connection, with an accusation about military use. Analysts may watch how access restrictions, movement controls and digital-tool safeguards are described, while keeping reported claims distinct from confirmed detail."
+   "The stories describe different kinds of constraint: restrictions on Palestinian workers’ movement, reported strikes on a university, and claims about expulsions from Hebron. The election and generational stories add political context, while the reporting on settlement expansion suggests continuity across leadership changes.",
+   "For analysts, the reports are a reminder to distinguish immediate events from claims about longer-term political trends. The supplied snippets offer limited detail on some stories, so conclusions about scale, causes or consequences should remain cautious. The AI-agent report raises a separate trust issue: a local instruction file reportedly led an agent to install a rogue npm package.",
+   "Defenders can check where agent instructions come from and review package installations prompted by them. Geopolitical monitoring can track reported movement restrictions and political statements alongside developments on the ground. Watch for further reporting that clarifies the scope of the incidents and whether the described political trends persist."
   ],
   "takeaways": [
-   "Treat local instructions and agent-triggered package installs as potential security risks.",
-   "Track how conflict reporting describes movement restrictions and their stated scope.",
-   "Separate reported accusations and proposals from established facts."
+   "Treat thinly sourced claims cautiously and seek further reporting.",
+   "Review local instructions and package installs used by AI coding agents.",
+   "Track reported movement restrictions alongside political developments."
   ]
  },
  "health": [
@@ -682,8 +546,8 @@
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": true,
-   "n": 6
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "The Record",
@@ -718,8 +582,8 @@
   {
    "name": "Google Threat Intelligence",
    "section": "cyber",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "Microsoft Security",
@@ -845,7 +709,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 11
   },
   {
    "name": "DW",
