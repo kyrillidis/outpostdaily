@@ -206,7 +206,7 @@ const wireHtml = (top, base) => top.map((i, n) => `<li class="wire-item kw-unit"
 // ---------- about page: FAQ and photo credits ----------
 const FAQ = [
   ['What is Outpost?', 'A free daily briefing on cybersecurity, modern warfare technology and geopolitics, compiled automatically from open sources. Every story links to the outlet that reported it.'],
-  ['How often is it updated?', 'Every hour. A scheduled job collects stories from the previous 36 hours, ranks them and publishes a refreshed edition; the Breaking desk is checked every five minutes. Each page shows when it was last updated.'],
+  ['How often is it updated?', 'Every ten minutes. A scheduled job collects stories from the previous 36 hours, ranks them and publishes a refreshed edition; the Breaking desk is checked every five minutes. Each page shows when it was last updated.'],
   ['Do I need an account or to pay?', 'No. There are no accounts and no paywall. Outpost may show advertising, and promotes Cylist in a labelled card.'],
   ['Can I trust the summaries?', 'Treat them as pointers. A language model writes each short summary from the outlet’s headline and snippet only, and any figure it cannot find in that source text is discarded. Read the original article before acting on anything.'],
   ['Who publishes Outpost?', 'Outpost is published by the maker of Cylist, a threat-intelligence triage tool that is promoted on this site. Ranking is automatic, and no outlet or company can pay to be included or ranked higher.'],

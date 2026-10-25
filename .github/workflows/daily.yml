@@ -2,7 +2,7 @@ name: Edition refresh
 
 on:
   schedule:
-    - cron: "17 * * * *" # every hour at :17 (24 runs a day, so 24 deploys; Vercel Hobby allows 100)
+    - cron: "*/10 * * * *" # every 10 minutes; it only deploys when something changed, and falls back to hourly deploys near the daily cap (see the budget step)
   workflow_dispatch:
     inputs:
       force_ai:
@@ -27,24 +27,39 @@ jobs:
       VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
     steps:
       - uses: actions/checkout@v4
+      - name: Deploy budget (Vercel Hobby allows 100 deploys a day)
+        id: gate
+        run: |
+          # edition commits in the last 24 h stand in for deploys. Past 70, the job only runs in the first 10 minutes of each hour
+          # (at most 24 more a day), so the cap is never reached and nothing is left committed but undeployed
+          git fetch -q --shallow-since="24 hours ago" origin main || true
+          n=$(git log --since="24 hours ago" --grep='^edition:' --oneline origin/main | wc -l | tr -d ' ')
+          m=$((10#$(date -u +%M)))
+          if [ "$n" -gt 70 ] && [ "$m" -ge 10 ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then echo "go=false" >> "$GITHUB_OUTPUT"; echo "budget: $n edition commits in 24 h, waiting for the hourly slot"; else echo "go=true" >> "$GITHUB_OUTPUT"; echo "budget: $n edition commits in 24 h"; fi
       - uses: actions/setup-node@v4
+        if: steps.gate.outputs.go == 'true'
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+        if: steps.gate.outputs.go == 'true'
       - run: npm test
+        if: steps.gate.outputs.go == 'true'
       - name: Collect sources and write today's edition
+        if: steps.gate.outputs.go == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FORCE_AI: ${{ inputs.force_ai && '1' || '' }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }} # optional; defaults to gpt-6-luna
         run: npm run fetch
       - name: Render (sanity check that the site builds)
+        if: steps.gate.outputs.go == 'true'
         run: |
           node --version
           npm run build
       - name: Commit edition
         id: commit
+        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name "outpost-bot"
           git config user.email "outpost-bot@users.noreply.github.com"
@@ -59,7 +74,7 @@ jobs:
         if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
         run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
       - name: Notify search engines (IndexNow, once a day)
-        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */2 * * *') }}
+        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '*/10 * * * *') }}
         continue-on-error: true
         run: |
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "04" ]; then echo "only the 04:xx UTC run pings"; exit 0; fi

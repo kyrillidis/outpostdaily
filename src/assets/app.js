@@ -260,7 +260,7 @@
       });
     }
     setTimeout(check, 30000);
-    visibleEvery(300000, check);
+    visibleEvery(120000, check);
   })();
 
 })();
