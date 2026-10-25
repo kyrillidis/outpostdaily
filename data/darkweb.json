@@ -1,33 +1,18 @@
 {
- "updated": "2026-10-25T20:27:16.491Z",
+ "updated": "2026-10-25T21:36:37.963Z",
  "items": [
   {
-   "id": "x2114448065599844471",
+   "id": "x2114458064497868828",
    "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114448065599844471",
-   "published": "2026-10-25T20:04:38.000Z",
-   "headline": "Actor claims Cambodia digital technology institutions were breached and files leaked",
-   "claim": "The post alleges that Cambodia’s Academy of Digital Technology and Institute of Digital Technology were breached and sensitive files leaked.",
-   "context": "As general background, education and technology institutions may hold sensitive operational and personal information. Claims of leaked files can be difficult to verify without independent investigation; this is not a finding about this incident.",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2114458064497868828",
+   "published": "2026-10-25T20:44:21.000Z",
+   "headline": "Researchers claim Tailscale SSH forwarding can cross privilege boundaries; related fix merged",
+   "claim": "Researchers say Tailscale SSH forwarding can cross privilege boundaries and that Tailscale merged a fix for a related Serve flaw.",
+   "context": "As general background, mesh VPN and remote-access tools can expose systems to risks involving access controls and privilege boundaries. This is general knowledge about the threat area, not confirmation of the claims in the title.",
    "advice": [
-    "Review access logs and investigate unusual account or data-transfer activity.",
-    "Restrict access to sensitive files and enforce multifactor authentication."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114443151624863952",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114443151624863952",
-   "published": "2026-10-25T19:45:06.000Z",
-   "headline": "Actor claims PopChill was breached and user data exposed",
-   "claim": "The post alleges that PopChill was breached and data on 435,000 users was exposed.",
-   "context": "As general background, online marketplaces may store user account and transaction-related information. A breach claim alone does not establish what data was accessed or whether it is authentic; this is not a finding about this incident.",
-   "advice": [
-    "Review account and database access logs for suspicious activity.",
-    "Require multifactor authentication for administrative and privileged accounts."
+    "Review access controls for remote administration tools.",
+    "Apply vendor updates after verifying they address relevant security issues."
    ],
    "verified": false
   },
@@ -58,51 +43,6 @@
    "advice": [
     "Audit data-export activity and preserve relevant logs.",
     "Review access permissions for booking and property-management systems."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114426923455574378",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114426923455574378",
-   "published": "2026-10-25T18:40:37.000Z",
-   "headline": "Actor advertises access to three corporate and public-sector environments",
-   "claim": "The post alleges that the threat actor Glitch NoOp is advertising access to three organizations in the U.S. and Australia.",
-   "context": "As general background, initial-access offers may involve compromised credentials or exposed remote-access services. Advertised access claims are not independently verified by the listing alone; this is not a finding about this incident.",
-   "advice": [
-    "Review remote-access logs and disable unused accounts or services.",
-    "Enforce multifactor authentication for remote access."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114421410739212331",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114421410739212331",
-   "published": "2026-10-25T18:18:43.000Z",
-   "headline": "Post claims Delatad was breached and sensitive information exposed",
-   "claim": "The title alleges that Delatad was breached and sensitive client requests and personal information were exposed.",
-   "context": "As general background, services that help people remove online information may handle sensitive client data. This is general sector context, not verification of this claim.",
-   "advice": [
-    "Review access logs and investigate unusual activity.",
-    "Confirm incident status through trusted internal channels."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114419189159235663",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114419189159235663",
-   "published": "2026-10-25T18:09:53.000Z",
-   "headline": "Post shares a Skrillex live performance reference",
-   "claim": "The title shares a reference to Skrillex Live at UMF 2015.",
-   "context": "As general background, social media feeds can mix entertainment posts with cybersecurity reporting. This title does not state a cybersecurity claim.",
-   "advice": [
-    "Check the source before treating a post as a security alert.",
-    "Escalate only posts containing a verifiable security concern."
    ],
    "verified": false
   },
@@ -257,36 +197,6 @@
    "verified": false
   },
   {
-   "id": "x2114386228057628827",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114386228057628827",
-   "published": "2026-10-25T15:58:54.000Z",
-   "headline": "Post claims a researcher published flaws affecting Tailscale and headscale",
-   "claim": "The post alleges that a researcher publicly published details of unpatched security flaws affecting Tailscale and headscale.",
-   "context": "Public vulnerability disclosures can prompt defenders to assess affected software and available mitigations. Exposure depends on product versions, configurations, and deployment; this is general background, not an assessment of this claim.",
-   "advice": [
-    "Check vendor advisories and update affected software when fixes are available.",
-    "Review configurations and restrict access to management interfaces."
-   ],
-   "verified": false
-  },
-  {
-   "id": "re49f3f48a7",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u",
-   "published": "2026-10-25T15:52:01.178Z",
-   "headline": "Falcon claims Weitz & Luxenberg",
-   "claim": "Falcon claims Weitz & Luxenberg was affected.",
-   "context": "As general background, professional-services firms may depend on confidential client and business information. Ransomware-group listings are claims and do not independently confirm an incident; this is not a finding about this organization.",
-   "advice": [
-    "Review endpoint and identity logs for signs of compromise.",
-    "Maintain tested offline or immutable backups."
-   ],
-   "verified": false
-  },
-  {
    "id": "x2114382141249458524",
    "kind": "x",
    "source": "@FalconFeedsio",
@@ -317,36 +227,6 @@
    "verified": false
   },
   {
-   "id": "x2114379045135622183",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114379045135622183",
-   "published": "2026-10-25T15:30:22.000Z",
-   "headline": "Post claims Falcon listed Astrana Health with alleged data categories",
-   "claim": "The post alleges that Astrana Health appears in a Falcon ransomware leak-site listing involving internal financial, regulatory, operational, and employee data.",
-   "context": "Leak-site posts may describe purported data categories to increase pressure on an organization. Such descriptions are not independent evidence that data was accessed or exposed; this is general background, not confirmation of this claim.",
-   "advice": [
-    "Preserve relevant logs and investigate potential unauthorized access.",
-    "Use established incident-response channels to assess any exposure."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114378198792180186",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114378198792180186",
-   "published": "2026-10-25T15:27:00.000Z",
-   "headline": "Post claims Astrana Health appears in a leak-site listing",
-   "claim": "The post alleges that Astrana Health appears in a leak-site listing involving internal financial, regulatory, operational, and employee data.",
-   "context": "Leak-site listings can make unverified assertions about organizational data. Defenders should corroborate claims through internal evidence and trusted response channels; this is general background, not confirmation of this claim.",
-   "advice": [
-    "Review access and data-transfer logs for anomalous activity.",
-    "Coordinate incident assessment through established response procedures."
-   ],
-   "verified": false
-  },
-  {
    "id": "x2114374425524990442",
    "kind": "x",
    "source": "@DailyDarkWeb",
@@ -358,51 +238,6 @@
    "advice": [
     "Investigate relevant authentication and data-access logs.",
     "Verify backup integrity and response-team readiness."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114371254048170020",
-   "kind": "x",
-   "source": "@DarkWebInformer",
-   "url": "https://x.com/DarkWebInformer/status/2114371254048170020",
-   "published": "2026-10-25T14:59:24.000Z",
-   "headline": "Post claims Dread was temporarily disabled from the threat feed",
-   "claim": "The post says Dread was temporarily disabled from the threat feed.",
-   "context": "Threat feeds can experience temporary changes in coverage or availability. Analysts generally compare multiple sources and account for gaps when interpreting reporting; this is general background, not confirmation of this claim.",
-   "advice": [
-    "Check feed status through trusted provider channels.",
-    "Use alternate sources when monitoring coverage is unavailable."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r3dad3749e5",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u",
-   "published": "2026-10-25T14:53:02.969Z",
-   "headline": "Falcon claims Astrana Health",
-   "claim": "Falcon claims Astrana Health was affected.",
-   "context": "As general background, healthcare organizations rely on systems that support sensitive information and essential services. Ransomware-group listings are claims and do not independently confirm an incident; this is not a finding about this organization.",
-   "advice": [
-    "Review endpoint and identity logs for signs of compromise.",
-    "Maintain tested offline or immutable backups."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r8bff4821dd",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/QS1STVNAZW1wZXJhZG9y",
-   "published": "2026-10-25T14:52:33.011Z",
-   "headline": "Emperador claims A-RMS",
-   "claim": "Emperador claims A-RMS was affected.",
-   "context": "As general background, government and defense organizations may rely on sensitive systems and tightly controlled access. Ransomware-group listings are claims and do not independently confirm an incident; this is not a finding about this organization.",
-   "advice": [
-    "Review endpoint and identity logs for signs of compromise.",
-    "Maintain tested offline or immutable backups."
    ],
    "verified": false
   },
@@ -512,21 +347,6 @@
    "verified": false
   },
   {
-   "id": "rf0d3f2d9a7",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/QWVzdGhldGljIERlbnRhbCBEZXNpZ25zLCBQLkFASFlGTE9DSw==",
-   "published": "2026-10-25T11:53:17.559Z",
-   "headline": "Listing claims HYFLOCK targeted Aesthetic Dental Designs, P.A",
-   "claim": "The listing alleges that HYFLOCK claims Aesthetic Dental Designs, P.A as a victim.",
-   "context": "Ransomware listings are claims by threat actors and may not establish compromise or impact. Healthcare organizations generally maintain response plans that account for service continuity and sensitive records; this is general background, not confirmation of this claim.",
-   "advice": [
-    "Review security alerts and investigate suspicious access.",
-    "Confirm continuity and incident-response plans are ready."
-   ],
-   "verified": false
-  },
-  {
    "id": "x2114323685276610890",
    "kind": "x",
    "source": "@FalconFeedsio",
@@ -568,21 +388,6 @@
    "advice": [
     "Monitor credible sources for corroboration without downloading alleged data.",
     "Review data-exposure response procedures and escalation contacts."
-   ],
-   "verified": false
-  },
-  {
-   "id": "r497470721b",
-   "kind": "ransomware",
-   "source": "ransomware.live",
-   "url": "https://www.ransomware.live/id/RUNPTUBxaWxpbg==",
-   "published": "2026-10-25T10:35:02.202Z",
-   "headline": "Listing claims Qilin targeted ECOM",
-   "claim": "The listing alleges that Qilin claims ECOM as a victim.",
-   "context": "Ransomware groups may publish victim claims as part of extortion efforts. Retail and e-commerce defenders generally prioritize service availability, account security, and payment-system monitoring; this is general background, not confirmation of this claim.",
-   "advice": [
-    "Review alerts for suspicious account or system activity.",
-    "Verify backups and recovery procedures for critical services."
    ],
    "verified": false
   },

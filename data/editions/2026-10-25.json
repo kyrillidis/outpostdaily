@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "edition": 223,
- "compiled": "2026-10-25T20:27:12.309Z",
+ "compiled": "2026-10-25T21:36:15.901Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
    "published": "2026-10-25T15:49:38.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.48,
    "image": "/img/news/9e8f060397.webp",
    "t": "2026-10-25",
    "summary": "Researchers found a malicious AGENTS markdown file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
@@ -36,10 +36,17 @@
    "snippet": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the ne",
    "published": "2026-10-25T17:44:09.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.42,
    "image": "/img/news/4a81541514.webp",
-   "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailsc",
-   "ai": false
+   "t": "2026-10-25",
+   "summary": "A security researcher says an attacker with one hacked device on a Tailscale network could reach root on other reachable servers. The attack requires Tailscale SSH configured to allow port forwarding.",
+   "why": "Review Tailscale SSH port-forwarding settings and limit which devices and servers can reach one another.",
+   "tags": [
+    "Tailscale SSH",
+    "port forwarding",
+    "root access"
+   ],
+   "ai": true
   },
   {
    "id": "3eda0d6ae7",
@@ -51,10 +58,17 @@
    "snippet": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial",
    "published": "2026-10-25T17:19:46.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.41,
    "image": "/img/news/3eda0d6ae7.webp",
-   "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"I",
-   "ai": false
+   "t": "2026-10-25",
+   "summary": "Threat actors have been observed using agentic AI platforms for post-exploitation after abusing PHP2Shell vulnerabilities, according to the report. One case involved a government entity.",
+   "why": "Check for PHP2Shell exploitation and unusual post-exploitation activity involving AI platforms.",
+   "tags": [
+    "PHP2Shell",
+    "AI",
+    "post-exploitation"
+   ],
+   "ai": true
   },
   {
    "id": "e85723a0f6",
@@ -66,7 +80,7 @@
    "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
    "published": "2026-10-25T11:00:00.000Z",
    "also": [],
-   "score": 1.3,
+   "score": 1.28,
    "image": "/img/news/e85723a0f6.webp",
    "t": "2026-10-25",
    "summary": "SecurityWeek reports Mave, founded by Unit 8200 alumni, uses AI agents to investigate alerts across existing security stacks.",
@@ -88,7 +102,7 @@
    "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel",
    "published": "2026-10-25T06:54:29.000Z",
    "also": [],
-   "score": 1.22,
+   "score": 1.19,
    "image": "/img/news/5d0e99bc98.webp",
    "t": "2026-10-25",
    "summary": "OpenAI announced plans to train frontier models without live internet access while resuming reinforcement learning and internal inference of its most advanced models.",
@@ -110,7 +124,7 @@
    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, ea",
    "published": "2026-10-25T09:00:56.000Z",
    "also": [],
-   "score": 1.16,
+   "score": 1.14,
    "image": "/img/news/3ddec341f6.webp",
    "t": "2026-10-25",
    "summary": "Help Net Security says the PHP security team announced an urgent security release, with users urged to prepare to update.",
@@ -131,7 +145,7 @@
    "snippet": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
    "published": "2026-10-24T14:17:32.000Z",
    "also": [],
-   "score": 0.97,
+   "score": 0.95,
    "image": "/img/news/a6ce317099.webp",
    "t": "2026-10-24",
    "summary": "The report says the BlackX UEFI bootkit exploited the Baton Drop flaw to bypass Secure Boot and load a malicious driver in an espionage campaign.",
@@ -153,7 +167,7 @@
    "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffe",
    "published": "2026-10-24T11:09:29.000Z",
    "also": [],
-   "score": 0.81,
+   "score": 0.78,
    "image": "/img/news/a0a9e49aec.webp",
    "t": "2026-10-24",
    "summary": "A memory-corruption flaw in Google's Brotli decoder affects software that unpacks Brotli data, including Bun, Python packages and some Envoy proxies; the title says it is behind Node.js RCE.",
@@ -175,7 +189,7 @@
    "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness r",
    "published": "2026-10-24T11:03:33.000Z",
    "also": [],
-   "score": 0.8,
+   "score": 0.78,
    "image": "/img/news/3a1a036ef7.webp",
    "t": "2026-10-24",
    "summary": "LiteLLM says a master key published in a public GitHub repository ultimately enabled an attacker to push a malicious version of its Python package.",
@@ -197,7 +211,7 @@
    "snippet": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services lik",
    "published": "2026-10-24T10:36:33.000Z",
    "also": [],
-   "score": 0.79,
+   "score": 0.77,
    "image": "/img/news/afec56c724.webp",
    "t": "2026-10-24",
    "summary": "Google says personalized AI features in Search or Gemini may allow targeted ads based on activity across connected Google services.",
@@ -219,7 +233,7 @@
    "snippet": "The money to start AUTOWARCOM is to come from a reconciliation bill whose passage is in doubt.",
    "published": "2026-10-25T10:00:00.000Z",
    "also": [],
-   "score": 1.28,
+   "score": 1.26,
    "image": "/img/news/692a07c02f.webp",
    "t": "2026-10-25",
    "summary": "Defense One reports that funding for AUTOWARCOM would come from a reconciliation bill whose passage is in doubt.",
@@ -240,7 +254,7 @@
    "snippet": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
    "published": "2026-10-24T11:59:17.000Z",
    "also": [],
-   "score": 0.82,
+   "score": 0.8,
    "image": "/img/news/7b202954b9.webp",
    "t": "2026-10-24",
    "summary": "Naval News says USS Pinckney is the first U.S. Navy destroyer in Phase Two of DDG MOD 2.0, adding SPY-6 radars.",
@@ -267,7 +281,7 @@
      "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "score": 1.63,
+   "score": 1.61,
    "image": "/img/news/297905b4d0.webp",
    "t": "2026-10-25",
    "summary": "The Israeli Defense Forces says it will restrict Palestinian workers’ movement in the run-up to Tuesday’s election.",
@@ -289,7 +303,7 @@
    "snippet": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City.",
    "published": "2026-10-25T18:12:13.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.43,
    "image": "/img/news/e1f51c7014.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera reports that two Israeli strikes hit students and security guards at the Islamic University in Gaza City; its headline says three people were killed.",
@@ -310,7 +324,7 @@
    "snippet": "Israeli governments change. US presidents come and go. But settlement expansion on occupied Palestinian land continues.",
    "published": "2026-10-25T17:53:23.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.42,
    "image": "/img/news/2749cf3d2f.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera says Israeli governments and US presidents change, while settlement expansion on occupied Palestinian land continues.",
@@ -331,7 +345,7 @@
    "snippet": "Jerusalem Daily: Israel expels thousands from Hebron",
    "published": "2026-10-25T17:12:59.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.41,
    "image": "/img/news/98798f828d.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera’s headline says Israel expels thousands from Hebron; the supplied snippet provides no further details.",
@@ -352,7 +366,7 @@
    "snippet": "The global trend may show young people leaning politically to the left, but in Israel… they’re leaning to the right.",
    "published": "2026-10-25T16:30:51.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.39,
    "image": "/img/news/2af05852f8.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera says young people in Israel are leaning to the right, contrasting with a global trend it describes as leaning left.",
@@ -373,7 +387,7 @@
    "snippet": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
    "published": "2026-10-25T15:40:25.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.38,
    "image": "/img/news/c96546db1a.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera reports an Israeli air strike killed three security guards in one of two attacks on the Islamic University in Gaza City.",
@@ -386,46 +400,46 @@
    "ai": true
   },
   {
-   "id": "3a41108eb6",
+   "id": "2eaec01ff2",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
-   "url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
-   "snippet": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
-   "published": "2026-10-25T14:47:55.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+   "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+   "published": "2026-10-25T09:00:00.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/3a41108eb6.webp",
+   "score": 1.34,
+   "image": "/img/news/2eaec01ff2.webp",
    "t": "2026-10-25",
-   "summary": "Al Jazeera says rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
-   "why": "Energy costs and public opposition show how conflict can affect political positions beyond the region.",
+   "summary": "Musk says SpaceX restricted Ukraine's Starlink connection and restored service; he accuses Ukraine of violating terms by using the network for military activity.",
+   "why": "The dispute highlights the strategic relevance of service access to a communications network used for military activity.",
    "tags": [
-    "energy costs",
-    "protests",
-    "Europe"
+    "Starlink",
+    "Ukraine",
+    "military activity"
    ],
    "ai": true
   },
   {
-   "id": "4fa868489e",
+   "id": "dbab08492f",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Netanyahu’s pitch: Can Israel use crypto to evade economic sanctions?",
-   "url": "https://www.aljazeera.com/news/2026/10/25/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions?traffic_source=rss",
-   "snippet": "Prime Minister Netanyahu mulls cryptocurrency as answer to economic sanctions on Israel, but there are few buyers.",
-   "published": "2026-10-25T14:46:38.000Z",
+   "source": "DW",
+   "weight": 0.4,
+   "title": "Gadi Eisenkot campaigns on Moroccan roots in challenge to Netanyahu",
+   "url": "https://www.dw.com/en/gadi-eisenkot-campaigns-on-moroccan-roots-in-challenge-to-netanyahu/a-79747193?maca=en-rss-en-all-1573-rdf",
+   "snippet": "As Israel prepares to vote, Gadi Eisenkot is leveraging his Moroccan heritage in Likud strongholds such as Sderot. From historical divides to October 7, identity and trauma are redefining the city's political loyalties.",
+   "published": "2026-10-25T09:27:00.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/4fa868489e.webp",
+   "score": 1.15,
+   "image": "/img/news/dbab08492f.webp",
    "t": "2026-10-25",
-   "summary": "Al Jazeera reports Prime Minister Netanyahu is considering cryptocurrency as an answer to economic sanctions on Israel, but there are few buyers.",
-   "why": "The proposal links sanctions policy with cryptocurrency and the availability of buyers.",
+   "summary": "DW reports that Gadi Eisenkot is drawing on his Moroccan heritage in Likud strongholds such as Sderot, where historical divides and October 7 are reshaping political loyalties.",
+   "why": "Track how identity and local political loyalties figure in Israel’s election context.",
    "tags": [
-    "cryptocurrency",
-    "sanctions",
-    "buyers"
+    "Moroccan heritage",
+    "Sderot",
+    "political loyalties"
    ],
    "ai": true
   }
@@ -577,47 +591,39 @@
   }
  ],
  "run_today": [
-  "Check Downloads folders for unexpected AGENTS.md instruction files before AI coding agents use them.",
-  "Review npm package installation requests initiated by coding agents, especially packages triggered by repository instructions.",
-  "Inspect agent instructions and package changes for signs of a rogue npm package being introduced."
+  "Review Tailscale SSH settings for port forwarding and disable it where it is not needed.",
+  "Check which servers are reachable from devices on your Tailscale network.",
+  "Investigate PHP2Shell exposure and look for unusual post-exploitation activity."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "AI coding agent",
-   "explainer": "An AI coding agent is software that can carry out coding-related tasks. In the reported incident, a malicious instruction file tricked an agent into installing a rogue npm package.",
-   "from_id": "9e8f060397",
-   "from": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "fromSource": "BleepingComputer"
-  },
-  {
-   "domain": "warfare",
-   "term": "DDG MOD 2.0 modernization",
-   "explainer": "Modernization means updating existing military equipment. The title describes a US Navy destroyer entering a phase of its DDG MOD 2.0 modernization program.",
-   "from_id": "7b202954b9",
-   "from": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
-   "fromSource": "Naval News"
+   "term": "Tailscale SSH",
+   "explainer": "Tailscale SSH is an SSH access feature named in the report. The described risk involves a hacked device reaching other servers when the setup allows port forwarding.",
+   "from_id": "4a81541514",
+   "from": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "geo",
-   "term": "settlement expansion",
-   "explainer": "Settlement expansion is the growth of settlements. The supplied report describes expansion on occupied Palestinian land as continuing despite changes in Israeli and US leadership.",
-   "from_id": "2749cf3d2f",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/25/us-and-israel-elections-new-leaders-same-policies?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "political loyalties",
+   "explainer": "Political loyalties are the affiliations or support that shape how people align politically. The report links historical divides and October 7 with changing loyalties in Sderot.",
+   "from_id": "dbab08492f",
+   "from": "https://www.dw.com/en/gadi-eisenkot-campaigns-on-moroccan-roots-in-challenge-to-netanyahu/a-79747193?maca=en-rss-en-all-1573-rdf",
+   "fromSource": "DW"
   }
  ],
  "analysis": {
-  "headline": "Political shifts, movement restrictions and digital trust",
+  "headline": "Movement, conflict and digital access in focus",
   "paragraphs": [
-   "The stories describe different kinds of constraint: restrictions on Palestinian workers’ movement, reported strikes on a university, and claims about expulsions from Hebron. The election and generational stories add political context, while the reporting on settlement expansion suggests continuity across leadership changes.",
-   "For analysts, the reports are a reminder to distinguish immediate events from claims about longer-term political trends. The supplied snippets offer limited detail on some stories, so conclusions about scale, causes or consequences should remain cautious. The AI-agent report raises a separate trust issue: a local instruction file reportedly led an agent to install a rogue npm package.",
-   "Defenders can check where agent instructions come from and review package installations prompted by them. Geopolitical monitoring can track reported movement restrictions and political statements alongside developments on the ground. Watch for further reporting that clarifies the scope of the incidents and whether the described political trends persist."
+   "The stories span election-related movement restrictions, strikes in Gaza and political loyalties in Israel. Together, they show how political decisions and conflict can shape movement and public life. The reports describe different events, so their connections should be treated as context rather than a single causal chain.",
+   "The cyber reports describe risks within networks and software: a hacked device may reach other servers through Tailscale SSH when port forwarding is allowed, while PHP2Shell exploitation has been followed by observed use of agentic AI platforms. The AI coding-agent report also highlights a malicious instruction file. These accounts make configuration, software exposure and agent inputs relevant checks for defenders.",
+   "For analysts, the stories suggest watching both the specific conditions described and the limits of what is known. The Tailscale report names a required setting but the supplied text does not state the second requirement. The PHP2Shell excerpt is also incomplete. Political reporting points to movement restrictions, strikes and identity as distinct developments, without establishing what follows."
   ],
   "takeaways": [
-   "Treat thinly sourced claims cautiously and seek further reporting.",
-   "Review local instructions and package installs used by AI coding agents.",
-   "Track reported movement restrictions alongside political developments."
+   "Check Tailscale SSH port-forwarding settings and network reachability.",
+   "Review exposed PHP2Shell systems and investigate post-exploitation activity.",
+   "Keep political restrictions, strikes and identity-related reporting distinct when assessing developments."
   ]
  },
  "health": [
@@ -643,7 +649,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "The Record",
@@ -805,7 +811,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "DW",
