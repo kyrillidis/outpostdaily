@@ -98,6 +98,10 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
   font:600 .8125rem/1.3 var(--font-head); letter-spacing:.02em; color:var(--ink-dim);
 }
 .util-edition{ margin:0; }
+.util-clock{ font-variant-numeric:tabular-nums; font-weight:800; color:var(--ink); white-space:nowrap; }
+.uc-date{ margin-right:.55em; }
+.uc-time{ display:inline-block; min-width:9.5ch; }
+.util-sep{ margin:0 .5em; color:var(--ink-faint); }
 #staleness[data-stale="warn"]{ color:var(--geo); }
 #staleness[data-stale="late"]{ color:var(--alert); font-weight:800; }
 .util-tools{ display:flex; flex-wrap:wrap; align-items:center; gap:10px; }

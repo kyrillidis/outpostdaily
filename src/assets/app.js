@@ -198,16 +198,37 @@
   /* ---- live: relative times and the "new edition" prompt (the Breaking dashboard has its own live refresh in breaking.js) ---- */
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function pad(n) { return (n < 10 ? '0' : '') + n; }
+  // every <time data-rel> shows the hour it happened in the reader's own time zone plus how long ago ("14:32 · 2 h ago");
+  // older than a day it shows the date and hour. Elements with class bk-ago already sit beside a UTC clock, so they show only the age.
   function relTimes() {
     $$('time[data-rel]').forEach(function (t) {
       var d = new Date(t.getAttribute('datetime')), m = Math.round((Date.now() - d.getTime()) / 6e4);
       if (isNaN(m) || m < 0) return;
-      if (!t.title) t.title = d.toLocaleString();
-      if (m < 1440) t.textContent = m < 1 ? 'just now' : m < 60 ? m + ' min ago' : Math.floor(m / 60) + ' h ago';
+      if (!t.title) t.title = d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+      var hm = d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' }), plain = t.classList.contains('bk-ago');
+      var rel = m < 1 ? 'just now' : m < 60 ? m + ' min ago' : m < 1440 ? Math.floor(m / 60) + ' h ago' : '';
+      var day = d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
+      t.textContent = rel ? (plain ? rel : hm + ' · ' + rel) : (plain ? day : day + ', ' + hm);
     });
   }
+
   relTimes();
   setInterval(relTimes, 60000);
+
+  // live clock with seconds in the top strip (the reader's own zone); paused while the tab is hidden
+  (function () {
+    var box = $('#liveClock');
+    if (!box || !window.Intl) return;
+    var dEl = $('.uc-date', box), tEl = $('.uc-time', box);
+    var dateFmt = new Intl.DateTimeFormat(undefined, { weekday: 'short', day: 'numeric', month: 'short' });
+    var timeFmt = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZoneName: 'short' });
+    var timer = null;
+    function tick() { var n = new Date(); dEl.textContent = dateFmt.format(n); tEl.textContent = timeFmt.format(n); }
+    function start() { if (timer) return; tick(); timer = setInterval(tick, 1000); }
+    function stop() { clearInterval(timer); timer = null; }
+    start();
+    doc.addEventListener('visibilitychange', function () { if (doc.hidden) stop(); else start(); });
+  })();
   window.outpost = window.outpost || {};
   window.outpost.relTimes = relTimes; // page partials call this after swapping in new HTML
 
