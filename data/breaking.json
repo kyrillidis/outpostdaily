@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:04:15.722Z",
+ "updated": "2026-10-25T11:18:30.360Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -17,9 +17,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -27,14 +27,9 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -42,9 +37,14 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 1
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -63,16 +63,16 @@
   },
   {
    "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
    "name": "X cyber",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -89,12 +89,12 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X markets",
@@ -103,6 +103,17 @@
   }
  ],
  "items": [
+  {
+   "id": "x2114312298584031442",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Suzhou Dongshan Precision Manufacturing raised about HK$9.9 billion ($1.3 billion) in Hong Kong’s biggest listing in nearly two months",
+   "url": "https://x.com/business/status/2114312298584031442",
+   "published": "2026-10-25T11:05:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114311328735092878",
    "kind": "x",
@@ -157,6 +168,17 @@
    "published": "2026-10-25T10:52:49.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n9b10c6634f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran’s authorities take ‘self-sacrifice’ mobilisation campaign nationwide",
+   "url": "https://www.aljazeera.com/news/2026/10/25/irans-authorities-take-self-sacrifice-mobilisation-campaign-nationwide?traffic_source=rss",
+   "published": "2026-10-25T10:50:38.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114308556023296182",
@@ -3380,28 +3402,6 @@
    "published": "2026-10-24T16:59:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114037983565549910",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Mood 🎧 Post Malone - I Like You (A Happier Song) w. Doja Cat 🎧",
-   "url": "https://x.com/DarkWebInformer/status/2114037983565549910",
-   "published": "2026-10-24T16:55:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114037794792460464",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "U.S. State Department: We stand with Jordan in confronting those seeking to sow division",
-   "url": "https://x.com/FirstSquawk/status/2114037794792460464",
-   "published": "2026-10-24T16:54:21.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
