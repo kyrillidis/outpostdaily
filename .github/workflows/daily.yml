@@ -14,7 +14,7 @@ permissions:
   contents: write # commit the new edition back
 
 concurrency:
-  group: daily-edition
+  group: site-data # shared with the 5-minute collector (breaking.yml)
   cancel-in-progress: false
 
 jobs:

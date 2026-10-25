@@ -103,10 +103,13 @@ export async function updateDarkweb({ now = new Date(), call = callModel } = {})
   const cutoff = now.getTime() - KEEP_DAYS * 864e5;
   const items = [...known.values()].filter((i) => Date.parse(i.published) >= cutoff)
     .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_ITEMS);
-  const mode = read('config/breaking.json', {}).darkwebImages ?? 'blur';
+  // DW_IMAGES=off (the 5-minute collector): leave pictures to the hourly edition job, because only a deploy publishes new image files
+  const quick = process.env.DW_IMAGES === 'off';
+  const mode = quick ? 'off' : read('config/breaking.json', {}).darkwebImages ?? 'blur';
   await attachImages(items, new Map((breaking.items ?? []).map((i) => [i.id, i])), mode);
-  if (existsSync(ROOT + IMG_DIR)) { const keep = new Set(items.map((i) => (i.image ?? '').split('/').pop())); for (const f of readdirSync(ROOT + IMG_DIR)) if (!keep.has(f)) unlinkSync(ROOT + IMG_DIR + f); }
-  writeFileSync(ROOT + 'data/darkweb.json', JSON.stringify({ updated: now.toISOString(), items }, null, 1) + '\n');
+  if (!quick && existsSync(ROOT + IMG_DIR)) { const keep = new Set(items.map((i) => (i.image ?? '').split('/').pop())); for (const f of readdirSync(ROOT + IMG_DIR)) if (!keep.has(f)) unlinkSync(ROOT + IMG_DIR + f); }
+  // only rewrite the file when something changed, so the 5-minute job does not commit a new timestamp every time
+  if (JSON.stringify(items) !== JSON.stringify(store.items ?? []) || !store.updated) writeFileSync(ROOT + 'data/darkweb.json', JSON.stringify({ updated: now.toISOString(), items }, null, 1) + '\n');
   console.log(`darkweb: ${fresh.length} new, ${items.length} kept`);
   return items;
 }

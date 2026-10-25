@@ -10,16 +10,16 @@ on:
         default: "0"
 
 permissions:
-  contents: write # commit data/breaking.json when something new arrives. No deploy: the page reads it live through /api/breaking
+  contents: write # commit data/breaking.json when something new arrives. No deploy: the pages read it live through /api/breaking and /api/darkweb
 
 concurrency:
-  group: breaking-watch
+  group: site-data # shares the lock with the edition job so the two never commit the same data files at once
   cancel-in-progress: false
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,10 +32,18 @@ jobs:
           TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
           BACKFILL_HOURS: ${{ inputs.backfill_hours }}
         run: node src/breaking.mjs
+      - name: Refresh dark web write-ups (new posts only; pictures wait for the hourly deploy)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DW_IMAGES: "off"
+        run: |
+          # leak-site listings and breaches change slowly: every 15 minutes is plenty (HIBP refreshes itself every 6 hours)
+          if [ $(( 10#$(date -u +%M) / 5 % 3 )) -eq 0 ]; then node src/intel.mjs; fi
+          node src/darkweb.mjs
       - name: Commit if something new arrived
         id: commit
         run: |
-          git add data/breaking.json
+          git add data/breaking.json data/darkweb.json data/ransomware.json data/breaches.json
           if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; echo "nothing new"; exit 0; fi
           npm run build >/dev/null # sanity check before publishing
           git config user.name "outpost-bot"

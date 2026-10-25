@@ -6,8 +6,8 @@ import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, cpSync, rmSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { normalizeBreaking, classifyClaim } from './lib/feed.mjs';
+import { buildDarkweb } from './lib/darkweb-live.mjs';
 import { renderBreakingBody } from './lib/breaking-view.mjs';
-import { renderDarkwebBody } from './lib/darkweb-view.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const json = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
@@ -156,11 +156,10 @@ const analysisHtml = (ed, lvl = 3) => {
 };
 
 // The Dark web page body is built by src/lib/darkweb-view.mjs from three data files; this only adds the page header and ad slot.
-const DW_TOPIC = /dark ?web|leak|breach|ransomware|threat actor|extortion|stolen|for sale|infostealer|credential|hacktivis/i;
-const darkwebNews = () => breakingItems.filter((i) => i.kind === 'news' && i.group === 'darkweb' && DW_TOPIC.test(i.title)).sort((a, b) => String(b.published).localeCompare(String(a.published)));
 function darkwebHtml() {
-  return secHead({ title: 'Dark web', sub: 'Claims from ransomware leak sites, forums and social media, with context, plus confirmed breaches. Newest first.' }) + ad('top') +
-    renderDarkwebBody({ news: darkwebNews(), claims: darkweb.items ?? [], ransomware: ransomware, breaches: breaches, now: Date.now(), imageMode: breakingCfg.darkwebImages ?? 'blur' });
+  const live = buildDarkweb({ darkweb, ransomware, breaches, breaking, cfg: breakingCfg, now: Date.now() });
+  return secHead({ title: 'Dark web', sub: 'Claims from ransomware leak sites, forums and social media, with context, plus confirmed breaches. Newest first, checked every five minutes.' }) + ad('top') +
+    `<div id="dkLive" data-updated="${esc(live.updated ?? '')}">${live.html}</div>`;
 }
 
 function todayHtml(ed, top) {

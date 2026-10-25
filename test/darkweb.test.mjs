@@ -265,3 +265,33 @@ test('a claim without a picture keeps the drawn tile', () => {
   const html = renderDarkwebBody({ claims: [claim()], now: NOW });
   assert.match(html, /dk-tile/); assert.doesNotMatch(html, /dk-media/);
 });
+
+// ---------- live API (api/darkweb.js) ----------
+test('the live API returns the page body and the newest data timestamp, and 502s when data is unreadable', async () => {
+  const { default: handler } = await import('../api/darkweb.js');
+  const realFetch = globalThis.fetch;
+  const files = {
+    'data/darkweb.json': { updated: '2026-10-26T01:00:00Z', items: [{ id: 'x1', kind: 'x', source: '@DailyDarkWeb', url: 'https://x.com/a/status/1', published: '2026-10-26T00:50:00Z', headline: 'Actor claims to leak Acme data', claim: 'A threat actor claims to have leaked Acme data.', context: '', advice: [], verified: false }, { id: 'x2', kind: 'x', source: '@DarkWebInformer', url: 'https://x.com/b/status/2', published: '2026-10-26T00:40:00Z', headline: 'Excluded source claim', claim: 'x', context: '', advice: [], verified: false }] },
+    'data/ransomware.json': { updated: '2026-10-26T01:05:00Z', items: [] },
+    'data/breaches.json': { updated: '2026-10-25T10:00:00Z', items: [] },
+    'data/breaking.json': { updated: '2026-10-26T01:02:00Z', items: [{ id: 'n1', kind: 'news', group: 'darkweb', source: 'Hackread', title: 'Ransomware gang leaks stolen hospital data', url: 'https://hackread.com/a', published: '2026-10-26T00:30:00Z', severity: 'normal', verified: true }] },
+    'config/breaking.json': { excludeSources: ['@DarkWebInformer'] },
+  };
+  const res = () => { const r = { headers: {}, code: 0, body: null, setHeader(k, v) { r.headers[k.toLowerCase()] = v; }, status(c) { r.code = c; return r; }, json(b) { r.body = b; return r; } }; return r; };
+  try {
+    globalThis.fetch = async (url) => { const f = files[String(url).replace(/^.*\/main\//, '')]; return f ? { ok: true, status: 200, json: async () => f } : { ok: false, status: 404, json: async () => ({}) }; };
+    const r = res();
+    await handler({}, r);
+    assert.equal(r.code, 200);
+    assert.equal(r.headers['cache-control'], 'public, s-maxage=60, stale-while-revalidate=600');
+    assert.equal(r.body.updated, '2026-10-26T01:05:00Z');
+    assert.match(r.body.html, /Actor claims to leak Acme data/);
+    assert.doesNotMatch(r.body.html, /Excluded source claim/);
+    assert.match(r.body.html, /id="dk-news"[\s\S]*Ransomware gang leaks stolen hospital data/);
+    globalThis.fetch = async () => { throw new Error('offline'); };
+    const r2 = res();
+    await handler({}, r2);
+    assert.equal(r2.code, 502);
+    assert.equal(r2.headers['cache-control'], 'no-store');
+  } finally { globalThis.fetch = realFetch; }
+});
