@@ -1,9 +1,31 @@
 {
  "date": "2026-10-25",
  "edition": 223,
- "compiled": "2026-10-25T06:41:22.631Z",
+ "compiled": "2026-10-25T08:33:24.805Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "5d0e99bc98",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we bel",
+   "published": "2026-10-25T06:54:29.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/5d0e99bc98.webp",
+   "t": "2026-10-25",
+   "summary": "OpenAI announced plans to train frontier models without live internet access while resuming reinforcement learning and internal inference of its most advanced models.",
+   "why": "Check isolation and monitoring controls around model training and internal inference.",
+   "tags": [
+    "frontier model training",
+    "reinforcement learning",
+    "internet access"
+   ],
+   "ai": true
+  },
   {
    "id": "a6ce317099",
    "section": "cyber",
@@ -14,7 +36,7 @@
    "snippet": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
    "published": "2026-10-24T14:17:32.000Z",
    "also": [],
-   "score": 1.26,
+   "score": 1.22,
    "image": "/img/news/a6ce317099.webp",
    "t": "2026-10-24",
    "summary": "The report says the BlackX UEFI bootkit exploited the Baton Drop flaw to bypass Secure Boot and load a malicious driver in an espionage campaign.",
@@ -36,7 +58,7 @@
    "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffe",
    "published": "2026-10-24T11:09:29.000Z",
    "also": [],
-   "score": 1.09,
+   "score": 1.05,
    "image": "/img/news/a0a9e49aec.webp",
    "t": "2026-10-24",
    "summary": "A memory-corruption flaw in Google's Brotli decoder affects software that unpacks Brotli data, including Bun, Python packages and some Envoy proxies; the title says it is behind Node.js RCE.",
@@ -58,7 +80,7 @@
    "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness r",
    "published": "2026-10-24T11:03:33.000Z",
    "also": [],
-   "score": 1.09,
+   "score": 1.05,
    "image": "/img/news/3a1a036ef7.webp",
    "t": "2026-10-24",
    "summary": "LiteLLM says a master key published in a public GitHub repository ultimately enabled an attacker to push a malicious version of its Python package.",
@@ -80,7 +102,7 @@
    "snippet": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services lik",
    "published": "2026-10-24T10:36:33.000Z",
    "also": [],
-   "score": 1.08,
+   "score": 1.04,
    "image": "/img/news/afec56c724.webp",
    "t": "2026-10-24",
    "summary": "Google says personalized AI features in Search or Gemini may allow targeted ads based on activity across connected Google services.",
@@ -102,7 +124,7 @@
    "snippet": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a fre",
    "published": "2026-10-24T09:04:24.000Z",
    "also": [],
-   "score": 1.05,
+   "score": 1.01,
    "image": "/img/news/94d51fe2d2.webp",
    "t": "2026-10-24",
    "summary": "Eye Security says it pushed more than 2 million updates to computers it did not own to disable a Popcorn Time updater it said could let an outsider take over a machine.",
@@ -124,7 +146,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilit",
    "published": "2026-10-24T06:25:57.000Z",
    "also": [],
-   "score": 0.99,
+   "score": 0.96,
    "image": "/img/news/838b4b1ce2.webp",
    "t": "2026-10-24",
    "summary": "CISA added vulnerabilities affecting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog, citing reports of active exploitation.",
@@ -133,28 +155,6 @@
     "CISA",
     "KEV",
     "vulnerabilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2810027585",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
-   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-   "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23) appeared first on Unit 42 .",
-   "published": "2026-10-23T19:00:34.000Z",
-   "also": [],
-   "score": 0.96,
-   "image": "/img/news/2810027585.webp",
-   "t": "2026-10-21",
-   "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
-   "why": "Check PHP-based web servers and CMS systems for exposure and patches.",
-   "tags": [
-    "PHP",
-    "CVE-2026-109618",
-    "CVE-2026-109619"
    ],
    "ai": true
   },
@@ -168,7 +168,7 @@
    "snippet": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
    "published": "2026-10-23T20:55:05.000Z",
    "also": [],
-   "score": 0.9,
+   "score": 0.86,
    "image": "/img/news/201a6bfc4c.webp",
    "t": "2026-10-23",
    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, closing a flaw that could have allowed attackers to execute malicious code with elevated privileges.",
@@ -181,46 +181,45 @@
    "ai": true
   },
   {
-   "id": "e62f85ca10",
+   "id": "78e6b44f5a",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-   "snippet": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
-   "published": "2026-10-23T18:54:41.000Z",
+   "source": "Dark Reading",
+   "weight": 0.4,
+   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+   "snippet": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+   "published": "2026-10-23T20:57:56.000Z",
    "also": [],
-   "score": 0.85,
-   "image": "/img/news/e62f85ca10.webp",
-   "t": "2026-10-23",
-   "summary": "Microsoft announced plans to add AI-powered, context-aware phishing detection to Teams messages starting in early November 2026.",
-   "why": "Review how Teams phishing alerts will fit into reporting and response workflows.",
+   "score": 0.66,
+   "image": "/img/news/78e6b44f5a.webp",
+   "t": "2026-10-25",
+   "summary": "Dark Reading says threat actors may seek organizational access by calling help desks and using AI, rather than relying on malware.",
+   "why": "Verify help-desk identity checks and access approval procedures.",
    "tags": [
-    "Microsoft Teams",
-    "phishing",
-    "AI"
+    "help desks",
+    "fraudsters",
+    "artificial intelligence"
    ],
    "ai": true
   },
   {
-   "id": "077ef200d3",
+   "id": "9d407c505c",
    "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-   "snippet": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sp",
-   "published": "2026-10-23T18:50:13.000Z",
+   "source": "Schneier on Security",
+   "weight": 0.4,
+   "title": "Friday Squid Blogging: Increasing Squid Populations",
+   "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+   "snippet": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+   "published": "2026-10-23T21:00:09.000Z",
    "also": [],
-   "score": 0.75,
-   "image": "/img/news/077ef200d3.webp",
-   "t": "2026-10-23",
-   "summary": "The Hacker News reports that a UEFI bootkit called BlackX targeted diplomatic organizations in Central Asia, including entities in Tajikistan, Uzbekistan, and Turkmenistan.",
-   "why": "Check Secure Boot revocations and monitor for signs of boot-level compromise.",
+   "score": 0.66,
+   "t": "2026-10-25",
+   "summary": "The article says warming sea temperatures and overfishing of predators may explain increasing squid populations.",
+   "why": "The snippet offers no direct security or operational relevance.",
    "tags": [
-    "BlackX",
-    "UEFI",
-    "Secure Boot"
+    "squid",
+    "overfishing",
+    "sea temperatures"
    ],
    "ai": true
   },
@@ -234,7 +233,7 @@
    "snippet": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
    "published": "2026-10-24T11:59:17.000Z",
    "also": [],
-   "score": 1.11,
+   "score": 1.07,
    "image": "/img/news/7b202954b9.webp",
    "t": "2026-10-24",
    "summary": "Naval News says USS Pinckney is the first U.S. Navy destroyer in Phase Two of DDG MOD 2.0, adding SPY-6 radars.",
@@ -256,7 +255,7 @@
    "snippet": "Greece and Israel test new SPIKE NLOS and ER2 missile systems and sink a decommissioned frigate during joint Hellenic Navy live-fire drills in the Cretan Sea. The post Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel appeared first on Naval News .",
    "published": "2026-10-24T07:42:50.000Z",
    "also": [],
-   "score": 1.02,
+   "score": 0.98,
    "image": "/img/news/98b993d764.webp",
    "t": "2026-10-24",
    "summary": "Greece and Israel tested SPIKE NLOS and ER2 missile systems during Hellenic Navy live-fire drills in the Cretan Sea, sinking a decommissioned frigate.",
@@ -278,7 +277,7 @@
    "snippet": "How long are we going to be locked in here? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-10-24T00:57:14.000Z",
    "also": [],
-   "score": 0.98,
+   "score": 0.94,
    "image": "/img/news/60d4b0fa81.webp",
    "t": "2026-10-24",
    "summary": "The War Zone’s Bunker Talk post invites discussion of topics covered and not covered during the week.",
@@ -299,7 +298,7 @@
    "snippet": "Israeli Air Force operations, ship movements, ominous messaging and more point to the possibility that the war with Iran is about to erupt again. The post On The Brink Of Epic Fury Round Two? appeared first on TWZ .",
    "published": "2026-10-23T21:19:53.000Z",
    "also": [],
-   "score": 0.91,
+   "score": 0.87,
    "image": "/img/news/bdd45e788e.webp",
    "t": "2026-10-23",
    "summary": "The War Zone says Israeli Air Force operations, ship movements and messaging point to the possibility that war with Iran could erupt again.",
@@ -321,7 +320,7 @@
    "snippet": "General Atomics is now working with Spirit Defense to help meet surging USAF demands for fighter drones within the next six years. The post General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary appeared first on TWZ .",
    "published": "2026-10-23T20:39:25.000Z",
    "also": [],
-   "score": 0.89,
+   "score": 0.85,
    "image": "/img/news/28a81eb4ef.webp",
    "t": "2026-10-23",
    "summary": "General Atomics is working with Spirit Defense to help meet USAF demand for FQ-42 fighter drones within the next six years.",
@@ -343,7 +342,7 @@
    "snippet": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for satellites lost in a conflict.",
    "published": "2026-10-23T20:41:31.000Z",
    "also": [],
-   "score": 0.89,
+   "score": 0.85,
    "image": "/img/news/586aa5cc87.webp",
    "t": "2026-10-23",
    "summary": "Space Systems Command officials say six initial contracts support the Commercial Augmentation Space Reserve initiative; unresolved issues include service denial rights and reimbursement for lost satellites.",
@@ -356,46 +355,24 @@
    "ai": true
   },
   {
-   "id": "5b229b8a75",
-   "section": "warfare",
-   "source": "Breaking Defense",
+   "id": "2eaec01ff2",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Kyiv eyes purchase of planned ICEYE, Nokia ‘sovereign’ communication sats",
-   "url": "https://breakingdefense.com/2026/10/kyiv-eyes-purchase-of-planned-iceye-nokia-sovereign-communication-sats/",
-   "snippet": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine’s Starshield access that has all but grounded the countries military drones in its war with Russia.",
-   "published": "2026-10-23T19:07:34.000Z",
+   "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+   "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+   "published": "2026-10-25T08:15:24.000Z",
    "also": [],
-   "score": 0.86,
-   "image": "/img/news/5b229b8a75.webp",
-   "t": "2026-10-23",
-   "summary": "Kyiv is considering planned ICEYE and Nokia sovereign communication satellites, according to the report, amid concerns over access to Starshield.",
-   "why": "The proposal highlights the operational importance of resilient satellite communications.",
+   "score": 1.59,
+   "image": "/img/news/2eaec01ff2.webp",
+   "t": "2026-10-25",
+   "summary": "Musk says SpaceX restricted Ukraine's Starlink connection and restored service; he accuses Ukraine of violating terms by using the network for military activity.",
+   "why": "The dispute highlights the strategic relevance of service access to a communications network used for military activity.",
    "tags": [
-    "satellites",
+    "Starlink",
     "Ukraine",
-    "communications"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4dbb90c499",
-   "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "UK-France deepen nuclear defence ties in first joint exercise",
-   "url": "https://www.gov.uk/government/news/uk-france-deepen-nuclear-defence-ties-in-first-joint-exercise",
-   "snippet": "UK deepens nuclear defence ties with France in historic first joint air exercise as RAF Typhoon fighters join French Rafale jets in a French nuclear exercise.",
-   "published": "2026-10-23T19:54:18.000Z",
-   "also": [],
-   "score": 0.78,
-   "image": "/img/news/4dbb90c499.webp",
-   "t": "2026-10-23",
-   "summary": "The UK and France held their first joint air exercise in a French nuclear exercise, with RAF Typhoon fighters joining French Rafale jets.",
-   "why": "The exercise demonstrates joint air operations linked to nuclear defence.",
-   "tags": [
-    "UK-France",
-    "air exercise",
-    "nuclear defence"
+    "military activity"
    ],
    "ai": true
   },
@@ -409,7 +386,7 @@
    "snippet": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
    "published": "2026-10-25T05:15:52.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.53,
    "image": "/img/news/297905b4d0.webp",
    "t": "2026-10-25",
    "summary": "The Israeli Defense Forces says it will restrict Palestinian workers’ movement in the run-up to Tuesday’s election.",
@@ -418,6 +395,93 @@
     "West Bank",
     "crossings",
     "movement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "05b4c17e4d",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Why is Egypt so wary of getting involved in Yemen’s conflict?",
+   "url": "https://www.aljazeera.com/news-analysis/2026/10/25/why-is-egypt-so-wary-of-getting-involved-in-yemens-conflict?traffic_source=rss",
+   "snippet": "As Egypt considers defending Saudi Arabia against Houthi attacks, memories of its war in Yemen in the 1960s loom large.",
+   "published": "2026-10-25T07:59:38.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/05b4c17e4d.webp",
+   "t": "2026-10-25",
+   "summary": "Egypt is considering defending Saudi Arabia against Houthi attacks; the article says memories of Egypt's 1960s war in Yemen loom large.",
+   "why": "Egypt's past involvement is relevant to its current regional security calculations.",
+   "tags": [
+    "Egypt",
+    "Yemen",
+    "Saudi Arabia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "39d85814d5",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues",
+   "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+   "snippet": "Israel says it will close all land crossings with the occupied West Bank when it holds a general election on Tuesday.",
+   "published": "2026-10-25T07:20:36.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/39d85814d5.webp",
+   "t": "2026-10-25",
+   "summary": "Israel says it will close all land crossings with the occupied West Bank when it holds a general election on Tuesday.",
+   "why": "Crossing closures affect movement across a strategically important boundary.",
+   "tags": [
+    "land crossings",
+    "West Bank",
+    "election"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5141ffd54b",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Elections cannot produce change in Israel",
+   "url": "https://www.aljazeera.com/opinions/2026/10/25/elections-cannot-produce-change-in-israel?traffic_source=rss",
+   "snippet": "Political change cannot come from within Israeli society. It can only come from the outside.",
+   "published": "2026-10-25T06:54:37.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/5141ffd54b.webp",
+   "t": "2026-10-25",
+   "summary": "The article argues that political change in Israel cannot come from within Israeli society and can only come from outside.",
+   "why": "The claim frames debate over the sources of political change.",
+   "tags": [
+    "political change",
+    "Israel"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c6bb487852",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Who Israel elects matters, and not just for Israelis",
+   "url": "https://www.aljazeera.com/opinions/2026/10/25/who-israel-elects-matters-and-not-just-for-israelis?traffic_source=rss",
+   "snippet": "A new government would not end the occupation, but it could rein in the far right and ease tensions across the region.",
+   "published": "2026-10-25T06:41:41.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/c6bb487852.webp",
+   "t": "2026-10-25",
+   "summary": "The article says a new Israeli government would not end the occupation but could rein in the far right and ease regional tensions.",
+   "why": "The possible regional effects make the election significant beyond Israel.",
+   "tags": [
+    "new government",
+    "occupation",
+    "regional tensions"
    ],
    "ai": true
   },
@@ -431,7 +495,7 @@
    "snippet": "Cypriots say Israeli money is moving fast and shutting them out as their government embraces Israel as a key ally.",
    "published": "2026-10-25T05:33:10.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.44,
    "image": "/img/news/f1c6920c44.webp",
    "t": "2026-10-25",
    "summary": "Cypriots say Israeli money is moving quickly and shutting them out, as their government embraces Israel as a key ally.",
@@ -453,7 +517,7 @@
    "snippet": "Netanyahu and his rivals are tied days from the vote, and both camps are fighting with bots, deepfakes and data.",
    "published": "2026-10-25T05:27:54.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.44,
    "image": "/img/news/564b78d924.webp",
    "t": "2026-10-25",
    "summary": "Al Jazeera reports that Netanyahu and his rivals are tied days before the vote, while both camps use bots, deepfakes and data.",
@@ -462,115 +526,6 @@
     "bots",
     "deepfakes",
     "data"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8ff3510ef1",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Bulgarians vote for president in shadow of Russia’s war on Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
-   "snippet": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly.",
-   "published": "2026-10-25T02:45:43.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/8ff3510ef1.webp",
-   "t": "2026-10-25",
-   "summary": "The two leading Bulgarian presidential candidates condemn recent deadly Black Sea drone strikes but differ on the Ukraine war more broadly.",
-   "why": "The strikes connect regional security concerns with differing political positions on the war.",
-   "tags": [
-    "Bulgaria",
-    "Black Sea",
-    "drone strikes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "32ee042ed7",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
-   "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
-   "snippet": "Former US president says Trump 'chose to make a series of bad decisions', highlighting the US-Israel war on Iran.",
-   "published": "2026-10-25T00:34:43.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/32ee042ed7.webp",
-   "t": "2026-10-25",
-   "summary": "Former US president Obama says Trump made “a series of bad decisions,” citing the US-Israel war on Iran.",
-   "why": "The comments connect domestic political debate with the US-Israel war on Iran.",
-   "tags": [
-    "US-Israel war",
-    "Iran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dcab831000",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-   "snippet": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-   "published": "2026-10-25T00:00:00.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/dcab831000.webp",
-   "t": "2026-10-25",
-   "summary": "Trump says the US is considering a possible attack on Iran as soon as Sunday, or could reach a major deal with Tehran.",
-   "why": "The competing possibilities matter for assessing regional tensions and diplomatic developments.",
-   "tags": [
-    "Iran",
-    "attack",
-    "deal"
-   ],
-   "ai": true
-  },
-  {
-   "id": "21d813484d",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
-   "snippet": "Donald Trump praised First Lady as 'better than professionals' after a localised Russia-Ukraine ceasefire in Oleshky.",
-   "published": "2026-10-24T23:08:16.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/21d813484d.webp",
-   "t": "2026-10-25",
-   "summary": "Trump praised Melania after a localised Russia-Ukraine ceasefire in Oleshky.",
-   "why": "The ceasefire is a local development in the Russia-Ukraine conflict.",
-   "tags": [
-    "Russia-Ukraine",
-    "ceasefire",
-    "Oleshky"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b5e8121a44",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "How have Democrats’ policies shifted since the last major US election?",
-   "url": "https://www.aljazeera.com/economy/2026/10/24/how-have-democrats-policies-shifted-since-the-last-major-us-election?traffic_source=rss",
-   "snippet": "From trans rights to Israel's war on Gaza, the party's candidates have responded to voter shifts on a slew of issues.",
-   "published": "2026-10-24T22:28:37.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/b5e8121a44.webp",
-   "t": "2026-10-25",
-   "summary": "Democratic candidates have responded to voter shifts on issues including trans rights and Israel's war on Gaza.",
-   "why": "The policy shifts show how domestic politics intersects with debate over the war on Gaza.",
-   "tags": [
-    "Democrats",
-    "trans rights",
-    "Gaza"
    ],
    "ai": true
   }
@@ -722,47 +677,47 @@
   }
  ],
  "run_today": [
-  "Review election-related feeds for bot activity and coordinated posting.",
-  "Check claims and media for signs of deepfakes before sharing or acting on them.",
-  "Track how election-related data is being used and circulated."
+  "Review help-desk identity checks and access approval procedures for callers requesting access.",
+  "Ensure staff can recognize AI-assisted requests as a possible part of a help-desk fraud attempt.",
+  "Check isolation and monitoring controls for model training and internal inference environments."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Deepfakes",
-   "explainer": "Deepfakes are manipulated media presented as if they depict real people or events. The Israel election story mentions them as part of online campaigning.",
-   "from_id": "564b78d924",
-   "from": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "reinforcement learning",
+   "explainer": "A way of training a model through feedback that encourages some responses or actions over others. The item says OpenAI is resuming reinforcement learning training.",
+   "from_id": "5d0e99bc98",
+   "from": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "Drone strikes",
-   "explainer": "Drone strikes are attacks carried out using drones. The Bulgaria story says the leading candidates condemn recent deadly strikes in the Black Sea.",
-   "from_id": "8ff3510ef1",
-   "from": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "military activity",
+   "explainer": "Actions connected to military operations. In the item, Musk accuses Ukraine of using the Starlink network for military activity, which he says violated its terms of service.",
+   "from_id": "2eaec01ff2",
+   "from": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   },
   {
    "domain": "geo",
-   "term": "West Bank crossings",
-   "explainer": "Crossings are passage points for movement between areas. The story describes restrictions on Palestinian workers’ movement in the run-up to an election.",
-   "from_id": "297905b4d0",
-   "from": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "land crossings",
+   "explainer": "Places where people or goods cross a land boundary. The item says Israel plans to close all land crossings with the occupied West Bank on election day.",
+   "from_id": "39d85814d5",
+   "from": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Elections, information operations and regional pressures",
+  "headline": "Control of access links technology and political decisions",
   "paragraphs": [
-   "The stories connect political contests with wider questions of control: movement restrictions in the West Bank, concerns about investment and property in Cyprus, and online campaigning in Israel. Together, they show how elections can intersect with everyday access, economic interests and the information environment.",
-   "The online campaign described in Israel involves bots, deepfakes and data, while the Bulgarian candidates’ responses to Black Sea drone strikes place security concerns alongside debate over the Ukraine war. These accounts suggest that analysts may need to consider both the information circulating around a vote and the regional issues shaping political positions.",
-   "Other stories in the top set describe US debate over the war on Iran, a possible attack or deal with Tehran, and a localised Russia-Ukraine ceasefire in Oleshky. These reports differ in scope and certainty. Watch how political statements, mobility measures and contested information develop, without treating claims or possible outcomes as settled."
+   "The stories describe access as consequential in different settings: SpaceX's Starlink connection, West Bank crossings, and Egypt's consideration of involvement in Yemen. They suggest that control of networks, movement, or military participation can shape the options available to governments and people.",
+   "The election-related reports offer differing claims about what political change in Israel could achieve. One says change cannot come from within Israeli society; another says a new government could rein in the far right and ease regional tensions, while not ending the occupation. These are arguments, not settled outcomes.",
+   "For defenders and analysts, the OpenAI item also foregrounds controlled environments: it says the company plans training without live internet access. The available snippet does not explain the title's reported agent behavior, so the details and implications remain unclear. Watch how access conditions and political decisions are described, and distinguish claims from established details."
   ],
   "takeaways": [
-   "Movement restrictions and foreign investment feature in stories about political and local pressures.",
-   "Bots, deepfakes and data are part of Israel’s election campaign, according to Al Jazeera.",
-   "Black Sea drone strikes and wider wars feature in political debate and reporting."
+   "Network access and movement restrictions can carry strategic significance.",
+   "Election stories present competing claims about political change and regional effects.",
+   "The OpenAI snippet gives limited detail beyond plans for training without live internet access."
   ]
  },
  "health": [
@@ -782,7 +737,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The Hacker News",
@@ -812,13 +767,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Google Threat Intelligence",
@@ -854,7 +809,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Defense One",
@@ -866,7 +821,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Naval News",
@@ -890,7 +845,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "International Crisis Group",
@@ -908,19 +863,19 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "RAND",
@@ -938,13 +893,13 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Al Jazeera",
