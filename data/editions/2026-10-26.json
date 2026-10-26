@@ -1,9 +1,75 @@
 {
  "date": "2026-10-26",
  "edition": 224,
- "compiled": "2026-10-26T13:31:42.987Z",
+ "compiled": "2026-10-26T14:55:04.445Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "d72684f804",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+   "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+   "snippet": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
+   "published": "2026-10-26T14:21:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/d72684f804.webp",
+   "t": "2026-10-26",
+   "summary": "CERT-UA says hackers compromised Dahua internet-connected cameras and video recorders, changed settings and created unauthorized accounts.",
+   "why": "Check camera and recorder settings, accounts and access for unauthorized changes.",
+   "tags": [
+    "Dahua",
+    "cameras",
+    "unauthorized accounts"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c0f1fb39e",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "snippet": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+   "published": "2026-10-26T14:00:10.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/3c0f1fb39e.webp",
+   "t": "2026-10-26",
+   "summary": "A NIST, CISA and NSA guide treats runaway AI agents as incidents to rehearse and stresses recording whose authority an agent used.",
+   "why": "Document agent identities and authority before incidents, and rehearse response procedures.",
+   "tags": [
+    "AI agents",
+    "identity",
+    "authority"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9cb042202f",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+   "snippet": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+   "published": "2026-10-26T13:56:44.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/9cb042202f.webp",
+   "t": "2026-10-26",
+   "summary": "A Chinese national was arraigned in California after extradition from the Netherlands over alleged involvement in a cryptocurrency investment scam.",
+   "why": "The case highlights the need to assess investment claims and cryptocurrency-related fraud reports carefully.",
+   "tags": [
+    "cryptocurrency",
+    "scam",
+    "extradition"
+   ],
+   "ai": true
+  },
   {
    "id": "680a1bdeb1",
    "section": "cyber",
@@ -14,7 +80,7 @@
    "snippet": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
    "published": "2026-10-26T12:00:00.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.54,
    "image": "/img/news/680a1bdeb1.webp",
    "t": "2026-10-26",
    "summary": "LiteLLM says a key exposed in May was behind a supply-chain attack believed to have hit tens of thousands of users last week.",
@@ -36,7 +102,7 @@
    "snippet": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
    "published": "2026-10-26T10:26:52.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.51,
    "image": "/img/news/4dd6d369be.webp",
    "t": "2026-10-26",
    "summary": "Kali Linux released version 2026.3 with six new hacking tools, desktop improvements, and refreshed build scripts.",
@@ -44,6 +110,71 @@
    "tags": [
     "Kali Linux",
     "hacking tools"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d7e589c62a",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+   "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+   "snippet": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
+   "published": "2026-10-26T14:52:14.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/d7e589c62a.webp",
+   "t": "2026-10-26",
+   "summary": "Siemens, Schneider Electric, ABB and other industrial vendors confirmed some products are affected by PHP2Shell vulnerabilities.",
+   "why": "Check vendor advisories and identify whether affected products are in your environment.",
+   "tags": [
+    "industrial vendors",
+    "PHP2Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0894723045",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+   "snippet": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek .",
+   "published": "2026-10-26T14:40:48.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/0894723045.webp",
+   "t": "2026-10-26",
+   "summary": "A Genesys hack exposed customer data from internal systems; the Genesys Cloud, Genesys Engage and Genesys Engage Cloud platforms were not affected.",
+   "why": "Review the incident details to determine whether your data or systems may be relevant.",
+   "tags": [
+    "Genesys",
+    "customer data",
+    "internal systems"
+   ],
+   "ai": true
+  },
+  {
+   "id": "38ba7bc24d",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+   "snippet": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek .",
+   "published": "2026-10-26T14:30:09.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/38ba7bc24d.webp",
+   "t": "2026-10-26",
+   "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making rival AI distillation cheaper.",
+   "why": "Assess how model reasoning traces are protected and whether access to them is restricted.",
+   "tags": [
+    "reasoning traces",
+    "models",
+    "compaction"
    ],
    "ai": true
   },
@@ -57,7 +188,7 @@
    "snippet": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
    "published": "2026-10-26T09:19:57.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.48,
    "image": "/img/news/fbd9cb2b44.webp",
    "t": "2026-10-26",
    "summary": "The report says two critical remote code execution vulnerabilities tracked as PHP2Shell have been successfully exploited in the wild.",
@@ -69,156 +200,45 @@
    "ai": true
   },
   {
-   "id": "104d630292",
+   "id": "3576934612",
    "section": "cyber",
-   "source": "SecurityWeek",
+   "source": "The Hacker News",
    "weight": 0.5,
-   "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
-   "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
-   "snippet": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek .",
-   "published": "2026-10-26T13:30:10.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/104d630292.webp",
-   "t": "2026-10-26",
-   "summary": "SecurityWeek reports attackers exploited PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24.",
-   "why": "Check PHP systems for exposure to the reported flaws and investigate signs of successful exploitation.",
-   "tags": [
-    "PHP2Shell",
-    "honeypots",
-    "shells"
-   ],
-   "ai": true
-  },
-  {
-   "id": "23a9892afe",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
-   "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-   "snippet": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection. The post 953 Online Stores Infected in Long-Lasting Malware Campaign appeared first on SecurityWeek .",
-   "published": "2026-10-26T12:46:44.000Z",
+   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+   "snippet": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And t",
+   "published": "2026-10-26T14:06:13.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/23a9892afe.webp",
+   "image": "/img/news/3576934612.webp",
    "t": "2026-10-26",
-   "summary": "A small loader injected into online stores served visitors a payload or did nothing to avoid detection, SecurityWeek reports.",
-   "why": "Inspect store code for unexpected loader injections and assess what visitors may have received.",
+   "summary": "The Hacker News says critical remote-code-execution bugs are appearing widely, with attackers scanning for targets and some flaws already used in attacks.",
+   "why": "Prioritize checking for exposed vulnerable systems and applying relevant fixes.",
    "tags": [
-    "online stores",
-    "loader",
-    "malware"
+    "RCE",
+    "scanning",
+    "vulnerabilities"
    ],
    "ai": true
   },
   {
-   "id": "a5411bb33d",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-   "snippet": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the f",
-   "published": "2026-10-26T11:52:41.000Z",
+   "id": "823231ac69",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Is the Pentagon’s demand signal for drones working? It depends on who you ask.",
+   "url": "https://breakingdefense.com/2026/10/is-the-pentagons-demand-signal-for-drones-working-it-depends-on-who-you-ask/",
+   "snippet": "“There’s a lot of positive signaling, but we need to see the whites of the eyes: We need to see sustained, normalized demand,” said James Slider, CEO of Performance Drone Works.",
+   "published": "2026-10-26T14:28:38.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/a5411bb33d.webp",
+   "score": 1.59,
+   "image": "/img/news/823231ac69.webp",
    "t": "2026-10-26",
-   "summary": "Wasmtime's maintainers say two critical flaws could let a malicious WebAssembly module escape its intended sandbox.",
-   "why": "Check for vulnerable Wasmtime runtimes and review how untrusted WebAssembly modules are contained.",
+   "summary": "Performance Drone Works CEO James Slider says positive signaling on Pentagon drone demand needs to become sustained, normalized demand.",
+   "why": "The distinction between signaling and sustained demand matters to drone production planning.",
    "tags": [
-    "Wasmtime",
-    "WebAssembly",
-    "sandbox"
-   ],
-   "ai": true
-  },
-  {
-   "id": "49aedb62ce",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-   "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-   "snippet": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one",
-   "published": "2026-10-26T11:23:56.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/49aedb62ce.webp",
-   "t": "2026-10-26",
-   "summary": "The article says network data from NDR can connect individual alerts into a timeline, helping show how an attack started and progressed.",
-   "why": "Use network data to correlate alerts and build a clearer incident timeline.",
-   "tags": [
-    "NDR",
-    "network data",
-    "alerts"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f5fa96b288",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-   "snippet": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts. The post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts appeared first on SecurityWeek .",
-   "published": "2026-10-26T11:47:52.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/f5fa96b288.webp",
-   "t": "2026-10-26",
-   "summary": "Dutch police arrested two people over NFC relay attacks; the suspects allegedly persuaded victims to install an app and scan credit cards.",
-   "why": "Review user guidance on installing apps and scanning cards after unsolicited calls.",
-   "tags": [
-    "NFC relay",
-    "app",
-    "credit cards"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2a948c7de7",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-   "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-   "snippet": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared first on SecurityWeek .",
-   "published": "2026-10-26T10:21:57.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/2a948c7de7.webp",
-   "t": "2026-10-26",
-   "summary": "SecurityWeek reports an out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell and Python packages and can lead to code execution.",
-   "why": "Check whether affected packages are in use and apply available patches.",
-   "tags": [
-    "Brotli",
-    "Node.js",
-    "patching"
-   ],
-   "ai": true
-  },
-  {
-   "id": "275e6f3b55",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-   "snippet": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own con",
-   "published": "2026-10-26T09:54:02.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/275e6f3b55.webp",
-   "t": "2026-10-26",
-   "summary": "Researcher Ovi found uCreator spyware hides in tampered Telegram and WeChat copies to take over accounts. It reaches people who install copies spread outside official channels.",
-   "why": "Warn users to install messaging apps through official channels and check for tampered copies.",
-   "tags": [
-    "uCreator",
-    "Android spyware",
-    "Telegram"
+    "drones",
+    "demand"
    ],
    "ai": true
   },
@@ -232,7 +252,7 @@
    "snippet": "The highlight of the exercise may have been the Turkish military showing off a new drone for the first time: Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack unmanned aerial vehicle.",
    "published": "2026-10-26T09:00:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.48,
    "image": "/img/news/994e85677b.webp",
    "t": "2026-10-26",
    "summary": "The report says the Turkish military may have showcased Ayaz, a turbojet-powered, one-way attack unmanned aerial vehicle, for the first time at the demonstration.",
@@ -241,6 +261,72 @@
     "Ayaz",
     "drone",
     "unmanned aerial vehicle"
+   ],
+   "ai": true
+  },
+  {
+   "id": "65563ccd4f",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Defense leaders weigh in on expanding production | Defense News Weekly Full Episode 10.27.26",
+   "url": "https://www.defensenews.com/video/2026/10/26/defense-leaders-weigh-in-on-expanding-production-defense-news-weekly-full-episode-102726/",
+   "snippet": "Top leaders from the defense industry share their ideas on how to scale up production and integrate AI in remarks from the show floor at AUSA 2026.",
+   "published": "2026-10-26T13:29:39.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/65563ccd4f.webp",
+   "t": "2026-10-26",
+   "summary": "Defense industry leaders shared ideas on scaling production and integrating AI in remarks from the AUSA 2026 show floor.",
+   "why": "Production scale and AI integration are relevant to defense-industrial capacity.",
+   "tags": [
+    "production",
+    "AI",
+    "AUSA 2026"
+   ],
+   "ai": true
+  },
+  {
+   "id": "05ce8a917f",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Defense industry leaders weigh in: How to increase production and integrate AI",
+   "url": "https://www.defensenews.com/video/2026/10/26/defense-industry-leaders-weigh-in-how-to-increase-production-and-integrate-ai/",
+   "snippet": "As military leaders clamor for increased weapons and systems productions, top defense company leaders chart ways they can meet the demand.",
+   "published": "2026-10-26T13:26:26.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/05ce8a917f.webp",
+   "t": "2026-10-26",
+   "summary": "Defense company leaders described ways to meet military leaders’ calls for increased weapons and systems production.",
+   "why": "The story concerns how industry could respond to military production demand.",
+   "tags": [
+    "production",
+    "weapons",
+    "systems"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f3a834e54a",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Semiautomatic grenade launcher and aim-assist for shooting down drones | Highlights from AUSA 2026",
+   "url": "https://www.defensenews.com/video/2026/10/26/semiautomatic-grenade-launcher-and-aim-assist-for-shooting-down-drones-highlights-from-ausa-2026/",
+   "snippet": "Advances in weapons, new drones and personal drone protection were on display at the Army’s premier annual defense conference in Washington, D.C.",
+   "published": "2026-10-26T13:22:47.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/f3a834e54a.webp",
+   "t": "2026-10-26",
+   "summary": "Weapons, new drones and personal drone protection were on display at the Army’s annual defense conference in Washington, D.C.",
+   "why": "The display highlights weapons and personal protection as areas of drone-related development.",
+   "tags": [
+    "grenade launcher",
+    "drones",
+    "drone protection"
    ],
    "ai": true
   },
@@ -254,7 +340,7 @@
    "snippet": "As the Pentagon races to buy hundreds of thousands of unmanned systems, acquisition professionals have turned to the special operations community to learn about how to buy commercial technologies fast. Cara Teeter, deputy assistant secretary of war for special operations analysis, resources, and capabilities, and chief",
    "published": "2026-10-26T08:00:14.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.46,
    "image": "/img/news/cc891d1c7c.webp",
    "t": "2026-10-26",
    "summary": "The article says Pentagon acquisition professionals are learning from special operations how to buy commercial technologies quickly as the military seeks large numbers of unmanned systems.",
@@ -276,7 +362,7 @@
    "snippet": "New NAVFAC documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt and Virginia classes. The post U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes appeared first on Naval News .",
    "published": "2026-10-26T12:47:52.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.46,
    "image": "/img/news/a58d5e87bc.webp",
    "t": "2026-10-26",
    "summary": "Naval News reports that U.S. Navy plans a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt and Virginia classes.",
@@ -298,7 +384,7 @@
    "snippet": "Early on the morning of July 16, 1808, Captain-General Francisco Javier Castaños of the Army of Andalusia launched a surprise attack against the divided forces of Emperor Napoleon Bonaparte’s Army of the Gironde. After three grueling days of combat, French Gen. Pierre Dupont requested a truce and opened negotiations ou",
    "published": "2026-10-26T07:30:22.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.45,
    "image": "/img/news/f4df524554.webp",
    "t": "2026-10-26",
    "summary": "The snippet says Captain-General Francisco Javier Castaños launched a surprise attack against divided French forces at the Battle of Bailén.",
@@ -310,45 +396,24 @@
    "ai": true
   },
   {
-   "id": "0760106281",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Aksungur UCAV drops aselBUOY sonobuoys for the first time",
-   "url": "https://www.navalnews.com/naval-news/2026/10/aksungur-ucav-drops-aselbuoy-sonobuoys-for-the-first-time/",
-   "snippet": "Turkish Aerospace’s Aksungur unmanned aerial vehicle released three ASELSAN aselBUOY 100P passive sonobuoys into the Mediterranean during the Turkish Navy’s TURNAs-26 unmanned systems exercise. The UCAV took off from Ankara and transited to the exercise area off Antalya (around 400 km) under satellite control, powered ",
-   "published": "2026-10-26T06:57:28.000Z",
+   "id": "058116f90c",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The troops are expected to protect energy facilities in northern Niger, near the Libyan border.",
+   "published": "2026-10-26T13:18:57.000Z",
    "also": [],
-   "score": 1.36,
-   "image": "/img/news/0760106281.webp",
+   "score": 1.57,
+   "image": "/img/news/058116f90c.webp",
    "t": "2026-10-26",
-   "summary": "Turkish Aerospace’s Aksungur unmanned aerial vehicle released ASELSAN aselBUOY 100P passive sonobuoys during the Turkish Navy’s TURNAs-26 exercise in the Mediterranean.",
-   "why": "The exercise shows an unmanned aircraft being used to deploy passive acoustic sensors.",
+   "summary": "Algeria is expected to send troops to protect energy facilities in northern Niger, near the Libyan border.",
+   "why": "The deployment places security attention on energy infrastructure near Niger’s border with Libya.",
    "tags": [
-    "Aksungur",
-    "sonobuoys",
-    "Mediterranean"
-   ],
-   "ai": true
-  },
-  {
-   "id": "692a07c02f",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "Funding, force-structure issues could hinder Hegseth’s new autonomous command",
-   "url": "https://www.defenseone.com/threats/2026/10/funding-hegseth-autonomous-command/416800/",
-   "snippet": "The money to start AUTOWARCOM is to come from a reconciliation bill whose passage is in doubt.",
-   "published": "2026-10-25T10:00:00.000Z",
-   "also": [],
-   "score": 0.93,
-   "image": "/img/news/692a07c02f.webp",
-   "t": "2026-10-25",
-   "summary": "Defense One reports that funding for AUTOWARCOM would come from a reconciliation bill whose passage is in doubt.",
-   "why": "Funding and force structure shape the proposed autonomous command’s ability to start.",
-   "tags": [
-    "AUTOWARCOM",
-    "funding"
+    "Algeria",
+    "Niger",
+    "energy facilities"
    ],
    "ai": true
   },
@@ -362,7 +427,7 @@
    "snippet": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first o",
    "published": "2026-10-26T13:00:00.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.56,
    "image": "/img/news/e20f90ebcc.webp",
    "t": "2026-10-26",
    "summary": "Astranis says its fourth Falcon 9 launch contract is now a dedicated mission for its Block 4 satellite production run, set to launch in 2028.",
@@ -371,6 +436,28 @@
     "Astranis",
     "Falcon 9",
     "satellites"
+   ],
+   "ai": true
+  },
+  {
+   "id": "96410e383c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran’s anti-negotiation hardliners turn against President Pezeshkian",
+   "url": "https://www.aljazeera.com/news/2026/10/26/irans-anti-negotiation-hardliners-turn-against-president-pezeshkian?traffic_source=rss",
+   "snippet": "Iran’s anti-negotiation hardliners turn against President Pezeshkian over negotiations with the US.",
+   "published": "2026-10-26T14:27:33.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/96410e383c.webp",
+   "t": "2026-10-26",
+   "summary": "Iran’s anti-negotiation hardliners have turned against President Pezeshkian over negotiations with the US.",
+   "why": "The reported political division is relevant to understanding Iran’s negotiations with the US.",
+   "tags": [
+    "Iran",
+    "negotiations",
+    "hardliners"
    ],
    "ai": true
   },
@@ -384,7 +471,7 @@
    "snippet": "A new political campaign ad in support of US Senate candidate Abdul El-Sayed is generating conversation online.",
    "published": "2026-10-26T13:20:23.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.47,
    "image": "/img/news/2cb7d60eb6.webp",
    "t": "2026-10-26",
    "summary": "A political campaign ad supporting U.S. Senate candidate Abdul El-Sayed is generating conversation online, Al Jazeera reports.",
@@ -406,7 +493,7 @@
    "snippet": "Israel escalates forced expulsions and infrastructure destruction with the goal of imposing 'new reality', analysts say.",
    "published": "2026-10-26T13:11:08.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.46,
    "image": "/img/news/e8f1bf2957.webp",
    "t": "2026-10-26",
    "summary": "Al Jazeera reports Israel is escalating forced expulsions and infrastructure destruction in the occupied West Bank; analysts say the goal is to impose a 'new reality.'",
@@ -428,7 +515,7 @@
    "snippet": "Traders say some exports are crossing border after a weeklong halt, but Tehran says its cargo is not getting through.",
    "published": "2026-10-26T13:01:16.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.46,
    "image": "/img/news/04ec39fc67.webp",
    "t": "2026-10-26",
    "summary": "Traders say some exports are crossing Pakistan's border with Iran after a weeklong halt, while Tehran says its cargo is not getting through.",
@@ -450,7 +537,7 @@
    "snippet": "Debris fell on the Saudi city of Khamis Mushait after Houthi-fired missiles were intercepted.",
    "published": "2026-10-26T12:54:05.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.46,
    "image": "/img/news/69fb4ef61f.webp",
    "t": "2026-10-26",
    "summary": "Debris fell on the Saudi city of Khamis Mushait after Houthi-fired missiles were intercepted, Al Jazeera reports.",
@@ -472,7 +559,7 @@
    "snippet": "The highly secretive four-day Plenum starts Monday in Beijing.",
    "published": "2026-10-26T07:40:57.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.45,
    "image": "/img/news/31c1d82ee5.webp",
    "t": "2026-10-26",
    "summary": "BBC World reports that a highly secretive four-day Plenum starts Monday in Beijing; the meeting could see Xi tighten discipline in the Party.",
@@ -481,50 +568,6 @@
     "Plenum",
     "Beijing",
     "Party"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d59fc7e155",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
-   "url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl?traffic_source=rss",
-   "snippet": "The death toll in Israel's genocidal war on Gaza climbs to 74,555, including 1,559 killed since 'ceasefire' last year.",
-   "published": "2026-10-26T12:17:02.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/d59fc7e155.webp",
-   "t": "2026-10-26",
-   "summary": "Al Jazeera reports Israeli forces killed at least five people in Gaza, including a 7-year-old girl, and gives a reported death toll.",
-   "why": "The reported deaths and toll are relevant to tracking conditions in Gaza.",
-   "tags": [
-    "Gaza",
-    "deaths",
-    "ceasefire"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bd58bf8f95",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
-   "url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
-   "snippet": "Defence ministers from France, Germany, Italy, Poland and the UK to discuss increasing military assistance to Ukraine.",
-   "published": "2026-10-26T11:04:55.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/bd58bf8f95.webp",
-   "t": "2026-10-26",
-   "summary": "Defence ministers from France, Germany, Italy, Poland and the UK are meeting in Paris to discuss increasing military assistance to Ukraine.",
-   "why": "The meeting links European defence coordination with potential changes in military assistance to Ukraine.",
-   "tags": [
-    "defence ministers",
-    "Paris",
-    "Ukraine"
    ],
    "ai": true
   }
@@ -676,47 +719,47 @@
   }
  ],
  "run_today": [
-  "Check whether any exposed LiteLLM keys remain active, and review systems using the tool.",
-  "Check PHP systems for PHP2Shell exposure and investigate signs of successful exploitation.",
-  "Inspect online-store code for unexpected loader injections and assess what visitors may have received."
+  "Review Dahua camera and recorder settings and remove unauthorized accounts.",
+  "Inventory industrial products and check vendor advisories for PHP2Shell exposure.",
+  "Confirm AI agents have recorded identities and authority; rehearse incident response."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Supply-chain attack",
-   "explainer": "An attack that reaches users through software or a component they rely on. In the LiteLLM report, the project says an exposed key was behind the attack.",
-   "from_id": "680a1bdeb1",
-   "from": "https://therecord.media/litellm-hackers-ai-malware",
+   "term": "Unauthorized user account",
+   "explainer": "An account created or used without approval. On a connected camera or recorder, it can allow someone to access or change settings.",
+   "from_id": "d72684f804",
+   "from": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
    "fromSource": "The Record"
   },
   {
    "domain": "warfare",
-   "term": "Hypersonic missile",
-   "explainer": "A missile described as hypersonic. The report connects a planned storage facility with support for CPS-equipped Zumwalt and Virginia classes.",
-   "from_id": "a58d5e87bc",
-   "from": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
-   "fromSource": "Naval News"
+   "term": "Normalized demand",
+   "explainer": "Demand that is sustained and established rather than only signaled. In this story, a drone-industry leader says such demand is needed beyond positive signals.",
+   "from_id": "823231ac69",
+   "from": "https://breakingdefense.com/2026/10/is-the-pentagons-demand-signal-for-drones-working-it-depends-on-who-you-ask/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "Border trade",
-   "explainer": "Trade that crosses a national border. In this report, traders say some exports crossed from Pakistan toward Iran, while Tehran says its cargo was not getting through.",
-   "from_id": "04ec39fc67",
-   "from": "https://www.aljazeera.com/news/2026/10/26/has-pakistan-reopened-its-border-with-iran-for-trade?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "Energy facilities",
+   "explainer": "Infrastructure used for energy-related operations. The report says Algerian troops are expected to protect facilities in northern Niger near the Libyan border.",
+   "from_id": "058116f90c",
+   "from": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Exposure, Operations and Strategic Signals",
+  "headline": "Authority, demand and infrastructure shape today’s stories",
   "paragraphs": [
-   "Several stories describe systems or infrastructure whose effects extend beyond a single component: LiteLLM says an exposed key enabled a supply-chain attack, while PHP2Shell exploitation moved to working shells. The Wasmtime report likewise describes flaws that could cross a sandbox boundary.",
-   "For defenders, these reports suggest checking credentials, software exposure and containment, while correlating alerts into timelines. The online-store loader story adds another reason to examine what code serves visitors. These are distinct cases, but each makes visibility into dependencies and execution relevant.",
-   "Elsewhere, Astranis describes a dedicated Falcon 9 mission for its satellite production run, and Naval News reports a planned missile facility. The top stories also include a new Turkish unmanned aircraft and West Bank expulsions. Analysts can watch how deployments and infrastructure plans develop, alongside reported changes on the ground."
+   "The cyber items raise questions about control and accountability: CERT-UA reports altered camera settings and unauthorized accounts, while an agency guide emphasizes knowing whose authority an AI agent used. Both suggest defenders need reliable records of access and action.",
+   "The drone story distinguishes positive signaling from sustained, normalized demand. That distinction sits alongside industry discussions of production and AI integration, suggesting analysts should separate stated intent from demonstrated production requirements.",
+   "The Algeria-Niger report places troop deployment around energy facilities near the Libyan border. Across these stories, operational capacity and control are central themes. Watch for clearer evidence of access, sustained demand, and the scope of infrastructure protection."
   ],
   "takeaways": [
-   "Review exposed keys, affected software and containment boundaries.",
-   "Correlate alerts and inspect code that serves users.",
-   "Track launch plans, military systems and reported changes on the ground."
+   "Audit device accounts and settings, and preserve records of agent authority.",
+   "Distinguish drone demand signals from sustained requirements.",
+   "Track the stated purpose and location of the Niger deployment."
   ]
  },
  "health": [
@@ -736,25 +779,25 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 5
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Help Net Security",
@@ -766,7 +809,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Unit 42",
@@ -808,7 +851,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Defense One",
@@ -820,7 +863,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Naval News",
@@ -886,31 +929,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 12
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 4
   }
  ]
 }
