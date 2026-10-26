@@ -3450,5 +3450,34 @@
    "Beijing",
    "Party"
   ]
+ },
+ "fbd9cb2b44": {
+  "t": "2026-10-26",
+  "summary": "The report says two critical remote code execution vulnerabilities tracked as PHP2Shell have been successfully exploited in the wild.",
+  "why": "Check whether PHP systems are affected and prioritize investigation and remediation.",
+  "tags": [
+   "PHP2Shell",
+   "RCE"
+  ]
+ },
+ "35a2887f86": {
+  "t": "2026-10-26",
+  "summary": "Researchers disclosed a campaign using an adversary-in-the-middle relay to capture Microsoft 365 sign-in sessions and replay stolen tokens to access email accounts.",
+  "why": "Review sign-in activity and investigate suspected session-token theft or replay.",
+  "tags": [
+   "Microsoft 365",
+   "token replay",
+   "AitM"
+  ]
+ },
+ "8e95a20d61": {
+  "t": "2026-10-26",
+  "summary": "The report says attackers use stolen GitHub tokens to add workflows that expose repository secrets in Actions logs, then download the logs and delete the runs.",
+  "why": "Audit GitHub tokens, workflow changes, and Actions logs for exposed secrets.",
+  "tags": [
+   "GitHub tokens",
+   "Actions logs",
+   "secrets"
+  ]
  }
 }
