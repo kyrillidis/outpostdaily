@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:32:39.937Z",
+ "updated": "2026-10-26T17:43:57.743Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -17,14 +17,14 @@
    "error": "fetch failed"
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "Al Jazeera",
@@ -32,14 +32,14 @@
    "n": 9
   },
   {
-   "name": "BleepingComputer",
+   "name": "BBC World",
    "ok": true,
    "n": 4
   },
   {
    "name": "The Record",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "The DFIR Report",
@@ -52,9 +52,9 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Hackread",
@@ -72,17 +72,12 @@
    "n": 1
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 502"
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
    "n": 2
   },
@@ -90,6 +85,11 @@
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n80183fab0d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Meet the financial-literacy teacher who helps high-school students open their own Roth IRAs",
+   "url": "https://www.marketwatch.com/story/meet-the-financial-literacy-teacher-who-helps-high-school-students-open-their-own-roth-iras-652d56a8?mod=mw_rss_topstories",
+   "published": "2026-10-26T17:32:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf722b9fc37",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Serbian autocrat loses election following widespread reports of digital repression",
+   "url": "https://therecord.media/serbia-election-spyware-vucic",
+   "published": "2026-10-26T17:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n05ea812e5c",
    "kind": "news",
@@ -1047,17 +1069,6 @@
    "title": "The Czech government backed enshrining the koruna in the constitution, potentially hindering future efforts to adopt the euro",
    "url": "https://x.com/business/status/2114741427867471894",
    "published": "2026-10-26T15:30:21.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114741170752659491",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "SAUDI-LED COALITION: INTERCEPTED, DESTROYED THREE DRONES IN THE RIYADH AND SOUTHERN REGIONS",
-   "url": "https://x.com/FirstSquawk/status/2114741170752659491",
-   "published": "2026-10-26T15:29:19.000Z",
    "severity": "normal",
    "verified": false
   },
