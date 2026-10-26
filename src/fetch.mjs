@@ -160,6 +160,16 @@ async function ogImage(url) {
     return m && /^https:\/\//.test(m[1].replace(/&amp;/g, '&')) ? m[1].replace(/&amp;/g, '&') : null;
   } catch { return null; }
 }
+// busy photos can exceed the 130KB image budget at one fixed quality (test/site.test.mjs fails the whole run if one does), so step the quality
+// down, then the width, until the file is comfortably small
+export async function toWebp(buf, { width = 960, max = 110 * 1024 } = {}) {
+  let out;
+  for (const [w, q] of [[width, 70], [width, 58], [width, 46], [Math.round(width * 0.8), 46], [Math.round(width * 0.8), 36], [Math.round(width * 0.6), 36]]) {
+    out = await sharp(buf).rotate().resize({ width: w, withoutEnlargement: true }).webp({ quality: q }).toBuffer();
+    if (out.length <= max) break;
+  }
+  return out;
+}
 async function thumbnail(it) {
   const rel = `${IMG_DIR}${it.id}.webp`;
   if (existsSync(ROOT + rel)) return '/' + rel.slice('public/'.length);
@@ -171,7 +181,7 @@ async function thumbnail(it) {
       if (buf.length > 8e6) continue;
       const meta = await sharp(buf).metadata();
       if ((meta.width ?? 0) < 400 || (meta.height ?? 0) < 200) continue; // logos and icons
-      writeFileSync(ROOT + rel, await sharp(buf).rotate().resize({ width: 960, withoutEnlargement: true }).webp({ quality: 70 }).toBuffer());
+      writeFileSync(ROOT + rel, await toWebp(buf));
       return '/' + rel.slice('public/'.length);
     } catch { /* try the next candidate */ }
   }

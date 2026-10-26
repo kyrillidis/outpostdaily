@@ -69,7 +69,8 @@ async function attachImages(items, rawById, mode) {
       if (!res.ok || !/^image\//.test(res.headers.get('content-type') ?? '')) continue;
       const buf = Buffer.from(await res.arrayBuffer());
       if (buf.length > 8e6) continue;
-      const out = await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: 62 }).toBuffer({ resolveWithObject: true });
+      let out;
+      for (const q of [62, 48, 36]) { out = await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: q }).toBuffer({ resolveWithObject: true }); if (out.data.length <= 110 * 1024) break; } // stay inside the 130KB image budget
       writeFileSync(ROOT + file, out.data);
       it.image = '/' + file.slice('public/'.length); it.imageW = out.info.width; it.imageH = out.info.height;
     } catch { /* no picture for this one */ }
