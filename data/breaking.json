@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T05:59:25.131Z",
+ "updated": "2026-10-26T06:45:10.850Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,19 @@
    "n": 0
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Krebs on Security",
@@ -27,27 +37,7 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,9 +52,19 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 502"
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Security Affairs",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 502"
   },
   {
    "name": "BreachForums",
@@ -104,7 +104,7 @@
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X crisis",
@@ -114,10 +114,208 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 5
+   "n": 19
   }
  ],
  "items": [
+  {
+   "id": "x2114609266552103089",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Here’s what you need to know to start your day: Morning Briefing Europe",
+   "url": "https://x.com/business/status/2114609266552103089",
+   "published": "2026-10-26T06:45:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114609251465249143",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "China Emits 2.7 Times As Much Greenhouse Gas As America, New EU Data Show",
+   "url": "https://x.com/zerohedge/status/2114609251465249143",
+   "published": "2026-10-26T06:45:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114608002833547775",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Uganda is tapping its nearly $7 billion in reserves to lessen the blow of a plunging shilling, which is the world’s second-worst-performing currency this month after Iraq’s dinar.",
+   "url": "https://x.com/business/status/2114608002833547775",
+   "published": "2026-10-26T06:40:10.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114605709258367175",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Federal Reserve to Stick With Quarterly Rate Increases After Removing 2025 Insurance Cuts-FT",
+   "url": "https://x.com/FirstSquawk/status/2114605709258367175",
+   "published": "2026-10-26T06:31:03.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114605497542213779",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Chinese food-delivery giant Meituan is seeking to raise the equivalent of about $1 billion through its offshore yuan bond offering, as it joins a growing wave of issuers tapping the dim sum debt market.",
+   "url": "https://x.com/business/status/2114605497542213779",
+   "published": "2026-10-26T06:30:12.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114605318764458227",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Crude Oil Declines Amid Qatar’s Mediation Efforts-FT",
+   "url": "https://x.com/FirstSquawk/status/2114605318764458227",
+   "published": "2026-10-26T06:29:30.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114604222024978923",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Private Infrastructure Development Group, which operates in Africa and Asia, plans to invest at least $1 billion each year until 2030 as more investors increase allocation to facilities.",
+   "url": "https://x.com/business/status/2114604222024978923",
+   "published": "2026-10-26T06:25:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114604160209334610",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@socradar",
+   "title": "Who else is logged into your company's AI accounts? Your developers, marketers, and analysts use AI tools every day. When infostealer malware lands on a device through a cracked file or a fake update, it collects browser passwords,…",
+   "url": "https://x.com/socradar/status/2114604160209334610",
+   "published": "2026-10-26T06:24:53.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114603651478241592",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "Gold Stays Above $4,000 After Rebound as Rate Hike Bets Weigh on Prices",
+   "url": "https://x.com/FirstSquawk/status/2114603651478241592",
+   "published": "2026-10-26T06:22:52.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114602968053961027",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "ASK Investment Managers has hired Akhil Chaturvedi as CEO of its mutual fund operations after the company secured regulatory nod to expand into the business.",
+   "url": "https://x.com/business/status/2114602968053961027",
+   "published": "2026-10-26T06:20:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114601707720069190",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "President Emmanuel Macron is no closer to resolving underlying anger that’s fueled mass protests in France",
+   "url": "https://x.com/business/status/2114601707720069190",
+   "published": "2026-10-26T06:15:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114600105752015027",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheHackersNews",
+   "title": "‼️ In a real-world attack, a malicious file in a dev's Downloads folder tried to trick an AI coding agent into installing malware. In controlled tests, Codex ran the malware in over 90% of attempts. All it took was a planted AGENTS.md…",
+   "url": "https://x.com/TheHackersNews/status/2114600105752015027",
+   "published": "2026-10-26T06:08:47.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114600029583462491",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "EU Leaders Seek to Finalise €45 Billion Ukraine Loan Guaranteed by EU Budget Before Year-End",
+   "url": "https://x.com/FirstSquawk/status/2114600029583462491",
+   "published": "2026-10-26T06:08:29.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114599191452270781",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Australia’s regulator warns ructions in the global bond market and elevated concerns linked to artificial intelligence are threatening to weaken financial market liquidity",
+   "url": "https://x.com/business/status/2114599191452270781",
+   "published": "2026-10-26T06:05:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114598697812246755",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "EUR/USD Stays Above 1.1200 Despite Bearish Pressure Below 100-Day SMA",
+   "url": "https://x.com/FirstSquawk/status/2114598697812246755",
+   "published": "2026-10-26T06:03:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114597964907708866",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Jio has raised a record amount of funds for billionaire Mukesh Ambani’s digital and telecommunications giant, but it proved to be far less lucrative for the bankers handling the deal",
+   "url": "https://x.com/business/status/2114597964907708866",
+   "published": "2026-10-26T06:00:16.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114597925170856151",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "Turkey Begins Ratifying Mecca Defense Pact With Saudi Arabia And Pakistan",
+   "url": "https://x.com/zerohedge/status/2114597925170856151",
+   "published": "2026-10-26T06:00:07.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114597897639698547",
+   "kind": "x",
+   "group": "markets",
+   "source": "@LiveSquawk",
+   "title": "Sideways movement is likely for this month's headline German business confidence indicator despite surging energy prices. $EUR European Editor @EricCulpLS previews Monday's report here:",
+   "url": "https://x.com/LiveSquawk/status/2114597897639698547",
+   "published": "2026-10-26T06:00:00.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114596956920275348",
    "kind": "x",
@@ -195,6 +393,17 @@
    "published": "2026-10-26T05:40:09.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n41f94125c4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "China’s political elite gather for talks on Communist Party discipline",
+   "url": "https://www.aljazeera.com/news/2026/10/26/chinas-political-elite-gather-for-talks-on-communist-party-discipline?traffic_source=rss",
+   "published": "2026-10-26T05:38:41.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114591639951847663",
@@ -562,72 +771,6 @@
    "verified": false
   },
   {
-   "id": "x2114573337548775872",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Japan’s 30-Year JGB Yield Rises 0.5 Basis Point to 3.835%",
-   "url": "https://x.com/FirstSquawk/status/2114573337548775872",
-   "published": "2026-10-26T04:22:25.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114572771904704650",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Copper extended last week’s drop as artificial intelligence stocks came under further pressure, sapping risk appetite ahead of the Federal Reserve’s policy meeting",
-   "url": "https://x.com/business/status/2114572771904704650",
-   "published": "2026-10-26T04:20:10.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114571510715240577",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Emerging-market stocks started the week lower as investors awaited earnings from some of the world’s biggest technology companies for clues on whether the AI trade can recover from a bruising selloff",
-   "url": "https://x.com/business/status/2114571510715240577",
-   "published": "2026-10-26T04:15:09.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114570248657543177",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Chinese stocks are poised for further losses before valuations bottom, according to Morgan Stanley, as weak macroeconomic and consumption momentum continues to weigh on sentiment",
-   "url": "https://x.com/business/status/2114570248657543177",
-   "published": "2026-10-26T04:10:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114569437118652617",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Chinese President Xi Delivers Report to Communist Party Plenum, State Media Reports",
-   "url": "https://x.com/FirstSquawk/status/2114569437118652617",
-   "published": "2026-10-26T04:06:55.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114569394894590179",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "China Opens Fifth Plenum of Communist Party’s Central Committee, CCTV Says",
-   "url": "https://x.com/FirstSquawk/status/2114569394894590179",
-   "published": "2026-10-26T04:06:45.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114569184617095410",
    "kind": "x",
    "group": "blueteam",
@@ -650,17 +793,6 @@
    "verified": true
   },
   {
-   "id": "x2114568995462369750",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "AI and the bond market are creating a giant wave that adrenaline junkies are surfing, John Authers writes. The undertow is the oil price (via @opinion)",
-   "url": "https://x.com/business/status/2114568995462369750",
-   "published": "2026-10-26T04:05:09.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114568567899443549",
    "kind": "x",
    "group": "crisis",
@@ -668,28 +800,6 @@
    "title": "Eric Bauza, the voice of Bugs Bunny, Daffy Duck, and Tweety, has died at 46, his family says",
    "url": "https://x.com/BNONews/status/2114568567899443549",
    "published": "2026-10-26T04:03:28.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114567500574634480",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Is It Time For Another Worldwide Civilizational Collapse?",
-   "url": "https://x.com/zerohedge/status/2114567500574634480",
-   "published": "2026-10-26T03:59:13.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114567477661151726",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Israel Has Its Pretext For Total War On West Bank",
-   "url": "https://x.com/zerohedge/status/2114567477661151726",
-   "published": "2026-10-26T03:59:08.000Z",
    "severity": "normal",
    "verified": false
   },
@@ -705,72 +815,6 @@
    "verified": false
   },
   {
-   "id": "x2114565278336213301",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Thailand Projects 19% Export Growth This Year, Commerce Ministry Says",
-   "url": "https://x.com/FirstSquawk/status/2114565278336213301",
-   "published": "2026-10-26T03:50:23.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114564414926164431",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Saudi-Led Forces Claim Strike Destroyed Five Missile Storage Sites and Four Launch Platforms in Houthi-Controlled Areas",
-   "url": "https://x.com/FirstSquawk/status/2114564414926164431",
-   "published": "2026-10-26T03:46:57.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114563142302990749",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Anchorpoint Plans Public Blockchain Stablecoin for Retail Users With Standard Chartered’s Backing",
-   "url": "https://x.com/FirstSquawk/status/2114563142302990749",
-   "published": "2026-10-26T03:41:54.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114562705302364446",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Philippine President Ferdinand Marcos Jr. has named a new head of the scandal-hit Department of Public Works and Highways, as his administration contends with lingering effects of corruption allegations that have slowed economic growth",
-   "url": "https://x.com/business/status/2114562705302364446",
-   "published": "2026-10-26T03:40:10.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114562197187641767",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "BYD’s rapid ascent means it’s overtaken Volvo and Toyota in the ranks of foreign carmakers in Korea. That’s a growing risk to local heavyweights Hyundai and Kia.",
-   "url": "https://x.com/business/status/2114562197187641767",
-   "published": "2026-10-26T03:38:09.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114561440585523360",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Chicago soybean futures fell to a two-month low after Lula’s presidential win in Brazil raised expectations of closer ties with China, potentially eroding the US share of the world’s biggest soybean import market",
-   "url": "https://x.com/business/status/2114561440585523360",
-   "published": "2026-10-26T03:35:08.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114561172124926387",
    "kind": "x",
    "group": "darkweb",
@@ -781,17 +825,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhuLSuXsAAwDTs.jpg"
-  },
-  {
-   "id": "x2114561104689139767",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Japan Businesses Set to Compensate Customers After Large-Scale Cyberattacks - SCMP",
-   "url": "https://x.com/FirstSquawk/status/2114561104689139767",
-   "published": "2026-10-26T03:33:48.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114559140240474189",
