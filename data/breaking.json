@@ -1,20 +1,35 @@
 {
- "updated": "2026-10-26T19:34:58.501Z",
+ "updated": "2026-10-26T19:45:54.357Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "The Record",
@@ -27,26 +42,6 @@
    "n": 5
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 7
@@ -55,11 +50,6 @@
    "name": "Hackread",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -72,14 +62,9 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "DarkForums",
@@ -87,9 +72,24 @@
    "error": "HTTP 502"
   },
   {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nb920bc5e77",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The house, the kids’ college and the raise: Where people in their 30s and 40s go wrong",
+   "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+   "published": "2026-10-26T19:42:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nd84dc99ca6",
    "kind": "news",
@@ -170,6 +181,17 @@
    "title": "My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?",
    "url": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
    "published": "2026-10-26T18:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9612772452",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+   "published": "2026-10-26T18:12:22.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -1159,17 +1181,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkTL78bQAAeC2u.jpg"
-  },
-  {
-   "id": "x2114742639996071950",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Anthropic flagged climate and environmental risks in its IPO filing, highlighting its vast electricity and infrastructure needs",
-   "url": "https://x.com/business/status/2114742639996071950",
-   "published": "2026-10-26T15:35:10.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114741536646635835",
