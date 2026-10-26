@@ -120,6 +120,18 @@ const newsLayout = (list, { lvl, start = 1, adSlot = true } = {}) => !list.lengt
   `<div class="entries">${entry(list[0], { n: start, lvl, lead: true })}</div>` + (adSlot ? ad('inline') : '') +
   (list.length > 1 ? `<div class="entries cards">${list.slice(1).map((it, i) => entry(it, { n: start + 1 + i, lvl })).join('\n')}</div>` : '');
 
+// CISA's required-action text is long legal boilerplate. The part that says what to do (the first instruction, plus the "discontinue use"
+// fallback when there is one) stays visible, copied word for word; the full wording sits one tap away.
+function actionHtml(a) {
+  const full = String(a ?? '').replace(/\s+/g, ' ').trim();
+  if (!full) return '<p class="kev-do">See the CISA entry.</p>';
+  const sentences = full.split(/(?<=\.)\s+(?=[A-Z])/);
+  const first = sentences[0].replace(/,? ensuring compliance.*$/i, '').replace(/[.,;]?$/, '.');
+  const fallback = sentences.slice(1).find((t) => /discontinue/i.test(t)) ?? '';
+  const doText = [first, fallback].filter(Boolean).join(' ');
+  if (full.length <= doText.length + 20) return `<p class="kev-do">${esc(full)}</p>`;
+  return `<p class="kev-do">${esc(doText)}</p><details class="kev-full"><summary>CISA’s full wording</summary><p>${esc(full)}</p></details>`;
+}
 function sectionPage(ed, section, { title, sub, lvl, route }) {
   const list = ed.items.filter((i) => i.section === section);
   const body = list.length
@@ -133,7 +145,7 @@ const sevText = (s) => (s == null ? 'No score' : s >= 9 ? 'Critical' : s >= 7 ? 
 const kevTable = (kev, { head = true } = {}) =>
   (head ? secHead({ title: 'Exploited vulnerabilities (CISA KEV)', sub: 'The newest additions to CISA’s Known Exploited Vulnerabilities catalogue. Every row is being exploited in the wild.' }) + termsPanel('cves') : '') +
   `<div class="kev-wrap"><table class="kev"><caption class="sr-only">Newest CISA Known Exploited Vulnerabilities with severity, affected product, ransomware use and required action</caption><thead><tr><th scope="col">CVE</th><th scope="col">CVSS</th><th scope="col">Product</th><th scope="col">Ransomware</th><th scope="col">Added / due</th><th scope="col">Required action</th></tr></thead><tbody>` +
-  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
+  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><span class="kev-d"><i>Added</i> <time datetime="${esc(k.added)}">${esc(k.added)}</time></span><span class="kev-d"><i>Due</i> <time datetime="${esc(k.due)}">${esc(k.due)}</time></span></td><td data-label="Required action">${actionHtml(k.action)}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
 
 // whole-number percentages that add up to exactly 100 (largest remainder)

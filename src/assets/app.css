@@ -294,11 +294,17 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
 
 /* ===== 9. Vulnerabilities table ===== */
 .kev{ width:100%; border-collapse:collapse; font:400 .96875rem/1.45 var(--font-read); }
-.kev th,.kev td{ padding:13px 14px 13px 0; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; font-weight:400; }
+.kev th,.kev td{ padding:10px 14px 10px 0; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; font-weight:400; }
 .kev thead th{ position:sticky; top:var(--tabs-h); z-index:1; background:var(--paper); border-bottom:2px solid var(--rule-strong); font:800 .6875rem var(--font-head); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-dim); }
 .kev-cve{ white-space:nowrap; }
 .kev .cve{ font:600 .875rem var(--font-mono); color:var(--accent); }
-.kev-row td:last-child{ color:var(--ink-dim); font-size:.9375rem; line-height:1.5; }
+.kev-row td:last-child{ width:44%; font-size:.9375rem; line-height:1.45; }
+.kev-do{ margin:0; color:var(--ink); }
+.kev-full{ margin-top:4px; color:var(--ink-dim); font-size:.875rem; }
+.kev-full > summary{ display:inline-block; cursor:pointer; color:var(--accent); font:700 .75rem/1.6 var(--font-head); }
+.kev-full p{ margin:4px 0 0; }
+.kev-d{ display:block; white-space:nowrap; }
+.kev-d i{ display:inline-block; width:3.2em; font:700 .625rem var(--font-head); font-style:normal; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-dim); }
 .kev time{ font:500 .8125rem var(--font-mono); font-variant-numeric:tabular-nums; white-space:nowrap; }
 .sev{ display:inline-flex; align-items:baseline; gap:.45rem; padding:.2rem .55rem; border:1px solid currentColor; border-radius:2px; font:800 .75rem/1.4 var(--font-head); white-space:nowrap; }
 .sev-score{ font-variant-numeric:tabular-nums; }
@@ -321,7 +327,8 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
   .kev .kev-row > td[data-label="CVSS"]::before{ display:none; }
   .kev .kev-row{ gap:8px 16px; padding:14px 0; }
   .kev .cve{ display:inline-block; padding-block:.5rem; font-size:1rem; }
-  .kev .kev-row > td[data-label="Required action"]{ font-size:.875rem; line-height:1.45; }
+  .kev .kev-row > td[data-label="Required action"]{ width:auto; font-size:.875rem; line-height:1.45; }
+  .kev-d{ display:inline-block; margin-right:14px; }
   .kev .kev-row > td[data-label="Required action"]::before{ display:block; }
 }
 
