@@ -1,25 +1,30 @@
 {
- "updated": "2026-10-26T16:53:10.854Z",
+ "updated": "2026-10-26T17:00:27.353Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -27,14 +32,14 @@
    "n": 10
   },
   {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 11
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -42,9 +47,14 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 6
+   "n": 11
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Hackread",
@@ -52,19 +62,19 @@
    "n": 5
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 502"
   },
   {
    "name": "Dark Reading",
@@ -77,44 +87,34 @@
    "n": 2
   },
   {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 502"
-  },
-  {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "X redteam",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X blueteam",
-   "ok": true,
-   "n": 1
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X darkweb",
-   "ok": true,
-   "n": 2
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X crisis",
-   "ok": true,
-   "n": 0
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X markets",
-   "ok": true,
-   "n": 9
+   "ok": false,
+   "error": "HTTP 402"
   }
  ],
  "items": [
@@ -249,6 +249,17 @@
    "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
    "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
    "published": "2026-10-26T16:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncea6dc9ca7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/guterres-warns-iran-gulf-escalation-west-bank?traffic_source=rss",
+   "published": "2026-10-26T16:39:48.000Z",
    "severity": "normal",
    "verified": true
   },
