@@ -1,9 +1,53 @@
 {
  "date": "2026-10-26",
  "edition": 224,
- "compiled": "2026-10-26T06:12:09.288Z",
+ "compiled": "2026-10-26T07:06:16.893Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "725a3e4d17",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Witness: Open-source framework for verifying how your software was built",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/witness-open-source-software-supply-chain-tool/",
+   "snippet": "Witness is an open-source command-line tool that records how software gets built, signs that record, and checks it against a policy before the software ships. TestifySec built Witness and donated it to the in-toto ecosystem within the Cloud Native Computing Foundation, and an open community now maintains it. A compiled",
+   "published": "2026-10-26T07:00:45.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/725a3e4d17.webp",
+   "t": "2026-10-26",
+   "summary": "Witness records how software is built, signs the record, and checks it against a policy before release. TestifySec built the open-source tool and donated it to the in-toto ecosystem.",
+   "why": "Check whether build records are signed and validated against release policy.",
+   "tags": [
+    "Witness",
+    "software builds",
+    "in-toto"
+   ],
+   "ai": true
+  },
+  {
+   "id": "31b7e15487",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "AI slop is piling up highest on the biggest open-source projects",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
+   "snippet": "The maintainers of large open source projects are taking the worst of the AI slop. In a Linux Foundation survey of 234 open source contributors and maintainers, people running projects with more than 50 contributors estimated that close to a third of the code changes landing in their queue are low quality or AI-generat",
+   "published": "2026-10-26T06:30:29.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/31b7e15487.webp",
+   "t": "2026-10-26",
+   "summary": "A Linux Foundation survey found that maintainers of large open-source projects reported substantial AI-generated code submissions. The snippet says projects with more than 50 contributors estimated close to a third of the code was affected.",
+   "why": "Review incoming code carefully, especially where maintainers report high volumes of AI-generated submissions.",
+   "tags": [
+    "AI slop",
+    "open source",
+    "maintainers"
+   ],
+   "ai": true
+  },
   {
    "id": "786d926d49",
    "section": "cyber",
@@ -14,10 +58,17 @@
    "snippet": "An AI SOC that starts with somebody else’s alert is already too late. Stellar Cyber collects and normalizes telemetry, detects suspicious activity, correlates evidence, builds cases, investigates incidents, triages findings, and drives response from the same security architecture. That gives people and AI access to the",
    "published": "2026-10-26T06:00:12.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.38,
    "image": "/img/news/786d926d49.webp",
-   "summary": "An AI SOC that starts with somebody else’s alert is already too late. Stellar Cyber collects and normalizes telemetry, detects suspicious activity, correlates evidence, builds cases, investigates incidents, triages findi",
-   "ai": false
+   "t": "2026-10-26",
+   "summary": "Stellar Cyber says its ISOC platform collects and normalizes telemetry, detects activity, correlates evidence, investigates incidents, triages findings, and supports response.",
+   "why": "Assess whether security telemetry and incident workflows are integrated in your environment.",
+   "tags": [
+    "ISOC",
+    "telemetry",
+    "response"
+   ],
+   "ai": true
   },
   {
    "id": "36875f2f79",
@@ -29,7 +80,7 @@
    "snippet": "AI agents that have not run recently retain credentials and connections to company systems, according to Arrakis Security’s 2026 Autonomous Agents Threat Report. About 76% of enabled agents examined had not run in 60 days, leaving access available through inactive software. Agents by exposure family (Source: Arrakis Se",
    "published": "2026-10-26T05:30:27.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.37,
    "image": "/img/news/36875f2f79.webp",
    "t": "2026-10-26",
    "summary": "Arrakis Security’s report says agents that have not run recently may retain credentials and connections to company systems, leaving access available.",
@@ -51,7 +102,7 @@
    "snippet": "Criminals are exploiting established customer accounts and familiar brands to steal money and personal information, according to TransUnion’s Fraud in the Age of Continuous Trust report. Eighty-one percent of suspected digital fraud in its network during the first half of 2026 occurred during account logins and financi",
    "published": "2026-10-26T05:00:59.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.36,
    "image": "/img/news/155faaf444.webp",
    "t": "2026-10-26",
    "summary": "TransUnion’s report says criminals exploit established customer accounts and familiar brands to steal money and personal information.",
@@ -73,7 +124,7 @@
    "snippet": "Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. A project now has to be at least a year old and actively maintained, carry an OSI license, ha",
    "published": "2026-10-26T04:30:36.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/b2e653b286.webp",
    "t": "2026-10-26",
    "summary": "Moderators of r/opensource say the forum now bars projects that use AI, are made by AI, or are intended for AI.",
@@ -94,7 +145,7 @@
    "snippet": "Google has open-sourced the Elephant-Goldfish Model plugin, an internal tool that makes an AI coding agent write and defend a design document before it touches any code. The plugin hands that document to fresh AI sessions that have never seen the design conversation and tells them to find what is wrong with it. The EGM",
    "published": "2026-10-26T04:25:59.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.34,
    "image": "/img/news/15fdd35ccd.webp",
    "t": "2026-10-26",
    "summary": "Google says its open-source Elephant-Goldfish plugin makes an AI coding agent write and defend a design document before coding.",
@@ -115,7 +166,7 @@
    "snippet": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
    "published": "2026-10-25T15:49:38.000Z",
    "also": [],
-   "score": 1.3,
+   "score": 1.28,
    "image": "/img/news/9e8f060397.webp",
    "t": "2026-10-25",
    "summary": "Researchers found a malicious AGENTS markdown file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
@@ -137,7 +188,7 @@
    "snippet": "The OpenSSL project released version 4.1.0, adding support for DTLS 1.3 and listing four known bugs in the DTLS code that ships with it. DTLS is the variant of TLS built for datagram transports such as UDP, and version 1.3 is defined in RFC 9147. The bugs fall on developers who adopt DTLS 1.3 or the DTLS support newly ",
    "published": "2026-10-25T23:33:35.000Z",
    "also": [],
-   "score": 1.26,
+   "score": 1.24,
    "image": "/img/news/20e096d3b6.webp",
    "t": "2026-10-26",
    "summary": "OpenSSL released version 4.1.0 with DTLS 1.3 support and lists four known bugs in its DTLS code.",
@@ -158,7 +209,7 @@
    "snippet": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the ne",
    "published": "2026-10-25T17:44:09.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.22,
    "image": "/img/news/4a81541514.webp",
    "t": "2026-10-25",
    "summary": "A security researcher says an attacker with one hacked device on a Tailscale network could reach root on other reachable servers. The attack requires Tailscale SSH configured to allow port forwarding.",
@@ -171,46 +222,24 @@
    "ai": true
   },
   {
-   "id": "3eda0d6ae7",
-   "section": "cyber",
-   "source": "The Hacker News",
+   "id": "0760106281",
+   "section": "warfare",
+   "source": "Naval News",
    "weight": 0.5,
-   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "snippet": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerab",
-   "published": "2026-10-25T17:19:46.000Z",
+   "title": "Aksungur UCAV drops aselBUOY sonobuoys for the first time",
+   "url": "https://www.navalnews.com/naval-news/2026/10/aksungur-ucav-drops-aselbuoy-sonobuoys-for-the-first-time/",
+   "snippet": "Turkish Aerospace’s Aksungur unmanned aerial vehicle released three ASELSAN aselBUOY 100P passive sonobuoys into the Mediterranean during the Turkish Navy’s TURNAs-26 unmanned systems exercise. The UCAV took off from Ankara and transited to the exercise area off Antalya (around 400 km) under satellite control, powered ",
+   "published": "2026-10-26T06:57:28.000Z",
    "also": [],
-   "score": 1.23,
-   "image": "/img/news/3eda0d6ae7.webp",
-   "t": "2026-10-25",
-   "summary": "Threat actors have been observed using agentic AI platforms for post-exploitation after abusing PHP2Shell vulnerabilities, according to the report. One case involved a government entity.",
-   "why": "Check for PHP2Shell exploitation and unusual post-exploitation activity involving AI platforms.",
+   "score": 1.5,
+   "image": "/img/news/0760106281.webp",
+   "t": "2026-10-26",
+   "summary": "Turkish Aerospace’s Aksungur unmanned aerial vehicle released ASELSAN aselBUOY 100P passive sonobuoys during the Turkish Navy’s TURNAs-26 exercise in the Mediterranean.",
+   "why": "The exercise shows an unmanned aircraft being used to deploy passive acoustic sensors.",
    "tags": [
-    "PHP2Shell",
-    "AI",
-    "post-exploitation"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e85723a0f6",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
-   "snippet": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek .",
-   "published": "2026-10-25T11:00:00.000Z",
-   "also": [],
-   "score": 1.1,
-   "image": "/img/news/e85723a0f6.webp",
-   "t": "2026-10-25",
-   "summary": "SecurityWeek reports Mave, founded by Unit 8200 alumni, uses AI agents to investigate alerts across existing security stacks.",
-   "why": "Defenders should check how AI-agent investigations fit into existing alert triage and security stacks.",
-   "tags": [
-    "AI agents",
-    "alerts",
-    "security stacks"
+    "Aksungur",
+    "sonobuoys",
+    "Mediterranean"
    ],
    "ai": true
   },
@@ -224,7 +253,7 @@
    "snippet": "The money to start AUTOWARCOM is to come from a reconciliation bill whose passage is in doubt.",
    "published": "2026-10-25T10:00:00.000Z",
    "also": [],
-   "score": 1.08,
+   "score": 1.06,
    "image": "/img/news/692a07c02f.webp",
    "t": "2026-10-25",
    "summary": "Defense One reports that funding for AUTOWARCOM would come from a reconciliation bill whose passage is in doubt.",
@@ -245,7 +274,7 @@
    "snippet": "Vote comes as Israel is embroiled in multiple wars, faces international criticism and grapples with domestic divisions.",
    "published": "2026-10-26T05:16:38.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.46,
    "image": "/img/news/be4621eee0.webp",
    "t": "2026-10-26",
    "summary": "The election takes place as Israel faces multiple wars, international criticism and domestic divisions.",
@@ -267,7 +296,7 @@
    "snippet": "US Central Command says more than 3,000 commercial vessels have transited the Strait of Hormuz with its support.",
    "published": "2026-10-26T04:05:44.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.44,
    "image": "/img/news/6144e963cc.webp",
    "t": "2026-10-26",
    "summary": "US Central Command says more than 3,000 commercial vessels transited the Strait of Hormuz with its support.",
@@ -288,7 +317,7 @@
    "snippet": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
    "published": "2026-10-25T22:11:13.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.41,
    "image": "/img/news/3774376e93.webp",
    "t": "2026-10-26",
    "summary": "Lucy Williamson writes that Israel faces a pivotal election after three years of regional war.",
@@ -315,7 +344,7 @@
      "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "score": 1.43,
+   "score": 1.41,
    "image": "/img/news/297905b4d0.webp",
    "t": "2026-10-25",
    "summary": "The Israeli Defense Forces says it will restrict Palestinian workers’ movement in the run-up to Tuesday’s election.",
@@ -337,7 +366,7 @@
    "snippet": "South Korea blames Pyongyang for September landmine blast, but North Korea says incident a 'sinister obstructive move'.",
    "published": "2026-10-26T02:55:15.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.41,
    "image": "/img/news/a567d6b0dc.webp",
    "t": "2026-10-26",
    "summary": "South Korea blames Pyongyang for a September landmine blast; North Korea calls the accusation a 'sinister obstructive move' in a letter to the UN.",
@@ -358,7 +387,7 @@
    "snippet": "Gadi Eisenkot, Benjamin Netanyahu’s rival in Israel’s upcoming election, held his final campaign rally on Sunday.",
    "published": "2026-10-26T01:02:57.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.37,
    "image": "/img/news/f0f6c2a1f5.webp",
    "t": "2026-10-26",
    "summary": "Gadi Eisenkot, a rival of Benjamin Netanyahu in Israel’s upcoming election, held his final campaign rally on Sunday.",
@@ -379,7 +408,7 @@
    "snippet": "Iran's security chief to meet defence officials from the Mecca Defence Alliance in Tehran as fighting rages in Yemen.",
    "published": "2026-10-26T00:00:00.000Z",
    "also": [],
-   "score": 1.37,
+   "score": 1.35,
    "image": "/img/news/d420437ab0.webp",
    "t": "2026-10-26",
    "summary": "Trump rules out strikes “today” as Israeli forces raid Hebron; Iran says renewed US-Israeli attacks “will achieve no different outcome.”",
@@ -401,7 +430,7 @@
    "snippet": "The International Weightlifting Federation becomes the first Olympic federation to choose Russia to host a world championships since its invasion of Ukraine.",
    "published": "2026-10-25T14:34:33.000Z",
    "also": [],
-   "score": 1.27,
+   "score": 1.26,
    "image": "/img/news/0411401948.webp",
    "t": "2026-10-26",
    "summary": "The International Weightlifting Federation chose Russia to host a world championships, the first Olympic federation to do so since the invasion of Ukraine.",
@@ -561,47 +590,47 @@
   }
  ],
  "run_today": [
-  "Inventory agents that have not run recently and confirm whether they still need system access.",
-  "Revoke credentials and connections that inactive agents no longer require.",
-  "Review account protections and fraud monitoring for established customer accounts and familiar brands."
+  "Check that software build records are signed and validated against release policy before shipping.",
+  "Review open-source contributions carefully for AI-generated code and verify changes before merging.",
+  "Check that security telemetry is collected and that incident triage and response workflows are clear."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "credentials",
-   "explainer": "Credentials are information used to prove identity and gain access to systems. The report says inactive AI agents may retain them, so they can remain an access concern.",
-   "from_id": "36875f2f79",
-   "from": "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report/",
+   "term": "software build record",
+   "explainer": "A software build record documents how a software product was made. Witness records and signs this information, then checks it against a policy before release.",
+   "from_id": "725a3e4d17",
+   "from": "https://www.helpnetsecurity.com/2026/10/26/witness-open-source-software-supply-chain-tool/",
    "fromSource": "Help Net Security"
   },
   {
    "domain": "warfare",
-   "term": "US military",
-   "explainer": "A military is an organization concerned with a country’s defence and security. The title describes the US military as helping Gulf states export oil.",
-   "from_id": "6144e963cc",
-   "from": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "passive sonobuoy",
+   "explainer": "A passive sonobuoy is an underwater acoustic sensor that listens rather than actively transmitting sound. The Aksungur released these sensors during a naval exercise.",
+   "from_id": "0760106281",
+   "from": "https://www.navalnews.com/naval-news/2026/10/aksungur-ucav-drops-aselbuoy-sonobuoys-for-the-first-time/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "international criticism",
-   "explainer": "International criticism is disapproval expressed by actors outside a country. The election story notes that Israel faces such criticism alongside wars and domestic divisions.",
+   "term": "election",
+   "explainer": "An election is a process in which voters choose representatives or decide political leadership. The supplied title describes an Israeli election taking place amid wars, international criticism, and domestic divisions.",
    "from_id": "be4621eee0",
    "from": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Political tension, movement and access in focus",
+  "headline": "Verification, movement, and contested accounts",
   "paragraphs": [
-   "The stories describe several kinds of pressure: Israel’s election amid wars and domestic divisions, announced restrictions on Palestinian workers, and competing claims over a landmine blast. Together, they show how political events and contested accounts of events can shape movement and public debate.",
-   "The US military says it supported commercial vessel transits through the Strait of Hormuz, while the election stories focus on political and regional tensions. These reports concern different settings, but both make movement and the management of access strategically relevant.",
-   "For defenders, the cyber reports point to a separate access concern: dormant AI agents may retain company connections, while criminals exploit trusted accounts and brands. Analysts should distinguish attributed claims from established facts and watch how access, restrictions and competing accounts are described."
+   "The stories span software supply chains, military activity, maritime movement, elections, and competing claims. A shared thread is the importance of understanding how events and systems are represented: Witness records how software is built, while several geopolitical reports describe disputed or consequential movement and activity.",
+   "For defenders, the Witness and open-source stories point to scrutiny at both build and review stages. Build records can be checked against policy, while maintainers report AI-generated code burdens. The platform showcase describes integrated telemetry and response, though its capabilities are presented by the vendor.",
+   "For analysts, the Aksungur sonobuoy deployment and reports about Strait of Hormuz traffic show the operational and strategic relevance of platforms, sensors, and routes. Election-related restrictions and competing accounts of a landmine blast underline the need to distinguish announcements and claims from independently established details."
   ],
   "takeaways": [
-   "Check whether inactive AI agents still need credentials and system connections.",
-   "Track announced movement restrictions alongside the political context.",
-   "Treat claims about contested incidents as attributed, not settled."
+   "Verify build records and review code contributions before release.",
+   "Treat vendor descriptions and conflicting accounts as attributed claims.",
+   "Track sensors, maritime routes, and movement restrictions as operational context."
   ]
  },
  "health": [
@@ -645,7 +674,7 @@
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "Dark Reading",
@@ -711,7 +740,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Bellingcat",
