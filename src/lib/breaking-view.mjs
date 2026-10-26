@@ -116,7 +116,7 @@ function panel(g, list, uid) {
   const cap = n > shown.length ? `<p class="bk-cap">Listing the ${shown.length} newest of ${n}.</p>` : '';
   const desk = g === 'darkweb' ? '<a class="bk-go" href="/dark-web/">Open the Dark web desk<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>' : '';
   const sub = `${plural(n, 'item', 'items')}${t0 == null ? '' : ` · latest ${clock(t0)} UTC`}`;
-  return `<section class="bk-panel" id="${id}" data-g="${g}" aria-labelledby="${id}-h">${head(id, GROUP_LABEL[g], sub)}<p class="bk-note">${esc(NOTE[g])}</p>${body}${cap}${desk}${sources(list)}</section>`;
+  return `<section class="bk-panel" id="${id}" data-g="${g}" aria-labelledby="${id}-h"${n ? '' : ' data-empty'}>${head(id, GROUP_LABEL[g], sub)}<p class="bk-note">${esc(NOTE[g])}</p>${body}${cap}${desk}${sources(list)}</section>`;
 }
 
 function status(list, health, updated) {

@@ -64,6 +64,12 @@
 .bk-legend{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 12px; margin:0 0 26px; padding:8px 0; font:500 .8125rem/1.5 var(--font-head); color:var(--ink-dim); }
 .bk-d-demo{ padding:0 .2rem; color:var(--accent); font-weight:700; }
 
+/* a stream with nothing in it shrinks to a single quiet line instead of a full panel */
+.bk-panel[data-empty]{ margin-bottom:18px; }
+.bk-panel[data-empty] .bk-note{ display:none; }
+.bk-panel[data-empty] .bk-h{ font-size:1.15rem; color:var(--ink-dim); }
+.bk-panel[data-empty] .bk-empty{ padding:6px 0 0; border-top:0; }
+
 /* the six streams: two columns on a wide desk, one column when a single stream is chosen */
 .bk-grid{ container-type:inline-size; }
 @container (min-width:860px){ .bk-cols{ columns:2; column-gap:48px; } .bk-panel{ break-inside:avoid; } }
