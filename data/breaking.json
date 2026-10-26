@@ -1,20 +1,25 @@
 {
- "updated": "2026-10-26T16:40:44.665Z",
+ "updated": "2026-10-26T16:53:10.854Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "MarketWatch",
@@ -22,7 +27,7 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
@@ -32,24 +37,9 @@
    "n": 11
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "SecurityWeek",
@@ -57,7 +47,22 @@
    "n": 6
   },
   {
+   "name": "Hackread",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -67,27 +72,22 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 502"
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 2
   },
   {
-   "name": "X cyber",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 502"
   },
   {
    "name": "Security Affairs",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "X cyber",
    "ok": true,
    "n": 2
   },
@@ -99,25 +99,137 @@
   {
    "name": "X blueteam",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X darkweb",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "X crisis",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "X markets",
    "ok": true,
-   "n": 12
+   "n": 9
   }
  ],
  "items": [
+  {
+   "id": "x2114762394622906692",
+   "kind": "x",
+   "group": "markets",
+   "source": "@unusual_whales",
+   "title": "BREAKING: Microsoft, $MSFT, is offering buyouts to around 60,000 employees, according to reports from Business Insider and Bloomberg. The move marks Microsoft’s latest efforts to cut costs and rework its workforce for AI. Employees at the…",
+   "url": "https://x.com/unusual_whales/status/2114762394622906692",
+   "published": "2026-10-26T16:53:39.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114761563336749407",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "*APPLE IPHONE DUO DRAWS EARLY COMPLAINTS OF THE SCREEN CRACKING",
+   "url": "https://x.com/zerohedge/status/2114761563336749407",
+   "published": "2026-10-26T16:50:21.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114761520257073196",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "US natural gas futures fell as much as 5.4% to the lowest since April as warmer forecasts signaled weaker demand early in the winter heating season",
+   "url": "https://x.com/business/status/2114761520257073196",
+   "published": "2026-10-26T16:50:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114760707354890366",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@DailyDarkWeb",
+   "title": "🇪🇺 🚨 EUROCONTROL: 3TB DATABASE AND ADMIN PANEL ALLEGEDLY FOR SALE A threat actor using the alias \"Marx1337\" is advertising what it claims is a 3TB database and an administrative panel taken from EUROCONTROL, the intergovernmental body…",
+   "url": "https://x.com/DailyDarkWeb/status/2114760707354890366",
+   "published": "2026-10-26T16:46:57.000Z",
+   "severity": "high",
+   "verified": false,
+   "img": "https://pbs.twimg.com/media/HVkjpuHW4AA85QH.jpg"
+  },
+  {
+   "id": "x2114760470003614034",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheRecord_Media",
+   "title": "Ukrainian officials said technical restrictions made it impossible to use commercial Starlink terminals for drone missions, which Elon Musk had alleged",
+   "url": "https://x.com/TheRecord_Media/status/2114760470003614034",
+   "published": "2026-10-26T16:46:01.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114760262515306635",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "David Clarinval sees the country’s 5.7% stake in BNP Paribas as non-strategic and suggested he would be open selling some or all of the holding",
+   "url": "https://x.com/business/status/2114760262515306635",
+   "published": "2026-10-26T16:45:11.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114760254441349408",
+   "kind": "x",
+   "group": "markets",
+   "source": "@zerohedge",
+   "title": "FBI Arrests CIA Contractor Accused Of Leaking Classified Defense Secrets To Romantic Partner",
+   "url": "https://x.com/zerohedge/status/2114760254441349408",
+   "published": "2026-10-26T16:45:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114760151756628078",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "US FDA: APPROVES TALAZOPARIB WITH ENZALUTAMIDE FOR METASTATIC HRR-MUTATED PROSTATE CANCER",
+   "url": "https://x.com/FirstSquawk/status/2114760151756628078",
+   "published": "2026-10-26T16:44:45.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114759267731562679",
+   "kind": "x",
+   "group": "cyber",
+   "source": "@TheRecord_Media",
+   "title": "A Chinese national faces up to 20 years in U.S. prison on charges that he facilitated an investment fraud scheme through scam centers in Cambodia",
+   "url": "https://x.com/TheRecord_Media/status/2114759267731562679",
+   "published": "2026-10-26T16:41:14.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114759260789989482",
+   "kind": "x",
+   "group": "darkweb",
+   "source": "@FalconFeedsio",
+   "title": "📢 Ransomware Alert: 🇺🇸 Beasley Allen Law Firm ( a USA-based Law Firm has reportedly fallen victim to FALCON ransomware 🔍Key Details: 🛡️Threat actor: FALCON 📅 Reported on: 26/10/26 ⚠️ Data Compromised: 214 GB",
+   "url": "https://x.com/FalconFeedsio/status/2114759260789989482",
+   "published": "2026-10-26T16:41:12.000Z",
+   "severity": "normal",
+   "verified": false,
+   "img": "https://pbs.twimg.com/media/HVkiTzfasAAaqKR.jpg"
+  },
   {
    "id": "x2114759015670399076",
    "kind": "x",
@@ -130,6 +242,17 @@
    "verified": false
   },
   {
+   "id": "n5d6b2a0bb6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
+   "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
+   "published": "2026-10-26T16:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "x2114758201484755283",
    "kind": "x",
    "group": "markets",
@@ -139,6 +262,17 @@
    "published": "2026-10-26T16:37:00.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n3e53d355ce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+   "url": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+   "published": "2026-10-26T16:37:00.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114757789075792368",
@@ -161,6 +295,17 @@
    "published": "2026-10-26T16:35:10.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "n13a0bb8ed3",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "More than 60 Christians killed in Ethiopia 'massacre', church official says",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g175dgdx2o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-26T16:31:09.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114756575806284241",
@@ -907,39 +1052,6 @@
    "verified": false
   },
   {
-   "id": "x2114739709809406295",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "JAPAN TO BACK PEROVSKITE SOLAR CELL MASS PRODUCTION WITH $640M IN SUBSIDIES – NIKKEI",
-   "url": "https://x.com/FirstSquawk/status/2114739709809406295",
-   "published": "2026-10-26T15:23:31.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114739653140201575",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "AI FEARS ADD A 200-BASIS-POINT PREMIUM TO SPACEX’S DEBT – SEMAFOR",
-   "url": "https://x.com/FirstSquawk/status/2114739653140201575",
-   "published": "2026-10-26T15:23:17.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114739628708413798",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "IRAN IN ADVANCED STAGES OF PLANNED ATTACKS ON AMERICANS - FOX",
-   "url": "https://x.com/FirstSquawk/status/2114739628708413798",
-   "published": "2026-10-26T15:23:12.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "x2114739345085149683",
    "kind": "x",
    "group": "darkweb",
@@ -959,39 +1071,6 @@
    "title": "As an Oromo, I believe Addis Ababa belongs to Somalis since the karanle Somalis were historically the rulers of the surrounding region. I think we Oromos should go back to Madagascar and stop causing problems",
    "url": "https://x.com/WarMonitors/status/2114739234955571261",
    "published": "2026-10-26T15:21:38.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114738874341548281",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Average US gasoline prices under Trump have surpassed the Biden-era average, adding pressure on Republicans ahead of the midterms",
-   "url": "https://x.com/business/status/2114738874341548281",
-   "published": "2026-10-26T15:20:12.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114738852904468528",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "Somaliland Accuses Ilhan Omar Of Leaking Classified Congressional Info To Somalia",
-   "url": "https://x.com/zerohedge/status/2114738852904468528",
-   "published": "2026-10-26T15:20:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114738698256560225",
-   "kind": "x",
-   "group": "markets",
-   "source": "@DeItaone",
-   "title": "JAPAN PLANS TO PROVIDE 100 BILLION YEN OVER 4 YEARS TO SUPPORT MASS PRODUCTION OF NEXT-GENERATION FLEXIBLE PEROVSKITE SOLAR CELLS - NIKKEI",
-   "url": "https://x.com/DeItaone/status/2114738698256560225",
-   "published": "2026-10-26T15:19:30.000Z",
    "severity": "normal",
    "verified": false
   },
