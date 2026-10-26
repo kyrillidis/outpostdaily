@@ -36,9 +36,8 @@
 .bk-lead{ min-width:0; padding:14px 0 16px; border-top:1px solid var(--rule); }
 .bk-lead-title{ margin:0 0 .5rem; font:700 clamp(1.15rem,1.05rem + .45vw,1.3rem)/1.2 var(--font-head); font-stretch:84%; text-wrap:balance; }
 @media (min-width:900px){
-  /* the lead runs the full width; the next five sit under it in two ranked columns, so neither side is left empty */
-  .bk-leads{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:44px; }
-  .bk-lead:first-child{ grid-column:1 / -1; padding:16px 0 22px; border-top:0; }
+  /* the lead runs the full width; the next five follow one under the other, ranked */
+  .bk-lead:first-child{ padding:16px 0 22px; border-top:0; }
   .bk-lead:first-child .bk-lead-title{ max-width:30ch; font-size:clamp(1.7rem,1.3rem + 1.1vw,2.3rem); font-weight:800; font-stretch:78%; line-height:1.08; letter-spacing:-.01em; margin-bottom:.8rem; }
   .bk-lead:first-child .bk-meta{ font-size:.875rem; }
   .bk-lead:not(:first-child){ counter-increment:bkl; display:grid; grid-template-columns:1.4rem minmax(0,1fr); column-gap:10px; border-top:1px solid var(--rule-strong); }
@@ -74,7 +73,6 @@
 
 /* the six streams: two columns on a wide desk, one column when a single stream is chosen */
 .bk-grid{ container-type:inline-size; }
-@container (min-width:860px){ .bk-cols{ columns:2; column-gap:48px; } .bk-panel{ break-inside:avoid; } }
 .bk-panel{ container-type:inline-size; }
 @container (max-width:34rem){ .bk-row{ grid-template-columns:4.1rem minmax(0,1fr); column-gap:12px; } .bk-title{ font-size:1rem; } }
 .bk[data-stream]:not([data-stream="all"]) :is(.bk-top,.bk-legend){ display:none; }
