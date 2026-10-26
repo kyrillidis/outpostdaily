@@ -310,7 +310,7 @@ const ransomware = json('data/ransomware.json', { updated: null, items: [] });
 const breaches = json('data/breaches.json', { updated: null, items: [] });
 function breakingHtml() {
   const now = Date.now();
-  return secHead({ title: 'Breaking', sub: 'A live desk of fast-moving incidents, crises and market moves, checked every five minutes. Every item links to its source; anything marked unverified is a third-party claim.' }) + ad('top') +
+  return secHead({ title: 'Breaking', sub: 'Fast-moving incidents, crises and market moves, checked every five minutes. Every item links to its source.' }) + ad('top') +
     `<div class="bk" id="bk" data-updated="${esc(breaking.updated ?? '')}">${renderBreakingBody({ items: breakingItems, health: breaking.health ?? [], updated: breaking.updated, now })}</div>`;
 }
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');

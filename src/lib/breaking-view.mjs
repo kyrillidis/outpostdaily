@@ -135,7 +135,7 @@ function status(list, health, updated) {
   ].filter(Boolean).join('')}</div>`;
 }
 
-const FOOT = '<div class="bk-foot" id="bk-howto"><p><b>How to read the desk.</b> <b>High signal</b> means the item matched our list of alarm words, such as zero-day, actively exploited, breach, ransomware, missile or strike. It is an automatic keyword match, not an editor’s judgement.</p>'
+const FOOT = '<div class="bk-foot" id="bk-howto"><p><b>Top now</b> shows the strongest items of the last 24 hours, at most two per stream, ranked by severity, number of sources, verification and recency. Dark web and Markets are not included.</p><p><b>How to read the desk.</b> <b>High signal</b> means the item matched our list of alarm words, such as zero-day, actively exploited, breach, ransomware, missile or strike. It is an automatic keyword match, not an editor’s judgement.</p>'
   + '<p><b>Unverified</b> means the item is a post by an individual account or a third-party claim that Outpost has not confirmed; items from news outlets carry no such mark. When several sources carry one story they are merged, and “+N sources” lists the others.</p>'
   + '<p>Times are UTC. Each stream shows its 14 newest items from the last 72 hours. More in the <a href="/methodology/">methodology</a>.</p></div>';
 
@@ -146,8 +146,7 @@ export function renderBreakingBody({ items = [], health = [], updated = null, no
   const uid = (base) => { let id = base, n = 1; while (used.has(id)) id = `${base}-${++n}`; used.add(id); return id; };
   const top = topNow(list, { now, n: 6 });
   return [
-    status(list, Array.isArray(health) ? health : [], updated),
-    `<section class="bk-top" id="bk-top" aria-labelledby="bk-top-h">${head('bk-top', 'Top now')}<p class="bk-note">The strongest items of the last 24 hours, at most two per stream, ranked by severity, number of sources, verification and recency. Dark web and Markets are not included.</p>${top.length ? `<ol class="bk-leads">${top.map((i, k) => lead(i, k, uid)).join('')}</ol>` : '<p class="bk-empty">Nothing in the last 24 hours stands out yet. Every stream is listed below.</p>'}</section>`,
+    `<section class="bk-top" id="bk-top" aria-labelledby="bk-top-h"><header class="bk-head"><h2 class="bk-h" id="bk-top-h">Top now</h2>${status(list, Array.isArray(health) ? health : [], updated)}</header>${top.length ? `<ol class="bk-leads">${top.map((i, k) => lead(i, k, uid)).join('')}</ol>` : '<p class="bk-empty">Nothing in the last 24 hours stands out yet. Every stream is listed below.</p>'}</section>`,
     `<nav class="bk-nav" id="bk-nav" aria-label="Breaking streams"><a href="#bk-top" data-s="all" aria-current="true">All streams <span class="bk-n">${list.length}<span class="sr-only"> items</span></span></a>${ORDER.map((g) => {
       const hi = by[g].filter((i) => i.severity === 'high').length;
       return `<a href="#bk-${g}" data-s="${g}" data-g="${g}">${esc(GROUP_LABEL[g])} <span class="bk-n">${by[g].length}<span class="sr-only"> ${by[g].length === 1 ? 'item' : 'items'}</span></span>${hi ? `<span class="bk-nhi" title="${plural(hi, 'high-signal item', 'high-signal items')}">${hi}<span class="sr-only"> high signal</span></span>` : ''}</a>`;

@@ -23,6 +23,11 @@
 @media (prefers-reduced-motion:no-preference){ .bk-dot{ animation:bk-pulse 2.4s var(--ease) infinite; } }
 @keyframes bk-pulse{ 0%{ box-shadow:0 0 0 0 color-mix(in oklab,var(--accent) 55%,transparent); } 70%,100%{ box-shadow:0 0 0 .5rem transparent; } }
 
+/* the status line lives in the Top now header, so the first news is as high on the page as it can be */
+.bk-top .bk-head{ align-items:center; }
+.bk-top .bk-status{ margin:0; padding:0; border:0; gap:0 16px; font-size:.8125rem; }
+.bk-top .bk-health{ margin-left:0; }
+
 /* section heads (Top now and every panel) */
 .bk-head{ position:relative; display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:2px 16px; padding-top:11px; border-top:3px solid var(--rule-strong); }
 .bk-head::before{ content:""; position:absolute; left:0; top:-3px; width:44px; height:3px; background:var(--bk-c); }
@@ -50,7 +55,7 @@
 .bk-lead[data-sev="high"] .bk-lead-title,.bk-row[data-sev="high"] .bk-title{ font-weight:800; }
 
 /* stream navigation: a sticky tab bar that also filters (bk-*.js); plain anchors without JS */
-.bk-nav{ position:sticky; top:var(--tabs-h); z-index:5; display:flex; align-items:center; gap:6px; margin:10px 0 0; padding:8px 0; overflow-x:auto; scrollbar-width:none; background:var(--paper); border-bottom:1px solid var(--rule); }
+.bk-nav{ position:sticky; top:var(--tabs-h); z-index:5; display:flex; align-items:center; gap:6px; margin:6px 0 0; padding:8px 0; overflow-x:auto; scrollbar-width:none; background:var(--paper); border-bottom:1px solid var(--rule); }
 .bk-nav::-webkit-scrollbar{ display:none; }
 .bk-nav a,.bk-only{ flex:none; display:inline-flex; align-items:center; gap:.5rem; min-height:38px; padding:0 .8rem; border:1px solid var(--rule-strong); border-radius:2px; background:transparent; color:var(--ink); text-decoration:none; font:700 .875rem/1 var(--font-head); letter-spacing:.02em; cursor:pointer; }
 .bk-nav a[data-g]::before{ content:""; width:.5rem; height:.5rem; border-radius:50%; background:var(--bk-c); }
@@ -62,7 +67,7 @@
 .bk-nav a[aria-current="true"] .bk-nhi{ background:var(--paper); color:var(--ink); }
 .bk-only{ margin-left:auto; }
 .bk-only[hidden]{ display:none; }
-.bk-legend{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 12px; margin:0 0 26px; padding:8px 0; font:500 .8125rem/1.5 var(--font-head); color:var(--ink-dim); }
+.bk-legend{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 12px; margin:0 0 18px; padding:6px 0; font:500 .8125rem/1.5 var(--font-head); color:var(--ink-dim); }
 .bk-d-demo{ padding:0 .2rem; color:var(--accent); font-weight:700; }
 
 /* a stream with nothing in it shrinks to a single quiet line instead of a full panel */
