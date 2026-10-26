@@ -45,6 +45,7 @@
     var o = window.outpost || {};
     if (o.relTimes) o.relTimes();
     if (o.refilter) o.refilter();
+    sync();
   }
   function poll() {
     if (busy || doc.hidden) return;
@@ -59,6 +60,35 @@
   poll();
   setInterval(poll, 60000);
   doc.addEventListener('visibilitychange', poll);
+
+  // stream tabs and the high-signal filter: the choice lives on #bk itself, so it survives a live swap (the controls are re-marked by sync())
+  function sync() {
+    var s = bk.getAttribute('data-stream') || 'all', hi = bk.getAttribute('data-hi') === '1';
+    each('.bk-nav a[data-s]', function (a) { if (a.getAttribute('data-s') === s) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+    var b = bk.querySelector('#bk-only');
+    if (b) { b.hidden = false; b.setAttribute('aria-pressed', String(hi)); }
+    each('.bk-row, .bk-lead', function (li) {
+      var t = li.querySelector('time.bk-ago'), m = t ? (Date.now() - Date.parse(t.getAttribute('datetime'))) / 6e4 : -1;
+      if (m >= 0 && m < 30) li.setAttribute('data-fresh', ''); else li.removeAttribute('data-fresh');
+    });
+  }
+  function openAll(root) { Array.prototype.forEach.call((root || bk).querySelectorAll('details.bk-more, details.bk-fold'), function (d) { d.open = true; }); }
+  bk.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('.bk-nav a[data-s]') : null, b = e.target.closest ? e.target.closest('#bk-only') : null;
+    if (a) {
+      var s = a.getAttribute('data-s');
+      bk.setAttribute('data-stream', s);
+      if (s !== 'all') openAll(doc.getElementById('bk-' + s));
+      sync();
+    } else if (b) {
+      var on = bk.getAttribute('data-hi') !== '1';
+      if (on) bk.setAttribute('data-hi', '1'); else bk.removeAttribute('data-hi');
+      if (on) openAll();
+      sync();
+    }
+  });
+  sync();
+  setInterval(sync, 60000);
 
   // a link to the collapsed Markets list opens it
   function reveal() {

@@ -85,11 +85,11 @@ const meta = (i, id, pfx, uid, lead) => [
 
 const row = (i, k, uid) => {
   const id = keyOf(i, k);
-  return `<li class="bk-row kw-unit" data-kind="${esc(i.kind)}">${when(i)}<div class="bk-main"><p class="bk-title">${anchor(i.url, i.kind, esc(headlineOf(i)) + SR)}</p><div class="bk-meta">${meta(i, id, 'r', uid, false)}</div></div></li>`;
+  return `<li class="bk-row kw-unit" data-kind="${esc(i.kind)}" data-sev="${i.severity === 'high' ? 'high' : 'normal'}">${when(i)}<div class="bk-main"><p class="bk-title">${anchor(i.url, i.kind, esc(headlineOf(i)) + SR)}</p><div class="bk-meta">${meta(i, id, 'r', uid, false)}</div></div></li>`;
 };
 const lead = (i, k, uid) => {
   const id = keyOf(i, k);
-  return `<li class="bk-lead kw-unit" data-kind="${esc(i.kind)}"><h3 class="bk-lead-title">${anchor(i.url, i.kind, esc(headlineOf(i)) + SR)}</h3><div class="bk-meta">${meta(i, id, 't', uid, true)}</div></li>`;
+  return `<li class="bk-lead kw-unit" data-kind="${esc(i.kind)}" data-sev="${i.severity === 'high' ? 'high' : 'normal'}" data-g="${esc(i.group)}"><h3 class="bk-lead-title">${anchor(i.url, i.kind, esc(headlineOf(i)) + SR)}</h3><div class="bk-meta">${meta(i, id, 't', uid, true)}</div></li>`;
 };
 
 const head = (id, label, sub) => `<header class="bk-head"><h2 class="bk-h" id="${id}-h">${esc(label)}</h2>${sub ? `<p class="bk-sub">${esc(sub)}</p>` : ''}</header>`;
@@ -126,6 +126,7 @@ function status(list, health, updated) {
     ? `<span class="bk-ok">OK</span>${Number.isFinite(h.n) ? ` ${plural(h.n, 'item', 'items')}` : ''}`
     : `<span class="bk-bad">Failed</span>${h.error ? ` ${esc(h.error)}` : ''}`}</li>`).join('');
   return `<div class="bk-status" id="bk-status">${[
+    '<span class="bk-live"><i class="bk-dot" aria-hidden="true"></i>Live</span>',
     t == null ? '<span>No update time recorded</span>' : `<span>Last change <b>${clock(t)} UTC</b> (<time datetime="${new Date(t).toISOString()}" data-rel>${day(t)}</time>)</span>`,
     `<span><b>${list.length}</b> ${list.length === 1 ? 'item' : 'items'}</span>`,
     `<span><b>${high}</b> high signal</span>`,
@@ -147,8 +148,12 @@ export function renderBreakingBody({ items = [], health = [], updated = null, no
   return [
     status(list, Array.isArray(health) ? health : [], updated),
     `<section class="bk-top" id="bk-top" aria-labelledby="bk-top-h">${head('bk-top', 'Top now')}<p class="bk-note">The strongest items of the last 24 hours, at most two per stream, ranked by severity, number of sources, verification and recency. Dark web and Markets are not included.</p>${top.length ? `<ol class="bk-leads">${top.map((i, k) => lead(i, k, uid)).join('')}</ol>` : '<p class="bk-empty">Nothing in the last 24 hours stands out yet. Every stream is listed below.</p>'}</section>`,
-    `<nav class="bk-nav" id="bk-nav" aria-label="Breaking streams">${ORDER.map((g) => `<a href="#bk-${g}">${esc(GROUP_LABEL[g])} <span class="bk-n">${by[g].length}<span class="sr-only"> ${by[g].length === 1 ? 'item' : 'items'}</span></span></a>`).join('')}</nav>`,
-    ...ORDER.map((g) => panel(g, by[g], uid)),
+    `<nav class="bk-nav" id="bk-nav" aria-label="Breaking streams"><a href="#bk-top" data-s="all" aria-current="true">All streams <span class="bk-n">${list.length}<span class="sr-only"> items</span></span></a>${ORDER.map((g) => {
+      const hi = by[g].filter((i) => i.severity === 'high').length;
+      return `<a href="#bk-${g}" data-s="${g}" data-g="${g}">${esc(GROUP_LABEL[g])} <span class="bk-n">${by[g].length}<span class="sr-only"> ${by[g].length === 1 ? 'item' : 'items'}</span></span>${hi ? `<span class="bk-nhi" title="${plural(hi, 'high-signal item', 'high-signal items')}">${hi}<span class="sr-only"> high signal</span></span>` : ''}</a>`;
+    }).join('')}<button type="button" class="bk-only" id="bk-only" aria-pressed="false" hidden>High signal only</button></nav>`,
+    '<p class="bk-legend" id="bk-legend"><span class="bk-hi">High signal</span> matched an alarm word <span class="bk-unv">Unverified</span> a post or claim we have not confirmed <span class="bk-d-demo">+N sources</span> the same story, merged</p>',
+    `<div class="bk-grid" id="bk-grid"><div class="bk-cols">${ORDER.map((g) => panel(g, by[g], uid)).join('\n')}</div></div>`,
     FOOT,
   ].join('\n');
 }

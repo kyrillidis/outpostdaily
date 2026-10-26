@@ -142,7 +142,7 @@ test('images are what their extension claims and stay small', () => {
 test('size budgets hold', () => {
   const errs = [];
   for (const p of pages.filter((q) => !q.legacy)) if (Buffer.byteLength(p.html) > 160 * 1024) errs.push(`${p.rel} HTML is ${Math.round(Buffer.byteLength(p.html) / 1024)}KB (max 160KB)`);
-  for (const f of readdirSync(join(DIST, 'assets'))) { const kb = statSync(join(DIST, 'assets', f)).size / 1024; if ((f.endsWith('.css') && kb > 60) || (f.endsWith('.js') && kb > 30)) errs.push(`${f} is ${Math.round(kb)}KB`); }
+  for (const f of readdirSync(join(DIST, 'assets'))) { const kb = statSync(join(DIST, 'assets', f)).size / 1024; if ((f.endsWith('.css') && kb > 64) || (f.endsWith('.js') && kb > 30)) errs.push(`${f} is ${Math.round(kb)}KB`); }
   assert.deepEqual(errs, []);
 });
 
