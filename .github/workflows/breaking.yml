@@ -49,6 +49,10 @@ jobs:
           git config user.name "outpost-bot"
           git config user.email "outpost-bot@users.noreply.github.com"
           git commit -m "breaking: $(date -u +%FT%H:%MZ)"
-          git pull --rebase -q
-          git push
+          # GitHub occasionally answers a push with a 5xx; retry instead of failing the whole run
+          for i in 1 2 3 4; do
+            git pull --rebase -q && git push && break
+            [ "$i" = 4 ] && exit 1
+            echo "push failed (attempt $i), retrying"; sleep $((i * 15))
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"

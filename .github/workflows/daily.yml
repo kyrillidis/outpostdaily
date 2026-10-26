@@ -67,8 +67,12 @@ jobs:
           if [ -d public/img/dw ]; then git add -A public/img/dw; fi
           if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; echo "no changes"; exit 0; fi
           git commit -m "edition: $(date -u +%FT%H:%MZ)"
-          git pull --rebase -q
-          git push
+          # GitHub occasionally answers a push with a 5xx; retry instead of failing the whole run
+          for i in 1 2 3 4; do
+            git pull --rebase -q && git push && break
+            [ "$i" = 4 ] && exit 1
+            echo "push failed (attempt $i), retrying"; sleep $((i * 15))
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Deploy to Vercel
         if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
