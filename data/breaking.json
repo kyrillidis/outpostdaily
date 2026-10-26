@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-26T05:23:16.214Z",
+ "updated": "2026-10-26T05:38:00.880Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -12,22 +17,12 @@
    "n": 1
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
@@ -37,7 +32,22 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -52,12 +62,12 @@
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "X cyber",
    "ok": true,
    "n": 0
   },
@@ -67,22 +77,7 @@
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 502"
-  },
-  {
    "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
@@ -90,6 +85,11 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 502"
   },
   {
    "name": "X redteam",
@@ -114,10 +114,54 @@
   {
    "name": "X markets",
    "ok": true,
-   "n": 16
+   "n": 7
   }
  ],
  "items": [
+  {
+   "id": "x2114591639951847663",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Kering's CEO is finding that running luxury labels is different from managing auto brands, @andreafelsted writes (via @opinion)",
+   "url": "https://x.com/business/status/2114591639951847663",
+   "published": "2026-10-26T05:35:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114591201215308096",
+   "kind": "x",
+   "group": "markets",
+   "source": "@FirstSquawk",
+   "title": "US Dollar Weakens Toward 101.50 as Safe-Haven Demand Fades and Fed Pause Odds Increase",
+   "url": "https://x.com/FirstSquawk/status/2114591201215308096",
+   "published": "2026-10-26T05:33:24.000Z",
+   "severity": "high",
+   "verified": false
+  },
+  {
+   "id": "x2114590385456500932",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Dubai’s DP World is set to unveil a deal backing potential development of Canada’s port of Churchill, a northern outpost that Prime Minister Mark Carney aims to expand for exports to Europe and other markets",
+   "url": "https://x.com/business/status/2114590385456500932",
+   "published": "2026-10-26T05:30:09.000Z",
+   "severity": "normal",
+   "verified": false
+  },
+  {
+   "id": "x2114589122782191666",
+   "kind": "x",
+   "group": "markets",
+   "source": "@business",
+   "title": "Capital Maritime, the container shipping company majority owned by Greek billionaire Evangelos Marinakis, advanced in its first days of trading on the Athens Stock Exchange before giving back some gains in a late-week swoon",
+   "url": "https://x.com/business/status/2114589122782191666",
+   "published": "2026-10-26T05:25:08.000Z",
+   "severity": "normal",
+   "verified": false
+  },
   {
    "id": "x2114587867875815449",
    "kind": "x",
@@ -139,6 +183,17 @@
    "published": "2026-10-26T05:19:16.000Z",
    "severity": "normal",
    "verified": false
+  },
+  {
+   "id": "nbe4621eee0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s election: Five key things to know",
+   "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
+   "published": "2026-10-26T05:16:38.000Z",
+   "severity": "normal",
+   "verified": true
   },
   {
    "id": "x2114586611186880996",
@@ -760,50 +815,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhodRWXMAA7MqS.jpg"
-  },
-  {
-   "id": "x2114554745897857231",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "Kiwi Dollar Advances Near 0.5700 Amid Rising Bets on RBNZ Rate Increases - FX",
-   "url": "https://x.com/FirstSquawk/status/2114554745897857231",
-   "published": "2026-10-26T03:08:32.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114554104710312112",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Flavio Bolsonaro will seek annulment after Lula won the runoff 51.76% to 48.24%, a margin of 4.35 million votes with 99.77% counted. Lula trailed 47.03% to 45.16% in the first round on October 4, making him the first since 1989 to lose…",
-   "url": "https://x.com/unusual_whales/status/2114554104710312112",
-   "published": "2026-10-26T03:05:59.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114552626608009384",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "\"The Tail Is Wagging The Dog\": 0DTE Traders Now Suppress S&P Volatility More Than Dealer Gamma",
-   "url": "https://x.com/zerohedge/status/2114552626608009384",
-   "published": "2026-10-26T03:00:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114552422182101059",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Leftist President Luiz Inacio Lula da Silva defeated right-wing Senator Flavio Bolsonaro by more than three points in the second round of Brazil’s presidential election",
-   "url": "https://x.com/unusual_whales/status/2114552422182101059",
-   "published": "2026-10-26T02:59:18.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "na567d6b0dc",
