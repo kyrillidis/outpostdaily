@@ -321,7 +321,7 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
   .kev .kev-row > td[data-label="CVSS"]::before{ display:none; }
   .kev .kev-row{ gap:8px 16px; padding:14px 0; }
   .kev .cve{ display:inline-block; padding-block:.5rem; font-size:1rem; }
-  .kev .kev-row > td[data-label="Required action"]{ display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; line-clamp:3; overflow:hidden; font-size:.875rem; line-height:1.45; }
+  .kev .kev-row > td[data-label="Required action"]{ font-size:.875rem; line-height:1.45; }
   .kev .kev-row > td[data-label="Required action"]::before{ display:block; }
 }
 
@@ -531,7 +531,7 @@ html[data-view="scan"] .entries-2up{ grid-template-columns:minmax(0,1fr); }
 .pulse-facts{ flex:1 1 260px; }
 
 /* CISA's required-action text is long boilerplate; keep rows scannable, full text stays in the page */
-@media (min-width:760px){ .kev-row td:last-child{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; } }
+
 
 /* ===== 17. Story rows: headline and a few words on the left, the story's picture on the side ===== */
 .front{ display:block; margin-bottom:var(--space-section); }

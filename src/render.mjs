@@ -120,6 +120,15 @@ const newsLayout = (list, { lvl, start = 1, adSlot = true } = {}) => !list.lengt
   `<div class="entries">${entry(list[0], { n: start, lvl, lead: true })}</div>` + (adSlot ? ad('inline') : '') +
   (list.length > 1 ? `<div class="entries cards">${list.slice(1).map((it, i) => entry(it, { n: start + 1 + i, lvl })).join('\n')}</div>` : '');
 
+// CISA's required-action text is long and nearly identical on every row ("Apply mitigations in accordance with vendor instructions, ensuring
+// compliance with CISA's BOD ... guidance"). Show the instruction itself in one short line; the full wording stays in the tooltip.
+function shortAction(a) {
+  let t = String(a ?? '').replace(/\(see[^)]*\)/gi, '').replace(/\s+/g, ' ').trim();
+  t = t.split(/,? ensuring compliance|,? and CISA|;|\. /)[0].replace(/\s*[,.]$/, '');
+  t = t.replace(/in accordance with/gi, 'per');
+  if (t.length > 120) t = t.slice(0, 119).replace(/\s+\S*$/, '') + '…';
+  return t ? t.replace(/\.?$/, '.') : 'See the CISA entry.';
+}
 function sectionPage(ed, section, { title, sub, lvl, route }) {
   const list = ed.items.filter((i) => i.section === section);
   const body = list.length
@@ -133,7 +142,7 @@ const sevText = (s) => (s == null ? 'No score' : s >= 9 ? 'Critical' : s >= 7 ? 
 const kevTable = (kev, { head = true } = {}) =>
   (head ? secHead({ title: 'Exploited vulnerabilities (CISA KEV)', sub: 'The newest additions to CISA’s Known Exploited Vulnerabilities catalogue. Every row is being exploited in the wild.' }) + termsPanel('cves') : '') +
   `<div class="kev-wrap"><table class="kev"><caption class="sr-only">Newest CISA Known Exploited Vulnerabilities with severity, affected product, ransomware use and required action</caption><thead><tr><th scope="col">CVE</th><th scope="col">CVSS</th><th scope="col">Product</th><th scope="col">Ransomware</th><th scope="col">Added / due</th><th scope="col">Required action</th></tr></thead><tbody>` +
-  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
+  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action"${k.action ? ` title="${esc(k.action)}"` : ''}>${esc(shortAction(k.action))}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
 
 // whole-number percentages that add up to exactly 100 (largest remainder)
