@@ -120,15 +120,6 @@ const newsLayout = (list, { lvl, start = 1, adSlot = true } = {}) => !list.lengt
   `<div class="entries">${entry(list[0], { n: start, lvl, lead: true })}</div>` + (adSlot ? ad('inline') : '') +
   (list.length > 1 ? `<div class="entries cards">${list.slice(1).map((it, i) => entry(it, { n: start + 1 + i, lvl })).join('\n')}</div>` : '');
 
-// CISA's required-action text is long and nearly identical on every row ("Apply mitigations in accordance with vendor instructions, ensuring
-// compliance with CISA's BOD ... guidance"). Show the instruction itself in one short line; the full wording stays in the tooltip.
-function shortAction(a) {
-  let t = String(a ?? '').replace(/\(see[^)]*\)/gi, '').replace(/\s+/g, ' ').trim();
-  t = t.split(/,? ensuring compliance|,? and CISA|;|\. /)[0].replace(/\s*[,.]$/, '');
-  t = t.replace(/in accordance with/gi, 'per');
-  if (t.length > 120) t = t.slice(0, 119).replace(/\s+\S*$/, '') + '…';
-  return t ? t.replace(/\.?$/, '.') : 'See the CISA entry.';
-}
 function sectionPage(ed, section, { title, sub, lvl, route }) {
   const list = ed.items.filter((i) => i.section === section);
   const body = list.length
@@ -142,7 +133,7 @@ const sevText = (s) => (s == null ? 'No score' : s >= 9 ? 'Critical' : s >= 7 ? 
 const kevTable = (kev, { head = true } = {}) =>
   (head ? secHead({ title: 'Exploited vulnerabilities (CISA KEV)', sub: 'The newest additions to CISA’s Known Exploited Vulnerabilities catalogue. Every row is being exploited in the wild.' }) + termsPanel('cves') : '') +
   `<div class="kev-wrap"><table class="kev"><caption class="sr-only">Newest CISA Known Exploited Vulnerabilities with severity, affected product, ransomware use and required action</caption><thead><tr><th scope="col">CVE</th><th scope="col">CVSS</th><th scope="col">Product</th><th scope="col">Ransomware</th><th scope="col">Added / due</th><th scope="col">Required action</th></tr></thead><tbody>` +
-  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action"${k.action ? ` title="${esc(k.action)}"` : ''}>${esc(shortAction(k.action))}</td></tr>`).join('') +
+  kev.map((k) => `<tr class="kev-row kw-unit"><th scope="row" class="kev-cve"><a class="cve" href="${href(k.url)}" target="_blank" rel="noopener">${esc(k.cve)}</a></th><td data-label="CVSS"><span class="sev ${sevClass(k.cvss)}"><span class="sev-score">${k.cvss == null ? '—' : k.cvss.toFixed(1)}</span><span class="sev-text">${sevText(k.cvss)}</span></span></td><td data-label="Product">${esc(k.vendor)} ${esc(k.product)}</td><td data-label="Ransomware"><span class="flag ${k.ransomware ? 'flag-yes' : 'flag-no'}">${k.ransomware ? 'Known' : 'None known'}</span></td><td data-label="Added / due"><time datetime="${esc(k.added)}">${esc(k.added)}</time> → <time datetime="${esc(k.due)}">${esc(k.due)}</time></td><td data-label="Required action">${esc(k.action)}</td></tr>`).join('') +
   `</tbody></table></div><p class="sec-sub">Source: CISA KEV catalogue; CVSS scores from NVD where published. “No score” means NVD has not scored it yet.</p>`;
 
 // whole-number percentages that add up to exactly 100 (largest remainder)
@@ -157,11 +148,15 @@ function pulseHtml(ed) {
   return `<p class="pulse" aria-label="Today in numbers"><span class="pulse-lead">Today, ${ed.items.length} stories</span><span class="mixbar" role="img" aria-label="${secs.map((s, i) => `${DOMAIN_LABEL[s]} ${pct[i]} percent`).join(', ')}">${secs.map((s, i) => (pct[i] ? `<span data-domain="${s}" style="--w:${pct[i]}"></span>` : '')).join('')}</span><span class="pulse-key">${secs.map((s, i) => `<span data-domain="${s}">${DOMAIN_LABEL[s]} ${pct[i]}%</span>`).join('')}</span>${facts.length ? `<span class="pulse-facts">${facts.join(' · ')}</span>` : ''}</p>`;
 }
 
-const analysisHtml = (ed, lvl = 3) => {
+const analysisHtml = (ed, lvl = 3, grouped = false) => {
   const a = ed.analysis;
   if (!a?.headline) return '';
   const paras = (a.paragraphs ?? []).filter(Boolean), take = (a.takeaways ?? []).filter(Boolean);
-  return `<section class="analysis kw-unit" aria-labelledby="analysis-h"><h${lvl} class="analysis-title" id="analysis-h"><span class="analysis-kicker">Outpost analysis:</span> ${esc(a.headline)}</h${lvl}><p class="analysis-note">Written by AI from today’s headlines; read the sources.</p>${paras.map((t) => `<p>${esc(t)}</p>`).join('')}${take.length ? `<h${lvl + 1} class="analysis-sub">Takeaways</h${lvl + 1}><ul class="analysis-take">${take.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}</section>`;
+  // grouped (Today & Learn): a section heading in the same voice as "Top 5" and "Run today", then the analysis headline beneath it
+  const title = grouped
+    ? `<h${lvl - 1} class="group-title" id="analysis-h">Outpost analysis</h${lvl - 1}><h${lvl} class="analysis-title">${esc(a.headline)}</h${lvl}>`
+    : `<h${lvl} class="analysis-title" id="analysis-h"><span class="analysis-kicker">Outpost analysis:</span> ${esc(a.headline)}</h${lvl}>`;
+  return `<section class="analysis${grouped ? ' analysis-grouped' : ''} kw-unit" aria-labelledby="analysis-h">${title}<p class="analysis-note">Written by AI from today’s headlines; read the sources.</p>${paras.map((t) => `<p>${esc(t)}</p>`).join('')}${take.length ? `<h${lvl + 1} class="analysis-sub">Takeaways</h${lvl + 1}><ul class="analysis-take">${take.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}</section>`;
 };
 
 // The Dark web page body is built by src/lib/darkweb-view.mjs from three data files; this only adds the page header and ad slot.
@@ -175,17 +170,17 @@ function todayHtml(ed, top) {
   const checks = (ed.run_today ?? []).map((r, i) => `<li><label><input type="checkbox" data-check-id="run-${i}"><span>${esc(r)}</span></label></li>`).join('');
   const learn = (ed.learn ?? []).map((l) => {
     const slug = glossSlug(l.term);
-    return `<article class="learn-item kw-unit" data-domain="${l.domain}"><h3 class="learn-term">${esc(l.term)}</h3><p class="learn-def">${esc(l.explainer)}</p><p class="learn-from">${chip(l.domain)} From <a href="${href(l.from)}" target="_blank" rel="noopener">${esc(l.fromSource)}</a>${slug ? ` · <a href="/glossary/#${slug}">In the glossary</a>` : ''}</p></article>`;
+    return `<article class="learn-item kw-unit" data-domain="${l.domain}"><h3 class="learn-term">${esc(l.term)}</h3>${chip(l.domain)}<p class="learn-def">${esc(l.explainer)}</p><p class="learn-from">From <a href="${href(l.from)}" target="_blank" rel="noopener">${esc(l.fromSource)}</a>${slug ? ` · <a href="/glossary/#${slug}">In the glossary</a>` : ''}</p></article>`;
   }).join('');
   const down = (ed.health ?? []).filter((h) => !h.ok);
   const aiCount = ed.items.filter((i) => i.ai).length;
-  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.' }) + termsPanel('today') + analysisHtml(ed, 2) +
-    `<div class="brief"><section aria-labelledby="top5-h"><h2 class="group-title" id="top5-h">Top 5, ranked</h2><ol class="rank-list">` +
+  return secHead({ title: 'Today &amp; Learn', sub: 'The five stories that matter, what to check, and one concept per domain to take away.' }) + termsPanel('today') +
+    `<div class="brief"><div class="brief-main">${analysisHtml(ed, 3, true)}<section aria-labelledby="top5-h"><h2 class="group-title" id="top5-h">Top 5, ranked</h2><ol class="rank-list">` +
     top.slice(0, 5).map((i, n) => `<li class="kw-unit"><span class="rank-num">${n + 1}</span><div><a class="rank-title" href="${href(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><p>${esc(i.summary)}</p></div></li>`).join('') +
-    `</ol></section><section aria-labelledby="run-h"><h2 class="group-title" id="run-h">Run today</h2>${checks ? `<ul class="checklist">${checks}</ul>` : '<p class="sec-sub">No AI-generated checklist today.</p>'}</section></div>` +
-    (learn ? `<section class="learn" aria-labelledby="learn-h"><h2 class="group-title" id="learn-h">Learn today</h2>${learn}</section>` : '') +
+    `</ol></section></div><section class="brief-side" aria-labelledby="run-h"><h2 class="group-title" id="run-h">Run today</h2>${checks ? `<ul class="checklist">${checks}</ul>` : '<p class="sec-sub">No AI-generated checklist today.</p>'}</section></div>` +
+    '<div class="today-end">' + (learn ? `<section class="learn" aria-labelledby="learn-h"><h2 class="group-title" id="learn-h">Learn today</h2>${learn}</section>` : '') +
     `<aside class="method"><h2 class="method-title">Method and gaps</h2><p>Every headline, link and date comes straight from the source feeds. ${aiCount} of ${ed.items.length} summaries were written by ${esc(ed.model)} from the headline and snippet only, and any figure it could not find in the source text was discarded. Treat summaries as pointers and read the linked source. The checklist and concepts are also model-written from today’s headlines: a prompt for your own judgement, not security advice. <a href="/methodology/">Full methodology</a>.` +
-    (down.length ? ` Feeds that did not respond today: ${down.map((d) => esc(d.name)).join(', ')}.` : ' All feeds responded.') + '</p></aside>';
+    (down.length ? ` Feeds that did not respond today: ${down.map((d) => esc(d.name)).join(', ')}.` : ' All feeds responded.') + '</p></aside></div>';
 }
 
 const toolboxHtml = (tb) => secHead({ title: 'OSINT Toolbox', sub: 'Open-source tools for checking the news yourself. Verify, don’t just read.' }) + termsPanel('toolbox') +

@@ -326,7 +326,11 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
 }
 
 /* ===== 10. Today & Learn, Toolbox, Archive, Glossary, prose ===== */
-.brief{ display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:34px 44px; }
+.brief{ display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:34px 44px; align-items:start; }
+.brief-main{ display:grid; gap:34px; min-width:0; }
+.brief-side{ min-width:0; position:sticky; top:calc(var(--tabs-h) + 16px); }
+.analysis-grouped{ margin:0; padding:0; border:0; max-width:none; }
+.analysis-grouped .analysis-title{ margin:.9rem 0 .25rem; font-size:1.4rem; line-height:1.2; }
 .group-title{ margin:0 0 6px; padding-top:10px; border-top:3px solid var(--rule-strong); font:800 1.3rem/1.1 var(--font-head); font-stretch:78%; text-transform:uppercase; letter-spacing:.02em; }
 .rank-list{ margin:0; padding:0; list-style:none; }
 .rank-list li{ display:grid; grid-template-columns:2.2rem minmax(0,1fr); gap:12px; padding:15px 0; border-bottom:1px solid var(--rule); }
@@ -342,15 +346,25 @@ kbd{ font:600 .75rem var(--font-mono); padding:.05rem .4rem; border:1px solid va
 .checklist input:checked{ background:var(--ink); }
 .checklist input:checked::after{ transform:rotate(45deg) scale(1); }
 .checklist input:checked + span{ color:var(--ink-faint); text-decoration:line-through; text-decoration-thickness:1px; }
-.learn{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 34px; margin-top:42px; }
-.learn > .group-title{ grid-column:1 / -1; margin-bottom:18px; }
-.learn-item{ padding-top:12px; border-top:3px solid var(--ink); }
-.learn-term{ margin:0 0 .45rem; font:800 1.55rem/1.08 var(--font-head); font-stretch:78%; }
-.learn-def{ margin:0 0 .7rem; }
-.learn-from{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:0; font:500 .8125rem/1.4 var(--font-head); color:var(--ink-dim); }
-.method{ margin-top:42px; padding:16px 20px; background:var(--surface); border:1px solid var(--rule); font-size:.96em; color:var(--ink-dim); }
-.method-title{ margin:0 0 .4rem; font:800 .8125rem var(--font-head); letter-spacing:.09em; text-transform:uppercase; color:var(--ink); }
+.today-end{ container-type:inline-size; margin-top:42px; }
+.learn > .group-title{ margin-bottom:18px; }
+.learn-item{ margin:0 0 26px; padding-top:12px; border-top:1px solid var(--rule-strong); }
+.learn-term{ margin:0 0 .5rem; font:800 1.55rem/1.08 var(--font-head); font-stretch:78%; }
+.learn-item > .chip{ display:flex; width:fit-content; margin:0 0 .6rem; }
+.learn-def{ margin:0 0 .8rem; max-width:66ch; }
+.learn-from{ margin:0; font:500 .8125rem/1.4 var(--font-head); color:var(--ink-dim); }
+.method{ padding-top:14px; border-top:1px solid var(--rule); font-size:.9375rem; line-height:1.5; color:var(--ink-dim); }
+.method-title{ margin:0 0 .35rem; font:800 .75rem var(--font-head); letter-spacing:.09em; text-transform:uppercase; color:var(--ink); }
 .method p{ margin:0; max-width:72ch; }
+/* 3 equal columns only when the content column is wide enough (never 2+1); rows are shared (subgrid) so term, label, text and source line up across items */
+@container (min-width:48rem){
+  .learn,.method{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); column-gap:32px; }
+  .learn > .group-title{ grid-column:1 / -1; }
+  .learn-item{ display:grid; grid-row:span 4; grid-template-rows:subgrid; }
+  .method{ align-items:baseline; }
+  .method-title{ margin:0; }
+  .method p{ grid-column:2 / -1; max-width:none; }
+}
 .tool-group{ margin:0 0 34px; }
 .tools{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 36px; margin:0; padding:0; list-style:none; }
 .tool{ padding:15px 0; border-bottom:1px solid var(--rule); }
@@ -432,9 +446,8 @@ html[data-view="scan"] .entries-2up{ grid-template-columns:minmax(0,1fr); }
 
 /* ===== 13. Responsive ===== */
 @media (max-width:899px){
-  .brief,.learn,.subscribe{ grid-template-columns:minmax(0,1fr); }
+  .brief,.subscribe{ grid-template-columns:minmax(0,1fr); } .brief-side{ position:static; }
   .foot-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } .foot-brand{ grid-column:1 / -1; }
-  .learn{ gap:28px; }
   .brand{ grid-template-columns:minmax(0,1fr); }
   .brand-today{ grid-column:1; grid-row:auto; text-align:left; }
   .brand-credit{ position:static; grid-column:1; justify-self:start; margin-top:8px; max-width:100%; }
@@ -447,7 +460,7 @@ html[data-view="scan"] .entries-2up{ grid-template-columns:minmax(0,1fr); }
   .sec-sub{ max-width:36ch; font-size:1rem; line-height:1.4; }
   .tool{ padding:12px 0; } .tool-name{ min-height:44px; }
   .tool-group,.archive-month,.gloss-group{ margin-bottom:24px; }
-  .learn{ margin-top:30px; } .method{ margin-top:30px; padding:14px 16px; }
+  .today-end{ margin-top:30px; }
   .learn-term{ font-size:1.35rem; }
   .rank-list li{ padding:12px 0; } .checklist label{ padding:12px 0; min-height:44px; }
   .prose h2{ margin-top:1.7rem; font-size:1.35rem; } .prose summary{ padding-block:.5rem; }

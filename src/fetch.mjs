@@ -96,7 +96,7 @@ async function pullKev(cache) {
   }
   return rows.map((r) => ({
     cve: r.cveID, vendor: r.vendorProject, product: r.product, name: r.vulnerabilityName, added: r.dateAdded, due: r.dueDate,
-    ransomware: r.knownRansomwareCampaignUse === 'Known', action: String(r.requiredAction || '').slice(0, 200), cvss: r.cvss,
+    ransomware: r.knownRansomwareCampaignUse === 'Known', action: String(r.requiredAction || '').slice(0, 600), cvss: r.cvss,
     url: 'https://nvd.nist.gov/vuln/detail/' + r.cveID,
   }));
 }
