@@ -1,9 +1,53 @@
 {
  "date": "2026-10-26",
  "edition": 224,
- "compiled": "2026-10-26T16:09:02.295Z",
+ "compiled": "2026-10-26T16:41:59.031Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "5e34561ea9",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "snippet": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+   "published": "2026-10-26T16:27:57.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/5e34561ea9.webp",
+   "t": "2026-10-26",
+   "summary": "The report says a critical flaw in Brotli, a C decoder library built into Node.js, could let attackers corrupt memory and access sensitive data; emergency patches have been triggered.",
+   "why": "Check whether Brotli or Node.js components are affected and apply relevant patches.",
+   "tags": [
+    "Brotli",
+    "Node.js",
+    "HTTP2Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3e53d355ce",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
+   "url": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
+   "snippet": "44-year-old Zheng Zhao was allegedly a key money-launderer working with a group of scammers who called U.S.-based victims and urged them to invest in fictitious businesses.",
+   "published": "2026-10-26T16:37:00.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/3e53d355ce.webp",
+   "t": "2026-10-26",
+   "summary": "Dutch police extradited a Chinese national accused of laundering funds for a Cambodian investment scam. The report says scammers urged U.S.-based victims to invest in fictitious businesses.",
+   "why": "Review scam reporting and financial-risk checks for investment offers involving fictitious businesses.",
+   "tags": [
+    "investment scam",
+    "money-laundering",
+    "extradition"
+   ],
+   "ai": true
+  },
   {
    "id": "cf08225efb",
    "section": "cyber",
@@ -14,7 +58,7 @@
    "snippet": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
    "published": "2026-10-26T15:38:24.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/cf08225efb.webp",
    "t": "2026-10-26",
    "summary": "Microsoft says it released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell.",
@@ -23,28 +67,6 @@
     ".NET",
     "Brotli",
     "security updates"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3c0f1fb39e",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-   "snippet": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
-   "published": "2026-10-26T14:00:10.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/3c0f1fb39e.webp",
-   "t": "2026-10-26",
-   "summary": "A NIST, CISA and NSA guide treats runaway AI agents as incidents to rehearse and stresses recording whose authority an agent used.",
-   "why": "Document agent identities and authority before incidents, and rehearse response procedures.",
-   "tags": [
-    "AI agents",
-    "identity",
-    "authority"
    ],
    "ai": true
   },
@@ -58,7 +80,7 @@
    "snippet": "CERT-UA says it has identified cases in which hackers compromised Dahua internet-connected cameras and video recorders, changed their settings and created unauthorized user accounts.",
    "published": "2026-10-26T14:21:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/d72684f804.webp",
    "t": "2026-10-26",
    "summary": "CERT-UA says hackers compromised Dahua internet-connected cameras and video recorders, changed settings and created unauthorized accounts.",
@@ -67,6 +89,28 @@
     "Dahua",
     "cameras",
     "unauthorized accounts"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c0f1fb39e",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "snippet": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+   "published": "2026-10-26T14:00:10.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/3c0f1fb39e.webp",
+   "t": "2026-10-26",
+   "summary": "A NIST, CISA and NSA guide treats runaway AI agents as incidents to rehearse and stresses recording whose authority an agent used.",
+   "why": "Document agent identities and authority before incidents, and rehearse response procedures.",
+   "tags": [
+    "AI agents",
+    "identity",
+    "authority"
    ],
    "ai": true
   },
@@ -80,7 +124,7 @@
    "snippet": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
    "published": "2026-10-26T13:56:44.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/9cb042202f.webp",
    "t": "2026-10-26",
    "summary": "A Chinese national was arraigned in California after extradition from the Netherlands over alleged involvement in a cryptocurrency investment scam.",
@@ -102,7 +146,7 @@
    "snippet": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
    "published": "2026-10-26T12:00:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/680a1bdeb1.webp",
    "t": "2026-10-26",
    "summary": "LiteLLM says a key exposed in May was behind a supply-chain attack believed to have hit tens of thousands of users last week.",
@@ -124,7 +168,7 @@
    "snippet": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
    "published": "2026-10-26T10:26:52.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/4dd6d369be.webp",
    "t": "2026-10-26",
    "summary": "Kali Linux released version 2026.3 with six new hacking tools, desktop improvements, and refreshed build scripts.",
@@ -145,7 +189,7 @@
    "snippet": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek .",
    "published": "2026-10-26T14:52:14.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/d7e589c62a.webp",
    "t": "2026-10-26",
    "summary": "Siemens, Schneider Electric, ABB and other industrial vendors confirmed some products are affected by PHP2Shell vulnerabilities.",
@@ -166,7 +210,7 @@
    "snippet": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek .",
    "published": "2026-10-26T14:40:48.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/0894723045.webp",
    "t": "2026-10-26",
    "summary": "A Genesys hack exposed customer data from internal systems; the Genesys Cloud, Genesys Engage and Genesys Engage Cloud platforms were not affected.",
@@ -179,45 +223,24 @@
    "ai": true
   },
   {
-   "id": "38ba7bc24d",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-   "snippet": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek .",
-   "published": "2026-10-26T14:30:09.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/38ba7bc24d.webp",
-   "t": "2026-10-26",
-   "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making rival AI distillation cheaper.",
-   "why": "Assess how model reasoning traces are protected and whether access to them is restricted.",
-   "tags": [
-    "reasoning traces",
-    "models",
-    "compaction"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fbd9cb2b44",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "d338424262",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-   "snippet": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-   "published": "2026-10-26T09:19:57.000Z",
+   "title": "EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy",
+   "url": "https://breakingdefense.com/2026/10/exclusive-southcom-chief-seeks-unmanned-river-solution-as-he-embraces-autonomy/",
+   "snippet": "In an interview with Breaking Defense, Gen. Francis Donovan said autonomous systems are “not just for testing anymore” but “taking the fight to the enemy.”",
+   "published": "2026-10-26T16:30:00.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/fbd9cb2b44.webp",
+   "score": 1.6,
+   "image": "/img/news/d338424262.webp",
    "t": "2026-10-26",
-   "summary": "The report says two critical remote code execution vulnerabilities tracked as PHP2Shell have been successfully exploited in the wild.",
-   "why": "Check whether PHP systems are affected and prioritize investigation and remediation.",
+   "summary": "SOUTHCOM chief Gen. Francis Donovan told Breaking Defense that autonomous systems are “not just for testing anymore” and are “taking the fight to the enemy.”",
+   "why": "His comments frame autonomy as an operational capability, including a sought unmanned river solution.",
    "tags": [
-    "PHP2Shell",
-    "RCE"
+    "autonomous systems",
+    "SOUTHCOM",
+    "unmanned"
    ],
    "ai": true
   },
@@ -231,7 +254,7 @@
    "snippet": "“There’s a lot of positive signaling, but we need to see the whites of the eyes: We need to see sustained, normalized demand,” said James Slider, CEO of Performance Drone Works.",
    "published": "2026-10-26T14:28:38.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.55,
    "image": "/img/news/823231ac69.webp",
    "t": "2026-10-26",
    "summary": "Performance Drone Works CEO James Slider says positive signaling on Pentagon drone demand needs to become sustained, normalized demand.",
@@ -252,7 +275,7 @@
    "snippet": "What does the future of layered air defense look like? BCE Consulting lays out what it will take to protect American forces.",
    "published": "2026-10-26T15:32:21.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/37c8a7a224.webp",
    "t": "2026-10-26",
    "summary": "BCE Consulting outlines elements of a layered air defense architecture intended to protect American forces.",
@@ -273,7 +296,7 @@
    "snippet": "Germany’s Helsing is offering a novel pair of air-defense missiles, plus the requisite AI software to organize intercepts, for downing fast attack drones for under $100,000 per shot.",
    "published": "2026-10-26T14:53:32.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/9edeecf472.webp",
    "t": "2026-10-26",
    "summary": "Helsing says it is offering two air-defense missiles and AI software to coordinate interceptions of fast attack drones, for under $100,000 per shot.",
@@ -295,7 +318,7 @@
    "snippet": "The highlight of the exercise may have been the Turkish military showing off a new drone for the first time: Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack unmanned aerial vehicle.",
    "published": "2026-10-26T09:00:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/994e85677b.webp",
    "t": "2026-10-26",
    "summary": "The report says the Turkish military may have showcased Ayaz, a turbojet-powered, one-way attack unmanned aerial vehicle, for the first time at the demonstration.",
@@ -317,7 +340,7 @@
    "snippet": "Top leaders from the defense industry share their ideas on how to scale up production and integrate AI in remarks from the show floor at AUSA 2026.",
    "published": "2026-10-26T13:29:39.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/65563ccd4f.webp",
    "t": "2026-10-26",
    "summary": "Defense industry leaders shared ideas on scaling production and integrating AI in remarks from the AUSA 2026 show floor.",
@@ -339,7 +362,7 @@
    "snippet": "As military leaders clamor for increased weapons and systems productions, top defense company leaders chart ways they can meet the demand.",
    "published": "2026-10-26T13:26:26.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/05ce8a917f.webp",
    "t": "2026-10-26",
    "summary": "Defense company leaders described ways to meet military leaders’ calls for increased weapons and systems production.",
@@ -361,7 +384,7 @@
    "snippet": "Advances in weapons, new drones and personal drone protection were on display at the Army’s premier annual defense conference in Washington, D.C.",
    "published": "2026-10-26T13:22:47.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/f3a834e54a.webp",
    "t": "2026-10-26",
    "summary": "Weapons, new drones and personal drone protection were on display at the Army’s annual defense conference in Washington, D.C.",
@@ -370,28 +393,6 @@
     "grenade launcher",
     "drones",
     "drone protection"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cc891d1c7c",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Lessons for Pentagon Procurement from the Special Operations Enterprise",
-   "url": "https://warontherocks.com/cogs-of-war/lessons-for-pentagon-procurement-from-the-special-operations-enterprise/",
-   "snippet": "As the Pentagon races to buy hundreds of thousands of unmanned systems, acquisition professionals have turned to the special operations community to learn about how to buy commercial technologies fast. Cara Teeter, deputy assistant secretary of war for special operations analysis, resources, and capabilities, and chief",
-   "published": "2026-10-26T08:00:14.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/cc891d1c7c.webp",
-   "t": "2026-10-26",
-   "summary": "The article says Pentagon acquisition professionals are learning from special operations how to buy commercial technologies quickly as the military seeks large numbers of unmanned systems.",
-   "why": "Fast procurement of commercial systems may shape how unmanned capabilities are fielded.",
-   "tags": [
-    "procurement",
-    "commercial technologies",
-    "unmanned systems"
    ],
    "ai": true
   },
@@ -405,7 +406,7 @@
    "snippet": "The European Space Agency’s Celeste program has passed another milestone, with its first in-orbit demonstration satellite transmitting navigation signals successfully tracked and decoded... The post ESA’s Celeste Demonstrates End-to-End LEO-PNT in Orbit appeared first on Inside GNSS - Global Navigation Satellite System",
    "published": "2026-10-26T15:31:04.000Z",
    "also": [],
-   "score": 1.69,
+   "score": 1.68,
    "image": "/img/news/b6e5e73533.webp",
    "t": "2026-10-26",
    "summary": "The European Space Agency says its Celeste demonstration satellite transmitted navigation signals that were successfully tracked and decoded in orbit.",
@@ -427,7 +428,7 @@
    "snippet": "While the United States is only referenced seven times in the document, elements of the strategy read as a response to Trump administration initiatives. The post The new EU Arctic strategy shows ambition—but also anxiety appeared first on Atlantic Council .",
    "published": "2026-10-26T15:39:43.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/03f23a95c4.webp",
    "t": "2026-10-26",
    "summary": "The Atlantic Council says the EU Arctic strategy shows ambition and anxiety; parts of it read as a response to Trump administration initiatives.",
@@ -449,7 +450,7 @@
    "snippet": "Why staying the course is the most prudent of Washington’s three unsavory choices.",
    "published": "2026-10-26T14:55:56.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/89527fae45.webp",
    "t": "2026-10-26",
    "summary": "Foreign Policy argues that staying the course is Washington’s most prudent option among three unsavory choices regarding Iran.",
@@ -470,7 +471,7 @@
    "snippet": "The troops are expected to protect energy facilities in northern Niger, near the Libyan border.",
    "published": "2026-10-26T13:18:57.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/058116f90c.webp",
    "t": "2026-10-26",
    "summary": "Algeria is expected to send troops to protect energy facilities in northern Niger, near the Libyan border.",
@@ -492,7 +493,7 @@
    "snippet": "SAN FRANCISCO —October 26, 2026—Today, Astranis announced it has upgraded its 4th launch to a dedicated mission aboard a SpaceX Falcon 9 rocket set to launch in 2028, allowing it […] The post Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites appeared first o",
    "published": "2026-10-26T13:00:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/e20f90ebcc.webp",
    "t": "2026-10-26",
    "summary": "Astranis says its fourth Falcon 9 launch contract is now a dedicated mission for its Block 4 satellite production run, set to launch in 2028.",
@@ -514,7 +515,7 @@
    "snippet": "UN report highlights crimes including extermination, torture, rape and other forms of sexual violence.",
    "published": "2026-10-26T15:44:59.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/2d6382e089.webp",
    "t": "2026-10-26",
    "summary": "A UN report highlights crimes including extermination, torture, rape and other forms of sexual violence in the occupied West Bank.",
@@ -535,7 +536,7 @@
    "snippet": "Legislators approve military support amid Houthi attacks on Saudi Arabia, but Cairo has ruled out strikes on Yemen.",
    "published": "2026-10-26T15:41:29.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/53fb2e117f.webp",
    "t": "2026-10-26",
    "summary": "Egyptian legislators approved military aid for Saudi Arabia amid Houthi attacks; Cairo ruled out strikes on Yemen.",
@@ -557,7 +558,7 @@
    "snippet": "Countering Houthi advances in Yemen will be a major focus for Saudi Arabia and its allies in Tehran.",
    "published": "2026-10-26T14:38:50.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/a2298f1d24.webp",
    "t": "2026-10-26",
    "summary": "Saudi Arabia and its allies are in Tehran, with countering Houthi advances in Yemen a major focus, Al Jazeera reports.",
@@ -717,47 +718,47 @@
   }
  ],
  "run_today": [
-  "Apply Microsoft’s emergency .NET updates addressing the critical Brotli flaw.",
-  "Review Dahua cameras and recorders for unauthorized accounts or changed settings, as CERT-UA reports.",
-  "Rehearse AI-agent incident response and verify whose authority an agent used."
+  "Check whether systems use the affected Brotli decoder built into Node.js.",
+  "Apply relevant emergency patches for affected Brotli components.",
+  "Review exposed services and sensitive-data protections where memory corruption could matter."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "identity record",
-   "explainer": "An identity record links an action to the account or authority that performed it. For an AI agent incident, the guide says this evidence is important for determining whose authority the agent used.",
-   "from_id": "3c0f1fb39e",
-   "from": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "term": "Brotli",
+   "explainer": "Brotli is a decoder library. The report says a critical flaw in the C decoder library built into Node.js could allow memory corruption and access to sensitive data.",
+   "from_id": "5e34561ea9",
+   "from": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "layered air defense",
-   "explainer": "Layered air defense is an approach that uses multiple elements together to protect forces. BCE Consulting outlines critical elements of this architecture.",
-   "from_id": "37c8a7a224",
-   "from": "https://www.defensenews.com/video/2026/10/26/bce-consulting-outlines-the-critical-elements-of-layered-air-defense-architecture/",
-   "fromSource": "Defense News"
+   "term": "autonomous systems",
+   "explainer": "Autonomous systems are systems described here as moving beyond testing and being used operationally. The SOUTHCOM chief also said he seeks an unmanned river solution.",
+   "from_id": "d338424262",
+   "from": "https://breakingdefense.com/2026/10/exclusive-southcom-chief-seeks-unmanned-river-solution-as-he-embraces-autonomy/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "military aid",
-   "explainer": "Military aid is support provided to another country’s armed forces. In this report, Egyptian legislators authorised aid for Saudi Arabia, while Cairo ruled out strikes on Yemen.",
-   "from_id": "53fb2e117f",
-   "from": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "LEO-PNT",
+   "explainer": "LEO-PNT refers to positioning, navigation and timing associated with low Earth orbit. ESA’s Celeste title describes an end-to-end LEO-PNT demonstration in orbit.",
+   "from_id": "b6e5e73533",
+   "from": "https://insidegnss.com/esas-celeste-demonstrates-end-to-end-leo-pnt-in-orbit/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Signals, systems and security decisions",
+  "headline": "Autonomy, navigation and vulnerabilities in focus",
   "paragraphs": [
-   "The stories span navigation, cyber defense, Arctic policy, drones and Iran. Their common thread is reliance on systems whose value depends not only on technical capability, but also on how they are governed, sustained and understood. The Celeste demonstration, for example, reports successful transmission and tracking of navigation signals.",
-   "For defenders, the Microsoft patch and reports of compromised Dahua devices underline the need to act on software vulnerabilities and check connected equipment. The AI-agent guidance adds an accountability question: whose authority did an agent use? That identity record needs to be available before an incident, the guide says.",
-   "For analysts, the Arctic strategy’s stated ambition and anxiety, debate over sustained drone demand, and competing choices on Iran show different forms of strategic uncertainty. These accounts do not settle outcomes. Watch for evidence of sustained demand, further system demonstrations, and how policies translate into operational choices."
+   "The stories span navigation, cyber risk and military autonomy. ESA’s Celeste demonstration satellite transmitted navigation signals that were successfully tracked and decoded. Separately, the SOUTHCOM chief described autonomous systems as moving beyond testing, while seeking an unmanned river solution.",
+   "The cyber reports highlight different exposures: a critical Brotli flaw could permit memory corruption and access to sensitive data, while Ukraine says hackers compromised Dahua cameras and recorders, changed settings and created unauthorized accounts. Microsoft also released emergency .NET updates for a critical Brotli flaw.",
+   "Together, these reports suggest analysts must follow both technical dependencies and the operational use of connected or autonomous systems. Defenders should verify affected software and device settings. The Celeste demonstration is a milestone, but the supplied account does not establish broader capability; watch for further demonstrations and patch guidance."
   ],
   "takeaways": [
-   "Successful navigation demonstrations show capability; sustained use is a separate question.",
-   "Patch urgent software flaws and check connected devices for unauthorized access.",
-   "Track how policy language and demand signals translate into operational decisions."
+   "Check Brotli and Node.js exposure, and apply relevant patches.",
+   "Review camera and recorder settings for unauthorized accounts or changes.",
+   "Track what future Celeste and autonomy demonstrations actually establish."
   ]
  },
  "health": [
@@ -777,19 +778,19 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 10
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "SecurityWeek",
@@ -849,7 +850,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Defense One",
@@ -933,13 +934,13 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "Al Jazeera",
