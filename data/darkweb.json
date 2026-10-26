@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-26T03:31:40.873Z",
+ "updated": "2026-10-26T03:54:10.346Z",
  "items": [
+  {
+   "id": "x2114561172124926387",
+   "kind": "x",
+   "source": "@DailyDarkWeb",
+   "url": "https://x.com/DailyDarkWeb/status/2114561172124926387",
+   "published": "2026-10-26T03:34:04.000Z",
+   "headline": "Post claims Unit 42 retracted PHP2Shell exploitation update",
+   "claim": "The post claims Unit 42 retracted its Oct 23 update linking a European government intrusion to PHP2Shell and said it could not confirm initial access.",
+   "context": "As general background, threat reporting may be revised when evidence is reassessed or remains inconclusive. Such revisions do not by themselves establish how an intrusion occurred.",
+   "advice": [
+    "Review exposed PHP applications and apply relevant security updates.",
+    "Validate intrusion indicators against internal telemetry before changing incident conclusions."
+   ],
+   "verified": false
+  },
   {
    "id": "x2114558113244491864",
    "kind": "x",
@@ -646,21 +661,6 @@
    "advice": [
     "Review endpoint alerts and isolate systems showing ransomware indicators.",
     "Verify backups are protected and test restoration procedures."
-   ],
-   "verified": false
-  },
-  {
-   "id": "x2114323659993047235",
-   "kind": "x",
-   "source": "@DailyDarkWeb",
-   "url": "https://x.com/DailyDarkWeb/status/2114323659993047235",
-   "published": "2026-10-25T11:50:17.000Z",
-   "headline": "Post claims AWS set a certificate deadline and is removing linked roots",
-   "claim": "The post claims AWS set an October 28 certificate deadline and is removing eMudhra-linked roots from its trust stores.",
-   "context": "As general background, certificate authorities and trusted root certificates help systems verify digital identities. Changes to trust stores can require organizations to review certificate dependencies and plan updates.",
-   "advice": [
-    "Inventory certificate dependencies in cloud and enterprise environments.",
-    "Monitor trusted certificate store updates and vendor advisories."
    ],
    "verified": false
   }
