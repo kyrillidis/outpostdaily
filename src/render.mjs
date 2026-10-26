@@ -85,6 +85,7 @@ const termsPanel = (page) => {
 };
 
 // ---------- content blocks ----------
+const wide = (h) => h.replace('class="sec-head', 'class="sec-head sec-head-wide');
 const secHead = ({ title, sub = '', art = '' }) =>
   `<header class="sec-head${art ? ' has-banner' : ''}">${art}<div class="sec-head-text"><h2 class="sec-title">${title}</h2>${sub ? `<p class="sec-sub">${sub}</p>` : ''}</div></header>`;
 const chip = (sec) => `<span class="chip chip-domain" data-domain="${sec}"><svg class="icon" aria-hidden="true"><use href="#i-${sec}"/></svg>${DOMAIN_LABEL[sec]}</span>`;
@@ -310,7 +311,7 @@ const ransomware = json('data/ransomware.json', { updated: null, items: [] });
 const breaches = json('data/breaches.json', { updated: null, items: [] });
 function breakingHtml() {
   const now = Date.now();
-  return secHead({ title: 'Breaking', sub: 'Fast-moving incidents, crises and market moves, checked every five minutes. Every item links to its source.' }) + ad('top') +
+  return wide(secHead({ title: 'Breaking', sub: 'Fast-moving incidents, crises and market moves, checked every five minutes. Every item links to its source.' })) + ad('top') +
     `<div class="bk" id="bk" data-updated="${esc(breaking.updated ?? '')}">${renderBreakingBody({ items: breakingItems, health: breaking.health ?? [], updated: breaking.updated, now })}</div>`;
 }
 const template = readFileSync(ROOT + 'src/template.html', 'utf8');
