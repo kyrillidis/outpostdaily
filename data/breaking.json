@@ -1,6 +1,41 @@
 {
- "updated": "2026-10-26T19:09:08.536Z",
+ "updated": "2026-10-26T19:23:35.659Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
@@ -12,54 +47,9 @@
    "n": 4
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Hackread",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "SecurityWeek",
@@ -67,14 +57,14 @@
    "n": 4
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "DarkForums",
@@ -82,9 +72,19 @@
    "error": "HTTP 502"
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ncd7ae8ff88",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "McDonald’s new bet on chicken hits a snag as franchisees say the birds are too big",
+   "url": "https://www.marketwatch.com/story/mcdonalds-new-bet-on-chicken-hits-a-snag-as-franchisees-say-the-birds-are-too-big-c3e8dd77?mod=mw_rss_topstories",
+   "published": "2026-10-26T19:17:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n2661d19877",
    "kind": "news",
@@ -1146,17 +1157,6 @@
    "title": "Anthropic flagged climate and environmental risks in its IPO filing, highlighting its vast electricity and infrastructure needs",
    "url": "https://x.com/business/status/2114742639996071950",
    "published": "2026-10-26T15:35:10.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114742270134264261",
-   "kind": "x",
-   "group": "markets",
-   "source": "@LiveSquawk",
-   "title": "$MSFT | Microsoft Is Offering Buyouts To Around 60,000 Employees – @BusinessInsider",
-   "url": "https://x.com/LiveSquawk/status/2114742270134264261",
-   "published": "2026-10-26T15:33:41.000Z",
    "severity": "normal",
    "verified": false
   },
