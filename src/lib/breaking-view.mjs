@@ -76,7 +76,7 @@ const meta = (i, id, pfx, uid, lead) => [
   lead ? `<span class="bk-stream" data-g="${esc(i.group)}">${esc(GROUP_LABEL[i.group] ?? i.group)}</span>` : '',
   span('bk-src', i.source),
   lead ? when(i) : span('bk-kind', KIND_LABEL[i.kind]),
-  ...(i.topics ?? []).slice(0, 2).map((t) => span('bk-chip', t)),
+  ...(i.topics ?? []).slice(0, lead ? 1 : 2).map((t) => span('bk-chip', t)),
   i.severity === 'high' ? '<span class="bk-hi">High signal</span>' : '',
   i.verified ? '' : '<span class="bk-unv">Unverified</span>',
   alsoHtml(i, id, pfx, uid),
