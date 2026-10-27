@@ -1,28 +1,8 @@
 {
- "updated": "2026-10-27T14:03:00.696Z",
+ "updated": "2026-10-27T14:27:10.477Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -32,9 +12,9 @@
    "n": 10
   },
   {
-   "name": "The Hacker News",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 6
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -44,12 +24,17 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
-   "name": "Krebs on Security",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -57,9 +42,9 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 7
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
@@ -67,7 +52,22 @@
    "n": 1
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 7
+  },
+  {
    "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -77,14 +77,14 @@
    "n": 3
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "neeae20ed2a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+   "published": "2026-10-27T14:09:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb611ff4c27",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+   "published": "2026-10-27T14:01:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n6bab3d2932",
    "kind": "news",
    "group": "darkweb",
@@ -137,6 +159,28 @@
    "title": "‘When do I sell my stocks?’ Ignore the noise and focus on these things.",
    "url": "https://www.marketwatch.com/story/when-do-i-sell-my-stocks-ignore-the-noise-and-focus-on-these-things-5f4ca5aa?mod=mw_rss_topstories",
    "published": "2026-10-27T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nea771f00a1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+   "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+   "published": "2026-10-27T13:59:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nea34a025b9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Lebanon’s lost olive season: harvesting olives under drones and warplanes",
+   "url": "https://www.aljazeera.com/features/2026/10/27/lebanons-lost-olive-season-harvesting-olives-under-drones-and-warplanes?traffic_source=rss",
+   "published": "2026-10-27T13:54:43.000Z",
    "severity": "normal",
    "verified": true
   },
