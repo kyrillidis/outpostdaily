@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-27T20:42:23.381Z",
+ "updated": "2026-10-27T20:49:28.088Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "CISA Advisories",
@@ -17,6 +22,21 @@
    "error": "HTTP 402"
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 1
@@ -27,14 +47,14 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 10
+   "n": 1
   },
   {
-   "name": "Al Jazeera",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 8
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -44,21 +64,6 @@
   {
    "name": "Hackread",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
    "n": 2
   },
   {
@@ -67,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BreachForums",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Security Affairs",
@@ -83,11 +88,6 @@
   },
   {
    "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n2f6663d0ce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+   "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+   "published": "2026-10-27T20:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne9820608da",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Lebanese and Syrians expect no change in Israeli policy after election",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/aje-onl-nf_lebanese-syrians-expectaions-israeli-elections-271026?traffic_source=rss",
+   "published": "2026-10-27T20:34:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n221e3ae74e",
    "kind": "news",
@@ -5239,17 +5261,6 @@
    "verified": false
   },
   {
-   "id": "ne835ac8ceb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Saudi air defences intercept Houthi barrage near Mecca",
-   "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-   "published": "2026-10-25T13:49:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114337429020979399",
    "kind": "x",
    "group": "cyber",
@@ -5269,17 +5280,6 @@
    "url": "https://x.com/BleepinComputer/status/2114329185124540557",
    "published": "2026-10-25T12:12:14.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114322330134433809",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Ransomware gang Emperador claims it stole 3.9GB from AB InBev, maker of Budweiser, Corona and Stella Artois. The gang says it holds 2,510 corporate emails, internal PKI certificates and 3.2GB of Azure files. It wants $1M in bitcoin. AB…",
-   "url": "https://x.com/IntCyberDigest/status/2114322330134433809",
-   "published": "2026-10-25T11:45:00.000Z",
-   "severity": "high",
    "verified": false
   },
   {
