@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T20:32:44.510Z",
+ "compiled": "2026-10-27T21:03:55.418Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 ",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in the listed Mitsubishi Electric products could allow an attacker to execute arbitrary actions; the snippet cuts off before specifying them.",
    "why": "Check whether these products are in use and review the CISA advisory for further details.",
@@ -35,7 +35,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive inform",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in EPICS Base could cause a denial-of-; the snippet cuts off before completing the impact.",
    "why": "Check whether EPICS Base is in use and review the CISA advisory for further details.",
@@ -56,7 +56,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48356\" target=\"_blank\">CVE-2026-48356</a> A",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-27",
    "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
    "why": "Check whether your systems are affected and prioritize remediation using the KEV Catalog.",
@@ -64,6 +64,49 @@
     "CISA",
     "KEV",
     "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7477a331e6",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers hijack Convertr analytics script to steal payment card data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "snippet": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+   "published": "2026-10-27T20:57:25.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/7477a331e6.webp",
+   "t": "2026-10-27",
+   "summary": "BleepingComputer reports that a skimming group compromised a shared Convertr analytics script to steal payment data during checkout.",
+   "why": "Review third-party scripts used at checkout and monitor for unauthorized changes or payment-data collection.",
+   "tags": [
+    "analytics script",
+    "payment data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2f6663d0ce",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+   "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+   "snippet": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
+   "published": "2026-10-27T20:40:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/2f6663d0ce.webp",
+   "t": "2026-10-27",
+   "summary": "The Record reports that a Nefilim and Hive ransomware operator received a sentence of more than five years after pleading guilty to charges related to participating in at least two ransomware groups.",
+   "why": "The case highlights the need to prepare for ransomware threats linked to organized operators.",
+   "tags": [
+    "Nefilim",
+    "Hive",
+    "ransomware"
    ],
    "ai": true
   },
@@ -77,7 +120,7 @@
    "snippet": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
    "published": "2026-10-27T19:30:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/c75ce4708b.webp",
    "t": "2026-10-27",
    "summary": "The Record reports a US indictment of a Malaysian national and a sting in Madagascar, highlighting the scam center industry's global reach.",
@@ -98,7 +141,7 @@
    "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
    "published": "2026-10-27T18:20:28.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/9df47a48bc.webp",
    "t": "2026-10-27",
    "summary": "Microsoft released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, including on systems without automatic certificate trust updates.",
@@ -120,7 +163,7 @@
    "snippet": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
    "published": "2026-10-27T16:15:39.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/db852607b1.webp",
    "t": "2026-10-27",
    "summary": "Warp says user decision logs and telemetry data were exposed in an attack on a third-party vendor in its infrastructure.",
@@ -142,7 +185,7 @@
    "snippet": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
    "published": "2026-10-27T15:07:00.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/37ead5afc4.webp",
    "t": "2026-10-27",
    "summary": "A UK police watchdog says British police data has been breached several times this decade through third-party IT suppliers.",
@@ -163,7 +206,7 @@
    "snippet": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
    "published": "2026-10-27T14:57:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/319765385a.webp",
    "t": "2026-10-27",
    "summary": "The University of New Mexico hospital diverted ambulances for about two hours after a cyberattack and suspended outpatient surgeries and appointments for the rest of the day.",
@@ -175,46 +218,23 @@
    "ai": true
   },
   {
-   "id": "eeae20ed2a",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "db9c3d39a9",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-   "snippet": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-   "published": "2026-10-27T14:09:46.000Z",
+   "title": "DIA: China has tripled its satellite fleet since 2018 as expansion continues",
+   "url": "https://breakingdefense.com/2026/10/dia-china-has-tripled-its-satellite-fleet-since-2018-as-expansion-continues/",
+   "snippet": "The Defense Intelligence Agency’s third iteration of its unclassified report on space threats also includes a never-before released image of China’s",
+   "published": "2026-10-27T20:56:45.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/eeae20ed2a.webp",
+   "score": 1.6,
+   "image": "/img/news/db9c3d39a9.webp",
    "t": "2026-10-27",
-   "summary": "Tailscale says it is working to patch almost a dozen vulnerabilities that could enable credential theft, server crashes, or root privileges.",
-   "why": "Check SSH exposure and apply vendor patches when available; review for credential misuse or unexpected privilege changes.",
+   "summary": "The Defense Intelligence Agency says China has tripled its satellite fleet since 2018; its unclassified space-threat report includes a newly released image.",
+   "why": "Satellite expansion is relevant to assessing the changing space environment and its strategic significance.",
    "tags": [
-    "SSH",
-    "vulnerabilities",
-    "root"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b611ff4c27",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-   "snippet": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emergi",
-   "published": "2026-10-27T14:01:11.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/b611ff4c27.webp",
-   "t": "2026-10-27",
-   "summary": "Huntress says attackers increasingly abuse legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses while avoiding traditional defenses.",
-   "why": "Review Microsoft 365 sessions and legitimate-tool activity for suspicious use that may evade traditional defenses.",
-   "tags": [
-    "Microsoft 365",
-    "IT tools",
-    "workflows"
+    "satellite fleet",
+    "space threats"
    ],
    "ai": true
   },
@@ -228,7 +248,7 @@
    "snippet": "[Sponsored] Short-range air defense that is designed to move and adapt regardless of vehicle.",
    "published": "2026-10-27T18:48:04.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/7b944901bf.webp",
    "t": "2026-10-27",
    "summary": "A sponsored item describes short-range air defense designed to move and adapt regardless of vehicle.",
@@ -249,7 +269,7 @@
    "snippet": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
    "published": "2026-10-27T17:45:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/6b4122443f.webp",
    "t": "2026-10-27",
    "summary": "Breaking Defense discusses mysteries including the dangers of war in space and the intricacies of upgrading America’s nuclear weapons.",
@@ -270,7 +290,7 @@
    "snippet": "The purpose-built aerial CASEVAC platform is claimed to have completed two battlefield evacuations in a week, including a mission under electronic attack. The post Ukraine’s StarGate Drone Now Evacuating Wounded Soldiers appeared first on TWZ .",
    "published": "2026-10-27T16:32:30.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/0ade343bc9.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that Ukraine’s StarGate drone is claimed to have completed two battlefield evacuations, including one under electronic attack.",
@@ -292,7 +312,7 @@
    "snippet": "Budgetary lessons from the two legacy aircraft can help the Air Force anticipate hard choices for the new F-47, one analyst argues.",
    "published": "2026-10-27T16:13:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/af98acdeeb.webp",
    "t": "2026-10-27",
    "summary": "An analyst argues that budgetary lessons from the F-15 and F-22 can help the Air Force anticipate hard choices in F-47 procurement.",
@@ -314,7 +334,7 @@
    "snippet": "The Air Force granted Lockheed Martin a $694 million contract in late September for the production and fielding of the AGM-183A Air-Launched Rapid Response Weapon, or ARRW.",
    "published": "2026-10-27T19:53:42.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/6e51eaa612.webp",
    "t": "2026-10-27",
    "summary": "The Air Force awarded Lockheed Martin a $694 million contract in late September to produce and field the AGM-183A Air-Launched Rapid Response Weapon, or ARRW.",
@@ -336,7 +356,7 @@
    "snippet": "The Pentagon has been exploring a new paradigm dubbed Cyber Effects-as-a-Service, aiming to purchase specific outcomes as opposed to bespoke capabilities.",
    "published": "2026-10-27T14:00:00.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/a1504a94e2.webp",
    "t": "2026-10-27",
    "summary": "The Pentagon is exploring Cyber Effects-as-a-Service, a model focused on purchasing specific cyber outcomes rather than bespoke capabilities.",
@@ -358,7 +378,7 @@
    "snippet": "[Sponsored] Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS.",
    "published": "2026-10-27T12:24:00.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.42,
    "image": "/img/news/5bf3484da3.webp",
    "t": "2026-10-27",
    "summary": "A sponsored article says electronic warfare, GPS denial and battlefield attrition are driving new requirements for small UAS.",
@@ -371,23 +391,24 @@
    "ai": true
   },
   {
-   "id": "0006404207",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "US Army looks to high-flying balloons to help see, strike along front lines with China",
-   "url": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-   "snippet": "Amid renewed interest in high-altitude balloons, soldiers are looking to them to extend their reach along the first island chain.",
-   "published": "2026-10-27T17:22:47.000Z",
+   "id": "9124bcc767",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "UN report: Russian attacks on Ukraine’s power grid are a ‘crime against humanity’",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/un-report-russian-attacks-on-ukraines-power-grid-are-a-crime-against-humanity/",
+   "snippet": "Russia’s bombardment of Ukraine’s civilian power grid qualifies as a crime against humanity, according to a new report by the UN’s Independent International Commission of Inquiry on Ukraine, writes Kateryna Odarchenko. The post UN report: Russian attacks on Ukraine’s power grid are a ‘crime against humanity’ appeared f",
+   "published": "2026-10-27T21:00:56.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/0006404207.webp",
+   "score": 1.6,
+   "image": "/img/news/9124bcc767.webp",
    "t": "2026-10-27",
-   "summary": "The US Army is exploring high-altitude balloons to extend its reach along the first island chain, Defense News reports.",
-   "why": "Balloons may provide a way to extend surveillance and strike reach along front lines.",
+   "summary": "A UN commission report says Russia’s attacks on Ukraine’s civilian power grid qualify as a crime against humanity.",
+   "why": "Attacks on power infrastructure underscore its strategic and civilian significance in the conflict.",
    "tags": [
-    "high-altitude balloons",
-    "first island chain"
+    "power grid",
+    "Ukraine",
+    "UN report"
    ],
    "ai": true
   },
@@ -401,7 +422,7 @@
    "snippet": "INS-NV with AI processor, tactical-grade MEMS sensors and full-constellation GNSS receiver reduces time to market for visual and inertial navigation systems. Inertial Labs,... The post Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Pla",
    "published": "2026-10-27T15:41:57.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.59,
    "t": "2026-10-27",
    "summary": "Inertial Labs says its INS-NV platform combines an AI processor, tactical-grade MEMS sensors and a full-constellation GNSS receiver to speed development of navigation systems.",
    "why": "The platform brings together inertial and GNSS navigation components for alternative positioning and guidance systems.",
@@ -422,7 +443,7 @@
    "snippet": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first on SpaceNews .",
    "published": "2026-10-27T20:21:30.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.59,
    "image": "/img/news/1d4674042d.webp",
    "t": "2026-10-27",
    "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network.",
@@ -431,28 +452,6 @@
     "satellite",
     "communications",
     "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1ca966fc37",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
-   "published": "2026-10-27T20:19:53.000Z",
-   "also": [],
-   "score": 1.6,
-   "image": "/img/news/1ca966fc37.webp",
-   "t": "2026-10-27",
-   "summary": "The ceasefire across Ukraine's Kherson region was initially planned for stranded residents of Oleshky. Russia and Ukraine say no breaches have been reported.",
-   "why": "The truce concerns residents in Oleshky and the situation in the Kherson region.",
-   "tags": [
-    "ceasefire",
-    "Kherson",
-    "Oleshky"
    ],
    "ai": true
   },
@@ -466,7 +465,7 @@
    "snippet": "Putin is currently looking to exploit Europe’s vulnerabilities as he seeks ways to isolate Ukraine and cut off Kyiv’s European aid lifeline. Civilian infrastructure may be one of the continent’s weakest links, writes Maksym Beznosiuk. The post European infrastructure is vulnerable as Putin escalates Russia’s hybrid war",
    "published": "2026-10-27T20:01:23.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/41218e0acf.webp",
    "t": "2026-10-27",
    "summary": "The Atlantic Council argues that civilian infrastructure may be vulnerable as Russia seeks to isolate Ukraine and cut off Kyiv's European aid lifeline.",
@@ -474,6 +473,28 @@
    "tags": [
     "infrastructure",
     "hybrid war"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1ca966fc37",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+   "published": "2026-10-27T20:19:53.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/1ca966fc37.webp",
+   "t": "2026-10-27",
+   "summary": "The ceasefire across Ukraine's Kherson region was initially planned for stranded residents of Oleshky. Russia and Ukraine say no breaches have been reported.",
+   "why": "The truce concerns residents in Oleshky and the situation in the Kherson region.",
+   "tags": [
+    "ceasefire",
+    "Kherson",
+    "Oleshky"
    ],
    "ai": true
   },
@@ -487,7 +508,7 @@
    "snippet": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
    "published": "2026-10-27T18:28:23.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/5dedfcd594.webp",
    "t": "2026-10-27",
    "summary": "BBC reports that Norway and Finland's leaders held a direct call with Putin, the first such communication by European leaders in more than a year.",
@@ -509,7 +530,7 @@
    "snippet": "A new book details how the country slayed Washington’s foes.",
    "published": "2026-10-27T16:52:34.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/e4a1bdc15e.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says a new book details how Israel “slayed Washington’s foes.”",
@@ -530,7 +551,7 @@
    "snippet": "France and Turkey still disagree on plenty, but Europe’s changing security environment is giving them stronger reasons to cooperate. The post Why France and Turkey are giving defense cooperation another go appeared first on Atlantic Council .",
    "published": "2026-10-27T16:03:50.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/75d434e08e.webp",
    "t": "2026-10-27",
    "summary": "The Atlantic Council says France and Turkey still disagree, but Europe’s changing security environment is giving them stronger reasons to cooperate.",
@@ -539,28 +560,6 @@
     "France",
     "Turkey",
     "defense cooperation"
-   ],
-   "ai": true
-  },
-  {
-   "id": "068b9a50a2",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "West warns of famine risk in Sudan as civil war grinds on",
-   "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
-   "published": "2026-10-27T15:41:46.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/068b9a50a2.webp",
-   "t": "2026-10-27",
-   "summary": "The BBC reports that millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
-   "why": "The crisis has humanitarian and strategic relevance amid conflict, drought and funding cuts.",
-   "tags": [
-    "Sudan",
-    "hunger",
-    "drought"
    ],
    "ai": true
   }
@@ -712,47 +711,47 @@
   }
  ],
  "run_today": [
-  "Review the CISA Known Exploited Vulnerabilities Catalog for the two additions.",
-  "Check whether your environment uses the Mitsubishi Electric products named in the OT advisory.",
-  "Check whether your environment uses EPICS Base and review its CISA advisory."
+  "Inventory shared analytics scripts that run during checkout.",
+  "Check checkout pages for unauthorized script changes or unexpected payment-data collection.",
+  "Review ransomware readiness in light of the reported Nefilim and Hive operator case."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
-   "explainer": "A CISA catalog of vulnerabilities identified as known exploited. It helps defenders prioritize which vulnerabilities to review.",
-   "from_id": "9de4c840c9",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "fromSource": "CISA Advisories"
+   "term": "shared analytics script",
+   "explainer": "A shared analytics script is code used to collect or process information across a platform. In the Convertr report, a compromised script was used to steal shoppers’ payment data during checkout.",
+   "from_id": "7477a331e6",
+   "from": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "ARRW",
-   "explainer": "ARRW is the abbreviation for the Air-Launched Rapid Response Weapon, the hypersonic missile named in the Air Force contract report.",
-   "from_id": "6e51eaa612",
-   "from": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/",
-   "fromSource": "Defense News"
+   "term": "satellite fleet",
+   "explainer": "A satellite fleet is a group of satellites associated with one operator or country. The DIA report discusses China’s satellite fleet in the context of space threats.",
+   "from_id": "db9c3d39a9",
+   "from": "https://breakingdefense.com/2026/10/dia-china-has-tripled-its-satellite-fleet-since-2018-as-expansion-continues/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "satellite network",
-   "explainer": "A satellite network uses connected spacecraft to support communications. The report says the experimental spacecraft could lead to a Ukrainian-controlled network.",
-   "from_id": "1d4674042d",
-   "from": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-   "fromSource": "SpaceNews"
+   "term": "civilian power grid",
+   "explainer": "A civilian power grid is infrastructure that supplies electricity to civilian users. The UN report concerns attacks on Ukraine’s power grid.",
+   "from_id": "9124bcc767",
+   "from": "https://www.atlanticcouncil.org/blogs/ukrainealert/un-report-russian-attacks-on-ukraines-power-grid-are-a-crime-against-humanity/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "analysis": {
-  "headline": "Capability, infrastructure and exposure in focus",
+  "headline": "Infrastructure, access and strategic reach in focus",
   "paragraphs": [
-   "The top stories span cyber risk, navigation and communications technology, and conflict-related developments. CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, while OT advisories name Mitsubishi Electric products and EPICS Base. The snippets point to several areas analysts may need to track without establishing a connection between them.",
-   "The Inertial Labs item describes a platform combining inertial sensors and a full-constellation GNSS receiver. A separate report says an experimental satellite could lead to a Ukrainian-controlled communications network. Together, these stories highlight navigation and communications as technologies with operational and strategic relevance; the snippets do not say how either capability will be used.",
-   "The Kherson ceasefire report says Russia and Ukraine reported no breaches. Another headline describes European infrastructure as vulnerable amid Russia’s hybrid war, while its snippet says civilian infrastructure may be a weak point. For defenders, the cyber advisories and KEV additions warrant attention; analysts can watch how these separate infrastructure and conflict reports develop."
+   "Today’s stories span compromised e-commerce code, ransomware, satellite expansion and attacks on a civilian power grid. Together, they show how digital services and physical infrastructure can carry operational or strategic significance, while the available reports vary in detail and attribution.",
+   "For defenders, the Convertr report points to shared scripts as a place to check for unauthorized changes and exposure of payment data. The ransomware case adds a reminder to maintain readiness. The supplied snippets do not describe specific mitigations or further case details.",
+   "For analysts, the DIA report says China’s satellite fleet has tripled since 2018, while a UN commission report characterizes attacks on Ukraine’s power grid as a crime against humanity. These accounts may help frame questions about space activity and infrastructure vulnerability, but the snippets leave important context unspecified."
   ],
   "takeaways": [
-   "Review CISA’s KEV additions and the named OT advisories.",
-   "Track the satellite test as a possible step toward a Ukrainian-controlled network.",
-   "Treat ceasefire and infrastructure reporting as separate developments."
+   "Check third-party scripts that handle checkout activity.",
+   "Keep ransomware readiness under review.",
+   "Track reporting on satellites and civilian infrastructure."
   ]
  },
  "health": [
@@ -778,7 +777,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 19
+   "n": 18
   },
   {
    "name": "The Record",
@@ -802,7 +801,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Unit 42",
@@ -898,7 +897,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Foreign Policy",
@@ -916,7 +915,7 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "The Diplomat",
@@ -940,7 +939,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 9
   },
   {
    "name": "DW",
