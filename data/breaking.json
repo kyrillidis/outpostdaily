@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T18:00:48.855Z",
+ "updated": "2026-10-27T18:17:41.828Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,29 +7,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -39,12 +19,32 @@
   {
    "name": "BBC World",
    "ok": true,
-   "n": 4
+   "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "The Record",
    "ok": true,
    "n": 5
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X cyber",
@@ -57,9 +57,14 @@
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Daily Dark Web",
@@ -67,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -82,12 +82,12 @@
    "n": 3
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "n789eb49709",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The big reason Boeing’s stock is falling so hard after earnings",
+   "url": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
+   "published": "2026-10-27T17:59:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "ne828bf13fc",
    "kind": "news",
    "group": "markets",
@@ -126,6 +137,17 @@
    "title": "‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto",
    "url": "https://www.marketwatch.com/story/cryptodad-on-stablecoins-bitcoins-role-in-a-portfolio-and-why-he-does-not-directly-own-any-crypto-72472bc1?mod=mw_rss_topstories",
    "published": "2026-10-27T17:53:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na8008ad652",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+   "published": "2026-10-27T17:43:07.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2044,17 +2066,6 @@
    "url": "https://x.com/business/status/2114756514502132142",
    "published": "2026-10-26T16:30:17.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114756475541221644",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "\"No Obvious Solve\": Goldman Says AI's Cost Of Capital Has \"Objectively Repriced\" As Hyperscalers Face Their Financing Week",
-   "url": "https://x.com/zerohedge/status/2114756475541221644",
-   "published": "2026-10-26T16:30:08.000Z",
-   "severity": "normal",
    "verified": false
   },
   {
@@ -5270,17 +5281,6 @@
    "url": "https://x.com/IntCyberDigest/status/2114273507873833126",
    "published": "2026-10-25T08:31:00.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114258408304222593",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Attackers are exploiting a critical Fortinet FortiSIEM flaw that lets them run code without logging in, Canada's Cyber Centre says. Horizon3 released an exploit for CVE-2026-106173 on Oct 20. Version 7.5.1 fixes it. Fortinet still…",
-   "url": "https://x.com/IntCyberDigest/status/2114258408304222593",
-   "published": "2026-10-25T07:31:00.000Z",
-   "severity": "normal",
    "verified": false
   },
   {
