@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-27T19:49:35.056Z",
+ "updated": "2026-10-27T19:56:52.049Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "BleepingComputer",
@@ -12,9 +22,19 @@
    "n": 4
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -27,32 +47,7 @@
    "n": 2
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
@@ -67,11 +62,6 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
    "n": 2
@@ -82,9 +72,19 @@
    "n": 7
   },
   {
-   "name": "Security Affairs",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -130,6 +130,17 @@
    "verified": true
   },
   {
+   "id": "nc75ce4708b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
+   "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+   "published": "2026-10-27T19:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n5889a4e831",
    "kind": "news",
    "group": "crisis",
@@ -148,6 +159,17 @@
    "title": "A hidden ‘triple top’ in oil price charts suggests the rally has run out of gas",
    "url": "https://www.marketwatch.com/story/a-hidden-triple-top-in-oil-price-charts-suggests-the-rally-has-run-out-of-gas-3743d5a1?mod=mw_rss_topstories",
    "published": "2026-10-27T19:24:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5435b35ef8",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Italy ’s Parliament Under Cyber Pressure: Why the Attack on the Chamber Matters",
+   "url": "https://securityaffairs.com/201867/hacking/italys-parliament-under-cyber-pressure-why-the-attack-on-the-chamber-matters.html",
+   "published": "2026-10-27T19:12:30.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -5107,17 +5129,6 @@
    "verified": false
   },
   {
-   "id": "x2114378198792180186",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "‼️🇺🇸 Astrana Health appears in a new leak-site listing involving internal financial, regulatory, operational, and employee data. 🇺🇸 Astrana Health - A U.S.-based healthcare services company focused on physician networks, care…",
-   "url": "https://x.com/DarkWebInformer/status/2114378198792180186",
-   "published": "2026-10-25T15:27:00.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "n38fc0aa4b1",
    "kind": "news",
    "group": "crisis",
@@ -5272,17 +5283,6 @@
    "verified": false
   },
   {
-   "id": "x2114307230258663652",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ TiDB maker PingCAP confirmed hackers spent four weeks copying customer data and source code. Extortion gang FulcrumSec claims 10.6TB and says PingCAP engineers pasted customers' production credentials into Jira. PingCAP tells customers…",
-   "url": "https://x.com/IntCyberDigest/status/2114307230258663652",
-   "published": "2026-10-25T10:45:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114197761205936448",
    "kind": "x",
    "group": "blueteam",
@@ -5334,17 +5334,6 @@
    "title": "Today, 25 years ago, Windows XP was released 25 years later, somewhere in a factory, it’s still running a critical system",
    "url": "https://x.com/cyb3rops/status/2114133337057222887",
    "published": "2026-10-24T23:14:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114082857001931235",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@SwiftOnSecurity",
-   "title": "The real tragedy of executives as you can tell the ones that miss it. Miss doing it. We have one doing grunt stuff on an incident.",
-   "url": "https://x.com/SwiftOnSecurity/status/2114082857001931235",
-   "published": "2026-10-24T19:53:25.000Z",
    "severity": "normal",
    "verified": false
   }
