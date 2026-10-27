@@ -1,9 +1,63 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T11:38:43.667Z",
+ "compiled": "2026-10-27T12:09:19.843Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "928eba252e",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+   "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+   "snippet": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek .",
+   "published": "2026-10-27T12:02:06.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/dreamhost-incident-email-ftp-password-resets/"
+    }
+   ],
+   "score": 1.85,
+   "image": "/img/news/928eba252e.webp",
+   "t": "2026-10-27",
+   "summary": "DreamHost says an issue affected some of its systems, including webmail, prompting email and FTP password resets.",
+   "why": "Check whether affected accounts need password changes and review access to email and FTP.",
+   "tags": [
+    "webmail",
+    "FTP",
+    "password resets"
+   ],
+   "ai": true
+  },
+  {
+   "id": "627cc70bbf",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "University of Copenhagen data breach exposes data of 525,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "snippet": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+   "published": "2026-10-26T22:20:36.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/"
+    }
+   ],
+   "score": 1.66,
+   "image": "/img/news/627cc70bbf.webp",
+   "t": "2026-10-26",
+   "summary": "The University of Copenhagen confirmed hackers accessed a test environment containing personal data belonging to 525,000 people.",
+   "why": "Check access controls and personal data exposure in test environments.",
+   "tags": [
+    "data breach",
+    "test environment",
+    "personal data"
+   ],
+   "ai": true
+  },
   {
    "id": "1813786389",
    "section": "cyber",
@@ -14,7 +68,7 @@
    "snippet": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
    "published": "2026-10-27T10:36:12.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/1813786389.webp",
    "t": "2026-10-27",
    "summary": "Apple says it has backported patches to older iPhones and iPads for a CoreGraphics zero-day exploited in targeted attacks.",
@@ -36,7 +90,7 @@
    "snippet": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
    "published": "2026-10-27T09:25:50.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/4b38edd612.webp",
    "t": "2026-10-27",
    "summary": "ENGIE confirmed that attackers stole customer data after breaching a marketing platform used by business partners.",
@@ -58,7 +112,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
    "published": "2026-10-27T08:20:54.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/77d8f32442.webp",
    "t": "2026-10-27",
    "summary": "CISA says PHP2Shell vulnerabilities are being exploited in attacks and has ordered federal agencies to patch affected systems by Thursday.",
@@ -67,6 +121,28 @@
     "PHP2Shell",
     "CISA",
     "patch"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c99aa3fd55",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+   "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "snippet": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .",
+   "published": "2026-10-27T11:49:57.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/c99aa3fd55.webp",
+   "t": "2026-10-27",
+   "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and backported a fix for an exploited CoreGraphics zero-day to older iPhones.",
+   "why": "Apply available Apple updates, including to older iPhones covered by the backported fix.",
+   "tags": [
+    "CoreGraphics",
+    "zero-day",
+    "patches"
    ],
    "ai": true
   },
@@ -80,7 +156,7 @@
    "snippet": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek .",
    "published": "2026-10-27T10:44:20.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/60e8b95738.webp",
    "t": "2026-10-27",
    "summary": "Anthropic presents its initial public offering as a step toward mitigating risks it believes AI poses.",
@@ -102,7 +178,7 @@
    "snippet": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on SecurityWeek .",
    "published": "2026-10-27T10:02:24.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/177d2de823.webp",
    "t": "2026-10-27",
    "summary": "SecurityWeek says NetScaler zero-days reinforce the need to keep patch management ready for possible further Citrix NetScaler patches.",
@@ -124,7 +200,7 @@
    "snippet": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next s",
    "published": "2026-10-27T09:33:06.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/1da67faa3c.webp",
    "t": "2026-10-27",
    "summary": "Australia's Signals Directorate says it gained access to the Amadey malware operation, cutting off a criminal's access to 180,000 infected computers.",
@@ -146,7 +222,7 @@
    "snippet": "Running at system boot, it periodically polled the update domain to execute any code served, with full privileges. The post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on SecurityWeek .",
    "published": "2026-10-27T09:44:50.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/b7087025de.webp",
    "t": "2026-10-27",
    "summary": "The Popcorn Time updater ran at system boot and periodically checked an update domain, executing supplied code with full privileges.",
@@ -159,67 +235,24 @@
    "ai": true
   },
   {
-   "id": "ea5496feac",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-   "snippet": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an en",
-   "published": "2026-10-27T08:22:43.000Z",
+   "id": "b36315b2d0",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "USAF should buy newly designed air refuelers to meet China threat: Report",
+   "url": "https://breakingdefense.com/2026/10/usaf-should-buy-newly-designed-air-refuelers-to-meet-china-threat-report/",
+   "snippet": "Although there’s a “temptation” to keep buying KC-46s, a plan to procure 75 more of the Boeing-made tankers should be an “upper limit” followed by a new, longer range tanker, the Hudson Institute’s Timothy Walton told Breaking Defense.",
+   "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/ea5496feac.webp",
+   "score": 1.6,
+   "image": "/img/news/b36315b2d0.webp",
    "t": "2026-10-27",
-   "summary": "Security firm Xint says OpenAI's compaction feature could expose hidden reasoning in plain text.",
-   "why": "Assess whether AI features handling sensitive prompts expose information through generated or retained outputs.",
+   "summary": "A Hudson Institute report recommends treating a plan for 75 more KC-46 tankers as an upper limit, then procuring a new, longer-range tanker.",
+   "why": "The debate highlights how tanker range and procurement choices factor into air-refueling plans.",
    "tags": [
-    "OpenAI",
-    "compaction",
-    "hidden reasoning"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a7bcfa86d4",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "snippet": "<div class=\"OutlineElement Ltr SCXW42064574 BCX8\"> <p class=\"text-align-justify\">CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW42064574 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" target=\"_blank\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Cat",
-   "published": "2026-10-26T12:00:00.000Z",
-   "also": [],
-   "score": 1.41,
-   "t": "2026-10-27",
-   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog.",
-   "why": "Check whether your systems are affected and prioritize remediation where applicable.",
-   "tags": [
-    "CISA",
-    "vulnerabilities",
-    "catalog"
-   ],
-   "ai": true
-  },
-  {
-   "id": "46ee8b886d",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
-   "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
-   "snippet": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products. The post Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems appeared first on SecurityWeek .",
-   "published": "2026-10-27T07:14:27.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/46ee8b886d.webp",
-   "t": "2026-10-27",
-   "summary": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, including 37 in maritime-specific products.",
-   "why": "Use the database to identify relevant ship and port vulnerabilities for review and remediation.",
-   "tags": [
-    "vulnerabilities",
-    "ships",
-    "ports"
+    "KC-46",
+    "air refuelers",
+    "longer range"
    ],
    "ai": true
   },
@@ -238,7 +271,7 @@
      "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/"
     }
    ],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/329b26bd6b.webp",
    "t": "2026-10-26",
    "summary": "Israel’s Ministry of Defense says Israel Shipyards will build Cyprus’s new patrol vessel for expanded patrol, surveillance, and search-and-rescue missions.",
@@ -260,7 +293,7 @@
    "snippet": "At Nellis Air Force Base last year, an AI system was tasked with building courses of action, a complex operational problem that military planners have spent generations learning to perform. The AI system took less than a minute to complete its task with solutions rated at 97 percent viable and tactically valid (essenti",
    "published": "2026-10-27T08:00:35.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/2979ee801b.webp",
    "t": "2026-10-27",
    "summary": "War on the Rocks describes an AI system at Nellis Air Force Base building courses of action in less than a minute.",
@@ -282,7 +315,7 @@
    "snippet": "As the Taliban enters its sixth year in power, it remains more powerful than it was before the Sept. 11 attacks. The Taliban’s flag flies in all of Afghanistan’s 34 provinces. While only Russia has formally recognized the group as the country’s government, China and the United Arab Emirates have officially accredited o",
    "published": "2026-10-27T07:30:16.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/804c8ceecb.webp",
    "t": "2026-10-27",
    "summary": "The article says the Taliban remains more powerful than before the Sept. 11 attacks and that its flag flies in all of Afghanistan’s 34 provinces.",
@@ -304,7 +337,7 @@
    "snippet": "Britain will be more secure as a result of a new defence agreement with Poland designed to deter Russian threats.",
    "published": "2026-10-27T10:59:30.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/eb375d47ba.webp",
    "t": "2026-10-27",
    "summary": "The UK says a new defence agreement with Poland is designed to deter Russian threats.",
@@ -326,7 +359,7 @@
    "snippet": "Canada updates its River Class Destroyer combat system design, replacing custom gear with Aegis and Type 26 MOTS solutions to curb risk. The post Canada modifies River-class Destroyer combat system design to focus on Aegis and MOTS solutions appeared first on Naval News .",
    "published": "2026-10-27T09:41:21.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/c484771c80.webp",
    "t": "2026-10-27",
    "summary": "Naval News reports Canada is replacing custom combat-system gear in its River-class Destroyer design with Aegis and Type 26 MOTS solutions to curb risk.",
@@ -348,7 +381,7 @@
    "snippet": "The fortunes of the AGM-183A, which is now set to arm B-52 and B-1 bombers, have now been fully reversed. The post USAF Orders ARRW Hypersonic Missile Into Production, The Same Weapon It Nearly Cancelled appeared first on TWZ .",
    "published": "2026-10-27T00:04:14.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/46562f415c.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that the USAF has ordered the AGM-183A ARRW hypersonic missile into production; the weapon is set to arm B-52 and B-1 bombers.",
@@ -370,7 +403,7 @@
    "snippet": "The meeting between Pakistan, Saudi Arabia, Turkey, and Iran took place as the U.S. and Israel are spinning-up for a new round of strikes. The post Last-Ditch Meeting In Iran Seeks To Stave-Off A Restart Of All-Out Fighting In The Region appeared first on TWZ .",
    "published": "2026-10-26T23:23:37.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.33,
    "image": "/img/news/2fcb4dcb01.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that Pakistan, Saudi Arabia, Turkey, and Iran met as the U.S. and Israel prepared for a possible new round of strikes.",
@@ -383,50 +416,6 @@
    "ai": true
   },
   {
-   "id": "b3e05b0001",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "90 Days No Help: Fortress America’s Goal To Make Bases Resilient Bastions In A Crisis",
-   "url": "https://www.twz.com/nuclear/90-days-no-help-fortress-americas-goal-to-make-bases-resilient-bastions-in-a-crisis",
-   "snippet": "Cyber threats against critical infrastructure are exploding, with worries enemies could neuter U.S. military units before they even leave their garrisons. The post 90 Days No Help: Fortress America’s Goal To Make Bases Resilient Bastions In A Crisis appeared first on TWZ .",
-   "published": "2026-10-26T22:20:20.000Z",
-   "also": [],
-   "score": 1.32,
-   "image": "/img/news/b3e05b0001.webp",
-   "t": "2026-10-26",
-   "summary": "The War Zone reports concerns that cyber threats to critical infrastructure could affect U.S. military units before they leave their garrisons.",
-   "why": "Highlights the operational importance of resilient military bases and critical infrastructure.",
-   "tags": [
-    "cyber threats",
-    "critical infrastructure",
-    "bases"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e02a8b42fd",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Turnout so far highest in decades as Israelis vote in pivotal election",
-   "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
-   "published": "2026-10-27T11:11:33.000Z",
-   "also": [],
-   "score": 1.59,
-   "image": "/img/news/e02a8b42fd.webp",
-   "t": "2026-10-27",
-   "summary": "BBC World says neither leading political bloc may win enough seats for a majority, potentially leaving weeks or months of political wrangling.",
-   "why": "A prolonged process could affect the formation of a government.",
-   "tags": [
-    "Israel",
-    "political blocs",
-    "majority"
-   ],
-   "ai": true
-  },
-  {
    "id": "bdf3738df6",
    "section": "geo",
    "source": "BBC World",
@@ -434,7 +423,7 @@
    "title": "Truce begins in Ukraine city where residents ate weeds to survive",
    "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
-   "published": "2026-10-27T11:17:27.000Z",
+   "published": "2026-10-27T11:53:57.000Z",
    "also": [],
    "score": 1.59,
    "image": "/img/news/bdf3738df6.webp",
@@ -449,6 +438,50 @@
    "ai": true
   },
   {
+   "id": "e02a8b42fd",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Turnout so far highest in decades as Israelis vote in pivotal election",
+   "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
+   "published": "2026-10-27T11:11:33.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/e02a8b42fd.webp",
+   "t": "2026-10-27",
+   "summary": "BBC World says neither leading political bloc may win enough seats for a majority, potentially leaving weeks or months of political wrangling.",
+   "why": "A prolonged process could affect the formation of a government.",
+   "tags": [
+    "Israel",
+    "political blocs",
+    "majority"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1699b65c08",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Netherlands makes U-turn over Eurovision return",
+   "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "A Dutch broadcaster reverses a decision to take part, citing \"sensitivities\" over Israel's participation.",
+   "published": "2026-10-27T11:23:19.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/1699b65c08.webp",
+   "t": "2026-10-27",
+   "summary": "A Dutch broadcaster reversed its decision to take part in Eurovision, citing sensitivities over Israel's participation.",
+   "why": "The reversal shows how geopolitical sensitivities can affect participation in international events.",
+   "tags": [
+    "Netherlands",
+    "Eurovision",
+    "Israel"
+   ],
+   "ai": true
+  },
+  {
    "id": "bc54303bdc",
    "section": "geo",
    "source": "BBC World",
@@ -458,7 +491,7 @@
    "snippet": "The BBC's diplomatic correspondent James Landale reports from Jerusalem as ballots are cast.",
    "published": "2026-10-27T10:17:36.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/bc54303bdc.webp",
    "t": "2026-10-27",
    "summary": "The BBC reports from Jerusalem as ballots are cast in Israel's election, asking what the result may mean for Gaza and the wider world.",
@@ -480,7 +513,7 @@
    "snippet": "Beijing’s evolving industrial playbook is taking shape in Morocco.",
    "published": "2026-10-27T09:00:18.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/3122f3037b.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says Beijing’s evolving industrial playbook is taking shape in Morocco as China works around Europe’s EV tariffs.",
@@ -502,7 +535,7 @@
    "snippet": "Israel faces what many view as one of the most pivotal elections in the country's history.",
    "published": "2026-10-27T08:37:30.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/1d9e497bb1.webp",
    "t": "2026-10-27",
    "summary": "BBC World reports that Israel faces an election many view as pivotal in the country's history.",
@@ -511,6 +544,28 @@
     "Israel",
     "election",
     "government"
+   ],
+   "ai": true
+  },
+  {
+   "id": "69122e2a16",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Former PLO official says Netanyahu-Eisenkot coalition could be possible",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/former-plo-official-says-netanyahu-eisenkot-coalition-could-be-possible?traffic_source=rss",
+   "snippet": "Former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
+   "published": "2026-10-27T11:19:46.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/69122e2a16.webp",
+   "t": "2026-10-27",
+   "summary": "A former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
+   "why": "The divided polls underscore uncertainty around the election outcome and its political context.",
+   "tags": [
+    "Israel",
+    "election",
+    "polls"
    ],
    "ai": true
   },
@@ -524,7 +579,7 @@
    "snippet": "Officials from Iran, Pakistan, Turkiye and Saudi Arabia held talks in Tehran in an effort to stop further escalation.",
    "published": "2026-10-27T10:36:54.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/8fb6baef2f.webp",
    "t": "2026-10-27",
    "summary": "Officials from Iran, Pakistan, Turkiye and Saudi Arabia held talks in Tehran to stop further escalation; Iran says the US is not serious about talks.",
@@ -533,50 +588,6 @@
     "Iran",
     "Tehran",
     "talks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0a0d9ef9b7",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "WNBA Finals: Valkyries beat Dream to reach the brink of their first title",
-   "url": "https://www.aljazeera.com/sports/2026/10/27/wnba-finals-valkyries-beat-dream-to-reach-the-brink-of-their-first-title?traffic_source=rss",
-   "snippet": "Kiah Stokes and Veronica Burton shine for Golden State as Angel Reese's Atlanta team was stifled by a strong defence.",
-   "published": "2026-10-27T09:52:36.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/0a0d9ef9b7.webp",
-   "t": "2026-10-27",
-   "summary": "Al Jazeera reports that the Valkyries beat the Dream to move close to their first title, with Golden State's Kiah Stokes and Veronica Burton shining.",
-   "why": "The result reflects the operational impact of a strong defense in the game.",
-   "tags": [
-    "Valkyries",
-    "Dream",
-    "defence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "80748b6e9c",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israel election results 2026: When will we know who won and what’s next?",
-   "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next?traffic_source=rss",
-   "snippet": "Exit polls are expected soon after voting closes late on Tuesday, but a final verdict might take days.",
-   "published": "2026-10-27T09:22:45.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/80748b6e9c.webp",
-   "t": "2026-10-27",
-   "summary": "Al Jazeera says exit polls are expected soon after voting closes late Tuesday, but a final verdict might take days.",
-   "why": "The gap between exit polls and a final verdict matters when tracking election developments.",
-   "tags": [
-    "Israel election",
-    "exit polls",
-    "voting"
    ],
    "ai": true
   }
@@ -728,47 +739,47 @@
   }
  ],
  "run_today": [
-  "Identify older iPhones and iPads in your inventory and check their patch status.",
-  "Prioritize applying Apple's backported security patches to affected devices.",
-  "Review whether managed iOS devices have update policies that cover older models."
+  "Confirm whether DreamHost email or FTP accounts need password resets, and change affected credentials.",
+  "Check Apple devices for available updates, including older iPhones covered by the backported fix.",
+  "Review patch status for iOS and macOS 27.2 devices."
  ],
  "learn": [
   {
    "domain": "cyber",
    "term": "zero-day",
-   "explainer": "A zero-day is a software vulnerability exploited before a fix is widely available. Here, Apple says the CoreGraphics bug was used in targeted attacks and that patches have been backported to older devices.",
-   "from_id": "1813786389",
-   "from": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-   "fromSource": "BleepingComputer"
+   "explainer": "A zero-day is a software flaw that is being exploited before affected systems have been fully protected by a fix. Apple says its CoreGraphics flaw was exploited and that it backported a fix to older iPhones.",
+   "from_id": "c99aa3fd55",
+   "from": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "fromSource": "SecurityWeek"
   },
   {
    "domain": "warfare",
-   "term": "Aegis",
-   "explainer": "Aegis is a combat-system solution named in the report about Canada's River-class Destroyer design. The snippet says Canada is moving away from custom gear toward Aegis and Type 26 MOTS solutions.",
-   "from_id": "c484771c80",
-   "from": "https://www.navalnews.com/features/2026/10/canada-river-class-destroyer-aegis-mots/",
-   "fromSource": "Naval News"
+   "term": "air refuelers",
+   "explainer": "Air refuelers are aircraft used to refuel other aircraft in flight. The report discusses KC-46 tankers and a proposed new tanker with longer range.",
+   "from_id": "b36315b2d0",
+   "from": "https://breakingdefense.com/2026/10/usaf-should-buy-newly-designed-air-refuelers-to-meet-china-threat-report/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "escalation",
-   "explainer": "Escalation means an increase in the intensity of a conflict or tensions. The report says officials held talks in Tehran in an effort to stop further escalation.",
-   "from_id": "8fb6baef2f",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/27/iran-says-us-not-serious-about-talks-amid-tehran-meeting?traffic_source=rss",
+   "term": "polls",
+   "explainer": "Polls are surveys used to gauge opinions or preferences. In the supplied item, a former PLO official says polls are divided between Netanyahu and Eisenkot.",
+   "from_id": "69122e2a16",
+   "from": "https://www.aljazeera.com/video/newsfeed/2026/10/27/former-plo-official-says-netanyahu-eisenkot-coalition-could-be-possible?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Security, maritime capacity and regional diplomacy in focus",
+  "headline": "Security, Readiness and Uncertainty Across Today’s Briefing",
   "paragraphs": [
-   "The stories span cyber risk, maritime capability and political change. Apple says older devices need backported patches for a zero-day used in targeted attacks, while ENGIE reports customer data theft through a marketing platform used by business partners. Both highlight the importance of looking beyond a single system to the wider technology environment.",
-   "The patrol vessel for Cyprus is described as supporting patrol, surveillance and search-and-rescue missions. The Ukraine ceasefire is meant to enable aid deliveries and civilian evacuation. These reports concern practical access and protection, while the election coverage and China’s industrial activity in Morocco point to wider political and economic contexts.",
-   "For defenders, the Apple and ENGIE reports suggest checking device patch coverage and third-party platforms. For analysts, the stories show how security, operational capability and political developments coexist in the daily picture. Watch for further details on the affected systems, the vessel’s stated roles, and what follows the reported political developments."
+   "The cyber stories point to different response needs: DreamHost says an issue affected some systems and prompted password resets, while Apple patched vulnerabilities and backported a fix for an exploited zero-day. Together, they make account hygiene and timely software updates practical priorities for defenders.",
+   "The air-refueler report frames procurement as a question of limits and range, recommending that planned KC-46 purchases be an upper limit before a new, longer-range tanker. The Cyprus vessel story also describes surveillance and patrol capabilities, showing how equipment choices relate to operational roles.",
+   "Geopolitical uncertainty appears in the divided Israeli election polls and the Dutch broadcaster’s reversal over Eurovision participation. The Oleshky truce is described as intended to allow aid in and civilians out. Analysts should distinguish stated aims and attributed assessments from confirmed outcomes."
   ],
   "takeaways": [
-   "Check older Apple devices for the backported patches.",
-   "Review exposure through platforms used by business partners.",
-   "Separate stated operational aims from confirmed outcomes."
+   "Check affected accounts and prioritize applicable Apple updates.",
+   "Procurement discussions connect platforms to range and operational roles.",
+   "Treat political assessments and stated truce aims as attributed claims."
   ]
  },
  "health": [
@@ -860,7 +871,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -950,13 +961,13 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   },
   {
    "name": "DW",
