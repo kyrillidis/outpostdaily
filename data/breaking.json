@@ -1,40 +1,35 @@
 {
- "updated": "2026-10-27T10:00:11.400Z",
+ "updated": "2026-10-27T10:21:37.843Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "The Record",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
   },
   {
    "name": "BBC World",
@@ -47,14 +42,9 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 2
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
@@ -62,19 +52,19 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 3
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "HTTP 502"
   },
   {
    "name": "Security Affairs",
@@ -87,9 +77,19 @@
    "n": 0
   },
   {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 502"
+  },
+  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,50 @@
   }
  ],
  "items": [
+  {
+   "id": "nbc54303bdc",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "What does Israel's election mean for and the wider world",
+   "url": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-27T10:17:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc0f1269a8a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+   "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+   "published": "2026-10-27T10:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n177d2de823",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+   "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+   "published": "2026-10-27T10:02:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1d3f5ae813",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Customers are chasing higher-rate products, and that’s bad news for banks like HSBC",
+   "url": "https://www.marketwatch.com/story/customers-are-chasing-higher-rate-products-and-thats-bad-news-for-banks-like-hsbc-3a6ec793?mod=mw_rss_topstories",
+   "published": "2026-10-27T10:02:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nb7087025de",
    "kind": "news",
@@ -1542,28 +1586,6 @@
    "published": "2026-10-26T16:00:10.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "x2114748921687761260",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "'Botch Job': After Judge's Ruling Riddled With AI Errors, Appeals Court Allows Mississippi DEI Ban To Take Effect",
-   "url": "https://x.com/zerohedge/status/2114748921687761260",
-   "published": "2026-10-26T16:00:07.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nb58ee10f31",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
-   "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
-   "published": "2026-10-26T16:00:00.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114748385026777263",
