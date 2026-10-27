@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-27T08:48:10.913Z",
+ "updated": "2026-10-27T09:23:29.270Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "BleepingComputer",
@@ -14,10 +24,30 @@
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 1
+   "n": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -27,47 +57,17 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -77,9 +77,9 @@
    "error": "HTTP 502"
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -87,14 +87,14 @@
    "n": 0
   },
   {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X blueteam",
@@ -119,6 +119,39 @@
  ],
  "items": [
   {
+   "id": "n2c3b4f125e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Designer Betsey Johnson takes $7 million SoCal home off the market",
+   "url": "https://www.marketwatch.com/story/designer-betsey-johnson-takes-7-million-socal-home-off-the-market-1f027f0e?mod=mw_rss_topstories",
+   "published": "2026-10-27T09:02:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8a1e8ded3e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The impressive real estate portfolio of sitcom producer Chuck Lorre of ‘Big Bang Theory’ and ‘Two and a Half Men’ fame",
+   "url": "https://www.marketwatch.com/story/the-impressive-real-estate-portfolio-of-sitcom-producer-chuck-lorre-of-big-bang-theory-and-two-and-a-half-men-fame-f8e43ed4?mod=mw_rss_topstories",
+   "published": "2026-10-27T08:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9bf9a3f733",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israelis begin voting as Netanyahu fights for political survival",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/israelis-begin-voting-as-netanyahu-fights-for-political-survival?traffic_source=rss",
+   "published": "2026-10-27T08:38:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n1d9e497bb1",
    "kind": "news",
    "group": "crisis",
@@ -127,6 +160,17 @@
    "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-27T08:37:30.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc9a196af41",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Drone strike kills at least 21 and injures 40 in Sudan’s Nyala",
+   "url": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala?traffic_source=rss",
+   "published": "2026-10-27T08:35:27.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -1456,17 +1500,6 @@
    "verified": true
   },
   {
-   "id": "x2114748387014635874",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Meta, $META, plans to raise up to $95 billion through a series of stock sales to fund its AI infrastructure buildout, per The Wall Street Journal. Meta’s credit default swaps also hit a record high last week, as investors grow wary of how…",
-   "url": "https://x.com/unusual_whales/status/2114748387014635874",
-   "published": "2026-10-26T15:58:00.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "x2114748385026777263",
    "kind": "x",
    "group": "cyber",
@@ -1474,17 +1507,6 @@
    "title": "🚨 Microsoft Teams IT support scams are leading to malware and ransomware attacks. Researchers tracked hundreds of cases where attackers flood inboxes with emails, impersonate IT staff on Teams, and trick employees into granting remote…",
    "url": "https://x.com/TheHackersNews/status/2114748385026777263",
    "published": "2026-10-26T15:57:59.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114747811485159592",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "BRENT OIL REVERSES LOSSES TO TRADE NEAR $117/BBL",
-   "url": "https://x.com/FirstSquawk/status/2114747811485159592",
-   "published": "2026-10-26T15:55:43.000Z",
    "severity": "normal",
    "verified": false
   },
