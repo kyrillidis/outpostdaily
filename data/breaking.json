@@ -1,35 +1,15 @@
 {
- "updated": "2026-10-27T08:27:17.455Z",
+ "updated": "2026-10-27T08:48:10.913Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "MarketWatch",
@@ -37,12 +17,32 @@
    "n": 1
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 7
   },
   {
-   "name": "Dark Reading",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -52,7 +52,7 @@
    "n": 2
   },
   {
-   "name": "Krebs on Security",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -62,7 +62,7 @@
    "n": 1
   },
   {
-   "name": "Hackread",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -72,19 +72,9 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 502"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -92,9 +82,19 @@
    "n": 1
   },
   {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n1d9e497bb1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Why it could take time for a new Israeli government to form",
+   "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-27T08:37:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n77d8f32442",
    "kind": "news",
@@ -225,6 +236,17 @@
    "title": "Palestinian citizens of Israel fear they’re next target if far-right wins",
    "url": "https://www.aljazeera.com/features/2026/10/27/palestinian-citizens-of-israel-fear-theyre-next-target-if-far-right-wins?traffic_source=rss",
    "published": "2026-10-27T06:12:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne02a8b42fd",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israel heads to polls for pivotal election defined by security and democracy",
+   "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-27T05:45:08.000Z",
    "severity": "normal",
    "verified": true
   },
