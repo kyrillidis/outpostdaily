@@ -1,18 +1,33 @@
 {
- "updated": "2026-10-27T11:32:38.346Z",
+ "updated": "2026-10-27T11:45:27.749Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
    "ok": true,
    "n": 3
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
   },
   {
-   "name": "CISA Advisories",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -22,19 +37,9 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "The Hacker News",
@@ -42,22 +47,17 @@
    "n": 3
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "Security Affairs",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ndb1b4afb0d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.",
+   "url": "https://www.marketwatch.com/story/big-techs-earnings-are-on-deck-theres-more-for-investors-to-watch-than-ai-spending-bb566c90?mod=mw_rss_topstories",
+   "published": "2026-10-27T11:31:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n10e48c4b51",
    "kind": "news",
@@ -1618,17 +1629,6 @@
    "url": "https://x.com/LiveSquawk/status/2114750837243154921",
    "published": "2026-10-26T16:07:44.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114750192083734755",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Saudi Arabian state-backed oil company Aramco is nearing agreement with international banks on a $10 billion loan that would bolster its finances as conflicts in the Middle East threaten crude exports",
-   "url": "https://x.com/business/status/2114750192083734755",
-   "published": "2026-10-26T16:05:10.000Z",
-   "severity": "normal",
    "verified": false
   },
   {
