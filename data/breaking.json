@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T00:20:35.651Z",
+ "updated": "2026-10-27T01:05:43.839Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -7,9 +7,29 @@
    "n": 4
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -22,34 +42,14 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 7
   },
   {
    "name": "The Hacker News",
@@ -64,12 +64,17 @@
   {
    "name": "Hackread",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -80,11 +85,6 @@
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 502"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "na46dcda1cd",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Romania says Russia-run sabotage network set fire near weapons factory",
+   "url": "https://www.aljazeera.com/news/2026/10/27/romania-says-russia-run-sabotage-network-set-fire-near-weapons-factory?traffic_source=rss",
+   "published": "2026-10-27T00:33:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n837fe1cef5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+   "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+   "published": "2026-10-27T00:26:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n040fb06b22",
    "kind": "news",
