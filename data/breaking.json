@@ -1,10 +1,25 @@
 {
- "updated": "2026-10-27T18:17:41.828Z",
+ "updated": "2026-10-27T18:28:08.959Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -12,9 +27,9 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 8
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -22,19 +37,9 @@
    "n": 3
   },
   {
-   "name": "BleepingComputer",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "Krebs on Security",
@@ -42,29 +47,19 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
    "name": "Hackread",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Daily Dark Web",
@@ -79,7 +74,12 @@
   {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 3
+   "n": 2
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Security Affairs",
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n6c5018c2b1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "CISA Confirms PHP2Shell Exploitation, Orders Federal Agencies to Patch",
+   "url": "https://hackread.com/cisa-confirm-php2shell-exploit-federal-agencies-patch/",
+   "published": "2026-10-27T18:26:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9df47a48bc",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+   "published": "2026-10-27T18:20:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n789eb49709",
    "kind": "news",
@@ -5042,17 +5064,6 @@
    "verified": false
   },
   {
-   "id": "x2114371254048170020",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Dread has been disabled temporarily from the threat feed.",
-   "url": "https://x.com/DarkWebInformer/status/2114371254048170020",
-   "published": "2026-10-25T14:59:24.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "n3a41108eb6",
    "kind": "news",
    "group": "crisis",
@@ -5270,17 +5281,6 @@
    "url": "https://x.com/IntCyberDigest/status/2114291878720151623",
    "published": "2026-10-25T09:44:00.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114273507873833126",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ A hacker says they leaked 4.1 million records from Emmanuel Macron's party, Renaissance, on a cybercrime forum. Samples show GPS-tagged addresses, door-to-door logs and the names of local organisers. The same hacker claimed data from…",
-   "url": "https://x.com/IntCyberDigest/status/2114273507873833126",
-   "published": "2026-10-25T08:31:00.000Z",
-   "severity": "high",
    "verified": false
   },
   {
