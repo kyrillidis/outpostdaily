@@ -1,25 +1,15 @@
 {
- "updated": "2026-10-27T15:57:42.543Z",
+ "updated": "2026-10-27T16:15:44.758Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 2
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Hacker News",
@@ -32,9 +22,19 @@
    "n": 10
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 11
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "The DFIR Report",
@@ -42,14 +42,14 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
+   "name": "The Record",
    "ok": true,
    "n": 5
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Hackread",
@@ -59,7 +59,7 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,39 @@
   }
  ],
  "items": [
+  {
+   "id": "ndb852607b1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+   "published": "2026-10-27T16:15:39.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "naf406117db",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
+   "url": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss",
+   "published": "2026-10-27T15:53:35.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf3b162d4da",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iranian and Qatari leaders meet at Russian energy forum",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/iranian-and-qatari-leaders-meet-at-russian-energy-forum?traffic_source=rss",
+   "published": "2026-10-27T15:49:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n190503bf0e",
    "kind": "news",
@@ -5273,17 +5306,6 @@
    "verified": false
   },
   {
-   "id": "x2114086675920077242",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@AuroraIntel",
-   "title": "RAF P8 en route from Lossiemouth to support this vessel",
-   "url": "https://x.com/AuroraIntel/status/2114086675920077242",
-   "published": "2026-10-24T20:08:36.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114082857001931235",
    "kind": "x",
    "group": "blueteam",
@@ -5291,17 +5313,6 @@
    "title": "The real tragedy of executives as you can tell the ones that miss it. Miss doing it. We have one doing grunt stuff on an incident.",
    "url": "https://x.com/SwiftOnSecurity/status/2114082857001931235",
    "published": "2026-10-24T19:53:25.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114081300512641175",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@WarMonitors",
-   "title": "Harar Ana iska leh Dir dhaba ana iska leh Moyaale ana iska leh Negelle ana iska leh Babile ana iska leh Awash ana iska leh Garissa Ana iska leh Somaliweyn ana iska leh 🇸🇴",
-   "url": "https://x.com/WarMonitors/status/2114081300512641175",
-   "published": "2026-10-24T19:47:14.000Z",
    "severity": "normal",
    "verified": false
   }
