@@ -1,20 +1,10 @@
 {
- "updated": "2026-10-27T18:28:08.959Z",
+ "updated": "2026-10-27T18:37:24.212Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
   },
   {
    "name": "SecurityWeek",
@@ -22,9 +12,34 @@
    "error": "fetch failed"
   },
   {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 9
   },
   {
    "name": "The DFIR Report",
@@ -37,24 +52,9 @@
    "n": 3
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "Hackread",
@@ -67,19 +67,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
+   "name": "Dark Reading",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Security Affairs",
@@ -87,9 +77,19 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -137,6 +137,28 @@
    "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
    "published": "2026-10-27T18:20:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf70a57d9dd",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Jerusalem Daily: Israeli elections underway",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/jerusalem-daily-israeli-elections-underway?traffic_source=rss",
+   "published": "2026-10-27T18:12:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1e1c78f815",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Arab parties in Israel accuse Netanyahu of inciting hatred to scare voters",
+   "url": "https://www.aljazeera.com/news/2026/10/27/arab-parties-in-israel-accuse-netanyahu-of-inciting-hatred-to-scare-voters?traffic_source=rss",
+   "published": "2026-10-27T18:11:57.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -5238,28 +5260,6 @@
    "published": "2026-10-25T11:39:41.000Z",
    "severity": "high",
    "verified": true
-  },
-  {
-   "id": "x2114311328735092878",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@RALee85",
-   "title": "“In 2025, before the large-scale winter attacks, local generation played a key role in supplying electricity to the city. According to sources at one of the energy companies who spoke to Ekonomichna Pravda, it may have accounted for as…",
-   "url": "https://x.com/RALee85/status/2114311328735092878",
-   "published": "2026-10-25T11:01:17.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114309199778005075",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@RALee85",
-   "title": "Russia struck Epicenter shopping centers in Kharkiv, Zaporizhzhia, Poltava, and Vinnytsia over the past 24 hours.",
-   "url": "https://x.com/RALee85/status/2114309199778005075",
-   "published": "2026-10-25T10:52:49.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114307230258663652",
