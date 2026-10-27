@@ -1,28 +1,8 @@
 {
- "updated": "2026-10-27T05:08:59.349Z",
+ "updated": "2026-10-27T05:52:35.344Z",
  "health": [
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -32,14 +12,34 @@
    "error": "HTTP 402"
   },
   {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -47,12 +47,7 @@
    "n": 1
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -60,6 +55,11 @@
    "name": "SecurityWeek",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Dark Reading",
@@ -77,17 +77,17 @@
    "n": 0
   },
   {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": false,
    "error": "HTTP 502"
   },
   {
    "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -138,6 +138,17 @@
    "url": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election?traffic_source=rss",
    "published": "2026-10-27T04:44:14.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n968629f0ea",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "published": "2026-10-27T04:37:59.000Z",
+   "severity": "high",
    "verified": true
   },
   {
