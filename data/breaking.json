@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-27T21:45:50.138Z",
+ "updated": "2026-10-27T22:13:16.542Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "The Record",
@@ -17,19 +17,9 @@
    "n": 2
   },
   {
-   "name": "Krebs on Security",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 4
   },
   {
    "name": "The Hacker News",
@@ -37,17 +27,12 @@
    "n": 1
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,14 +47,29 @@
    "n": 1
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Hackread",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Security Affairs",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n78275c0ac5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+   "published": "2026-10-27T22:07:34.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nc285740120",
    "kind": "news",
@@ -325,6 +336,17 @@
    "url": "https://www.marketwatch.com/story/is-that-used-ev-worth-the-price-this-checklist-could-save-you-thousands-of-dollars-2e1ab876?mod=mw_rss_topstories",
    "published": "2026-10-27T20:00:00.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n67aef7e7b7",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+   "url": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+   "published": "2026-10-27T19:58:06.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -5204,17 +5226,6 @@
    "verified": false
   },
   {
-   "id": "n9e8f060397",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "published": "2026-10-25T15:49:38.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114382141249458524",
    "kind": "x",
    "group": "darkweb",
@@ -5259,17 +5270,6 @@
    "published": "2026-10-25T15:21:26.000Z",
    "severity": "high",
    "verified": true
-  },
-  {
-   "id": "x2114371906631782674",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ In a test, chasing an expired £350 train refund, Grok 4.7 sent 187 emails in 15 simulated days, 50 to an MP's office. Claude Fable 5.1 blamed the late claim on the user's sick mother. Gemini falsely told her bank she was abroad. None…",
-   "url": "https://x.com/IntCyberDigest/status/2114371906631782674",
-   "published": "2026-10-25T15:02:00.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "n3a41108eb6",
