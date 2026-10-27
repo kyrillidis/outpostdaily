@@ -1,21 +1,6 @@
 {
- "updated": "2026-10-27T20:56:10.714Z",
+ "updated": "2026-10-27T21:06:45.984Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -27,14 +12,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
+   "name": "The Record",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -42,9 +22,24 @@
    "n": 10
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
    "name": "BBC World",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "The DFIR Report",
@@ -52,14 +47,14 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Hackread",
@@ -72,7 +67,17 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -82,14 +87,9 @@
    "n": 2
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X redteam",
@@ -119,6 +119,39 @@
  ],
  "items": [
   {
+   "id": "n38bfe08d35",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My husband wants to sell our $1.5 million home and downsize. But this is where we raised our kids — and I can’t bear to leave.",
+   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+   "published": "2026-10-27T21:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7477a331e6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers hijack Convertr analytics script to steal payment card data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "published": "2026-10-27T20:57:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2834adbdb5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US says it killed five people in strike on alleged drug boat",
+   "url": "https://www.aljazeera.com/news/2026/10/27/us-says-it-killed-five-people-in-strike-on-alleged-drug-boat?traffic_source=rss",
+   "published": "2026-10-27T20:54:38.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "n6689a8d112",
    "kind": "news",
    "group": "darkweb",
@@ -126,6 +159,17 @@
    "title": "Sweet Security Offers All Organizations Affected by HTTP2Shell Virtual Patching Protection at No Cost",
    "url": "https://hackread.com/sweet-security-offers-all-organizations-affected-by-http2shell-virtual-patching-protection-at-no-cost/",
    "published": "2026-10-27T20:52:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne776741055",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Email Bombing, External Teams Chats Form Repeatable Access Path",
+   "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+   "published": "2026-10-27T20:42:40.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2209,17 +2253,6 @@
    "published": "2026-10-26T16:39:48.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114758201484755283",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "Nvidia CEO Jensen Huang has endorsed California's potential new billionaire tax laws, even if it will cost him $8 billion. \"I don't mind paying taxes. The more you make, the more taxes you pay. I'm okay with that. I am the ultimate…",
-   "url": "https://x.com/unusual_whales/status/2114758201484755283",
-   "published": "2026-10-26T16:37:00.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "n3e53d355ce",
@@ -5239,17 +5272,6 @@
    "verified": true
   },
   {
-   "id": "nf12c641a14",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gaza content creator tells Al Jazeera how much her award win means",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/gaza-content-creator-tells-al-jazeera-how-much-her-award-win-means?traffic_source=rss",
-   "published": "2026-10-25T14:16:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114356807741104266",
    "kind": "x",
    "group": "cyber",
@@ -5257,28 +5279,6 @@
    "title": "‼️ A bug bounty hunter says they rooted their 2025 Samsung TV with zero-days and found an AI model tracking what they watch and the ads they skip. The TV also takes screenshots, categorises audio and can tap a soundbar's mic, they say.…",
    "url": "https://x.com/IntCyberDigest/status/2114356807741104266",
    "published": "2026-10-25T14:02:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114337429020979399",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ A Florida police lieutenant is charged with using her police laptop to pull CCTV of her deputy chief leaving the day he was relieved of duty and texting it to 2 subordinates. Warrants hit her phone, iCloud and ChatGPT logs. The Proton…",
-   "url": "https://x.com/IntCyberDigest/status/2114337429020979399",
-   "published": "2026-10-25T12:45:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114329185124540557",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@BleepinComputer",
-   "title": "Open-box Beats Solo 4 headphones with a 50-hour battery are $89.99",
-   "url": "https://x.com/BleepinComputer/status/2114329185124540557",
-   "published": "2026-10-25T12:12:14.000Z",
    "severity": "normal",
    "verified": false
   },
