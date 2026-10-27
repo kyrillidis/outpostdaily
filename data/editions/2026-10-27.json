@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T18:05:53.452Z",
+ "compiled": "2026-10-27T18:33:30.271Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 ",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.77,
+   "score": 1.76,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in the listed Mitsubishi Electric products could allow an attacker to execute arbitrary actions; the snippet cuts off before specifying them.",
    "why": "Check whether these products are in use and review the CISA advisory for further details.",
@@ -35,7 +35,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive inform",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.77,
+   "score": 1.76,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in EPICS Base could cause a denial-of-; the snippet cuts off before completing the impact.",
    "why": "Check whether EPICS Base is in use and review the CISA advisory for further details.",
@@ -43,6 +43,28 @@
     "EPICS Base",
     "vulnerabilities",
     "CISA"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9df47a48bc",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+   "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+   "published": "2026-10-27T18:20:28.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/9df47a48bc.webp",
+   "t": "2026-10-27",
+   "summary": "Microsoft released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, including on systems without automatic certificate trust updates.",
+   "why": "Check whether affected Windows systems have received the updates and whether certificate trust updates are automatic.",
+   "tags": [
+    "Windows",
+    "certificates",
+    "eMudhra"
    ],
    "ai": true
   },
@@ -56,7 +78,7 @@
    "snippet": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
    "published": "2026-10-27T16:15:39.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/db852607b1.webp",
    "t": "2026-10-27",
    "summary": "Warp says user decision logs and telemetry data were exposed in an attack on a third-party vendor in its infrastructure.",
@@ -78,7 +100,7 @@
    "snippet": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
    "published": "2026-10-27T15:07:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/37ead5afc4.webp",
    "t": "2026-10-27",
    "summary": "A UK police watchdog says British police data has been breached several times this decade through third-party IT suppliers.",
@@ -99,7 +121,7 @@
    "snippet": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
    "published": "2026-10-27T14:57:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/319765385a.webp",
    "t": "2026-10-27",
    "summary": "The University of New Mexico hospital diverted ambulances for about two hours after a cyberattack and suspended outpatient surgeries and appointments for the rest of the day.",
@@ -120,7 +142,7 @@
    "snippet": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
    "published": "2026-10-27T14:09:46.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/eeae20ed2a.webp",
    "t": "2026-10-27",
    "summary": "Tailscale says it is working to patch almost a dozen vulnerabilities that could enable credential theft, server crashes, or root privileges.",
@@ -142,7 +164,7 @@
    "snippet": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emergi",
    "published": "2026-10-27T14:01:11.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/b611ff4c27.webp",
    "t": "2026-10-27",
    "summary": "Huntress says attackers increasingly abuse legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses while avoiding traditional defenses.",
@@ -164,7 +186,7 @@
    "snippet": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
    "published": "2026-10-27T13:36:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/37d79b8322.webp",
    "t": "2026-10-27",
    "summary": "Researchers say cybercriminals are embedding infostealer malware in bogus apps that claim to track gas prices, police activity, drone strikes and other concerns in Russia.",
@@ -186,7 +208,7 @@
    "snippet": "The restrictions will be in place from October 27 to 29, coinciding with the Gas Exporting Countries Forum summit and the Russia-Africa summit, Russia's Ministry of Digital Development said Monday.",
    "published": "2026-10-27T13:20:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/933843ff30.webp",
    "t": "2026-10-27",
    "summary": "Russia's Ministry of Digital Development says internet restrictions will run from October 27 to 29, coinciding with two summits.",
@@ -194,27 +216,6 @@
    "tags": [
     "internet restrictions",
     "summits"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4e5f0d8147",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
-   "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
-   "snippet": "CISA added the widely publicized PHP vulnerabilities to the KEV, but didn't specify what kind of exploitation it was observing.",
-   "published": "2026-10-27T13:16:00.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/4e5f0d8147.webp",
-   "t": "2026-10-27",
-   "summary": "CISA added widely publicized PHP vulnerabilities to the KEV, but did not specify the exploitation it observed.",
-   "why": "Check PHP exposure and prioritize assessing and patching affected systems.",
-   "tags": [
-    "PHP",
-    "KEV"
    ],
    "ai": true
   },
@@ -228,10 +229,16 @@
    "snippet": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
    "published": "2026-10-27T17:45:00.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/6b4122443f.webp",
-   "summary": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
-   "ai": false
+   "t": "2026-10-27",
+   "summary": "Breaking Defense discusses mysteries including the dangers of war in space and the intricacies of upgrading America’s nuclear weapons.",
+   "why": "These topics highlight the operational and technology challenges of space warfare and nuclear modernization.",
+   "tags": [
+    "space",
+    "nuclear weapons"
+   ],
+   "ai": true
   },
   {
    "id": "0ade343bc9",
@@ -243,7 +250,7 @@
    "snippet": "The purpose-built aerial CASEVAC platform is claimed to have completed two battlefield evacuations in a week, including a mission under electronic attack. The post Ukraine’s StarGate Drone Now Evacuating Wounded Soldiers appeared first on TWZ .",
    "published": "2026-10-27T16:32:30.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/0ade343bc9.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that Ukraine’s StarGate drone is claimed to have completed two battlefield evacuations, including one under electronic attack.",
@@ -265,7 +272,7 @@
    "snippet": "Budgetary lessons from the two legacy aircraft can help the Air Force anticipate hard choices for the new F-47, one analyst argues.",
    "published": "2026-10-27T16:13:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/af98acdeeb.webp",
    "t": "2026-10-27",
    "summary": "An analyst argues that budgetary lessons from the F-15 and F-22 can help the Air Force anticipate hard choices in F-47 procurement.",
@@ -300,6 +307,27 @@
    "ai": true
   },
   {
+   "id": "c1a2687fab",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Navantia Launches Second F110 Frigate ‘Roger de Lauria’ Four Months Ahead of Schedule",
+   "url": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-second-f110-frigate-roger-de-lauria-four-months-ahead-of-schedule/",
+   "snippet": "Navantia has successfully launched the second F110-class frigate, Roger de Lauria (F112), for the Spanish Navy four months ahead of schedule in Ferrol. The post Navantia Launches Second F110 Frigate ‘Roger de Lauria’ Four Months Ahead of Schedule appeared first on Naval News .",
+   "published": "2026-10-27T18:26:23.000Z",
+   "also": [],
+   "score": 1.5,
+   "t": "2026-10-27",
+   "summary": "Navantia launched the second F110-class frigate, Roger de Lauria, for the Spanish Navy in Ferrol, four months ahead of schedule.",
+   "why": "The launch is a milestone in the Spanish Navy’s F110 frigate program.",
+   "tags": [
+    "F110",
+    "frigate",
+    "Spanish Navy"
+   ],
+   "ai": true
+  },
+  {
    "id": "0006404207",
    "section": "warfare",
    "source": "Defense News",
@@ -309,7 +337,7 @@
    "snippet": "Amid renewed interest in high-altitude balloons, soldiers are looking to them to extend their reach along the first island chain.",
    "published": "2026-10-27T17:22:47.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/0006404207.webp",
    "t": "2026-10-27",
    "summary": "The US Army is exploring high-altitude balloons to extend its reach along the first island chain, Defense News reports.",
@@ -317,6 +345,27 @@
    "tags": [
     "high-altitude balloons",
     "first island chain"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b0c5c45a50",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Lockheed Martin Showcases 1000 km PrSM Inc 4 Prototype",
+   "url": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+   "snippet": "Lockheed Martin’s Precision Strike Missile (PrSM) Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away. “As threats evolve throughout the global theater, the Army needs a modernized precision missile that can perform at ranges far beyond current",
+   "published": "2026-10-27T17:41:05.000Z",
+   "also": [],
+   "score": 1.48,
+   "t": "2026-10-27",
+   "summary": "Lockheed Martin says its PrSM Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away.",
+   "why": "The prototype combines long-range strike capability with sensing intended to engage moving ships.",
+   "tags": [
+    "PrSM",
+    "ramjet",
+    "sensor suite"
    ],
    "ai": true
   },
@@ -330,7 +379,7 @@
    "snippet": "[Sponsored] Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS.",
    "published": "2026-10-27T12:24:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/5bf3484da3.webp",
    "t": "2026-10-27",
    "summary": "A sponsored article says electronic warfare, GPS denial and battlefield attrition are driving new requirements for small UAS.",
@@ -339,50 +388,6 @@
     "electronic warfare",
     "GPS denial",
     "small UAS"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b36315b2d0",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "USAF should buy newly designed air refuelers to meet China threat: Report",
-   "url": "https://breakingdefense.com/2026/10/usaf-should-buy-newly-designed-air-refuelers-to-meet-china-threat-report/",
-   "snippet": "Although there’s a “temptation” to keep buying KC-46s, a plan to procure 75 more of the Boeing-made tankers should be an “upper limit” followed by a new, longer range tanker, the Hudson Institute’s Timothy Walton told Breaking Defense.",
-   "published": "2026-10-27T12:00:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/b36315b2d0.webp",
-   "t": "2026-10-27",
-   "summary": "A Hudson Institute report recommends treating a plan for 75 more KC-46 tankers as an upper limit, then procuring a new, longer-range tanker.",
-   "why": "The debate highlights how tanker range and procurement choices factor into air-refueling plans.",
-   "tags": [
-    "KC-46",
-    "air refuelers",
-    "longer range"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e8d31ca8f9",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "US taps Poland to host European PAC-3 missile maintenance facility",
-   "url": "https://www.defensenews.com/global/europe/2026/10/27/us-taps-poland-to-host-european-pac-3-missile-maintenance-facility/",
-   "snippet": "The United States government has selected Poland to host a new European maintenance facility for Patriot Advanced Capability-3 (PAC-3) interceptors.",
-   "published": "2026-10-27T16:42:28.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/e8d31ca8f9.webp",
-   "t": "2026-10-27",
-   "summary": "The United States selected Poland to host a European maintenance facility for PAC-3 interceptors, Defense News reports.",
-   "why": "The facility’s location is relevant to European interceptor support and maintenance.",
-   "tags": [
-    "Poland",
-    "PAC-3",
-    "maintenance facility"
    ],
    "ai": true
   },
@@ -401,7 +406,7 @@
      "url": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss"
     }
    ],
-   "score": 1.81,
+   "score": 1.8,
    "image": "/img/news/1699b65c08.webp",
    "t": "2026-10-27",
    "summary": "A Dutch broadcaster reversed its decision to take part in Eurovision, citing sensitivities over Israel's participation.",
@@ -423,7 +428,7 @@
    "snippet": "INS-NV with AI processor, tactical-grade MEMS sensors and full-constellation GNSS receiver reduces time to market for visual and inertial navigation systems. Inertial Labs,... The post Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Pla",
    "published": "2026-10-27T15:41:57.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.64,
    "t": "2026-10-27",
    "summary": "Inertial Labs says its INS-NV platform combines an AI processor, tactical-grade MEMS sensors and a full-constellation GNSS receiver to speed development of navigation systems.",
    "why": "The platform brings together inertial and GNSS navigation components for alternative positioning and guidance systems.",
@@ -435,24 +440,24 @@
    "ai": true
   },
   {
-   "id": "e02a8b42fd",
+   "id": "5dedfcd594",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Turnout so far highest on record as Israelis vote in pivotal election",
-   "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
-   "published": "2026-10-27T17:39:57.000Z",
+   "title": "Norway and Finland leaders hold rare call with Putin",
+   "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+   "published": "2026-10-27T18:28:23.000Z",
    "also": [],
-   "score": 1.59,
-   "image": "/img/news/e02a8b42fd.webp",
+   "score": 1.6,
+   "image": "/img/news/5dedfcd594.webp",
    "t": "2026-10-27",
-   "summary": "BBC World says neither leading political bloc may win enough seats for a majority, potentially leaving weeks or months of political wrangling.",
-   "why": "A prolonged process could affect the formation of a government.",
+   "summary": "BBC reports that Norway and Finland's leaders held a direct call with Putin, the first such communication by European leaders in more than a year.",
+   "why": "The call is a notable channel of direct communication in European geopolitics.",
    "tags": [
-    "Israel",
-    "political blocs",
-    "majority"
+    "Norway",
+    "Finland",
+    "communication"
    ],
    "ai": true
   },
@@ -466,7 +471,7 @@
    "snippet": "A new book details how the country slayed Washington’s foes.",
    "published": "2026-10-27T16:52:34.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/e4a1bdc15e.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says a new book details how Israel “slayed Washington’s foes.”",
@@ -487,7 +492,7 @@
    "snippet": "France and Turkey still disagree on plenty, but Europe’s changing security environment is giving them stronger reasons to cooperate. The post Why France and Turkey are giving defense cooperation another go appeared first on Atlantic Council .",
    "published": "2026-10-27T16:03:50.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/75d434e08e.webp",
    "t": "2026-10-27",
    "summary": "The Atlantic Council says France and Turkey still disagree, but Europe’s changing security environment is giving them stronger reasons to cooperate.",
@@ -509,7 +514,7 @@
    "snippet": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
    "published": "2026-10-27T15:41:46.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/068b9a50a2.webp",
    "t": "2026-10-27",
    "summary": "The BBC reports that millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
@@ -531,7 +536,7 @@
    "snippet": "Reports are on the rise of hacks at federal courts in the United States, putting sensitive data, such as informants' identities, at risk. In litigation involving spyware, even more sensitive data is at risk. What protective measures should be in place to safeguard evidence? The post Any means necessary: Are courts safe",
    "published": "2026-10-27T15:00:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/c79d72744e.webp",
    "t": "2026-10-27",
    "summary": "The Atlantic Council reports rising hacks at US federal courts, putting sensitive data at risk; spyware litigation may expose even more sensitive information.",
@@ -553,7 +558,7 @@
    "snippet": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
    "published": "2026-10-27T15:13:24.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/bdf3738df6.webp",
    "t": "2026-10-27",
    "summary": "A ceasefire has begun in a wartorn Ukrainian city, with aid deliveries and civilian evacuation as its stated purposes.",
@@ -713,47 +718,47 @@
   }
  ],
  "run_today": [
-  "Review the Mitsubishi Electric and EPICS Base advisories and verify whether affected systems need remediation.",
-  "Check whether Mitsubishi Electric and EPICS Base systems are exposed to the successful exploitation described in the advisories.",
-  "Track remediation status for affected OT products and follow updates to the advisories."
+  "Identify Windows systems that do not receive automatic certificate trust updates.",
+  "Check whether affected systems have received Microsoft’s out-of-band updates.",
+  "Review certificate trust on systems that may still rely on the compromised eMudhra keys."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Successful exploitation",
-   "explainer": "The advisory snippets say successful exploitation of vulnerabilities in the named OT products. For a beginner, this means the notices report that someone has used a weakness in a system, though the supplied text gives no further details.",
-   "from_id": "9cfdf1956a",
-   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
-   "fromSource": "CISA Advisories"
+   "term": "certificate authority keys",
+   "explainer": "A certificate authority uses keys to support digital certificates that systems can trust. If those keys are compromised, trust in related certificates may need to be removed.",
+   "from_id": "9df47a48bc",
+   "from": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "High-altitude balloons",
-   "explainer": "High-altitude balloons are balloons flown high above the ground. In the supplied story, the US Army is looking at them to extend reach along the first island chain.",
-   "from_id": "0006404207",
-   "from": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-   "fromSource": "Defense News"
+   "term": "ramjet technology",
+   "explainer": "A ramjet is an engine concept named in the PrSM Increment 4 prototype report. The snippet says the prototype will use this technology, but does not explain how it works.",
+   "from_id": "b0c5c45a50",
+   "from": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "First island chain",
-   "explainer": "The first island chain is a geographic term used in the supplied story to describe an area along which the US Army wants to extend its reach. The snippet does not define its boundaries.",
-   "from_id": "0006404207",
-   "from": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-   "fromSource": "Defense News"
+   "term": "Israel participation",
+   "explainer": "In the Eurovision story, Israel’s participation is the issue cited by a Dutch broadcaster when reversing its decision to take part. The snippet describes a political sensitivity affecting participation.",
+   "from_id": "1699b65c08",
+   "from": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Technology, exposure and political choices",
+  "headline": "Resilience across systems, strategy, and operations",
   "paragraphs": [
-   "The stories span military reach, European support for interceptors and political debate over Israel. The top stories also include OT advisories and an exposed AI-agent data breach. Together, they show how security and strategic questions arise across very different systems and institutions.",
-   "For defenders, the OT notices and Warp breach make checking advisories, affected systems and third-party exposure relevant. The snippets provide little detail, so they do not establish the scope of risk or what mitigation is required. Analysts should distinguish stated claims from missing information.",
-   "The balloon story suggests interest in extending reach along the first island chain, while Poland’s selection points to a European location for PAC-3 maintenance. The Eurovision decision and Israel-focused stories show political sensitivities around participation and alliances. Watch for further details in the supplied advisories and coverage."
+   "Today’s stories range from certificate trust and industrial-control advisories to navigation technology, military platforms, and political decisions. Together, they show how technical systems and institutions can face distinct pressures: compromised keys, reported successful exploitation, changing equipment capabilities, and contested participation.",
+   "For defenders, Microsoft’s update is a direct prompt to check systems that may not receive automatic trust updates. The industrial-control entries in the top stories also report successful exploitation, though the supplied snippets do not identify the vulnerabilities or affected products in detail. Analysts should keep those limits in view.",
+   "The geospatial and military items describe an inertial navigation platform, a drone evacuation claim, and discussion of space warfare and nuclear modernization. These suggest areas where sensing, navigation, and operational context matter. Watch for further details in the source material; the snippets alone do not establish broader outcomes."
   ],
   "takeaways": [
-   "Check OT advisories and third-party exposure; the snippets do not specify remediation.",
-   "Balloons and interceptor maintenance are distinct elements of military reach and support.",
-   "Political sensitivities appear in both Eurovision participation and discussion of Israel."
+   "Check Windows systems that may miss automatic certificate trust updates.",
+   "Treat the industrial-control exploitation reports as a prompt to consult their advisories.",
+   "Keep claims about navigation and battlefield systems attributed to their sources."
   ]
  },
  "health": [
@@ -778,8 +783,8 @@
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": true,
-   "n": 19
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "The Record",
@@ -790,8 +795,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
@@ -862,8 +867,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 8
   },
   {
    "name": "Bellingcat",
@@ -935,7 +940,7 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Al Jazeera",
