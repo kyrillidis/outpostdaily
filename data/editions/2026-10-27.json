@@ -1,36 +1,9 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T12:49:30.411Z",
+ "compiled": "2026-10-27T13:10:51.489Z",
  "model": "gpt-6-luna",
  "items": [
-  {
-   "id": "a6006728be",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-   "snippet": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, ",
-   "published": "2026-10-27T12:09:50.000Z",
-   "also": [
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/10/27/microsoft-authenticator-vulnerability-patchedcve-2026-80097/"
-    }
-   ],
-   "score": 1.84,
-   "image": "/img/news/a6006728be.webp",
-   "t": "2026-10-27",
-   "summary": "Microsoft says it fixed an Android Authenticator flaw that let an app with no permissions pose as a trusted Microsoft app and collect work-account sign-in tokens.",
-   "why": "Check Android devices for untrusted apps and ensure Authenticator is updated.",
-   "tags": [
-    "Android",
-    "Authenticator",
-    "tokens"
-   ],
-   "ai": true
-  },
   {
    "id": "928eba252e",
    "section": "cyber",
@@ -73,7 +46,7 @@
      "url": "https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/"
     }
    ],
-   "score": 1.65,
+   "score": 1.64,
    "image": "/img/news/627cc70bbf.webp",
    "t": "2026-10-26",
    "summary": "The University of Copenhagen confirmed hackers accessed a test environment containing personal data belonging to 525,000 people.",
@@ -117,7 +90,7 @@
    "snippet": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
    "published": "2026-10-27T09:25:50.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/4b38edd612.webp",
    "t": "2026-10-27",
    "summary": "ENGIE confirmed that attackers stole customer data after breaching a marketing platform used by business partners.",
@@ -139,7 +112,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
    "published": "2026-10-27T08:20:54.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/77d8f32442.webp",
    "t": "2026-10-27",
    "summary": "CISA says PHP2Shell vulnerabilities are being exploited in attacks and has ordered federal agencies to patch affected systems by Thursday.",
@@ -148,6 +121,28 @@
     "PHP2Shell",
     "CISA",
     "patch"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a6006728be",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "snippet": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, ",
+   "published": "2026-10-27T12:09:50.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/a6006728be.webp",
+   "t": "2026-10-27",
+   "summary": "Microsoft says it fixed an Android Authenticator flaw that let an app with no permissions pose as a trusted Microsoft app and collect work-account sign-in tokens.",
+   "why": "Check Android devices for untrusted apps and ensure Authenticator is updated.",
+   "tags": [
+    "Android",
+    "Authenticator",
+    "tokens"
    ],
    "ai": true
   },
@@ -161,7 +156,7 @@
    "snippet": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit",
    "published": "2026-10-27T11:46:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/3fba9192c9.webp",
    "t": "2026-10-27",
    "summary": "Keystone says an attacker obtained the key its hardware wallets use to prove they are genuine; the company plans to destroy 18,835 wallets.",
@@ -169,28 +164,6 @@
    "tags": [
     "hardware wallets",
     "verification key"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c99aa3fd55",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-   "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-   "snippet": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .",
-   "published": "2026-10-27T11:49:57.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/c99aa3fd55.webp",
-   "t": "2026-10-27",
-   "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and backported a fix for an exploited CoreGraphics zero-day to older iPhones.",
-   "why": "Apply available Apple updates, including to older iPhones covered by the backported fix.",
-   "tags": [
-    "CoreGraphics",
-    "zero-day",
-    "patches"
    ],
    "ai": true
   },
@@ -239,6 +212,28 @@
    "ai": true
   },
   {
+   "id": "c99aa3fd55",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+   "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "snippet": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .",
+   "published": "2026-10-27T11:49:57.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/c99aa3fd55.webp",
+   "t": "2026-10-27",
+   "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and backported a fix for an exploited CoreGraphics zero-day to older iPhones.",
+   "why": "Apply available Apple updates, including to older iPhones covered by the backported fix.",
+   "tags": [
+    "CoreGraphics",
+    "zero-day",
+    "patches"
+   ],
+   "ai": true
+  },
+  {
    "id": "5bf3484da3",
    "section": "warfare",
    "source": "Breaking Defense",
@@ -248,7 +243,7 @@
    "snippet": "[Sponsored] Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS.",
    "published": "2026-10-27T12:24:00.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/5bf3484da3.webp",
    "t": "2026-10-27",
    "summary": "A sponsored article says electronic warfare, GPS denial and battlefield attrition are driving new requirements for small UAS.",
@@ -283,33 +278,6 @@
    "ai": true
   },
   {
-   "id": "329b26bd6b",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Cyprus to acquire new offshore patrol vessel with ‘advanced’ naval systems from Israel",
-   "url": "https://breakingdefense.com/2026/10/cyprus-to-acquire-new-offshore-patrol-vessel-with-advanced-naval-systems-from-israel/",
-   "snippet": "The new patrol vessel will be built by Israel Shipyards and “support expanded patrol, surveillance, and search-and-rescue missions,” according to Israel’s Ministry of Defense.",
-   "published": "2026-10-26T18:11:59.000Z",
-   "also": [
-    {
-     "source": "Naval News",
-     "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/"
-    }
-   ],
-   "score": 1.56,
-   "image": "/img/news/329b26bd6b.webp",
-   "t": "2026-10-26",
-   "summary": "Israel’s Ministry of Defense says Israel Shipyards will build Cyprus’s new patrol vessel for expanded patrol, surveillance, and search-and-rescue missions.",
-   "why": "The vessel’s stated mission set links maritime surveillance with patrol and rescue operations.",
-   "tags": [
-    "Cyprus",
-    "patrol vessel",
-    "surveillance"
-   ],
-   "ai": true
-  },
-  {
    "id": "2979ee801b",
    "section": "warfare",
    "source": "War on the Rocks",
@@ -319,7 +287,7 @@
    "snippet": "At Nellis Air Force Base last year, an AI system was tasked with building courses of action, a complex operational problem that military planners have spent generations learning to perform. The AI system took less than a minute to complete its task with solutions rated at 97 percent viable and tactically valid (essenti",
    "published": "2026-10-27T08:00:35.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/2979ee801b.webp",
    "t": "2026-10-27",
    "summary": "War on the Rocks describes an AI system at Nellis Air Force Base building courses of action in less than a minute.",
@@ -341,7 +309,7 @@
    "snippet": "As the Taliban enters its sixth year in power, it remains more powerful than it was before the Sept. 11 attacks. The Taliban’s flag flies in all of Afghanistan’s 34 provinces. While only Russia has formally recognized the group as the country’s government, China and the United Arab Emirates have officially accredited o",
    "published": "2026-10-27T07:30:16.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/804c8ceecb.webp",
    "t": "2026-10-27",
    "summary": "The article says the Taliban remains more powerful than before the Sept. 11 attacks and that its flag flies in all of Afghanistan’s 34 provinces.",
@@ -363,7 +331,7 @@
    "snippet": "Britain will be more secure as a result of a new defence agreement with Poland designed to deter Russian threats.",
    "published": "2026-10-27T10:59:30.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/eb375d47ba.webp",
    "t": "2026-10-27",
    "summary": "The UK says a new defence agreement with Poland is designed to deter Russian threats.",
@@ -372,28 +340,6 @@
     "UK",
     "Poland",
     "defence agreement"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c484771c80",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Canada modifies River-class Destroyer combat system design to focus on Aegis and MOTS solutions",
-   "url": "https://www.navalnews.com/features/2026/10/canada-river-class-destroyer-aegis-mots/",
-   "snippet": "Canada updates its River Class Destroyer combat system design, replacing custom gear with Aegis and Type 26 MOTS solutions to curb risk. The post Canada modifies River-class Destroyer combat system design to focus on Aegis and MOTS solutions appeared first on Naval News .",
-   "published": "2026-10-27T09:41:21.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/c484771c80.webp",
-   "t": "2026-10-27",
-   "summary": "Naval News reports Canada is replacing custom combat-system gear in its River-class Destroyer design with Aegis and Type 26 MOTS solutions to curb risk.",
-   "why": "The shift highlights combat-system choices and risk management in ship design.",
-   "tags": [
-    "Aegis",
-    "combat system",
-    "MOTS"
    ],
    "ai": true
   },
@@ -420,6 +366,50 @@
    "ai": true
   },
   {
+   "id": "2fcb4dcb01",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Last-Ditch Meeting In Iran Seeks To Stave-Off A Restart Of All-Out Fighting In The Region",
+   "url": "https://www.twz.com/news-features/last-ditch-meeting-in-iran-seeks-to-stave-off-a-restart-of-all-out-fighting-in-the-region",
+   "snippet": "The meeting between Pakistan, Saudi Arabia, Turkey, and Iran took place as the U.S. and Israel are spinning-up for a new round of strikes. The post Last-Ditch Meeting In Iran Seeks To Stave-Off A Restart Of All-Out Fighting In The Region appeared first on TWZ .",
+   "published": "2026-10-26T23:23:37.000Z",
+   "also": [],
+   "score": 1.31,
+   "image": "/img/news/2fcb4dcb01.webp",
+   "t": "2026-10-27",
+   "summary": "The War Zone reports that Pakistan, Saudi Arabia, Turkey, and Iran met as the U.S. and Israel prepared for a possible new round of strikes.",
+   "why": "The meeting and reported preparations highlight regional diplomatic and military activity.",
+   "tags": [
+    "Iran",
+    "meeting",
+    "strikes"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b3e05b0001",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "90 Days No Help: Fortress America’s Goal To Make Bases Resilient Bastions In A Crisis",
+   "url": "https://www.twz.com/nuclear/90-days-no-help-fortress-americas-goal-to-make-bases-resilient-bastions-in-a-crisis",
+   "snippet": "Cyber threats against critical infrastructure are exploding, with worries enemies could neuter U.S. military units before they even leave their garrisons. The post 90 Days No Help: Fortress America’s Goal To Make Bases Resilient Bastions In A Crisis appeared first on TWZ .",
+   "published": "2026-10-26T22:20:20.000Z",
+   "also": [],
+   "score": 1.29,
+   "image": "/img/news/b3e05b0001.webp",
+   "t": "2026-10-26",
+   "summary": "The War Zone reports concerns that cyber threats to critical infrastructure could affect U.S. military units before they leave their garrisons.",
+   "why": "Highlights the operational importance of resilient military bases and critical infrastructure.",
+   "tags": [
+    "cyber threats",
+    "critical infrastructure",
+    "bases"
+   ],
+   "ai": true
+  },
+  {
    "id": "bdf3738df6",
    "section": "geo",
    "source": "BBC World",
@@ -429,7 +419,7 @@
    "snippet": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
    "published": "2026-10-27T11:53:57.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/bdf3738df6.webp",
    "t": "2026-10-27",
    "summary": "A ceasefire has begun in a wartorn Ukrainian city, with aid deliveries and civilian evacuation as its stated purposes.",
@@ -451,7 +441,7 @@
    "snippet": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
    "published": "2026-10-27T11:11:33.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/e02a8b42fd.webp",
    "t": "2026-10-27",
    "summary": "BBC World says neither leading political bloc may win enough seats for a majority, potentially leaving weeks or months of political wrangling.",
@@ -473,7 +463,7 @@
    "snippet": "A Dutch broadcaster reverses a decision to take part, citing \"sensitivities\" over Israel's participation.",
    "published": "2026-10-27T11:23:19.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/1699b65c08.webp",
    "t": "2026-10-27",
    "summary": "A Dutch broadcaster reversed its decision to take part in Eurovision, citing sensitivities over Israel's participation.",
@@ -495,7 +485,7 @@
    "snippet": "The BBC's diplomatic correspondent James Landale reports from Jerusalem as ballots are cast.",
    "published": "2026-10-27T10:17:36.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/bc54303bdc.webp",
    "t": "2026-10-27",
    "summary": "The BBC reports from Jerusalem as ballots are cast in Israel's election, asking what the result may mean for Gaza and the wider world.",
@@ -517,7 +507,7 @@
    "snippet": "Beijing’s evolving industrial playbook is taking shape in Morocco.",
    "published": "2026-10-27T09:00:18.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/3122f3037b.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says Beijing’s evolving industrial playbook is taking shape in Morocco as China works around Europe’s EV tariffs.",
@@ -561,7 +551,7 @@
    "snippet": "Former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
    "published": "2026-10-27T11:19:46.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/69122e2a16.webp",
    "t": "2026-10-27",
    "summary": "A former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
@@ -892,8 +882,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 6
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -940,8 +930,8 @@
   {
    "name": "SpaceNews",
    "section": "geo",
-   "ok": true,
-   "n": 1
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "name": "RAND",
@@ -977,7 +967,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 9
   }
  ]
 }
