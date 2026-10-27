@@ -1,15 +1,25 @@
 {
- "updated": "2026-10-27T18:58:09.233Z",
+ "updated": "2026-10-27T19:12:46.476Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "SecurityWeek",
    "ok": false,
-   "error": "HTTP 402"
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -19,7 +29,12 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 9
+   "n": 8
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -37,29 +52,14 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "Hackread",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Dark Reading",
@@ -67,9 +67,14 @@
    "n": 2
   },
   {
-   "name": "SecurityWeek",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 3
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -78,11 +83,6 @@
   },
   {
    "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Security Affairs",
    "ok": true,
    "n": 1
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n83442398cb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia jails IT worker for 13 years for donating money to Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/10/27/russia-jails-it-worker-for-13-years-for-donating-money-to-ukraine?traffic_source=rss",
+   "published": "2026-10-27T18:42:48.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n79db43cd1e",
    "kind": "news",
@@ -5259,17 +5270,6 @@
    "published": "2026-10-25T11:45:00.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "n83d9e574cd",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
-   "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
-   "published": "2026-10-25T11:39:41.000Z",
-   "severity": "high",
-   "verified": true
   },
   {
    "id": "x2114307230258663652",
