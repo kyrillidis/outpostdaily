@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T19:32:57.737Z",
+ "compiled": "2026-10-27T20:05:12.584Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 ",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.74,
+   "score": 1.73,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in the listed Mitsubishi Electric products could allow an attacker to execute arbitrary actions; the snippet cuts off before specifying them.",
    "why": "Check whether these products are in use and review the CISA advisory for further details.",
@@ -35,7 +35,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive inform",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.74,
+   "score": 1.73,
    "t": "2026-10-27",
    "summary": "CISA says successful exploitation of vulnerabilities in EPICS Base could cause a denial-of-; the snippet cuts off before completing the impact.",
    "why": "Check whether EPICS Base is in use and review the CISA advisory for further details.",
@@ -43,6 +43,48 @@
     "EPICS Base",
     "vulnerabilities",
     "CISA"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9de4c840c9",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48356\" target=\"_blank\">CVE-2026-48356</a> A",
+   "published": "2026-10-27T12:00:00.000Z",
+   "also": [],
+   "score": 1.73,
+   "t": "2026-10-27",
+   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
+   "why": "Check whether your systems are affected and prioritize remediation using the KEV Catalog.",
+   "tags": [
+    "CISA",
+    "KEV",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c75ce4708b",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
+   "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+   "snippet": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
+   "published": "2026-10-27T19:30:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/c75ce4708b.webp",
+   "t": "2026-10-27",
+   "summary": "The Record reports a US indictment of a Malaysian national and a sting in Madagascar, highlighting the scam center industry's global reach.",
+   "why": "Review how staff identify and report suspected scam-related contacts.",
+   "tags": [
+    "scam centers",
+    "Madagascar"
    ],
    "ai": true
   },
@@ -56,7 +98,7 @@
    "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
    "published": "2026-10-27T18:20:28.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/9df47a48bc.webp",
    "t": "2026-10-27",
    "summary": "Microsoft released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, including on systems without automatic certificate trust updates.",
@@ -78,7 +120,7 @@
    "snippet": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
    "published": "2026-10-27T16:15:39.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/db852607b1.webp",
    "t": "2026-10-27",
    "summary": "Warp says user decision logs and telemetry data were exposed in an attack on a third-party vendor in its infrastructure.",
@@ -100,7 +142,7 @@
    "snippet": "His Majesty’s Inspectorate of Constabulary and Fire & Rescue Services says British police data has been breach several times this decade through third-party IT suppliers.",
    "published": "2026-10-27T15:07:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/37ead5afc4.webp",
    "t": "2026-10-27",
    "summary": "A UK police watchdog says British police data has been breached several times this decade through third-party IT suppliers.",
@@ -121,7 +163,7 @@
    "snippet": "For about two hours on Monday, the organization diverted ambulances to health systems in Albuquerque and Santa Fe. They were forced to suspend outpatient surgeries and appointments for the remainder of the day.",
    "published": "2026-10-27T14:57:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/319765385a.webp",
    "t": "2026-10-27",
    "summary": "The University of New Mexico hospital diverted ambulances for about two hours after a cyberattack and suspended outpatient surgeries and appointments for the rest of the day.",
@@ -142,7 +184,7 @@
    "snippet": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
    "published": "2026-10-27T14:09:46.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/eeae20ed2a.webp",
    "t": "2026-10-27",
    "summary": "Tailscale says it is working to patch almost a dozen vulnerabilities that could enable credential theft, server crashes, or root privileges.",
@@ -164,7 +206,7 @@
    "snippet": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emergi",
    "published": "2026-10-27T14:01:11.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/b611ff4c27.webp",
    "t": "2026-10-27",
    "summary": "Huntress says attackers increasingly abuse legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses while avoiding traditional defenses.",
@@ -177,43 +219,6 @@
    "ai": true
   },
   {
-   "id": "37d79b8322",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Malicious apps prey on Russians’ anxiety about fuel prices, drone strikes",
-   "url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
-   "snippet": "Cybercriminals are stuffing infostealer malware into bogus apps aimed at tracking gas prices, police activity, drone strikes and other information of concern to average Russians, researchers said.",
-   "published": "2026-10-27T13:36:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/37d79b8322.webp",
-   "t": "2026-10-27",
-   "summary": "Researchers say cybercriminals are embedding infostealer malware in bogus apps that claim to track gas prices, police activity, drone strikes and other concerns in Russia.",
-   "why": "Check app sources and permissions before installing tools that claim to provide local updates.",
-   "tags": [
-    "infostealer malware",
-    "bogus apps",
-    "drone strikes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d09366a97f",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-   "snippet": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malic",
-   "published": "2026-10-27T18:26:46.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/d09366a97f.webp",
-   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. ",
-   "ai": false
-  },
-  {
    "id": "7b944901bf",
    "section": "warfare",
    "source": "Breaking Defense",
@@ -223,10 +228,16 @@
    "snippet": "[Sponsored] Short-range air defense that is designed to move and adapt regardless of vehicle.",
    "published": "2026-10-27T18:48:04.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/7b944901bf.webp",
-   "summary": "[Sponsored] Short-range air defense that is designed to move and adapt regardless of vehicle.",
-   "ai": false
+   "t": "2026-10-27",
+   "summary": "A sponsored item describes short-range air defense designed to move and adapt regardless of vehicle.",
+   "why": "Mobility and adaptability are relevant to protecting maneuver forces from drones.",
+   "tags": [
+    "air defense",
+    "drones"
+   ],
+   "ai": true
   },
   {
    "id": "6b4122443f",
@@ -238,7 +249,7 @@
    "snippet": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
    "published": "2026-10-27T17:45:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/6b4122443f.webp",
    "t": "2026-10-27",
    "summary": "Breaking Defense discusses mysteries including the dangers of war in space and the intricacies of upgrading America’s nuclear weapons.",
@@ -259,7 +270,7 @@
    "snippet": "The purpose-built aerial CASEVAC platform is claimed to have completed two battlefield evacuations in a week, including a mission under electronic attack. The post Ukraine’s StarGate Drone Now Evacuating Wounded Soldiers appeared first on TWZ .",
    "published": "2026-10-27T16:32:30.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/0ade343bc9.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that Ukraine’s StarGate drone is claimed to have completed two battlefield evacuations, including one under electronic attack.",
@@ -281,7 +292,7 @@
    "snippet": "Budgetary lessons from the two legacy aircraft can help the Air Force anticipate hard choices for the new F-47, one analyst argues.",
    "published": "2026-10-27T16:13:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/af98acdeeb.webp",
    "t": "2026-10-27",
    "summary": "An analyst argues that budgetary lessons from the F-15 and F-22 can help the Air Force anticipate hard choices in F-47 procurement.",
@@ -303,7 +314,7 @@
    "snippet": "The Pentagon has been exploring a new paradigm dubbed Cyber Effects-as-a-Service, aiming to purchase specific outcomes as opposed to bespoke capabilities.",
    "published": "2026-10-27T14:00:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/a1504a94e2.webp",
    "t": "2026-10-27",
    "summary": "The Pentagon is exploring Cyber Effects-as-a-Service, a model focused on purchasing specific cyber outcomes rather than bespoke capabilities.",
@@ -312,6 +323,50 @@
     "Cyber Effects-as-a-Service",
     "cyber outcomes",
     "Pentagon"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c1a2687fab",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Navantia Launches Second F110 Frigate ‘Roger de Lauria’ Four Months Ahead of Schedule",
+   "url": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-second-f110-frigate-roger-de-lauria-four-months-ahead-of-schedule/",
+   "snippet": "Navantia has successfully launched the second F110-class frigate, Roger de Lauria (F112), for the Spanish Navy four months ahead of schedule in Ferrol. The post Navantia Launches Second F110 Frigate ‘Roger de Lauria’ Four Months Ahead of Schedule appeared first on Naval News .",
+   "published": "2026-10-27T18:26:23.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/c1a2687fab.webp",
+   "t": "2026-10-27",
+   "summary": "Navantia launched the second F110-class frigate, Roger de Lauria, for the Spanish Navy in Ferrol, four months ahead of schedule.",
+   "why": "The launch is a milestone in the Spanish Navy’s F110 frigate program.",
+   "tags": [
+    "F110",
+    "frigate",
+    "Spanish Navy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b0c5c45a50",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Lockheed Martin Showcases 1000 km PrSM Inc 4 Prototype",
+   "url": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+   "snippet": "Lockheed Martin’s Precision Strike Missile (PrSM) Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away. “As threats evolve throughout the global theater, the Army needs a modernized precision missile that can perform at ranges far beyond current",
+   "published": "2026-10-27T17:41:05.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/b0c5c45a50.webp",
+   "t": "2026-10-27",
+   "summary": "Lockheed Martin says its PrSM Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike moving ships over 1,000 kilometers away.",
+   "why": "The prototype combines long-range strike capability with sensing intended to engage moving ships.",
+   "tags": [
+    "PrSM",
+    "ramjet",
+    "sensor suite"
    ],
    "ai": true
   },
@@ -325,7 +380,7 @@
    "snippet": "[Sponsored] Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS.",
    "published": "2026-10-27T12:24:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/5bf3484da3.webp",
    "t": "2026-10-27",
    "summary": "A sponsored article says electronic warfare, GPS denial and battlefield attrition are driving new requirements for small UAS.",
@@ -334,49 +389,6 @@
     "electronic warfare",
     "GPS denial",
     "small UAS"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0006404207",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "US Army looks to high-flying balloons to help see, strike along front lines with China",
-   "url": "https://www.defensenews.com/industry/techwatch/2026/10/27/us-army-looks-to-high-flying-balloons-to-help-see-strike-along-front-lines-with-china/",
-   "snippet": "Amid renewed interest in high-altitude balloons, soldiers are looking to them to extend their reach along the first island chain.",
-   "published": "2026-10-27T17:22:47.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/0006404207.webp",
-   "t": "2026-10-27",
-   "summary": "The US Army is exploring high-altitude balloons to extend its reach along the first island chain, Defense News reports.",
-   "why": "Balloons may provide a way to extend surveillance and strike reach along front lines.",
-   "tags": [
-    "high-altitude balloons",
-    "first island chain"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b36315b2d0",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "USAF should buy newly designed air refuelers to meet China threat: Report",
-   "url": "https://breakingdefense.com/2026/10/usaf-should-buy-newly-designed-air-refuelers-to-meet-china-threat-report/",
-   "snippet": "Although there’s a “temptation” to keep buying KC-46s, a plan to procure 75 more of the Boeing-made tankers should be an “upper limit” followed by a new, longer range tanker, the Hudson Institute’s Timothy Walton told Breaking Defense.",
-   "published": "2026-10-27T12:00:00.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/b36315b2d0.webp",
-   "t": "2026-10-27",
-   "summary": "A Hudson Institute report recommends treating a plan for 75 more KC-46 tankers as an upper limit, then procuring a new, longer-range tanker.",
-   "why": "The debate highlights how tanker range and procurement choices factor into air-refueling plans.",
-   "tags": [
-    "KC-46",
-    "air refuelers",
-    "longer range"
    ],
    "ai": true
   },
@@ -390,7 +402,7 @@
    "snippet": "INS-NV with AI processor, tactical-grade MEMS sensors and full-constellation GNSS receiver reduces time to market for visual and inertial navigation systems. Inertial Labs,... The post Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Pla",
    "published": "2026-10-27T15:41:57.000Z",
    "also": [],
-   "score": 1.62,
+   "score": 1.61,
    "t": "2026-10-27",
    "summary": "Inertial Labs says its INS-NV platform combines an AI processor, tactical-grade MEMS sensors and a full-constellation GNSS receiver to speed development of navigation systems.",
    "why": "The platform brings together inertial and GNSS navigation components for alternative positioning and guidance systems.",
@@ -398,6 +410,27 @@
     "INS-NV",
     "GNSS",
     "MEMS sensors"
+   ],
+   "ai": true
+  },
+  {
+   "id": "41218e0acf",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "European infrastructure is vulnerable as Putin escalates Russia’s hybrid war",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/european-infrastructure-is-vulnerable-as-putin-escalates-russias-hybrid-war/",
+   "snippet": "Putin is currently looking to exploit Europe’s vulnerabilities as he seeks ways to isolate Ukraine and cut off Kyiv’s European aid lifeline. Civilian infrastructure may be one of the continent’s weakest links, writes Maksym Beznosiuk. The post European infrastructure is vulnerable as Putin escalates Russia’s hybrid war",
+   "published": "2026-10-27T20:01:23.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/41218e0acf.webp",
+   "t": "2026-10-27",
+   "summary": "The Atlantic Council argues that civilian infrastructure may be vulnerable as Russia seeks to isolate Ukraine and cut off Kyiv's European aid lifeline.",
+   "why": "Civilian infrastructure is presented as a potential strategic vulnerability in Europe's support for Ukraine.",
+   "tags": [
+    "infrastructure",
+    "hybrid war"
    ],
    "ai": true
   },
@@ -411,7 +444,7 @@
    "snippet": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
    "published": "2026-10-27T18:28:23.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/5dedfcd594.webp",
    "t": "2026-10-27",
    "summary": "BBC reports that Norway and Finland's leaders held a direct call with Putin, the first such communication by European leaders in more than a year.",
@@ -433,7 +466,7 @@
    "snippet": "A new book details how the country slayed Washington’s foes.",
    "published": "2026-10-27T16:52:34.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/e4a1bdc15e.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says a new book details how Israel “slayed Washington’s foes.”",
@@ -454,7 +487,7 @@
    "snippet": "France and Turkey still disagree on plenty, but Europe’s changing security environment is giving them stronger reasons to cooperate. The post Why France and Turkey are giving defense cooperation another go appeared first on Atlantic Council .",
    "published": "2026-10-27T16:03:50.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/75d434e08e.webp",
    "t": "2026-10-27",
    "summary": "The Atlantic Council says France and Turkey still disagree, but Europe’s changing security environment is giving them stronger reasons to cooperate.",
@@ -476,7 +509,7 @@
    "snippet": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
    "published": "2026-10-27T15:41:46.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/068b9a50a2.webp",
    "t": "2026-10-27",
    "summary": "The BBC reports that millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
@@ -485,28 +518,6 @@
     "Sudan",
     "hunger",
     "drought"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c79d72744e",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Any means necessary: Are courts safe in the digital age?",
-   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/any-means-necessary-are-courts-safe-in-the-digital-age/",
-   "snippet": "Reports are on the rise of hacks at federal courts in the United States, putting sensitive data, such as informants' identities, at risk. In litigation involving spyware, even more sensitive data is at risk. What protective measures should be in place to safeguard evidence? The post Any means necessary: Are courts safe",
-   "published": "2026-10-27T15:00:00.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/c79d72744e.webp",
-   "t": "2026-10-27",
-   "summary": "The Atlantic Council reports rising hacks at US federal courts, putting sensitive data at risk; spyware litigation may expose even more sensitive information.",
-   "why": "Assess how court systems protect sensitive records, including informant identities and spyware-related data.",
-   "tags": [
-    "courts",
-    "spyware",
-    "sensitive data"
    ],
    "ai": true
   },
@@ -520,7 +531,7 @@
    "snippet": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
    "published": "2026-10-27T15:13:24.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/bdf3738df6.webp",
    "t": "2026-10-27",
    "summary": "A ceasefire has begun in a wartorn Ukrainian city, with aid deliveries and civilian evacuation as its stated purposes.",
@@ -533,29 +544,53 @@
    "ai": true
   },
   {
-   "id": "5b757ae770",
+   "id": "c79d72744e",
    "section": "geo",
-   "source": "Foreign Policy",
+   "source": "Atlantic Council",
    "weight": 0.6,
-   "title": "Space Junk Is a Problem We Know How to Solve",
-   "url": "https://foreignpolicy.com/2026/10/27/outer-space-junk-satellites-problem-solutions/",
-   "snippet": "Satellite mega-constellations are transforming our night skies. It’s time to plug the governance gaps.",
-   "published": "2026-10-27T14:08:30.000Z",
+   "title": "Any means necessary: Are courts safe in the digital age?",
+   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/any-means-necessary-are-courts-safe-in-the-digital-age/",
+   "snippet": "Reports are on the rise of hacks at federal courts in the United States, putting sensitive data, such as informants' identities, at risk. In litigation involving spyware, even more sensitive data is at risk. What protective measures should be in place to safeguard evidence? The post Any means necessary: Are courts safe",
+   "published": "2026-10-27T15:00:00.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/5b757ae770.webp",
+   "image": "/img/news/c79d72744e.webp",
    "t": "2026-10-27",
-   "summary": "Foreign Policy argues satellite mega-constellations are transforming night skies and calls for closing governance gaps around space junk.",
-   "why": "Satellite growth makes governance of orbital debris a strategic and geospatial concern.",
+   "summary": "The Atlantic Council reports rising hacks at US federal courts, putting sensitive data at risk; spyware litigation may expose even more sensitive information.",
+   "why": "Assess how court systems protect sensitive records, including informant identities and spyware-related data.",
    "tags": [
-    "satellite",
-    "mega-constellations",
-    "governance"
+    "courts",
+    "spyware",
+    "sensitive data"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-48356",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+  },
+  {
+   "cve": "CVE-2026-111497",
+   "vendor": "Google",
+   "product": "Brotli",
+   "name": "Google Brotli Unchecked Return Value Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+  },
   {
    "cve": "CVE-2026-109618",
    "vendor": "PHP Group",
@@ -675,74 +710,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 8.4,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
-  },
-  {
-   "cve": "CVE-2026-102764",
-   "vendor": "BeyondTrust",
-   "product": "Remote Support",
-   "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-   "added": "2026-10-16",
-   "due": "2026-10-19",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.3,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
-  },
-  {
-   "cve": "CVE-2025-61624",
-   "vendor": "Fortinet",
-   "product": "Multiple Products",
-   "name": "Fortinet Multiple Products Path Traversal Vulnerability",
-   "added": "2026-10-16",
-   "due": "2026-10-19",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 6,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
   }
  ],
  "run_today": [
-  "Identify Windows systems that do not receive automatic certificate trust updates.",
-  "Check whether affected systems have received Microsoft’s out-of-band updates.",
-  "Review certificate trust on systems that may still rely on the compromised eMudhra keys."
+  "Check the KEV Catalog for the two newly added vulnerabilities.",
+  "Identify whether your systems are affected and prioritize remediation.",
+  "Review relevant systems for signs of exploitation."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "certificate authority keys",
-   "explainer": "A certificate authority uses keys to support digital certificates that systems can trust. If those keys are compromised, trust in related certificates may need to be removed.",
-   "from_id": "9df47a48bc",
-   "from": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
+   "explainer": "CISA's catalog of vulnerabilities for which it says there is evidence of active exploitation.",
+   "from_id": "9de4c840c9",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "ramjet technology",
-   "explainer": "A ramjet is an engine concept named in the PrSM Increment 4 prototype report. The snippet says the prototype will use this technology, but does not explain how it works.",
-   "from_id": "b0c5c45a50",
-   "from": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
-   "fromSource": "Naval News"
+   "term": "Short-range air defense",
+   "explainer": "Air defense designed for shorter-range protection. The item describes a version intended to move and adapt regardless of vehicle.",
+   "from_id": "7b944901bf",
+   "from": "https://breakingdefense.com/2026/10/a-more-flexible-way-to-defend-maneuver-forces-from-drones-that-doesnt-tie-them-down/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "Israel participation",
-   "explainer": "In the Eurovision story, Israel’s participation is the issue cited by a Dutch broadcaster when reversing its decision to take part. The snippet describes a political sensitivity affecting participation.",
-   "from_id": "1699b65c08",
-   "from": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "Civilian infrastructure",
+   "explainer": "Infrastructure serving civilian needs. The article says it may be a vulnerability in the context of Europe's support for Ukraine.",
+   "from_id": "41218e0acf",
+   "from": "https://www.atlanticcouncil.org/blogs/ukrainealert/european-infrastructure-is-vulnerable-as-putin-escalates-russias-hybrid-war/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "analysis": {
-  "headline": "Resilience across systems, strategy, and operations",
+  "headline": "Vulnerabilities Across Systems and Infrastructure",
   "paragraphs": [
-   "Today’s stories range from certificate trust and industrial-control advisories to navigation technology, military platforms, and political decisions. Together, they show how technical systems and institutions can face distinct pressures: compromised keys, reported successful exploitation, changing equipment capabilities, and contested participation.",
-   "For defenders, Microsoft’s update is a direct prompt to check systems that may not receive automatic trust updates. The industrial-control entries in the top stories also report successful exploitation, though the supplied snippets do not identify the vulnerabilities or affected products in detail. Analysts should keep those limits in view.",
-   "The geospatial and military items describe an inertial navigation platform, a drone evacuation claim, and discussion of space warfare and nuclear modernization. These suggest areas where sensing, navigation, and operational context matter. Watch for further details in the source material; the snippets alone do not establish broader outcomes."
+   "Today's stories span software, civilian infrastructure, navigation and defense. The top includes vulnerabilities in industrial software entries and CISA's additions to the KEV Catalog, which CISA says are based on evidence of active exploitation. Together, these items make vulnerability awareness a practical focus for defenders.",
+   "The geopolitical story says civilian infrastructure may be one of Europe's weakest links as Russia seeks to isolate Ukraine and cut off Kyiv's European aid lifeline. That suggests analysts should consider infrastructure not only as a technical concern, but also in its strategic context; the snippet does not specify which infrastructure is at risk.",
+   "Other top items describe a programmable INS development platform with a GNSS receiver and short-range air defense designed to move and adapt. These point to the relevance of navigation and mobility in warfare technology. Watch for further detail in the source material; the supplied snippets do not establish how these systems will be used or what outcomes they may produce."
   ],
   "takeaways": [
-   "Check Windows systems that may miss automatic certificate trust updates.",
-   "Treat the industrial-control exploitation reports as a prompt to consult their advisories.",
-   "Keep claims about navigation and battlefield systems attributed to their sources."
+   "Check the KEV Catalog and determine whether your systems are affected.",
+   "Treat civilian infrastructure as a possible strategic vulnerability, not a confirmed target.",
+   "The snippets identify navigation and mobility as relevant technology themes."
   ]
  },
  "health": [
@@ -750,7 +761,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -768,7 +779,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 20
+   "n": 19
   },
   {
    "name": "The Record",
@@ -822,7 +833,7 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "The War Zone",
@@ -846,13 +857,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 8
   },
   {
    "name": "Bellingcat",
@@ -888,7 +899,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Foreign Policy",
@@ -924,13 +935,13 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   },
   {
    "name": "DW",
