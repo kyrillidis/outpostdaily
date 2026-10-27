@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T09:52:07.527Z",
+ "updated": "2026-10-27T10:00:11.400Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -10,6 +10,11 @@
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -27,14 +32,9 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "BBC World",
@@ -42,9 +42,9 @@
    "n": 3
   },
   {
-   "name": "Al Jazeera",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 9
+   "n": 0
   },
   {
    "name": "Krebs on Security",
@@ -57,9 +57,14 @@
    "n": 2
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -74,10 +79,10 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -85,11 +90,6 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X redteam",
@@ -159,6 +159,17 @@
    "title": "Israel election results 2026: When will we know who won and what’s next?",
    "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next?traffic_source=rss",
    "published": "2026-10-27T09:22:45.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncde63e947c",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Cohere Finds Qwen AI Model Contacting a Server in China",
+   "url": "https://securityaffairs.com/201810/ai/cohere-finds-qwen-ai-model-contacting-a-server-in-china.html",
+   "published": "2026-10-27T09:07:11.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4590,17 +4601,6 @@
    "title": "🚨 Initia exploit: $7.48M in fake tokens drained $2.73M in real coins from bridge reserves On Oct 23, one account on the Initia blockchain created about $7.48M in unbacked tokens in 13 seconds, according to an on-chain investigation by…",
    "url": "https://x.com/DailyDarkWeb/status/2114338749270155620",
    "published": "2026-10-25T12:50:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114338501303189779",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇦🇷 AyT Computers SRL ( a Argentina-based Information Services company, has reportedly fallen victim to EMPERADOR ransomware. 🔍 Key Details: 🛡️ Threat Actor: EMPERADOR 📅 Reported on: 25/10/26 ⚠️ Data Compromised:…",
-   "url": "https://x.com/FalconFeedsio/status/2114338501303189779",
-   "published": "2026-10-25T12:49:15.000Z",
    "severity": "normal",
    "verified": false
   },
