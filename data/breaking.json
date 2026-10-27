@@ -1,35 +1,15 @@
 {
- "updated": "2026-10-27T15:36:32.079Z",
+ "updated": "2026-10-27T15:49:54.149Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "MarketWatch",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "The Hacker News",
@@ -37,9 +17,9 @@
    "n": 4
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -47,9 +27,19 @@
    "n": 11
   },
   {
-   "name": "Hackread",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -57,9 +47,19 @@
    "n": 5
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Daily Dark Web",
@@ -72,11 +72,6 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 2
@@ -85,6 +80,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n190503bf0e",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Microsoft Issues Emergency .NET Fixes for Brotli Flaw and Linux Privilege Escalation",
+   "url": "https://hackread.com/microsoft-issues-net-fixes-brotli-linux-privilege-escalation/",
+   "published": "2026-10-27T15:46:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na6a8b605c5",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "U.S. economy is gathering steam. This is the chief reason why.",
+   "url": "https://www.marketwatch.com/story/u-s-economy-is-gathering-steam-this-is-the-chief-reason-why-9772978f?mod=mw_rss_topstories",
+   "published": "2026-10-27T15:34:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nb58ee10f31",
    "kind": "news",
@@ -522,6 +544,28 @@
    "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
    "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
    "published": "2026-10-27T12:02:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9cfdf1956a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+   "published": "2026-10-27T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n531d14aa47",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "EPICS Base",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+   "published": "2026-10-27T12:00:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -1979,17 +2023,6 @@
    "title": "Code 9.2 conducted two aerial CASEVAC missions in a week with the StarGate drone.",
    "url": "https://x.com/RALee85/status/2114754007784710479",
    "published": "2026-10-26T16:20:20.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114753973815054383",
-   "kind": "x",
-   "group": "markets",
-   "source": "@business",
-   "title": "Colombia is selling dollar bonds for the first time since January, as a new administration pledges to rein in the widening budget gap and put the nation’s debt back on a sustainable path",
-   "url": "https://x.com/business/status/2114753973815054383",
-   "published": "2026-10-26T16:20:12.000Z",
    "severity": "normal",
    "verified": false
   },
@@ -4895,17 +4928,6 @@
    "title": "Dread has been disabled temporarily from the threat feed.",
    "url": "https://x.com/DarkWebInformer/status/2114371254048170020",
    "published": "2026-10-25T14:59:24.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r3dad3749e5",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "Falcon claims Astrana Health (US) — Healthcare",
-   "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u",
-   "published": "2026-10-25T14:53:02.969Z",
    "severity": "normal",
    "verified": false
   },
