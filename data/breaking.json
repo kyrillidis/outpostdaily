@@ -1,25 +1,20 @@
 {
- "updated": "2026-10-27T16:51:53.920Z",
+ "updated": "2026-10-27T16:58:31.608Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 2
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 6
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -27,9 +22,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
    "name": "The DFIR Report",
@@ -37,14 +32,24 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "The Record",
    "ok": true,
-   "n": 10
+   "n": 5
   },
   {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
@@ -62,19 +67,14 @@
    "n": 1
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -82,12 +82,12 @@
    "n": 3
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n2e4d0efd43",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "JetBlue has been losing money for years. It just charted a path to profitability.",
+   "url": "https://www.marketwatch.com/story/jetblue-has-been-losing-money-for-years-it-just-charted-a-path-to-profitability-03be75c8?mod=mw_rss_topstories",
+   "published": "2026-10-27T16:52:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nc64d4188c2",
    "kind": "news",
@@ -2020,17 +2031,6 @@
    "source": "MarketWatch",
    "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
    "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-   "published": "2026-10-26T16:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n38bfe08d35",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
-   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
    "published": "2026-10-26T16:30:00.000Z",
    "severity": "normal",
    "verified": true
