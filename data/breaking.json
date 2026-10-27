@@ -1,8 +1,38 @@
 {
- "updated": "2026-10-27T14:27:10.477Z",
+ "updated": "2026-10-27T14:45:47.243Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -17,54 +47,19 @@
    "n": 0
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "The Record",
    "ok": true,
    "n": 4
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
    "n": 5
   },
   {
-   "name": "SecurityWeek",
+   "name": "Hackread",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Dark Reading",
@@ -72,17 +67,17 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
    "ok": true,
    "n": 3
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Security Affairs",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 3
   },
@@ -95,6 +90,11 @@
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n23d9869e4a",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Hackers Abuse Microsoft Teams External Chats to Access Corporate PCs",
+   "url": "https://hackread.com/hackers-abuse-microsoft-teams-external-chats-pc/",
+   "published": "2026-10-27T14:43:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "neeae20ed2a",
    "kind": "news",
@@ -4829,17 +4840,6 @@
    "title": "Falcon claims Astrana Health (US) — Healthcare",
    "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u",
    "published": "2026-10-25T14:53:02.969Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "r8bff4821dd",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "emperador claims A-RMS — Government & Defense",
-   "url": "https://www.ransomware.live/id/QS1STVNAZW1wZXJhZG9y",
-   "published": "2026-10-25T14:52:33.011Z",
    "severity": "normal",
    "verified": false
   },
