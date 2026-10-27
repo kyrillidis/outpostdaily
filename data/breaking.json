@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T11:55:13.850Z",
+ "updated": "2026-10-27T12:07:29.820Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "X cyber",
@@ -12,7 +12,37 @@
    "error": "HTTP 402"
   },
   {
-   "name": "CISA Advisories",
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -22,42 +52,7 @@
    "n": 3
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -69,7 +64,12 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 4
+   "n": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Security Affairs",
@@ -77,9 +77,9 @@
    "n": 3
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -87,9 +87,9 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "n86d626c6fb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+   "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-27T12:02:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n928eba252e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+   "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+   "published": "2026-10-27T12:02:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n52b1cf1b64",
    "kind": "news",
    "group": "markets",
@@ -126,6 +148,17 @@
    "title": "Here’s the question three tech-sector earnings reports raise about the future of AI",
    "url": "https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories",
    "published": "2026-10-27T11:51:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc99aa3fd55",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+   "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+   "published": "2026-10-27T11:49:57.000Z",
    "severity": "normal",
    "verified": true
   },
