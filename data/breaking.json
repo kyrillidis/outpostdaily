@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T10:21:37.843Z",
+ "updated": "2026-10-27T10:48:47.527Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,9 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "MarketWatch",
@@ -17,17 +17,7 @@
    "n": 4
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "The Record",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -37,14 +27,24 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Hackread",
@@ -52,27 +52,22 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
   {
-   "name": "The Hacker News",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 4
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BreachForums",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -82,12 +77,17 @@
    "error": "HTTP 502"
   },
   {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,39 @@
   }
  ],
  "items": [
+  {
+   "id": "n60e8b95738",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+   "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+   "published": "2026-10-27T10:44:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1813786389",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+   "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+   "published": "2026-10-27T10:36:12.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n74b41528b8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "North Korean howitzer guns spotted close to border with South Korea",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/north-korean-howitzer-guns-spotted-close-to-border-with-south-korea?traffic_source=rss",
+   "published": "2026-10-27T10:22:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nbc54303bdc",
    "kind": "news",
