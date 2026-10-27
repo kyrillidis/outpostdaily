@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-27T17:29:48.361Z",
+ "updated": "2026-10-27T18:00:48.855Z",
  "health": [
   {
-   "name": "X cyber",
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
    "ok": false,
-   "error": "HTTP 402"
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "BleepingComputer",
@@ -12,39 +22,9 @@
    "n": 3
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 6
   },
   {
    "name": "The DFIR Report",
@@ -52,9 +32,39 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Dark Reading",
@@ -62,12 +72,7 @@
    "n": 1
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -82,12 +87,7 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ne828bf13fc",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto",
+   "url": "https://www.marketwatch.com/story/cryptodad-on-stablecoins-bitcoins-role-in-a-portfolio-and-why-he-does-not-directly-own-any-crypto-72472bc1?mod=mw_rss_topstories",
+   "published": "2026-10-27T17:53:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n0a0236228a",
    "kind": "news",
@@ -2045,17 +2056,6 @@
    "published": "2026-10-26T16:30:08.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "n8e2b93abe3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-   "published": "2026-10-26T16:30:00.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "n5e34561ea9",
