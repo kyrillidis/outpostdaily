@@ -1,28 +1,13 @@
 {
- "updated": "2026-10-27T12:07:29.820Z",
+ "updated": "2026-10-27T12:36:01.384Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The DFIR Report",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -32,14 +17,19 @@
    "n": 4
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "The Record",
@@ -47,9 +37,19 @@
    "n": 0
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "Hackread",
@@ -62,14 +62,14 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 6
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "Security Affairs",
@@ -77,9 +77,9 @@
    "n": 3
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -87,9 +87,9 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n48bea28f9a",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
+   "url": "https://socradar.io/blog/php2shell-weaponized-japanese-real-estate-extortion/",
+   "published": "2026-10-27T12:27:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na6006728be",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "published": "2026-10-27T12:09:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n86d626c6fb",
    "kind": "news",
@@ -163,6 +185,17 @@
    "verified": true
   },
   {
+   "id": "n3fba9192c9",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+   "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+   "published": "2026-10-27T11:46:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n61dade51ba",
    "kind": "news",
    "group": "markets",
@@ -170,6 +203,28 @@
    "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
    "url": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
    "published": "2026-10-27T11:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1ce9ccf10a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+   "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+   "published": "2026-10-27T11:32:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncf5c346fce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+   "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+   "published": "2026-10-27T11:32:31.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -192,6 +247,17 @@
    "title": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
    "url": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
    "published": "2026-10-27T11:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1699b65c08",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Netherlands pulls out of Eurovision again over Israel participation",
+   "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-27T11:23:19.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4657,17 +4723,6 @@
    "url": "https://x.com/IntCyberDigest/status/2114356807741104266",
    "published": "2026-10-25T14:02:00.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114353848642875846",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🚨 Lindt Japan: 3.15 million member records exposed in breach at e-commerce provider futureshop Lindt & Sprüngli Japan says attackers broke into futureshop, the SaaS platform that runs its online shop, and took data on 3,147,469 members…",
-   "url": "https://x.com/DailyDarkWeb/status/2114353848642875846",
-   "published": "2026-10-25T13:50:14.000Z",
-   "severity": "high",
    "verified": false
   },
   {
