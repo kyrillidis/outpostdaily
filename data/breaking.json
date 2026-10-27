@@ -1,35 +1,10 @@
 {
- "updated": "2026-10-27T13:24:38.217Z",
+ "updated": "2026-10-27T13:40:38.591Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "The Record",
@@ -42,12 +17,17 @@
    "error": "HTTP 402"
   },
   {
-   "name": "Hackread",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -57,17 +37,37 @@
    "n": 6
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
-   "name": "Dark Reading",
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -84,7 +84,7 @@
   {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,61 @@
  ],
  "items": [
   {
+   "id": "n41ce8592d3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+   "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+   "published": "2026-10-27T13:30:28.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n19b81d18ee",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "A bigger-than-expected win for Democrats in the midterms could deliver ‘short-lived weakness’ for stocks, strategists say",
+   "url": "https://www.marketwatch.com/story/this-surprise-election-result-could-deliver-short-lived-weakness-for-stocks-strategists-say-2278a22e?mod=mw_rss_topstories",
+   "published": "2026-10-27T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8ebbbc3d29",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’",
+   "url": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss",
+   "published": "2026-10-27T13:29:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n700e395244",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Qatar’s Emir meets Iran’s Pezeshkian in Moscow",
+   "url": "https://www.aljazeera.com/news/2026/10/27/qatars-emir-meets-irans-pezeshkian-in-moscow?traffic_source=rss",
+   "published": "2026-10-27T13:26:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1aec548def",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iranians brace for renewed attacks after Israeli, US elections",
+   "url": "https://www.aljazeera.com/news/2026/10/27/iranians-will-their-eyes-on-the-sky-for-bomb-when-israeli-us-elections-end?traffic_source=rss",
+   "published": "2026-10-27T13:23:32.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "n933843ff30",
    "kind": "news",
    "group": "cyber",
@@ -137,6 +192,17 @@
    "title": "CISA warns of PHP bug exploitation attempts, gives federal agencies days to patch",
    "url": "https://therecord.media/php-vulnerabilities-cisa-kev",
    "published": "2026-10-27T13:16:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nececb58684",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "India-China border face-offs test Modi six years after deadly clash",
+   "url": "https://www.aljazeera.com/news/2026/10/27/india-china-border-face-offs-test-modi-six-years-after-deadly-clash?traffic_source=rss",
+   "published": "2026-10-27T13:15:32.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -1772,17 +1838,6 @@
    "url": "https://x.com/FirstSquawk/status/2114752587128000753",
    "published": "2026-10-26T16:14:41.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114752540718088409",
-   "kind": "x",
-   "group": "markets",
-   "source": "@FirstSquawk",
-   "title": "FHFA’S PULTE: ABUSIVE MONOPOLIES WILL NOT BE ALLOWED TO TAKE ADVANTAGE OF CONSUMERS ANYWHERE IN THE MORTGAGE MARKET",
-   "url": "https://x.com/FirstSquawk/status/2114752540718088409",
-   "published": "2026-10-26T16:14:30.000Z",
-   "severity": "normal",
    "verified": false
   },
   {
