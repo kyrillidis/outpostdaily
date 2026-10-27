@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "edition": 225,
- "compiled": "2026-10-27T09:40:33.014Z",
+ "compiled": "2026-10-27T10:05:56.295Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -36,7 +36,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
    "published": "2026-10-27T08:20:54.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/77d8f32442.webp",
    "t": "2026-10-27",
    "summary": "CISA says PHP2Shell vulnerabilities are being exploited in attacks and has ordered federal agencies to patch affected systems by Thursday.",
@@ -45,6 +45,72 @@
     "PHP2Shell",
     "CISA",
     "patch"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1da67faa3c",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "snippet": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next s",
+   "published": "2026-10-27T09:33:06.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/1da67faa3c.webp",
+   "t": "2026-10-27",
+   "summary": "Australia's Signals Directorate says it gained access to the Amadey malware operation, cutting off a criminal's access to 180,000 infected computers.",
+   "why": "Check for Amadey infections and review relevant endpoint and network alerts.",
+   "tags": [
+    "Amadey",
+    "malware",
+    "infected computers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b7087025de",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+   "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+   "snippet": "Running at system boot, it periodically polled the update domain to execute any code served, with full privileges. The post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on SecurityWeek .",
+   "published": "2026-10-27T09:44:50.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/b7087025de.webp",
+   "t": "2026-10-27",
+   "summary": "The Popcorn Time updater ran at system boot and periodically checked an update domain, executing supplied code with full privileges.",
+   "why": "Review software updaters and restrict or monitor high-privilege code execution.",
+   "tags": [
+    "Popcorn Time",
+    "updater",
+    "full privileges"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ea5496feac",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "snippet": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an en",
+   "published": "2026-10-27T08:22:43.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/ea5496feac.webp",
+   "t": "2026-10-27",
+   "summary": "Security firm Xint says OpenAI's compaction feature could expose hidden reasoning in plain text.",
+   "why": "Assess whether AI features handling sensitive prompts expose information through generated or retained outputs.",
+   "tags": [
+    "OpenAI",
+    "compaction",
+    "hidden reasoning"
    ],
    "ai": true
   },
@@ -58,7 +124,7 @@
    "snippet": "<div class=\"OutlineElement Ltr SCXW42064574 BCX8\"> <p class=\"text-align-justify\">CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW42064574 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" target=\"_blank\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Cat",
    "published": "2026-10-26T12:00:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "t": "2026-10-27",
    "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog.",
    "why": "Check whether your systems are affected and prioritize remediation where applicable.",
@@ -79,7 +145,7 @@
    "snippet": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products. The post Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems appeared first on SecurityWeek .",
    "published": "2026-10-27T07:14:27.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/46ee8b886d.webp",
    "t": "2026-10-27",
    "summary": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, including 37 in maritime-specific products.",
@@ -101,7 +167,7 @@
    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have be",
    "published": "2026-10-27T06:34:47.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/ad87833196.webp",
    "t": "2026-10-27",
    "summary": "CERT-UA warns of unauthorized remote access to Dahua video surveillance systems in Ukraine; the snippet mentions compromised cameras and DVRs.",
@@ -158,99 +224,6 @@
    "ai": true
   },
   {
-   "id": "9b6153963e",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-   "snippet": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
-   "published": "2026-10-26T21:08:28.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/9b6153963e.webp",
-   "t": "2026-10-26",
-   "summary": "South Korean police identified seven suspects linked to breaches of more than 90 organizations; they say the ARTEX AI pentesting framework was used in most attacks.",
-   "why": "Check for unauthorized use of pentesting tools and review access and data-export logs.",
-   "tags": [
-    "ARTEX AI",
-    "pentesting",
-    "data records"
-   ],
-   "ai": true
-  },
-  {
-   "id": "327318fb5d",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
-   "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
-   "snippet": "In an unusual move, the suit — brought under the state’s deceptive trade practices laws — seeks to hold founder and CEO Sam Altman personally liable for the alleged deception.",
-   "published": "2026-10-26T21:03:00.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/327318fb5d.webp",
-   "t": "2026-10-26",
-   "summary": "Texas’s suit alleges OpenAI deceived consumers about safety and seeks reforms and fines; it also seeks to hold Sam Altman personally liable.",
-   "why": "Review how AI safety claims are documented, communicated, and assessed.",
-   "tags": [
-    "OpenAI",
-    "safety",
-    "lawsuit"
-   ],
-   "ai": true
-  },
-  {
-   "id": "154f68998a",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-   "snippet": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
-   "published": "2026-10-26T20:46:49.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/154f68998a.webp",
-   "t": "2026-10-26",
-   "summary": "OpenAI says GPT-6.1 Terra focuses on computer use, visual reasoning, coding, and everyday work, at lower cost than its larger models.",
-   "why": "Assess permissions and oversight before deploying AI agents for computer-based tasks.",
-   "tags": [
-    "AI agents",
-    "computer use",
-    "pricing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "329b26bd6b",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Cyprus to acquire new offshore patrol vessel with ‘advanced’ naval systems from Israel",
-   "url": "https://breakingdefense.com/2026/10/cyprus-to-acquire-new-offshore-patrol-vessel-with-advanced-naval-systems-from-israel/",
-   "snippet": "The new patrol vessel will be built by Israel Shipyards and “support expanded patrol, surveillance, and search-and-rescue missions,” according to Israel’s Ministry of Defense.",
-   "published": "2026-10-26T18:11:59.000Z",
-   "also": [
-    {
-     "source": "Naval News",
-     "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/"
-    }
-   ],
-   "score": 1.63,
-   "image": "/img/news/329b26bd6b.webp",
-   "t": "2026-10-26",
-   "summary": "Israel’s Ministry of Defense says Israel Shipyards will build Cyprus’s new patrol vessel for expanded patrol, surveillance, and search-and-rescue missions.",
-   "why": "The vessel’s stated mission set links maritime surveillance with patrol and rescue operations.",
-   "tags": [
-    "Cyprus",
-    "patrol vessel",
-    "surveillance"
-   ],
-   "ai": true
-  },
-  {
    "id": "2979ee801b",
    "section": "warfare",
    "source": "War on the Rocks",
@@ -260,7 +233,7 @@
    "snippet": "At Nellis Air Force Base last year, an AI system was tasked with building courses of action, a complex operational problem that military planners have spent generations learning to perform. The AI system took less than a minute to complete its task with solutions rated at 97 percent viable and tactically valid (essenti",
    "published": "2026-10-27T08:00:35.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/2979ee801b.webp",
    "t": "2026-10-27",
    "summary": "War on the Rocks describes an AI system at Nellis Air Force Base building courses of action in less than a minute.",
@@ -304,7 +277,7 @@
    "snippet": "The fortunes of the AGM-183A, which is now set to arm B-52 and B-1 bombers, have now been fully reversed. The post USAF Orders ARRW Hypersonic Missile Into Production, The Same Weapon It Nearly Cancelled appeared first on TWZ .",
    "published": "2026-10-27T00:04:14.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.39,
    "image": "/img/news/46562f415c.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that the USAF has ordered the AGM-183A ARRW hypersonic missile into production; the weapon is set to arm B-52 and B-1 bombers.",
@@ -326,7 +299,7 @@
    "snippet": "The meeting between Pakistan, Saudi Arabia, Turkey, and Iran took place as the U.S. and Israel are spinning-up for a new round of strikes. The post Last-Ditch Meeting In Iran Seeks To Stave-Off A Restart Of All-Out Fighting In The Region appeared first on TWZ .",
    "published": "2026-10-26T23:23:37.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/2fcb4dcb01.webp",
    "t": "2026-10-27",
    "summary": "The War Zone reports that Pakistan, Saudi Arabia, Turkey, and Iran met as the U.S. and Israel prepared for a possible new round of strikes.",
@@ -348,7 +321,7 @@
    "snippet": "Cyber threats against critical infrastructure are exploding, with worries enemies could neuter U.S. military units before they even leave their garrisons. The post 90 Days No Help: Fortress America’s Goal To Make Bases Resilient Bastions In A Crisis appeared first on TWZ .",
    "published": "2026-10-26T22:20:20.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/b3e05b0001.webp",
    "t": "2026-10-26",
    "summary": "The War Zone reports concerns that cyber threats to critical infrastructure could affect U.S. military units before they leave their garrisons.",
@@ -370,7 +343,7 @@
    "snippet": "Britain's last bid to destroy Argentina’s fleet threatening Exocet anti-ship missile-armed combat jets during the Falklands War. The post Britain’s Final Plan To Kill Argentina’s Super Étendards Attack Jets appeared first on TWZ .",
    "published": "2026-10-26T21:11:58.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.33,
    "image": "/img/news/00ff85e2c3.webp",
    "t": "2026-10-26",
    "summary": "The War Zone describes Britain’s last bid during the Falklands War to destroy Argentina’s fleet of Exocet-armed Super Étendard combat jets.",
@@ -392,7 +365,7 @@
    "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranIndications of a return to direct hostilities are increasing. The United States is evacuating more troops and diplomatic staff a",
    "published": "2026-10-26T19:45:41.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.3,
    "image": "/img/news/98cfbfeb83.webp",
    "t": "2026-10-26",
    "summary": "The Adversarial describes increasing indications of a return to direct hostilities involving Iran.",
@@ -401,6 +374,28 @@
     "Iran",
     "hostilities",
     "tensions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c5a981e7b0",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "British Type 31 Frigate Variant Offered To The U.S. Navy",
+   "url": "https://www.twz.com/sea/british-type-31-frigate-variant-offered-to-the-u-s-navy",
+   "snippet": "Babcock is looking to pitch its Arrowhead 140 design for an American frigate requirement, potentially in partnership with a major U.S. shipbuilder. The post British Type 31 Frigate Variant Offered To The U.S. Navy appeared first on TWZ .",
+   "published": "2026-10-26T19:53:56.000Z",
+   "also": [],
+   "score": 1.3,
+   "image": "/img/news/c5a981e7b0.webp",
+   "t": "2026-10-26",
+   "summary": "Babcock is seeking to pitch its Arrowhead 140 design for a U.S. Navy frigate requirement, potentially with a U.S. shipbuilder.",
+   "why": "The proposal shows a frigate design being offered for a U.S. Navy requirement.",
+   "tags": [
+    "frigate",
+    "Arrowhead 140",
+    "U.S. Navy"
    ],
    "ai": true
   },
@@ -414,7 +409,7 @@
    "snippet": "Beijing’s evolving industrial playbook is taking shape in Morocco.",
    "published": "2026-10-27T09:00:18.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/3122f3037b.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says Beijing’s evolving industrial playbook is taking shape in Morocco as China works around Europe’s EV tariffs.",
@@ -436,7 +431,7 @@
    "snippet": "The ceasefire in Oleshky, secured by US First Lady Melania Trump, is meant to allow aid deliveries and the evacuation of civilians.",
    "published": "2026-10-27T09:18:44.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/bdf3738df6.webp",
    "t": "2026-10-27",
    "summary": "A ceasefire has begun in a wartorn Ukrainian city, with aid deliveries and civilian evacuation as its stated purposes.",
@@ -458,7 +453,7 @@
    "snippet": "Israel faces what many view as one of the most pivotal elections in the country's history.",
    "published": "2026-10-27T08:37:30.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/1d9e497bb1.webp",
    "t": "2026-10-27",
    "summary": "BBC World reports that Israel faces an election many view as pivotal in the country's history.",
@@ -480,7 +475,7 @@
    "snippet": "Many fear neither of the leading political blocs will win enough seats for a majority - meaning weeks or months of political wrangling may lie ahead.",
    "published": "2026-10-27T05:45:08.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.51,
    "image": "/img/news/e02a8b42fd.webp",
    "t": "2026-10-27",
    "summary": "BBC World says neither leading political bloc may win enough seats for a majority, potentially leaving weeks or months of political wrangling.",
@@ -524,7 +519,7 @@
    "snippet": "Beijing is making life difficult for Panamanian ships, and others could be next.",
    "published": "2026-10-27T04:01:59.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/7791e585c4.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy says Beijing is making life difficult for Panamanian ships and that other ships could be next.",
@@ -546,7 +541,7 @@
    "snippet": "Israelis vote as Netanyahu faces Gadi Eisenkot amid divisions over the wars in Gaza and Iran and growing isolation.",
    "published": "2026-10-27T08:38:44.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/9bf9a3f733.webp",
    "t": "2026-10-27",
    "summary": "Al Jazeera reports Israelis are voting as Netanyahu faces Gadi Eisenkot amid divisions over the wars in Gaza and Iran and growing isolation.",
@@ -568,7 +563,7 @@
    "snippet": "A resident says the attack took place on Monday evening at a market in the north of Nyala city in the Darfur region.",
    "published": "2026-10-27T08:35:27.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/c9a196af41.webp",
    "t": "2026-10-27",
    "summary": "Al Jazeera reports a drone strike killed at least 21 and injured 40 in a market in north Nyala, citing a resident.",
@@ -728,47 +723,47 @@
   }
  ],
  "run_today": [
-  "Review access to marketing platforms used by business partners.",
-  "Check which customer data those platforms can access.",
-  "Look for signs of unauthorized access or data removal."
+  "Check endpoints and network telemetry for signs of Amadey malware.",
+  "Inventory software updaters and examine those that execute code with full privileges.",
+  "Review AI workflows for sensitive information that could appear in outputs."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "marketing platform",
-   "explainer": "A marketing platform is software used to support marketing activities. In ENGIE’s case, attackers reportedly breached one used by business partners and stole customer data.",
-   "from_id": "4b38edd612",
-   "from": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-   "fromSource": "BleepingComputer"
+   "term": "Compaction",
+   "explainer": "A feature that shrinks a long conversation to save space. In the report, researchers say it could be used to copy hidden reasoning into plain text.",
+   "from_id": "ea5496feac",
+   "from": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "offshore patrol vessel",
-   "explainer": "An offshore patrol vessel is a ship used for patrol duties. The title describes Cyprus acquiring one with advanced naval systems.",
-   "from_id": "329b26bd6b",
-   "from": "https://breakingdefense.com/2026/10/cyprus-to-acquire-new-offshore-patrol-vessel-with-advanced-naval-systems-from-israel/",
-   "fromSource": "Breaking Defense"
+   "term": "AI system",
+   "explainer": "A computer system using artificial intelligence. The Machine Staff snippet describes one tasked with building courses of action for military planners.",
+   "from_id": "2979ee801b",
+   "from": "https://warontherocks.com/cogs-of-war/the-machine-staff/",
+   "fromSource": "War on the Rocks"
   },
   {
    "domain": "geo",
    "term": "EV tariffs",
-   "explainer": "EV tariffs are trade measures concerning electric vehicles. The story describes China’s industrial playbook taking shape in Morocco as a way around Europe’s EV tariffs.",
+   "explainer": "Tariffs are charges on goods crossing borders. The title describes China building an industrial strategy around Europe's tariffs on electric vehicles.",
    "from_id": "3122f3037b",
    "from": "https://foreignpolicy.com/2026/10/27/china-europe-morocco-electric-vehicle-manufacturing-industrial-policy/",
    "fromSource": "Foreign Policy"
   }
  ],
  "analysis": {
-  "headline": "Infrastructure, access, and political uncertainty",
+  "headline": "Access, Updates and Information Exposure",
   "paragraphs": [
-   "The stories span customer data, maritime surveillance, industrial policy, conflict, elections, and military planning. Across them, infrastructure and institutions are central: ENGIE’s breach involved a platform used by business partners, while Cyprus’s planned vessel is intended to support patrol, surveillance, and search-and-rescue missions.",
-   "For defenders, the ENGIE report makes partner-connected platforms and the customer data they handle worth reviewing. CISA’s addition of PHP2Shell vulnerabilities to its actively exploited catalog also points to patching as an immediate concern. The supplied details do not describe the flaws or the required patching scope, so teams should consult the applicable advisory.",
-   "For analysts, Morocco’s role in China’s industrial playbook and uncertainty around Israel’s election show how trade and political developments may unfold over time. The Oleshky ceasefire is meant to allow aid deliveries and civilian evacuation. Watch for confirmed developments in these stories, distinguishing stated aims, reports, and unresolved outcomes."
+   "Today's cyber items describe three different points where access and information can be at risk: malware operators reaching infected computers, an updater able to run supplied code with full privileges, and a feature that researchers say could expose hidden reasoning. The reports do not establish a shared cause, but each highlights the importance of understanding what systems can access or reveal.",
+   "For defenders, the Amadey disruption is a reminder to check for infections even when an operation has been interrupted. The Popcorn Time updater's privileges make software update paths worth reviewing. The compaction finding also suggests that AI features handling sensitive material deserve scrutiny, especially around what they return in plain text.",
+   "Across the broader top stories, security issues sit alongside shifts in industrial strategy, a ceasefire intended to enable aid and civilian evacuation, and election uncertainty. Analysts should distinguish confirmed details from limited reporting: the supplied snippets leave many specifics open. Watch for further information on remediation, operational effects and how these developments unfold."
   ],
   "takeaways": [
-   "Review partner-connected platforms and customer-data access.",
-   "Track stated missions separately from confirmed outcomes.",
-   "Treat elections and industrial strategies as developing stories."
+   "Check for malware and review the access available to updater processes.",
+   "Treat AI features as possible information-handling surfaces.",
+   "Separate reported facts from uncertainty across security and geopolitical stories."
   ]
  },
  "health": [
@@ -794,7 +789,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 14
   },
   {
    "name": "The Record",
@@ -877,8 +872,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 5
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
