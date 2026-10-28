@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:54:44.141Z",
+ "updated": "2026-10-28T21:01:49.281Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,24 +7,14 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -37,17 +27,22 @@
    "n": 5
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 4
   },
   {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -67,14 +62,19 @@
    "n": 0
   },
   {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
-   "name": "SecurityWeek",
+   "name": "Hackread",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "SOCRadar blog",
@@ -82,9 +82,9 @@
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "na84839c12a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Chipotle expects modestly higher sales this year as drive-thru ‘Chipotlanes’ come to more stores",
+   "url": "https://www.marketwatch.com/story/chipotle-expects-modestly-higher-sales-this-year-as-drive-thru-chipotlanes-come-to-more-stores-4f255bbc?mod=mw_rss_topstories",
+   "published": "2026-10-28T20:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbf65784fd2",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+   "published": "2026-10-28T20:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n6369b7f887",
    "kind": "news",
@@ -2627,17 +2649,6 @@
    "verified": true
   },
   {
-   "id": "n52b1cf1b64",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Here’s the question three tech-sector earnings reports raise about the future of AI",
-   "url": "https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories",
-   "published": "2026-10-27T11:51:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc99aa3fd55",
    "kind": "news",
    "group": "cyber",
@@ -4514,17 +4525,6 @@
    "verified": false
   },
   {
-   "id": "na5411bb33d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-   "published": "2026-10-26T11:52:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc96745f4b9",
    "kind": "news",
    "group": "darkweb",
@@ -5056,17 +5056,6 @@
    "url": "https://x.com/DarkWebInformer/status/2114469306792550531",
    "published": "2026-10-25T21:29:02.000Z",
    "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114462306780201124",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@TheDFIRReport",
-   "title": "\"Approximately five hours after this initial execution, Bumblebee deployed an AdaptixC2 beacon (AdgNsy.exe), which established a new C2 channel to 172.96.137[.]160:443. The threat actor then initiated internal reconnaissance using…",
-   "url": "https://x.com/TheDFIRReport/status/2114462306780201124",
-   "published": "2026-10-25T21:01:13.000Z",
-   "severity": "normal",
    "verified": false
   }
  ]
