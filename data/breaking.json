@@ -1,55 +1,10 @@
 {
- "updated": "2026-10-28T17:29:30.991Z",
+ "updated": "2026-10-28T17:45:53.893Z",
  "health": [
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "X cyber",
@@ -57,7 +12,62 @@
    "error": "HTTP 402"
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
+  },
+  {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -67,24 +77,14 @@
    "n": 1
   },
   {
-   "name": "Hackread",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "BreachForums",
@@ -152,6 +152,17 @@
    "verified": true
   },
   {
+   "id": "nb057f3381d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+   "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+   "published": "2026-10-28T17:08:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nee049deecb",
    "kind": "news",
    "group": "crisis",
@@ -214,6 +225,17 @@
    "title": "Ethiopia receives 12 Russian Su-35 jets, plans S-400 acquisition",
    "url": "https://www.aljazeera.com/news/2026/10/28/ethiopia-receives-12-russian-su-35-jets-plans-s-400-acquisition?traffic_source=rss",
    "published": "2026-10-28T16:35:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbce30872ee",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+   "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+   "published": "2026-10-28T16:23:34.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4516,17 +4538,6 @@
    "verified": false
   },
   {
-   "id": "x2114672008097378648",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "‼️ Tailscale SSH (Tailworm) Researchers report that a compromised, SSH-authorized device could gain root on permitted targets via forwarding flaws. Not unauthenticated RCE. Lab-tested; scope still under review. Mitigations: • Tighten SSH…",
-   "url": "https://x.com/TheHackersNews/status/2114672008097378648",
-   "published": "2026-10-26T10:54:30.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114667284526465343",
    "kind": "x",
    "group": "blueteam",
@@ -4548,17 +4559,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjNsuiW0AAGjEO.jpg"
-  },
-  {
-   "id": "nee989466c1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Kali Linux 2026.3 released with 7 new tools, desktop updates",
-   "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-7-new-tools-desktop-updates/",
-   "published": "2026-10-26T10:26:52.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114663188759539840",
@@ -5194,18 +5194,6 @@
    "published": "2026-10-25T17:49:25.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114412820506763497",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇮🇱 🚨 ISRAEL: THREAT ACTOR CLAIMS TO SELL 4.5TB OF MINISTRY OF DEFENSE, MOSSAD AND IDF DATA A threat actor using the name \"UNC6783\" claims to be selling about 4.5TB of data it says comes from Israeli defense and intelligence bodies. The…",
-   "url": "https://x.com/DailyDarkWeb/status/2114412820506763497",
-   "published": "2026-10-25T17:44:34.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVfnQFIWIAAWjKv.jpg"
   }
  ]
 }
