@@ -1,0 +1,953 @@
+{
+ "date": "2026-10-28",
+ "edition": 226,
+ "compiled": "2026-10-28T00:11:16.618Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "9cfdf1956a",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 ",
+   "published": "2026-10-27T12:00:00.000Z",
+   "also": [],
+   "score": 1.65,
+   "t": "2026-10-27",
+   "summary": "CISA says successful exploitation of vulnerabilities in the listed Mitsubishi Electric products could allow an attacker to execute arbitrary actions; the snippet cuts off before specifying them.",
+   "why": "Check whether these products are in use and review the CISA advisory for further details.",
+   "tags": [
+    "Mitsubishi Electric",
+    "vulnerabilities",
+    "CISA"
+   ],
+   "ai": true
+  },
+  {
+   "id": "531d14aa47",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "EPICS Base",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive inform",
+   "published": "2026-10-27T12:00:00.000Z",
+   "also": [],
+   "score": 1.65,
+   "t": "2026-10-27",
+   "summary": "CISA says successful exploitation of vulnerabilities in EPICS Base could cause a denial-of-; the snippet cuts off before completing the impact.",
+   "why": "Check whether EPICS Base is in use and review the CISA advisory for further details.",
+   "tags": [
+    "EPICS Base",
+    "vulnerabilities",
+    "CISA"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9de4c840c9",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48356\" target=\"_blank\">CVE-2026-48356</a> A",
+   "published": "2026-10-27T12:00:00.000Z",
+   "also": [],
+   "score": 1.65,
+   "t": "2026-10-27",
+   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
+   "why": "Check whether your systems are affected and prioritize remediation using the KEV Catalog.",
+   "tags": [
+    "CISA",
+    "KEV",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5246b12726",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "snippet": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+   "published": "2026-10-27T23:35:51.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/5246b12726.webp",
+   "t": "2026-10-28",
+   "summary": "GMO urged customers to disconnect systems from the internet and shut down computers after a threat actor who breached Onamae Desktop Cloud threatened a ransomware attack.",
+   "why": "Check whether affected systems use the service; follow GMO’s disconnect and shutdown advice.",
+   "tags": [
+    "ransomware",
+    "Onamae Desktop Cloud"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dedf00d647",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+   "snippet": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+   "published": "2026-10-27T22:43:27.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/dedf00d647.webp",
+   "t": "2026-10-27",
+   "summary": "OpenAI says GPT-6.1 Terra is safer overall than some older models, though safety tests also found more destructive-action flags.",
+   "why": "Review safeguards and test how the model handles destructive actions before deployment.",
+   "tags": [
+    "GPT-6.1 Terra",
+    "safety testing",
+    "destructive actions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "78275c0ac5",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+   "snippet": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+   "published": "2026-10-27T22:07:34.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/78275c0ac5.webp",
+   "t": "2026-10-27",
+   "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities.",
+   "why": "Defenders should review incident readiness for systems supporting patient care and academic activities.",
+   "tags": [
+    "cyberattack",
+    "system outages",
+    "patient care"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7477a331e6",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers hijack Convertr analytics script to steal payment card data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "snippet": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+   "published": "2026-10-27T20:57:25.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/7477a331e6.webp",
+   "t": "2026-10-27",
+   "summary": "BleepingComputer reports that a skimming group compromised a shared Convertr analytics script to steal payment data during checkout.",
+   "why": "Review third-party scripts used at checkout and monitor for unauthorized changes or payment-data collection.",
+   "tags": [
+    "analytics script",
+    "payment data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2f6663d0ce",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+   "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+   "snippet": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
+   "published": "2026-10-27T20:40:00.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/2f6663d0ce.webp",
+   "t": "2026-10-27",
+   "summary": "The Record reports that a Nefilim and Hive ransomware operator received a sentence of more than five years after pleading guilty to charges related to participating in at least two ransomware groups.",
+   "why": "The case highlights the need to prepare for ransomware threats linked to organized operators.",
+   "tags": [
+    "Nefilim",
+    "Hive",
+    "ransomware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c75ce4708b",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
+   "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+   "snippet": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
+   "published": "2026-10-27T19:30:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/c75ce4708b.webp",
+   "t": "2026-10-27",
+   "summary": "The Record reports a US indictment of a Malaysian national and a sting in Madagascar, highlighting the scam center industry's global reach.",
+   "why": "Review how staff identify and report suspected scam-related contacts.",
+   "tags": [
+    "scam centers",
+    "Madagascar"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9df47a48bc",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+   "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+   "published": "2026-10-27T18:20:28.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/9df47a48bc.webp",
+   "t": "2026-10-27",
+   "summary": "Microsoft released out-of-band Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, including on systems without automatic certificate trust updates.",
+   "why": "Check whether affected Windows systems have received the updates and whether certificate trust updates are automatic.",
+   "tags": [
+    "Windows",
+    "certificates",
+    "eMudhra"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9cc8c186bc",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Where Are The Aircraft Carriers?: October 27, 2026",
+   "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-27-2026",
+   "snippet": "The Makin Island amphibious ready group pulls into Yokosuka a week behind the Theodore Roosevelt carrier strike group, as the carrier's jets conduct a simulated strike during exercise Keen Sword 27. The post Where Are The Aircraft Carriers?: October 27, 2026 appeared first on TWZ .",
+   "published": "2026-10-27T23:43:17.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/9cc8c186bc.webp",
+   "t": "2026-10-28",
+   "summary": "The Makin Island amphibious ready group arrived in Yokosuka after the Theodore Roosevelt carrier strike group, whose jets conducted a simulated strike during Keen Sword 27.",
+   "why": "The exercise and group movements provide a snapshot of carrier and amphibious operations in the region.",
+   "tags": [
+    "aircraft carriers",
+    "Keen Sword 27"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b9bee35717",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "This Serbian Truck Carries A Truly Massive Mortar",
+   "url": "https://www.twz.com/land/this-serbian-truck-carries-a-truly-massive-mortar",
+   "snippet": "The TSMB M-25 represents a modern attempt to combine great destructive potential with very high mobility. The post This Serbian Truck Carries A Truly Massive Mortar appeared first on TWZ .",
+   "published": "2026-10-27T22:18:39.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/b9bee35717.webp",
+   "t": "2026-10-27",
+   "summary": "The War Zone says the Serbian TSMB M-25 mortar combines high destructive potential with high mobility.",
+   "why": "The system highlights an effort to pair heavy mortar capability with mobility.",
+   "tags": [
+    "TSMB M-25",
+    "mortar",
+    "mobility"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3b8078cb07",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "U.S. Intel Confirms This Is China’s Secret Spaceplane",
+   "url": "https://www.twz.com/news-features/u-s-intel-confirms-this-is-chinas-secret-spaceplane",
+   "snippet": "The Chinese spaceplane design is unsurprisingly very similar to the U.S. Space Force's history-making X-37B. The post U.S. Intel Confirms This Is China’s Secret Spaceplane appeared first on TWZ .",
+   "published": "2026-10-27T21:33:06.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/3b8078cb07.webp",
+   "t": "2026-10-27",
+   "summary": "The War Zone says Chinese intelligence confirms a Chinese spaceplane design that is very similar to the U.S. Space Force’s X-37B.",
+   "why": "The reported design similarity makes the spaceplane relevant to comparing space technologies.",
+   "tags": [
+    "spaceplane",
+    "X-37B"
+   ],
+   "ai": true
+  },
+  {
+   "id": "db9c3d39a9",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "China has tripled its satellite fleet since 2018 as expansion continues: DIA",
+   "url": "https://breakingdefense.com/2026/10/dia-china-has-tripled-its-satellite-fleet-since-2018-as-expansion-continues/",
+   "snippet": "The Defense Intelligence Agency’s third iteration of its unclassified report on space threats also includes a never-before released image of China’s",
+   "published": "2026-10-27T20:56:45.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/db9c3d39a9.webp",
+   "t": "2026-10-27",
+   "summary": "The Defense Intelligence Agency says China has tripled its satellite fleet since 2018; its unclassified space-threat report includes a newly released image.",
+   "why": "Satellite expansion is relevant to assessing the changing space environment and its strategic significance.",
+   "tags": [
+    "satellite fleet",
+    "space threats"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7b944901bf",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "A more flexible way to defend maneuver forces from drones that doesn’t tie them down",
+   "url": "https://breakingdefense.com/2026/10/a-more-flexible-way-to-defend-maneuver-forces-from-drones-that-doesnt-tie-them-down/",
+   "snippet": "[Sponsored] Short-range air defense that is designed to move and adapt regardless of vehicle.",
+   "published": "2026-10-27T18:48:04.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/7b944901bf.webp",
+   "t": "2026-10-27",
+   "summary": "A sponsored item describes short-range air defense designed to move and adapt regardless of vehicle.",
+   "why": "Mobility and adaptability are relevant to protecting maneuver forces from drones.",
+   "tags": [
+    "air defense",
+    "drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6b4122443f",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "What’s haunting the Pentagon this Halloween?",
+   "url": "https://breakingdefense.com/2026/10/whats-haunting-the-pentagon-this-halloween/",
+   "snippet": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
+   "published": "2026-10-27T17:45:00.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/6b4122443f.webp",
+   "t": "2026-10-27",
+   "summary": "Breaking Defense discusses mysteries including the dangers of war in space and the intricacies of upgrading America’s nuclear weapons.",
+   "why": "These topics highlight the operational and technology challenges of space warfare and nuclear modernization.",
+   "tags": [
+    "space",
+    "nuclear weapons"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0ade343bc9",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ukraine’s StarGate Drone Now Evacuating Wounded Soldiers",
+   "url": "https://www.twz.com/air/ukraines-stargate-drone-now-evacuating-wounded-soldiers",
+   "snippet": "The purpose-built aerial CASEVAC platform is claimed to have completed two battlefield evacuations in a week, including a mission under electronic attack. The post Ukraine’s StarGate Drone Now Evacuating Wounded Soldiers appeared first on TWZ .",
+   "published": "2026-10-27T16:32:30.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/0ade343bc9.webp",
+   "t": "2026-10-27",
+   "summary": "The War Zone reports that Ukraine’s StarGate drone is claimed to have completed two battlefield evacuations, including one under electronic attack.",
+   "why": "The claimed missions illustrate an aerial evacuation role and operation under electronic attack.",
+   "tags": [
+    "StarGate",
+    "drone",
+    "electronic attack"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4e03a9453d",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "Financial aid for Ukraine is getting harder to find",
+   "url": "https://www.defenseone.com/policy/2026/10/financial-ukraine/416851/",
+   "snippet": "Helping a European neighbor remains politically popular, but rearming amid economic stress leaves less money to give.",
+   "published": "2026-10-27T21:28:11.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/4e03a9453d.webp",
+   "t": "2026-10-27",
+   "summary": "Defense One says aid for Ukraine is becoming harder to find: rearming amid economic stress leaves less money to give, despite political support for helping a European neighbor.",
+   "why": "The funding pressure matters to understanding the resources available for Ukraine’s support.",
+   "tags": [
+    "Ukraine",
+    "financial aid",
+    "rearming"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a9bd4930e6",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "For Russia, Trump’s diesel deal was just the first ask",
+   "url": "https://www.atlanticcouncil.org/dispatches/for-russia-trumps-diesel-deal-was-just-the-first-ask/",
+   "snippet": "The rationale behind the Trump administration’s recently issued General License 135 faces a number of questions. The post For Russia, Trump’s diesel deal was just the first ask appeared first on Atlantic Council .",
+   "published": "2026-10-27T22:12:44.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/a9bd4930e6.webp",
+   "t": "2026-10-27",
+   "summary": "Atlantic Council questions the rationale behind the Trump administration’s General License 135, described in the title as part of a diesel deal with Russia.",
+   "why": "The questions around the license may matter to analysis of Russia-related policy.",
+   "tags": [
+    "Russia",
+    "diesel deal",
+    "General License 135"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1ca966fc37",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+   "published": "2026-10-27T22:11:08.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/1ca966fc37.webp",
+   "t": "2026-10-27",
+   "summary": "The ceasefire across Ukraine's Kherson region was initially planned for stranded residents of Oleshky. Russia and Ukraine say no breaches have been reported.",
+   "why": "The truce concerns residents in Oleshky and the situation in the Kherson region.",
+   "tags": [
+    "ceasefire",
+    "Kherson",
+    "Oleshky"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a29eb92a4d",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Decoding Israel’s Election Results",
+   "url": "https://foreignpolicy.com/2026/10/27/israel-election-netanyahu-likud-eisenkot-yashar-hamas-gaza-war/",
+   "snippet": "Exit polls show no clear winner, with Eisenkot’s opposition bloc slightly ahead of Netanyahu’s.",
+   "published": "2026-10-27T21:19:59.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/a29eb92a4d.webp",
+   "t": "2026-10-27",
+   "summary": "Foreign Policy reports that exit polls show no clear winner, with Eisenkot’s opposition bloc slightly ahead of Netanyahu’s.",
+   "why": "The exit polls offer a snapshot of the balance between political blocs.",
+   "tags": [
+    "Israel",
+    "exit polls",
+    "opposition bloc"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9124bcc767",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "UN report: Russian attacks on Ukraine’s power grid are a ‘crime against humanity’",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/un-report-russian-attacks-on-ukraines-power-grid-are-a-crime-against-humanity/",
+   "snippet": "Russia’s bombardment of Ukraine’s civilian power grid qualifies as a crime against humanity, according to a new report by the UN’s Independent International Commission of Inquiry on Ukraine, writes Kateryna Odarchenko. The post UN report: Russian attacks on Ukraine’s power grid are a ‘crime against humanity’ appeared f",
+   "published": "2026-10-27T21:00:56.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/9124bcc767.webp",
+   "t": "2026-10-27",
+   "summary": "A UN commission report says Russia’s attacks on Ukraine’s civilian power grid qualify as a crime against humanity.",
+   "why": "Attacks on power infrastructure underscore its strategic and civilian significance in the conflict.",
+   "tags": [
+    "power grid",
+    "Ukraine",
+    "UN report"
+   ],
+   "ai": true
+  },
+  {
+   "id": "16a8fde759",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Dramatic Changes Are Unlikely in Israel, Even if Netanyahu Is Ousted",
+   "url": "https://foreignpolicy.com/2026/10/27/israel-election-netanyahu-eisenkot-palestinians-gaza/",
+   "snippet": "Eisenkot’s centrist bloc takes lead in exit polls.",
+   "published": "2026-10-27T20:39:45.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/16a8fde759.webp",
+   "t": "2026-10-27",
+   "summary": "Foreign Policy says Eisenkot’s centrist bloc leads in exit polls, while dramatic changes in Israel are unlikely even if Netanyahu is ousted.",
+   "why": "The item highlights the limits of how much a possible leadership change may shift Israeli politics.",
+   "tags": [
+    "Israel",
+    "exit polls",
+    "Eisenkot"
+   ],
+   "ai": true
+  },
+  {
+   "id": "330b7ac557",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+   "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The Russian-occupied city of Oleshky has had no electricity, gas or water for three years, as residents reported having to eat weeds to survive.",
+   "published": "2026-10-27T20:42:38.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/330b7ac557.webp",
+   "t": "2026-10-27",
+   "summary": "The BBC World item says Oleshky has lacked electricity, gas and water for three years; residents reported eating weeds to survive.",
+   "why": "The reported loss of basic services highlights the city’s humanitarian and infrastructure conditions.",
+   "tags": [
+    "Oleshky",
+    "utilities",
+    "truce"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3bdb7e7867",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Platform",
+   "url": "https://insidegnss.com/inertial-labs-a-viavi-solutions-company-accelerates-complex-alt-pnt-and-guidance-systems-design-with-programmable-ins-development-platform/",
+   "snippet": "INS-NV with AI processor, tactical-grade MEMS sensors and full-constellation GNSS receiver reduces time to market for visual and inertial navigation systems. Inertial Labs,... The post Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Pla",
+   "published": "2026-10-27T15:41:57.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/3bdb7e7867.webp",
+   "t": "2026-10-27",
+   "summary": "Inertial Labs says its INS-NV platform combines an AI processor, tactical-grade MEMS sensors and a full-constellation GNSS receiver to speed development of navigation systems.",
+   "why": "The platform brings together inertial and GNSS navigation components for alternative positioning and guidance systems.",
+   "tags": [
+    "INS-NV",
+    "GNSS",
+    "MEMS sensors"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1d4674042d",
+   "section": "geo",
+   "source": "SpaceNews",
+   "weight": 0.6,
+   "title": "Ukrainian startup, GomSpace test satellite for future communications network",
+   "url": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
+   "snippet": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace test satellite for future communications network appeared first on SpaceNews .",
+   "published": "2026-10-27T20:21:30.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/1d4674042d.webp",
+   "t": "2026-10-27",
+   "summary": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network.",
+   "why": "A potential Ukrainian-controlled network has strategic relevance for communications and satellite infrastructure.",
+   "tags": [
+    "satellite",
+    "communications",
+    "Ukraine"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-48356",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+  },
+  {
+   "cve": "CVE-2026-111497",
+   "vendor": "Google",
+   "product": "Brotli",
+   "name": "Google Brotli Unchecked Return Value Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+  },
+  {
+   "cve": "CVE-2026-109618",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Memory Corruption Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+  },
+  {
+   "cve": "CVE-2026-109619",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Stale Internal Request-State Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+  },
+  {
+   "cve": "CVE-2026-114625",
+   "vendor": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
+  },
+  {
+   "cve": "CVE-2026-110447",
+   "vendor": "Collabora",
+   "product": "Collabora Online – Built-in CODE Server",
+   "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
+  },
+  {
+   "cve": "CVE-2026-106931",
+   "vendor": "EG Secure Solutions",
+   "product": "SiteGuard Server Edition",
+   "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+  },
+  {
+   "cve": "CVE-2026-96656",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+  },
+  {
+   "cve": "CVE-2026-96655",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 5.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+  },
+  {
+   "cve": "CVE-2026-96654",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.9,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+  },
+  {
+   "cve": "CVE-2026-96652",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 5.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+  },
+  {
+   "cve": "CVE-2026-110936",
+   "vendor": "Siemens",
+   "product": "Software Center",
+   "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+  }
+ ],
+ "run_today": [
+  "If you use Onamae Desktop Cloud, follow GMO’s advice to disconnect systems from the internet.",
+  "Shut down affected computers as GMO urges.",
+  "Check whether your systems or services are connected to the breached Onamae Desktop Cloud."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "ransomware",
+   "explainer": "Ransomware is malicious software associated with an attack that threatens or disrupts access to systems or data. GMO’s warning describes a threatened ransomware attack.",
+   "from_id": "5246b12726",
+   "from": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "fromSource": "BleepingComputer"
+  },
+  {
+   "domain": "warfare",
+   "term": "simulated strike",
+   "explainer": "A simulated strike is a practice attack conducted as part of an exercise, rather than a reported real-world strike. The carrier’s jets conducted one during Keen Sword 27.",
+   "from_id": "9cc8c186bc",
+   "from": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-27-2026",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "Yokosuka",
+   "explainer": "Yokosuka is the place named in the report as the arrival point for the Makin Island amphibious ready group. A location helps situate reported military movements.",
+   "from_id": "9cc8c186bc",
+   "from": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-27-2026",
+   "fromSource": "The War Zone"
+  }
+ ],
+ "analysis": {
+  "headline": "Exposure, readiness and operational signals",
+  "paragraphs": [
+   "Today’s cyber stories point to both specific exposure and response priorities. The GMO Group urges customers to disconnect systems and shut down computers after a breach and ransomware threat. CISA’s addition of vulnerabilities to its known-exploited catalog, alongside OT advisories, reinforces the importance of checking affected systems and acting on relevant guidance.",
+   "Other stories describe consequences and capability: a cyberattack disrupted care at UNM Health, while a simulated strike during Keen Sword 27 offers a glimpse of military training activity. A report on a truck-mounted mortar highlights mobility as a design feature. These items concern different fields, but each makes operational context important to interpretation.",
+   "For defenders, the immediate question is whether their systems match the affected services or vulnerabilities named in advisories. For analysts, the carrier movements, exercise and equipment descriptions are snapshots, not a full account of intent or readiness. Watch for further guidance and developments; the supplied details do not establish what happens next."
+  ],
+  "takeaways": [
+   "Follow GMO’s disconnect and shutdown advice if relevant to your systems.",
+   "Check CISA and OT advisories for vulnerabilities that affect your environment.",
+   "Treat exercise and equipment reports as limited operational snapshots."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 11
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 14
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  }
+ ]
+}
