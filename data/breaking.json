@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-28T18:40:12.373Z",
+ "updated": "2026-10-28T18:47:30.128Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -12,7 +17,12 @@
    "error": "HTTP 402"
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 5
   },
@@ -37,24 +47,14 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Hackread",
@@ -62,29 +62,24 @@
    "n": 3
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
+   "n": 1
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -95,6 +90,11 @@
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X blueteam",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "nd9b49b7f0d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Discord to let search engines index public server messages",
+   "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+   "published": "2026-10-28T18:44:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n4e4705c544",
    "kind": "news",
    "group": "markets",
@@ -127,6 +138,17 @@
    "url": "https://www.marketwatch.com/story/im-planning-a-trip-to-europe-is-it-dumb-to-take-travel-advice-from-influencers-f25ae756?mod=mw_rss_topstories",
    "published": "2026-10-28T18:30:00.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n10e92bd498",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "published": "2026-10-28T18:08:33.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -4504,17 +4526,6 @@
    "verified": false
   },
   {
-   "id": "n49aedb62ce",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-   "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-   "published": "2026-10-26T11:23:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n6ac278924a",
    "kind": "news",
    "group": "darkweb",
@@ -4524,17 +4535,6 @@
    "published": "2026-10-26T11:18:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114677237890891862",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@BleepinComputer",
-   "title": "These Costco Gold Star Memberships come with a $45 Digital Costco Shop Card*",
-   "url": "https://x.com/BleepinComputer/status/2114677237890891862",
-   "published": "2026-10-26T11:15:16.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114676492944945385",
@@ -5112,29 +5112,6 @@
    "title": "Current research status",
    "url": "https://x.com/_dirkjan/status/2114430723163578761",
    "published": "2026-10-25T18:55:43.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114427930218582422",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "SECRA breach: holiday-property access codes may be exposed SECRA, a HomeToGo subsidiary providing booking software, says attackers exported data from its systems. It detected the incident on October 23. Its advice goes beyond password…",
-   "url": "https://x.com/DailyDarkWeb/status/2114427930218582422",
-   "published": "2026-10-25T18:44:37.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVf0_kcWYAAAh1a.jpg"
-  },
-  {
-   "id": "x2114426923455574378",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨🇺🇸🇺🇸🇦🇺 Initial Access: Three Corporate and Public-Sector Environments Threat actor \"Glitch NoOp\" is advertising access to three organizations across the U.S. and Australia. 🇺🇸 Consumer services company in California - RDWeb…",
-   "url": "https://x.com/DarkWebInformer/status/2114426923455574378",
-   "published": "2026-10-25T18:40:37.000Z",
    "severity": "normal",
    "verified": false
   }
