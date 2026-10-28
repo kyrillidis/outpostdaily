@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:52:19.763Z",
+ "updated": "2026-10-28T16:59:26.271Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -7,19 +7,19 @@
    "n": 6
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 4
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Hacker News",
@@ -32,29 +32,19 @@
    "n": 10
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 2
   },
   {
-   "name": "SecurityWeek",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 8
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -62,9 +52,19 @@
    "n": 0
   },
   {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -77,14 +77,14 @@
    "n": 2
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "nee8b463973",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Healthcare stocks are on their biggest hot streak in a generation. Think twice before chasing the rally.",
+   "url": "https://www.marketwatch.com/story/healthcare-stocks-are-on-their-biggest-hot-streak-in-a-generation-think-twice-before-chasing-the-rally-a043adfe?mod=mw_rss_topstories",
+   "published": "2026-10-28T16:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n516ab6192d",
    "kind": "news",
    "group": "cyber",
@@ -149,6 +160,17 @@
    "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
    "published": "2026-10-28T16:37:00.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n8d8c539616",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ethiopia receives 12 Russian Su-35 jets, plans S-400 acquisition",
+   "url": "https://www.aljazeera.com/news/2026/10/28/ethiopia-receives-12-russian-su-35-jets-plans-s-400-acquisition?traffic_source=rss",
+   "published": "2026-10-28T16:35:30.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -2616,17 +2638,6 @@
    "verified": true
   },
   {
-   "id": "n8a1e8ded3e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The impressive real estate portfolio of sitcom producer Chuck Lorre of ‘Big Bang Theory’ and ‘Two and a Half Men’ fame",
-   "url": "https://www.marketwatch.com/story/the-impressive-real-estate-portfolio-of-sitcom-producer-chuck-lorre-of-big-bang-theory-and-two-and-a-half-men-fame-f8e43ed4?mod=mw_rss_topstories",
-   "published": "2026-10-27T08:58:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n9bf9a3f733",
    "kind": "news",
    "group": "crisis",
@@ -4292,17 +4303,6 @@
    "verified": false
   },
   {
-   "id": "nd59fc7e155",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
-   "url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl?traffic_source=rss",
-   "published": "2026-10-26T12:17:02.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114692403743404387",
    "kind": "x",
    "group": "darkweb",
@@ -5265,17 +5265,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVffh2vXsAAnCJk.jpg"
-  },
-  {
-   "id": "r5b727b9ceb",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "Whitearmor claims Partido Liberal (AR) — Government & Defense",
-   "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I=",
-   "published": "2026-10-25T16:56:33.851Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
