@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-28T10:39:49.836Z",
+ "updated": "2026-10-28T10:53:49.455Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "The Record",
@@ -17,9 +17,14 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "MarketWatch",
@@ -27,9 +32,9 @@
    "n": 6
   },
   {
-   "name": "Al Jazeera",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 6
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -37,12 +42,7 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
+   "name": "Al Jazeera",
    "ok": true,
    "n": 6
   },
@@ -54,10 +54,10 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
-   "name": "Hackread",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
@@ -65,11 +65,6 @@
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -87,14 +82,19 @@
    "n": 7
   },
   {
-   "name": "Dark Reading",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n9ebc7f16e5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+   "published": "2026-10-28T10:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naa56191275",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "published": "2026-10-28T10:46:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "neff385a25b",
    "kind": "news",
@@ -159,6 +181,17 @@
    "title": "Bill Ackman owns only a handful of stocks. Here is his rule for picking a winner.",
    "url": "https://www.marketwatch.com/story/bill-ackman-owns-only-a-handful-of-stocks-here-is-his-rule-for-picking-a-winner-82a0ee98?mod=mw_rss_topstories",
    "published": "2026-10-28T10:11:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neec748db61",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "U.S. CISA adds Google Brotli and Adobe Commerce and Magento flaws to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/201922/security/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+   "published": "2026-10-28T10:05:15.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4756,17 +4789,6 @@
    "img": "https://pbs.twimg.com/media/HVhaxSnXsAA0WDm.jpg"
   },
   {
-   "id": "x2114528940782149823",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ A Nissan Rogue owner says OpenAI's GPT-6 Astra turned his Lenovo laptop into a fake phone that his car's Bosch head unit accepted for Android Auto. They are now probing its bootloader in a bid to flash Android 13 onto the factory unit.…",
-   "url": "https://x.com/IntCyberDigest/status/2114528940782149823",
-   "published": "2026-10-26T01:26:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114525741689774449",
    "kind": "x",
    "group": "darkweb",
@@ -4800,17 +4822,6 @@
    "published": "2026-10-26T01:02:57.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114515331364352088",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@vxunderground",
-   "title": "Also, as far as this malware strain goes, I'm fairly certain some of the write-ups I've seen about this payload (or campaign) are wrong-ish. The sample I chose was shared online and, to the best of my knowledge, no one has gotten into the…",
-   "url": "https://x.com/vxunderground/status/2114515331364352088",
-   "published": "2026-10-26T00:31:55.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114513676501647552",
@@ -5268,17 +5279,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVfRzzpXEAAr-TS.jpg"
-  },
-  {
-   "id": "x2114386228057628827",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨 Researcher publishes 11 unpatched security flaws affecting Tailscale and headscale Erica Windisch of Cyberdione Labs skipped coordinated vulnerability disclosure and publicly released details for 11 flaws tested against Tailscale…",
-   "url": "https://x.com/DarkWebInformer/status/2114386228057628827",
-   "published": "2026-10-25T15:58:54.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
