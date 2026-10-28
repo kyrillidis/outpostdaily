@@ -1,20 +1,15 @@
 {
- "updated": "2026-10-28T19:00:43.303Z",
+ "updated": "2026-10-28T19:13:37.192Z",
  "health": [
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
    "name": "The Hacker News",
-   "ok": true,
-   "n": 4
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -22,9 +17,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "Al Jazeera",
@@ -32,17 +27,27 @@
    "n": 8
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Record",
    "ok": true,
    "n": 5
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
   },
   {
-   "name": "CISA Advisories",
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -52,29 +57,9 @@
    "n": 4
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 4
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Security Affairs",
@@ -82,7 +67,7 @@
    "n": 1
   },
   {
-   "name": "BreachForums",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -90,6 +75,21 @@
    "name": "Dark Reading",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -130,6 +130,17 @@
    "verified": true
   },
   {
+   "id": "n6e63b151d3",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Elon Musk says he can build a wireless carrier in two to three years. Is that possible?",
+   "url": "https://www.marketwatch.com/story/elon-musk-says-he-can-build-a-wireless-carrier-in-two-to-three-years-is-that-possible-5ccf9685?mod=mw_rss_topstories",
+   "published": "2026-10-28T18:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n925be486fe",
    "kind": "news",
    "group": "markets",
@@ -138,6 +149,17 @@
    "url": "https://www.marketwatch.com/story/gen-z-voters-told-us-the-midterms-will-boil-down-to-affording-life-not-social-issues-11bd1734?mod=mw_rss_topstories",
    "published": "2026-10-28T18:56:00.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb429b11698",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Students on hunger strike in India demand restoration of student union",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/students-on-hunger-strike-in-india-demand-restoration-of-student-union?traffic_source=rss",
+   "published": "2026-10-28T18:52:58.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -2616,17 +2638,6 @@
    "verified": true
   },
   {
-   "id": "n66c4732bab",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes",
-   "url": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
-   "published": "2026-10-27T11:00:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n55f3ea8f84",
    "kind": "news",
    "group": "crisis",
@@ -4249,17 +4260,6 @@
    "title": "PhantomTac Attack Tricks Robots Into Dropping or Crushing Objects",
    "url": "https://hackread.com/phantomtac-attack-robots-dropping-crushing-objects/",
    "published": "2026-10-26T13:13:01.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne8f1bf2957",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel expands expulsions in occupied West Bank to cement control",
-   "url": "https://www.aljazeera.com/news/2026/10/26/israel-expands-occupied-west-bank-expulsions-to-cement-control?traffic_source=rss",
-   "published": "2026-10-26T13:11:08.000Z",
    "severity": "normal",
    "verified": true
   },
