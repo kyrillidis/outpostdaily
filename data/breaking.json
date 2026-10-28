@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-28T08:33:17.208Z",
+ "updated": "2026-10-28T08:41:49.208Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
@@ -12,12 +17,12 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
@@ -27,17 +32,7 @@
    "n": 6
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
    "ok": true,
    "n": 0
   },
@@ -47,9 +42,19 @@
    "n": 0
   },
   {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -57,9 +62,9 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -67,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BreachForums",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -83,11 +88,6 @@
   },
   {
    "name": "Security Affairs",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n21dec5f03b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+   "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+   "published": "2026-10-28T08:37:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nd75560f4ca",
    "kind": "news",
@@ -258,6 +269,17 @@
    "title": "Mbappe faces backlash in China for meme fiasco",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
    "published": "2026-10-28T04:28:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9e85cc923b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Watch: What happens now after close vote in Israeli election?",
+   "url": "https://www.bbc.co.uk/news/videos/cm79p5pxqey2o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-28T04:22:59.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4916,17 +4938,6 @@
    "verified": false
   },
   {
-   "id": "x2114468542951080413",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Hackers broke into a University of Copenhagen test environment and accessed data on ~525,000 people, including Danish national ID numbers. The database also held full names, home phone numbers and personal emails. KU has not said whose…",
-   "url": "https://x.com/IntCyberDigest/status/2114468542951080413",
-   "published": "2026-10-25T21:26:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114462306780201124",
    "kind": "x",
    "group": "blueteam",
@@ -4948,17 +4959,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVgQZoNXgAErzMn.jpg"
-  },
-  {
-   "id": "x2114456558448886011",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@Faytuks",
-   "title": "Breaking: Serbia’s former President Aleksandar Vucic has conceded the election and says that the student-backed list has won -RTS",
-   "url": "https://x.com/Faytuks/status/2114456558448886011",
-   "published": "2026-10-25T20:38:22.000Z",
-   "severity": "high",
-   "verified": false
   },
   {
    "id": "x2114448065599844471",
