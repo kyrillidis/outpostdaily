@@ -1,30 +1,20 @@
 {
- "updated": "2026-10-28T18:47:30.128Z",
+ "updated": "2026-10-28T19:00:43.303Z",
  "health": [
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "The Hacker News",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -32,17 +22,52 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 3
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -52,17 +77,12 @@
    "n": 4
   },
   {
-   "name": "Krebs on Security",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -72,29 +92,9 @@
    "n": 1
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X blueteam",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "n4393b02f1a",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "From Rules to AI and Back",
+   "url": "https://hackread.com/from-rules-to-ai-and-back/",
+   "published": "2026-10-28T18:59:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n925be486fe",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Gen Z voters told us the midterms will boil down to affording life, not social issues",
+   "url": "https://www.marketwatch.com/story/gen-z-voters-told-us-the-midterms-will-boil-down-to-affording-life-not-social-issues-11bd1734?mod=mw_rss_topstories",
+   "published": "2026-10-28T18:56:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nd9b49b7f0d",
    "kind": "news",
    "group": "cyber",
@@ -126,6 +148,17 @@
    "title": "Discord to let search engines index public server messages",
    "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
    "published": "2026-10-28T18:44:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf09c622a1f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Jerusalem Daily: What’s next after Israel’s elections?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
+   "published": "2026-10-28T18:31:33.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2671,17 +2704,6 @@
    "verified": true
   },
   {
-   "id": "nc0f1269a8a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
-   "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
-   "published": "2026-10-27T10:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n177d2de823",
    "kind": "news",
    "group": "cyber",
@@ -4277,17 +4299,6 @@
    "verified": false
   },
   {
-   "id": "n1328bd0c6f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Who are the Israeli candidates trying to unseat Netanyahu?",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/who-are-the-israeli-candidates-trying-to-unseat-netanyahu?traffic_source=rss",
-   "published": "2026-10-26T13:02:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114703924972134740",
    "kind": "x",
    "group": "darkweb",
@@ -5103,17 +5114,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVgCtZrXIAALco_.jpg"
-  },
-  {
-   "id": "x2114430723163578761",
-   "kind": "x",
-   "group": "redteam",
-   "source": "@_dirkjan",
-   "title": "Current research status",
-   "url": "https://x.com/_dirkjan/status/2114430723163578761",
-   "published": "2026-10-25T18:55:43.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
