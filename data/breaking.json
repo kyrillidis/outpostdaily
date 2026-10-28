@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T20:25:30.612Z",
+ "updated": "2026-10-28T20:48:03.544Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "X cyber",
@@ -12,24 +12,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
   },
   {
    "name": "The Hacker News",
@@ -37,29 +22,9 @@
    "n": 4
   },
   {
-   "name": "Al Jazeera",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
+   "n": 10
   },
   {
    "name": "The DFIR Report",
@@ -67,12 +32,22 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "Security Affairs",
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
@@ -82,9 +57,34 @@
    "n": 4
   },
   {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n6369b7f887",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "published": "2026-10-28T20:47:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6297f1390d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+   "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+   "published": "2026-10-28T20:33:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "needa43363e",
    "kind": "news",
@@ -4492,17 +4514,6 @@
    "verified": true
   },
   {
-   "id": "nf5fa96b288",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-   "published": "2026-10-26T11:47:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc96745f4b9",
    "kind": "news",
    "group": "darkweb",
@@ -4524,17 +4535,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjbai7W4AA1hVx.jpg"
-  },
-  {
-   "id": "x2114679769833013375",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 An attack can unfold for weeks before a SOC gets its first major alert. By then, the real story may be buried in DNS queries, logins, and network connections that looked harmless. Here's how NDR helps AI-assisted SOCs connect the clues…",
-   "url": "https://x.com/TheHackersNews/status/2114679769833013375",
-   "published": "2026-10-26T11:25:20.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "n6ac278924a",
@@ -5057,18 +5057,6 @@
    "published": "2026-10-25T21:01:13.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "x2114458064497868828",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "⚠️ TAILWORM: RESEARCHERS SAY TAILSCALE SSH FORWARDING CAN CROSS PRIVILEGE BOUNDARIES; TAILSCALE MERGES A FIX FOR A RELATED SERVE FLAW Cyberdione Labs published \"Tailworm\", a lab-tested assessment of Tailscale 1.104.2 and headscale 0.29.5.…",
-   "url": "https://x.com/DailyDarkWeb/status/2114458064497868828",
-   "published": "2026-10-25T20:44:21.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVgQZoNXgAErzMn.jpg"
   }
  ]
 }
