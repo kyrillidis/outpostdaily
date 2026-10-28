@@ -1,45 +1,20 @@
 {
- "updated": "2026-10-28T11:14:33.859Z",
+ "updated": "2026-10-28T11:23:21.278Z",
  "health": [
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
-   "name": "Al Jazeera",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 6
+   "n": 2
   },
   {
    "name": "The Record",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
   },
   {
    "name": "Krebs on Security",
@@ -49,7 +24,27 @@
   {
    "name": "The Hacker News",
    "ok": true,
+   "n": 8
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
    "n": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "SecurityWeek",
@@ -57,9 +52,14 @@
    "n": 5
   },
   {
-   "name": "Dark Reading",
+   "name": "Hackread",
    "ok": true,
-   "n": 1
+   "n": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -77,24 +77,24 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 1
   },
   {
-   "name": "BleepingComputer",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X redteam",
    "ok": false,
-   "error": "HTTP 402"
+   "error": "fetch failed"
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n42a9e60af1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "published": "2026-10-28T11:15:51.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n95a310f572",
    "kind": "news",
@@ -191,6 +202,17 @@
    "source": "SecurityWeek",
    "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
    "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+   "published": "2026-10-28T10:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n169a3a02ba",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
    "published": "2026-10-28T10:30:00.000Z",
    "severity": "normal",
    "verified": true
@@ -4741,17 +4763,6 @@
    "img": "https://pbs.twimg.com/media/HVhuLSuXsAAwDTs.jpg"
   },
   {
-   "id": "x2114559140240474189",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Korean Air and Asiana say booking data was exposed through Amadeus, which runs reservations for airlines worldwide. An intruder used one Amadeus account's login, sometime between August 2023 and September 2026. Amadeus is still…",
-   "url": "https://x.com/IntCyberDigest/status/2114559140240474189",
-   "published": "2026-10-26T03:26:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114558113244491864",
    "kind": "x",
    "group": "darkweb",
@@ -4774,17 +4785,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhodRWXMAA7MqS.jpg"
-  },
-  {
-   "id": "x2114546053877727404",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ Framework cut the RAM on some Laptop 13 Pro pre-orders after its memory supplier more than doubled prices. Later 64GB orders were downgraded to 32GB, some 32GB orders to 16GB. One buyer says they paid $800 to get back the RAM they…",
-   "url": "https://x.com/IntCyberDigest/status/2114546053877727404",
-   "published": "2026-10-26T02:34:00.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114544679626903674",
