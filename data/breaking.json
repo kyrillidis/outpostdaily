@@ -1,20 +1,15 @@
 {
- "updated": "2026-10-28T10:25:15.115Z",
+ "updated": "2026-10-28T10:32:37.058Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
   },
   {
    "name": "X cyber",
@@ -22,29 +17,14 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "The DFIR Report",
@@ -62,9 +42,24 @@
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Daily Dark Web",
@@ -72,7 +67,12 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 7
+   "n": 1
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "neff385a25b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The real way to tell if Amazon’s AI spending is paying off",
+   "url": "https://www.marketwatch.com/story/the-real-way-to-tell-if-amazons-ai-spending-is-paying-off-42a8a637?mod=mw_rss_topstories",
+   "published": "2026-10-28T10:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf7187e41a9",
    "kind": "news",
@@ -203,6 +214,17 @@
    "title": "Israeli right makes provocative statements as election votes are counted",
    "url": "https://www.aljazeera.com/news/2026/10/28/israeli-right-makes-provocative-statements-as-election-votes-are-counted?traffic_source=rss",
    "published": "2026-10-28T09:30:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n47c4019906",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least 10 killed after two trains collide in Spain, authorities say",
+   "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
+   "published": "2026-10-28T09:26:47.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2539,17 +2561,6 @@
    "verified": true
   },
   {
-   "id": "n26998135a7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?",
-   "url": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
-   "published": "2026-10-26T18:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n9612772452",
    "kind": "news",
    "group": "cyber",
@@ -4778,17 +4789,6 @@
    "published": "2026-10-26T01:02:57.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114515808487420131",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@BBCBreaking",
-   "title": "Brazil's left-wing President Lula elected for fourth term, beating Flávio Bolsonaro in knife-edge vote - follow updates",
-   "url": "https://x.com/BBCBreaking/status/2114515808487420131",
-   "published": "2026-10-26T00:33:49.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114515331364352088",
