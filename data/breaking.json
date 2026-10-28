@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-28T11:23:21.278Z",
+ "updated": "2026-10-28T11:30:29.859Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 2
   },
   {
-   "name": "The Record",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -27,24 +27,29 @@
    "n": 8
   },
   {
-   "name": "CISA Advisories",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "Al Jazeera",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "MarketWatch",
    "ok": true,
    "n": 6
   },
   {
-   "name": "Dark Reading",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -57,14 +62,14 @@
    "n": 2
   },
   {
-   "name": "BBC World",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Security Affairs",
@@ -72,9 +77,9 @@
    "n": 2
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -82,19 +87,14 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
    "name": "X redteam",
    "ok": false,
-   "error": "fetch failed"
+   "error": "HTTP 402"
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n3ebc2ee24a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The AI boom is starting to break time-tested stock-market signals",
+   "url": "https://www.marketwatch.com/story/the-ai-boom-is-starting-to-break-time-tested-stock-market-signals-b172d67e?mod=mw_rss_topstories",
+   "published": "2026-10-28T11:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n42a9e60af1",
    "kind": "news",
@@ -2645,17 +2656,6 @@
    "title": "12,976 Refrigeration Controls Found Exposed Online in 99 Countries",
    "url": "https://hackread.com/refrigeration-controls-exposed-online-99-countries/",
    "published": "2026-10-26T19:03:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb5fa4296b7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
-   "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
-   "published": "2026-10-26T18:24:00.000Z",
    "severity": "normal",
    "verified": true
   },
