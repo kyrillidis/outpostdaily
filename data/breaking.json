@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-28T19:37:53.296Z",
+ "updated": "2026-10-28T19:44:52.452Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -17,26 +27,6 @@
    "n": 5
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 8
@@ -47,14 +37,29 @@
    "n": 3
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -62,17 +67,12 @@
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "DarkForums",
    "ok": true,
-   "n": 1
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ne7d2c58fd7",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s what just sent Oracle’s stock soaring",
+   "url": "https://www.marketwatch.com/story/heres-what-just-sent-oracles-stock-soaring-7a1a91e2?mod=mw_rss_topstories",
+   "published": "2026-10-28T19:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n0a27853e88",
    "kind": "news",
@@ -2649,17 +2660,6 @@
    "verified": true
   },
   {
-   "id": "n1bc8caed73",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "SoFi’s stock climbs as lending surge drives an earnings beat and rosy outlook",
-   "url": "https://www.marketwatch.com/story/sofis-stock-climbs-as-lending-surge-drives-an-earnings-beat-and-rosy-outlook-0c978535?mod=mw_rss_topstories",
-   "published": "2026-10-27T11:06:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n55f3ea8f84",
    "kind": "news",
    "group": "crisis",
@@ -5102,18 +5102,6 @@
    "published": "2026-10-25T19:45:06.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "x2114443010867974633",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇰🇼 🚨 KUWAIT: THREAT ACTOR SELLS ALLEGED BLIZZARD COMPUTER STORE CUSTOMER AND PAYMENT DATA A threat actor on an underground forum is selling what it claims is customer and payment data from blizzardkw[.]com, Blizzard Computer Store, a…",
-   "url": "https://x.com/DailyDarkWeb/status/2114443010867974633",
-   "published": "2026-10-25T19:44:32.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVgCtZrXIAALco_.jpg"
   }
  ]
 }
