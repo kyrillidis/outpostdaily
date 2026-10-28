@@ -1,20 +1,40 @@
 {
- "updated": "2026-10-28T14:58:52.347Z",
+ "updated": "2026-10-28T15:14:49.127Z",
  "health": [
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
    "ok": true,
-   "n": 6
+   "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "BBC World",
@@ -24,37 +44,7 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
    "n": 5
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -67,19 +57,29 @@
    "n": 0
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,50 @@
   }
  ],
  "items": [
+  {
+   "id": "n8617d1ab1a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These software stocks could be winners as earnings season kicks into high gear",
+   "url": "https://www.marketwatch.com/story/these-software-stocks-could-be-winners-as-earnings-season-kicks-into-high-gear-8decddf7?mod=mw_rss_topstories",
+   "published": "2026-10-28T15:06:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf424b83a0c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+   "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+   "published": "2026-10-28T15:05:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1b95ecd809",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Heating your home with oil could cost $750 more this winter. Read this before you pay the price.",
+   "url": "https://www.marketwatch.com/story/heating-your-home-with-oil-could-cost-750-more-this-winter-read-this-before-you-pay-the-price-e39f0d52?mod=mw_rss_topstories",
+   "published": "2026-10-28T15:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n00f8406051",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Are GCC countries looking for a regional security pact with Iran?",
+   "url": "https://www.aljazeera.com/news/2026/10/28/are-gcc-countries-looking-for-a-regional-security-pact-with-iran?traffic_source=rss",
+   "published": "2026-10-28T14:51:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n7f47388e61",
    "kind": "news",
@@ -2825,17 +2869,6 @@
    "verified": true
   },
   {
-   "id": "n3517fc548e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Why Lumentum’s stock led the S&P 500 higher on Monday",
-   "url": "https://www.marketwatch.com/story/why-lumentums-stock-led-the-s-p-500-higher-on-monday-0dff125b?mod=mw_rss_topstories",
-   "published": "2026-10-26T21:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n327318fb5d",
    "kind": "news",
    "group": "cyber",
@@ -2854,17 +2887,6 @@
    "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
    "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
    "published": "2026-10-26T20:59:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb2beced27f",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "With the Anthropic IPO, the devil is in the details",
-   "url": "https://www.marketwatch.com/story/with-the-anthropic-ipo-the-devil-is-in-the-details-239d571d?mod=mw_rss_topstories",
-   "published": "2026-10-26T20:50:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4417,17 +4439,6 @@
    "verified": true
   },
   {
-   "id": "n2dee2dd0af",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Suwayda remains in stasis as US signals differences with Israel on Syria",
-   "url": "https://www.aljazeera.com/news/2026/10/26/suwayda-remains-in-deadlock-as-us-signals-differences-with-israel-on-syria?traffic_source=rss",
-   "published": "2026-10-26T10:36:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114667284526465343",
    "kind": "x",
    "group": "blueteam",
@@ -4585,17 +4596,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVi_Qn-W8AAXq7K.jpg"
-  },
-  {
-   "id": "nfbd9cb2b44",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-   "published": "2026-10-26T09:19:57.000Z",
-   "severity": "high",
-   "verified": true
   },
   {
    "id": "x2114639960783696117",
