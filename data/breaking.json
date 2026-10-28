@@ -1,20 +1,15 @@
 {
- "updated": "2026-10-28T08:56:13.061Z",
+ "updated": "2026-10-28T09:09:18.214Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
@@ -27,14 +22,14 @@
    "n": 6
   },
   {
-   "name": "The DFIR Report",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "BBC World",
@@ -42,9 +37,19 @@
    "n": 1
   },
   {
-   "name": "Krebs on Security",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 4
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Hackread",
@@ -52,14 +57,14 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "SecurityWeek",
@@ -72,29 +77,19 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -105,6 +100,11 @@
    "name": "X darkweb",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "BreachForums",
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X crisis",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nc940e8e81e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "TV’s Nick and Vanessa Lachey cut price of Southern California home to $7.6 million",
+   "url": "https://www.marketwatch.com/story/tvs-nick-and-vanessa-lachey-cut-price-of-southern-california-home-to-7-6-million-24dc3d7a?mod=mw_rss_topstories",
+   "published": "2026-10-28T09:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n21dec5f03b",
    "kind": "news",
@@ -2559,17 +2570,6 @@
    "published": "2026-10-26T16:51:13.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114761563336749407",
-   "kind": "x",
-   "group": "markets",
-   "source": "@zerohedge",
-   "title": "*APPLE IPHONE DUO DRAWS EARLY COMPLAINTS OF THE SCREEN CRACKING",
-   "url": "https://x.com/zerohedge/status/2114761563336749407",
-   "published": "2026-10-26T16:50:21.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114760707354890366",
