@@ -1,15 +1,20 @@
 {
- "updated": "2026-10-28T10:15:43.243Z",
+ "updated": "2026-10-28T10:25:15.115Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X cyber",
@@ -22,14 +27,19 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 6
+   "n": 1
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 4
+   "n": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -42,22 +52,17 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "BBC World",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "Hackread",
    "ok": true,
    "n": 1
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Hackread",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
@@ -67,7 +72,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 1
   },
@@ -77,19 +82,14 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nf7187e41a9",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Four reasons to start worrying about inflation — including the end of tariff refunds",
+   "url": "https://www.marketwatch.com/story/four-reasons-to-start-worrying-about-inflation-including-the-end-of-tariff-refunds-978a5cfd?mod=mw_rss_topstories",
+   "published": "2026-10-28T10:21:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n67dac23f24",
    "kind": "news",
@@ -2546,17 +2557,6 @@
    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
    "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
    "published": "2026-10-26T18:12:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfe04754dd2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These energy stocks are poised to profit from an imminent AI power crunch",
-   "url": "https://www.marketwatch.com/story/these-energy-stocks-are-poised-to-profit-from-an-imminent-ai-power-crunch-00c1a50d?mod=mw_rss_topstories",
-   "published": "2026-10-26T18:10:00.000Z",
    "severity": "normal",
    "verified": true
   },
