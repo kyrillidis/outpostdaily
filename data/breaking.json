@@ -1,35 +1,15 @@
 {
- "updated": "2026-10-28T16:59:26.271Z",
+ "updated": "2026-10-28T17:13:40.044Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The Hacker News",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "BBC World",
@@ -37,14 +17,24 @@
    "n": 2
   },
   {
-   "name": "Al Jazeera",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
-   "name": "The Record",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 4
+   "n": 7
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -52,9 +42,14 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Record",
    "ok": true,
-   "n": 5
+   "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
@@ -62,12 +57,27 @@
    "n": 2
   },
   {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -77,19 +87,9 @@
    "n": 2
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "na4a591a7cb",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery",
+   "url": "https://hackread.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/",
+   "published": "2026-10-28T17:09:09.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nee8b463973",
    "kind": "news",
@@ -5241,30 +5252,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVfg02CWEAAKPo0.jpg"
-  },
-  {
-   "id": "x2114404788850786568",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇺🇸 🚨 QILIN RANSOMWARE CLAIMS GLOBAL LAW FIRM WHITE & CASE The Qilin ransomware group has added White & Case, one of the world's largest international law firms, to its leak site. The listing names the firm under law and legal services.…",
-   "url": "https://x.com/DailyDarkWeb/status/2114404788850786568",
-   "published": "2026-10-25T17:12:40.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVff8lEWwAEldGn.jpg"
-  },
-  {
-   "id": "x2114404329117372453",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇫🇷 🚨 FRANCE: THREAT ACTOR LEAKS ALLEGED 4.1M-LINE DATABASE OF MACRON'S RENAISSANCE PARTY A threat actor on an underground forum has released for free what it calls a partial database from parti-renaissance[.]fr, the website of…",
-   "url": "https://x.com/DailyDarkWeb/status/2114404329117372453",
-   "published": "2026-10-25T17:10:50.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVffh2vXsAAnCJk.jpg"
   }
  ]
 }
