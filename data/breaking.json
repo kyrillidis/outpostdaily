@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:18:29.590Z",
+ "updated": "2026-10-28T14:27:54.457Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -7,9 +7,9 @@
    "n": 5
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "CISA Advisories",
@@ -17,24 +17,9 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "The Hacker News",
    "ok": true,
    "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "MarketWatch",
@@ -47,12 +32,27 @@
    "n": 7
   },
   {
-   "name": "Dark Reading",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -67,14 +67,14 @@
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -82,9 +82,9 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ne36d870c8e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israel's election result is messy - here's why",
+   "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-28T14:26:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n60ccb0bbd8",
    "kind": "news",
@@ -4506,17 +4517,6 @@
    "published": "2026-10-26T09:53:00.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "n6f83f983c3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
-   "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
-   "published": "2026-10-26T09:52:58.000Z",
-   "severity": "high",
-   "verified": true
   },
   {
    "id": "x2114653830042243115",
