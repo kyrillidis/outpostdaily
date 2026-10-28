@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:09:18.214Z",
+ "updated": "2026-10-28T09:21:09.168Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,7 +7,37 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -17,39 +47,14 @@
    "n": 0
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 6
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "Hackread",
@@ -57,17 +62,7 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "SecurityWeek",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
@@ -77,19 +72,29 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "X redteam",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 1
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X redteam",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X blueteam",
@@ -100,11 +105,6 @@
    "name": "X darkweb",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "BreachForums",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X crisis",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n9235b881d6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We are in our 70s. Should we pay off our 2.5% mortgage or build up our savings?",
+   "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+   "published": "2026-10-28T09:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nc940e8e81e",
    "kind": "news",
@@ -2548,17 +2559,6 @@
    "published": "2026-10-26T17:19:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114762394622906692",
-   "kind": "x",
-   "group": "markets",
-   "source": "@unusual_whales",
-   "title": "BREAKING: Microsoft, $MSFT, is offering buyouts to around 60,000 employees, according to reports from Business Insider and Bloomberg. The move marks Microsoft’s latest efforts to cut costs and rework its workforce for AI. Employees at the…",
-   "url": "https://x.com/unusual_whales/status/2114762394622906692",
-   "published": "2026-10-26T16:53:39.000Z",
-   "severity": "high",
-   "verified": false
   },
   {
    "id": "n688af8ac95",
