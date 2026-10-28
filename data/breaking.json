@@ -1,20 +1,10 @@
 {
- "updated": "2026-10-28T19:58:36.749Z",
+ "updated": "2026-10-28T20:15:30.855Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "The Hacker News",
@@ -22,19 +12,19 @@
    "n": 4
   },
   {
-   "name": "MarketWatch",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 10
+   "n": 4
   },
   {
-   "name": "BBC World",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -42,24 +32,34 @@
    "n": 5
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 4
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
   },
   {
    "name": "Dark Reading",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nc8953c3c38",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The cost of money itself is on the ballot as voters struggle with pricey car loans, mortgages and credit-card debt",
+   "url": "https://www.marketwatch.com/story/the-cost-of-money-itself-is-on-the-ballot-as-voters-struggle-with-pricey-car-loans-mortgages-and-credit-card-debt-c2cd83a0?mod=mw_rss_topstories",
+   "published": "2026-10-28T20:11:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf936108b6e",
    "kind": "news",
@@ -2638,17 +2649,6 @@
    "verified": true
   },
   {
-   "id": "n10e48c4b51",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
-   "url": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
-   "published": "2026-10-27T11:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n1699b65c08",
    "kind": "news",
    "group": "crisis",
@@ -5069,28 +5069,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVgQZoNXgAErzMn.jpg"
-  },
-  {
-   "id": "x2114448065599844471",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "🚨🇰🇭 Cambodia Academy of Digital Technology and Institute of Digital Technology allegedly breached, sensitive files leaked The actor \"DaOnlySpark\" has released a second batch of files allegedly stolen from Cambodia's Academy of Digital…",
-   "url": "https://x.com/DarkWebInformer/status/2114448065599844471",
-   "published": "2026-10-25T20:04:38.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "x2114446571148554571",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DarkWebInformer",
-   "title": "Re-enabled. If you see the spam Dread messages on the first page of the feed and see it get removed... I'm archiving the spam from the feed.",
-   "url": "https://x.com/DarkWebInformer/status/2114446571148554571",
-   "published": "2026-10-25T19:58:41.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
