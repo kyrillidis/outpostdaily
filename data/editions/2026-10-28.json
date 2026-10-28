@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "edition": 226,
- "compiled": "2026-10-28T07:05:20.818Z",
+ "compiled": "2026-10-28T07:33:12.218Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,14 +14,14 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 ",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.5,
-   "t": "2026-10-27",
-   "summary": "CISA says successful exploitation of vulnerabilities in the listed Mitsubishi Electric products could allow an attacker to execute arbitrary actions; the snippet cuts off before specifying them.",
-   "why": "Check whether these products are in use and review the CISA advisory for further details.",
+   "score": 1.49,
+   "t": "2026-10-28",
+   "summary": "The title lists Mitsubishi Electric GENESIS and related products; the advisory snippet says successful exploitation of vulnerabilities, but provides no further detail.",
+   "why": "Defenders should consult the advisory and check whether listed products are present in their environments.",
    "tags": [
     "Mitsubishi Electric",
-    "vulnerabilities",
-    "CISA"
+    "GENESIS",
+    "exploitation"
    ],
    "ai": true
   },
@@ -35,14 +35,13 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive inform",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.5,
-   "t": "2026-10-27",
-   "summary": "CISA says successful exploitation of vulnerabilities in EPICS Base could cause a denial-of-; the snippet cuts off before completing the impact.",
-   "why": "Check whether EPICS Base is in use and review the CISA advisory for further details.",
+   "score": 1.49,
+   "t": "2026-10-28",
+   "summary": "The title identifies EPICS Base; the advisory snippet says successful exploitation of vulnerabilities, but provides no further detail.",
+   "why": "Defenders should consult the advisory and check whether EPICS Base is present in their environments.",
    "tags": [
     "EPICS Base",
-    "vulnerabilities",
-    "CISA"
+    "exploitation"
    ],
    "ai": true
   },
@@ -56,14 +55,14 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48356\" target=\"_blank\">CVE-2026-48356</a> A",
    "published": "2026-10-27T12:00:00.000Z",
    "also": [],
-   "score": 1.5,
-   "t": "2026-10-27",
-   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
-   "why": "Check whether your systems are affected and prioritize remediation using the KEV Catalog.",
+   "score": 1.49,
+   "t": "2026-10-28",
+   "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation, according to the snippet.",
+   "why": "Check the catalog and assess whether the listed vulnerabilities affect your systems.",
    "tags": [
     "CISA",
-    "KEV",
-    "vulnerabilities"
+    "vulnerabilities",
+    "catalog"
    ],
    "ai": true
   },
@@ -77,7 +76,7 @@
    "snippet": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
    "published": "2026-10-27T23:35:51.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/5246b12726.webp",
    "t": "2026-10-28",
    "summary": "GMO urged customers to disconnect systems from the internet and shut down computers after a threat actor who breached Onamae Desktop Cloud threatened a ransomware attack.",
@@ -98,7 +97,7 @@
    "snippet": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
    "published": "2026-10-27T22:43:27.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.42,
    "image": "/img/news/dedf00d647.webp",
    "t": "2026-10-27",
    "summary": "OpenAI says GPT-6.1 Terra is safer overall than some older models, though safety tests also found more destructive-action flags.",
@@ -120,7 +119,7 @@
    "snippet": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
    "published": "2026-10-27T22:07:34.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.4,
    "image": "/img/news/78275c0ac5.webp",
    "t": "2026-10-27",
    "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities.",
@@ -142,7 +141,7 @@
    "snippet": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
    "published": "2026-10-27T20:57:25.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/7477a331e6.webp",
    "t": "2026-10-27",
    "summary": "BleepingComputer reports that a skimming group compromised a shared Convertr analytics script to steal payment data during checkout.",
@@ -163,7 +162,7 @@
    "snippet": "In this Help Net Security interview, Brian Blakley, CISO at Bellini Capital, explains why AI makes finding vulnerabilities faster while fixing them still takes time. He argues that “patch faster” is not enough and that teams need to cut exposure while remediation is pending. Blakley describes a shared metric for CIOs a",
    "published": "2026-10-28T06:30:35.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/ded555b8da.webp",
    "t": "2026-10-28",
    "summary": "Bellini Capital CISO Brian Blakley says AI can speed vulnerability discovery, while fixes still take time; he argues that patching faster alone is not enough.",
@@ -185,7 +184,7 @@
    "snippet": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
    "published": "2026-10-27T20:40:00.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.37,
    "image": "/img/news/2f6663d0ce.webp",
    "t": "2026-10-27",
    "summary": "The Record reports that a Nefilim and Hive ransomware operator received a sentence of more than five years after pleading guilty to charges related to participating in at least two ransomware groups.",
@@ -207,7 +206,7 @@
    "snippet": "AbuseBox is a free, open-source tool that checks IP addresses and domains against 60 DNS blacklists, pulls reputation scores from AbuseIPDB, inspects DNS, SSL and email-authentication records, and sends an alert when something changes. A DNS blacklist, or DNSBL, is a list that mail servers and other services consult wh",
    "published": "2026-10-28T06:00:45.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.37,
    "image": "/img/news/d649258c33.webp",
    "t": "2026-10-28",
    "summary": "AbuseBox is an open-source tool that checks IPs and domains against DNS blacklists, gathers AbuseIPDB scores, inspects DNS, SSL and email records, and alerts on changes.",
@@ -216,6 +215,28 @@
     "DNS",
     "SSL",
     "email"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6be1c83d9d",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "The Next Congress Needs to Reclaim Its Oversight of the Department of Defense",
+   "url": "https://warontherocks.com/the-next-congress-needs-to-reclaim-its-oversight-of-the-department-of-defense/",
+   "snippet": "Since returning to office in January 2025, the Trump administration has aggressively exercised executive authority across the federal government. Meanwhile, Congress has not adequately applied its oversight role to rein in the executive branch, particularly over the Department of Defense. We have watched these dynamics",
+   "published": "2026-10-28T07:30:00.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/6be1c83d9d.webp",
+   "t": "2026-10-28",
+   "summary": "War on the Rocks says Congress has not adequately exercised oversight of the executive branch, particularly over the Department of Defense.",
+   "why": "Oversight shapes how defense authority and activity are scrutinized.",
+   "tags": [
+    "Congress",
+    "oversight",
+    "Department of Defense"
    ],
    "ai": true
   },
@@ -229,10 +250,17 @@
    "snippet": "A French parliamentary report urges ordering a second next-generation aircraft carrier by 2029 to ensure a permanent Carrier Strike Group presence at sea. The post French Parliamentary Report Urges Construction of a Second Aircraft Carrier by 2029 appeared first on Naval News .",
    "published": "2026-10-28T06:52:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/2d649960c1.webp",
-   "summary": "A French parliamentary report urges ordering a second next-generation aircraft carrier by 2029 to ensure a permanent Carrier Strike Group presence at sea. The post French Parliamentary Report Urges Construction of a Seco",
-   "ai": false
+   "t": "2026-10-28",
+   "summary": "A French parliamentary report urges ordering a second next-generation aircraft carrier by 2029 to ensure a permanent Carrier Strike Group presence at sea.",
+   "why": "The proposal links carrier procurement to maintaining a persistent naval presence.",
+   "tags": [
+    "aircraft carrier",
+    "France",
+    "Carrier Strike Group"
+   ],
+   "ai": true
   },
   {
    "id": "9cc8c186bc",
@@ -244,7 +272,7 @@
    "snippet": "The Makin Island amphibious ready group pulls into Yokosuka a week behind the Theodore Roosevelt carrier strike group, as the carrier's jets conduct a simulated strike during exercise Keen Sword 27. The post Where Are The Aircraft Carriers?: October 27, 2026 appeared first on TWZ .",
    "published": "2026-10-27T23:43:17.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/9cc8c186bc.webp",
    "t": "2026-10-28",
    "summary": "The Makin Island amphibious ready group arrived in Yokosuka after the Theodore Roosevelt carrier strike group, whose jets conducted a simulated strike during Keen Sword 27.",
@@ -265,7 +293,7 @@
    "snippet": "The TSMB M-25 represents a modern attempt to combine great destructive potential with very high mobility. The post This Serbian Truck Carries A Truly Massive Mortar appeared first on TWZ .",
    "published": "2026-10-27T22:18:39.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.41,
    "image": "/img/news/b9bee35717.webp",
    "t": "2026-10-27",
    "summary": "The War Zone says the Serbian TSMB M-25 mortar combines high destructive potential with high mobility.",
@@ -287,7 +315,7 @@
    "snippet": "Diego Garcia is the only safe place for ships fighting Iran, but the remote atoll can’t provide the maintenance they need.",
    "published": "2026-10-28T03:19:32.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.41,
    "image": "/img/news/4a9621fdb9.webp",
    "t": "2026-10-28",
    "summary": "Defense One says Diego Garcia is the only safe place for ships fighting Iran, but the remote atoll cannot provide needed maintenance, wearing out Navy warships.",
@@ -308,7 +336,7 @@
    "snippet": "The Chinese spaceplane design is unsurprisingly very similar to the U.S. Space Force's history-making X-37B. The post U.S. Intel Confirms This Is China’s Secret Spaceplane appeared first on TWZ .",
    "published": "2026-10-27T21:33:06.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.39,
    "image": "/img/news/3b8078cb07.webp",
    "t": "2026-10-27",
    "summary": "The War Zone says Chinese intelligence confirms a Chinese spaceplane design that is very similar to the U.S. Space Force’s X-37B.",
@@ -329,7 +357,7 @@
    "snippet": "The Defense Intelligence Agency’s third iteration of its unclassified report on space threats also includes a never-before released image of China’s",
    "published": "2026-10-27T20:56:45.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/db9c3d39a9.webp",
    "t": "2026-10-27",
    "summary": "The Defense Intelligence Agency says China has tripled its satellite fleet since 2018; its unclassified space-threat report includes a newly released image.",
@@ -350,7 +378,7 @@
    "snippet": "[Sponsored] Short-range air defense that is designed to move and adapt regardless of vehicle.",
    "published": "2026-10-27T18:48:04.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.33,
    "image": "/img/news/7b944901bf.webp",
    "t": "2026-10-27",
    "summary": "A sponsored item describes short-range air defense designed to move and adapt regardless of vehicle.",
@@ -362,23 +390,24 @@
    "ai": true
   },
   {
-   "id": "6b4122443f",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "What’s haunting the Pentagon this Halloween?",
-   "url": "https://breakingdefense.com/2026/10/whats-haunting-the-pentagon-this-halloween/",
-   "snippet": "Three special guests, and Mark, share a few frightening mysteries from their beats — from the dangers of war in space to the intricacies of upgrading America’s nuclear weapons.",
-   "published": "2026-10-27T17:45:00.000Z",
+   "id": "0252fd1afd",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russia is selling Africa dependence disguised as partnership",
+   "url": "https://www.aljazeera.com/opinions/2026/10/28/russia-is-selling-africa-dependence-disguised-as-partnership?traffic_source=rss",
+   "snippet": "As African leaders gather in Moscow, Russia is securing resources and protecting rulers at the expense of their people.",
+   "published": "2026-10-28T07:25:41.000Z",
    "also": [],
-   "score": 1.32,
-   "image": "/img/news/6b4122443f.webp",
-   "t": "2026-10-27",
-   "summary": "Breaking Defense discusses mysteries including the dangers of war in space and the intricacies of upgrading America’s nuclear weapons.",
-   "why": "These topics highlight the operational and technology challenges of space warfare and nuclear modernization.",
+   "score": 1.5,
+   "image": "/img/news/0252fd1afd.webp",
+   "t": "2026-10-28",
+   "summary": "Al Jazeera says Russia is securing resources and protecting rulers at the expense of African people as leaders gather in Moscow.",
+   "why": "The account frames Russia’s engagement in Africa as a question of influence, resources, and political dependence.",
    "tags": [
-    "space",
-    "nuclear weapons"
+    "Russia",
+    "Africa",
+    "resources"
    ],
    "ai": true
   },
@@ -392,10 +421,17 @@
    "snippet": "El-Sisi’s announcement that he will not run for a fourth term may signal a new leadership arrangement.",
    "published": "2026-10-28T06:36:59.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/13b9afdca2.webp",
-   "summary": "El-Sisi’s announcement that he will not run for a fourth term may signal a new leadership arrangement.",
-   "ai": false
+   "t": "2026-10-28",
+   "summary": "El-Sisi’s announcement that he will not run for a fourth term may signal a new leadership arrangement, according to Al Jazeera.",
+   "why": "The announcement may mark a change in Egypt’s political leadership arrangements.",
+   "tags": [
+    "Egypt",
+    "military rule",
+    "leadership"
+   ],
+   "ai": true
   },
   {
    "id": "46d3967ebd",
@@ -407,15 +443,15 @@
    "snippet": "Israel's Prime Minister Benjamin Netanyahu says 'true' election results due in one or two days.",
    "published": "2026-10-28T06:02:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/46d3967ebd.webp",
    "t": "2026-10-28",
-   "summary": "Benjamin Netanyahu says the “true” election results are due in one or two days, as Likud leads Israeli polls.",
-   "why": "The stated timing and poll lead make election results relevant to tracking Israel’s political picture.",
+   "summary": "Netanyahu says the ‘true’ election results are due in one or two days, while Likud leads Israeli polls, according to the title and snippet.",
+   "why": "Election results may clarify the political context for Israel’s leadership and future plans.",
    "tags": [
     "Israel",
     "elections",
-    "polls"
+    "Likud"
    ],
    "ai": true
   },
@@ -429,7 +465,7 @@
    "snippet": "The rationale behind the Trump administration’s recently issued General License 135 faces a number of questions. The post For Russia, Trump’s diesel deal was just the first ask appeared first on Atlantic Council .",
    "published": "2026-10-27T22:12:44.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.41,
    "image": "/img/news/a9bd4930e6.webp",
    "t": "2026-10-27",
    "summary": "Atlantic Council questions the rationale behind the Trump administration’s General License 135, described in the title as part of a diesel deal with Russia.",
@@ -451,7 +487,7 @@
    "snippet": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
    "published": "2026-10-27T22:11:08.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.4,
    "image": "/img/news/1ca966fc37.webp",
    "t": "2026-10-27",
    "summary": "The ceasefire across Ukraine's Kherson region was initially planned for stranded residents of Oleshky. Russia and Ukraine say no breaches have been reported.",
@@ -473,7 +509,7 @@
    "snippet": "With more than half of votes counted, Netanyahu's bloc holds slight lead over opposition, but shy of majority.",
    "published": "2026-10-28T02:53:35.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.4,
    "image": "/img/news/48670a745f.webp",
    "t": "2026-10-28",
    "summary": "Al Jazeera reports that Netanyahu's Likud emerged as Israel's largest party, while its bloc edged past the opposition.",
@@ -494,7 +530,7 @@
    "snippet": "Exit polls show no clear winner, with Eisenkot’s opposition bloc slightly ahead of Netanyahu’s.",
    "published": "2026-10-27T21:19:59.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.39,
    "image": "/img/news/a29eb92a4d.webp",
    "t": "2026-10-27",
    "summary": "Foreign Policy reports that exit polls show no clear winner, with Eisenkot’s opposition bloc slightly ahead of Netanyahu’s.",
@@ -516,7 +552,7 @@
    "snippet": "Russia’s bombardment of Ukraine’s civilian power grid qualifies as a crime against humanity, according to a new report by the UN’s Independent International Commission of Inquiry on Ukraine, writes Kateryna Odarchenko. The post UN report: Russian attacks on Ukraine’s power grid are a ‘crime against humanity’ appeared f",
    "published": "2026-10-27T21:00:56.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/9124bcc767.webp",
    "t": "2026-10-27",
    "summary": "A UN commission report says Russia’s attacks on Ukraine’s civilian power grid qualify as a crime against humanity.",
@@ -525,28 +561,6 @@
     "power grid",
     "Ukraine",
     "UN report"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3bdb7e7867",
-   "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Platform",
-   "url": "https://insidegnss.com/inertial-labs-a-viavi-solutions-company-accelerates-complex-alt-pnt-and-guidance-systems-design-with-programmable-ins-development-platform/",
-   "snippet": "INS-NV with AI processor, tactical-grade MEMS sensors and full-constellation GNSS receiver reduces time to market for visual and inertial navigation systems. Inertial Labs,... The post Inertial Labs, a VIAVI Solutions Company, Accelerates Complex Alt-PNT and Guidance Systems Design with Programmable INS Development Pla",
-   "published": "2026-10-27T15:41:57.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/3bdb7e7867.webp",
-   "t": "2026-10-27",
-   "summary": "Inertial Labs says its INS-NV platform combines an AI processor, tactical-grade MEMS sensors and a full-constellation GNSS receiver to speed development of navigation systems.",
-   "why": "The platform brings together inertial and GNSS navigation components for alternative positioning and guidance systems.",
-   "tags": [
-    "INS-NV",
-    "GNSS",
-    "MEMS sensors"
    ],
    "ai": true
   }
@@ -698,47 +712,47 @@
   }
  ],
  "run_today": [
-  "Review assets exposed to known vulnerabilities while fixes are pending.",
-  "Check IP and domain reputation using DNS blacklist and AbuseIPDB results.",
-  "Review alerts for changes to DNS, SSL and email-authentication records."
+  "Check CISA’s Known Exploited Vulnerabilities Catalog for the two additions and assess whether they affect your systems.",
+  "Review the Mitsubishi Electric advisory and check whether its listed products are present in your environment.",
+  "Review the EPICS Base advisory and check whether the product is present in your environment."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "DNS blacklist",
-   "explainer": "A DNS blacklist is a list used to check whether an IP address or domain has a poor reputation. AbuseBox checks against DNS blacklists.",
-   "from_id": "d649258c33",
-   "from": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
-   "fromSource": "Help Net Security"
+   "term": "Known Exploited Vulnerabilities Catalog",
+   "explainer": "A CISA catalog that identifies vulnerabilities with evidence of exploitation. Defenders can use it to check whether known exploited issues affect their systems.",
+   "from_id": "9de4c840c9",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "carrier strike group",
-   "explainer": "A carrier strike group is a naval group organized around an aircraft carrier. The supplied story mentions a carrier strike group conducting a simulated strike during an exercise.",
-   "from_id": "9cc8c186bc",
-   "from": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-27-2026",
-   "fromSource": "The War Zone"
+   "term": "Carrier Strike Group",
+   "explainer": "A naval formation associated here with an aircraft carrier. The French report links a second carrier to maintaining a permanent Carrier Strike Group presence at sea.",
+   "from_id": "2d649960c1",
+   "from": "https://www.navalnews.com/naval-news/2026/10/french-parliamentary-report-urges-construction-of-a-second-aircraft-carrier-by-2029/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "election results",
-   "explainer": "Election results report the outcome of an election. In the supplied story, Netanyahu says the “true” results are due in one or two days.",
-   "from_id": "46d3967ebd",
-   "from": "https://www.aljazeera.com/news/2026/10/28/netanyahu-outlines-achievements-future-plans-as-likud-leads-polls?traffic_source=rss",
+   "term": "dependence",
+   "explainer": "A relationship in which one party relies on another. The Russia-Africa story uses dependence to describe its account of Russia’s resource and political ties.",
+   "from_id": "0252fd1afd",
+   "from": "https://www.aljazeera.com/opinions/2026/10/28/russia-is-selling-africa-dependence-disguised-as-partnership?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Advisories, readiness and political signals",
+  "headline": "Oversight, Influence, and Security Signals",
   "paragraphs": [
-   "The top stories span industrial-control software, known exploited vulnerabilities, military activity and Israeli politics. The two industrial-control entries identify Mitsubishi Electric and related products, and EPICS Base; their snippets say successful exploitation of vulnerabilities, but provide no further detail.",
-   "CISA’s catalog update and the industrial-control notices put vulnerability information in focus. For defenders, these items suggest checking whether affected products are present and reviewing relevant advisories. The supplied excerpts do not identify the vulnerabilities or describe mitigations, so conclusions about exposure or urgency remain limited.",
-   "The carrier-group account describes a Yokosuka port call and a simulated strike during an exercise; Netanyahu says election results are due in one or two days. These are distinct operational and political signals. Analysts should watch for the stated results and further details in the notices, without assuming how either story will develop."
+   "The stories span defense oversight, geopolitical relationships, political leadership, and cybersecurity advisories. Together, they show why analysts need to track both institutions and technical systems: decisions about authority and influence sit alongside notices about vulnerabilities and exploitation.",
+   "The Congress story says oversight of the Department of Defense has been inadequate, while the Russia-Africa account describes resource and political ties. These accounts raise distinct questions about scrutiny and dependence. The carrier proposal and Egypt story likewise point to possible shifts in military presence and leadership arrangements.",
+   "For defenders, the advisory snippets offer limited detail, but mention successful exploitation and CISA’s catalog additions. Check the underlying notices and relevant systems. Analysts should watch for fuller advisory information, the carrier report’s proposal, and developments in the political situations described; the snippets alone do not establish what follows."
   ],
   "takeaways": [
-   "Check whether the named industrial-control products are in use.",
-   "The supplied vulnerability excerpts do not specify affected versions or mitigations.",
-   "Treat the election timing and military activity as reported signals, not outcomes."
+   "The Congress story centers on scrutiny of executive authority over the Department of Defense.",
+   "The Russia-Africa account frames resource ties and protection of rulers as a dependence issue.",
+   "Check the vulnerability advisories directly; the supplied snippets provide little technical detail."
   ]
  },
  "health": [
@@ -758,13 +772,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 14
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": true,
-   "n": 11
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "The Record",
@@ -775,8 +789,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
@@ -818,7 +832,7 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "The War Zone",
@@ -926,7 +940,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 10
   },
   {
    "name": "DW",
