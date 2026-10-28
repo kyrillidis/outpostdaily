@@ -1,30 +1,20 @@
 {
- "updated": "2026-10-28T19:51:41.206Z",
+ "updated": "2026-10-28T19:58:36.749Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 5
   },
   {
    "name": "The Hacker News",
@@ -37,42 +27,27 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
    "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 2
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -82,12 +57,37 @@
    "n": 4
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nf936108b6e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information rich’ period is coming.",
+   "url": "https://www.marketwatch.com/story/why-did-the-fed-hold-off-on-raising-interest-rates-warsh-says-its-because-an-information-rich-period-is-coming-098ced8d?mod=mw_rss_topstories",
+   "published": "2026-10-28T19:56:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "ne7d2c58fd7",
    "kind": "news",
@@ -2645,17 +2656,6 @@
    "title": "Netherlands pulls out of Eurovision again over Israel participation",
    "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-27T11:23:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n78d340c0e2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "AI stocks haven’t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS",
-   "url": "https://www.marketwatch.com/story/ai-stocks-havent-played-by-the-normal-valuation-rules-now-that-rates-are-higher-they-may-have-to-says-ubs-f8c78948?mod=mw_rss_topstories",
-   "published": "2026-10-27T11:15:00.000Z",
    "severity": "normal",
    "verified": true
   },
