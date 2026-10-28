@@ -1,20 +1,15 @@
 {
- "updated": "2026-10-28T23:21:08.925Z",
+ "updated": "2026-10-28T23:50:55.176Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "CISA Advisories",
@@ -22,9 +17,34 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "The Hacker News",
@@ -37,19 +57,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
+   "name": "Hackread",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -57,29 +67,19 @@
    "n": 0
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n5525c8574c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+   "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+   "published": "2026-10-28T23:44:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n31e52d502e",
    "kind": "news",
@@ -2393,17 +2404,6 @@
    "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
    "published": "2026-10-27T15:07:00.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n77a4687898",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’",
-   "url": "https://www.marketwatch.com/story/how-broadcoms-stock-can-surge-and-overcome-the-biggest-dislocation-in-the-market-9719e2a8?mod=mw_rss_topstories",
-   "published": "2026-10-27T15:02:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -5010,18 +5010,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhADrOXEAAdOD4.jpg"
-  },
-  {
-   "id": "x2114503695945597336",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇫🇷 🚨 FRANCE: THREAT ACTOR SELLS ALLEGED 905K FRENCH LICENSE PLATE RECORDS WITH OWNER PII A threat actor on an underground forum claims to be selling 905,000 records linking French vehicle license plates to the personal details of their…",
-   "url": "https://x.com/DailyDarkWeb/status/2114503695945597336",
-   "published": "2026-10-25T23:45:41.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVg55sbWkAAZwyu.jpg"
   }
  ]
 }
