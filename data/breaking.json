@@ -1,15 +1,20 @@
 {
- "updated": "2026-10-28T16:45:34.530Z",
+ "updated": "2026-10-28T16:52:19.763Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -17,9 +22,9 @@
    "n": 4
   },
   {
-   "name": "CISA Advisories",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "MarketWatch",
@@ -32,11 +37,6 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 7
@@ -47,17 +47,22 @@
    "n": 2
   },
   {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Security Affairs",
+   "name": "Hackread",
    "ok": true,
    "n": 2
   },
@@ -67,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -80,11 +85,6 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n516ab6192d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+   "published": "2026-10-28T16:45:47.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nb0911634cb",
    "kind": "news",
@@ -4534,17 +4545,6 @@
    "source": "BleepingComputer",
    "title": "Kali Linux 2026.3 released with 7 new tools, desktop updates",
    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-7-new-tools-desktop-updates/",
-   "published": "2026-10-26T10:26:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4dd6d369be",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-   "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
    "published": "2026-10-26T10:26:52.000Z",
    "severity": "normal",
    "verified": true
