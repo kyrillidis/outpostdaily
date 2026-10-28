@@ -1,15 +1,20 @@
 {
- "updated": "2026-10-28T21:45:27.626Z",
+ "updated": "2026-10-28T22:14:01.993Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X cyber",
@@ -17,14 +22,14 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
-   "name": "The Hacker News",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "MarketWatch",
@@ -32,19 +37,24 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "BBC World",
    "ok": true,
-   "n": 4
+   "n": 2
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -54,12 +64,7 @@
   {
    "name": "Hackread",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +77,9 @@
    "n": 1
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "nc45fd5d421",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Girl seriously injured in wolf attack at German wildlife park",
+   "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-28T22:08:52.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n90fc6b01b0",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
+   "url": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+   "published": "2026-10-28T22:08:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "na84839c12a",
    "kind": "news",
@@ -225,6 +247,17 @@
    "title": "Here’s what just sent Oracle’s stock soaring",
    "url": "https://www.marketwatch.com/story/heres-what-just-sent-oracles-stock-soaring-7a1a91e2?mod=mw_rss_topstories",
    "published": "2026-10-28T19:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8937932686",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+   "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+   "published": "2026-10-28T19:39:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2462,17 +2495,6 @@
    "verified": true
   },
   {
-   "id": "n19b81d18ee",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "A bigger-than-expected win for Democrats in the midterms could deliver ‘short-lived weakness’ for stocks, strategists say",
-   "url": "https://www.marketwatch.com/story/this-surprise-election-result-could-deliver-short-lived-weakness-for-stocks-strategists-say-2278a22e?mod=mw_rss_topstories",
-   "published": "2026-10-27T13:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n8ebbbc3d29",
    "kind": "news",
    "group": "crisis",
@@ -4193,17 +4215,6 @@
    "verified": true
   },
   {
-   "id": "x2114717773779648768",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "A vessel has reportedly been attacked near the Port of Basra, Iraq and is now on fire. Iran targeted a vessel in this area on October 20th, and is among the more than two dozen Iranian attacks on shipping since the beginning of October.",
-   "url": "https://x.com/sentdefender/status/2114717773779648768",
-   "published": "2026-10-26T13:56:21.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "x2114715562429268467",
    "kind": "x",
    "group": "cyber",
@@ -4512,17 +4523,6 @@
    "published": "2026-10-26T12:00:00.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114687716533444735",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "‼️ ALERT - 2 New critical Wasmtime flaws (CVSS 9.9) could let malicious WebAssembly modules escape their sandbox. • CVE-2026-115889 Affects multiple architectures • CVE-2026-115893 ARM64-only, present since 2020 Embedded apps need…",
-   "url": "https://x.com/TheHackersNews/status/2114687716533444735",
-   "published": "2026-10-26T11:56:55.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "nc96745f4b9",
