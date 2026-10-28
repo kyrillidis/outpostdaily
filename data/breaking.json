@@ -1,50 +1,15 @@
 {
- "updated": "2026-10-28T12:59:01.736Z",
+ "updated": "2026-10-28T13:14:53.952Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 5
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -52,14 +17,39 @@
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Hackread",
@@ -67,7 +57,17 @@
    "n": 2
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -77,14 +77,14 @@
    "n": 3
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n84fd850178",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+   "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+   "published": "2026-10-28T13:10:34.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nc81af77587",
    "kind": "news",
@@ -4633,17 +4644,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVihFwnWMAAQXyT.jpg"
-  },
-  {
-   "id": "x2114615082823094467",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 The 9.0 Linux KSMBD bugs got the headlines. The 7.8 one has the public root exploit. ZDI-CAN-33367: confirmed root on AlmaLinux, Debian and Ubuntu. → Slips past the Dirty Frag fix → No merged patch. No CVE. Who's exposed + the stopgap ↓",
-   "url": "https://x.com/TheHackersNews/status/2114615082823094467",
-   "published": "2026-10-26T07:08:18.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114612222466945331",
