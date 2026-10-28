@@ -1,6 +1,11 @@
 {
- "updated": "2026-10-28T11:53:05.994Z",
+ "updated": "2026-10-28T11:59:39.232Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
@@ -12,22 +17,17 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
    "n": 7
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
    "n": 7
   },
@@ -42,17 +42,12 @@
    "error": "fetch failed"
   },
   {
-   "name": "Hackread",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
    "ok": true,
    "n": 1
   },
@@ -62,9 +57,29 @@
    "n": 5
   },
   {
+   "name": "Hackread",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -77,16 +92,6 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
@@ -95,11 +100,6 @@
    "name": "X blueteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X darkweb",
@@ -170,6 +170,17 @@
    "title": "The AI boom is starting to break time-tested stock-market signals",
    "url": "https://www.marketwatch.com/story/the-ai-boom-is-starting-to-break-time-tested-stock-market-signals-b172d67e?mod=mw_rss_topstories",
    "published": "2026-10-28T11:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2917fa7837",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "CVE-2026-97631: 16-Year-Old UEFI Flaw Threatens Servers",
+   "url": "https://securityaffairs.com/201928/security/cve-2026-97631-16-year-old-uefi-flaw-threatens-servers.html",
+   "published": "2026-10-28T11:15:56.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -5267,17 +5278,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVfYCA5aAAAN9zc.png"
-  },
-  {
-   "id": "r0706882cb2",
-   "kind": "ransomware",
-   "group": "darkweb",
-   "source": "ransomware.live",
-   "title": "qilin claims Ooredoo Myanmar (MM) — Technology",
-   "url": "https://www.ransomware.live/id/T29yZWRvbyBNeWFubWFyQHFpbGlu",
-   "published": "2026-10-25T16:20:30.173Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
