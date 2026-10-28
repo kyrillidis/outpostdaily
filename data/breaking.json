@@ -1,15 +1,10 @@
 {
- "updated": "2026-10-28T16:18:31.460Z",
+ "updated": "2026-10-28T16:29:15.083Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "The Record",
@@ -22,9 +17,9 @@
    "n": 0
   },
   {
-   "name": "CISA Advisories",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "X cyber",
@@ -32,27 +27,7 @@
    "error": "HTTP 402"
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "The DFIR Report",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -62,17 +37,32 @@
    "n": 1
   },
   {
-   "name": "Daily Dark Web",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
+   "n": 10
   },
   {
-   "name": "DarkForums",
+   "name": "Al Jazeera",
    "ok": true,
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -87,9 +77,19 @@
    "n": 2
   },
   {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -130,6 +130,28 @@
    "verified": true
   },
   {
+   "id": "n7af4b27002",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Kremlin says European countries not included in next Ukraine talks",
+   "url": "https://www.aljazeera.com/news/2026/10/28/kremlin-says-european-countries-not-included-in-next-ukraine-talks?traffic_source=rss",
+   "published": "2026-10-28T16:12:02.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7caac019fb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli soldier visiting UK faces war crimes complaint",
+   "url": "https://www.aljazeera.com/news/2026/10/28/israeli-soldier-visiting-uk-faces-war-crimes-complaint?traffic_source=rss",
+   "published": "2026-10-28T16:06:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n0a4511a564",
    "kind": "news",
    "group": "markets",
@@ -137,6 +159,17 @@
    "title": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test.",
    "url": "https://www.marketwatch.com/story/microns-stock-rises-after-sk-hynix-earnings-heres-its-next-major-test-99853d0e?mod=mw_rss_topstories",
    "published": "2026-10-28T16:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neb73651e36",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "published": "2026-10-28T16:02:45.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4383,17 +4416,6 @@
    "verified": false
   },
   {
-   "id": "x2114679572775964756",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "U.S. forces in the Middle East are prepared to launch new, potentially major operations against Iran “within 96 hours of receiving” an order from President Donald J. Trump, according to two U.S. officials who spoke to CNN. The officials…",
-   "url": "https://x.com/sentdefender/status/2114679572775964756",
-   "published": "2026-10-26T11:24:33.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "n49aedb62ce",
    "kind": "news",
    "group": "cyber",
@@ -4448,17 +4470,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjW9YBaEAA-OML.jpg"
-  },
-  {
-   "id": "n1c4f8c9da4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-   "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
-   "published": "2026-10-26T11:08:48.000Z",
-   "severity": "high",
-   "verified": true
   },
   {
    "id": "x2114673896658272598",
@@ -4572,17 +4583,6 @@
    "published": "2026-10-26T09:58:31.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114657175708778880",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 Android spyware for rent can steal Telegram 2FA passwords and clone WeChat accounts. Meet uCreator, a kit that hides inside modified Telegram apps, extracts chats, and conceals attacker sessions. Read full investigation:",
-   "url": "https://x.com/TheHackersNews/status/2114657175708778880",
-   "published": "2026-10-26T09:55:33.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114651150657925435",
