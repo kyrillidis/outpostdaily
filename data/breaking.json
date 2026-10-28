@@ -1,25 +1,20 @@
 {
- "updated": "2026-10-28T07:15:56.480Z",
+ "updated": "2026-10-28T07:34:25.745Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "SecurityWeek",
    "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
+   "error": "fetch failed"
   },
   {
    "name": "MarketWatch",
@@ -27,32 +22,7 @@
    "n": 1
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,9 +32,34 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +67,14 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -88,6 +83,11 @@
   },
   {
    "name": "Security Affairs",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n0252fd1afd",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia is selling Africa dependence disguised as partnership",
+   "url": "https://www.aljazeera.com/opinions/2026/10/28/russia-is-selling-africa-dependence-disguised-as-partnership?traffic_source=rss",
+   "published": "2026-10-28T07:25:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n697aeb2243",
    "kind": "news",
@@ -4981,17 +4992,6 @@
    "url": "https://x.com/IntCyberDigest/status/2114438092203704654",
    "published": "2026-10-25T19:25:00.000Z",
    "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114431303231647926",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "Construction continues at Iran's mountain airbase with underground hangars, known as 'Eagle 44', despite at least three rounds of strikes this year, according to TWZ, which reviewed Planet Labs satellite imagery from September 29th. TWZ’s…",
-   "url": "https://x.com/sentdefender/status/2114431303231647926",
-   "published": "2026-10-25T18:58:01.000Z",
-   "severity": "high",
    "verified": false
   },
   {
