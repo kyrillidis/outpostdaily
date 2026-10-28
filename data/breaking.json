@@ -1,15 +1,10 @@
 {
- "updated": "2026-10-28T22:38:01.508Z",
+ "updated": "2026-10-28T22:45:14.424Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 4
   },
   {
    "name": "CISA Advisories",
@@ -17,9 +12,34 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 4
+   "n": 3
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Hacker News",
@@ -32,19 +52,9 @@
    "n": 10
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -52,9 +62,9 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Daily Dark Web",
@@ -62,19 +72,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "BreachForums",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "Security Affairs",
@@ -82,9 +82,9 @@
    "n": 1
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n05ea812e5c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+   "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+   "published": "2026-10-28T22:41:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf4cfa64009",
    "kind": "news",
@@ -2404,17 +2415,6 @@
    "url": "https://socradar.io/blog/major-cyber-attacks-september-2026/",
    "published": "2026-10-27T14:00:23.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n63af3561d2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘When do I sell my stocks?’ Ignore the noise and focus on these things.",
-   "url": "https://www.marketwatch.com/story/when-do-i-sell-my-stocks-ignore-the-noise-and-focus-on-these-things-5f4ca5aa?mod=mw_rss_topstories",
-   "published": "2026-10-27T14:00:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -4967,73 +4967,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVg55sbWkAAZwyu.jpg"
-  },
-  {
-   "id": "x2114488412422213753",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "⚠️ GHEIST: STOLEN GITHUB TOKENS TURNED INTO A CI SECRET-THEFT CAMPAIGN Wiz Research reports 13,500+ planted branches across 850+ compromised GitHub accounts since Sept 15, with the campaign still active and evolving as of Oct 24. * The…",
-   "url": "https://x.com/DailyDarkWeb/status/2114488412422213753",
-   "published": "2026-10-25T22:44:57.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVgsADua0AAIo-p.jpg"
-  },
-  {
-   "id": "fcbed596190",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Access to DarkForums Private Archive Telegram Channel",
-   "url": "https://darkforums.team/Thread-News-DarkForums-Archive-Telegram-Channel",
-   "published": "2026-10-25T22:38:45.366Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "fa678a403e4",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "GTA 5 SOURCE CODE",
-   "url": "https://darkforums.team/Thread-Source-Code-GTA-5-SOURCE-CODE",
-   "published": "2026-10-25T22:38:45.366Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f19f091a40e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Discord CEO Dox Leak",
-   "url": "https://darkforums.team/Thread-Discord-CEO-Dox-Leak",
-   "published": "2026-10-25T22:38:45.366Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "f72e0664177",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "вњ…пёЏ SimpleSwap API Exploit...",
-   "url": "https://darkforums.team/Thread-%E2%9C%85%EF%B8%8F-SimpleSwap-API-Exploit-%E2%AD%90-I-made-12-000-in-a-2-days--90974",
-   "published": "2026-10-25T22:38:45.366Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f21c3d90f7e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "golfcanada.ca data breach",
-   "url": "https://darkforums.team/Thread-golfcanada-ca-data-breach",
-   "published": "2026-10-25T22:38:45.366Z",
-   "severity": "high",
-   "verified": false
   }
  ]
 }
