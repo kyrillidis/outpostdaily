@@ -1,8 +1,18 @@
 {
- "updated": "2026-10-28T06:57:55.850Z",
+ "updated": "2026-10-28T07:15:56.480Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -17,9 +27,9 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -27,14 +37,14 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -42,12 +52,7 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Hacker News",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,7 +67,17 @@
    "n": 1
   },
   {
-   "name": "SecurityWeek",
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -72,14 +87,14 @@
    "n": 0
   },
   {
-   "name": "X redteam",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "X redteam",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X blueteam",
@@ -87,24 +102,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "Daily Dark Web",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
-  },
-  {
    "name": "X darkweb",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "DarkForums",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
-  },
-  {
-   "name": "BreachForums",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X crisis",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "n697aeb2243",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+   "published": "2026-10-28T07:13:21.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "n13b9afdca2",
    "kind": "news",
    "group": "crisis",
@@ -127,6 +138,28 @@
    "url": "https://www.aljazeera.com/opinions/2026/10/28/the-next-phase-of-military-rule-in-egypt-is-here?traffic_source=rss",
    "published": "2026-10-28T06:36:59.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n345dc53c49",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "published": "2026-10-28T06:20:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf01e6eed43",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "published": "2026-10-28T06:04:58.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -149,6 +182,17 @@
    "url": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
    "published": "2026-10-28T06:00:00.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndc166c047f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "published": "2026-10-28T05:42:26.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -4985,17 +5029,6 @@
    "verified": false
   },
   {
-   "id": "x2114422416298709403",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ France's prime minister told mobile operators to be ready to block TikTok, Instagram and Snapchat during the Oct 24 protests, a leaked letter shows. X was added later, Blast reports. The letter cites no legal basis. The operators…",
-   "url": "https://x.com/IntCyberDigest/status/2114422416298709403",
-   "published": "2026-10-25T18:22:42.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "x2114421410739212331",
    "kind": "x",
    "group": "darkweb",
@@ -5074,39 +5107,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVfnQFIWIAAWjKv.jpg"
-  },
-  {
-   "id": "x2114412761254093168",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "‼️ WARNING - A researcher just dropped a report on Tailscale SSH flaws — one compromised device could get root on others, and there’s NO PATCH yet. In lab tests, SSH port forwarding enabled privilege escalation and lateral movement across…",
-   "url": "https://x.com/TheHackersNews/status/2114412761254093168",
-   "published": "2026-10-25T17:44:20.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n4a81541514",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "published": "2026-10-25T17:44:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114407239578710111",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 PHP2Shell attackers accessed MFA secrets and password hashes at a European government entity in just 2 hours. That's not all. → Signs of agentic AI use in post-exploitation activity → Suspected Lazarus-linked operators scanning 216…",
-   "url": "https://x.com/TheHackersNews/status/2114407239578710111",
-   "published": "2026-10-25T17:22:24.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114406695308873835",
