@@ -1,28 +1,18 @@
 {
- "updated": "2026-10-28T14:37:35.486Z",
+ "updated": "2026-10-28T14:52:00.050Z",
  "health": [
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The DFIR Report",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -32,9 +22,9 @@
    "n": 1
   },
   {
-   "name": "BBC World",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 2
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -42,19 +32,24 @@
    "n": 7
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
    "n": 5
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 8
   },
   {
    "name": "Hackread",
@@ -62,9 +57,9 @@
    "n": 2
   },
   {
-   "name": "Dark Reading",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "Daily Dark Web",
@@ -72,24 +67,29 @@
    "n": 0
   },
   {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,39 @@
   }
  ],
  "items": [
+  {
+   "id": "n7f47388e61",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+   "published": "2026-10-28T14:48:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na459db7390",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Ads or Surveillance? Researchers Flag Suspicious Targeting of Starlink Users",
+   "url": "https://securityaffairs.com/201947/intelligence/ads-or-surveillance-researchers-flag-suspicious-targeting-of-starlink-users.html",
+   "published": "2026-10-28T14:37:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5dbc064b37",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
+   "url": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
+   "published": "2026-10-28T14:30:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "ne36d870c8e",
    "kind": "news",
@@ -4407,17 +4440,6 @@
    "img": "https://pbs.twimg.com/media/HVjNsuiW0AAGjEO.jpg"
   },
   {
-   "id": "x2114665418447089863",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "The United Kingdom Maritime Trade Operations (UKMTO) Center has issued a warning after receiving a verified report that a tanker was struck by an unknown projectile on Friday while transiting outbound through the Strait of Hormuz. The…",
-   "url": "https://x.com/sentdefender/status/2114665418447089863",
-   "published": "2026-10-26T10:28:18.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "nee989466c1",
    "kind": "news",
    "group": "cyber",
@@ -4574,17 +4596,6 @@
    "published": "2026-10-26T09:14:33.000Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "n4c6c7b2ea9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Mythos 5 Ignored Real-World Harm in July Attack",
-   "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
-   "published": "2026-10-26T09:10:03.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114639960783696117",
@@ -5266,18 +5277,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVfYHmyb0AA4JKZ.jpg"
-  },
-  {
-   "id": "x2114396090959376417",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert: 🇧🇯 YOD Ingénierie ( a Benin-based IT Services and IT Consulting company, has reportedly fallen victim to PANZER ransomware. NB: The group intends to publish the data within 21–22 days. 🔍 Key Details: 🛡️ Threat…",
-   "url": "https://x.com/FalconFeedsio/status/2114396090959376417",
-   "published": "2026-10-25T16:38:06.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVfYCA5aAAAN9zc.png"
   }
  ]
 }
