@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T16:01:37.742Z",
+ "updated": "2026-10-28T16:18:31.460Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "The Hacker News",
@@ -12,9 +12,9 @@
    "n": 5
   },
   {
-   "name": "MarketWatch",
+   "name": "The Record",
    "ok": true,
-   "n": 10
+   "n": 3
   },
   {
    "name": "Krebs on Security",
@@ -22,14 +22,19 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
    "ok": true,
-   "n": 2
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -37,14 +42,9 @@
    "n": 5
   },
   {
-   "name": "BleepingComputer",
+   "name": "BBC World",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -62,6 +62,11 @@
    "n": 1
   },
   {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
@@ -74,17 +79,12 @@
   {
    "name": "Hackread",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "na39fec1112",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Bullish on Anthropic but don’t want to wait until the IPO? Here’s how you can invest today.",
+   "url": "https://www.marketwatch.com/story/bullish-on-anthropic-but-dont-want-to-wait-until-the-ipo-heres-how-you-can-invest-today-c5cb329e?mod=mw_rss_topstories",
+   "published": "2026-10-28T16:13:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0a4511a564",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test.",
+   "url": "https://www.marketwatch.com/story/microns-stock-rises-after-sk-hynix-earnings-heres-its-next-major-test-99853d0e?mod=mw_rss_topstories",
+   "published": "2026-10-28T16:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n9db48428f4",
    "kind": "news",
    "group": "darkweb",
@@ -127,6 +149,17 @@
    "url": "https://hackread.com/hackers-impersonate-ai-bots-hunt-exposed-credentials/",
    "published": "2026-10-28T16:01:02.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6e5b341998",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+   "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "published": "2026-10-28T16:00:00.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -269,6 +302,17 @@
    "title": "Ads or Surveillance? Researchers Flag Suspicious Targeting of Starlink Users",
    "url": "https://securityaffairs.com/201947/intelligence/ads-or-surveillance-researchers-flag-suspicious-targeting-of-starlink-users.html",
    "published": "2026-10-28T14:37:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8984db9c1c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "How could Israel break election deadlock? Here are four scenarios",
+   "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-28T14:30:31.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2858,28 +2902,6 @@
    "verified": true
   },
   {
-   "id": "n8d049f7732",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Dividend stocks are having an excellent October as tech sector struggles",
-   "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
-   "published": "2026-10-26T22:10:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb657117a95",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Options traders are seizing control of the S&P 500",
-   "url": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
-   "published": "2026-10-26T22:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n5d6c647af3",
    "kind": "news",
    "group": "cyber",
@@ -4439,17 +4461,6 @@
    "verified": true
   },
   {
-   "id": "nbd58bf8f95",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
-   "url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
-   "published": "2026-10-26T11:04:55.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114673896658272598",
    "kind": "x",
    "group": "cyber",
@@ -4572,17 +4583,6 @@
    "published": "2026-10-26T09:55:33.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "n275e6f3b55",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-   "published": "2026-10-26T09:54:02.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114651150657925435",
