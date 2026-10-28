@@ -1,28 +1,18 @@
 {
- "updated": "2026-10-28T13:48:01.371Z",
+ "updated": "2026-10-28T14:04:09.771Z",
  "health": [
   {
-   "name": "Dark Reading",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
    "ok": true,
    "n": 1
   },
@@ -32,12 +22,32 @@
    "n": 10
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
+  },
+  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "CISA Advisories",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -47,19 +57,14 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 8
+   "n": 9
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Hackread",
@@ -72,17 +77,12 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -119,6 +119,39 @@
  ],
  "items": [
   {
+   "id": "n60ccb0bbd8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "published": "2026-10-28T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n943e231b10",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+   "url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+   "published": "2026-10-28T13:56:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n219f99ac76",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "published": "2026-10-28T13:50:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n04dad7bd60",
    "kind": "news",
    "group": "cyber",
@@ -148,6 +181,17 @@
    "title": "11 bargain-priced stocks of companies that have huge growth potential over the next two years",
    "url": "https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories",
    "published": "2026-10-28T12:54:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n29d08fa787",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+   "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "published": "2026-10-28T12:48:03.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -240,6 +284,17 @@
    "verified": true
   },
   {
+   "id": "neb93de238d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "published": "2026-10-28T11:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nbf84ba29f5",
    "kind": "news",
    "group": "crisis",
@@ -291,6 +346,17 @@
    "title": "High voter turnout among Palestinian citizens of Israel threatens Netanyahu",
    "url": "https://www.aljazeera.com/news/2026/10/28/high-voter-turnout-from-palestinian-citizens-of-israel-threatens-netanyahu?traffic_source=rss",
    "published": "2026-10-28T11:33:13.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nce5fe177d9",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Wazuh and AI for Enhanced SOC Workflows",
+   "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+   "published": "2026-10-28T11:30:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4521,28 +4587,6 @@
    "verified": true
   },
   {
-   "id": "x2114644189816533415",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 UPDATE: The Brotli flaw (CVE-2026-111497) goes beyond Node.js and web traffic. • .NET: patched by Microsoft • FFmpeg: hit via a crafted JPEG XL image • ClickHouse: one request crashes it, fix not yet released • Apache Arrow: no fix yet…",
-   "url": "https://x.com/TheHackersNews/status/2114644189816533415",
-   "published": "2026-10-26T09:03:57.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114641502450184562",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ A Chinese spyware kit called uCreator hides in repackaged Telegram, WeChat and GCash apps. In Telegram it can read chats and grab the 2FA password in cleartext, researcher Ovi found. Its makers left their backend and the names of ~3…",
-   "url": "https://x.com/IntCyberDigest/status/2114641502450184562",
-   "published": "2026-10-26T08:53:16.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114639960783696117",
    "kind": "x",
    "group": "darkweb",
@@ -4567,28 +4611,6 @@
    "img": "https://pbs.twimg.com/media/HVi0KC4asAAOEGL.jpg"
   },
   {
-   "id": "x2114637788155154914",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 97 Microsoft 365 accounts compromised across 79 organizations. Attackers replayed stolen sign-in tokens, registered 48 rogue Entra devices, and tampered with MFA settings to maintain access. Huntress tracked over 200,000 login…",
-   "url": "https://x.com/TheHackersNews/status/2114637788155154914",
-   "published": "2026-10-26T08:38:31.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n35a2887f86",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-   "published": "2026-10-26T08:35:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114632416752992460",
    "kind": "x",
    "group": "darkweb",
@@ -4608,28 +4630,6 @@
    "title": "Anthropic reveals how Claude Mythos 5 crossed security testing boundaries",
    "url": "https://securityaffairs.com/201729/ai/anthropic-reveals-how-claude-mythos-5-crossed-security-testing-boundaries.html",
    "published": "2026-10-26T08:05:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114627670004605382",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 850+ compromised GitHub accounts. 13,500+ malicious branches. Researchers uncovered 'Gheist,' an ongoing campaign using stolen tokens to plant GitHub Actions workflows that dump private repo secrets into logs. Attackers download the…",
-   "url": "https://x.com/TheHackersNews/status/2114627670004605382",
-   "published": "2026-10-26T07:58:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n8e95a20d61",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-   "published": "2026-10-26T07:49:46.000Z",
    "severity": "normal",
    "verified": true
   },
