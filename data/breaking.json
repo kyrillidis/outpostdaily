@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T13:34:01.936Z",
+ "updated": "2026-10-29T13:40:42.510Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "CISA Advisories",
@@ -12,9 +12,19 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "MarketWatch",
@@ -27,27 +37,22 @@
    "n": 6
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "BBC World",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
-   "name": "The Record",
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -57,17 +62,12 @@
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,39 @@
   }
  ],
  "items": [
+  {
+   "id": "n342c74932b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Cyberattack disrupts Belgian tax services before filing deadline",
+   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+   "published": "2026-10-29T13:31:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n56ef05760e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
+   "url": "https://therecord.media/new-mexico-cyberattack-hospital",
+   "published": "2026-10-29T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1b4f07400f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+   "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+   "published": "2026-10-29T13:26:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nce14c0a479",
    "kind": "news",
@@ -192,6 +225,17 @@
    "title": "Over 41,000 DHS Employee Records Leaked Online",
    "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
    "published": "2026-10-29T12:54:14.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf84c832f84",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Russian drone attack on Ukrainian train station kills at least 13, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-29T12:38:40.000Z",
    "severity": "high",
    "verified": true
   },
@@ -3958,17 +4002,6 @@
    "verified": true
   },
   {
-   "id": "n513f586de3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Huge explosion at a weapons depot in Syria",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/huge-explosion-at-a-weapons-depot-in-syria?traffic_source=rss",
-   "published": "2026-10-26T20:41:33.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n7b178b967b",
    "kind": "news",
    "group": "darkweb",
@@ -4307,17 +4340,6 @@
    "img": "https://pbs.twimg.com/media/HVkTL78bQAAeC2u.jpg"
   },
   {
-   "id": "x2114741536646635835",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@H4ckmanac",
-   "title": "🚨Cyber Alert ‼️ 🇻🇳Vietnam - 𝗩𝗶𝗲𝘁𝗻𝗮𝗺 𝗔𝗶𝗿𝗹𝗶𝗻𝗲𝘀 The Gentlemen ransomware group claims to have breached Vietnam Airlines. Threat actor: The Gentlemen Sector: Transportation Data exposure (claimed): Not specified Data type:…",
-   "url": "https://x.com/H4ckmanac/status/2114741536646635835",
-   "published": "2026-10-26T15:30:46.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
    "id": "x2114740361176236435",
    "kind": "x",
    "group": "darkweb",
@@ -4340,17 +4362,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkQOTrW4AAO5Ng.jpg"
-  },
-  {
-   "id": "x2114737061592694845",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@vxunderground",
-   "title": "Chat, I don't wanna sound like a hater, but this guy fucking STINKS at being a criminal - caught in a few weeks - only made $210 - ??? We've got Threat Actors on Roblox making more money than him",
-   "url": "https://x.com/vxunderground/status/2114737061592694845",
-   "published": "2026-10-26T15:13:00.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "na1079f7c96",
@@ -4396,17 +4407,6 @@
    "published": "2026-10-26T15:06:26.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114734798929354852",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ Claude Opus 5.5 is blocking requests to reverse-engineer smart TVs, a Reddit user says, after a week of people using Claude Code to hack their own TVs. The same job on a video game still went through, they say. Anthropic said at launch…",
-   "url": "https://x.com/IntCyberDigest/status/2114734798929354852",
-   "published": "2026-10-26T15:04:00.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114724058885726443",
@@ -4455,18 +4455,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVj-CzyaMAAoy8F.jpg"
-  },
-  {
-   "id": "x2114712822940877058",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨Alert: New Hacktivist Alliance🚨 K3LLLEAKERS and TEAM BD CYBER NINJA have officially announced a new alliance.",
-   "url": "https://x.com/FalconFeedsio/status/2114712822940877058",
-   "published": "2026-10-26T13:36:41.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVj4FiHaAAA-u3Y.jpg"
   }
  ]
 }
