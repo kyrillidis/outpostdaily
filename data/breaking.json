@@ -1,13 +1,8 @@
 {
- "updated": "2026-10-29T07:49:23.091Z",
+ "updated": "2026-10-29T08:11:32.805Z",
  "health": [
   {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -17,27 +12,22 @@
    "error": "HTTP 402"
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
    "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
@@ -54,12 +44,27 @@
   {
    "name": "SecurityWeek",
    "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -67,17 +72,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -88,6 +83,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "nef44306c2f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+   "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+   "published": "2026-10-29T08:01:05.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n75699bb614",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+   "url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
+   "published": "2026-10-29T08:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "ned5e1d62e6",
    "kind": "news",
@@ -4475,17 +4497,6 @@
    "verified": false
   },
   {
-   "id": "x2114702698507550896",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "Get real AI adoption data Every unused AI license is money that could go somewhere else. @NordLayer AI Scout gives you the answers on real AI usage in your company: ✅ See who’s provisioned yet not adopting the tools ✅ Check usage broken…",
-   "url": "https://x.com/TheHackersNews/status/2114702698507550896",
-   "published": "2026-10-26T12:56:27.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114701583296737733",
    "kind": "x",
    "group": "darkweb",
@@ -4496,17 +4507,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjt4GHbgAA8GMF.jpg"
-  },
-  {
-   "id": "n23a9892afe",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
-   "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-   "published": "2026-10-26T12:46:44.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114696047457161444",
@@ -4764,17 +4764,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HViu-NJXgAAh1VN.jpg"
-  },
-  {
-   "id": "n87b9e325cb",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Anthropic reveals how Claude Mythos 5 crossed security testing boundaries",
-   "url": "https://securityaffairs.com/201729/ai/anthropic-reveals-how-claude-mythos-5-crossed-security-testing-boundaries.html",
-   "published": "2026-10-26T08:05:12.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
