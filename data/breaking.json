@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-29T10:36:31.563Z",
+ "updated": "2026-10-29T10:43:08.638Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X cyber",
@@ -12,14 +17,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "Krebs on Security",
@@ -32,34 +32,29 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
    "n": 3
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 6
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Record",
    "ok": true,
-   "n": 4
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Hackread",
@@ -72,7 +67,7 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -87,9 +82,14 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n5e293c9ee5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
+   "url": "https://www.aljazeera.com/sports/2026/10/29/kylian-mbappe-real-madrid-and-la-liga-face-long-redemption-road-in-china?traffic_source=rss",
+   "published": "2026-10-29T10:30:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n13fcb92830",
    "kind": "news",
@@ -3934,17 +3945,6 @@
    "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
    "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
    "published": "2026-10-26T16:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncea6dc9ca7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/guterres-warns-iran-gulf-escalation-west-bank?traffic_source=rss",
-   "published": "2026-10-26T16:39:48.000Z",
    "severity": "normal",
    "verified": true
   },
