@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:26:45.384Z",
+ "updated": "2026-10-29T07:49:23.091Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -12,19 +12,14 @@
    "n": 0
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -32,7 +27,12 @@
    "n": 4
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -42,7 +42,17 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -50,16 +60,6 @@
    "name": "The Hacker News",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,22 +72,22 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,39 @@
   }
  ],
  "items": [
+  {
+   "id": "ned5e1d62e6",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Former US officials call on 2028 candidates to denounce Biden’s Gaza policy",
+   "url": "https://www.aljazeera.com/news/2026/10/29/former-us-officials-call-on-2028-candidates-to-denounce-bidens-gaza-policy?traffic_source=rss",
+   "published": "2026-10-29T07:41:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n869c210d84",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "North Korea fires missiles as row over landmine blast intensifies",
+   "url": "https://www.aljazeera.com/news/2026/10/29/north-korea-fires-missiles-as-row-over-landmine-blast-intensifies?traffic_source=rss",
+   "published": "2026-10-29T07:24:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n95eac67cb5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+   "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-29T06:24:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "ne91f33b06c",
    "kind": "news",
@@ -159,6 +192,17 @@
    "title": "Russia says more than 600 drones launched towards Moscow overnight",
    "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
    "published": "2026-10-29T05:22:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na773a6cddb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+   "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-29T03:16:19.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3953,17 +3997,6 @@
    "verified": false
   },
   {
-   "id": "n2d6382e089",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel committing crimes against humanity in occupied West Bank: UN",
-   "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un?traffic_source=rss",
-   "published": "2026-10-26T15:44:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114744947131707528",
    "kind": "x",
    "group": "darkweb",
@@ -3976,28 +4009,6 @@
    "img": "https://pbs.twimg.com/media/HVkVUauWAAAW-Fb.jpg"
   },
   {
-   "id": "n53fb2e117f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Egyptian parliament authorises military aid for Saudi Arabia",
-   "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
-   "published": "2026-10-26T15:41:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n52dbc26394",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "What does the Israeli election mean for religious groups?",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/what-does-the-israeli-election-mean-for-religious-groups?traffic_source=rss",
-   "published": "2026-10-26T15:40:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "ncf08225efb",
    "kind": "news",
    "group": "cyber",
@@ -4005,17 +4016,6 @@
    "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
    "published": "2026-10-26T15:38:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2bdde240f3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "How 'Lula's Army' WhatsApp chat helped turn Brazil election around",
-   "url": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-26T15:37:33.000Z",
    "severity": "normal",
    "verified": true
   },
