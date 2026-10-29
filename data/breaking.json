@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-29T03:21:02.736Z",
+ "updated": "2026-10-29T03:31:27.842Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "BleepingComputer",
@@ -17,19 +22,9 @@
    "n": 10
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "Krebs on Security",
@@ -42,14 +37,14 @@
    "n": 0
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BBC World",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "X cyber",
@@ -57,9 +52,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "SecurityWeek",
+   "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Dark Reading",
@@ -72,12 +67,12 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
@@ -90,6 +85,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n387e3e76d1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Activists accuse Israeli settlers of assault in occupied West Bank",
+   "url": "https://www.aljazeera.com/news/2026/10/29/activists-accuse-israeli-settlers-of-assault-in-occupied-west-bank?traffic_source=rss",
+   "published": "2026-10-29T03:12:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf1064ceda1",
    "kind": "news",
@@ -4134,17 +4145,6 @@
    "verified": true
   },
   {
-   "id": "na2298f1d24",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Mecca defence alliance members in Tehran to defuse Iran-US, Yemen tensions",
-   "url": "https://www.aljazeera.com/news/2026/10/26/mecca-defence-alliance-members-in-tehran-to-defuse-iran-us-yemen-tensions?traffic_source=rss",
-   "published": "2026-10-26T14:38:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n38ba7bc24d",
    "kind": "news",
    "group": "cyber",
@@ -4915,18 +4915,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhuLSuXsAAwDTs.jpg"
-  },
-  {
-   "id": "x2114558113244491864",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨Alert: New Hacktivist Alliance🚨 SHINY CORP and TEAM BD CYBER NINJA have officially announced a new alliance",
-   "url": "https://x.com/FalconFeedsio/status/2114558113244491864",
-   "published": "2026-10-26T03:21:55.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVhrYwya8AAL1iJ.png"
   }
  ]
 }
