@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:58:23.137Z",
+ "updated": "2026-10-29T22:14:09.758Z",
  "health": [
   {
    "name": "X cyber",
@@ -7,17 +7,27 @@
    "error": "HTTP 402"
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Dark Reading",
    "ok": true,
    "n": 3
   },
@@ -27,9 +37,9 @@
    "n": 10
   },
   {
-   "name": "The DFIR Report",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Al Jazeera",
@@ -37,22 +47,17 @@
    "n": 8
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "The Hacker News",
    "ok": true,
    "n": 1
   },
   {
-   "name": "Hackread",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -67,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "na6d0e88b74",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+   "published": "2026-10-29T22:09:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n17e71a11c7",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+   "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+   "published": "2026-10-29T22:08:04.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nfe7730fa40",
    "kind": "news",
@@ -258,6 +280,17 @@
    "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
    "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-29T20:21:54.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n68f0757a33",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Rethinking Cybersecurity Awareness in the AI Era",
+   "url": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+   "published": "2026-10-29T20:15:37.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4134,17 +4167,6 @@
    "verified": true
   },
   {
-   "id": "n77d8f32442",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-   "published": "2026-10-27T08:20:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n871be98cd4",
    "kind": "news",
    "group": "crisis",
@@ -4167,17 +4189,6 @@
    "verified": true
   },
   {
-   "id": "n46ee8b886d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
-   "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
-   "published": "2026-10-27T07:14:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n454967dcf9",
    "kind": "news",
    "group": "crisis",
@@ -4196,17 +4207,6 @@
    "title": "Sixty Christians killed in Ethiopia’s Oromia region",
    "url": "https://www.aljazeera.com/news/2026/10/27/sixty-christians-killed-in-ethiopias-oromia-region?traffic_source=rss",
    "published": "2026-10-27T06:49:45.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nad87833196",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-   "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-   "published": "2026-10-27T06:34:47.000Z",
    "severity": "normal",
    "verified": true
   },
