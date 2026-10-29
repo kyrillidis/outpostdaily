@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T14:38:52.888Z",
+ "updated": "2026-10-29T14:45:55.419Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,24 +7,14 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "BleepingComputer",
    "ok": true,
    "n": 5
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -32,9 +22,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Record",
    "ok": true,
-   "n": 10
+   "n": 3
   },
   {
    "name": "Al Jazeera",
@@ -47,19 +37,29 @@
    "n": 4
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "Dark Reading",
@@ -72,12 +72,12 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -85,11 +85,6 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X redteam",
@@ -100,6 +95,11 @@
    "name": "X blueteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X darkweb",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nb49dd95c9b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The midterms are crucial to the future of Social Security – no matter how old you are",
+   "url": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
+   "published": "2026-10-29T14:37:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf34fb5d0be",
    "kind": "news",
@@ -2337,17 +2348,6 @@
    "title": "At least 10 killed after two trains collide in Spain, authorities say",
    "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
    "published": "2026-10-28T09:26:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nae7e7bcfd2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade",
-   "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
-   "published": "2026-10-28T09:25:00.000Z",
    "severity": "normal",
    "verified": true
   },
