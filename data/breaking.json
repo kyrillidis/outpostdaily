@@ -1,33 +1,13 @@
 {
- "updated": "2026-10-29T16:45:20.995Z",
+ "updated": "2026-10-29T16:52:29.331Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "BBC World",
+   "name": "The Record",
    "ok": true,
    "n": 4
   },
@@ -37,14 +17,34 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 3
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BBC World",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "The DFIR Report",
@@ -52,14 +52,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Hackread",
@@ -67,12 +62,22 @@
    "n": 4
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -82,12 +87,7 @@
    "n": 7
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -119,6 +119,50 @@
  ],
  "items": [
   {
+   "id": "n431ea607bd",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This credit card is the ‘best weapon’ to fight debt while interest rates keep climbing",
+   "url": "https://www.marketwatch.com/story/this-credit-card-is-the-best-weapon-to-fight-debt-while-interest-rates-keep-climbing-8378fcf2?mod=mw_rss_topstories",
+   "published": "2026-10-29T16:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n88af8d3a0a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Get ready for the ‘Year of Starlink’ as airlines battle over superfast WiFi",
+   "url": "https://www.marketwatch.com/story/get-ready-for-the-year-of-starlink-as-airlines-battle-over-superfast-wifi-6bce32c1?mod=mw_rss_topstories",
+   "published": "2026-10-29T16:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb485c11963",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "France football chief backs Real Madrid’s Mbappe after China apology",
+   "url": "https://www.aljazeera.com/sports/2026/10/29/france-football-chief-speaks-up-for-real-madrids-mbappe-in-china-apology?traffic_source=rss",
+   "published": "2026-10-29T16:43:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n39a633755f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+   "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+   "published": "2026-10-29T16:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n31dc864af6",
    "kind": "news",
    "group": "cyber",
@@ -137,6 +181,17 @@
    "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
    "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
    "published": "2026-10-29T16:10:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfe950b2faf",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "U.S. CISA adds Linux Kernel and Broadcom VMWare ESX flaws to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/202050/hacking/u-s-cisa-adds-linux-kernel-and-broadcom-vmware-esx-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+   "published": "2026-10-29T16:05:56.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2264,17 +2319,6 @@
    "verified": true
   },
   {
-   "id": "n3ebc2ee24a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The AI boom is starting to break time-tested stock-market signals",
-   "url": "https://www.marketwatch.com/story/the-ai-boom-is-starting-to-break-time-tested-stock-market-signals-b172d67e?mod=mw_rss_topstories",
-   "published": "2026-10-28T11:25:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n2917fa7837",
    "kind": "news",
    "group": "darkweb",
@@ -2348,17 +2392,6 @@
    "title": "‘Russia is already part of who I am’: African students in Moscow",
    "url": "https://www.aljazeera.com/news/2026/10/28/russia-is-already-part-of-who-i-am-african-students-in-moscow?traffic_source=rss",
    "published": "2026-10-28T10:40:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neff385a25b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The real way to tell if Amazon’s AI spending is paying off",
-   "url": "https://www.marketwatch.com/story/the-real-way-to-tell-if-amazons-ai-spending-is-paying-off-42a8a637?mod=mw_rss_topstories",
-   "published": "2026-10-28T10:30:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4112,17 +4145,6 @@
    "verified": true
   },
   {
-   "id": "n25cfbc19db",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jordan launches air strikes in Syria in response to a fatal church shooting",
-   "url": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss",
-   "published": "2026-10-26T23:50:11.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n627cc70bbf",
    "kind": "news",
    "group": "cyber",
@@ -4200,17 +4222,6 @@
    "verified": true
   },
   {
-   "id": "n89547e1892",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-   "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-   "published": "2026-10-26T20:20:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n2661d19877",
    "kind": "news",
    "group": "darkweb",
@@ -4220,18 +4231,6 @@
    "published": "2026-10-26T19:03:53.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114760707354890366",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇪🇺 🚨 EUROCONTROL: 3TB DATABASE AND ADMIN PANEL ALLEGEDLY FOR SALE A threat actor using the alias \"Marx1337\" is advertising what it claims is a 3TB database and an administrative panel taken from EUROCONTROL, the intergovernmental body…",
-   "url": "https://x.com/DailyDarkWeb/status/2114760707354890366",
-   "published": "2026-10-26T16:46:57.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkjpuHW4AA85QH.jpg"
   }
  ]
 }
