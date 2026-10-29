@@ -1,30 +1,20 @@
 {
- "updated": "2026-10-29T11:11:32.375Z",
+ "updated": "2026-10-29T11:19:52.274Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 6
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -32,9 +22,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 8
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -47,7 +37,27 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -57,27 +67,7 @@
    "n": 5
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -88,6 +78,16 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nf44ca37cbb",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The Fed held off on a rate hike. Today’s GDP and inflation reports could make waiting harder.",
+   "url": "https://www.marketwatch.com/story/the-fed-held-off-on-a-rate-hike-todays-gdp-and-inflation-reports-could-make-waiting-harder-693338e6?mod=mw_rss_topstories",
+   "published": "2026-10-29T11:11:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n409f0b0486",
    "kind": "news",
@@ -2517,17 +2528,6 @@
    "verified": true
   },
   {
-   "id": "n6663c1cc90",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Is that used EV worth the price? This checklist could save you thousands of dollars.",
-   "url": "https://www.marketwatch.com/story/is-that-used-ev-worth-the-price-this-checklist-could-save-you-thousands-of-dollars-2e1ab876?mod=mw_rss_topstories",
-   "published": "2026-10-27T20:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n67aef7e7b7",
    "kind": "news",
    "group": "cyber",
@@ -4667,29 +4667,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjbai7W4AA1hVx.jpg"
-  },
-  {
-   "id": "n6ac278924a",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "StealC Malware Returns as Stadia RAT After Operation Endgame Takedown",
-   "url": "https://hackread.com/stealc-malware-stadia-rat-operation-endgame-takedown/",
-   "published": "2026-10-26T11:18:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114676492944945385",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨DDoS Alert 🇮🇹 NoName claims to have targeted multiple websites in Italy. - Federation of the Greens - Provincia di Treviso - Municipality of Arzignano",
-   "url": "https://x.com/FalconFeedsio/status/2114676492944945385",
-   "published": "2026-10-26T11:12:19.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjW9YBaEAA-OML.jpg"
   }
  ]
 }
