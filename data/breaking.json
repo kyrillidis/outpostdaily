@@ -1,16 +1,6 @@
 {
- "updated": "2026-10-29T19:52:12.359Z",
+ "updated": "2026-10-29T19:58:51.095Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -22,19 +12,14 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "Al Jazeera",
@@ -47,29 +32,24 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Hackread",
@@ -77,14 +57,34 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 7
+   "n": 4
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "n353302274b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "What’s the first thing most people do with their 401(k) after they retire? Nothing.",
+   "url": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
+   "published": "2026-10-29T19:56:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "naacd739692",
    "kind": "news",
    "group": "cyber",
@@ -148,6 +159,17 @@
    "title": "‘The $100 level is ours for awhile’: Oil won’t be getting cheap anytime soon, no matter what happens in the Gulf",
    "url": "https://www.marketwatch.com/story/the-100-level-is-ours-for-awhile-oil-wont-be-getting-cheap-anytime-soon-no-matter-what-happens-in-the-gulf-99d628bf?mod=mw_rss_topstories",
    "published": "2026-10-29T19:12:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7325900e53",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+   "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+   "published": "2026-10-29T19:11:58.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2128,17 +2150,6 @@
    "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
    "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
    "published": "2026-10-28T15:05:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1b95ecd809",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Heating your home with oil could cost $750 more this winter. Read this before you pay the price.",
-   "url": "https://www.marketwatch.com/story/heating-your-home-with-oil-could-cost-750-more-this-winter-read-this-before-you-pay-the-price-e39f0d52?mod=mw_rss_topstories",
-   "published": "2026-10-28T15:03:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4208,17 +4219,6 @@
    "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
    "published": "2026-10-27T00:26:50.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n627cc70bbf",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "University of Copenhagen data breach exposes data of 525,000 people",
-   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-   "published": "2026-10-26T22:20:36.000Z",
-   "severity": "high",
    "verified": true
   },
   {
