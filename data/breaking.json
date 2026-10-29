@@ -1,8 +1,13 @@
 {
- "updated": "2026-10-29T15:53:53.146Z",
+ "updated": "2026-10-29T16:01:06.904Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 3
   },
@@ -17,11 +22,6 @@
    "n": 10
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "The Hacker News",
    "ok": true,
    "n": 8
@@ -32,14 +32,19 @@
    "n": 0
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 4
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -52,19 +57,29 @@
    "n": 8
   },
   {
-   "name": "BBC World",
+   "name": "BreachForums",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "SOCRadar blog",
@@ -77,24 +92,9 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n5c3d8e4d26",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Looking for income? These dividend stocks have high yields that seem well supported.",
+   "url": "https://www.marketwatch.com/story/looking-for-income-these-dividend-stocks-have-high-yields-that-seem-well-supported-81093bdf?mod=mw_rss_topstories",
+   "published": "2026-10-29T15:54:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nc88fd1b35b",
    "kind": "news",
@@ -2338,17 +2349,6 @@
    "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
    "published": "2026-10-28T10:30:00.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf7187e41a9",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Four reasons to start worrying about inflation — including the end of tariff refunds",
-   "url": "https://www.marketwatch.com/story/four-reasons-to-start-worrying-about-inflation-including-the-end-of-tariff-refunds-978a5cfd?mod=mw_rss_topstories",
-   "published": "2026-10-28T10:21:00.000Z",
-   "severity": "high",
    "verified": true
   },
   {
