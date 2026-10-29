@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T18:47:59.344Z",
+ "updated": "2026-10-29T18:54:57.077Z",
  "health": [
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "BleepingComputer",
@@ -12,9 +12,14 @@
    "n": 5
   },
   {
-   "name": "The Hacker News",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 3
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -27,12 +32,17 @@
    "n": 7
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
@@ -42,24 +52,14 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Hackread",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 3
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "Dark Reading",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n84f56b5714",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "484,142 Exposed Cloud Buckets Contain 18 Billion Files",
+   "url": "https://securityaffairs.com/202055/security/484142-exposed-cloud-buckets-contain-18-billion-files.html",
+   "published": "2026-10-29T18:43:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n7c2b70bd7e",
    "kind": "news",
