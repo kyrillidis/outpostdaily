@@ -66,9 +66,14 @@ export async function updateIntel({ now = new Date() } = {}) {
   // ---- Have I Been Pwned confirmed breaches (refresh at most every few hours) ----
   try {
     const prev = read('data/breaches.json', { updated: null, items: [] });
-    if (prev.updated && t - Date.parse(prev.updated) < BREACH_REFRESH_H * 36e5) { console.log('HIBP: fresh enough, skipped'); return; }
-    const items = pickBreaches(await (await get('https://haveibeenpwned.com/api/v3/breaches', 'application/json')).json(), t);
-    if (JSON.stringify(items) !== JSON.stringify(prev.items)) writeFileSync(ROOT + 'data/breaches.json', JSON.stringify({ updated: now.toISOString(), source: 'Have I Been Pwned', items }) + '\n');
+    // "updated" is when the list last changed (the page shows it); "checked" is when we last asked, so an unchanged list is not re-fetched every run
+    const last = Date.parse(prev.checked ?? prev.updated);
+    if (last && t - last < BREACH_REFRESH_H * 36e5) { console.log('HIBP: fresh enough, skipped'); return; }
+    const raw = await (await get('https://haveibeenpwned.com/api/v3/breaches', 'application/json')).json();
+    if (!Array.isArray(raw) || !raw.length) throw new Error('empty or unexpected reply, keeping the stored list'); // the full list has hundreds of entries: an empty one is a fault, not news
+    const items = pickBreaches(raw, t);
+    const changed = JSON.stringify(items) !== JSON.stringify(prev.items);
+    writeFileSync(ROOT + 'data/breaches.json', JSON.stringify({ updated: changed || !prev.updated ? now.toISOString() : prev.updated, checked: now.toISOString(), source: 'Have I Been Pwned', items }) + '\n');
     console.log(`HIBP: ${items.length} breaches in the last ${BREACH_KEEP_DAYS} days`);
   } catch (e) { console.warn('HIBP failed:', e.message); }
 }
