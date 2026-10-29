@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:13:13.656Z",
+ "updated": "2026-10-29T12:31:20.871Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -12,11 +12,6 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "The Record",
    "ok": true,
    "n": 0
@@ -24,12 +19,7 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
+   "n": 8
   },
   {
    "name": "MarketWatch",
@@ -37,9 +27,19 @@
    "n": 10
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "BBC World",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -47,19 +47,9 @@
    "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
-  },
-  {
    "name": "Hackread",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -67,24 +57,34 @@
    "n": 5
   },
   {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "n3bc4ec08eb",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Caterpillar’s stock heads for worst day in 7 years — and what that means for the Dow",
+   "url": "https://www.marketwatch.com/story/caterpillars-stock-heads-for-worst-day-in-7-years-and-what-that-means-for-the-dow-d67f1fb7?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n15f712f317",
    "kind": "news",
    "group": "cyber",
@@ -152,6 +163,28 @@
    "verified": true
   },
   {
+   "id": "n5a570ea1e7",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "published": "2026-10-29T11:39:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndd1c518d70",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "published": "2026-10-29T11:39:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n841612d7a8",
    "kind": "news",
    "group": "crisis",
@@ -159,6 +192,28 @@
    "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
    "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-29T11:34:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne6aa25e969",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "published": "2026-10-29T11:33:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc9e7c513e1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "published": "2026-10-29T11:33:15.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2462,17 +2517,6 @@
    "verified": true
   },
   {
-   "id": "nb455bff606",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
-   "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
-   "published": "2026-10-27T21:20:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n2db299f6a1",
    "kind": "news",
    "group": "cyber",
@@ -4343,39 +4387,6 @@
    "verified": true
   },
   {
-   "id": "x2114730417345454444",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@vxunderground",
-   "title": "The headline doesn't state this was from an Anthropic Bug Bounty program. It's also unusual that this was released precisely when Anthropic announced today they filed for an IPO to trade as ANT. Id be interested in reading the write-up…",
-   "url": "https://x.com/vxunderground/status/2114730417345454444",
-   "published": "2026-10-26T14:46:35.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n0894723045",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-   "published": "2026-10-26T14:40:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n38ba7bc24d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-   "published": "2026-10-26T14:30:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114724058885726443",
    "kind": "x",
    "group": "darkweb",
@@ -4386,17 +4397,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkCThGbAAAikcO.jpg"
-  },
-  {
-   "id": "nd72684f804",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
-   "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
-   "published": "2026-10-26T14:21:00.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114723643208941946",
@@ -4562,76 +4562,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjt4GHbgAA8GMF.jpg"
-  },
-  {
-   "id": "x2114696047457161444",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨Alert: New Hacktivist Alliance🚨 THE QWERTY BOY'S and TEAM BD CYBER NINJA have officially announced a new alliance.",
-   "url": "https://x.com/FalconFeedsio/status/2114696047457161444",
-   "published": "2026-10-26T12:30:01.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjo1gSaEAAHucm.jpg"
-  },
-  {
-   "id": "n153a8cbdf3",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "Node2Shell: Brotli Flaw Hits Python Packages",
-   "url": "https://socradar.io/blog/node2shell-brotli-flaw-hits-python-packages/",
-   "published": "2026-10-26T12:29:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114695933749567494",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇪🇨 TRANSPORTES JIMENEZ and REYES JIM REY S.A., an Ecuador-based transportation and logistics company, has reportedly fallen victim to EMPERADOR ransomware. 🔍 Key Details: 🛡️ Threat Actor: EMPERADOR 📅 Reported On:…",
-   "url": "https://x.com/FalconFeedsio/status/2114695933749567494",
-   "published": "2026-10-26T12:29:34.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjorRgagAAT_sj.jpg"
-  },
-  {
-   "id": "x2114694057972637976",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇨🇦 🚨 QILIN CLAIMS BURNABY SCHOOL DISTRICT RANSOMWARE ATTACK The Qilin ransomware gang has listed Burnaby Schools (School District 41) in British Columbia, Canada, on its leak site, claiming responsibility for an attack on the district.…",
-   "url": "https://x.com/DailyDarkWeb/status/2114694057972637976",
-   "published": "2026-10-26T12:22:07.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjnCRLWYAABhnG.jpg"
-  },
-  {
-   "id": "x2114692403743404387",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇺🇸 🚨 USA: SHINYHUNTERS CLAIMS 600K+ SALESFORCE RECORDS STOLEN FROM 7-ELEVEN The ShinyHunters extortion group claims it stole data from 7-Eleven, Inc.'s Salesforce environment and has listed the company on a dark web forum. The group…",
-   "url": "https://x.com/DailyDarkWeb/status/2114692403743404387",
-   "published": "2026-10-26T12:15:32.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjlh8xXAAA_D9j.jpg"
-  },
-  {
-   "id": "nd8693cc4d6",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "Finaxis, WoWInstaller, Moodle, MyHairCare & HT Médica Leaks",
-   "url": "https://socradar.io/blog/finaxis-wowinstaller-moodle-myhaircare-ht-medica-leaks/",
-   "published": "2026-10-26T12:13:58.000Z",
-   "severity": "high",
-   "verified": true
   }
  ]
 }
