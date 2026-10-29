@@ -1,15 +1,25 @@
 {
- "updated": "2026-10-29T14:20:12.519Z",
+ "updated": "2026-10-29T14:30:07.304Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "The DFIR Report",
@@ -22,44 +32,19 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 0
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
    "n": 4
   },
   {
-   "name": "Hackread",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "SecurityWeek",
@@ -67,7 +52,27 @@
    "n": 7
   },
   {
+   "name": "Hackread",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -77,19 +82,14 @@
    "n": 4
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n67386231cf",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+   "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+   "published": "2026-10-29T14:18:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nd340597c60",
    "kind": "news",
@@ -4305,17 +4316,6 @@
    "verified": false
   },
   {
-   "id": "x2114749897346040093",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Microsoft pushed an emergency .NET update for CVE-2026-111497, the Brotli bug OpenAI's Codex Security reported to Node.js. Unauthenticated attackers could read or corrupt memory in apps that decompress untrusted Brotli data. Microsoft…",
-   "url": "https://x.com/IntCyberDigest/status/2114749897346040093",
-   "published": "2026-10-26T16:04:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114744947131707528",
    "kind": "x",
    "group": "darkweb",
@@ -4407,18 +4407,6 @@
    "published": "2026-10-26T15:06:26.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114724058885726443",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇺🇸 Smith, Feddeler & Smith, P.A ( an USA-based Legal Services organization, has reportedly fallen victim to Qilin ransomware. 🛡️ Threat Actor: Qilin 📅 Reported on: 26/10/2026",
-   "url": "https://x.com/FalconFeedsio/status/2114724058885726443",
-   "published": "2026-10-26T14:21:19.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkCThGbAAAikcO.jpg"
   }
  ]
 }
