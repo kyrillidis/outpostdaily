@@ -1,20 +1,10 @@
 {
- "updated": "2026-10-29T22:14:09.758Z",
+ "updated": "2026-10-29T22:52:14.508Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
+   "n": 6
   },
   {
    "name": "CISA Advisories",
@@ -22,14 +12,9 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "MarketWatch",
@@ -37,14 +22,19 @@
    "n": 10
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 8
+   "n": 7
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "The Hacker News",
@@ -52,7 +42,17 @@
    "n": 1
   },
   {
-   "name": "Krebs on Security",
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -62,19 +62,14 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -85,6 +80,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "n7d9fa054e5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Binance probes potential $5.8 billion crypto-theft hack",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+   "published": "2026-10-29T22:45:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc0f1269a8a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+   "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+   "published": "2026-10-29T22:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "na6d0e88b74",
    "kind": "news",
    "group": "cyber",
@@ -138,6 +160,17 @@
    "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
    "published": "2026-10-29T22:08:04.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n917a1fe10a",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "US Probes Suspected Hack Behind Military Base Freezer Failures",
+   "url": "https://securityaffairs.com/202073/hacking/us-probes-suspected-hack-behind-military-base-freezer-failures.html",
+   "published": "2026-10-29T21:58:38.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -2143,17 +2176,6 @@
    "verified": true
   },
   {
-   "id": "nb0911634cb",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Trump administration clears the way for production of peptides like BPC-157 and TB-500",
-   "url": "https://www.marketwatch.com/story/trump-administration-clears-the-way-for-production-of-peptides-like-bpc-157-and-tb-500-28ac2d11?mod=mw_rss_topstories",
-   "published": "2026-10-28T16:39:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nddb9d5f06f",
    "kind": "news",
    "group": "cyber",
@@ -4153,17 +4175,6 @@
    "url": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala?traffic_source=rss",
    "published": "2026-10-27T08:35:27.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nea5496feac",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-   "published": "2026-10-27T08:22:43.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
