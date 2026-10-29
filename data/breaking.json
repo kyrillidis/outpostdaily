@@ -1,30 +1,10 @@
 {
- "updated": "2026-10-29T14:06:51.503Z",
+ "updated": "2026-10-29T14:20:12.519Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -32,14 +12,14 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -47,9 +27,34 @@
    "n": 4
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 7
+   "n": 9
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Dark Reading",
@@ -57,24 +62,9 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "Daily Dark Web",
@@ -85,6 +75,16 @@
    "name": "Security Affairs",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nd340597c60",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "3 Ways AI Agents Already Operate in Your Browser",
+   "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+   "published": "2026-10-29T14:00:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n748d67ab1d",
    "kind": "news",
@@ -4305,17 +4316,6 @@
    "verified": false
   },
   {
-   "id": "x2114748385026777263",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "🚨 Microsoft Teams IT support scams are leading to malware and ransomware attacks. Researchers tracked hundreds of cases where attackers flood inboxes with emails, impersonate IT staff on Teams, and trick employees into granting remote…",
-   "url": "https://x.com/TheHackersNews/status/2114748385026777263",
-   "published": "2026-10-26T15:57:59.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114744947131707528",
    "kind": "x",
    "group": "darkweb",
@@ -4419,18 +4419,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkCThGbAAAikcO.jpg"
-  },
-  {
-   "id": "x2114723643208941946",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇻🇳 🚨 THE GENTLEMEN RANSOMWARE NAMES VIETNAM AIRLINES The Gentlemen ransomware group has listed Vietnam Airlines on its leak site. The national flag carrier of Vietnam, majority state-owned and a SkyTeam member, operates a fleet of…",
-   "url": "https://x.com/DailyDarkWeb/status/2114723643208941946",
-   "published": "2026-10-26T14:19:40.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkB8X3XsAAsGZa.jpg"
   }
  ]
 }
