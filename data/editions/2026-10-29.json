@@ -1,9 +1,120 @@
 {
  "date": "2026-10-29",
  "edition": 227,
- "compiled": "2026-10-29T14:33:09.874Z",
+ "compiled": "2026-10-29T15:04:48.541Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "f726928be3",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Hitachi Energy CoreTec Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful ex",
+   "published": "2026-10-29T12:00:00.000Z",
+   "also": [],
+   "score": 1.84,
+   "t": "2026-10-29",
+   "summary": "Hitachi Energy says OS command injection and Dirty Frag vulnerabilities affect its CoreTec product.",
+   "why": "Check whether CoreTec is in your environment and review the relevant advisory for mitigation guidance.",
+   "tags": [
+    "OS command injection",
+    "Dirty Frag",
+    "CoreTec"
+   ],
+   "ai": true
+  },
+  {
+   "id": "58a4b860d2",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Mendix SAML Module",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by repl",
+   "published": "2026-10-29T12:00:00.000Z",
+   "also": [],
+   "score": 1.84,
+   "t": "2026-10-29",
+   "summary": "The Mendix SAML module contains an authentication bypass vulnerability, according to the advisory snippet.",
+   "why": "Identify use of the Mendix SAML module and review authentication controls and the advisory.",
+   "tags": [
+    "Mendix",
+    "SAML",
+    "authentication bypass"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3f007ce8c8",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Hitachi Energy TRO600 series products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be e",
+   "published": "2026-10-29T12:00:00.000Z",
+   "also": [],
+   "score": 1.84,
+   "t": "2026-10-29",
+   "summary": "Hitachi Energy says multiple vulnerabilities affect TRO600 series products.",
+   "why": "Check for TRO600 products and consult the advisory for affected versions and recommended action.",
+   "tags": [
+    "Hitachi Energy",
+    "TRO600",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "005f252886",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "snippet": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88",
+   "published": "2026-10-29T13:42:40.000Z",
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/"
+    }
+   ],
+   "score": 1.82,
+   "image": "/img/news/005f252886.webp",
+   "t": "2026-10-29",
+   "summary": "Google introduced Gemini 4 Carbon, described as a frontier model with cybersecurity and long-horizon capabilities. The supplied snippet is incomplete.",
+   "why": "Track claims about model capabilities relevant to vulnerability work.",
+   "tags": [
+    "Gemini 4 Carbon",
+    "cybersecurity",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f34fb5d0be",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+   "snippet": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+   "published": "2026-10-29T14:35:40.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/f34fb5d0be.webp",
+   "t": "2026-10-29",
+   "summary": "Microsoft says it resolved a known issue preventing non-admin users from connecting through Remote Desktop when Administrator protection is enabled.",
+   "why": "Check Remote Desktop access for non-admin users where Administrator protection is enabled.",
+   "tags": [
+    "Remote Desktop",
+    "Windows updates"
+   ],
+   "ai": true
+  },
   {
    "id": "d340597c60",
    "section": "cyber",
@@ -14,7 +125,7 @@
    "snippet": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...",
    "published": "2026-10-29T14:00:10.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/d340597c60.webp",
    "t": "2026-10-29",
    "summary": "Keep Aware says AI agents can use authenticated browsers, corporate applications, and sensitive data while appearing to act as legitimate employees.",
@@ -36,7 +147,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
    "published": "2026-10-29T13:59:48.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/748d67ab1d.webp",
    "t": "2026-10-29",
    "summary": "CISA warned federal agencies to patch a high-severity Linux kernel privilege escalation bug attackers are chaining with PHP2Shell flaws.",
@@ -58,7 +169,7 @@
    "snippet": "The Federal Trade Commission ordered nine food delivery, airline and ride-sharing companies to turn over detailed information on how they harness personal data to set individual consumer prices and employee compensation.",
    "published": "2026-10-29T13:45:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/147d292148.webp",
    "t": "2026-10-29",
    "summary": "The FTC ordered nine food delivery, airline and ride-sharing companies to provide information on how they use personal data to set prices and employee compensation.",
@@ -80,7 +191,7 @@
    "snippet": "The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax and financial affairs.",
    "published": "2026-10-29T13:31:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/342c74932b.webp",
    "t": "2026-10-29",
    "summary": "Belgian FPS Finance said it was investigating a cyberattack and had temporarily suspended access to MyMinfin, the country's main online platform.",
@@ -102,7 +213,7 @@
    "snippet": "The University of New Mexico was able to restore systems used by its healthcare facilities after a cyberattack forced it to divert ambulances and cancel classes at its medical school.",
    "published": "2026-10-29T13:30:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/56ef05760e.webp",
    "t": "2026-10-29",
    "summary": "The University of New Mexico restored healthcare systems after a cyberattack forced ambulance diversions and medical school class cancellations.",
@@ -115,111 +226,24 @@
    "ai": true
   },
   {
-   "id": "15f712f317",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "60f5b32999",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-   "snippet": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
-   "published": "2026-10-29T12:00:07.000Z",
+   "title": "Giving counter-UAS operators 75 km of advance warning throws the advantage to them",
+   "url": "https://breakingdefense.com/2026/10/giving-counter-uas-operators-75-km-of-advance-warning-throws-the-advantage-to-them/",
+   "snippet": "[Sponsored] SkyValor extends RF detection range, providing more time to assess and respond to drone threats.",
+   "published": "2026-10-29T15:00:14.000Z",
    "also": [],
-   "score": 1.55,
-   "image": "/img/news/15f712f317.webp",
+   "score": 1.6,
+   "image": "/img/news/60f5b32999.webp",
    "t": "2026-10-29",
-   "summary": "Microsoft says its preview cumulative update for Windows 11 versions 25H2 and 26H2 includes 41 changes, including File Explorer and Cloud rebuild improvements.",
-   "why": "Check whether your Windows versions are in scope and review the preview changes before deployment.",
+   "summary": "SkyValor says its RF detection extends counter-UAS warning range, giving operators more time to assess and respond to drone threats.",
+   "why": "RF detection range can affect the time available to assess and respond to drone threats.",
    "tags": [
-    "Windows 11",
-    "preview update"
-   ],
-   "ai": true
-  },
-  {
-   "id": "409f0b0486",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-   "snippet": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
-   "published": "2026-10-29T11:10:13.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/409f0b0486.webp",
-   "t": "2026-10-29",
-   "summary": "Cisco released updates for an exploited denial-of-service zero-day that attackers use to remotely crash vulnerable ASA and FTD firewall devices.",
-   "why": "Check affected firewall versions and apply Cisco’s security updates.",
-   "tags": [
-    "Cisco",
-    "zero-day",
-    "SSL VPN"
-   ],
-   "ai": true
-  },
-  {
-   "id": "67386231cf",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-   "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-   "snippet": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions. The post Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps appeared first on SecurityWeek .",
-   "published": "2026-10-29T14:18:03.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/67386231cf.webp",
-   "t": "2026-10-29",
-   "summary": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that emerge across sequences of benign actions.",
-   "why": "Consider whether detection rules can identify suspicious patterns across multiple apparently benign actions.",
-   "tags": [
-    "Project Quarry",
-    "AI agents",
-    "detection"
-   ],
-   "ai": true
-  },
-  {
-   "id": "005f252886",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-   "snippet": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88",
-   "published": "2026-10-29T13:42:40.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/005f252886.webp",
-   "t": "2026-10-29",
-   "summary": "Google introduced Gemini 4 Carbon, described as a frontier model with cybersecurity and long-horizon capabilities. The supplied snippet is incomplete.",
-   "why": "Track claims about model capabilities relevant to vulnerability work.",
-   "tags": [
-    "Gemini 4 Carbon",
-    "cybersecurity",
-    "vulnerabilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b326a55c61",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-   "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-   "snippet": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation. The post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek .",
-   "published": "2026-10-29T13:42:52.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/b326a55c61.webp",
-   "t": "2026-10-29",
-   "summary": "Adobe, Veeam and Juniper Networks patched critical vulnerabilities that could enable code execution, authorization bypasses or privilege escalation.",
-   "why": "Check affected products and apply the available patches.",
-   "tags": [
-    "patches",
-    "code execution",
-    "privilege escalation"
+    "counter-UAS",
+    "RF detection",
+    "drones"
    ],
    "ai": true
   },
@@ -233,7 +257,7 @@
    "snippet": "In an age of drones and long-range precision weapons, Kaliningrad’s location shows Europe’s security isn’t neatly divided between frontline states and everyone else.",
    "published": "2026-10-29T14:25:49.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.59,
    "image": "/img/news/206ccbe696.webp",
    "t": "2026-10-29",
    "summary": "Breaking Defense says Kaliningrad’s location challenges a neat division between frontline states and others, amid drones and long-range precision weapons.",
@@ -242,6 +266,28 @@
     "Kaliningrad",
     "drones",
     "precision weapons"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ab888ea73f",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Destinus’ monthly output tops Europe’s pre-war annual cruise missile production",
+   "url": "https://www.defensenews.com/global/europe/2026/10/29/destinus-monthly-output-tops-europes-pre-war-annual-cruise-missile-production/",
+   "snippet": "Defence startup Destinus says it has built more than 1,750 Ruta cruise missiles in Europe and now produces more cruise missiles in a month than Europe did in a year before Russia's full-scale invasion of Ukraine.",
+   "published": "2026-10-29T14:44:45.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/ab888ea73f.webp",
+   "t": "2026-10-29",
+   "summary": "Destinus says it has built more than 1,750 Ruta cruise missiles in Europe and now makes more in a month than Europe did annually before Russia's full-scale invasion of Ukraine.",
+   "why": "The reported production scale is relevant to assessments of European cruise-missile manufacturing capacity.",
+   "tags": [
+    "Destinus",
+    "Ruta",
+    "cruise missiles"
    ],
    "ai": true
   },
@@ -255,7 +301,7 @@
    "snippet": "The U.S. Navy's No. 2 officer shed new light on the value that medium unmanned surface vessels could bring to the fleet.",
    "published": "2026-10-29T14:04:32.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/35e2f13e2a.webp",
    "t": "2026-10-29",
    "summary": "A senior U.S. Navy officer described the value medium unmanned surface vessels could bring to the fleet as one deploys for the first time.",
@@ -264,6 +310,48 @@
     "U.S. Navy",
     "unmanned surface vessels",
     "fleet"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c78e9af18d",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Fairbanks Morse Defense Awarded $100M Contract to Accelerate Global Submarine Availability",
+   "url": "https://www.navalnews.com/naval-news/2026/10/fairbanks-morse-defense-awarded-100m-contract-to-accelerate-global-submarine-availability/",
+   "snippet": "Fairbanks Morse Defense (FMD), a portfolio company of Arcline Investment Management, was awarded a $99.09 million contract to ensure the availability of U.S. attack submarines (SSNs) and ballistic missile submarines (SSBNs) into the 2030s by enacting critical life extension services. Fairbanks Morse Defense press relea",
+   "published": "2026-10-29T13:18:19.000Z",
+   "also": [],
+   "score": 1.46,
+   "t": "2026-10-29",
+   "summary": "Fairbanks Morse Defense was awarded a $99.09 million contract to support U.S. attack and ballistic missile submarine availability into the 2030s.",
+   "why": "Submarine availability is relevant to the operational capacity of U.S. attack and ballistic missile submarines.",
+   "tags": [
+    "submarines",
+    "availability",
+    "contract"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cb5750b322",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "BAE Systems successfully tests Adaptable Deck Launcher",
+   "url": "https://www.navalnews.com/naval-news/2026/10/bae-systems-successfully-tests-adaptable-deck-launcher/",
+   "snippet": "BAE Systems demonstrates a scalable missile launching solution that doubles combat capabilities for U.S. Navy and allied fleets, enhancing survivability and firepower through rapid, deck-mounted deployment. BAE Systems press release BAE Systems successfully completed the first live-fire test of the Adaptable Deck Launc",
+   "published": "2026-10-29T13:13:25.000Z",
+   "also": [],
+   "score": 1.46,
+   "t": "2026-10-29",
+   "summary": "BAE Systems says it successfully tested an adaptable deck launcher, describing it as a scalable missile-launching solution for U.S. Navy and allied fleets.",
+   "why": "A deck-mounted launcher may affect how fleets deploy missiles and adapt their combat capabilities.",
+   "tags": [
+    "deck launcher",
+    "missiles",
+    "BAE Systems"
    ],
    "ai": true
   },
@@ -277,7 +365,7 @@
    "snippet": "It’s a strange time for the defense technology sector. Despite the headlines of record capital, valuations, and defense budgets, there is a growing unease among investors and leadership teams. Production contracts remain as elusive as ever, and a generation of startups is struggling to extend their runways across the v",
    "published": "2026-10-29T08:00:33.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/5b87fe21d9.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks describes unease among defense technology investors and leaders despite headlines about capital, valuations, and budgets; production contracts remain elusive.",
@@ -298,7 +386,7 @@
    "snippet": "Amid the rapid expansion of AI and data centers alongside growing climate commitments as the demand for clean energy rises, nuclear power is increasingly viewed as a reliable source to fill the gaps and complement the stochastic output of solar and hydropower. This renewed interest is also driven in part by countries’ ",
    "published": "2026-10-29T07:30:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/b07e4e1dde.webp",
    "t": "2026-10-29",
    "summary": "The article says nuclear power is increasingly viewed as a reliable source to complement variable solar and hydropower as clean-energy demand rises.",
@@ -306,93 +394,6 @@
    "tags": [
     "nuclear power",
     "clean energy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "83ef953d20",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Switzerland shortlists SAMP/T, Barak MX for long-range air defense",
-   "url": "https://www.defensenews.com/global/europe/2026/10/29/switzerland-shortlists-samp-t-barak-mx-for-long-range-air-defense/",
-   "snippet": "Switzerland narrowed down the choice of the country’s second future long-range air defense system to either Israel’s Barak MX system or the French-Italian SAMP/T NG.",
-   "published": "2026-10-29T11:17:15.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/83ef953d20.webp",
-   "t": "2026-10-29",
-   "summary": "Switzerland narrowed its choice for a future long-range air defense system to Israel’s Barak MX or the French-Italian SAMP/T NG.",
-   "why": "The shortlist identifies the systems under consideration for Switzerland’s long-range air defense.",
-   "tags": [
-    "Switzerland",
-    "air defense",
-    "SAMP/T NG"
-   ],
-   "ai": true
-  },
-  {
-   "id": "45cdde962e",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "Defense Business Brief: Tech at the edge; PACFLEET talks cyber; and more",
-   "url": "https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/",
-   "snippet": "<![CDATA[<p><strong>HONOLULU&mdash;</strong>Soldiers in the Pacific need technology that works when networks are attacked and connectivity isn&rsquo;t guaranteed, said Gen. Xavier Brunson, the commander of U.S. Forces Korea.&nbsp;</p> <p>&ldquo;If the service tells you who they are and what they're going to do, and you",
-   "published": "2026-10-29T10:53:47.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/45cdde962e.webp",
-   "t": "2026-10-29",
-   "summary": "A Defense One briefing says Pacific soldiers need technology that works when networks are attacked and connectivity is not guaranteed.",
-   "why": "Technology that works without reliable connectivity may matter for operations in contested networks.",
-   "tags": [
-    "Pacific",
-    "connectivity",
-    "cyber"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b1212b1170",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "NATO’s Black Sea nations decry Ukraine war spillover endangering commercial ship traffic",
-   "url": "https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/",
-   "snippet": "The meeting signals a coordinated approach by the three NATO littoral states to the growing risks to commercial shipping and maritime infrastructure arising from the Russia-Ukraine war.",
-   "published": "2026-10-29T10:50:56.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/b1212b1170.webp",
-   "t": "2026-10-29",
-   "summary": "NATO’s Black Sea littoral states signalled a coordinated approach to risks to commercial shipping and maritime infrastructure arising from the Russia-Ukraine war.",
-   "why": "The story highlights the operational importance of protecting commercial shipping and maritime infrastructure.",
-   "tags": [
-    "Black Sea",
-    "shipping"
-   ],
-   "ai": true
-  },
-  {
-   "id": "280d9fe1ac",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "After Vucic ouster, Serbia’s weapons-buying habits are under the microscope",
-   "url": "https://www.defensenews.com/global/europe/2026/10/29/after-vucic-ouster-serbias-weapons-buying-habits-are-under-the-microscope/",
-   "snippet": "One of Europe’s key arms purchasers, Serbia, is likely to slow down procurement and investigate the probity of recent buys after a student-led protest movement ousted the country’s long-time strongman leader in a surprise election win on Sunday.",
-   "published": "2026-10-29T08:53:25.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/280d9fe1ac.webp",
-   "t": "2026-10-29",
-   "summary": "Defense News says Serbia is likely to slow weapons procurement and investigate recent purchases after a student-led movement ousted the country’s long-time leader in an election win.",
-   "why": "Procurement scrutiny may affect the pace and oversight of arms purchasing.",
-   "tags": [
-    "Serbia",
-    "procurement",
-    "arms"
    ],
    "ai": true
   },
@@ -406,7 +407,7 @@
    "snippet": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
    "published": "2026-10-29T14:17:35.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/f84c832f84.webp",
    "t": "2026-10-29",
    "summary": "Dnipro regional head Oleksandr Hanzha said a Russian drone attack on a Ukrainian train station killed at least 13 people and wounded at least 10 others.",
@@ -428,7 +429,7 @@
    "snippet": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
    "published": "2026-10-29T13:49:04.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/ee049deecb.webp",
    "t": "2026-10-29",
    "summary": "Partial results show Netanyahu's Likud party and allies set to win 53 of 120 Knesset seats, with 85% of ballots counted.",
@@ -450,7 +451,7 @@
    "snippet": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
    "published": "2026-10-29T12:27:31.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/6e265c1390.webp",
    "t": "2026-10-29",
    "summary": "Officials are discussing deeper economic and defence ties at the Canada-EU summit; the term “associate member” is reportedly off the table.",
@@ -471,7 +472,7 @@
    "snippet": "Congo accuses Rwanda of backing M23 rebels and plundering minerals in its conflict hit East",
    "published": "2026-10-29T11:25:16.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/6b1e02aa07.webp",
    "t": "2026-10-29",
    "summary": "The U.S. sanctioned Rwanda's defence ministry over the DR Congo conflict. Congo accuses Rwanda of backing M23 rebels and plundering minerals.",
@@ -493,7 +494,7 @@
    "snippet": "Riyadh and Abu Dhabi reconciling could be a gamechanger, a leading Yemen expert says.",
    "published": "2026-10-29T10:00:12.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.49,
    "image": "/img/news/ff72019eb0.webp",
    "t": "2026-10-29",
    "summary": "A leading Yemen expert says reconciliation between Riyadh and Abu Dhabi could be a gamechanger in the fight against the Houthis.",
@@ -514,7 +515,7 @@
    "snippet": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
    "published": "2026-10-29T08:23:31.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/599112d588.webp",
    "t": "2026-10-29",
    "summary": "BBC World reports that Ethiopia acquired Russian fighter jets and air defence systems amid ongoing fighting in northern Tigray.",
@@ -536,7 +537,7 @@
    "snippet": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
    "published": "2026-10-29T07:54:33.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/a773a6cddb.webp",
    "t": "2026-10-29",
    "summary": "BBC World reports that Sanrio apologised after its merchandise line with Japanese TV series Vivant drew criticism amid a China backlash.",
@@ -557,7 +558,7 @@
    "snippet": "AI has changed – perhaps forever – the tone and tenor of discussions at Singapore International Cyber Week, and probably all cyber forums of equal scale.",
    "published": "2026-10-29T12:30:00.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/28feb1a22a.webp",
    "t": "2026-10-29",
    "summary": "The Diplomat says AI has changed the tone and tenor of discussions at Singapore International Cyber Week and perhaps other large cyber forums.",
@@ -717,47 +718,47 @@
   }
  ],
  "run_today": [
-  "Review which AI agents have access to authenticated browsers and corporate applications.",
-  "Check what sensitive data browser-based agents can access.",
-  "Assess whether monitoring can detect suspicious sequences of individually benign actions."
+  "Check whether CoreTec products are present and consult the advisory on OS command injection and Dirty Frag.",
+  "Identify systems using the Mendix SAML module and review their authentication controls.",
+  "Inventory TRO600 products and check the advisory for affected versions and recommended action."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "authenticated browser",
-   "explainer": "A browser session that has signed in to an account. The item says AI agents can use authenticated browsers to interact with corporate applications and access sensitive data.",
-   "from_id": "d340597c60",
-   "from": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-   "fromSource": "BleepingComputer"
+   "term": "authentication bypass",
+   "explainer": "An authentication bypass is a flaw that can let someone get past a system's normal identity check. The Mendix SAML module item reports this type of vulnerability.",
+   "from_id": "58a4b860d2",
+   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "long-range precision weapons",
-   "explainer": "Weapons described as capable of striking targets at long distances with precision. The item links their relevance, alongside drones, to the security significance of Kaliningrad’s location.",
-   "from_id": "206ccbe696",
-   "from": "https://breakingdefense.com/2026/10/kaliningrad-is-more-than-the-suwalki-gap-and-nato-cannot-ignore-it/",
+   "term": "counter-UAS",
+   "explainer": "Counter-UAS refers to efforts to detect or respond to unmanned aircraft threats. The item describes RF detection as a way to give operators more time to assess and respond.",
+   "from_id": "60f5b32999",
+   "from": "https://breakingdefense.com/2026/10/giving-counter-uas-operators-75-km-of-advance-warning-throws-the-advantage-to-them/",
    "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "location",
-   "explainer": "The position of a place in relation to surrounding areas. The item presents Kaliningrad’s location as relevant to European security beyond frontline states.",
+   "term": "Kaliningrad",
+   "explainer": "The title presents Kaliningrad as a location relevant to European security, alongside the Suwałki Gap, and says security is not neatly divided between frontline states and others.",
    "from_id": "206ccbe696",
    "from": "https://breakingdefense.com/2026/10/kaliningrad-is-more-than-the-suwalki-gap-and-nato-cannot-ignore-it/",
    "fromSource": "Breaking Defense"
   }
  ],
  "analysis": {
-  "headline": "Security Risks Cross Digital and Geographic Boundaries",
+  "headline": "Product advisories and operational readiness in focus",
   "paragraphs": [
-   "The stories point to risks that do not fit neatly into familiar boundaries. AI agents may appear to be legitimate employees while accessing corporate applications and sensitive data. In Europe, Kaliningrad’s location complicates a simple division between frontline states and others.",
-   "The cyber items also highlight a detection challenge: attacks may emerge across sequences of benign actions, while CISA warned of a Linux kernel flaw being chained in attacks. For defenders, this suggests checking both access and behavior over time, rather than treating each action or vulnerability in isolation.",
-   "The warfare and geopolitical stories frame location as consequential: the Kaliningrad snippet connects drones and long-range precision weapons with Europe-wide security, while the train-station attack reports civilian casualties. Analysts should watch how these separate risks are described and what the supplied accounts establish, without assuming a connection between them."
+   "Three top cyber stories concern vulnerabilities in industrial or enterprise products: CoreTec, the Mendix SAML module and TRO600 series products. The snippets offer limited technical detail, but point defenders toward product inventory and vendor advisories rather than assumptions about exposure.",
+   "The counter-UAS item emphasizes RF detection range and time to assess and respond. Alongside reports on missile production and submarine availability, it highlights how sensing, manufacturing and fleet readiness each shape operational capacity. The claims and sponsored framing deserve attention when weighing what is established.",
+   "The stories also sit beside coverage of Kaliningrad and browser-based AI agents. Together, they suggest analysts must track both technical access and wider security context. Watch for further details in product advisories, and distinguish reported capabilities from independently established performance."
   ],
   "takeaways": [
-   "Review AI agents’ browser access and the sensitive data they can reach.",
-   "Look for suspicious sequences, not only isolated benign actions.",
-   "Treat Kaliningrad’s location as relevant beyond frontline states."
+   "Check exposure to the named products; the snippets do not establish which deployments are affected.",
+   "Treat the counter-UAS range claim as sponsored and assess what evidence supports it.",
+   "Keep technical vulnerabilities and wider operational context in view without conflating them."
   ]
  },
  "health": [
@@ -765,7 +766,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -777,7 +778,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 14
+   "n": 15
   },
   {
    "name": "The Hacker News",
@@ -849,7 +850,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Defense One",
@@ -861,13 +862,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Bellingcat",
@@ -951,7 +952,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 10
   }
  ]
 }
