@@ -15,7 +15,8 @@ const site = json('config/site.json', {});
 const SITE = site.url;
 
 // feeds sometimes hand over text and URLs with entities still encoded (&amp;, &#x2014;): decode once, then escape once
-const decode = (s) => String(s ?? '').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const cp = (n) => (n > 0 && n <= 0x10ffff && !(n >= 0xd800 && n <= 0xdfff) ? String.fromCodePoint(n) : ''); // an out-of-range entity (&#x110000;) in a feed must not crash the build
+const decode = (s) => String(s ?? '').replace(/&#x([0-9a-f]+);/gi, (_, h) => cp(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => cp(+n)).replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const esc = (s) => decode(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const href = (u) => (/^https?:\/\//.test(u) ? esc(u) : '#');
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
@@ -25,6 +26,8 @@ const dDay = (iso) => new Date(iso).toLocaleDateString('en-GB', { day: 'numeric'
 const dMonth = (iso) => new Date(iso).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 const hhmm = (iso) => new Date(iso).toISOString().slice(11, 16);
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
+// meta descriptions are escaped attributes and search shows ~160 characters: shrink the text until the ESCAPED form (&amp; &quot; ...) fits too
+const fitDesc = (s, max = 170) => { let d = String(s), n = d.length; while (esc(d).length > max && n > 20) d = cut(String(s), (n -= 4)); return d; };
 const plain = (s) => String(s).replace(/&amp;/g, '&').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 const norm = (s) => String(s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
@@ -331,6 +334,7 @@ const footerCols = [
 ].join('');
 
 function render({ ed, route, main, title, desc, path, crumbs = [], list = [], article = false, live = true, wireBase, ldType, faq, terms, publishedTime }) {
+  desc = fitDesc(desc);
   const ranked = [...ed.items].sort((a, b) => b.score - a.score);
   const ok = (ed.health ?? []).filter((h) => h.ok).length;
   const isHome = path === '/';

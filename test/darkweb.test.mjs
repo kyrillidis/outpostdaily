@@ -45,6 +45,8 @@ const BREACHES = {
 };
 const render = (over = {}) => renderDarkwebBody({ claims: CLAIMS, ransomware: LISTINGS, breaches: BREACHES, now: NOW, ...over });
 const visible = (html) => html.replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ');
+// the text we attribute things to (source lines, credits): ours to get right. Headlines, claims and victim names are outside publishers' words and may say anything
+const attribution = (html) => visible([...html.matchAll(/<p class="dk-(?:meta|credit|sechmeta)">[\s\S]*?<\/p>/g)].map((m) => m[0]).join(' '));
 const cards = (html) => html.match(/<article class="dk-card[^>]*>/g) ?? [];
 const ids = (html) => [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
 
@@ -231,11 +233,19 @@ test('the real data renders within the size budget', { skip: !existsSync(ROOT + 
   const html = renderDarkwebBody({ claims: j('data/darkweb.json').items, ransomware: j('data/ransomware.json'), breaches: j('data/breaches.json'), now: Date.parse(j('data/ransomware.json').updated) });
   assert.ok(Buffer.byteLength(html) < 110 * 1024, `body is ${Buffer.byteLength(html)} bytes`);
   for (const m of html.matchAll(/<img\b[^>]*>/gi)) assert.match(m[0], /src="\/img\/dw\/[\w-]+\.webp"/, 'only our own local copies may be images');
-  assert.doesNotMatch(visible(html), /darkwebinformer/i);
-  assert.doesNotMatch(visible(html), OLD_SOURCE);
+  assert.doesNotMatch(attribution(html), /darkwebinformer/i);
+  assert.doesNotMatch(attribution(html), OLD_SOURCE);
   assert.equal(cards(html).length, j('data/darkweb.json').items.length);
   const all = ids(html);
   assert.equal(new Set(all).size, all.length);
+});
+
+test('a post that merely mentions the other sites in its own words is not an attribution to them', () => {
+  const html = render({ claims: [claim({ headline: 'Actor posts on darkwebinformer about ransomware.live listings', claim: 'The post cites ransomware.live and darkwebinformer.', context: 'ransomware.live is mentioned.' })] });
+  assert.match(visible(html), /darkwebinformer/i, 'the free text is shown as written');
+  assert.doesNotMatch(attribution(html), /darkwebinformer/i);
+  assert.doesNotMatch(attribution(html), OLD_SOURCE);
+  assert.match(attribution(html), /X post/, 'the attribution lines are still found');
 });
 
 // ---------- pictures attached to X posts: our own copy, blurred until clicked, credited, never hotlinked ----------

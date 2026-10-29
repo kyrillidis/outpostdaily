@@ -61,7 +61,11 @@ test('every current page has sound SEO basics', () => {
 });
 
 test('no double-escaped entities leak into pages', () => {
-  const bad = pages.filter((p) => !p.legacy && /&amp;(amp|quot|lt|gt|#x?[0-9a-f]+);/i.test(p.html)).map((p) => p.rel);
+  // a feed that itself double-encodes its text (it literally says "&amp;amp;") legitimately shows up as &amp;amp;: that is the publisher's, not our escaping.
+  // So a sequence only counts when no data file contains the same encoded form.
+  const outside = [...['breaking', 'darkweb', 'ransomware', 'breaches'].map((n) => `data/${n}.json`), ...readdirSync(join(ROOT, 'data/editions')).map((f) => `data/editions/${f}`)]
+    .map((f) => (existsSync(join(ROOT, f)) ? read(join(ROOT, f)) : '')).join('\n').toLowerCase();
+  const bad = pages.filter((p) => !p.legacy && [...p.html.matchAll(/&amp;(amp|quot|lt|gt|#x?[0-9a-f]+);/gi)].some((m) => !outside.includes(m[0].toLowerCase()))).map((p) => p.rel);
   assert.deepEqual(bad, []);
 });
 
@@ -104,7 +108,9 @@ test('only CSP-allowed hosts are referenced', () => {
     for (const t of tagsOf(p.html, 'script')) { const s = attr(t, 'src'); if (s && /^https?:/.test(s) && !scriptHosts.some((h) => new URL(s).hostname.endsWith(h))) errs.push(`${p.rel}: script ${s}`); }
     for (const t of tagsOf(p.html, 'link').filter((x) => attr(x, 'rel') === 'stylesheet')) { const s = attr(t, 'href'); if (/^https?:/.test(s) && !styleHosts.includes(new URL(s).hostname)) errs.push(`${p.rel}: stylesheet ${s}`); }
     for (const t of tagsOf(p.html, 'img')) { const s = attr(t, 'src'); if (/^https?:/.test(s)) errs.push(`${p.rel}: remote image ${s}`); }
-    if (/url\(\s*['"]?https?:/.test(p.html)) errs.push(`${p.rel}: remote url() in inline CSS`);
+    // only real CSS counts: <style> blocks and style="" attributes, never the story text an outside publisher wrote (a headline may say "url(http://...)")
+    const css = [...p.html.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).concat([...p.html.matchAll(/<[a-z][^>]*\sstyle="([^"]*)"/gi)].map((m) => m[1])).join('\n');
+    if (/url\(\s*['"]?https?:/.test(css)) errs.push(`${p.rel}: remote url() in inline CSS`);
   }
   assert.deepEqual(errs, []);
 });
