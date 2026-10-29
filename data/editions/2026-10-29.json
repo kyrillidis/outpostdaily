@@ -1,9 +1,31 @@
 {
  "date": "2026-10-29",
  "edition": 227,
- "compiled": "2026-10-29T11:04:12.109Z",
+ "compiled": "2026-10-29T11:32:57.249Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "409f0b0486",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "snippet": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+   "published": "2026-10-29T11:10:13.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/409f0b0486.webp",
+   "t": "2026-10-29",
+   "summary": "Cisco released updates for an exploited denial-of-service zero-day that attackers use to remotely crash vulnerable ASA and FTD firewall devices.",
+   "why": "Check affected firewall versions and apply Cisco’s security updates.",
+   "tags": [
+    "Cisco",
+    "zero-day",
+    "SSL VPN"
+   ],
+   "ai": true
+  },
   {
    "id": "10e92bd498",
    "section": "cyber",
@@ -19,7 +41,7 @@
      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
     }
    ],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/10e92bd498.webp",
    "t": "2026-10-29",
    "summary": "The report attributes the now-disrupted Silent Train covert access network to Volt Typhoon, and says it was used for zero-day exploitation and strategic access.",
@@ -40,7 +62,7 @@
    "snippet": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records. The post Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net appeared first on SecurityWeek .",
    "published": "2026-10-29T11:00:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/dac38c3621.webp",
    "t": "2026-10-29",
    "summary": "So-net and Plala customer data in Japan was exposed, including 54,401 email account passwords and 16 bank account records.",
@@ -48,6 +70,50 @@
    "tags": [
     "So-net",
     "passwords"
+   ],
+   "ai": true
+  },
+  {
+   "id": "083a1ea7d2",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "snippet": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successf",
+   "published": "2026-10-29T10:44:46.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/083a1ea7d2.webp",
+   "t": "2026-10-29",
+   "summary": "Cisco says a high-severity flaw in ASA and FTD software has been exploited in the wild and has released patches.",
+   "why": "Review ASA and FTD exposure and prioritize available patches.",
+   "tags": [
+    "Cisco",
+    "ASA",
+    "FTD"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cf3544e851",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "snippet": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said. The feature,",
+   "published": "2026-10-29T10:26:33.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/cf3544e851.webp",
+   "t": "2026-10-29",
+   "summary": "GitHub is previewing an npm package firewall that inspects metadata requests and package downloads to block suspicious packages during installation.",
+   "why": "Check whether npm installation controls can flag suspicious package activity.",
+   "tags": [
+    "GitHub",
+    "npm",
+    "package firewall"
    ],
    "ai": true
   },
@@ -61,7 +127,7 @@
    "snippet": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload. The post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek .",
    "published": "2026-10-29T09:47:10.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/77d976efa8.webp",
    "t": "2026-10-29",
    "summary": "Cisco says it released fixes for an exploited vulnerability affecting Secure Firewall ASA and FTD software.",
@@ -70,6 +136,28 @@
     "Cisco",
     "firewall",
     "zero-day"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9ac8296dad",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "snippet": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI conf",
+   "published": "2026-10-29T09:05:39.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/9ac8296dad.webp",
+   "t": "2026-10-29",
+   "summary": "Alpine Linux says an attacker tried to exploit a critical GitLab flaw on its GitLab server after GitLab released a fix.",
+   "why": "Check GitLab systems for the vulnerability and apply the available fix.",
+   "tags": [
+    "GitLab",
+    "Alpine Linux",
+    "vulnerability"
    ],
    "ai": true
   },
@@ -83,7 +171,7 @@
    "snippet": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications. The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek .",
    "published": "2026-10-29T08:27:16.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/b3306983de.webp",
    "t": "2026-10-29",
    "summary": "An HHS filing says hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.",
@@ -105,7 +193,7 @@
    "snippet": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28",
    "published": "2026-10-29T08:24:22.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/aabd8e14b2.webp",
    "t": "2026-10-29",
    "summary": "The Hacker News reports that attackers exploited a Cisco Catalyst SD-WAN flaw, fixed in February, to install KeyDrift, malware designed to copy keys used to encrypt traffic between sites.",
@@ -127,7 +215,7 @@
    "snippet": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek .",
    "published": "2026-10-29T08:01:05.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/ef44306c2f.webp",
    "t": "2026-10-29",
    "summary": "SecurityWeek says CVE-2026-41709 lets attackers with administrative privileges perform operations on ESXi without logging, and reports Chinese hackers used it as a zero-day.",
@@ -136,97 +224,6 @@
     "ESXi",
     "logging",
     "zero-day"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f28c390e8f",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-41709\" target=\"_blank\">CVE-2026-41709</a> B",
-   "published": "2026-10-28T12:00:00.000Z",
-   "also": [],
-   "score": 1.42,
-   "t": "2026-10-29",
-   "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
-   "why": "Check the KEV Catalog and prioritize affected systems for remediation.",
-   "tags": [
-    "CISA",
-    "vulnerabilities",
-    "KEV"
-   ],
-   "ai": true
-  },
-  {
-   "id": "965a65e0d8",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-   "snippet": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-   "published": "2026-10-28T09:43:15.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
-    }
-   ],
-   "score": 1.42,
-   "image": "/img/news/965a65e0d8.webp",
-   "t": "2026-10-29",
-   "summary": "A Ukrainian national was sentenced to 70 months in prison for ransomware attacks targeting hospitals, government entities, and businesses worldwide between 2018 and 2021.",
-   "why": "Review ransomware defenses and incident plans, especially for critical services and high-revenue operations.",
-   "tags": [
-    "ransomware",
-    "hospitals"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e91f33b06c",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. l",
-   "published": "2026-10-29T06:22:33.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/e91f33b06c.webp",
-   "t": "2026-10-29",
-   "summary": "CISA added a VMware ESX flaw to its KEV catalog after CrowdStrike revealed it had been weaponized, according to the snippet. The title says China-linked hackers used it to reduce audit trail visibility.",
-   "why": "Check exposure to the VMware ESX flaw, prioritize remediation, and review whether audit trail visibility has been reduced.",
-   "tags": [
-    "VMware ESX",
-    "zero-day",
-    "audit trail"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f4eff089be",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-   "snippet": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company s",
-   "published": "2026-10-29T05:50:17.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/f4eff089be.webp",
-   "t": "2026-10-29",
-   "summary": "Palo Alto Networks warned that attackers are exploiting recently patched PHP2Shell vulnerabilities against publicly accessible management interfaces.",
-   "why": "Patch affected interfaces and check whether management access is exposed to the internet.",
-   "tags": [
-    "PHP2Shell",
-    "management interfaces",
-    "exploitation"
    ],
    "ai": true
   },
@@ -240,7 +237,7 @@
    "snippet": "It’s a strange time for the defense technology sector. Despite the headlines of record capital, valuations, and defense budgets, there is a growing unease among investors and leadership teams. Production contracts remain as elusive as ever, and a generation of startups is struggling to extend their runways across the v",
    "published": "2026-10-29T08:00:33.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/5b87fe21d9.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks describes unease among defense technology investors and leaders despite headlines about capital, valuations, and budgets; production contracts remain elusive.",
@@ -261,7 +258,7 @@
    "snippet": "Amid the rapid expansion of AI and data centers alongside growing climate commitments as the demand for clean energy rises, nuclear power is increasingly viewed as a reliable source to fill the gaps and complement the stochastic output of solar and hydropower. This renewed interest is also driven in part by countries’ ",
    "published": "2026-10-29T07:30:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/b07e4e1dde.webp",
    "t": "2026-10-29",
    "summary": "The article says nuclear power is increasingly viewed as a reliable source to complement variable solar and hydropower as clean-energy demand rises.",
@@ -269,6 +266,50 @@
    "tags": [
     "nuclear power",
     "clean energy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "45cdde962e",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "Defense Business Brief: Tech at the edge; PACFLEET talks cyber; and more",
+   "url": "https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/",
+   "snippet": "<![CDATA[<p><strong>HONOLULU&mdash;</strong>Soldiers in the Pacific need technology that works when networks are attacked and connectivity isn&rsquo;t guaranteed, said Gen. Xavier Brunson, the commander of U.S. Forces Korea.&nbsp;</p> <p>&ldquo;If the service tells you who they are and what they're going to do, and you",
+   "published": "2026-10-29T10:53:47.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/45cdde962e.webp",
+   "t": "2026-10-29",
+   "summary": "A Defense One briefing says Pacific soldiers need technology that works when networks are attacked and connectivity is not guaranteed.",
+   "why": "Technology that works without reliable connectivity may matter for operations in contested networks.",
+   "tags": [
+    "Pacific",
+    "connectivity",
+    "cyber"
+   ],
+   "ai": true
+  },
+  {
+   "id": "83ef953d20",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Switzerland shortlists SAMP/T, Barak MX for long-range air defense",
+   "url": "https://www.defensenews.com/global/europe/2026/10/29/switzerland-shortlists-samp-t-barak-mx-for-long-range-air-defense/",
+   "snippet": "Switzerland narrowed down the choice of the country’s second future long-range air defense system to either Israel’s Barak MX system or the French-Italian SAMP/T NG.",
+   "published": "2026-10-29T11:17:15.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/83ef953d20.webp",
+   "t": "2026-10-29",
+   "summary": "Switzerland narrowed its choice for a future long-range air defense system to Israel’s Barak MX or the French-Italian SAMP/T NG.",
+   "why": "The shortlist identifies the systems under consideration for Switzerland’s long-range air defense.",
+   "tags": [
+    "Switzerland",
+    "air defense",
+    "SAMP/T NG"
    ],
    "ai": true
   },
@@ -282,7 +323,7 @@
    "snippet": "The meeting signals a coordinated approach by the three NATO littoral states to the growing risks to commercial shipping and maritime infrastructure arising from the Russia-Ukraine war.",
    "published": "2026-10-29T10:50:56.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/b1212b1170.webp",
    "t": "2026-10-29",
    "summary": "NATO’s Black Sea littoral states signalled a coordinated approach to risks to commercial shipping and maritime infrastructure arising from the Russia-Ukraine war.",
@@ -303,7 +344,7 @@
    "snippet": "One of Europe’s key arms purchasers, Serbia, is likely to slow down procurement and investigate the probity of recent buys after a student-led protest movement ousted the country’s long-time strongman leader in a surprise election win on Sunday.",
    "published": "2026-10-29T08:53:25.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/280d9fe1ac.webp",
    "t": "2026-10-29",
    "summary": "Defense News says Serbia is likely to slow weapons procurement and investigate recent purchases after a student-led movement ousted the country’s long-time leader in an election win.",
@@ -325,7 +366,7 @@
    "snippet": "[Sponsored] Warden’s passive, first layer of detection complements EO/IR and radar.",
    "published": "2026-10-28T19:59:25.000Z",
    "also": [],
-   "score": 1.29,
+   "score": 1.28,
    "image": "/img/news/4bacf4d97d.webp",
    "t": "2026-10-29",
    "summary": "A sponsored item says Warden's passive first layer of detection complements EO/IR and radar for finding and classifying targets at standoff distance.",
@@ -347,7 +388,7 @@
    "snippet": "In 2018, Barak Mendelsohn wrote, “Bound to Fail: Transnational Jihadism and the Aggregation Problem,” where he argued that transnational jihadist groups like al-Qaeda and the Islamic State would continue failing to turn local victories into a lasting caliphate, allowing counterterrorism forces to contain them without c",
    "published": "2026-10-28T19:45:24.000Z",
    "also": [],
-   "score": 1.28,
+   "score": 1.27,
    "image": "/img/news/2a11a4d4de.webp",
    "t": "2026-10-29",
    "summary": "Barak Mendelsohn argued that transnational jihadist groups would continue failing to turn local victories into a lasting caliphate.",
@@ -359,46 +400,24 @@
    "ai": true
   },
   {
-   "id": "b0e3c87508",
-   "section": "warfare",
-   "source": "The War Zone",
+   "id": "ee049deecb",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites",
-   "url": "https://www.twz.com/space/u-s-intel-warns-chinas-space-based-directed-energy-weapons-could-soon-threaten-satellites",
-   "snippet": "Battlefield space is heating up as the DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade. The post U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites appeared first on TWZ .",
-   "published": "2026-10-28T19:53:21.000Z",
+   "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+   "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+   "published": "2026-10-29T11:22:18.000Z",
    "also": [],
-   "score": 1.28,
-   "image": "/img/news/b0e3c87508.webp",
+   "score": 1.6,
+   "image": "/img/news/ee049deecb.webp",
    "t": "2026-10-29",
-   "summary": "The DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade.",
-   "why": "The warning highlights potential threats to satellites in the space domain.",
+   "summary": "Partial results show Netanyahu's Likud party and allies set to win 53 of 120 Knesset seats, with 85% of ballots counted.",
+   "why": "The partial count indicates the parliamentary balance remains relevant to forming a government.",
    "tags": [
-    "directed energy",
-    "satellites",
-    "China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4f64e19c7a",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "AUKUS partners test autonomous systems as Europe weighs maritime surveillance needs",
-   "url": "https://breakingdefense.com/2026/10/aukus-partners-test-autonomous-systems-as-europe-weighs-maritime-surveillance-needs/",
-   "snippet": "The UK headed up the anti-submarine warfare component of Maritime Big Play exercise, which took place off the coast of San Diego in October.",
-   "published": "2026-10-28T19:09:15.000Z",
-   "also": [],
-   "score": 1.27,
-   "image": "/img/news/4f64e19c7a.webp",
-   "t": "2026-10-29",
-   "summary": "The UK led the anti-submarine warfare component of the Maritime Big Play exercise off San Diego in October.",
-   "why": "The exercise highlights autonomous systems and maritime surveillance needs.",
-   "tags": [
-    "anti-submarine warfare",
-    "exercise",
-    "maritime"
+    "Israel",
+    "election",
+    "Knesset"
    ],
    "ai": true
   },
@@ -412,7 +431,7 @@
    "snippet": "Riyadh and Abu Dhabi reconciling could be a gamechanger, a leading Yemen expert says.",
    "published": "2026-10-29T10:00:12.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/ff72019eb0.webp",
    "t": "2026-10-29",
    "summary": "A leading Yemen expert says reconciliation between Riyadh and Abu Dhabi could be a gamechanger in the fight against the Houthis.",
@@ -433,7 +452,7 @@
    "snippet": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
    "published": "2026-10-29T09:51:06.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/6e265c1390.webp",
    "t": "2026-10-29",
    "summary": "Officials are discussing deeper economic and defence ties at the Canada-EU summit; the term “associate member” is reportedly off the table.",
@@ -454,7 +473,7 @@
    "snippet": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
    "published": "2026-10-29T08:23:31.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.53,
    "image": "/img/news/599112d588.webp",
    "t": "2026-10-29",
    "summary": "BBC World reports that Ethiopia acquired Russian fighter jets and air defence systems amid ongoing fighting in northern Tigray.",
@@ -476,7 +495,7 @@
    "snippet": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
    "published": "2026-10-29T07:54:33.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.52,
    "image": "/img/news/a773a6cddb.webp",
    "t": "2026-10-29",
    "summary": "BBC World reports that Sanrio apologised after its merchandise line with Japanese TV series Vivant drew criticism amid a China backlash.",
@@ -497,7 +516,7 @@
    "snippet": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
    "published": "2026-10-29T06:24:56.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/95eac67cb5.webp",
    "t": "2026-10-29",
    "summary": "BBC World says El Salvador sent 2,000 troops to Haiti to try to recover four military personnel missing after an ambush near Port-au-Prince.",
@@ -519,7 +538,7 @@
    "snippet": "Russian broker network recruiting North Korean labourers using student visas, Global Rights Compliance report says.",
    "published": "2026-10-29T08:58:57.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.45,
    "image": "/img/news/0b7ec97ac6.webp",
    "t": "2026-10-29",
    "summary": "Global Rights Compliance says a Russian broker network is recruiting North Korean labourers using student visas.",
@@ -541,7 +560,7 @@
    "snippet": "Obama and Trump traded barbs over the Iran war, tariffs and the White House ballroom ahead of the US midterm elections.",
    "published": "2026-10-29T08:51:30.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/aa9e187456.webp",
    "t": "2026-10-29",
    "summary": "Al Jazeera reports that Obama and Trump traded criticism over the Iran war, tariffs and the White House ballroom ahead of the US midterm elections.",
@@ -550,28 +569,6 @@
     "Iran war",
     "tariffs",
     "elections"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0da36d83a0",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
-   "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
-   "snippet": "African nations weigh political incentives as Moscow offers limited economic benefits compared with China and the West.",
-   "published": "2026-10-29T08:14:34.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/0da36d83a0.webp",
-   "t": "2026-10-29",
-   "summary": "African nations weigh political incentives as Moscow offers limited economic benefits compared with China and the West.",
-   "why": "The comparison highlights how economic and political incentives shape Africa’s external partnerships.",
-   "tags": [
-    "Africa",
-    "Russia",
-    "political incentives"
    ],
    "ai": true
   }
@@ -723,47 +720,47 @@
   }
  ],
  "run_today": [
-  "Review systems for indicators of Silent Train covert access and zero-day exploitation.",
-  "Assess whether So-net or Plala customer accounts require password resets.",
-  "Monitor exposed accounts and bank records for signs of misuse."
+  "Check ASA and FTD versions and apply Cisco’s security updates for the exploited denial-of-service flaw.",
+  "Review npm installation controls for suspicious package activity and assess GitHub’s firewall preview.",
+  "Check GitLab deployments for the reported flaw and confirm that the available fix is applied."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "covert access network",
-   "explainer": "A covert access network is infrastructure used to gain or maintain hidden access to systems. The report says Silent Train was used for zero-day exploitation and strategic access.",
-   "from_id": "10e92bd498",
-   "from": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-   "fromSource": "The Hacker News"
+   "term": "zero-day",
+   "explainer": "A zero-day is a software flaw that is being exploited before a fix is available to defenders. The Cisco item says updates have now been released for this denial-of-service flaw.",
+   "from_id": "409f0b0486",
+   "from": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "maritime infrastructure",
-   "explainer": "Maritime infrastructure refers to infrastructure associated with the sea and shipping. The story highlights risks to it alongside risks to commercial ship traffic.",
-   "from_id": "b1212b1170",
-   "from": "https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/",
+   "term": "long-range air defense",
+   "explainer": "Long-range air defense refers to systems intended to defend against aerial threats over long distances. Switzerland is considering either Barak MX or SAMP/T NG for a future system.",
+   "from_id": "83ef953d20",
+   "from": "https://www.defensenews.com/global/europe/2026/10/29/switzerland-shortlists-samp-t-barak-mx-for-long-range-air-defense/",
    "fromSource": "Defense News"
   },
   {
    "domain": "geo",
-   "term": "associate member",
-   "explainer": "An associate member is a membership status distinct from full membership. The story says the term is reportedly off the table as Canada and the EU discuss deeper ties.",
-   "from_id": "6e265c1390",
-   "from": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "commercial ship traffic",
+   "explainer": "Commercial ship traffic is the movement of merchant vessels through maritime routes. The title links concern about its safety to spillover from the Ukraine war in the Black Sea.",
+   "from_id": "b1212b1170",
+   "from": "https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/",
+   "fromSource": "Defense News"
   }
  ],
  "analysis": {
-  "headline": "Security, partnerships and strategic capacity in focus",
+  "headline": "Security Exposure and Shifting Strategic Choices",
   "paragraphs": [
-   "Several stories centre on relationships and coordination: a Yemen expert sees potential significance in Riyadh and Abu Dhabi reconciling, while Canada and the EU discuss deeper economic and defence ties. NATO’s Black Sea states also signal a coordinated response to risks affecting shipping and maritime infrastructure.",
-   "Other stories point to the material and economic dimensions of security. Ethiopia’s acquisition of Russian aircraft and air defence systems is reported amid fighting in Tigray; small reactors are discussed against rising energy demand. The defense technology sector, meanwhile, faces unease despite headlines of record capital and budgets.",
-   "For defenders and analysts, the cyber reports add a direct operational concern: covert access and zero-day exploitation, alongside exposed customer data and credentials. These stories do not establish a connection to the other developments, but together they suggest the value of tracking both digital exposure and shifts in defence relationships and capacity."
+   "The stories span cybersecurity, elections, diplomacy, defense technology and conflict. The Cisco zero-day is the clearest immediate operational issue: Cisco says attackers are exploiting it to crash vulnerable firewalls. Meanwhile, Israel’s partial results show Netanyahu’s bloc leading, but short of a majority.",
+   "Several items describe decisions under uncertainty. Riyadh and Abu Dhabi reconciling may affect the fight against the Houthis, an expert says; Canada and the EU are discussing deeper economic and defence ties. Switzerland has shortlisted two air-defense systems, while Ethiopia’s acquisition comes amid fighting in Tigray.",
+   "For defenders, the Cisco update calls for checking exposure and patch status; the other cyber items point to package-installation and GitLab controls. For analysts, the stories suggest watching how political alignments, procurement choices and technology-sector unease develop. The snippets do not establish what these developments will lead to."
   ],
   "takeaways": [
-   "Check for covert access and respond to exposed credentials.",
-   "Track how regional and cross-regional partnerships develop.",
-   "Assess defence capacity alongside energy and market pressures."
+   "Prioritize checking Cisco ASA and FTD exposure and patch status.",
+   "Track the reported discussions on Canada-EU ties and Saudi-Emirati reconciliation.",
+   "Follow Switzerland’s air-defense choice alongside the reported acquisition in Ethiopia."
   ]
  },
  "health": [
@@ -783,13 +780,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 12
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 18
+   "n": 21
   },
   {
    "name": "The Record",
@@ -861,7 +858,7 @@
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Defense News",
@@ -951,7 +948,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "DW",
