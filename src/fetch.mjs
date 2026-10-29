@@ -9,6 +9,7 @@ import sharp from 'sharp';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
 import { updateDarkweb } from './darkweb.mjs';
 import { updateIntel } from './intel.mjs';
+import { feedEntries, checkDates, nvdVerdict, cvssCached, publishVerdict, thumbPlan } from './lib/pipeline.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
@@ -58,19 +59,21 @@ async function pullFeed(src, section, rules) {
   const res = await fetch(src.url, { headers: { 'user-agent': UA, accept: 'application/rss+xml, application/atom+xml, text/xml, */*' }, signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const doc = xml.parse(await res.text());
-  const raw = doc?.rss?.channel?.item ?? doc?.feed?.entry ?? doc?.['rdf:RDF']?.item ?? [];
-  const list = Array.isArray(raw) ? raw : [raw];
+  const list = feedEntries(doc); // throws for an HTML/captcha page or an empty feed, so health shows it
   const cutoff = now.getTime() - WINDOW_H * 3600e3;
   const out = [];
+  let dated = 0;
   for (const e of list.slice(0, 25)) {
     const url = linkOf(e);
     const when = new Date(text(e.pubDate || e.published || e.updated || e['dc:date']));
     const title = clean(e.title);
+    if (!isNaN(when)) dated++;
     if (!/^https?:\/\//.test(url) || !title || isNaN(when) || when.getTime() < cutoff || when > now.getTime() + 3600e3) continue;
     const snippet = clean(e.description || e.summary || e['content:encoded'] || e.content).slice(0, 320);
     if (src.filter && !rules[src.filter === 'tech' ? 'tech' : 'geo'].test(title + ' ' + snippet)) continue; // general outlets: only on-topic items
     out.push({ id: sha(url), section, source: src.name, weight: src.weight ?? 0.5, title, url, snippet, published: when.toISOString(), img: feedImage(e) });
   }
+  checkDates(Math.min(list.length, 25), dated);
   return out;
 }
 
@@ -80,17 +83,20 @@ async function pullKev(cache) {
   if (!res.ok) throw new Error('KEV HTTP ' + res.status);
   const j = await res.json();
   const rows = j.vulnerabilities.sort((a, b) => b.dateAdded.localeCompare(a.dateAdded)).slice(0, 12);
-  let nvdCalls = 0;
+  let nvdCalls = 0, nvdDown = false;
+  const nvdUntil = Date.now() + 120e3; // the whole NVD lookup gets two minutes, however slow NVD is
   for (const r of rows) {
     const key = 'cvss:' + r.cveID;
-    if (cache[key] === undefined && nvdCalls < 12) {
+    if (!cvssCached(cache[key], date) && nvdCalls < 12 && !nvdDown && Date.now() < nvdUntil) {
       if (nvdCalls++) await sleep(6500); // NVD keyless limit: 5 req / 30 s
       try {
         const n = await fetch('https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=' + r.cveID, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(20000) });
-        const m = (await n.json())?.vulnerabilities?.[0]?.cve?.metrics ?? {};
-        const cv = (m.cvssMetricV40 ?? m.cvssMetricV31 ?? m.cvssMetricV30 ?? [])[0]?.cvssData;
-        cache[key] = cv ? { score: cv.baseScore, t: date } : { score: null, t: date };
-      } catch { /* leave unset, retry tomorrow */ }
+        if (!n.ok) { nvdDown = true; console.warn('NVD HTTP ' + n.status + ', not caching'); } // rate limit or outage: ask again next run, and stop asking now
+        else {
+          const v = nvdVerdict(await n.json());
+          if (v) cache[key] = { score: v.score, t: date }; // a score is kept 14 days; "not scored yet" is asked again tomorrow (cvssCached)
+        }
+      } catch { /* leave unset, retry next run */ }
     }
     r.cvss = cache[key]?.score ?? null;
   }
@@ -151,14 +157,15 @@ async function summarise(items, learnPool, top) {
 // ---------- thumbnails: self-hosted (the site's CSP and privacy policy allow no third-party images) ----------
 const IMG_DIR = 'public/img/news/';
 mkdirSync(ROOT + IMG_DIR, { recursive: true });
+// string = the page's picture, null = it has none, undefined = could not ask (network trouble: try again next run)
 async function ogImage(url) {
   try {
     const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html' }, signal: AbortSignal.timeout(8000) });
-    if (!res.ok) return null;
+    if (!res.ok) return res.status >= 500 || res.status === 429 ? undefined : null;
     const head = (await res.text()).slice(0, 200000);
     const m = head.match(/<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image)["'][^>]*content=["']([^"']+)["']/i) || head.match(/<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["'](?:og:image|twitter:image)["']/i);
     return m && /^https:\/\//.test(m[1].replace(/&amp;/g, '&')) ? m[1].replace(/&amp;/g, '&') : null;
-  } catch { return null; }
+  } catch { return undefined; }
 }
 // busy photos can exceed the 130KB image budget at one fixed quality (test/site.test.mjs fails the whole run if one does), so step the quality
 // down, then the width, until the file is comfortably small
@@ -170,21 +177,31 @@ export async function toWebp(buf, { width = 960, max = 110 * 1024 } = {}) {
   }
   return out;
 }
+const THUMB_UNTIL = Date.now() + 8 * 60e3; // pictures are a nicety: after 8 minutes the run stops fetching them (the job timeout is 15)
 async function thumbnail(it) {
   const rel = `${IMG_DIR}${it.id}.webp`;
   if (existsSync(ROOT + rel)) return '/' + rel.slice('public/'.length);
-  for (const src of [it.img, await ogImage(it.url)].filter(Boolean)) {
+  const plan = thumbPlan({ cache, id: it.id, date, now: Date.now(), deadline: THUMB_UNTIL });
+  if (plan !== 'try') return null;
+  let retry = false; // true when a failure was the network's, not a definite "no picture here"
+  const candidates = [it.img, async () => { const o = await ogImage(it.url); if (o === undefined) retry = true; return o; }]; // the page is only opened if the feed's own picture fails
+  for (const c of candidates) {
+    const src = typeof c === 'function' ? await c() : c;
+    if (!src) continue;
     try {
       const res = await fetch(src, { headers: { 'user-agent': UA, accept: 'image/*' }, signal: AbortSignal.timeout(12000) });
-      if (!res.ok || !/^image\//.test(res.headers.get('content-type') ?? '')) continue;
+      if (!res.ok || !/^image\//.test(res.headers.get('content-type') ?? '')) { if (res.status >= 500 || res.status === 429) retry = true; continue; }
       const buf = Buffer.from(await res.arrayBuffer());
       if (buf.length > 8e6) continue;
       const meta = await sharp(buf).metadata();
       if ((meta.width ?? 0) < 400 || (meta.height ?? 0) < 200) continue; // logos and icons
-      writeFileSync(ROOT + rel, await toWebp(buf));
+      const out = await toWebp(buf);
+      if (out.length > 125 * 1024) continue; // test/site.test.mjs fails the whole run on an image over 130KB
+      writeFileSync(ROOT + rel, out);
       return '/' + rel.slice('public/'.length);
-    } catch { /* try the next candidate */ }
+    } catch { retry = true; /* try the next candidate */ }
   }
+  if (!retry) cache['noimg:' + it.id] = { t: date, miss: true }; // no picture today: do not open the article again on every run
   return null;
 }
 
@@ -194,13 +211,13 @@ const cache = read('data/cache.json', {});
 const prev = read(`data/editions/${date}.json`, null);
 if (prev?.items) prev.items.forEach((i) => { if (i.section === 'world') i.section = 'geo'; });
 const health = [];
-const pool = [];
+const pool = [], poolIds = new Set(); // one item per URL: a feed that lists a story twice would otherwise print the same anchor id twice
 const rules = { geo: new RegExp(sources.relevance, 'i'), tech: new RegExp(sources.techRelevance, 'i') };
 for (const section of ['cyber', 'warfare', 'geo']) {
   const results = await Promise.allSettled(sources[section].map((s) => pullFeed(s, section, rules)));
   results.forEach((r, i) => {
     const name = sources[section][i].name;
-    if (r.status === 'fulfilled') { pool.push(...r.value); health.push({ name, section, ok: true, n: r.value.length }); }
+    if (r.status === 'fulfilled') { pool.push(...r.value.filter((x) => !poolIds.has(x.id) && poolIds.add(x.id))); health.push({ name, section, ok: true, n: r.value.length }); }
     else health.push({ name, section, ok: false, error: String(r.reason?.message || r.reason).slice(0, 80) });
   });
 }
@@ -209,6 +226,14 @@ console.log(`feeds ok ${health.filter((h) => h.ok).length}/${health.length}, ite
 const chosen = [];
 for (const section of Object.keys(LIMITS)) {
   chosen.push(...clusterAndScore(pool.filter((i) => i.section === section), now).slice(0, LIMITS[section]));
+}
+// A network blip that fails most feeds must not replace a full edition with a thin one and deploy it: keep what is published and try again next run.
+const latestFile = readdirSync(ROOT + 'data/editions').filter((f) => f.endsWith('.json')).sort().pop();
+const verdict = publishVerdict({ health, items: chosen.length, prevItems: latestFile ? read('data/editions/' + latestFile, { items: [] }).items?.length ?? 0 : 0 });
+if (!verdict.publish) {
+  console.warn(`::warning title=Edition kept::${verdict.reason}; the published edition is left as it is`);
+  await sideFeeds();
+  process.exit(health.some((h) => h.ok) ? 0 : 1); // nothing answered at all is a failed run, as before
 }
 let kev = [];
 try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.message); kev = prev?.kev ?? []; }
@@ -261,5 +286,9 @@ write('data/cache.json', cache);
 write('data/state.json', state);
 console.log(`edition ${state.edition} (${date}): ${items.length} items, ${kev.length} KEV, ${fresh.length} needed summarising`);
 
-try { await updateDarkweb(); } catch (e) { console.warn('darkweb failed:', e.message); }
-try { await updateIntel(); } catch (e) { console.warn('intel failed:', e.message); } // ransomware.live listings and Have I Been Pwned breaches
+await sideFeeds();
+
+async function sideFeeds() {
+  try { await updateDarkweb(); } catch (e) { console.warn('darkweb failed:', e.message); }
+  try { await updateIntel(); } catch (e) { console.warn('intel failed:', e.message); } // ransomware.live listings and Have I Been Pwned breaches
+}
