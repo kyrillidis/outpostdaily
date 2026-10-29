@@ -1,13 +1,28 @@
 {
- "updated": "2026-10-29T10:57:29.950Z",
+ "updated": "2026-10-29T11:11:32.375Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 6
   },
@@ -17,9 +32,9 @@
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "Al Jazeera",
@@ -27,37 +42,22 @@
    "n": 4
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Hackread",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -67,12 +67,7 @@
    "n": 2
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "SOCRadar blog",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -80,6 +75,11 @@
    "name": "Security Affairs",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -119,6 +119,61 @@
  ],
  "items": [
   {
+   "id": "n409f0b0486",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "published": "2026-10-29T11:10:13.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6229173511",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Lilly raises outlook for third time this year as Zepbound sales soar.",
+   "url": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
+   "published": "2026-10-29T11:03:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n83e08bd257",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
+   "url": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
+   "published": "2026-10-29T11:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndac38c3621",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
+   "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+   "published": "2026-10-29T11:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n083a1ea7d2",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "published": "2026-10-29T10:44:46.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "nfe6982c30d",
    "kind": "news",
    "group": "darkweb",
@@ -149,6 +204,17 @@
    "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
    "published": "2026-10-29T10:29:25.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ncf3544e851",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "published": "2026-10-29T10:26:33.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -236,6 +302,17 @@
    "title": "‘Fancy cars hold no appeal’: My wife and I have a 99% chance of outliving our savings. Why don’t we spend it all?",
    "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
    "published": "2026-10-29T09:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9ac8296dad",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "published": "2026-10-29T09:05:39.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2495,17 +2572,6 @@
    "verified": true
   },
   {
-   "id": "n3ba145c8e1",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "A hidden ‘triple top’ in oil price charts suggests the rally has run out of gas",
-   "url": "https://www.marketwatch.com/story/a-hidden-triple-top-in-oil-price-charts-suggests-the-rally-has-run-out-of-gas-3743d5a1?mod=mw_rss_topstories",
-   "published": "2026-10-27T19:24:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n5435b35ef8",
    "kind": "news",
    "group": "darkweb",
@@ -2601,17 +2667,6 @@
    "title": "Arab parties in Israel accuse Netanyahu of inciting hatred to scare voters",
    "url": "https://www.aljazeera.com/news/2026/10/27/arab-parties-in-israel-accuse-netanyahu-of-inciting-hatred-to-scare-voters?traffic_source=rss",
    "published": "2026-10-27T18:11:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n789eb49709",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The big reason Boeing’s stock is falling so hard after earnings",
-   "url": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
-   "published": "2026-10-27T17:59:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4345,28 +4400,6 @@
    "verified": false
   },
   {
-   "id": "x2114720970984570894",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheHackersNews",
-   "title": "This2Shell. That2Shell. Everything2Shell. WHAT A WEEK IN #CYBERSECURITY. > Critical RCEs dropping everywhere. > Millions of exploit attempts. > AI agents getting hijacked. > Leaked keys poisoning software packages. > Old bugs coming back…",
-   "url": "https://x.com/TheHackersNews/status/2114720970984570894",
-   "published": "2026-10-26T14:09:03.000Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "n3576934612",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-   "published": "2026-10-26T14:06:13.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114719483126493495",
    "kind": "x",
    "group": "darkweb",
@@ -4389,39 +4422,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVj-CzyaMAAoy8F.jpg"
-  },
-  {
-   "id": "x2114718943323820184",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Rogue servers are exploiting a bug in the Bitcoin wallet Electrum that turns a fee bump into a payment to the attacker. The server hides the real payment and shows a fake in its place. Raise the fee and Electrum signs it. Version 4.8.3…",
-   "url": "https://x.com/IntCyberDigest/status/2114718943323820184",
-   "published": "2026-10-26T14:01:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n3c0f1fb39e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-   "published": "2026-10-26T14:00:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0d99ee2b28",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "10 Software Security Practices Built for the Next 250 Years",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
-   "published": "2026-10-26T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114712822940877058",
