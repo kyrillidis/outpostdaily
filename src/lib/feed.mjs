@@ -2,6 +2,12 @@
 // (api/breaking.js) and the tests, so all three always agree. No I/O in this file.
 
 const NAMED = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', ndash: '–', mdash: '—', hellip: '…' };
+// a numeric entity outside Unicode (&#x110000;) makes String.fromCodePoint throw; callers drop it instead
+export const codePoint = (n) => (Number.isInteger(n) && n > 0 && n <= 0x10ffff && !(n >= 0xd800 && n <= 0xdfff) ? String.fromCodePoint(n) : '');
+// text of a post or feed entry as plain one-line text (the collectors' tidy-up; unlike decode() it leaves &lt; &gt; alone)
+export const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&#x([0-9a-f]+);/gi, (_, h) => codePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => codePoint(+n)).replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+// an ISO timestamp, or the fallback when the value is missing or not a date (new Date(x).toISOString() throws on those)
+export const isoOr = (v, fallback) => { const d = new Date(v ?? NaN); return isNaN(d) ? fallback : d.toISOString(); }; // null would otherwise read as 1970
 export const decode = (s) => String(s ?? '').replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => {
   if (e[0] === '#') {
     const cp = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);

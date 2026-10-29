@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
+import { strip, isoOr } from './lib/feed.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 // local runs: read secrets from the git-ignored .env (Actions passes them as real environment variables)
@@ -23,7 +24,6 @@ const critical = new RegExp(cfg.critical, 'i');
 const criticalOther = new RegExp(cfg.criticalOther, 'i');
 const interest = new RegExp(cfg.forumInterest, 'i');
 const crisisRel = new RegExp(cfg.crisisRelevant, 'i');
-const strip = (s) => String(s ?? '').replace(/https?:\/\/t\.co\/\S+/g, '').replace(/<[^>]+>/g, ' ').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const cut = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 const sevOf = (t, group = 'cyber') => (({ cyber: critical, redteam: critical, blueteam: critical, darkweb: critical }[group] ?? criticalOther).test(t) ? 'high' : 'normal');
 const health = [];
@@ -59,12 +59,14 @@ async function pullX() {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const tweets = (await res.json()).tweets ?? [];
       for (const t of tweets) {
+       try { // one malformed post must not lose the rest of the group
         const text = strip(t.text);
         if (text.length < 20) continue;
         const handle = t.author?.userName ?? '';
         const img = group === 'darkweb' ? photoOf(t) : '';
         if (group === 'darkweb' && !seenShape) { seenShape = true; console.log('x sample keys:', Object.keys(t).join(','), '| media keys:', Object.keys(t).filter((k) => /media|entit|photo/i.test(k)).join(',') || 'none'); }
-        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: new Date(t.createdAt).toISOString(), severity: sevOf(text, group), verified: false, ...(img && { img }) });
+        found.push({ id: 'x' + t.id, kind: 'x', group, source: '@' + handle, title: cut(text, 240), url: `https://x.com/${handle}/status/${t.id}`, published: isoOr(t.createdAt, new Date(now).toISOString()), severity: sevOf(text, group), verified: false, ...(img && { img }) });
+       } catch (e) { console.warn('x: skipped one post:', String(e.message).slice(0, 80)); }
       }
       health.push({ name: `X ${group}`, ok: true, n: tweets.length });
     } catch (e) { health.push({ name: `X ${group}`, ok: false, error: String(e.message).slice(0, 80) }); }
@@ -81,6 +83,7 @@ async function pullNews(src) {
   const raw = doc?.rss?.channel?.item ?? doc?.feed?.entry ?? doc?.['rdf:RDF']?.item ?? [];
   let n = 0;
   for (const e of (Array.isArray(raw) ? raw : [raw]).slice(0, 15)) {
+   try { // one malformed entry must not fail the whole feed
     const l = e.link;
     const url = typeof l === 'string' ? l : (Array.isArray(l) ? l[0] : l)?.['@_href'] ?? txt(l);
     const when = new Date(txt(e.pubDate || e.published || e.updated));
@@ -89,6 +92,7 @@ async function pullNews(src) {
     if (src.group === 'crisis' && !crisisRel.test(title)) continue; // general world feeds: only conflict and security items reach the war room
     found.push({ id: 'n' + sha(url), kind: 'news', group: src.group ?? 'cyber', source: src.name, title, url, published: when.toISOString(), severity: sevOf(title, src.group), verified: true });
     n++;
+   } catch (e) { console.warn(`${src.name}: skipped one entry:`, String(e.message).slice(0, 80)); }
   }
   return n;
 }
@@ -102,13 +106,15 @@ async function pullForum(f) {
   let n = 0;
   const seen = new Set();
   for (const m of html.matchAll(/<a[^>]+href=["']([^"']*(?:Thread-|showthread\.php\?tid=)[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
-    const title = strip(m[2]);
-    let url;
-    try { url = new URL(m[1].replace(/&amp;/g, '&'), f.url).href.replace(/#.*$/, '').replace(/[?&]action=.*$/, ''); } catch { continue; }
-    if (title.length < 12 || seen.has(url) || !interest.test(title)) continue;
-    seen.add(url);
-    found.push({ id: 'f' + sha(url), kind: 'forum', group: 'darkweb', source: f.name, title: cut(title, 200), url, published: new Date(now).toISOString(), severity: sevOf(title, 'darkweb'), verified: false });
-    if (++n >= 15) break;
+    try { // one malformed link must not fail the whole listing
+      const title = strip(m[2]);
+      let url;
+      try { url = new URL(m[1].replace(/&amp;/g, '&'), f.url).href.replace(/#.*$/, '').replace(/[?&]action=.*$/, ''); } catch { continue; }
+      if (title.length < 12 || seen.has(url) || !interest.test(title)) continue;
+      seen.add(url);
+      found.push({ id: 'f' + sha(url), kind: 'forum', group: 'darkweb', source: f.name, title: cut(title, 200), url, published: new Date(now).toISOString(), severity: sevOf(title, 'darkweb'), verified: false });
+      if (++n >= 15) break;
+    } catch (e) { console.warn(`${f.name}: skipped one link:`, String(e.message).slice(0, 80)); }
   }
   return n;
 }

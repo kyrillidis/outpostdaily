@@ -5,7 +5,7 @@
 import { fileURLToPath } from 'node:url';
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, cpSync, rmSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { normalizeBreaking, classifyClaim } from './lib/feed.mjs';
+import { normalizeBreaking, classifyClaim, codePoint } from './lib/feed.mjs';
 import { buildDarkweb } from './lib/darkweb-live.mjs';
 import { renderBreakingBody } from './lib/breaking-view.mjs';
 
@@ -15,8 +15,7 @@ const site = json('config/site.json', {});
 const SITE = site.url;
 
 // feeds sometimes hand over text and URLs with entities still encoded (&amp;, &#x2014;): decode once, then escape once
-const cp = (n) => (n > 0 && n <= 0x10ffff && !(n >= 0xd800 && n <= 0xdfff) ? String.fromCodePoint(n) : ''); // an out-of-range entity (&#x110000;) in a feed must not crash the build
-const decode = (s) => String(s ?? '').replace(/&#x([0-9a-f]+);/gi, (_, h) => cp(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => cp(+n)).replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const decode = (s) => String(s ?? '').replace(/&#x([0-9a-f]+);/gi, (_, h) => codePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => codePoint(+n)).replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 const esc = (s) => decode(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const href = (u) => (/^https?:\/\//.test(u) ? esc(u) : '#');
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
