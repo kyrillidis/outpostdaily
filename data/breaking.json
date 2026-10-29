@@ -1,8 +1,33 @@
 {
- "updated": "2026-10-29T19:58:51.095Z",
+ "updated": "2026-10-29T20:14:52.476Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -12,9 +37,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Record",
    "ok": true,
-   "n": 10
+   "n": 3
   },
   {
    "name": "BBC World",
@@ -25,31 +50,6 @@
    "name": "Al Jazeera",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "Hackread",
@@ -67,19 +67,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
    "n": 2
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 2
   },
   {
    "name": "BreachForums",
@@ -90,6 +85,11 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n6c129a8658",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Limited reports of PHP bug exploitation emerge",
+   "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+   "published": "2026-10-29T20:01:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na89c616854",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge",
+   "url": "https://www.marketwatch.com/story/microsoft-to-raise-up-to-25-billion-in-bond-market-as-investors-get-pickier-about-ai-debt-binge-7c6ae777?mod=mw_rss_topstories",
+   "published": "2026-10-29T20:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n353302274b",
    "kind": "news",
@@ -2128,17 +2150,6 @@
    "title": "McDonald’s new bet on chicken hits a snag as franchisees say the birds are too big",
    "url": "https://www.marketwatch.com/story/mcdonalds-new-bet-on-chicken-hits-a-snag-as-franchisees-say-the-birds-are-too-big-c3e8dd77?mod=mw_rss_topstories",
    "published": "2026-10-28T15:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8617d1ab1a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These software stocks could be winners as earnings season kicks into high gear",
-   "url": "https://www.marketwatch.com/story/these-software-stocks-could-be-winners-as-earnings-season-kicks-into-high-gear-8decddf7?mod=mw_rss_topstories",
-   "published": "2026-10-28T15:06:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4207,17 +4218,6 @@
    "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
    "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
    "published": "2026-10-27T01:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n837fe1cef5",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
-   "url": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-   "published": "2026-10-27T00:26:50.000Z",
    "severity": "normal",
    "verified": true
   },
