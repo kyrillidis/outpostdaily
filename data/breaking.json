@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T21:51:31.409Z",
+ "updated": "2026-10-29T21:58:23.137Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "CISA Advisories",
@@ -12,9 +12,9 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "The Record",
@@ -22,14 +22,14 @@
    "n": 3
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -42,17 +42,7 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
@@ -62,6 +52,16 @@
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
@@ -69,17 +69,12 @@
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -90,6 +85,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -127,6 +127,17 @@
    "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
    "published": "2026-10-29T21:47:25.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ncbcc5cbaf6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+   "published": "2026-10-29T21:21:56.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -4208,17 +4219,6 @@
    "url": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
    "published": "2026-10-27T06:28:13.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n968629f0ea",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-   "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-   "published": "2026-10-27T04:37:59.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
