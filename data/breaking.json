@@ -1,10 +1,15 @@
 {
- "updated": "2026-10-29T14:30:07.304Z",
+ "updated": "2026-10-29T14:38:52.888Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 4
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -12,9 +17,9 @@
    "n": 3
   },
   {
-   "name": "CISA Advisories",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "The Hacker News",
@@ -22,7 +27,7 @@
    "n": 8
   },
   {
-   "name": "The DFIR Report",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -32,9 +37,9 @@
    "n": 10
   },
   {
-   "name": "Krebs on Security",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -42,9 +47,14 @@
    "n": 4
   },
   {
-   "name": "Al Jazeera",
+   "name": "Hackread",
    "ok": true,
-   "n": 4
+   "n": 3
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -52,27 +62,12 @@
    "n": 7
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -82,14 +77,19 @@
    "n": 4
   },
   {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nf34fb5d0be",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+   "published": "2026-10-29T14:35:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n67386231cf",
    "kind": "news",
@@ -4245,17 +4256,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkf200WsAAqhEp.jpg"
-  },
-  {
-   "id": "n5e34561ea9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-   "published": "2026-10-26T16:27:57.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114755787260129692",
