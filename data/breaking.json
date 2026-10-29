@@ -1,38 +1,8 @@
 {
- "updated": "2026-10-29T06:51:39.189Z",
+ "updated": "2026-10-29T06:58:26.301Z",
  "health": [
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -42,7 +12,47 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 5
+  },
+  {
    "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -52,12 +62,7 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -67,12 +72,7 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SecurityWeek",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "DarkForums",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "ne91f33b06c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "published": "2026-10-29T06:22:33.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "n49c48d65f5",
    "kind": "news",
    "group": "crisis",
@@ -126,6 +137,17 @@
    "title": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
    "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
    "published": "2026-10-29T06:01:29.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf4eff089be",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+   "published": "2026-10-29T05:50:17.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4580,28 +4602,6 @@
    "verified": true
   },
   {
-   "id": "x2114689499649470629",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "‼️ Japan's PM Takaichi is convening ministers to order emergency cyber measures after hackers hit GMO Internet and demanded $50M. GMO wants Tokyo to use a law in force since 1 October that lets police and the military hack into and…",
-   "url": "https://x.com/IntCyberDigest/status/2114689499649470629",
-   "published": "2026-10-26T12:04:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "n680a1bdeb1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
-   "url": "https://therecord.media/litellm-hackers-ai-malware",
-   "published": "2026-10-26T12:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc96745f4b9",
    "kind": "news",
    "group": "darkweb",
@@ -4787,30 +4787,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVihFwnWMAAQXyT.jpg"
-  },
-  {
-   "id": "x2114612222466945331",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇰🇭 🚨 CAMBODIA: THREAT ACTOR LEAKS DATA FROM THE NATIONAL EMPLOYMENT AGENCY A threat actor on a dark web forum has published a dataset it says was taken from Cambodia's National Employment Agency (NEA), the government body that runs the…",
-   "url": "https://x.com/DailyDarkWeb/status/2114612222466945331",
-   "published": "2026-10-26T06:56:56.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVicmwoXQAAKvqj.jpg"
-  },
-  {
-   "id": "x2114612047186940248",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "UPDATE: OPENROUTER SAYS NO EVIDENCE OF UNAUTHORIZED ACCESS SO FAR OpenRouter’s official account says it investigated the claimed openrouter[.]ai user-database and API-keys sale and has not found evidence of unauthorized access to its…",
-   "url": "https://x.com/DailyDarkWeb/status/2114612047186940248",
-   "published": "2026-10-26T06:56:14.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HViccnXWMAACiXJ.jpg"
   }
  ]
 }
