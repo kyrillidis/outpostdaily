@@ -1,20 +1,15 @@
 {
- "updated": "2026-10-29T08:26:22.570Z",
+ "updated": "2026-10-29T08:37:14.504Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
@@ -27,12 +22,17 @@
    "n": 2
   },
   {
-   "name": "MarketWatch",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The DFIR Report",
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
@@ -42,22 +42,22 @@
    "n": 5
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
    "n": 2
   },
   {
-   "name": "Krebs on Security",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -72,7 +72,7 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -82,12 +82,12 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "nb3306983de",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+   "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+   "published": "2026-10-29T08:27:16.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n0da36d83a0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
+   "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
+   "published": "2026-10-29T08:14:34.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nef44306c2f",
    "kind": "news",
@@ -3942,17 +3964,6 @@
    "img": "https://pbs.twimg.com/media/HVkdctgWwAAoWel.jpg"
   },
   {
-   "id": "n6578dfd551",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jerusalem Daily: Last minute efforts by Israeli politicians before election",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jerusalem-daily-last-minute-efforts-by-israeli-politicians-before-election?traffic_source=rss",
-   "published": "2026-10-26T16:12:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114750173628768262",
    "kind": "x",
    "group": "blueteam",
@@ -4482,17 +4493,6 @@
    "title": "5 new dark web claims, from 400GB for sale to plaintext passwords: → Finaxis.()cloud: 400GB → WoWInstaller: ~1.21M records → Argentine Moodle site → MyHairCare Australia: ~1M records → HT Médica: 2.2M records Mostly Unverified. Full…",
    "url": "https://x.com/socradar/status/2114703924972134740",
    "published": "2026-10-26T13:01:19.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114703843975921970",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@IntCyberDigest",
-   "title": "❗️ A bug in Microsoft Authenticator let an Android app with zero permissions pose as Teams and steal a user's work-account tokens. In Enclave's tests, the tokens opened the victim's mailbox, files and calendar with no prompt. Microsoft…",
-   "url": "https://x.com/IntCyberDigest/status/2114703843975921970",
-   "published": "2026-10-26T13:01:00.000Z",
    "severity": "normal",
    "verified": false
   },
