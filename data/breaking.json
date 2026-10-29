@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-29T19:22:15.089Z",
+ "updated": "2026-10-29T19:29:01.216Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X cyber",
@@ -17,24 +17,14 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -47,14 +37,29 @@
    "n": 2
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Record",
    "ok": true,
-   "n": 6
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Hackread",
@@ -67,9 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 2
+   "n": 7
   },
   {
    "name": "Security Affairs",
@@ -77,19 +82,14 @@
    "n": 2
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "ne692538b68",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+   "published": "2026-10-29T19:23:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n332e4d0798",
    "kind": "news",
@@ -4207,17 +4218,6 @@
    "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
    "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
    "published": "2026-10-26T21:44:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9b6153963e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-   "published": "2026-10-26T21:08:28.000Z",
    "severity": "normal",
    "verified": true
   },
