@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "edition": 227,
- "compiled": "2026-10-29T20:32:53.497Z",
+ "compiled": "2026-10-29T21:04:21.643Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful ex",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-29",
    "summary": "Hitachi Energy says OS command injection and Dirty Frag vulnerabilities affect its CoreTec product.",
    "why": "Check whether CoreTec is in your environment and review the relevant advisory for mitigation guidance.",
@@ -26,23 +26,23 @@
    "ai": true
   },
   {
-   "id": "58a4b860d2",
+   "id": "9b9000acef",
    "section": "cyber",
    "source": "CISA Advisories",
    "weight": 0.9,
-   "title": "Siemens Mendix SAML Module",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by repl",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-20",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-29",
-   "summary": "The Mendix SAML module contains an authentication bypass vulnerability, according to the advisory snippet.",
-   "why": "Identify use of the Mendix SAML module and review authentication controls and the advisory.",
+   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
+   "why": "Check whether affected systems are present and prioritize mitigation using CISA’s KEV Catalog.",
    "tags": [
-    "Mendix",
-    "SAML",
-    "authentication bypass"
+    "vulnerabilities",
+    "KEV",
+    "exploitation"
    ],
    "ai": true
   },
@@ -56,7 +56,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be e",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.72,
+   "score": 1.71,
    "t": "2026-10-29",
    "summary": "Hitachi Energy says multiple vulnerabilities affect TRO600 series products.",
    "why": "Check for TRO600 products and consult the advisory for affected versions and recommended action.",
@@ -64,6 +64,27 @@
     "Hitachi Energy",
     "TRO600",
     "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "58a4b860d2",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Mendix SAML Module",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by repl",
+   "published": "2026-10-29T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-10-29",
+   "summary": "The Mendix SAML module contains an authentication bypass vulnerability, according to the advisory snippet.",
+   "why": "Identify use of the Mendix SAML module and review authentication controls and the advisory.",
+   "tags": [
+    "Mendix",
+    "SAML",
+    "authentication bypass"
    ],
    "ai": true
   },
@@ -77,7 +98,7 @@
    "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .",
    "published": "2026-10-29T18:00:34.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.64,
    "image": "/img/news/2810027585.webp",
    "t": "2026-10-21",
    "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
@@ -99,7 +120,7 @@
    "snippet": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
    "published": "2026-10-29T20:01:25.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/6c129a8658.webp",
    "t": "2026-10-29",
    "summary": "One cyber firm reported a half-dozen PHP2Shell exploitations; another identified a well-targeted, suspected Chinese campaign that breached U.S. government-affiliated servers.",
@@ -121,7 +142,7 @@
    "snippet": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
    "published": "2026-10-29T19:23:41.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/e692538b68.webp",
    "t": "2026-10-29",
    "summary": "BleepingComputer reports that the fake Padre Terminal app was linked to theft of approximately $23,000 from 27 Solana wallets.",
@@ -142,7 +163,7 @@
    "snippet": "General Motors agreed to pay $220 million to settle a lawsuit filed by a coalition of 36 state attorneys general who alleged the company unlawfully sold information about driver behavior to outside parties.",
    "published": "2026-10-29T19:45:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/aacd739692.webp",
    "t": "2026-10-29",
    "summary": "GM agreed to pay $220 million to settle a lawsuit by 36 state attorneys general, who alleged it unlawfully sold driver behavior information to outside parties.",
@@ -163,7 +184,7 @@
    "snippet": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
    "published": "2026-10-29T18:38:26.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/7c2b70bd7e.webp",
    "t": "2026-10-29",
    "summary": "BleepingComputer says UAT-11473 exploited an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers to deploy custom KeyDrift malware.",
@@ -185,7 +206,7 @@
    "snippet": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo. [...]",
    "published": "2026-10-29T16:10:31.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/a556f2a132.webp",
    "t": "2026-10-29",
    "summary": "BleepingComputer reports that 319 Chrome extensions with 13.4 million reported installations redirected searches through tracking servers to generate advertising revenue from Bing and Yahoo.",
@@ -194,27 +215,6 @@
     "Chrome extensions",
     "search hijacking",
     "tracking servers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "31dc864af6",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
-   "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
-   "snippet": "\"No data was extracted,” a spokesperson for BAE Systems, a federal contractor, told Recorded Future News about its probe into a cyberattack against its systems for federal bankruptcy courts.",
-   "published": "2026-10-29T16:13:00.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/31dc864af6.webp",
-   "t": "2026-10-29",
-   "summary": "BAE Systems says no data was extracted during its probe into a cyberattack on systems for federal bankruptcy courts.",
-   "why": "Check the contractor’s incident findings and monitor for updates about affected systems or data.",
-   "tags": [
-    "cyberattack",
-    "federal contractor"
    ],
    "ai": true
   },
@@ -228,7 +228,7 @@
    "snippet": "Bell Textron executives warned that a delay in the helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million.",
    "published": "2026-10-29T19:32:11.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/edb29ddda9.webp",
    "t": "2026-10-29",
    "summary": "Bell Textron executives warned that a delay in the MV-75 helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million.",
@@ -236,27 +236,6 @@
    "tags": [
     "MV-75",
     "production"
-   ],
-   "ai": true
-  },
-  {
-   "id": "37490350fc",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Beyond autopilot: Understanding the five levels of battlefield drone autonomy",
-   "url": "https://breakingdefense.com/2026/10/beyond-autopilot-understanding-the-five-levels-of-battlefield-drone-autonomy/",
-   "snippet": "[Sponsored] By going beyond simple automation, drones can carry out tasks with minimal input from operators.",
-   "published": "2026-10-29T19:22:59.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/37490350fc.webp",
-   "t": "2026-10-29",
-   "summary": "The sponsored article says drones can perform tasks with minimal operator input when they go beyond simple automation.",
-   "why": "Levels of autonomy help frame how much operator input battlefield drone tasks require.",
-   "tags": [
-    "drones",
-    "autonomy"
    ],
    "ai": true
   },
@@ -270,7 +249,7 @@
    "snippet": "Relations between Ukraine and Poland soured in the Spring, leading to Warsaw calling off the MiG-29 deal in June. The post Polish MiG-29s, F-16 Cannon Ammo Reportedly Headed To Ukraine As Bitter Warsaw-Kyiv Rift Heals appeared first on TWZ .",
    "published": "2026-10-29T18:58:29.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/fc03fe510b.webp",
    "t": "2026-10-29",
    "summary": "The War Zone reports that Polish MiG-29s and F-16 cannon ammunition are headed to Ukraine; the snippet says relations had soured and the MiG-29 deal was called off.",
@@ -279,6 +258,27 @@
     "MiG-29",
     "Ukraine",
     "Poland"
+   ],
+   "ai": true
+  },
+  {
+   "id": "37490350fc",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Beyond autopilot: Understanding the five levels of battlefield drone autonomy",
+   "url": "https://breakingdefense.com/2026/10/beyond-autopilot-understanding-the-five-levels-of-battlefield-drone-autonomy/",
+   "snippet": "[Sponsored] By going beyond simple automation, drones can carry out tasks with minimal input from operators.",
+   "published": "2026-10-29T19:22:59.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/37490350fc.webp",
+   "t": "2026-10-29",
+   "summary": "The sponsored article says drones can perform tasks with minimal operator input when they go beyond simple automation.",
+   "why": "Levels of autonomy help frame how much operator input battlefield drone tasks require.",
+   "tags": [
+    "drones",
+    "autonomy"
    ],
    "ai": true
   },
@@ -292,7 +292,7 @@
    "snippet": "Israeli elections on Oct. 27 produced a complex result, with neither Prime Minister Benjamin Netanyahu’s bloc nor the opposition alliance, led by Gadi Eisenkot, winning enough seats in the Knesset to form a government. The opposition faces a tricky choice: attempt to form a unity government with Netanyahu, after channe",
    "published": "2026-10-29T18:15:57.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/85b00633f8.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks says neither Netanyahu’s bloc nor the opposition alliance won enough Knesset seats to form a government after Israel’s election.",
@@ -314,7 +314,7 @@
    "snippet": "For decades, militaries have chased the next revolution in warfare. But what actually makes a revolution in military affairs revolutionary? Is there one happening now? Does it matter? Is it just about drones and AI or something more? Ryan digs into the promises, pitfalls, and persistent myths of military transformation",
    "published": "2026-10-29T18:05:20.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/a2c9f074c2.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks examines what makes a revolution in military affairs revolutionary, and whether current change is about drones and AI or something broader.",
@@ -336,7 +336,7 @@
    "snippet": "The target drone could be of particular use in stimulating Iran's air defenses to help collect intelligence on them, among other possible tasks. The post Let’s Talk About The U.S. Target Drone Iran Claims To Have Recovered Intact appeared first on TWZ .",
    "published": "2026-10-29T18:01:13.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/0a5f657f63.webp",
    "t": "2026-10-29",
    "summary": "The War Zone says the target drone Iran claims to have recovered intact could help stimulate its air defenses and collect intelligence on them.",
@@ -358,7 +358,7 @@
    "snippet": "Army Pacific is positioning personnel and equipment across the Pacific to meet the 2027 “Davidson window” benchmark and deter a potential Chinese attack on Taiwan, Gen. Ronald Clark said.",
    "published": "2026-10-29T17:57:54.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/c56e1b9948.webp",
    "t": "2026-10-29",
    "summary": "Gen. Ronald Clark says Army Pacific is positioning personnel and equipment across the Pacific for the 2027 “Davidson window” benchmark and to deter a potential Chinese attack on Taiwan.",
@@ -380,7 +380,7 @@
    "snippet": "[Sponsored] SkyValor extends RF detection range, providing more time to assess and respond to drone threats.",
    "published": "2026-10-29T15:00:14.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/60f5b32999.webp",
    "t": "2026-10-29",
    "summary": "SkyValor says its RF detection extends counter-UAS warning range, giving operators more time to assess and respond to drone threats.",
@@ -402,7 +402,7 @@
    "snippet": "GNSS is functioning in an increasingly hostile and complex environment. Jamming, spoofing, cyber vulnerabilities and unexpected signal failures are exposing weaknesses in systems... The post ION GNSS+ 2026: Trust, Resilience and a Sky Getting Fuller appeared first on Inside GNSS - Global Navigation Satellite Systems En",
    "published": "2026-10-29T18:29:30.000Z",
    "also": [],
-   "score": 1.66,
+   "score": 1.65,
    "image": "/img/news/b847e26c83.webp",
    "t": "2026-10-29",
    "summary": "Inside GNSS says jamming, spoofing, cyber vulnerabilities and unexpected signal failures are exposing weaknesses in GNSS systems operating in a hostile, complex environment.",
@@ -411,6 +411,28 @@
     "GNSS",
     "jamming",
     "spoofing"
+   ],
+   "ai": true
+  },
+  {
+   "id": "00ecba7162",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Ukraine’s drone defenses debunk the myth of inevitable Russian victory",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-drone-defenses-debunk-the-myth-of-inevitable-russian-victory/",
+   "snippet": "Ukraine’s emergence since 2022 as a drone superpower has made international headlines, but the role of drone-based air defenses on the battlefield has not yet received as much attention as it arguably deserves, writes Mykola Bielieskov. The post Ukraine’s drone defenses debunk the myth of inevitable Russian victory app",
+   "published": "2026-10-29T20:57:47.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/00ecba7162.webp",
+   "t": "2026-10-29",
+   "summary": "Mykola Bielieskov argues that Ukraine’s drone-based air defenses have received less attention than their battlefield role warrants.",
+   "why": "Drone-based air defense highlights how drones can shape battlefield operations.",
+   "tags": [
+    "Ukraine",
+    "drones",
+    "air defense"
    ],
    "ai": true
   },
@@ -424,7 +446,7 @@
    "snippet": "Russian President Vladimir Putin's insistence that Ukraine is \"historically Russian land\" reveals the extent of his imperial ambitions and represents a recipe for endless war, writes Peter Dickinson. The post Putin’s quest to reclaim ‘historical Russian lands’ is a recipe for endless war appeared first on Atlantic Coun",
    "published": "2026-10-29T20:30:41.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.59,
    "image": "/img/news/ac46a224a7.webp",
    "t": "2026-10-29",
    "summary": "Peter Dickinson writes that Putin's claim that Ukraine is historically Russian land reflects imperial ambitions and risks endless war.",
@@ -446,7 +468,7 @@
    "snippet": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
    "published": "2026-10-29T20:05:57.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/275b8c6cba.webp",
    "t": "2026-10-29",
    "summary": "A temporary ceasefire has brought rare quiet to Kherson, giving residents a glimpse of normal life before fighting resumes.",
@@ -468,7 +490,7 @@
    "snippet": "Netanyahu and Trump appear to be planning another round.",
    "published": "2026-10-29T19:04:01.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.56,
    "image": "/img/news/48ee42b622.webp",
    "t": "2026-10-29",
    "summary": "Foreign Policy says Netanyahu and Trump appear to be planning another round of war on Iran, which the headline says would harm U.S. leadership in the Middle East.",
@@ -489,7 +511,7 @@
    "snippet": "With 99% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
    "published": "2026-10-29T15:47:20.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/ee049deecb.webp",
    "t": "2026-10-29",
    "summary": "Partial results show Netanyahu's Likud party and allies set to win 53 of 120 Knesset seats, with 85% of ballots counted.",
@@ -502,66 +524,46 @@
    "ai": true
   },
   {
-   "id": "f84c832f84",
+   "id": "223351184d",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
-   "published": "2026-10-29T14:17:35.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Does Russia offer African countries an equal partnership?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/10/29/does-russia-offer-african-countries-an-equal-partnership?traffic_source=rss",
+   "snippet": "President Vladimir Putin hosts African leaders at a summit in Moscow.",
+   "published": "2026-10-29T20:34:28.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/f84c832f84.webp",
+   "score": 1.49,
+   "image": "/img/news/223351184d.webp",
    "t": "2026-10-29",
-   "summary": "Dnipro regional head Oleksandr Hanzha said a Russian drone attack on a Ukrainian train station killed at least 13 people and wounded at least 10 others.",
-   "why": "The attack highlights the human impact of drone strikes on transport locations.",
+   "summary": "Al Jazeera reports that President Vladimir Putin is hosting African leaders at a summit in Moscow, raising questions about equal partnership.",
+   "why": "The summit offers a setting to assess Russia’s engagement with African countries.",
    "tags": [
-    "drone attack",
-    "train station",
-    "Ukraine"
+    "Russia",
+    "Africa",
+    "summit"
    ],
    "ai": true
   },
   {
-   "id": "b7cdff903a",
+   "id": "534913a987",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "‘Arab voice doesn’t count’: Jewish Israeli blocs reject Palestinian support",
-   "url": "https://www.aljazeera.com/news/2026/10/29/arab-voice-doesnt-count-jewish-israeli-blocs-reject-palestinian-support?traffic_source=rss",
-   "snippet": "Palestinian voters could decide Israel’s future, but its political class refuses to accept their mandate",
-   "published": "2026-10-29T19:02:33.000Z",
+   "title": "Israel election result shows no overall majority as vote count complete",
+   "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete?traffic_source=rss",
+   "snippet": "Opposition explores options to form coalition as no party secures the 61 seats required for parliamentary majority.",
+   "published": "2026-10-29T20:22:04.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/b7cdff903a.webp",
+   "score": 1.49,
+   "image": "/img/news/534913a987.webp",
    "t": "2026-10-29",
-   "summary": "Al Jazeera says Palestinian voters could influence Israel’s future, while the political class refuses to accept their mandate.",
-   "why": "The dispute concerns whose political support is accepted and how Palestinian voters may shape Israeli politics.",
+   "summary": "Al Jazeera reports that Israel’s vote count is complete, with no party securing the 61 seats required for a parliamentary majority.",
+   "why": "The lack of a majority makes coalition formation central to Israel’s political outlook.",
    "tags": [
-    "Palestinian voters",
-    "mandate"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4ae26feb3c",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Pentagon fires general it says leaked classified information to media",
-   "url": "https://www.aljazeera.com/news/2026/10/29/pentagon-fires-general-it-says-leaked-classified-information-to-media?traffic_source=rss",
-   "snippet": "Army Lieutenant General Brett Sylvia was subject of investigation into leaking information about Iran and Ukraine.",
-   "published": "2026-10-29T19:02:19.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/4ae26feb3c.webp",
-   "t": "2026-10-29",
-   "summary": "Al Jazeera reports that the Pentagon fired a general investigated over alleged leaks to media about Iran and Ukraine.",
-   "why": "The report highlights classified-information handling and oversight of military communications.",
-   "tags": [
-    "classified information",
-    "Pentagon"
+    "Israel",
+    "election",
+    "coalition"
    ],
    "ai": true
   }
@@ -713,47 +715,47 @@
   }
  ],
  "run_today": [
-  "Check whether PHP systems are exposed to the PHP2Shell bugs.",
-  "Review PHP server logs and alerts for signs of exploitation.",
-  "Verify access to government-affiliated servers and investigate unusual activity."
+  "Review CISA’s KEV Catalog for the newly added vulnerabilities and check whether your systems are affected.",
+  "Prioritize mitigation for any affected systems, using your organization’s patching process.",
+  "Record the KEV Catalog update and track remediation status for affected assets."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "PHP2Shell",
-   "explainer": "PHP2Shell refers here to bugs in PHP associated with reported exploitations. PHP is described in the top stories as a scripting language used for web servers and CMS systems.",
-   "from_id": "6c129a8658",
-   "from": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
-   "fromSource": "The Record"
+   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
+   "explainer": "CISA’s catalog of vulnerabilities for which it reports evidence of active exploitation. Defenders can use it to identify issues to check and prioritize.",
+   "from_id": "9b9000acef",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "battlefield drone autonomy",
-   "explainer": "Battlefield drone autonomy refers to how independently a drone can operate in a military setting. The title describes five levels, but does not provide their details.",
-   "from_id": "37490350fc",
-   "from": "https://breakingdefense.com/2026/10/beyond-autopilot-understanding-the-five-levels-of-battlefield-drone-autonomy/",
-   "fromSource": "Breaking Defense"
+   "term": "drone-based air defenses",
+   "explainer": "Air defenses that use drones as part of their battlefield role. The item argues that their contribution in Ukraine has received less attention than it deserves.",
+   "from_id": "00ecba7162",
+   "from": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-drone-defenses-debunk-the-myth-of-inevitable-russian-victory/",
+   "fromSource": "Atlantic Council"
   },
   {
    "domain": "geo",
-   "term": "ceasefire",
-   "explainer": "A ceasefire is a pause in fighting. In the Kherson story, a temporary ceasefire brings rare quiet, though the snippet says fighting may resume.",
-   "from_id": "275b8c6cba",
-   "from": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "parliamentary majority",
+   "explainer": "A level of representation in parliament sufficient to form a majority. In this item, no party secured the 61 seats required for one.",
+   "from_id": "534913a987",
+   "from": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Infrastructure, contested territory, and fragile pauses",
+  "headline": "Security Alerts, Drone Defenses and Political Uncertainty",
   "paragraphs": [
-   "The top stories span industrial control products, a SAML module, PHP vulnerabilities, and GNSS resilience. Together, they point to the importance of dependable systems: the GNSS story describes jamming, spoofing, cyber vulnerabilities, and signal failures, while the PHP report describes exploitations and a server breach.",
-   "These technical concerns sit alongside geopolitical uncertainty. The Putin article presents a claim about Ukraine as a reflection of imperial ambitions, while Kherson's temporary ceasefire brings residents a brief return to quiet before fighting resumes. The stories suggest that infrastructure risks and political conditions require separate but attentive analysis.",
-   "Defenders may want to check relevant product and software advisories, assess PHP exposure, and consider how GNSS disruption affects systems that rely on its signals. Analysts should distinguish reported claims from established facts and watch for changes in the ceasefire and the stated territorial framing. The supplied stories do not establish what happens next."
+   "Today’s stories cover distinct kinds of risk: CISA flags vulnerabilities with evidence of active exploitation, while a commentary highlights Ukraine’s drone-based air defenses. The political items describe Russia hosting African leaders and Israel’s election ending without a parliamentary majority.",
+   "For defenders, the CISA update is the clearest operational prompt: check exposure to the newly cataloged vulnerabilities and prioritize remediation where relevant. The drone story reminds military analysts that air defenses built around drones merit attention alongside more visible battlefield uses.",
+   "The political stories point to questions rather than settled outcomes. Watch how the summit is framed in terms of partnership, and what coalition options emerge in Israel. Across these items, distinguish reported facts from commentary and avoid treating uncertainty as a conclusion."
   ],
   "takeaways": [
-   "Review exposure to PHP vulnerabilities and reported exploitation.",
-   "GNSS resilience involves jamming, spoofing, cyber vulnerabilities, and signal failures.",
-   "Kherson's quiet is temporary; the story says fighting may resume."
+   "Check systems against CISA’s newly updated KEV Catalog.",
+   "Include drone-based air defense in assessments of battlefield technology.",
+   "Track coalition possibilities and partnership claims without assuming outcomes."
   ]
  },
  "health": [
@@ -761,7 +763,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Krebs on Security",
@@ -899,7 +901,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Foreign Policy",
@@ -941,13 +943,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 10
   }
  ]
 }
