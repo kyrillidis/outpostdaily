@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T11:56:22.529Z",
+ "updated": "2026-10-29T12:13:13.656Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "CISA Advisories",
@@ -27,14 +27,19 @@
    "n": 5
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
-   "name": "Krebs on Security",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "The DFIR Report",
@@ -47,9 +52,14 @@
    "n": 6
   },
   {
-   "name": "BBC World",
+   "name": "Hackread",
    "ok": true,
-   "n": 5
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -57,22 +67,17 @@
    "n": 5
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 2
+   "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -82,12 +87,7 @@
    "n": 4
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n15f712f317",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+   "published": "2026-10-29T12:00:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4f87842601",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.",
+   "url": "https://www.marketwatch.com/story/its-the-strangest-job-market-the-u-s-has-ever-seen-the-low-hire-low-fire-economy-turns-3-years-old-ce8d0dfe?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n5f6d9a2212",
    "kind": "news",
@@ -2473,17 +2495,6 @@
    "verified": true
   },
   {
-   "id": "n38bfe08d35",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My husband wants to sell our $1.5 million home and downsize. But this is where we raised our kids — and I can’t bear to leave.",
-   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-   "published": "2026-10-27T21:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n7477a331e6",
    "kind": "news",
    "group": "cyber",
@@ -4400,17 +4411,6 @@
    "img": "https://pbs.twimg.com/media/HVkB8X3XsAAsGZa.jpg"
   },
   {
-   "id": "x2114721207757262991",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@BleepinComputer",
-   "title": "🚨 NIST, CISA, and NSA have issued new guidance on preparing for AI agent incidents. But can your security team identify whose credentials an agent used? 🔍 @BeyondTrust explains why identity records are critical. ➡️ #cybersecurity…",
-   "url": "https://x.com/BleepinComputer/status/2114721207757262991",
-   "published": "2026-10-26T14:10:00.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114719483126493495",
    "kind": "x",
    "group": "darkweb",
@@ -4631,29 +4631,6 @@
    "url": "https://socradar.io/blog/finaxis-wowinstaller-moodle-myhaircare-ht-medica-leaks/",
    "published": "2026-10-26T12:13:58.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "x2114691529604276733",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇺🇸 🚨 USA: SHINYHUNTERS CLAIMS 12.4 MILLION RECORDS STOLEN FROM CARGURUS The ShinyHunters extortion group has added CarGurus, the US online car marketplace, to its list of claimed victims on a dark web forum. The group claims: * More…",
-   "url": "https://x.com/DailyDarkWeb/status/2114691529604276733",
-   "published": "2026-10-26T12:12:04.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjkvGOX0AEXHny.jpg"
-  },
-  {
-   "id": "n651c13c3a7",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Researchers Uncover Rentable Android Spyware uCreater Targeting WeChat and Telegram",
-   "url": "https://securityaffairs.com/201764/malware/researchers-uncover-rentable-android-spyware-ucreater-targeting-wechat-and-telegram.html",
-   "published": "2026-10-26T12:11:38.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
