@@ -23,6 +23,10 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          # the tip of main, not the commit this run was queued on: a run that waited for the other job in the site-data group
+          # would otherwise start from data the other job has since rewritten and fail its rebase on the same lines
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22

@@ -43,3 +43,8 @@ test('the Vercel token is given to the Deploy step only, not to the whole job', 
   assert.match(holders[0], /^name: Deploy to Vercel/);
   assert.ok(!/env\.VERCEL_TOKEN/.test(t), 'no condition reads the token from the job env any more');
 });
+
+test('the data jobs start from the tip of main, not from the commit they were queued on', () => {
+  // both share the site-data lock and rewrite some of the same files; a run that waited behind the other would otherwise rebase onto it and conflict
+  for (const n of NAMES) assert.match(steps(wf(n))[0], /uses: actions\/checkout@v4\n {8}with:\n(?: {10}#.*\n)* {10}ref: main(?:\n|$)/, `${n}: checkout uses ref: main`);
+});
