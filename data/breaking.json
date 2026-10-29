@@ -1,13 +1,38 @@
 {
- "updated": "2026-10-29T12:31:20.871Z",
+ "updated": "2026-10-29T12:44:06.684Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 2
   },
   {
-   "name": "CISA Advisories",
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -17,54 +42,19 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "Hackread",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -77,14 +67,24 @@
    "n": 2
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 4
+   "n": 5
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "ncfb369b74e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
+   "url": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:36:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n54e7820d20",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "U.S. economy grows at fastest pace in almost three years, third-quarter GDP shows",
+   "url": "https://www.marketwatch.com/story/u-s-economy-grows-at-fastest-pace-in-almost-three-years-third-quarter-gdp-shows-0e15b810?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:35:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n3bc4ec08eb",
    "kind": "news",
@@ -2480,28 +2502,6 @@
    "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
    "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
    "published": "2026-10-27T21:41:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncd0b506a30",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
-   "url": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
-   "published": "2026-10-27T21:29:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na785973ac6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
-   "url": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
-   "published": "2026-10-27T21:28:00.000Z",
    "severity": "normal",
    "verified": true
   },
