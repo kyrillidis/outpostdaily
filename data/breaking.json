@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-29T15:39:48.195Z",
+ "updated": "2026-10-29T15:46:43.859Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -12,44 +27,14 @@
    "error": "HTTP 402"
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 4
+   "n": 1
   },
   {
    "name": "The Hacker News",
@@ -57,7 +42,17 @@
    "n": 7
   },
   {
-   "name": "Daily Dark Web",
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -72,9 +67,9 @@
    "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -95,6 +90,11 @@
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Hackread",
+   "ok": false,
+   "error": "HTTP 525"
   },
   {
    "name": "X blueteam",
@@ -119,6 +119,28 @@
  ],
  "items": [
   {
+   "id": "nc88fd1b35b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Florida is voting on whether to slash property taxes. Here’s who it would benefit — and hurt.",
+   "url": "https://www.marketwatch.com/story/florida-is-voting-on-whether-to-slash-property-taxes-heres-who-it-would-benefit-and-hurt-6c34b470?mod=mw_rss_topstories",
+   "published": "2026-10-29T15:39:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2436f7586c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s anti-Qatar campaign bleeds into elections",
+   "url": "https://www.aljazeera.com/news/2026/10/29/israels-anti-qatar-campaign-bleeds-into-elections?traffic_source=rss",
+   "published": "2026-10-29T15:35:53.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nb4860d74ac",
    "kind": "news",
    "group": "darkweb",
@@ -127,6 +149,17 @@
    "url": "https://hackread.com/embrace-flaws-ai-coding-tools-code-execution-theft/",
    "published": "2026-10-29T15:20:58.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4e2b19219e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
+   "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening?traffic_source=rss",
+   "published": "2026-10-29T15:12:36.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -2319,17 +2352,6 @@
    "verified": true
   },
   {
-   "id": "n67dac23f24",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Bill Ackman owns only a handful of stocks. Here is his rule for picking a winner.",
-   "url": "https://www.marketwatch.com/story/bill-ackman-owns-only-a-handful-of-stocks-here-is-his-rule-for-picking-a-winner-82a0ee98?mod=mw_rss_topstories",
-   "published": "2026-10-28T10:11:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "neec748db61",
    "kind": "news",
    "group": "darkweb",
@@ -4057,17 +4079,6 @@
    "verified": true
   },
   {
-   "id": "n88016e2dab",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jordan attacks Syria in response to Karak church attack",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-attacks-syria-in-response-to-karak-church-attack?traffic_source=rss",
-   "published": "2026-10-26T23:48:51.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n627cc70bbf",
    "kind": "news",
    "group": "cyber",
@@ -4086,17 +4097,6 @@
    "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
    "url": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
    "published": "2026-10-26T21:44:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n56e164ae8d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Africa food security under threat due to Iran war, trade officials warn",
-   "url": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
-   "published": "2026-10-26T21:42:18.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4325,18 +4325,6 @@
    "published": "2026-10-26T16:05:06.000Z",
    "severity": "normal",
    "verified": false
-  },
-  {
-   "id": "x2114744947131707528",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇹🇷 🚨 THE GENTLEMEN RANSOMWARE NAMES SOFTWAREONE TÜRKİYE The Gentlemen ransomware group has listed SoftwareOne Türkiye, the Istanbul arm of Swiss software and cloud provider SoftwareOne, on its leak site. The listing appeared on Oct 26,…",
-   "url": "https://x.com/DailyDarkWeb/status/2114744947131707528",
-   "published": "2026-10-26T15:44:20.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkVUauWAAAW-Fb.jpg"
   }
  ]
 }
