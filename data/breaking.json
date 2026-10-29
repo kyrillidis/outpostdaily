@@ -1,25 +1,15 @@
 {
- "updated": "2026-10-29T16:18:32.810Z",
+ "updated": "2026-10-29T16:29:13.344Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 3
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 3
+   "n": 7
   },
   {
    "name": "MarketWatch",
@@ -27,19 +17,9 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "Krebs on Security",
@@ -47,14 +27,29 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 8
   },
   {
    "name": "Hackread",
@@ -62,9 +57,9 @@
    "n": 4
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 8
   },
   {
    "name": "Dark Reading",
@@ -72,14 +67,19 @@
    "n": 1
   },
   {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "DarkForums",
    "ok": true,
    "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -87,14 +87,14 @@
    "n": 0
   },
   {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n31dc864af6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
+   "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
+   "published": "2026-10-29T16:13:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "na556f2a132",
    "kind": "news",
@@ -4200,17 +4211,6 @@
    "verified": true
   },
   {
-   "id": "nd84dc99ca6",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "DreamHost forces password resets in ongoing \"incident\"",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-   "published": "2026-10-26T19:26:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n2661d19877",
    "kind": "news",
    "group": "darkweb",
@@ -4267,53 +4267,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkf200WsAAqhEp.jpg"
-  },
-  {
-   "id": "x2114755787260129692",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇯🇵 🚨 SAFEPAY RANSOMWARE CLAIMS JAPAN'S JUMONJI UNIVERSITY The SafePay ransomware group has listed Jumonji University (Jumonji Gakuen Women's University), a private university in Niiza, Saitama, run by the Jumonji Gakuen Educational…",
-   "url": "https://x.com/DailyDarkWeb/status/2114755787260129692",
-   "published": "2026-10-26T16:27:24.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkfLXvWYAA-lPV.jpg"
-  },
-  {
-   "id": "x2114755278956847526",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@SwiftOnSecurity",
-   "title": "\"We over-hired\" I don't know that kind of seems like something I would get fired over, my boss gets unhappy when I spend a few grand on my company credit card and you just racked up like 200 million",
-   "url": "https://x.com/SwiftOnSecurity/status/2114755278956847526",
-   "published": "2026-10-26T16:25:23.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114754786642039255",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇮🇳 🚨 THE GENTLEMEN RANSOMWARE NAMES WATER GIANT VA TECH WABAG The Gentlemen ransomware group has listed VA Tech WABAG on its leak site. The Chennai-based company is one of the world's largest pure-play water technology firms, listed on…",
-   "url": "https://x.com/DailyDarkWeb/status/2114754786642039255",
-   "published": "2026-10-26T16:23:26.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkeRIAXQAAN8SZ.jpg"
-  },
-  {
-   "id": "x2114753885554233685",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🌎 🚨 THE GENTLEMEN RANSOMWARE LISTS SAP LATIN AMERICA The Gentlemen ransomware group has added SAP to its leak site, describing the victim as SAP Latin America and Caribbean, the regional arm of the German enterprise software giant that…",
-   "url": "https://x.com/DailyDarkWeb/status/2114753885554233685",
-   "published": "2026-10-26T16:19:51.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkdctgWwAAoWel.jpg"
   }
  ]
 }
