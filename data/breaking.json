@@ -1,10 +1,20 @@
 {
- "updated": "2026-10-29T16:01:06.904Z",
+ "updated": "2026-10-29T16:18:32.810Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 6
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -12,29 +22,9 @@
    "n": 3
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
   },
   {
    "name": "Al Jazeera",
@@ -47,6 +37,16 @@
    "n": 4
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
@@ -57,14 +57,9 @@
    "n": 8
   },
   {
-   "name": "BreachForums",
+   "name": "Hackread",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Daily Dark Web",
@@ -72,19 +67,9 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "DarkForums",
@@ -92,9 +77,24 @@
    "n": 7
   },
   {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "na556f2a132",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+   "published": "2026-10-29T16:10:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "n5c3d8e4d26",
    "kind": "news",
    "group": "markets",
@@ -126,6 +137,17 @@
    "title": "Looking for income? These dividend stocks have high yields that seem well supported.",
    "url": "https://www.marketwatch.com/story/looking-for-income-these-dividend-stocks-have-high-yields-that-seem-well-supported-81093bdf?mod=mw_rss_topstories",
    "published": "2026-10-29T15:54:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nefbb1c68eb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Threat Modeling With 4 Simple Questions on a White Board",
+   "url": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
+   "published": "2026-10-29T15:44:04.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4200,28 +4222,6 @@
    "verified": true
   },
   {
-   "id": "n9612772452",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-   "published": "2026-10-26T18:12:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne6cb24183d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
-   "published": "2026-10-26T18:01:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114760707354890366",
    "kind": "x",
    "group": "darkweb",
@@ -4314,17 +4314,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkdctgWwAAoWel.jpg"
-  },
-  {
-   "id": "x2114750173628768262",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@Unit42_Intel",
-   "title": "We investigated a threat actor who paired Hermes with DeepSeek V4 for multi-domain cybercrime. Bypassing safety controls, the actor used AI to compromise Indian education platforms, plan VoIP fraud, and crack Wi-Fi passwords. Read our…",
-   "url": "https://x.com/Unit42_Intel/status/2114750173628768262",
-   "published": "2026-10-26T16:05:06.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
