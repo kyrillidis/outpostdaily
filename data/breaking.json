@@ -1,10 +1,25 @@
 {
- "updated": "2026-10-29T22:52:14.508Z",
+ "updated": "2026-10-29T23:13:22.389Z",
  "health": [
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
    "n": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "CISA Advisories",
@@ -12,14 +27,24 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Al Jazeera",
@@ -32,26 +57,6 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
    "n": 0
@@ -60,11 +65,6 @@
    "name": "Hackread",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "Daily Dark Web",
@@ -82,14 +82,14 @@
    "n": 7
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n5a3bfd626b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why Intel’s stock is sinking toward its worst drop in two years",
+   "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+   "published": "2026-10-29T23:11:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n7d9fa054e5",
    "kind": "news",
@@ -2150,17 +2161,6 @@
    "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
    "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-28T16:59:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nee8b463973",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Healthcare stocks are on their biggest hot streak in a generation. Think twice before chasing the rally.",
-   "url": "https://www.marketwatch.com/story/healthcare-stocks-are-on-their-biggest-hot-streak-in-a-generation-think-twice-before-chasing-the-rally-a043adfe?mod=mw_rss_topstories",
-   "published": "2026-10-28T16:49:00.000Z",
    "severity": "normal",
    "verified": true
   },
