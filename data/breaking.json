@@ -1,40 +1,20 @@
 {
- "updated": "2026-10-29T23:13:22.389Z",
+ "updated": "2026-10-29T23:37:43.600Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
-   "name": "Dark Reading",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 3
+   "n": 7
   },
   {
    "name": "MarketWatch",
@@ -42,9 +22,24 @@
    "n": 10
   },
   {
-   "name": "The Hacker News",
+   "name": "BBC World",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "Al Jazeera",
@@ -52,7 +47,12 @@
    "n": 7
   },
   {
-   "name": "Krebs on Security",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -62,27 +62,7 @@
    "n": 0
   },
   {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -90,6 +70,26 @@
    "name": "Security Affairs",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n7363e725b5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+   "published": "2026-10-29T23:35:52.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n5a3bfd626b",
    "kind": "news",
@@ -4109,17 +4120,6 @@
    "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
    "published": "2026-10-27T09:33:06.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4b38edd612",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Energy giant ENGIE discloses data breach affecting customers",
-   "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-   "published": "2026-10-27T09:25:50.000Z",
-   "severity": "high",
    "verified": true
   },
   {
