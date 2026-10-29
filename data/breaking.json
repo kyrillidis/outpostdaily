@@ -1,43 +1,8 @@
 {
- "updated": "2026-10-29T18:54:57.077Z",
+ "updated": "2026-10-29T19:14:32.285Z",
  "health": [
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -47,14 +12,49 @@
    "n": 3
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
    "name": "Hackread",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "SecurityWeek",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n332e4d0798",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘The $100 level is ours for awhile’: Oil won’t be getting cheap anytime soon, no matter what happens in the Gulf",
+   "url": "https://www.marketwatch.com/story/the-100-level-is-ours-for-awhile-oil-wont-be-getting-cheap-anytime-soon-no-matter-what-happens-in-the-gulf-99d628bf?mod=mw_rss_topstories",
+   "published": "2026-10-29T19:12:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n51cfaaffef",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Alphabet’s stock just triggered a ‘death cross.’ Could the worst of the selloff be over?",
+   "url": "https://www.marketwatch.com/story/alphabets-stock-just-triggered-a-death-cross-could-the-worst-of-the-selloff-be-over-9f70d765?mod=mw_rss_topstories",
+   "published": "2026-10-29T19:09:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n84f56b5714",
    "kind": "news",
@@ -2231,17 +2253,6 @@
    "verified": true
   },
   {
-   "id": "nc81af77587",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "11 bargain-priced stocks of companies that have huge growth potential over the next two years",
-   "url": "https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories",
-   "published": "2026-10-28T12:54:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n29d08fa787",
    "kind": "news",
    "group": "cyber",
@@ -2249,17 +2260,6 @@
    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
    "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
    "published": "2026-10-28T12:48:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n46ea126a56",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
-   "url": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
-   "published": "2026-10-28T12:48:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4229,17 +4229,6 @@
    "title": "Magento Campaign Infects 953 Online Stores Across Five Domains",
    "url": "https://securityaffairs.com/201795/malware/magento-campaign-infects-953-online-stores-across-five-domains.html",
    "published": "2026-10-26T20:41:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2661d19877",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "12,976 Refrigeration Controls Found Exposed Online in 99 Countries",
-   "url": "https://hackread.com/refrigeration-controls-exposed-online-99-countries/",
-   "published": "2026-10-26T19:03:53.000Z",
    "severity": "normal",
    "verified": true
   }
