@@ -1,9 +1,31 @@
 {
  "date": "2026-10-29",
  "edition": 227,
- "compiled": "2026-10-29T08:35:19.593Z",
+ "compiled": "2026-10-29T09:05:30.392Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "aabd8e14b2",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "snippet": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28",
+   "published": "2026-10-29T08:24:22.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/aabd8e14b2.webp",
+   "t": "2026-10-29",
+   "summary": "The Hacker News reports that attackers exploited a Cisco Catalyst SD-WAN flaw, fixed in February, to install KeyDrift, malware designed to copy keys used to encrypt traffic between sites.",
+   "why": "Check that the flaw is fixed, inspect SD-WAN control systems for malware, and assess exposure of traffic-encryption keys.",
+   "tags": [
+    "SD-WAN",
+    "KeyDrift",
+    "encryption keys"
+   ],
+   "ai": true
+  },
   {
    "id": "b3306983de",
    "section": "cyber",
@@ -14,7 +36,7 @@
    "snippet": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications. The post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek .",
    "published": "2026-10-29T08:27:16.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.49,
    "image": "/img/news/b3306983de.webp",
    "t": "2026-10-29",
    "summary": "An HHS filing says hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.",
@@ -36,7 +58,7 @@
    "snippet": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek .",
    "published": "2026-10-29T08:01:05.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/ef44306c2f.webp",
    "t": "2026-10-29",
    "summary": "SecurityWeek says CVE-2026-41709 lets attackers with administrative privileges perform operations on ESXi without logging, and reports Chinese hackers used it as a zero-day.",
@@ -58,7 +80,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-41709\" target=\"_blank\">CVE-2026-41709</a> B",
    "published": "2026-10-28T12:00:00.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "t": "2026-10-29",
    "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check the KEV Catalog and prioritize affected systems for remediation.",
@@ -84,7 +106,7 @@
      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
     }
    ],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/965a65e0d8.webp",
    "t": "2026-10-29",
    "summary": "A Ukrainian national was sentenced to 70 months in prison for ransomware attacks targeting hospitals, government entities, and businesses worldwide between 2018 and 2021.",
@@ -105,7 +127,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. l",
    "published": "2026-10-29T06:22:33.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.44,
    "image": "/img/news/e91f33b06c.webp",
    "t": "2026-10-29",
    "summary": "CISA added a VMware ESX flaw to its KEV catalog after CrowdStrike revealed it had been weaponized, according to the snippet. The title says China-linked hackers used it to reduce audit trail visibility.",
@@ -127,7 +149,7 @@
    "snippet": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company s",
    "published": "2026-10-29T05:50:17.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/f4eff089be.webp",
    "t": "2026-10-29",
    "summary": "Palo Alto Networks warned that attackers are exploiting recently patched PHP2Shell vulnerabilities against publicly accessible management interfaces.",
@@ -149,7 +171,7 @@
    "snippet": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
    "published": "2026-10-28T18:00:10.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.39,
    "image": "/img/news/682371bfbe.webp",
    "t": "2026-10-29",
    "summary": "Unit 42 outlines retail peak-season cyber threats, including ransomware and AI attacks, and discusses defending operations and customer trust.",
@@ -171,7 +193,7 @@
    "snippet": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
    "published": "2026-10-29T08:00:00.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/75699bb614.webp",
    "t": "2026-10-29",
    "summary": "Researchers say they cannot explain why cyber threats in Italy appear different from those elsewhere.",
@@ -179,27 +201,6 @@
    "tags": [
     "Italy",
     "cyber threats"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bf65784fd2",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
-   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
-   "snippet": "A federal appellate court panel said West Virginia's version of Daniel's Law — meant to shield the personal data of police and other officials — is unconstitutional.",
-   "published": "2026-10-28T20:50:00.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/bf65784fd2.webp",
-   "t": "2026-10-29",
-   "summary": "A federal appellate court panel said West Virginia's law intended to shield officials' personal data is unconstitutional.",
-   "why": "Organizations handling officials' personal data should review their privacy and disclosure procedures.",
-   "tags": [
-    "personal data",
-    "West Virginia"
    ],
    "ai": true
   },
@@ -213,7 +214,7 @@
    "snippet": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small share of disclosed flaws, under one perce",
    "published": "2026-10-29T06:30:04.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/e417a2d856.webp",
    "t": "2026-10-29",
    "summary": "A Qualys CISO discusses handling the growing volume of AI-discovered vulnerabilities and recommends tracking average exposure time instead of standard MTTR.",
@@ -234,7 +235,7 @@
    "snippet": "It’s a strange time for the defense technology sector. Despite the headlines of record capital, valuations, and defense budgets, there is a growing unease among investors and leadership teams. Production contracts remain as elusive as ever, and a generation of startups is struggling to extend their runways across the v",
    "published": "2026-10-29T08:00:33.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/5b87fe21d9.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks describes unease among defense technology investors and leaders despite headlines about capital, valuations, and budgets; production contracts remain elusive.",
@@ -255,7 +256,7 @@
    "snippet": "Amid the rapid expansion of AI and data centers alongside growing climate commitments as the demand for clean energy rises, nuclear power is increasingly viewed as a reliable source to fill the gaps and complement the stochastic output of solar and hydropower. This renewed interest is also driven in part by countries’ ",
    "published": "2026-10-29T07:30:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.57,
    "image": "/img/news/b07e4e1dde.webp",
    "t": "2026-10-29",
    "summary": "The article says nuclear power is increasingly viewed as a reliable source to complement variable solar and hydropower as clean-energy demand rises.",
@@ -267,46 +268,24 @@
    "ai": true
   },
   {
-   "id": "354007e0d4",
+   "id": "280d9fe1ac",
    "section": "warfare",
-   "source": "Naval News",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "PT PAL and Naval Group Explore Submarine MRO Cooperation",
-   "url": "https://www.navalnews.com/naval-news/2026/10/pt-pal-and-naval-group-explore-submarine-mro-cooperation/",
-   "snippet": "PT PAL Indonesia and Naval Group have signed a MoU for the maintenance, repair, and overhaul (MRO) of Indonesian Navy’s (TNI AL) Nagapasa-class submarines The post PT PAL and Naval Group Explore Submarine MRO Cooperation appeared first on Naval News .",
-   "published": "2026-10-29T08:23:01.000Z",
+   "title": "After Vucic ouster, Serbia’s weapons-buying habits are under the microscope",
+   "url": "https://www.defensenews.com/global/europe/2026/10/29/after-vucic-ouster-serbias-weapons-buying-habits-are-under-the-microscope/",
+   "snippet": "One of Europe’s key arms purchasers, Serbia, is likely to slow down procurement and investigate the probity of recent buys after a student-led protest movement ousted the country’s long-time strongman leader in a surprise election win on Sunday.",
+   "published": "2026-10-29T08:53:25.000Z",
    "also": [],
    "score": 1.5,
-   "image": "/img/news/354007e0d4.webp",
+   "image": "/img/news/280d9fe1ac.webp",
    "t": "2026-10-29",
-   "summary": "PT PAL Indonesia and Naval Group signed a MoU to explore maintenance, repair, and overhaul cooperation for Indonesian Navy Nagapasa-class submarines.",
-   "why": "Submarine MRO cooperation is relevant to naval maintenance and operational support.",
+   "summary": "Defense News says Serbia is likely to slow weapons procurement and investigate recent purchases after a student-led movement ousted the country’s long-time leader in an election win.",
+   "why": "Procurement scrutiny may affect the pace and oversight of arms purchasing.",
    "tags": [
-    "MRO",
-    "submarines",
-    "Naval Group"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b0e3c87508",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites",
-   "url": "https://www.twz.com/space/u-s-intel-warns-chinas-space-based-directed-energy-weapons-could-soon-threaten-satellites",
-   "snippet": "Battlefield space is heating up as the DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade. The post U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites appeared first on TWZ .",
-   "published": "2026-10-28T19:53:21.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/b0e3c87508.webp",
-   "t": "2026-10-29",
-   "summary": "The DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade.",
-   "why": "The warning highlights potential threats to satellites in the space domain.",
-   "tags": [
-    "directed energy",
-    "satellites",
-    "China"
+    "Serbia",
+    "procurement",
+    "arms"
    ],
    "ai": true
   },
@@ -320,7 +299,7 @@
    "snippet": "[Sponsored] Warden’s passive, first layer of detection complements EO/IR and radar.",
    "published": "2026-10-28T19:59:25.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.33,
    "image": "/img/news/4bacf4d97d.webp",
    "t": "2026-10-29",
    "summary": "A sponsored item says Warden's passive first layer of detection complements EO/IR and radar for finding and classifying targets at standoff distance.",
@@ -342,7 +321,7 @@
    "snippet": "In 2018, Barak Mendelsohn wrote, “Bound to Fail: Transnational Jihadism and the Aggregation Problem,” where he argued that transnational jihadist groups like al-Qaeda and the Islamic State would continue failing to turn local victories into a lasting caliphate, allowing counterterrorism forces to contain them without c",
    "published": "2026-10-28T19:45:24.000Z",
    "also": [],
-   "score": 1.33,
+   "score": 1.32,
    "image": "/img/news/2a11a4d4de.webp",
    "t": "2026-10-29",
    "summary": "Barak Mendelsohn argued that transnational jihadist groups would continue failing to turn local victories into a lasting caliphate.",
@@ -350,6 +329,28 @@
    "tags": [
     "jihadism",
     "local victories"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b0e3c87508",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites",
+   "url": "https://www.twz.com/space/u-s-intel-warns-chinas-space-based-directed-energy-weapons-could-soon-threaten-satellites",
+   "snippet": "Battlefield space is heating up as the DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade. The post U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites appeared first on TWZ .",
+   "published": "2026-10-28T19:53:21.000Z",
+   "also": [],
+   "score": 1.32,
+   "image": "/img/news/b0e3c87508.webp",
+   "t": "2026-10-29",
+   "summary": "The DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade.",
+   "why": "The warning highlights potential threats to satellites in the space domain.",
+   "tags": [
+    "directed energy",
+    "satellites",
+    "China"
    ],
    "ai": true
   },
@@ -363,7 +364,7 @@
    "snippet": "Date: Thursday, Nov. 12, 2026Time: 12:00 – 1:00 p.m. ESTThe third joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.Overview:For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a di",
    "published": "2026-10-28T18:58:05.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.31,
    "image": "/img/news/ed69b3892b.webp",
    "t": "2026-10-29",
    "summary": "RUSI and War on the Rocks announced a joint webinar on trans-Atlantic defense cooperation after the U.S. midterms.",
@@ -384,7 +385,7 @@
    "snippet": "The UK headed up the anti-submarine warfare component of Maritime Big Play exercise, which took place off the coast of San Diego in October.",
    "published": "2026-10-28T19:09:15.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.31,
    "image": "/img/news/4f64e19c7a.webp",
    "t": "2026-10-29",
    "summary": "The UK led the anti-submarine warfare component of the Maritime Big Play exercise off San Diego in October.",
@@ -393,6 +394,28 @@
     "anti-submarine warfare",
     "exercise",
     "maritime"
+   ],
+   "ai": true
+  },
+  {
+   "id": "599112d588",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+   "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
+   "published": "2026-10-29T08:23:31.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/599112d588.webp",
+   "t": "2026-10-29",
+   "summary": "BBC World reports that Ethiopia acquired Russian fighter jets and air defence systems amid ongoing fighting in northern Tigray.",
+   "why": "The acquisition is relevant to military capabilities amid fighting in the region.",
+   "tags": [
+    "Ethiopia",
+    "fighter jets",
+    "Tigray"
    ],
    "ai": true
   },
@@ -406,7 +429,7 @@
    "snippet": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
    "published": "2026-10-29T07:54:33.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.58,
    "image": "/img/news/a773a6cddb.webp",
    "t": "2026-10-29",
    "summary": "BBC World reports that Sanrio apologised after its merchandise line with Japanese TV series Vivant drew criticism amid a China backlash.",
@@ -427,7 +450,7 @@
    "snippet": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
    "published": "2026-10-29T06:24:56.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.54,
    "image": "/img/news/95eac67cb5.webp",
    "t": "2026-10-29",
    "summary": "BBC World says El Salvador sent 2,000 troops to Haiti to try to recover four military personnel missing after an ambush near Port-au-Prince.",
@@ -436,6 +459,28 @@
     "El Salvador",
     "Haiti",
     "rescue mission"
+   ],
+   "ai": true
+  },
+  {
+   "id": "aa9e187456",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Obama and Trump rally in Georgia and Ohio: Key takeaways",
+   "url": "https://www.aljazeera.com/news/2026/10/29/obama-and-trump-rally-in-georgia-and-ohio-key-takeaways?traffic_source=rss",
+   "snippet": "Obama and Trump traded barbs over the Iran war, tariffs and the White House ballroom ahead of the US midterm elections.",
+   "published": "2026-10-29T08:51:30.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/aa9e187456.webp",
+   "t": "2026-10-29",
+   "summary": "Al Jazeera reports that Obama and Trump traded criticism over the Iran war, tariffs and the White House ballroom ahead of the US midterm elections.",
+   "why": "The remarks place the Iran war and tariffs in the US election debate.",
+   "tags": [
+    "Iran war",
+    "tariffs",
+    "elections"
    ],
    "ai": true
   },
@@ -449,7 +494,7 @@
    "snippet": "African nations weigh political incentives as Moscow offers limited economic benefits compared with China and the West.",
    "published": "2026-10-29T08:14:34.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/0da36d83a0.webp",
    "t": "2026-10-29",
    "summary": "African nations weigh political incentives as Moscow offers limited economic benefits compared with China and the West.",
@@ -471,7 +516,7 @@
    "snippet": "Arab states must reject Israeli hegemony and build a regional security framework independent of Washington.",
    "published": "2026-10-29T07:54:51.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/2256853c67.webp",
    "t": "2026-10-29",
    "summary": "The article argues that Arab states should reject Israeli hegemony and build a regional security framework independent of Washington.",
@@ -493,7 +538,7 @@
    "snippet": "Biden-era officials who quit over Gaza urge Democratic candidates for next presidential race to denounce the policy.",
    "published": "2026-10-29T07:41:04.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/ed5e1d62e6.webp",
    "t": "2026-10-29",
    "summary": "Al Jazeera reports that Biden-era officials who quit over Gaza are urging Democratic candidates for the next presidential race to denounce the policy.",
@@ -514,7 +559,7 @@
    "snippet": "El Salvador troops to support rescue mission to find four UN-backed soldiers who disappeared after ambush.",
    "published": "2026-10-29T07:36:38.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/9c143748bf.webp",
    "t": "2026-10-29",
    "summary": "Al Jazeera says El Salvador pledged more than 2,000 soldiers to support a mission to find four UN-backed soldiers who disappeared after an ambush, as Haiti delays elections.",
@@ -523,50 +568,6 @@
     "El Salvador",
     "Haiti",
     "ambush"
-   ],
-   "ai": true
-  },
-  {
-   "id": "869c210d84",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "North Korea fires missiles as row over landmine blast intensifies",
-   "url": "https://www.aljazeera.com/news/2026/10/29/north-korea-fires-missiles-as-row-over-landmine-blast-intensifies?traffic_source=rss",
-   "snippet": "Seoul accuses Pyongyang of causing a landmine explosion that injured three of its soldiers, an accusation North denies.",
-   "published": "2026-10-29T07:24:47.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/869c210d84.webp",
-   "t": "2026-10-29",
-   "summary": "Al Jazeera reports that North Korea fired missiles as Seoul accused Pyongyang of causing a landmine explosion that injured three South Korean soldiers; North Korea denied the accusation.",
-   "why": "The missile launches and disputed landmine accusation are relevant to monitoring regional tensions.",
-   "tags": [
-    "missiles",
-    "landmine",
-    "North Korea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "185d049c8b",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Details of thousands of US immigration agents leaked in major hack",
-   "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
-   "published": "2026-10-29T01:30:43.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/185d049c8b.webp",
-   "t": "2026-10-29",
-   "summary": "BBC World reports that a group called the Department of Peace released information on more than 41,000 DHS staff.",
-   "why": "Defenders should assess exposure of staff information and review protections for personnel data.",
-   "tags": [
-    "DHS",
-    "staff information",
-    "leak"
    ],
    "ai": true
   }
@@ -718,47 +719,47 @@
   }
  ],
  "run_today": [
-  "Review third-party-hosted business applications for access to personal, account, and device data.",
-  "Verify which providers can access iRhythm account or device data, and confirm their access is appropriate.",
-  "Check whether monitoring and incident procedures cover third-party-hosted applications."
+  "Confirm Cisco Catalyst SD-WAN systems have the fix for the flaw described.",
+  "Review SD-WAN control systems for signs of KeyDrift or other unexpected malware.",
+  "Assess whether traffic-encryption keys may have been exposed and take appropriate protective steps."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "third-party-hosted business applications",
-   "explainer": "Business applications hosted by another party rather than directly by the organization. Data in these applications may include personal, account, and device information.",
-   "from_id": "b3306983de",
-   "from": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
-   "fromSource": "SecurityWeek"
+   "term": "SD-WAN",
+   "explainer": "Software-defined wide area networking (SD-WAN) is a way to manage a network connecting sites through software. In this report, the affected systems control an organization’s SD-WAN network.",
+   "from_id": "aabd8e14b2",
+   "from": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "maintenance, repair, and overhaul (MRO)",
-   "explainer": "MRO means maintaining equipment, repairing it when needed, and overhauling it to keep it serviceable. Here, it refers to cooperation involving submarines.",
-   "from_id": "354007e0d4",
-   "from": "https://www.navalnews.com/naval-news/2026/10/pt-pal-and-naval-group-explore-submarine-mro-cooperation/",
-   "fromSource": "Naval News"
+   "term": "procurement",
+   "explainer": "Procurement means acquiring goods or services. In this item, it refers to a country’s purchasing of weapons.",
+   "from_id": "280d9fe1ac",
+   "from": "https://www.defensenews.com/global/europe/2026/10/29/after-vucic-ouster-serbias-weapons-buying-habits-are-under-the-microscope/",
+   "fromSource": "Defense News"
   },
   {
    "domain": "geo",
-   "term": "political incentives",
-   "explainer": "Political incentives are benefits or considerations that may influence a country's choices or relationships. The article says African nations weigh them alongside limited economic benefits from Moscow.",
-   "from_id": "0da36d83a0",
-   "from": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "air defence systems",
+   "explainer": "Air defence systems are military equipment intended to defend against threats from the air. The item says Ethiopia acquired them alongside fighter jets.",
+   "from_id": "599112d588",
+   "from": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Security, Support, and Strategic Choices",
+  "headline": "Military procurement, technology and political scrutiny",
   "paragraphs": [
-   "The top stories span defense technology, energy, military operations, cybersecurity, and political ties. Together, they show how security questions sit alongside commercial confidence, infrastructure needs, and public response. The defense-tech item notes investor and leadership unease despite headlines of record capital, valuations, and budgets, while the small-reactor story links energy demand with possible future conflict relevance.",
-   "Operational capacity appears in the submarine maintenance cooperation and the deployment of Salvadoran troops to recover missing personnel in Haiti. The iRhythm breach and the ESXi logging flaw also underline that digital systems and their visibility matter to defenders. The breach concerns data held in third-party-hosted applications; the ESXi item describes operations that can occur without being logged.",
-   "Other stories point to political and reputational pressures: Sanrio apologised after criticism of its merchandise tie-in, while African nations weigh political incentives against limited economic benefits from Moscow. For analysts, the mix suggests watching how technology, support arrangements, and public reactions shape security decisions. The snippets do not establish how these developments will unfold."
+   "Several stories concern military capability and the decisions surrounding it. Ethiopia’s acquisition of Russian fighter jets and air defence systems comes amid fighting in Tigray, while Serbia may slow weapons procurement and investigate recent purchases. These reports point to different pressures on acquiring and overseeing military equipment.",
+   "The defense technology and small-reactor headlines add questions about investment and possible roles for energy in future conflicts, but their snippets provide limited detail. Meanwhile, the report of troops sent to Haiti describes an effort to recover four missing military personnel. Together, these stories show why analysts may need to distinguish capability, procurement and operational context.",
+   "Political debate also frames the news: US candidates traded barbs over the Iran war and tariffs, while a Japanese series drew criticism in China. For defenders, the Cisco SD-WAN report is a concrete reminder to verify fixes and investigate systems that control network traffic. Watch how procurement reviews and conflict-related acquisitions develop; the available details do not establish their outcomes."
   ],
   "takeaways": [
-   "Review third-party data exposure and logging visibility as distinct defensive concerns.",
-   "Maintenance cooperation and troop deployments illustrate different forms of operational support.",
-   "Political incentives, public criticism, and economic limits can shape strategic choices."
+   "Ethiopia’s acquisitions are reported amid fighting in Tigray.",
+   "Serbia may review the pace and probity of weapons purchases.",
+   "Check SD-WAN fixes and investigate for malware that targets encryption keys."
   ]
  },
  "health": [
@@ -778,13 +779,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 14
+   "n": 13
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 17
+   "n": 18
   },
   {
    "name": "The Record",
@@ -808,7 +809,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Unit 42",
@@ -850,7 +851,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Defense One",
@@ -862,13 +863,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 3
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -904,13 +905,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "SpaceNews",
@@ -946,7 +947,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "DW",
