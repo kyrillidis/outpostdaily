@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-29T11:19:52.274Z",
+ "updated": "2026-10-29T11:35:14.078Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -12,9 +22,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 10
+   "n": 6
   },
   {
    "name": "Krebs on Security",
@@ -22,9 +32,19 @@
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Al Jazeera",
@@ -32,39 +52,14 @@
    "n": 4
   },
   {
-   "name": "BBC World",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
+   "n": 5
   },
   {
    "name": "Hackread",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 5
   },
   {
    "name": "Daily Dark Web",
@@ -77,11 +72,6 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 4
@@ -90,6 +80,16 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n7ce17ccaf5",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "You can’t rely on the S&P 500 as much as you may think",
+   "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+   "published": "2026-10-29T11:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf44ca37cbb",
    "kind": "news",
@@ -2484,17 +2495,6 @@
    "verified": true
   },
   {
-   "id": "n221e3ae74e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "What gold and platinum are telling us about the stock market’s direction",
-   "url": "https://www.marketwatch.com/story/what-gold-and-platinum-are-telling-us-about-the-stock-markets-direction-81405633?mod=mw_rss_topstories",
-   "published": "2026-10-27T20:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n1ca966fc37",
    "kind": "news",
    "group": "crisis",
@@ -4655,18 +4655,6 @@
    "published": "2026-10-26T11:45:58.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114681281040593028",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇿🇲 🚨 ZAMBIA: THREAT ACTOR CLAIMS LEAK OF NATIONAL SOCIAL PROTECTION REGISTRY DATA ON 15 MILLION PEOPLE A threat actor using the name \"UNC6783\" claims to have leaked data from the Zambia Integrated Social Protection Information System…",
-   "url": "https://x.com/DailyDarkWeb/status/2114681281040593028",
-   "published": "2026-10-26T11:31:20.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjbai7W4AA1hVx.jpg"
   }
  ]
 }
