@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-29T08:51:14.724Z",
+ "updated": "2026-10-29T08:58:01.318Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -12,22 +12,17 @@
    "error": "HTTP 402"
   },
   {
-   "name": "CISA Advisories",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "MarketWatch",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -42,24 +37,19 @@
    "n": 2
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "SecurityWeek",
@@ -67,12 +57,27 @@
    "n": 2
   },
   {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -82,12 +87,7 @@
    "n": 7
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -119,6 +119,17 @@
  ],
  "items": [
   {
+   "id": "nce82d0cb1d",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Virtualine Domain Seized, but Allegedly Abusive Website Remains Online",
+   "url": "https://securityaffairs.com/202002/cyber-crime/virtualine-domain-seized-but-allegedly-abusive-website-remains-online.html",
+   "published": "2026-10-29T08:45:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nb3306983de",
    "kind": "news",
    "group": "cyber",
@@ -127,6 +138,17 @@
    "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
    "published": "2026-10-29T08:27:16.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "naabd8e14b2",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "published": "2026-10-29T08:24:22.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -4473,17 +4495,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjxwFEbkAAMoNQ.jpg"
-  },
-  {
-   "id": "x2114705593965445430",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheRecord_Media",
-   "title": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week",
-   "url": "https://x.com/TheRecord_Media/status/2114705593965445430",
-   "published": "2026-10-26T13:07:57.000Z",
-   "severity": "high",
-   "verified": false
   },
   {
    "id": "x2114703924972134740",
