@@ -1,18 +1,8 @@
 {
- "updated": "2026-10-29T09:56:08.249Z",
+ "updated": "2026-10-29T10:07:40.816Z",
  "health": [
   {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -22,32 +12,12 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
    "ok": true,
    "n": 3
   },
@@ -57,9 +27,34 @@
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "SecurityWeek",
@@ -67,14 +62,14 @@
    "n": 3
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -82,14 +77,19 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n196b1e6052",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+   "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+   "published": "2026-10-29T10:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n7fd0325d37",
    "kind": "news",
@@ -4402,17 +4413,6 @@
    "verified": true
   },
   {
-   "id": "x2114715562429268467",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@H4ckmanac",
-   "title": "🚨Cyber Alert ‼️ 🇯🇵Japan - 𝗕𝗮𝗻𝗱𝗮𝗶 𝗡𝗮𝗺𝗰𝗼 𝗛𝗼𝗹𝗱𝗶𝗻𝗴𝘀 / 𝗕𝗔𝗡𝗗𝗔𝗜 𝗦𝗣𝗜𝗥𝗜𝗧𝗦 𝗖𝗼., 𝗟𝘁𝗱. / 𝗕𝗮𝗻𝗱𝗮𝗶 𝗟𝗼𝗴𝗶𝗽𝗮𝗹 𝗖𝗼., 𝗟𝘁𝗱. Bandai Namco Holdings has disclosed unauthorised access to the logistics…",
-   "url": "https://x.com/H4ckmanac/status/2114715562429268467",
-   "published": "2026-10-26T13:47:34.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114712822940877058",
    "kind": "x",
    "group": "darkweb",
@@ -4726,17 +4726,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVjK0-jbUAAe1Wh.jpg"
-  },
-  {
-   "id": "nf4efb6c9d5",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "PHP2Shell: Suspected North Korean campaign targets 216 vulnerable PHP hosts",
-   "url": "https://securityaffairs.com/201748/hacking/php2shell-suspected-north-korean-campaign-targets-216-vulnerable-php-hosts.html",
-   "published": "2026-10-26T09:58:31.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
