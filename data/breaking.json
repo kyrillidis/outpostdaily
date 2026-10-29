@@ -1,30 +1,15 @@
 {
- "updated": "2026-10-29T14:45:55.419Z",
+ "updated": "2026-10-29T14:59:39.825Z",
  "health": [
   {
    "name": "CISA Advisories",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 3
   },
   {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
   },
   {
    "name": "Al Jazeera",
@@ -37,14 +22,29 @@
    "n": 4
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Hackread",
@@ -57,16 +57,6 @@
    "n": 7
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
@@ -77,14 +67,29 @@
    "n": 0
   },
   {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 7
+   "n": 1
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "X redteam",
@@ -95,11 +100,6 @@
    "name": "X blueteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "Security Affairs",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
   },
   {
    "name": "X darkweb",
@@ -422,6 +422,39 @@
    "source": "MarketWatch",
    "title": "It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.",
    "url": "https://www.marketwatch.com/story/its-the-strangest-job-market-the-u-s-has-ever-seen-the-low-hire-low-fire-economy-turns-3-years-old-ce8d0dfe?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf726928be3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Hitachi Energy CoreTec Product",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+   "published": "2026-10-29T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n58a4b860d2",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Siemens Mendix SAML Module",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "published": "2026-10-29T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3f007ce8c8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Hitachi Energy TRO600 series products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
    "published": "2026-10-29T12:00:00.000Z",
    "severity": "normal",
    "verified": true
@@ -4190,17 +4223,6 @@
    "verified": false
   },
   {
-   "id": "x2114759267731562679",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheRecord_Media",
-   "title": "A Chinese national faces up to 20 years in U.S. prison on charges that he facilitated an investment fraud scheme through scam centers in Cambodia",
-   "url": "https://x.com/TheRecord_Media/status/2114759267731562679",
-   "published": "2026-10-26T16:41:14.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114759260789989482",
    "kind": "x",
    "group": "darkweb",
@@ -4211,28 +4233,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkiTzfasAAaqKR.jpg"
-  },
-  {
-   "id": "n5d6b2a0bb6",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Ukraine disputes Musk's claims of Starlink misuse as military connectivity restored",
-   "url": "https://therecord.media/ukraine-disputes-musk-claims-of-starlink-misuse",
-   "published": "2026-10-26T16:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3e53d355ce",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Dutch police extradite Chinese national accused of laundering Cambodian investment scam funds",
-   "url": "https://therecord.media/dutch-police-extradite-chinese-national-money-laundering-scams",
-   "published": "2026-10-26T16:37:00.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114757789075792368",
