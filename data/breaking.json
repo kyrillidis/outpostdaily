@@ -1,10 +1,30 @@
 {
- "updated": "2026-10-29T14:59:39.825Z",
+ "updated": "2026-10-29T15:15:09.136Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -22,29 +42,14 @@
    "n": 4
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Hackread",
@@ -54,7 +59,7 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "Daily Dark Web",
@@ -67,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -82,19 +82,19 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 7
   },
   {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "nf5faf77d96",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Google Says Gemini 4 Carbon Leads in Finding, Exploiting and Fixing Vulnerabilities",
+   "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
+   "published": "2026-10-29T15:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfcadd0dd5c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
+   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+   "published": "2026-10-29T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nb49dd95c9b",
    "kind": "news",
@@ -4189,17 +4211,6 @@
    "verified": true
   },
   {
-   "id": "nf722b9fc37",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Serbian autocrat loses election following widespread reports of digital repression",
-   "url": "https://therecord.media/serbia-election-spyware-vucic",
-   "published": "2026-10-26T17:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114760707354890366",
    "kind": "x",
    "group": "darkweb",
@@ -4210,17 +4221,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkjpuHW4AA85QH.jpg"
-  },
-  {
-   "id": "x2114760470003614034",
-   "kind": "x",
-   "group": "cyber",
-   "source": "@TheRecord_Media",
-   "title": "Ukrainian officials said technical restrictions made it impossible to use commercial Starlink terminals for drone missions, which Elon Musk had alleged",
-   "url": "https://x.com/TheRecord_Media/status/2114760470003614034",
-   "published": "2026-10-26T16:46:01.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114759260789989482",
@@ -4362,51 +4362,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkQOTrW4AAO5Ng.jpg"
-  },
-  {
-   "id": "na1079f7c96",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Global Premiere: AI Future Forum 2026 in Dubai",
-   "url": "https://hackread.com/global-premiere-ai-future-forum-2026-in-dubai/",
-   "published": "2026-10-26T15:11:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114736655881896234",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🚨 TELEGRAM EXPERIENCING WORLDWIDE OUTAGE Users across Australia, Asia, Europe, and the Americas are reporting Telegram connectivity failures. Downdetector has logged 1,600+ reports in ~30 minutes (web unresponsive, infinite loading,…",
-   "url": "https://x.com/DailyDarkWeb/status/2114736655881896234",
-   "published": "2026-10-26T15:11:23.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVkNxmaXAAAA2zl.jpg"
-  },
-  {
-   "id": "n0f00ffac74",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "eMudhra to Exit SSL/TLS Market After 8 CA Keys Found Easily Guessable",
-   "url": "https://hackread.com/emudhra-exit-ssl-tls-market-8-ca-keys-guessable/",
-   "published": "2026-10-26T15:10:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na6158f3aba",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "AI-Generated Fake Bank Calls and NFC App Enabled €380,000 Fraud, Dutch Police Say",
-   "url": "https://securityaffairs.com/201786/cyber-crime/ai-generated-fake-bank-calls-and-nfc-app-enabled-e380000-fraud-dutch-police-say.html",
-   "published": "2026-10-26T15:06:26.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
