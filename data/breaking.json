@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-29T18:18:54.528Z",
+ "updated": "2026-10-29T18:31:02.593Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
   {
    "name": "X cyber",
    "ok": false,
@@ -12,24 +27,14 @@
    "n": 4
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -37,9 +42,9 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -52,19 +57,14 @@
    "n": 3
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "Hackread",
    "ok": true,
    "n": 3
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,19 +72,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "BreachForums",
@@ -95,6 +90,11 @@
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n2c3bc90545",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+   "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+   "published": "2026-10-29T18:15:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3c881e8ce5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Albanian opposition storms parliament, sets off flares and smoke bombs",
+   "url": "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
+   "published": "2026-10-29T18:11:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n693b6c6a2f",
    "kind": "news",
@@ -4123,17 +4145,6 @@
    "verified": true
   },
   {
-   "id": "nbf6ef63acf",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia halts strikes on Ukraine’s Kherson as Oleshky ceasefire takes effect",
-   "url": "https://www.aljazeera.com/news/2026/10/27/russia-halts-strikes-on-ukraines-kherson-as-oleshky-ceasefire-takes-effect?traffic_source=rss",
-   "published": "2026-10-27T02:29:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n7f986c2781",
    "kind": "news",
    "group": "cyber",
@@ -4196,17 +4207,6 @@
    "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
    "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
    "published": "2026-10-26T21:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc25a5812af",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
-   "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
-   "published": "2026-10-26T20:59:26.000Z",
    "severity": "normal",
    "verified": true
   },
