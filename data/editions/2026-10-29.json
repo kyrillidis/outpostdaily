@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "edition": 227,
- "compiled": "2026-10-29T06:40:23.159Z",
+ "compiled": "2026-10-29T07:05:28.987Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-41709\" target=\"_blank\">CVE-2026-41709</a> B",
    "published": "2026-10-28T12:00:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.5,
    "t": "2026-10-29",
    "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check the KEV Catalog and prioritize affected systems for remediation.",
@@ -40,7 +40,7 @@
      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
     }
    ],
-   "score": 1.51,
+   "score": 1.5,
    "image": "/img/news/965a65e0d8.webp",
    "t": "2026-10-29",
    "summary": "A Ukrainian national was sentenced to 70 months in prison for ransomware attacks targeting hospitals, government entities, and businesses worldwide between 2018 and 2021.",
@@ -48,6 +48,50 @@
    "tags": [
     "ransomware",
     "hospitals"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e91f33b06c",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. l",
+   "published": "2026-10-29T06:22:33.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/e91f33b06c.webp",
+   "t": "2026-10-29",
+   "summary": "CISA added a VMware ESX flaw to its KEV catalog after CrowdStrike revealed it had been weaponized, according to the snippet. The title says China-linked hackers used it to reduce audit trail visibility.",
+   "why": "Check exposure to the VMware ESX flaw, prioritize remediation, and review whether audit trail visibility has been reduced.",
+   "tags": [
+    "VMware ESX",
+    "zero-day",
+    "audit trail"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f4eff089be",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+   "snippet": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company s",
+   "published": "2026-10-29T05:50:17.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/f4eff089be.webp",
+   "t": "2026-10-29",
+   "summary": "Palo Alto Networks warned that attackers are exploiting recently patched PHP2Shell vulnerabilities against publicly accessible management interfaces.",
+   "why": "Patch affected interfaces and check whether management access is exposed to the internet.",
+   "tags": [
+    "PHP2Shell",
+    "management interfaces",
+    "exploitation"
    ],
    "ai": true
   },
@@ -61,7 +105,7 @@
    "snippet": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
    "published": "2026-10-28T18:00:10.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "image": "/img/news/682371bfbe.webp",
    "t": "2026-10-29",
    "summary": "Unit 42 outlines retail peak-season cyber threats, including ransomware and AI attacks, and discusses defending operations and customer trust.",
@@ -70,48 +114,6 @@
     "retail",
     "ransomware",
     "AI"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bf65784fd2",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
-   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
-   "snippet": "A federal appellate court panel said West Virginia's version of Daniel's Law — meant to shield the personal data of police and other officials — is unconstitutional.",
-   "published": "2026-10-28T20:50:00.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/bf65784fd2.webp",
-   "t": "2026-10-29",
-   "summary": "A federal appellate court panel said West Virginia's law intended to shield officials' personal data is unconstitutional.",
-   "why": "Organizations handling officials' personal data should review their privacy and disclosure procedures.",
-   "tags": [
-    "personal data",
-    "West Virginia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e417a2d856",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
-   "url": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
-   "snippet": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small share of disclosed flaws, under one perce",
-   "published": "2026-10-29T06:30:04.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/e417a2d856.webp",
-   "t": "2026-10-29",
-   "summary": "A Qualys CISO discusses handling the growing volume of AI-discovered vulnerabilities and recommends tracking average exposure time instead of standard MTTR.",
-   "why": "Track how long vulnerabilities remain exposed, alongside existing remediation measures.",
-   "tags": [
-    "AI-discovered vulnerabilitie",
-    "exposure"
    ],
    "ai": true
   },
@@ -138,6 +140,48 @@
    "ai": true
   },
   {
+   "id": "bf65784fd2",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+   "snippet": "A federal appellate court panel said West Virginia's version of Daniel's Law — meant to shield the personal data of police and other officials — is unconstitutional.",
+   "published": "2026-10-28T20:50:00.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/bf65784fd2.webp",
+   "t": "2026-10-29",
+   "summary": "A federal appellate court panel said West Virginia's law intended to shield officials' personal data is unconstitutional.",
+   "why": "Organizations handling officials' personal data should review their privacy and disclosure procedures.",
+   "tags": [
+    "personal data",
+    "West Virginia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e417a2d856",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Qualys CISO on what security teams can do as exploit campaigns grow",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
+   "snippet": "In this Help Net Security interview, Nathan Smolenski, CISO at Qualys, talks about how security teams can handle the growing volume of AI-discovered vulnerabilities. He explains why CISOs should track the average window of exposure instead of standard MTTR, and why only a small share of disclosed flaws, under one perce",
+   "published": "2026-10-29T06:30:04.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/e417a2d856.webp",
+   "t": "2026-10-29",
+   "summary": "A Qualys CISO discusses handling the growing volume of AI-discovered vulnerabilities and recommends tracking average exposure time instead of standard MTTR.",
+   "why": "Track how long vulnerabilities remain exposed, alongside existing remediation measures.",
+   "tags": [
+    "AI-discovered vulnerabilitie",
+    "exposure"
+   ],
+   "ai": true
+  },
+  {
    "id": "6297f1390d",
    "section": "cyber",
    "source": "The Record",
@@ -147,7 +191,7 @@
    "snippet": "Hackers stole passport numbers, frequent flyer numbers, email addresses and phone numbers for about 2,000 customers.",
    "published": "2026-10-28T20:33:00.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/6297f1390d.webp",
    "t": "2026-10-29",
    "summary": "Japan Airlines warned of a breach in which hackers stole personal information, including passport and frequent flyer numbers, from about 2,000 customers.",
@@ -169,7 +213,7 @@
    "snippet": "Forty percent of 500 senior IT and security leaders surveyed for certificate authority Sectigo said they are very prepared for monthly TLS certificate renewals because automated systems are already in place. Their more specific answers point elsewhere. Only 4% said their certificate management is already automated, and",
    "published": "2026-10-29T06:00:06.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.38,
    "image": "/img/news/5168ee6bd7.webp",
    "t": "2026-10-29",
    "summary": "Forty percent of 500 senior IT and security leaders surveyed for certificate authority Sectigo said they are very prepared for monthly TLS certificate renewals because automated systems are already in place. Their more s",
@@ -182,49 +226,6 @@
    "ai": false
   },
   {
-   "id": "e3cac517c3",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Shame and sleepless nights haunt scam victims long after the money is gone",
-   "url": "https://www.helpnetsecurity.com/2026/10/29/itrc-identity-theft-recovery-report/",
-   "snippet": "Scams and identity theft hurt people in different ways, and recovering involves much more than getting money back, according to ITRC’s 2026 Consumer Impact Report. Scam victims often struggle with shame and self-blame, while identity theft victims can spend weeks of personal effort trying to repair the damage. Source: ",
-   "published": "2026-10-29T05:30:22.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/e3cac517c3.webp",
-   "t": "2026-10-29",
-   "summary": "ITRC’s 2026 Consumer Impact Report says scam victims can experience shame and self-blame, while identity theft victims may face other recovery challenges.",
-   "why": "Include emotional and practical support in incident response and victim recovery.",
-   "tags": [
-    "scams",
-    "identity theft"
-   ],
-   "ai": true
-  },
-  {
-   "id": "63cfb127a3",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Stolen staff logins are spreading attacks between K-12 school districts",
-   "url": "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/",
-   "snippet": "Last school year, 808 K-12 school organizations got some unwelcome news. The Multi-State Information Sharing and Analysis Center (MS-ISAC) told them their staff accounts or credentials were circulating on underground and dark web marketplaces. That’s 808 of the center’s 6,116 K-12 members, and attackers are using those",
-   "published": "2026-10-29T05:00:01.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/63cfb127a3.webp",
-   "t": "2026-10-29",
-   "summary": "MS-ISAC told 808 K-12 school organizations that staff accounts or credentials were circulating on underground and dark web marketplaces last school year.",
-   "why": "Check for exposed staff credentials, reset affected passwords, and review account activity.",
-   "tags": [
-    "K-12",
-    "credentials",
-    "MS-ISAC"
-   ],
-   "ai": true
-  },
-  {
    "id": "b0e3c87508",
    "section": "warfare",
    "source": "The War Zone",
@@ -234,7 +235,7 @@
    "snippet": "Battlefield space is heating up as the DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade. The post U.S. Intel Warns China’s Space-Based Directed Energy Weapons Could Soon Threaten Satellites appeared first on TWZ .",
    "published": "2026-10-28T19:53:21.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.37,
    "image": "/img/news/b0e3c87508.webp",
    "t": "2026-10-29",
    "summary": "The DIA warns that China could use orbital directed energy weapons to take down satellites by the end of the decade.",
@@ -256,7 +257,7 @@
    "snippet": "[Sponsored] Warden’s passive, first layer of detection complements EO/IR and radar.",
    "published": "2026-10-28T19:59:25.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.37,
    "image": "/img/news/4bacf4d97d.webp",
    "t": "2026-10-29",
    "summary": "A sponsored item says Warden's passive first layer of detection complements EO/IR and radar for finding and classifying targets at standoff distance.",
@@ -278,7 +279,7 @@
    "snippet": "In 2018, Barak Mendelsohn wrote, “Bound to Fail: Transnational Jihadism and the Aggregation Problem,” where he argued that transnational jihadist groups like al-Qaeda and the Islamic State would continue failing to turn local victories into a lasting caliphate, allowing counterterrorism forces to contain them without c",
    "published": "2026-10-28T19:45:24.000Z",
    "also": [],
-   "score": 1.37,
+   "score": 1.36,
    "image": "/img/news/2a11a4d4de.webp",
    "t": "2026-10-29",
    "summary": "Barak Mendelsohn argued that transnational jihadist groups would continue failing to turn local victories into a lasting caliphate.",
@@ -299,7 +300,7 @@
    "snippet": "Date: Thursday, Nov. 12, 2026Time: 12:00 – 1:00 p.m. ESTThe third joint webinar by RUSI and War on the Rocks: Two leading defense publications from both sides of the Atlantic present their expert panel.Overview:For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a di",
    "published": "2026-10-28T18:58:05.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/ed69b3892b.webp",
    "t": "2026-10-29",
    "summary": "RUSI and War on the Rocks announced a joint webinar on trans-Atlantic defense cooperation after the U.S. midterms.",
@@ -320,7 +321,7 @@
    "snippet": "The UK headed up the anti-submarine warfare component of Maritime Big Play exercise, which took place off the coast of San Diego in October.",
    "published": "2026-10-28T19:09:15.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.35,
    "image": "/img/news/4f64e19c7a.webp",
    "t": "2026-10-29",
    "summary": "The UK led the anti-submarine warfare component of the Maritime Big Play exercise off San Diego in October.",
@@ -342,7 +343,7 @@
    "snippet": "The 19-seat aircraft features an unusual array of ducted fans, and the technology behind it could have implications beyond civilian aviation. The post China’s CE-25A Electric Commuter Airliner Demonstrator Emerges appeared first on TWZ .",
    "published": "2026-10-28T18:26:01.000Z",
    "also": [],
-   "score": 1.35,
+   "score": 1.34,
    "image": "/img/news/438fc10b8b.webp",
    "t": "2026-10-29",
    "summary": "China's CE-25A demonstrator is a 19-seat electric commuter aircraft with ducted fans and technology that may have implications beyond civilian aviation.",
@@ -351,28 +352,6 @@
     "electric aircraft",
     "ducted fans",
     "China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fb3e5bb73b",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "US Navy reports highest number of Class A aviation, afloat mishaps in 10 years",
-   "url": "https://www.defensenews.com/naval/2026/10/28/us-navy-reports-highest-number-of-class-a-aviation-afloat-mishaps-in-10-years/",
-   "snippet": "The U.S. Navy reported a decade-high number of unplanned catastrophic events involving aircraft and vessels.",
-   "published": "2026-10-28T23:02:32.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/fb3e5bb73b.webp",
-   "t": "2026-10-29",
-   "summary": "The U.S. Navy reported a decade-high number of unplanned catastrophic events involving aircraft and vessels.",
-   "why": "The report makes aviation and vessel mishaps an operational readiness concern.",
-   "tags": [
-    "U.S. Navy",
-    "mishaps",
-    "aircraft"
    ],
    "ai": true
   },
@@ -399,6 +378,28 @@
    "ai": true
   },
   {
+   "id": "fb3e5bb73b",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "US Navy reports highest number of Class A aviation, afloat mishaps in 10 years",
+   "url": "https://www.defensenews.com/naval/2026/10/28/us-navy-reports-highest-number-of-class-a-aviation-afloat-mishaps-in-10-years/",
+   "snippet": "The U.S. Navy reported a decade-high number of unplanned catastrophic events involving aircraft and vessels.",
+   "published": "2026-10-28T23:02:32.000Z",
+   "also": [],
+   "score": 1.33,
+   "image": "/img/news/fb3e5bb73b.webp",
+   "t": "2026-10-29",
+   "summary": "The U.S. Navy reported a decade-high number of unplanned catastrophic events involving aircraft and vessels.",
+   "why": "The report makes aviation and vessel mishaps an operational readiness concern.",
+   "tags": [
+    "U.S. Navy",
+    "mishaps",
+    "aircraft"
+   ],
+   "ai": true
+  },
+  {
    "id": "49c48d65f5",
    "section": "geo",
    "source": "Al Jazeera",
@@ -408,7 +409,7 @@
    "snippet": "From drone incursions to an alleged campaign of assassinations, Russia is feared to be pressing a shadow war.",
    "published": "2026-10-29T06:01:29.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.48,
    "image": "/img/news/49c48d65f5.webp",
    "t": "2026-10-29",
    "summary": "Al Jazeera reports fears that Russia is pressing a shadow war in Europe, citing drone incursions and an alleged campaign of assassinations.",
@@ -429,7 +430,7 @@
    "snippet": "Complacency about rising far-right movements and renewed pressure on Ukraine could be the result.",
    "published": "2026-10-29T05:36:08.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.47,
    "image": "/img/news/d514e3780e.webp",
    "t": "2026-10-29",
    "summary": "The article says a Democratic win in US midterms could contribute to complacency about rising far-right movements and renewed pressure on Ukraine.",
@@ -450,7 +451,7 @@
    "snippet": "The attack is the latest in a series of major drone assaults targeting the Moscow region.",
    "published": "2026-10-29T05:22:21.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.46,
    "image": "/img/news/1c5a6c47a8.webp",
    "t": "2026-10-29",
    "summary": "Russia says more than 600 drones were launched towards Moscow overnight, in the latest of a series of major attacks targeting the region.",
@@ -471,7 +472,7 @@
    "snippet": "This launch will enable the first private navigation service in LEO, which is slated to begin in 2027. Six Pulsar satellites have been... The post 6 Pulsar Satellites Launched into LEO, Marking the Start of Xona’s Production Constellation appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, ",
    "published": "2026-10-28T18:21:12.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.43,
    "t": "2026-10-29",
    "summary": "Six Pulsar satellites launched into low Earth orbit, beginning Xona's production constellation; the first private navigation service in LEO is slated to begin in 2027.",
    "why": "The launch points to a private navigation service using low Earth orbit.",
@@ -492,7 +493,7 @@
    "snippet": "Footage shows men, some armed, beating a US journalist and an Israeli-Russian activist in Umm al-Khair.",
    "published": "2026-10-29T03:12:47.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.42,
    "image": "/img/news/387e3e76d1.webp",
    "t": "2026-10-29",
    "summary": "Footage shows men, some armed, beating a US journalist and an Israeli-Russian activist in Umm al-Khair; activists accuse Israeli settlers of assault.",
@@ -514,7 +515,7 @@
    "snippet": "The Board of Peace is missing the infrastructure, funding, and security guarantees it needs to make progress on its mission. The post The Board of Peace for Gaza is not a commercial enterprise. It should stop acting like one. appeared first on Atlantic Council .",
    "published": "2026-10-28T21:58:00.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.41,
    "image": "/img/news/6dae3abee8.webp",
    "t": "2026-10-29",
    "summary": "The Atlantic Council says the Board of Peace for Gaza lacks the infrastructure, funding, and security guarantees needed to advance its mission.",
@@ -536,7 +537,7 @@
    "snippet": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
    "published": "2026-10-28T20:53:02.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.39,
    "image": "/img/news/1a297c537a.webp",
    "t": "2026-10-29",
    "summary": "James Landale writes that Israel's election has left the country without a clear path to a new government and reflects deep divisions.",
@@ -549,23 +550,24 @@
    "ai": true
   },
   {
-   "id": "ed62da25c3",
+   "id": "0dc59354e9",
    "section": "geo",
-   "source": "SatNews",
+   "source": "DW",
    "weight": 0.4,
-   "title": "“I Can’t Refuel You. I’m Sorry”: Satellite Servicers Can’t Agree on a Plug",
-   "url": "https://satnews.com/2026/10/28/i-cant-refuel-you-im-sorry-satellite-servicers-cant-agree-on-a-plug/",
-   "snippet": "Sierra Space’s Erik Daehler says Sierra and Northrop Grumman have refuelable GEO satellites with different interfaces. Space Systems Command picked Northrop’s as its preferred standard in 2024.",
-   "published": "2026-10-29T06:36:04.000Z",
+   "title": "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+   "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+   "snippet": "With nearly 90% of votes counted, the pro-Netanyahu bloc is just ahead of the anti-Netanyahu bloc, but neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
+   "published": "2026-10-29T06:36:00.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/ed62da25c3.webp",
+   "score": 1.39,
+   "image": "/img/news/0dc59354e9.webp",
    "t": "2026-10-29",
-   "summary": "Sierra Space’s Erik Daehler says its refuelable GEO satellites use different interfaces from Northrop Grumman’s. Space Systems Command selected Northrop’s interface as its preferred standard in 2024.",
-   "why": "Different refueling interfaces make satellite servicing standards strategically relevant.",
+   "summary": "DW reports that the pro-Netanyahu bloc is slightly ahead with nearly 90% of votes counted, while neither bloc is expected to win a majority.",
+   "why": "The lack of an expected majority makes coalition talks a key part of the political outlook.",
    "tags": [
-    "GEO satellites",
-    "interfaces"
+    "Israel election",
+    "coalition talks",
+    "votes"
    ],
    "ai": true
   }
@@ -717,47 +719,47 @@
   }
  ],
  "run_today": [
-  "Track average vulnerability exposure time, not just MTTR.",
-  "Review how your team handles the growing volume of AI-discovered vulnerabilities.",
-  "Use exposure time to assess whether vulnerabilities remain open too long."
+  "Check VMware ESX systems for the flaw listed in CISA’s KEV catalog and prioritize remediation.",
+  "Patch PHP2Shell vulnerabilities on affected Palo Alto Networks management interfaces.",
+  "Review management-interface exposure and audit logs for signs of access or reduced visibility."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "average window of exposure",
-   "explainer": "The average time a vulnerability remains exposed before it is addressed. It offers security teams a way to assess exposure duration alongside remediation measures.",
-   "from_id": "e417a2d856",
-   "from": "https://www.helpnetsecurity.com/2026/10/29/nathan-smolenski-qualys-ai-vulnerability-management/",
-   "fromSource": "Help Net Security"
+   "term": "Known Exploited Vulnerabilities (KEV) catalog",
+   "explainer": "A catalog maintained by CISA that lists vulnerabilities with evidence of exploitation, as described in the item. Defenders can use it to identify flaws that warrant attention.",
+   "from_id": "e91f33b06c",
+   "from": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
    "term": "autonomous systems",
-   "explainer": "Systems designed to carry out some functions or tasks automatically, with less direct human control. The term appears in a title about partners testing these systems.",
+   "explainer": "Systems described as autonomous can perform some tasks without continuous human control. The title says AUKUS partners tested such systems; it does not specify their capabilities.",
    "from_id": "4f64e19c7a",
    "from": "https://breakingdefense.com/2026/10/aukus-partners-test-autonomous-systems-as-europe-weighs-maritime-surveillance-needs/",
    "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "GEO satellites",
-   "explainer": "Satellites in geostationary Earth orbit, abbreviated GEO. The item discusses refuelable satellites in this orbit and differing interfaces for servicing them.",
-   "from_id": "ed62da25c3",
-   "from": "https://satnews.com/2026/10/28/i-cant-refuel-you-im-sorry-satellite-servicers-cant-agree-on-a-plug/",
-   "fromSource": "SatNews"
+   "term": "coalition talks",
+   "explainer": "Negotiations between political groups about forming a governing coalition. In the item, neither bloc is expected to win a majority, making these talks relevant to what follows.",
+   "from_id": "0dc59354e9",
+   "from": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+   "fromSource": "DW"
   }
  ],
  "analysis": {
-  "headline": "Exposure, conflict and infrastructure standards",
+  "headline": "Exploitation and uncertainty across security and politics",
   "paragraphs": [
-   "The stories point to security challenges that depend on timely decisions: teams managing vulnerabilities, governments assessing alleged shadow-war activity, and satellite operators aligning refueling interfaces. The issues differ, but each involves identifying a risk or mismatch before it complicates operations.",
-   "For defenders, the CISA catalog addition and the discussion of exposure time reinforce the value of tracking vulnerabilities and acting on them. Ransomware sentencing and retail threat guidance add reminders that attacks affect varied organizations and operations. The supplied snippets do not describe how these efforts connect in practice.",
-   "For analysts, reports of drone assaults and alleged sabotage call for careful attribution: the items describe claims and fears, not settled explanations. The LEO navigation launch and the GEO interface dispute show distinct developments in space infrastructure. Watch how the reported risks and standards are described as more information becomes available."
+   "The cyber stories point to active exploitation in different environments: a VMware ESX flaw linked in the title to reduced audit trail visibility, and PHP2Shell flaws on publicly accessible management interfaces. CISA’s KEV catalog and vendor warnings provide signals for defenders to check against their own exposure.",
+   "The top stories also describe ransomware convictions, retail cyber threats, alleged sabotage and drone attacks. These reports span digital and physical security, but the supplied material does not establish a common cause. For analysts, keeping claims attributed and tracking what each source confirms remains important.",
+   "The election story adds political uncertainty: the pro-Netanyahu bloc leads, but neither grouping is expected to win a majority. Analysts may watch coalition talks alongside developments in the other stories; defenders can focus on exposed systems, patch status and visibility without assuming links between events."
   ],
   "takeaways": [
-   "Measure vulnerability exposure time as well as remediation time.",
-   "Distinguish reported allegations and fears from established facts.",
-   "Satellite navigation and servicing standards are separate infrastructure issues."
+   "Prioritize checks for actively exploited flaws and exposed management interfaces.",
+   "Reduced audit visibility makes review of logging and access controls relevant.",
+   "Treat political and security claims as distinct unless evidence connects them."
   ]
  },
  "health": [
@@ -783,7 +785,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 17
   },
   {
    "name": "The Record",
@@ -849,7 +851,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -866,8 +868,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 2
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -933,7 +935,7 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "BBC World",
