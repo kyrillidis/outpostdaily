@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write # commit the new edition back
+  issues: write # open an issue when the refresh fails, close it when it recovers (.github/scripts/alert.sh)
 
 concurrency:
   group: site-data # shared with the 5-minute collector (breaking.yml)
@@ -86,3 +87,18 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "04" ]; then echo "only the 04:xx UTC run pings"; exit 0; fi
           sleep 30 && npm run build >/dev/null && node src/indexnow.mjs
+      - name: Alert when the refresh is failing
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          bash .github/scripts/alert.sh fail "Edition refresh failing" "The edition refresh failed (the site keeps serving the last good edition). Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This issue closes itself when a run succeeds; it gets a new comment at most every 6 hours."
+      - name: Close the alert when the refresh recovers
+        if: success() && steps.gate.outputs.go == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          bash .github/scripts/alert.sh ok "Edition refresh failing" "Recovered: the edition refresh succeeded again. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

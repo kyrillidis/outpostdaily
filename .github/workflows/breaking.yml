@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write # commit data/breaking.json when something new arrives. No deploy: the pages read it live through /api/breaking and /api/darkweb
+  issues: write # open an issue when the watch fails or a source's key is refused (.github/scripts/alert.sh)
 
 concurrency:
   group: site-data # shares the lock with the edition job so the two never commit the same data files at once
@@ -32,6 +33,13 @@ jobs:
           TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
           BACKFILL_HOURS: ${{ inputs.backfill_hours }}
         run: node src/breaking.mjs
+      - name: Flag sources whose key or plan was refused (HTTP 401/402/403)
+        if: ${{ !cancelled() }}
+        continue-on-error: true # an alert problem must never fail the watch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash .github/scripts/alert.sh creds data/breaking.json
       - name: Refresh dark web write-ups (new posts only; pictures wait for the hourly deploy)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -57,3 +65,18 @@ jobs:
             echo "push failed (attempt $i), retrying"; sleep $((i * 15))
           done
           echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Alert when the watch is failing
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          bash .github/scripts/alert.sh fail "Breaking watch failing" "The breaking watch failed (the Breaking and Dark web pages keep showing the last data). Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This issue closes itself when a run succeeds; it gets a new comment at most every 6 hours."
+      - name: Close the alert when the watch recovers
+        if: success()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          bash .github/scripts/alert.sh ok "Breaking watch failing" "Recovered: the breaking watch succeeded again. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
