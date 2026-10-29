@@ -1,30 +1,15 @@
 {
- "updated": "2026-10-29T15:46:43.859Z",
+ "updated": "2026-10-29T15:53:53.146Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 3
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "MarketWatch",
@@ -32,24 +17,29 @@
    "n": 10
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
-   "name": "BBC World",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "Al Jazeera",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The DFIR Report",
@@ -59,7 +49,17 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 9
+   "n": 8
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Security Affairs",
@@ -67,7 +67,7 @@
    "n": 1
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -77,14 +77,14 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "X redteam",
@@ -92,9 +92,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "Hackread",
-   "ok": false,
-   "error": "HTTP 525"
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X blueteam",
@@ -148,6 +148,17 @@
    "title": "EMBRACE Flaws in 5 AI Coding Tools Enable Code Execution and File Theft",
    "url": "https://hackread.com/embrace-flaws-ai-coding-tools-code-execution-theft/",
    "published": "2026-10-29T15:20:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8cc04215ef",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "published": "2026-10-29T15:20:29.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4207,17 +4218,6 @@
    "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
    "published": "2026-10-26T18:01:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfd2c8a9136",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-   "published": "2026-10-26T17:45:57.000Z",
    "severity": "normal",
    "verified": true
   },
