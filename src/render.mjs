@@ -97,7 +97,8 @@ const tagList = (it) => (it.tags?.length ? `<ul class="tags">${it.tags.map((t) =
 // the story's own picture, thumbnailed and self-hosted at fetch time; credited to the outlet and linked to the article
 // thumbnails are named after the story id, so a story shows its picture even if the edition JSON predates the file
 const noPhoto = new Set(['cyber', 'warfare', 'geo'].flatMap((s) => json('config/sources.json', {})[s] ?? []).filter((f) => f.photos === false).map((f) => f.name)); // sources whose pictures we do not show
-const storyImage = (it) => noPhoto.has(it.source) ? '' : it.image || (existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '');
+// the fetch job deletes pictures once no edition from the last 30 days uses them, but older editions still name them: show a picture only if its file exists
+const storyImage = (it) => noPhoto.has(it.source) ? '' : it.image && existsSync(`${ROOT}public${it.image}`) ? it.image : existsSync(`${ROOT}public/img/news/${it.id}.webp`) ? `/img/news/${it.id}.webp` : '';
 const photoHtml = (it) => `<figure class="plate plate-photo" data-domain="${it.section}"><a href="${href(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.image)}" width="960" height="540" alt="" loading="lazy" decoding="async"></a><figcaption class="photo-credit">Image: ${esc(it.source)}</figcaption></figure>`;
 
 function entry(it, { n, lvl = 3, lead = false }) {
@@ -470,6 +471,7 @@ for (const f of existsSync(ROOT + 'public/archive') ? readdirSync(ROOT + 'public
     .replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${own}">`));
 }
 
+const cdata = (t) => `<![CDATA[${t.replace(/\]\]>/g, ']]]]><![CDATA[>')}]]>`; // a literal ]]> in the text would end the section early and break the whole feed
 // RSS: latest three editions, links point at our own per-story anchors
 const rssItems = [];
 const seen = new Set();
@@ -481,7 +483,7 @@ for (const e of editions.slice(0, 3)) for (const i of [...e.items].sort((a, b) =
     i.why ? `<p><strong>${WHY_LABEL[i.section]}:</strong> ${esc(i.why)}</p>` : '',
     `<p>Source: <a href="${href(i.url)}">${esc(i.source)}</a>${i.also?.length ? ` · Also: ${i.also.map((a) => `<a href="${href(a.url)}">${esc(a.source)}</a>`).join(', ')}` : ''}</p>`,
   ].filter(Boolean).join('');
-  rssItems.push(`<item><title><![CDATA[${plain(i.title)}]]></title><link>${SITE}/archive/${e.date}.html#s-${i.id}</link><guid isPermaLink="false">outpost-${i.id}</guid><pubDate>${new Date(i.published).toUTCString()}</pubDate><category>${DOMAIN_LABEL[i.section]}</category><description><![CDATA[${body}]]></description></item>`);
+  rssItems.push(`<item><title>${cdata(plain(i.title))}</title><link>${SITE}/archive/${e.date}.html#s-${i.id}</link><guid isPermaLink="false">outpost-${i.id}</guid><pubDate>${new Date(i.published).toUTCString()}</pubDate><category>${DOMAIN_LABEL[i.section]}</category><description>${cdata(body)}</description></item>`);
 }
 writeFileSync(out + 'feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outpost — cyber, defence tech and geopolitics</title><link>${SITE}/</link><atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/><description>A daily, source-linked briefing on cybersecurity, modern warfare technology, geodata and geopolitics.</description><language>en</language><lastBuildDate>${new Date(latest.compiled).toUTCString()}</lastBuildDate>\n${rssItems.join('\n')}\n</channel></rss>\n`);
 

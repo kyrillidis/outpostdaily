@@ -27,3 +27,32 @@ test('an out-of-range numeric entity in a headline does not crash the build', ()
   const site = buildSite({ editions: [edition({ items: [item({ title: 'Broken &#x110000; entity &#1114112; and &#xD800; here' })] })] });
   try { assert.match(site.read('cyber/index.html'), /Broken\s+entity\s+and\s+here/); } finally { site.done(); }
 });
+
+test('a headline containing the CDATA terminator keeps feed.xml well formed', () => {
+  const site = buildSite({ editions: [edition({ items: [item({ title: 'Parser bug on ]]> sequences', summary: 'The text ]]> appears in the summary', why: 'Check ]]> handling' })] })] });
+  try {
+    const feed = site.read('feed.xml');
+    assert.equal(XMLValidator.validate(feed), true, 'feed.xml is well-formed XML');
+    const it = new XMLParser().parse(feed).rss.channel.item;
+    assert.equal(it.title, 'Parser bug on ]]> sequences', 'the title round-trips unchanged');
+    assert.match(it.description, /The text \]\]&gt; appears in the summary/);
+    assert.match(it.description, /Check \]\]&gt; handling/);
+  } finally { site.done(); }
+});
+
+test('a story whose picture file no longer exists renders no broken <img>', () => {
+  const gone = item({ id: 'cccccccccc', image: '/img/news/cccccccccc.webp' });
+  const here = item({ id: 'dddddddddd', url: 'https://example.com/d', title: 'Other story', image: '/img/news/dddddddddd.webp' });
+  const site = buildSite({ editions: [edition({ items: [gone, here] })], files: { 'public/img/news/dddddddddd.webp': 'x' } });
+  try {
+    const html = site.read('cyber/index.html');
+    assert.ok(!html.includes('/img/news/cccccccccc.webp'), 'the deleted picture is not referenced');
+    assert.ok(html.includes('/img/news/dddddddddd.webp'), 'a picture that exists is still shown');
+    assert.ok(!site.read('archive/2026-10-28.html').includes('/img/news/cccccccccc.webp'));
+  } finally { site.done(); }
+});
+
+test('an old edition keeps showing a picture that is still on disk even when its JSON predates it', () => {
+  const site = buildSite({ editions: [edition({ items: [item({ id: 'eeeeeeeeee' })] })], files: { 'public/img/news/eeeeeeeeee.webp': 'x' } });
+  try { assert.ok(site.read('cyber/index.html').includes('/img/news/eeeeeeeeee.webp')); } finally { site.done(); }
+});
