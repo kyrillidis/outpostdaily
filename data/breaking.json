@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T13:40:42.510Z",
+ "updated": "2026-10-29T13:48:21.662Z",
  "health": [
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "CISA Advisories",
@@ -12,12 +12,12 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
    "ok": true,
    "n": 2
   },
@@ -32,27 +32,22 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BBC World",
    "ok": true,
    "n": 5
   },
   {
-   "name": "SecurityWeek",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 7
+   "n": 4
   },
   {
    "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -62,12 +57,17 @@
    "n": 3
   },
   {
-   "name": "Daily Dark Web",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 8
   },
   {
-   "name": "BreachForums",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -75,6 +75,11 @@
    "name": "Security Affairs",
    "ok": true,
    "n": 4
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -85,11 +90,6 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "nb326a55c61",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+   "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+   "published": "2026-10-29T13:42:52.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n342c74932b",
    "kind": "news",
@@ -4315,17 +4326,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVkVUauWAAAW-Fb.jpg"
-  },
-  {
-   "id": "ncf08225efb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-   "published": "2026-10-26T15:38:24.000Z",
-   "severity": "normal",
-   "verified": true
   },
   {
    "id": "x2114742671009010088",
