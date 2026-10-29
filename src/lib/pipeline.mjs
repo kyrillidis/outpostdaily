@@ -40,3 +40,8 @@ export function thumbPlan({ cache, id, date, now, deadline }) {
   if (cache['noimg:' + id]?.t === date) return 'missed';
   return now >= deadline ? 'budget' : 'try';
 }
+
+// ---- AI summaries ----
+// guardNumbers() empties a summary that quotes a number the source does not contain. That story still has to count as "asked": otherwise it
+// stays unsummarised, is sent to the model again on every run, and keeps tripping the "enough new stories" threshold.
+export const needsSummary = (entry) => !entry?.summary && !entry?.tried;

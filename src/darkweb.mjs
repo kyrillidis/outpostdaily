@@ -7,7 +7,7 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => { try { return existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb; } catch { return fb; } };
 const MODEL = process.env.OPENAI_MODEL || 'gpt-6-luna';
 const EFFORT = process.env.REASONING_EFFORT ?? (/^gpt-[56]/.test(MODEL) ? 'low' : '');
-const KEEP_DAYS = 14, MAX_ITEMS = 40, MAX_NEW = 12;
+const KEEP_DAYS = 14, MAX_ITEMS = 40, MAX_NEW = 12, TRIES = 3; // TRIES: how often a post the model skipped is offered again before it is shown as written
 // emails, key/token-like strings, long hex/base64 blobs, "password:" style leaks
 const SENSITIVE = /[\w.+-]+@[\w-]+\.[\w.-]+|\b(?:sk|pk|ghp|AKIA|xox[bap]|AIza)[-_A-Za-z0-9]{12,}|\b[A-Fa-f0-9]{32,}\b|\b[A-Za-z0-9+/_-]{32,}={0,2}(?=\s|$)|\b(?:password|passwd|pwd|api[_ -]?key|token|secret)\s*[:=]\s*\S+/i;
 
@@ -71,6 +71,7 @@ async function attachImages(items, rawById, mode) {
       if (buf.length > 8e6) continue;
       let out;
       for (const q of [62, 48, 36]) { out = await sharp(buf).rotate().resize({ width: 720, withoutEnlargement: true }).webp({ quality: q }).toBuffer({ resolveWithObject: true }); if (out.data.length <= 110 * 1024) break; } // stay inside the 130KB image budget
+      if (out.data.length > 125 * 1024) continue; // test/site.test.mjs caps images at 130KB
       writeFileSync(ROOT + file, out.data);
       it.image = '/' + file.slice('public/'.length); it.imageW = out.info.width; it.imageH = out.info.height;
     } catch { /* no picture for this one */ }
@@ -83,34 +84,44 @@ export async function updateDarkweb({ now = new Date(), call = callModel } = {})
   const skip = new Set((read('config/breaking.json', {}).excludeSources ?? []).map((x) => String(x).toLowerCase()));
   const allowed = (i) => !skip.has(String(i.source ?? '').toLowerCase());
   const known = new Map((store.items ?? []).filter(allowed).map((i) => [i.id, i]));
+  const newest = (a, b) => String(b.published).localeCompare(String(a.published));
+  const cutoff = now.getTime() - KEEP_DAYS * 864e5;
+  // a claim older than the oldest one on a full page would be trimmed the moment it was added, so it is not sent to the model at all
+  const kept = [...known.values()].filter((i) => Date.parse(i.published) >= cutoff).sort(newest);
+  const floor = kept.length >= MAX_ITEMS ? String(kept[MAX_ITEMS - 1].published) : '';
   const fresh = (breaking.items ?? [])
     .filter((i) => (i.kind === 'forum' || i.kind === 'ransomware' || (i.kind === 'x' && i.group === 'darkweb')) && i.id && i.title && /^https?:\/\//.test(i.url ?? ''))
     .filter((i) => i.kind !== 'x' || SECURITY.test(i.title))
-    .filter((i) => allowed(i) && !known.has(i.id) && !SENSITIVE.test(i.title))
-    .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_NEW);
+    .filter((i) => allowed(i) && !known.has(i.id) && !SENSITIVE.test(i.title) && Date.parse(i.published) >= cutoff && String(i.published) > floor)
+    .sort(newest).slice(0, MAX_NEW);
+  const tries = { ...(store.tries ?? {}) };
   if (fresh.length) {
     const ai = await call(fresh);
-    const by = new Map((ai?.items ?? []).map((a) => [a.id, a]));
-    for (const i of fresh) {
-      const a = by.get(i.id);
-      const ok = a && ![a.headline, a.claim, a.context, ...(a.advice ?? [])].some((t) => SENSITIVE.test(String(t)));
-      known.set(i.id, {
-        id: i.id, kind: i.kind, source: i.source, url: i.url, published: i.published,
-        headline: clip(ok && a.headline || i.title, 100), claim: clip(ok && a.claim || i.title, 300),
-        context: ok ? clip(a.context, 600) : '', advice: ok ? (a.advice ?? []).slice(0, 2).map((t) => clip(t, 160)) : [], verified: false,
-      });
+    // a failed call writes nothing, so the same posts are offered again on the next run instead of being stored as raw tweets for good
+    if (ai) {
+      const by = new Map((ai.items ?? []).map((a) => [a.id, a]));
+      for (const i of fresh) {
+        const a = by.get(i.id);
+        if (!a && (tries[i.id] = (tries[i.id] ?? 0) + 1) < TRIES) continue; // the model skipped this one: try again, a few times
+        delete tries[i.id];
+        const ok = a && ![a.headline, a.claim, a.context, ...(a.advice ?? [])].some((t) => SENSITIVE.test(String(t)));
+        known.set(i.id, {
+          id: i.id, kind: i.kind, source: i.source, url: i.url, published: i.published,
+          headline: clip(ok && a.headline || i.title, 100), claim: clip(ok && a.claim || i.title, 300),
+          context: ok ? clip(a.context, 600) : '', advice: ok ? (a.advice ?? []).slice(0, 2).map((t) => clip(t, 160)) : [], verified: false,
+        });
+      }
     }
   }
-  const cutoff = now.getTime() - KEEP_DAYS * 864e5;
-  const items = [...known.values()].filter((i) => Date.parse(i.published) >= cutoff)
-    .sort((a, b) => String(b.published).localeCompare(String(a.published))).slice(0, MAX_ITEMS);
+  for (const id of Object.keys(tries)) if (known.has(id) || !fresh.some((f) => f.id === id)) delete tries[id];
+  const items = [...known.values()].filter((i) => Date.parse(i.published) >= cutoff).sort(newest).slice(0, MAX_ITEMS);
   // DW_IMAGES=off (the 5-minute collector): leave pictures to the hourly edition job, because only a deploy publishes new image files
   const quick = process.env.DW_IMAGES === 'off';
   const mode = quick ? 'off' : read('config/breaking.json', {}).darkwebImages ?? 'blur';
   await attachImages(items, new Map((breaking.items ?? []).map((i) => [i.id, i])), mode);
   if (!quick && existsSync(ROOT + IMG_DIR)) { const keep = new Set(items.map((i) => (i.image ?? '').split('/').pop())); for (const f of readdirSync(ROOT + IMG_DIR)) if (!keep.has(f)) unlinkSync(ROOT + IMG_DIR + f); }
   // only rewrite the file when something changed, so the 5-minute job does not commit a new timestamp every time
-  if (JSON.stringify(items) !== JSON.stringify(store.items ?? []) || !store.updated) writeFileSync(ROOT + 'data/darkweb.json', JSON.stringify({ updated: now.toISOString(), items }, null, 1) + '\n');
+  if (JSON.stringify(items) !== JSON.stringify(store.items ?? []) || JSON.stringify(tries) !== JSON.stringify(store.tries ?? {}) || !store.updated) writeFileSync(ROOT + 'data/darkweb.json', JSON.stringify({ updated: now.toISOString(), items, ...(Object.keys(tries).length && { tries }) }, null, 1) + '\n');
   console.log(`darkweb: ${fresh.length} new, ${items.length} kept`);
   return items;
 }

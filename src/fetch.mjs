@@ -9,7 +9,7 @@ import sharp from 'sharp';
 import { clusterAndScore, guardNumbers } from './rank.mjs';
 import { updateDarkweb } from './darkweb.mjs';
 import { updateIntel } from './intel.mjs';
-import { feedEntries, checkDates, nvdVerdict, cvssCached, publishVerdict, thumbPlan } from './lib/pipeline.mjs';
+import { feedEntries, checkDates, nvdVerdict, cvssCached, publishVerdict, thumbPlan, needsSummary } from './lib/pipeline.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const read = (p, fb) => (existsSync(ROOT + p) ? JSON.parse(readFileSync(ROOT + p, 'utf8')) : fb);
@@ -239,7 +239,7 @@ let kev = [];
 try { kev = await pullKev(cache); } catch (e) { console.warn('KEV failed:', e.message); kev = prev?.kev ?? []; }
 
 // Only unsummarised items go to the model. No new items + learn already written today => no call at all.
-const fresh = chosen.filter((i) => process.env.FORCE_AI || !cache[i.id]?.summary);
+const fresh = chosen.filter((i) => process.env.FORCE_AI || needsSummary(cache[i.id]));
 let learn = prev?.learn ?? [], runToday = prev?.run_today ?? [], analysis = prev?.analysis ?? null;
 const MIN_FRESH = Number(process.env.MIN_FRESH ?? 3); // frequent runs: only call the model when a few new stories have piled up
 if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
@@ -251,7 +251,8 @@ if (process.env.FORCE_AI || !learn.length || fresh.length >= MIN_FRESH) {
       const src = byId.get(a.id);
       if (!src) continue;
       const basis = src.title + ' ' + src.snippet;
-      cache[a.id] = { t: date, summary: guardNumbers(a.summary, basis), why: guardNumbers(a.why, basis), tags: a.tags.slice(0, 3).map((t) => t.slice(0, 28)) };
+      const summary = guardNumbers(a.summary, basis);
+      cache[a.id] = { t: date, summary, why: guardNumbers(a.why, basis), tags: a.tags.slice(0, 3).map((t) => t.slice(0, 28)), ...(!summary && { tried: true }) };
     }
     runToday = ai.run_today.slice(0, 3);
     try {

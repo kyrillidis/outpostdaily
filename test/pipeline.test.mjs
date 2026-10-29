@@ -75,3 +75,12 @@ test('thumbnails: out of time means skip (and ask again next run), a miss found 
   assert.equal(thumbPlan({ ...base, cache: { 'noimg:abc': { t: '2026-10-28', miss: true } } }), 'try', 'a day later it is tried again');
   assert.equal(thumbPlan({ ...base, cache: { 'noimg:other': { t: '2026-10-29' } } }), 'try');
 });
+
+// ---------- AI summaries ----------
+import { needsSummary } from '../src/lib/pipeline.mjs';
+test('summaries: a story whose summary was dropped by the number guard counts as asked, not as new forever', () => {
+  assert.equal(needsSummary(undefined), true);
+  assert.equal(needsSummary({ t: 'd', summary: '', why: '', tags: [] }), true, 'the old empty entry would be asked again (this was the bug)');
+  assert.equal(needsSummary({ t: 'd', summary: '', tried: true }), false);
+  assert.equal(needsSummary({ t: 'd', summary: 'Text.' }), false);
+});
