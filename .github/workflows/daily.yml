@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      HAS_VERCEL: ${{ secrets.VERCEL_TOKEN != '' }} # only whether a token exists; the token itself is given to the Deploy step alone
       VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
     steps:
@@ -70,15 +70,18 @@ jobs:
           # GitHub occasionally answers a push with a 5xx; retry instead of failing the whole run
           for i in 1 2 3 4; do
             git pull --rebase -q && git push && break
+            git rebase --abort 2>/dev/null || true # a failed pull can leave a half-done rebase that would fail every later attempt
             [ "$i" = 4 ] && exit 1
             echo "push failed (attempt $i), retrying"; sleep $((i * 15))
           done
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Deploy to Vercel
-        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' }}
+        if: ${{ steps.commit.outputs.changed == 'true' && env.HAS_VERCEL == 'true' }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: npx --yes vercel@65 deploy --prod --yes --token "$VERCEL_TOKEN"
       - name: Notify search engines (IndexNow, once a day)
-        if: ${{ steps.commit.outputs.changed == 'true' && env.VERCEL_TOKEN != '' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '*/30 * * * *') }}
+        if: ${{ steps.commit.outputs.changed == 'true' && env.HAS_VERCEL == 'true' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '*/30 * * * *') }}
         continue-on-error: true
         run: |
           if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(date -u +%H)" != "04" ]; then echo "only the 04:xx UTC run pings"; exit 0; fi

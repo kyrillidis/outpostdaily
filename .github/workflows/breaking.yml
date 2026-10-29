@@ -52,6 +52,7 @@ jobs:
           # GitHub occasionally answers a push with a 5xx; retry instead of failing the whole run
           for i in 1 2 3 4; do
             git pull --rebase -q && git push && break
+            git rebase --abort 2>/dev/null || true # a failed pull can leave a half-done rebase that would fail every later attempt
             [ "$i" = 4 ] && exit 1
             echo "push failed (attempt $i), retrying"; sleep $((i * 15))
           done
