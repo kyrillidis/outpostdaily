@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-29T20:32:00.142Z",
+ "updated": "2026-10-29T20:39:40.800Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "CISA Advisories",
@@ -22,14 +22,19 @@
    "n": 3
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Al Jazeera",
@@ -37,9 +42,9 @@
    "n": 7
   },
   {
-   "name": "The Hacker News",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -47,9 +52,9 @@
    "n": 0
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "SecurityWeek",
@@ -67,19 +72,14 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Security Affairs",
    "ok": true,
    "n": 2
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,28 @@
   }
  ],
  "items": [
+  {
+   "id": "n223351184d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Does Russia offer African countries an equal partnership?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/10/29/does-russia-offer-african-countries-an-equal-partnership?traffic_source=rss",
+   "published": "2026-10-29T20:34:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb920bc5e77",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This is where most people go wrong in their 30s and 40s",
+   "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+   "published": "2026-10-29T20:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n269cc880c0",
    "kind": "news",
@@ -2139,17 +2161,6 @@
    "title": "We’re spending more than $11,000 a year of our own money caring for our aging parents and loved ones",
    "url": "https://www.marketwatch.com/story/were-spending-more-than-11-000-a-year-of-our-own-money-caring-for-our-aging-parents-and-loved-ones-8fc5b2dc?mod=mw_rss_topstories",
    "published": "2026-10-28T15:36:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na0fe53b1ae",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "3 reasons why home prices keep going up, even though fewer people are buying",
-   "url": "https://www.marketwatch.com/story/3-reasons-why-home-prices-keep-going-up-even-though-fewer-people-are-buying-9afa6106?mod=mw_rss_topstories",
-   "published": "2026-10-28T15:33:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4186,17 +4197,6 @@
    "url": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
    "published": "2026-10-27T04:54:26.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb0a7ee6d19",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Saudi-led coalition says it downed Houthi missiles and drones",
-   "url": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones?traffic_source=rss",
-   "published": "2026-10-27T04:54:26.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
