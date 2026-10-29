@@ -1,6 +1,16 @@
 {
- "updated": "2026-10-29T12:58:40.019Z",
+ "updated": "2026-10-29T13:15:42.295Z",
  "health": [
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "X cyber",
    "ok": false,
@@ -12,12 +22,22 @@
    "n": 2
   },
   {
-   "name": "CISA Advisories",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -27,44 +47,19 @@
    "n": 8
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "Hackread",
    "ok": true,
-   "n": 6
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "Dark Reading",
@@ -72,14 +67,19 @@
    "n": 2
   },
   {
-   "name": "Security Affairs",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,83 @@
   }
  ],
  "items": [
+  {
+   "id": "nce14c0a479",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Marvell is reportedly close to buying Lumentum. Analysts say they see logic in a potential deal.",
+   "url": "https://www.marketwatch.com/story/marvell-is-reportedly-close-to-buying-lumentum-analysts-say-they-see-logic-in-a-potential-deal-d7539c59?mod=mw_rss_topstories",
+   "published": "2026-10-29T13:05:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4daf3674d2",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "ADEX: AI Involved in 52% of Detected Ad Fraud Schemes – Shopping Agents Could be Next",
+   "url": "https://hackread.com/adex-ai-detected-ad-fraud-schemes-shopping-agents/",
+   "published": "2026-10-29T13:02:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n47b35e346c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Consumer spending flattens out after inflation surge",
+   "url": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
+   "published": "2026-10-29T13:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9c007578e9",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
+   "url": "https://hackread.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
+   "published": "2026-10-29T13:00:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb58ee10f31",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+   "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+   "published": "2026-10-29T13:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nde62e3e2f4",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "DoorDash and Instacart want to join forces. Will the U.S. government get in their way?",
+   "url": "https://www.marketwatch.com/story/doordash-and-instacart-want-to-join-forces-will-the-u-s-government-get-in-their-way-0c065bee?mod=mw_rss_topstories",
+   "published": "2026-10-29T12:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9ca4865974",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Over 41,000 DHS Employee Records Leaked Online",
+   "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+   "published": "2026-10-29T12:54:14.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n5f60a35bcc",
    "kind": "news",
@@ -292,6 +369,17 @@
    "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
    "published": "2026-10-29T11:27:22.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6b1e02aa07",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
+   "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-29T11:25:16.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -2132,17 +2220,6 @@
    "verified": true
   },
   {
-   "id": "n9235b881d6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "We are in our 70s. Should we pay off our 2.5% mortgage or build up our savings?",
-   "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-   "published": "2026-10-28T09:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n3f9c6dce42",
    "kind": "news",
    "group": "cyber",
@@ -2150,17 +2227,6 @@
    "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
    "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
    "published": "2026-10-28T09:14:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc940e8e81e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "TV’s Nick and Vanessa Lachey cut price of Southern California home to $7.6 million",
-   "url": "https://www.marketwatch.com/story/tvs-nick-and-vanessa-lachey-cut-price-of-southern-california-home-to-7-6-million-24dc3d7a?mod=mw_rss_topstories",
-   "published": "2026-10-28T09:01:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2506,17 +2572,6 @@
    "verified": true
   },
   {
-   "id": "n8e2b93abe3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-   "published": "2026-10-27T22:18:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n78275c0ac5",
    "kind": "news",
    "group": "cyber",
@@ -2525,17 +2580,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
    "published": "2026-10-27T22:07:34.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nc285740120",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
-   "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
-   "published": "2026-10-27T21:41:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -3947,17 +3991,6 @@
    "verified": true
   },
   {
-   "id": "n8d277a70d8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘Deflections’: Abdul El-Sayed responds to Trump’s anti-Muslim attacks",
-   "url": "https://www.aljazeera.com/news/2026/10/26/deflections-abdul-el-sayed-responds-to-trumps-anti-muslim-attacks?traffic_source=rss",
-   "published": "2026-10-26T20:17:09.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "nd84dc99ca6",
    "kind": "news",
    "group": "cyber",
@@ -4376,17 +4409,6 @@
    "verified": false
   },
   {
-   "id": "nd7e589c62a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-   "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-   "published": "2026-10-26T14:52:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "x2114724058885726443",
    "kind": "x",
    "group": "darkweb",
@@ -4493,63 +4515,6 @@
    "severity": "high",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVj0skRXIAEaAcu.jpg"
-  },
-  {
-   "id": "x2114707143383265635",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@socradar",
-   "title": "Node2Shell reaches Python too. CVE-2026-111497 (Brotli decoder OOB write) ships in PyPI's Brotli and brotlicffi, which requests, httpx, and aiohttp use automatically. → Upgrade to Brotli 1.2.1 and brotlicffi 1.2.1.0 → Rebuild images,…",
-   "url": "https://x.com/socradar/status/2114707143383265635",
-   "published": "2026-10-26T13:14:06.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "nfd12e75b58",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "PhantomTac Attack Tricks Robots Into Dropping or Crushing Objects",
-   "url": "https://hackread.com/phantomtac-attack-robots-dropping-crushing-objects/",
-   "published": "2026-10-26T13:13:01.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "x2114706102218784964",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "📢 Ransomware Alert 🇦🇺 Race Trakka ( an Australia-based automotive services organization, has reportedly fallen victim to Qilin ransomware. 🛡️ Threat Actor: Qilin 📅 Reported on: 26/10/2026",
-   "url": "https://x.com/FalconFeedsio/status/2114706102218784964",
-   "published": "2026-10-26T13:09:58.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjx_Lpa4AAToFV.jpg"
-  },
-  {
-   "id": "x2114705848467701898",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@FalconFeedsio",
-   "title": "🚨 DDoS Alert 🇫🇷 NoName claims to have targeted the website of Europorte (",
-   "url": "https://x.com/FalconFeedsio/status/2114705848467701898",
-   "published": "2026-10-26T13:08:58.000Z",
-   "severity": "normal",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVjxwFEbkAAMoNQ.jpg"
-  },
-  {
-   "id": "x2114703924972134740",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@socradar",
-   "title": "5 new dark web claims, from 400GB for sale to plaintext passwords: → Finaxis.()cloud: 400GB → WoWInstaller: ~1.21M records → Argentine Moodle site → MyHairCare Australia: ~1M records → HT Médica: 2.2M records Mostly Unverified. Full…",
-   "url": "https://x.com/socradar/status/2114703924972134740",
-   "published": "2026-10-26T13:01:19.000Z",
-   "severity": "normal",
-   "verified": false
   }
  ]
 }
