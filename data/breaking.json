@@ -1,25 +1,25 @@
 {
- "updated": "2026-10-28T23:50:55.176Z",
+ "updated": "2026-10-29T00:33:58.309Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
-   "n": 3
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -27,7 +27,42 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -37,37 +72,7 @@
    "n": 1
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -80,11 +85,6 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,50 @@
   }
  ],
  "items": [
+  {
+   "id": "n080c3c0e6e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The major reason Microsoft’s stock is heading higher after earnings",
+   "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+   "published": "2026-10-29T00:10:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne10b3487c1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Transferring Unused IPv4 Addresses in Asia Pacific: The Complete APNIC Playbook",
+   "url": "https://hackread.com/transferring-ipv4-addresses-asia-pacific-apnic-playbook/",
+   "published": "2026-10-29T00:01:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n93c97ed934",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "No clear winner in Israel election with nearly 90 percent of votes counted",
+   "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted?traffic_source=rss",
+   "published": "2026-10-29T00:01:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nce0b2b4291",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+   "published": "2026-10-29T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n5525c8574c",
    "kind": "news",
@@ -2374,17 +2418,6 @@
    "verified": true
   },
   {
-   "id": "n53d10c0e93",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-   "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
-   "published": "2026-10-27T15:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc983b9bd45",
    "kind": "news",
    "group": "crisis",
@@ -4158,17 +4191,6 @@
    "verified": true
   },
   {
-   "id": "x2114721583692411243",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@sentdefender",
-   "title": "Talks between the Mecca Joint Defense Agreement nations and Iran begin today in Tehran, Iran, with Türkiye, Saudi Arabia, and Pakistan seeking to jointly find a way to resolve the conflict between the U.S. and Iran.",
-   "url": "https://x.com/sentdefender/status/2114721583692411243",
-   "published": "2026-10-26T14:11:29.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
    "id": "x2114721207757262991",
    "kind": "x",
    "group": "cyber",
@@ -4200,17 +4222,6 @@
    "published": "2026-10-26T14:06:13.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "x2114719824270250480",
-   "kind": "x",
-   "group": "crisis",
-   "source": "@BNONews",
-   "title": "NEW: Anthropic has filed paperwork to launch what could be the biggest IPO in history. SEC clearance is expected in the 2nd half of November, according to @Kalshi.",
-   "url": "https://x.com/BNONews/status/2114719824270250480",
-   "published": "2026-10-26T14:04:30.000Z",
-   "severity": "normal",
-   "verified": false
   },
   {
    "id": "x2114719483126493495",
@@ -4976,40 +4987,6 @@
    "severity": "normal",
    "verified": false,
    "img": "https://pbs.twimg.com/media/HVhNWrxbcAAjSCE.jpg"
-  },
-  {
-   "id": "x2114513676501647552",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@SwiftOnSecurity",
-   "title": "The future is looking a lot like a few who can responsibly mentally employ the capabilities of AI, an increasingly behind luddite class, and a massive psychosis life-neutering chasm between them. Like the people who cannot master cocaine,…",
-   "url": "https://x.com/SwiftOnSecurity/status/2114513676501647552",
-   "published": "2026-10-26T00:25:20.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114511394574159958",
-   "kind": "x",
-   "group": "blueteam",
-   "source": "@SwiftOnSecurity",
-   "title": "I asked Gemini Argon High how to self-improve its interactions with me. A lot of interesting insight. It has much more inner-architecture insight than I was expecting. Argon absolutely drains tokens but you can get a big run every 4 hours…",
-   "url": "https://x.com/SwiftOnSecurity/status/2114511394574159958",
-   "published": "2026-10-26T00:16:16.000Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "x2114510463534776624",
-   "kind": "x",
-   "group": "darkweb",
-   "source": "@DailyDarkWeb",
-   "title": "🇧🇩 🚨 BANGLADESH: THREAT ACTOR CLAIMS FULL SERVER COMPROMISE OF PUBALI BANK SECURITIES A threat actor on a dark web forum says it fully compromised the main cloud server infrastructure of Pubali Bank Securities, the brokerage arm of…",
-   "url": "https://x.com/DailyDarkWeb/status/2114510463534776624",
-   "published": "2026-10-26T00:12:34.000Z",
-   "severity": "high",
-   "verified": false,
-   "img": "https://pbs.twimg.com/media/HVhADrOXEAAdOD4.jpg"
   }
  ]
 }
