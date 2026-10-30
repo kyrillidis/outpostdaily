@@ -1,7 +1,7 @@
 {
  "date": "2026-10-30",
  "edition": 228,
- "compiled": "2026-10-30T18:41:50.588Z",
+ "compiled": "2026-10-30T22:44:37.725Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-2026-111357</a>",
    "published": "2026-10-30T12:00:00.000Z",
    "also": [],
-   "score": 1.76,
+   "score": 1.68,
    "t": "2026-10-30",
    "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
    "why": "Check whether affected products are in use and prioritize remediation.",
@@ -22,6 +22,50 @@
     "CISA",
     "vulnerabilities",
     "KEV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f167e37bde",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+   "published": "2026-10-30T21:09:46.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/f167e37bde.webp",
+   "t": "2026-10-30",
+   "summary": "Anthropic researchers developed an exploit for a critical Linux kernel vulnerability that may let unauthenticated attackers remotely run commands as root on MPTCP listener servers.",
+   "why": "Check whether servers run MPTCP listeners and prioritize investigating exposure to this kernel vulnerability.",
+   "tags": [
+    "Linux kernel",
+    "MPTCP",
+    "remote root"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ce4d8aef30",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+   "snippet": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+   "published": "2026-10-30T20:45:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/ce4d8aef30.webp",
+   "t": "2026-10-30",
+   "summary": "The DOJ’s Executive Office for U.S. Trustees says a consumer privacy ombudsman is needed to advise a court on terms for selling Character.AI data.",
+   "why": "Review what user data may be retained, shared, or sold, and how those terms are disclosed.",
+   "tags": [
+    "privacy",
+    "Character.AI",
+    "data sale"
    ],
    "ai": true
   },
@@ -40,7 +84,7 @@
      "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
     }
    ],
-   "score": 1.65,
+   "score": 1.56,
    "image": "/img/news/ad2cc061f5.webp",
    "t": "2026-10-30",
    "summary": "Researchers say a trojanized Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor.",
@@ -53,24 +97,23 @@
    "ai": true
   },
   {
-   "id": "ad4296e15e",
+   "id": "84a2c916c3",
    "section": "cyber",
-   "source": "Microsoft Security",
+   "source": "The Record",
    "weight": 0.6,
-   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-   "snippet": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
-   "published": "2026-10-30T16:11:44.000Z",
+   "title": "Fashion retailer Resolve says hackers stole payment card information",
+   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+   "snippet": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
+   "published": "2026-10-30T19:00:00.000Z",
    "also": [],
-   "score": 1.55,
-   "image": "/img/news/ad4296e15e.webp",
+   "score": 1.52,
+   "image": "/img/news/84a2c916c3.webp",
    "t": "2026-10-30",
-   "summary": "The post describes Teams support impersonation leading to remote access, malicious runtime execution, and AD CS abuse through authentication relay and Kerberos.",
-   "why": "Review help desk verification, certificate services, and authentication relay exposure.",
+   "summary": "Resolve says a recent hack exposed customer payment card numbers.",
+   "why": "Payment teams should assess potential card exposure and follow their incident response procedures.",
    "tags": [
-    "AD CS",
-    "Kerberos",
-    "authentication relay"
+    "payment cards",
+    "hack"
    ],
    "ai": true
   },
@@ -84,7 +127,7 @@
    "snippet": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
    "published": "2026-10-30T15:58:20.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.46,
    "image": "/img/news/e645dafde1.webp",
    "t": "2026-10-30",
    "summary": "Trezor says it received credible reports of a suspected crypto-theft implant in a Trezor Safe 5 sold by reseller CryptoBilis in Southeast Asia.",
@@ -106,7 +149,7 @@
    "snippet": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
    "published": "2026-10-30T15:54:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.46,
    "image": "/img/news/4bf9426962.webp",
    "t": "2026-10-30",
    "summary": "Florida’s Department of Education said it became aware of a breach involving the Florida Student Financial Aid website on October 19. The title says 4.9 million people had Social Security numbers leaked.",
@@ -115,6 +158,28 @@
     "Florida",
     "data breach",
     "Social Security numbers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ad4296e15e",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+   "snippet": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
+   "published": "2026-10-30T16:11:44.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/ad4296e15e.webp",
+   "t": "2026-10-30",
+   "summary": "The post describes Teams support impersonation leading to remote access, malicious runtime execution, and AD CS abuse through authentication relay and Kerberos.",
+   "why": "Review help desk verification, certificate services, and authentication relay exposure.",
+   "tags": [
+    "AD CS",
+    "Kerberos",
+    "authentication relay"
    ],
    "ai": true
   },
@@ -128,7 +193,7 @@
    "snippet": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
    "published": "2026-10-30T14:36:54.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.43,
    "image": "/img/news/96a0f026f2.webp",
    "t": "2026-10-30",
    "summary": "A malicious Claude Code extension distributed through Cursor's marketplace for about 11 hours exposed up to 5,000 developers to malware designed to install persistent SSH backdoors.",
@@ -150,7 +215,7 @@
    "snippet": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
    "published": "2026-10-30T14:24:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.43,
    "image": "/img/news/b44d4a56a6.webp",
    "t": "2026-10-30",
    "summary": "Ahmad Umar Agha, known as “Th3Pr0,” was sentenced to 42 months for his role in a conspiracy organized by former Syrian President Bashar al-Assad's closest advisers.",
@@ -163,68 +228,88 @@
    "ai": true
   },
   {
-   "id": "27c3e9ac81",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "016252315e",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "snippet": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend ",
-   "published": "2026-10-30T14:00:10.000Z",
+   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "url": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-213",
+   "snippet": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+   "published": "2026-10-30T22:33:00.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/27c3e9ac81.webp",
+   "score": 1.6,
+   "image": "/img/news/016252315e.webp",
    "t": "2026-10-30",
-   "summary": "The article says flaws in SS7 and Diameter can enable location tracking, call and SMS-code interception, and subscriber impersonation without compromising a device.",
-   "why": "Consider telecom signaling risks when relying on phone-based verification.",
+   "summary": "The post is a weekly Bunker Talk discussion; its snippet offers no substantive coverage details.",
+   "why": "The snippet provides no specific warfare technology or operational detail to assess.",
    "tags": [
-    "SS7",
-    "Diameter",
-    "SMS"
+    "Bunker Talk"
    ],
    "ai": true
   },
   {
-   "id": "09382f9362",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "b0920e8464",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "CISA says max severity GitLab flaw now exploited in the wild",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-   "snippet": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-   "published": "2026-10-30T13:00:32.000Z",
+   "title": "Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims",
+   "url": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims",
+   "snippet": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
+   "published": "2026-10-30T21:32:50.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/09382f9362.webp",
+   "score": 1.58,
+   "image": "/img/news/b0920e8464.webp",
    "t": "2026-10-30",
-   "summary": "CISA says attackers are exploiting a maximum-severity GitLab vulnerability that was patched earlier this month.",
-   "why": "Confirm GitLab instances are patched and review them for signs of exploitation.",
+   "summary": "The War Zone says signs of preparations for a GJ-21 drone milestone in naval airpower have been growing for more than a year; China claims it launched and recovered the drone from a Type 076 ship.",
+   "why": "Ship-based drone operations may be relevant to assessing naval airpower and deployment capabilities.",
    "tags": [
-    "GitLab",
-    "vulnerability",
-    "exploitation"
+    "GJ-21",
+    "drone",
+    "Type 076"
    ],
    "ai": true
   },
   {
-   "id": "bb609cd39a",
-   "section": "cyber",
-   "source": "The Record",
+   "id": "6b965cdbc6",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
-   "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-   "snippet": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
-   "published": "2026-10-30T12:52:00.000Z",
+   "title": "Highlights From North Korea’s Drone-A-Palooza",
+   "url": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza",
+   "snippet": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
+   "published": "2026-10-30T20:34:48.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/bb609cd39a.webp",
+   "score": 1.55,
+   "image": "/img/news/6b965cdbc6.webp",
    "t": "2026-10-30",
-   "summary": "A watchdog said it was very concerned about the time GCHQ took to investigate thousands of data storage devices it could not account for.",
-   "why": "The report highlights the importance of tracking storage devices and investigating losses promptly.",
+   "summary": "The War Zone describes North Korea displaying reconnaissance and attack drones, including an aspirational stealthy UCAV concept.",
+   "why": "The display highlights reconnaissance and attack drones as capabilities to track in military assessments.",
    "tags": [
-    "GCHQ",
-    "storage devices",
-    "watchdog"
+    "North Korea",
+    "drones",
+    "UCAV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a689403a33",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies",
+   "url": "https://breakingdefense.com/2026/10/us-greenlights-500-patriot-missiles-for-ukraine-with-2-1-billion-to-be-paid-by-allies/",
+   "snippet": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
+   "published": "2026-10-30T20:17:22.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/a689403a33.webp",
+   "t": "2026-10-30",
+   "summary": "The announcement of 500 Patriot missiles for Ukraine comes amid heightened Kyiv-Washington tensions and purported delays in interceptor transfers.",
+   "why": "The reported transfer and delays are relevant to assessing Ukraine’s interceptor supply.",
+   "tags": [
+    "Patriot",
+    "Ukraine",
+    "interceptors"
    ],
    "ai": true
   },
@@ -238,7 +323,7 @@
    "snippet": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
    "published": "2026-10-30T18:33:46.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.51,
    "image": "/img/news/eab5c25b88.webp",
    "t": "2026-10-30",
    "summary": "The title reports a limpet mine placed on a ship’s hull in a Strait of Hormuz attack. The snippet describes additional regional air defenses, ships, troops, ammunition, and supplies.",
@@ -260,7 +345,7 @@
    "snippet": "NORAD’s return to fighter alert ops on remote Shemya Island is yet another reminder of the eroding security environment in the Pacific and the Arctic. The post USAF F-16s Back On Alert Duty In Aleutian Islands For First Time In Decades appeared first on TWZ .",
    "published": "2026-10-30T17:50:19.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.5,
    "image": "/img/news/e32721d9dc.webp",
    "t": "2026-10-30",
    "summary": "NORAD has returned to fighter alert operations on remote Shemya Island, which the article describes as a reminder of an eroding security environment in the Pacific and Arctic.",
@@ -282,7 +367,7 @@
    "snippet": "The company is also aiming to trial an air-to-ground derivative of their FQ-42 Vengeance CCA in live-fire tests next year. The post General Atomics Developing Strike-Recon Flying Wing Called NextGen That Uses Hybrid-Electric Propulsion appeared first on TWZ .",
    "published": "2026-10-30T16:14:23.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.46,
    "image": "/img/news/d72e778a44.webp",
    "t": "2026-10-30",
    "summary": "General Atomics is developing a strike-recon flying wing using hybrid-electric propulsion and aims to trial an air-to-ground derivative of its FQ-42 Vengeance CCA in live-fire tests next year.",
@@ -304,7 +389,7 @@
    "snippet": "Middle East Bureau Chief Agnes Helou breaks down efforts by Turkey and Gulf nations to bolster their defense capabilities amid ongoing regional instability.",
    "published": "2026-10-30T14:45:56.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.43,
    "image": "/img/news/69742f5f06.webp",
    "t": "2026-10-30",
    "summary": "A Breaking Defense report discusses Turkey and Gulf nations’ efforts to bolster defense capabilities amid ongoing regional instability.",
@@ -317,90 +402,112 @@
    "ai": true
   },
   {
-   "id": "7521f8cf0a",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "‘Open the hives’ — Why France is turning tank gunners into FPV pilots",
-   "url": "https://www.defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots/",
-   "snippet": "Cpl. Igor started a new job this year, swapping the sights of a 105 mm gun on the French Army's AMX 10 RC reconnaissance vehicle for first-person view goggles and a handheld controller.",
-   "published": "2026-10-30T17:57:48.000Z",
+   "id": "d7f71a1433",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "US approves sale of 500 Patriot missiles to Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+   "published": "2026-10-30T22:20:52.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/7521f8cf0a.webp",
+   "score": 1.59,
+   "image": "/img/news/d7f71a1433.webp",
    "t": "2026-10-30",
-   "summary": "A French Army corporal has swapped operating an AMX 10 RC reconnaissance vehicle’s 105 mm gun for FPV goggles and a handheld controller.",
-   "why": "The change brings FPV piloting into the role of a tank gunner.",
+   "summary": "The BBC says the US approved the sale of 500 Patriot missiles to Ukraine and describes the interceptors as the only effective weapon against Russia’s ballistic missiles.",
+   "why": "The sale has strategic relevance to Ukraine’s ability to counter ballistic missiles.",
    "tags": [
-    "FPV",
-    "France",
-    "AMX 10 RC"
+    "Patriot",
+    "Ukraine",
+    "ballistic missiles"
    ],
    "ai": true
   },
   {
-   "id": "d1cd3ec292",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "From tanks to space, Norway and Germany forge ahead with ‘Hansa’ defense pact",
-   "url": "https://www.defensenews.com/global/europe/2026/10/30/from-tanks-to-space-norway-and-germany-forge-ahead-with-hansa-defense-pact/",
-   "snippet": "German tank maker KNDS and Norway’s Ritek have begun producing Leopard 2A8 tanks in Norway, adding a land-based industrial foothold to a security partnership spanning submarines, missiles and military operations in Europe’s north.",
-   "published": "2026-10-30T15:58:31.000Z",
+   "id": "71ae56c921",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+   "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+   "published": "2026-10-30T22:11:52.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/d1cd3ec292.webp",
+   "score": 1.59,
+   "image": "/img/news/71ae56c921.webp",
    "t": "2026-10-30",
-   "summary": "KNDS and Norway’s Ritek have begun producing Leopard 2A8 tanks in Norway, adding a land-based industrial component to a broader security partnership.",
-   "why": "The production adds a manufacturing dimension to northern European defense cooperation.",
+   "summary": "European foreign ministers refused to be pictured with Sergei Lavrov, leading to cancellation of the G20 family photo in Atlanta.",
+   "why": "The cancelled photo reflects diplomatic tensions at the summit.",
    "tags": [
-    "Leopard 2A8",
-    "Norway",
-    "Hansa"
+    "G20",
+    "Russia",
+    "protests"
    ],
    "ai": true
   },
   {
-   "id": "83a787f82a",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Ukraine completes work on new missile defense system, awaits European partner components",
-   "url": "https://www.defensenews.com/global/europe/2026/10/30/ukraine-completes-work-on-new-missile-defense-system-awaits-european-partner-components/",
-   "snippet": "Ukraine has completed its share of Freyja, the multinational antiballistic shield that Europe and Kyiv are racing to bring together.",
-   "published": "2026-10-30T14:56:47.000Z",
+   "id": "cf944895c6",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+   "published": "2026-10-30T21:13:14.000Z",
    "also": [],
-   "score": 1.42,
-   "image": "/img/news/83a787f82a.webp",
+   "score": 1.57,
+   "image": "/img/news/cf944895c6.webp",
    "t": "2026-10-30",
-   "summary": "Ukraine has completed its share of Freyja, a multinational antiballistic shield that Europe and Kyiv are working to bring together.",
-   "why": "The system’s progress is relevant to European and Ukrainian missile defense.",
+   "summary": "Binance is attempting to recover $6.3 billion stolen in a hack linked to North Korea; the company describes the cyberattack as complex.",
+   "why": "The recovery effort makes incident response and tracing stolen crypto assets relevant.",
    "tags": [
-    "Freyja",
-    "missile defense",
-    "Ukraine"
+    "Binance",
+    "hack",
+    "North Korea"
    ],
    "ai": true
   },
   {
-   "id": "38b78d1b1c",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "EOS Defense Systems Prepares to Build Slinger Counter-Drone Systems",
-   "url": "https://www.defensenews.com/video/2026/10/30/eos-defense-systems-prepares-to-build-slinger-counter-drone-systems/",
-   "snippet": "EOS Defense Systems discusses plans for U.S. production of its Slinger counter-drone system, AI-assisted targeting and adjustable levels of autonomy.",
-   "published": "2026-10-30T14:28:39.000Z",
+   "id": "169b890179",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "The World’s Biggest Crypto Heist",
+   "url": "https://foreignpolicy.com/2026/10/30/binance-cryptocurrency-hack-north-korea/",
+   "snippet": "Suspected North Korean hackers stole $6.36 billion in digital coins from Binance.",
+   "published": "2026-10-30T20:44:08.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/38b78d1b1c.webp",
+   "score": 1.56,
+   "image": "/img/news/169b890179.webp",
    "t": "2026-10-30",
-   "summary": "EOS Defense Systems discusses plans for U.S. production of its Slinger counter-drone system, including AI-assisted targeting and adjustable autonomy.",
-   "why": "Production plans and autonomy settings are relevant to counter-drone capabilities.",
+   "summary": "Foreign Policy says suspected North Korean hackers stole $6.36 billion in digital coins from Binance.",
+   "why": "The reported theft makes tracking digital-asset incident claims and response important for security teams.",
    "tags": [
-    "Slinger",
-    "counter-drone",
-    "autonomy"
+    "North Korea",
+    "crypto",
+    "Binance"
+   ],
+   "ai": true
+  },
+  {
+   "id": "20108709fe",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+   "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+   "published": "2026-10-30T20:41:51.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/20108709fe.webp",
+   "t": "2026-10-30",
+   "summary": "The BBC reports that Novaya Gazeta’s founder says authorities pressured the Russian newspaper, which has been a prominent independent outlet for decades.",
+   "why": "The account is relevant to understanding constraints on independent media in Russia.",
+   "tags": [
+    "Russia",
+    "Novaya Gazeta",
+    "press"
    ],
    "ai": true
   },
@@ -414,7 +521,7 @@
    "snippet": "The European Space Agency (ESA) made two navigation announcements in the span of two days, ordering four more Galileo Second Generation (G2) satellites... The post ESA Adds Four Galileo G2 Satellites, Funds Norwegian Work on Jamming and Spoofing Resilience appeared first on Inside GNSS - Global Navigation Satellite Sys",
    "published": "2026-10-30T14:41:14.000Z",
    "also": [],
-   "score": 1.62,
+   "score": 1.53,
    "t": "2026-10-30",
    "summary": "ESA announced orders for four more Galileo Second Generation satellites and funding for Norwegian work on jamming and spoofing resilience.",
    "why": "The announcements connect navigation infrastructure with resilience to signal interference.",
@@ -435,7 +542,7 @@
    "snippet": "On September 30, Defense Secretary Pete Hegseth announced FORTRESS America, a new initiative intended to strengthen the nation’s ability to sustain military operations... The post FORTRESS America: Will PNT Resilience Become a Pentagon Priority? appeared first on Inside GNSS - Global Navigation Satellite Systems Engine",
    "published": "2026-10-30T14:28:21.000Z",
    "also": [],
-   "score": 1.61,
+   "score": 1.53,
    "image": "/img/news/761e1cae72.webp",
    "t": "2026-10-30",
    "summary": "The article says Defense Secretary Pete Hegseth announced FORTRESS America on September 30, an initiative intended to strengthen the nation’s ability to sustain military operations.",
@@ -448,134 +555,24 @@
    "ai": true
   },
   {
-   "id": "3b691ccaab",
+   "id": "9b02f48462",
    "section": "geo",
    "source": "Foreign Policy",
    "weight": 0.6,
-   "title": "What in the World?",
-   "url": "https://foreignpolicy.com/2026/10/30/news-quiz-lula-brazil-election-serbia-vucic-israel-china-fifth-plenum-ccp/",
-   "snippet": "Test yourself on the week of Oct. 24: Brazil, Israel, and Serbia vote; China’s fifth plenum begins; and Trump campaigns ahead of the midterms.",
-   "published": "2026-10-30T17:47:37.000Z",
+   "title": "Russia the Disruptor",
+   "url": "https://foreignpolicy.com/2026/10/30/russia-war-ukraine-books-us-history-kinzer-haslam-notte/",
+   "snippet": "How Moscow broke with the West—and unleashed a more chaotic world.",
+   "published": "2026-10-30T19:15:49.000Z",
    "also": [],
-   "score": 1.58,
-   "image": "/img/news/3b691ccaab.webp",
+   "score": 1.53,
+   "image": "/img/news/9b02f48462.webp",
    "t": "2026-10-30",
-   "summary": "The quiz covers Brazil, Israel, and Serbia voting, China’s fifth plenum beginning, and Trump campaigning ahead of the midterms.",
-   "why": "These events provide a snapshot of political activity across several countries.",
+   "summary": "Foreign Policy describes how Moscow broke with the West and unleashed a more chaotic world.",
+   "why": "The framing offers geopolitical context for assessing Russia’s relationship with the West.",
    "tags": [
-    "Brazil",
-    "China",
-    "votes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "75e454f34d",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Why Trump’s Hail Mary on Fuel Prices Fell Short",
-   "url": "https://foreignpolicy.com/2026/10/30/trump-russia-diesel-deal-putin-prices-midterms-iran-war/",
-   "snippet": "Appeasing Moscow and punting on Iran haven’t calmed oil markets or voters.",
-   "published": "2026-10-30T17:31:38.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/75e454f34d.webp",
-   "t": "2026-10-30",
-   "summary": "The article says efforts to appease Moscow and defer action on Iran have not calmed oil markets or voters.",
-   "why": "The story links foreign policy choices with energy-market and voter concerns.",
-   "tags": [
-    "Moscow",
-    "Iran",
-    "oil markets"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cf944895c6",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-   "published": "2026-10-30T17:39:43.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/cf944895c6.webp",
-   "t": "2026-10-30",
-   "summary": "Binance is attempting to recover $6.3 billion stolen in a hack linked to North Korea; the company describes the cyberattack as complex.",
-   "why": "The recovery effort makes incident response and tracing stolen crypto assets relevant.",
-   "tags": [
-    "Binance",
-    "hack",
-    "North Korea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "71ae56c921",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-   "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "European foreign ministers refused to be pictured with Sergei Lavrov at the summit being held in Atlanta.",
-   "published": "2026-10-30T17:25:20.000Z",
-   "also": [],
-   "score": 1.57,
-   "image": "/img/news/71ae56c921.webp",
-   "t": "2026-10-30",
-   "summary": "European foreign ministers refused to be pictured with Sergei Lavrov, leading to cancellation of the G20 family photo in Atlanta.",
-   "why": "The cancelled photo reflects diplomatic tensions at the summit.",
-   "tags": [
-    "G20",
     "Russia",
-    "protests"
-   ],
-   "ai": true
-  },
-  {
-   "id": "258f1c327c",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "The Gulf Isn’t Ready for a Renewed Iran War",
-   "url": "https://foreignpolicy.com/2026/10/30/iran-war-gulf-energy-infrastructure/",
-   "snippet": "The region’s energy infrastructure can’t absorb another round of fighting.",
-   "published": "2026-10-30T16:43:49.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/258f1c327c.webp",
-   "t": "2026-10-30",
-   "summary": "The article argues that the Gulf’s energy infrastructure cannot absorb another round of fighting.",
-   "why": "Energy infrastructure is a strategic vulnerability in any renewed regional conflict.",
-   "tags": [
-    "Gulf",
-    "energy infrastructure",
-    "Iran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "94aa659fdf",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
-   "published": "2026-10-30T16:26:11.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/94aa659fdf.webp",
-   "t": "2026-10-30",
-   "summary": "An evacuation corridor opened in Russian-occupied Oleshky. Several hundred residents are understood to have decided to stay despite shortages of gas, electricity and running water.",
-   "why": "The corridor and residents' decision to stay shape movement and conditions in the frontline town.",
-   "tags": [
-    "Oleshky",
-    "evacuation corridor",
-    "frontline"
+    "West",
+    "geopolitics"
    ],
    "ai": true
   }
@@ -727,47 +724,47 @@
   }
  ],
  "run_today": [
-  "Check systems for the vulnerabilities CISA added to the KEV Catalog and prioritize remediation.",
-  "Audit Cursor-installed extensions and investigate unexpected SSH keys, access, or persistence.",
-  "Review whether phone-based verification is appropriate for sensitive accounts given SS7 and Diameter risks."
+  "Identify Linux servers running MPTCP listeners and assess their exposure to the reported kernel flaw.",
+  "Review monitoring and incident response for signs of unauthorized access to exposed MPTCP servers.",
+  "Check payment-card incident procedures and customer communication plans in light of Resolve’s disclosure."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
-   "explainer": "CISA’s catalog of vulnerabilities for which it has evidence of active exploitation. Its additions can help defenders identify vulnerabilities that warrant attention.",
-   "from_id": "4760f9242e",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "fromSource": "CISA Advisories"
+   "term": "MPTCP",
+   "explainer": "Multipath TCP (MPTCP) is the networking protocol named in the Linux vulnerability report. The snippet identifies servers running MPTCP listeners as potentially affected.",
+   "from_id": "f167e37bde",
+   "from": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Limpet mine",
-   "explainer": "A mine placed on a ship’s hull, as described in the Strait of Hormuz story. It is a way of attacking a vessel by attaching an explosive device to its exterior.",
-   "from_id": "eab5c25b88",
-   "from": "https://www.twz.com/news-features/iran-used-limpet-mine-placed-on-ships-hull-in-latest-strait-of-hormuz-attack-report",
+   "term": "UCAV",
+   "explainer": "A UCAV is an unmanned combat aerial vehicle. The snippet describes North Korea displaying reconnaissance and attack drones, including a stealthy UCAV concept.",
+   "from_id": "6b965cdbc6",
+   "from": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza",
    "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "PNT",
-   "explainer": "Positioning, navigation, and timing: information used to establish location, navigate, and keep time. The article connects PNT resilience with sustaining military operations.",
-   "from_id": "761e1cae72",
-   "from": "https://insidegnss.com/fortress-america-will-pnt-resilience-become-a-pentagon-priority/",
-   "fromSource": "Inside GNSS"
+   "term": "Patriot interceptors",
+   "explainer": "Patriot interceptors are missiles described in the item as American-made weapons for downing ballistic missiles. The report concerns US approval of their sale to Ukraine.",
+   "from_id": "d7f71a1433",
+   "from": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Resilience Across Networks, Navigation, and Security",
+  "headline": "Security, military capability and geopolitical signals",
   "paragraphs": [
-   "The stories point to resilience as a shared concern across digital and physical systems. CISA’s KEV additions and the trojanized developer extension highlight exposure through software, while Galileo’s planned satellites and work on jamming and spoofing resilience focus on navigation infrastructure.",
-   "For defenders, the practical message is to prioritize known exploited vulnerabilities, scrutinize trusted software sources, and account for persistent access. For analysts, the FORTRESS America article frames PNT resilience as a question about sustaining military operations; the snippets do not establish how that initiative will develop.",
-   "Operational stories add context: the Strait of Hormuz report describes a ship-hull mine, while NORAD’s return to fighter alert duty is tied to an eroding security environment. These accounts suggest attention to both maritime and regional posture. Watch how resilience efforts and operational activity are described across domains."
+   "The stories span technical exposure, military systems and political tensions. The Linux kernel report describes a route to remote root access on MPTCP listeners, while the CISA item signals vulnerabilities added to its exploited-vulnerability catalog. Together, they underscore the value of checking exposure and acting on vulnerability guidance.",
+   "Military reporting presents distinct operational signals: China claims a GJ-21 drone launch and recovery from a Type 076 ship, while the US approved a Patriot missile sale to Ukraine. These reports concern different capabilities; the snippets do not establish a direct connection between them.",
+   "The G20 dispute and reporting on a suspected crypto theft linked to North Korea add political and cyber dimensions. For analysts, attribution and claims should remain qualified. Watch for further details on the vulnerability, the drone claim, and the terms and implementation of the missile sale."
   ],
   "takeaways": [
-   "Prioritize CISA-listed vulnerabilities and review software supply paths.",
-   "Galileo plans and PNT resilience appear in the same strategic discussion.",
-   "The snippets describe maritime and air-alert activity amid security concerns."
+   "Check MPTCP exposure and review vulnerability guidance.",
+   "Treat operational claims as claims until supported by further details.",
+   "Track the distinct military and diplomatic developments without assuming a connection."
   ]
  },
  "health": [
@@ -793,7 +790,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 22
+   "n": 19
   },
   {
    "name": "The Record",
@@ -841,25 +838,25 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Defense One",
@@ -876,8 +873,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 3
   },
   {
    "name": "Bellingcat",
@@ -919,13 +916,13 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "RAND",
@@ -937,19 +934,19 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 3
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Al Jazeera",
@@ -961,7 +958,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 8
   }
  ]
 }
