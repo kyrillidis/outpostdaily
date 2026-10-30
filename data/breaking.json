@@ -1,16 +1,6 @@
 {
- "updated": "2026-10-30T04:46:01.967Z",
+ "updated": "2026-10-30T11:03:08.431Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -18,8 +8,18 @@
   },
   {
    "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "MarketWatch",
@@ -27,17 +27,17 @@
    "n": 6
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 3
+   "n": 6
   },
   {
-   "name": "Krebs on Security",
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -49,17 +49,12 @@
   {
    "name": "Hackread",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
    "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Daily Dark Web",
@@ -69,6 +64,11 @@
   {
    "name": "Dark Reading",
    "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
    "n": 0
   },
   {
@@ -77,19 +77,19 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,193 @@
   }
  ],
  "items": [
+  {
+   "id": "n55dacb3b4e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+   "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
+   "published": "2026-10-30T10:40:52.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n24418435d7",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s the math on Amazon CEO’s claim to be on path to two trillion-dollar revenue businesses",
+   "url": "https://www.marketwatch.com/story/heres-the-math-on-amazon-ceos-claim-to-be-on-path-to-two-trillion-dollar-revenue-businesses-34d648e8?mod=mw_rss_topstories",
+   "published": "2026-10-30T10:34:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n94aa659fdf",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-30T10:32:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neaaaa83e33",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+   "published": "2026-10-30T10:16:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n92f071269d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+   "url": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+   "published": "2026-10-30T10:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nee056f6d0c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "What can a global strike of dockworkers achieve for Gaza?",
+   "url": "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza?traffic_source=rss",
+   "published": "2026-10-30T10:04:35.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7845354e7d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s when Binance plans to reopen after what’s believed to be the largest-ever $6.3 billion hack",
+   "url": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories",
+   "published": "2026-10-30T09:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb9b0ad284b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
+   "url": "https://www.aljazeera.com/news/2026/10/30/saudi-arabia-reports-interception-of-houthi-drone-targeting-mecca?traffic_source=rss",
+   "published": "2026-10-30T09:42:42.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n93a6b87fe4",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "published": "2026-10-30T09:18:13.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd9c871411c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My father has early Alzheimer’s and his caregiver is using his debit card for DoorDash. What can I do?",
+   "url": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+   "published": "2026-10-30T09:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb5e59cd982",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russian oil refinery struck as Ukraine renews drone attacks",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss",
+   "published": "2026-10-30T09:14:16.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nc514f84613",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Solidcore founder Anne Mahlum plans enormous 10-bedroom ‘dream home’",
+   "url": "https://www.marketwatch.com/story/solidcore-founder-anne-mahlum-plans-enormous-10-bedroom-dream-home-032e0444?mod=mw_rss_topstories",
+   "published": "2026-10-30T09:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n422ba7560e",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "Binance Hack: Inside the $6.3B Hot Wallet Theft",
+   "url": "https://socradar.io/blog/binance-hack-6-3b-hot-wallet-theft/",
+   "published": "2026-10-30T08:51:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd6bdff54c6",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+   "url": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising?traffic_source=rss",
+   "published": "2026-10-30T08:36:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncbeb091a6e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
+   "url": "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
+   "published": "2026-10-30T08:20:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf6a72b86d8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+   "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+   "published": "2026-10-30T08:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd3df03fc2d",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Hacker leaks data on more than 40,000 Homeland Security employees",
+   "url": "https://securityaffairs.com/202103/data-breach/hacker-leaks-data-on-more-than-40000-homeland-security-employees.html",
+   "published": "2026-10-30T06:26:27.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "nbec7151a9b",
    "kind": "news",
@@ -2000,39 +2187,6 @@
    "verified": true
   },
   {
-   "id": "nc8953c3c38",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The cost of money itself is on the ballot as voters struggle with pricey car loans, mortgages and credit-card debt",
-   "url": "https://www.marketwatch.com/story/the-cost-of-money-itself-is-on-the-ballot-as-voters-struggle-with-pricey-car-loans-mortgages-and-credit-card-debt-c2cd83a0?mod=mw_rss_topstories",
-   "published": "2026-10-28T20:11:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf936108b6e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information rich’ period is coming.",
-   "url": "https://www.marketwatch.com/story/why-did-the-fed-hold-off-on-raising-interest-rates-warsh-says-its-because-an-information-rich-period-is-coming-098ced8d?mod=mw_rss_topstories",
-   "published": "2026-10-28T19:56:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne7d2c58fd7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Here’s what just sent Oracle’s stock soaring",
-   "url": "https://www.marketwatch.com/story/heres-what-just-sent-oracles-stock-soaring-7a1a91e2?mod=mw_rss_topstories",
-   "published": "2026-10-28T19:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n8937932686",
    "kind": "news",
    "group": "cyber",
@@ -2073,28 +2227,6 @@
    "title": "From Rules to AI and Back",
    "url": "https://hackread.com/from-rules-to-ai-and-back/",
    "published": "2026-10-28T18:59:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6e63b151d3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Elon Musk says he can build a wireless carrier in two to three years. Is that possible?",
-   "url": "https://www.marketwatch.com/story/elon-musk-says-he-can-build-a-wireless-carrier-in-two-to-three-years-is-that-possible-5ccf9685?mod=mw_rss_topstories",
-   "published": "2026-10-28T18:58:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n925be486fe",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Gen Z voters told us the midterms will boil down to affording life, not social issues",
-   "url": "https://www.marketwatch.com/story/gen-z-voters-told-us-the-midterms-will-boil-down-to-affording-life-not-social-issues-11bd1734?mod=mw_rss_topstories",
-   "published": "2026-10-28T18:56:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -4053,204 +4185,6 @@
    "title": "Netherlands pulls out of Eurovision again over Israel participation",
    "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-10-27T11:23:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n55f3ea8f84",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Families of victims killed in Jordanian strike deny links to church attack",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/families-of-victims-killed-in-jordanian-strike-deny-links-to-church-attack?traffic_source=rss",
-   "published": "2026-10-27T10:52:48.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n60e8b95738",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-   "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
-   "published": "2026-10-27T10:44:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4b3604c83d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds PHP flaws PHP2Shell to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/201840/security/u-s-cisa-adds-php-flaws-php2shell-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-10-27T10:39:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8fb6baef2f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran says US ‘not serious’ about talks amid Tehran meeting",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/iran-says-us-not-serious-about-talks-amid-tehran-meeting?traffic_source=rss",
-   "published": "2026-10-27T10:36:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1813786389",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-   "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-   "published": "2026-10-27T10:36:12.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n74b41528b8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "North Korean howitzer guns spotted close to border with South Korea",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/north-korean-howitzer-guns-spotted-close-to-border-with-south-korea?traffic_source=rss",
-   "published": "2026-10-27T10:22:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbc54303bdc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "What does Israel's election mean for and the wider world",
-   "url": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-27T10:17:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n177d2de823",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-   "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-   "published": "2026-10-27T10:02:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8b51eaf3f3",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Attackers Take Control of Dahua Cameras and Video Recorders Via Easy4IP",
-   "url": "https://securityaffairs.com/201827/hacking/attackers-take-control-of-dahua-cameras-and-video-recorders-via-easy4ip.html",
-   "published": "2026-10-27T09:56:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb7087025de",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
-   "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
-   "published": "2026-10-27T09:44:50.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n1da67faa3c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-   "published": "2026-10-27T09:33:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n80748b6e9c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel election results 2026: When will we know who won and what’s next?",
-   "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next?traffic_source=rss",
-   "published": "2026-10-27T09:22:45.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncde63e947c",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Cohere Finds Qwen AI Model Contacting a Server in China",
-   "url": "https://securityaffairs.com/201810/ai/cohere-finds-qwen-ai-model-contacting-a-server-in-china.html",
-   "published": "2026-10-27T09:07:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9bf9a3f733",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israelis begin voting as Netanyahu fights for political survival",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/israelis-begin-voting-as-netanyahu-fights-for-political-survival?traffic_source=rss",
-   "published": "2026-10-27T08:38:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1d9e497bb1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Why it could take time for a new Israeli government to form",
-   "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-27T08:37:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9a196af41",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Drone strike kills at least 21 and injures 40 in Sudan’s Nyala",
-   "url": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala?traffic_source=rss",
-   "published": "2026-10-27T08:35:27.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n871be98cd4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
-   "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
-   "published": "2026-10-27T08:02:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1470664668",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "Wasmtime Sandbox Escape Flaws Patched in Cranelift",
-   "url": "https://socradar.io/blog/wasmtime-sandbox-escape-cranelift/",
-   "published": "2026-10-27T07:29:50.000Z",
    "severity": "normal",
    "verified": true
   }
