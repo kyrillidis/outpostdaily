@@ -1,7 +1,7 @@
 {
  "date": "2026-10-30",
  "edition": 228,
- "compiled": "2026-10-30T00:11:18.764Z",
+ "compiled": "2026-10-30T06:07:49.100Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -14,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful ex",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.52,
    "t": "2026-10-29",
    "summary": "Hitachi Energy says OS command injection and Dirty Frag vulnerabilities affect its CoreTec product.",
    "why": "Check whether CoreTec is in your environment and review the relevant advisory for mitigation guidance.",
@@ -35,7 +35,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-97229\" target=\"_blank\">CVE-202",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.52,
    "t": "2026-10-29",
    "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation.",
    "why": "Check whether affected systems are present and prioritize mitigation using CISA’s KEV Catalog.",
@@ -56,7 +56,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be e",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.52,
    "t": "2026-10-29",
    "summary": "Hitachi Energy says multiple vulnerabilities affect TRO600 series products.",
    "why": "Check for TRO600 products and consult the advisory for affected versions and recommended action.",
@@ -77,7 +77,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by repl",
    "published": "2026-10-29T12:00:00.000Z",
    "also": [],
-   "score": 1.65,
+   "score": 1.52,
    "t": "2026-10-29",
    "summary": "The Mendix SAML module contains an authentication bypass vulnerability, according to the advisory snippet.",
    "why": "Identify use of the Mendix SAML module and review authentication controls and the advisory.",
@@ -98,7 +98,7 @@
    "snippet": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
    "published": "2026-10-29T23:35:52.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.46,
    "image": "/img/news/7363e725b5.webp",
    "t": "2026-10-30",
    "summary": "OpenAI says it will keep usage limits unchanged for ChatGPT Pro and Business Premium plans, and keep Dots usage independent.",
@@ -106,6 +106,28 @@
    "tags": [
     "ChatGPT Pro",
     "usage limits"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1dad8889ea",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+   "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+   "snippet": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion U",
+   "published": "2026-10-30T04:14:59.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/1dad8889ea.webp",
+   "t": "2026-10-30",
+   "summary": "Binance says a security incident affected about $6.3 billion in assets, with nearly $3 billion frozen on-chain so far.",
+   "why": "Review exposure to the affected platform and verify controls for safeguarding and transferring assets.",
+   "tags": [
+    "Binance",
+    "security incident",
+    "assets"
    ],
    "ai": true
   },
@@ -119,7 +141,7 @@
    "snippet": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .",
    "published": "2026-10-29T18:00:34.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.45,
    "image": "/img/news/2810027585.webp",
    "t": "2026-10-21",
    "summary": "Unit 42 identifies CVE-2026-109618 and CVE-2026-109619 as critical PHP vulnerabilities affecting software used for web servers and CMS systems.",
@@ -141,7 +163,7 @@
    "snippet": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
    "published": "2026-10-29T22:45:23.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.45,
    "image": "/img/news/7d9fa054e5.webp",
    "t": "2026-10-30",
    "summary": "Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, BleepingComputer reports.",
@@ -163,7 +185,7 @@
    "snippet": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
    "published": "2026-10-29T22:09:24.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.43,
    "image": "/img/news/a6d0e88b74.webp",
    "t": "2026-10-29",
    "summary": "BleepingComputer reports a crypto-mining campaign abusing Hugging Face models has returned after a takedown, hijacking GPU servers and planting backdoors. A model was downloaded over 28,000 times.",
@@ -185,7 +207,7 @@
    "snippet": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
    "published": "2026-10-29T22:08:04.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.43,
    "image": "/img/news/17e71a11c7.webp",
    "t": "2026-10-29",
    "summary": "Japan Airlines says a breach at Amadeus's Passenger Service System exposed data belonging to about 92,000 customers.",
@@ -194,28 +216,6 @@
     "Japan Airlines",
     "data breach",
     "passenger info"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fe7730fa40",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-   "snippet": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet. [...]",
-   "published": "2026-10-29T21:47:25.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/fe7730fa40.webp",
-   "t": "2026-10-29",
-   "summary": "BleepingComputer reports Polymarket suspended trading after hackers used a compromised third-party service to distribute cryptocurrency-draining JavaScript; about $2.5 million in assets was traced to a suspected attacker wallet.",
-   "why": "Check third-party services and review JavaScript delivered to users for unauthorized changes.",
-   "tags": [
-    "third-party service",
-    "JavaScript",
-    "cryptocurrency"
    ],
    "ai": true
   },
@@ -229,7 +229,7 @@
    "snippet": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. Imagery captured by the European Space Agency’s freely available Sentinel-2 and Sentinel-1 satellites appears to be delayed over Gaza and parts of the West Bank, a Bellingcat an",
    "published": "2026-10-29T22:15:59.000Z",
    "also": [],
-   "score": 1.66,
+   "score": 1.54,
    "image": "/img/news/c869b0dd18.webp",
    "t": "2026-10-29",
    "summary": "Bellingcat reports that EU satellite imagery over Gaza and parts of the West Bank is delayed by 24 hours. Its snippet refers to imagery from freely available Sentinel satellites.",
@@ -251,7 +251,7 @@
    "snippet": "As part of a multibillion-dollar missile-production expansion, Washington and Tokyo also seek to accelerate production of the SM-3 Block IIA interceptor. The post Japan To Assemble AMRAAM Missiles As U.S. Moves To Dramatically Boost AIM-120 Production appeared first on TWZ .",
    "published": "2026-10-29T21:59:58.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.43,
    "image": "/img/news/51fc91169d.webp",
    "t": "2026-10-29",
    "summary": "The report says Japan will assemble AMRAAM missiles as the U.S. boosts AIM-120 production; Washington and Tokyo also seek to accelerate SM-3 Block IIA interceptor production.",
@@ -273,7 +273,7 @@
    "snippet": "Bell Textron executives warned that a delay in the helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million.",
    "published": "2026-10-29T19:32:11.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.38,
    "image": "/img/news/edb29ddda9.webp",
    "t": "2026-10-29",
    "summary": "Bell Textron executives warned that a delay in the MV-75 helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million.",
@@ -294,7 +294,7 @@
    "snippet": "[Sponsored] By going beyond simple automation, drones can carry out tasks with minimal input from operators.",
    "published": "2026-10-29T19:22:59.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.38,
    "image": "/img/news/37490350fc.webp",
    "t": "2026-10-29",
    "summary": "The sponsored article says drones can perform tasks with minimal operator input when they go beyond simple automation.",
@@ -315,7 +315,7 @@
    "snippet": "Relations between Ukraine and Poland soured in the Spring, leading to Warsaw calling off the MiG-29 deal in June. The post Polish MiG-29s, F-16 Cannon Ammo Reportedly Headed To Ukraine As Bitter Warsaw-Kyiv Rift Heals appeared first on TWZ .",
    "published": "2026-10-29T18:58:29.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.37,
    "image": "/img/news/fc03fe510b.webp",
    "t": "2026-10-29",
    "summary": "The War Zone reports that Polish MiG-29s and F-16 cannon ammunition are headed to Ukraine; the snippet says relations had soured and the MiG-29 deal was called off.",
@@ -337,7 +337,7 @@
    "snippet": "Israeli elections on Oct. 27 produced a complex result, with neither Prime Minister Benjamin Netanyahu’s bloc nor the opposition alliance, led by Gadi Eisenkot, winning enough seats in the Knesset to form a government. The opposition faces a tricky choice: attempt to form a unity government with Netanyahu, after channe",
    "published": "2026-10-29T18:15:57.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.35,
    "image": "/img/news/85b00633f8.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks says neither Netanyahu’s bloc nor the opposition alliance won enough Knesset seats to form a government after Israel’s election.",
@@ -359,7 +359,7 @@
    "snippet": "For decades, militaries have chased the next revolution in warfare. But what actually makes a revolution in military affairs revolutionary? Is there one happening now? Does it matter? Is it just about drones and AI or something more? Ryan digs into the promises, pitfalls, and persistent myths of military transformation",
    "published": "2026-10-29T18:05:20.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.35,
    "image": "/img/news/a2c9f074c2.webp",
    "t": "2026-10-29",
    "summary": "War on the Rocks examines what makes a revolution in military affairs revolutionary, and whether current change is about drones and AI or something broader.",
@@ -381,7 +381,7 @@
    "snippet": "The target drone could be of particular use in stimulating Iran's air defenses to help collect intelligence on them, among other possible tasks. The post Let’s Talk About The U.S. Target Drone Iran Claims To Have Recovered Intact appeared first on TWZ .",
    "published": "2026-10-29T18:01:13.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.35,
    "image": "/img/news/0a5f657f63.webp",
    "t": "2026-10-29",
    "summary": "The War Zone says the target drone Iran claims to have recovered intact could help stimulate its air defenses and collect intelligence on them.",
@@ -390,6 +390,28 @@
     "target drone",
     "air defenses",
     "intelligence"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8889dd31d1",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Crypto giant Binance hit by hack suspected to be largest in history",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+   "published": "2026-10-30T05:15:16.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/8889dd31d1.webp",
+   "t": "2026-10-30",
+   "summary": "Two analytics firms attributed the Binance incident to a North Korean hacking unit called TraderTraitor.",
+   "why": "Treat attribution as a reported assessment and check whether relevant threat monitoring covers the named unit.",
+   "tags": [
+    "TraderTraitor",
+    "North Korean",
+    "hack"
    ],
    "ai": true
   },
@@ -403,7 +425,7 @@
    "snippet": "GNSS is functioning in an increasingly hostile and complex environment. Jamming, spoofing, cyber vulnerabilities and unexpected signal failures are exposing weaknesses in systems... The post ION GNSS+ 2026: Trust, Resilience and a Sky Getting Fuller appeared first on Inside GNSS - Global Navigation Satellite Systems En",
    "published": "2026-10-29T18:29:30.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.46,
    "image": "/img/news/b847e26c83.webp",
    "t": "2026-10-29",
    "summary": "Inside GNSS says jamming, spoofing, cyber vulnerabilities and unexpected signal failures are exposing weaknesses in GNSS systems operating in a hostile, complex environment.",
@@ -412,6 +434,72 @@
     "GNSS",
     "jamming",
     "spoofing"
+   ],
+   "ai": true
+  },
+  {
+   "id": "01394924e9",
+   "section": "geo",
+   "source": "The Diplomat",
+   "weight": 0.5,
+   "title": "China’s Military Build-up Has Created ‘Pressure’ in Southeast Asia, Australian Defense Chief Says",
+   "url": "https://thediplomat.com/2026/10/chinas-military-build-up-has-created-pressure-in-southeast-asia-australian-defense-chief-says/",
+   "snippet": "His comments came as Beijing accused Manila of obstructing its attendance at this week's ASEAN Defense Ministers' Meeting in Cebu.",
+   "published": "2026-10-30T04:02:00.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/01394924e9.webp",
+   "t": "2026-10-30",
+   "summary": "Australia's defense chief said China's military build-up has created pressure in Southeast Asia. Beijing accused Manila of obstructing its attendance at this week's ASEAN defense ministers' meeting.",
+   "why": "The comments and meeting dispute highlight regional defense tensions and the importance of diplomatic access.",
+   "tags": [
+    "China",
+    "Southeast Asia",
+    "ASEAN"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bec7151a9b",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli actress slams occupation in accidental ‘hot mic’ moment",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-actress-slams-occupation-in-accidental-hot-mic-moment?traffic_source=rss",
+   "snippet": "Veteran Israeli actress Chelli Goldenberg was left shocked after she was caught ripping into Israel's policies.",
+   "published": "2026-10-30T04:14:09.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/bec7151a9b.webp",
+   "t": "2026-10-30",
+   "summary": "Al Jazeera reports that Israeli actress Chelli Goldenberg was caught criticizing Israel's policies in an accidental hot-mic moment.",
+   "why": "The episode offers a glimpse of public criticism of Israeli policies.",
+   "tags": [
+    "Israel",
+    "hot mic",
+    "policies"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1da8a03020",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
+   "snippet": "Israel’s Prime Minister accused Palestinian-Israeli parties of election fraud.",
+   "published": "2026-10-30T02:40:26.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/1da8a03020.webp",
+   "t": "2026-10-30",
+   "summary": "Israel's prime minister, Netanyahu, accused Palestinian-Israeli parties of election fraud as he fell short of a majority.",
+   "why": "The accusation and reported shortfall are relevant to Israel's political landscape.",
+   "tags": [
+    "Israel",
+    "election fraud",
+    "majority"
    ],
    "ai": true
   },
@@ -425,7 +513,7 @@
    "snippet": "The Saudi ambassador to the U.S. compared them to the Islamic State.",
    "published": "2026-10-29T21:33:20.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.42,
    "image": "/img/news/a3ea971533.webp",
    "t": "2026-10-29",
    "summary": "Foreign Policy reports that the Saudi ambassador to the U.S. compared the Houthis to the Islamic State.",
@@ -447,7 +535,7 @@
    "snippet": "Ukraine’s emergence since 2022 as a drone superpower has made international headlines, but the role of drone-based air defenses on the battlefield has not yet received as much attention as it arguably deserves, writes Mykola Bielieskov. The post Ukraine’s drone defenses debunk the myth of inevitable Russian victory app",
    "published": "2026-10-29T20:57:47.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.41,
    "image": "/img/news/00ecba7162.webp",
    "t": "2026-10-29",
    "summary": "Mykola Bielieskov argues that Ukraine’s drone-based air defenses have received less attention than their battlefield role warrants.",
@@ -469,7 +557,7 @@
    "snippet": "Russian President Vladimir Putin's insistence that Ukraine is \"historically Russian land\" reveals the extent of his imperial ambitions and represents a recipe for endless war, writes Peter Dickinson. The post Putin’s quest to reclaim ‘historical Russian lands’ is a recipe for endless war appeared first on Atlantic Coun",
    "published": "2026-10-29T20:30:41.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.4,
    "image": "/img/news/ac46a224a7.webp",
    "t": "2026-10-29",
    "summary": "Peter Dickinson writes that Putin's claim that Ukraine is historically Russian land reflects imperial ambitions and risks endless war.",
@@ -478,93 +566,6 @@
     "Ukraine",
     "historical Russian lands",
     "war"
-   ],
-   "ai": true
-  },
-  {
-   "id": "275b8c6cba",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-   "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
-   "published": "2026-10-29T20:05:57.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/275b8c6cba.webp",
-   "t": "2026-10-29",
-   "summary": "A temporary ceasefire has brought rare quiet to Kherson, giving residents a glimpse of normal life before fighting resumes.",
-   "why": "The pause shows how ceasefires can change conditions for residents in a contested city.",
-   "tags": [
-    "Kherson",
-    "ceasefire",
-    "residents"
-   ],
-   "ai": true
-  },
-  {
-   "id": "48ee42b622",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "A New War on Iran Would Deal a Death Blow to U.S. Leadership in the Mideast",
-   "url": "https://foreignpolicy.com/2026/10/29/netanyahu-trump-israel-united-states-iran-war-election/",
-   "snippet": "Netanyahu and Trump appear to be planning another round.",
-   "published": "2026-10-29T19:04:01.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/48ee42b622.webp",
-   "t": "2026-10-29",
-   "summary": "Foreign Policy says Netanyahu and Trump appear to be planning another round of war on Iran, which the headline says would harm U.S. leadership in the Middle East.",
-   "why": "The article frames a possible conflict as relevant to regional strategy and U.S. leadership.",
-   "tags": [
-    "Iran",
-    "Middle East"
-   ],
-   "ai": true
-  },
-  {
-   "id": "834bc06ccf",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Palestinians face growing bans from Al-Aqsa as Israel tightens control",
-   "url": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss",
-   "snippet": "As Israel renews a ban on Al-Aqsa imam, Islamic Waqf officials warn of shrinking authority at Muslim holy site.",
-   "published": "2026-10-29T21:16:26.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/834bc06ccf.webp",
-   "t": "2026-10-29",
-   "summary": "Al Jazeera reports that Israel renewed a ban on the Al-Aqsa imam; Islamic Waqf officials warn that their authority at the Muslim holy site is shrinking.",
-   "why": "The reported restrictions and concerns center on authority at a strategically and religiously significant site.",
-   "tags": [
-    "Al-Aqsa",
-    "Islamic Waqf",
-    "ban"
-   ],
-   "ai": true
-  },
-  {
-   "id": "114b09fa2d",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israel bans travel for Brad Lander after detention in occupied West Bank",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israel-bans-travel-for-brad-lander-after-detention-in-occupied-west-bank?traffic_source=rss",
-   "snippet": "Israel has revoked travel authorisation for US Democratic congressional candidate Brad Lander after he was detained.",
-   "published": "2026-10-29T21:10:13.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/114b09fa2d.webp",
-   "t": "2026-10-29",
-   "summary": "Al Jazeera reports that Israel revoked travel authorisation for U.S. Democratic congressional candidate Brad Lander after his detention in the occupied West Bank.",
-   "why": "Travel authorisation is a point of control over movement in the reported context.",
-   "tags": [
-    "travel authorisation",
-    "Brad Lander",
-    "West Bank"
    ],
    "ai": true
   }
@@ -716,47 +717,47 @@
   }
  ],
  "run_today": [
-  "Review Binance-related account and transaction activity for unexpected changes.",
-  "Check whether any organizational workflows depend on the ChatGPT Pro usage limits OpenAI says it will maintain.",
-  "Keep records of relevant alerts and account activity while Binance investigates the potential breach."
+  "Review whether any assets or operations depend on the affected Binance platform.",
+  "Check relevant monitoring for activity associated with TraderTraitor; attribution is reported by analytics firms.",
+  "Verify procedures for safeguarding and transferring assets if a platform incident affects access."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "security breach",
-   "explainer": "A security breach is an incident in which a system or its information may have been accessed or affected without authorization. The Binance item describes a potential breach under investigation.",
-   "from_id": "7d9fa054e5",
-   "from": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-   "fromSource": "BleepingComputer"
+   "term": "on-chain",
+   "explainer": "On-chain refers to activity or records that are visible on a blockchain. The Binance report says nearly $3 billion in assets were frozen on-chain.",
+   "from_id": "1dad8889ea",
+   "from": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
    "term": "battlefield drone autonomy",
-   "explainer": "Drone autonomy describes how much a drone can operate or make decisions without direct human control. The supplied title frames it as having multiple levels.",
+   "explainer": "Battlefield drone autonomy describes how much a drone can carry out without direct human control. The title frames autonomy as having multiple levels.",
    "from_id": "37490350fc",
    "from": "https://breakingdefense.com/2026/10/beyond-autopilot-understanding-the-five-levels-of-battlefield-drone-autonomy/",
    "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "satellite imagery",
-   "explainer": "Satellite imagery is visual information captured by satellites. Analysts can use it to examine places over time; the supplied title concerns imagery of Gaza and parts of the West Bank.",
-   "from_id": "c869b0dd18",
-   "from": "https://www.bellingcat.com/news/2026/10/29/eu-satellite-imagery-delayed-over-gaza-and-parts-of-west-bank-by-24-hours/",
-   "fromSource": "Bellingcat"
+   "term": "military build-up",
+   "explainer": "A military build-up is an increase in military capability or presence. Australia's defense chief said China's build-up has created pressure in Southeast Asia.",
+   "from_id": "01394924e9",
+   "from": "https://thediplomat.com/2026/10/chinas-military-build-up-has-created-pressure-in-southeast-asia-australian-defense-chief-says/",
+   "fromSource": "The Diplomat"
   }
  ],
  "analysis": {
-  "headline": "Security Signals Across Systems and Information",
+  "headline": "Security, Infrastructure and Information Access",
   "paragraphs": [
-   "The top stories point to different kinds of system dependence: satellite imagery can inform analysis of Gaza and the West Bank, while the GNSS story describes jamming, spoofing, cyber vulnerabilities and signal failures. The imagery item says access is delayed by 24 hours; its supplied snippet does not explain the delay.",
-   "The cyber items also vary in what they establish. CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation. The Hitachi Energy and Siemens Mendix snippets are incomplete, so their specific issues cannot be established here.",
-   "For defenders and analysts, these fragments support checking trusted advisories and understanding where operations rely on external services or signals, without assuming a shared cause. Watch for fuller details on the advisories and imagery access; the supplied text leaves important context unresolved."
+   "The top stories span a reported Binance hack, delayed satellite imagery, industrial product notices, vulnerabilities added to CISA's catalog, and changes to ChatGPT Pro usage limits. They concern different systems, but each highlights how access, availability, and trust can shape decisions.",
+   "For defenders, the Binance report makes asset exposure and incident response salient, while CISA's catalog addition points to checking whether listed vulnerabilities affect their environments. The Hitachi and Siemens notices also make product-specific review relevant; the supplied snippets do not establish the details or impact of those notices.",
+   "For analysts, the satellite-imagery delay is a reminder that access and timing affect what geospatial information is available. The snippets provide limited context, so the scale and consequences remain unclear. Watch for further reporting on the incident, notices, and imagery availability without treating attribution or implications as settled."
   ],
   "takeaways": [
-   "CISA says two vulnerabilities have evidence of active exploitation.",
-   "The imagery story reports a 24-hour delay, but the supplied snippet gives no reason.",
-   "GNSS jamming, spoofing and signal failures are identified as system concerns."
+   "Review exposure to the Binance platform and relevant asset safeguards.",
+   "Check whether CISA-listed vulnerabilities or named products are present in your environment.",
+   "Treat the reported imagery delay and hack attribution as limited claims, not settled conclusions."
   ]
  },
  "health": [
@@ -782,7 +783,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 19
+   "n": 16
   },
   {
    "name": "The Record",
@@ -806,13 +807,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Google Threat Intelligence",
@@ -824,7 +825,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Schneier on Security",
@@ -842,13 +843,13 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Defense One",
@@ -884,7 +885,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "International Crisis Group",
@@ -902,19 +903,19 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "RAND",
@@ -926,7 +927,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "SatNews",
@@ -938,19 +939,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   }
  ]
 }
