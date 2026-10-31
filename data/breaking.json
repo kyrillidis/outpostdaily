@@ -1,48 +1,8 @@
 {
- "updated": "2026-10-30T21:24:25.691Z",
+ "updated": "2026-10-31T00:54:22.547Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -52,19 +12,54 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
    "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +67,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
    "n": 2
   },
   {
-   "name": "BreachForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -88,6 +83,11 @@
   },
   {
    "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,72 @@
   }
  ],
  "items": [
+  {
+   "id": "nd7f71a1433",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US approves sale of 500 Patriot missiles to Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-31T00:40:43.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7116fb04b3",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+   "published": "2026-10-31T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n96c2dff016",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+   "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+   "published": "2026-10-30T23:14:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfa6ae4c769",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This cybersecurity stock will be the next to join the S&P 500",
+   "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+   "published": "2026-10-30T22:20:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n66ad427a9b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+   "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+   "published": "2026-10-30T21:30:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n8365066886",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Yoba Malware Hides a Crypto Miner Behind Legitimate OpenAI and Anthropic Binaries",
+   "url": "https://securityaffairs.com/202149/malware/yoba-malware-hides-a-crypto-miner-behind-legitimate-openai-and-anthropic-binaries.html",
+   "published": "2026-10-30T21:22:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "ncf944895c6",
    "kind": "news",
@@ -214,6 +280,17 @@
    "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
    "published": "2026-10-30T20:05:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n983cd7433f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Behind the Scenes of How Operation Blackout Went Down",
+   "url": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+   "published": "2026-10-30T19:46:08.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2264,17 +2341,6 @@
    "verified": true
   },
   {
-   "id": "nd5ccd387ba",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘There may be better investment options’: My church received $1.5 million from a parishioner. Is 3.75% interest enough?",
-   "url": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-   "published": "2026-10-29T10:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n196b1e6052",
    "kind": "news",
    "group": "cyber",
@@ -2282,17 +2348,6 @@
    "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
    "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
    "published": "2026-10-29T10:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7fd0325d37",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "ServiceNow stock is on track for its largest drop on record. But JPMorgan sees a bright spot.",
-   "url": "https://www.marketwatch.com/story/servicenow-stock-is-on-track-for-its-largest-drop-on-record-but-jpmorgan-sees-a-bright-spot-5e5b05c6?mod=mw_rss_topstories",
-   "published": "2026-10-29T09:52:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2337,17 +2392,6 @@
    "title": "Argentina farmers evacuate cattle by boat as El Nino escalates",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
    "published": "2026-10-29T09:17:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n33e01c5eaf",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Fancy cars hold no appeal’: My wife and I have a 99% chance of outliving our savings. Why don’t we spend it all?",
-   "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
-   "published": "2026-10-29T09:15:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3812,138 +3856,6 @@
    "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss",
    "published": "2026-10-28T02:53:35.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n62f7c8ee28",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Arab parties could win 18 seats in Israeli elections, exit polls suggest",
-   "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
-   "published": "2026-10-28T00:43:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndd96394efb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Exit polls trigger heated debate across Israeli political divide",
-   "url": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss",
-   "published": "2026-10-28T00:43:02.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n851c0fa45f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s Eisenkot says country voted for change",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israels-eisenkot-says-country-voted-for-change?traffic_source=rss",
-   "published": "2026-10-28T00:30:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n355e5ee872",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gaza’s women filmmakers turn pain into cinema as new academy launches",
-   "url": "https://www.aljazeera.com/news/2026/10/27/gazas-women-filmmakers-turn-pain-into-cinema-as-new-academy-launches?traffic_source=rss",
-   "published": "2026-10-27T23:35:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5246b12726",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-   "published": "2026-10-27T23:35:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n52fa873076",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "No clear mandate projected in Israel election: What’s next?",
-   "url": "https://www.aljazeera.com/news/2026/10/27/no-clear-mandate-projected-in-israel-election-whats-next?traffic_source=rss",
-   "published": "2026-10-27T23:06:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nce2d85bce9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Smotrich dances in Israel despite far-right decline",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/smotrich-dances-in-israel-despite-far-right-decline?traffic_source=rss",
-   "published": "2026-10-27T23:03:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n58ac901d74",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Arab towns in Israel celebrate historic Knesset gains with fireworks",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/arab-towns-in-israel-celebrate-historic-knesset-gains-with-fireworks?traffic_source=rss",
-   "published": "2026-10-27T22:56:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndedf00d647",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-   "published": "2026-10-27T22:43:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2d98905297",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘Go home, Ben-Gvir’; Arab Bloc celebrates record turnout in Israel election",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/go-home-ben-gvir-arab-bloc-celebrates-record-turnout-in-israel-election?traffic_source=rss",
-   "published": "2026-10-27T22:31:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndb2d0b0d60",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
-   "published": "2026-10-27T22:29:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n78275c0ac5",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-   "published": "2026-10-27T22:07:34.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
