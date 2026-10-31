@@ -1,9 +1,39 @@
 {
  "date": "2026-10-31",
  "edition": 229,
- "compiled": "2026-10-31T01:56:37.528Z",
+ "compiled": "2026-10-31T07:56:26.323Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "d6c6367093",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "snippet": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
+   "published": "2026-10-31T01:02:57.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    },
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
+    }
+   ],
+   "score": 2.16,
+   "image": "/img/news/d6c6367093.webp",
+   "t": "2026-10-31",
+   "summary": "Microsoft analyzes a malicious Claude Code-branded extension with a persistent SSH backdoor and offers guidance to detect and remediate it.",
+   "why": "Check for the extension and persistent SSH access, then follow Microsoft’s detection and remediation guidance.",
+   "tags": [
+    "Claude Code",
+    "SSH backdoor"
+   ],
+   "ai": true
+  },
   {
    "id": "4760f9242e",
    "section": "cyber",
@@ -14,7 +44,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-2026-111357</a>",
    "published": "2026-10-30T12:00:00.000Z",
    "also": [],
-   "score": 1.61,
+   "score": 1.48,
    "t": "2026-10-31",
    "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check whether affected systems are present and prioritize the catalogued vulnerabilities.",
@@ -22,6 +52,48 @@
     "CISA",
     "vulnerabilities",
     "KEV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e8eb82345a",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "snippet": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eig",
+   "published": "2026-10-31T05:33:41.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/e8eb82345a.webp",
+   "t": "2026-10-31",
+   "summary": "Researchers at Parameter say a malicious ChatGPT share link could run code in a logged-in session and expose private conversations.",
+   "why": "Treat unexpected shared-chat links cautiously and review session protections for logged-in users.",
+   "tags": [
+    "ChatGPT",
+    "share link"
+   ],
+   "ai": true
+  },
+  {
+   "id": "21ad2182a1",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "snippet": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of ",
+   "published": "2026-10-31T04:56:12.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/21ad2182a1.webp",
+   "t": "2026-10-31",
+   "summary": "Cloudflare reported 18.2 million network-layer DDoS attacks in Q3, up 38%, and said it autonomously mitigated them.",
+   "why": "Review network-layer DDoS monitoring and mitigation readiness.",
+   "tags": [
+    "Cloudflare",
+    "DDoS"
    ],
    "ai": true
   },
@@ -35,7 +107,7 @@
    "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
    "published": "2026-10-30T21:09:46.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.38,
    "image": "/img/news/f167e37bde.webp",
    "t": "2026-10-31",
    "summary": "Researchers at Anthropic developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated remote command execution as root on servers running MPTCP.",
@@ -44,33 +116,6 @@
     "Linux",
     "MPTCP",
     "root"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ad2cc061f5",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "snippet": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the ex",
-   "published": "2026-10-30T08:55:47.000Z",
-   "also": [
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
-    }
-   ],
-   "score": 1.5,
-   "image": "/img/news/ad2cc061f5.webp",
-   "t": "2026-10-31",
-   "summary": "Researchers disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor.",
-   "why": "Check extension provenance and systems for unexpected SSH persistence.",
-   "tags": [
-    "extension",
-    "SSH",
-    "backdoor"
    ],
    "ai": true
   },
@@ -84,7 +129,7 @@
    "snippet": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
    "published": "2026-10-30T20:45:00.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.37,
    "image": "/img/news/ce4d8aef30.webp",
    "t": "2026-10-30",
    "summary": "The DOJ’s Executive Office for U.S. Trustees says a consumer privacy ombudsman is needed to advise a court on terms for selling Character.AI data.",
@@ -106,7 +151,7 @@
    "snippet": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
    "published": "2026-10-30T19:00:00.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.33,
    "image": "/img/news/84a2c916c3.webp",
    "t": "2026-10-30",
    "summary": "Resolve says a recent hack exposed customer payment card numbers.",
@@ -114,28 +159,6 @@
    "tags": [
     "payment cards",
     "hack"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ad4296e15e",
-   "section": "cyber",
-   "source": "Microsoft Security",
-   "weight": 0.6,
-   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-   "snippet": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
-   "published": "2026-10-30T16:11:44.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/ad4296e15e.webp",
-   "t": "2026-10-30",
-   "summary": "The post describes Teams support impersonation leading to remote access, malicious runtime execution, and AD CS abuse through authentication relay and Kerberos.",
-   "why": "Review help desk verification, certificate services, and authentication relay exposure.",
-   "tags": [
-    "AD CS",
-    "Kerberos",
-    "authentication relay"
    ],
    "ai": true
   },
@@ -149,7 +172,7 @@
    "snippet": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
    "published": "2026-10-30T15:58:20.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.27,
    "image": "/img/news/e645dafde1.webp",
    "t": "2026-10-30",
    "summary": "Trezor says it received credible reports of a suspected crypto-theft implant in a Trezor Safe 5 sold by reseller CryptoBilis in Southeast Asia.",
@@ -171,7 +194,7 @@
    "snippet": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
    "published": "2026-10-30T15:54:00.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.27,
    "image": "/img/news/4bf9426962.webp",
    "t": "2026-10-30",
    "summary": "Florida’s Department of Education said it became aware of a breach involving the Florida Student Financial Aid website on October 19. The title says 4.9 million people had Social Security numbers leaked.",
@@ -184,46 +207,45 @@
    "ai": true
   },
   {
-   "id": "96a0f026f2",
+   "id": "ad4296e15e",
    "section": "cyber",
-   "source": "BleepingComputer",
+   "source": "Microsoft Security",
    "weight": 0.6,
-   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-   "snippet": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
-   "published": "2026-10-30T14:36:54.000Z",
+   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+   "snippet": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
+   "published": "2026-10-30T16:11:44.000Z",
    "also": [],
-   "score": 1.36,
-   "image": "/img/news/96a0f026f2.webp",
+   "score": 1.27,
+   "image": "/img/news/ad4296e15e.webp",
    "t": "2026-10-30",
-   "summary": "A malicious Claude Code extension distributed through Cursor's marketplace for about 11 hours exposed up to 5,000 developers to malware designed to install persistent SSH backdoors.",
-   "why": "Check installed extensions and investigate unexpected SSH access or persistence.",
+   "summary": "The post describes Teams support impersonation leading to remote access, malicious runtime execution, and AD CS abuse through authentication relay and Kerberos.",
+   "why": "Review help desk verification, certificate services, and authentication relay exposure.",
    "tags": [
-    "Claude Code",
-    "Cursor",
-    "SSH backdoors"
+    "AD CS",
+    "Kerberos",
+    "authentication relay"
    ],
    "ai": true
   },
   {
-   "id": "b44d4a56a6",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-   "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-   "snippet": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
-   "published": "2026-10-30T14:24:00.000Z",
+   "id": "957523f4c0",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates",
+   "url": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/",
+   "snippet": "UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. Accord",
+   "published": "2026-10-31T07:48:30.000Z",
    "also": [],
-   "score": 1.36,
-   "image": "/img/news/b44d4a56a6.webp",
-   "t": "2026-10-30",
-   "summary": "Ahmad Umar Agha, known as “Th3Pr0,” was sentenced to 42 months for his role in a conspiracy organized by former Syrian President Bashar al-Assad's closest advisers.",
-   "why": "The case illustrates the legal consequences of cyberattacks on Western targets.",
+   "score": 1.5,
+   "image": "/img/news/957523f4c0.webp",
+   "t": "2026-10-31",
+   "summary": "Chess Dynamics announced a contract to supply SeaEagle Fire Control Electro-Optical systems for two Indonesian Bung Tomo-class frigates.",
+   "why": "The contract highlights electro-optical fire-control equipment as part of frigate capability.",
    "tags": [
-    "Syrian Electronic Army",
-    "attacks",
-    "sentence"
+    "SeaEagle",
+    "frigates"
    ],
    "ai": true
   },
@@ -237,7 +259,7 @@
    "snippet": "AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .",
    "published": "2026-10-31T00:19:01.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.44,
    "image": "/img/news/199987d261.webp",
    "t": "2026-10-31",
    "summary": "AN/TWQ-1 Avengers with FIM-92 Stinger missiles have been joined by counter-drone sensor and jammer kits from U.S. Northern Command.",
@@ -259,7 +281,7 @@
    "snippet": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-10-30T22:33:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.4,
    "image": "/img/news/016252315e.webp",
    "t": "2026-10-31",
    "summary": "Bunker Talk invites discussion of topics not covered during the week.",
@@ -279,7 +301,7 @@
    "snippet": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
    "published": "2026-10-30T21:32:50.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.38,
    "image": "/img/news/b0920e8464.webp",
    "t": "2026-10-31",
    "summary": "China claims its GJ-21 drone launched and recovered from a Type 076 amphibious assault ship; the item describes this as a milestone in naval airpower.",
@@ -301,7 +323,7 @@
    "snippet": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
    "published": "2026-10-30T20:34:48.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.36,
    "image": "/img/news/6b965cdbc6.webp",
    "t": "2026-10-30",
    "summary": "The War Zone describes North Korea displaying reconnaissance and attack drones, including an aspirational stealthy UCAV concept.",
@@ -323,7 +345,7 @@
    "snippet": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
    "published": "2026-10-30T20:17:22.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.36,
    "image": "/img/news/a689403a33.webp",
    "t": "2026-10-30",
    "summary": "The announcement of 500 Patriot missiles for Ukraine comes amid heightened Kyiv-Washington tensions and purported delays in interceptor transfers.",
@@ -345,7 +367,7 @@
    "snippet": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
    "published": "2026-10-30T18:33:46.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.32,
    "image": "/img/news/eab5c25b88.webp",
    "t": "2026-10-30",
    "summary": "The title reports a limpet mine placed on a ship’s hull in a Strait of Hormuz attack. The snippet describes additional regional air defenses, ships, troops, ammunition, and supplies.",
@@ -367,7 +389,7 @@
    "snippet": "NORAD’s return to fighter alert ops on remote Shemya Island is yet another reminder of the eroding security environment in the Pacific and the Arctic. The post USAF F-16s Back On Alert Duty In Aleutian Islands For First Time In Decades appeared first on TWZ .",
    "published": "2026-10-30T17:50:19.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.31,
    "image": "/img/news/e32721d9dc.webp",
    "t": "2026-10-30",
    "summary": "NORAD has returned to fighter alert operations on remote Shemya Island, which the article describes as a reminder of an eroding security environment in the Pacific and Arctic.",
@@ -380,24 +402,66 @@
    "ai": true
   },
   {
-   "id": "d72e778a44",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "General Atomics Developing Strike-Recon Flying Wing Called NextGen That Uses Hybrid-Electric Propulsion",
-   "url": "https://www.twz.com/news-features/general-atomics-developing-strike-recon-flying-wing-called-nextgen-that-uses-hybrid-electric-propulsion",
-   "snippet": "The company is also aiming to trial an air-to-ground derivative of their FQ-42 Vengeance CCA in live-fire tests next year. The post General Atomics Developing Strike-Recon Flying Wing Called NextGen That Uses Hybrid-Electric Propulsion appeared first on TWZ .",
-   "published": "2026-10-30T16:14:23.000Z",
+   "id": "360d0cfb58",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
+   "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
+   "snippet": "The joint statement comes as US President Donald Trump seeks a new meeting with North Korean leader Kim Jong Un.",
+   "published": "2026-10-31T07:20:45.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/d72e778a44.webp",
-   "t": "2026-10-30",
-   "summary": "General Atomics is developing a strike-recon flying wing using hybrid-electric propulsion and aims to trial an air-to-ground derivative of its FQ-42 Vengeance CCA in live-fire tests next year.",
-   "why": "The project combines reconnaissance, strike, and hybrid-electric propulsion.",
+   "score": 1.49,
+   "image": "/img/news/360d0cfb58.webp",
+   "t": "2026-10-31",
+   "summary": "The US, South Korea and Japan called for North Korea’s complete denuclearisation as Trump seeks a new meeting with Kim Jong Un.",
+   "why": "The joint statement and proposed meeting signal continuing diplomatic engagement over North Korea.",
    "tags": [
-    "strike-recon",
-    "hybrid-electric",
-    "FQ-42"
+    "denuclearisation",
+    "North Korea"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2f684e4e82",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+   "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+   "published": "2026-10-31T02:12:19.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/2f684e4e82.webp",
+   "t": "2026-10-31",
+   "summary": "The BBC says suspected North Korean hackers are the prime suspects in the Binance hack; it says the accusations, if true, point to their growing power.",
+   "why": "The account links a major alleged cyber theft to suspected state-linked hackers, relevant to threat attribution.",
+   "tags": [
+    "North Korea",
+    "hackers",
+    "Binance"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dd178e3791",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
+   "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
+   "snippet": "Rising fatalities in Yemen’s conflict deepen the burden on families of fighters, both emotionally and financially.",
+   "published": "2026-10-31T05:48:25.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/dd178e3791.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera reports that rising fatalities in Yemen’s conflict are deepening the emotional and financial burden on fighters’ families.",
+   "why": "The report highlights the conflict’s effects on families beyond the battlefield.",
+   "tags": [
+    "Yemen",
+    "families"
    ],
    "ai": true
   },
@@ -411,7 +475,7 @@
    "snippet": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
    "published": "2026-10-31T00:40:43.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.45,
    "image": "/img/news/d7f71a1433.webp",
    "t": "2026-10-31",
    "summary": "The United States approved the sale of 500 Patriot missiles to Ukraine. The item says the interceptors are effective against Russia's ballistic missiles.",
@@ -424,155 +488,87 @@
    "ai": true
   },
   {
-   "id": "71ae56c921",
+   "id": "25befd4e22",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-   "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
-   "published": "2026-10-30T22:11:52.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
+   "url": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss",
+   "snippet": "Reactors could revolutionise moon exploration, providing energy for bases and mining, but risks of contamination remain.",
+   "published": "2026-10-31T05:37:51.000Z",
    "also": [],
-   "score": 1.52,
-   "image": "/img/news/71ae56c921.webp",
+   "score": 1.45,
+   "image": "/img/news/25befd4e22.webp",
    "t": "2026-10-31",
-   "summary": "The G20 family photo was cancelled after protests over the presence of a Russian minister. The UK foreign secretary confronted his Russian counterpart and accused his government of killing civilians in Ukraine.",
-   "why": "The episode shows diplomatic tensions shaping a high-profile international meeting.",
+   "summary": "Al Jazeera reports that lunar reactors could provide energy for bases and mining, while risks of contamination remain.",
+   "why": "The prospect links lunar infrastructure and resource activity with environmental concerns.",
    "tags": [
-    "G20",
-    "protests",
-    "Russia"
+    "reactors",
+    "moon",
+    "contamination"
    ],
    "ai": true
   },
   {
-   "id": "cf944895c6",
+   "id": "b4e7dbd1f1",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Mohammed Deif, rare footage and October 7 documents",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/mohammed-deif-rare-footage-and-october-7-documents?traffic_source=rss",
+   "snippet": "Rare footage obtained by Al Jazeera offers a look at the life of former Hamas military commander, Mohammed Deif.",
+   "published": "2026-10-31T05:07:34.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/b4e7dbd1f1.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera says rare footage offers a look at the life of former Hamas military commander Mohammed Deif.",
+   "why": "The footage provides material about a former military commander.",
+   "tags": [
+    "footage",
+    "Mohammed Deif"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c45ba35ac",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+   "snippet": "Deal would be one of the most significant steps to supply defensive weapons to Kyiv since ​Trump took office in 2025.",
+   "published": "2026-10-31T04:51:25.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/3c45ba35ac.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera reports that the US approved a $2.1bn Patriot missile sale to Ukraine, describing it as a significant step in supplying defensive weapons.",
+   "why": "The sale concerns defensive weapons supply to Ukraine.",
+   "tags": [
+    "Patriot",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b8922bceb5",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-   "published": "2026-10-30T21:13:14.000Z",
+   "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+   "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+   "published": "2026-10-30T23:19:17.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/cf944895c6.webp",
-   "t": "2026-10-30",
-   "summary": "Binance is attempting to recover $6.3 billion stolen in a hack linked to North Korea; the company describes the cyberattack as complex.",
-   "why": "The recovery effort makes incident response and tracing stolen crypto assets relevant.",
+   "score": 1.42,
+   "image": "/img/news/b8922bceb5.webp",
+   "t": "2026-10-31",
+   "summary": "The BBC’s Ukraine correspondent explains the temporary ceasefire in the devastated town of Oleshky.",
+   "why": "The temporary ceasefire is relevant to conditions in the town.",
    "tags": [
-    "Binance",
-    "hack",
-    "North Korea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "169b890179",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "The World’s Biggest Crypto Heist",
-   "url": "https://foreignpolicy.com/2026/10/30/binance-cryptocurrency-hack-north-korea/",
-   "snippet": "Suspected North Korean hackers stole $6.36 billion in digital coins from Binance.",
-   "published": "2026-10-30T20:44:08.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/169b890179.webp",
-   "t": "2026-10-30",
-   "summary": "Foreign Policy says suspected North Korean hackers stole $6.36 billion in digital coins from Binance.",
-   "why": "The reported theft makes tracking digital-asset incident claims and response important for security teams.",
-   "tags": [
-    "North Korea",
-    "crypto",
-    "Binance"
-   ],
-   "ai": true
-  },
-  {
-   "id": "20108709fe",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-   "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
-   "published": "2026-10-30T20:41:51.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/20108709fe.webp",
-   "t": "2026-10-30",
-   "summary": "The BBC reports that Novaya Gazeta’s founder says authorities pressured the Russian newspaper, which has been a prominent independent outlet for decades.",
-   "why": "The account is relevant to understanding constraints on independent media in Russia.",
-   "tags": [
-    "Russia",
-    "Novaya Gazeta",
-    "press"
-   ],
-   "ai": true
-  },
-  {
-   "id": "caf249ae97",
-   "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "ESA Adds Four Galileo G2 Satellites, Funds Norwegian Work on Jamming and Spoofing Resilience",
-   "url": "https://insidegnss.com/esa-adds-four-galileo-g2-satellites-funds-norwegian-work-on-jamming-and-spoofing-resilience/",
-   "snippet": "The European Space Agency (ESA) made two navigation announcements in the span of two days, ordering four more Galileo Second Generation (G2) satellites... The post ESA Adds Four Galileo G2 Satellites, Funds Norwegian Work on Jamming and Spoofing Resilience appeared first on Inside GNSS - Global Navigation Satellite Sys",
-   "published": "2026-10-30T14:41:14.000Z",
-   "also": [],
-   "score": 1.47,
-   "t": "2026-10-30",
-   "summary": "ESA announced orders for four more Galileo Second Generation satellites and funding for Norwegian work on jamming and spoofing resilience.",
-   "why": "The announcements connect navigation infrastructure with resilience to signal interference.",
-   "tags": [
-    "Galileo G2",
-    "jamming",
-    "spoofing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "761e1cae72",
-   "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "FORTRESS America: Will PNT Resilience Become a Pentagon Priority?",
-   "url": "https://insidegnss.com/fortress-america-will-pnt-resilience-become-a-pentagon-priority/",
-   "snippet": "On September 30, Defense Secretary Pete Hegseth announced FORTRESS America, a new initiative intended to strengthen the nation’s ability to sustain military operations... The post FORTRESS America: Will PNT Resilience Become a Pentagon Priority? appeared first on Inside GNSS - Global Navigation Satellite Systems Engine",
-   "published": "2026-10-30T14:28:21.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/761e1cae72.webp",
-   "t": "2026-10-30",
-   "summary": "The article says Defense Secretary Pete Hegseth announced FORTRESS America on September 30, an initiative intended to strengthen the nation’s ability to sustain military operations.",
-   "why": "The initiative raises the role of PNT resilience in sustaining military operations.",
-   "tags": [
-    "FORTRESS America",
-    "PNT",
-    "resilience"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9b02f48462",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Russia the Disruptor",
-   "url": "https://foreignpolicy.com/2026/10/30/russia-war-ukraine-books-us-history-kinzer-haslam-notte/",
-   "snippet": "How Moscow broke with the West—and unleashed a more chaotic world.",
-   "published": "2026-10-30T19:15:49.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/9b02f48462.webp",
-   "t": "2026-10-30",
-   "summary": "Foreign Policy describes how Moscow broke with the West and unleashed a more chaotic world.",
-   "why": "The framing offers geopolitical context for assessing Russia’s relationship with the West.",
-   "tags": [
-    "Russia",
-    "West",
-    "geopolitics"
+    "ceasefire",
+    "Oleshky"
    ],
    "ai": true
   }
@@ -724,47 +720,47 @@
   }
  ],
  "run_today": [
-  "Compare your systems with CISA's Known Exploited Vulnerabilities Catalog and prioritize affected assets.",
-  "Check Linux servers for MPTCP and evaluate exposure to unauthenticated remote root attacks.",
-  "Verify Claude Code extension provenance and inspect for unexpected SSH persistence."
+  "Check for the malicious Claude Code-branded extension and persistent SSH access; use Microsoft’s detection and remediation guidance.",
+  "Warn users to treat unexpected ChatGPT share links cautiously and review protections for logged-in sessions.",
+  "Review network-layer DDoS monitoring and mitigation readiness."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Known Exploited Vulnerabilities Catalog",
-   "explainer": "A CISA catalog of vulnerabilities identified as known exploited. Defenders can use it to check whether their systems are affected and prioritize review.",
-   "from_id": "4760f9242e",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "fromSource": "CISA Advisories"
+   "term": "SSH backdoor",
+   "explainer": "An SSH backdoor is a way to retain access to a system through SSH, a protocol used for remote connections. Here, Microsoft describes one as persistent.",
+   "from_id": "d6c6367093",
+   "from": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "fromSource": "Microsoft Security"
   },
   {
    "domain": "warfare",
-   "term": "counter-drone jammer kits",
-   "explainer": "Kits that include jammers and sensors for counter-drone use. In this report, they are described as joining missile systems protecting a site.",
-   "from_id": "199987d261",
-   "from": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
-   "fromSource": "The War Zone"
+   "term": "Fire Control Electro-Optical (FCEO) systems",
+   "explainer": "Fire-control electro-optical systems use optical equipment as part of a platform’s fire-control capability. The story says SeaEagle FCEO systems are being supplied for frigates.",
+   "from_id": "957523f4c0",
+   "from": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "G20",
-   "explainer": "The G20 is the international meeting referenced in the report. The cancelled family photo and protests show how diplomatic tensions can affect its public proceedings.",
-   "from_id": "71ae56c921",
-   "from": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "denuclearisation",
+   "explainer": "Denuclearisation refers to reducing or ending nuclear weapons or nuclear capabilities. The joint statement calls for North Korea’s complete denuclearisation.",
+   "from_id": "360d0cfb58",
+   "from": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Exposure, air defense, and diplomatic friction",
+  "headline": "Security, sensing and diplomacy in focus",
   "paragraphs": [
-   "The stories span cyber risk, air defense, naval technology, and diplomacy. The cyber items describe vulnerabilities and a trojanized extension, while the defense reports concern missile protection, counter-drone equipment, and a claimed ship-based drone milestone.",
-   "For defenders, the cyber reports make asset and software checks immediately relevant: CISA lists exploited vulnerabilities, a Linux flaw affects MPTCP servers, and a marketplace extension reportedly attempted to install an SSH backdoor. The supplied snippets do not establish how broadly systems are affected.",
-   "For analysts, the Patriot sale and the G20 dispute place military support and diplomatic tension alongside claims about emerging naval airpower. These reports may point to areas worth tracking, but the snippets alone do not establish their wider effects. Watch for further detail on affected systems, deployment, and the claims reported."
+   "Today’s stories point to different kinds of exposure and response. Microsoft describes a malicious extension with a persistent SSH backdoor, while researchers say a shared ChatGPT link could expose private chats. Both accounts make careful review of software and links relevant to defenders.",
+   "The frigate contract brings another form of security capability into view: SeaEagle fire-control electro-optical systems. The North Korea statement, meanwhile, frames security through diplomacy, with the US, South Korea and Japan calling for complete denuclearisation as a possible meeting is sought.",
+   "For defenders and analysts, the useful connection is the need to distinguish reported capabilities and claims from confirmed outcomes. Watch for further detection or remediation guidance, details about the naval equipment, and developments in diplomatic engagement; the supplied accounts do not establish what follows."
   ],
   "takeaways": [
-   "Check exposure to catalogued vulnerabilities and MPTCP-related Linux risk.",
-   "Review extension provenance and unexpected SSH persistence.",
-   "Distinguish reported claims from confirmed operational effects."
+   "Check for the reported extension and SSH backdoor.",
+   "Treat claims and reported capabilities with care.",
+   "Track developments in equipment supply and diplomacy."
   ]
  },
  "health": [
@@ -784,13 +780,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 13
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 12
   },
   {
    "name": "The Record",
@@ -814,13 +810,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Google Threat Intelligence",
@@ -832,7 +828,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Schneier on Security",
@@ -844,37 +840,37 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 2
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Bellingcat",
@@ -904,7 +900,7 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Atlantic Council",
@@ -916,7 +912,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 10
   },
   {
    "name": "SpaceNews",
@@ -940,25 +936,25 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 9
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 10
   }
  ]
 }
