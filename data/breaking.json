@@ -1,45 +1,15 @@
 {
- "updated": "2026-10-31T06:27:06.713Z",
+ "updated": "2026-10-31T12:55:39.171Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "MarketWatch",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "The Record",
@@ -47,22 +17,7 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -72,9 +27,54 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -82,14 +82,14 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,171 @@
   }
  ],
  "items": [
+  {
+   "id": "na291b70517",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "published": "2026-10-31T12:50:09.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4fe09ebf4d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This Halloween, are full-size candy bars a better deal than fun-sized ones?",
+   "url": "https://www.marketwatch.com/story/this-halloween-are-king-sized-candy-bars-a-better-deal-than-fun-sized-ones-992da0d9?mod=mw_rss_topstories",
+   "published": "2026-10-31T12:37:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1f315506fa",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia’s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+   "url": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
+   "published": "2026-10-31T12:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfe39229a0f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+   "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+   "published": "2026-10-31T12:13:42.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nce3c5f9c15",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Evacuees from Russia-occupied city where residents ate weeds on way to Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-10-31T12:05:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1f2870fb86",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "published": "2026-10-31T12:01:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9750b66df3",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
+   "url": "https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories",
+   "published": "2026-10-31T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na0353772e0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Thousands protest across Italy over living costs and military spending",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+   "published": "2026-10-31T11:07:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf0c80b908a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+   "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+   "published": "2026-10-31T11:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n68174de001",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
+   "published": "2026-10-31T10:53:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb5b2afcac2",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
+   "url": "https://www.aljazeera.com/sports/2026/10/31/swiss-commentary-on-israeli-olympic-bobsleigh-team-termed-discriminatory?traffic_source=rss",
+   "published": "2026-10-31T10:49:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n31d2f9349b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Education under fire: Gaza’s children face death on their way to school",
+   "url": "https://www.aljazeera.com/features/2026/10/31/education-under-fire-gazas-children-face-death-on-their-way-to-school?traffic_source=rss",
+   "published": "2026-10-31T10:00:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n876bb7ef9b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Rival US and Russian resolutions on Western Sahara fail at UN",
+   "url": "https://www.aljazeera.com/news/2026/10/31/rival-us-and-russian-resolutions-on-western-sahara-fail-at-un?traffic_source=rss",
+   "published": "2026-10-31T09:35:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5a596203ba",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Attackers Exploit Critical Drupal Commerce Core Vulnerability CVE-2026-118539",
+   "url": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html",
+   "published": "2026-10-31T09:08:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4a3beb5aa5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "published": "2026-10-31T08:27:43.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "ndd178e3791",
    "kind": "news",
@@ -2297,17 +2462,6 @@
    "verified": true
   },
   {
-   "id": "n7ce17ccaf5",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "You can’t rely on the S&P 500 as much as you may think",
-   "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
-   "published": "2026-10-29T11:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "ndc053b54cf",
    "kind": "news",
    "group": "crisis",
@@ -2352,17 +2506,6 @@
    "verified": true
   },
   {
-   "id": "nf44ca37cbb",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The Fed held off on a rate hike. Today’s GDP and inflation reports could make waiting harder.",
-   "url": "https://www.marketwatch.com/story/the-fed-held-off-on-a-rate-hike-todays-gdp-and-inflation-reports-could-make-waiting-harder-693338e6?mod=mw_rss_topstories",
-   "published": "2026-10-29T11:11:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "n409f0b0486",
    "kind": "news",
    "group": "cyber",
@@ -2370,17 +2513,6 @@
    "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
    "published": "2026-10-29T11:10:13.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6229173511",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Lilly raises outlook for third time this year as Zepbound sales soar.",
-   "url": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
-   "published": "2026-10-29T11:03:00.000Z",
    "severity": "high",
    "verified": true
   },
@@ -3383,490 +3515,6 @@
    "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
    "published": "2026-10-28T13:10:34.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n29d08fa787",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-   "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-   "published": "2026-10-28T12:48:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n708eeca7ec",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Victims of Jordan’s air strikes in Syria",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/victims-of-jordans-air-strikes-in-syria?traffic_source=rss",
-   "published": "2026-10-28T12:35:19.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne260ee193a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s election: The battle between change and anti-Palestinian sentiment",
-   "url": "https://www.aljazeera.com/news/2026/10/28/israels-election-the-battle-between-change-and-anti-palestinian-sentiment?traffic_source=rss",
-   "published": "2026-10-28T12:22:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7c22489c81",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-   "published": "2026-10-28T12:19:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0d8d39d2f1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
-   "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
-   "published": "2026-10-28T12:00:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n12185b0bd2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "FBI seizes ‘bulletproof’ hosting site accused of facilitating child abuse, money laundering",
-   "url": "https://therecord.media/fbi-seizure-csam-virtualine",
-   "published": "2026-10-28T12:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n31a3ef99d2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli voters: hope and despair as election ballots are counted",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israeli-voters-hope-and-despair-as-election-ballots-are-counted?traffic_source=rss",
-   "published": "2026-10-28T11:55:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neb93de238d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-   "published": "2026-10-28T11:50:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbf84ba29f5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Hackers target US campaign finance system days before midterm elections",
-   "url": "https://www.aljazeera.com/news/2026/10/28/hackers-target-us-campaign-finance-system-days-before-midterm-elections?traffic_source=rss",
-   "published": "2026-10-28T11:47:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n733cd97b55",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
-   "published": "2026-10-28T11:41:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne14e22da1b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
-   "url": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
-   "published": "2026-10-28T11:36:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n99fceac00a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia-Africa Summit: What is on the agenda, and why does it matter?",
-   "url": "https://www.aljazeera.com/news/2026/10/28/russia-africa-summit-what-is-on-the-agenda-and-why-does-it-matter?traffic_source=rss",
-   "published": "2026-10-28T11:33:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3ef6b8bd42",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "High voter turnout among Palestinian citizens of Israel threatens Netanyahu",
-   "url": "https://www.aljazeera.com/news/2026/10/28/high-voter-turnout-from-palestinian-citizens-of-israel-threatens-netanyahu?traffic_source=rss",
-   "published": "2026-10-28T11:33:13.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nce5fe177d9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Wazuh and AI for Enhanced SOC Workflows",
-   "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-   "published": "2026-10-28T11:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2917fa7837",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "CVE-2026-97631: 16-Year-Old UEFI Flaw Threatens Servers",
-   "url": "https://securityaffairs.com/201928/security/cve-2026-97631-16-year-old-uefi-flaw-threatens-servers.html",
-   "published": "2026-10-28T11:15:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n42a9e60af1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-   "published": "2026-10-28T11:15:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n95a310f572",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Fake AI Attacks Target US Firms as Researchers Warn of Corporate Credential Theft",
-   "url": "https://hackread.com/fake-ai-attacks-target-us-firms-credential-theft/",
-   "published": "2026-10-28T11:10:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9ebc7f16e5",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
-   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
-   "published": "2026-10-28T10:48:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "naa56191275",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-   "published": "2026-10-28T10:46:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n99b1b17652",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces continue West Bank raids as Hebron lockdown enters sixth day",
-   "url": "https://www.aljazeera.com/news/2026/10/28/israeli-forces-continue-west-bank-raids-as-hebron-lockdown-enters-sixth-day?traffic_source=rss",
-   "published": "2026-10-28T10:41:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7edfa947d4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘Russia is already part of who I am’: African students in Moscow",
-   "url": "https://www.aljazeera.com/news/2026/10/28/russia-is-already-part-of-who-i-am-african-students-in-moscow?traffic_source=rss",
-   "published": "2026-10-28T10:40:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n085573e20d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
-   "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
-   "published": "2026-10-28T10:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n169a3a02ba",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-   "published": "2026-10-28T10:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd61f5588d8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-   "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-28T10:17:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neec748db61",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds Google Brotli and Adobe Commerce and Magento flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/201922/security/u-s-cisa-adds-google-brotli-and-adobe-commerce-and-magento-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-10-28T10:05:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6ef7333116",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Fake US Court Notices Target 100,000+ Businesses With LodaRAT",
-   "url": "https://hackread.com/fake-us-court-notices-target-businesses-lodarat/",
-   "published": "2026-10-28T10:04:16.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6c711eb18a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Netanyahu or Eisenkot? Can you form Israel’s next coalition government?",
-   "url": "https://www.aljazeera.com/news/2026/10/28/netanyahu-or-eisenkot-can-you-form-israels-next-coalition-government?traffic_source=rss",
-   "published": "2026-10-28T10:00:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfa39d7ab2f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s stock market drops as exit polls show no clear election winner",
-   "url": "https://www.aljazeera.com/economy/2026/10/28/israels-stock-market-drops-as-exit-polls-show-no-clear-election-winner?traffic_source=rss",
-   "published": "2026-10-28T09:55:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n56f1c438e2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
-   "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
-   "published": "2026-10-28T09:48:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n965a65e0d8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-   "published": "2026-10-28T09:43:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1ad733ce39",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli right makes provocative statements as election votes are counted",
-   "url": "https://www.aljazeera.com/news/2026/10/28/israeli-right-makes-provocative-statements-as-election-votes-are-counted?traffic_source=rss",
-   "published": "2026-10-28T09:30:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n47c4019906",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "At least 10 killed after two trains collide in Spain, authorities say",
-   "url": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
-   "published": "2026-10-28T09:26:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3f9c6dce42",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-   "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-   "published": "2026-10-28T09:14:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3c632d5dae",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "China says it takes Mbappe’s apology ‘seriously’ after Mao dictator comment",
-   "url": "https://www.aljazeera.com/sports/2026/10/28/china-says-it-takes-mbappes-apology-seriously-after-mao-dictator-comment?traffic_source=rss",
-   "published": "2026-10-28T08:57:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n21dec5f03b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-   "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
-   "published": "2026-10-28T08:37:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neb35f1ea51",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Khouri: Strong Israel-Arab bloc result does not mean Israel has changed",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/khouri-strong-israel-arab-bloc-result-does-not-mean-israel-has-changed?traffic_source=rss",
-   "published": "2026-10-28T08:35:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb7d115e29d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Three Japan-Focused Cyberattacks Show How Hackers Use AI",
-   "url": "https://securityaffairs.com/201913/ai/three-japan-focused-cyberattacks-show-how-hackers-use-ai.html",
-   "published": "2026-10-28T08:34:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd75560f4ca",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "published": "2026-10-28T08:15:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5b82eafeb8",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
-   "url": "https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/",
-   "published": "2026-10-28T08:02:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6fcf621f85",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-   "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-   "published": "2026-10-28T07:37:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb002d5dbb8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Elderly women and children survive Russian attack on Kharkiv",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/elderly-women-and-children-survive-russian-attack-on-kharkiv?traffic_source=rss",
-   "published": "2026-10-28T07:35:20.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n0252fd1afd",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia is selling Africa dependence disguised as partnership",
-   "url": "https://www.aljazeera.com/opinions/2026/10/28/russia-is-selling-africa-dependence-disguised-as-partnership?traffic_source=rss",
-   "published": "2026-10-28T07:25:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n697aeb2243",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-   "published": "2026-10-28T07:13:21.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n13b9afdca2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "The next phase of military rule in Egypt is here",
-   "url": "https://www.aljazeera.com/opinions/2026/10/28/the-next-phase-of-military-rule-in-egypt-is-here?traffic_source=rss",
-   "published": "2026-10-28T06:36:59.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
