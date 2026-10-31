@@ -1,36 +1,136 @@
 {
  "date": "2026-10-31",
  "edition": 229,
- "compiled": "2026-10-31T07:56:26.323Z",
+ "compiled": "2026-10-31T14:13:52.320Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "d6c6367093",
+   "id": "b35f9e575d",
    "section": "cyber",
-   "source": "Microsoft Security",
+   "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-   "snippet": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
-   "published": "2026-10-31T01:02:57.000Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-    },
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
-    }
-   ],
-   "score": 2.16,
-   "image": "/img/news/d6c6367093.webp",
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "snippet": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "published": "2026-10-31T14:05:15.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/b35f9e575d.webp",
    "t": "2026-10-31",
-   "summary": "Microsoft analyzes a malicious Claude Code-branded extension with a persistent SSH backdoor and offers guidance to detect and remediate it.",
-   "why": "Check for the extension and persistent SSH access, then follow Microsoft’s detection and remediation guidance.",
+   "summary": "Reddit says it will gradually become a logged-in service, limiting access for visitors without accounts as it fights scrapers.",
+   "why": "Defenders should review how login requirements affect access controls and automated traffic monitoring.",
    "tags": [
-    "Claude Code",
-    "SSH backdoor"
+    "logged-in service",
+    "scrapers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4e3b797fd4",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "snippet": "[...]",
+   "published": "2026-10-31T13:10:19.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/4e3b797fd4.webp",
+   "t": "2026-10-31",
+   "summary": "The title presents a guide to learning cybersecurity and bug hunting in the AI era; the snippet provides no further details.",
+   "why": "Learners should assess any specific guidance against their own security testing rules.",
+   "tags": [
+    "cybersecurity",
+    "bug hunter",
+    "AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a291b70517",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "snippet": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+   "published": "2026-10-31T12:50:09.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/a291b70517.webp",
+   "t": "2026-10-31",
+   "summary": "Chainalysis says attackers used “offensive agentic techniques” to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles.",
+   "why": "Review access to internal tools and assess whether exposed customer identity data appears in your environment.",
+   "tags": [
+    "data breach",
+    "internal systems",
+    "customer data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1f2870fb86",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "snippet": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. ",
+   "published": "2026-10-31T12:01:56.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/1f2870fb86.webp",
+   "t": "2026-10-31",
+   "summary": "Chainalysis said an external actor accessed non-sensitive customer data in a cybersecurity incident. The snippet says unauthorized access to its investigat—before ending.",
+   "why": "Check the company’s incident updates for the full scope of accessed data and systems.",
+   "tags": [
+    "intrusion",
+    "customer data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f0c80b908a",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+   "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+   "snippet": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek .",
+   "published": "2026-10-31T11:00:00.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/f0c80b908a.webp",
+   "t": "2026-10-31",
+   "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.",
+   "why": "The case highlights the operational reach of attacks against media, businesses, and government entities.",
+   "tags": [
+    "hacker",
+    "attacks",
+    "sentenced"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4a3beb5aa5",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing ",
+   "published": "2026-10-31T08:27:43.000Z",
+   "also": [],
+   "score": 1.38,
+   "image": "/img/news/4a3beb5aa5.webp",
+   "t": "2026-10-31",
+   "summary": "CISA added two Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog following active exploitation; the title says attackers chain three flaws for unauthenticated root access.",
+   "why": "Check Ivanti Connect Secure exposure and prioritize the flaws listed in CISA’s KEV catalog.",
+   "tags": [
+    "Ivanti Connect Secure",
+    "CISA",
+    "KEV"
    ],
    "ai": true
   },
@@ -44,7 +144,7 @@
    "snippet": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111357\" target=\"_blank\">CVE-2026-111357</a>",
    "published": "2026-10-30T12:00:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.35,
    "t": "2026-10-31",
    "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check whether affected systems are present and prioritize the catalogued vulnerabilities.",
@@ -65,7 +165,7 @@
    "snippet": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eig",
    "published": "2026-10-31T05:33:41.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.32,
    "image": "/img/news/e8eb82345a.webp",
    "t": "2026-10-31",
    "summary": "Researchers at Parameter say a malicious ChatGPT share link could run code in a logged-in session and expose private conversations.",
@@ -86,7 +186,7 @@
    "snippet": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of ",
    "published": "2026-10-31T04:56:12.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.31,
    "image": "/img/news/21ad2182a1.webp",
    "t": "2026-10-31",
    "summary": "Cloudflare reported 18.2 million network-layer DDoS attacks in Q3, up 38%, and said it autonomously mitigated them.",
@@ -107,7 +207,7 @@
    "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
    "published": "2026-10-30T21:09:46.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.24,
    "image": "/img/news/f167e37bde.webp",
    "t": "2026-10-31",
    "summary": "Researchers at Anthropic developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated remote command execution as root on servers running MPTCP.",
@@ -120,111 +220,24 @@
    "ai": true
   },
   {
-   "id": "ce4d8aef30",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
-   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
-   "snippet": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
-   "published": "2026-10-30T20:45:00.000Z",
+   "id": "541494306d",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "Across the line",
+   "url": "https://www.defenseone.com/ideas/2026/10/across-line/416947/",
+   "snippet": "This month’s Useful Fiction story explores how Army infantry, armor, and robotic systems might fight together.",
+   "published": "2026-10-31T10:00:00.000Z",
    "also": [],
-   "score": 1.37,
-   "image": "/img/news/ce4d8aef30.webp",
-   "t": "2026-10-30",
-   "summary": "The DOJ’s Executive Office for U.S. Trustees says a consumer privacy ombudsman is needed to advise a court on terms for selling Character.AI data.",
-   "why": "Review what user data may be retained, shared, or sold, and how those terms are disclosed.",
+   "score": 1.41,
+   "image": "/img/news/541494306d.webp",
+   "t": "2026-10-31",
+   "summary": "A Useful Fiction story explores how Army infantry, armor, and robotic systems might fight together.",
+   "why": "The story frames how robotic systems could relate to infantry and armor in combined operations.",
    "tags": [
-    "privacy",
-    "Character.AI",
-    "data sale"
-   ],
-   "ai": true
-  },
-  {
-   "id": "84a2c916c3",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Fashion retailer Resolve says hackers stole payment card information",
-   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-   "snippet": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
-   "published": "2026-10-30T19:00:00.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/84a2c916c3.webp",
-   "t": "2026-10-30",
-   "summary": "Resolve says a recent hack exposed customer payment card numbers.",
-   "why": "Payment teams should assess potential card exposure and follow their incident response procedures.",
-   "tags": [
-    "payment cards",
-    "hack"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e645dafde1",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-   "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "snippet": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-   "published": "2026-10-30T15:58:20.000Z",
-   "also": [],
-   "score": 1.27,
-   "image": "/img/news/e645dafde1.webp",
-   "t": "2026-10-30",
-   "summary": "Trezor says it received credible reports of a suspected crypto-theft implant in a Trezor Safe 5 sold by reseller CryptoBilis in Southeast Asia.",
-   "why": "Buyers should check device provenance and follow Trezor's guidance.",
-   "tags": [
-    "Trezor",
-    "hardware wallet",
-    "implant"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4bf9426962",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
-   "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
-   "snippet": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
-   "published": "2026-10-30T15:54:00.000Z",
-   "also": [],
-   "score": 1.27,
-   "image": "/img/news/4bf9426962.webp",
-   "t": "2026-10-30",
-   "summary": "Florida’s Department of Education said it became aware of a breach involving the Florida Student Financial Aid website on October 19. The title says 4.9 million people had Social Security numbers leaked.",
-   "why": "Review exposure and response procedures for sensitive personal data.",
-   "tags": [
-    "Florida",
-    "data breach",
-    "Social Security numbers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ad4296e15e",
-   "section": "cyber",
-   "source": "Microsoft Security",
-   "weight": 0.6,
-   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-   "snippet": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
-   "published": "2026-10-30T16:11:44.000Z",
-   "also": [],
-   "score": 1.27,
-   "image": "/img/news/ad4296e15e.webp",
-   "t": "2026-10-30",
-   "summary": "The post describes Teams support impersonation leading to remote access, malicious runtime execution, and AD CS abuse through authentication relay and Kerberos.",
-   "why": "Review help desk verification, certificate services, and authentication relay exposure.",
-   "tags": [
-    "AD CS",
-    "Kerberos",
-    "authentication relay"
+    "infantry",
+    "armor",
+    "robotic systems"
    ],
    "ai": true
   },
@@ -238,7 +251,7 @@
    "snippet": "UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. Accord",
    "published": "2026-10-31T07:48:30.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.37,
    "image": "/img/news/957523f4c0.webp",
    "t": "2026-10-31",
    "summary": "Chess Dynamics announced a contract to supply SeaEagle Fire Control Electro-Optical systems for two Indonesian Bung Tomo-class frigates.",
@@ -259,7 +272,7 @@
    "snippet": "AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .",
    "published": "2026-10-31T00:19:01.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.31,
    "image": "/img/news/199987d261.webp",
    "t": "2026-10-31",
    "summary": "AN/TWQ-1 Avengers with FIM-92 Stinger missiles have been joined by counter-drone sensor and jammer kits from U.S. Northern Command.",
@@ -281,7 +294,7 @@
    "snippet": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-10-30T22:33:00.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.27,
    "image": "/img/news/016252315e.webp",
    "t": "2026-10-31",
    "summary": "Bunker Talk invites discussion of topics not covered during the week.",
@@ -301,7 +314,7 @@
    "snippet": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
    "published": "2026-10-30T21:32:50.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.25,
    "image": "/img/news/b0920e8464.webp",
    "t": "2026-10-31",
    "summary": "China claims its GJ-21 drone launched and recovered from a Type 076 amphibious assault ship; the item describes this as a milestone in naval airpower.",
@@ -323,7 +336,7 @@
    "snippet": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
    "published": "2026-10-30T20:34:48.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.23,
    "image": "/img/news/6b965cdbc6.webp",
    "t": "2026-10-30",
    "summary": "The War Zone describes North Korea displaying reconnaissance and attack drones, including an aspirational stealthy UCAV concept.",
@@ -345,7 +358,7 @@
    "snippet": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
    "published": "2026-10-30T20:17:22.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.23,
    "image": "/img/news/a689403a33.webp",
    "t": "2026-10-30",
    "summary": "The announcement of 500 Patriot missiles for Ukraine comes amid heightened Kyiv-Washington tensions and purported delays in interceptor transfers.",
@@ -367,7 +380,7 @@
    "snippet": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
    "published": "2026-10-30T18:33:46.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.19,
    "image": "/img/news/eab5c25b88.webp",
    "t": "2026-10-30",
    "summary": "The title reports a limpet mine placed on a ship’s hull in a Strait of Hormuz attack. The snippet describes additional regional air defenses, ships, troops, ammunition, and supplies.",
@@ -380,88 +393,24 @@
    "ai": true
   },
   {
-   "id": "e32721d9dc",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "USAF F-16s Back On Alert Duty In Aleutian Islands For First Time In Decades",
-   "url": "https://www.twz.com/air/usaf-f-16s-back-on-alert-duty-in-aleutian-islands-for-first-time-in-decades",
-   "snippet": "NORAD’s return to fighter alert ops on remote Shemya Island is yet another reminder of the eroding security environment in the Pacific and the Arctic. The post USAF F-16s Back On Alert Duty In Aleutian Islands For First Time In Decades appeared first on TWZ .",
-   "published": "2026-10-30T17:50:19.000Z",
-   "also": [],
-   "score": 1.31,
-   "image": "/img/news/e32721d9dc.webp",
-   "t": "2026-10-30",
-   "summary": "NORAD has returned to fighter alert operations on remote Shemya Island, which the article describes as a reminder of an eroding security environment in the Pacific and Arctic.",
-   "why": "The return of alert duty is relevant to monitoring regional air operations.",
-   "tags": [
-    "F-16",
-    "Shemya Island",
-    "NORAD"
-   ],
-   "ai": true
-  },
-  {
-   "id": "360d0cfb58",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
-   "snippet": "The joint statement comes as US President Donald Trump seeks a new meeting with North Korean leader Kim Jong Un.",
-   "published": "2026-10-31T07:20:45.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/360d0cfb58.webp",
-   "t": "2026-10-31",
-   "summary": "The US, South Korea and Japan called for North Korea’s complete denuclearisation as Trump seeks a new meeting with Kim Jong Un.",
-   "why": "The joint statement and proposed meeting signal continuing diplomatic engagement over North Korea.",
-   "tags": [
-    "denuclearisation",
-    "North Korea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2f684e4e82",
+   "id": "ce3c5f9c15",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-   "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-   "published": "2026-10-31T02:12:19.000Z",
+   "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+   "published": "2026-10-31T13:45:34.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/2f684e4e82.webp",
+   "score": 1.59,
+   "image": "/img/news/ce3c5f9c15.webp",
    "t": "2026-10-31",
-   "summary": "The BBC says suspected North Korean hackers are the prime suspects in the Binance hack; it says the accusations, if true, point to their growing power.",
-   "why": "The account links a major alleged cyber theft to suspected state-linked hackers, relevant to threat attribution.",
+   "summary": "The BBC says residents left a devastated Russia-occupied city and arrived in Ukraine following a ceasefire brokered by US First Lady Melania Trump.",
+   "why": "The movement of evacuees and the ceasefire are relevant to tracking displacement and conditions around the city.",
    "tags": [
-    "North Korea",
-    "hackers",
-    "Binance"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dd178e3791",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
-   "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
-   "snippet": "Rising fatalities in Yemen’s conflict deepen the burden on families of fighters, both emotionally and financially.",
-   "published": "2026-10-31T05:48:25.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/dd178e3791.webp",
-   "t": "2026-10-31",
-   "summary": "Al Jazeera reports that rising fatalities in Yemen’s conflict are deepening the emotional and financial burden on fighters’ families.",
-   "why": "The report highlights the conflict’s effects on families beyond the battlefield.",
-   "tags": [
-    "Yemen",
-    "families"
+    "evacuees",
+    "ceasefire",
+    "Ukraine"
    ],
    "ai": true
   },
@@ -473,9 +422,9 @@
    "title": "US approves sale of 500 Patriot missiles to Ukraine",
    "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-   "published": "2026-10-31T00:40:43.000Z",
+   "published": "2026-10-31T12:21:25.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.56,
    "image": "/img/news/d7f71a1433.webp",
    "t": "2026-10-31",
    "summary": "The United States approved the sale of 500 Patriot missiles to Ukraine. The item says the interceptors are effective against Russia's ballistic missiles.",
@@ -488,87 +437,134 @@
    "ai": true
   },
   {
-   "id": "25befd4e22",
+   "id": "b5bafb19c9",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
-   "url": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss",
-   "snippet": "Reactors could revolutionise moon exploration, providing energy for bases and mining, but risks of contamination remain.",
-   "published": "2026-10-31T05:37:51.000Z",
+   "title": "Israel voted for Israel: Why Gaza wasn’t on the ballot",
+   "url": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
+   "snippet": "Despite genocide, regional war and isolation, Israel's election revealed little appetite for political alternatives.",
+   "published": "2026-10-31T13:35:51.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/25befd4e22.webp",
+   "score": 1.49,
+   "image": "/img/news/b5bafb19c9.webp",
    "t": "2026-10-31",
-   "summary": "Al Jazeera reports that lunar reactors could provide energy for bases and mining, while risks of contamination remain.",
-   "why": "The prospect links lunar infrastructure and resource activity with environmental concerns.",
+   "summary": "Al Jazeera says Israel’s election revealed little appetite for political alternatives despite genocide, regional war, and isolation.",
+   "why": "The result is relevant to understanding the reported political landscape amid regional conflict and isolation.",
    "tags": [
-    "reactors",
-    "moon",
-    "contamination"
+    "Israel",
+    "election",
+    "Gaza"
    ],
    "ai": true
   },
   {
-   "id": "b4e7dbd1f1",
+   "id": "54b8d1ada2",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Mohammed Deif, rare footage and October 7 documents",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/mohammed-deif-rare-footage-and-october-7-documents?traffic_source=rss",
-   "snippet": "Rare footage obtained by Al Jazeera offers a look at the life of former Hamas military commander, Mohammed Deif.",
-   "published": "2026-10-31T05:07:34.000Z",
+   "title": "On the Norway-Russia border, the Sámi people face a growing divide",
+   "url": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
+   "snippet": "As Russia’s war in Ukraine reshapes this Arctic frontier, Sámi communities struggle to sustain cross-border traditions.",
+   "published": "2026-10-31T12:58:28.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/54b8d1ada2.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera reports that Russia’s war in Ukraine is reshaping the Arctic frontier, where Sámi communities struggle to sustain cross-border traditions.",
+   "why": "The story highlights how conflict can affect communities and cross-border ties along an Arctic frontier.",
+   "tags": [
+    "Norway-Russia border",
+    "Sámi",
+    "Arctic"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e1a4659560",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Studios destroyed, traditions saved: Artists fight to save Sudan’s culture",
+   "url": "https://www.aljazeera.com/features/2026/10/31/studios-destroyed-traditions-saved-artists-fight-to-save-sudans-culture?traffic_source=rss",
+   "snippet": "Artists in Sudan are working to save culture and traditions amid the country's war.",
+   "published": "2026-10-31T12:49:04.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/e1a4659560.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera says artists in Sudan are working to preserve culture and traditions amid the country’s war.",
+   "why": "Cultural preservation is a dimension of the conflict’s effects on Sudanese communities.",
+   "tags": [
+    "Sudan",
+    "artists",
+    "culture"
+   ],
+   "ai": true
+  },
+  {
+   "id": "69a67642e8",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+   "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+   "snippet": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
+   "published": "2026-10-31T12:22:45.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/69a67642e8.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera reports that Iranian lawmakers called for withdrawal from the NPT; observers say withdrawal would not mean Iran would build a nuclear weapon.",
+   "why": "Treaty participation is relevant to assessing the diplomatic context around Iran’s nuclear policy.",
+   "tags": [
+    "Iran",
+    "NPT",
+    "withdrawal"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fe39229a0f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+   "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+   "snippet": "Iran’s supreme leader says Tehran’s potential response will not be restricted by geography.",
+   "published": "2026-10-31T12:13:42.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/fe39229a0f.webp",
+   "t": "2026-10-31",
+   "summary": "Iran’s supreme leader says Tehran’s potential response to an attack would not be restricted by geography, as mediators try for peace.",
+   "why": "The statement makes geography a stated dimension of Iran’s potential response and mediation efforts.",
+   "tags": [
+    "Iran",
+    "retaliation",
+    "geography"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a0353772e0",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Thousands protest across Italy over living costs and military spending",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+   "snippet": "Thousands have protested across Italy against rising living costs and increased military spending.",
+   "published": "2026-10-31T11:07:39.000Z",
    "also": [],
    "score": 1.44,
-   "image": "/img/news/b4e7dbd1f1.webp",
+   "image": "/img/news/a0353772e0.webp",
    "t": "2026-10-31",
-   "summary": "Al Jazeera says rare footage offers a look at the life of former Hamas military commander Mohammed Deif.",
-   "why": "The footage provides material about a former military commander.",
+   "summary": "Al Jazeera reports that thousands protested across Italy against rising living costs and increased military spending.",
+   "why": "The protests connect domestic cost concerns with public opposition to military spending.",
    "tags": [
-    "footage",
-    "Mohammed Deif"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3c45ba35ac",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-   "snippet": "Deal would be one of the most significant steps to supply defensive weapons to Kyiv since ​Trump took office in 2025.",
-   "published": "2026-10-31T04:51:25.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/3c45ba35ac.webp",
-   "t": "2026-10-31",
-   "summary": "Al Jazeera reports that the US approved a $2.1bn Patriot missile sale to Ukraine, describing it as a significant step in supplying defensive weapons.",
-   "why": "The sale concerns defensive weapons supply to Ukraine.",
-   "tags": [
-    "Patriot",
-    "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b8922bceb5",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-   "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-   "published": "2026-10-30T23:19:17.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/b8922bceb5.webp",
-   "t": "2026-10-31",
-   "summary": "The BBC’s Ukraine correspondent explains the temporary ceasefire in the devastated town of Oleshky.",
-   "why": "The temporary ceasefire is relevant to conditions in the town.",
-   "tags": [
-    "ceasefire",
-    "Oleshky"
+    "Italy",
+    "protests",
+    "military spending"
    ],
    "ai": true
   }
@@ -720,47 +716,47 @@
   }
  ],
  "run_today": [
-  "Check for the malicious Claude Code-branded extension and persistent SSH access; use Microsoft’s detection and remediation guidance.",
-  "Warn users to treat unexpected ChatGPT share links cautiously and review protections for logged-in sessions.",
-  "Review network-layer DDoS monitoring and mitigation readiness."
+  "Review access controls and automated-traffic monitoring as Reddit moves toward login-gated access.",
+  "Check internal-tool access and assess exposure of customer identity data.",
+  "Check Ivanti Connect Secure assets against CISA’s KEV catalog and prioritize listed flaws."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "SSH backdoor",
-   "explainer": "An SSH backdoor is a way to retain access to a system through SSH, a protocol used for remote connections. Here, Microsoft describes one as persistent.",
-   "from_id": "d6c6367093",
-   "from": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-   "fromSource": "Microsoft Security"
+   "term": "logged-in service",
+   "explainer": "A logged-in service limits some or all access to people who sign in with an account. Reddit says it plans to move gradually toward this model, with limited access for visitors without accounts.",
+   "from_id": "b35f9e575d",
+   "from": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Fire Control Electro-Optical (FCEO) systems",
-   "explainer": "Fire-control electro-optical systems use optical equipment as part of a platform’s fire-control capability. The story says SeaEagle FCEO systems are being supplied for frigates.",
-   "from_id": "957523f4c0",
-   "from": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/",
-   "fromSource": "Naval News"
+   "term": "robotic systems",
+   "explainer": "Robotic systems are machines that can carry out functions in military operations. The story considers how they might fight alongside infantry and armor.",
+   "from_id": "541494306d",
+   "from": "https://www.defenseone.com/ideas/2026/10/across-line/416947/",
+   "fromSource": "Defense One"
   },
   {
    "domain": "geo",
-   "term": "denuclearisation",
-   "explainer": "Denuclearisation refers to reducing or ending nuclear weapons or nuclear capabilities. The joint statement calls for North Korea’s complete denuclearisation.",
-   "from_id": "360d0cfb58",
-   "from": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
+   "term": "Arctic frontier",
+   "explainer": "An Arctic frontier is a border region in the Arctic. Here, the story describes how Russia’s war in Ukraine is reshaping this area and affecting Sámi cross-border traditions.",
+   "from_id": "54b8d1ada2",
+   "from": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Security, sensing and diplomacy in focus",
+  "headline": "Access, conflict, and the pressures around them",
   "paragraphs": [
-   "Today’s stories point to different kinds of exposure and response. Microsoft describes a malicious extension with a persistent SSH backdoor, while researchers say a shared ChatGPT link could expose private chats. Both accounts make careful review of software and links relevant to defenders.",
-   "The frigate contract brings another form of security capability into view: SeaEagle fire-control electro-optical systems. The North Korea statement, meanwhile, frames security through diplomacy, with the US, South Korea and Japan calling for complete denuclearisation as a possible meeting is sought.",
-   "For defenders and analysts, the useful connection is the need to distinguish reported capabilities and claims from confirmed outcomes. Watch for further detection or remediation guidance, details about the naval equipment, and developments in diplomatic engagement; the supplied accounts do not establish what follows."
+   "Several stories turn on access and movement: Reddit plans to limit access for visitors without accounts, while Chainalysis says attackers reached internal systems and tools. These are distinct situations, but both make boundaries and permissions central. For defenders, they suggest checking how access is granted, monitored, and reviewed.",
+   "Other items describe movement under conflict or pressure. Evacuees arrived in Ukraine after a ceasefire, and Sámi communities face difficulty sustaining cross-border traditions as the war reshapes an Arctic frontier. The stories offer different views of how conflict affects people, place, and continuity; analysts should keep those geographic and human dimensions visible.",
+   "The remaining headlines point to contested choices: Israel’s election, Italian protests over military spending, and debate about Iran’s NPT status and potential response. Alongside a proposed sale of Patriot missiles to Ukraine and a scenario involving robotic systems, they show political and military questions in parallel. Watch how the stories’ stated pressures and responses develop."
   ],
   "takeaways": [
-   "Check for the reported extension and SSH backdoor.",
-   "Treat claims and reported capabilities with care.",
-   "Track developments in equipment supply and diplomacy."
+   "Treat access boundaries as a practical focus in the Reddit and Chainalysis stories.",
+   "Track displacement and cross-border effects alongside military and political developments.",
+   "Keep reported statements distinct from outcomes or forecasts."
   ]
  },
  "health": [
@@ -780,13 +776,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 11
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 14
   },
   {
    "name": "The Record",
@@ -810,7 +806,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "Unit 42",
@@ -828,7 +824,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Schneier on Security",
@@ -846,7 +842,7 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Breaking Defense",
@@ -864,7 +860,7 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Naval News",
@@ -876,7 +872,7 @@
    "name": "Bellingcat",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Oryx (visually confirmed losses)",
@@ -906,13 +902,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 9
   },
   {
    "name": "SpaceNews",
@@ -942,19 +938,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 11
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 8
   }
  ]
 }
