@@ -1,13 +1,23 @@
 {
- "updated": "2026-11-01T09:38:59.511Z",
+ "updated": "2026-11-01T16:21:56.515Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -17,14 +27,9 @@
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -32,14 +37,19 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -47,32 +57,17 @@
    "n": 1
   },
   {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
@@ -82,14 +77,19 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,160 @@
   }
  ],
  "items": [
+  {
+   "id": "nd23a87aed0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "JERUSALEM DAILY: Israel continues siege and arrests in Hebron",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/jerusalem-daily-israel-continues-siege-and-arrests-in-hebron?traffic_source=rss",
+   "published": "2026-11-01T15:38:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naf6ffe7484",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "published": "2026-11-01T15:11:21.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n54bfa131e6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+   "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+   "published": "2026-11-01T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7bc626e8e1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel election: When will government be formed, who will lead it?",
+   "url": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it?traffic_source=rss",
+   "published": "2026-11-01T14:16:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4f74f56acb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli attacks on Gaza kill at least nine people",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
+   "published": "2026-11-01T14:10:59.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nafaec3edbd",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This is the biggest threat to the AI-powered bull market",
+   "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+   "published": "2026-11-01T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd15dc15542",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "published": "2026-11-01T13:53:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n75368c83fb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
+   "published": "2026-11-01T13:36:16.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n1b02c5ea4f",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Security Affairs newsletter Round 602 by Pierluigi Paganini – INTERNATIONAL EDITION",
+   "url": "https://securityaffairs.com/202200/breaking-news/security-affairs-newsletter-round-602-by-pierluigi-paganini-international-edition.html",
+   "published": "2026-11-01T13:22:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4056a58c78",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "America is doing better than you think. Your algorithm is just hiding it.",
+   "url": "https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories",
+   "published": "2026-11-01T13:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndf3114d9f1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Who really wins under Trump’s economy? Coastal liberal elites who hate him.",
+   "url": "https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb?mod=mw_rss_topstories",
+   "published": "2026-11-01T13:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nde225424df",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "SMS of Death: Android under attack, an invisible SMS can block calls and emergency services",
+   "url": "https://securityaffairs.com/202184/security/sms-of-death-android-under-attack-an-invisible-sms-can-block-calls-and-emergency-services.html",
+   "published": "2026-11-01T12:16:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1d293ae9ce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+   "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+   "published": "2026-11-01T11:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na1d512e245",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "FBI Links 628 Crypto Wallet Addresses to North Korea’s Binance Hack",
+   "url": "https://hackread.com/fbi-crypto-wallet-addresses-north-korea-binance-hack/",
+   "published": "2026-11-01T11:11:45.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nc1c2013197",
    "kind": "news",
@@ -2341,17 +2495,6 @@
    "verified": true
   },
   {
-   "id": "n88af8d3a0a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Get ready for the ‘Year of Starlink’ as airlines battle over superfast WiFi",
-   "url": "https://www.marketwatch.com/story/get-ready-for-the-year-of-starlink-as-airlines-battle-over-superfast-wifi-6bce32c1?mod=mw_rss_topstories",
-   "published": "2026-10-29T16:49:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nb485c11963",
    "kind": "news",
    "group": "crisis",
@@ -2371,611 +2514,6 @@
    "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
    "published": "2026-10-29T16:30:00.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n31dc864af6",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
-   "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
-   "published": "2026-10-29T16:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na556f2a132",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-   "published": "2026-10-29T16:10:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfe950b2faf",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds Linux Kernel and Broadcom VMWare ESX flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/202050/hacking/u-s-cisa-adds-linux-kernel-and-broadcom-vmware-esx-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-10-29T16:05:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n649ecf4a57",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-   "published": "2026-10-29T15:57:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5c3d8e4d26",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Looking for income? These dividend stocks have high yields that seem well supported.",
-   "url": "https://www.marketwatch.com/story/looking-for-income-these-dividend-stocks-have-high-yields-that-seem-well-supported-81093bdf?mod=mw_rss_topstories",
-   "published": "2026-10-29T15:54:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nefbb1c68eb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Threat Modeling With 4 Simple Questions on a White Board",
-   "url": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
-   "published": "2026-10-29T15:44:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc88fd1b35b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Florida is voting on whether to slash property taxes. Here’s who it would benefit — and hurt.",
-   "url": "https://www.marketwatch.com/story/florida-is-voting-on-whether-to-slash-property-taxes-heres-who-it-would-benefit-and-hurt-6c34b470?mod=mw_rss_topstories",
-   "published": "2026-10-29T15:39:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2436f7586c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s anti-Qatar campaign bleeds into elections",
-   "url": "https://www.aljazeera.com/news/2026/10/29/israels-anti-qatar-campaign-bleeds-into-elections?traffic_source=rss",
-   "published": "2026-10-29T15:35:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb4860d74ac",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "EMBRACE Flaws in 5 AI Coding Tools Enable Code Execution and File Theft",
-   "url": "https://hackread.com/embrace-flaws-ai-coding-tools-code-execution-theft/",
-   "published": "2026-10-29T15:20:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8cc04215ef",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-   "published": "2026-10-29T15:20:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4e2b19219e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
-   "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening?traffic_source=rss",
-   "published": "2026-10-29T15:12:36.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nf5faf77d96",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Google Says Gemini 4 Carbon Leads in Finding, Exploiting and Fixing Vulnerabilities",
-   "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-   "published": "2026-10-29T15:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfcadd0dd5c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-   "published": "2026-10-29T15:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb49dd95c9b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The midterms are crucial to the future of Social Security – no matter how old you are",
-   "url": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
-   "published": "2026-10-29T14:37:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf34fb5d0be",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-   "published": "2026-10-29T14:35:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n67386231cf",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-   "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-   "published": "2026-10-29T14:18:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd340597c60",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "3 Ways AI Agents Already Operate in Your Browser",
-   "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-   "published": "2026-10-29T14:00:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n748d67ab1d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-   "published": "2026-10-29T13:59:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n147d292148",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "FTC to probe airlines, gig worker firms over personalized pricing and pay",
-   "url": "https://therecord.media/ftc-rideshare-airlines-data",
-   "published": "2026-10-29T13:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6ba5679a18",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Damascus, Amman contradict each other on attack that killed civilians",
-   "url": "https://www.aljazeera.com/features/2026/10/29/damascus-amman-contradict-each-other-on-attack-that-killed-civilians?traffic_source=rss",
-   "published": "2026-10-29T13:44:42.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb326a55c61",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-   "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-   "published": "2026-10-29T13:42:52.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n005f252886",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-   "published": "2026-10-29T13:42:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n342c74932b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Cyberattack disrupts Belgian tax services before filing deadline",
-   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
-   "published": "2026-10-29T13:31:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n56ef05760e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
-   "url": "https://therecord.media/new-mexico-cyberattack-hospital",
-   "published": "2026-10-29T13:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1b4f07400f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
-   "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
-   "published": "2026-10-29T13:26:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4daf3674d2",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "ADEX: AI Involved in 52% of Detected Ad Fraud Schemes – Shopping Agents Could be Next",
-   "url": "https://hackread.com/adex-ai-detected-ad-fraud-schemes-shopping-agents/",
-   "published": "2026-10-29T13:02:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9c007578e9",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
-   "url": "https://hackread.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
-   "published": "2026-10-29T13:00:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9ca4865974",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Over 41,000 DHS Employee Records Leaked Online",
-   "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-   "published": "2026-10-29T12:54:14.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nf84c832f84",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Russian drone attack on Ukrainian train station kills at least 13, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T12:38:40.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5f60a35bcc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "South Korean prosecutors press for death sentence in Yoon martial law case",
-   "url": "https://www.aljazeera.com/news/2026/10/29/south-korean-prosecutors-press-for-death-sentence-in-yoon-martial-law-case?traffic_source=rss",
-   "published": "2026-10-29T12:36:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1834d7d196",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why is Russia sending fighter jets and air defences to Ethiopia?",
-   "url": "https://www.aljazeera.com/news/2026/10/29/why-is-russia-sending-fighter-jets-and-air-defences-to-ethiopia?traffic_source=rss",
-   "published": "2026-10-29T12:32:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1c0d63d6b7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "A week of Israel’s lockdown in Hebron: What’s happened, when will it end?",
-   "url": "https://www.aljazeera.com/news/2026/10/29/a-week-of-israels-lockdown-in-hebron-whats-happened-when-will-it-end?traffic_source=rss",
-   "published": "2026-10-29T12:29:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n15f712f317",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-   "published": "2026-10-29T12:00:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf726928be3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "CISA Advisories",
-   "title": "Hitachi Energy CoreTec Product",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-   "published": "2026-10-29T12:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n58a4b860d2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "CISA Advisories",
-   "title": "Siemens Mendix SAML Module",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-   "published": "2026-10-29T12:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3f007ce8c8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "CISA Advisories",
-   "title": "Hitachi Energy TRO600 series products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-   "published": "2026-10-29T12:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5f6d9a2212",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Ukrainian Nefilim and Hive Affiliate Artem Stryzhak Jailed for 70 Months",
-   "url": "https://hackread.com/ukrainian-nefilim-hive-affiliate-artem-stryzhak-jailed/",
-   "published": "2026-10-29T11:46:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5a570ea1e7",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-   "published": "2026-10-29T11:39:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndd1c518d70",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-   "published": "2026-10-29T11:39:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n841612d7a8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-   "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T11:34:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne6aa25e969",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-   "published": "2026-10-29T11:33:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9e7c513e1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-   "published": "2026-10-29T11:33:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndc053b54cf",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s election rhetoric: What candidates said, and how they performed",
-   "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
-   "published": "2026-10-29T11:27:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6b1e02aa07",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US sanctions Rwanda's defence ministry over DR Congo conflict",
-   "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T11:25:16.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "na2305acd52",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
-   "url": "https://www.aljazeera.com/sports/2026/10/29/south-korea-captain-la-star-son-heung-min-backed-by-coach-amid-rift-rumour?traffic_source=rss",
-   "published": "2026-10-29T11:22:16.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n35b6fc33da",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Pentagon says Iran war has cost US taxpayers $47bn: What that means",
-   "url": "https://www.aljazeera.com/news/2026/10/29/pentagon-says-iran-war-has-cost-us-taxpayers-47bn-what-that-means?traffic_source=rss",
-   "published": "2026-10-29T11:12:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n409f0b0486",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-   "published": "2026-10-29T11:10:13.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndac38c3621",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-   "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-   "published": "2026-10-29T11:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n083a1ea7d2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-   "published": "2026-10-29T10:44:46.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nfe6982c30d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Volt Typhoon Used Silent Train to Hide Zero-Day Attacks",
-   "url": "https://securityaffairs.com/202023/intelligence/volt-typhoon-used-silent-train-to-hide-zero-day-attacks.html",
-   "published": "2026-10-29T10:34:54.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5e293c9ee5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
-   "url": "https://www.aljazeera.com/sports/2026/10/29/kylian-mbappe-real-madrid-and-la-liga-face-long-redemption-road-in-china?traffic_source=rss",
-   "published": "2026-10-29T10:30:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n13fcb92830",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-   "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-   "published": "2026-10-29T10:29:25.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ncf3544e851",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-   "published": "2026-10-29T10:26:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n196b1e6052",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-   "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-   "published": "2026-10-29T10:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n77d976efa8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-   "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-   "published": "2026-10-29T09:47:10.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
