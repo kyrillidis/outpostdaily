@@ -1,0 +1,955 @@
+{
+ "date": "2026-11-01",
+ "edition": 230,
+ "compiled": "2026-11-01T01:19:25.077Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "ba55b05e53",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "snippet": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+   "published": "2026-10-31T18:01:12.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/ba55b05e53.webp",
+   "t": "2026-10-31",
+   "summary": "Northflank is warning customers to rotate credentials and secrets stored on its platform after a breach led to unauthorized use of their AI API keys.",
+   "why": "Rotate exposed credentials and secrets, then check for unauthorized use of AI API keys.",
+   "tags": [
+    "breach",
+    "credentials",
+    "AI API keys"
+   ],
+   "ai": true
+  },
+  {
+   "id": "845cf24b89",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "snippet": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+   "published": "2026-10-31T15:35:11.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/845cf24b89.webp",
+   "t": "2026-10-31",
+   "summary": "A researcher released a proof-of-concept for a recently patched Android vulnerability that can disrupt cellular service or crash phones through a crafted SMS.",
+   "why": "Apply the Android patch and check whether affected devices remain unpatched.",
+   "tags": [
+    "Android",
+    "SMS",
+    "exploit"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b35f9e575d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "snippet": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "published": "2026-10-31T14:05:15.000Z",
+   "also": [],
+   "score": 1.37,
+   "image": "/img/news/b35f9e575d.webp",
+   "t": "2026-10-31",
+   "summary": "Reddit says it will gradually become a logged-in service, limiting access for visitors without accounts as it fights scrapers.",
+   "why": "Defenders should review how login requirements affect access controls and automated traffic monitoring.",
+   "tags": [
+    "logged-in service",
+    "scrapers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4e3b797fd4",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "snippet": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
+   "published": "2026-10-31T13:10:19.000Z",
+   "also": [],
+   "score": 1.35,
+   "image": "/img/news/4e3b797fd4.webp",
+   "t": "2026-10-31",
+   "summary": "The title presents a guide to learning cybersecurity and bug hunting in the AI era; the snippet provides no further details.",
+   "why": "Learners should assess any specific guidance against their own security testing rules.",
+   "tags": [
+    "cybersecurity",
+    "bug hunter",
+    "AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a291b70517",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "snippet": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+   "published": "2026-10-31T12:50:09.000Z",
+   "also": [],
+   "score": 1.34,
+   "image": "/img/news/a291b70517.webp",
+   "t": "2026-10-31",
+   "summary": "Chainalysis says attackers used “offensive agentic techniques” to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles.",
+   "why": "Review access to internal tools and assess whether exposed customer identity data appears in your environment.",
+   "tags": [
+    "data breach",
+    "internal systems",
+    "customer data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1f2870fb86",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "snippet": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. ",
+   "published": "2026-10-31T12:01:56.000Z",
+   "also": [],
+   "score": 1.22,
+   "image": "/img/news/1f2870fb86.webp",
+   "t": "2026-10-31",
+   "summary": "Chainalysis said an external actor accessed non-sensitive customer data in a cybersecurity incident. The snippet says unauthorized access to its investigat—before ending.",
+   "why": "Check the company’s incident updates for the full scope of accessed data and systems.",
+   "tags": [
+    "intrusion",
+    "customer data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f0c80b908a",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+   "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+   "snippet": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek .",
+   "published": "2026-10-31T11:00:00.000Z",
+   "also": [],
+   "score": 1.2,
+   "image": "/img/news/f0c80b908a.webp",
+   "t": "2026-10-31",
+   "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.",
+   "why": "The case highlights the operational reach of attacks against media, businesses, and government entities.",
+   "tags": [
+    "hacker",
+    "attacks",
+    "sentenced"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4a3beb5aa5",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing ",
+   "published": "2026-10-31T08:27:43.000Z",
+   "also": [],
+   "score": 1.15,
+   "image": "/img/news/4a3beb5aa5.webp",
+   "t": "2026-10-31",
+   "summary": "CISA added two Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog following active exploitation; the title says attackers chain three flaws for unauthenticated root access.",
+   "why": "Check Ivanti Connect Secure exposure and prioritize the flaws listed in CISA’s KEV catalog.",
+   "tags": [
+    "Ivanti Connect Secure",
+    "CISA",
+    "KEV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e8eb82345a",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "snippet": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eig",
+   "published": "2026-10-31T05:33:41.000Z",
+   "also": [],
+   "score": 1.09,
+   "image": "/img/news/e8eb82345a.webp",
+   "t": "2026-10-31",
+   "summary": "Researchers at Parameter say a malicious ChatGPT share link could run code in a logged-in session and expose private conversations.",
+   "why": "Treat unexpected shared-chat links cautiously and review session protections for logged-in users.",
+   "tags": [
+    "ChatGPT",
+    "share link"
+   ],
+   "ai": true
+  },
+  {
+   "id": "21ad2182a1",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "snippet": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of ",
+   "published": "2026-10-31T04:56:12.000Z",
+   "also": [],
+   "score": 1.08,
+   "image": "/img/news/21ad2182a1.webp",
+   "t": "2026-10-31",
+   "summary": "Cloudflare reported 18.2 million network-layer DDoS attacks in Q3, up 38%, and said it autonomously mitigated them.",
+   "why": "Review network-layer DDoS monitoring and mitigation readiness.",
+   "tags": [
+    "Cloudflare",
+    "DDoS"
+   ],
+   "ai": true
+  },
+  {
+   "id": "541494306d",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "Across the line",
+   "url": "https://www.defenseone.com/ideas/2026/10/across-line/416947/",
+   "snippet": "This month’s Useful Fiction story explores how Army infantry, armor, and robotic systems might fight together.",
+   "published": "2026-10-31T10:00:00.000Z",
+   "also": [],
+   "score": 1.18,
+   "image": "/img/news/541494306d.webp",
+   "t": "2026-10-31",
+   "summary": "A Useful Fiction story explores how Army infantry, armor, and robotic systems might fight together.",
+   "why": "The story frames how robotic systems could relate to infantry and armor in combined operations.",
+   "tags": [
+    "infantry",
+    "armor",
+    "robotic systems"
+   ],
+   "ai": true
+  },
+  {
+   "id": "957523f4c0",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates",
+   "url": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/",
+   "snippet": "UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. Accord",
+   "published": "2026-10-31T07:48:30.000Z",
+   "also": [],
+   "score": 1.14,
+   "image": "/img/news/957523f4c0.webp",
+   "t": "2026-10-31",
+   "summary": "Chess Dynamics announced a contract to supply SeaEagle Fire Control Electro-Optical systems for two Indonesian Bung Tomo-class frigates.",
+   "why": "The contract highlights electro-optical fire-control equipment as part of frigate capability.",
+   "tags": [
+    "SeaEagle",
+    "frigates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "199987d261",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate",
+   "url": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
+   "snippet": "AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .",
+   "published": "2026-10-31T00:19:01.000Z",
+   "also": [],
+   "score": 1.08,
+   "image": "/img/news/199987d261.webp",
+   "t": "2026-10-31",
+   "summary": "AN/TWQ-1 Avengers with FIM-92 Stinger missiles have been joined by counter-drone sensor and jammer kits from U.S. Northern Command.",
+   "why": "The mix of missile and counter-drone systems shows layered protection around a high-profile site.",
+   "tags": [
+    "Avengers",
+    "counter-drone",
+    "jammers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "016252315e",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "url": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-213",
+   "snippet": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+   "published": "2026-10-30T22:33:00.000Z",
+   "also": [],
+   "score": 1.04,
+   "image": "/img/news/016252315e.webp",
+   "t": "2026-10-31",
+   "summary": "Bunker Talk invites discussion of topics not covered during the week.",
+   "why": "The item provides no specific technology or operational detail.",
+   "tags": [
+    "Bunker Talk"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b0920e8464",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims",
+   "url": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims",
+   "snippet": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
+   "published": "2026-10-30T21:32:50.000Z",
+   "also": [],
+   "score": 1.02,
+   "image": "/img/news/b0920e8464.webp",
+   "t": "2026-10-31",
+   "summary": "China claims its GJ-21 drone launched and recovered from a Type 076 amphibious assault ship; the item describes this as a milestone in naval airpower.",
+   "why": "Ship-based launch and recovery is relevant to naval airpower and operations.",
+   "tags": [
+    "GJ-21",
+    "drone",
+    "Type 076"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6b965cdbc6",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Highlights From North Korea’s Drone-A-Palooza",
+   "url": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza",
+   "snippet": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
+   "published": "2026-10-30T20:34:48.000Z",
+   "also": [],
+   "score": 1,
+   "image": "/img/news/6b965cdbc6.webp",
+   "t": "2026-10-30",
+   "summary": "The War Zone describes North Korea displaying reconnaissance and attack drones, including an aspirational stealthy UCAV concept.",
+   "why": "The display highlights reconnaissance and attack drones as capabilities to track in military assessments.",
+   "tags": [
+    "North Korea",
+    "drones",
+    "UCAV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a689403a33",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies",
+   "url": "https://breakingdefense.com/2026/10/us-greenlights-500-patriot-missiles-for-ukraine-with-2-1-billion-to-be-paid-by-allies/",
+   "snippet": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
+   "published": "2026-10-30T20:17:22.000Z",
+   "also": [],
+   "score": 1,
+   "image": "/img/news/a689403a33.webp",
+   "t": "2026-10-30",
+   "summary": "The announcement of 500 Patriot missiles for Ukraine comes amid heightened Kyiv-Washington tensions and purported delays in interceptor transfers.",
+   "why": "The reported transfer and delays are relevant to assessing Ukraine’s interceptor supply.",
+   "tags": [
+    "Patriot",
+    "Ukraine",
+    "interceptors"
+   ],
+   "ai": true
+  },
+  {
+   "id": "eab5c25b88",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report",
+   "url": "https://www.twz.com/news-features/iran-used-limpet-mine-placed-on-ships-hull-in-latest-strait-of-hormuz-attack-report",
+   "snippet": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
+   "published": "2026-10-30T18:33:46.000Z",
+   "also": [],
+   "score": 0.96,
+   "image": "/img/news/eab5c25b88.webp",
+   "t": "2026-10-30",
+   "summary": "The title reports a limpet mine placed on a ship’s hull in a Strait of Hormuz attack. The snippet describes additional regional air defenses, ships, troops, ammunition, and supplies.",
+   "why": "A hull-placed mine highlights the relevance of ship protection and maritime security.",
+   "tags": [
+    "limpet mine",
+    "ship",
+    "Strait of Hormuz"
+   ],
+   "ai": true
+  },
+  {
+   "id": "914390d744",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+   "published": "2026-10-31T22:11:45.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/914390d744.webp",
+   "t": "2026-10-31",
+   "summary": "Binance covers 90% of losses after a hack; two analytics firms say a North Korean state-backed group is the likely culprit.",
+   "why": "Attribution remains an assessment; analysts should distinguish the firms’ claim from confirmed responsibility.",
+   "tags": [
+    "Binance",
+    "hack",
+    "North Korea"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0e1f88d56c",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+   "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+   "published": "2026-10-31T19:22:26.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/0e1f88d56c.webp",
+   "t": "2026-10-31",
+   "summary": "An evacuated couple says they crossed minefields in Oleshky while searching for food.",
+   "why": "Minefields shape movement and access to essential supplies in the front-line city.",
+   "tags": [
+    "Oleshky",
+    "minefields"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dabd2925be",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+   "snippet": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions.",
+   "published": "2026-11-01T00:00:51.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/dabd2925be.webp",
+   "t": "2026-11-01",
+   "summary": "Iran’s top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran’s conditions.",
+   "why": "The proposed reopening links access through Hormuz to negotiations and could affect the route’s strategic significance.",
+   "tags": [
+    "Hormuz",
+    "Iran",
+    "Qatar"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ce3c5f9c15",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+   "published": "2026-10-31T17:53:35.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/ce3c5f9c15.webp",
+   "t": "2026-10-31",
+   "summary": "The BBC says residents left a devastated Russia-occupied city and arrived in Ukraine following a ceasefire brokered by US First Lady Melania Trump.",
+   "why": "The movement of evacuees and the ceasefire are relevant to tracking displacement and conditions around the city.",
+   "tags": [
+    "evacuees",
+    "ceasefire",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "282dfb0d9d",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Emotional reunions with loved ones for Oleshky evacuees",
+   "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+   "published": "2026-10-31T16:55:47.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/282dfb0d9d.webp",
+   "t": "2026-10-31",
+   "summary": "The BBC reports that evacuated Oleshky residents arrived at the northern Ukrainian border with Belarus in buses and ambulances after a temporary ceasefire.",
+   "why": "The evacuation and temporary ceasefire are relevant to movement across the border area.",
+   "tags": [
+    "Oleshky",
+    "evacuees",
+    "ceasefire"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9375667971",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel’s allegations of Qatari election interference rejected",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+   "snippet": "Israel’s allegations of Qatari election interference rejected",
+   "published": "2026-10-31T20:24:58.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/9375667971.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera reports that Israel’s allegations of Qatari election interference were rejected.",
+   "why": "The dispute concerns allegations of election interference between states.",
+   "tags": [
+    "Israel",
+    "Qatar",
+    "election interference"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ac71f0a6c9",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+   "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+   "snippet": "Turkish president hosts Zelenskyy in Istanbul as the two leaders agree to work on a new Black Sea grain corridor.",
+   "published": "2026-10-31T20:09:18.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/ac71f0a6c9.webp",
+   "t": "2026-10-31",
+   "summary": "Turkiye’s Erdogan urged Russia and Ukraine to stop Black Sea attacks. The leaders agreed to work on a new Black Sea grain corridor.",
+   "why": "The proposed corridor links Black Sea security with grain movement.",
+   "tags": [
+    "Black Sea",
+    "grain corridor"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5be1df21f0",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "How vulnerable are cryptocurrency platforms?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms?traffic_source=rss",
+   "snippet": "Hackers have targeted Binance, the world’s largest exchange.",
+   "published": "2026-10-31T19:19:29.000Z",
+   "also": [],
+   "score": 1.38,
+   "image": "/img/news/5be1df21f0.webp",
+   "t": "2026-10-31",
+   "summary": "Al Jazeera says hackers have targeted Binance, the world’s largest cryptocurrency exchange.",
+   "why": "Check protections on cryptocurrency platform accounts and monitor for suspicious activity.",
+   "tags": [
+    "cryptocurrency",
+    "hackers",
+    "Binance"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-118527",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "added": "2026-10-30",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": null,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+  },
+  {
+   "cve": "CVE-2026-111357",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "added": "2026-10-30",
+   "due": "2026-11-02",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
+  },
+  {
+   "cve": "CVE-2026-97229",
+   "vendor": "GitLab",
+   "product": "Community Edition and Enterprise Edition",
+   "name": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+   "added": "2026-10-29",
+   "due": "2026-11-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 10,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+  },
+  {
+   "cve": "CVE-2026-76418",
+   "vendor": "Cisco",
+   "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+   "name": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+   "added": "2026-10-29",
+   "due": "2026-11-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
+  },
+  {
+   "cve": "CVE-2026-41709",
+   "vendor": "Broadcom",
+   "product": "VMware ESX",
+   "name": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+   "added": "2026-10-28",
+   "due": "2026-11-11",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 2.7,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+  },
+  {
+   "cve": "CVE-2026-46300",
+   "vendor": "Linux",
+   "product": "Kernel",
+   "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "added": "2026-10-28",
+   "due": "2026-10-31",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+  },
+  {
+   "cve": "CVE-2026-48356",
+   "vendor": "Adobe",
+   "product": "Commerce and Magento",
+   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+  },
+  {
+   "cve": "CVE-2026-111497",
+   "vendor": "Google",
+   "product": "Brotli",
+   "name": "Google Brotli Unchecked Return Value Vulnerability",
+   "added": "2026-10-27",
+   "due": "2026-11-10",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+  },
+  {
+   "cve": "CVE-2026-109618",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Memory Corruption Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+  },
+  {
+   "cve": "CVE-2026-109619",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Stale Internal Request-State Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+  },
+  {
+   "cve": "CVE-2026-114625",
+   "vendor": "Arista",
+   "product": "VeloCloud Orchestrator",
+   "name": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
+  },
+  {
+   "cve": "CVE-2026-110447",
+   "vendor": "Collabora",
+   "product": "Collabora Online – Built-in CODE Server",
+   "name": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "added": "2026-10-23",
+   "due": "2026-10-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.2,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
+  }
+ ],
+ "run_today": [
+  "Rotate credentials and secrets stored on Northflank, as the platform advises after unauthorized use of customers’ AI API keys.",
+  "Check Android devices are patched against the vulnerability described in the SMS of Death report.",
+  "Review whether AI API keys and other secrets are stored on affected platforms, and rotate exposed credentials."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "AI API keys",
+   "explainer": "AI API keys are credentials that allow software to access an AI service. If exposed or misused, they can enable unauthorized use; platforms may advise customers to rotate them.",
+   "from_id": "ba55b05e53",
+   "from": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "fromSource": "BleepingComputer"
+  },
+  {
+   "domain": "warfare",
+   "term": "Patriot missiles",
+   "explainer": "Patriot missiles are a missile system named in the supplied headline about a US approval for Ukraine. The headline does not give further details about their capabilities or use.",
+   "from_id": "a689403a33",
+   "from": "https://breakingdefense.com/2026/10/us-greenlights-500-patriot-missiles-for-ukraine-with-2-1-billion-to-be-paid-by-allies/",
+   "fromSource": "Breaking Defense"
+  },
+  {
+   "domain": "geo",
+   "term": "Hormuz",
+   "explainer": "Hormuz is the waterway named in the report about a proposed plan to reopen it. The report links that plan to conditions from the US and talks involving Iran and Qatar.",
+   "from_id": "dabd2925be",
+   "from": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+   "fromSource": "Al Jazeera"
+  }
+ ],
+ "analysis": {
+  "headline": "Security, civilian hardship and strategic access in focus",
+  "paragraphs": [
+   "The stories span cyber incidents, displacement in Ukraine and diplomacy over Hormuz. They differ in scale and setting, but each shows how access—to credentials, basic supplies or a major waterway—can shape what people and organizations are able to do.",
+   "For defenders, the Northflank warning and the reported Android exploit make credential hygiene and patching immediate priorities. The Binance story adds a separate attribution claim: the FBI says North Korea was responsible for the hack. These reports suggest analysts should distinguish confirmed actions from claims and check what each source actually says.",
+   "The Oleshky accounts describe severe civilian hardship and evacuation, while Iran’s diplomat says a reopening plan depends on US conditions. Analysts should watch for further reporting on the proposed plan and on evacuees’ circumstances; the supplied accounts do not establish what happens next."
+  ],
+  "takeaways": [
+   "Rotate credentials and secrets that may have been exposed.",
+   "Check Android devices for the patch described in the exploit report.",
+   "Treat diplomatic statements and breach attribution as claims from their named sources."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": false,
+   "error": "not a feed (HTML or captcha page?)"
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 7
+  }
+ ]
+}
