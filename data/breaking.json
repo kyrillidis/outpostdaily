@@ -1,18 +1,33 @@
 {
- "updated": "2026-11-01T02:34:22.393Z",
+ "updated": "2026-11-01T09:38:59.511Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Hacker News",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -22,9 +37,9 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -32,22 +47,7 @@
    "n": 1
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -72,12 +72,17 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -85,11 +90,6 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,105 @@
   }
  ],
  "items": [
+  {
+   "id": "nc1c2013197",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "published": "2026-11-01T08:51:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4c1e1d02df",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump at Halloween party ‘as himself’ says he’s ‘in no hurry’ with Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/trump-at-halloween-party-as-himself-says-hes-in-no-hurry-with-iran?traffic_source=rss",
+   "published": "2026-11-01T08:24:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n15feb8491d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
+   "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting?traffic_source=rss",
+   "published": "2026-11-01T08:18:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n232ac83df9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran security chief says US letter signals ‘positive’ shift",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-security-chief-says-us-letter-signals-positive-shift?traffic_source=rss",
+   "published": "2026-11-01T08:14:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf90aa69ea0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s war on homes: From Hebron to Gaza and southern Lebanon",
+   "url": "https://www.aljazeera.com/features/longform/2026/11/1/israels-war-on-homes-from-hebron-to-gaza-and-southern-lebanon?traffic_source=rss",
+   "published": "2026-11-01T07:34:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2a3e4a8e19",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "published": "2026-11-01T07:25:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6f545e74e2",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza doctors struggle with bereavement, overwork, trauma amid genocidal war",
+   "url": "https://www.aljazeera.com/news/2026/11/1/gaza-doctors-struggle-with-bereavement-overwork-trauma-amid-genocidal-war?traffic_source=rss",
+   "published": "2026-11-01T07:24:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6e20a97983",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "published": "2026-11-01T07:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbe08e34bf9",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "published": "2026-11-01T07:02:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2876,281 +2975,6 @@
    "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
    "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
    "published": "2026-10-29T09:47:10.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n58f68e1c31",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli settler take-over",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israeli-settler-take-over?traffic_source=rss",
-   "published": "2026-10-29T09:31:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf6c5afda88",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Election Website Security: 42% of US County Sites Still Lack .gov Domains",
-   "url": "https://securityaffairs.com/201967/security/election-website-security-42-of-us-county-sites-still-lack-gov-domains.html",
-   "published": "2026-10-29T09:21:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8ef29b3fd6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Argentina farmers evacuate cattle by boat as El Nino escalates",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
-   "published": "2026-10-29T09:17:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9ac8296dad",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-   "published": "2026-10-29T09:05:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0b7ec97ac6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "North Koreans being recruited into forced labour in Russia, report says",
-   "url": "https://www.aljazeera.com/economy/2026/10/29/north-koreans-being-recruited-into-forced-labour-in-russia-report-says?traffic_source=rss",
-   "published": "2026-10-29T08:58:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n98a408672b",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "ENGIE Data Breach Exposes Customer Details and Energy Contracts",
-   "url": "https://securityaffairs.com/201985/data-breach/engie-data-breach-exposes-customer-details-and-energy-contracts.html",
-   "published": "2026-10-29T08:53:37.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nce82d0cb1d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Virtualine Domain Seized, but Allegedly Abusive Website Remains Online",
-   "url": "https://securityaffairs.com/202002/cyber-crime/virtualine-domain-seized-but-allegedly-abusive-website-remains-online.html",
-   "published": "2026-10-29T08:45:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb3306983de",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
-   "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
-   "published": "2026-10-29T08:27:16.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "naabd8e14b2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-   "published": "2026-10-29T08:24:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n599112d588",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
-   "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T08:23:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0da36d83a0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘Economic incentives are limited’: What does Russia really offer Africa?",
-   "url": "https://www.aljazeera.com/features/2026/10/29/wagners-shadow-looms-as-russia-reshapes-african-military-alliances?traffic_source=rss",
-   "published": "2026-10-29T08:14:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nef44306c2f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-   "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
-   "published": "2026-10-29T08:01:05.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n75699bb614",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-   "url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-   "published": "2026-10-29T08:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2256853c67",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "How to stop the US-Israel war on Iran",
-   "url": "https://www.aljazeera.com/opinions/2026/10/29/how-to-stop-the-us-israel-war-on-iran?traffic_source=rss",
-   "published": "2026-10-29T07:54:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ned5e1d62e6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Former US officials call on 2028 candidates to denounce Biden’s Gaza policy",
-   "url": "https://www.aljazeera.com/news/2026/10/29/former-us-officials-call-on-2028-candidates-to-denounce-bidens-gaza-policy?traffic_source=rss",
-   "published": "2026-10-29T07:41:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n869c210d84",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "North Korea fires missiles as row over landmine blast intensifies",
-   "url": "https://www.aljazeera.com/news/2026/10/29/north-korea-fires-missiles-as-row-over-landmine-blast-intensifies?traffic_source=rss",
-   "published": "2026-10-29T07:24:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n95eac67cb5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
-   "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T06:24:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne91f33b06c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-   "published": "2026-10-29T06:22:33.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n49c48d65f5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
-   "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
-   "published": "2026-10-29T06:01:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf4eff089be",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-   "published": "2026-10-29T05:50:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1c5a6c47a8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia says more than 600 drones launched towards Moscow overnight",
-   "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
-   "published": "2026-10-29T05:22:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na773a6cddb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
-   "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-29T03:16:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n387e3e76d1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Activists accuse Israeli settlers of assault in occupied West Bank",
-   "url": "https://www.aljazeera.com/news/2026/10/29/activists-accuse-israeli-settlers-of-assault-in-occupied-west-bank?traffic_source=rss",
-   "published": "2026-10-29T03:12:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf1064ceda1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
-   "url": "https://www.aljazeera.com/news/2026/10/29/strikes-on-darfur-market-in-sudan-kill-more-than-100-rights-group-says?traffic_source=rss",
-   "published": "2026-10-29T02:48:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "na90f8cc87d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli settlers savagely attack journalists in occupied West Bank",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israeli-settlers-savagely-attack-journalists-in-occupied-west-bank?traffic_source=rss",
-   "published": "2026-10-29T02:43:29.000Z",
    "severity": "high",
    "verified": true
   }
