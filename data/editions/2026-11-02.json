@@ -1,501 +1,560 @@
 {
  "date": "2026-11-02",
  "edition": 231,
- "compiled": "2026-11-02T09:44:08.216Z",
+ "compiled": "2026-11-02T19:54:33.625Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "357136bfe6",
+   "id": "b9a8fe94cb",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-   "snippet": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-   "published": "2026-11-02T09:33:26.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
-    }
-   ],
-   "score": 1.95,
-   "image": "/img/news/357136bfe6.webp",
+   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "snippet": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+   "published": "2026-11-02T19:00:45.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/b9a8fe94cb.webp",
    "t": "2026-11-02",
-   "summary": "Ivanti released updates for two Connect Secure remote-access gateway flaws that it says have been chained in zero-day attacks since at least October 1.",
-   "why": "Apply the updates and check Connect Secure systems for signs of exploitation.",
+   "summary": "Abrigo says it restored Sageworks after an outage triggered by “irregular activity,” but borrower-facing capabilities remain unavailable.",
+   "why": "Check service status and confirm which borrower-facing functions remain unavailable.",
    "tags": [
-    "Connect Secure",
-    "zero-days"
+    "Sageworks",
+    "outage"
    ],
    "ai": true
   },
   {
-   "id": "8cfea8890b",
+   "id": "f8e64d371b",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-   "snippet": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
-   "published": "2026-11-01T19:57:53.000Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
-    }
-   ],
-   "score": 1.66,
-   "image": "/img/news/8cfea8890b.webp",
-   "t": "2026-11-01",
-   "summary": "The FBI says North Korean state-sponsored hackers known as TraderTraitor carried out the $6.3 billion Binance crypto theft.",
-   "why": "Review cryptocurrency custody and transaction controls; the snippet does not identify the attack method.",
-   "tags": [
-    "FBI",
-    "Binance",
-    "TraderTraitor"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ff9c9693b4",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
-   "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
-   "snippet": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted. The post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeared first on SecurityWeek .",
-   "published": "2026-11-02T09:33:15.000Z",
+   "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+   "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+   "snippet": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+   "published": "2026-11-02T18:16:34.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/ff9c9693b4.webp",
+   "score": 1.57,
+   "image": "/img/news/f8e64d371b.webp",
    "t": "2026-11-02",
-   "summary": "DebugBear says attackers compromised its DNS records through its domain registrar; early findings indicate one customer was targeted.",
-   "why": "Review registrar access and DNS changes, and investigate whether users were redirected.",
+   "summary": "Google and industry partners dismantled the XCPE botnet; Google says its manufacturer intentionally infected more than 1.3 million Android TV boxes.",
+   "why": "Review Android TV devices for malware and assess their exposure to botnet activity.",
    "tags": [
-    "DNS",
-    "domain registrar"
+    "XCPE",
+    "Android TV"
    ],
    "ai": true
   },
   {
-   "id": "1befc30403",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
-   "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
-   "snippet": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto. The post FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist appeared first on SecurityWeek .",
-   "published": "2026-11-02T08:40:36.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/1befc30403.webp",
-   "t": "2026-11-02",
-   "summary": "The FBI says more than 600 addresses are tied to North Korea’s Binance heist as attackers launder stolen cryptocurrency.",
-   "why": "Check whether relevant addresses appear in transaction monitoring and apply current screening controls.",
-   "tags": [
-    "FBI",
-    "Binance"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9068a344a0",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "snippet": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-",
-   "published": "2026-11-02T05:51:07.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/9068a344a0.webp",
-   "t": "2026-11-02",
-   "summary": "Researchers say VOLTA infostealer uses a large language model to rank stolen victim data by potential monetization value.",
-   "why": "Review endpoint alerts for infostealer activity and investigate suspected credential or data theft.",
-   "tags": [
-    "VOLTA",
-    "infostealer"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e9672a016f",
+   "id": "b22118a1e1",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions",
-   "url": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
-   "snippet": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.",
-   "published": "2026-11-02T00:00:00.000Z",
+   "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+   "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+   "snippet": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
+   "published": "2026-11-02T17:05:20.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/e9672a016f.webp",
+   "score": 1.54,
+   "image": "/img/news/b22118a1e1.webp",
    "t": "2026-11-02",
-   "summary": "The FBI and U.S. Secret Service allege North Korean hackers were responsible for stealing more than $6.3 billion from Binance.",
-   "why": "Crypto organizations should review transaction monitoring and consider the FBI’s call to block transactions.",
+   "summary": "Polymarket says it will repay users’ losses and compensate them for downtime after an October 29 site compromise.",
+   "why": "Review incident communications and account activity following the site compromise.",
    "tags": [
-    "TraderTraitor",
-    "Binance"
+    "Polymarket",
+    "site compromise"
    ],
    "ai": true
   },
   {
-   "id": "8f51d84a4d",
+   "id": "acbef9b6b6",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "DeepSeek open-sources Super-Agent, a coding agent that watches team chats for work",
-   "url": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
-   "snippet": "Deepseek released a research prototype of dsh-superagent, a coding agent that does work on a GitHub repository for you. Who can ask for work The agent gets to work in two situations: an allowed user asks for something, or a rule your team wrote covers it. You can also open up a chat or GitHub scope, and then anyone in ",
-   "published": "2026-11-02T07:09:55.000Z",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
+   "url": "https://therecord.media/hackers-ukraine-belarus-russia",
+   "snippet": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
+   "published": "2026-11-02T16:30:00.000Z",
    "also": [],
-   "score": 1.35,
-   "image": "/img/news/8f51d84a4d.webp",
+   "score": 1.53,
+   "image": "/img/news/acbef9b6b6.webp",
    "t": "2026-11-02",
-   "summary": "DeepSeek released a research prototype of a coding agent that can work on a GitHub repository when an allowed user or team rule requests it.",
-   "why": "Review who can authorize agent work and what repository permissions it receives.",
+   "summary": "Belarusian and pro-Ukrainian hackers claimed an attack on Rosstat and the theft of sensitive government data, according to the report.",
+   "why": "Check for unauthorized access and data exposure in relevant government systems.",
    "tags": [
-    "coding agent",
-    "GitHub"
+    "Rosstat",
+    "data"
    ],
    "ai": true
   },
   {
-   "id": "25d58d631a",
+   "id": "be1d39eaf1",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "The first ten lines of a command policy for AI coding agents",
-   "url": "https://www.helpnetsecurity.com/2026/11/02/vinay-thakker-kloudstax-ai-agent-access-control/",
-   "snippet": "In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the person’s identity attached when acting on someone’s behalf. He covers where credential proxies go wrong, ",
-   "published": "2026-11-02T06:30:36.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "snippet": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+   "published": "2026-11-02T15:03:07.000Z",
    "also": [],
-   "score": 1.33,
-   "image": "/img/news/25d58d631a.webp",
+   "score": 1.5,
+   "image": "/img/news/be1d39eaf1.webp",
    "t": "2026-11-02",
-   "summary": "A KloudStax executive explains how to set identity, credentials, and network limits for AI agents, arguing they should have their own identity.",
-   "why": "Give agents distinct identities and restrict their credentials and network access.",
+   "summary": "The BTCPay Server maintainer says hackers have drained hot wallets on older instances and urges users to install the latest version.",
+   "why": "Update BTCPay Server instances and check hot wallets for unauthorized transactions.",
    "tags": [
-    "AI agents",
-    "credentials"
+    "BTCPay Server",
+    "hot wallets"
    ],
    "ai": true
   },
   {
-   "id": "af20a6eef9",
+   "id": "5ea1d647d0",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Byoky: Open-source wallet for AI API keys",
-   "url": "https://www.helpnetsecurity.com/2026/11/02/byoky-open-source-ai-api-key-wallet/",
-   "snippet": "Byoky is an open-source wallet for AI API keys, available as a Chrome and Firefox extension and as iOS and Android apps. Users store their keys for OpenAI, Anthropic, Google Gemini and other providers in it, encrypted on their own device. Apps that want those keys ask the wallet for access, and the wallet sends each re",
-   "published": "2026-11-02T06:00:33.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+   "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+   "snippet": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by automatically deleting call records. [...]",
+   "published": "2026-11-02T15:01:11.000Z",
    "also": [],
-   "score": 1.32,
-   "image": "/img/news/af20a6eef9.webp",
+   "score": 1.5,
+   "image": "/img/news/5ea1d647d0.webp",
    "t": "2026-11-02",
-   "summary": "Byoky is an open-source app for storing AI API keys encrypted on a device, available as browser extensions and mobile apps.",
-   "why": "Assess how keys are stored and which apps can access them before adopting a key wallet.",
+   "summary": "Cape examines how years of retained call and text metadata can expose customers’ relationships, locations, and routines if breached.",
+   "why": "Review how long telecom metadata is retained and how it is protected.",
    "tags": [
-    "API keys",
-    "encrypted"
+    "call logs",
+    "metadata"
    ],
    "ai": true
   },
   {
-   "id": "e7b145f679",
+   "id": "cab04cab3c",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Product showcase: Trust Onion uses rotating codewords to verify callers",
-   "url": "https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/",
-   "snippet": "Trust Onion is a free app that gives trusted groups three rotating codewords to check who they are communicating with. It also includes signed selfies, message checks, and callback requests. It is available for macOS, iOS, and Android. I tested the iPhone app with an older person, exploring setup and the tools availabl",
-   "published": "2026-11-02T05:30:38.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers disrupt refrigeration systems at European supermarkets",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+   "snippet": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
+   "published": "2026-11-02T14:28:39.000Z",
    "also": [],
-   "score": 1.31,
-   "image": "/img/news/e7b145f679.webp",
+   "score": 1.49,
+   "image": "/img/news/cab04cab3c.webp",
    "t": "2026-11-02",
-   "summary": "Trust Onion is an app that uses rotating codewords to help groups verify callers; it also offers signed selfies, message checks, and callback requests.",
-   "why": "Consider independent caller verification for trusted groups communicating through potentially uncertain channels.",
+   "summary": "A cyberattack disrupted supermarket refrigeration across several European countries after hackers remotely changed freezer and cooling-system settings.",
+   "why": "Check remote access and temperature-setting controls on refrigeration systems.",
    "tags": [
-    "codewords",
-    "callers"
+    "refrigeration",
+    "remote access"
    ],
    "ai": true
   },
   {
-   "id": "dfc3c109a8",
+   "id": "9b847cec7f",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Apple warns users in 99 countries of mercenary spyware",
+   "url": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
+   "snippet": "Apple does not attribute attacks or the notices to specific malicious actors or geographical regions, the notification said, due to the “extreme cost, sophistication, and worldwide nature of mercenary spyware attacks [which] make them some of the most advanced digital threats in existence today.”",
+   "published": "2026-11-02T14:42:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/9b847cec7f.webp",
+   "t": "2026-11-02",
+   "summary": "Apple warned users in 99 countries about mercenary spyware, but did not attribute the attacks or notices to specific actors or regions.",
+   "why": "Review Apple’s notifications and follow guidance relevant to affected devices.",
+   "tags": [
+    "Apple",
+    "spyware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7bca49cdf4",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
+   "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
+   "snippet": "A popular Ukrainian air raid alert system was hacked over the weekend, prompting a cyber group to breach a similar Russian system in retaliation.",
+   "published": "2026-11-02T14:30:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/7bca49cdf4.webp",
+   "t": "2026-11-02",
+   "summary": "A Ukrainian air raid alert system was hacked, prompting a cyber group to breach a similar Russian system in retaliation.",
+   "why": "Check the integrity of emergency alert systems and their user-facing messages.",
+   "tags": [
+    "alert systems",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5e44eebabf",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft fixes Smart App Control broken by October Windows update",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+   "snippet": "Microsoft has resolved a known issue that prevented some users from activating the Smart App Control security feature after installing the October 2026 KB5127648 Windows 11 security update. [...]",
+   "published": "2026-11-02T13:57:29.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/5e44eebabf.webp",
+   "t": "2026-11-02",
+   "summary": "Microsoft says it fixed an issue that prevented some users from activating Smart App Control after an October Windows 11 security update.",
+   "why": "Check whether Smart App Control can be activated on affected Windows devices.",
+   "tags": [
+    "Microsoft",
+    "Smart App Control"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a77780e327",
+   "section": "warfare",
+   "source": "Bellingcat",
+   "weight": 0.7,
+   "title": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
+   "url": "https://www.bellingcat.com/news/2026/11/02/ai-super-pacs-political-advertising/",
+   "snippet": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. An online ad for Ben McAdams, the Democratic candidate for Congress in Utah, emphasised that he could be trusted because he “fought back against MAGA”. In Texas, another ad prom",
+   "published": "2026-11-02T16:11:28.000Z",
+   "also": [],
+   "score": 1.62,
+   "image": "/img/news/a77780e327.webp",
+   "t": "2026-11-02",
+   "summary": "Bellingcat’s snippet describes an online campaign ad funded by AI Super PACs but provides little detail about the investigation.",
+   "why": "The snippet offers limited detail on the ads’ operational relevance.",
+   "tags": [
+    "campaign ads",
+    "AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f104d994e3",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Industry needs more consistent demand signal to scale UGV production: Autonomy consortium exec",
+   "url": "https://breakingdefense.com/2026/11/industry-needs-more-consistent-demand-signal-to-scale-ugv-production-autonomy-consortium-exec/",
+   "snippet": "“I think [industry has] the challenge of understanding what the demand signal is, and then again where to put their dollars,” Warren Sponsler, the COO of NAMC, said in an interview.",
+   "published": "2026-11-02T19:47:29.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/f104d994e3.webp",
+   "t": "2026-11-02",
+   "summary": "A NAMC executive says industry needs a more consistent demand signal to decide where to invest in scaling UGV production.",
+   "why": "Demand signals may shape investment and the pace of UGV production.",
+   "tags": [
+    "UGV",
+    "production"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dee2794d28",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "The Pentagon-Silicon Complex and the Rise of the Neo-Primes",
-   "url": "https://warontherocks.com/cogs-of-war/the-pentagon-silicon-complex-and-the-rise-of-the-neo-primes/",
-   "snippet": "What happens when the military depends on technologies it doesn’t own? Sharon Weinberger, the new editor-in-chief of the Bulletin of the Atomic Scientists, stops by the studio to discuss her book, Valley of Death: How Big Tech Is Fueling the Future of War. She delves into the Pentagon’s disputes with SpaceX and Anthrop",
-   "published": "2026-11-02T09:00:45.000Z",
+   "title": "Corruption in the Crosshairs: The Debate Over Transparency and Saving Face",
+   "url": "https://warontherocks.com/corruption-in-the-crosshairs-the-debate-over-transparency-and-saving-face/",
+   "snippet": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country",
+   "published": "2026-11-02T19:15:33.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/dee2794d28.webp",
+   "t": "2026-11-02",
+   "summary": "The snippet describes a War on the Rocks digest of Ukrainian commentary about transparency and saving face.",
+   "why": "The snippet identifies a debate but gives little detail about its operational relevance.",
+   "tags": [
+    "Ukraine",
+    "transparency"
+   ],
+   "ai": true
+  },
+  {
+   "id": "96845d140f",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "New CB90 CX Is Bigger, Optionally Crewed Evolution Of Saab’s Proven Combat Boat",
+   "url": "https://www.twz.com/sea/new-cb90-cx-is-bigger-optionally-crewed-evolution-of-saabs-proven-combat-boat",
+   "snippet": "The CX version brings expanded payload capacity and a new suite of combat capabilities to the familiar combat boat. The post New CB90 CX Is Bigger, Optionally Crewed Evolution Of Saab’s Proven Combat Boat appeared first on TWZ .",
+   "published": "2026-11-02T18:50:34.000Z",
    "also": [],
    "score": 1.58,
-   "image": "/img/news/dfc3c109a8.webp",
+   "image": "/img/news/96845d140f.webp",
    "t": "2026-11-02",
-   "summary": "A War on the Rocks discussion asks what happens when the military depends on technologies it does not own, drawing on a book about Big Tech and war.",
-   "why": "The discussion raises how reliance on privately owned technology may shape military capabilities.",
+   "summary": "The CB90 CX adds expanded payload capacity and new combat capabilities to the familiar combat boat, according to the snippet.",
+   "why": "The expanded payload and capabilities indicate an evolution in combat boat design.",
    "tags": [
-    "military",
-    "Big Tech"
+    "CB90 CX",
+    "combat boat"
    ],
    "ai": true
   },
   {
-   "id": "c2f85a310f",
+   "id": "52629688b1",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Video: Naval Group Demonstrates Armed SEAQUEST-S USV",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-naval-group-demonstrates-armed-seaquest-s-usv/",
-   "snippet": "During the Euronaval 2026 press tour, Naval Group’s Sirehna conducted a live demonstration of the SEAQUEST-S, a multi-role combat USV designed for deployment from warships. Sirehna, a subsidiary of Naval Group, offered a rare opportunity to the 25 journalists representing 16 nationalities who attended the tour: a live ",
-   "published": "2026-11-02T08:27:32.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "New X-Plane To Be Announced At Max Power Airshow: NASA Administrator Isaacman",
+   "url": "https://www.twz.com/air/new-x-plane-to-be-announced-at-max-power-airshow-nasa-administrator-isaacman",
+   "snippet": "NASA's boss also deflected a new question about the space agency's 'missing' SR-71 Blackbird. The post New X-Plane To Be Announced At Max Power Airshow: NASA Administrator Isaacman appeared first on TWZ .",
+   "published": "2026-11-02T18:15:33.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/c2f85a310f.webp",
+   "score": 1.57,
+   "image": "/img/news/52629688b1.webp",
    "t": "2026-11-02",
-   "summary": "Naval Group’s Sirehna demonstrated the SEAQUEST-S, a multi-role combat uncrewed surface vessel designed for deployment from warships.",
-   "why": "The demonstration highlights a surface vessel designed to operate from warships.",
+   "summary": "NASA’s administrator says a new X-Plane will be announced at the Max Power Airshow; the snippet also mentions a question about the SR-71.",
+   "why": "The announcement may make the X-Plane’s development relevant to aerospace watchers.",
    "tags": [
-    "SEAQUEST-S",
-    "USV"
+    "X-Plane",
+    "NASA"
    ],
    "ai": true
   },
   {
-   "id": "7c6265b4b6",
+   "id": "54f25366d8",
    "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Australia unveils secretive Ghost Shark underwater drone payloads",
-   "url": "https://www.defensenews.com/naval/2026/11/02/australia-unveils-secretive-ghost-shark-underwater-drone-payloads/",
-   "snippet": "The Australian Navy recently lifted the veil on some payloads the service is fielding on its Ghost Shark extra-large autonomous underwater vehicles.",
-   "published": "2026-11-02T08:00:24.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "These Are The U.S. Weapons Most At Risk In The Looming Rare Earths Supply Crisis",
+   "url": "https://www.twz.com/news-features/these-are-the-u-s-weapons-most-at-risk-in-the-looming-rare-earths-supply-crisis",
+   "snippet": "Rare earths are critical in thousands of weapon systems, many of which are essential to national security, and China is the source for most of them. The post These Are The U.S. Weapons Most At Risk In The Looming Rare Earths Supply Crisis appeared first on TWZ .",
+   "published": "2026-11-02T16:40:05.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/7c6265b4b6.webp",
+   "score": 1.53,
+   "image": "/img/news/54f25366d8.webp",
    "t": "2026-11-02",
-   "summary": "The Australian Navy disclosed some payloads it is fielding on its Ghost Shark extra-large autonomous underwater vehicles.",
-   "why": "The disclosed payloads offer a glimpse of equipment used on autonomous underwater vehicles.",
+   "summary": "The snippet says rare earths are critical in thousands of weapon systems and that China is the source for most of them.",
+   "why": "Rare earth sourcing is strategically relevant to weapons-system supply chains.",
    "tags": [
-    "Ghost Shark",
-    "payloads"
+    "rare earths",
+    "weapons"
    ],
    "ai": true
   },
   {
-   "id": "0465787a97",
+   "id": "ac7d437628",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
-   "url": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
-   "snippet": "The maiden landing of the French Rafale M fighter on INS Vikrant occurred on October 29, 2026. The landing was successful in the maiden attempt... The post Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant appeared first on Naval News .",
-   "published": "2026-11-02T07:54:26.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Greece inks deal for KC-390 fleet",
+   "url": "https://breakingdefense.com/2026/11/greece-inks-deal-for-kc-390-fleet/",
+   "snippet": "The purchase, arranged via a government-to-government agreement between Greece and Portugal, covers three KC-390 aircraft with options for up to six manufactured by Brazilian planemaker Embraer.",
+   "published": "2026-11-02T16:14:01.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/0465787a97.webp",
+   "score": 1.52,
+   "image": "/img/news/ac7d437628.webp",
    "t": "2026-11-02",
-   "summary": "A French Rafale M made its maiden landing on India’s INS Vikrant, succeeding on its first attempt, Naval News reports.",
-   "why": "The trial demonstrates carrier operations involving a French fighter and an Indian aircraft carrier.",
+   "summary": "Greece and Portugal arranged a government-to-government deal for three KC-390 aircraft, with options for up to six.",
+   "why": "The deal is relevant to Greece’s military aircraft procurement.",
    "tags": [
-    "Rafale M",
-    "INS Vikrant"
+    "Greece",
+    "KC-390"
    ],
    "ai": true
   },
   {
-   "id": "b5353d33c1",
+   "id": "b563b504b0",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Russian Navy Cancels Modernization of Kirov-Class Battlecruiser Pyotr Velikiy",
-   "url": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/",
-   "snippet": "The Russian Navy has canceled modernization plans for the Kirov-class battlecruiser Pyotr Velikiy. Read how budget constraints are reshaping Russia's surface fleet. The post Russian Navy Cancels Modernization of Kirov-Class Battlecruiser Pyotr Velikiy appeared first on Naval News .",
-   "published": "2026-11-01T08:05:55.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Pacific Command bolsters network defense with Cyber Defense Forces Pacific",
+   "url": "https://breakingdefense.com/2026/11/pacific-command-bolsters-network-defense-with-cyber-defense-forces-pacific/",
+   "snippet": "The new concept has sent personnel from Cyber Defense Command at Fort Meade to the Pacific theater.",
+   "published": "2026-11-02T16:05:00.000Z",
    "also": [],
-   "score": 0.97,
-   "image": "/img/news/b5353d33c1.webp",
-   "t": "2026-11-01",
-   "summary": "Naval News reports that the Russian Navy canceled modernization plans for the Kirov-class battlecruiser Pyotr Velikiy.",
-   "why": "The cancellation is relevant to assessments of plans for Russia’s surface fleet.",
+   "score": 1.52,
+   "image": "/img/news/b563b504b0.webp",
+   "t": "2026-11-02",
+   "summary": "The Cyber Defense Forces Pacific concept has sent personnel from Cyber Defense Command at Fort Meade to the Pacific theater.",
+   "why": "The concept places cyber defense personnel in the Pacific theater.",
    "tags": [
-    "Russian Navy",
-    "Kirov-class",
-    "modernization"
+    "Cyber Defense Forces Pacific",
+    "Pacific"
    ],
    "ai": true
   },
   {
-   "id": "297fc9eb88",
+   "id": "351c203439",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Ryanair may freeze workers' pay and raise airfares",
-   "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
-   "published": "2026-11-02T08:33:57.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/297fc9eb88.webp",
+   "title": "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Local officials say 27 people had been missing after at least nine 3,000kg aerial bombs hit a village in southern Ukraine.",
+   "published": "2026-11-02T19:37:10.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss"
+    }
+   ],
+   "score": 1.94,
+   "image": "/img/news/351c203439.webp",
    "t": "2026-11-02",
-   "summary": "Ryanair says fuel prices may rise by €2bn in 2028 unless the US-Israel war with Iran ends; the airline may freeze workers’ pay and raise fares.",
-   "why": "The airline’s statement links fuel costs to the war, with potential implications for fares and pay.",
+   "summary": "Kyiv says Russian bombing killed 24 people at a Ukraine aid centre; local officials say 27 people had been missing after bombs hit a southern village.",
+   "why": "The reported strike and missing people are relevant to the conflict’s civilian impact in southern Ukraine.",
    "tags": [
-    "fuel prices",
-    "Iran"
+    "Ukraine",
+    "bombing"
    ],
    "ai": true
   },
   {
-   "id": "ae7121efec",
+   "id": "1ecf3a7746",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
-   "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
-   "published": "2026-11-02T07:42:33.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/ae7121efec.webp",
+   "title": "Uganda begins withdrawing troops from Somalia after 20 years",
+   "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Uganda has been helping Somalia battle an insurgency led by the al-Shabab militant group since 2007.",
+   "published": "2026-11-02T12:05:34.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/uganda-begins-withdrawing-troops-from-somalia-after-two-decades/a-79829903?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.79,
+   "image": "/img/news/1ecf3a7746.webp",
    "t": "2026-11-02",
-   "summary": "Binance froze transactions after the largest-ever crypto hack, which has been linked to a North Korean group; users withdrew $3.6bn.",
-   "why": "The withdrawals and transaction freeze show how a crypto incident can affect exchange activity.",
+   "summary": "Uganda has begun withdrawing troops from Somalia after helping the country battle an al-Shabab insurgency since 2007.",
+   "why": "The withdrawal is relevant to Uganda’s military role in Somalia and the fight against al-Shabab.",
    "tags": [
-    "Binance",
-    "withdrawals"
+    "Uganda",
+    "Somalia"
    ],
    "ai": true
   },
   {
-   "id": "cde4e508f1",
+   "id": "4c755ead4d",
    "section": "geo",
-   "source": "Foreign Policy",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "In Memoriam: Dr. Durk van Willigen",
+   "url": "https://insidegnss.com/in-memoriam-dr-durk-van-willigen/",
+   "snippet": "Professor van Willigen founded Reelektronika, blended GNSS and eLoran. Professor Dr. Durk van Willigen, founder and director of the Netherland’s Reelektronkia BV and... The post In Memoriam: Dr. Durk van Willigen appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, Policy, and Design .",
+   "published": "2026-11-02T18:28:52.000Z",
+   "also": [],
+   "score": 1.67,
+   "t": "2026-11-02",
+   "summary": "Professor van Willigen founded Reelektronika and blended GNSS with eLoran, according to the snippet.",
+   "why": "The GNSS and eLoran combination is relevant to navigation technology.",
+   "tags": [
+    "GNSS",
+    "eLoran"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f27ff39b8d",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Don’t Read Too Much Into These Midterms",
-   "url": "https://foreignpolicy.com/2026/11/02/midterms-foreign-policy-results/",
-   "snippet": "Voters are angry about the Iran war, but that doesn’t mean they want to go back to the pre-Trump status quo.",
-   "published": "2026-11-02T05:01:53.000Z",
+   "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Many Ukrainians, who have faced years of Russian attacks, did not take the messages seriously and doubted their veracity.",
+   "published": "2026-11-02T18:34:24.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/cde4e508f1.webp",
+   "score": 1.57,
+   "image": "/img/news/f27ff39b8d.webp",
    "t": "2026-11-02",
-   "summary": "Foreign Policy argues that anger about the Iran war among voters does not necessarily mean they want a return to the pre-Trump status quo.",
-   "why": "The article cautions against treating opposition to a war as evidence of broader political preference.",
+   "summary": "The BBC says many Ukrainians doubted the veracity of fake nuclear warning messages sent through a hacked app.",
+   "why": "The incident highlights the importance of verifying warnings delivered through emergency apps.",
    "tags": [
-    "Iran war",
-    "voters"
+    "hacked app",
+    "warnings"
    ],
    "ai": true
   },
   {
-   "id": "0b180b155b",
+   "id": "5b9c1f0de1",
    "section": "geo",
-   "source": "Foreign Policy",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "The Biggest October Surprise of All",
-   "url": "https://foreignpolicy.com/2026/11/02/biggest-october-surprise-1962-cuba/",
-   "snippet": "A crisis that brought the U.S. and the Soviets to the brink of nuclear war in 1962 reshaped U.S. politics.",
-   "published": "2026-11-02T05:01:26.000Z",
+   "title": "Shop freezers in seven European countries hit by cyber-attack",
+   "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+   "published": "2026-11-02T17:38:11.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/0b180b155b.webp",
+   "score": 1.55,
+   "image": "/img/news/5b9c1f0de1.webp",
    "t": "2026-11-02",
-   "summary": "Foreign Policy says a crisis that brought the U.S. and the Soviets close to nuclear war in 1962 reshaped U.S. politics.",
-   "why": "The story links a nuclear crisis to subsequent political change in the United States.",
+   "summary": "The BBC reports a cyberattack hit shop freezers in seven European countries, with temperatures reportedly rising as high as 50C.",
+   "why": "Check refrigeration systems’ temperature controls and defenses against cyberattacks.",
    "tags": [
-    "1962",
-    "nuclear war"
+    "freezers",
+    "cyberattack"
    ],
    "ai": true
   },
   {
-   "id": "aaea91b70d",
+   "id": "6efabe9ae3",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "UN staffer’s death in custody exposes Houthi ‘political extortion’ in Yemen",
-   "url": "https://www.aljazeera.com/news/2026/11/2/un-staffers-death-in-custody-exposes-houthi-political-extortion-in-yemen?traffic_source=rss",
-   "snippet": "Following a UN staffer's death, rights experts expose systematic abuses and demand international accountability in Yemen",
-   "published": "2026-11-02T07:43:05.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+   "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+   "published": "2026-11-02T17:33:19.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/aaea91b70d.webp",
+   "score": 1.55,
+   "image": "/img/news/6efabe9ae3.webp",
    "t": "2026-11-02",
-   "summary": "Rights experts say a UN staffer’s death in custody exposes systematic abuses in Yemen and call for international accountability.",
-   "why": "The case draws attention to accountability and conditions affecting UN staff in Yemen.",
+   "summary": "Fighting returned to the Kherson region after a six-day ceasefire that the BBC says did little to change the wider war’s trajectory.",
+   "why": "The return of fighting is relevant to conditions in the Kherson region.",
    "tags": [
-    "Yemen",
-    "accountability"
+    "Kherson",
+    "ceasefire"
    ],
    "ai": true
   },
   {
-   "id": "65086d5746",
+   "id": "b7db2c8062",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Hormuz shipping still faces major risks",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/hormuz-shipping-still-faces-major-risks?traffic_source=rss",
-   "snippet": "The Strait of Hormuz remains dangerous and costly for shipping, despite US claims that it is open.",
-   "published": "2026-11-02T07:30:12.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
+   "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Dozens of supermarkets in seven European countries dumped huge quantities of food after refrigerators and freezers were targeted in a cyber-attack.",
+   "published": "2026-11-02T17:34:58.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/65086d5746.webp",
+   "score": 1.55,
+   "image": "/img/news/b7db2c8062.webp",
    "t": "2026-11-02",
-   "summary": "Al Jazeera says the Strait of Hormuz remains dangerous and costly for shipping, despite U.S. claims that it is open.",
-   "why": "The differing assessments matter to operators evaluating shipping routes through the strait.",
+   "summary": "The BBC says supermarkets in seven European countries dumped large quantities of food after refrigerators and freezers were targeted in a cyberattack.",
+   "why": "The reported food losses show the operational consequences of attacks on refrigeration.",
    "tags": [
-    "Hormuz",
-    "shipping"
+    "supermarkets",
+    "refrigeration"
    ],
    "ai": true
   },
   {
-   "id": "da80da0d81",
+   "id": "d9f6e421d8",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "The future of the Palestinian vote in Israel",
-   "url": "https://www.aljazeera.com/opinions/2026/11/2/the-future-of-the-palestinian-vote-in-israel?traffic_source=rss",
-   "snippet": "The backlash against the high Palestinian turnout reveals much about the state of Israeli democracy and its future.",
-   "published": "2026-11-02T07:14:44.000Z",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Charai for The Jerusalem Strategic Tribune: The Iran War: What Victory Must Achieve.",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-the-iran-war-what-victory-must-achieve/",
+   "snippet": "The post Charai for The Jerusalem Strategic Tribune: The Iran War: What Victory Must Achieve. appeared first on Atlantic Council .",
+   "published": "2026-11-02T15:30:19.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/da80da0d81.webp",
+   "score": 1.51,
    "t": "2026-11-02",
-   "summary": "Al Jazeera says backlash against high Palestinian turnout reveals tensions around Israeli democracy and its future.",
-   "why": "The story frames turnout and its reception as relevant to Israel’s political outlook.",
+   "summary": "The Atlantic Council listing identifies a piece titled “The Iran War: What Victory Must Achieve” but provides no further detail.",
+   "why": "The snippet offers little detail about the strategic argument.",
    "tags": [
-    "Palestinian vote",
-    "Israel"
-   ],
-   "ai": true
-  },
-  {
-   "id": "eb1f889bc7",
-   "section": "geo",
-   "source": "DW",
-   "weight": 0.4,
-   "title": "Germany news: Berlin hosts digital summit with AI focus",
-   "url": "https://www.dw.com/en/germany-news-berlin-hosts-digital-summit-with-ai-focus/live-79825749?maca=en-rss-en-all-1573-rdf",
-   "snippet": "A government-run conference is to look at the uses and dangers of artificial intelligence. This comes as the German and UK defense ministers will discuss expanding AI's role in military cooperation. DW has more.",
-   "published": "2026-11-02T07:36:00.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/eb1f889bc7.webp",
-   "t": "2026-11-02",
-   "summary": "Berlin will host a government-run summit on AI’s uses and dangers as German and UK defense ministers discuss expanding AI’s military role.",
-   "why": "The summit and ministerial discussions put AI policy and military cooperation in focus.",
-   "tags": [
-    "AI",
-    "military"
+    "Iran War",
+    "victory"
    ],
    "ai": true
   }
@@ -647,47 +706,47 @@
   }
  ],
  "run_today": [
-  "Patch Connect Secure and check affected systems for signs of exploitation.",
-  "Review domain registrar access and investigate unexpected DNS record changes.",
-  "Strengthen transaction screening and review relevant cryptocurrency addresses."
+  "Check Sageworks service status and confirm which borrower-facing capabilities remain unavailable.",
+  "Update older BTCPay Server instances and review hot wallets for unauthorized transactions.",
+  "Review remote access and temperature-setting controls on refrigeration systems."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "DNS records",
-   "explainer": "DNS records connect a domain name with information used to direct internet traffic. If records are changed without authorization, users may be sent somewhere other than the intended destination.",
-   "from_id": "ff9c9693b4",
-   "from": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
-   "fromSource": "SecurityWeek"
+   "term": "hot wallets",
+   "explainer": "Hot wallets are cryptocurrency wallets referenced here as being drained on older BTCPay Server instances. The snippet does not explain how they are connected or secured.",
+   "from_id": "be1d39eaf1",
+   "from": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "USV",
-   "explainer": "A USV is an uncrewed surface vessel: a vessel that operates on the water without a crew aboard. The SEAQUEST-S is described as a multi-role combat USV designed for deployment from warships.",
-   "from_id": "c2f85a310f",
-   "from": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-naval-group-demonstrates-armed-seaquest-s-usv/",
-   "fromSource": "Naval News"
+   "term": "UGV",
+   "explainer": "UGV refers to an unmanned ground vehicle. The snippet discusses industry demand and investment decisions involved in scaling UGV production.",
+   "from_id": "f104d994e3",
+   "from": "https://breakingdefense.com/2026/11/industry-needs-more-consistent-demand-signal-to-scale-ugv-production-autonomy-consortium-exec/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "Strait of Hormuz",
-   "explainer": "The Strait of Hormuz is a shipping passage discussed here as dangerous and costly, despite U.S. claims that it is open. Assessments of its status can matter to shipping decisions.",
-   "from_id": "65086d5746",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/2/hormuz-shipping-still-faces-major-risks?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "eLoran",
+   "explainer": "eLoran is a navigation system named alongside GNSS in the snippet. It says Professor van Willigen blended the two, but does not explain how either system works.",
+   "from_id": "4c755ead4d",
+   "from": "https://insidegnss.com/in-memoriam-dr-durk-van-willigen/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Dependencies and disruptions across digital and physical systems",
+  "headline": "Conflict, security, and systems in focus",
   "paragraphs": [
-   "Several stories center on dependencies that can become points of exposure. Ivanti’s gateway flaws were chained in attacks, while DebugBear says its DNS records were compromised through its registrar. The Binance stories describe theft, transaction controls and withdrawals, with authorities attributing the incident to North Korean hackers.",
-   "The military technology discussion raises a related question: what happens when armed forces depend on technology they do not own? The SEAQUEST-S demonstration and Ghost Shark payloads offer examples of systems and equipment entering military use, while the AI summit brings civilian and defense applications into view.",
-   "For defenders, the cyber reports suggest checking patch status, registrar controls and transaction monitoring rather than assuming one safeguard is enough. For analysts, the stories point to the value of tracing dependencies and separating confirmed details from claims. The Hormuz report also underscores that assessments of access and risk can differ."
+   "Today’s top stories span a reported deadly bombing in Ukraine, Uganda’s troop withdrawal from Somalia, GNSS and eLoran, campaign advertising, UGV production, and a combat boat upgrade. They do not establish a single cause or trend. Together, they show how operational events, technology, and political choices enter the same briefing.",
+   "The top snippets also differ in what they support. Kyiv’s account and local officials’ report frame the Ukraine strike; the Uganda item gives a history of its Somalia role. The UGV executive describes an industry demand challenge, while the CB90 snippet points to expanded payload and combat capabilities. Analysts should keep claims and context distinct.",
+   "For defenders and analysts, the GNSS and eLoran reference adds a navigation lens, while the other stories concern military activity, force posture, and production choices. The material does not establish consequences beyond the snippets. Watch for further detail on the reported strike, the withdrawal, and the technologies and demand signals discussed."
   ],
   "takeaways": [
-   "Prioritize gateway updates and review DNS control paths.",
-   "Treat crypto incident response as both a security and operational concern.",
-   "Track how reliance on external technology shapes military systems."
+   "Attribute the Ukraine casualty report to Kyiv and local officials.",
+   "Uganda’s withdrawal follows a long-running role against al-Shabab.",
+   "The snippets raise questions about navigation, production demand, and combat capability."
   ]
  },
  "health": [
@@ -707,37 +766,37 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 12
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": true,
-   "n": 5
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 5
   },
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 4
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 10
   },
   {
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Unit 42",
@@ -761,25 +820,25 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Defense One",
@@ -791,19 +850,19 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 8
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Bellingcat",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Oryx (visually confirmed losses)",
@@ -827,13 +886,13 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Foreign Policy",
@@ -845,7 +904,7 @@
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "RAND",
@@ -863,25 +922,25 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 11
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 8
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 9
   }
  ]
 }
