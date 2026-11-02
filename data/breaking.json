@@ -1,15 +1,10 @@
 {
- "updated": "2026-11-01T23:52:32.979Z",
+ "updated": "2026-11-02T02:49:31.051Z",
  "health": [
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "CISA Advisories",
@@ -22,19 +17,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "The Hacker News",
@@ -42,12 +27,27 @@
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -57,12 +57,7 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -74,12 +69,17 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,61 @@
   }
  ],
  "items": [
+  {
+   "id": "nf109a84ff0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ukraine blames Russia after air alert app sends out false warnings",
+   "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+   "published": "2026-11-02T01:40:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3a92a606d9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+   "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+   "published": "2026-11-02T00:29:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3328d73e2d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-02T00:15:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7b66f0410a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Bollywood star greets fans in bulletproof glass after bomb threat",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bollywood-star-greets-fans-in-bulletproof-glass-after-bomb-threat?traffic_source=rss",
+   "published": "2026-11-02T00:14:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6ee1498544",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+   "published": "2026-11-02T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n22073873c4",
    "kind": "news",
@@ -2161,50 +2216,6 @@
    "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
    "url": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
    "published": "2026-10-30T03:16:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1da8a03020",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
-   "published": "2026-10-30T02:40:26.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nc8537ba0ec",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Binance Probes Suspected $5.8 Billion Crypto Hack, $3 Billion Frozen",
-   "url": "https://hackread.com/binance-probes-5-billion-crypto-hack-3-billion-frozen/",
-   "published": "2026-10-30T02:02:38.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne13a203d33",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-   "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities?traffic_source=rss",
-   "published": "2026-10-30T00:11:20.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nac91edab3a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Amazon’s bold cloud forecast isn’t enough to stave off a stock drop",
-   "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
-   "published": "2026-10-29T23:55:00.000Z",
    "severity": "normal",
    "verified": true
   }
