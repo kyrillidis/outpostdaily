@@ -1,20 +1,25 @@
 {
- "updated": "2026-11-02T20:17:19.219Z",
+ "updated": "2026-11-03T02:24:49.135Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Record",
    "ok": true,
-   "n": 5
+   "n": 2
   },
   {
    "name": "MarketWatch",
@@ -22,24 +27,14 @@
    "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 5
+   "n": 1
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 6
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -52,24 +47,19 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Daily Dark Web",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BBC World",
    "ok": true,
-   "n": 1
+   "n": 3
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -77,19 +67,29 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Hackread",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,215 @@
   }
  ],
  "items": [
+  {
+   "id": "n467b8381d0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "North Korea denies being behind record $6.3bn Binance hack",
+   "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-03T01:23:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2308b3a724",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
+   "published": "2026-11-03T01:17:57.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6630e7d9ed",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+   "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+   "published": "2026-11-03T00:59:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc319fc1726",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+   "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+   "published": "2026-11-03T00:52:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb1c02bb380",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-03T00:07:05.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n21073f470d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+   "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+   "published": "2026-11-03T00:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n266b3df327",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+   "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+   "published": "2026-11-03T00:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0f1a935f2e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Vance sees ‘progress’, Tehran says ‘ball is in US court’",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+   "published": "2026-11-03T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3f5f6e2157",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+   "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+   "published": "2026-11-02T23:41:18.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ned136be5be",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+   "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
+   "published": "2026-11-02T23:39:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8158b1dc74",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+   "published": "2026-11-02T22:27:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n39da982a4e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+   "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+   "published": "2026-11-02T22:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb107629f6e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+   "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+   "published": "2026-11-02T21:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd32892baf1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+   "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+   "published": "2026-11-02T21:42:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf6edbcaffa",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "published": "2026-11-02T21:40:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf834851c6f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+   "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+   "published": "2026-11-02T21:35:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7bf05f514f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
+   "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
+   "published": "2026-11-02T21:29:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd7ca56d631",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Palantir earnings reveal a major AI turning point",
+   "url": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories",
+   "published": "2026-11-02T21:09:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne0c99b50a4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "What’s the future of the Western Sahara conflict?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/2/whats-the-future-of-the-western-sahara-conflict?traffic_source=rss",
+   "published": "2026-11-02T20:43:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n18836a2757",
    "kind": "news",
@@ -1865,160 +2074,6 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
    "published": "2026-10-31T02:44:38.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n2f684e4e82",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-   "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-31T02:12:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd7f71a1433",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US approves sale of 500 Patriot missiles to Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-31T00:40:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7116fb04b3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-   "published": "2026-10-31T00:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n96c2dff016",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-   "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-   "published": "2026-10-30T23:14:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfa6ae4c769",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "This cybersecurity stock will be the next to join the S&P 500",
-   "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-   "published": "2026-10-30T22:20:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n66ad427a9b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-   "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-   "published": "2026-10-30T21:30:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n8365066886",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Yoba Malware Hides a Crypto Miner Behind Legitimate OpenAI and Anthropic Binaries",
-   "url": "https://securityaffairs.com/202149/malware/yoba-malware-hides-a-crypto-miner-behind-legitimate-openai-and-anthropic-binaries.html",
-   "published": "2026-10-30T21:22:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncf944895c6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-10-30T21:13:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf167e37bde",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "published": "2026-10-30T21:09:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nce4d8aef30",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
-   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
-   "published": "2026-10-30T20:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4e4154d4fb",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
-   "url": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
-   "published": "2026-10-30T20:29:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0726b09988",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "AMD’s stock slides after Intel earnings reveal two big issues",
-   "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
-   "published": "2026-10-30T20:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n96ee818ad9",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The selloff in tech stocks is shifting into overdrive",
-   "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
-   "published": "2026-10-30T20:26:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na3b12462d2",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds GitLab and Cisco flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/202133/security/u-s-cisa-adds-gitlab-and-cisco-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-10-30T20:25:14.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
