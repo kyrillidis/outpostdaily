@@ -1,7 +1,7 @@
 {
  "date": "2026-11-03",
  "edition": 232,
- "compiled": "2026-11-03T01:55:58.913Z",
+ "compiled": "2026-11-03T08:55:02.390Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -19,7 +19,7 @@
      "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html"
     }
    ],
-   "score": 1.79,
+   "score": 1.64,
    "image": "/img/news/f8e64d371b.webp",
    "t": "2026-11-02",
    "summary": "Google and industry partners dismantled the XCPE botnet; Google says its manufacturer intentionally infected more than 1.3 million Android TV boxes.",
@@ -27,6 +27,28 @@
    "tags": [
     "XCPE",
     "Android TV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3b6a51103b",
+   "section": "cyber",
+   "source": "Krebs on Security",
+   "weight": 0.7,
+   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "snippet": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is lik",
+   "published": "2026-11-03T02:24:31.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/3b6a51103b.webp",
+   "t": "2026-11-03",
+   "summary": "Google says it worked with industry partners to dismantle a botnet of more than 1.3 million Android TV boxes whose malicious software secretly rented users’ internet connections as proxies.",
+   "why": "Check for unauthorized proxy traffic and review the security of Android TV devices on your network.",
+   "tags": [
+    "botnet",
+    "Android TV",
+    "proxies"
    ],
    "ai": true
   },
@@ -40,7 +62,7 @@
    "snippet": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
    "published": "2026-11-02T23:00:45.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "image": "/img/news/c033741926.webp",
    "t": "2026-11-03",
    "summary": "Unit 42 highlights cyberespionage, financial extortion, and rapid AI adoption across offensive workflows.",
@@ -53,28 +75,90 @@
    "ai": true
   },
   {
-   "id": "357136bfe6",
+   "id": "d108c8cad6",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-   "snippet": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-   "published": "2026-11-02T09:33:26.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/"
-    }
-   ],
-   "score": 1.61,
-   "image": "/img/news/357136bfe6.webp",
-   "t": "2026-11-02",
-   "summary": "Ivanti released updates for two Connect Secure remote-access gateway flaws that it says have been chained in zero-day attacks since at least October 1.",
-   "why": "Apply the updates and check Connect Secure systems for signs of exploitation.",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "snippet": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"The",
+   "published": "2026-11-03T07:43:07.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/d108c8cad6.webp",
+   "t": "2026-11-03",
+   "summary": "Synology is urging customers to update DiskStation Manager after ransomware attacks exploited a vulnerability the vendor says was patched in December.",
+   "why": "Check DSM versions on NAS devices and apply the available updates.",
    "tags": [
-    "Connect Secure",
-    "zero-days"
+    "Synology",
+    "ransomware",
+    "DSM"
+   ],
+   "ai": true
+  },
+  {
+   "id": "36d509a3e5",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+   "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+   "snippet": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or tak",
+   "published": "2026-11-03T07:27:07.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/36d509a3e5.webp",
+   "t": "2026-11-03",
+   "summary": "The Hacker News reports that attackers remotely changed supermarket refrigeration settings across several European countries, warming fridges and freezers.",
+   "why": "Review remote access to refrigeration controls and monitor settings for unauthorized changes.",
+   "tags": [
+    "refrigeration",
+    "supermarkets",
+    "remote access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3e6bc640da",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "snippet": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remot",
+   "published": "2026-11-03T05:34:41.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/3e6bc640da.webp",
+   "t": "2026-11-03",
+   "summary": "VulnCheck says a maximum-severity flaw in Siemens SIMATIC IoT2050 Advanced devices is under active exploitation; the flaw involves missing authentication.",
+   "why": "Check whether IoT2050 devices are exposed and review authentication and patch status.",
+   "tags": [
+    "Siemens",
+    "IoT2050",
+    "authentication"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d4042f8de1",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "snippet": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unau",
+   "published": "2026-11-03T05:34:37.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/d4042f8de1.webp",
+   "t": "2026-11-03",
+   "summary": "Defused Cyber says attackers are attempting to exploit an unpatched maximum-severity vulnerability in the CryptoPayment Gateway WordPress plugin that can expose wallet credentials.",
+   "why": "Check plugin use and updates, and review protections for wallet credentials.",
+   "tags": [
+    "WordPress",
+    "CryptoPayment Gateway",
+    "wallet credentials"
    ],
    "ai": true
   },
@@ -88,7 +172,7 @@
    "snippet": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
    "published": "2026-11-03T00:01:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.41,
    "image": "/img/news/266b3df327.webp",
    "t": "2026-11-03",
    "summary": "The NCSC chief will warn that tolerated vulnerabilities can now be discovered and exploited at an unprecedented scale.",
@@ -109,7 +193,7 @@
    "snippet": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
    "published": "2026-11-02T21:40:14.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.37,
    "image": "/img/news/f6edbcaffa.webp",
    "t": "2026-11-03",
    "summary": "BleepingComputer says Chinese hackers used the ARTEX AI penetration-testing framework in attacks against more than 200 organizations across 14 countries.",
@@ -131,7 +215,7 @@
    "snippet": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
    "published": "2026-11-02T21:42:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.37,
    "image": "/img/news/d32892baf1.webp",
    "t": "2026-11-03",
    "summary": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform after a cyberattack.",
@@ -144,88 +228,68 @@
    "ai": true
   },
   {
-   "id": "73b73a4735",
-   "section": "cyber",
-   "source": "Microsoft Security",
+   "id": "4ab7a7544f",
+   "section": "warfare",
+   "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-   "snippet": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on M",
-   "published": "2026-11-02T20:20:59.000Z",
+   "title": "Humanity’s Promethean Gap with AI",
+   "url": "https://warontherocks.com/humanitys-promethean-gap-with-ai/",
+   "snippet": "Frontier AI systems are beginning to test the limits of human oversight, while the companies developing them retain considerable power to define the risks and the terms of their scrutiny. In security and defense, the stakes are particularly high. The industry’s new calls to pace the frontier also risk becoming performa",
+   "published": "2026-11-03T08:30:09.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/73b73a4735.webp",
+   "score": 1.59,
+   "image": "/img/news/4ab7a7544f.webp",
    "t": "2026-11-03",
-   "summary": "Microsoft says real-world exploitation concentrates in a small, high-impact subset of CVEs and describes prioritization by likelihood, exposure, and blast radius.",
-   "why": "Prioritize vulnerability remediation using exploitation likelihood, exposure, and potential blast radius.",
+   "summary": "The article says frontier AI systems are testing the limits of human oversight, while their developers retain considerable power over risk definitions and scrutiny.",
+   "why": "The balance of human oversight and developer control is relevant to AI use in security and defense.",
    "tags": [
-    "CVEs",
-    "exploitation",
-    "defenders"
+    "AI",
+    "human oversight",
+    "security"
    ],
    "ai": true
   },
   {
-   "id": "18836a2757",
-   "section": "cyber",
-   "source": "The Record",
+   "id": "faa8ec8890",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
-   "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-   "snippet": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
-   "published": "2026-11-02T19:54:00.000Z",
+   "title": "Sweden’s Saab launches family of AI agents for future aircraft projects",
+   "url": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/",
+   "snippet": "Key to the autonomous project is Saab’s AI Fighter Jet Pilot Academy, designed to develop the agents and, in parallel, establish infrastructure necessary to “create, train and evaluate” them, says the firm.",
+   "published": "2026-11-03T06:56:00.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/18836a2757.webp",
+   "score": 1.56,
+   "image": "/img/news/faa8ec8890.webp",
    "t": "2026-11-03",
-   "summary": "The Record says a BYOD gang post appears to align with a Michigan State incident that prompted campus-wide action.",
-   "why": "Check incident response and campus-wide security actions against the reported ransomware claim.",
+   "summary": "Saab says its AI Fighter Jet Pilot Academy is designed to develop agents and establish infrastructure to create, train and evaluate them for future aircraft projects.",
+   "why": "The initiative links AI agent development with training and evaluation for future aircraft projects.",
    "tags": [
-    "BYOD",
-    "ransomware",
-    "Michigan State"
+    "AI agents",
+    "aircraft",
+    "training"
    ],
    "ai": true
   },
   {
-   "id": "b9a8fe94cb",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "snippet": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-   "published": "2026-11-02T19:00:45.000Z",
+   "id": "90fc334ac3",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Leonardo’s AWHero and Proteus rotorcraft show strong focus on RUAS and Autonomy capabilities for naval applications",
+   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
+   "snippet": "Leonardo’s focus on uncrewed and autonomous systems is increasingly covering a range of air and surface solutions, and rotorcraft make no exception, particularly with the 200 kg-class AWHero and 3-ton-class Proteus rotorcraft uncrewed systems. Sponsored by The two systems have been designed to meet evolving defence UAS",
+   "published": "2026-11-03T06:30:00.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/b9a8fe94cb.webp",
-   "t": "2026-11-02",
-   "summary": "Abrigo says it restored Sageworks after an outage triggered by “irregular activity,” but borrower-facing capabilities remain unavailable.",
-   "why": "Check service status and confirm which borrower-facing functions remain unavailable.",
+   "score": 1.45,
+   "image": "/img/news/90fc334ac3.webp",
+   "t": "2026-11-03",
+   "summary": "Leonardo’s uncrewed and autonomous systems include the AWHero and Proteus rotorcraft, described as solutions for naval applications.",
+   "why": "Uncrewed rotorcraft extend autonomous-system capabilities to naval applications.",
    "tags": [
-    "Sageworks",
-    "outage"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b22118a1e1",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
-   "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
-   "snippet": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
-   "published": "2026-11-02T17:05:20.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/b22118a1e1.webp",
-   "t": "2026-11-02",
-   "summary": "Polymarket says it will repay users’ losses and compensate them for downtime after an October 29 site compromise.",
-   "why": "Review incident communications and account activity following the site compromise.",
-   "tags": [
-    "Polymarket",
-    "site compromise"
+    "rotorcraft",
+    "uncrewed",
+    "naval"
    ],
    "ai": true
   },
@@ -239,7 +303,7 @@
    "snippet": "If this were entertained within the administration, it would face a far greater disaster than the Strait of Hormuz being closed. The post A Nuclear Strike On Iran? It Sounds Absurd Because It Is. Let’s Talk About It appeared first on TWZ .",
    "published": "2026-11-03T00:49:12.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.43,
    "image": "/img/news/e3060be8ef.webp",
    "t": "2026-11-03",
    "summary": "The article argues that a nuclear strike on Iran, if entertained, would face a greater disaster than closure of the Strait of Hormuz.",
@@ -261,7 +325,7 @@
    "snippet": "Mar-a-Lago is the latest real-world deployment for the U.S. military's growing arsenal of LOCUST counter-drone lasers. The post Counter-Drone Laser Weapon Now Guarding Trump’s Mar-a-Lago Alongside SAMs appeared first on TWZ .",
    "published": "2026-11-02T22:54:04.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.39,
    "image": "/img/news/47d6c3d415.webp",
    "t": "2026-11-03",
    "summary": "The War Zone reports that Mar-a-Lago is the latest real-world deployment of the U.S. military's LOCUST counter-drone lasers.",
@@ -283,7 +347,7 @@
    "snippet": "Sign up here to receive Bellingcat’s biggest investigations by email as soon as they are published. Become a member and support our work here. An online ad for Ben McAdams, the Democratic candidate for Congress in Utah, emphasised that he could be trusted because he “fought back against MAGA”. In Texas, another ad prom",
    "published": "2026-11-02T16:11:28.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.35,
    "image": "/img/news/a77780e327.webp",
    "t": "2026-11-02",
    "summary": "Bellingcat’s snippet describes an online campaign ad funded by AI Super PACs but provides little detail about the investigation.",
@@ -304,7 +368,7 @@
    "snippet": "“I think [industry has] the challenge of understanding what the demand signal is, and then again where to put their dollars,” Warren Sponsler, the COO of NAMC, said in an interview.",
    "published": "2026-11-02T19:47:29.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.33,
    "image": "/img/news/f104d994e3.webp",
    "t": "2026-11-02",
    "summary": "A NAMC executive says industry needs a more consistent demand signal to decide where to invest in scaling UGV production.",
@@ -325,7 +389,7 @@
    "snippet": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country",
    "published": "2026-11-02T19:15:33.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.32,
    "image": "/img/news/dee2794d28.webp",
    "t": "2026-11-02",
    "summary": "The snippet describes a War on the Rocks digest of Ukrainian commentary about transparency and saving face.",
@@ -337,123 +401,6 @@
    "ai": true
   },
   {
-   "id": "6887be441d",
-   "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
-   "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
-   "snippet": "Hundreds of British troops, RAF jets and forces from 11 nations will rehearse how to secure lasting peace in Ukraine when the fighting ends in a major exercise in Poland this month.",
-   "published": "2026-11-03T00:01:03.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/6887be441d.webp",
-   "t": "2026-11-03",
-   "summary": "The UK will lead an exercise in Poland with British troops, RAF jets, and forces from 11 nations to rehearse securing lasting peace in Ukraine.",
-   "why": "The exercise concerns multinational preparation for security arrangements after fighting in Ukraine ends.",
-   "tags": [
-    "training exercise",
-    "Ukraine",
-    "Poland"
-   ],
-   "ai": true
-  },
-  {
-   "id": "96845d140f",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "New CB90 CX Is Bigger, Optionally Crewed Evolution Of Saab’s Proven Combat Boat",
-   "url": "https://www.twz.com/sea/new-cb90-cx-is-bigger-optionally-crewed-evolution-of-saabs-proven-combat-boat",
-   "snippet": "The CX version brings expanded payload capacity and a new suite of combat capabilities to the familiar combat boat. The post New CB90 CX Is Bigger, Optionally Crewed Evolution Of Saab’s Proven Combat Boat appeared first on TWZ .",
-   "published": "2026-11-02T18:50:34.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/96845d140f.webp",
-   "t": "2026-11-02",
-   "summary": "The CB90 CX adds expanded payload capacity and new combat capabilities to the familiar combat boat, according to the snippet.",
-   "why": "The expanded payload and capabilities indicate an evolution in combat boat design.",
-   "tags": [
-    "CB90 CX",
-    "combat boat"
-   ],
-   "ai": true
-  },
-  {
-   "id": "52629688b1",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "New X-Plane To Be Announced At Max Power Airshow: NASA Administrator Isaacman",
-   "url": "https://www.twz.com/air/new-x-plane-to-be-announced-at-max-power-airshow-nasa-administrator-isaacman",
-   "snippet": "NASA's boss also deflected a new question about the space agency's 'missing' SR-71 Blackbird. The post New X-Plane To Be Announced At Max Power Airshow: NASA Administrator Isaacman appeared first on TWZ .",
-   "published": "2026-11-02T18:15:33.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/52629688b1.webp",
-   "t": "2026-11-02",
-   "summary": "NASA’s administrator says a new X-Plane will be announced at the Max Power Airshow; the snippet also mentions a question about the SR-71.",
-   "why": "The announcement may make the X-Plane’s development relevant to aerospace watchers.",
-   "tags": [
-    "X-Plane",
-    "NASA"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2308b3a724",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
-   "snippet": "At least 26 people were killed in Russian strikes on a school being used as a humanitarian aid centre.",
-   "published": "2026-11-03T01:17:57.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/ukraine-at-least-26-killed-in-russian-strikes-on-aid-center/live-79825079?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.84,
-   "image": "/img/news/2308b3a724.webp",
-   "t": "2026-11-03",
-   "summary": "Al Jazeera reports that at least 26 people were killed in Russian strikes on a school used as a humanitarian aid centre.",
-   "why": "The reported strikes underline the humanitarian and geographic significance of sites used for aid.",
-   "tags": [
-    "Russian strikes",
-    "Ukraine",
-    "aid centre"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1ecf3a7746",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-   "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Uganda has been helping Somalia battle an insurgency led by the al-Shabab militant group since 2007.",
-   "published": "2026-11-02T12:05:34.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/uganda-begins-withdrawing-troops-from-somalia-after-two-decades/a-79829903?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.66,
-   "image": "/img/news/1ecf3a7746.webp",
-   "t": "2026-11-02",
-   "summary": "Uganda has begun withdrawing troops from Somalia after helping the country battle an al-Shabab insurgency since 2007.",
-   "why": "The withdrawal is relevant to Uganda’s military role in Somalia and the fight against al-Shabab.",
-   "tags": [
-    "Uganda",
-    "Somalia"
-   ],
-   "ai": true
-  },
-  {
    "id": "467b8381d0",
    "section": "geo",
    "source": "BBC World",
@@ -461,9 +408,14 @@
    "title": "North Korea denies being behind record $6.3bn Binance hack",
    "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
-   "published": "2026-11-03T01:23:03.000Z",
-   "also": [],
-   "score": 1.59,
+   "published": "2026-11-03T08:33:20.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/north-korea-denies-role-in-record-binance-hack-calls-us-charge-provocation/a-79835321?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.94,
    "image": "/img/news/467b8381d0.webp",
    "t": "2026-11-03",
    "summary": "North Korea denies responsibility for the Binance hack; U.S. agencies and cyber analysts have blamed Pyongyang.",
@@ -472,6 +424,115 @@
     "North Korea",
     "Binance",
     "attribution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "351c203439",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+   "published": "2026-11-03T07:24:12.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/351c203439.webp",
+   "t": "2026-11-02",
+   "summary": "Kyiv says Russian bombing killed 24 people at a Ukraine aid centre; local officials say 27 people had been missing after bombs hit a southern village.",
+   "why": "The reported strike and missing people are relevant to the conflict’s civilian impact in southern Ukraine.",
+   "tags": [
+    "Ukraine",
+    "bombing"
+   ],
+   "ai": true
+  },
+  {
+   "id": "47fa9d456c",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Why a US-Russia showdown left Morocco celebrating",
+   "url": "https://www.bbc.co.uk/news/articles/cqp8genleg2ro?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "An impasse between the US and Russia at the UN means its peacekeeping mission in Western Sahara has ended after 35 years.",
+   "published": "2026-11-03T07:29:46.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/47fa9d456c.webp",
+   "t": "2026-11-03",
+   "summary": "The BBC reports that a US-Russia impasse at the UN ended the peacekeeping mission in Western Sahara after 35 years.",
+   "why": "The mission’s end is relevant to the UN’s role and the strategic situation in Western Sahara.",
+   "tags": [
+    "US-Russia",
+    "UN",
+    "Western Sahara"
+   ],
+   "ai": true
+  },
+  {
+   "id": "daa4554ef4",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "US strikes Iran ahead of midterm elections",
+   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+   "published": "2026-11-03T03:39:08.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/daa4554ef4.webp",
+   "t": "2026-11-03",
+   "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC’s US partner.",
+   "why": "The stated characterization of the strikes is relevant to assessing regional security developments.",
+   "tags": [
+    "US",
+    "Iran",
+    "Qeshm Island"
+   ],
+   "ai": true
+  },
+  {
+   "id": "50a8e03468",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "AFC reschedules Asian Cup 2027 in Saudi Arabia amid regional conflict",
+   "url": "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss",
+   "snippet": "Start date for AFC Cup 2027 moved from January to December due to ongoing Houthi attacks on host nation Saudi Arabia.",
+   "published": "2026-11-03T06:55:39.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/50a8e03468.webp",
+   "t": "2026-11-03",
+   "summary": "Al Jazeera reports that the AFC moved the start of the Asian Cup 2027 in Saudi Arabia from January to December amid ongoing Houthi attacks.",
+   "why": "The schedule change links a major sporting event to the security context around its host nation.",
+   "tags": [
+    "Asian Cup",
+    "Saudi Arabia",
+    "Houthi attacks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e71f2e3b0d",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
+   "url": "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss",
+   "snippet": "As Israel grapples with an inconclusive election, Palestinians face West Bank closures and Gaza killings.",
+   "published": "2026-11-03T06:46:27.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/e71f2e3b0d.webp",
+   "t": "2026-11-03",
+   "summary": "Al Jazeera describes an inconclusive Israeli election alongside Palestinian closures in the West Bank and killings in Gaza.",
+   "why": "The report connects political uncertainty with conditions in the West Bank and Gaza.",
+   "tags": [
+    "election",
+    "West Bank",
+    "Gaza"
    ],
    "ai": true
   },
@@ -485,7 +546,7 @@
    "snippet": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "published": "2026-11-03T00:07:05.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.42,
    "image": "/img/news/b1c02bb380.webp",
    "t": "2026-11-03",
    "summary": "European troops will rehearse a possible Ukraine deployment; Western officials stress the force would not take part in offensive operations.",
@@ -498,88 +559,24 @@
    "ai": true
   },
   {
-   "id": "4c755ead4d",
+   "id": "86d7efb15b",
    "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "In Memoriam: Dr. Durk van Willigen",
-   "url": "https://insidegnss.com/in-memoriam-dr-durk-van-willigen/",
-   "snippet": "Professor van Willigen founded Reelektronika, blended GNSS and eLoran. Professor Dr. Durk van Willigen, founder and director of the Netherland’s Reelektronkia BV and... The post In Memoriam: Dr. Durk van Willigen appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, Policy, and Design .",
-   "published": "2026-11-02T18:28:52.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli forces kill four in Gaza as fifth Palestinian dies of wounds",
+   "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss",
+   "snippet": "Nearly 1,600 Palestinians have been killed in Gaza since a US-brokered 'ceasefire' took effect in October last year.",
+   "published": "2026-11-03T05:02:34.000Z",
    "also": [],
-   "score": 1.54,
-   "image": "/img/news/4c755ead4d.webp",
-   "t": "2026-11-02",
-   "summary": "Professor van Willigen founded Reelektronika and blended GNSS with eLoran, according to the snippet.",
-   "why": "The GNSS and eLoran combination is relevant to navigation technology.",
-   "tags": [
-    "GNSS",
-    "eLoran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1cf15ebd66",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Reigniting War With Iran Would Be a ‘Huge Gamble’",
-   "url": "https://foreignpolicy.com/2026/11/02/trump-iran-war-midterms-military-readiness-missiles-capabilities/",
-   "snippet": "The U.S. military faces “profound” long-term readiness concerns, one expert said.",
-   "published": "2026-11-02T21:06:08.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/1cf15ebd66.webp",
+   "score": 1.42,
+   "image": "/img/news/86d7efb15b.webp",
    "t": "2026-11-03",
-   "summary": "Foreign Policy reports that one expert described the U.S. military's long-term readiness concerns as profound amid debate over war with Iran.",
-   "why": "Readiness concerns are relevant to assessing the strategic implications of renewed conflict with Iran.",
+   "summary": "Al Jazeera reports that nearly 1,600 Palestinians have been killed in Gaza since a US-brokered ceasefire took effect in October last year.",
+   "why": "The reported toll is relevant to monitoring conditions in Gaza and the status of the ceasefire.",
    "tags": [
-    "Iran",
-    "readiness",
-    "U.S. military"
-   ],
-   "ai": true
-  },
-  {
-   "id": "351c203439",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
-   "published": "2026-11-02T21:10:04.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/351c203439.webp",
-   "t": "2026-11-02",
-   "summary": "Kyiv says Russian bombing killed 24 people at a Ukraine aid centre; local officials say 27 people had been missing after bombs hit a southern village.",
-   "why": "The reported strike and missing people are relevant to the conflict’s civilian impact in southern Ukraine.",
-   "tags": [
-    "Ukraine",
-    "bombing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "01cc5c9b81",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Trump to remove Rwanda and South Africa from US trade deal",
-   "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
-   "published": "2026-11-02T19:33:10.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/01cc5c9b81.webp",
-   "t": "2026-11-03",
-   "summary": "The BBC reports that Trump plans to remove Rwanda and South Africa from a U.S. trade deal, following sanctions on Rwanda's defence ministry.",
-   "why": "The proposed trade change and sanctions link trade policy with U.S. relations in Africa.",
-   "tags": [
-    "Rwanda",
-    "South Africa",
-    "trade deal"
+    "Gaza",
+    "ceasefire",
+    "Palestinians"
    ],
    "ai": true
   }
@@ -731,47 +728,47 @@
   }
  ],
  "run_today": [
-  "Identify and prioritize exposed vulnerabilities by exploitation likelihood, exposure, and potential blast radius.",
-  "Review monitoring for signs of AI-assisted attacks and cyberespionage.",
-  "Check incident response procedures for ransomware claims and unusual platform outflows."
+  "Check Android TV devices for unexpected proxy traffic or unfamiliar network activity.",
+  "Verify Synology DSM versions and install available updates on affected NAS devices.",
+  "Review access to refrigeration controls and alert on unauthorized setting changes."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "exploited vulnerabilities",
-   "explainer": "A vulnerability is a flaw in software or a system. An exploited vulnerability is one attackers have used in real-world attacks; defenders can prioritize it based on likelihood, exposure, and potential blast radius.",
-   "from_id": "73b73a4735",
-   "from": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-   "fromSource": "Microsoft Security"
+   "term": "Botnet",
+   "explainer": "A botnet is a group of devices controlled together through malicious software. In this story, Android TV boxes were used to rent users’ internet connections as proxies.",
+   "from_id": "3b6a51103b",
+   "from": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "fromSource": "Krebs on Security"
   },
   {
    "domain": "warfare",
-   "term": "counter-drone lasers",
-   "explainer": "Counter-drone lasers are laser weapons used to address drone threats. The report describes LOCUST lasers as deployed alongside surface-to-air missiles.",
-   "from_id": "47d6c3d415",
-   "from": "https://www.twz.com/news-features/laser-weapon-now-guarding-trumps-mar-a-lago-estate",
-   "fromSource": "The War Zone"
+   "term": "AI agents",
+   "explainer": "AI agents are software systems designed to carry out tasks. Saab says its academy will develop agents and infrastructure to create, train and evaluate them for future aircraft projects.",
+   "from_id": "faa8ec8890",
+   "from": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "humanitarian aid centre",
-   "explainer": "A humanitarian aid centre is a site used to provide aid. Its location matters in the report because a school serving as an aid centre was hit in Russian strikes.",
-   "from_id": "2308b3a724",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "Peacekeeping mission",
+   "explainer": "A peacekeeping mission is an operation described as working to support peace in a particular place. The story says the Western Sahara mission ended after an impasse between the US and Russia at the UN.",
+   "from_id": "47fa9d456c",
+   "from": "https://www.bbc.co.uk/news/articles/cqp8genleg2ro?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Security, conflict, and the importance of response",
+  "headline": "Disruption, oversight and contested security",
   "paragraphs": [
-   "The top stories span a deadly strike on a Ukraine aid centre, cyber operations and vulnerability response, troop movements, and debate over Iran. Together, they show how security concerns cross technical and geographic boundaries, while the reports describe distinct events rather than a single connected episode.",
-   "For defenders, the cyber coverage points to both broad threat activity and specific opportunities to act: patching zero-days, disrupting malware infrastructure, and prioritizing vulnerabilities. Unit 42 also highlights AI in offensive workflows. These reports suggest that monitoring and remediation need to adapt as methods and scale change.",
-   "For analysts, the Ukraine reports distinguish battlefield violence from planning for a possible peace, while the Iran stories raise questions about readiness and strategic consequences. Watch how officials describe deployments, attribution, and threat response; the available snippets do not resolve those questions."
+   "The stories point to different forms of control and accountability. Google and industry partners say they dismantled a botnet using Android TV boxes, while the AI article raises questions about who sets the terms for oversight. Both make visibility into systems and their operators a central concern.",
+   "For defenders, the botnet story is a reminder to examine devices that may be treated as ordinary household or network equipment. The AI discussion suggests that human oversight and scrutiny of developers matter in security and defense. These stories do not establish that the same risks or responses apply across both settings.",
+   "Other top stories describe a Russian bombing reported by Ukrainian officials and the end of a Western Sahara peacekeeping mission after a US-Russia impasse at the UN. Analysts can watch how claims are attributed, what oversight or institutional roles are described, and how security developments intersect with political decisions."
   ],
   "takeaways": [
-   "Prioritize exposed vulnerabilities and apply available security updates.",
-   "Keep reported attribution distinct from confirmed responsibility.",
-   "Track both current operations and preparations for possible future security arrangements."
+   "Check connected devices for unexpected network behavior.",
+   "Keep human oversight and scrutiny in view when assessing AI systems.",
+   "Separate reported claims from confirmed details in conflict and geopolitical coverage."
   ]
  },
  "health": [
@@ -785,19 +782,19 @@
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 10
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 12
   },
   {
    "name": "The Record",
@@ -808,8 +805,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 9
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
@@ -851,7 +848,7 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "The War Zone",
@@ -863,7 +860,7 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Defense One",
@@ -881,7 +878,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Bellingcat",
@@ -941,7 +938,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "SatNews",
@@ -959,13 +956,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 4
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 10
   }
  ]
 }
