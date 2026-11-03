@@ -1,15 +1,20 @@
 {
- "updated": "2026-11-03T02:24:49.135Z",
+ "updated": "2026-11-03T09:46:39.242Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "CISA Advisories",
@@ -17,24 +22,19 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
-   "n": 10
+   "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "BBC World",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Krebs on Security",
@@ -47,29 +47,24 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 3
+   "n": 5
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -77,12 +72,12 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
-   "name": "Security Affairs",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -90,6 +85,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,171 @@
   }
  ],
  "items": [
+  {
+   "id": "n402458e4da",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+   "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+   "published": "2026-11-03T09:22:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd262b38c73",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Sudan’s displaced return to new challenges in war-battered Khartoum",
+   "url": "https://www.aljazeera.com/features/2026/11/3/sudans-displaced-return-to-new-challenges-in-war-battered-khartoum?traffic_source=rss",
+   "published": "2026-11-03T09:18:48.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0658f100b6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+   "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+   "published": "2026-11-03T08:49:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n07d9937fab",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "published": "2026-11-03T08:31:48.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf9c39fb133",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+   "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+   "published": "2026-11-03T07:43:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd108c8cad6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "published": "2026-11-03T07:43:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n36d509a3e5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+   "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+   "published": "2026-11-03T07:27:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8d4dcf0a40",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "NIS2 Makes Board Members Personally Liable for Access Control Decisions",
+   "url": "https://securityaffairs.com/202312/laws-and-regulations/nis2-makes-board-members-personally-liable-for-access-control-decisions.html",
+   "published": "2026-11-03T07:21:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4b483b4649",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-03T07:15:17.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n50a8e03468",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "AFC reschedules Asian Cup 2027 in Saudi Arabia amid regional conflict",
+   "url": "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss",
+   "published": "2026-11-03T06:55:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne71f2e3b0d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
+   "url": "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss",
+   "published": "2026-11-03T06:46:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n96861a022f",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Apple’s spyware notifications reach the Bundestag: what the BSI says to do now",
+   "url": "https://securityaffairs.com/202297/intelligence/apples-spyware-notifications-reach-the-bundestag-what-the-bsi-says-to-do-now.html",
+   "published": "2026-11-03T06:24:38.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3e6bc640da",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "published": "2026-11-03T05:34:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd4042f8de1",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "published": "2026-11-03T05:34:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7e9553e85f",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory",
+   "url": "https://hackread.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/",
+   "published": "2026-11-03T04:10:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n467b8381d0",
    "kind": "news",
@@ -1931,149 +2096,6 @@
    "url": "https://www.aljazeera.com/features/2026/10/31/education-under-fire-gazas-children-face-death-on-their-way-to-school?traffic_source=rss",
    "published": "2026-10-31T10:00:17.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n876bb7ef9b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Rival US and Russian resolutions on Western Sahara fail at UN",
-   "url": "https://www.aljazeera.com/news/2026/10/31/rival-us-and-russian-resolutions-on-western-sahara-fail-at-un?traffic_source=rss",
-   "published": "2026-10-31T09:35:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5a596203ba",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Attackers Exploit Critical Drupal Commerce Core Vulnerability CVE-2026-118539",
-   "url": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html",
-   "published": "2026-10-31T09:08:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4a3beb5aa5",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-   "published": "2026-10-31T08:27:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndd178e3791",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
-   "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
-   "published": "2026-10-31T05:48:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n25befd4e22",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
-   "url": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss",
-   "published": "2026-10-31T05:37:51.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne8eb82345a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-   "published": "2026-10-31T05:33:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n21ad2182a1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-   "published": "2026-10-31T04:56:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3c45ba35ac",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-   "published": "2026-10-31T04:51:25.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6d8b49944c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US jails two Chinese nationals for spying",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss",
-   "published": "2026-10-31T04:41:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf0f797ea85",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-   "url": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-   "published": "2026-10-31T04:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8afbb59b14",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran says four tankers on fire after striking mines in Hormuz",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
-   "published": "2026-10-31T03:55:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n049b0ac1e6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
-   "published": "2026-10-31T03:27:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n78c9d17cdf",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
-   "published": "2026-10-31T02:44:38.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
