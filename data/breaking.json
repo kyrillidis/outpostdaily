@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T17:32:24.414Z",
+ "updated": "2026-11-04T22:49:09.682Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -9,12 +9,12 @@
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -24,7 +24,12 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 7
+   "n": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -32,24 +37,9 @@
    "n": 0
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 6
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
   },
   {
    "name": "MarketWatch",
@@ -57,22 +47,27 @@
    "n": 10
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
    "ok": true,
    "n": 2
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 5
+   "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -82,9 +77,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 2
   },
   {
    "name": "SOCRadar blog",
@@ -95,6 +90,11 @@
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,281 @@
   }
  ],
  "items": [
+  {
+   "id": "n6939498263",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+   "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-04T22:48:43.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n98a9f5007d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+   "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+   "published": "2026-11-04T22:46:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n61a0fa8d6d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+   "published": "2026-11-04T22:06:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n83d4b475a4",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "How do Americans feel about the midterm results? It depends on how much money they make.",
+   "url": "https://www.marketwatch.com/story/how-do-americans-feel-about-the-midterm-results-it-depends-on-how-much-money-they-make-e2a43f08?mod=mw_rss_topstories",
+   "published": "2026-11-04T22:06:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neca2812520",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Qualcomm’s stock falls as twin forces pressure sales",
+   "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+   "published": "2026-11-04T22:03:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfc147a81ac",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These stocks soared the most today after the Democrats trounced Trump",
+   "url": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
+   "published": "2026-11-04T21:55:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1b4641ca37",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+   "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+   "published": "2026-11-04T21:48:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n370ce69117",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Figma’s stock falls as investors worry that AI momentum is coming at a high price",
+   "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
+   "published": "2026-11-04T21:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n27231e6e9f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Microsoft and Amazon combined to see a $424 billion market-cap boost — and these factors show why",
+   "url": "https://www.marketwatch.com/story/microsoft-and-amazon-combine-for-a-400-billion-market-cap-boost-and-these-factors-show-why-6655d1a9?mod=mw_rss_topstories",
+   "published": "2026-11-04T21:33:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8b410e7e56",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Big Tech is driving a historic divide in the S&P 500. Why investors need to take notice.",
+   "url": "https://www.marketwatch.com/story/wall-street-veteran-says-these-are-some-of-the-most-unbelievable-charts-he-has-ever-seen-2c78e677?mod=mw_rss_topstories",
+   "published": "2026-11-04T21:33:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nde78875600",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "published": "2026-11-04T21:31:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n71b12d4849",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+   "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+   "published": "2026-11-04T21:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4439dbb937",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel restricting treatment for 1,100 child amputees in Gaza: NGO",
+   "url": "https://www.aljazeera.com/news/2026/11/4/israel-restricting-treatment-for-1100-child-amputees-in-gaza-ngo?traffic_source=rss",
+   "published": "2026-11-04T21:13:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n07945e1ad4",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Two Barracuda ESG Flaws Could Be Combined for Full Root Access; Patches Released",
+   "url": "https://securityaffairs.com/202440/security/two-barracuda-esg-flaws-could-be-combined-for-full-root-access-patches-released.html",
+   "published": "2026-11-04T21:04:35.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1afac6f78e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US midterm election results live: Trump blames Iran war after losses",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+   "published": "2026-11-04T21:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0fd87eaf33",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "published": "2026-11-04T20:58:19.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n588402d59d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+   "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
+   "published": "2026-11-04T20:31:56.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "neaa6b52280",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Will the US resume its attacks on Iran?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/4/will-the-us-resume-its-attacks-on-iran?traffic_source=rss",
+   "published": "2026-11-04T20:25:50.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ne8d44099fe",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iranians celebrate Democrat victory in US midterms",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms?traffic_source=rss",
+   "published": "2026-11-04T19:59:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nede1220cf0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
+   "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
+   "published": "2026-11-04T19:17:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1413af0079",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "published": "2026-11-04T19:05:19.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n9e35110e9d",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Cyberattack Hits French Blood Banks as Hackers Target Refrigeration Systems Across Europe",
+   "url": "https://securityaffairs.com/202431/hacking/cyberattack-hits-french-blood-banks-as-hackers-target-refrigeration-systems-across-europe.html",
+   "published": "2026-11-04T19:01:57.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n462ec96575",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+   "published": "2026-11-04T18:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4cbdcade27",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Fake GTA VI Download Sites Push Malware Ahead of Launch",
+   "url": "https://hackread.com/fake-gta-vi-download-sites-malware-launch/",
+   "published": "2026-11-04T18:16:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n801b944f56",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "published": "2026-11-04T18:02:56.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2297,17 +2572,6 @@
    "verified": true
   },
   {
-   "id": "n9853f6efca",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These tech stocks got unfairly swept up in last week’s selloff, analysts say",
-   "url": "https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories",
-   "published": "2026-11-02T16:50:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nacbef9b6b6",
    "kind": "news",
    "group": "cyber",
@@ -2316,17 +2580,6 @@
    "url": "https://therecord.media/hackers-ukraine-belarus-russia",
    "published": "2026-11-02T16:30:00.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n53e23cfa05",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Behind Anthropic’s 1,127% revenue surge — and the computing bill that erased its profit",
-   "url": "https://www.marketwatch.com/story/behind-anthropics-1-127-revenue-surge-and-the-computing-bill-that-erased-its-profit-2fe7e513?mod=mw_rss_topstories",
-   "published": "2026-11-02T16:22:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2451,39 +2704,6 @@
    "verified": true
   },
   {
-   "id": "nef8ef6bdda",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "5 celebrities who waited years to buy their dream homes",
-   "url": "https://www.marketwatch.com/story/5-celebrities-who-waited-years-to-buy-their-dream-homes-f1551973?mod=mw_rss_topstories",
-   "published": "2026-11-02T10:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nae3b0285a4",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Retired World Series champ Matt Holliday lists $11.6 million Arizona estate he bought months ago",
-   "url": "https://www.marketwatch.com/story/retired-world-series-champ-matt-holliday-lists-11-6-million-arizona-estate-he-bought-months-ago-a48b6a9b?mod=mw_rss_topstories",
-   "published": "2026-11-02T09:58:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb025b27896",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Tech stocks have made big V-shaped rebounds five times in 30 months — and now Deutsche Bank forecasts another bounce",
-   "url": "https://www.marketwatch.com/story/tech-stocks-have-made-big-v-shaped-rebounds-five-times-in-30-months-and-now-deutsche-bank-forecasts-another-bounce-0a552a62?mod=mw_rss_topstories",
-   "published": "2026-11-02T09:47:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n357136bfe6",
    "kind": "news",
    "group": "cyber",
@@ -2502,17 +2722,6 @@
    "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
    "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
    "published": "2026-11-02T09:33:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n168f7696a1",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The election will be good news, regardless of outcome, says Morgan Stanley’s chief stock-market strategist",
-   "url": "https://www.marketwatch.com/story/the-election-will-be-good-news-regardless-of-outcome-says-morgan-stanleys-chief-stock-market-strategist-ffa320ed?mod=mw_rss_topstories",
-   "published": "2026-11-02T09:15:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2536,17 +2745,6 @@
    "url": "https://www.aljazeera.com/news/2026/11/2/us-midterms-1-day-to-go-democrats-rally-around-el-sayed-amid-attacks?traffic_source=rss",
    "published": "2026-11-02T09:06:20.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne623ec4f4e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
-   "url": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
-   "published": "2026-11-02T08:56:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2701,127 +2899,6 @@
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
    "published": "2026-11-02T00:00:00.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n22073873c4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
-   "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-01T22:38:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9edc0868d5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-   "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-   "published": "2026-11-01T22:15:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne908865eb4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Thousands displaced from Hebron as Israel carries on siege",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
-   "published": "2026-11-01T21:28:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8cfea8890b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-   "published": "2026-11-01T19:57:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc224fab236",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
-   "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-01T19:48:17.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n1c506d7fa1",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "FBI Blames North Korea for $6 Billion Binance Crypto Theft",
-   "url": "https://securityaffairs.com/202221/apt/fbi-blames-north-korea-for-6-billion-binance-crypto-theft.html",
-   "published": "2026-11-01T19:23:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7a63247dca",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "How will the Iran war shape the outcome of the US midterm vote?",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
-   "published": "2026-11-01T19:00:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7f5416b357",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
-   "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
-   "published": "2026-11-01T18:58:23.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n17b9135c5b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s first ambassador to Somaliland presents credentials in Hargeisa",
-   "url": "https://www.aljazeera.com/news/2026/11/1/israels-first-ambassador-to-somaliland-presents-credentials-in-hargeisa?traffic_source=rss",
-   "published": "2026-11-01T18:23:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n31a68083bf",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 6",
-   "url": "https://securityaffairs.com/202216/ai/security-affairs-ai-cybersecurity-newsletter-round-6.html",
-   "published": "2026-11-01T18:02:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2d1e07594a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Armed police start patrols in Sydney after Bondi Beach attack",
-   "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-01T17:56:47.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
