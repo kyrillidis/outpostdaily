@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-03T22:23:52.778Z",
+ "updated": "2026-11-04T02:29:26.299Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 2
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 6
+   "n": 3
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -39,20 +39,15 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The DFIR Report",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -62,14 +57,9 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -77,14 +67,24 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 7
+   "n": 3
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,72 @@
  ],
  "items": [
   {
+   "id": "ned421e39d3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+   "published": "2026-11-04T02:00:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6efe41ce41",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+   "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+   "published": "2026-11-04T01:16:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne399449b1f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
+   "published": "2026-11-04T01:13:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n29f0327317",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+   "published": "2026-11-04T00:35:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd5a29ca6b4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Tehran prepares ‘maximum deterrence’ plan for any new attack",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/iran-war-live-tehran-prepares-maximum-deterrence-plan-for-any-new-attack?traffic_source=rss",
+   "published": "2026-11-04T00:00:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6a415c886b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "What analysts are telling us while Apple’s stock falls after earnings report",
+   "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+   "published": "2026-11-03T22:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
    "id": "nb0a8ea5b69",
    "kind": "news",
    "group": "cyber",
@@ -126,6 +192,17 @@
    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
    "published": "2026-11-03T22:18:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndf7c4721e4",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
+   "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
+   "published": "2026-11-03T22:16:49.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2427,28 +2504,6 @@
    "published": "2026-11-01T02:34:22.393Z",
    "severity": "high",
    "verified": false
-  },
-  {
-   "id": "nc94fbfc40b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Thousands rally in Israel urging Eisenkot-Arab deal to remove Netanyahu",
-   "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
-   "published": "2026-11-01T02:05:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndabd2925be",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
-   "published": "2026-11-01T00:00:51.000Z",
-   "severity": "normal",
-   "verified": true
   }
  ]
 }
