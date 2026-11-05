@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:57:24.787Z",
+ "updated": "2026-11-05T17:50:54.856Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,24 +7,24 @@
    "error": "HTTP 403"
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "Krebs on Security",
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -34,32 +34,37 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Hackread",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 1
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Daily Dark Web",
@@ -67,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -82,19 +82,19 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,336 @@
   }
  ],
  "items": [
+  {
+   "id": "n671b07a9ce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "published": "2026-11-05T17:45:29.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne71e865c96",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty.’",
+   "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
+   "published": "2026-11-05T17:39:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5869883f59",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I’m 65 and worth more than $5.6 million. Can I buy a $200,000 camper even though the price feels ‘crazy high’?",
+   "url": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
+   "published": "2026-11-05T17:33:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3347a00667",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+   "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+   "published": "2026-11-05T17:32:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd4fad7f156",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+   "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+   "published": "2026-11-05T17:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3f14a414b3",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
+   "url": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
+   "published": "2026-11-05T17:11:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n95f086dcd8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Jordanian officer killed in stabbing attack in Amman",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
+   "published": "2026-11-05T17:08:45.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nc81da05770",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Hackers Tamper With Refrigeration Controls at France’s National Blood Service",
+   "url": "https://hackread.com/hackers-tamper-refrigeration-controls-france-blood-service/",
+   "published": "2026-11-05T17:06:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n975e95837e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "How to buy a new car for under $30,000 in this economy",
+   "url": "https://www.marketwatch.com/story/how-to-buy-a-new-car-for-under-30-000-in-this-economy-24b01f99?mod=mw_rss_topstories",
+   "published": "2026-11-05T17:04:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n44c256844f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
+   "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+   "published": "2026-11-05T17:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd5adbe7645",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+   "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+   "published": "2026-11-05T16:48:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb29a036a28",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza holds final of tournament honouring more than 1,000 slain athletes",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss",
+   "published": "2026-11-05T16:46:34.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5263a8e99f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "published": "2026-11-05T16:24:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n177b1713f1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The year’s most successful stock-market trades are unraveling — perhaps for good",
+   "url": "https://www.marketwatch.com/story/the-years-most-successful-stock-market-trades-are-unraveling-perhaps-for-good-45f7a0dd?mod=mw_rss_topstories",
+   "published": "2026-11-05T16:23:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neefa84fc43",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "A record number of first-time home buyers now pay in cash. Here’s where they get the money.",
+   "url": "https://www.marketwatch.com/story/a-record-10-of-first-time-home-buyers-now-pay-in-cash-heres-where-they-get-the-money-70f2e656?mod=mw_rss_topstories",
+   "published": "2026-11-05T16:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6b1d9cd5a0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "published": "2026-11-05T16:12:46.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n1af6caa9e6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’",
+   "url": "https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories",
+   "published": "2026-11-05T16:12:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne14460c4bd",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "An Anthropic IPO when the AI trade is this turbulent? Good luck!",
+   "url": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
+   "published": "2026-11-05T16:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nffdce0d88e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "France holds new strikes and protests as unions demand immediate answers",
+   "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-05T15:43:15.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ndad53d7e3e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Closing the Identity Gap at the Service Desk",
+   "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "published": "2026-11-05T15:00:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nab510b890d",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+   "url": "https://hackread.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+   "published": "2026-11-05T14:54:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd5ac50a3aa",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Can Iran’s new supreme leader make peace from behind the scenes?",
+   "url": "https://www.aljazeera.com/opinions/2026/11/5/can-irans-new-supreme-leader-make-peace-from-behind-the-scenes?traffic_source=rss",
+   "published": "2026-11-05T14:45:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n59043a8555",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "published": "2026-11-05T14:41:10.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n148199e703",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘Healthcare not bombs’: How Gaza shaped Adam Hamawy’s path to US Congress",
+   "url": "https://www.aljazeera.com/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress?traffic_source=rss",
+   "published": "2026-11-05T14:30:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nff77fc969f",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "UNM Health Shuts Clinics and Diverts Patients During Security Incident",
+   "url": "https://securityaffairs.com/202495/security/unm-health-shuts-clinics-and-diverts-patients-during-security-incident.html",
+   "published": "2026-11-05T13:48:57.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2dacffdc48",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+   "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+   "published": "2026-11-05T13:22:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8384bfde04",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+   "published": "2026-11-05T12:58:32.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n1779cfdf01",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+   "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+   "published": "2026-11-05T12:33:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5d4d032693",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+   "published": "2026-11-05T12:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc93f339edb",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "Dark Web Profile: Nova Ransomware",
+   "url": "https://socradar.io/blog/dark-web-profile-nova-ransomware/",
+   "published": "2026-11-05T11:59:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n7e77be2170",
    "kind": "news",
@@ -2473,17 +2803,6 @@
    "verified": true
   },
   {
-   "id": "ned136be5be",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
-   "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
-   "published": "2026-11-02T23:39:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n8158b1dc74",
    "kind": "news",
    "group": "cyber",
@@ -2491,28 +2810,6 @@
    "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
    "published": "2026-11-02T22:27:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n39da982a4e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-   "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-   "published": "2026-11-02T22:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb107629f6e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-   "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
-   "published": "2026-11-02T21:45:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2535,39 +2832,6 @@
    "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
    "published": "2026-11-02T21:40:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf834851c6f",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
-   "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
-   "published": "2026-11-02T21:35:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7bf05f514f",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
-   "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
-   "published": "2026-11-02T21:29:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd7ca56d631",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Palantir earnings reveal a major AI turning point",
-   "url": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories",
-   "published": "2026-11-02T21:09:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2612,17 +2876,6 @@
    "title": "How to Keep Your Voice Recordings Private on iPhone",
    "url": "https://hackread.com/how-to-keep-voice-recordings-private-iphone/",
    "published": "2026-11-02T19:29:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n23d2f354e0",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How soon gas prices could go down now that oil is tumbling",
-   "url": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories",
-   "published": "2026-11-02T19:27:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2711,226 +2964,6 @@
    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
    "published": "2026-11-02T18:16:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n92309869c8",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.",
-   "url": "https://www.marketwatch.com/story/it-may-take-weeks-to-tally-the-midterm-election-results-heres-why-wall-street-isnt-worried-ed9313fd?mod=mw_rss_topstories",
-   "published": "2026-11-02T18:16:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n538e04937f",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The bond-market rally is defying the typical investing playbook. Here’s why.",
-   "url": "https://www.marketwatch.com/story/the-bond-market-rally-is-defying-the-typical-investing-playbook-heres-why-17a14342?mod=mw_rss_topstories",
-   "published": "2026-11-02T18:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5b9c1f0de1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Shop freezers in seven European countries hit by cyber-attack",
-   "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-02T17:38:11.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6efabe9ae3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-   "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-02T17:33:19.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5f88e4df83",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Drone attacks extend campaign targeting Sudan’s power system",
-   "url": "https://www.aljazeera.com/news/2026/11/2/drone-attacks-extend-campaign-targeting-sudans-power-system?traffic_source=rss",
-   "published": "2026-11-02T17:26:32.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n72622563fe",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Real Madrid matches still banned in China despite Mbappe apology",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/real-madrid-matches-still-banned-in-china-despite-mbappe-apology?traffic_source=rss",
-   "published": "2026-11-02T17:08:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb22118a1e1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
-   "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
-   "published": "2026-11-02T17:05:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n65afadf0cb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-   "published": "2026-11-02T16:57:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nacbef9b6b6",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
-   "url": "https://therecord.media/hackers-ukraine-belarus-russia",
-   "published": "2026-11-02T16:30:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n948be6f589",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "published": "2026-11-02T15:50:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbe1d39eaf1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "published": "2026-11-02T15:03:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5ea1d647d0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "published": "2026-11-02T15:01:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc0b0ac9448",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-   "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
-   "published": "2026-11-02T15:01:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6c5cf422a9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Microsoft's AI Risk Report Misses This Key Detail",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
-   "published": "2026-11-02T15:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n39749d757e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-   "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "published": "2026-11-02T14:46:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n36bb83401e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-   "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-   "published": "2026-11-02T14:44:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9b847cec7f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Apple warns users in 99 countries of mercenary spyware",
-   "url": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
-   "published": "2026-11-02T14:42:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2005155430",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-   "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-02T14:35:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n7bca49cdf4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
-   "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
-   "published": "2026-11-02T14:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncab04cab3c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers disrupt refrigeration systems at European supermarkets",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-   "published": "2026-11-02T14:28:39.000Z",
    "severity": "normal",
    "verified": true
   }
