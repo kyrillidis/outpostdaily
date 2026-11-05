@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:49:09.682Z",
+ "updated": "2026-11-05T02:53:20.164Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,19 @@
    "error": "HTTP 403"
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 5
+   "n": 2
   },
   {
    "name": "X cyber",
@@ -17,29 +27,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -49,10 +39,15 @@
   {
    "name": "BBC World",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
-   "name": "Hackread",
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 1
   },
@@ -60,6 +55,11 @@
    "name": "Dark Reading",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 2
+   "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -87,14 +87,14 @@
    "n": 0
   },
   {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "X redteam",
    "ok": false,
    "error": "HTTP 402"
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X blueteam",
@@ -118,6 +118,83 @@
   }
  ],
  "items": [
+  {
+   "id": "n100c3d8e9d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "El Salvador’s Bukele touts military intervention in Haiti",
+   "url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
+   "published": "2026-11-05T02:10:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n38872a19a0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+   "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
+   "published": "2026-11-05T01:53:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3f5525e9ef",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "McDonald’s tests new value menu as fast-food discount wars heat up",
+   "url": "https://www.marketwatch.com/story/mcdonalds-tests-new-value-menu-as-fast-food-discount-wars-heat-up-bfc57caf?mod=mw_rss_topstories",
+   "published": "2026-11-05T01:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1ec826c329",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
+   "url": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
+   "published": "2026-11-05T00:38:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6f2c84f473",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Khamenei says US hostility will persist after midterms",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+   "published": "2026-11-05T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb062b2819c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘My life could be cut short’: I’m 55, married with $4.3 million and have a brain tumor. Should I buy a $210,000 custom Porsche?",
+   "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
+   "published": "2026-11-04T23:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf8646df3b8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump blames Iran war for midterms losses",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+   "published": "2026-11-04T23:30:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n6939498263",
    "kind": "news",
@@ -2495,17 +2572,6 @@
    "verified": true
   },
   {
-   "id": "n7abc53aeee",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Oracle wants $20 billion to fund its AI future — and its stock is paying the price",
-   "url": "https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories",
-   "published": "2026-11-02T17:31:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n5f88e4df83",
    "kind": "news",
    "group": "crisis",
@@ -2539,17 +2605,6 @@
    "verified": true
   },
   {
-   "id": "n51f41770a3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-   "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-   "published": "2026-11-02T17:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n65afadf0cb",
    "kind": "news",
    "group": "cyber",
@@ -2557,17 +2612,6 @@
    "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
    "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
    "published": "2026-11-02T16:57:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n45b06519e7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "6 dividend stocks for investors who want to cut their exposure to the S&P 500",
-   "url": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
-   "published": "2026-11-02T16:56:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2843,61 +2887,6 @@
    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
    "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
    "published": "2026-11-02T05:51:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf109a84ff0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ukraine blames Russia after air alert app sends out false warnings",
-   "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
-   "published": "2026-11-02T01:40:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3a92a606d9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
-   "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
-   "published": "2026-11-02T00:29:16.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3328d73e2d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-   "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-02T00:15:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7b66f0410a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Bollywood star greets fans in bulletproof glass after bomb threat",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bollywood-star-greets-fans-in-bulletproof-glass-after-bomb-threat?traffic_source=rss",
-   "published": "2026-11-02T00:14:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6ee1498544",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
-   "published": "2026-11-02T00:00:00.000Z",
    "severity": "normal",
    "verified": true
   }
