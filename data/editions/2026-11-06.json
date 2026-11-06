@@ -1,9 +1,189 @@
 {
  "date": "2026-11-06",
  "edition": 235,
- "compiled": "2026-11-06T16:04:50.873Z",
+ "compiled": "2026-11-06T21:41:10.606Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "ba147c5fc5",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "snippet": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+   "published": "2026-11-06T20:24:19.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+    }
+   ],
+   "score": 1.92,
+   "image": "/img/news/ba147c5fc5.webp",
+   "t": "2026-11-06",
+   "summary": "OpenAI says GPT-6 Cyber found 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 Linux kernel flaws.",
+   "why": "Review Firefox and Linux patch status, and assess exposure to vulnerabilities that may have working exploits.",
+   "tags": [
+    "GPT-6 Cyber",
+    "Firefox",
+    "Linux"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c776d35c06",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2",
+   "published": "2026-11-06T12:00:00.000Z",
+   "also": [],
+   "score": 1.7,
+   "t": "2026-11-06",
+   "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
+   "why": "Check the KEV Catalog for the added vulnerability and prioritize affected systems for remediation.",
+   "tags": [
+    "CISA",
+    "KEV",
+    "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ce2362fa27",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System",
+   "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+   "snippet": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .",
+   "published": "2026-11-06T21:15:09.000Z",
+   "also": [],
+   "score": 1.69,
+   "image": "/img/news/ce2362fa27.webp",
+   "t": "2026-11-06",
+   "summary": "Unit 42 examines cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.",
+   "why": "Review defenses for refrigeration systems and check whether mitigation guidance applies to operational technology.",
+   "tags": [
+    "refrigeration",
+    "cyberattacks",
+    "mitigation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ea6b9d64cf",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
+   "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+   "snippet": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies.",
+   "published": "2026-11-06T19:06:00.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/ea6b9d64cf.webp",
+   "t": "2026-11-06",
+   "summary": "A medical services company settled with four states over a 2023 hack involving sensitive patient records, according to The Record.",
+   "why": "Review access controls and incident handling for systems containing sensitive patient records.",
+   "tags": [
+    "medical services",
+    "patient records",
+    "settlement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a97be9095b",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "snippet": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+   "published": "2026-11-06T18:46:52.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/a97be9095b.webp",
+   "t": "2026-11-06",
+   "summary": "Infected security projects on GitHub are targeting cybersecurity professionals with backdoor and information-stealer malware, BleepingComputer reports.",
+   "why": "Verify security project sources and inspect downloaded tools for unexpected behavior before use.",
+   "tags": [
+    "GitHub",
+    "backdoor",
+    "infostealer"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c5532d0fb1",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Certificate authority DigiCert reports data breach involving business customer info",
+   "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+   "snippet": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
+   "published": "2026-11-06T18:56:00.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/c5532d0fb1.webp",
+   "t": "2026-11-06",
+   "summary": "DigiCert said an internal business system was unintentionally externally accessible and someone created an unauthorized account.",
+   "why": "Audit external exposure of internal business systems and review account creation and access logs.",
+   "tags": [
+    "DigiCert",
+    "data breach",
+    "unauthorized account"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c4daeac5c9",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+   "snippet": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+   "published": "2026-11-06T17:04:23.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/c4daeac5c9.webp",
+   "t": "2026-11-06",
+   "summary": "QNAP says hackers are exploiting the Plex2Shell vulnerability chain to breach NAS devices and urges users to update Plex Media Server.",
+   "why": "Update Plex Media Server on QNAP devices and check for signs of unauthorized access.",
+   "tags": [
+    "QNAP",
+    "Plex2Shell",
+    "NAS"
+   ],
+   "ai": true
+  },
+  {
+   "id": "88525575b6",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+   "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+   "snippet": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debts.",
+   "published": "2026-11-06T16:53:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/88525575b6.webp",
+   "t": "2026-11-06",
+   "summary": "The Record reports that an FBI agent admitted stealing cryptocurrency from nation-state hackers using his position on an investigative squad.",
+   "why": "Review controls over investigative access and handling of cryptocurrency evidence.",
+   "tags": [
+    "FBI",
+    "cryptocurrency",
+    "access"
+   ],
+   "ai": true
+  },
   {
    "id": "af6d1b8b9d",
    "section": "cyber",
@@ -14,7 +194,7 @@
    "snippet": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
    "published": "2026-11-06T15:25:31.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.47,
    "image": "/img/news/af6d1b8b9d.webp",
    "t": "2026-11-06",
    "summary": "Veeam warned of boot failures affecting Software Appliance virtual machines on hosts with AMD EPYC processors.",
@@ -35,7 +215,7 @@
    "snippet": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
    "published": "2026-11-06T15:00:10.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.46,
    "image": "/img/news/3647bbef00.webp",
    "t": "2026-11-06",
    "summary": "The item explains that IMSI and IMEI are identifiers phones share with networks, and says rotating an IMSI can blunt tracking.",
@@ -48,179 +228,156 @@
    "ai": true
   },
   {
-   "id": "e34ca10a5a",
-   "section": "cyber",
-   "source": "The Record",
+   "id": "422ee69d52",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
-   "url": "https://therecord.media/ceo-spoofing-scammers-charged",
-   "snippet": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
-   "published": "2026-11-06T14:30:00.000Z",
+   "title": "Operational F-15EXs Have Started Flying With Conformal Fuel Tanks",
+   "url": "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks",
+   "snippet": "The USAF did not originally plan for the air-to-air combat-focused F-15EX to carry CFTs, but its mission demands are evolving. The post Operational F-15EXs Have Started Flying With Conformal Fuel Tanks appeared first on TWZ .",
+   "published": "2026-11-06T21:25:42.000Z",
    "also": [],
-   "score": 1.57,
-   "image": "/img/news/e34ca10a5a.webp",
+   "score": 1.59,
+   "image": "/img/news/422ee69d52.webp",
    "t": "2026-11-06",
-   "summary": "The U.S. is working to extradite three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
-   "why": "Verify executive payment requests through a separate, trusted channel.",
+   "summary": "Operational F-15EX aircraft have begun flying with conformal fuel tanks; the aircraft’s mission demands are evolving, The War Zone reports.",
+   "why": "The tanks reflect an operational change to an aircraft originally focused on air-to-air combat.",
    "tags": [
-    "CEO impersonation",
-    "fraud"
+    "F-15EX",
+    "conformal fuel tanks",
+    "air-to-air combat"
    ],
    "ai": true
   },
   {
-   "id": "f8e9629a67",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "a6ab6c668c",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "Chainalysis says breach exposed credentials for all customers",
-   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-   "snippet": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-   "published": "2026-11-06T14:17:07.000Z",
+   "title": "USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East",
+   "url": "https://www.twz.com/sea/uss-theodore-roosevelt-arrives-in-singapore-last-stop-before-third-strike-group-reaches-the-middle-east",
+   "snippet": "Where the aircraft carriers are as of November 6, 2026. The post USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East appeared first on TWZ .",
+   "published": "2026-11-06T21:17:39.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/f8e9629a67.webp",
+   "score": 1.59,
+   "image": "/img/news/a6ab6c668c.webp",
    "t": "2026-11-06",
-   "summary": "Chainalysis says an attack on its systems and internal tools exposed credentials and live tokens for all customers.",
-   "why": "Rotate affected credentials and tokens, and review systems for suspicious access.",
+   "summary": "The USS Theodore Roosevelt has arrived in Singapore, described as the last stop before a third strike group reaches the Middle East.",
+   "why": "The arrival provides a location update relevant to tracking carrier movements and regional deployments.",
    "tags": [
-    "credentials",
-    "tokens",
-    "breach"
+    "USS Theodore Roosevelt",
+    "Singapore",
+    "strike group"
    ],
    "ai": true
   },
   {
-   "id": "d0b8b49f25",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "e279f605c9",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-   "snippet": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-   "published": "2026-11-06T12:37:22.000Z",
+   "title": "DoD taps Viasat to field operations ‘center’ for Golden Dome satellite data relay network",
+   "url": "https://breakingdefense.com/2026/11/dod-taps-viasat-to-field-operations-center-for-golden-dome-satellite-data-relay-network/",
+   "snippet": "The ID/IQ contract to “design, field and scale” the Mission Operation Center for the Space Data Network Backbone is worth a maximum of $450 million.",
+   "published": "2026-11-06T18:41:12.000Z",
    "also": [],
-   "score": 1.53,
-   "image": "/img/news/d0b8b49f25.webp",
+   "score": 1.54,
+   "image": "/img/news/e279f605c9.webp",
    "t": "2026-11-06",
-   "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 Series managed switches.",
-   "why": "Apply D-Link’s mitigations and check whether DGS-3130 switches are exposed to the flaws.",
+   "summary": "The DoD tapped Viasat to design, field and scale a Mission Operation Center for the Space Data Network Backbone, under a contract worth up to $450 million.",
+   "why": "The center is intended to support operations for a satellite data relay network.",
    "tags": [
-    "D-Link",
-    "switches",
-    "mitigation"
+    "Viasat",
+    "satellite data relay",
+    "Mission Operation Center"
    ],
    "ai": true
   },
   {
-   "id": "3819f67073",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-   "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-   "snippet": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek .",
-   "published": "2026-11-06T14:40:09.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/3819f67073.webp",
-   "t": "2026-11-06",
-   "summary": "SecurityWeek highlights stories including Synology warnings about NAS ransomware, Flowise ‘hello’ attacks, and the expanding impact of the Chainalysis breach.",
-   "why": "Review NAS exposure and the Chainalysis breach impact described in the linked stories.",
-   "tags": [
-    "NAS",
-    "ransomware",
-    "Chainalysis"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3a8f9a3bb5",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "228ee712c3",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-   "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-   "snippet": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-   "published": "2026-11-06T09:22:28.000Z",
+   "title": "Europe’s airpower future is taking shape, but not as originally planned",
+   "url": "https://breakingdefense.com/2026/11/europes-airpower-future-is-taking-shape-but-not-as-originally-planned/",
+   "snippet": "Germany’s next move, the fate of GCAP, and the rise of CCAs reshape Europe’s combat aircraft strategy.",
+   "published": "2026-11-06T17:51:07.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/3a8f9a3bb5.webp",
+   "score": 1.52,
+   "image": "/img/news/228ee712c3.webp",
    "t": "2026-11-06",
-   "summary": "MetaMask said a recent security incident did not affect its wallets or wallet infrastructure.",
-   "why": "Distinguish the provider’s stated impact from any separate user or service risks.",
+   "summary": "Germany’s next move, the fate of GCAP and the rise of CCAs are reshaping Europe’s combat aircraft strategy, Breaking Defense reports.",
+   "why": "These developments are relevant to how Europe’s future combat aircraft strategy is taking shape.",
    "tags": [
-    "MetaMask",
-    "wallets"
+    "Europe",
+    "combat aircraft",
+    "CCAs"
    ],
    "ai": true
   },
   {
-   "id": "6b1d9cd5a0",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "8928f02b87",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "DigiCert data breach exposes customer information, identity documents",
-   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-   "snippet": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-   "published": "2026-11-05T16:12:46.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
-    }
-   ],
-   "score": 1.45,
-   "image": "/img/news/6b1d9cd5a0.webp",
-   "t": "2026-11-05",
-   "summary": "DigiCert says a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents.",
-   "why": "Review systems exposed during migrations and verify access controls on internal business systems.",
+   "title": "Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles",
+   "url": "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile",
+   "snippet": "New footage highlights Russia’s push to field lower-cost standoff weapons from unconventional platforms. The post Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles appeared first on TWZ .",
+   "published": "2026-11-06T17:30:11.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/8928f02b87.webp",
+   "t": "2026-11-06",
+   "summary": "New footage shows Russian Mi-28 attack helicopters firing cruise missiles, highlighting a push to field lower-cost standoff weapons from unconventional platforms.",
+   "why": "The use of helicopters as missile platforms illustrates an operational approach to launching standoff weapons.",
    "tags": [
-    "data breach",
-    "server migration"
+    "Mi-28",
+    "cruise missiles",
+    "standoff weapons"
    ],
    "ai": true
   },
   {
-   "id": "3ae40aec28",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-   "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-   "snippet": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek .",
-   "published": "2026-11-06T13:19:52.000Z",
+   "id": "51f486bcc1",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Talks, Attacks, and a Heist",
+   "url": "https://warontherocks.com/talks-attacks-and-a-heist/",
+   "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranNow that the U.S. midterms are over, the looming question is how and when one side or the other will seek to break through the c",
+   "published": "2026-11-06T16:45:14.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/3ae40aec28.webp",
+   "score": 1.5,
+   "image": "/img/news/51f486bcc1.webp",
    "t": "2026-11-06",
-   "summary": "SecurityWeek reports that OpenAI says its new GPT-6 Cyber model performs better at exploitation than GPT-5.6 Cyber while staying in scope more reliably.",
-   "why": "Assess model testing for both flaw-finding capability and adherence to scope.",
+   "summary": "War on the Rocks introduces an every-other-week analysis of challenges involving China, Russia, Iran, North Korea and jihadists.",
+   "why": "The item outlines a broad range of actors for analysts following security challenges.",
    "tags": [
-    "GPT-6 Cyber",
-    "exploitation"
+    "China",
+    "Russia",
+    "Iran"
    ],
    "ai": true
   },
   {
-   "id": "3450626e31",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-   "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
-   "snippet": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe. The post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek .",
-   "published": "2026-11-06T13:02:26.000Z",
+   "id": "aa4dbf1ced",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Cut to US aid would impact Israeli acquisition timelines, spending: Analysts",
+   "url": "https://breakingdefense.com/2026/11/cut-to-us-aid-would-impact-israeli-acquisition-timelines-spending-analysts/",
+   "snippet": "Israel is actively seeking more Apache helicopters, F-15 and F-35 fighter jets and munitions.",
+   "published": "2026-11-06T16:55:00.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/3450626e31.webp",
+   "score": 1.5,
+   "image": "/img/news/aa4dbf1ced.webp",
    "t": "2026-11-06",
-   "summary": "U.S. agencies urge organizations to harden refrigeration controllers amid attacks targeting supermarket and blood-bank fridges and freezers in Europe.",
-   "why": "Review refrigeration controller security, especially in supermarkets and blood banks.",
+   "summary": "Israel is actively seeking more Apache helicopters, F-15 and F-35 fighter jets, and munitions, according to the snippet.",
+   "why": "The requested aircraft and munitions are relevant to Israeli acquisition planning.",
    "tags": [
-    "controllers",
-    "refrigeration",
-    "hardening"
+    "Israel",
+    "Apache",
+    "F-35"
    ],
    "ai": true
   },
@@ -234,7 +391,7 @@
    "snippet": "To translate between the SpaceX-built SDN Backbone and other Pentagon communications and missile tracking satellites, sources said the Space Force is eyeing 12 or 13 Space Exchange Point birds.",
    "published": "2026-11-06T14:15:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.45,
    "image": "/img/news/d3e9fc7e02.webp",
    "t": "2026-11-06",
    "summary": "Sources say the Space Force is considering 12 or 13 Space Exchange Point satellites to translate between the SpaceX-built SDN Backbone and other Pentagon communications and missile-tracking satellites.",
@@ -247,172 +404,106 @@
    "ai": true
   },
   {
-   "id": "dadc98429d",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Europe nears decision on competing hypersonic interceptor programs",
-   "url": "https://breakingdefense.com/2026/11/europe-nears-decision-on-competing-hypersonic-interceptor-programs/",
-   "snippet": "The European Commission is expected to select one of two competing consortia by the end of November to advance development of a European interceptor targeting hypersonic and ballistic missile threats, with a system-level demonstrator targeted for 2030.",
-   "published": "2026-11-06T11:10:00.000Z",
+   "id": "77e7493e15",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Infleqtion Runs Optical Atomic Clock at Sea for Two Weeks During AUKUS Navy Exercise",
+   "url": "https://insidegnss.com/infleqtion-runs-optical-atomic-clock-at-sea-for-two-weeks-during-aukus-navy-exercise/",
+   "snippet": "Infleqtion operated its Tiqker optical atomic clock aboard the U.S. Navy support vessel RV Merlin during the Maritime Big Play Pacific (MBP-P) military... The post Infleqtion Runs Optical Atomic Clock at Sea for Two Weeks During AUKUS Navy Exercise appeared first on Inside GNSS - Global Navigation Satellite Systems Eng",
+   "published": "2026-11-06T21:20:27.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/dadc98429d.webp",
+   "score": 1.69,
    "t": "2026-11-06",
-   "summary": "The European Commission is expected to choose between two consortia developing an interceptor for hypersonic and ballistic missile threats.",
-   "why": "The selection would advance development of a European missile-interceptor program.",
+   "summary": "Infleqtion operated its Tiqker optical atomic clock aboard the U.S. Navy support vessel RV Merlin during a military exercise.",
+   "why": "An optical atomic clock operated at sea during a naval exercise, making the trial relevant to maritime timing technology.",
    "tags": [
-    "interceptor",
-    "hypersonic",
-    "ballistic"
+    "optical atomic clock",
+    "RV Merlin",
+    "AUKUS"
    ],
    "ai": true
   },
   {
-   "id": "329c416160",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "US Air Force eyes reviving WWII air bases in the Pacific",
-   "url": "https://www.defensenews.com/global/asia-pacific/2026/11/06/us-air-force-eyes-reviving-wwii-air-bases-in-the-pacific/",
-   "snippet": "The U.S. Air Force hopes to conduct more than 6,000 aircraft operations annually at airfields on three American islands in the northwest Pacific Ocean.",
-   "published": "2026-11-06T15:28:23.000Z",
+   "id": "07019f2adb",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).",
+   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really/",
+   "snippet": "Any deal to end the war in Ukraine must fix a date for Kyiv to join the EU, but countless hurdles stand in the way. Washington has the leverage to help Brussels clear them—if it can use that leverage in a new way. The post To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really). appeared fi",
+   "published": "2026-11-06T21:20:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/07019f2adb.webp",
+   "t": "2026-11-06",
+   "summary": "The article argues that a Ukraine peace deal must set a date for Kyiv to join the EU, while noting hurdles and possible Washington leverage.",
+   "why": "The proposed EU accession date and role for Washington are strategic questions in any deal to end the war.",
+   "tags": [
+    "Ukraine",
+    "EU",
+    "Washington"
+   ],
+   "ai": true
+  },
+  {
+   "id": "56cd5abc67",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "What in the World?",
+   "url": "https://foreignpolicy.com/2026/11/06/news-quiz-russia-ukraine-us-midterm-elections-trump-democrats/",
+   "snippet": "Test yourself on the week of Oct. 31: Russia and Ukraine hack each other, Americans vote in midterm elections, and Indonesia deploys troops to its capital.",
+   "published": "2026-11-06T18:20:41.000Z",
+   "also": [],
+   "score": 1.53,
+   "t": "2026-11-06",
+   "summary": "Foreign Policy’s quiz covers Russia and Ukraine hacking each other, U.S. midterm elections and Indonesia deploying troops to its capital.",
+   "why": "The item links cyber activity and political or security developments across several regions.",
+   "tags": [
+    "Russia",
+    "Ukraine",
+    "Indonesia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c1b8b4ddc5",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "How a World War I Crackdown Predicted ICE",
+   "url": "https://foreignpolicy.com/2026/11/06/backderf-dissidents-review-cartoonists-censorship-press-freedom-ice/",
+   "snippet": "A new graphic novel makes the case that we’ve been here before.",
+   "published": "2026-11-06T16:30:26.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/329c416160.webp",
+   "image": "/img/news/c1b8b4ddc5.webp",
    "t": "2026-11-06",
-   "summary": "The U.S. Air Force hopes to conduct more than 6,000 aircraft operations annually at airfields on three American islands in the northwest Pacific.",
-   "why": "The plans point to the operational role of Pacific airfields.",
+   "summary": "A new graphic novel makes the case that a World War I crackdown predicted ICE, according to Foreign Policy.",
+   "why": "The piece draws a historical comparison about crackdowns and immigration enforcement.",
    "tags": [
-    "airfields",
-    "Pacific"
+    "World War I",
+    "crackdown",
+    "ICE"
    ],
    "ai": true
   },
   {
-   "id": "e6faf023c1",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Denmark, Lithuania latest Baltic navies to buy ‘Blocker’ mines through Finnish scheme",
-   "url": "https://www.defensenews.com/global/europe/2026/11/06/denmark-lithuania-latest-baltic-navies-to-buy-blocker-mines-through-finnish-scheme/",
-   "snippet": "Denmark is the latest country to buy Finland’s “Blocker” naval mines, a day after Lithuania decided to go ahead with its own contract for the weapon.",
-   "published": "2026-11-06T13:49:41.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/e6faf023c1.webp",
-   "t": "2026-11-06",
-   "summary": "Denmark is buying Finland’s “Blocker” naval mines, following Lithuania’s decision to proceed with its own contract.",
-   "why": "The purchases show two Baltic navies acquiring the same naval mine.",
-   "tags": [
-    "Blocker",
-    "naval mines",
-    "Baltic"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c9d2560184",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Babcock and Everllence sign MOU to power the next generation of Arrowhead Frigates",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-everllence-sign-mou-to-power-the-next-generation-of-arrowhead-frigates/",
-   "snippet": "Babcock has signed a Memorandum of Understanding (MoU) with Everllence, a leading Danish provider of propulsion, decarbonisation and efficiency solutions for shipping, to explore a strategic partnership that will strengthen the delivery and future development of the globally successful Arrowhead frigate platform. Babco",
-   "published": "2026-11-06T13:27:28.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/c9d2560184.webp",
-   "t": "2026-11-06",
-   "summary": "Babcock and Everllence signed an MoU to explore a partnership on the delivery and future development of Arrowhead Frigates.",
-   "why": "The proposed partnership concerns frigate development and ship propulsion solutions.",
-   "tags": [
-    "Arrowhead Frigates",
-    "propulsion"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5038cb3d30",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Can Washington and China Build Confidence Around AI and Stability?",
-   "url": "https://warontherocks.com/can-washington-and-china-build-confidence-around-ai-and-stability/",
-   "snippet": "In the lead-up to General Secretary Xi Jinping’s September 2026 visit to the White House to discuss, among other topics, AI, U.S. Treasury Secretary Scott Bessent met with Chinese Vice Premier He Lifeng at JPMorgan Chase’s New York City offices. At the meeting, U.S. officials proposed establishing a dialogue between th",
-   "published": "2026-11-06T08:30:05.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/5038cb3d30.webp",
-   "t": "2026-11-06",
-   "summary": "The article discusses U.S.-China discussions involving AI and stability, including a meeting between U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng.",
-   "why": "The discussions connect bilateral relations with AI and stability.",
-   "tags": [
-    "AI",
-    "stability",
-    "U.S.-China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a4e4b92e7c",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "How a French frigate’s radical bow design makes for smooth sailing",
-   "url": "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing/",
-   "snippet": "The inverted bow on the new FDI frigates makes for better seakeeping, said the former French Navy captain who commanded the lead ship of the class during sea trials.",
-   "published": "2026-11-06T10:33:39.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/a4e4b92e7c.webp",
-   "t": "2026-11-06",
-   "summary": "A former French Navy captain said the inverted bow on new FDI frigates makes for better seakeeping.",
-   "why": "The design is presented as relevant to frigate performance at sea.",
-   "tags": [
-    "inverted bow",
-    "frigates",
-    "seakeeping"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2e3c85e104",
-   "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "Guidance: UK support to Ukraine: factsheet",
-   "url": "https://www.gov.uk/government/publications/uk-support-to-ukraine-factsheet",
-   "snippet": "This factsheet summarises how the UK is supporting Ukraine following the Russian invasion.",
-   "published": "2026-11-06T10:42:36.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/2e3c85e104.webp",
-   "t": "2026-11-06",
-   "summary": "A UK Ministry of Defence factsheet summarises UK support to Ukraine following the Russian invasion.",
-   "why": "The factsheet provides an overview of the UK’s stated support to Ukraine.",
-   "tags": [
-    "UK",
-    "Ukraine",
-    "support"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6accedeb0a",
+   "id": "5cd041cbf5",
    "section": "geo",
    "source": "Foreign Policy",
    "weight": 0.6,
    "title": "The International Power Broker Trying to Normalize Hamas",
-   "url": "https://foreignpolicy.com/2026/11/06/mohammed-dahlan-gaza-hamas-palestine/",
+   "url": "https://foreignpolicy.com/2026/11/06/mohammed-dahlan-gaza-hamas-palestine-elections-israel-negotiations/",
    "snippet": "Mohammed Dahlan is aiming to unite Palestine by reaching out to Gaza’s ostracized leaders.",
    "published": "2026-11-06T14:59:23.000Z",
    "also": [],
-   "score": 1.58,
-   "image": "/img/news/6accedeb0a.webp",
+   "score": 1.46,
+   "image": "/img/news/5cd041cbf5.webp",
    "t": "2026-11-06",
-   "summary": "Mohammed Dahlan is aiming to unite Palestine by reaching out to Gaza’s ostracized leaders.",
-   "why": "The outreach may matter to efforts to shape Palestinian political ties and leadership.",
+   "summary": "Mohammed Dahlan is seeking to unite Palestine by reaching out to Gaza’s ostracized leaders, Foreign Policy reports.",
+   "why": "The outreach is relevant to Palestinian political alignment and efforts to unite Palestine.",
    "tags": [
     "Palestine",
     "Gaza",
@@ -430,7 +521,7 @@
    "snippet": "The car company's CEO Elon Musk has said production will halt in Texas, to focus on the firm's self-driving Cybercabs.",
    "published": "2026-11-06T15:02:03.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.46,
    "image": "/img/news/4e42572c6a.webp",
    "t": "2026-11-06",
    "summary": "Elon Musk said Tesla production will halt in Texas to focus on the company’s self-driving Cybercabs.",
@@ -439,6 +530,28 @@
     "Tesla",
     "Cybertruck",
     "Cybercabs"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b8135914bd",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel closes Hebron’s Ibrahimi Mosque to Palestinians for Jewish holiday",
+   "url": "https://www.aljazeera.com/news/2026/11/6/israel-closes-hebrons-ibrahimi-mosque-to-palestinians-for-jewish-holiday?traffic_source=rss",
+   "snippet": "Contested West Bank holy site is reopened exclusively for Israelis, deepening tensions over control of the mosque.",
+   "published": "2026-11-06T19:16:07.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/b8135914bd.webp",
+   "t": "2026-11-06",
+   "summary": "Israel closed Hebron’s Ibrahimi Mosque to Palestinians for a Jewish holiday and reopened it exclusively for Israelis, deepening tensions over control of the site.",
+   "why": "The closure highlights contested access and control at a West Bank holy site.",
+   "tags": [
+    "Hebron",
+    "Ibrahimi Mosque",
+    "West Bank"
    ],
    "ai": true
   },
@@ -452,7 +565,7 @@
    "snippet": "Many of Russia's foreign recruits were coerced into service due to vulnerable legal or financial statuses. What should become of them? The post Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine appeared first on Atlantic Council .",
    "published": "2026-11-06T13:52:40.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.44,
    "image": "/img/news/efad024310.webp",
    "t": "2026-11-06",
    "summary": "The article says many of Russia’s foreign recruits were coerced into service because of vulnerable legal or financial statuses.",
@@ -463,119 +576,21 @@
     "Ukraine"
    ],
    "ai": true
-  },
-  {
-   "id": "0469aef7b7",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Musk says Tesla to wind down polarising Cybertruck production as sales lag",
-   "url": "https://www.aljazeera.com/news/2026/11/6/musk-says-tesla-to-wind-down-polarising-cybertruck-production-as-sales-lag?traffic_source=rss",
-   "snippet": "Released in 2023, the truck has become a symbol to some of opposition to Musk amid foray into US politics.",
-   "published": "2026-11-06T15:35:57.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/0469aef7b7.webp",
-   "t": "2026-11-06",
-   "summary": "The article says the Cybertruck, released in 2023, has become a symbol to some of opposition to Musk amid his foray into U.S. politics.",
-   "why": "The story links a vehicle’s public image with its CEO’s political profile.",
-   "tags": [
-    "Cybertruck",
-    "Musk",
-    "U.S. politics"
-   ],
-   "ai": true
-  },
-  {
-   "id": "79e35de4eb",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Claims of a Ukrainian ‘torture chamber’ went viral. What really happened?",
-   "url": "https://www.aljazeera.com/news/2026/11/6/claims-of-a-ukrainian-torture-chamber-went-viral-what-really-happened?traffic_source=rss",
-   "snippet": "A woman who claimed that men were being violently assaulted in a house for evading the draft has been arrested.",
-   "published": "2026-11-06T15:14:35.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/79e35de4eb.webp",
-   "t": "2026-11-06",
-   "summary": "A woman who claimed men were violently assaulted in a house for evading the draft has been arrested.",
-   "why": "The case illustrates how claims about draft evasion and violence can become a public information issue.",
-   "tags": [
-    "Ukraine",
-    "draft",
-    "claims"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1a940aed27",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-   "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-   "published": "2026-11-06T09:57:04.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/1a940aed27.webp",
-   "t": "2026-11-06",
-   "summary": "Musk said Tesla would end Cybertruck production to make room for self-driving Cybercabs.",
-   "why": "The reported production shift concerns a move from the Cybertruck to autonomous taxis.",
-   "tags": [
-    "Tesla",
-    "Cybertruck",
-    "Cybercabs"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a03fc59207",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What a Trump-Xi-Putin summit could mean – and what it wouldn’t",
-   "url": "https://www.aljazeera.com/news/2026/11/6/what-a-trump-xi-putin-summit-would-mean-and-what-it-wouldnt?traffic_source=rss",
-   "snippet": "A Trump-Xi-Putin meeting at APEC would be a coup for Moscow, analysts say, but Beijing appears lukewarm.",
-   "published": "2026-11-06T13:49:07.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/a03fc59207.webp",
-   "t": "2026-11-06",
-   "summary": "Analysts say a Trump-Xi-Putin meeting at APEC would be a coup for Moscow, while Beijing appears lukewarm.",
-   "why": "The differing assessments suggest the meeting’s significance may vary among the countries involved.",
-   "tags": [
-    "APEC",
-    "Moscow",
-    "Beijing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c2f70f66f9",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Ukraine raises Zaporizhia aid strike death toll to at least 50",
-   "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss",
-   "snippet": "Ukrainian officials say DNA tests are being used to identify bodies while up to 39 remain trapped under rubble.",
-   "published": "2026-11-06T13:30:18.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/c2f70f66f9.webp",
-   "t": "2026-11-06",
-   "summary": "Ukrainian officials raised the death toll from a strike in Zaporizhia to at least 50 and said DNA tests are being used to identify bodies; up to 39 remain trapped under rubble.",
-   "why": "The reported casualties and trapped people underscore the human impact of the strike.",
-   "tags": [
-    "Zaporizhia",
-    "strike",
-    "DNA tests"
-   ],
-   "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "added": "2026-11-06",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
+  },
   {
    "cve": "CVE-2024-27834",
    "vendor": "Apple",
@@ -707,62 +722,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 9.2,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
-  },
-  {
-   "cve": "CVE-2026-109619",
-   "vendor": "PHP Group",
-   "product": "PHP",
-   "name": "PHP Stale Internal Request-State Vulnerability",
-   "added": "2026-10-26",
-   "due": "2026-10-29",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.2,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
   }
  ],
  "run_today": [
-  "Check Veeam Software Appliance VMs on AMD EPYC hosts for boot failures.",
-  "Rotate exposed Chainalysis credentials and live tokens, and review for suspicious access.",
-  "Apply D-Link’s mitigations to DGS-3130 switches and check for exposure to unpatched flaws."
+  "Check Firefox and Linux patch status and assess exposure to the flaws described as having working exploits.",
+  "Review CISA’s KEV Catalog for the newly added vulnerability and prioritize affected systems.",
+  "Verify GitHub security project sources and inspect tools for backdoor or information-stealer behavior."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "IMSI",
-   "explainer": "An IMSI is an identifier a phone shares with networks. The item says rotating it can blunt tracking.",
-   "from_id": "3647bbef00",
-   "from": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
+   "explainer": "A CISA catalog of vulnerabilities with evidence of active exploitation. Defenders can use it to identify vulnerabilities that may need prioritized attention.",
+   "from_id": "c776d35c06",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "SDN Backbone",
-   "explainer": "The SDN Backbone is a SpaceX-built satellite communications network. The item says Space Exchange Point satellites may translate between it and other Pentagon satellites.",
-   "from_id": "d3e9fc7e02",
-   "from": "https://breakingdefense.com/2026/11/key-space-force-satellites-cant-talk-to-each-other-likely-requiring-1b-solution-sources/",
-   "fromSource": "Breaking Defense"
+   "term": "Conformal fuel tanks",
+   "explainer": "Fuel tanks fitted to the shape of an aircraft. The F-15EX story describes operational aircraft flying with these tanks as mission demands evolve.",
+   "from_id": "422ee69d52",
+   "from": "https://www.twz.com/air/operational-f-15exs-have-started-flying-with-conformal-fuel-tanks",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Palestine",
-   "explainer": "Palestine is the political community Dahlan is aiming to unite, according to the item, through outreach to Gaza’s ostracized leaders.",
-   "from_id": "6accedeb0a",
-   "from": "https://foreignpolicy.com/2026/11/06/mohammed-dahlan-gaza-hamas-palestine/",
-   "fromSource": "Foreign Policy"
+   "term": "Optical atomic clock",
+   "explainer": "A clock that uses optical technology to keep time. The story describes one operated aboard a Navy support vessel during an exercise.",
+   "from_id": "77e7493e15",
+   "from": "https://insidegnss.com/infleqtion-runs-optical-atomic-clock-at-sea-for-two-weeks-during-aukus-navy-exercise/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Connections, exposure and choices across today’s stories",
+  "headline": "Cyber exposure and operational systems in focus",
   "paragraphs": [
-   "Several stories concern systems whose value depends on reliable connections: Veeam reports boot failures on AMD EPYC hosts, while the Space Force may need Space Exchange Point satellites to translate between satellite networks. These are different domains, but both suggest that compatibility and availability deserve attention alongside the capabilities of individual components.",
-   "The cyber reports also show distinct forms of exposure. Chainalysis says credentials and live tokens were exposed, while the phone identifiers story describes information shared with networks and notes that rotating an IMSI can blunt tracking. For defenders and analysts, these stories make it useful to distinguish compromised access from routine data disclosure, then check which controls address each.",
-   "Other top stories describe political and commercial shifts: Dahlan is reaching out to Gaza’s ostracized leaders, and Musk says Tesla will halt Cybertruck production in Texas to focus on Cybercabs. The CEO-impersonation case adds a separate fraud concern. Watch for what organizations say about affected systems, and keep reported claims distinct from confirmed details."
+   "The cyber stories pair an AI model reportedly finding vulnerabilities and developing exploits with CISA’s addition of a vulnerability based on active exploitation evidence. Together, they underline the value of tracking both emerging weaknesses and vulnerabilities already known to be exploited.",
+   "The refrigeration attacks and the GitHub tool campaign point to different environments that defenders should account for: operational systems and software used by security professionals. The available snippets do not describe shared tactics, but both make mitigation, trusted sources and exposure checks relevant.",
+   "Beyond cyber, the items describe an optical atomic clock at sea and evolving aircraft roles and deployments. These stories show how technology and operational posture remain important context for analysts. Watch for further detail on defenses, deployment and the scope of the reported activity; the snippets leave these questions open."
   ],
   "takeaways": [
-   "Check system compatibility and availability, not just component capabilities.",
-   "Treat exposed credentials and network-shared identifiers as different risks.",
-   "Separate attributed claims from confirmed details when assessing developments."
+   "Track vulnerabilities and exploitation evidence as distinct but complementary signals.",
+   "Check operational systems and security tools for exposure and trust.",
+   "Treat technology trials and deployments as context, not proof of broader change."
   ]
  },
  "health": [
@@ -770,25 +773,25 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 14
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 16
+   "n": 15
   },
   {
    "name": "The Record",
@@ -812,13 +815,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Google Threat Intelligence",
@@ -842,37 +845,37 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 8
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Bellingcat",
@@ -902,19 +905,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "SpaceNews",
@@ -932,7 +935,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 11
   },
   {
    "name": "SatNews",
@@ -944,19 +947,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 9
   }
  ]
 }
