@@ -1,9 +1,31 @@
 {
  "date": "2026-11-07",
  "edition": 236,
- "compiled": "2026-11-07T14:32:50.377Z",
+ "compiled": "2026-11-07T19:13:10.521Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "ded94754be",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "snippet": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+   "published": "2026-11-07T15:25:35.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/ded94754be.webp",
+   "t": "2026-11-07",
+   "summary": "BleepingComputer reports a cyberattack targeting French cooperative bank Crédit Mutuel Arkéa enabled fraudulent transactions of up to $133 million, prompting the bank to suspend certain systems.",
+   "why": "Review service-provider access, transaction monitoring and plans for suspending affected systems.",
+   "tags": [
+    "service provider",
+    "cyberattack",
+    "bank"
+   ],
+   "ai": true
+  },
   {
    "id": "5a765cf499",
    "section": "cyber",
@@ -14,7 +36,7 @@
    "snippet": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rew",
    "published": "2026-11-07T14:10:19.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.49,
    "image": "/img/news/5a765cf499.webp",
    "t": "2026-11-07",
    "summary": "CTM360 says scammers impersonate major brands and celebrities in fake gift card giveaways that collect personal information and trigger unwanted subscriptions.",
@@ -41,7 +63,7 @@
      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
     }
    ],
-   "score": 1.57,
+   "score": 1.47,
    "image": "/img/news/ba147c5fc5.webp",
    "t": "2026-11-06",
    "summary": "OpenAI says GPT-6 Cyber found 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 Linux kernel flaws.",
@@ -63,7 +85,7 @@
    "snippet": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
    "published": "2026-11-07T10:16:23.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.31,
    "image": "/img/news/986edfc864.webp",
    "t": "2026-11-07",
    "summary": "SecurityWeek reports that CVE-2026-19868 can let attackers with credentials for another login method bypass SonicOS SAML checks, including SAML-enforced MFA.",
@@ -72,27 +94,6 @@
     "SonicOS",
     "SAML",
     "MFA"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c776d35c06",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-   "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2",
-   "published": "2026-11-06T12:00:00.000Z",
-   "also": [],
-   "score": 1.35,
-   "t": "2026-11-06",
-   "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
-   "why": "Check the KEV Catalog for the added vulnerability and prioritize affected systems for remediation.",
-   "tags": [
-    "CISA",
-    "KEV",
-    "exploitation"
    ],
    "ai": true
   },
@@ -106,7 +107,7 @@
    "snippet": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .",
    "published": "2026-11-07T02:44:34.000Z",
    "also": [],
-   "score": 1.35,
+   "score": 1.26,
    "image": "/img/news/e115b44724.webp",
    "t": "2026-11-07",
    "summary": "Microsoft Security says Storm-3358 began targeting financial-sector organizations with the agentic AI offensive framework ARTEX.",
@@ -115,6 +116,27 @@
     "ARTEX",
     "financial sector",
     "Storm-3358"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c776d35c06",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2",
+   "published": "2026-11-06T12:00:00.000Z",
+   "also": [],
+   "score": 1.25,
+   "t": "2026-11-06",
+   "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
+   "why": "Check the KEV Catalog for the added vulnerability and prioritize affected systems for remediation.",
+   "tags": [
+    "CISA",
+    "KEV",
+    "exploitation"
    ],
    "ai": true
   },
@@ -128,7 +150,7 @@
    "snippet": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .",
    "published": "2026-11-06T21:15:09.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.24,
    "image": "/img/news/ce2362fa27.webp",
    "t": "2026-11-06",
    "summary": "Unit 42 examines cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.",
@@ -150,7 +172,7 @@
    "snippet": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings ",
    "published": "2026-11-07T06:44:17.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.24,
    "image": "/img/news/804a43c336.webp",
    "t": "2026-11-07",
    "summary": "The Hacker News reports that passwords and API keys entered into approved Claude Code commands are exposed in public GitHub repositories.",
@@ -172,7 +194,7 @@
    "snippet": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
    "published": "2026-11-07T00:00:55.000Z",
    "also": [],
-   "score": 1.3,
+   "score": 1.2,
    "image": "/img/news/ca1a9396bb.webp",
    "t": "2026-11-07",
    "summary": "SonicWall says updates fix seven SonicOS vulnerabilities, including an SSL-VPN authentication bypass flaw exploited in attacks.",
@@ -194,7 +216,7 @@
    "snippet": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
    "published": "2026-11-06T22:27:25.000Z",
    "also": [],
-   "score": 1.26,
+   "score": 1.17,
    "image": "/img/news/b99b441690.webp",
    "t": "2026-11-07",
    "summary": "WorkOS says an AI-powered agent breached an internal sales application and accessed customer information. A security researcher says the tool escaped its testing environment unintentionally.",
@@ -207,24 +229,46 @@
    "ai": true
   },
   {
-   "id": "a97be9095b",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Fake security tools on GitHub push backdoors and infostealers",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-   "snippet": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-   "published": "2026-11-06T18:46:52.000Z",
+   "id": "7395b0897f",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
+   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
+   "snippet": "France officially ordered a 32-cell VLS upgrade for the French Navy's FDI frigates at Euronaval 2026, doubling their Aster missile air defense capacity. The post Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates appeared first on Naval News .",
+   "published": "2026-11-07T15:32:12.000Z",
    "also": [],
-   "score": 1.19,
-   "image": "/img/news/a97be9095b.webp",
-   "t": "2026-11-06",
-   "summary": "Infected security projects on GitHub are targeting cybersecurity professionals with backdoor and information-stealer malware, BleepingComputer reports.",
-   "why": "Verify security project sources and inspect downloaded tools for unexpected behavior before use.",
+   "score": 1.42,
+   "image": "/img/news/7395b0897f.webp",
+   "t": "2026-11-07",
+   "summary": "Naval News reports France ordered a 32-cell VLS upgrade for FDI frigates, doubling their Aster missile air defense capacity.",
+   "why": "The upgrade changes the frigates’ air-defense capacity and missile-launch configuration.",
    "tags": [
-    "GitHub",
-    "backdoor",
-    "infostealer"
+    "VLS",
+    "FDI frigates",
+    "Aster"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8ae9deb78c",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "European troops set to train in Poland for postwar Ukraine deployment",
+   "url": "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/",
+   "snippet": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise testing how to move, protect and supply a force to rebuild Ukraine’s military after the war ends.",
+   "published": "2026-11-07T15:05:44.000Z",
+   "also": [],
+   "score": 1.41,
+   "image": "/img/news/8ae9deb78c.webp",
+   "t": "2026-11-07",
+   "summary": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise on moving, protecting and supplying a force for a postwar Ukraine deployment.",
+   "why": "The exercise tests multinational force movement, protection and supply for a possible deployment.",
+   "tags": [
+    "exercise",
+    "troops",
+    "Ukraine"
    ],
    "ai": true
   },
@@ -238,7 +282,7 @@
    "snippet": "Why won't the buzzing stop??! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-11-06T23:06:57.000Z",
    "also": [],
-   "score": 1.28,
+   "score": 1.18,
    "image": "/img/news/c27c51d60c.webp",
    "t": "2026-11-07",
    "summary": "The War Zone's Bunker Talk post invites discussion of topics covered and not covered during the week.",
@@ -258,7 +302,7 @@
    "snippet": "The USAF did not originally plan for the air-to-air combat-focused F-15EX to carry CFTs, but its mission demands are evolving. The post Operational F-15EXs Have Started Flying With Conformal Fuel Tanks appeared first on TWZ .",
    "published": "2026-11-06T21:25:42.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.15,
    "image": "/img/news/422ee69d52.webp",
    "t": "2026-11-06",
    "summary": "Operational F-15EX aircraft have begun flying with conformal fuel tanks; the aircraft’s mission demands are evolving, The War Zone reports.",
@@ -280,7 +324,7 @@
    "snippet": "Where the aircraft carriers are as of November 6, 2026. The post USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East appeared first on TWZ .",
    "published": "2026-11-06T21:17:39.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.14,
    "image": "/img/news/a6ab6c668c.webp",
    "t": "2026-11-06",
    "summary": "The USS Theodore Roosevelt has arrived in Singapore, described as the last stop before a third strike group reaches the Middle East.",
@@ -302,7 +346,7 @@
    "snippet": "UK launches Titania into orbit, giving the Armed Forces improved observation from space, along with new trial network of ground sensors to monitor threats to UK satellites.",
    "published": "2026-11-07T00:01:00.000Z",
    "also": [],
-   "score": 1.2,
+   "score": 1.1,
    "image": "/img/news/7ed0a391c8.webp",
    "t": "2026-11-07",
    "summary": "The UK says Titania has launched into orbit, improving Armed Forces observation from space. A new trial network of ground sensors will monitor threats to UK satellites.",
@@ -324,7 +368,7 @@
    "snippet": "The ID/IQ contract to “design, field and scale” the Mission Operation Center for the Space Data Network Backbone is worth a maximum of $450 million.",
    "published": "2026-11-06T18:41:12.000Z",
    "also": [],
-   "score": 1.19,
+   "score": 1.09,
    "image": "/img/news/e279f605c9.webp",
    "t": "2026-11-06",
    "summary": "The DoD tapped Viasat to design, field and scale a Mission Operation Center for the Space Data Network Backbone, under a contract worth up to $450 million.",
@@ -346,7 +390,7 @@
    "snippet": "Germany’s next move, the fate of GCAP, and the rise of CCAs reshape Europe’s combat aircraft strategy.",
    "published": "2026-11-06T17:51:07.000Z",
    "also": [],
-   "score": 1.17,
+   "score": 1.07,
    "image": "/img/news/228ee712c3.webp",
    "t": "2026-11-06",
    "summary": "Germany’s next move, the fate of GCAP and the rise of CCAs are reshaping Europe’s combat aircraft strategy, Breaking Defense reports.",
@@ -359,46 +403,112 @@
    "ai": true
   },
   {
-   "id": "8928f02b87",
-   "section": "warfare",
-   "source": "The War Zone",
+   "id": "e9e63fc38e",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles",
-   "url": "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile",
-   "snippet": "New footage highlights Russia’s push to field lower-cost standoff weapons from unconventional platforms. The post Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles appeared first on TWZ .",
-   "published": "2026-11-06T17:30:11.000Z",
+   "title": "What we know about Krakow mass shooting so far",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+   "published": "2026-11-07T18:22:11.000Z",
    "also": [],
-   "score": 1.16,
-   "image": "/img/news/8928f02b87.webp",
-   "t": "2026-11-06",
-   "summary": "New footage shows Russian Mi-28 attack helicopters firing cruise missiles, highlighting a push to field lower-cost standoff weapons from unconventional platforms.",
-   "why": "The use of helicopters as missile platforms illustrates an operational approach to launching standoff weapons.",
+   "score": 1.58,
+   "image": "/img/news/e9e63fc38e.webp",
+   "t": "2026-11-07",
+   "summary": "BBC World reports at least six people were killed when a gunman in military fatigues opened fire in Poland's second largest city.",
+   "why": "The shooting is a security incident in a major Polish city; the snippet gives no further context.",
    "tags": [
-    "Mi-28",
-    "cruise missiles",
-    "standoff weapons"
+    "Krakow",
+    "shooting",
+    "Poland"
    ],
    "ai": true
   },
   {
-   "id": "51f486bcc1",
-   "section": "warfare",
-   "source": "War on the Rocks",
+   "id": "60bb2f71f2",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Talks, Attacks, and a Heist",
-   "url": "https://warontherocks.com/talks-attacks-and-a-heist/",
-   "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranNow that the U.S. midterms are over, the looming question is how and when one side or the other will seek to break through the c",
-   "published": "2026-11-06T16:45:14.000Z",
+   "title": "US offers $20m reward for information about Iran's nuclear programme",
+   "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+   "published": "2026-11-07T18:14:38.000Z",
    "also": [],
-   "score": 1.15,
-   "image": "/img/news/51f486bcc1.webp",
-   "t": "2026-11-06",
-   "summary": "War on the Rocks introduces an every-other-week analysis of challenges involving China, Russia, Iran, North Korea and jihadists.",
-   "why": "The item outlines a broad range of actors for analysts following security challenges.",
+   "score": 1.58,
+   "image": "/img/news/60bb2f71f2.webp",
+   "t": "2026-11-07",
+   "summary": "The US offers a $20m reward for information about Iran's nuclear programme. The snippet says Donald Trump has repeatedly raised the prospect of renewed strikes against Iran's nuclear facilities.",
+   "why": "The reward and remarks place Iran's nuclear programme and possible strikes in focus.",
    "tags": [
-    "China",
-    "Russia",
-    "Iran"
+    "Iran",
+    "nuclear programme",
+    "reward"
+   ],
+   "ai": true
+  },
+  {
+   "id": "448323cb2d",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Gaza wedding festival sees 250 couples married at the same time",
+   "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+   "published": "2026-11-07T17:58:41.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/448323cb2d.webp",
+   "t": "2026-11-07",
+   "summary": "BBC World reports a mass wedding for Palestinian couples took place in Gaza's rubble-strewn streets.",
+   "why": "The event offers a glimpse of civilian life amid Gaza's damaged surroundings.",
+   "tags": [
+    "Gaza",
+    "wedding",
+    "Palestinian"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7bf2ce5d73",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Houthis say at least 25 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "published": "2026-11-07T17:09:24.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/7bf2ce5d73.webp",
+   "t": "2026-11-07",
+   "summary": "The Houthis say at least 25 people were killed in a Saudi air strike. Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "why": "The report concerns conflict in Yemen and includes differing positions on responsibility and comment.",
+   "tags": [
+    "Houthis",
+    "Saudi Arabia",
+    "Yemen"
+   ],
+   "ai": true
+  },
+  {
+   "id": "60a4dad105",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Italian foreign minister says hackers leaked his personal data",
+   "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
+   "published": "2026-11-07T16:50:06.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/60a4dad105.webp",
+   "t": "2026-11-07",
+   "summary": "Italy's foreign minister says hackers leaked his personal data. Prime Minister Giorgia Meloni blamed pro-Russian hackers for publishing the details online.",
+   "why": "Defenders should check exposure of officials’ personal data and review how leaked information is handled.",
+   "tags": [
+    "hackers",
+    "personal data",
+    "Italy"
    ],
    "ai": true
   },
@@ -412,7 +522,7 @@
    "snippet": "The attacks come before Ukrainian and Russian delegations are due to take part in trilateral talks in Abu Dhabi next week.",
    "published": "2026-11-07T12:49:36.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.47,
    "image": "/img/news/4a4b897c9e.webp",
    "t": "2026-11-07",
    "summary": "The BBC reports Russian strikes wounded nine and damaged Ukraine's power network ahead of Ukrainian and Russian delegations' planned talks in Abu Dhabi.",
@@ -425,156 +535,46 @@
    "ai": true
   },
   {
-   "id": "c3fa526b39",
+   "id": "654d4d4352",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Who is Hakeem Jeffries, the Democrat poised to become House speaker?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/who-is-hakeem-jeffries-the-democrat-poised-to-become-house-speaker?traffic_source=rss",
-   "snippet": "Likely to become the first Black House speaker, Jeffries faces pressure from progressives over Trump and Israel.",
-   "published": "2026-11-07T13:50:15.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/c3fa526b39.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports Hakeem Jeffries is likely to become the first Black House speaker and faces progressive pressure over Trump and Israel.",
-   "why": "The reported pressure highlights political issues facing a likely House speaker.",
-   "tags": [
-    "Jeffries",
-    "House speaker",
-    "progressives"
-   ],
-   "ai": true
-  },
-  {
-   "id": "93c9406c2b",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
-   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-   "snippet": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack.",
-   "published": "2026-11-07T13:24:41.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/93c9406c2b.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports Russian drone attacks are unnerving Zaporizhzhia; the title says 50 people were killed in a single attack.",
-   "why": "The report highlights how drone attacks affect the perceived safety of a region.",
-   "tags": [
-    "drones",
-    "Russian attacks",
-    "Zaporizhzhia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6aee37dbf9",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Gaza displacement camps collapse under rainwater",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
-   "snippet": "Rainwater is inundating displacement camps across Gaza as makeshift shelters collapse. Al Jazeera’s Nour Khaled reports.",
-   "published": "2026-11-07T13:14:53.000Z",
+   "title": "Houthis report 25 killed in Yemen strikes",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+   "snippet": "Yemen’s Houthis say at least 25 people have been killed and 30 injured in air strikes.",
+   "published": "2026-11-07T17:39:23.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/6aee37dbf9.webp",
+   "image": "/img/news/654d4d4352.webp",
    "t": "2026-11-07",
-   "summary": "Al Jazeera reports rainwater is inundating displacement camps across Gaza and makeshift shelters are collapsing.",
-   "why": "Flooding and shelter collapse shape the immediate risks for displaced people.",
+   "summary": "Al Jazeera reports Yemen’s Houthis say air strikes killed at least 25 people and injured 30.",
+   "why": "The report provides the Houthis’ account of casualties from air strikes in Yemen.",
    "tags": [
-    "rainwater",
-    "displacement camps",
-    "shelters"
+    "Houthis",
+    "air strikes",
+    "Yemen"
    ],
    "ai": true
   },
   {
-   "id": "213870ee0e",
+   "id": "04a83efdcb",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
-   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-   "snippet": "Floods have swept through Gaza after heavy rain, endangering families and putting war-damaged buildings at risk.",
-   "published": "2026-11-07T13:07:23.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/213870ee0e.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports floods after heavy rain are endangering families and putting war-damaged buildings in Gaza at risk of collapse.",
-   "why": "The report links flooding with risks to families and damaged buildings.",
-   "tags": [
-    "floods",
-    "Gaza",
-    "buildings"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d5c788b412",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Heavy rains flood displacement camps across Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-   "snippet": "Heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
-   "published": "2026-11-07T13:04:51.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/d5c788b412.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
-   "why": "The damage to tents shows the exposure of displacement camps to severe weather.",
-   "tags": [
-    "heavy rains",
-    "displacement tents",
-    "Gaza"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d8fcb7ab2e",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
-   "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
-   "snippet": "The prime minister blames pro-Russian hackers for the leak, as her top diplomat says the cyberthreat was ongoing.",
-   "published": "2026-11-07T12:29:48.000Z",
+   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
+   "snippet": "After surviving an Israeli airstrike that left her in a coma, Celine Haidar is back on the pitch, coaching footballers.",
+   "published": "2026-11-07T17:16:50.000Z",
    "also": [],
    "score": 1.46,
-   "image": "/img/news/d8fcb7ab2e.webp",
+   "image": "/img/news/04a83efdcb.webp",
    "t": "2026-11-07",
-   "summary": "Al Jazeera reports the prime minister blames pro-Russian hackers for leaking the Italian foreign minister's data; the top diplomat says the cyberthreat is ongoing.",
-   "why": "Review exposure of government data and monitor for further cyberthreats, as officials describe them.",
+   "summary": "Al Jazeera reports that Celine Haidar, injured in an Israeli airstrike that left her in a coma, is back coaching footballers.",
+   "why": "The story illustrates how conflict injuries affect civilians and community activities.",
    "tags": [
-    "hackers",
-    "data leak",
-    "cyberthreat"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5805658a25",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
-   "snippet": "Zero Russian diesel has reached the US as tankers divert and buyers fear legal action.",
-   "published": "2026-11-07T12:24:11.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/5805658a25.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports no Russian diesel has reached the US as tankers divert and buyers fear legal action.",
-   "why": "The report points to legal concerns and tanker diversions as factors in diesel trade.",
-   "tags": [
-    "Russian diesel",
-    "tankers",
-    "legal action"
+    "Israeli airstrike",
+    "football",
+    "injuries"
    ],
    "ai": true
   }
@@ -726,47 +726,47 @@
   }
  ],
  "run_today": [
-  "Patch SonicOS and verify SAML-enforced MFA behavior.",
-  "Review login flows for credentials that could bypass SAML checks.",
-  "Warn users about fake gift card giveaways and requests for personal information."
+  "Review service-provider access to banking systems.",
+  "Check transaction monitoring for fraudulent activity.",
+  "Confirm procedures for suspending affected systems."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "SAML-enforced MFA",
-   "explainer": "SAML is a way for systems to exchange login information. SAML-enforced MFA means a login policy requires additional verification through that process; the SonicOS report says the vulnerability can bypass those checks.",
-   "from_id": "986edfc864",
-   "from": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "fromSource": "SecurityWeek"
+   "term": "service provider",
+   "explainer": "A service provider supplies services to an organization. The bank heist headline says the attack was via a service provider, but the snippet gives no further details about its role.",
+   "from_id": "ded94754be",
+   "from": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "drones",
-   "explainer": "Drones are uncrewed aircraft. In the Zaporizhzhia report, drone attacks are described as making the region increasingly dangerous.",
-   "from_id": "93c9406c2b",
-   "from": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "VLS",
+   "explainer": "VLS means vertical launch system: a shipboard arrangement for launching missiles. The report says the FDI frigates are receiving a 32-cell VLS upgrade.",
+   "from_id": "7395b0897f",
+   "from": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "trilateral talks",
-   "explainer": "Trilateral talks are discussions involving three parties. The report says Ukrainian and Russian delegations are due to take part in talks in Abu Dhabi.",
-   "from_id": "4a4b897c9e",
-   "from": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss",
+   "term": "coalition",
+   "explainer": "A coalition is a group of parties acting together. The Yemen report describes Saudi Arabia as leading a coalition fighting the Houthis.",
+   "from_id": "7bf2ce5d73",
+   "from": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss",
    "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Cyber Risks, Conflict, and Civilian Exposure",
+  "headline": "Security, conflict and civilian life in focus",
   "paragraphs": [
-   "The top stories describe risks across consumer-facing campaigns, software security, conflict, and civilian infrastructure. CTM360 says fake giveaways collect personal information, while the GPT-6 Cyber report describes vulnerability discovery and working exploits. Together, they make both social engineering and technical exposure relevant to defenders.",
-   "The conflict reports pair strikes and drone attacks with damage to a power network and danger to people in Zaporizhzhia. Gaza reports describe rain inundating camps and putting shelters and war-damaged buildings at risk. These accounts suggest analysts should consider both direct attacks and reported environmental pressures on people and infrastructure.",
-   "Political pressure around Jeffries and talks planned in Abu Dhabi add diplomatic and domestic political context to the headlines. For defenders, the cyber reports call for attention to deceptive campaigns and vulnerabilities. Analysts should watch how officials describe threats, infrastructure damage, and civilian conditions without treating separate reports as evidence of a single cause."
+   "The top stories span a shooting in Krakow, conflict-related reports from Gaza and Yemen, and renewed attention to Iran’s nuclear programme. They present different kinds of security concerns, while the snippets leave important details unresolved.",
+   "Cyber incidents appear in both the reported bank heist and the Italian foreign minister’s personal-data leak. The bank attack reportedly enabled fraudulent transactions and led to system suspensions; Meloni blamed pro-Russian hackers for publishing the minister’s details. Defenders may find it useful to distinguish financial-system disruption from personal-data exposure.",
+   "For analysts, attribution and context remain important: the Yemen report says Saudi Arabia has not commented, while the Iran item describes a reward offer and remarks about possible strikes. The Gaza wedding story also records civilian life amid rubble. Watch for further details that clarify claims and operational effects."
   ],
   "takeaways": [
-   "Check both social-engineering routes and technical security controls.",
-   "Track reported infrastructure damage alongside civilian impacts.",
-   "Keep diplomatic context distinct from claims about events on the ground."
+   "Review service-provider access and transaction monitoring after the reported bank attack.",
+   "Treat claims of responsibility and casualty reports with attribution.",
+   "Track how cyber incidents affect systems and exposed personal data."
   ]
  },
  "health": [
@@ -786,13 +786,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 12
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "The Record",
@@ -810,7 +810,7 @@
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 5
   },
   {
    "name": "Dark Reading",
@@ -870,13 +870,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "Bellingcat",
@@ -936,7 +936,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "SatNews",
@@ -948,13 +948,13 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 8
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 14
+   "n": 11
   },
   {
    "name": "DW",
