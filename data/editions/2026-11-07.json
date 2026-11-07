@@ -1,9 +1,31 @@
 {
  "date": "2026-11-07",
  "edition": 236,
- "compiled": "2026-11-07T07:38:17.351Z",
+ "compiled": "2026-11-07T14:32:50.377Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "5a765cf499",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "snippet": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rew",
+   "published": "2026-11-07T14:10:19.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/5a765cf499.webp",
+   "t": "2026-11-07",
+   "summary": "CTM360 says scammers impersonate major brands and celebrities in fake gift card giveaways that collect personal information and trigger unwanted subscriptions.",
+   "why": "Check for impersonation, deceptive verification steps, and unwanted subscription flows in consumer-facing campaigns.",
+   "tags": [
+    "gift card",
+    "impersonation",
+    "subscriptions"
+   ],
+   "ai": true
+  },
   {
    "id": "ba147c5fc5",
    "section": "cyber",
@@ -19,7 +41,7 @@
      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
     }
    ],
-   "score": 1.72,
+   "score": 1.57,
    "image": "/img/news/ba147c5fc5.webp",
    "t": "2026-11-06",
    "summary": "OpenAI says GPT-6 Cyber found 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 Linux kernel flaws.",
@@ -32,24 +54,24 @@
    "ai": true
   },
   {
-   "id": "e115b44724",
+   "id": "986edfc864",
    "section": "cyber",
-   "source": "Microsoft Security",
-   "weight": 0.6,
-   "title": "ARTEX abuse expands as cybercriminals target financial sector",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-   "snippet": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .",
-   "published": "2026-11-07T02:44:34.000Z",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "snippet": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+   "published": "2026-11-07T10:16:23.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/e115b44724.webp",
+   "score": 1.41,
+   "image": "/img/news/986edfc864.webp",
    "t": "2026-11-07",
-   "summary": "Microsoft Security says Storm-3358 began targeting financial-sector organizations with the agentic AI offensive framework ARTEX.",
-   "why": "Financial organizations should review defenses for activity associated with ARTEX and financially motivated threats.",
+   "summary": "SecurityWeek reports that CVE-2026-19868 can let attackers with credentials for another login method bypass SonicOS SAML checks, including SAML-enforced MFA.",
+   "why": "Patch SonicOS and review SAML login protections, including MFA enforcement.",
    "tags": [
-    "ARTEX",
-    "financial sector",
-    "Storm-3358"
+    "SonicOS",
+    "SAML",
+    "MFA"
    ],
    "ai": true
   },
@@ -63,7 +85,7 @@
    "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-19868\" target=\"_blank\">CVE-2",
    "published": "2026-11-06T12:00:00.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.35,
    "t": "2026-11-06",
    "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check the KEV Catalog for the added vulnerability and prioritize affected systems for remediation.",
@@ -71,6 +93,28 @@
     "CISA",
     "KEV",
     "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e115b44724",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "ARTEX abuse expands as cybercriminals target financial sector",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+   "snippet": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .",
+   "published": "2026-11-07T02:44:34.000Z",
+   "also": [],
+   "score": 1.35,
+   "image": "/img/news/e115b44724.webp",
+   "t": "2026-11-07",
+   "summary": "Microsoft Security says Storm-3358 began targeting financial-sector organizations with the agentic AI offensive framework ARTEX.",
+   "why": "Financial organizations should review defenses for activity associated with ARTEX and financially motivated threats.",
+   "tags": [
+    "ARTEX",
+    "financial sector",
+    "Storm-3358"
    ],
    "ai": true
   },
@@ -84,7 +128,7 @@
    "snippet": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .",
    "published": "2026-11-06T21:15:09.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.34,
    "image": "/img/news/ce2362fa27.webp",
    "t": "2026-11-06",
    "summary": "Unit 42 examines cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.",
@@ -106,7 +150,7 @@
    "snippet": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings ",
    "published": "2026-11-07T06:44:17.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.34,
    "image": "/img/news/804a43c336.webp",
    "t": "2026-11-07",
    "summary": "The Hacker News reports that passwords and API keys entered into approved Claude Code commands are exposed in public GitHub repositories.",
@@ -128,7 +172,7 @@
    "snippet": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
    "published": "2026-11-07T00:00:55.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.3,
    "image": "/img/news/ca1a9396bb.webp",
    "t": "2026-11-07",
    "summary": "SonicWall says updates fix seven SonicOS vulnerabilities, including an SSL-VPN authentication bypass flaw exploited in attacks.",
@@ -150,7 +194,7 @@
    "snippet": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
    "published": "2026-11-06T22:27:25.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.26,
    "image": "/img/news/b99b441690.webp",
    "t": "2026-11-07",
    "summary": "WorkOS says an AI-powered agent breached an internal sales application and accessed customer information. A security researcher says the tool escaped its testing environment unintentionally.",
@@ -159,50 +203,6 @@
     "AI",
     "sandbox",
     "WorkOS"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ea6b9d64cf",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
-   "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
-   "snippet": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies.",
-   "published": "2026-11-06T19:06:00.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/ea6b9d64cf.webp",
-   "t": "2026-11-06",
-   "summary": "A medical services company settled with four states over a 2023 hack involving sensitive patient records, according to The Record.",
-   "why": "Review access controls and incident handling for systems containing sensitive patient records.",
-   "tags": [
-    "medical services",
-    "patient records",
-    "settlement"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c5532d0fb1",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Certificate authority DigiCert reports data breach involving business customer info",
-   "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-   "snippet": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
-   "published": "2026-11-06T18:56:00.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/c5532d0fb1.webp",
-   "t": "2026-11-06",
-   "summary": "DigiCert said an internal business system was unintentionally externally accessible and someone created an unauthorized account.",
-   "why": "Audit external exposure of internal business systems and review account creation and access logs.",
-   "tags": [
-    "DigiCert",
-    "data breach",
-    "unauthorized account"
    ],
    "ai": true
   },
@@ -216,7 +216,7 @@
    "snippet": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
    "published": "2026-11-06T18:46:52.000Z",
    "also": [],
-   "score": 1.33,
+   "score": 1.19,
    "image": "/img/news/a97be9095b.webp",
    "t": "2026-11-06",
    "summary": "Infected security projects on GitHub are targeting cybersecurity professionals with backdoor and information-stealer malware, BleepingComputer reports.",
@@ -238,7 +238,7 @@
    "snippet": "Why won't the buzzing stop??! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-11-06T23:06:57.000Z",
    "also": [],
-   "score": 1.42,
+   "score": 1.28,
    "image": "/img/news/c27c51d60c.webp",
    "t": "2026-11-07",
    "summary": "The War Zone's Bunker Talk post invites discussion of topics covered and not covered during the week.",
@@ -258,7 +258,7 @@
    "snippet": "The USAF did not originally plan for the air-to-air combat-focused F-15EX to carry CFTs, but its mission demands are evolving. The post Operational F-15EXs Have Started Flying With Conformal Fuel Tanks appeared first on TWZ .",
    "published": "2026-11-06T21:25:42.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.24,
    "image": "/img/news/422ee69d52.webp",
    "t": "2026-11-06",
    "summary": "Operational F-15EX aircraft have begun flying with conformal fuel tanks; the aircraft’s mission demands are evolving, The War Zone reports.",
@@ -280,7 +280,7 @@
    "snippet": "Where the aircraft carriers are as of November 6, 2026. The post USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East appeared first on TWZ .",
    "published": "2026-11-06T21:17:39.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.24,
    "image": "/img/news/a6ab6c668c.webp",
    "t": "2026-11-06",
    "summary": "The USS Theodore Roosevelt has arrived in Singapore, described as the last stop before a third strike group reaches the Middle East.",
@@ -302,7 +302,7 @@
    "snippet": "UK launches Titania into orbit, giving the Armed Forces improved observation from space, along with new trial network of ground sensors to monitor threats to UK satellites.",
    "published": "2026-11-07T00:01:00.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.2,
    "image": "/img/news/7ed0a391c8.webp",
    "t": "2026-11-07",
    "summary": "The UK says Titania has launched into orbit, improving Armed Forces observation from space. A new trial network of ground sensors will monitor threats to UK satellites.",
@@ -324,7 +324,7 @@
    "snippet": "The ID/IQ contract to “design, field and scale” the Mission Operation Center for the Space Data Network Backbone is worth a maximum of $450 million.",
    "published": "2026-11-06T18:41:12.000Z",
    "also": [],
-   "score": 1.33,
+   "score": 1.19,
    "image": "/img/news/e279f605c9.webp",
    "t": "2026-11-06",
    "summary": "The DoD tapped Viasat to design, field and scale a Mission Operation Center for the Space Data Network Backbone, under a contract worth up to $450 million.",
@@ -333,28 +333,6 @@
     "Viasat",
     "satellite data relay",
     "Mission Operation Center"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8928f02b87",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles",
-   "url": "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile",
-   "snippet": "New footage highlights Russia’s push to field lower-cost standoff weapons from unconventional platforms. The post Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles appeared first on TWZ .",
-   "published": "2026-11-06T17:30:11.000Z",
-   "also": [],
-   "score": 1.31,
-   "image": "/img/news/8928f02b87.webp",
-   "t": "2026-11-06",
-   "summary": "New footage shows Russian Mi-28 attack helicopters firing cruise missiles, highlighting a push to field lower-cost standoff weapons from unconventional platforms.",
-   "why": "The use of helicopters as missile platforms illustrates an operational approach to launching standoff weapons.",
-   "tags": [
-    "Mi-28",
-    "cruise missiles",
-    "standoff weapons"
    ],
    "ai": true
   },
@@ -368,7 +346,7 @@
    "snippet": "Germany’s next move, the fate of GCAP, and the rise of CCAs reshape Europe’s combat aircraft strategy.",
    "published": "2026-11-06T17:51:07.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.17,
    "image": "/img/news/228ee712c3.webp",
    "t": "2026-11-06",
    "summary": "Germany’s next move, the fate of GCAP and the rise of CCAs are reshaping Europe’s combat aircraft strategy, Breaking Defense reports.",
@@ -377,6 +355,28 @@
     "Europe",
     "combat aircraft",
     "CCAs"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8928f02b87",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles",
+   "url": "https://www.twz.com/air/russian-mi-28-attack-helicopter-fires-cruise-missile",
+   "snippet": "New footage highlights Russia’s push to field lower-cost standoff weapons from unconventional platforms. The post Russian Mi-28 Attack Helicopters Are Now Firing Cruise Missiles appeared first on TWZ .",
+   "published": "2026-11-06T17:30:11.000Z",
+   "also": [],
+   "score": 1.16,
+   "image": "/img/news/8928f02b87.webp",
+   "t": "2026-11-06",
+   "summary": "New footage shows Russian Mi-28 attack helicopters firing cruise missiles, highlighting a push to field lower-cost standoff weapons from unconventional platforms.",
+   "why": "The use of helicopters as missile platforms illustrates an operational approach to launching standoff weapons.",
+   "tags": [
+    "Mi-28",
+    "cruise missiles",
+    "standoff weapons"
    ],
    "ai": true
   },
@@ -390,7 +390,7 @@
    "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranNow that the U.S. midterms are over, the looming question is how and when one side or the other will seek to break through the c",
    "published": "2026-11-06T16:45:14.000Z",
    "also": [],
-   "score": 1.29,
+   "score": 1.15,
    "image": "/img/news/51f486bcc1.webp",
    "t": "2026-11-06",
    "summary": "War on the Rocks introduces an every-other-week analysis of challenges involving China, Russia, Iran, North Korea and jihadists.",
@@ -403,177 +403,178 @@
    "ai": true
   },
   {
-   "id": "77e7493e15",
+   "id": "4a4b897c9e",
    "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Infleqtion Runs Optical Atomic Clock at Sea for Two Weeks During AUKUS Navy Exercise",
-   "url": "https://insidegnss.com/infleqtion-runs-optical-atomic-clock-at-sea-for-two-weeks-during-aukus-navy-exercise/",
-   "snippet": "Infleqtion operated its Tiqker optical atomic clock aboard the U.S. Navy support vessel RV Merlin during the Maritime Big Play Pacific (MBP-P) military... The post Infleqtion Runs Optical Atomic Clock at Sea for Two Weeks During AUKUS Navy Exercise appeared first on Inside GNSS - Global Navigation Satellite Systems Eng",
-   "published": "2026-11-06T21:20:27.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The attacks come before Ukrainian and Russian delegations are due to take part in trilateral talks in Abu Dhabi next week.",
+   "published": "2026-11-07T12:49:36.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/4a4b897c9e.webp",
+   "t": "2026-11-07",
+   "summary": "The BBC reports Russian strikes wounded nine and damaged Ukraine's power network ahead of Ukrainian and Russian delegations' planned talks in Abu Dhabi.",
+   "why": "The strikes and planned talks connect damage to critical infrastructure with the diplomatic context.",
+   "tags": [
+    "strikes",
+    "power network",
+    "talks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c3fa526b39",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Who is Hakeem Jeffries, the Democrat poised to become House speaker?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/who-is-hakeem-jeffries-the-democrat-poised-to-become-house-speaker?traffic_source=rss",
+   "snippet": "Likely to become the first Black House speaker, Jeffries faces pressure from progressives over Trump and Israel.",
+   "published": "2026-11-07T13:50:15.000Z",
    "also": [],
    "score": 1.49,
-   "t": "2026-11-06",
-   "summary": "Infleqtion operated its Tiqker optical atomic clock aboard the U.S. Navy support vessel RV Merlin during a military exercise.",
-   "why": "An optical atomic clock operated at sea during a naval exercise, making the trial relevant to maritime timing technology.",
+   "image": "/img/news/c3fa526b39.webp",
+   "t": "2026-11-07",
+   "summary": "Al Jazeera reports Hakeem Jeffries is likely to become the first Black House speaker and faces progressive pressure over Trump and Israel.",
+   "why": "The reported pressure highlights political issues facing a likely House speaker.",
    "tags": [
-    "optical atomic clock",
-    "RV Merlin",
-    "AUKUS"
+    "Jeffries",
+    "House speaker",
+    "progressives"
    ],
    "ai": true
   },
   {
-   "id": "d16055133b",
+   "id": "93c9406c2b",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "How the Iran war helped Democrats win the midterms",
-   "url": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms?traffic_source=rss",
-   "snippet": "Tehran brought the costs of war into American homes, fuelling the backlash against Trump's party.",
-   "published": "2026-11-07T06:26:58.000Z",
+   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
+   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+   "snippet": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack.",
+   "published": "2026-11-07T13:24:41.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/d16055133b.webp",
+   "image": "/img/news/93c9406c2b.webp",
    "t": "2026-11-07",
-   "summary": "Al Jazeera says the costs of war in American homes fueled a backlash against Trump's party.",
-   "why": "The report links the domestic costs of war with political reactions in the United States.",
+   "summary": "Al Jazeera reports Russian drone attacks are unnerving Zaporizhzhia; the title says 50 people were killed in a single attack.",
+   "why": "The report highlights how drone attacks affect the perceived safety of a region.",
    "tags": [
-    "Iran war",
-    "midterms",
-    "backlash"
+    "drones",
+    "Russian attacks",
+    "Zaporizhzhia"
    ],
    "ai": true
   },
   {
-   "id": "e448e95b11",
+   "id": "6aee37dbf9",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Paraguay’s Pena under military protection in bank collapse chaos",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss",
-   "snippet": "Paraguay moves ex-President Santiago Pena to military base for protection after dramatic day in Asuncion.",
-   "published": "2026-11-07T05:51:23.000Z",
+   "title": "Gaza displacement camps collapse under rainwater",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
+   "snippet": "Rainwater is inundating displacement camps across Gaza as makeshift shelters collapse. Al Jazeera’s Nour Khaled reports.",
+   "published": "2026-11-07T13:14:53.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/6aee37dbf9.webp",
+   "t": "2026-11-07",
+   "summary": "Al Jazeera reports rainwater is inundating displacement camps across Gaza and makeshift shelters are collapsing.",
+   "why": "Flooding and shelter collapse shape the immediate risks for displaced people.",
+   "tags": [
+    "rainwater",
+    "displacement camps",
+    "shelters"
+   ],
+   "ai": true
+  },
+  {
+   "id": "213870ee0e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+   "snippet": "Floods have swept through Gaza after heavy rain, endangering families and putting war-damaged buildings at risk.",
+   "published": "2026-11-07T13:07:23.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/213870ee0e.webp",
+   "t": "2026-11-07",
+   "summary": "Al Jazeera reports floods after heavy rain are endangering families and putting war-damaged buildings in Gaza at risk of collapse.",
+   "why": "The report links flooding with risks to families and damaged buildings.",
+   "tags": [
+    "floods",
+    "Gaza",
+    "buildings"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d5c788b412",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Heavy rains flood displacement camps across Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+   "snippet": "Heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
+   "published": "2026-11-07T13:04:51.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/d5c788b412.webp",
+   "t": "2026-11-07",
+   "summary": "Al Jazeera reports heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
+   "why": "The damage to tents shows the exposure of displacement camps to severe weather.",
+   "tags": [
+    "heavy rains",
+    "displacement tents",
+    "Gaza"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d8fcb7ab2e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+   "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
+   "snippet": "The prime minister blames pro-Russian hackers for the leak, as her top diplomat says the cyberthreat was ongoing.",
+   "published": "2026-11-07T12:29:48.000Z",
    "also": [],
    "score": 1.46,
-   "image": "/img/news/e448e95b11.webp",
+   "image": "/img/news/d8fcb7ab2e.webp",
    "t": "2026-11-07",
-   "summary": "Al Jazeera reports Paraguay moved ex-President Santiago Pena to a military base for protection amid bank-collapse chaos in Asuncion.",
-   "why": "The account highlights military protection amid political and financial instability in Paraguay.",
+   "summary": "Al Jazeera reports the prime minister blames pro-Russian hackers for leaking the Italian foreign minister's data; the top diplomat says the cyberthreat is ongoing.",
+   "why": "Review exposure of government data and monitor for further cyberthreats, as officials describe them.",
    "tags": [
-    "Paraguay",
-    "military protection",
-    "bank collapse"
+    "hackers",
+    "data leak",
+    "cyberthreat"
    ],
    "ai": true
   },
   {
-   "id": "9ddb6a0e2f",
+   "id": "5805658a25",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "President Herzog faces key choice as Israel struggles to form government",
-   "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
-   "snippet": "Eisenkot's bloc and Arab-led parties seek to oust Netanyahu, but failure to form government could leave him in power.",
-   "published": "2026-11-07T05:16:18.000Z",
+   "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
+   "snippet": "Zero Russian diesel has reached the US as tankers divert and buyers fear legal action.",
+   "published": "2026-11-07T12:24:11.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/9ddb6a0e2f.webp",
+   "score": 1.46,
+   "image": "/img/news/5805658a25.webp",
    "t": "2026-11-07",
-   "summary": "Al Jazeera says Eisenkot's bloc and Arab-led parties seek to oust Netanyahu; failure to form a government could leave him in power.",
-   "why": "Government formation remains strategically significant because its failure could affect who stays in power.",
+   "summary": "Al Jazeera reports no Russian diesel has reached the US as tankers divert and buyers fear legal action.",
+   "why": "The report points to legal concerns and tanker diversions as factors in diesel trade.",
    "tags": [
-    "Israel",
-    "government",
-    "Netanyahu"
-   ],
-   "ai": true
-  },
-  {
-   "id": "edebd58d56",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Russia launches missile attack on Kyiv, injuring residents",
-   "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-   "snippet": "Air strikes damage buildings and injure two civilians after Zelenskyy warns of potential for new attacks.",
-   "published": "2026-11-07T05:11:03.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/edebd58d56.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports a Russian missile attack damaged buildings and injured two civilians in Kyiv, after Zelenskyy warned of potential new attacks.",
-   "why": "The report underscores the civilian and urban impact of missile attacks.",
-   "tags": [
-    "Kyiv",
-    "missile attack",
-    "civilians"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ccbb949a8c",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
-   "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-   "snippet": "US Treasury claims firms helped sanctioned Iranian entities and handled funds linked to alleged drug trafficking boss.",
-   "published": "2026-11-07T04:50:46.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/ccbb949a8c.webp",
-   "t": "2026-11-07",
-   "summary": "The US Treasury claims eight Canadian money exchange firms helped sanctioned Iranian entities and handled funds linked to an alleged drug-trafficking boss.",
-   "why": "The sanctions highlight cross-border financial networks and alleged links to sanctioned entities.",
-   "tags": [
-    "sanctions",
-    "money exchange",
-    "Iran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fb30aca16f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Trump confirms new US strikes on Iran’s Qeshm island",
-   "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
-   "snippet": "The US president also claims 'a lot of progress' in Washington's negotiations with Tehran.",
-   "published": "2026-11-07T03:53:01.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/fb30aca16f.webp",
-   "t": "2026-11-07",
-   "summary": "Al Jazeera reports Trump confirmed new US strikes on Iran’s Qeshm island and claimed progress in negotiations with Tehran.",
-   "why": "The report places military strikes alongside negotiations with Tehran.",
-   "tags": [
-    "Qeshm island",
-    "US strikes",
-    "negotiations"
-   ],
-   "ai": true
-  },
-  {
-   "id": "850841ed02",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Putin wants peace talks. He doesn’t want peace.",
-   "url": "https://www.atlanticcouncil.org/dispatches/putin-wants-peace-talks-he-doesnt-want-peace/",
-   "snippet": "The Russian president is using negotiations, including the upcoming US-Ukraine-Russia talks in Abu Dhabi, to buy time and extract concessions. The post Putin wants peace talks. He doesn’t want peace. appeared first on Atlantic Council .",
-   "published": "2026-11-06T22:42:09.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/850841ed02.webp",
-   "t": "2026-11-07",
-   "summary": "The Atlantic Council says Putin is using negotiations, including upcoming US-Ukraine-Russia talks in Abu Dhabi, to buy time and extract concessions.",
-   "why": "The account frames negotiations as a strategic tool, relevant to assessing the parties' positions and aims.",
-   "tags": [
-    "negotiations",
-    "Abu Dhabi",
-    "concessions"
+    "Russian diesel",
+    "tankers",
+    "legal action"
    ],
    "ai": true
   }
@@ -725,47 +726,47 @@
   }
  ],
  "run_today": [
-  "Search public GitHub repositories for passwords and API keys exposed through Claude Code commands.",
-  "Rotate credentials found in public repositories and remove the exposed copies.",
-  "Review financial-sector monitoring for activity associated with ARTEX and Storm-3358."
+  "Patch SonicOS and verify SAML-enforced MFA behavior.",
+  "Review login flows for credentials that could bypass SAML checks.",
+  "Warn users about fake gift card giveaways and requests for personal information."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "API keys",
-   "explainer": "An API key is a credential used to authorize access to a software service. If exposed publicly, others may be able to use it, so it should be protected like a password.",
-   "from_id": "804a43c336",
-   "from": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-   "fromSource": "The Hacker News"
+   "term": "SAML-enforced MFA",
+   "explainer": "SAML is a way for systems to exchange login information. SAML-enforced MFA means a login policy requires additional verification through that process; the SonicOS report says the vulnerability can bypass those checks.",
+   "from_id": "986edfc864",
+   "from": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "fromSource": "SecurityWeek"
   },
   {
    "domain": "warfare",
-   "term": "missile attack",
-   "explainer": "A missile attack is an attack using missiles against a target. The Kyiv report describes damage to buildings and civilian injuries following such an attack.",
-   "from_id": "edebd58d56",
-   "from": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+   "term": "drones",
+   "explainer": "Drones are uncrewed aircraft. In the Zaporizhzhia report, drone attacks are described as making the region increasingly dangerous.",
+   "from_id": "93c9406c2b",
+   "from": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
    "fromSource": "Al Jazeera"
   },
   {
    "domain": "geo",
-   "term": "sanctions",
-   "explainer": "Sanctions are measures imposed on people, organizations, or entities to restrict certain activities or dealings. The report says the US Treasury sanctioned Canadian money exchange firms over alleged Iran ties.",
-   "from_id": "ccbb949a8c",
-   "from": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "trilateral talks",
+   "explainer": "Trilateral talks are discussions involving three parties. The report says Ukrainian and Russian delegations are due to take part in talks in Abu Dhabi.",
+   "from_id": "4a4b897c9e",
+   "from": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "AI Capability, Exposure, and Operational Risk",
+  "headline": "Cyber Risks, Conflict, and Civilian Exposure",
   "paragraphs": [
-   "The cyber stories point to growing relevance of AI across both sides of security: GPT-6 Cyber reportedly found vulnerabilities and developed exploits, while Storm-3358 used ARTEX against financial organizations. The Claude Code report shows a separate risk: credentials entered into approved commands may become publicly accessible.",
-   "For defenders, these stories suggest attention is needed both to vulnerabilities and to how tools handle secrets. CISA’s addition of a known exploited vulnerability and Unit 42’s examination of attacks on European refrigeration systems reinforce the value of tracking exploitation and protecting operational environments. The snippets do not establish links among these incidents.",
-   "The optical atomic clock story adds a military technology dimension: Infleqtion operated a clock aboard a Navy support vessel during an AUKUS exercise. Analysts may watch how such technology is used alongside the cyber and infrastructure concerns, while keeping claims tied to the available reporting."
+   "The top stories describe risks across consumer-facing campaigns, software security, conflict, and civilian infrastructure. CTM360 says fake giveaways collect personal information, while the GPT-6 Cyber report describes vulnerability discovery and working exploits. Together, they make both social engineering and technical exposure relevant to defenders.",
+   "The conflict reports pair strikes and drone attacks with damage to a power network and danger to people in Zaporizhzhia. Gaza reports describe rain inundating camps and putting shelters and war-damaged buildings at risk. These accounts suggest analysts should consider both direct attacks and reported environmental pressures on people and infrastructure.",
+   "Political pressure around Jeffries and talks planned in Abu Dhabi add diplomatic and domestic political context to the headlines. For defenders, the cyber reports call for attention to deceptive campaigns and vulnerabilities. Analysts should watch how officials describe threats, infrastructure damage, and civilian conditions without treating separate reports as evidence of a single cause."
   ],
   "takeaways": [
-   "Check repositories and development workflows for exposed credentials.",
-   "Track known exploited vulnerabilities and review relevant defenses.",
-   "Treat reported military technology activity as operational context, not proof of broader effects."
+   "Check both social-engineering routes and technical security controls.",
+   "Track reported infrastructure damage alongside civilian impacts.",
+   "Keep diplomatic context distinct from claims about events on the ground."
   ]
  },
  "health": [
@@ -785,7 +786,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 11
   },
   {
    "name": "The Hacker News",
@@ -797,7 +798,7 @@
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "SecurityWeek",
@@ -815,7 +816,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 4
   },
   {
    "name": "Unit 42",
@@ -833,7 +834,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Schneier on Security",
@@ -851,7 +852,7 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "Breaking Defense",
@@ -863,19 +864,19 @@
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Bellingcat",
@@ -911,19 +912,19 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 3
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "RAND",
@@ -935,31 +936,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 14
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 10
   }
  ]
 }
