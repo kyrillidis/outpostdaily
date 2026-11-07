@@ -1,8 +1,53 @@
 {
- "updated": "2026-11-06T22:23:34.328Z",
+ "updated": "2026-11-07T02:04:20.449Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -12,59 +57,9 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,9 +67,14 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,72 @@
   }
  ],
  "items": [
+  {
+   "id": "nca1a9396bb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "published": "2026-11-07T00:00:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb763a4725b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+   "published": "2026-11-07T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nca06346b41",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+   "url": "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss",
+   "published": "2026-11-06T23:07:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1428664407",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US urges China to honour Busan trade deal commitments",
+   "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+   "published": "2026-11-06T23:00:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb99b441690",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "published": "2026-11-06T22:27:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7088190187",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "White House Network Appears in Global Residential Proxy Traffic",
+   "url": "https://securityaffairs.com/202563/security/white-house-network-appears-in-global-residential-proxy-traffic.html",
+   "published": "2026-11-06T22:17:34.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n51bde5af11",
    "kind": "news",
@@ -2888,50 +2954,6 @@
    "url": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-04T03:46:10.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ned421e39d3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-   "published": "2026-11-04T02:00:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne399449b1f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
-   "published": "2026-11-04T01:13:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n29f0327317",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
-   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
-   "published": "2026-11-04T00:35:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd5a29ca6b4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Tehran prepares ‘maximum deterrence’ plan for any new attack",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/iran-war-live-tehran-prepares-maximum-deterrence-plan-for-any-new-attack?traffic_source=rss",
-   "published": "2026-11-04T00:00:00.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
