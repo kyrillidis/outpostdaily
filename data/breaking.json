@@ -1,21 +1,6 @@
 {
- "updated": "2026-11-07T08:40:16.813Z",
+ "updated": "2026-11-07T15:08:17.193Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -27,19 +12,9 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "BBC World",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
+   "n": 1
   },
   {
    "name": "The DFIR Report",
@@ -47,17 +22,37 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "SecurityWeek",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -67,6 +62,11 @@
    "n": 0
   },
   {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
@@ -74,7 +74,12 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 1
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -85,11 +90,6 @@
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,171 @@
   }
  ],
  "items": [
+  {
+   "id": "n053daca12a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iraq’s FM says external parties using Iraqi soil to attack neighbours",
+   "url": "https://www.aljazeera.com/news/2026/11/7/iraqs-fm-says-external-parties-using-iraqi-soil-to-attack-neighbours?traffic_source=rss",
+   "published": "2026-11-07T14:24:48.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n5a765cf499",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "published": "2026-11-07T14:10:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na0f5ba049a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+   "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+   "published": "2026-11-07T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf77db363b6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time",
+   "url": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
+   "published": "2026-11-07T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n93c9406c2b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
+   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+   "published": "2026-11-07T13:24:41.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6aee37dbf9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza displacement camps collapse under rainwater",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
+   "published": "2026-11-07T13:14:53.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n213870ee0e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+   "published": "2026-11-07T13:07:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd5c788b412",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Heavy rains flood displacement camps across Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+   "published": "2026-11-07T13:04:51.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4a4b897c9e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-07T12:49:36.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd8fcb7ab2e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+   "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
+   "published": "2026-11-07T12:29:48.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5805658a25",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
+   "published": "2026-11-07T12:24:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1ed61bc0c7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+   "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+   "published": "2026-11-07T12:22:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n10e7c1452b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+   "published": "2026-11-07T11:59:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n986edfc864",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "published": "2026-11-07T10:16:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2c6a1c3772",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "U.S. CISA adds SonicWall SonicOS SSLVPN flaw to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/202581/security/u-s-cisa-adds-sonicwall-sonicos-sslvpn-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+   "published": "2026-11-07T09:09:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nd01f5b42d4",
    "kind": "news",
@@ -2484,17 +2649,6 @@
    "verified": false
   },
   {
-   "id": "n5a92ffdf44",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Hospital stocks rally while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.",
-   "url": "https://www.marketwatch.com/story/hospital-stocks-rally-while-drugmakers-brace-for-scrutiny-heres-what-the-democratic-wave-means-for-healthcare-625b79f3?mod=mw_rss_topstories",
-   "published": "2026-11-04T17:19:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "ncb49b60426",
    "kind": "news",
    "group": "crisis",
@@ -2502,17 +2656,6 @@
    "title": "Palestinian citizens of Israel face intimidation after election success",
    "url": "https://www.aljazeera.com/news/2026/11/4/palestinians-face-intimidation-after-election-success?traffic_source=rss",
    "published": "2026-11-04T17:14:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfa2262fb22",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "What Trump can achieve without approval from a Democratic-led Congress",
-   "url": "https://www.marketwatch.com/story/what-trump-can-achieve-without-approval-from-a-democratic-led-congress-3401de75?mod=mw_rss_topstories",
-   "published": "2026-11-04T17:13:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2657,303 +2800,6 @@
    "url": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack?traffic_source=rss",
    "published": "2026-11-04T15:13:00.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n983c6e7144",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ice hockey federation reiterates opposition to reinstatement of Russia",
-   "url": "https://www.aljazeera.com/sports/2026/11/4/ice-hockey-federation-reiterates-opposition-to-reinstatement-of-russia?traffic_source=rss",
-   "published": "2026-11-04T15:04:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n40d358943d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
-   "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-04T15:01:10.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd6dd46466a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "published": "2026-11-04T15:00:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n816db0dd12",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "7 Best Security Add-Ons for Microsoft Entra in 2026",
-   "url": "https://hackread.com/best-security-add-ons-microsoft-entra-2026/",
-   "published": "2026-11-04T14:51:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n63cdf286f0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-   "published": "2026-11-04T14:42:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6b6d8b64e2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
-   "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
-   "published": "2026-11-04T14:34:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5e99d13bfb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "published": "2026-11-04T14:27:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne17a54acda",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-   "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-   "published": "2026-11-04T14:24:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc09f6d942d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Incidents Move Too Fast for Pen & Paper",
-   "url": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
-   "published": "2026-11-04T14:17:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1cb3088dd8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Agentic Data Security Firm Sentra Raises $150 Million",
-   "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
-   "published": "2026-11-04T14:09:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4448a4360e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget",
-   "url": "https://therecord.media/russia-cyberattack-beget-cloud",
-   "published": "2026-11-04T14:00:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n3d23258051",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "French blood service hit by Europe-wide cyberattacks on refrigeration",
-   "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
-   "published": "2026-11-04T13:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1aedc3ffaf",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "US charges two Canadians accused of hacking US universities",
-   "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-   "published": "2026-11-04T13:13:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2f5877591b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
-   "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
-   "published": "2026-11-04T12:43:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd205858edf",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Hackers Alter Refrigeration Settings, Forcing European Stores to Discard Food",
-   "url": "https://hackread.com/hackers-alter-refrigeration-settings-european-discard-food/",
-   "published": "2026-11-04T12:36:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9c24410329",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
-   "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-   "published": "2026-11-04T12:27:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n62ad9c2a6b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-   "published": "2026-11-04T12:11:05.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd013e25bf4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-   "published": "2026-11-04T12:07:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nde8bbdd0e3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "published": "2026-11-04T11:46:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9761621df7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-   "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-04T11:46:09.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "necf2013fdf",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-   "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-   "published": "2026-11-04T11:34:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd3dc0bd7bf",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Iran's chief negotiator says Americans voted 'no to war'",
-   "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-04T09:40:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n955f969e9d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "published": "2026-11-04T09:39:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1015ce39db",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Binance Hack: Fake Job Interviews Helped Hackers Steal $6.34 Billion",
-   "url": "https://hackread.com/binance-hack-fake-job-interviews-hackers-steal-billions/",
-   "published": "2026-11-04T09:34:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndfbcac3342",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
-   "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data/",
-   "published": "2026-11-04T09:24:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n68960d2138",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-   "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-   "published": "2026-11-04T09:23:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbb6c6d32c1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Who determines Iran’s fighting and negotiating position amid US threats?",
-   "url": "https://www.aljazeera.com/news/2026/11/4/who-determines-irans-fighting-and-negotiating-position-amid-us-threats?traffic_source=rss",
-   "published": "2026-11-04T09:16:57.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
