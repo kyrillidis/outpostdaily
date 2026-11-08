@@ -1,9 +1,53 @@
 {
  "date": "2026-11-08",
  "edition": 237,
- "compiled": "2026-11-08T15:41:18.804Z",
+ "compiled": "2026-11-08T20:03:51.384Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "840fc9184c",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "snippet": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+   "published": "2026-11-08T15:43:08.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/840fc9184c.webp",
+   "t": "2026-11-08",
+   "summary": "Iris Ohyama disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service.",
+   "why": "Review third-party cloud access and investigate whether personal information was exposed.",
+   "tags": [
+    "cloud service",
+    "unauthorized access",
+    "personal information"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9c037607d0",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+   "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+   "snippet": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+   "published": "2026-11-08T12:14:00.000Z",
+   "also": [],
+   "score": 1.34,
+   "image": "/img/news/9c037607d0.webp",
+   "t": "2026-11-08",
+   "summary": "Brava Security says its multi-agent AI platform generates attack-like telemetry to help identify gaps in enterprise defenses.",
+   "why": "Assess whether generated attack telemetry can help reveal gaps in existing defenses.",
+   "tags": [
+    "AI platform",
+    "telemetry",
+    "defenses"
+   ],
+   "ai": true
+  },
   {
    "id": "a977e0a42a",
    "section": "cyber",
@@ -14,7 +58,7 @@
    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that",
    "published": "2026-11-08T09:00:21.000Z",
    "also": [],
-   "score": 1.26,
+   "score": 1.17,
    "image": "/img/news/a977e0a42a.webp",
    "t": "2026-11-08",
    "summary": "Help Net Security’s weekly review mentions cyberattacks targeting European retailers’ refrigeration systems again and a Patch Tuesday forecast.",
@@ -36,7 +80,7 @@
    "snippet": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
    "published": "2026-11-07T15:25:35.000Z",
    "also": [],
-   "score": 1.09,
+   "score": 1,
    "image": "/img/news/ded94754be.webp",
    "t": "2026-11-07",
    "summary": "BleepingComputer reports a cyberattack targeting French cooperative bank Crédit Mutuel Arkéa enabled fraudulent transactions of up to $133 million, prompting the bank to suspend certain systems.",
@@ -58,7 +102,7 @@
    "snippet": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rew",
    "published": "2026-11-07T14:10:19.000Z",
    "also": [],
-   "score": 1.07,
+   "score": 0.98,
    "image": "/img/news/5a765cf499.webp",
    "t": "2026-11-07",
    "summary": "CTM360 says scammers impersonate major brands and celebrities in fake gift card giveaways that collect personal information and trigger unwanted subscriptions.",
@@ -67,6 +111,28 @@
     "gift card",
     "impersonation",
     "subscriptions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "986edfc864",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "snippet": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .",
+   "published": "2026-11-07T10:16:23.000Z",
+   "also": [],
+   "score": 0.8,
+   "image": "/img/news/986edfc864.webp",
+   "t": "2026-11-07",
+   "summary": "SecurityWeek reports that CVE-2026-19868 can let attackers with credentials for another login method bypass SonicOS SAML checks, including SAML-enforced MFA.",
+   "why": "Patch SonicOS and review SAML login protections, including MFA enforcement.",
+   "tags": [
+    "SonicOS",
+    "SAML",
+    "MFA"
    ],
    "ai": true
   },
@@ -80,7 +146,7 @@
    "snippet": "Naval Group will build an operational Unmanned Combat Underwater Vehicle (UCUV) demonstrator for the French Navy, with sea trials scheduled to begin in 2028. The post Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy appeared first on Naval News .",
    "published": "2026-11-08T09:38:42.000Z",
    "also": [],
-   "score": 1.37,
+   "score": 1.28,
    "image": "/img/news/1c2198eea9.webp",
    "t": "2026-11-08",
    "summary": "Naval Group will build an operational underwater combat drone demonstrator for the French Navy, with sea trials scheduled to begin in 2028.",
@@ -102,7 +168,7 @@
    "snippet": "France officially ordered a 32-cell VLS upgrade for the French Navy's FDI frigates at Euronaval 2026, doubling their Aster missile air defense capacity. The post Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates appeared first on Naval News .",
    "published": "2026-11-07T15:32:12.000Z",
    "also": [],
-   "score": 1,
+   "score": 0.91,
    "image": "/img/news/7395b0897f.webp",
    "t": "2026-11-07",
    "summary": "Naval News reports France ordered a 32-cell VLS upgrade for FDI frigates, doubling their Aster missile air defense capacity.",
@@ -124,7 +190,7 @@
    "snippet": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise testing how to move, protect and supply a force to rebuild Ukraine’s military after the war ends.",
    "published": "2026-11-07T15:05:44.000Z",
    "also": [],
-   "score": 0.99,
+   "score": 0.9,
    "image": "/img/news/8ae9deb78c.webp",
    "t": "2026-11-07",
    "summary": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise on moving, protecting and supplying a force for a postwar Ukraine deployment.",
@@ -137,29 +203,112 @@
    "ai": true
   },
   {
-   "id": "03b21cf168",
+   "id": "d5f506a53a",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-   "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-   "published": "2026-11-07T22:19:59.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.59,
-   "image": "/img/news/03b21cf168.webp",
-   "t": "2026-11-07",
-   "summary": "The BBC reports that neither Benjamin Netanyahu’s bloc nor its rival secured a majority in last week’s election.",
-   "why": "The absence of a majority frames the challenge of forming a government.",
+   "title": "Iran executes three men for 'armed unrest' after January protests",
+   "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "It is claimed Hassan Dioband, Hamid Kazemi and Reza Zanganeh were part of anti-government protests earlier this year.",
+   "published": "2026-11-08T13:37:50.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/d5f506a53a.webp",
+   "t": "2026-11-08",
+   "summary": "The report says Iran executed three men for “armed unrest” and claims they were part of anti-government protests earlier this year.",
+   "why": "The executions and protest allegations are relevant to Iran’s domestic political climate.",
    "tags": [
-    "Israel",
-    "election",
-    "majority"
+    "Iran",
+    "executions",
+    "protests"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1bca3ddfb0",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Eisenkot open to Netanyahu joining Israel’s next government",
+   "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
+   "snippet": "Israel's president officially tasks the opposition leader with forming a new government.",
+   "published": "2026-11-08T18:12:27.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/1bca3ddfb0.webp",
+   "t": "2026-11-08",
+   "summary": "Al Jazeera reports that Israel’s president tasked the opposition leader, identified in the title as Eisenkot, with forming a new government.",
+   "why": "The government-forming process is relevant to Israel’s political direction.",
+   "tags": [
+    "Eisenkot",
+    "government",
+    "Israel"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9b9296914d",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
+   "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
+   "snippet": "Protesters seek stricter trade restrictions on Israel and a halt to all arms sales.",
+   "published": "2026-11-08T17:44:51.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/9b9296914d.webp",
+   "t": "2026-11-08",
+   "summary": "Al Jazeera reports that protesters in Amsterdam called for stricter trade restrictions on Israel and an end to arms sales.",
+   "why": "The protest highlights public pressure over trade and arms-sale policy toward Israel.",
+   "tags": [
+    "Amsterdam",
+    "trade restrictions",
+    "arms sales"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9f3dea0143",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Jerusalem Daily: Eisenkot picked over Netanyahu to form government",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/dnrbltn-261108-hegazyn-jerusalem_daily-081126?traffic_source=rss",
+   "snippet": "Israel's president picks Gadi Eisenkot to form the next government, passing over Benjamin Netanyahu.",
+   "published": "2026-11-08T17:11:52.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/9f3dea0143.webp",
+   "t": "2026-11-08",
+   "summary": "Al Jazeera reports that Israel’s president picked Gadi Eisenkot to form the next government, passing over Benjamin Netanyahu.",
+   "why": "The choice may shape the next government’s formation and political direction.",
+   "tags": [
+    "Eisenkot",
+    "government",
+    "Netanyahu"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c3a7d0e6f8",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli forces release Palestinian journalist Abou Shhadeh",
+   "url": "https://www.aljazeera.com/news/2026/11/8/israeli-forces-release-palestinian-journalist-abou-shhadeh?traffic_source=rss",
+   "snippet": "Abed Abou Shhadeh says his detention was part of Israel's political measures 'to intimidate Arab society as a whole'.",
+   "published": "2026-11-08T16:18:09.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/c3a7d0e6f8.webp",
+   "t": "2026-11-08",
+   "summary": "Abed Abou Shhadeh says his detention was part of Israeli political measures intended to intimidate Arab society.",
+   "why": "The journalist’s account is relevant to debate over political measures and Arab society.",
+   "tags": [
+    "journalist",
+    "detention",
+    "Arab society"
    ],
    "ai": true
   },
@@ -173,7 +322,7 @@
    "snippet": "As fears of an escalation grow, Washington announces 'Task Force Iron Gate'.",
    "published": "2026-11-08T14:06:19.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.38,
    "image": "/img/news/ded8e92bc2.webp",
    "t": "2026-11-08",
    "summary": "Al Jazeera reports that Washington announced Task Force Iron Gate amid fears of escalation, aiming to cut off Iran’s transport of advanced weapons.",
@@ -182,50 +331,6 @@
     "Task Force Iron Gate",
     "Iran",
     "weapons"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bf3a8cb6e8",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-   "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
-   "snippet": "About 850,000 people lose power after Russian attacks on energy infrastructure in Ukraine's Dnipropetrovsk and Kharkiv.",
-   "published": "2026-11-08T12:20:17.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/bf3a8cb6e8.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera reports that Russian attacks on energy infrastructure in Dnipropetrovsk and Kharkiv left about 850,000 people without power.",
-   "why": "Damage to energy infrastructure has direct consequences for electricity access across affected regions.",
-   "tags": [
-    "energy infrastructure",
-    "Ukraine",
-    "electricity"
-   ],
-   "ai": true
-  },
-  {
-   "id": "38f02fc341",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Will Eisenkot be able to form Israel’s next gov’t amid divided opposition?",
-   "url": "https://www.aljazeera.com/news/2026/11/8/will-eisenkot-be-able-to-form-israels-next-govt-amid-divided-opposition?traffic_source=rss",
-   "snippet": "Former army chief has 28 days to cobble together a ruling coalition after President chose him over incumbent Netanyahu.",
-   "published": "2026-11-08T11:34:58.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/38f02fc341.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera says former army chief Eisenkot has 28 days to form a ruling coalition after the president chose him over incumbent Netanyahu.",
-   "why": "The coalition effort may shape Israel’s political direction.",
-   "tags": [
-    "Eisenkot",
-    "coalition",
-    "Israel"
    ],
    "ai": true
   },
@@ -239,7 +344,7 @@
    "snippet": "Israeli President Isaac Herzog tasked Gadi Eisenkot with the right of trying to form a government. The opposition leader's way to replacing Benjamin Netanyahu as prime minister is full of political challenges.",
    "published": "2026-11-08T15:18:00.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.3,
    "image": "/img/news/4498448773.webp",
    "t": "2026-11-08",
    "summary": "DW reports that President Isaac Herzog tasked Gadi Eisenkot with trying to form a government, a process facing political challenges.",
@@ -252,68 +357,24 @@
    "ai": true
   },
   {
-   "id": "5a87954010",
+   "id": "7bf2ce5d73",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Tennis world number one Rybakina withdraws from WTA Finals due to virus",
-   "url": "https://www.aljazeera.com/sports/2026/11/8/tennis-world-number-one-rybakina-withdraws-from-wta-finals-due-to-virus?traffic_source=rss",
-   "snippet": "Rybakina pulled out on the eve of the Indian Wells tournament, with Ukraine's Marta Kostyuk replacing the top seed.",
-   "published": "2026-11-08T10:03:21.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "published": "2026-11-08T04:03:12.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/5a87954010.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera reports that Rybakina withdrew from the WTA Finals due to a virus, with Marta Kostyuk replacing the top seed at Indian Wells.",
-   "why": "The withdrawal changes the tournament lineup.",
+   "score": 1.27,
+   "image": "/img/news/7bf2ce5d73.webp",
+   "t": "2026-11-07",
+   "summary": "The Houthis say at least 25 people were killed in a Saudi air strike. Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "why": "The report concerns conflict in Yemen and includes differing positions on responsibility and comment.",
    "tags": [
-    "Rybakina",
-    "virus",
-    "WTA Finals"
-   ],
-   "ai": true
-  },
-  {
-   "id": "00b21f280e",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Democrats’ congressional win could strengthen Ukraine’s hand against Russia",
-   "url": "https://www.aljazeera.com/news/2026/11/8/democrats-congressional-win-could-strengthen-ukraines-hand-against-russia?traffic_source=rss",
-   "snippet": "Ukraine hopes for more US support but faces uncertainty over Trump’s peace efforts and continued military aid.",
-   "published": "2026-11-08T09:30:17.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/00b21f280e.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera says Ukraine hopes for more US support after Democrats’ congressional win, while Trump’s peace efforts and continued military aid remain uncertain.",
-   "why": "US political developments may affect Ukraine’s expectations for support and military aid.",
-   "tags": [
-    "Ukraine",
-    "US support",
-    "military aid"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e792cabafc",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Floods in Gaza leave tens of thousands without shelter",
-   "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter?traffic_source=rss",
-   "snippet": "Civil Defence reports over 1,500 emergency calls as thousands of tents and shelters destroyed after heavy rains.",
-   "published": "2026-11-08T09:28:52.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/e792cabafc.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera reports that heavy rains destroyed thousands of tents and shelters in Gaza; Civil Defence reported over 1,500 emergency calls.",
-   "why": "The damage highlights shelter needs and emergency-response demands in Gaza.",
-   "tags": [
-    "Gaza",
-    "floods",
-    "shelter"
+    "Houthis",
+    "Saudi Arabia",
+    "Yemen"
    ],
    "ai": true
   }
@@ -465,47 +526,47 @@
   }
  ],
  "run_today": [
-  "Review access and security monitoring for systems supporting refrigeration operations.",
-  "Check whether alerts cover unusual activity affecting refrigeration systems at retail sites.",
-  "Confirm response procedures account for cyber incidents affecting refrigeration operations."
+  "Review access to third-party cloud services for Iris Ohyama-like exposure risks.",
+  "Check whether personal information stored in cloud services may have been exposed.",
+  "Consider using attack-like telemetry to identify gaps in enterprise defenses."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "refrigeration cyberattacks",
-   "explainer": "Cyberattacks targeting refrigeration systems are incidents involving digital systems that support refrigeration operations. The item identifies European retailers as affected, but gives no further technical details.",
-   "from_id": "a977e0a42a",
-   "from": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
-   "fromSource": "Help Net Security"
+   "term": "Third-party cloud service",
+   "explainer": "A cloud service operated by an outside provider and used by an organization. Access to such a service can matter when assessing where information is stored and who can reach it.",
+   "from_id": "840fc9184c",
+   "from": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Unmanned Combat Underwater Vehicle (UCUV)",
-   "explainer": "An Unmanned Combat Underwater Vehicle is an underwater vehicle designed for combat operations without an onboard crew. The item describes a demonstrator planned for the French Navy.",
+   "term": "Underwater combat drone",
+   "explainer": "An underwater drone intended for combat-related use. The title describes a demonstrator being built for a navy, indicating a system under development rather than a stated operational deployment.",
    "from_id": "1c2198eea9",
    "from": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy/",
    "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "energy infrastructure",
-   "explainer": "Energy infrastructure refers to systems and facilities that support energy supply. The item describes attacks on this infrastructure in Ukraine and reports resulting power losses.",
-   "from_id": "bf3a8cb6e8",
-   "from": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
+   "term": "Forming a government",
+   "explainer": "The process of assembling a government after a leader is tasked with doing so. The Israel stories describe a president selecting a person to take on that role.",
+   "from_id": "1bca3ddfb0",
+   "from": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Political uncertainty and infrastructure pressures shape the briefing",
+  "headline": "Cloud Exposure and Political Change in Focus",
   "paragraphs": [
-   "The top stories combine political transitions, security initiatives and damage to critical infrastructure. Israel’s president has tasked Eisenkot with trying to form a government, while reports describe the coalition challenge and the lack of a majority for either bloc. These accounts point to an unsettled political process, not a settled outcome.",
-   "The announced US task force focused on Iran’s transport of advanced weapons sits alongside reports of Russian attacks leaving about 850,000 people without power in parts of Ukraine. Together, they show how security concerns can involve both the movement of weapons and the resilience of essential infrastructure. The stories do not establish a connection between these events.",
-   "For analysts, the combination suggests watching political decisions alongside operational impacts, without treating stated aims as achieved results. The Ukraine support story adds uncertainty about US military aid and peace efforts. The underwater drone demonstrator is a separate technology development; its sea trials are scheduled to begin in 2028, but the item gives no further operational details."
+   "The stories span a possible cloud-data exposure, political developments in Israel, protests in Amsterdam, and executions in Iran. They concern different settings, but each makes information, public claims, or institutional decisions central to understanding events.",
+   "For defenders, Iris Ohyama’s disclosure points to the importance of examining third-party cloud access and possible exposure of personal information. Brava Security describes generating attack-like telemetry to find defense gaps; the item presents this as a way to test defenses, not as evidence of a specific breach.",
+   "For analysts, reports on government formation, demonstrations, and executions offer different signals about political pressures and decisions. The Israel government stories describe the same selection from different angles. Watch how claims are attributed and what further details emerge; the snippets alone do not establish wider consequences."
   ],
   "takeaways": [
-   "Eisenkot’s government-forming effort remains politically challenging.",
-   "The US task force is an announced effort, not a reported outcome.",
-   "Energy infrastructure damage has left people without power in Ukraine."
+   "Check third-party cloud access and possible exposure of personal information.",
+   "Attack-like telemetry may help surface gaps in enterprise defenses.",
+   "Treat political claims and developments according to their stated sources."
   ]
  },
  "health": [
@@ -525,13 +586,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Record",
@@ -542,8 +603,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "n": 2
   },
   {
    "name": "Help Net Security",
@@ -693,7 +754,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 5
   },
   {
    "name": "DW",
