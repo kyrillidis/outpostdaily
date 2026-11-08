@@ -1,13 +1,8 @@
 {
- "updated": "2026-11-08T15:22:07.439Z",
+ "updated": "2026-11-08T19:47:16.011Z",
  "health": [
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -17,9 +12,29 @@
    "error": "HTTP 402"
   },
   {
-   "name": "BBC World",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -27,27 +42,12 @@
    "n": 0
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 5
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Dark Reading",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -57,19 +57,24 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": false,
+   "error": "HTTP 521"
   },
   {
    "name": "SOCRadar blog",
@@ -77,19 +82,14 @@
    "n": 0
   },
   {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,105 @@
   }
  ],
  "items": [
+  {
+   "id": "n1bca3ddfb0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Eisenkot open to Netanyahu joining Israel’s next government",
+   "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
+   "published": "2026-11-08T18:12:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n94bf2b9a70",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Don’t Hand Propaganda a Gift: Reading the Brenner Base Tunnel SE Breach Calmly",
+   "url": "https://securityaffairs.com/202691/cyber-crime/dont-hand-propaganda-a-gift-reading-the-brenner-base-tunnel-se-breach-calmly.html",
+   "published": "2026-11-08T17:46:16.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n9b9296914d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
+   "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
+   "published": "2026-11-08T17:44:51.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbb1f9dbb66",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Two months after my father’s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
+   "url": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+   "published": "2026-11-08T17:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne2ae720feb",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
+   "url": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
+   "published": "2026-11-08T17:23:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n523c17ea88",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli opposition leader warns of ‘point of no return’ for democracy",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/8-11-clip-eisenkot-address-il?traffic_source=rss",
+   "published": "2026-11-08T16:51:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9b5ca2220f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Seven killed, 112 injured in train collision in Egypt",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+   "published": "2026-11-08T16:31:54.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n840fc9184c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "published": "2026-11-08T15:43:08.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n5805aaf8f1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 7",
+   "url": "https://securityaffairs.com/202682/ai/security-affairs-ai-cybersecurity-newsletter-round-7.html",
+   "published": "2026-11-08T15:28:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n641ce6f2ef",
    "kind": "news",
@@ -2217,303 +2316,6 @@
    "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-05T19:58:40.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncfa298e42f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Eight killed in series of shootings in western Turkey",
-   "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-05T19:32:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2e438c49db",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
-   "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials?traffic_source=rss",
-   "published": "2026-11-05T19:31:28.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7e637a2f9f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-   "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-   "published": "2026-11-05T19:24:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndd39564224",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
-   "url": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
-   "published": "2026-11-05T19:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n73e1f358ad",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-   "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-05T19:08:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nee34a295b1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
-   "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
-   "published": "2026-11-05T18:47:10.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd906454d32",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Arab party backs Eisenkot in bid to form Israel’s next government",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
-   "published": "2026-11-05T18:30:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n671b07a9ce",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-   "published": "2026-11-05T17:45:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne86be75da8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-   "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-05T17:39:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne71e865c96",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty.’",
-   "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
-   "published": "2026-11-05T17:39:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5869883f59",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I’m 65 and worth more than $5.6 million. Can I buy a $200,000 camper even though the price feels ‘crazy high’?",
-   "url": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
-   "published": "2026-11-05T17:33:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3347a00667",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-   "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-   "published": "2026-11-05T17:32:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd4fad7f156",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
-   "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-   "published": "2026-11-05T17:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3f14a414b3",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
-   "url": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
-   "published": "2026-11-05T17:11:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n95f086dcd8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jordanian officer killed in stabbing attack in Amman",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
-   "published": "2026-11-05T17:08:45.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nc81da05770",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Hackers Tamper With Refrigeration Controls at France’s National Blood Service",
-   "url": "https://hackread.com/hackers-tamper-refrigeration-controls-france-blood-service/",
-   "published": "2026-11-05T17:06:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n975e95837e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How to buy a new car for under $30,000 in this economy",
-   "url": "https://www.marketwatch.com/story/how-to-buy-a-new-car-for-under-30-000-in-this-economy-24b01f99?mod=mw_rss_topstories",
-   "published": "2026-11-05T17:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n44c256844f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
-   "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
-   "published": "2026-11-05T17:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd5adbe7645",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
-   "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
-   "published": "2026-11-05T16:48:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb29a036a28",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gaza holds final of tournament honouring more than 1,000 slain athletes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss",
-   "published": "2026-11-05T16:46:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5263a8e99f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-   "published": "2026-11-05T16:24:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n177b1713f1",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The year’s most successful stock-market trades are unraveling — perhaps for good",
-   "url": "https://www.marketwatch.com/story/the-years-most-successful-stock-market-trades-are-unraveling-perhaps-for-good-45f7a0dd?mod=mw_rss_topstories",
-   "published": "2026-11-05T16:23:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neefa84fc43",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "A record number of first-time home buyers now pay in cash. Here’s where they get the money.",
-   "url": "https://www.marketwatch.com/story/a-record-10-of-first-time-home-buyers-now-pay-in-cash-heres-where-they-get-the-money-70f2e656?mod=mw_rss_topstories",
-   "published": "2026-11-05T16:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6b1d9cd5a0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "DigiCert data breach exposes customer information, identity documents",
-   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-   "published": "2026-11-05T16:12:46.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n1af6caa9e6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’",
-   "url": "https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories",
-   "published": "2026-11-05T16:12:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne14460c4bd",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "An Anthropic IPO when the AI trade is this turbulent? Good luck!",
-   "url": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
-   "published": "2026-11-05T16:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nffdce0d88e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "France holds new strikes and protests as unions demand immediate answers",
-   "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-05T15:43:15.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
