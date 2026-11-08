@@ -1,11 +1,6 @@
 {
- "updated": "2026-11-07T22:50:31.449Z",
+ "updated": "2026-11-08T01:54:36.434Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "BleepingComputer",
    "ok": true,
@@ -17,19 +12,24 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 8
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -39,12 +39,17 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 4
+   "n": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Hackread",
@@ -52,17 +57,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -72,9 +67,9 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -82,12 +77,17 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,50 @@
   }
  ],
  "items": [
+  {
+   "id": "n4030532073",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+   "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss",
+   "published": "2026-11-08T01:37:55.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nae905b2cfb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+   "published": "2026-11-08T00:50:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n99179248bf",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+   "published": "2026-11-08T00:00:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc9a2b72565",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
+   "published": "2026-11-07T23:45:45.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2601,72 +2645,6 @@
    "title": "El Salvador’s Bukele touts military intervention in Haiti",
    "url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
    "published": "2026-11-05T02:10:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n38872a19a0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
-   "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
-   "published": "2026-11-05T01:53:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3f5525e9ef",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "McDonald’s tests new value menu as fast-food discount wars heat up",
-   "url": "https://www.marketwatch.com/story/mcdonalds-tests-new-value-menu-as-fast-food-discount-wars-heat-up-bfc57caf?mod=mw_rss_topstories",
-   "published": "2026-11-05T01:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1ec826c329",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
-   "url": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
-   "published": "2026-11-05T00:38:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6f2c84f473",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Khamenei says US hostility will persist after midterms",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
-   "published": "2026-11-05T00:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb062b2819c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘My life could be cut short’: I’m 55, married with $4.3 million and have a brain tumor. Should I buy a $210,000 custom Porsche?",
-   "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
-   "published": "2026-11-04T23:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf8646df3b8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump blames Iran war for midterms losses",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
-   "published": "2026-11-04T23:30:01.000Z",
    "severity": "normal",
    "verified": true
   }
