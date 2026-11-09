@@ -1,72 +1,321 @@
 {
  "date": "2026-11-09",
  "edition": 238,
- "compiled": "2026-11-09T03:51:58.384Z",
+ "compiled": "2026-11-09T12:23:16.275Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "840fc9184c",
+   "id": "53877e7ba1",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-   "snippet": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
-   "published": "2026-11-08T15:43:08.000Z",
+   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+   "snippet": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+   "published": "2026-11-09T12:16:13.000Z",
    "also": [],
-   "score": 1.35,
-   "image": "/img/news/840fc9184c.webp",
-   "t": "2026-11-08",
-   "summary": "Iris Ohyama disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service.",
-   "why": "Review third-party cloud access and investigate whether personal information was exposed.",
+   "score": 1.6,
+   "image": "/img/news/53877e7ba1.webp",
+   "t": "2026-11-09",
+   "summary": "Ukrainian law enforcement arrested four suspects over a cryptocurrency investment scam network that allegedly stole more than €4.3 million.",
+   "why": "Review user reports and payment flows for signs of cryptocurrency investment scams.",
    "tags": [
-    "cloud service",
-    "unauthorized access",
-    "personal information"
+    "cryptocurrency",
+    "scam"
    ],
    "ai": true
   },
   {
-   "id": "9c037607d0",
+   "id": "de97195118",
    "section": "cyber",
    "source": "SecurityWeek",
    "weight": 0.5,
-   "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
-   "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
-   "snippet": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
-   "published": "2026-11-08T12:14:00.000Z",
+   "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+   "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+   "snippet": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .",
+   "published": "2026-11-09T12:13:32.000Z",
    "also": [],
-   "score": 1.17,
-   "image": "/img/news/9c037607d0.webp",
-   "t": "2026-11-08",
-   "summary": "Brava Security says its multi-agent AI platform generates attack-like telemetry to help identify gaps in enterprise defenses.",
-   "why": "Assess whether generated attack telemetry can help reveal gaps in existing defenses.",
+   "score": 1.5,
+   "image": "/img/news/de97195118.webp",
+   "t": "2026-11-09",
+   "summary": "SecurityWeek reports that botnets and crypto miners are among the actors initially exploiting the SSHole authentication bypass in OpenSSH.",
+   "why": "Check OpenSSH systems for exposure and apply available mitigations or updates.",
    "tags": [
-    "AI platform",
-    "telemetry",
-    "defenses"
+    "OpenSSH",
+    "authentication bypass"
    ],
    "ai": true
   },
   {
-   "id": "a977e0a42a",
+   "id": "c5154d08fa",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast",
-   "url": "https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/",
-   "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that",
-   "published": "2026-11-08T09:00:21.000Z",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+   "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+   "snippet": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now par",
+   "published": "2026-11-09T11:27:53.000Z",
    "also": [],
-   "score": 1.01,
-   "image": "/img/news/a977e0a42a.webp",
-   "t": "2026-11-08",
-   "summary": "Help Net Security’s weekly review mentions cyberattacks targeting European retailers’ refrigeration systems again and a Patch Tuesday forecast.",
-   "why": "Check access and security monitoring for systems supporting refrigeration operations.",
+   "score": 1.48,
+   "image": "/img/news/c5154d08fa.webp",
+   "t": "2026-11-09",
+   "summary": "Researchers found default admin:admin credentials in login systems for two car brands’ mobile apps, potentially allowing account access and control of connected cars.",
+   "why": "Audit app and server credentials, and review connected-car access controls.",
    "tags": [
-    "cyberattacks",
-    "refrigeration",
-    "Patch Tuesday"
+    "admin:admin",
+    "connected cars"
+   ],
+   "ai": true
+  },
+  {
+   "id": "156a0344f3",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+   "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+   "snippet": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .",
+   "published": "2026-11-09T11:20:09.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/156a0344f3.webp",
+   "t": "2026-11-09",
+   "summary": "SecurityWeek reports that hackers stole personal, health, and insurance information, including Social Security numbers, from Amplifon Americas’ internal systems.",
+   "why": "Check for exposure of sensitive personal and health information and follow breach response procedures.",
+   "tags": [
+    "data breach",
+    "health information"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a02fb0af29",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "snippet": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used ",
+   "published": "2026-11-09T10:56:25.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/a02fb0af29.webp",
+   "t": "2026-11-09",
+   "summary": "An attacker used a flaw at Web3Auth to steal funds from some Keplr users who set up wallets with Google or Apple accounts.",
+   "why": "Review affected wallet sign-in paths and communicate with users about account security.",
+   "tags": [
+    "Web3Auth",
+    "crypto wallet"
+   ],
+   "ai": true
+  },
+  {
+   "id": "62af4291e1",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "snippet": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to with",
+   "published": "2026-11-09T10:01:21.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/62af4291e1.webp",
+   "t": "2026-11-09",
+   "summary": "The LNbits project urged operators to shut down Bitcoin Lightning wallet servers amid attacks, pending security fixes.",
+   "why": "If operating LNbits, follow the project’s shutdown guidance and watch for its security fixes.",
+   "tags": [
+    "LNbits",
+    "Bitcoin Lightning"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c0c651efe",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+   "snippet": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .",
+   "published": "2026-11-09T10:09:02.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/3c0c651efe.webp",
+   "t": "2026-11-09",
+   "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.",
+   "why": "Check whether school staff or students need breach-related support or notifications.",
+   "tags": [
+    "data breach",
+    "education"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e8082cc54d",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+   "snippet": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login.",
+   "published": "2026-11-09T09:01:50.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/e8082cc54d.webp",
+   "t": "2026-11-09",
+   "summary": "Acronis researchers said an attacker used AI agents to obtain emergency dispatch records covering seven Taipei districts and find a fire department platform exposing patient data.",
+   "why": "Review exposed public-service platforms and restrict access to dispatch and patient records.",
+   "tags": [
+    "AI agents",
+    "dispatch records"
+   ],
+   "ai": true
+  },
+  {
+   "id": "33c824e207",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "snippet": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek .",
+   "published": "2026-11-09T08:35:50.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/33c824e207.webp",
+   "t": "2026-11-09",
+   "summary": "DeepMind’s AI agents reportedly helped cryptographers reduce the cost of forging RSA-1024 signatures and find a cheaper way to factor keys.",
+   "why": "Assess reliance on RSA-1024 and track the reported cryptographic findings.",
+   "tags": [
+    "AI agents",
+    "RSA-1024"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a2c922a06d",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+   "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+   "snippet": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea",
+   "published": "2026-11-09T07:05:48.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/a2c922a06d.webp",
+   "t": "2026-11-09",
+   "summary": "A former OpenAI engineer accused of planting a covert audio recording device in an executive meeting room pleaded not guilty.",
+   "why": "Review workplace controls for detecting and managing unauthorized recording devices.",
+   "tags": [
+    "covert device",
+    "recording"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5fdfa2c52f",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp",
+   "url": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp/",
+   "snippet": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades. Marc Andersen (Army comptroller), Brandon Daniels (Exiger), and Joseph “Gus” Guastella (Voyager Technologies) join Jonath",
+   "published": "2026-11-09T09:00:45.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/5fdfa2c52f.webp",
+   "t": "2026-11-09",
+   "summary": "The Pentagon’s record demand for munitions faces delivery challenges because many suppliers several tiers below prime contractors disappeared over the last two decades.",
+   "why": "Supplier depth may shape how quickly increased munitions demand becomes deliveries.",
+   "tags": [
+    "munitions",
+    "suppliers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3e24835a7b",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Rethinking Strategic Stability with China: From Coercion to Constructivism",
+   "url": "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/",
+   "snippet": "Every administration since the Cold War has been looking for a significant foreign policy breakthrough with China. Spanning containment and normalization to opening and reform, U.S. policymakers have long hoped that China would fulfill its place in the international order and transform itself into a “responsible stakeh",
+   "published": "2026-11-09T08:30:24.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/3e24835a7b.webp",
+   "t": "2026-11-09",
+   "summary": "The article reviews U.S. policymakers’ longstanding search for a major foreign policy breakthrough with China, spanning approaches from containment to opening and reform.",
+   "why": "The policy history frames how analysts assess U.S.-China strategic stability.",
+   "tags": [
+    "China",
+    "strategic stability"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ce9e13064e",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Swiss neutrality proponents challenge arms firms in vote on easing of exports",
+   "url": "https://www.defensenews.com/global/europe/2026/11/09/swiss-neutrality-proponents-challenge-arms-firms-in-vote-on-easing-of-exports/",
+   "snippet": "Swiss voters will decide on Nov. 29 whether to block a bill relaxing curbs on weapons exports, in a referendum that touches on Switzerland's evolving neutral tradition.",
+   "published": "2026-11-09T12:19:22.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/ce9e13064e.webp",
+   "t": "2026-11-09",
+   "summary": "Swiss voters will decide on Nov. 29 whether to block a bill that would relax restrictions on weapons exports, amid debate over neutrality.",
+   "why": "The vote may clarify how Swiss neutrality shapes weapons-export policy.",
+   "tags": [
+    "neutrality",
+    "weapons exports"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0cd0e5eb64",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
+   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-and-msi-ds-partner-on-next-gen-counter-drone-naval-turrets/",
+   "snippet": "Safran and MSI-Defence Systems highlighted their new counter-drone turret partnership at Euronaval 2026, securing a C-UAS contract for a European NATO navy. The post Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets appeared first on Naval News .",
+   "published": "2026-11-09T09:39:36.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/0cd0e5eb64.webp",
+   "t": "2026-11-09",
+   "summary": "Safran and MSI-Defence Systems highlighted a counter-drone turret partnership and a contract for a European NATO navy.",
+   "why": "The partnership highlights counter-drone systems as a naval operational capability.",
+   "tags": [
+    "counter-drone",
+    "naval turret"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f0408be848",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "SEABER Unveils RAVEN Compact AUV for Mine Warfare Missions",
+   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/seaber-unveils-raven-compact-auv-for-mine-warfare-missions/",
+   "snippet": "French AUV manufacturer SEABER announces the launch of RAVEN®, a new generation of compact autonomous underwater vehicles for mine countermeasures (MCM) and survey. Designed to compete with established market leaders, RAVEN® challenges their cost structure. SEABER press release Weighing 13 kg with a 12 cm diameter, RAV",
+   "published": "2026-11-09T09:27:48.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/f0408be848.webp",
+   "t": "2026-11-09",
+   "summary": "French manufacturer SEABER unveiled RAVEN, a compact autonomous underwater vehicle for mine countermeasures and survey.",
+   "why": "Compact autonomous vehicles offer a platform for mine-countermeasure and survey missions.",
+   "tags": [
+    "AUV",
+    "mine countermeasures"
    ],
    "ai": true
   },
@@ -80,7 +329,7 @@
    "snippet": "Naval Group will build an operational Unmanned Combat Underwater Vehicle (UCUV) demonstrator for the French Navy, with sea trials scheduled to begin in 2028. The post Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy appeared first on Naval News .",
    "published": "2026-11-08T09:38:42.000Z",
    "also": [],
-   "score": 1.12,
+   "score": 0.94,
    "image": "/img/news/1c2198eea9.webp",
    "t": "2026-11-08",
    "summary": "Naval Group will build an operational underwater combat drone demonstrator for the French Navy, with sea trials scheduled to begin in 2028.",
@@ -93,175 +342,170 @@
    "ai": true
   },
   {
-   "id": "499b9f9b6b",
+   "id": "47e6a652f0",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "The Experts Are Taking Their Revenge Again",
+   "url": "https://foreignpolicy.com/2026/11/09/trump-iran-cia-intelligence/",
+   "snippet": "The Iran war is the latest example of Washington disregarding intelligence—and suffering the consequences.",
+   "published": "2026-11-09T08:08:55.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/47e6a652f0.webp",
+   "t": "2026-11-09",
+   "summary": "The article presents the Iran war as an example of Washington disregarding intelligence and suffering consequences.",
+   "why": "The claim foregrounds intelligence use as a factor in assessing wartime decisions.",
+   "tags": [
+    "Iran war",
+    "intelligence"
+   ],
+   "ai": true
+  },
+  {
+   "id": "48976007b2",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-   "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-   "published": "2026-11-08T21:37:36.000Z",
+   "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+   "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
+   "published": "2026-11-09T07:10:11.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/499b9f9b6b.webp",
+   "score": 1.49,
+   "image": "/img/news/48976007b2.webp",
    "t": "2026-11-09",
-   "summary": "BBC Verify authenticated footage showing damage to a building in Riyadh’s central financial district, following fresh strikes launched by the Houthis, according to the headline.",
-   "why": "Damage in a capital’s financial district highlights the location’s strategic and economic significance.",
+   "summary": "The BBC asks whether Nvidia CEO Jensen Huang’s reputation can withstand news of an alleged affair with a suspected Chinese spy.",
+   "why": "The story centers on how alleged links may affect perceptions of a major technology figure.",
    "tags": [
-    "Houthis",
-    "financial district"
+    "Nvidia",
+    "China"
    ],
    "ai": true
   },
   {
-   "id": "a3e97f86f9",
+   "id": "408a5794c8",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Moldova launches new power line to Romania to cut reliance on Russia",
-   "url": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss",
-   "snippet": "Moldovan President Maia Sandu says 'two more power lines to Romania are on the way'.",
-   "published": "2026-11-09T02:35:15.000Z",
+   "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
+   "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
+   "snippet": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+   "published": "2026-11-09T10:50:49.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/a3e97f86f9.webp",
+   "image": "/img/news/408a5794c8.webp",
    "t": "2026-11-09",
-   "summary": "Moldova has launched a new power line to Romania to reduce reliance on Russia. President Maia Sandu says two more lines are on the way.",
-   "why": "The connection may diversify Moldova’s electricity links and reduce reliance on Russia.",
+   "summary": "Al Jazeera reports that four children and a woman died after heavy rain caused a sandbank to collapse on their tent in Gaza.",
+   "why": "The report highlights how severe weather and local terrain can shape civilian risk.",
    "tags": [
-    "power line",
-    "Romania",
-    "Russia"
+    "Gaza",
+    "sandbank"
    ],
    "ai": true
   },
   {
-   "id": "5f1f35e394",
+   "id": "dd80f3b610",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-   "snippet": "A drone attack has halted production at the Khor Mor gas field in northern Iraq, causing widespread power outages.",
-   "published": "2026-11-09T02:23:11.000Z",
+   "title": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
+   "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss",
+   "snippet": "Allegations linking CEO to Chinese intelligence shake markets with chipmaker's shares falling more than 4 percent.",
+   "published": "2026-11-09T10:49:02.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/5f1f35e394.webp",
+   "image": "/img/news/dd80f3b610.webp",
    "t": "2026-11-09",
-   "summary": "Al Jazeera reports a drone attack halted production at the Khor Mor gas field in northern Iraq and caused widespread power outages.",
-   "why": "The attack shows how disruption at a gas field can affect regional electricity supply.",
+   "summary": "Al Jazeera reports that allegations linking Nvidia CEO Jensen Huang to Chinese intelligence shook markets, with the chipmaker’s shares falling more than 4 percent.",
+   "why": "The allegations connect geopolitical concerns with market reactions around a chipmaker.",
    "tags": [
-    "drone attack",
-    "gas field",
-    "power outages"
+    "Nvidia",
+    "China"
    ],
    "ai": true
   },
   {
-   "id": "2b3dc2d2a9",
+   "id": "8ad63691b7",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
-   "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss",
-   "snippet": "The strike leaves more than 70 percent of northern Iraq's Kurdish region without power.",
-   "published": "2026-11-09T01:19:09.000Z",
+   "title": "US deports Lebanese consul-general in Detroit over Hezbollah praise",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/us-deports-lebanese-consul-general-in-detroit-over-hezbollah-praise?traffic_source=rss",
+   "snippet": "US Secretary of State Marco Rubio has ordered Ibrahim Charara, Lebanon’s consul general in Detroit, to leave the country",
+   "published": "2026-11-09T10:35:53.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/8ad63691b7.webp",
+   "t": "2026-11-09",
+   "summary": "The U.S. secretary of state ordered Lebanon’s consul general in Detroit to leave the country over praise for Hezbollah, Al Jazeera reports.",
+   "why": "The action highlights diplomatic consequences tied to political statements.",
+   "tags": [
+    "Lebanon",
+    "Hezbollah"
+   ],
+   "ai": true
+  },
+  {
+   "id": "33b0f95b03",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Is Hegseth the New Rumsfeld?",
+   "url": "https://foreignpolicy.com/2026/11/09/hegseth-rumsfeld-impeach-congress/",
+   "snippet": "When the face of an unpopular war faces a wrathful Congress “stuff happens.”",
+   "published": "2026-11-09T05:01:06.000Z",
    "also": [],
    "score": 1.45,
-   "image": "/img/news/2b3dc2d2a9.webp",
+   "image": "/img/news/33b0f95b03.webp",
    "t": "2026-11-09",
-   "summary": "Al Jazeera reports a strike suspended production at Iraq’s Khor Mor gas field, leaving more than 70 percent of the Kurdish region without power.",
-   "why": "The reported outage underscores the regional impact of disruption to energy infrastructure.",
+   "summary": "The article compares Hegseth with Rumsfeld and describes congressional anger toward the face of an unpopular war.",
+   "why": "The story points to domestic political pressure around wartime leadership.",
    "tags": [
-    "strike",
-    "gasfield",
-    "power"
+    "Congress",
+    "war"
    ],
    "ai": true
   },
   {
-   "id": "1dd415ded7",
+   "id": "ffb0b5ca14",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, ‘denuclearisation’",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
-   "snippet": "Trump says Iran land blockade is now in effect, as Tehran threatens to 'rain down hell' if US resumes attacks.",
-   "published": "2026-11-09T00:00:34.000Z",
+   "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
+   "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight?traffic_source=rss",
+   "snippet": "Russia's second-largest oil refinery is set on fire by drones while Russian strikes target Ukrainian energy sites.",
+   "published": "2026-11-09T10:08:45.000Z",
    "also": [],
-   "score": 1.42,
-   "image": "/img/news/1dd415ded7.webp",
+   "score": 1.45,
+   "image": "/img/news/ffb0b5ca14.webp",
    "t": "2026-11-09",
-   "summary": "Trump says a land blockade on Iran is in effect and that he will talk to Xi and Putin about Tehran. Tehran threatens retaliation if the US resumes attacks.",
-   "why": "The statements indicate a diplomatic and military standoff involving Iran, the US, China and Russia.",
+   "summary": "Al Jazeera reports that drones set fire to Russia’s second-largest oil refinery as Russian strikes targeted Ukrainian energy sites.",
+   "why": "The strikes highlight energy infrastructure as a target in the conflict.",
    "tags": [
-    "blockade",
-    "Tehran",
-    "denuclearisation"
+    "drones",
+    "energy sites"
    ],
    "ai": true
   },
   {
-   "id": "e2433de357",
+   "id": "64bd8139fd",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Nvidia CEO’s affair sparks Chinese espionage probe",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
-   "snippet": "Nvidia CEO Jensen Huang has admitted to an affair with a woman suspected of spying for China.",
-   "published": "2026-11-08T23:58:53.000Z",
+   "title": "Iran’s authorities harden domestic security controls amid US strike threats",
+   "url": "https://www.aljazeera.com/news/2026/11/9/irans-authorities-harden-domestic-security-controls-amid-us-strike-threats?traffic_source=rss",
+   "snippet": "Iran is cracking down on perceived security threats from alleged spies to crowds of youngsters.",
+   "published": "2026-11-09T09:56:13.000Z",
    "also": [],
-   "score": 1.42,
-   "image": "/img/news/e2433de357.webp",
+   "score": 1.45,
+   "image": "/img/news/64bd8139fd.webp",
    "t": "2026-11-09",
-   "summary": "The headline reports a Chinese espionage probe after Nvidia CEO Jensen Huang admitted to an affair with a woman suspected of spying for China.",
-   "why": "The reported probe illustrates how alleged espionage concerns can intersect with business and personal relationships.",
-   "tags": [
-    "espionage",
-    "China",
-    "Nvidia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9148fc8519",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Deadly sand cliff collapses on displaced families in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss",
-   "snippet": "Deadly sand cliff collapses on displaced families in Gaza",
-   "published": "2026-11-08T21:05:07.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/9148fc8519.webp",
-   "t": "2026-11-08",
-   "summary": "Al Jazeera reports that a sand cliff collapsed on displaced families in Gaza, causing deaths.",
-   "why": "The collapse highlights the immediate risks of terrain and shelter conditions for displaced people.",
-   "tags": [
-    "sand cliff",
-    "Gaza"
-   ],
-   "ai": true
-  },
-  {
-   "id": "adf55758cb",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran waiting to resume talks after US midterms ‘shock’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss",
-   "snippet": "Iranian Foreign Minister Abbas Araghchi says there has been no progress in talks with the US.",
-   "published": "2026-11-08T20:51:22.000Z",
-   "also": [],
-   "score": 1.35,
-   "image": "/img/news/adf55758cb.webp",
-   "t": "2026-11-08",
-   "summary": "Iranian Foreign Minister Abbas Araghchi says there has been no progress in talks with the US.",
-   "why": "The statement is relevant to tracking the status of US-Iran diplomacy.",
+   "summary": "Iran is tightening domestic security controls against perceived threats, from alleged spies to crowds of young people, Al Jazeera reports.",
+   "why": "The measures indicate a widening domestic security focus amid external strike threats.",
    "tags": [
     "Iran",
-    "talks"
+    "security controls"
    ],
    "ai": true
   }
@@ -412,44 +656,48 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
   }
  ],
- "run_today": [],
+ "run_today": [
+  "Check OpenSSH systems for exposure to the SSHole authentication bypass and apply available mitigations or updates.",
+  "Audit app and server credentials for default admin:admin logins, especially where connected-car services are involved.",
+  "If operating LNbits, follow the project’s shutdown guidance and monitor for security fixes."
+ ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "cloud breach",
-   "explainer": "A cloud breach is unauthorized access to information stored in a cloud service. The title describes customer information as exposed, but gives no further details about how it happened.",
-   "from_id": "840fc9184c",
-   "from": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-   "fromSource": "BleepingComputer"
+   "term": "authentication bypass",
+   "explainer": "An authentication bypass is a flaw that lets someone get past a system’s normal login checks. The OpenSSH report describes exploitation of this kind of weakness.",
+   "from_id": "de97195118",
+   "from": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+   "fromSource": "SecurityWeek"
   },
   {
    "domain": "warfare",
-   "term": "drone attack",
-   "explainer": "A drone attack is an attack carried out using a drone. In the Khor Mor report, a drone attack is linked to halted gas production and power outages.",
-   "from_id": "5f1f35e394",
-   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "mine countermeasures",
+   "explainer": "Mine countermeasures are activities and tools used to address naval mines. The RAVEN autonomous underwater vehicle is described as a platform for these missions and survey.",
+   "from_id": "f0408be848",
+   "from": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/seaber-unveils-raven-compact-auv-for-mine-warfare-missions/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "power line",
-   "explainer": "A power line carries electricity between places. The Moldova report describes a new line to Romania as a way to cut reliance on Russia.",
-   "from_id": "a3e97f86f9",
-   "from": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "neutrality",
+   "explainer": "Neutrality is a state’s position of not taking sides in a conflict. The Swiss referendum story connects the country’s neutral tradition with proposed changes to weapons-export restrictions.",
+   "from_id": "ce9e13064e",
+   "from": "https://www.defensenews.com/global/europe/2026/11/09/swiss-neutrality-proponents-challenge-arms-firms-in-vote-on-easing-of-exports/",
+   "fromSource": "Defense News"
   }
  ],
  "analysis": {
-  "headline": "Infrastructure, interdependence and regional tensions",
+  "headline": "Trust, capacity, and intelligence shape today’s stories",
   "paragraphs": [
-   "Several stories center on infrastructure exposed to disruption or strategic pressure. The reported damage to a building in Riyadh’s financial district and the attack on Iraq’s Khor Mor gas field show different forms of risk to important sites. The available reports do not establish a connection between these events.",
-   "The Khor Mor accounts link halted production with power outages, while Moldova’s new line to Romania points to another aspect of infrastructure security: supply links. Sandu says two additional lines are planned. For analysts, these stories suggest tracking both the condition of critical facilities and the routes that connect energy systems.",
-   "The Iran blockade statements and the reported Chinese espionage probe add diplomatic and security tensions to an already varied picture. Their details remain limited here. Defenders and analysts should distinguish confirmed reporting from attributed claims, and watch for further reporting on infrastructure disruption, energy connections and official statements."
+   "The stories span cybercrime, defense supply chains, China policy, intelligence, and Swiss arms exports. Together, they show how outcomes can depend on systems and institutions beyond the most visible actors: scam call centers, lower-tier suppliers, policy assumptions, and public decisions about neutrality.",
+   "For defenders, the OpenSSH exploitation report reinforces the need to check exposed systems and follow security guidance. For warfare analysts, a strong munitions demand signal may not ensure delivery when supplier capacity is missing. These stories point to distinct dependencies, not a single shared cause.",
+   "The China policy piece describes a long search for a breakthrough, while the intelligence story argues that disregarding intelligence can have consequences. Analysts should watch how policy choices, supplier availability, and export rules develop, without treating any one account as proof of what comes next."
   ],
   "takeaways": [
-   "Separate authenticated footage from claims about responsibility or consequences.",
-   "Track both energy facilities and the links that supply power.",
-   "Treat attributed statements as claims, and watch for further reporting."
+   "Check OpenSSH exposure and act on available security guidance.",
+   "Munitions demand may not translate directly into deliveries.",
+   "Assess policy claims alongside intelligence and institutional constraints."
   ]
  },
  "health": [
@@ -469,13 +717,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "The Record",
@@ -487,13 +735,13 @@
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 5
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 8
   },
   {
    "name": "Dark Reading",
@@ -523,13 +771,13 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "The War Zone",
@@ -553,13 +801,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Bellingcat",
@@ -601,7 +849,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "SpaceNews",
@@ -613,7 +861,7 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "The Diplomat",
@@ -625,25 +873,25 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   }
  ]
 }
