@@ -1,516 +1,639 @@
 {
  "date": "2026-11-09",
  "edition": 238,
- "compiled": "2026-11-09T12:23:16.275Z",
+ "compiled": "2026-11-09T22:35:50.501Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "53877e7ba1",
+   "id": "8f6133c5e5",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "snippet": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p> <ul> <li><a href=\"https://www.cve.org",
+   "published": "2026-11-09T12:00:00.000Z",
+   "also": [],
+   "score": 1.68,
+   "t": "2026-11-09",
+   "summary": "CISA says it added four vulnerabilities to its Known Exploited Vulnerabilities Catalog.",
+   "why": "Check whether your systems use affected products and prioritize applicable fixes.",
+   "tags": [
+    "CISA",
+    "vulnerabilities",
+    "KEV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fb65eccd75",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-   "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-   "snippet": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
-   "published": "2026-11-09T12:16:13.000Z",
+   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+   "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+   "snippet": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+   "published": "2026-11-09T22:09:33.000Z",
    "also": [],
-   "score": 1.6,
-   "image": "/img/news/53877e7ba1.webp",
+   "score": 1.59,
+   "image": "/img/news/fb65eccd75.webp",
    "t": "2026-11-09",
-   "summary": "Ukrainian law enforcement arrested four suspects over a cryptocurrency investment scam network that allegedly stole more than €4.3 million.",
-   "why": "Review user reports and payment flows for signs of cryptocurrency investment scams.",
+   "summary": "SEGA disclosed that a breach at its third-party newsletter provider exposed 2.2 million subscribers’ email addresses.",
+   "why": "Review third-party data access and alert subscribers to relevant phishing risks.",
    "tags": [
-    "cryptocurrency",
-    "scam"
-   ],
-   "ai": true
-  },
-  {
-   "id": "de97195118",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
-   "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-   "snippet": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .",
-   "published": "2026-11-09T12:13:32.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/de97195118.webp",
-   "t": "2026-11-09",
-   "summary": "SecurityWeek reports that botnets and crypto miners are among the actors initially exploiting the SSHole authentication bypass in OpenSSH.",
-   "why": "Check OpenSSH systems for exposure and apply available mitigations or updates.",
-   "tags": [
-    "OpenSSH",
-    "authentication bypass"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c5154d08fa",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-   "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-   "snippet": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now par",
-   "published": "2026-11-09T11:27:53.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/c5154d08fa.webp",
-   "t": "2026-11-09",
-   "summary": "Researchers found default admin:admin credentials in login systems for two car brands’ mobile apps, potentially allowing account access and control of connected cars.",
-   "why": "Audit app and server credentials, and review connected-car access controls.",
-   "tags": [
-    "admin:admin",
-    "connected cars"
-   ],
-   "ai": true
-  },
-  {
-   "id": "156a0344f3",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
-   "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
-   "snippet": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .",
-   "published": "2026-11-09T11:20:09.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/156a0344f3.webp",
-   "t": "2026-11-09",
-   "summary": "SecurityWeek reports that hackers stole personal, health, and insurance information, including Social Security numbers, from Amplifon Americas’ internal systems.",
-   "why": "Check for exposure of sensitive personal and health information and follow breach response procedures.",
-   "tags": [
+    "SEGA",
     "data breach",
-    "health information"
+    "email addresses"
    ],
    "ai": true
   },
   {
-   "id": "a02fb0af29",
+   "id": "8d206c962e",
    "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-   "snippet": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used ",
-   "published": "2026-11-09T10:56:25.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "snippet": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+   "published": "2026-11-09T21:26:25.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/a02fb0af29.webp",
+   "score": 1.58,
+   "image": "/img/news/8d206c962e.webp",
    "t": "2026-11-09",
-   "summary": "An attacker used a flaw at Web3Auth to steal funds from some Keplr users who set up wallets with Google or Apple accounts.",
-   "why": "Review affected wallet sign-in paths and communicate with users about account security.",
+   "summary": "N-able took hosted N-central environments offline and urged on-premises customers to shut down servers after a researcher disclosed alleged zero-days.",
+   "why": "Follow N-able’s guidance and check whether your organization runs affected environments.",
    "tags": [
-    "Web3Auth",
-    "crypto wallet"
+    "N-able",
+    "zero-days",
+    "N-central"
    ],
    "ai": true
   },
   {
-   "id": "62af4291e1",
+   "id": "b9b072a1ed",
    "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-   "snippet": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to with",
-   "published": "2026-11-09T10:01:21.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "York University breach exposed personal information dating to 2007",
+   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "snippet": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+   "published": "2026-11-09T21:22:31.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/62af4291e1.webp",
+   "score": 1.57,
+   "image": "/img/news/b9b072a1ed.webp",
    "t": "2026-11-09",
-   "summary": "The LNbits project urged operators to shut down Bitcoin Lightning wallet servers amid attacks, pending security fixes.",
-   "why": "If operating LNbits, follow the project’s shutdown guidance and watch for its security fixes.",
+   "summary": "York University said a threat actor stole personal information submitted through online forms.",
+   "why": "Review what personal information online forms collect and how it is protected.",
    "tags": [
-    "LNbits",
-    "Bitcoin Lightning"
+    "York University",
+    "personal information",
+    "online forms"
    ],
    "ai": true
   },
   {
-   "id": "3c0c651efe",
+   "id": "cd41a3a65b",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Over 3 Million People Hit by Frontline Education Data Breach",
-   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
-   "snippet": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .",
-   "published": "2026-11-09T10:09:02.000Z",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+   "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+   "snippet": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+   "published": "2026-11-09T20:44:00.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/3c0c651efe.webp",
+   "score": 1.56,
+   "image": "/img/news/cd41a3a65b.webp",
    "t": "2026-11-09",
-   "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.",
-   "why": "Check whether school staff or students need breach-related support or notifications.",
+   "summary": "Amplifon’s U.S. arm notified customers about a breach that included medical information.",
+   "why": "Check breach notifications and the handling of sensitive customer information.",
    "tags": [
+    "Amplifon",
     "data breach",
-    "education"
+    "medical information"
    ],
    "ai": true
   },
   {
-   "id": "e8082cc54d",
+   "id": "5bce94b89c",
    "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-   "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-   "snippet": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login.",
-   "published": "2026-11-09T09:01:50.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/e8082cc54d.webp",
-   "t": "2026-11-09",
-   "summary": "Acronis researchers said an attacker used AI agents to obtain emergency dispatch records covering seven Taipei districts and find a fire department platform exposing patient data.",
-   "why": "Review exposed public-service platforms and restrict access to dispatch and patient records.",
-   "tags": [
-    "AI agents",
-    "dispatch records"
-   ],
-   "ai": true
-  },
-  {
-   "id": "33c824e207",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-   "snippet": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek .",
-   "published": "2026-11-09T08:35:50.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/33c824e207.webp",
-   "t": "2026-11-09",
-   "summary": "DeepMind’s AI agents reportedly helped cryptographers reduce the cost of forging RSA-1024 signatures and find a cheaper way to factor keys.",
-   "why": "Assess reliance on RSA-1024 and track the reported cryptographic findings.",
-   "tags": [
-    "AI agents",
-    "RSA-1024"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a2c922a06d",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-   "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-   "snippet": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea",
-   "published": "2026-11-09T07:05:48.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/a2c922a06d.webp",
-   "t": "2026-11-09",
-   "summary": "A former OpenAI engineer accused of planting a covert audio recording device in an executive meeting room pleaded not guilty.",
-   "why": "Review workplace controls for detecting and managing unauthorized recording devices.",
-   "tags": [
-    "covert device",
-    "recording"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5fdfa2c52f",
-   "section": "warfare",
-   "source": "War on the Rocks",
+   "source": "Microsoft Security",
    "weight": 0.6,
-   "title": "The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp",
-   "url": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp/",
-   "snippet": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades. Marc Andersen (Army comptroller), Brandon Daniels (Exiger), and Joseph “Gus” Guastella (Voyager Technologies) join Jonath",
-   "published": "2026-11-09T09:00:45.000Z",
+   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+   "snippet": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal a",
+   "published": "2026-11-09T20:17:31.000Z",
    "also": [],
-   "score": 1.53,
-   "image": "/img/news/5fdfa2c52f.webp",
+   "score": 1.55,
+   "image": "/img/news/5bce94b89c.webp",
    "t": "2026-11-09",
-   "summary": "The Pentagon’s record demand for munitions faces delivery challenges because many suppliers several tiers below prime contractors disappeared over the last two decades.",
-   "why": "Supplier depth may shape how quickly increased munitions demand becomes deliveries.",
+   "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust’s core and std libraries, including cases where safe Rust code can trigger undefined behavior.",
+   "why": "Review memory-safety assumptions and library use in Rust software.",
    "tags": [
-    "munitions",
-    "suppliers"
+    "Rust",
+    "memory safety",
+    "undefined behavior"
    ],
    "ai": true
   },
   {
-   "id": "3e24835a7b",
-   "section": "warfare",
-   "source": "War on the Rocks",
+   "id": "e89c57c6d5",
+   "section": "cyber",
+   "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Rethinking Strategic Stability with China: From Coercion to Constructivism",
-   "url": "https://warontherocks.com/rethinking-strategic-stability-with-china-from-coercion-to-constructivism/",
-   "snippet": "Every administration since the Cold War has been looking for a significant foreign policy breakthrough with China. Spanning containment and normalization to opening and reform, U.S. policymakers have long hoped that China would fulfill its place in the international order and transform itself into a “responsible stakeh",
-   "published": "2026-11-09T08:30:24.000Z",
+   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+   "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+   "snippet": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+   "published": "2026-11-09T18:32:42.000Z",
    "also": [],
    "score": 1.52,
-   "image": "/img/news/3e24835a7b.webp",
+   "image": "/img/news/e89c57c6d5.webp",
    "t": "2026-11-09",
-   "summary": "The article reviews U.S. policymakers’ longstanding search for a major foreign policy breakthrough with China, spanning approaches from containment to opening and reform.",
-   "why": "The policy history frames how analysts assess U.S.-China strategic stability.",
+   "summary": "France linked cyberattacks disrupting refrigeration systems at retail locations to Iranian state-backed hackers, saying they caused food losses and fires.",
+   "why": "Assess protections for refrigeration and other operational technology systems.",
    "tags": [
-    "China",
-    "strategic stability"
+    "France",
+    "refrigeration",
+    "cyberattacks"
    ],
    "ai": true
   },
   {
-   "id": "ce9e13064e",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Swiss neutrality proponents challenge arms firms in vote on easing of exports",
-   "url": "https://www.defensenews.com/global/europe/2026/11/09/swiss-neutrality-proponents-challenge-arms-firms-in-vote-on-easing-of-exports/",
-   "snippet": "Swiss voters will decide on Nov. 29 whether to block a bill relaxing curbs on weapons exports, in a referendum that touches on Switzerland's evolving neutral tradition.",
-   "published": "2026-11-09T12:19:22.000Z",
+   "id": "4ca261bf7f",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+   "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+   "snippet": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
+   "published": "2026-11-09T18:45:00.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/4ca261bf7f.webp",
+   "t": "2026-11-09",
+   "summary": "French authorities attributed the fridge cyberattacks to Shahid Kaveh, described as an IRGC cyber unit previously linked to attacks on industrial controllers.",
+   "why": "Check industrial controller exposure and incident response for operational technology.",
+   "tags": [
+    "France",
+    "industrial controllers",
+    "attribution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2fdab4abb5",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+   "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+   "snippet": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
+   "published": "2026-11-09T18:30:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/2fdab4abb5.webp",
+   "t": "2026-11-09",
+   "summary": "Vanderbilt University warned that a cyberattack may have affected campus devices and systems.",
+   "why": "Check campus systems for impact and follow the university’s incident guidance.",
+   "tags": [
+    "Vanderbilt",
+    "cyberattack",
+    "campus systems"
+   ],
+   "ai": true
+  },
+  {
+   "id": "073e03d22d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+   "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+   "snippet": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+   "published": "2026-11-09T17:50:32.000Z",
    "also": [],
    "score": 1.5,
-   "image": "/img/news/ce9e13064e.webp",
+   "image": "/img/news/073e03d22d.webp",
    "t": "2026-11-09",
-   "summary": "Swiss voters will decide on Nov. 29 whether to block a bill that would relax restrictions on weapons exports, amid debate over neutrality.",
-   "why": "The vote may clarify how Swiss neutrality shapes weapons-export policy.",
+   "summary": "Beget said a data-wiping malware attack forced it to rebuild its cloud infrastructure from scratch.",
+   "why": "Review recovery plans and backups for cloud infrastructure.",
    "tags": [
-    "neutrality",
-    "weapons exports"
+    "Beget",
+    "data wiper",
+    "cloud"
    ],
    "ai": true
   },
   {
-   "id": "0cd0e5eb64",
+   "id": "d460e6246d",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-and-msi-ds-partner-on-next-gen-counter-drone-naval-turrets/",
-   "snippet": "Safran and MSI-Defence Systems highlighted their new counter-drone turret partnership at Euronaval 2026, securing a C-UAS contract for a European NATO navy. The post Safran and MSI-DS Partner on Next-Gen Counter-Drone Naval Turrets appeared first on Naval News .",
-   "published": "2026-11-09T09:39:36.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Security Levels At U.S. Bases In England Raised Without Explanation",
+   "url": "https://www.twz.com/air/security-levels-at-u-s-bases-in-england-raised-without-explanation",
+   "snippet": "Aviation spotters had noticed unusual aircraft activity at RAF Mildenhall, which prompted our inquiries to the USAF. The post Security Levels At U.S. Bases In England Raised Without Explanation appeared first on TWZ .",
+   "published": "2026-11-09T22:35:14.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/0cd0e5eb64.webp",
+   "score": 1.6,
+   "image": "/img/news/d460e6246d.webp",
    "t": "2026-11-09",
-   "summary": "Safran and MSI-Defence Systems highlighted a counter-drone turret partnership and a contract for a European NATO navy.",
-   "why": "The partnership highlights counter-drone systems as a naval operational capability.",
+   "summary": "Security levels at U.S. bases in England were raised without explanation. Aviation spotters had noticed unusual activity at RAF Mildenhall.",
+   "why": "The unexplained change highlights the value of monitoring base security and activity.",
    "tags": [
-    "counter-drone",
-    "naval turret"
+    "U.S. bases",
+    "England",
+    "RAF Mildenhall"
    ],
    "ai": true
   },
   {
-   "id": "f0408be848",
+   "id": "87a9b09d58",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "SEABER Unveils RAVEN Compact AUV for Mine Warfare Missions",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/seaber-unveils-raven-compact-auv-for-mine-warfare-missions/",
-   "snippet": "French AUV manufacturer SEABER announces the launch of RAVEN®, a new generation of compact autonomous underwater vehicles for mine countermeasures (MCM) and survey. Designed to compete with established market leaders, RAVEN® challenges their cost structure. SEABER press release Weighing 13 kg with a 12 cm diameter, RAV",
-   "published": "2026-11-09T09:27:48.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "B-1B Lancer Pilots Are Now Training On HondaJets",
+   "url": "https://www.twz.com/air/b-1b-lancer-pilots-are-now-training-on-hondajets",
+   "snippet": "Contractor-operated HondaJets will give B-1 pilots a major injection of yearly flight time at a tiny fraction of the cost. The post B-1B Lancer Pilots Are Now Training On HondaJets appeared first on TWZ .",
+   "published": "2026-11-09T22:28:27.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/f0408be848.webp",
+   "score": 1.6,
+   "image": "/img/news/87a9b09d58.webp",
    "t": "2026-11-09",
-   "summary": "French manufacturer SEABER unveiled RAVEN, a compact autonomous underwater vehicle for mine countermeasures and survey.",
-   "why": "Compact autonomous vehicles offer a platform for mine-countermeasure and survey missions.",
+   "summary": "Contractor-operated HondaJets will give B-1 pilots more yearly flight time at a lower cost, the report says.",
+   "why": "Using contractor aircraft for training may expand pilot flight time while limiting costs.",
    "tags": [
-    "AUV",
-    "mine countermeasures"
+    "B-1",
+    "HondaJets",
+    "training"
    ],
    "ai": true
   },
   {
-   "id": "1c2198eea9",
+   "id": "c1e5c21164",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy/",
-   "snippet": "Naval Group will build an operational Unmanned Combat Underwater Vehicle (UCUV) demonstrator for the French Navy, with sea trials scheduled to begin in 2028. The post Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy appeared first on Naval News .",
-   "published": "2026-11-08T09:38:42.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "The next breakthrough is software built on the battlefield by agentic bots",
+   "url": "https://breakingdefense.com/2026/11/the-next-breakthrough-is-software-built-on-the-battlefield-by-agentic-bots/",
+   "snippet": "[Sponsored] Autonomous agents and mission-specific software promise faster responses to emerging threats.",
+   "published": "2026-11-09T20:15:47.000Z",
    "also": [],
-   "score": 0.94,
-   "image": "/img/news/1c2198eea9.webp",
-   "t": "2026-11-08",
-   "summary": "Naval Group will build an operational underwater combat drone demonstrator for the French Navy, with sea trials scheduled to begin in 2028.",
-   "why": "The demonstrator highlights an underwater uncrewed capability being developed for naval operations.",
+   "score": 1.55,
+   "image": "/img/news/c1e5c21164.webp",
+   "t": "2026-11-09",
+   "summary": "A sponsored article says autonomous agents and mission-specific software promise faster responses to emerging threats.",
+   "why": "The concept connects agentic software with battlefield decision and response processes.",
    "tags": [
-    "UCUV",
-    "underwater",
-    "French Navy"
+    "agentic bots",
+    "software",
+    "battlefield"
    ],
    "ai": true
   },
   {
-   "id": "47e6a652f0",
+   "id": "a124a575c7",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Pentagon can’t track thousands of F-35 parts: GAO",
+   "url": "https://breakingdefense.com/2026/11/pentagon-cant-track-thousands-of-f-35-parts-gao/",
+   "snippet": "The government watchdog found that more than 17,000 F-35 fighter jet parts worth an estimated $1.3 billion were missing from the program’s inventory system.",
+   "published": "2026-11-09T19:41:23.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/a124a575c7.webp",
+   "t": "2026-11-09",
+   "summary": "The GAO found more than 17,000 F-35 parts, worth an estimated $1.3 billion, missing from the program’s inventory system.",
+   "why": "The finding highlights the operational importance of tracking military parts.",
+   "tags": [
+    "F-35",
+    "parts",
+    "inventory"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1143547e70",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Stained Glass and Sacred Spaces: Symbolism Abounds in Ukrainian Media",
+   "url": "https://warontherocks.com/stained-glass-and-sacred-spaces-symbolism-abounds-in-ukrainian-media/",
+   "snippet": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country",
+   "published": "2026-11-09T19:15:33.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/1143547e70.webp",
+   "t": "2026-11-09",
+   "summary": "War on the Rocks presents a weekly digest of Ukrainian commentary and analysis from across the political spectrum.",
+   "why": "The digest offers a view of Ukrainian media commentary and political perspectives.",
+   "tags": [
+    "Ukraine",
+    "media",
+    "commentary"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c4d8cef45",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF",
+   "url": "https://www.twz.com/news-features/netting-to-shield-f-35s-at-tyndall-afb-from-drone-attacks-eyed-by-usaf",
+   "snippet": "Tentative plans for anti-drone nets at Tyndall highlight a still heated debate within the USAF about investing in physical hardening. The post Netting To Shield F-35s At Tyndall AFB From Drone Attacks Eyed By USAF appeared first on TWZ .",
+   "published": "2026-11-09T19:16:18.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/3c4d8cef45.webp",
+   "t": "2026-11-09",
+   "summary": "Tentative plans for anti-drone nets at Tyndall reflect debate within the USAF about investing in physical hardening.",
+   "why": "Physical barriers are one proposed way to shield aircraft from drone attacks.",
+   "tags": [
+    "F-35",
+    "drone attacks",
+    "netting"
+   ],
+   "ai": true
+  },
+  {
+   "id": "605febd93c",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Korean Air Aerospace pushes forward with Collaborative Combat Aircraft plans",
+   "url": "https://breakingdefense.com/2026/11/korean-air-aerospace-pushes-forward-with-collaborative-combat-aircraft-plans/",
+   "snippet": "“We delivered our CCA platform last year and will having flight tests at the end of this year,” Director of International Business for KE-ASD Haneul Kim confirmed.",
+   "published": "2026-11-09T19:19:25.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/605febd93c.webp",
+   "t": "2026-11-09",
+   "summary": "Korean Air Aerospace says it delivered its Collaborative Combat Aircraft platform last year and plans flight tests at the end of this year.",
+   "why": "The plans indicate continued development and testing of collaborative combat aircraft.",
+   "tags": [
+    "Korean Air Aerospace",
+    "CCA",
+    "flight tests"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4e3b7235bb",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines",
+   "url": "https://www.twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines",
+   "snippet": "The totally uncrewed Arctic Hunter with its 60-day endurance would give the Royal Navy persistent ears in the high north. The post Fishing Trawler Adapted Into Arctic Hunter Drone Ship Aims To Scour For Russian Submarines appeared first on TWZ .",
+   "published": "2026-11-09T18:21:20.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/4e3b7235bb.webp",
+   "t": "2026-11-09",
+   "summary": "An adapted, uncrewed fishing trawler called Arctic Hunter aims to search for Russian submarines, with 60-day endurance.",
+   "why": "An uncrewed vessel with extended endurance could support persistent maritime monitoring in the high north.",
+   "tags": [
+    "Arctic Hunter",
+    "uncrewed",
+    "submarines"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d8960fffbb",
    "section": "geo",
    "source": "Foreign Policy",
    "weight": 0.6,
-   "title": "The Experts Are Taking Their Revenge Again",
-   "url": "https://foreignpolicy.com/2026/11/09/trump-iran-cia-intelligence/",
-   "snippet": "The Iran war is the latest example of Washington disregarding intelligence—and suffering the consequences.",
-   "published": "2026-11-09T08:08:55.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/47e6a652f0.webp",
+   "title": "What to Know About Nvidia CEO Jensen Huang’s Chinese Spy Scandal",
+   "url": "https://foreignpolicy.com/2026/11/09/jensen-huang-spy-scandal-alice-nvidia-trump-china/",
+   "snippet": "Huang’s affair with an alleged Chinese intelligence asset has big implications for U.S. national security.",
+   "published": "2026-11-09T21:57:16.000Z",
+   "also": [
+    {
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "source": "BBC World",
+     "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&amp;at_campaign=rss"
+    }
+   ],
+   "score": 2.29,
+   "image": "/img/news/d8960fffbb.webp",
    "t": "2026-11-09",
-   "summary": "The article presents the Iran war as an example of Washington disregarding intelligence and suffering consequences.",
-   "why": "The claim foregrounds intelligence use as a factor in assessing wartime decisions.",
+   "summary": "Foreign Policy says an alleged affair involving Nvidia CEO Jensen Huang and a Chinese intelligence asset has national security implications.",
+   "why": "The allegation raises questions about how personal relationships may intersect with national security.",
    "tags": [
-    "Iran war",
-    "intelligence"
+    "Nvidia",
+    "Chinese intelligence asset",
+    "national security"
    ],
    "ai": true
   },
   {
-   "id": "48976007b2",
+   "id": "896da360a0",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "What students got right about the $6 billion Binance hack, and how they would prevent the next one",
+   "url": "https://www.atlanticcouncil.org/dispatches/what-students-got-right-about-the-6-billion-binance-hack-and-how-they-would-prevent-the-next-one/",
+   "snippet": "A year before the largest cryptocurrency theft in history, students at an Atlantic Council cyber strategy competition encountered an eerily similar scenario. The post What students got right about the $6 billion Binance hack, and how they would prevent the next one appeared first on Atlantic Council .",
+   "published": "2026-11-09T22:11:41.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/896da360a0.webp",
+   "t": "2026-11-09",
+   "summary": "Atlantic Council describes students encountering a scenario similar to a $6 billion cryptocurrency theft during a cyber strategy competition.",
+   "why": "The scenario illustrates how exercises can test preparation for cryptocurrency theft.",
+   "tags": [
+    "Binance",
+    "cryptocurrency",
+    "cyber strategy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "28e90a6e28",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Trump Hosts Key Qatari Mediator to Discuss End to Iran War",
+   "url": "https://foreignpolicy.com/2026/11/09/trump-qatar-thani-iran-war-nvidia-huang-affair-chinese-spy/",
+   "snippet": "But senior officials doubt that a breakthrough is in sight.",
+   "published": "2026-11-09T21:34:48.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/28e90a6e28.webp",
+   "t": "2026-11-09",
+   "summary": "Trump hosted a Qatari mediator to discuss the Iran war, while senior officials reportedly doubt a breakthrough is in sight.",
+   "why": "The meeting and officials’ doubts are relevant to tracking mediation and conflict diplomacy.",
+   "tags": [
+    "Qatar",
+    "Iran war",
+    "mediation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2da9d5cd54",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Hegseth’s Leadership Has Damaged the Pentagon",
+   "url": "https://foreignpolicy.com/2026/11/09/hegseth-impeachment-charges-massie-defense-pentagon-damage/",
+   "snippet": "The defense secretary’s impeachment charges come after he cost his department years of experience and poisoned relationships with Congress.",
+   "published": "2026-11-09T21:32:11.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/2da9d5cd54.webp",
+   "t": "2026-11-09",
+   "summary": "Foreign Policy says impeachment charges against the defense secretary follow losses of departmental experience and damaged relations with Congress.",
+   "why": "The account highlights how leadership disputes may affect institutional relationships and experience.",
+   "tags": [
+    "Pentagon",
+    "leadership",
+    "Congress"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e38ed4249c",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-   "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
-   "published": "2026-11-09T07:10:11.000Z",
+   "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+   "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process.",
+   "published": "2026-11-09T21:37:02.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/48976007b2.webp",
+   "score": 1.58,
+   "image": "/img/news/e38ed4249c.webp",
    "t": "2026-11-09",
-   "summary": "The BBC asks whether Nvidia CEO Jensen Huang’s reputation can withstand news of an alleged affair with a suspected Chinese spy.",
-   "why": "The story centers on how alleged links may affect perceptions of a major technology figure.",
+   "summary": "Representative Thomas Massie plans to force an impeachment vote on Defense Secretary Hegseth; the report says the effort will likely fail.",
+   "why": "The planned vote is a marker of political conflict over defense leadership.",
    "tags": [
-    "Nvidia",
-    "China"
+    "impeachment",
+    "Hegseth",
+    "Congress"
    ],
    "ai": true
   },
   {
-   "id": "408a5794c8",
+   "id": "3cb3dd7ad7",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
-   "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
-   "snippet": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
-   "published": "2026-11-09T10:50:49.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/408a5794c8.webp",
-   "t": "2026-11-09",
-   "summary": "Al Jazeera reports that four children and a woman died after heavy rain caused a sandbank to collapse on their tent in Gaza.",
-   "why": "The report highlights how severe weather and local terrain can shape civilian risk.",
-   "tags": [
-    "Gaza",
-    "sandbank"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dd80f3b610",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Why is Nvidia’s Jensen Huang at the centre of a US-China spy scandal?",
-   "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss",
-   "snippet": "Allegations linking CEO to Chinese intelligence shake markets with chipmaker's shares falling more than 4 percent.",
-   "published": "2026-11-09T10:49:02.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/dd80f3b610.webp",
-   "t": "2026-11-09",
-   "summary": "Al Jazeera reports that allegations linking Nvidia CEO Jensen Huang to Chinese intelligence shook markets, with the chipmaker’s shares falling more than 4 percent.",
-   "why": "The allegations connect geopolitical concerns with market reactions around a chipmaker.",
-   "tags": [
-    "Nvidia",
-    "China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8ad63691b7",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US deports Lebanese consul-general in Detroit over Hezbollah praise",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/us-deports-lebanese-consul-general-in-detroit-over-hezbollah-praise?traffic_source=rss",
-   "snippet": "US Secretary of State Marco Rubio has ordered Ibrahim Charara, Lebanon’s consul general in Detroit, to leave the country",
-   "published": "2026-11-09T10:35:53.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/8ad63691b7.webp",
-   "t": "2026-11-09",
-   "summary": "The U.S. secretary of state ordered Lebanon’s consul general in Detroit to leave the country over praise for Hezbollah, Al Jazeera reports.",
-   "why": "The action highlights diplomatic consequences tied to political statements.",
-   "tags": [
-    "Lebanon",
-    "Hezbollah"
-   ],
-   "ai": true
-  },
-  {
-   "id": "33b0f95b03",
-   "section": "geo",
-   "source": "Foreign Policy",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Is Hegseth the New Rumsfeld?",
-   "url": "https://foreignpolicy.com/2026/11/09/hegseth-rumsfeld-impeach-congress/",
-   "snippet": "When the face of an unpopular war faces a wrathful Congress “stuff happens.”",
-   "published": "2026-11-09T05:01:06.000Z",
+   "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+   "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+   "published": "2026-11-09T21:52:28.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/33b0f95b03.webp",
+   "score": 1.58,
+   "image": "/img/news/3cb3dd7ad7.webp",
    "t": "2026-11-09",
-   "summary": "The article compares Hegseth with Rumsfeld and describes congressional anger toward the face of an unpopular war.",
-   "why": "The story points to domestic political pressure around wartime leadership.",
+   "summary": "The BBC reports that Nvidia is investigating CEO Jensen Huang over an affair with a woman alleged to be a Chinese spy.",
+   "why": "The investigation brings corporate governance and alleged intelligence links into focus.",
    "tags": [
-    "Congress",
-    "war"
+    "Nvidia",
+    "investigation",
+    "alleged spy"
    ],
    "ai": true
   },
   {
-   "id": "ffb0b5ca14",
+   "id": "ed5f4ce4cf",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
-   "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight?traffic_source=rss",
-   "snippet": "Russia's second-largest oil refinery is set on fire by drones while Russian strikes target Ukrainian energy sites.",
-   "published": "2026-11-09T10:08:45.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "France accuses Iran of supermarket fridge hacking",
+   "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
+   "published": "2026-11-09T20:20:08.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/ffb0b5ca14.webp",
+   "score": 1.55,
+   "image": "/img/news/ed5f4ce4cf.webp",
    "t": "2026-11-09",
-   "summary": "Al Jazeera reports that drones set fire to Russia’s second-largest oil refinery as Russian strikes targeted Ukrainian energy sites.",
-   "why": "The strikes highlight energy infrastructure as a target in the conflict.",
+   "summary": "France accused Iran of supermarket fridge hacking; the BBC says food spoiled as refrigerators and freezers heated up.",
+   "why": "The incident connects cyber activity with the availability of chilled and frozen food.",
    "tags": [
-    "drones",
-    "energy sites"
-   ],
-   "ai": true
-  },
-  {
-   "id": "64bd8139fd",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran’s authorities harden domestic security controls amid US strike threats",
-   "url": "https://www.aljazeera.com/news/2026/11/9/irans-authorities-harden-domestic-security-controls-amid-us-strike-threats?traffic_source=rss",
-   "snippet": "Iran is cracking down on perceived security threats from alleged spies to crowds of youngsters.",
-   "published": "2026-11-09T09:56:13.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/64bd8139fd.webp",
-   "t": "2026-11-09",
-   "summary": "Iran is tightening domestic security controls against perceived threats, from alleged spies to crowds of young people, Al Jazeera reports.",
-   "why": "The measures indicate a widening domestic security focus amid external strike threats.",
-   "tags": [
+    "France",
     "Iran",
-    "security controls"
+    "supermarkets"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3188a48d4e",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+   "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+   "published": "2026-11-09T19:58:01.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/3188a48d4e.webp",
+   "t": "2026-11-09",
+   "summary": "The BBC reports Nvidia shares fell amid an investigation into Jensen Huang’s affair with an alleged Chinese spy.",
+   "why": "The report links scrutiny of a corporate leader with company market performance.",
+   "tags": [
+    "Nvidia",
+    "shares",
+    "investigation"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.1,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+  },
+  {
+   "cve": "CVE-2026-123218",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+  },
   {
    "cve": "CVE-2026-19868",
    "vendor": "SonicWall",
@@ -606,98 +729,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 2.7,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
-  },
-  {
-   "cve": "CVE-2026-46300",
-   "vendor": "Linux",
-   "product": "Kernel",
-   "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-   "added": "2026-10-28",
-   "due": "2026-10-31",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 7.8,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
-  },
-  {
-   "cve": "CVE-2026-48356",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.3,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-  },
-  {
-   "cve": "CVE-2026-111497",
-   "vendor": "Google",
-   "product": "Brotli",
-   "name": "Google Brotli Unchecked Return Value Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.2,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-  },
-  {
-   "cve": "CVE-2026-109618",
-   "vendor": "PHP Group",
-   "product": "PHP",
-   "name": "PHP Memory Corruption Vulnerability",
-   "added": "2026-10-26",
-   "due": "2026-10-29",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.2,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
   }
  ],
  "run_today": [
-  "Check OpenSSH systems for exposure to the SSHole authentication bypass and apply available mitigations or updates.",
-  "Audit app and server credentials for default admin:admin logins, especially where connected-car services are involved.",
-  "If operating LNbits, follow the project’s shutdown guidance and monitor for security fixes."
+  "Check systems against CISA’s Known Exploited Vulnerabilities Catalog and prioritize applicable fixes.",
+  "Review third-party newsletter data access and prepare subscriber guidance about possible phishing.",
+  "Follow N-able’s guidance and verify whether your organization runs hosted or on-premises N-central environments."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "authentication bypass",
-   "explainer": "An authentication bypass is a flaw that lets someone get past a system’s normal login checks. The OpenSSH report describes exploitation of this kind of weakness.",
-   "from_id": "de97195118",
-   "from": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-   "fromSource": "SecurityWeek"
+   "term": "Known Exploited Vulnerabilities Catalog",
+   "explainer": "A catalog maintained by CISA that lists vulnerabilities it identifies as known exploited. Defenders can use it to check whether their systems include listed vulnerabilities and prioritize remediation.",
+   "from_id": "8f6133c5e5",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "mine countermeasures",
-   "explainer": "Mine countermeasures are activities and tools used to address naval mines. The RAVEN autonomous underwater vehicle is described as a platform for these missions and survey.",
-   "from_id": "f0408be848",
-   "from": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/seaber-unveils-raven-compact-auv-for-mine-warfare-missions/",
-   "fromSource": "Naval News"
+   "term": "Contractor-operated training aircraft",
+   "explainer": "Aircraft operated by contractors for military training. In this item, HondaJets are described as a way for B-1 pilots to gain more yearly flight time at lower cost.",
+   "from_id": "87a9b09d58",
+   "from": "https://www.twz.com/air/b-1b-lancer-pilots-are-now-training-on-hondajets",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "neutrality",
-   "explainer": "Neutrality is a state’s position of not taking sides in a conflict. The Swiss referendum story connects the country’s neutral tradition with proposed changes to weapons-export restrictions.",
-   "from_id": "ce9e13064e",
-   "from": "https://www.defensenews.com/global/europe/2026/11/09/swiss-neutrality-proponents-challenge-arms-firms-in-vote-on-easing-of-exports/",
-   "fromSource": "Defense News"
+   "term": "Chinese intelligence asset",
+   "explainer": "A person alleged to have a connection to an intelligence service. The item describes an alleged connection to Chinese intelligence and says the affair has national security implications.",
+   "from_id": "d8960fffbb",
+   "from": "https://foreignpolicy.com/2026/11/09/jensen-huang-spy-scandal-alice-nvidia-trump-china/",
+   "fromSource": "Foreign Policy"
   }
  ],
  "analysis": {
-  "headline": "Trust, capacity, and intelligence shape today’s stories",
+  "headline": "Security, readiness, and uncertainty across today’s stories",
   "paragraphs": [
-   "The stories span cybercrime, defense supply chains, China policy, intelligence, and Swiss arms exports. Together, they show how outcomes can depend on systems and institutions beyond the most visible actors: scam call centers, lower-tier suppliers, policy assumptions, and public decisions about neutrality.",
-   "For defenders, the OpenSSH exploitation report reinforces the need to check exposed systems and follow security guidance. For warfare analysts, a strong munitions demand signal may not ensure delivery when supplier capacity is missing. These stories point to distinct dependencies, not a single shared cause.",
-   "The China policy piece describes a long search for a breakthrough, while the intelligence story argues that disregarding intelligence can have consequences. Analysts should watch how policy choices, supplier availability, and export rules develop, without treating any one account as proof of what comes next."
+   "Today’s stories span vulnerability management, personal data exposure, military training, and geopolitical scrutiny. The CISA catalog update and SEGA breach show different points of defender attention: addressing known exploited vulnerabilities and understanding the risks created by third-party data handling.",
+   "The other stories underline how much depends on reliable information. A report of raised security levels at U.S. bases in England offers no explanation, while the Nvidia story concerns an alleged intelligence connection. Analysts should distinguish confirmed actions and reported claims from what remains unclear, rather than treating uncertainty as evidence.",
+   "Military training with contractor-operated HondaJets points to one approach to building pilot flight time at lower cost. Across these subjects, defenders and analysts can track operational dependencies, the handling of sensitive information, and the limits of available reporting. Further detail may clarify which risks require immediate action."
   ],
   "takeaways": [
-   "Check OpenSSH exposure and act on available security guidance.",
-   "Munitions demand may not translate directly into deliveries.",
-   "Assess policy claims alongside intelligence and institutional constraints."
+   "Check applicable systems against CISA’s vulnerability catalog.",
+   "Review the risks tied to third-party handling of personal information.",
+   "Separate reported facts from unresolved claims and explanations."
   ]
  },
  "health": [
@@ -705,7 +780,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -717,37 +792,37 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 12
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 11
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 9
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 6
   },
   {
    "name": "Unit 42",
@@ -765,7 +840,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Schneier on Security",
@@ -777,19 +852,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Defense One",
@@ -801,13 +876,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 5
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 8
   },
   {
    "name": "Bellingcat",
@@ -825,7 +900,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "International Crisis Group",
@@ -843,43 +918,43 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 5
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 10
   },
   {
    "name": "Al Jazeera",
@@ -891,7 +966,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   }
  ]
 }
