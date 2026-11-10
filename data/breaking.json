@@ -1,35 +1,20 @@
 {
- "updated": "2026-11-09T20:51:12.546Z",
+ "updated": "2026-11-10T02:59:25.755Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "X cyber",
+   "name": "SecurityWeek",
    "ok": false,
-   "error": "HTTP 402"
+   "error": "fetch failed"
   },
   {
-   "name": "The DFIR Report",
+   "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "MarketWatch",
@@ -39,20 +24,30 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 8
+   "n": 9
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -62,6 +57,16 @@
    "n": 0
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "Daily Dark Web",
    "ok": true,
    "n": 0
@@ -69,12 +74,7 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -82,12 +82,12 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,248 @@
   }
  ],
  "items": [
+  {
+   "id": "na04fd7adeb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
+   "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss",
+   "published": "2026-11-10T02:45:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n68b9aafc5a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel’s Shin Bet finds no evidence of foreign election interference",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/israels-shin-bet-finds-no-evidence-of-foreign-election-interference?traffic_source=rss",
+   "published": "2026-11-10T01:59:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb8309b7ae7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Poll finds Americans less likely to back pro-war candidates by 3-1 margin",
+   "url": "https://www.aljazeera.com/news/2026/11/10/poll-finds-voters-preferred-candidates-who-opposed-iran-war-by-3-1-margin?traffic_source=rss",
+   "published": "2026-11-10T01:56:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd75bfe326c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+   "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T01:44:53.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3cbc32ffad",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "France blames Iran for October supermarket cyberattack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+   "published": "2026-11-10T01:01:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na976a69a6b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+   "published": "2026-11-10T01:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9ec9080344",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+   "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+   "published": "2026-11-10T00:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2f5656f790",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump says FBI probing Nvidia CEO Huang’s affair with alleged spy",
+   "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+   "published": "2026-11-10T00:44:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd55f38be0b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T00:09:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne73608bde5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Iran demands US ‘surrender’ to its conditions",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
+   "published": "2026-11-09T23:55:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n48d9ef3d98",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+   "published": "2026-11-09T23:52:12.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "na16190f4a4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump defends Nvidia’s Huang after calling about spy scandal",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidias-huang-after-calling-about-spy-scandal?traffic_source=rss",
+   "published": "2026-11-09T23:13:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n22596784ec",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+   "url": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+   "published": "2026-11-09T22:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0fcece49c6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "published": "2026-11-09T22:49:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nee6742e73a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+   "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
+   "published": "2026-11-09T22:31:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfb65eccd75",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+   "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+   "published": "2026-11-09T22:09:33.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nde3c9b9d6b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
+   "url": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+   "published": "2026-11-09T21:52:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n907718f8d4",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+   "published": "2026-11-09T21:38:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8d206c962e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "published": "2026-11-09T21:26:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb9b072a1ed",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "York University breach exposed personal information dating to 2007",
+   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "published": "2026-11-09T21:22:31.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd63259b4e6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
+   "url": "https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories",
+   "published": "2026-11-09T21:21:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neae4ff98ab",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+   "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+   "published": "2026-11-09T21:12:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n51456cbe54",
    "kind": "news",
@@ -1788,127 +2030,6 @@
    "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
    "published": "2026-11-07T05:11:03.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nca1a9396bb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-   "published": "2026-11-07T00:00:55.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb763a4725b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-   "published": "2026-11-07T00:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nca06346b41",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
-   "url": "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss",
-   "published": "2026-11-06T23:07:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1428664407",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US urges China to honour Busan trade deal commitments",
-   "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-   "published": "2026-11-06T23:00:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb99b441690",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-   "published": "2026-11-06T22:27:25.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n7088190187",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "White House Network Appears in Global Residential Proxy Traffic",
-   "url": "https://securityaffairs.com/202563/security/white-house-network-appears-in-global-residential-proxy-traffic.html",
-   "published": "2026-11-06T22:17:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n51bde5af11",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Elon Musk opens the door for a big SpaceX acquisition",
-   "url": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
-   "published": "2026-11-06T21:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2e0a9bf9e2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Palestinian couples tie the knot in mass wedding in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/palestinian-couples-tie-the-knot-in-mass-wedding-in-gaza?traffic_source=rss",
-   "published": "2026-11-06T21:37:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4a68b09ce7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-   "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-   "published": "2026-11-06T21:37:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb63212099f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
-   "url": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
-   "published": "2026-11-06T21:27:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1f65a6b29c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-   "url": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-   "published": "2026-11-06T20:58:00.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
