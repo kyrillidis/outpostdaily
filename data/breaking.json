@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T02:59:25.755Z",
+ "updated": "2026-11-10T10:52:11.415Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,9 +7,29 @@
    "n": 0
   },
   {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
    "name": "SecurityWeek",
    "ok": false,
    "error": "fetch failed"
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "BleepingComputer",
@@ -17,34 +37,19 @@
    "n": 4
   },
   {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "The DFIR Report",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 2
+   "n": 5
   },
   {
-   "name": "The Hacker News",
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
   },
   {
    "name": "The Record",
@@ -57,14 +62,9 @@
    "n": 0
   },
   {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -74,17 +74,17 @@
   {
    "name": "Security Affairs",
    "ok": true,
+   "n": 1
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
    "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,204 @@
   }
  ],
  "items": [
+  {
+   "id": "n9f181d606d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments",
+   "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+   "published": "2026-11-10T10:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n93f92bb58e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+   "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+   "published": "2026-11-10T10:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n738ae50dc2",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Police officer dies and another injured after backpack explosion in Oviedo",
+   "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T10:24:20.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n89ded08b17",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+   "published": "2026-11-10T10:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0e899e1e6c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "published": "2026-11-10T10:10:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8791ad63d4",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+   "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+   "published": "2026-11-10T10:04:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n027d970fac",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "N.Y. Knicks star Josh Hart relists Florida home for $5.7 million",
+   "url": "https://www.marketwatch.com/story/n-y-knicks-star-josh-hart-relists-florida-home-for-5-7-million-5fd3f18c?mod=mw_rss_topstories",
+   "published": "2026-11-10T10:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n34a4421367",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Actor Justin Baldoni quietly sold his L.A. home for $2.1 million after moving to Nashville",
+   "url": "https://www.marketwatch.com/story/actor-justin-baldoni-quietly-sold-his-l-a-home-for-2-1-million-after-moving-to-nashville-4cb8041e?mod=mw_rss_topstories",
+   "published": "2026-11-10T09:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbea7dd2549",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Fed’s Waller puts half-point rate hike into the mix for December",
+   "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+   "published": "2026-11-10T09:45:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb10c24292e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Nvidia spy scandal fuels debate over chip exports to China",
+   "url": "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china?traffic_source=rss",
+   "published": "2026-11-10T09:42:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb2f0108169",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Trump says more US attacks on Iran 'highly unlikely'",
+   "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T09:40:31.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7e1f9b33c6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "published": "2026-11-10T08:51:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n29de32f274",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "What powers does Netanyahu have as Israel’s interim PM?",
+   "url": "https://www.aljazeera.com/news/2026/11/10/what-powers-does-netanyahu-have-as-israels-interim-pm?traffic_source=rss",
+   "published": "2026-11-10T08:38:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3085af022d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US moves aircraft from second UK base over ‘threat from Iran’",
+   "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
+   "published": "2026-11-10T08:08:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7d2482c885",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Fireworks AI discloses new breach after cloud provider hack",
+   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "published": "2026-11-10T07:49:58.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf91bbf3404",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
+   "url": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under?traffic_source=rss",
+   "published": "2026-11-10T06:37:13.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2cbe70caa8",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Iris Ohyama data breach may expose personal information of 7.7 million people",
+   "url": "https://securityaffairs.com/202740/data-breach/iris-ohyama-data-breach-may-expose-personal-information-of-7-7-million-people.html",
+   "published": "2026-11-10T06:28:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n005d7d1308",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+   "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T05:22:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "na04fd7adeb",
    "kind": "news",
@@ -1931,105 +2129,6 @@
    "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
    "published": "2026-11-07T11:59:26.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n986edfc864",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-   "published": "2026-11-07T10:16:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2c6a1c3772",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds SonicWall SonicOS SSLVPN flaw to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/202581/security/u-s-cisa-adds-sonicwall-sonicos-sslvpn-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-11-07T09:09:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd01f5b42d4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Qatari PM says US willing to seek solution to war with Iran",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
-   "published": "2026-11-07T07:10:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n582ce33c70",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump confirms US strikes in Iran, insists ‘it’s not a war’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/trump-confirms-us-strikes-in-iran-insists-its-not-a?traffic_source=rss",
-   "published": "2026-11-07T07:05:01.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n804a43c336",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-   "published": "2026-11-07T06:44:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd16055133b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "How the Iran war helped Democrats win the midterms",
-   "url": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms?traffic_source=rss",
-   "published": "2026-11-07T06:26:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne448e95b11",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Paraguay’s Pena under military protection in bank collapse chaos",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss",
-   "published": "2026-11-07T05:51:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9ddb6a0e2f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "President Herzog faces key choice as Israel struggles to form government",
-   "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
-   "published": "2026-11-07T05:16:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nedebd58d56",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia launches missile attack on Kyiv, injuring residents",
-   "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-   "published": "2026-11-07T05:11:03.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
