@@ -1,6 +1,11 @@
 {
- "updated": "2026-11-10T10:52:11.415Z",
+ "updated": "2026-11-10T18:19:32.482Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 3
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
@@ -8,33 +13,13 @@
   },
   {
    "name": "The Hacker News",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": false,
-   "error": "fetch failed"
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "ok": true,
+   "n": 3
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
+   "n": 10
   },
   {
    "name": "Krebs on Security",
@@ -42,9 +27,19 @@
    "n": 0
   },
   {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
+  },
+  {
    "name": "BBC World",
    "ok": true,
-   "n": 5
+   "n": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -52,19 +47,19 @@
    "n": 0
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 1
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "Daily Dark Web",
@@ -72,19 +67,24 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 1
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,435 @@
   }
  ],
  "items": [
+  {
+   "id": "ne28fa0b681",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Even Wall Street’s lone Nvidia bear says forcing out CEO Jensen Huang ‘would be a mistake for everyone’",
+   "url": "https://www.marketwatch.com/story/wall-streets-only-nvidia-bear-says-forcing-out-ceo-jensen-huang-would-be-a-mistake-for-everyone-78043738?mod=mw_rss_topstories",
+   "published": "2026-11-10T18:16:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4893b7f645",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+   "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+   "published": "2026-11-10T18:11:54.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n34eba12618",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran backs nuclear treaty even as hardliners raise prospect of bomb",
+   "url": "https://www.aljazeera.com/news/2026/11/10/iran-backs-nuclear-treaty-even-as-hardliners-raise-prospect-of-bomb?traffic_source=rss",
+   "published": "2026-11-10T17:35:07.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7921f55723",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Stocks fall as the 10-year Treasury yield reclaims 5%",
+   "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+   "published": "2026-11-10T17:34:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naf3e566756",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "AI-Powered Malware Analysis Uncovers Hidden Phishing Threats and Reduces SOC Workload",
+   "url": "https://hackread.com/ai-powered-malware-analysis-phishing-threats-soc-workload/",
+   "published": "2026-11-10T17:21:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n656e4de6b3",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli president warns against repeat election in new Knesset session",
+   "url": "https://www.aljazeera.com/news/2026/11/10/israeli-president-warns-against-repeat-election-in-new-knesset-session?traffic_source=rss",
+   "published": "2026-11-10T17:16:15.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n92c9d45839",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israel's new parliament sworn in as leaders compete to form government",
+   "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T17:03:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncc845d87e8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+   "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+   "published": "2026-11-10T16:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n38532208b5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+   "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+   "published": "2026-11-10T16:42:02.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naf9a823ea0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Qatari PM’s Washington visit comes amid renewed US–Iran diplomacy",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/qatari-pms-washington-visit-comes-amid-renewed-us-iran?traffic_source=rss",
+   "published": "2026-11-10T16:39:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n06d483b787",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least 12 people killed in Bulgaria motorway pile-up",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
+   "published": "2026-11-10T16:20:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n82b5e1a648",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "published": "2026-11-10T16:17:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4a9230aea7",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+   "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+   "published": "2026-11-10T16:08:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd100d45bd6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘Boneless couches’ are the new futons",
+   "url": "https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories",
+   "published": "2026-11-10T16:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0eb55bf159",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "published": "2026-11-10T16:00:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n89d6f6254d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "published": "2026-11-10T15:59:19.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7e413807cc",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "published": "2026-11-10T15:58:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9f595a9545",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Father, child among six Palestinians killed in Israeli attacks on Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/10/israeli-attacks-kill-at-least-six-in-gaza-including-father-and-son?traffic_source=rss",
+   "published": "2026-11-10T15:49:36.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ndd1e20434b",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "iOS Sandbox Escape Is Public, and Apple Hasn’t Confirmed a Fix",
+   "url": "https://securityaffairs.com/202788/hacking/ios-sandbox-escape-is-public-and-apple-hasnt-confirmed-a-fix.html",
+   "published": "2026-11-10T15:46:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncb71d2bd12",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Cybercriminals are increasingly infecting regular people with spyware",
+   "url": "https://therecord.media/spyware-cyber-crime-iverify",
+   "published": "2026-11-10T15:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7646e96e2e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+   "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+   "published": "2026-11-10T15:33:59.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n5f4bc8e24b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Elon Musk was half right in his comment last week about SoftBank backpedaling on a gas-turbine order",
+   "url": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
+   "published": "2026-11-10T15:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf7ecc76431",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+   "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-10T15:21:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nee2fbbcd8f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/lewis-hamilton-visits-rafah-crossing-to-witness-gaza-aid-efforts?traffic_source=rss",
+   "published": "2026-11-10T15:21:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne5eb01cfdb",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘Positive momentum’: Is the US war on Iran about to end?",
+   "url": "https://www.aljazeera.com/news/2026/11/10/positive-momentum-is-the-us-war-on-iran-about-to-end?traffic_source=rss",
+   "published": "2026-11-10T15:18:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8ae0a884a0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why is India trying to broker a Russia-Ukraine Black Sea food corridor?",
+   "url": "https://www.aljazeera.com/news/2026/11/10/why-is-india-trying-to-broker-a-russia-ukraine-black-sea-food-corridor?traffic_source=rss",
+   "published": "2026-11-10T15:04:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n74f31cae8a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Ransomware recovery is now a client retention metric",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "published": "2026-11-10T15:01:11.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf9a315b088",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+   "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+   "published": "2026-11-10T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n77e18dcd74",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "WhiteMatter Raises $20 Million in Series A Funding",
+   "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+   "published": "2026-11-10T14:58:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n422bed9b63",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Forget happy hour. ‘Money parties’ are having a moment.",
+   "url": "https://www.marketwatch.com/story/forget-happy-hour-money-parties-are-having-a-moment-6bc6f02a?mod=mw_rss_topstories",
+   "published": "2026-11-10T14:58:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc1d47a910d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+   "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+   "published": "2026-11-10T14:46:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf00273d9e0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+   "url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+   "published": "2026-11-10T14:31:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n92c1a19554",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "One Identity Unveils Safeguard 9.0 for Simpler PAM",
+   "url": "https://hackread.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/",
+   "published": "2026-11-10T14:12:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n74b78ea536",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
+   "url": "https://hackread.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
+   "published": "2026-11-10T14:11:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n64ec800c6a",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
+   "url": "https://hackread.com/one-identity-unveils-active-roles-8-6-with-enhanced-security-and-administration/",
+   "published": "2026-11-10T14:11:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n52b0877a4d",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "CVE-2026-109469: CVSS 10 Entra Device Registration Flaw",
+   "url": "https://socradar.io/blog/cve-2026-109469-cvss-10-entra-device-registration-flaw/",
+   "published": "2026-11-10T13:37:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne7a8a4d2bb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+   "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+   "published": "2026-11-10T13:27:44.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n633b52d336",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
+   "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+   "published": "2026-11-10T13:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb18e440d8e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+   "url": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+   "published": "2026-11-10T13:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n9f181d606d",
    "kind": "news",
@@ -1820,314 +2249,6 @@
    "title": "One Product Isn’t the Problem: Monetizing an AI Portfolio Without Confusing Your Customers",
    "url": "https://securityaffairs.com/202603/ai/one-product-isnt-the-problem-monetizing-an-ai-portfolio-without-confusing-your-customers.html",
    "published": "2026-11-07T18:48:55.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n60bb2f71f2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US offers $20m reward for information about Iran's nuclear programme",
-   "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-07T18:14:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5e3d244e46",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
-   "url": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
-   "published": "2026-11-07T17:43:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n654d4d4352",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Houthis report 25 killed in Yemen strikes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
-   "published": "2026-11-07T17:39:23.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n04a83efdcb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
-   "published": "2026-11-07T17:16:50.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n7a1835e18d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jerusalem Daily: Heavy rains flood Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
-   "published": "2026-11-07T17:11:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7bf2ce5d73",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Houthis say at least 25 killed in Saudi air strike",
-   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-07T17:09:24.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n4324b4b8cd",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
-   "url": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
-   "published": "2026-11-07T17:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n60a4dad105",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Italian foreign minister says hackers leaked his personal data",
-   "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-07T16:50:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n48e1b5c230",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel builds 90km network of military roads across southern Lebanon",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
-   "published": "2026-11-07T16:30:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0a89cb9891",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I attend free meals hosted by people promoting annuities. I’ve no intention of buying any. Should I stop going?",
-   "url": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
-   "published": "2026-11-07T16:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n56d20b78c2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Guatemalan lawmaker and three police officers killed in armed attack",
-   "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
-   "published": "2026-11-07T16:15:18.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndff1118f9b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Five killed and at least 10 injured in Krakow shooting",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
-   "published": "2026-11-07T16:06:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndfb312f672",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran’s IRGC says building underground sites for weapons production, storage",
-   "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
-   "published": "2026-11-07T15:34:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nded94754be",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers pull off $133 million French bank heist via service provider",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-   "published": "2026-11-07T15:25:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfa7aa10fa4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "At least six people killed in shooting in Poland’s Krakow",
-   "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
-   "published": "2026-11-07T15:22:55.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n053daca12a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iraq’s FM says external parties using Iraqi soil to attack neighbours",
-   "url": "https://www.aljazeera.com/news/2026/11/7/iraqs-fm-says-external-parties-using-iraqi-soil-to-attack-neighbours?traffic_source=rss",
-   "published": "2026-11-07T14:24:48.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5a765cf499",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-   "published": "2026-11-07T14:10:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na0f5ba049a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
-   "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-   "published": "2026-11-07T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf77db363b6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time",
-   "url": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
-   "published": "2026-11-07T13:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n93c9406c2b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
-   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-   "published": "2026-11-07T13:24:41.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6aee37dbf9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gaza displacement camps collapse under rainwater",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
-   "published": "2026-11-07T13:14:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n213870ee0e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
-   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-   "published": "2026-11-07T13:07:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd5c788b412",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Heavy rains flood displacement camps across Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-   "published": "2026-11-07T13:04:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4a4b897c9e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-   "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-07T12:49:36.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd8fcb7ab2e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
-   "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
-   "published": "2026-11-07T12:29:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5805658a25",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
-   "published": "2026-11-07T12:24:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1ed61bc0c7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-   "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-   "published": "2026-11-07T12:22:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n10e7c1452b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
-   "published": "2026-11-07T11:59:26.000Z",
    "severity": "normal",
    "verified": true
   }
