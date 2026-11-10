@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "edition": 239,
- "compiled": "2026-11-10T12:51:51.781Z",
+ "compiled": "2026-11-10T20:07:36.688Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -23,7 +23,7 @@
      "url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/"
     }
    ],
-   "score": 2.24,
+   "score": 2.09,
    "image": "/img/news/8791ad63d4.webp",
    "t": "2026-11-10",
    "summary": "BleepingComputer reports that Turla has used Cereal to intercept emails on Microsoft Exchange servers at government organizations.",
@@ -54,7 +54,7 @@
      "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
     }
    ],
-   "score": 1.98,
+   "score": 1.83,
    "image": "/img/news/8d206c962e.webp",
    "t": "2026-11-09",
    "summary": "N-able took hosted N-central environments offline and urged on-premises customers to shut down servers after a researcher disclosed alleged zero-days.",
@@ -67,424 +67,360 @@
    "ai": true
   },
   {
-   "id": "7e1f9b33c6",
+   "id": "9814f02994",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-   "snippet": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-   "published": "2026-11-10T08:51:25.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
-    }
-   ],
-   "score": 1.87,
-   "image": "/img/news/7e1f9b33c6.webp",
+   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+   "snippet": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+   "published": "2026-11-10T20:04:36.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/9814f02994.webp",
    "t": "2026-11-10",
-   "summary": "Google released emergency updates for a Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year.",
-   "why": "Install Google's emergency Chrome updates and verify browser patch status.",
+   "summary": "Microsoft says the Windows 10 KB5131096 extended security update includes November 2026 Patch Tuesday fixes, bug fixes, and changes.",
+   "why": "Check Windows 10 systems for the update and apply it through your patch process.",
    "tags": [
-    "Chrome",
-    "zero-day",
-    "updates"
+    "Windows 10",
+    "security update"
    ],
    "ai": true
   },
   {
-   "id": "9af5f29020",
+   "id": "09de80ae0a",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
-   "snippet": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
-   "published": "2026-11-10T12:07:03.000Z",
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "snippet": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+   "published": "2026-11-10T19:31:11.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/09de80ae0a.webp",
+   "t": "2026-11-10",
+   "summary": "BleepingComputer reports that a threat actor used compromised IAM credentials for a Qubole AWS account to access and exfiltrate data from multiple customers' AWS environments.",
+   "why": "Review IAM credentials, access paths, and cloud activity for unauthorized use.",
+   "tags": [
+    "IAM credentials",
+    "AWS"
+   ],
+   "ai": true
+  },
+  {
+   "id": "50eb1dccf4",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "snippet": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+   "published": "2026-11-10T19:07:36.000Z",
    "also": [],
    "score": 1.58,
-   "image": "/img/news/9af5f29020.webp",
+   "image": "/img/news/50eb1dccf4.webp",
    "t": "2026-11-10",
-   "summary": "SAP patched 35 vulnerabilities, including four maximum-severity issues affecting NetWeaver, Web Dispatcher, and Gateway.",
-   "why": "Review exposure to the affected SAP software and apply the updates.",
+   "summary": "Microsoft's November 2026 Patch Tuesday updates address 1,235 flaws, including an actively exploited Outlook zero-day, according to BleepingComputer.",
+   "why": "Prioritize Outlook and Microsoft security updates, and check whether exposed systems remain unpatched.",
    "tags": [
-    "SAP",
-    "NetWeaver",
-    "Gateway"
+    "Patch Tuesday",
+    "Outlook zero-day"
    ],
    "ai": true
   },
   {
-   "id": "0e899e1e6c",
+   "id": "33bc3cf0f9",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-   "snippet": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-   "published": "2026-11-10T10:10:20.000Z",
+   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+   "snippet": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+   "published": "2026-11-10T18:33:26.000Z",
    "also": [],
-   "score": 1.54,
-   "image": "/img/news/0e899e1e6c.webp",
+   "score": 1.57,
+   "image": "/img/news/33bc3cf0f9.webp",
    "t": "2026-11-10",
-   "summary": "Barracuda Networks warned that attackers are exploiting two recently patched ESG flaws that allow commands to run with root privileges.",
-   "why": "Check ESG patch status and investigate for signs of exploitation.",
+   "summary": "Microsoft released cumulative Windows 11 updates for versions 26H2, 25H2, 24H2, and 23H2 to address vulnerabilities and bugs and add features.",
+   "why": "Identify affected Windows 11 versions and schedule the relevant cumulative updates.",
    "tags": [
-    "ESG",
-    "root",
-    "exploitation"
+    "Windows 11",
+    "cumulative updates"
    ],
    "ai": true
   },
   {
-   "id": "7d2482c885",
+   "id": "82b5e1a648",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Fireworks AI discloses new breach after cloud provider hack",
-   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-   "snippet": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-   "published": "2026-11-10T07:49:58.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/7d2482c885.webp",
-   "t": "2026-11-10",
-   "summary": "Fireworks disclosed a breach in which attackers accessed its development machines after breaching a third-party cloud provider.",
-   "why": "Review third-party cloud access and check development machines for unauthorized activity.",
-   "tags": [
-    "breach",
-    "cloud provider",
-    "development machines"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4271579dde",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-   "snippet": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher w",
-   "published": "2026-11-10T12:15:31.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/4271579dde.webp",
-   "t": "2026-11-10",
-   "summary": "Binance warned that an iOS sandbox escape could let an app read other apps' files on iOS 26 and 27, putting sensitive data at risk. The snippet says no fix is confirmed.",
-   "why": "Assess exposure to affected iOS versions and avoid storing sensitive credentials in accessible files.",
-   "tags": [
-    "iOS",
-    "sandbox escape",
-    "wallet keys"
-   ],
-   "ai": true
-  },
-  {
-   "id": "037628398b",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
-   "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-   "snippet": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek .",
-   "published": "2026-11-10T12:17:13.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/037628398b.webp",
-   "t": "2026-11-10",
-   "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery and shows a lower tendency to escape sandboxes in controlled tests.",
-   "why": "Treat controlled-test results as limited evidence when evaluating the model's security behavior.",
-   "tags": [
-    "Mythos 5.2",
-    "bug hunting",
-    "sandboxes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3badf33b9e",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Beyond the Alert: The Case for Rich Network Data",
-   "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-   "snippet": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in. Af",
-   "published": "2026-11-10T11:38:13.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/3badf33b9e.webp",
-   "t": "2026-11-10",
-   "summary": "The article argues that prevention has limits and presents rich network data as relevant to security detection and response.",
-   "why": "Assess whether network data is sufficiently rich to support detection and investigation.",
-   "tags": [
-    "network data",
-    "detections",
-    "prevention"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ba7507c6f2",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-   "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-   "snippet": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released yesterday f",
-   "published": "2026-11-10T10:16:51.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/ba7507c6f2.webp",
-   "t": "2026-11-10",
-   "summary": "Apple said an iMessage flaw could let a remote attacker join a group chat and receive messages; updates also address a separate flaw involving earlier messages.",
-   "why": "Apply Apple's updates and review iMessage exposure.",
-   "tags": [
-    "iMessage",
-    "group chat",
-    "updates"
-   ],
-   "ai": true
-  },
-  {
-   "id": "eee21bac13",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "To Implement Acquisition Reform, Empower Military Mavericks",
-   "url": "https://warontherocks.com/cogs-of-war/to-implement-acquisition-reform-empower-military-mavericks/",
-   "snippet": "“I wanted disciplined but not regimented thinking. Commanders must encourage intellectual risk-taking to preclude a lethargic environment. Leaders must shelter those challenging nonconformists and mavericks who make institutions uncomfortable; otherwise you wash out innovation.”— James Mattis & Bing West, Call Sign Cha",
-   "published": "2026-11-10T09:00:47.000Z",
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "snippet": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+   "published": "2026-11-10T16:17:16.000Z",
    "also": [],
    "score": 1.52,
-   "image": "/img/news/eee21bac13.webp",
+   "image": "/img/news/82b5e1a648.webp",
    "t": "2026-11-10",
-   "summary": "The article argues that acquisition reform requires commanders to encourage intellectual risk-taking and protect nonconformists who challenge institutions.",
-   "why": "The argument highlights leadership and organizational culture as relevant to military acquisition reform.",
+   "summary": "BleepingComputer reports active exploitation of a critical Xen Orchestra authentication bypass that could grant administrator privileges and enable takeover of XCP-ng virtualization hosts.",
+   "why": "Check Xen Orchestra exposure and investigate access to virtualization hosts.",
    "tags": [
-    "acquisition reform",
-    "commanders",
-    "risk-taking"
+    "authentication bypass",
+    "XCP-ng"
    ],
    "ai": true
   },
   {
-   "id": "a19291cce3",
+   "id": "4a9230aea7",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+   "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+   "snippet": "Fireworks said the incident affected a “limited number of customer accounts” — all of whom were notified of the attack.",
+   "published": "2026-11-10T16:08:00.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/4a9230aea7.webp",
+   "t": "2026-11-10",
+   "summary": "Fireworks said hackers stole data and billing information during October breaches, affecting a limited number of customer accounts; affected customers were notified.",
+   "why": "Check relevant customer accounts and billing data for unusual activity.",
+   "tags": [
+    "data",
+    "billing info"
+   ],
+   "ai": true
+  },
+  {
+   "id": "89d6f6254d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "snippet": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+   "published": "2026-11-10T15:59:19.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/89d6f6254d.webp",
+   "t": "2026-11-10",
+   "summary": "Binance warned that a vulnerability in listed iOS versions could let third-party apps read other apps' private files, including crypto wallet secrets and login credentials.",
+   "why": "Review affected iOS devices and protect wallet secrets and credentials stored in apps.",
+   "tags": [
+    "iOS",
+    "wallet secrets"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cb71d2bd12",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Cybercriminals are increasingly infecting regular people with spyware",
+   "url": "https://therecord.media/spyware-cyber-crime-iverify",
+   "snippet": "Cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people, according to a new report.",
+   "published": "2026-11-10T15:45:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/cb71d2bd12.webp",
+   "t": "2026-11-10",
+   "summary": "A new report says cybercriminals are infecting devices on a large scale with spyware, increasingly compromising systems belonging to average people.",
+   "why": "Include personal devices in spyware awareness and device-security checks.",
+   "tags": [
+    "spyware",
+    "devices"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c5040e5d9a",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV",
+   "url": "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav",
+   "snippet": "Beijing openly showcases the GJ-11 flying-wing combat drone and its strike and manned-unmanned teaming capabilities. The post China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV appeared first on TWZ .",
+   "published": "2026-11-10T19:27:30.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/c5040e5d9a.webp",
+   "t": "2026-11-10",
+   "summary": "The War Zone says Beijing openly showcased the GJ-11 flying-wing combat drone and its strike and manned-unmanned teaming capabilities.",
+   "why": "The showcase highlights a combat drone and its stated role alongside crewed aircraft.",
+   "tags": [
+    "GJ-11",
+    "manned-unmanned teaming"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6ed725edb9",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "France awards $1.7 billion contract to Airbus-Thales team for new military satellites",
+   "url": "https://breakingdefense.com/2026/11/france-awards-1-7-billion-contract-to-airbus-thales-team-for-new-military-satellites/",
+   "snippet": "The IRIS orbiters will replace three current satellites in use, known as the Optical Space Component, with better technology to deliver clearer images and faster access to captured imagery.",
+   "published": "2026-11-10T19:45:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/6ed725edb9.webp",
+   "t": "2026-11-10",
+   "summary": "France awarded an Airbus-Thales team a contract for IRIS military satellites, which will replace three current Optical Space Component satellites with clearer imagery and faster access.",
+   "why": "The replacement points to changes in military satellite imagery capability and access.",
+   "tags": [
+    "IRIS",
+    "military satellites"
+   ],
+   "ai": true
+  },
+  {
+   "id": "61528c2055",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War",
-   "url": "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war/",
-   "snippet": "In late 2023, Ukraine’s military leadership faced an institutional choice: establish a dedicated branch of the armed forces for unmanned systems or integrate drones into existing branches. Most senior officers I knew opposed the separate force, and their strongest argument was sound within classical doctrine. Each bran",
-   "published": "2026-11-10T08:30:35.000Z",
+   "title": "Analyzing the Ethiopian-Somaliland Deal, Two Years On",
+   "url": "https://warontherocks.com/analyzing-the-ethiopian-somaliland-deal-two-years-on/",
+   "snippet": "In 2024, James Barnett wrote, “A Port Deal Puts the Horn of Africa on the Brink,” where he argued that tensions in countries like Ethiopia and Somalia threaten to escalate into a broader regional conflict if not contained. Two years later, with U.S. attention largely diverted to other areas of concern, we asked James t",
+   "published": "2026-11-10T19:00:58.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/a19291cce3.webp",
+   "score": 1.58,
+   "image": "/img/news/61528c2055.webp",
    "t": "2026-11-10",
-   "summary": "The article describes Ukraine's military leadership weighing a dedicated unmanned systems branch against integrating drones into existing branches.",
-   "why": "The organizational choice affects how unmanned systems fit into military force structures.",
+   "summary": "The article revisits a 2024 argument that tensions involving Ethiopia and Somalia could escalate into broader regional conflict if not contained; the supplied excerpt ends mid-sentence.",
+   "why": "The deal and regional tensions are relevant to assessing Horn of Africa security.",
    "tags": [
-    "Ukraine",
-    "unmanned systems",
-    "drones"
+    "Ethiopia",
+    "Somaliland",
+    "regional conflict"
    ],
    "ai": true
   },
   {
-   "id": "729f0e5a6f",
+   "id": "89ad894f67",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared",
+   "url": "https://www.twz.com/sea/aim-174b-long-range-missile-packed-with-glide-munitions-teased-new-details-shared",
+   "snippet": "Designed first to extend the reach of 155mm howitzers, Vektrex glide munitions could have a new future tucked inside the noses of missiles. The post AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared appeared first on TWZ .",
+   "published": "2026-11-10T19:04:35.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/89ad894f67.webp",
+   "t": "2026-11-10",
+   "summary": "The War Zone reports that Vektrex glide munitions, originally designed to extend 155mm howitzer reach, may be used inside missile noses.",
+   "why": "The reported concept links missile payload design with glide munitions.",
+   "tags": [
+    "glide munitions",
+    "missiles"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8e3eb07d5d",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "UK satellite decision looms as political fight heats up",
+   "url": "https://breakingdefense.com/2026/11/uk-satellite-decision-looms-as-political-fight-heats-up/",
+   "snippet": "A potential Lockheed Martin win in the UK’s £2.4 billion Skynet satellite competition is fueling a political debate over domestic manufacturing, British jobs and the country’s defense industrial ties.",
+   "published": "2026-11-10T19:06:19.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/8e3eb07d5d.webp",
+   "t": "2026-11-10",
+   "summary": "A potential Lockheed Martin win in the UK's Skynet satellite competition is fueling debate over domestic manufacturing, British jobs, and defense industrial ties.",
+   "why": "The competition connects satellite procurement with national industrial and defense relationships.",
+   "tags": [
+    "Skynet",
+    "satellite competition"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ba7547d1b1",
    "section": "warfare",
    "source": "Defense News",
    "weight": 0.5,
-   "title": "France orders military Earth-observation satellites for more than €1.5 billion",
-   "url": "https://www.defensenews.com/global/europe/2026/11/10/france-orders-military-earth-observation-satellites-for-more-than-e1-5-billion/",
-   "snippet": "France ordered two military Earth-observation satellites from Airbus and Thales Alenia Space for more than €1.5 billion (US$1.7 billion).",
-   "published": "2026-11-10T11:13:15.000Z",
+   "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+   "url": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
+   "snippet": "A new Reuters/Ipsos poll found that 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
+   "published": "2026-11-10T19:29:39.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.49,
+   "image": "/img/news/ba7547d1b1.webp",
    "t": "2026-11-10",
-   "summary": "France ordered two military Earth-observation satellites from Airbus and Thales Alenia Space for more than €1.5 billion.",
-   "why": "Military Earth-observation satellites add space-based capacity for observing the Earth.",
+   "summary": "A Reuters/Ipsos poll found that 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
+   "why": "The poll indicates public opinion is part of the domestic context for the conflict.",
    "tags": [
-    "France",
-    "Earth-observation",
-    "satellites"
+    "poll",
+    "Iran"
    ],
    "ai": true
   },
   {
-   "id": "3ed3952128",
+   "id": "a12634e50a",
    "section": "warfare",
-   "source": "UK Ministry of Defence",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "£90 million investment for new drones and sensors to protect undersea cables and hunt Russian submarines",
-   "url": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines",
-   "snippet": "The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment in new drones, sensors and AI systems for the Royal Navy.",
-   "published": "2026-11-10T11:20:28.000Z",
+   "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
+   "url": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/",
+   "snippet": "Ukraine's foreign minister urged Secretary of State Marco Rubio to accelerate deliveries of interceptors as Russia attempts to break Ukranian morale ahead of its winter months.",
+   "published": "2026-11-10T18:57:04.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/3ed3952128.webp",
+   "score": 1.48,
+   "image": "/img/news/a12634e50a.webp",
    "t": "2026-11-10",
-   "summary": "The UK announced a £90 million investment in drones, sensors, and AI systems for the Royal Navy to protect undersea cables and hunt Russian submarines.",
-   "why": "The investment focuses on undersea cable protection and maritime surveillance.",
+   "summary": "Ukraine's foreign minister urged the US to accelerate interceptor deliveries as Russia attempts to break Ukrainian morale by targeting the power grid, Defense News reports.",
+   "why": "Interceptor deliveries are relevant to defending against attacks described in the report.",
    "tags": [
-    "drones",
-    "sensors",
-    "undersea cables"
+    "interceptors",
+    "power grid"
    ],
    "ai": true
   },
   {
-   "id": "12ab36e356",
+   "id": "15aaa37a7b",
    "section": "warfare",
-   "source": "Naval News",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "Alseamar’s Sonusia Builds Layers in CUI and Wider Underwater Surveillance",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance/",
-   "snippet": "Alseamar has launched Sonusia, a modular, distributed network of acoustic and non-acoustic sensors and associated data processing capacity designed to build persistent underwater surveillance, from surface to seabed, to enable maritime threat detection and environment monitoring. Announcing the launch on 3 November 202",
-   "published": "2026-11-10T09:28:00.000Z",
+   "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
+   "url": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
+   "snippet": "For the first time, Shield’s Hivemind enabled CCAs to fly in a “multi-ship” formation and execute beyond-visual-range counter-air tactics.",
+   "published": "2026-11-10T18:17:13.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/12ab36e356.webp",
+   "score": 1.46,
+   "image": "/img/news/15aaa37a7b.webp",
    "t": "2026-11-10",
-   "summary": "Alseamar launched Sonusia, a modular network of acoustic and non-acoustic sensors and data processing designed for persistent underwater surveillance.",
-   "why": "Distributed sensors and processing support underwater monitoring from surface to seabed.",
+   "summary": "Shield's Hivemind enabled Collaborative Combat Aircraft to fly in formation and execute beyond-visual-range counter-air tactics, according to Breaking Defense.",
+   "why": "The demonstration concerns coordinated operations by multiple uncrewed aircraft.",
    "tags": [
-    "Sonusia",
-    "sensors",
-    "underwater surveillance"
+    "CCAs",
+    "formation"
    ],
    "ai": true
   },
   {
-   "id": "95aeb60993",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Saab launches next generation 9LV naval combat system",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system/",
-   "snippet": "At Euronaval 2026, Saab is introducing the next generation of its naval 9LV Combat System, Combat Management System and Fire Control System with Ceros, in a design built for the realities of modern naval warfare in multiple domains. Saab press release By integrating sensors, weapons and command-and-control functions in",
-   "published": "2026-11-10T07:09:00.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/95aeb60993.webp",
-   "t": "2026-11-10",
-   "summary": "Saab is introducing a next-generation 9LV naval combat system, combat management system, and fire control system with Ceros.",
-   "why": "The systems are designed for naval warfare across multiple domains.",
-   "tags": [
-    "9LV",
-    "combat system",
-    "fire control"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8a5af11899",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "MQ-58 Valkyrie Drones Now Cost $6M-$8M Each",
-   "url": "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each",
-   "snippet": "Kratos still sees Valkyrie's relative affordability as key to staying ahead of a growing field of competing Collaborative Combat Aircraft (CCA) drone designs. The post MQ-58 Valkyrie Drones Now Cost $6M-$8M Each appeared first on TWZ .",
-   "published": "2026-11-10T00:39:57.000Z",
-   "also": [],
-   "score": 1.35,
-   "image": "/img/news/8a5af11899.webp",
-   "t": "2026-11-10",
-   "summary": "Kratos says the MQ-58 Valkyrie's relative affordability is key to competing in a growing field of Collaborative Combat Aircraft designs; the title gives a cost of $6M-$8M each.",
-   "why": "The stated cost and competition offer a measure of the platform's position among collaborative combat drone designs.",
-   "tags": [
-    "MQ-58 Valkyrie",
-    "CCA",
-    "drones"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d460e6246d",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Security Levels At U.S. Bases In England Raised Without Explanation",
-   "url": "https://www.twz.com/air/security-levels-at-u-s-bases-in-england-raised-without-explanation",
-   "snippet": "Aviation spotters had noticed unusual aircraft activity at RAF Mildenhall, which prompted our inquiries to the USAF. The post Security Levels At U.S. Bases In England Raised Without Explanation appeared first on TWZ .",
-   "published": "2026-11-09T22:35:14.000Z",
-   "also": [],
-   "score": 1.3,
-   "image": "/img/news/d460e6246d.webp",
-   "t": "2026-11-09",
-   "summary": "Security levels at U.S. bases in England were raised without explanation. Aviation spotters had noticed unusual activity at RAF Mildenhall.",
-   "why": "The unexplained change highlights the value of monitoring base security and activity.",
-   "tags": [
-    "U.S. bases",
-    "England",
-    "RAF Mildenhall"
-   ],
-   "ai": true
-  },
-  {
-   "id": "92c9d45839",
+   "id": "d08d7d854e",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Israel's new parliament to be sworn in as leaders compete to form government",
-   "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Benjamin Netanyahu's main political rival, Gadi Eisenkot, has first chance to build a new government and oust the prime minister.",
-   "published": "2026-11-10T12:25:48.000Z",
-   "also": [],
-   "score": 1.59,
-   "image": "/img/news/92c9d45839.webp",
-   "t": "2026-11-10",
-   "summary": "BBC reports that Gadi Eisenkot, Benjamin Netanyahu's main political rival, has the first chance to build a new government and oust the prime minister.",
-   "why": "The effort to form a government is a significant political development in Israel.",
-   "tags": [
-    "Israel",
-    "government",
-    "Eisenkot"
-   ],
-   "ai": true
-  },
-  {
-   "id": "aeffb4832a",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
-   "url": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis.",
-   "published": "2026-11-10T11:23:18.000Z",
+   "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
+   "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Slovyansk continues to be bombarded by Russian forces, making it almost uninhabitable with less than 10% of it's pre-war population remaining.",
+   "published": "2026-11-10T18:35:35.000Z",
    "also": [],
    "score": 1.57,
-   "image": "/img/news/aeffb4832a.webp",
+   "image": "/img/news/d08d7d854e.webp",
    "t": "2026-11-10",
-   "summary": "The Israeli military says its soldiers opened fire at individuals it says intended to throw stones at a road used by Israelis; the health ministry says a Palestinian boy was killed.",
-   "why": "The competing accounts are relevant to understanding West Bank events and security conditions.",
+   "summary": "BBC reports that Slovyansk continues to be bombarded by Russian forces and has less than 10% of its pre-war population remaining.",
+   "why": "The account links bombardment with population loss in a front-line city.",
    "tags": [
-    "West Bank",
-    "Israeli military",
-    "health ministry"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b2f0108169",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Trump says more US attacks on Iran 'highly unlikely'",
-   "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
-   "published": "2026-11-10T09:40:31.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/b2f0108169.webp",
-   "t": "2026-11-10",
-   "summary": "Trump says further US attacks on Iran are highly unlikely and describes the current position as status quo, while saying the US remains ready if the situation changes.",
-   "why": "The statements indicate how US leaders describe current posture toward Iran and conditions that could change it.",
-   "tags": [
-    "Iran",
-    "status quo",
-    "US"
+    "Slovyansk",
+    "front-line"
    ],
    "ai": true
   },
@@ -493,12 +429,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+   "title": "First day of Ukraine peace talks constructive, Zelensky says",
    "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Kyiv, Washington and Moscow have all sent delegations to the United Arab Emirates for the first trilateral talks since February.",
-   "published": "2026-11-10T09:07:00.000Z",
+   "snippet": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February.",
+   "published": "2026-11-10T17:29:36.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.55,
    "image": "/img/news/d55f38be0b.webp",
    "t": "2026-11-10",
    "summary": "US officials say Kyiv, Washington, and Moscow are sending delegations to the UAE for the first trilateral talks since February; the sides show some flexibility.",
@@ -511,90 +447,130 @@
    "ai": true
   },
   {
-   "id": "d75bfe326c",
+   "id": "92c9d45839",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-   "published": "2026-11-10T08:23:21.000Z",
+   "title": "Israel's new parliament sworn in as leaders compete to form government",
+   "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Benjamin Netanyahu's main political rival, Gadi Eisenkot, has first chance to build a new government and oust the prime minister.",
+   "published": "2026-11-10T17:03:16.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/d75bfe326c.webp",
+   "score": 1.54,
+   "image": "/img/news/92c9d45839.webp",
    "t": "2026-11-10",
-   "summary": "Trump says the FBI is investigating Nvidia boss Jensen Huang's affair with an alleged Chinese spy; he says he asked Huang about it.",
-   "why": "The reported inquiry highlights the national-security relevance of alleged intelligence links involving a prominent technology leader.",
+   "summary": "BBC reports that Gadi Eisenkot, Benjamin Netanyahu's main political rival, has the first chance to build a new government and oust the prime minister.",
+   "why": "The effort to form a government is a significant political development in Israel.",
    "tags": [
-    "FBI",
-    "Nvidia",
-    "alleged spy"
+    "Israel",
+    "government",
+    "Eisenkot"
    ],
    "ai": true
   },
   {
-   "id": "fe03fc111d",
+   "id": "e38fb49091",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "The Economic Impact of Israel’s Election",
+   "url": "https://foreignpolicy.com/2026/11/10/israel-election-economy-netanyahu-eisenkot-united-states-trump/",
+   "snippet": "Growth has remained robust despite war and political isolation.",
+   "published": "2026-11-10T15:23:35.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/e38fb49091.webp",
+   "t": "2026-11-10",
+   "summary": "Foreign Policy says growth in Israel has remained robust despite war and political isolation.",
+   "why": "The report connects economic performance with conflict and political isolation.",
+   "tags": [
+    "growth",
+    "political isolation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f7ecc76431",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+   "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+   "published": "2026-11-10T15:21:18.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/f7ecc76431.webp",
+   "t": "2026-11-10",
+   "summary": "The Board of Peace criticized Israel's aid response after Gaza floods and also blamed Hamas for civilian suffering, according to BBC.",
+   "why": "The account concerns aid response and civilian conditions after flooding in Gaza.",
+   "tags": [
+    "Gaza",
+    "aid response"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6bc481b818",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "GCC agrees to set up advanced military command headquarters in Kuwait",
-   "url": "https://www.aljazeera.com/news/2026/11/10/gcc-agrees-to-set-up-advanced-military-command-headquarters-in-kuwait?traffic_source=rss",
-   "snippet": "Gulf leaders emphasised the need to strengthen defence coordination to confront present and future regional challenges.",
-   "published": "2026-11-10T12:09:54.000Z",
+   "title": "Rubio says no need for major combat operations against Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/rubio-says-no-need-for-major-combat-operations-against-iran?traffic_source=rss",
+   "snippet": "US Secretary of State Marco Rubio says there is “no need” for further major combat operations against Iran",
+   "published": "2026-11-10T19:34:13.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/fe03fc111d.webp",
+   "image": "/img/news/6bc481b818.webp",
    "t": "2026-11-10",
-   "summary": "Gulf leaders agreed to establish an advanced military command headquarters in Kuwait and emphasized stronger defence coordination.",
-   "why": "The proposed headquarters points to regional coordination as a strategic priority.",
+   "summary": "US Secretary of State Marco Rubio said there is no need for further major combat operations against Iran, Al Jazeera reports.",
+   "why": "The statement is relevant to assessing the stated US position on operations against Iran.",
    "tags": [
-    "GCC",
-    "Kuwait",
-    "defence coordination"
-   ],
-   "ai": true
-  },
-  {
-   "id": "401b87e565",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Trump says Israel, Gulf allies must repay Iran war cost: What does it mean?",
-   "url": "https://www.aljazeera.com/news/2026/11/10/trump-says-israel-gulf-allies-must-repay-iran-war-cost-what-does-it-mean?traffic_source=rss",
-   "snippet": "Analysts say Trump’s comments are more likely to be political posturing than a reflection of serious policy priorities.",
-   "published": "2026-11-10T11:52:34.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/401b87e565.webp",
-   "t": "2026-11-10",
-   "summary": "Analysts say Trump's comments that Israel and Gulf allies should repay Iran war costs are more likely political posturing than serious policy priorities.",
-   "why": "The distinction between political rhetoric and policy priorities matters for interpreting regional signals.",
-   "tags": [
-    "Trump",
     "Iran",
-    "political posturing"
+    "combat operations"
    ],
    "ai": true
   },
   {
-   "id": "d4b8503ced",
+   "id": "e46769eae0",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Who moves first in Iran-US diplomacy?",
-   "url": "https://www.aljazeera.com/opinions/2026/11/10/who-moves-first-in-iran-us-diplomacy?traffic_source=rss",
-   "snippet": "Breaking the deadlock requires coordinated, verifiable concessions, not demands for one side to act first.",
-   "published": "2026-11-10T11:14:16.000Z",
+   "source": "SpaceNews",
+   "weight": 0.6,
+   "title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
+   "url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
+   "snippet": "SAN DIEGO, CA, November 10, 2026 – Kratos Defense & Security Solutions, Inc., a technology company in defense, national security, and global markets, today announced a long-term agreement with Seagate […] The post Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Miss",
+   "published": "2026-11-10T14:00:00.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/d4b8503ced.webp",
+   "image": "/img/news/e46769eae0.webp",
    "t": "2026-11-10",
-   "summary": "The article says breaking the deadlock in Iran-US diplomacy requires coordinated, verifiable concessions rather than demands for one side to act first.",
-   "why": "The emphasis on coordinated, verifiable concessions frames the diplomatic obstacle.",
+   "summary": "Kratos and Seagate Space announced a long-term agreement to advance mobile offshore launch capabilities for national security missions; the supplied excerpt provides no further detail.",
+   "why": "The announced partnership concerns offshore launch capabilities for national security missions.",
    "tags": [
-    "Iran-US diplomacy",
-    "concessions",
-    "deadlock"
+    "offshore launch",
+    "national security"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ed5f4ce4cf",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+   "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
+   "published": "2026-11-10T13:45:13.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/ed5f4ce4cf.webp",
+   "t": "2026-11-09",
+   "summary": "France accused Iran of supermarket fridge hacking; the BBC says food spoiled as refrigerators and freezers heated up.",
+   "why": "The incident connects cyber activity with the availability of chilled and frozen food.",
+   "tags": [
+    "France",
+    "Iran",
+    "supermarkets"
    ],
    "ai": true
   }
@@ -746,47 +722,47 @@
   }
  ],
  "run_today": [
-  "Check Exchange servers for unauthorized access or email interception associated with Cereal.",
-  "Prioritize Chrome emergency updates and verify deployment across managed devices.",
-  "Check Barracuda ESG patch status and investigate for signs of root-level command execution."
+  "Prioritize deployment of the November Patch Tuesday fixes, including the Outlook update for the actively exploited zero-day.",
+  "Review IAM credentials and AWS access logs for unauthorized access or data exfiltration.",
+  "Check Xen Orchestra exposure and investigate potential access to XCP-ng virtualization hosts."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "zero-day",
-   "explainer": "A zero-day is a software vulnerability exploited in attacks before a fix is available or applied. The Chrome item reports a flaw exploited in zero-day attacks and emergency updates.",
-   "from_id": "7e1f9b33c6",
-   "from": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "term": "IAM credentials",
+   "explainer": "Identity and access management credentials are login details used to establish an identity and access cloud resources. The AWS story describes compromised credentials being used to reach customer environments.",
+   "from_id": "09de80ae0a",
+   "from": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "unmanned systems",
-   "explainer": "Unmanned systems are military systems, such as drones, that operate without a person aboard. The article discusses whether they should have a dedicated military branch or be integrated into existing branches.",
-   "from_id": "a19291cce3",
-   "from": "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war/",
-   "fromSource": "War on the Rocks"
+   "term": "manned-unmanned teaming",
+   "explainer": "Manned-unmanned teaming means operating crewed platforms together with uncrewed systems. The GJ-11 story describes this as one of the drone's showcased capabilities.",
+   "from_id": "c5040e5d9a",
+   "from": "https://www.twz.com/air/china-lifts-the-veil-on-the-gj-11-mysterious-dragon-stealth-ucav",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "government formation",
-   "explainer": "Government formation is the process of building a governing administration after a political contest. The item says Gadi Eisenkot has the first chance to build a new government in Israel.",
-   "from_id": "92c9d45839",
-   "from": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss",
+   "term": "front-line city",
+   "explainer": "A front-line city is a place described as being near an active conflict front. The Slovyansk report links its front-line setting with continued bombardment and a greatly reduced population.",
+   "from_id": "d08d7d854e",
+   "from": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&amp;at_campaign=rss",
    "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Exposure, response, and shifting regional signals",
+  "headline": "Patch urgency and trusted access shape today’s cyber picture",
   "paragraphs": [
-   "The cyber stories point to risk across different layers: Turla's reported email interception on government Exchange servers, exploited Chrome and Barracuda flaws, and SAP's high-severity patches. Together, they suggest defenders should track both targeted access and vulnerabilities that require timely patching.",
-   "The N-able disclosure in today's top stories adds a separate operational concern: a provider took hosted environments offline and urged on-premises customers to shut down servers. These reports underline the value of checking exposure, communicating response steps, and preserving useful network data for investigation.",
-   "The top geo stories describe political competition in Israel and a reported West Bank death, while US-Iran messaging remains part of the wider briefing. The accounts and signals differ in kind; analysts should distinguish attributed claims from confirmed actions and watch how political developments are described."
+   "Several stories point to pressure on routine security controls: Microsoft updates address a large set of flaws, including an actively exploited Outlook zero-day, while separate Windows updates cover current versions. The reports make patch status and prioritization immediate concerns for defenders.",
+   "The AWS breach story highlights a different route: compromised IAM credentials associated with a trusted platform were used to reach multiple customer environments and exfiltrate data. The Xen Orchestra report also describes active exploitation, this time through an authentication bypass. Together, they suggest defenders should assess both identity-based access and exposed software.",
+   "Beyond cyber, the GJ-11 showcase and France’s military satellite contract concern capabilities for combat operations and imagery access. These stories underline the value of tracking technology as well as incidents. Watch for update and exposure guidance, signs of unauthorized access, and further detail about the capabilities described."
   ],
   "takeaways": [
-   "Prioritize exposed services and verify patches for actively exploited flaws.",
-   "Treat provider disclosures and service shutdown guidance as operationally significant.",
-   "Separate attributed statements from established facts when assessing regional developments."
+   "Prioritize applicable Microsoft updates, especially the Outlook zero-day fix.",
+   "Audit cloud identities and investigate unusual access to customer environments.",
+   "Track how military drone and satellite capabilities are described and developed."
   ]
  },
  "health": [
@@ -812,7 +788,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 21
+   "n": 25
   },
   {
    "name": "The Record",
@@ -836,7 +812,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Unit 42",
@@ -866,19 +842,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 8
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -896,7 +872,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "Bellingcat",
@@ -914,7 +890,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "International Crisis Group",
@@ -944,13 +920,13 @@
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The Diplomat",
@@ -962,7 +938,7 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 8
   },
   {
    "name": "BBC World",
