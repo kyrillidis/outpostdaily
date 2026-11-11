@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:55:30.341Z",
+ "updated": "2026-11-11T23:54:30.282Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,24 +7,29 @@
    "n": 0
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 6
+   "n": 1
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -32,9 +37,9 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "MarketWatch",
@@ -42,34 +47,24 @@
    "n": 10
   },
   {
-   "name": "Al Jazeera",
+   "name": "BBC World",
    "ok": true,
-   "n": 9
+   "n": 3
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
    "ok": true,
    "n": 3
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 6
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -79,7 +74,7 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -88,6 +83,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,314 @@
   }
  ],
  "items": [
+  {
+   "id": "n8f3c3c11cc",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
+   "url": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
+   "published": "2026-11-11T23:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n77d11504d7",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+   "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+   "published": "2026-11-11T23:08:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7f241c94ac",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "published": "2026-11-11T23:01:31.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nccdd6c7f3f",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "published": "2026-11-11T22:56:21.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n487f359ed5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli strikes hit tent camp as five killed in Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
+   "published": "2026-11-11T22:55:37.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb82478859e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+   "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+   "published": "2026-11-11T22:34:43.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n61292229f4",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
+   "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+   "published": "2026-11-11T21:55:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbcbd3a3cc8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+   "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+   "published": "2026-11-11T21:44:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9025751a97",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
+   "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+   "published": "2026-11-11T21:42:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n27b573b7e6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Sandisk’s stock just staged a big gain. Here’s how it could march even higher.",
+   "url": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
+   "published": "2026-11-11T21:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb4ba65d37c",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "AI Pentest Tool AntiFox Abused To Steal AWS Credentials",
+   "url": "https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html",
+   "published": "2026-11-11T21:31:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na4a34375ee",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "published": "2026-11-11T21:27:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na2a353c597",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
+   "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
+   "published": "2026-11-11T21:21:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc5c797f8dc",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "AI Raises the Stakes for Cyber Resilience",
+   "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+   "published": "2026-11-11T21:20:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nfd1338efca",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Bloom Energy’s stock is rallying as data-center jitters subside",
+   "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
+   "published": "2026-11-11T21:14:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2ddd214302",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+   "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+   "published": "2026-11-11T21:03:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n11b2bccee7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
+   "published": "2026-11-11T21:01:42.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4555dea146",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "published": "2026-11-11T20:54:20.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n583542162a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "It’s not ‘Medicare for All,’ but ‘Medicare for More.’ What this could mean for workers over 50.",
+   "url": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
+   "published": "2026-11-11T20:53:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf4f4184599",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "WhiteArmor Demands $5 Million from Maersk, Claims Theft of 100GB of Data",
+   "url": "https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html",
+   "published": "2026-11-11T20:47:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ned3e67598e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Oil production nears pre-Iran war levels, OPEC says",
+   "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
+   "published": "2026-11-11T20:45:30.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nbf2ebd214a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza goalkeeper killed in Israeli attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
+   "published": "2026-11-11T20:44:34.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n2bb00d0774",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents?traffic_source=rss",
+   "published": "2026-11-11T20:33:35.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd69184e718",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "F1 champion Lewis Hamilton calls on Israel to open Gaza’s Rafah border",
+   "url": "https://www.aljazeera.com/news/2026/11/11/f1-champion-lewis-hamilton-calls-on-israel-to-open-rafah-border?traffic_source=rss",
+   "published": "2026-11-11T20:24:51.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne2b7ebdc24",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+   "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+   "published": "2026-11-11T20:05:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nccc647d43f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Three women killed in LA crash as driver arrested",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/three-women-killed-in-la-crash-as-driver-arrested?traffic_source=rss",
+   "published": "2026-11-11T20:03:45.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nfc6903ee54",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "When Market Data Can’t Be Trusted: Why Feed Integrity Matters to Order-Flow Analysis",
+   "url": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
+   "published": "2026-11-11T19:56:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8cdc4a0f74",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Krebs on Security",
+   "title": "Who Runs the Ransomware Group Qilin?",
+   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "published": "2026-11-11T18:06:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n203e12206e",
    "kind": "news",
@@ -2649,17 +2957,6 @@
    "verified": true
   },
   {
-   "id": "nf2483a4f53",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘We had the worst fight we’ve ever had’: I want my husband to retire at 65. But I don’t want to lose his $280,000 salary.",
-   "url": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-   "published": "2026-11-09T10:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n3c0c651efe",
    "kind": "news",
    "group": "cyber",
@@ -2668,28 +2965,6 @@
    "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
    "published": "2026-11-09T10:09:02.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "na85d0bc7ae",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Ryan Serhant of ‘Owning Manhattan’ on why you shouldn’t wait to buy a house, and the hot spots to watch for",
-   "url": "https://www.marketwatch.com/story/ryan-serhant-of-owning-manhattan-on-why-you-shouldnt-wait-to-buy-a-house-and-the-hot-spots-to-watch-for-9c2731c3?mod=mw_rss_topstories",
-   "published": "2026-11-09T10:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n23a8fb8674",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Brewers star Christian Yelich is selling his hillside Malibu mansion for $30 million",
-   "url": "https://www.marketwatch.com/story/brewers-star-christian-yelich-is-selling-his-hillside-malibu-mansion-for-30-million-92bee567?mod=mw_rss_topstories",
-   "published": "2026-11-09T10:02:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2711,17 +2986,6 @@
    "title": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations?",
    "url": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations?traffic_source=rss",
    "published": "2026-11-09T09:27:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5cf6a17605",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
-   "url": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-   "published": "2026-11-09T09:12:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2847,17 +3111,6 @@
    "verified": true
   },
   {
-   "id": "nb062b2819c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
-   "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
-   "published": "2026-11-09T01:21:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n2b3dc2d2a9",
    "kind": "news",
    "group": "crisis",
@@ -2887,94 +3140,6 @@
    "title": "Nvidia CEO’s affair sparks Chinese espionage probe",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
    "published": "2026-11-08T23:58:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb04584ab15",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
-   "url": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
-   "published": "2026-11-08T23:50:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5869883f59",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
-   "url": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
-   "published": "2026-11-08T23:49:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8778d2ed26",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "You follow the rules for smart stock trading. But are they the right rules?",
-   "url": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
-   "published": "2026-11-08T23:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n499b9f9b6b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-   "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-08T21:37:36.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n9148fc8519",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Deadly sand cliff collapses on displaced families in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/deadly-sand-cliff-collapses-on-displaced-families-in-gaza?traffic_source=rss",
-   "published": "2026-11-08T21:05:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nadf55758cb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran waiting to resume talks after US midterms ‘shock’Iranian Foreign Minis",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/iran-waiting-to-resume-talks-after-us-midterms-shockiranian-foreign-minis?traffic_source=rss",
-   "published": "2026-11-08T20:51:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncb84708313",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran threatens to ‘rain down hell’ if US escalates war",
-   "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war?traffic_source=rss",
-   "published": "2026-11-08T20:13:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1bca3ddfb0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Eisenkot open to Netanyahu joining Israel’s next government",
-   "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
-   "published": "2026-11-08T18:12:27.000Z",
    "severity": "normal",
    "verified": true
   }
