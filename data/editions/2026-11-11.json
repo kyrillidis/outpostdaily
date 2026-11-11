@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "edition": 240,
- "compiled": "2026-11-11T00:44:39.858Z",
+ "compiled": "2026-11-11T07:24:04.331Z",
  "model": "gpt-6-luna",
  "items": [
   {
@@ -17,13 +17,9 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
-    },
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/"
     }
    ],
-   "score": 1.99,
+   "score": 1.51,
    "image": "/img/news/8791ad63d4.webp",
    "t": "2026-11-10",
    "summary": "BleepingComputer reports that Turla has used Cereal to intercept emails on Microsoft Exchange servers at government organizations.",
@@ -32,28 +28,6 @@
     "Cereal",
     "Exchange",
     "email"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9364f9baac",
-   "section": "cyber",
-   "source": "Krebs on Security",
-   "weight": 0.7,
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "snippet": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from",
-   "published": "2026-11-10T21:55:03.000Z",
-   "also": [],
-   "score": 1.64,
-   "image": "/img/news/9364f9baac.webp",
-   "t": "2026-11-11",
-   "summary": "Microsoft says its updates address almost 1,100 vulnerabilities in Windows and supported software, including 63 critical flaws and a zero-day.",
-   "why": "Prioritize reviewing and deploying Microsoft updates, especially fixes for critical flaws and the zero-day.",
-   "tags": [
-    "Microsoft",
-    "vulnerabilities",
-    "zero-day"
    ],
    "ai": true
   },
@@ -67,7 +41,7 @@
    "snippet": "<p>CISA has added six new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-20320\" target=\"_blank\">CVE-2026-20320</a> C",
    "published": "2026-11-10T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.5,
    "t": "2026-11-11",
    "summary": "CISA added six vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check the KEV Catalog and prioritize remediation for vulnerabilities affecting your environment.",
@@ -75,6 +49,72 @@
     "CISA",
     "KEV Catalog",
     "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9364f9baac",
+   "section": "cyber",
+   "source": "Krebs on Security",
+   "weight": 0.7,
+   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+   "snippet": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from",
+   "published": "2026-11-10T21:55:03.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/9364f9baac.webp",
+   "t": "2026-11-11",
+   "summary": "Microsoft says its updates address almost 1,100 vulnerabilities in Windows and supported software, including 63 critical flaws and a zero-day.",
+   "why": "Prioritize reviewing and deploying Microsoft updates, especially fixes for critical flaws and the zero-day.",
+   "tags": [
+    "Microsoft",
+    "vulnerabilities",
+    "zero-day"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ddf3562d4e",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+   "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+   "snippet": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms. The post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on SecurityWeek .",
+   "published": "2026-11-11T07:00:17.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/ddf3562d4e.webp",
+   "t": "2026-11-11",
+   "summary": "Apple says it patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms.",
+   "why": "Check Apple devices are updated, including those using Bluetooth or AirPlay.",
+   "tags": [
+    "Bluetooth",
+    "AirPlay",
+    "Brotli"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cd6455aace",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20",
+   "published": "2026-11-11T06:04:02.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/cd6455aace.webp",
+   "t": "2026-11-11",
+   "summary": "CISA added flaws affecting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities catalog; the title says they are actively exploited despite available patches.",
+   "why": "Check for affected products and prioritize applying available patches.",
+   "tags": [
+    "Cisco BroadWorks",
+    "Openwave",
+    "KEV"
    ],
    "ai": true
   },
@@ -88,7 +128,7 @@
    "snippet": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The po",
    "published": "2026-11-10T23:00:00.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.42,
    "image": "/img/news/f91527c7bf.webp",
    "t": "2026-11-11",
    "summary": "Microsoft Research says editing fewer than ten neurons could inject a short payload into an agent model, and reports the threat is detectable.",
@@ -110,7 +150,7 @@
    "snippet": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
    "published": "2026-11-10T22:20:19.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.41,
    "image": "/img/news/16367edd00.webp",
    "t": "2026-11-11",
    "summary": "Railway says hackers exploited infrastructure vulnerabilities to steal customer authentication secrets and generate about $740,000 in fraudulent AI usage.",
@@ -132,7 +172,7 @@
    "snippet": "The unnamed soldier was arrested by British counterterrorism police “working closely” with U.S. authorities, including the FBI and the military, the Metropolitan Police said in a statement.",
    "published": "2026-11-10T21:13:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.39,
    "image": "/img/news/15da1f8e31.webp",
    "t": "2026-11-11",
    "summary": "The Metropolitan Police said a US Army member was arrested in the UK over allegations of spying for Russia.",
@@ -141,6 +181,28 @@
     "arrest",
     "spying",
     "Russia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b093a8f172",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "The Cyber Resilience Act clock doesn’t stop for weekends",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/aurimas-bakas-copla-cra-vulnerability-reporting/",
+   "snippet": "In this Help Net Security interview, Aurimas Bakas, CEO of Copla, talks about what the EU Cyber Resilience Act‘s reporting duties mean for manufacturers. He explains why companies need a register of every product version still in use, why boards focus on CE marking while reporting obligations started in September 2026,",
+   "published": "2026-11-11T07:00:54.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/b093a8f172.webp",
+   "t": "2026-11-11",
+   "summary": "In an interview, Copla CEO Aurimas Bakas discusses Cyber Resilience Act reporting duties and the need to track product versions still in use.",
+   "why": "Review product-version records to support reporting obligations.",
+   "tags": [
+    "Cyber Resilience Act",
+    "reporting",
+    "product versions"
    ],
    "ai": true
   },
@@ -154,7 +216,7 @@
    "snippet": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
    "published": "2026-11-10T20:54:55.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.38,
    "image": "/img/news/230bcad0fa.webp",
    "t": "2026-11-11",
    "summary": "Nitori said an attacker accessed a system on its network and may have stolen 37.62 million customer records.",
@@ -163,70 +225,6 @@
     "Nitori",
     "customer records",
     "unauthorized access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "612ae5f08d",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
-   "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
-   "snippet": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total.",
-   "published": "2026-11-10T20:55:00.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/612ae5f08d.webp",
-   "t": "2026-11-11",
-   "summary": "The report says Microsoft's latest Patch Tuesday listed 1,093 bugs, with an exploited Outlook vulnerability drawing the most attention.",
-   "why": "Check Outlook exposure and prioritize applicable security updates.",
-   "tags": [
-    "Patch Tuesday",
-    "Outlook",
-    "exploited vulnerability"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9814f02994",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-   "snippet": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-   "published": "2026-11-10T20:04:36.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/9814f02994.webp",
-   "t": "2026-11-10",
-   "summary": "Microsoft says the Windows 10 KB5131096 extended security update includes November 2026 Patch Tuesday fixes, bug fixes, and changes.",
-   "why": "Check Windows 10 systems for the update and apply it through your patch process.",
-   "tags": [
-    "Windows 10",
-    "security update"
-   ],
-   "ai": true
-  },
-  {
-   "id": "09de80ae0a",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-   "snippet": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-   "published": "2026-11-10T19:31:11.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/09de80ae0a.webp",
-   "t": "2026-11-10",
-   "summary": "BleepingComputer reports that a threat actor used compromised IAM credentials for a Qubole AWS account to access and exfiltrate data from multiple customers' AWS environments.",
-   "why": "Review IAM credentials, access paths, and cloud activity for unauthorized use.",
-   "tags": [
-    "IAM credentials",
-    "AWS"
    ],
    "ai": true
   },
@@ -240,7 +238,7 @@
    "snippet": "Army sees new short-range air defense 'sleds' providing critical new flexibility and capacity, especially against drone swarms. The post Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029 appeared first on TWZ .",
    "published": "2026-11-10T23:43:49.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.44,
    "image": "/img/news/adfefef4fe.webp",
    "t": "2026-11-11",
    "summary": "The Army sees palletized short-range air defense systems as a way to add flexibility and capacity, especially against drone swarms.",
@@ -262,7 +260,7 @@
    "snippet": "At least 12 KC-135s and three CV-22s have evacuated the base in England over the past two days amid an increase in security protocols. The post USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats appeared first on TWZ .",
    "published": "2026-11-10T20:53:41.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.38,
    "image": "/img/news/228162c988.webp",
    "t": "2026-11-11",
    "summary": "The report says at least 12 KC-135s and three CV-22s left RAF Mildenhall amid increased security protocols and reports of Iranian threats.",
@@ -284,7 +282,7 @@
    "snippet": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets.",
    "published": "2026-11-10T20:56:37.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.38,
    "image": "/img/news/fcbe702cb0.webp",
    "t": "2026-11-11",
    "summary": "Allen Control Systems launched a division to develop counter-drone lasers amid growing Pentagon interest in laser weapons.",
@@ -306,7 +304,7 @@
    "snippet": "Autonomous capabilities give the Navy a way to clear mines without putting sailors in harm’s way.",
    "published": "2026-11-10T20:06:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.36,
    "image": "/img/news/a6beb01aa8.webp",
    "t": "2026-11-11",
    "summary": "The report says autonomous remote mine hunters can clear mines without putting sailors in harm’s way.",
@@ -328,7 +326,7 @@
    "snippet": "The IRIS orbiters will replace three current satellites in use, known as the Optical Space Component, with better technology to deliver clearer images and faster access to captured imagery.",
    "published": "2026-11-10T19:45:00.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.36,
    "image": "/img/news/6ed725edb9.webp",
    "t": "2026-11-10",
    "summary": "France awarded an Airbus-Thales team a contract for IRIS military satellites, which will replace three current Optical Space Component satellites with clearer imagery and faster access.",
@@ -349,7 +347,7 @@
    "snippet": "Beijing openly showcases the GJ-11 flying-wing combat drone and its strike and manned-unmanned teaming capabilities. The post China Lifts The Veil On Its GJ-11 Mysterious Dragon Stealth UCAV appeared first on TWZ .",
    "published": "2026-11-10T19:27:30.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.35,
    "image": "/img/news/c5040e5d9a.webp",
    "t": "2026-11-10",
    "summary": "The War Zone says Beijing openly showcased the GJ-11 flying-wing combat drone and its strike and manned-unmanned teaming capabilities.",
@@ -370,7 +368,7 @@
    "snippet": "In 2024, James Barnett wrote, “A Port Deal Puts the Horn of Africa on the Brink,” where he argued that tensions in countries like Ethiopia and Somalia threaten to escalate into a broader regional conflict if not contained. Two years later, with U.S. attention largely diverted to other areas of concern, we asked James t",
    "published": "2026-11-10T19:00:58.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.34,
    "image": "/img/news/61528c2055.webp",
    "t": "2026-11-10",
    "summary": "The article revisits a 2024 argument that tensions involving Ethiopia and Somalia could escalate into broader regional conflict if not contained; the supplied excerpt ends mid-sentence.",
@@ -392,7 +390,7 @@
    "snippet": "Designed first to extend the reach of 155mm howitzers, Vektrex glide munitions could have a new future tucked inside the noses of missiles. The post AIM-174B Long-Range Missile Packed With Glide Munitions Teased, New Details Shared appeared first on TWZ .",
    "published": "2026-11-10T19:04:35.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.34,
    "image": "/img/news/89ad894f67.webp",
    "t": "2026-11-10",
    "summary": "The War Zone reports that Vektrex glide munitions, originally designed to extend 155mm howitzer reach, may be used inside missile noses.",
@@ -411,9 +409,9 @@
    "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
    "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-   "published": "2026-11-11T00:38:33.000Z",
+   "published": "2026-11-11T03:26:42.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.52,
    "image": "/img/news/839a8c4230.webp",
    "t": "2026-11-11",
    "summary": "The US House blocked a bid to impeach Defence Secretary Pete Hegseth; Democrats can try again next year.",
@@ -426,156 +424,156 @@
    "ai": true
   },
   {
-   "id": "48fa490968",
+   "id": "9fba25121d",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-   "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
-   "published": "2026-11-10T22:52:15.000Z",
+   "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The infamous 400 Mawozo gang was targeted by the El Salvador military which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+   "published": "2026-11-11T02:47:59.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/48fa490968.webp",
+   "score": 1.5,
+   "image": "/img/news/9fba25121d.webp",
    "t": "2026-11-11",
-   "summary": "Nvidia hired a major US law firm to investigate an alleged affair involving a woman believed to be a Chinese spy.",
-   "why": "The report connects a corporate investigation with an allegation involving China.",
+   "summary": "El Salvador's president says the military targeted the 400 Mawozo gang's headquarters in Haiti, where troops have been deployed to combat gang violence.",
+   "why": "The reported deployment and targeting are relevant to understanding security operations in Haiti.",
    "tags": [
-    "Nvidia",
-    "investigation",
-    "China"
+    "Haiti",
+    "400 Mawozo",
+    "military"
    ],
    "ai": true
   },
   {
-   "id": "b4c7f27a72",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Ukraine’s new drone blitz cuts Russian oil refining capacity by 30 percent",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-new-drone-blitz-cuts-russian-oil-refining-capacity-by-30-percent/",
-   "snippet": "Ukraine has renewed attacks on Putin's energy industry in recent days, conducting a series of powerful strikes that have reportedly cut Russian oil refining capacity by around 30 percent and sparked fuel shortages across the country, writes Peter Dickinson. The post Ukraine’s new drone blitz cuts Russian oil refining c",
-   "published": "2026-11-10T21:54:01.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/b4c7f27a72.webp",
-   "t": "2026-11-11",
-   "summary": "The Atlantic Council reports that Ukrainian strikes have reportedly cut Russian oil refining capacity by around 30 percent and sparked fuel shortages.",
-   "why": "The reported strikes and effects make energy infrastructure a strategic focus.",
-   "tags": [
-    "Ukraine",
-    "drone strikes",
-    "oil refining"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fbd143958d",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Europe sees surge in suspected Russian hybrid warfare incidents",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents/",
-   "snippet": "Europe has witnessed a surge in suspected Russian hybrid warfare incidents in recent weeks. This is fueling concerns that Vladimir Putin is escalating his intimidation campaign against Ukraine’s partners, writes Maksym Beznosiuk. The post Europe sees surge in suspected Russian hybrid warfare incidents appeared first on",
-   "published": "2026-11-10T21:17:23.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/fbd143958d.webp",
-   "t": "2026-11-11",
-   "summary": "The Atlantic Council reports a surge in suspected Russian hybrid warfare incidents in Europe and concerns about intimidation of Ukraine’s partners.",
-   "why": "Suspected incidents may affect how analysts assess security concerns around Ukraine’s partners.",
-   "tags": [
-    "Europe",
-    "hybrid warfare",
-    "Russia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d55f38be0b",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "First day of Ukraine peace talks constructive, Zelensky says",
-   "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February.",
-   "published": "2026-11-10T21:21:55.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/d55f38be0b.webp",
-   "t": "2026-11-10",
-   "summary": "US officials say Kyiv, Washington, and Moscow are sending delegations to the UAE for the first trilateral talks since February; the sides show some flexibility.",
-   "why": "The trilateral format and UAE venue are relevant to tracking diplomacy among the parties to the war.",
-   "tags": [
-    "Ukraine",
-    "peace talks",
-    "UAE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "edf2978ecc",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "What Progressives Could Do on Israel",
-   "url": "https://foreignpolicy.com/2026/11/10/progressives-democrats-israel-aid-weapons-sales-congress-midterms/",
-   "snippet": "Democrats feel they have a mandate to put conditions on U.S. support for Israel.",
-   "published": "2026-11-10T21:02:51.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/edf2978ecc.webp",
-   "t": "2026-11-11",
-   "summary": "The report says Democrats feel they have a mandate to put conditions on US support for Israel.",
-   "why": "The item points to debate over the terms of US support for Israel.",
-   "tags": [
-    "Democrats",
-    "US support",
-    "Israel"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7d3a61654a",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "U.S.-Mediated Russia-Ukraine Talks Make Little Headway",
-   "url": "https://foreignpolicy.com/2026/11/10/us-russia-ukraine-peace-talks-progress-cease-fire-donbas/",
-   "snippet": "Old sticking points continue to bog down negotiations.",
-   "published": "2026-11-10T20:34:28.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/7d3a61654a.webp",
-   "t": "2026-11-11",
-   "summary": "The report says US-mediated Russia-Ukraine talks have made little headway, with old sticking points continuing to bog down negotiations.",
-   "why": "The talks’ limited progress is relevant to analysis of Russia-Ukraine diplomacy.",
-   "tags": [
-    "Russia-Ukraine",
-    "talks",
-    "negotiations"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4c5db243bb",
+   "id": "5f9750ce9b",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Iran war live: Hegseth survives impeachment bid; Iran denies US talks",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
-   "snippet": "Despite bipartisan opposition to the war, a bid to impeach Hegseth fails as Iran denies talks with US.",
-   "published": "2026-11-11T00:01:26.000Z",
+   "title": "Netanyahu fights to stay relevant as Israel’s opposition closes in",
+   "url": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
+   "snippet": "A new Knesset shaped by October 7 prepares to convene as Netanyahu fights to prevent an opposition-led government",
+   "published": "2026-11-11T06:23:04.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/4c5db243bb.webp",
+   "image": "/img/news/5f9750ce9b.webp",
    "t": "2026-11-11",
-   "summary": "The report says Hegseth survived an impeachment bid as Iran denied talks with the US.",
-   "why": "The item links US political developments with disputed claims about talks with Iran.",
+   "summary": "A new Knesset prepares to convene as Netanyahu seeks to prevent an opposition-led government.",
+   "why": "The political contest may shape Israel's government as the new Knesset convenes.",
    "tags": [
-    "Hegseth",
-    "Iran",
-    "talks"
+    "Knesset",
+    "Netanyahu",
+    "opposition"
+   ],
+   "ai": true
+  },
+  {
+   "id": "de4d082b89",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+   "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
+   "published": "2026-11-11T01:01:20.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/de4d082b89.webp",
+   "t": "2026-11-11",
+   "summary": "The US Department of Justice says three Iran-backed suspects were involved in plots, including an incident near RAF Fairford, a base used by US armed forces.",
+   "why": "The alleged plots concern a UK airbase used by US forces.",
+   "tags": [
+    "RAF Fairford",
+    "US",
+    "plots"
+   ],
+   "ai": true
+  },
+  {
+   "id": "81c3896238",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
+   "url": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
+   "snippet": "Yemen's government says 190 rebel fighters killed and wounded, as Houthis also claim dealing heavy blows.",
+   "published": "2026-11-11T05:39:26.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/81c3896238.webp",
+   "t": "2026-11-11",
+   "summary": "Yemen's government says 190 rebel fighters were killed and wounded; the Houthis also claim to have inflicted heavy losses.",
+   "why": "The opposing claims offer competing accounts of the fighting.",
+   "tags": [
+    "Yemen",
+    "Houthis",
+    "attacks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "82fd68db9e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US charges three men for allegedly plotting attack on UK base",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss",
+   "snippet": "The US has charged three men over alleged involvement in a plot to attack a Royal Air Force Base in Fairford, UK.",
+   "published": "2026-11-11T05:01:47.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/82fd68db9e.webp",
+   "t": "2026-11-11",
+   "summary": "The US has charged three men over alleged involvement in a plot to attack RAF Fairford in the UK.",
+   "why": "The case concerns an alleged threat to a UK airbase.",
+   "tags": [
+    "RAF Fairford",
+    "charges",
+    "plot"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ba2e02794c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russia claims interception of 146 drones in Leningrad region",
+   "url": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region?traffic_source=rss",
+   "snippet": "Attacks also reported in the Russian-occupied Donbas region of Ukraine as US-mediated talks continue in Abu Dhabi.",
+   "published": "2026-11-11T04:34:47.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/ba2e02794c.webp",
+   "t": "2026-11-11",
+   "summary": "Russia claims it intercepted 146 drones in the Leningrad region; attacks were also reported in occupied Donbas as US-mediated talks continue in Abu Dhabi.",
+   "why": "The reports link drone activity in two areas with ongoing talks.",
+   "tags": [
+    "drones",
+    "Leningrad",
+    "Donbas"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a7dce117f8",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Section 219: the future of US-Israeli defence partnership",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_the-future-of-us-israeli-defence-partnership-101126?traffic_source=rss",
+   "snippet": "US President Donald Trump has announced plans to end the billions of dollars in annual US military aid to Israel.",
+   "published": "2026-11-11T03:48:58.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/a7dce117f8.webp",
+   "t": "2026-11-11",
+   "summary": "Trump announced plans to end annual US military aid to Israel.",
+   "why": "The announcement concerns the future of the US-Israeli defence partnership.",
+   "tags": [
+    "US",
+    "Israel",
+    "military aid"
    ],
    "ai": true
   }
@@ -727,47 +725,47 @@
   }
  ],
  "run_today": [
-  "Review Microsoft updates and prioritize applicable fixes for critical flaws and the zero-day.",
-  "Check CISA’s KEV Catalog for vulnerabilities affecting your systems and prioritize remediation.",
-  "Review cloud authentication secrets and monitor for unexpected AI usage."
+  "Check Apple devices for updates addressing the Bluetooth, AirPlay, iMessage, and Brotli issues.",
+  "Identify Cisco BroadWorks and Openwave systems, then prioritize available patches.",
+  "Review product-version records to support Cyber Resilience Act reporting."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Known Exploited Vulnerabilities Catalog",
-   "explainer": "A catalog maintained by CISA that lists vulnerabilities for which it cites evidence of active exploitation. Defenders can use it to identify fixes that may need priority.",
-   "from_id": "193a689f6d",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-   "fromSource": "CISA Advisories"
+   "term": "Known Exploited Vulnerabilities (KEV) Catalog",
+   "explainer": "A catalog of security vulnerabilities identified as exploited. CISA added flaws affecting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to it.",
+   "from_id": "cd6455aace",
+   "from": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "Palletized short-range air defense",
-   "explainer": "An air-defense system arranged on a palletized platform. The Army sees these systems as adding flexibility and capacity, especially against drone swarms.",
+   "term": "Short-range air defense",
+   "explainer": "Air defense refers to systems intended to protect against threats from the air. The title describes a US Army effort to put palletized short-range air defenses into service.",
    "from_id": "adfefef4fe",
    "from": "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
    "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Hybrid warfare",
-   "explainer": "A term used in the report for suspected incidents that are discussed as part of a broader campaign of intimidation. The snippet does not specify the incidents or methods.",
-   "from_id": "fbd143958d",
-   "from": "https://www.atlanticcouncil.org/blogs/ukrainealert/europe-sees-surge-in-suspected-russian-hybrid-warfare-incidents/",
-   "fromSource": "Atlantic Council"
+   "term": "Knesset",
+   "explainer": "The Knesset is Israel's parliament. The item says a new Knesset is preparing to convene amid a contest over whether an opposition-led government will form.",
+   "from_id": "5f9750ce9b",
+   "from": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Exposure, Defense and Signals Across the Briefing",
+  "headline": "Cyber exposure and contested security claims",
   "paragraphs": [
-   "The cyber reports point to several kinds of exposure: Microsoft’s large update release, CISA’s additions based on active exploitation, and a Railway breach involving stolen authentication secrets. Together, they suggest defenders should connect vulnerability management with credential review and monitoring for suspicious usage, rather than treating patching as the only response.",
-   "The warfare items emphasize adapting to threats and reducing direct risk: the Army sees palletized short-range air defenses as useful against drone swarms, while autonomous mine hunters could clear mines without putting sailors in harm’s way. These are distinct technologies, but both highlight operational flexibility and keeping people farther from danger.",
-   "The geopolitical stories include an impeachment outcome, an investigation involving an alleged spy affair, reported strikes on Russian energy infrastructure, suspected hybrid incidents, and talks making little headway. Analysts should keep claims attributed and separate reported events from assessments. Watch how cyber exposure, military adaptation, and political or strategic developments are described in subsequent reporting."
+   "The cyber stories point to pressure on defenders to keep patching and asset records current. Apple says it fixed flaws across its platforms, including an exploited Brotli bug; the Cisco and Openwave flaws are described as actively exploited despite available patches. CISA's catalog and the Microsoft patch release in today's top stories reinforce the value of tracking exposed software.",
+   "The wider security picture is presented through attributed claims and political developments. Reports on Haiti, Yemen, drones in Russia and Donbas, and the alleged RAF Fairford plot concern different places and events; the supplied accounts do not establish a single connection. Analysts should distinguish official claims, allegations, and reported actions.",
+   "Political decisions may also shape the context for security analysis. The top stories include a US House vote concerning the defence secretary and a new Knesset preparing to convene, alongside reports of cyber activity against government organizations. Defenders and analysts should monitor verified updates while avoiding conclusions that go beyond the available reporting."
   ],
   "takeaways": [
-   "Pair patch prioritization with credential checks and monitoring for suspicious activity.",
-   "Air defense and autonomous mine clearance address different operational risks.",
-   "Attribute geopolitical claims carefully and distinguish reports from assessments."
+   "Prioritize patch checks for products described as actively exploited.",
+   "Keep product-version records current to support reporting and response.",
+   "Separate reported claims from confirmed details when assessing security events."
   ]
  },
  "health": [
@@ -793,7 +791,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 21
+   "n": 18
   },
   {
    "name": "The Record",
@@ -817,7 +815,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 14
+   "n": 11
   },
   {
    "name": "Unit 42",
@@ -847,19 +845,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -877,7 +875,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "Bellingcat",
@@ -895,7 +893,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "International Crisis Group",
@@ -913,7 +911,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Foreign Policy",
@@ -925,7 +923,7 @@
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "RAND",
@@ -937,13 +935,13 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "BBC World",
@@ -955,13 +953,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 13
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 9
   }
  ]
 }
