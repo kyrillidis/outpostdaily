@@ -1,9 +1,72 @@
 {
  "date": "2026-11-11",
  "edition": 240,
- "compiled": "2026-11-11T15:29:31.845Z",
+ "compiled": "2026-11-11T22:09:12.499Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "8cdc4a0f74",
+   "section": "cyber",
+   "source": "Krebs on Security",
+   "weight": 0.7,
+   "title": "Who Runs the Ransomware Group Qilin?",
+   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "snippet": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that",
+   "published": "2026-11-11T18:06:01.000Z",
+   "also": [],
+   "score": 1.62,
+   "image": "/img/news/8cdc4a0f74.webp",
+   "t": "2026-11-11",
+   "summary": "Krebs on Security reports that Qilin claims at least 365 victim organizations in the past three months and describes it as the world’s most active ransomware affiliate program.",
+   "why": "Review ransomware exposure and response readiness; the snippet highlights the group’s claimed activity.",
+   "tags": [
+    "Qilin",
+    "ransomware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a4a34375ee",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "snippet": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
+   "published": "2026-11-11T21:27:40.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/a4a34375ee.webp",
+   "t": "2026-11-11",
+   "summary": "BleepingComputer reports that eMudhra revoked eight additional intermediate CA certificates after finding improper private-key handling during certificate generation.",
+   "why": "Check certificate trust and affected systems for reliance on revoked certificates.",
+   "tags": [
+    "CA certificates",
+    "private keys"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4555dea146",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "snippet": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+   "published": "2026-11-11T20:54:20.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/4555dea146.webp",
+   "t": "2026-11-11",
+   "summary": "Notion says a breach at its AI infrastructure provider, Fireworks AI, exposed AI chat transcripts in a small number of workspaces.",
+   "why": "Check whether staff used the affected AI service and review data-handling practices.",
+   "tags": [
+    "Notion AI",
+    "chat transcripts"
+   ],
+   "ai": true
+  },
   {
    "id": "ceba7551be",
    "section": "cyber",
@@ -14,7 +77,7 @@
    "snippet": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant. The post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on Unit 42 .",
    "published": "2026-11-11T15:00:23.000Z",
    "also": [],
-   "score": 1.69,
+   "score": 1.55,
    "image": "/img/news/ceba7551be.webp",
    "t": "2026-11-11",
    "summary": "Unit 42 says Falcon C2 is a browser-based framework targeting governments through malicious scripts, extensions and the Antino implant.",
@@ -23,6 +86,90 @@
     "Falcon C2",
     "browser",
     "Antino"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3c5e2d75ed",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+   "snippet": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft S",
+   "published": "2026-11-11T19:49:57.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/3c5e2d75ed.webp",
+   "t": "2026-11-11",
+   "summary": "Microsoft says threat actors use GSocket on compromised Linux servers to maintain encrypted remote access after the original vulnerability is patched.",
+   "why": "Check Linux servers for GSocket and investigate or remediate suspected activity.",
+   "tags": [
+    "GSocket",
+    "Linux"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d62040292e",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+   "snippet": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
+   "published": "2026-11-11T16:57:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/d62040292e.webp",
+   "t": "2026-11-11",
+   "summary": "US prosecutors say an indictment describes an Iran-backed network directing attacks over FaceTime against Jewish and American sites, including synagogues and bank buildings.",
+   "why": "The account highlights alleged coordination of attacks across locations and communication channels.",
+   "tags": [
+    "FaceTime",
+    "attacks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e564f8c523",
+   "section": "cyber",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "Lessons from 59 Linux Kernel Bug Reports",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+   "snippet": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings int",
+   "published": "2026-11-11T16:55:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/e564f8c523.webp",
+   "t": "2026-11-11",
+   "summary": "Microsoft researchers say their Linux kernel investigation produced 59 upstream bug reports, 33 assigned CVEs, 38 merged fixes, and demonstrated local root privilege-escalation exploits.",
+   "why": "Track kernel fixes and assess whether Linux systems need updates.",
+   "tags": [
+    "Linux kernel",
+    "CVE"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4c32248b41",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+   "snippet": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+   "published": "2026-11-11T16:24:18.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/4c32248b41.webp",
+   "t": "2026-11-11",
+   "summary": "Maersk says a threat actor accessed a local legacy system inherited through an earlier acquisition and extracted data.",
+   "why": "Inventory inherited legacy systems and check access controls and data exposure.",
+   "tags": [
+    "Maersk",
+    "legacy system"
    ],
    "ai": true
   },
@@ -36,7 +183,7 @@
    "snippet": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
    "published": "2026-11-11T15:12:59.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.46,
    "image": "/img/news/9c9df925ad.webp",
    "t": "2026-11-11",
    "summary": "BleepingComputer says attackers use self-managed AntiFox instances hosted on Alibaba Cloud to target web services and AWS environments.",
@@ -58,7 +205,7 @@
    "snippet": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
    "published": "2026-11-11T15:01:11.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.45,
    "image": "/img/news/a9021fd433.webp",
    "t": "2026-11-11",
    "summary": "Flare says Linux eBPF rootkits can hide activity without loading kernel modules, and that threat actors share source code and tutorials in underground forums.",
@@ -71,336 +218,276 @@
    "ai": true
   },
   {
-   "id": "2b63f8aad1",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Poland shuts down government services platform ePUAP following cyberattack",
-   "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
-   "snippet": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online.",
-   "published": "2026-11-11T13:18:00.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/2b63f8aad1.webp",
-   "t": "2026-11-11",
-   "summary": "The Record reports that Poland shut down ePUAP after an attack on the nationwide platform for official documents and government services.",
-   "why": "Assess contingency arrangements for online government services and related administrative procedures.",
-   "tags": [
-    "Poland",
-    "ePUAP",
-    "cyberattack"
-   ],
-   "ai": true
-  },
-  {
-   "id": "424f8e5ef5",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Britain, France set out first guidelines for commercial hacking firms",
-   "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
-   "snippet": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses.",
-   "published": "2026-11-11T13:11:00.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/424f8e5ef5.webp",
-   "t": "2026-11-11",
-   "summary": "Britain and France issued guidelines asking commercial hacking firms to vet customers, add technical safeguards and monitor and report abuses.",
-   "why": "Commercial hacking firms should check customer vetting, safeguards against misuse, and abuse reporting systems.",
-   "tags": [
-    "guidelines",
-    "commercial hacking firms",
-    "safeguards"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6936798857",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-   "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-   "snippet": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-   "published": "2026-11-11T12:32:27.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/6936798857.webp",
-   "t": "2026-11-11",
-   "summary": "BleepingComputer says N-able released hotfixes for zero-day vulnerabilities in its N-central RMM platform; vulnerable hosted environments were taken offline.",
-   "why": "Apply the hotfixes and check N-central environments for exposure to the zero-day vulnerabilities.",
-   "tags": [
-    "N-central",
-    "hotfixes",
-    "zero-day"
-   ],
-   "ai": true
-  },
-  {
-   "id": "15c0b59087",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft fixes audio issues caused by September security updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-   "snippet": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-   "published": "2026-11-11T11:18:36.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/15c0b59087.webp",
-   "t": "2026-11-11",
-   "summary": "Microsoft says its November 2026 cumulative updates resolve USB audio issues affecting Windows users who installed security updates released since September.",
-   "why": "Check whether affected Windows devices have the November cumulative updates and whether USB audio works.",
-   "tags": [
-    "Microsoft",
-    "USB audio",
-    "updates"
-   ],
-   "ai": true
-  },
-  {
-   "id": "474586429e",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-   "snippet": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-   "published": "2026-11-11T10:12:08.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/474586429e.webp",
-   "t": "2026-11-11",
-   "summary": "CISA warned that hackers are actively exploiting a high-severity Cisco BroadWorks vulnerability, BleepingComputer reports.",
-   "why": "Check Cisco BroadWorks systems for exposure and apply available vendor guidance.",
-   "tags": [
-    "CISA",
-    "Cisco BroadWorks",
-    "exploited"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6cc6511153",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-   "snippet": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
-   "published": "2026-11-11T09:07:27.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/6cc6511153.webp",
-   "t": "2026-11-11",
-   "summary": "Microsoft fixed Outlook sign-in and mail delivery issues on Exchange Server systems following October 2026 Windows Server security updates.",
-   "why": "Check Exchange Server sign-ins and mail delivery after installing the October updates.",
-   "tags": [
-    "Exchange Server",
-    "sign-ins",
-    "updates"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7fc0ff6aee",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-   "snippet": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow wind",
-   "published": "2026-11-11T14:01:00.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/7fc0ff6aee.webp",
-   "t": "2026-11-11",
-   "summary": "The Hacker News says threat actors targeted Qlik Sense servers with PowerShell reverse shell commands, which were unsuccessfully delivered against multiple environments.",
-   "why": "Review Qlik Sense servers for attempted PowerShell reverse shell delivery.",
-   "tags": [
-    "Qlik Sense",
-    "PowerShell",
-    "reverse shells"
-   ],
-   "ai": true
-  },
-  {
-   "id": "df2ec257c1",
+   "id": "0945a590d9",
    "section": "warfare",
-   "source": "Breaking Defense",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "Israel’s Rafael unveils new, larger cruise missile dubbed Super Ice",
-   "url": "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice/",
-   "snippet": "Super Ice is comparable in size to the US-made Tomahawk missile.",
-   "published": "2026-11-11T08:00:00.000Z",
-   "also": [
-    {
-     "source": "Naval News",
-     "url": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/"
-    }
-   ],
-   "score": 1.79,
-   "image": "/img/news/df2ec257c1.webp",
+   "title": "Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky",
+   "url": "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky",
+   "snippet": "Ukrainian officials are expressing concern that a renewed Russian military presence in Oleshky will result in new waves of attacks across the Dnipro River. The post Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky appeared first on TWZ .",
+   "published": "2026-11-11T21:23:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/0945a590d9.webp",
    "t": "2026-11-11",
-   "summary": "Breaking Defense says Rafael unveiled Super Ice, a cruise missile comparable in size to the US-made Tomahawk.",
-   "why": "The comparison provides a size reference for assessing the missile’s technology and operational relevance.",
+   "summary": "Ukrainian officials are concerned that a renewed Russian military presence in Oleshky could result in attacks across the Dnipro River.",
+   "why": "The town’s position by the river is relevant to understanding the stated cross-river concern.",
    "tags": [
-    "Super Ice",
-    "cruise missile",
-    "Tomahawk"
+    "Oleshky",
+    "Dnipro River"
    ],
    "ai": true
   },
   {
-   "id": "323f9ec534",
+   "id": "675acb0523",
    "section": "warfare",
-   "source": "Breaking Defense",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "Ukraine firm Fire Point hopes for extension of Starshield coverage beyond Ukraine’s borders",
-   "url": "https://breakingdefense.com/2026/11/ukraine-firm-fire-point-hopes-for-extension-of-starshield-coverage-beyond-ukraines-borders/",
-   "snippet": "“If we had the possibility to expand Starshield licenses, not just on the temporarily occupied territories, but also a little bit further, like 200 to 300 kilometers, [that] could dramatically impact how Ukraine fights [Russia’s] ballistic attacks on civilians,” Fire Point CEO Iryna Terekh told Breaking Defense.",
-   "published": "2026-11-11T14:01:32.000Z",
+   "title": "Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman",
+   "url": "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
+   "snippet": "The Royal Navy wants to infuse drone capabilities into its air wings and Talon Blue would be far more advanced than anything that has flown off the carriers yet. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman appeared first on TWZ .",
+   "published": "2026-11-11T20:30:40.000Z",
    "also": [],
    "score": 1.57,
-   "image": "/img/news/323f9ec534.webp",
+   "image": "/img/news/675acb0523.webp",
    "t": "2026-11-11",
-   "summary": "Fire Point hopes to extend Starshield coverage beyond Ukraine’s borders, saying an expansion could affect how Ukraine fights ballistic attacks on civilians.",
-   "why": "The proposed coverage extension highlights the operational relevance of satellite connectivity beyond Ukraine’s borders.",
+   "summary": "Northrop Grumman confirmed plans to fly a Talon Blue CCA drone from a British carrier; the Royal Navy wants to add drone capabilities to its air wings.",
+   "why": "Carrier-based drone operations could expand the capabilities integrated into naval air wings.",
    "tags": [
-    "Starshield",
-    "Ukraine",
-    "coverage"
+    "Talon Blue",
+    "drone"
    ],
    "ai": true
   },
   {
-   "id": "831b29e69e",
+   "id": "328b336d78",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "When networks are contested, paring down the data may mean better logistics at the edge",
-   "url": "https://breakingdefense.com/2026/11/when-networks-are-contested-paring-down-the-data-may-mean-better-logistics-at-the-edge/",
-   "snippet": "AI and software can improve logistics, but only if they work with limited bandwidth.",
-   "published": "2026-11-11T13:42:00.000Z",
+   "title": "DoD pushes out 3 loans totaling $450M to bolster US space companies",
+   "url": "https://breakingdefense.com/2026/11/dod-pushes-out-3-loans-totally-450m-to-bolster-us-space-companies/",
+   "snippet": "One industry source told Breaking Defense that the reason for the spate of new loan announcements is that the Pentagon “needed to finalize loans by the end of the fiscal year.”",
+   "published": "2026-11-11T20:15:00.000Z",
    "also": [],
    "score": 1.56,
-   "image": "/img/news/831b29e69e.webp",
+   "image": "/img/news/328b336d78.webp",
    "t": "2026-11-11",
-   "summary": "Breaking Defense says AI and software can improve logistics in contested networks only if they work with limited bandwidth.",
-   "why": "Limited bandwidth is a design constraint for logistics systems operating at the edge.",
+   "summary": "Breaking Defense reports three Pentagon loans totaling $450 million for US space companies; an industry source said they needed to be finalized by fiscal year-end.",
+   "why": "The loans indicate a funding mechanism for US space companies.",
    "tags": [
-    "contested networks",
-    "logistics",
-    "bandwidth"
+    "space companies",
+    "loans"
    ],
    "ai": true
   },
   {
-   "id": "1cbae6e400",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Japan’s Most Dangerous Military Constraint Is Time",
-   "url": "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time/",
-   "snippet": "During a 2022 wargame I ran, bilateral planners reached a familiar barrier. U.S. forces needed to disperse from concentrated bases before the adversary’s first missile salvo. Participants believed Japan could grant emergency access to private land only after an attack, which would be too late — the authority’s trigger ",
-   "published": "2026-11-11T08:30:24.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/1cbae6e400.webp",
-   "t": "2026-11-11",
-   "summary": "War on the Rocks describes a 2022 wargame in which planners faced a barrier to dispersing US forces from concentrated bases before an adversary’s first missile salvo.",
-   "why": "The account highlights how timing and access to private land can affect military dispersal.",
-   "tags": [
-    "Japan",
-    "wargame",
-    "dispersal"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2e97feea79",
-   "section": "warfare",
-   "source": "Defense News",
-   "weight": 0.5,
-   "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU",
-   "url": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
-   "snippet": "Hackers linked to Russia's FSB quietly compromised a Romanian government organization’s servers to collect emails related to NATO and the EU in December 2025, a Slovak cybersecurity firm has revealed.",
-   "published": "2026-11-11T12:08:33.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/2e97feea79.webp",
-   "t": "2026-11-11",
-   "summary": "Defense News reports that a Slovak cybersecurity firm said hackers linked to Russia’s FSB compromised a Romanian government organization’s servers to collect NATO- and EU-related emails.",
-   "why": "The reported targeting of government servers makes email security and server monitoring operationally relevant.",
-   "tags": [
-    "Romania",
-    "servers",
-    "NATO"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b048147a70",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "MQ-9B Fills Critical Gaps for Europe’s Militaries in Trying Times",
-   "url": "https://www.navalnews.com/naval-news/2026/11/mq-9b-fills-critical-gaps-for-europes-militaries-in-trying-times/",
-   "snippet": "European nations face growing security challenges across the Arctic, the Baltic, NATO’s eastern flank, and the Mediterranean. In this environment, early detection and persistent awareness are essential to deterring conflict and preventing aggression. The MQ-9B SkyGuardian® and SeaGuardian® Uncrewed Aircraft Systems (UA",
-   "published": "2026-11-11T11:43:16.000Z",
-   "also": [],
-   "score": 1.42,
-   "t": "2026-11-11",
-   "summary": "Naval News says European nations face security challenges across several regions and describes early detection and persistent awareness as essential.",
-   "why": "The article emphasizes persistent awareness and early detection across multiple European regions.",
-   "tags": [
-    "MQ-9B",
-    "early detection",
-    "awareness"
-   ],
-   "ai": true
-  },
-  {
-   "id": "adfefef4fe",
+   "id": "e9924d6fc9",
    "section": "warfare",
    "source": "The War Zone",
    "weight": 0.6,
-   "title": "Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029",
-   "url": "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-   "snippet": "Army sees new short-range air defense 'sleds' providing critical new flexibility and capacity, especially against drone swarms. The post Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029 appeared first on TWZ .",
-   "published": "2026-11-10T23:43:49.000Z",
+   "title": "F-35s Train In India For “Red Flag Of The East”",
+   "url": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
+   "snippet": "Seven foreign air forces trained alongside the Indian Air Force, as American F-35s took part in their first exercise in India. The post F-35s Train In India For “Red Flag Of The East” appeared first on TWZ .",
+   "published": "2026-11-11T18:31:47.000Z",
    "also": [],
-   "score": 1.27,
-   "image": "/img/news/adfefef4fe.webp",
+   "score": 1.52,
+   "image": "/img/news/e9924d6fc9.webp",
    "t": "2026-11-11",
-   "summary": "The Army sees palletized short-range air defense systems as a way to add flexibility and capacity, especially against drone swarms.",
-   "why": "The concept could add deployable air-defense capacity against drone swarms.",
+   "summary": "The War Zone reports that American F-35s took part in their first exercise in India, alongside seven foreign air forces and the Indian Air Force.",
+   "why": "The exercise is relevant to multinational air-force training and cooperation.",
    "tags": [
-    "Army",
-    "air defense",
-    "drone swarms"
+    "F-35",
+    "India"
    ],
    "ai": true
   },
   {
-   "id": "228162c988",
+   "id": "b6125d3011",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "EU sets out $3.4B defense budget for 2027, boosts Ukraine spending",
+   "url": "https://breakingdefense.com/2026/11/eu-sets-out-3-4b-defense-budget-for-2027-boosts-ukraine-spending/",
+   "snippet": "The new fiscal uplift comes in the wake of Ukraine President Volodymyr Zelenskyy telling European leaders last month that “we need at least €70 billion more from you.”",
+   "published": "2026-11-11T18:22:56.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/b6125d3011.webp",
+   "t": "2026-11-11",
+   "summary": "Breaking Defense reports that the EU set out a $3.4 billion defense budget for 2027 and increased spending for Ukraine.",
+   "why": "The budget signals European defense and Ukraine spending priorities.",
+   "tags": [
+    "EU",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "47666505b6",
    "section": "warfare",
    "source": "The War Zone",
    "weight": 0.6,
-   "title": "USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats",
-   "url": "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats",
-   "snippet": "At least 12 KC-135s and three CV-22s have evacuated the base in England over the past two days amid an increase in security protocols. The post USAF Aircraft Continue To Reposition Away From RAF Mildenhall Amid Reports Of Iranian Threats appeared first on TWZ .",
-   "published": "2026-11-10T20:53:41.000Z",
+   "title": "Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military",
+   "url": "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military",
+   "snippet": "The demonstration will take place in Morocco, but uncrewed options for rescuing casualties could be valuable in other far-flung locales globally. The post Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military appeared first on TWZ .",
+   "published": "2026-11-11T17:46:17.000Z",
    "also": [],
-   "score": 1.21,
-   "image": "/img/news/228162c988.webp",
+   "score": 1.51,
+   "image": "/img/news/47666505b6.webp",
    "t": "2026-11-11",
-   "summary": "The report says at least 12 KC-135s and three CV-22s left RAF Mildenhall amid increased security protocols and reports of Iranian threats.",
-   "why": "Aircraft repositioning and security protocols are operational signals to monitor.",
+   "summary": "The US military will test an autonomous Cessna Caravan air ambulance in Morocco; the report notes uncrewed rescue options could be useful in far-flung locations.",
+   "why": "The test examines how uncrewed aircraft could support casualty evacuation.",
    "tags": [
-    "RAF Mildenhall",
-    "aircraft",
-    "security protocols"
+    "autonomous",
+    "air ambulance"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c0a22bf25a",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "NATO taps Ukraine as red-team in drills to ‘trigger an adaptation cycle’",
+   "url": "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle/",
+   "snippet": "“What we’ve done so far, we took some experience from Ukraine, for example, where we hid some Ukrainian forces and Ukrainian-made USVs, and made them the red team against the blue force of NATO,” Adm. Pierre Vander told Breaking Defense.",
+   "published": "2026-11-11T17:17:05.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/c0a22bf25a.webp",
+   "t": "2026-11-11",
+   "summary": "Breaking Defense reports that NATO used Ukrainian forces and Ukrainian-made USVs as a red team against NATO’s blue force in drills.",
+   "why": "Using a red team brings Ukrainian experience into NATO training and adaptation.",
+   "tags": [
+    "NATO",
+    "red team",
+    "USVs"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f8872c8765",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "CISA outlines internal plan to swiftly address cyber, infrastructure threats",
+   "url": "https://www.defenseone.com/policy/2026/11/cisa-outlines-internal-plan-swiftly-address-cyber-infrastructure-threats/417172/",
+   "snippet": "Guidance to agency staff outlines what senior officials need to know about major risks, national preparedness and CISA’s ability to respond, using terminology familiar in military and intelligence planning.",
+   "published": "2026-11-11T21:00:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/f8872c8765.webp",
+   "t": "2026-11-11",
+   "summary": "Defense One reports that CISA guidance for agency staff addresses major risks, preparedness, and response using military and intelligence planning terminology.",
+   "why": "The guidance concerns how an agency prepares for and responds to cyber and infrastructure threats.",
+   "tags": [
+    "CISA",
+    "preparedness"
+   ],
+   "ai": true
+  },
+  {
+   "id": "26d8001332",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Taoglas Releases CRPA Reference Design for Anti-Jam GNSS Development",
+   "url": "https://insidegnss.com/taoglas-releases-crpa-reference-design-for-anti-jam-gnss-development/",
+   "snippet": "Antenna and RF specialist Taoglas has introduced a controlled reception pattern antenna (CRPA) reference design aimed at OEMs and system integrators building GNSS... The post Taoglas Releases CRPA Reference Design for Anti-Jam GNSS Development appeared first on Inside GNSS - Global Navigation Satellite Systems Engineer",
+   "published": "2026-11-11T17:38:49.000Z",
+   "also": [],
+   "score": 1.61,
+   "t": "2026-11-11",
+   "summary": "Taoglas introduced a CRPA reference design for OEMs and system integrators developing anti-jam GNSS systems.",
+   "why": "The design is relevant to building GNSS systems intended to resist jamming.",
+   "tags": [
+    "CRPA",
+    "GNSS",
+    "anti-jam"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1dbe89b5c1",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Where the Russia-Ukraine peace talks stand after Abu Dhabi",
+   "url": "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/",
+   "snippet": "Our experts unpack what this week’s US-brokered talks between Russia and Ukraine mean for European security and the prospects for peace. The post Where the Russia-Ukraine peace talks stand after Abu Dhabi appeared first on Atlantic Council .",
+   "published": "2026-11-11T19:59:30.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/1dbe89b5c1.webp",
+   "t": "2026-11-11",
+   "summary": "The Atlantic Council examines what US-brokered Russia-Ukraine talks in Abu Dhabi mean for European security and prospects for peace.",
+   "why": "The talks connect the conflict to European security and the prospects for peace.",
+   "tags": [
+    "Russia-Ukraine",
+    "peace talks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d1431677a2",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+   "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+   "published": "2026-11-11T18:04:58.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/d1431677a2.webp",
+   "t": "2026-11-11",
+   "summary": "The BBC reports that Russia-Ukraine talks in Abu Dhabi focused on Europe’s security framework and ended without a breakthrough; US envoys were due to meet Putin and Zelensky.",
+   "why": "The talks’ focus on a European security framework makes their agenda strategically relevant.",
+   "tags": [
+    "Abu Dhabi",
+    "security framework"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a5f7aab787",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Congress Must Stop Arming Israel",
+   "url": "https://foreignpolicy.com/2026/11/11/us-midterm-elections-israel-iran-war-congress/",
+   "snippet": "Voters gave U.S. lawmakers a mandate to do more than just cut aid.",
+   "published": "2026-11-11T17:46:03.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/a5f7aab787.webp",
+   "t": "2026-11-11",
+   "summary": "Foreign Policy argues that Congress should do more than cut aid to Israel, saying voters gave lawmakers a mandate to do so.",
+   "why": "The article frames US aid policy toward Israel as a question for lawmakers.",
+   "tags": [
+    "Congress",
+    "Israel"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8195051f41",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+   "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+   "published": "2026-11-11T16:45:11.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/8195051f41.webp",
+   "t": "2026-11-11",
+   "summary": "The BBC reports that US Treasury Secretary Scott Bessent relocated after alleged Iranian threats and is among administration officials living on military bases due to safety concerns.",
+   "why": "The report concerns security arrangements for government officials amid alleged threats.",
+   "tags": [
+    "Iranian threats",
+    "security"
    ],
    "ai": true
   },
@@ -412,9 +499,9 @@
    "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
-   "published": "2026-11-11T14:51:26.000Z",
+   "published": "2026-11-11T16:59:34.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.49,
    "image": "/img/news/de4d082b89.webp",
    "t": "2026-11-11",
    "summary": "The US Department of Justice says three Iran-backed suspects were involved in plots, including an incident near RAF Fairford, a base used by US armed forces.",
@@ -427,156 +514,44 @@
    "ai": true
   },
   {
-   "id": "9fba25121d",
+   "id": "2ddd214302",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
-   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
-   "published": "2026-11-11T12:14:12.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/9fba25121d.webp",
-   "t": "2026-11-11",
-   "summary": "El Salvador's president says the military targeted the 400 Mawozo gang's headquarters in Haiti, where troops have been deployed to combat gang violence.",
-   "why": "The reported deployment and targeting are relevant to understanding security operations in Haiti.",
-   "tags": [
-    "Haiti",
-    "400 Mawozo",
-    "military"
-   ],
-   "ai": true
-  },
-  {
-   "id": "839a8c4230",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-   "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-   "published": "2026-11-11T11:47:22.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/839a8c4230.webp",
-   "t": "2026-11-11",
-   "summary": "The US House blocked a bid to impeach Defence Secretary Pete Hegseth; Democrats can try again next year.",
-   "why": "The outcome and possibility of another attempt are relevant to US political developments.",
-   "tags": [
-    "US House",
-    "impeachment",
-    "Hegseth"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ad45f89ecb",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "How Netanyahu Lost His Bet on Trump",
-   "url": "https://foreignpolicy.com/2026/11/11/us-midterm-elections-netanyahu-trump-republicans-israel-aid/",
-   "snippet": "The Republican midterm disaster leaves Israel dangerously exposed.",
-   "published": "2026-11-11T09:30:41.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+   "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+   "snippet": "Iran's parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions.",
+   "published": "2026-11-11T21:03:40.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/ad45f89ecb.webp",
+   "image": "/img/news/2ddd214302.webp",
    "t": "2026-11-11",
-   "summary": "Foreign Policy says the Republican midterm disaster leaves Israel dangerously exposed.",
-   "why": "The claim frames Israel’s exposure as a strategic issue; the snippet gives no further detail.",
+   "summary": "Al Jazeera reports that Iran’s parliament speaker and top negotiator says the Strait of Hormuz will not return to its pre-war status and that Tehran awaits a US response to its conditions.",
+   "why": "The statement links negotiations to the status of a strategically significant strait.",
    "tags": [
-    "Israel",
-    "midterm",
-    "exposed"
+    "Hormuz Strait",
+    "Iran"
    ],
    "ai": true
   },
   {
-   "id": "18a0fcbf17",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
-   "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Real Madrid player Vinícius Jr sent a surprise message to 13-year-old fan Zaher who lost both his legs after being hit by a drone in Khartoum, in 2024.",
-   "published": "2026-11-11T09:28:36.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/18a0fcbf17.webp",
-   "t": "2026-11-11",
-   "summary": "BBC World reports that Vinícius Jr sent a message to a young fan who lost both legs after being hit by a drone in Khartoum in 2024.",
-   "why": "The report connects a drone strike in Khartoum with its human impact.",
-   "tags": [
-    "drone",
-    "Khartoum",
-    "Sudan"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1210327ea4",
+   "id": "ed3e67598e",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
-   "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
-   "snippet": "Torn between military action and diplomacy, US appears to settle for drawn-out economic pressure campaign, blockade.",
-   "published": "2026-11-11T14:10:47.000Z",
+   "title": "Oil production nears pre-Iran war levels, OPEC says",
+   "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
+   "snippet": "Saudi Arabia reports oil outputs soared to highest levels in months despite continued shipping disruptions.",
+   "published": "2026-11-11T20:45:30.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/1210327ea4.webp",
+   "image": "/img/news/ed3e67598e.webp",
    "t": "2026-11-11",
-   "summary": "Al Jazeera reports disagreement within Trump’s team over Iran, and says the US appears to favor a drawn-out economic pressure campaign and blockade.",
-   "why": "The reported debate links military action, diplomacy and economic pressure in US policy toward Iran.",
+   "summary": "Al Jazeera reports that OPEC says oil production is nearing pre-Iran war levels; Saudi Arabia reports higher output despite continued shipping disruptions.",
+   "why": "The report connects oil production levels with ongoing shipping disruptions.",
    "tags": [
-    "Iran",
-    "blockade",
-    "diplomacy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "641fcc7a99",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
-   "url": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
-   "snippet": "A deadly sandbank collapse buried families alive in Deir el-Balah, as survivors describe desperate rescue attempts.",
-   "published": "2026-11-11T14:04:17.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/641fcc7a99.webp",
-   "t": "2026-11-11",
-   "summary": "Al Jazeera reports that a deadly sandbank collapse buried families in Deir el-Balah, as survivors described rescue attempts.",
-   "why": "The report highlights the impact of a deadly collapse on people in Deir el-Balah.",
-   "tags": [
-    "Deir el-Balah",
-    "sandbank",
-    "floods"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3970882a98",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Russia-Ukraine talks in Abu Dhabi end with prisoner exchange agreement",
-   "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement?traffic_source=rss",
-   "snippet": "The talks in the UAE capital were the first ⁠between the two warring sides since February.",
-   "published": "2026-11-11T13:16:30.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/3970882a98.webp",
-   "t": "2026-11-11",
-   "summary": "Al Jazeera says Russia-Ukraine talks in Abu Dhabi ended with a prisoner exchange agreement and were the first between the sides since February.",
-   "why": "The talks and agreement are relevant to diplomatic engagement between the warring sides.",
-   "tags": [
-    "Russia-Ukraine",
-    "Abu Dhabi",
-    "prisoner exchange"
+    "oil production",
+    "shipping"
    ],
    "ai": true
   }
@@ -728,47 +703,47 @@
   }
  ],
  "run_today": [
-  "Review AWS credentials and web services for unauthorized activity, given reported AntiFox targeting.",
-  "Check Linux monitoring coverage for eBPF rootkits that may evade traditional detection.",
-  "Prioritize exposure review and available vendor guidance for Cisco BroadWorks and N-central vulnerabilities."
+  "Check Linux servers for GSocket and investigate suspected persistent remote access.",
+  "Review trust stores and dependencies for eMudhra certificates that were revoked.",
+  "Check whether staff used the affected Notion AI service and review exposure of chat transcripts."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "eBPF rootkit",
-   "explainer": "An eBPF rootkit uses Linux’s eBPF technology to hide malicious activity. The snippet says these rootkits can evade traditional detection without loading kernel modules.",
-   "from_id": "a9021fd433",
-   "from": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "term": "Intermediate CA certificate",
+   "explainer": "An intermediate certificate authority (CA) certificate helps establish trust between a root CA and certificates issued to services or users. Revoking one means systems that rely on it may need to check their certificate trust.",
+   "from_id": "a4a34375ee",
+   "from": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "contested networks",
-   "explainer": "Contested networks are communication environments where bandwidth is limited or constrained. The item says logistics software and AI need to work under those conditions.",
-   "from_id": "831b29e69e",
-   "from": "https://breakingdefense.com/2026/11/when-networks-are-contested-paring-down-the-data-may-mean-better-logistics-at-the-edge/",
-   "fromSource": "Breaking Defense"
+   "term": "CCA drone",
+   "explainer": "CCA stands for collaborative combat aircraft. In this item, Talon Blue is described as a CCA drone planned for flight from a British carrier, as the Royal Navy seeks to add drone capabilities to its air wings.",
+   "from_id": "675acb0523",
+   "from": "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "blockade",
-   "explainer": "A blockade is a measure that restricts access or movement. In this item, it is described as part of a drawn-out economic pressure campaign concerning Iran.",
-   "from_id": "1210327ea4",
-   "from": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "CRPA",
+   "explainer": "A controlled reception pattern antenna (CRPA) is an antenna design used in GNSS development. The item describes Taoglas’s reference design as aimed at building systems that resist jamming.",
+   "from_id": "26d8001332",
+   "from": "https://insidegnss.com/taoglas-releases-crpa-reference-design-for-anti-jam-gnss-development/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Missile scale, satellite reach and cyber visibility",
+  "headline": "Exposure, resilience, and contested operating environments",
   "paragraphs": [
-   "The stories span military technology and cyber operations, but share a concern with reach: Super Ice is compared in size with Tomahawk, while Fire Point seeks broader Starshield coverage. The cyber reports describe attackers reaching government, browser, cloud and Linux environments through different methods.",
-   "For defenders, the cyber items suggest checking both familiar access points and less visible techniques: AWS credentials, browser scripts and extensions, and Linux eBPF activity. The Poland ePUAP attack also shows the importance of government services as operational targets. These reports describe distinct cases, not a single campaign.",
-   "For analysts, limited bandwidth is an explicit constraint on logistics software, while proposed satellite coverage raises questions about the reach of operational support. The missile comparison offers a size reference, not detail on performance. Watch for further reporting on how these systems are used, and on the scope of the cyber activity described."
+   "The cyber stories show different points of exposure: Qilin’s claimed victim count, mishandled certificate private keys, and AI chat transcripts exposed through a provider. Together, they suggest defenders should examine both internal controls and dependencies on outside services, while distinguishing reported claims from confirmed scope.",
+   "The GNSS and warfare items also center on operating through disruption. A CRPA reference design targets anti-jam GNSS development, while concerns about Oleshky and plans for carrier-based drones point to the importance of geography and platforms. The snippets do not establish how these developments will affect operations.",
+   "For analysts, the stories connect technical resilience with strategic context, but they vary in certainty and detail. Watch for further information about certificate impacts, the extent of the reported transcript exposure, and how the stated GNSS and military plans develop. Treat claims and stated intentions as such, not as demonstrated outcomes."
   ],
   "takeaways": [
-   "Review cloud credentials and browser defenses alongside Linux visibility.",
-   "Satellite coverage and bandwidth constraints shape the operational context.",
-   "Treat the missile size comparison as a reference, not a performance claim."
+   "Check third-party exposure as well as systems and controls inside your organization.",
+   "Separate reported claims, stated plans, and confirmed outcomes.",
+   "Geography and resilience shape how security and military developments matter."
   ]
  },
  "health": [
@@ -782,7 +757,7 @@
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "BleepingComputer",
@@ -794,7 +769,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 25
+   "n": 20
   },
   {
    "name": "The Record",
@@ -818,7 +793,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 10
   },
   {
    "name": "Unit 42",
@@ -836,7 +811,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Schneier on Security",
@@ -848,25 +823,25 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 8
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Defense News",
@@ -877,8 +852,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 8
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -908,19 +883,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "SpaceNews",
@@ -932,37 +907,37 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 10
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 9
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 9
   }
  ]
 }
