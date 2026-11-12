@@ -1,9 +1,162 @@
 {
  "date": "2026-11-12",
  "edition": 241,
- "compiled": "2026-11-12T03:12:03.429Z",
+ "compiled": "2026-11-12T11:36:14.969Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "a3551b4d40",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "snippet": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+   "published": "2026-11-12T10:24:07.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/a3551b4d40.webp",
+   "t": "2026-11-12",
+   "summary": "Microsoft confirms reports that November 2026 security updates fail to install on some Windows 11 systems with the October preview update.",
+   "why": "Check whether affected Windows 11 systems have installed the security updates successfully.",
+   "tags": [
+    "Windows 11",
+    "security updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3ca0085eba",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "snippet": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+   "published": "2026-11-12T09:38:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/3ca0085eba.webp",
+   "t": "2026-11-12",
+   "summary": "BleepingComputer reports that threat actors abuse GSocket, a legitimate open-source remote access tool, to retain access to Linux servers after patching.",
+   "why": "After patching Linux servers, check for unauthorized GSocket use and persistent access.",
+   "tags": [
+    "GSocket",
+    "Linux servers",
+    "persistent access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0fd5862fb5",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+   "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+   "snippet": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
+   "published": "2026-11-12T11:08:52.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/0fd5862fb5.webp",
+   "t": "2026-11-12",
+   "summary": "Attackers accessed chat transcripts for fewer than 1% of Notion workspaces; most transcripts were unattributable, SecurityWeek reports.",
+   "why": "Review exposure of chat transcripts and whether sensitive workspace data was involved.",
+   "tags": [
+    "Notion",
+    "chat transcripts",
+    "Fireworks AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b8a4eb8ff3",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+   "snippet": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
+   "published": "2026-11-12T10:39:34.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/b8a4eb8ff3.webp",
+   "t": "2026-11-12",
+   "summary": "SecurityWeek reports that attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication and deploy malware.",
+   "why": "Review ScreenConnect extension security and authentication controls.",
+   "tags": [
+    "ScreenConnect",
+    "authentication",
+    "malware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2bb5c2ca8f",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+   "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+   "snippet": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek .",
+   "published": "2026-11-12T09:39:55.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/2bb5c2ca8f.webp",
+   "t": "2026-11-12",
+   "summary": "SecurityWeek says malicious activity began shortly after a researcher disclosed over 30 N-central zero-days; N-able patched the unauthenticated ones.",
+   "why": "Check N-central exposure and apply N-able's patches for unauthenticated vulnerabilities.",
+   "tags": [
+    "N-central",
+    "zero-days",
+    "patches"
+   ],
+   "ai": true
+  },
+  {
+   "id": "26d811aac8",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "snippet": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fix",
+   "published": "2026-11-12T09:25:00.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/26d811aac8.webp",
+   "t": "2026-11-12",
+   "summary": "The Hacker News says an unauthenticated attacker can crash MongoDB Server with two requests if the server later becomes the main server while missing recent changes.",
+   "why": "Check MongoDB Server patch status and failover behavior on servers missing recent changes.",
+   "tags": [
+    "MongoDB Server",
+    "unauthenticated",
+    "failover"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3773dc5512",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "snippet": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
+   "published": "2026-11-12T09:23:21.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/3773dc5512.webp",
+   "t": "2026-11-12",
+   "summary": "SecurityWeek says attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories, and maintain access.",
+   "why": "Review Red Hat Quay exposure, repository integrity, and access for signs of unauthorized activity.",
+   "tags": [
+    "Red Hat Quay",
+    "container images",
+    "persistent access"
+   ],
+   "ai": true
+  },
   {
    "id": "ee8b1c5bd7",
    "section": "cyber",
@@ -14,7 +167,7 @@
    "snippet": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
    "published": "2026-11-11T23:00:53.000Z",
    "also": [],
-   "score": 1.61,
+   "score": 1.44,
    "image": "/img/news/ee8b1c5bd7.webp",
    "t": "2026-11-12",
    "summary": "Unit 42 describes attacker use of AI-powered red teaming tools and says it will discuss ways to mitigate these attacks.",
@@ -26,193 +179,132 @@
    "ai": true
   },
   {
-   "id": "8cdc4a0f74",
+   "id": "2f643c57e2",
    "section": "cyber",
-   "source": "Krebs on Security",
-   "weight": 0.7,
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "snippet": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that",
-   "published": "2026-11-11T18:06:01.000Z",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+   "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+   "snippet": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek .",
+   "published": "2026-11-12T08:38:47.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/8cdc4a0f74.webp",
-   "t": "2026-11-11",
-   "summary": "Krebs on Security reports that Qilin claims at least 365 victim organizations in the past three months and describes it as the world’s most active ransomware affiliate program.",
-   "why": "Review ransomware exposure and response readiness; the snippet highlights the group’s claimed activity.",
-   "tags": [
-    "Qilin",
-    "ransomware"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7f241c94ac",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Baker Tilly notifies clients of data breach at third-party provider",
-   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "snippet": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-   "published": "2026-11-11T23:01:31.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/7f241c94ac.webp",
+   "score": 1.44,
+   "image": "/img/news/2f643c57e2.webp",
    "t": "2026-11-12",
-   "summary": "Baker Tilly is notifying clients that a breach at a third-party provider compromised some personal information about them and their dependents.",
-   "why": "Affected clients should check what personal information was exposed and follow the provider’s breach guidance.",
+   "summary": "Maersk confirmed data theft amid an extortion attempt; the WhiteArmor ransomware group claims it stole 100GB from the shipping company's systems.",
+   "why": "Distinguish the company's confirmation of theft from the group's claim about the amount taken.",
    "tags": [
-    "data breach",
-    "third-party provider"
+    "Maersk",
+    "data theft",
+    "extortion"
    ],
    "ai": true
   },
   {
-   "id": "ccdd6c7f3f",
+   "id": "c2d283cd75",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "snippet": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
-   "published": "2026-11-11T22:56:21.000Z",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+   "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+   "snippet": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released ",
+   "published": "2026-11-12T08:20:37.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/ccdd6c7f3f.webp",
+   "score": 1.43,
+   "image": "/img/news/c2d283cd75.webp",
    "t": "2026-11-12",
-   "summary": "ConnectWise is investigating a malware campaign using compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices at managed service providers.",
-   "why": "MSPs should inspect ScreenConnect environments and customer devices for unauthorized remote-access clients.",
+   "summary": "The Hacker News says Node.js fixed 16 flaws, including HTTP/2 bugs that can crash servers or expose pieces of server memory to clients.",
+   "why": "Check Node.js versions and review HTTP/2 exposure for the described crash and memory disclosure flaws.",
    "tags": [
-    "ScreenConnect",
-    "MSPs",
-    "remote access"
+    "Node.js",
+    "HTTP/2",
+    "memory"
    ],
    "ai": true
   },
   {
-   "id": "a4a34375ee",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "24d76e256b",
+   "section": "warfare",
+   "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-   "snippet": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
-   "published": "2026-11-11T21:27:40.000Z",
+   "title": "The Promise of Biomanufacturing at the Edge",
+   "url": "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/",
+   "snippet": "As the old adage goes, “Amateurs talk strategy. Professionals talk logistics.” Military operations are utterly dependent on complex supply chains to move food, fuel, and other essential products across long distances and through contested environments to reach the warfighter. These vital supply lines are fragile at eve",
+   "published": "2026-11-12T09:00:53.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/a4a34375ee.webp",
-   "t": "2026-11-11",
-   "summary": "BleepingComputer reports that eMudhra revoked eight additional intermediate CA certificates after finding improper private-key handling during certificate generation.",
-   "why": "Check certificate trust and affected systems for reliance on revoked certificates.",
+   "score": 1.55,
+   "image": "/img/news/24d76e256b.webp",
+   "t": "2026-11-12",
+   "summary": "War on the Rocks discusses biomanufacturing at the edge alongside the importance of moving essential supplies through complex, contested supply chains.",
+   "why": "Highlights the operational relevance of supply chains and producing essential products near military operations.",
    "tags": [
-    "CA certificates",
-    "private keys"
+    "biomanufacturing",
+    "logistics",
+    "supply chains"
    ],
    "ai": true
   },
   {
-   "id": "4555dea146",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "snippet": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-   "published": "2026-11-11T20:54:20.000Z",
+   "id": "38255bfe31",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
+   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
+   "snippet": "At Euronaval 2026, Naval News spoke with Fincantieri's Eugenio Santagata about the new Multi-Mission Modular Vessel (MMMV), FREMM Evo production, and the DDX destroyer The post Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer appeared first on Naval News .",
+   "published": "2026-11-12T11:22:50.000Z",
+   "also": [],
+   "score": 1.5,
+   "t": "2026-11-12",
+   "summary": "At Euronaval 2026, Naval News spoke with Fincantieri's Eugenio Santagata about the Multi-Mission Modular Vessel, FREMM Evo production, and the DDX destroyer.",
+   "why": "The vessel and destroyer details are relevant to naval platforms and production.",
+   "tags": [
+    "MMMV",
+    "FREMM Evo",
+    "DDX destroyer"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a63245297b",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "UK Commandos to get AI-enabled edge from British scale-up Arondite, as company expands to NATO's northern flank",
+   "url": "https://www.gov.uk/government/news/uk-commandos-to-get-ai-enabled-edge-from-british-scale-up-arondite-as-company-expands-to-natos-northern-flank",
+   "snippet": "The Royal Navy has agreed a multi-million pound deal with British scale-up Arondite to deploy its AI-enabled software across UK Commando Force,",
+   "published": "2026-11-12T10:00:04.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/4555dea146.webp",
-   "t": "2026-11-11",
-   "summary": "Notion says a breach at its AI infrastructure provider, Fireworks AI, exposed AI chat transcripts in a small number of workspaces.",
-   "why": "Check whether staff used the affected AI service and review data-handling practices.",
+   "image": "/img/news/a63245297b.webp",
+   "t": "2026-11-12",
+   "summary": "The UK Ministry of Defence says the Royal Navy agreed a deal with British scale-up Arondite to deploy AI-enabled software across UK Commando Force.",
+   "why": "The deployment makes AI-enabled software relevant to UK Commando Force operations.",
    "tags": [
-    "Notion AI",
-    "chat transcripts"
+    "AI-enabled software",
+    "Royal Navy",
+    "UK Commando Force"
    ],
    "ai": true
   },
   {
-   "id": "ceba7551be",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
-   "url": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
-   "snippet": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant. The post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on Unit 42 .",
-   "published": "2026-11-11T15:00:23.000Z",
+   "id": "3d6c256a34",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Australian naval propulsion specialist VEEM wins work on US Navy submarines",
+   "url": "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines/",
+   "snippet": "The Australian government has announced a contract for Perth-based naval propulsion specialist VEEM, supplying parts for US submarines. The post Australian naval propulsion specialist VEEM wins work on US Navy submarines appeared first on Naval News .",
+   "published": "2026-11-12T07:26:26.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/ceba7551be.webp",
-   "t": "2026-11-11",
-   "summary": "Unit 42 says Falcon C2 is a browser-based framework targeting governments through malicious scripts, extensions and the Antino implant.",
-   "why": "Check browser scripts and extensions for suspicious activity, and review defenses for the Antino implant.",
+   "score": 1.41,
+   "t": "2026-11-12",
+   "summary": "The Australian government announced a contract for Perth-based VEEM to supply parts for US Navy submarines.",
+   "why": "The contract links Australian naval industry with US submarine supply.",
    "tags": [
-    "Falcon C2",
-    "browser",
-    "Antino"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3c5e2d75ed",
-   "section": "cyber",
-   "source": "Microsoft Security",
-   "weight": 0.6,
-   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-   "snippet": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft S",
-   "published": "2026-11-11T19:49:57.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/3c5e2d75ed.webp",
-   "t": "2026-11-11",
-   "summary": "Microsoft says threat actors use GSocket on compromised Linux servers to maintain encrypted remote access after the original vulnerability is patched.",
-   "why": "Check Linux servers for GSocket and investigate or remediate suspected activity.",
-   "tags": [
-    "GSocket",
-    "Linux"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d62040292e",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
-   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
-   "snippet": "An indictment unsealed Tuesday says the broader campaign, targeting Jewish and American sites, included attacks on synagogues in Belgium, the Netherlands and London, and U.S. bank buildings in Amsterdam and Paris.",
-   "published": "2026-11-11T16:57:00.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/d62040292e.webp",
-   "t": "2026-11-11",
-   "summary": "US prosecutors say an indictment describes an Iran-backed network directing attacks over FaceTime against Jewish and American sites, including synagogues and bank buildings.",
-   "why": "The account highlights alleged coordination of attacks across locations and communication channels.",
-   "tags": [
-    "FaceTime",
-    "attacks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e564f8c523",
-   "section": "cyber",
-   "source": "Microsoft Security",
-   "weight": 0.6,
-   "title": "Lessons from 59 Linux Kernel Bug Reports",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
-   "snippet": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings int",
-   "published": "2026-11-11T16:55:00.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/e564f8c523.webp",
-   "t": "2026-11-11",
-   "summary": "Microsoft researchers say their Linux kernel investigation produced 59 upstream bug reports, 33 assigned CVEs, 38 merged fixes, and demonstrated local root privilege-escalation exploits.",
-   "why": "Track kernel fixes and assess whether Linux systems need updates.",
-   "tags": [
-    "Linux kernel",
-    "CVE"
+    "VEEM",
+    "US Navy",
+    "submarines"
    ],
    "ai": true
   },
@@ -231,7 +323,7 @@
      "url": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/"
     }
    ],
-   "score": 1.55,
+   "score": 1.37,
    "image": "/img/news/df2ec257c1.webp",
    "t": "2026-11-11",
    "summary": "Breaking Defense says Rafael unveiled Super Ice, a cruise missile comparable in size to the US-made Tomahawk.",
@@ -253,7 +345,7 @@
    "snippet": "Ukrainian officials are expressing concern that a renewed Russian military presence in Oleshky will result in new waves of attacks across the Dnipro River. The post Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky appeared first on TWZ .",
    "published": "2026-11-11T21:23:00.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.3,
    "image": "/img/news/0945a590d9.webp",
    "t": "2026-11-11",
    "summary": "Ukrainian officials are concerned that a renewed Russian military presence in Oleshky could result in attacks across the Dnipro River.",
@@ -274,7 +366,7 @@
    "snippet": "The Royal Navy wants to infuse drone capabilities into its air wings and Talon Blue would be far more advanced than anything that has flown off the carriers yet. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman appeared first on TWZ .",
    "published": "2026-11-11T20:30:40.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.29,
    "image": "/img/news/675acb0523.webp",
    "t": "2026-11-11",
    "summary": "Northrop Grumman confirmed plans to fly a Talon Blue CCA drone from a British carrier; the Royal Navy wants to add drone capabilities to its air wings.",
@@ -295,7 +387,7 @@
    "snippet": "One industry source told Breaking Defense that the reason for the spate of new loan announcements is that the Pentagon “needed to finalize loans by the end of the fiscal year.”",
    "published": "2026-11-11T20:15:00.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.28,
    "image": "/img/news/328b336d78.webp",
    "t": "2026-11-11",
    "summary": "Breaking Defense reports three Pentagon loans totaling $450 million for US space companies; an industry source said they needed to be finalized by fiscal year-end.",
@@ -307,266 +399,187 @@
    "ai": true
   },
   {
-   "id": "e9924d6fc9",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "F-35s Train In India For “Red Flag Of The East”",
-   "url": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
-   "snippet": "Seven foreign air forces trained alongside the Indian Air Force, as American F-35s took part in their first exercise in India. The post F-35s Train In India For “Red Flag Of The East” appeared first on TWZ .",
-   "published": "2026-11-11T18:31:47.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/e9924d6fc9.webp",
-   "t": "2026-11-11",
-   "summary": "The War Zone reports that American F-35s took part in their first exercise in India, alongside seven foreign air forces and the Indian Air Force.",
-   "why": "The exercise is relevant to multinational air-force training and cooperation.",
-   "tags": [
-    "F-35",
-    "India"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b6125d3011",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "EU sets out $3.4B defense budget for 2027, boosts Ukraine spending",
-   "url": "https://breakingdefense.com/2026/11/eu-sets-out-3-4b-defense-budget-for-2027-boosts-ukraine-spending/",
-   "snippet": "The new fiscal uplift comes in the wake of Ukraine President Volodymyr Zelenskyy telling European leaders last month that “we need at least €70 billion more from you.”",
-   "published": "2026-11-11T18:22:56.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/b6125d3011.webp",
-   "t": "2026-11-11",
-   "summary": "Breaking Defense reports that the EU set out a $3.4 billion defense budget for 2027 and increased spending for Ukraine.",
-   "why": "The budget signals European defense and Ukraine spending priorities.",
-   "tags": [
-    "EU",
-    "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "47666505b6",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military",
-   "url": "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military",
-   "snippet": "The demonstration will take place in Morocco, but uncrewed options for rescuing casualties could be valuable in other far-flung locales globally. The post Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military appeared first on TWZ .",
-   "published": "2026-11-11T17:46:17.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/47666505b6.webp",
-   "t": "2026-11-11",
-   "summary": "The US military will test an autonomous Cessna Caravan air ambulance in Morocco; the report notes uncrewed rescue options could be useful in far-flung locations.",
-   "why": "The test examines how uncrewed aircraft could support casualty evacuation.",
-   "tags": [
-    "autonomous",
-    "air ambulance"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c0a22bf25a",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "NATO taps Ukraine as red-team in drills to ‘trigger an adaptation cycle’",
-   "url": "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle/",
-   "snippet": "“What we’ve done so far, we took some experience from Ukraine, for example, where we hid some Ukrainian forces and Ukrainian-made USVs, and made them the red team against the blue force of NATO,” Adm. Pierre Vander told Breaking Defense.",
-   "published": "2026-11-11T17:17:05.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/c0a22bf25a.webp",
-   "t": "2026-11-11",
-   "summary": "Breaking Defense reports that NATO used Ukrainian forces and Ukrainian-made USVs as a red team against NATO’s blue force in drills.",
-   "why": "Using a red team brings Ukrainian experience into NATO training and adaptation.",
-   "tags": [
-    "NATO",
-    "red team",
-    "USVs"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b82478859e",
+   "id": "d5388b6465",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-   "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-   "snippet": "The move comes months after the government of Javier Milei designated Iran's IRGC as a 'terrorist organisation'.",
-   "published": "2026-11-11T22:34:43.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+   "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+   "published": "2026-11-12T10:08:38.000Z",
    "also": [
     {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+    },
+    {
      "source": "DW",
-     "url": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-all-1573-rdf"
+     "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "score": 1.75,
-   "image": "/img/news/b82478859e.webp",
+   "score": 2.27,
+   "image": "/img/news/d5388b6465.webp",
    "t": "2026-11-12",
-   "summary": "Iran designated Argentina’s navy and air force as terrorist organisations, months after Argentina designated Iran’s IRGC the same way.",
-   "why": "The reciprocal designations highlight a diplomatic dispute between Iran and Argentina.",
+   "summary": "BBC World reports that US envoys arrived in Moscow for Ukraine talks with Vladimir Putin; they are later due to meet Ukraine's Volodymyr Zelensky in Dublin.",
+   "why": "The planned meetings place Ukraine diplomacy across Moscow and Dublin.",
    "tags": [
-    "Iran",
-    "Argentina",
-    "designations"
+    "Ukraine talks",
+    "Moscow",
+    "Dublin"
    ],
    "ai": true
   },
   {
-   "id": "26d8001332",
+   "id": "ec3c433350",
    "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Taoglas Releases CRPA Reference Design for Anti-Jam GNSS Development",
-   "url": "https://insidegnss.com/taoglas-releases-crpa-reference-design-for-anti-jam-gnss-development/",
-   "snippet": "Antenna and RF specialist Taoglas has introduced a controlled reception pattern antenna (CRPA) reference design aimed at OEMs and system integrators building GNSS... The post Taoglas Releases CRPA Reference Design for Anti-Jam GNSS Development appeared first on Inside GNSS - Global Navigation Satellite Systems Engineer",
-   "published": "2026-11-11T17:38:49.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-11-11",
-   "summary": "Taoglas introduced a CRPA reference design for OEMs and system integrators developing anti-jam GNSS systems.",
-   "why": "The design is relevant to building GNSS systems intended to resist jamming.",
-   "tags": [
-    "CRPA",
-    "GNSS",
-    "anti-jam"
-   ],
-   "ai": true
-  },
-  {
-   "id": "efbcab5deb",
-   "section": "geo",
-   "source": "Foreign Policy",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Hoax Bomb Threats Target Hundreds of European Schools",
-   "url": "https://foreignpolicy.com/2026/11/11/hoax-bomb-threats-schools-italy-europe-hybrid-warfare-russia-iran/",
-   "snippet": "Classrooms join the growing list of targets of suspected hybrid warfare.",
-   "published": "2026-11-11T22:23:16.000Z",
+   "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+   "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+   "published": "2026-11-12T09:43:11.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/efbcab5deb.webp",
+   "score": 1.56,
+   "image": "/img/news/ec3c433350.webp",
    "t": "2026-11-12",
-   "summary": "Foreign Policy reports hoax bomb threats targeting hundreds of European schools and describes classrooms as targets of suspected hybrid warfare.",
-   "why": "The reported threats make civilian institutions relevant to analysis of suspected hybrid warfare.",
-   "tags": [
-    "hoax threats",
-    "schools",
-    "hybrid warfare"
-   ],
-   "ai": true
-  },
-  {
-   "id": "03e8f61234",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "India Ups Its Ukraine War Diplomacy",
-   "url": "https://foreignpolicy.com/2026/11/11/india-ukraine-war-russia-mediation-black-sea/",
-   "snippet": "New Delhi is a logical mediator, given its relations with both Moscow and Kyiv.",
-   "published": "2026-11-11T22:19:17.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/03e8f61234.webp",
-   "t": "2026-11-12",
-   "summary": "Foreign Policy says India is increasing its Ukraine war diplomacy and may be a logical mediator because of its relations with Moscow and Kyiv.",
-   "why": "India’s ties with both sides give its diplomacy potential strategic relevance to mediation.",
-   "tags": [
-    "India",
-    "Ukraine",
-    "diplomacy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "755f3c5ece",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
-   "snippet": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people.",
-   "published": "2026-11-12T01:20:55.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/755f3c5ece.webp",
-   "t": "2026-11-12",
-   "summary": "Gaza’s Civil Defence says an Israeli strike on Nasser Hospital’s intensive care unit killed at least six people.",
-   "why": "The reported strike on a hospital is relevant to tracking the conflict’s impact on civilian facilities.",
+   "summary": "Witnesses say a missile hit a building containing surgical wards and intensive care units at Nasser hospital, BBC World reports. The health ministry says six Palestinians were killed.",
+   "why": "The reported strike on hospital wards has direct relevance to civilian infrastructure.",
    "tags": [
     "Gaza",
-    "Nasser Hospital",
-    "strike"
+    "Nasser hospital",
+    "missile"
    ],
    "ai": true
   },
   {
-   "id": "1dbe89b5c1",
+   "id": "02c0254bad",
    "section": "geo",
-   "source": "Atlantic Council",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Where the Russia-Ukraine peace talks stand after Abu Dhabi",
-   "url": "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/",
-   "snippet": "Our experts unpack what this week’s US-brokered talks between Russia and Ukraine mean for European security and the prospects for peace. The post Where the Russia-Ukraine peace talks stand after Abu Dhabi appeared first on Atlantic Council .",
-   "published": "2026-11-11T19:59:30.000Z",
+   "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
+   "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+   "published": "2026-11-12T07:59:33.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/1dbe89b5c1.webp",
-   "t": "2026-11-11",
-   "summary": "The Atlantic Council examines what US-brokered Russia-Ukraine talks in Abu Dhabi mean for European security and prospects for peace.",
-   "why": "The talks connect the conflict to European security and the prospects for peace.",
+   "score": 1.52,
+   "image": "/img/news/02c0254bad.webp",
+   "t": "2026-11-12",
+   "summary": "BBC World reports that people in parts of Ukraine face blackouts, with parents trying to manage family life with just a few hours of power each day.",
+   "why": "The reported power shortages show the effects of grid disruption on daily life.",
    "tags": [
-    "Russia-Ukraine",
-    "peace talks"
+    "Ukraine",
+    "blackouts",
+    "power grid"
    ],
    "ai": true
   },
   {
-   "id": "3d378b613d",
+   "id": "bb6db4ffcd",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "US election results could be positive for Lebanon, Hezbollah chief says",
-   "url": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
-   "snippet": "Naim Qassem says Republican losses and Israel's election result could help Lebanon maintain sovereignty.",
-   "published": "2026-11-12T00:06:50.000Z",
+   "title": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
+   "url": "https://www.aljazeera.com/news/2026/11/12/china-says-us-fabricating-nvidia-spy-claims-to-justify-tech-blockade?traffic_source=rss",
+   "snippet": "Nvidia CEO is under investigation for an affair with a woman whom US intelligence believes to be a Chinese spy.",
+   "published": "2026-11-12T10:49:41.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/bb6db4ffcd.webp",
+   "t": "2026-11-12",
+   "summary": "China says the US is fabricating Nvidia spy claims to justify a technology blockade, Al Jazeera reports. The snippet says the Nvidia CEO is under investigation over an alleged relationship.",
+   "why": "The competing claims connect technology restrictions with US-China tensions.",
+   "tags": [
+    "Nvidia",
+    "technology blockade",
+    "China"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dd1cb46612",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "From the UK to the Gulf, are US overseas bases becoming liabilities?",
+   "url": "https://www.aljazeera.com/news-analysis/2026/11/12/from-the-uk-to-the-gulf-are-us-overseas-bases-becoming-liabilities?traffic_source=rss",
+   "snippet": "For decades, these bases allowed the US to wage faraway wars. Now, Iran has changed that calculation.",
+   "published": "2026-11-12T09:38:00.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/dd1cb46612.webp",
+   "t": "2026-11-12",
+   "summary": "Al Jazeera asks whether US overseas bases are becoming liabilities, saying Iran has changed the calculation around bases once used to wage distant wars.",
+   "why": "The issue concerns the strategic value and risks of overseas bases.",
+   "tags": [
+    "US bases",
+    "Iran",
+    "strategic"
+   ],
+   "ai": true
+  },
+  {
+   "id": "504deffe05",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "India bypasses own rules to buy Israeli phone-hacking tech",
+   "url": "https://www.aljazeera.com/features/2026/11/12/india-bypasses-own-rules-to-buy-israeli-phone-hacking-tech?traffic_source=rss",
+   "snippet": "India's expansive surveillance capabilities extend beyond cloning phones to accessing cloud-based data of tech giants.",
+   "published": "2026-11-12T08:40:08.000Z",
    "also": [],
    "score": 1.44,
-   "image": "/img/news/3d378b613d.webp",
+   "image": "/img/news/504deffe05.webp",
    "t": "2026-11-12",
-   "summary": "Hezbollah chief Naim Qassem says Republican losses and Israel’s election result could help Lebanon maintain sovereignty.",
-   "why": "The statement links election outcomes to claims about Lebanon’s sovereignty.",
+   "summary": "Al Jazeera reports that India bypassed its own rules to buy Israeli phone-hacking technology, and says India's surveillance capabilities reach cloud data.",
+   "why": "The report raises the geostrategic relevance of surveillance capabilities and access to cloud data.",
    "tags": [
-    "Lebanon",
-    "Hezbollah",
-    "election"
+    "India",
+    "surveillance",
+    "cloud data"
    ],
    "ai": true
   },
   {
-   "id": "daf37166e7",
+   "id": "f2f673a28b",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
-   "snippet": "Israel orders military to step up preparations for possible attack on Iran as Tehran says it will retaliate if attacked.",
-   "published": "2026-11-12T00:00:44.000Z",
+   "title": "Xi Jinping says Taiwan ‘reunification’ with China must happen",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/xi-jinping-says-taiwan-reunification-with-china-must-happen?traffic_source=rss",
+   "snippet": "Xi Jinping, President of China, has called for the peaceful ‘reunification’ of Taiwan with China.",
+   "published": "2026-11-12T08:34:45.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/daf37166e7.webp",
+   "score": 1.44,
+   "image": "/img/news/f2f673a28b.webp",
    "t": "2026-11-12",
-   "summary": "Iran says it will retaliate if attacked, while Israel orders its military to prepare for a possible attack on Iran.",
-   "why": "The statements are relevant to monitoring regional military preparations and declared intentions.",
+   "summary": "Xi Jinping called for the peaceful reunification of Taiwan with China, Al Jazeera reports.",
+   "why": "The statement concerns cross-strait relations and Taiwan's strategic status.",
+   "tags": [
+    "Taiwan",
+    "China",
+    "reunification"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e0bbca7e5c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
+   "snippet": "Iran’s chief negotiator says Iran is open to a deal if the US refrains from creating distrust and excessive demands.",
+   "published": "2026-11-12T07:38:05.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/e0bbca7e5c.webp",
+   "t": "2026-11-12",
+   "summary": "Iran's chief negotiator says Iran is open to a deal if the US avoids excessive demands and creating distrust, Al Jazeera reports.",
+   "why": "The statement frames conditions Iran's negotiator says matter to a possible deal.",
    "tags": [
     "Iran",
-    "Israel",
-    "retaliation"
+    "US",
+    "deal"
    ],
    "ai": true
   }
@@ -718,47 +731,47 @@
   }
  ],
  "run_today": [
-  "Review mitigation guidance for attacks involving AI-powered red teaming tools.",
-  "Check breach notices for the scope of exposed client and dependent information.",
-  "Inspect ScreenConnect environments and customer devices for rogue remote-access clients."
+  "Check Windows 11 systems with the October preview update for failed November security updates.",
+  "After Linux server patching, check for GSocket and other signs of persistent access.",
+  "Review ScreenConnect extensions and authentication controls for the bypass described."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "AI-powered red teaming",
-   "explainer": "Red teaming tests defenses by simulating adversary activity. AI-powered tools apply artificial intelligence to that work; here, Unit 42’s title and snippet concern attacker use of such tools.",
-   "from_id": "ee8b1c5bd7",
-   "from": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
-   "fromSource": "Unit 42"
+   "term": "GSocket",
+   "explainer": "GSocket is a legitimate open-source remote access tool. In this report, threat actors abuse it to keep access to Linux servers even after patching the vulnerabilities used to get in.",
+   "from_id": "3ca0085eba",
+   "from": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "cruise missile",
-   "explainer": "A cruise missile is a guided weapon that flies toward a target. The source title describes Rafael unveiling a larger cruise missile called Super Ice.",
-   "from_id": "df2ec257c1",
-   "from": "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice/",
-   "fromSource": "Breaking Defense"
+   "term": "Biomanufacturing at the edge",
+   "explainer": "Biomanufacturing at the edge refers, in the title, to producing biological products closer to where they may be needed. The accompanying text emphasizes the logistical challenge of moving essential supplies through long and contested supply chains.",
+   "from_id": "24d76e256b",
+   "from": "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/",
+   "fromSource": "War on the Rocks"
   },
   {
    "domain": "geo",
-   "term": "terrorist organisation designation",
-   "explainer": "A designation is an official label applied to a person or group by a government. Here, Iran and Argentina are reported to have made reciprocal designations involving military organisations.",
-   "from_id": "b82478859e",
-   "from": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "Ukraine talks",
+   "explainer": "Diplomatic talks are meetings between representatives to discuss political issues. Here, US envoys are in Moscow for Ukraine talks and are later due to meet Ukraine's president in Dublin.",
+   "from_id": "d5388b6465",
+   "from": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Signals of Escalation and Exposure Across Domains",
+  "headline": "Systems, access and the pressures around conflict",
   "paragraphs": [
-   "The stories span diplomatic friction, military capability, cyber risk and suspected hybrid warfare. Iran’s designation of Argentina’s navy and air force follows Argentina’s designation of Iran’s IRGC. Separately, the Rafael missile story describes a weapon comparable in size to the Tomahawk; these items show distinct forms of strategic signaling, but do not establish a direct connection.",
-   "For defenders, the cyber items point to different exposure paths: attacker use of AI-powered red team tools, personal information compromised at a third-party provider, and rogue remote-access clients deployed through compromised ScreenConnect environments. The snippets do not detail specific mitigations, but they make tool use, provider notices and remote-access deployments practical areas to check.",
-   "The reported hoax threats against schools add a civilian-target dimension, while the military and diplomatic stories underscore the value of separating attributed statements from confirmed events. Analysts should watch for further details on the cyber incidents, the stated diplomatic positions and the reported threat activity. These stories suggest a need for careful verification across domains."
+   "The briefing spans diplomatic contact over Ukraine, reports of civilian hardship and military logistics. US envoys are in Moscow for talks and are due to meet Ukraine's president in Dublin. Separately, blackouts in parts of Ukraine and the reported strike on Nasser hospital show how conflict intersects with essential services and civilian infrastructure.",
+   "Cyber items highlight different points of exposure: failed Windows updates, persistent GSocket access after Linux patching, and attacks involving ScreenConnect and other software. Together, they suggest that installing patches is not always the end of response. Defenders should verify updates, investigate continued access, and review authentication and exposed services.",
+   "The warfare stories focus on supply, platforms and software: biomanufacturing at the edge, naval vessel development, and AI-enabled software for UK Commando Force. These suggest logistics and technology are central operational concerns, while the geo stories show political and infrastructure stakes. Watch for further reporting on talks, service disruption, and remediation."
   ],
   "takeaways": [
-   "Review AI-tool mitigation guidance and audit remote-access environments.",
-   "Check third-party breach notices for exposed personal information.",
-   "Attribute claims carefully when tracking diplomatic and security developments."
+   "Verify patch installation and investigate persistent access after remediation.",
+   "Conflict reporting connects diplomacy with pressure on civilian infrastructure.",
+   "Logistics, platforms, and software all feature in the warfare coverage."
   ]
  },
  "health": [
@@ -772,25 +785,25 @@
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 13
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 17
+   "n": 15
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "SecurityWeek",
@@ -808,7 +821,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 6
   },
   {
    "name": "Unit 42",
@@ -826,7 +839,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Schneier on Security",
@@ -844,13 +857,13 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -862,13 +875,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 1
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "Bellingcat",
@@ -886,7 +899,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "International Crisis Group",
@@ -904,13 +917,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 4
   },
   {
    "name": "SpaceNews",
@@ -928,19 +941,19 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 1
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Al Jazeera",
@@ -952,7 +965,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   }
  ]
 }
