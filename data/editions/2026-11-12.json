@@ -1,400 +1,458 @@
 {
  "date": "2026-11-12",
  "edition": 241,
- "compiled": "2026-11-12T11:36:14.969Z",
+ "compiled": "2026-11-12T19:22:12.393Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "a3551b4d40",
+   "id": "3fc70062a2",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft confirms Windows security updates installation issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-   "snippet": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
-   "published": "2026-11-12T10:24:07.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Desigo, Gridscale",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
+   "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.57,
-   "image": "/img/news/a3551b4d40.webp",
+   "score": 1.75,
    "t": "2026-11-12",
-   "summary": "Microsoft confirms reports that November 2026 security updates fail to install on some Windows 11 systems with the October preview update.",
-   "why": "Check whether affected Windows 11 systems have installed the security updates successfully.",
+   "summary": "The Siemens Desigo and Gridscale advisory snippet mentions Node.js security updates, but does not show the full advisory details.",
+   "why": "Check the advisory and affected deployments before deciding whether updates apply.",
    "tags": [
-    "Windows 11",
-    "security updates"
+    "Siemens",
+    "Node.js"
    ],
    "ai": true
   },
   {
-   "id": "3ca0085eba",
+   "id": "d1b92d164a",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Hackers plant GSocket on Linux servers for persistent access",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "snippet": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
-   "published": "2026-11-12T09:38:00.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens RUGGEDCOM APE1808",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-05.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Palo Alto Networks has published </strong><a href=\"https://security.paloaltonetworks.com/cve-2026-109618\"><strong>information</strong></a><strong> on vuln",
+   "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/3ca0085eba.webp",
+   "score": 1.75,
    "t": "2026-11-12",
-   "summary": "BleepingComputer reports that threat actors abuse GSocket, a legitimate open-source remote access tool, to retain access to Linux servers after patching.",
-   "why": "After patching Linux servers, check for unauthorized GSocket use and persistent access.",
+   "summary": "The Siemens RUGGEDCOM APE1808 snippet says Palo Alto Networks published information; further details are not included.",
+   "why": "Review the full advisory to determine whether any deployed systems need attention.",
    "tags": [
-    "GSocket",
-    "Linux servers",
-    "persistent access"
+    "Siemens",
+    "RUGGEDCOM"
    ],
    "ai": true
   },
   {
-   "id": "0fd5862fb5",
+   "id": "3fea90422b",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-   "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-   "snippet": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
-   "published": "2026-11-12T11:08:52.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens RUGGEDCOM APE1808",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Palo Alto Networks has published </strong><a href=\"https://security.paloaltonetworks.com/CVE-2026-111497\"><strong>information </strong></a><strong>on a vu",
+   "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/0fd5862fb5.webp",
+   "score": 1.75,
    "t": "2026-11-12",
-   "summary": "Attackers accessed chat transcripts for fewer than 1% of Notion workspaces; most transcripts were unattributable, SecurityWeek reports.",
-   "why": "Review exposure of chat transcripts and whether sensitive workspace data was involved.",
+   "summary": "The Siemens RUGGEDCOM APE1808 snippet says Palo Alto Networks published information; further details are not included.",
+   "why": "Review the full advisory to determine whether any deployed systems need attention.",
    "tags": [
-    "Notion",
-    "chat transcripts",
-    "Fireworks AI"
+    "Siemens",
+    "RUGGEDCOM"
    ],
    "ai": true
   },
   {
-   "id": "b8a4eb8ff3",
+   "id": "0b6d9bcd88",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-   "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-   "snippet": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
-   "published": "2026-11-12T10:39:34.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Building Automation and Energy Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PH",
+   "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/b8a4eb8ff3.webp",
+   "score": 1.75,
    "t": "2026-11-12",
-   "summary": "SecurityWeek reports that attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication and deploy malware.",
-   "why": "Review ScreenConnect extension security and authentication controls.",
+   "summary": "The Siemens Building Automation and Energy Products snippet mentions two critical, unauthenticated issues disclosed by PHP project and security researchers.",
+   "why": "Check the full advisory and identify affected building and energy products.",
    "tags": [
-    "ScreenConnect",
-    "authentication",
-    "malware"
+    "Siemens",
+    "PHP",
+    "unauthenticated"
    ],
    "ai": true
   },
   {
-   "id": "2bb5c2ca8f",
+   "id": "0326dcbca7",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-   "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-   "snippet": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek .",
-   "published": "2026-11-12T09:39:55.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Edge Management",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - ",
+   "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/2bb5c2ca8f.webp",
+   "score": 1.75,
    "t": "2026-11-12",
-   "summary": "SecurityWeek says malicious activity began shortly after a researcher disclosed over 30 N-central zero-days; N-able patched the unauthenticated ones.",
-   "why": "Check N-central exposure and apply N-able's patches for unauthenticated vulnerabilities.",
+   "summary": "Siemens says it is assessing the impact of Node2Shell on Industrial Edge.",
+   "why": "Track Siemens’ assessment and check whether Industrial Edge is deployed in your environment.",
    "tags": [
-    "N-central",
-    "zero-days",
-    "patches"
+    "Siemens",
+    "Industrial Edge",
+    "Node2Shell"
    ],
    "ai": true
   },
   {
-   "id": "26d811aac8",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "snippet": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fix",
-   "published": "2026-11-12T09:25:00.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/26d811aac8.webp",
-   "t": "2026-11-12",
-   "summary": "The Hacker News says an unauthenticated attacker can crash MongoDB Server with two requests if the server later becomes the main server while missing recent changes.",
-   "why": "Check MongoDB Server patch status and failover behavior on servers missing recent changes.",
-   "tags": [
-    "MongoDB Server",
-    "unauthenticated",
-    "failover"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3773dc5512",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-   "snippet": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
-   "published": "2026-11-12T09:23:21.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/3773dc5512.webp",
-   "t": "2026-11-12",
-   "summary": "SecurityWeek says attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories, and maintain access.",
-   "why": "Review Red Hat Quay exposure, repository integrity, and access for signs of unauthorized activity.",
-   "tags": [
-    "Red Hat Quay",
-    "container images",
-    "persistent access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ee8b1c5bd7",
+   "id": "1857708e01",
    "section": "cyber",
    "source": "Unit 42",
    "weight": 0.7,
-   "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
-   "url": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
-   "snippet": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
-   "published": "2026-11-11T23:00:53.000Z",
+   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+   "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+   "snippet": "Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .",
+   "published": "2026-11-12T15:00:31.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/ee8b1c5bd7.webp",
+   "score": 1.61,
+   "image": "/img/news/1857708e01.webp",
    "t": "2026-11-12",
-   "summary": "Unit 42 describes attacker use of AI-powered red teaming tools and says it will discuss ways to mitigate these attacks.",
-   "why": "Defenders should review mitigation guidance for attacks involving AI-powered red teaming tools.",
+   "summary": "Unit 42 describes attackers using the open-source Cairn AI agent framework to autonomously breach semiconductor, defense, and civic targets.",
+   "why": "Review how autonomous agents could affect monitoring and incident response in relevant environments.",
    "tags": [
-    "AI-powered",
-    "red teaming"
+    "Cairn AI",
+    "autonomous",
+    "targets"
    ],
    "ai": true
   },
   {
-   "id": "2f643c57e2",
+   "id": "fac8887887",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-   "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-   "snippet": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek .",
-   "published": "2026-11-12T08:38:47.000Z",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "snippet": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+   "published": "2026-11-12T19:12:55.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/2f643c57e2.webp",
+   "score": 1.6,
+   "image": "/img/news/fac8887887.webp",
    "t": "2026-11-12",
-   "summary": "Maersk confirmed data theft amid an extortion attempt; the WhiteArmor ransomware group claims it stole 100GB from the shipping company's systems.",
-   "why": "Distinguish the company's confirmation of theft from the group's claim about the amount taken.",
+   "summary": "BleepingComputer reports a critical HTTP/2 module vulnerability in Apache HTTP Server that could allow unauthenticated remote code execution.",
+   "why": "Check Apache HTTP Server exposure and review the relevant patch guidance.",
+   "tags": [
+    "Apache",
+    "HTTP/2",
+    "RCE"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2559f20953",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+   "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+   "snippet": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
+   "published": "2026-11-12T18:28:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/2559f20953.webp",
+   "t": "2026-11-12",
+   "summary": "Maersk says a recent cyber incident affected a legacy system, The Record reports.",
+   "why": "Review dependencies on legacy systems and how they are monitored.",
    "tags": [
     "Maersk",
-    "data theft",
-    "extortion"
+    "legacy system",
+    "incident"
    ],
    "ai": true
   },
   {
-   "id": "c2d283cd75",
+   "id": "a9b2747b83",
    "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-   "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-   "snippet": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released ",
-   "published": "2026-11-12T08:20:37.000Z",
+   "source": "Microsoft Security",
+   "weight": 0.6,
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "snippet": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog .",
+   "published": "2026-11-12T17:00:00.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/c2d283cd75.webp",
+   "score": 1.55,
+   "image": "/img/news/a9b2747b83.webp",
    "t": "2026-11-12",
-   "summary": "The Hacker News says Node.js fixed 16 flaws, including HTTP/2 bugs that can crash servers or expose pieces of server memory to clients.",
-   "why": "Check Node.js versions and review HTTP/2 exposure for the described crash and memory disclosure flaws.",
+   "summary": "Microsoft researchers discuss poisoned datasets and model checkpoints that can trigger remote code execution and other malicious activity in coding agents.",
+   "why": "Check the provenance of datasets and model checkpoints used by coding agents.",
    "tags": [
-    "Node.js",
-    "HTTP/2",
-    "memory"
+    "supply chain",
+    "coding agents",
+    "RCE"
    ],
    "ai": true
   },
   {
-   "id": "24d76e256b",
+   "id": "023264eb01",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "European authorities take down SteaIC malware servers for second time this year",
+   "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+   "snippet": "German authorities on Thursday said investigators traced the rebuilt network to the Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Unit.",
+   "published": "2026-11-12T16:21:00.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/023264eb01.webp",
+   "t": "2026-11-12",
+   "summary": "The Record reports German authorities said investigators traced rebuilt SteaIC malware servers to Virtualine, with assistance from law enforcement partners.",
+   "why": "Check threat-intelligence feeds for relevant SteaIC infrastructure indicators.",
+   "tags": [
+    "SteaIC",
+    "malware",
+    "servers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "afd428a893",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability",
+   "url": "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+   "snippet": "The aircraft would offer a far cheaper alternative to using frontline fighters against Moscow’s expanding arsenal of one-way attack drones. The post L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability appeared first on TWZ .",
+   "published": "2026-11-12T19:13:31.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/afd428a893.webp",
+   "t": "2026-11-12",
+   "summary": "The War Zone says L-39NG Skyfox jets could offer Ukraine a cheaper alternative to frontline fighters for hunting one-way attack drones.",
+   "why": "The proposed role highlights the operational tradeoff between aircraft cost and drone interception.",
+   "tags": [
+    "L-39NG",
+    "Ukraine",
+    "drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e994c7d731",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "The Promise of Biomanufacturing at the Edge",
-   "url": "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/",
-   "snippet": "As the old adage goes, “Amateurs talk strategy. Professionals talk logistics.” Military operations are utterly dependent on complex supply chains to move food, fuel, and other essential products across long distances and through contested environments to reach the warfighter. These vital supply lines are fragile at eve",
-   "published": "2026-11-12T09:00:53.000Z",
+   "title": "How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies",
+   "url": "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies/",
+   "snippet": "Since 2022, Chinese General Secretary Xi Jinping has purged at least 100 senior military officials, according to a February report from the Center for Strategic and International Studies, with more cases occurring since then. The rate of dismissals and disappearances has increased substantially in the last two years. R",
+   "published": "2026-11-12T18:30:19.000Z",
    "also": [],
-   "score": 1.55,
-   "image": "/img/news/24d76e256b.webp",
+   "score": 1.58,
+   "image": "/img/news/e994c7d731.webp",
    "t": "2026-11-12",
-   "summary": "War on the Rocks discusses biomanufacturing at the edge alongside the importance of moving essential supplies through complex, contested supply chains.",
-   "why": "Highlights the operational relevance of supply chains and producing essential products near military operations.",
+   "summary": "War on the Rocks says Xi Jinping has purged at least 100 senior Chinese military officials since 2022 and discusses effects on readiness and Taiwan contingencies.",
+   "why": "The reported dismissals are relevant to assessments of military readiness and Taiwan planning.",
    "tags": [
-    "biomanufacturing",
-    "logistics",
-    "supply chains"
+    "China",
+    "readiness",
+    "Taiwan"
    ],
    "ai": true
   },
   {
-   "id": "38255bfe31",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer",
-   "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
-   "snippet": "At Euronaval 2026, Naval News spoke with Fincantieri's Eugenio Santagata about the new Multi-Mission Modular Vessel (MMMV), FREMM Evo production, and the DDX destroyer The post Video: Fincantieri Unveils MMMV, Details FREMM Evo and DDX Destroyer appeared first on Naval News .",
-   "published": "2026-11-12T11:22:50.000Z",
-   "also": [],
-   "score": 1.5,
-   "t": "2026-11-12",
-   "summary": "At Euronaval 2026, Naval News spoke with Fincantieri's Eugenio Santagata about the Multi-Mission Modular Vessel, FREMM Evo production, and the DDX destroyer.",
-   "why": "The vessel and destroyer details are relevant to naval platforms and production.",
-   "tags": [
-    "MMMV",
-    "FREMM Evo",
-    "DDX destroyer"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a63245297b",
-   "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "UK Commandos to get AI-enabled edge from British scale-up Arondite, as company expands to NATO's northern flank",
-   "url": "https://www.gov.uk/government/news/uk-commandos-to-get-ai-enabled-edge-from-british-scale-up-arondite-as-company-expands-to-natos-northern-flank",
-   "snippet": "The Royal Navy has agreed a multi-million pound deal with British scale-up Arondite to deploy its AI-enabled software across UK Commando Force,",
-   "published": "2026-11-12T10:00:04.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/a63245297b.webp",
-   "t": "2026-11-12",
-   "summary": "The UK Ministry of Defence says the Royal Navy agreed a deal with British scale-up Arondite to deploy AI-enabled software across UK Commando Force.",
-   "why": "The deployment makes AI-enabled software relevant to UK Commando Force operations.",
-   "tags": [
-    "AI-enabled software",
-    "Royal Navy",
-    "UK Commando Force"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3d6c256a34",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Australian naval propulsion specialist VEEM wins work on US Navy submarines",
-   "url": "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines/",
-   "snippet": "The Australian government has announced a contract for Perth-based naval propulsion specialist VEEM, supplying parts for US submarines. The post Australian naval propulsion specialist VEEM wins work on US Navy submarines appeared first on Naval News .",
-   "published": "2026-11-12T07:26:26.000Z",
-   "also": [],
-   "score": 1.41,
-   "t": "2026-11-12",
-   "summary": "The Australian government announced a contract for Perth-based VEEM to supply parts for US Navy submarines.",
-   "why": "The contract links Australian naval industry with US submarine supply.",
-   "tags": [
-    "VEEM",
-    "US Navy",
-    "submarines"
-   ],
-   "ai": true
-  },
-  {
-   "id": "df2ec257c1",
+   "id": "025d831685",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Israel’s Rafael unveils new, larger cruise missile dubbed Super Ice",
-   "url": "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice/",
-   "snippet": "Super Ice is comparable in size to the US-made Tomahawk missile.",
-   "published": "2026-11-11T08:00:00.000Z",
-   "also": [
-    {
-     "source": "Naval News",
-     "url": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/"
-    }
-   ],
-   "score": 1.37,
-   "image": "/img/news/df2ec257c1.webp",
-   "t": "2026-11-11",
-   "summary": "Breaking Defense says Rafael unveiled Super Ice, a cruise missile comparable in size to the US-made Tomahawk.",
-   "why": "The comparison provides a size reference for assessing the missile’s technology and operational relevance.",
+   "title": "AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says",
+   "url": "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says/",
+   "snippet": "The USS Colorado will serve as the first submarine assigned to Submarine Rotational Force-West in support of AUKUS Pillar I.",
+   "published": "2026-11-12T18:12:43.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/025d831685.webp",
+   "t": "2026-11-12",
+   "summary": "An admiral says AUKUS is on track, and ahead of schedule for some parts; USS Colorado will be the first submarine assigned to Submarine Rotational Force-West.",
+   "why": "The submarine assignment is a concrete part of AUKUS Pillar I’s rotational force plan.",
    "tags": [
-    "Super Ice",
-    "cruise missile",
-    "Tomahawk"
+    "AUKUS",
+    "submarine",
+    "USS Colorado"
    ],
    "ai": true
   },
   {
-   "id": "0945a590d9",
+   "id": "4fe1eb9362",
    "section": "warfare",
    "source": "The War Zone",
    "weight": 0.6,
-   "title": "Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky",
-   "url": "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky",
-   "snippet": "Ukrainian officials are expressing concern that a renewed Russian military presence in Oleshky will result in new waves of attacks across the Dnipro River. The post Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky appeared first on TWZ .",
-   "published": "2026-11-11T21:23:00.000Z",
+   "title": "New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy",
+   "url": "https://www.twz.com/air/new-facilities-to-pump-out-upgraded-f-a-18e-f-super-hornets-eyed-by-navy",
+   "snippet": "The Navy is looking to bolster capacity to make major modifications to F/A-18E/Fs and EA-18Gs amid shifting production priorities. The post New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy appeared first on TWZ .",
+   "published": "2026-11-12T17:28:09.000Z",
    "also": [],
-   "score": 1.3,
-   "image": "/img/news/0945a590d9.webp",
-   "t": "2026-11-11",
-   "summary": "Ukrainian officials are concerned that a renewed Russian military presence in Oleshky could result in attacks across the Dnipro River.",
-   "why": "The town’s position by the river is relevant to understanding the stated cross-river concern.",
+   "score": 1.56,
+   "image": "/img/news/4fe1eb9362.webp",
+   "t": "2026-11-12",
+   "summary": "The Navy is considering new facilities to increase capacity for major modifications to F/A-18E/Fs and EA-18Gs.",
+   "why": "The proposed facilities concern capacity to modify these aircraft amid shifting production priorities.",
    "tags": [
-    "Oleshky",
-    "Dnipro River"
+    "Navy",
+    "F/A-18E/F",
+    "modifications"
    ],
    "ai": true
   },
   {
-   "id": "675acb0523",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman",
-   "url": "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
-   "snippet": "The Royal Navy wants to infuse drone capabilities into its air wings and Talon Blue would be far more advanced than anything that has flown off the carriers yet. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman appeared first on TWZ .",
-   "published": "2026-11-11T20:30:40.000Z",
-   "also": [],
-   "score": 1.29,
-   "image": "/img/news/675acb0523.webp",
-   "t": "2026-11-11",
-   "summary": "Northrop Grumman confirmed plans to fly a Talon Blue CCA drone from a British carrier; the Royal Navy wants to add drone capabilities to its air wings.",
-   "why": "Carrier-based drone operations could expand the capabilities integrated into naval air wings.",
-   "tags": [
-    "Talon Blue",
-    "drone"
-   ],
-   "ai": true
-  },
-  {
-   "id": "328b336d78",
+   "id": "ac6c5127ba",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "DoD pushes out 3 loans totaling $450M to bolster US space companies",
-   "url": "https://breakingdefense.com/2026/11/dod-pushes-out-3-loans-totally-450m-to-bolster-us-space-companies/",
-   "snippet": "One industry source told Breaking Defense that the reason for the spate of new loan announcements is that the Pentagon “needed to finalize loans by the end of the fiscal year.”",
-   "published": "2026-11-11T20:15:00.000Z",
+   "title": "Instead of stockpiling small attack drones, Army looking to simply buy new ones",
+   "url": "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones/",
+   "snippet": "“It’s literally fly it as close as you can between those two fence posts because you might have to hit a high value target that way. And, if you crash 10 of them until you can get [number] 11 through, do it,” Army Material Command’s Jon Strzelec told Breaking Defense.",
+   "published": "2026-11-12T17:30:00.000Z",
    "also": [],
-   "score": 1.28,
-   "image": "/img/news/328b336d78.webp",
-   "t": "2026-11-11",
-   "summary": "Breaking Defense reports three Pentagon loans totaling $450 million for US space companies; an industry source said they needed to be finalized by fiscal year-end.",
-   "why": "The loans indicate a funding mechanism for US space companies.",
+   "score": 1.56,
+   "image": "/img/news/ac6c5127ba.webp",
+   "t": "2026-11-12",
+   "summary": "Breaking Defense reports the Army is looking to buy new small attack drones rather than stockpiling them; an Army official describes accepting losses in pursuit of a target.",
+   "why": "The approach raises operational questions about drone procurement and expendability.",
    "tags": [
-    "space companies",
-    "loans"
+    "Army",
+    "attack drones",
+    "procurement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cd9783bed0",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Cry ‘drone,’ and let slip the fruit flies of war",
+   "url": "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war/",
+   "snippet": "The US military should focus on building drones that evolve so quickly an adversary’s defenses become obsolete before they can be deployed, two Air Force officers argue.",
+   "published": "2026-11-12T16:29:34.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/cd9783bed0.webp",
+   "t": "2026-11-12",
+   "summary": "Two Air Force officers argue the US military should build drones that evolve quickly enough to make adversary defenses obsolete before deployment.",
+   "why": "The proposal emphasizes adaptation speed in the relationship between drones and defenses.",
+   "tags": [
+    "drones",
+    "defenses",
+    "adaptation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f55d7daa32",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "NATO nations have a missile crisis. How did it happen, and can it be fixed?",
+   "url": "https://breakingdefense.com/2026/11/nato-nations-have-a-missile-crisis-how-did-it-happen-and-can-it-be-fixed/",
+   "snippet": "Breaking Defense kicks off a new video roundtable series about the future of missiles and missile defense.",
+   "published": "2026-11-12T14:04:58.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/f55d7daa32.webp",
+   "t": "2026-11-12",
+   "summary": "Breaking Defense introduces a video roundtable series on the future of missiles and missile defense, amid what it calls a NATO missile crisis.",
+   "why": "The series focuses on missile and missile-defense issues relevant to NATO.",
+   "tags": [
+    "NATO",
+    "missiles",
+    "missile defense"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8553b57418",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Rethinking the pipeline for critical defense electronics",
+   "url": "https://breakingdefense.com/2026/11/rethinking-the-pipeline-for-critical-defense-electronics/",
+   "snippet": "[Sponsored] Closing the gap for space systems, EW and counter-UAS production.",
+   "published": "2026-11-12T13:39:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/8553b57418.webp",
+   "t": "2026-11-12",
+   "summary": "A sponsored item discusses closing a production gap for space systems, electronic warfare, and counter-UAS.",
+   "why": "The listed fields point to production capacity concerns across several defense technologies.",
+   "tags": [
+    "space systems",
+    "EW",
+    "counter-UAS"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5ee8fa8c82",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "UTEC Puts Acoustic-Inertial Positioning to Work on Middle East Pipelay Amid GNSS Disruption",
+   "url": "https://insidegnss.com/utec-puts-acoustic-inertial-positioning-to-work-on-middle-east-pipelay-amid-gnss-disruption/",
+   "snippet": "UTEC, the geo-services business line of Acteon, has deployed a hybrid acoustic-inertial positioning system that keeps offshore construction running when GNSS signals are... The post UTEC Puts Acoustic-Inertial Positioning to Work on Middle East Pipelay Amid GNSS Disruption appeared first on Inside GNSS - Global Navigat",
+   "published": "2026-11-12T18:19:13.000Z",
+   "also": [],
+   "score": 1.68,
+   "t": "2026-11-12",
+   "summary": "UTEC has deployed a hybrid acoustic-inertial positioning system for offshore construction that can keep work running during GNSS disruption.",
+   "why": "The system offers an alternative positioning approach for offshore work when GNSS is disrupted.",
+   "tags": [
+    "acoustic-inertial",
+    "GNSS",
+    "offshore"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a2d97ddf9d",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Russia’s Cheapest Weapon in Its Hybrid War Is Fear",
+   "url": "https://foreignpolicy.com/2026/11/12/europe-bomb-threats-russia-hybrid-war-nato-deterrence-ukraine-military/",
+   "snippet": "As Moscow escalates, Europeans must learn to deter attacks that they cannot always attribute.",
+   "published": "2026-11-12T18:51:15.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/a2d97ddf9d.webp",
+   "t": "2026-11-12",
+   "summary": "Foreign Policy argues that fear is a low-cost weapon in Russia’s hybrid war and says Europeans must deter attacks they cannot always attribute.",
+   "why": "The article links attribution challenges with European deterrence concerns.",
+   "tags": [
+    "Russia",
+    "hybrid war",
+    "attribution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6512753c22",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Specialist Thomas Iglesias was given a Joint Service Commendation Medal for the execution of his duties after Wednesday's incident.",
+   "published": "2026-11-12T18:47:35.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/6512753c22.webp",
+   "t": "2026-11-12",
+   "summary": "The BBC reports that Specialist Thomas Iglesias received a Joint Service Commendation Medal for his duties after an incident.",
+   "why": "The snippet provides no broader strategic or geospatial context.",
+   "tags": [
+    "medal",
+    "duties"
    ],
    "ai": true
   },
@@ -403,21 +461,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+   "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
    "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
-   "published": "2026-11-12T10:08:38.000Z",
-   "also": [
-    {
-     "source": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
-    },
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 2.27,
+   "snippet": "US envoy Steve Witkoff says President Putin has agreed to European negotiators joining the next round of Ukraine talks.",
+   "published": "2026-11-12T18:28:59.000Z",
+   "also": [],
+   "score": 1.58,
    "image": "/img/news/d5388b6465.webp",
    "t": "2026-11-12",
    "summary": "BBC World reports that US envoys arrived in Moscow for Ukraine talks with Vladimir Putin; they are later due to meet Ukraine's Volodymyr Zelensky in Dublin.",
@@ -437,9 +486,9 @@
    "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
    "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
-   "published": "2026-11-12T09:43:11.000Z",
+   "published": "2026-11-12T16:54:12.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.55,
    "image": "/img/news/ec3c433350.webp",
    "t": "2026-11-12",
    "summary": "Witnesses say a missile hit a building containing surgical wards and intensive care units at Nasser hospital, BBC World reports. The health ministry says six Palestinians were killed.",
@@ -452,134 +501,72 @@
    "ai": true
   },
   {
-   "id": "02c0254bad",
+   "id": "b4ad2e7196",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-   "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
-   "published": "2026-11-12T07:59:33.000Z",
+   "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+   "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+   "published": "2026-11-12T13:02:46.000Z",
    "also": [],
-   "score": 1.52,
-   "image": "/img/news/02c0254bad.webp",
+   "score": 1.47,
+   "image": "/img/news/b4ad2e7196.webp",
    "t": "2026-11-12",
-   "summary": "BBC World reports that people in parts of Ukraine face blackouts, with parents trying to manage family life with just a few hours of power each day.",
-   "why": "The reported power shortages show the effects of grid disruption on daily life.",
+   "summary": "The BBC reports on a Ukrainian power station described as badly damaged after a Russian ballistic missile strike and under constant drone threat.",
+   "why": "The report highlights the vulnerability of power infrastructure to missile and drone threats.",
    "tags": [
     "Ukraine",
-    "blackouts",
-    "power grid"
+    "power plant",
+    "drones"
    ],
    "ai": true
   },
   {
-   "id": "bb6db4ffcd",
+   "id": "80aabde9b3",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
-   "url": "https://www.aljazeera.com/news/2026/11/12/china-says-us-fabricating-nvidia-spy-claims-to-justify-tech-blockade?traffic_source=rss",
-   "snippet": "Nvidia CEO is under investigation for an affair with a woman whom US intelligence believes to be a Chinese spy.",
-   "published": "2026-11-12T10:49:41.000Z",
+   "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
+   "snippet": "Al Jazeera’s Tareq Abu Azzoum reports on the aftermath of an Israeli strike on Nasser Hospital",
+   "published": "2026-11-12T18:03:02.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/bb6db4ffcd.webp",
+   "score": 1.47,
+   "image": "/img/news/80aabde9b3.webp",
    "t": "2026-11-12",
-   "summary": "China says the US is fabricating Nvidia spy claims to justify a technology blockade, Al Jazeera reports. The snippet says the Nvidia CEO is under investigation over an alleged relationship.",
-   "why": "The competing claims connect technology restrictions with US-China tensions.",
+   "summary": "Al Jazeera reports on the aftermath of an Israeli strike on Nasser Hospital.",
+   "why": "The report concerns the aftermath of a strike on a hospital in Gaza.",
    "tags": [
-    "Nvidia",
-    "technology blockade",
-    "China"
+    "Gaza",
+    "hospital",
+    "strike"
    ],
    "ai": true
   },
   {
-   "id": "dd1cb46612",
+   "id": "1dbe89b5c1",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "From the UK to the Gulf, are US overseas bases becoming liabilities?",
-   "url": "https://www.aljazeera.com/news-analysis/2026/11/12/from-the-uk-to-the-gulf-are-us-overseas-bases-becoming-liabilities?traffic_source=rss",
-   "snippet": "For decades, these bases allowed the US to wage faraway wars. Now, Iran has changed that calculation.",
-   "published": "2026-11-12T09:38:00.000Z",
-   "also": [],
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Where the Russia-Ukraine peace talks stand after Abu Dhabi",
+   "url": "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/",
+   "snippet": "Our experts unpack what this week’s US-brokered talks between Russia and Ukraine mean for European security and the prospects for peace. The post Where the Russia-Ukraine peace talks stand after Abu Dhabi appeared first on Atlantic Council .",
+   "published": "2026-11-11T19:59:30.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
    "score": 1.46,
-   "image": "/img/news/dd1cb46612.webp",
-   "t": "2026-11-12",
-   "summary": "Al Jazeera asks whether US overseas bases are becoming liabilities, saying Iran has changed the calculation around bases once used to wage distant wars.",
-   "why": "The issue concerns the strategic value and risks of overseas bases.",
+   "image": "/img/news/1dbe89b5c1.webp",
+   "t": "2026-11-11",
+   "summary": "The Atlantic Council examines what US-brokered Russia-Ukraine talks in Abu Dhabi mean for European security and prospects for peace.",
+   "why": "The talks connect the conflict to European security and the prospects for peace.",
    "tags": [
-    "US bases",
-    "Iran",
-    "strategic"
-   ],
-   "ai": true
-  },
-  {
-   "id": "504deffe05",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "India bypasses own rules to buy Israeli phone-hacking tech",
-   "url": "https://www.aljazeera.com/features/2026/11/12/india-bypasses-own-rules-to-buy-israeli-phone-hacking-tech?traffic_source=rss",
-   "snippet": "India's expansive surveillance capabilities extend beyond cloning phones to accessing cloud-based data of tech giants.",
-   "published": "2026-11-12T08:40:08.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/504deffe05.webp",
-   "t": "2026-11-12",
-   "summary": "Al Jazeera reports that India bypassed its own rules to buy Israeli phone-hacking technology, and says India's surveillance capabilities reach cloud data.",
-   "why": "The report raises the geostrategic relevance of surveillance capabilities and access to cloud data.",
-   "tags": [
-    "India",
-    "surveillance",
-    "cloud data"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f2f673a28b",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Xi Jinping says Taiwan ‘reunification’ with China must happen",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/xi-jinping-says-taiwan-reunification-with-china-must-happen?traffic_source=rss",
-   "snippet": "Xi Jinping, President of China, has called for the peaceful ‘reunification’ of Taiwan with China.",
-   "published": "2026-11-12T08:34:45.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/f2f673a28b.webp",
-   "t": "2026-11-12",
-   "summary": "Xi Jinping called for the peaceful reunification of Taiwan with China, Al Jazeera reports.",
-   "why": "The statement concerns cross-strait relations and Taiwan's strategic status.",
-   "tags": [
-    "Taiwan",
-    "China",
-    "reunification"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e0bbca7e5c",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
-   "snippet": "Iran’s chief negotiator says Iran is open to a deal if the US refrains from creating distrust and excessive demands.",
-   "published": "2026-11-12T07:38:05.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/e0bbca7e5c.webp",
-   "t": "2026-11-12",
-   "summary": "Iran's chief negotiator says Iran is open to a deal if the US avoids excessive demands and creating distrust, Al Jazeera reports.",
-   "why": "The statement frames conditions Iran's negotiator says matter to a possible deal.",
-   "tags": [
-    "Iran",
-    "US",
-    "deal"
+    "Russia-Ukraine",
+    "peace talks"
    ],
    "ai": true
   }
@@ -731,47 +718,47 @@
   }
  ],
  "run_today": [
-  "Check Windows 11 systems with the October preview update for failed November security updates.",
-  "After Linux server patching, check for GSocket and other signs of persistent access.",
-  "Review ScreenConnect extensions and authentication controls for the bypass described."
+  "Review the full Siemens Desigo and Gridscale advisory and check relevant deployments for applicable updates.",
+  "Inventory Siemens Building Automation and Energy Products and assess whether the PHP-related advisory applies.",
+  "Check internet-facing Apache HTTP Server systems for the HTTP/2 vulnerability and follow patch guidance."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "GSocket",
-   "explainer": "GSocket is a legitimate open-source remote access tool. In this report, threat actors abuse it to keep access to Linux servers even after patching the vulnerabilities used to get in.",
-   "from_id": "3ca0085eba",
-   "from": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "term": "HTTP/2",
+   "explainer": "HTTP/2 is a version of the protocol used for communication between web clients and servers. The Apache report identifies a vulnerability in its HTTP/2 module.",
+   "from_id": "fac8887887",
+   "from": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Biomanufacturing at the edge",
-   "explainer": "Biomanufacturing at the edge refers, in the title, to producing biological products closer to where they may be needed. The accompanying text emphasizes the logistical challenge of moving essential supplies through long and contested supply chains.",
-   "from_id": "24d76e256b",
-   "from": "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/",
-   "fromSource": "War on the Rocks"
+   "term": "one-way attack drones",
+   "explainer": "One-way attack drones are described in the item as part of an expanding arsenal that aircraft could hunt. The snippet presents the L-39NG as a possible alternative to frontline fighters for that role.",
+   "from_id": "afd428a893",
+   "from": "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Ukraine talks",
-   "explainer": "Diplomatic talks are meetings between representatives to discuss political issues. Here, US envoys are in Moscow for Ukraine talks and are later due to meet Ukraine's president in Dublin.",
-   "from_id": "d5388b6465",
-   "from": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "acoustic-inertial positioning",
+   "explainer": "Acoustic-inertial positioning combines acoustic and inertial methods to determine position. UTEC’s hybrid system is described as keeping offshore construction running during GNSS disruption.",
+   "from_id": "5ee8fa8c82",
+   "from": "https://insidegnss.com/utec-puts-acoustic-inertial-positioning-to-work-on-middle-east-pipelay-amid-gnss-disruption/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Systems, access and the pressures around conflict",
+  "headline": "Infrastructure exposure, adaptation, and continuity",
   "paragraphs": [
-   "The briefing spans diplomatic contact over Ukraine, reports of civilian hardship and military logistics. US envoys are in Moscow for talks and are due to meet Ukraine's president in Dublin. Separately, blackouts in parts of Ukraine and the reported strike on Nasser hospital show how conflict intersects with essential services and civilian infrastructure.",
-   "Cyber items highlight different points of exposure: failed Windows updates, persistent GSocket access after Linux patching, and attacks involving ScreenConnect and other software. Together, they suggest that installing patches is not always the end of response. Defenders should verify updates, investigate continued access, and review authentication and exposed services.",
-   "The warfare stories focus on supply, platforms and software: biomanufacturing at the edge, naval vessel development, and AI-enabled software for UK Commando Force. These suggest logistics and technology are central operational concerns, while the geo stories show political and infrastructure stakes. Watch for further reporting on talks, service disruption, and remediation."
+   "The top stories are led by Siemens advisories covering several product areas. Their snippets refer to Node.js updates, PHP disclosures, and Siemens assessing Node2Shell’s impact on Industrial Edge; the available details do not establish the full scope or affected versions. The Apache report separately describes a critical HTTP/2 remote-code-execution flaw.",
+   "For defenders, these reports suggest a need to connect vendor advisories to actual inventories rather than assume that a product name alone determines exposure. The autonomous-agent and coding-agent supply-chain stories add a related concern: tools and their inputs can be part of the security review. The snippets do not establish a link between those reports and the Siemens items.",
+   "The geospatial item describes acoustic-inertial positioning keeping offshore construction running during GNSS disruption. Alongside the top cyber reports, it underscores the value of understanding dependencies and alternatives in operational environments. Analysts should watch for fuller advisory details and deployment guidance, while treating the positioning report as a separate example of continuity under disruption."
   ],
   "takeaways": [
-   "Verify patch installation and investigate persistent access after remediation.",
-   "Conflict reporting connects diplomacy with pressure on civilian infrastructure.",
-   "Logistics, platforms, and software all feature in the warfare coverage."
+   "Use full advisories and asset inventories to establish whether Siemens products are affected.",
+   "Check Apache HTTP Server exposure to the reported HTTP/2 flaw.",
+   "Track how positioning systems and operational services handle GNSS disruption."
   ]
  },
  "health": [
@@ -779,7 +766,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "Krebs on Security",
@@ -791,19 +778,19 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 24
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 5
   },
   {
    "name": "SecurityWeek",
@@ -827,7 +814,7 @@
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Google Threat Intelligence",
@@ -839,49 +826,49 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 10
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 5
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -899,7 +886,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "International Crisis Group",
@@ -911,7 +898,7 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Atlantic Council",
@@ -923,7 +910,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "SpaceNews",
@@ -941,31 +928,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 8
   }
  ]
 }
