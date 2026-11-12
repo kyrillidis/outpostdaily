@@ -1,20 +1,25 @@
 {
- "updated": "2026-11-11T23:54:30.282Z",
+ "updated": "2026-11-12T04:51:34.296Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "The Hacker News",
@@ -23,11 +28,6 @@
   },
   {
    "name": "Krebs on Security",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -39,32 +39,32 @@
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 9
+   "n": 4
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "Daily Dark Web",
@@ -74,7 +74,12 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -83,11 +88,6 @@
   },
   {
    "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,94 @@
   }
  ],
  "items": [
+  {
+   "id": "n50fb4fd017",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+   "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+   "published": "2026-11-12T04:41:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb15f3ebb61",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran’s chief negotiator tells Al Jazeera ‘ball in US court’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/irans-chief-negotiator-tells-al-jazeera-ball-in-us?traffic_source=rss",
+   "published": "2026-11-12T04:19:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne5bcbb9d6d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+   "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack?traffic_source=rss",
+   "published": "2026-11-12T03:50:42.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nec3c433350",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+   "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-12T03:32:54.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "na866fd1f8d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+   "url": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+   "published": "2026-11-12T01:33:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n755f3c5ece",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+   "published": "2026-11-12T01:20:55.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd9fc7bca78",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+   "url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "published": "2026-11-12T01:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n09ebecc421",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+   "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+   "published": "2026-11-12T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n8f3c3c11cc",
    "kind": "news",
@@ -2814,17 +2902,6 @@
    "verified": true
   },
   {
-   "id": "n8a1aab8d2e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.",
-   "url": "https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories",
-   "published": "2026-11-09T18:16:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
    "id": "nadccb074fb",
    "kind": "news",
    "group": "cyber",
@@ -3107,39 +3184,6 @@
    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
    "published": "2026-11-09T06:05:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2b3dc2d2a9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
-   "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss",
-   "published": "2026-11-09T01:19:09.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n1dd415ded7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Trump says ‘Iron Gate’ in effect; drone hits Iraq gasfield",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
-   "published": "2026-11-09T00:00:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne2433de357",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Nvidia CEO’s affair sparks Chinese espionage probe",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
-   "published": "2026-11-08T23:58:53.000Z",
    "severity": "normal",
    "verified": true
   }
