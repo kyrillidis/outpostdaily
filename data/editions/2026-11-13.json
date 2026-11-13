@@ -1,402 +1,509 @@
 {
  "date": "2026-11-13",
  "edition": 242,
- "compiled": "2026-11-13T15:37:04.220Z",
+ "compiled": "2026-11-13T21:44:36.913Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "db3fd3a5ad",
+   "id": "1671c4ae2d",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "snippet": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exp",
+   "published": "2026-11-13T12:00:00.000Z",
+   "also": [],
+   "score": 1.7,
+   "t": "2026-11-13",
+   "summary": "CISA added two vulnerabilities to its Known Exploited Vulnerabilities Catalog.",
+   "why": "Check whether affected products are in use and prioritize remediation.",
+   "tags": [
+    "vulnerabilities",
+    "CISA"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f0f23fdb08",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+   "snippet": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
+   "published": "2026-11-13T21:32:00.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/f0f23fdb08.webp",
+   "t": "2026-11-13",
+   "summary": "The FBI says the open-source Artex tool can speed up cyberattacks, with some intrusions reaching privileged access in under three hours.",
+   "why": "Review how quickly monitoring and response can detect chained attack techniques and privileged access.",
+   "tags": [
+    "Artex",
+    "privileged access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ee27420161",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "How one AI agent exposed five critical enterprise security gaps",
-   "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-   "snippet": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them.",
-   "published": "2026-11-13T15:01:11.000Z",
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "snippet": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
+   "published": "2026-11-13T19:38:36.000Z",
    "also": [],
-   "score": 1.59,
-   "image": "/img/news/db3fd3a5ad.webp",
+   "score": 1.56,
+   "image": "/img/news/ee27420161.webp",
    "t": "2026-11-13",
-   "summary": "Token Security says a malicious email could manipulate an invoice-processing AI agent into changing vendor bank details without triggering traditional security alerts.",
-   "why": "Check whether AI-driven payment changes require independent verification and are visible in security monitoring.",
+   "summary": "Trezor confirmed three Safe 5 devices sold by CryptoBilis had implants designed to steal wallet recovery phrases over cellular networks, and released a fix.",
+   "why": "Verify hardware wallet provenance and apply the released fix where relevant.",
    "tags": [
-    "AI agent",
-    "invoice processing",
-    "malicious email"
+    "hardware implants",
+    "recovery phrases"
    ],
    "ai": true
   },
   {
-   "id": "e8d212e2e3",
+   "id": "810ecd44c3",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "TSMC confirms employee data breach tied to cloud service provider",
-   "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
-   "snippet": "An investigation into the breach found that no TSMC systems were compromised but the information was “verified to match data stored in the system services of a cloud service provider, but is unrelated to the company’s operations or customer-related data.”",
-   "published": "2026-11-13T15:06:00.000Z",
+   "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+   "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+   "snippet": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+   "published": "2026-11-13T19:43:00.000Z",
    "also": [],
-   "score": 1.59,
-   "image": "/img/news/e8d212e2e3.webp",
+   "score": 1.56,
+   "image": "/img/news/810ecd44c3.webp",
    "t": "2026-11-13",
-   "summary": "An investigation found TSMC systems were not compromised; the employee information matched data held by a cloud service provider and was unrelated to company operations or customer data.",
-   "why": "Review what employee data cloud providers store and how access and incident investigations cover it.",
+   "summary": "Osaka warned residents about suspicious emails purporting to come from the local government amid a reported data breach.",
+   "why": "Check government-themed messages carefully and alert residents to suspicious email.",
    "tags": [
-    "data breach",
-    "cloud service provider",
-    "employee data"
+    "Osaka",
+    "suspicious emails"
    ],
    "ai": true
   },
   {
-   "id": "e71bf5215f",
+   "id": "cf42b36aeb",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
-   "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
-   "snippet": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
-   "published": "2026-11-13T14:28:00.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/e71bf5215f.webp",
-   "t": "2026-11-13",
-   "summary": "ActiveCloud said hackers breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
-   "why": "Check cloud-service continuity plans and how customers can access critical services during an outage.",
-   "tags": [
-    "ransomware",
-    "cloud infrastructure",
-    "service disruption"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f88082b891",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Record number of cyber incidents reported to UK privacy regulator",
-   "url": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
-   "snippet": "British organizations have reported a record number of cyber incidents to the country’s data protection regulator this year, as cybersecurity firms blame data extortion and artificial intelligence for a surge in attacks.",
-   "published": "2026-11-13T12:47:00.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/f88082b891.webp",
-   "t": "2026-11-13",
-   "summary": "British organizations reported a record number of cyber incidents to the data protection regulator this year; cybersecurity firms blame data extortion and AI for a surge in attacks.",
-   "why": "Review incident reporting processes and prepare for data-extortion scenarios.",
-   "tags": [
-    "cyber incidents",
-    "data extortion",
-    "AI"
-   ],
-   "ai": true
-  },
-  {
-   "id": "293c69c9ee",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft says November security updates cause printing issues",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-   "snippet": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-   "published": "2026-11-13T12:27:40.000Z",
+   "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+   "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+   "snippet": "The New York City government will be able to fine companies $1,000 for each verified instance of surveillance pricing.",
+   "published": "2026-11-13T18:35:00.000Z",
    "also": [],
    "score": 1.53,
-   "image": "/img/news/293c69c9ee.webp",
+   "image": "/img/news/cf42b36aeb.webp",
    "t": "2026-11-13",
-   "summary": "Microsoft warned that November 2026 security updates may cause printing issues with documents that have complex formatting.",
-   "why": "Test complex-format printing after applying the updates.",
+   "summary": "New York City will be able to fine companies for verified instances of surveillance pricing.",
+   "why": "Track how the city defines and verifies surveillance pricing.",
    "tags": [
-    "Microsoft",
-    "security updates",
-    "printing"
+    "surveillance pricing",
+    "New York City"
    ],
    "ai": true
   },
   {
-   "id": "e49e186a5e",
+   "id": "f6f4a6d64a",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Check Point warns of zero-day flaw exploited for root access",
-   "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-   "snippet": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-   "published": "2026-11-13T10:44:22.000Z",
+   "title": "German military drone operations disrupted by cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "snippet": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+   "published": "2026-11-13T17:31:56.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/e49e186a5e.webp",
+   "score": 1.51,
+   "image": "/img/news/f6f4a6d64a.webp",
    "t": "2026-11-13",
-   "summary": "Check Point released emergency hotfixes for a high-severity flaw exploited to gain root privileges and establish persistence on vulnerable devices since late October.",
-   "why": "Apply the emergency hotfixes and check vulnerable devices for persistence.",
+   "summary": "Quantum Systems confirmed that an incident detected in late October was part of an active cyberattack by hostile actors.",
+   "why": "Assess incident response and operational continuity for affected drone operations.",
    "tags": [
-    "zero-day",
-    "root privileges",
-    "hotfixes"
+    "cyberattack",
+    "drone operations"
    ],
    "ai": true
   },
   {
-   "id": "2be753d1df",
+   "id": "4c8fe02bd0",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "NATO issues and then withdraws Russian taxi app travel advice for defense industry conference",
-   "url": "https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app",
-   "snippet": "Despite longstanding concerns about the Kremlin’s access to the app’s data, NATO on Thursday issued guidance suggesting attendees of its flagship defense industry conference use the Russian-owned Yandex Go to reach the venue.",
-   "published": "2026-11-13T10:52:00.000Z",
+   "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+   "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+   "snippet": "In a statement to Recorded Future News, a spokesperson said an investigation into the attack confirmed the stolen data but declined to say what information was obtained by the threat actors.",
+   "published": "2026-11-13T17:26:00.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/2be753d1df.webp",
+   "score": 1.51,
+   "image": "/img/news/4c8fe02bd0.webp",
    "t": "2026-11-13",
-   "summary": "NATO issued guidance suggesting conference attendees use Russian-owned Yandex Go, despite longstanding concerns about Kremlin access to the app’s data.",
-   "why": "Assess what travel-app data may be exposed before recommending apps for defense-related events.",
+   "summary": "The University of Texas at Arlington said an investigation confirmed data was stolen, but did not specify what information was obtained.",
+   "why": "Follow updates on the affected information and any guidance for those involved.",
    "tags": [
-    "NATO",
-    "Yandex Go",
-    "data"
+    "data theft",
+    "investigation"
    ],
    "ai": true
   },
   {
-   "id": "c3cb9f9906",
+   "id": "11d7cc1619",
    "section": "cyber",
    "source": "SecurityWeek",
    "weight": 0.5,
-   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-   "snippet": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on SecurityWeek .",
-   "published": "2026-11-13T15:20:00.000Z",
+   "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+   "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+   "snippet": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek .",
+   "published": "2026-11-13T21:33:27.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/c3cb9f9906.webp",
+   "score": 1.5,
+   "image": "/img/news/11d7cc1619.webp",
    "t": "2026-11-13",
-   "summary": "SecurityWeek’s roundup mentions a new CISA director nominee, connected-car hacking, a Baker Tilly data breach, and security advisories and backdoor risks.",
-   "why": "Use the roundup as a prompt to review connected-device and software supply-chain risks.",
+   "summary": "Federal officials have not said what caused the communications disruption or whether they are investigating a possible cyberattack.",
+   "why": "Keep monitoring official updates before attributing the disruption to cyber activity.",
    "tags": [
-    "connected car",
-    "backdoor",
-    "data breach"
+    "FAA",
+    "communications disruption"
    ],
    "ai": true
   },
   {
-   "id": "c6e1d6a772",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-   "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-   "snippet": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinat",
-   "published": "2026-11-13T14:28:58.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/c6e1d6a772.webp",
-   "t": "2026-11-13",
-   "summary": "The FBI says North Korean hackers stole more than $400 million in cryptocurrency through a social engineering scheme involving deepfake video calls.",
-   "why": "Verify identities and payment requests through a separate trusted channel, especially during video calls.",
-   "tags": [
-    "FBI",
-    "deepfake video calls",
-    "social engineering"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8762a201a2",
+   "id": "b297d87623",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Microsoft confirms Windows activation failures after November updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-   "snippet": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
-   "published": "2026-11-13T09:36:18.000Z",
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "snippet": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+   "published": "2026-11-13T16:21:43.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/8762a201a2.webp",
+   "score": 1.49,
+   "image": "/img/news/b297d87623.webp",
    "t": "2026-11-13",
-   "summary": "Microsoft confirmed that this month’s Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes.",
-   "why": "Check activation and licensing status after installing the updates.",
+   "summary": "Vulnerable Check Point Security Gateway instances were targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts.",
+   "why": "Review gateway exposure and investigate for attacks involving VMware ESXi hosts.",
    "tags": [
-    "Windows",
-    "security updates",
-    "licensing"
+    "PHP2Shell",
+    "data-wiping malware"
    ],
    "ai": true
   },
   {
-   "id": "e0616954ef",
-   "section": "warfare",
-   "source": "Breaking Defense",
+   "id": "f6d06bee47",
+   "section": "cyber",
+   "source": "The Record",
    "weight": 0.6,
-   "title": "Gadi Eisenkot could be Israel’s next leader. His military experience will drive his approach.",
-   "url": "https://breakingdefense.com/2026/11/gadi-eisenkot-could-be-israels-next-leader-his-military-experience-will-drive-his-approach/",
-   "snippet": "Eisenkot has been tasked with forming a new government, but it won’t be easy.",
-   "published": "2026-11-13T15:30:00.000Z",
+   "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+   "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+   "snippet": "In the biggest overhaul of the country’s spy laws of the postwar era, the Bundestag approved the bill by 308 votes to 190 — with 71 abstentions — months after Chancellor Friedrich Merz’s cabinet signed off on the draft.",
+   "published": "2026-11-13T16:32:00.000Z",
    "also": [],
-   "score": 1.6,
-   "image": "/img/news/e0616954ef.webp",
+   "score": 1.49,
+   "image": "/img/news/f6d06bee47.webp",
    "t": "2026-11-13",
-   "summary": "Eisenkot has been tasked with forming a new government, and the article says his military experience will drive his approach.",
-   "why": "His military experience is relevant to understanding his prospective approach to government.",
+   "summary": "Germany's Bundestag approved a bill giving spy agencies hacking and sabotage powers.",
+   "why": "Track how the approved powers may affect intelligence and cybersecurity policy.",
    "tags": [
-    "Eisenkot",
-    "military experience",
-    "government"
+    "spy agencies",
+    "hacking"
    ],
    "ai": true
   },
   {
-   "id": "f9e4840206",
+   "id": "40e2fb538f",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "UK to buy three new mine-hunting drone motherships under Norway agreement",
-   "url": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement/",
-   "snippet": "The decision, for which £90 million ($119.1 million) has been allocated, was formalized on Thursday by British Defense Secretary Wes Streeting and his Norwegian counterpart, Tore O. Sandvik, at the Atlantic Future Forum in Oslo.",
-   "published": "2026-11-13T14:16:31.000Z",
+   "title": "Senate appropriators resuscitate Commerce space tracking program",
+   "url": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
+   "snippet": "The Commerce Department effort was launched nearly a decade ago due to Defense Department concerns about the increasing drain on its space monitoring resources as commercial space traffic continues to skyrocket.",
+   "published": "2026-11-13T21:29:36.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/40e2fb538f.webp",
+   "t": "2026-11-13",
+   "summary": "Commerce Department space tracking was launched nearly a decade ago amid Defense Department concerns about demands on its space monitoring resources as commercial traffic grows.",
+   "why": "The effort is relevant to monitoring growing commercial space traffic and resource demands.",
+   "tags": [
+    "space tracking",
+    "commercial space"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f344fa03a9",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force",
+   "url": "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force",
+   "snippet": "The scare comes after some USAF aircraft were evacuated from England and the threat level at bases has been raised. The post Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force appeared first on TWZ .",
+   "published": "2026-11-13T20:45:42.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/f344fa03a9.webp",
+   "t": "2026-11-13",
+   "summary": "The U.S. Air Force said suspected drones over RAF Lakenheath triggered a security response; aircraft were evacuated and the base threat level raised.",
+   "why": "The response highlights the operational security impact of suspected drones near air bases.",
+   "tags": [
+    "drones",
+    "RAF Lakenheath"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a17acd130d",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says",
+   "url": "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says/",
+   "snippet": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for submarines, said that the Navy faced roughly 780 days of maintenance delay for subs in FY26.",
+   "published": "2026-11-13T20:23:10.000Z",
    "also": [],
    "score": 1.57,
-   "image": "/img/news/f9e4840206.webp",
+   "image": "/img/news/a17acd130d.webp",
    "t": "2026-11-13",
-   "summary": "The UK will buy three mine-hunting drone motherships under an agreement with Norway; £90 million ($119.1 million) has been allocated.",
-   "why": "The agreement highlights a role for motherships in deploying mine-hunting drones.",
+   "summary": "Vice Adm. Rob Gaucher said the Navy faced roughly 780 days of submarine maintenance delay in FY26, while delays saw significant improvement.",
+   "why": "Maintenance delays shape submarine availability and fleet readiness.",
    "tags": [
-    "mine-hunting",
-    "drone motherships",
-    "Norway"
+    "submarines",
+    "maintenance"
    ],
    "ai": true
   },
   {
-   "id": "05ce095571",
+   "id": "eff7e33045",
    "section": "warfare",
-   "source": "Defense One",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret",
+   "url": "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret",
+   "snippet": "The Italian-developed LIVET counter-drone system combines Benelli shotguns, airburst ammo, AI-assisted target tracking, and remote operation. The post Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret appeared first on TWZ .",
+   "published": "2026-11-13T19:28:20.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/eff7e33045.webp",
+   "t": "2026-11-13",
+   "summary": "Beretta's LIVET counter-drone system combines shotguns, airburst ammunition, AI-assisted target tracking, and remote operation.",
+   "why": "The system illustrates a remotely operated, AI-assisted approach to countering drones.",
+   "tags": [
+    "counter-drone",
+    "target tracking"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f69069f1fa",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home",
+   "url": "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home",
+   "snippet": "USS Spruance and USS Michael Murphy remained in the Middle East after the USS Abraham Lincoln left, resulting in historic deployments. The post Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home appeared first on TWZ .",
+   "published": "2026-11-13T18:03:06.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/f69069f1fa.webp",
+   "t": "2026-11-13",
+   "summary": "USS Spruance and USS Michael Murphy remained in the Middle East after USS Abraham Lincoln left, resulting in historic deployments.",
+   "why": "The extended deployments are relevant to understanding naval presence and operational commitments.",
+   "tags": [
+    "Middle East",
+    "deployments"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f7a50123c7",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "B-21 Raider Has Released Its First Weapon",
+   "url": "https://www.twz.com/air/b-21-raider-has-released-its-first-weapon",
+   "snippet": "Beginning weapons testing is the latest milestone for the B-21, but its schedule is tight with the Air Force still aiming to declare the Raider operational next year. The post B-21 Raider Has Released Its First Weapon appeared first on TWZ .",
+   "published": "2026-11-13T17:11:10.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/f7a50123c7.webp",
+   "t": "2026-11-13",
+   "summary": "The B-21 Raider has released its first weapon; the Air Force is still aiming to declare it operational next year.",
+   "why": "The milestone marks progress in weapons testing as the operational schedule remains tight.",
+   "tags": [
+    "B-21 Raider",
+    "weapons testing"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cddcf83277",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Pentagon rebrands principle AI shop as ‘Super Intelligence Office’",
+   "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
+   "snippet": "The redesignation follows President Donald Trump’s push to replace references to artificial intelligence with “super intelligence” across the federal government.",
+   "published": "2026-11-13T17:00:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/cddcf83277.webp",
+   "t": "2026-11-13",
+   "summary": "The Pentagon renamed its principle AI shop the Super Intelligence Office, following a push to replace references to artificial intelligence across the federal government.",
+   "why": "The change reflects a shift in how the Pentagon labels its AI organization.",
+   "tags": [
+    "AI",
+    "Pentagon"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2e362e2886",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Hermeus recruits Northrop Grumman to Quarterhorse drone program",
+   "url": "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program/",
+   "snippet": "The defense giant will supply mission systems for Hermeus’ Quarterhorse unmanned aircraft, adding a new partner among a team of industry heavyweights.",
+   "published": "2026-11-13T16:05:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/2e362e2886.webp",
+   "t": "2026-11-13",
+   "summary": "Northrop Grumman will supply mission systems for Hermeus' Quarterhorse unmanned aircraft.",
+   "why": "The partnership adds a supplier of mission systems to the unmanned aircraft program.",
+   "tags": [
+    "mission systems",
+    "unmanned aircraft"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dec7ba97d0",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "The Journalists Who Left Russia—But Can’t Escape It",
+   "url": "https://foreignpolicy.com/2026/11/13/russia-my-undesirable-friends-film-movie-review-war-ukraine-journalism/",
+   "snippet": "An intimate documentary follows a group of exiles determined to tell their country the truth.",
+   "published": "2026-11-13T19:56:57.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/dec7ba97d0.webp",
+   "t": "2026-11-13",
+   "summary": "A documentary follows exiled journalists determined to tell their country the truth.",
+   "why": "The story focuses on journalism and exile connected to Russia.",
+   "tags": [
+    "journalists",
+    "Russia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "00f1c9dde1",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "How Lebanon Became the Middle East’s Battleground",
+   "url": "https://foreignpolicy.com/2026/11/13/lebanon-middle-east-hezbollah-history-us-israel-military-war/",
+   "snippet": "A new book explores how the 1982 Israeli invasion set the stage for conflicts still unfolding today.",
+   "published": "2026-11-13T19:38:34.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/00f1c9dde1.webp",
+   "t": "2026-11-13",
+   "summary": "A new book explores how the 1982 Israeli invasion set the stage for conflicts still unfolding in Lebanon.",
+   "why": "The story links a past invasion to continuing conflict in Lebanon.",
+   "tags": [
+    "Lebanon",
+    "1982 Israeli invasion"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2dd0a41087",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Nvidia, Spies, and the Art of Economic Espionage",
+   "url": "https://foreignpolicy.com/2026/11/13/nvidia-spy-chips-artificial-intelligence-huang-china/",
+   "snippet": "Why the tech elite seems to be particularly susceptible.",
+   "published": "2026-11-13T19:35:54.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/2dd0a41087.webp",
+   "t": "2026-11-13",
+   "summary": "Foreign Policy asks why the tech elite seems particularly susceptible to economic espionage.",
+   "why": "The story highlights economic espionage as a concern involving the technology sector.",
+   "tags": [
+    "economic espionage",
+    "tech"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ea2b835d17",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+   "published": "2026-11-13T16:40:31.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/ea2b835d17.webp",
+   "t": "2026-11-13",
+   "summary": "BBC Russia Editor Steve Rosenberg says Moscow views the inclusion of European security in discussions as a victory.",
+   "why": "The framing shows how European security features in discussions over Ukraine.",
+   "tags": [
+    "European security",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "00376a232e",
+   "section": "geo",
+   "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
-   "url": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
-   "snippet": "<![CDATA[<p>Build more, faster&mdash;and then integrate it all together. That was the gist of my conversation with&nbsp; Oleg Rogynskyy, CEO of Ukraine-founded drone company <a href=\"https://www.uforce.com/company\">UFORCE</a>, that&rsquo;s now valued at more than $6 billion after <a href=\"https://www.prnewswire.com/new",
-   "published": "2026-11-13T11:00:00.000Z",
+   "title": "Qatar and Turkiye send message of deterrence with new defence pact",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+   "snippet": "Qatar and Turkiye have signed a mutual defence pact, deepening their partnership amid growing regional instability.",
+   "published": "2026-11-13T20:48:02.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/05ce095571.webp",
+   "score": 1.48,
+   "image": "/img/news/00376a232e.webp",
    "t": "2026-11-13",
-   "summary": "A Defense One interview describes the need to build more drones faster and integrate them; the Ukraine-founded drone maker UFORCE is valued at more than $6 billion.",
-   "why": "The article points to production scale and integration as operational considerations for drone makers.",
+   "summary": "Qatar and Turkiye signed a mutual defence pact, deepening their partnership amid regional instability.",
+   "why": "The pact strengthens a defence partnership with relevance to regional security.",
    "tags": [
-    "drones",
-    "integration",
-    "UFORCE"
+    "mutual defence pact",
+    "Qatar"
    ],
    "ai": true
   },
   {
-   "id": "3df1303c77",
-   "section": "warfare",
-   "source": "The War Zone",
+   "id": "930cd77218",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "The Air Force’s Newest Trainer Is An Aerial Stunt Plane",
-   "url": "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane",
-   "snippet": "Dubbed the T-19A Kestrel, the aircraft will give cadets a chance to experience acrobatic flying while also serving as a pilot recruiting tool. The post The Air Force’s Newest Trainer Is An Aerial Stunt Plane appeared first on TWZ .",
-   "published": "2026-11-13T00:25:18.000Z",
+   "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+   "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
+   "published": "2026-11-13T15:42:52.000Z",
    "also": [],
-   "score": 1.28,
-   "image": "/img/news/3df1303c77.webp",
+   "score": 1.47,
+   "image": "/img/news/930cd77218.webp",
    "t": "2026-11-13",
-   "summary": "The Air Force’s T-19A Kestrel trainer is intended to give cadets acrobatic flying experience and serve as a pilot recruiting tool.",
-   "why": "The aircraft combines flight training with a recruiting role.",
+   "summary": "German reforms give foreign and domestic intelligence services greater powers to combat espionage, terrorism, and sabotage.",
+   "why": "The expanded intelligence powers are relevant to Germany's response to threats from abroad.",
    "tags": [
-    "T-19A Kestrel",
-    "trainer",
-    "recruiting"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cf9c9cc0e1",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "High-Speed Aircraft Startup Hermeus Joins Forces With Northrop Grumman",
-   "url": "https://www.twz.com/air/high-speed-aircraft-startup-hermeus-joins-forces-with-northrop-grumman",
-   "snippet": "The partners say they are charting a new course to bring operational very-high-speed drones to the U.S. military. The post High-Speed Aircraft Startup Hermeus Joins Forces With Northrop Grumman appeared first on TWZ .",
-   "published": "2026-11-12T23:45:42.000Z",
-   "also": [],
-   "score": 1.27,
-   "image": "/img/news/cf9c9cc0e1.webp",
-   "t": "2026-11-13",
-   "summary": "Hermeus and Northrop Grumman say they are charting a course to bring operational very-high-speed drones to the U.S. military.",
-   "why": "The partnership concerns developing very-high-speed drones for military use.",
-   "tags": [
-    "drones",
-    "high-speed",
-    "partnership"
-   ],
-   "ai": true
-  },
-  {
-   "id": "067c52a2e8",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Delivering first Columbia-class sub in 2028 is ‘absolutely achievable’, sub czar says",
-   "url": "https://breakingdefense.com/2026/11/delivering-first-columbia-class-sub-in-2028-is-absolutely-achievable-sub-czar-says/",
-   "snippet": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for Submarines, said that delivering the first Columbia-class submarine in 2028 is still a ‘heavy lift.’",
-   "published": "2026-11-12T21:12:00.000Z",
-   "also": [],
-   "score": 1.22,
-   "image": "/img/news/067c52a2e8.webp",
-   "t": "2026-11-13",
-   "summary": "Vice Adm. Rob Gaucher said delivering the first Columbia-class submarine in 2028 remains achievable but is a “heavy lift.”",
-   "why": "The remarks point to delivery timing as a significant program challenge.",
-   "tags": [
-    "Columbia-class",
-    "submarine",
-    "delivery"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2c622b033d",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin",
-   "url": "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin",
-   "snippet": "SpaceX denies the Starshield system has been altered, but it is the second time in a month Ukraine has said this key satellite service has been degraded. The post Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin appeared first on TWZ .",
-   "published": "2026-11-12T21:00:40.000Z",
-   "also": [],
-   "score": 1.21,
-   "image": "/img/news/2c622b033d.webp",
-   "t": "2026-11-13",
-   "summary": "Ukraine says Starshield service has been degraded again; SpaceX denies the system was altered. The report says this is Ukraine’s second such claim in a month.",
-   "why": "The dispute highlights the operational importance of satellite communications and uncertainty about service availability.",
-   "tags": [
-    "Starshield",
-    "Ukraine",
-    "satellite"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1a850d4359",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "SDA explores integration of SpaceX laser communication terminals with missile tracking sats",
-   "url": "https://breakingdefense.com/2026/11/sda-explores-integration-of-spacex-laser-communication-terminals-with-missile-tracking-sats/",
-   "snippet": "An SDA spokesperson told Breaking Defense that the new study is a first step, and thus there are a number of potential hardware and software integration pathways for consideration.",
-   "published": "2026-11-12T20:23:00.000Z",
-   "also": [],
-   "score": 1.2,
-   "image": "/img/news/1a850d4359.webp",
-   "t": "2026-11-13",
-   "summary": "The SDA is studying possible hardware and software pathways for integrating SpaceX laser communication terminals with missile-tracking satellites.",
-   "why": "The study concerns potential links between laser communications and satellite missile tracking.",
-   "tags": [
-    "laser communication",
-    "satellites",
-    "integration"
+    "German spies",
+    "hybrid threats"
    ],
    "ai": true
   },
@@ -410,7 +517,7 @@
    "snippet": "It should start by expanding defense industrial cooperation and checking Trump’s attempts at coercion.",
    "published": "2026-11-13T14:32:37.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.45,
    "image": "/img/news/c834fdc599.webp",
    "t": "2026-11-13",
    "summary": "Foreign Policy argues Congress should defend U.S. alliances by expanding defense industrial cooperation and checking Trump’s attempts at coercion.",
@@ -423,159 +530,52 @@
    "ai": true
   },
   {
-   "id": "f19dbecf41",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration",
-   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-4/",
-   "snippet": "Read the full article here The post Lichfield and de Kruijf cited in a CNN on the dynamic between Russia and the Trump administration appeared first on Atlantic Council .",
-   "published": "2026-11-13T14:05:23.000Z",
-   "also": [],
-   "score": 1.57,
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says Lichfield and de Kruijf were cited in a CNN article about the dynamic between Russia and the Trump administration.",
-   "why": "The item flags Russia–U.S. relations as a subject of analysis, but gives no further detail.",
-   "tags": [
-    "Russia",
-    "Trump administration",
-    "CNN"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1a9d905c0b",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia",
-   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-3/",
-   "snippet": "Read the full article here The post Lichfield quoted in a Reuters on the midterm impact on the US support for Ukraine and policy towards Russia appeared first on Atlantic Council .",
-   "published": "2026-11-13T14:02:08.000Z",
-   "also": [],
-   "score": 1.57,
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says Lichfield was quoted in a Reuters article on midterm impacts on U.S. support for Ukraine and policy toward Russia.",
-   "why": "The item highlights how midterms may relate to U.S. policy on Ukraine and Russia.",
-   "tags": [
-    "Ukraine",
-    "Russia",
-    "midterms"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d1baf8b4a8",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-   "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
-   "published": "2026-11-13T12:28:28.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/d1baf8b4a8.webp",
-   "t": "2026-11-13",
-   "summary": "The UN watchdog says it has never been able to visit a uranium enrichment plant at Isfahan that Iran announced over a year ago.",
-   "why": "The lack of access is relevant to monitoring Iran’s nuclear activities.",
-   "tags": [
-    "UN watchdog",
-    "Isfahan",
-    "uranium enrichment"
-   ],
-   "ai": true
-  },
-  {
-   "id": "92071404f3",
+   "id": "54e2f457fa",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
-   "url": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
-   "snippet": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
-   "published": "2026-11-13T15:02:16.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/92071404f3.webp",
-   "t": "2026-11-13",
-   "summary": "The article asks whether Democrats will seek to change a Pentagon funding provision integrating U.S. and Israeli military industries after midterm gains.",
-   "why": "The funding provision could affect U.S.–Israeli defense industrial integration.",
-   "tags": [
-    "Pentagon funding",
-    "U.S.-Israel",
-    "military industries"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d751c02347",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Can Netanyahu launch a strike on Iran before he leaves?",
-   "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
-   "snippet": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
-   "published": "2026-11-13T14:16:20.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/d751c02347.webp",
-   "t": "2026-11-13",
-   "summary": "The article says Netanyahu’s caretaker government can legally go to war, though doing so would likely inflame domestic divisions.",
-   "why": "The legal authority and potential domestic division are relevant to assessing the political context of military action.",
-   "tags": [
-    "Netanyahu",
-    "caretaker government",
-    "Iran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "352492b56a",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
-   "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss",
-   "snippet": "Meanwhile, Russia appears to suggest it has control of half of unoccupied Donbas.",
-   "published": "2026-11-13T14:15:52.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/352492b56a.webp",
-   "t": "2026-11-13",
-   "summary": "Ukraine claims a record 3,000 Russian casualties in one day; Russia appears to suggest it controls half of unoccupied Donbas.",
-   "why": "The competing claims underline the need to distinguish reported battlefield claims from verified territorial control.",
-   "tags": [
-    "Ukraine",
-    "Russia",
-    "Donbas"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cff8f7ebc8",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/uk-accused-of-silencing-pro-palestine-voices-through-entry-bans?traffic_source=rss",
-   "snippet": "A Palestinian American activist has been refused entry to the UK to attend his charity’s annual Gaza fundraiser.",
-   "published": "2026-11-13T13:19:26.000Z",
+   "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+   "snippet": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
+   "published": "2026-11-13T19:23:05.000Z",
    "also": [],
    "score": 1.45,
-   "image": "/img/news/cff8f7ebc8.webp",
+   "image": "/img/news/54e2f457fa.webp",
    "t": "2026-11-13",
-   "summary": "A Palestinian American activist was refused entry to the UK to attend his charity’s annual Gaza fundraiser; the UK is accused of silencing pro-Palestine voices.",
-   "why": "The case raises questions about entry restrictions and political expression.",
+   "summary": "The IRGC says a liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines.",
+   "why": "The reported incident highlights the strategic importance of maritime security in the Strait of Hormuz.",
    "tags": [
-    "UK",
-    "entry bans",
-    "Gaza"
+    "Strait of Hormuz",
+    "naval mines"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+  },
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+  },
   {
    "cve": "CVE-2026-124194",
    "vendor": "Microsoft",
@@ -695,74 +695,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 9.8,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
-  },
-  {
-   "cve": "CVE-2026-19868",
-   "vendor": "SonicWall",
-   "product": "SonicOS SSLVPN",
-   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-   "added": "2026-11-06",
-   "due": "2026-11-20",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 7.5,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
-  },
-  {
-   "cve": "CVE-2024-27834",
-   "vendor": "Apple",
-   "product": "Multiple Products",
-   "name": "Apple Multiple Products Improper Authentication Vulnerability",
-   "added": "2026-11-04",
-   "due": "2026-11-18",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 5.5,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
   }
  ],
  "run_today": [
-  "Require independent confirmation of vendor bank-detail changes initiated through AI-driven invoice processing.",
-  "Review employee data stored by cloud providers and include provider records in breach investigations.",
-  "Check whether vulnerable Check Point devices have the emergency hotfixes and whether persistence is present."
+  "Check whether your exposed products include vulnerabilities added to CISA's catalog, and prioritize remediation.",
+  "Review detection and response for chained attack techniques and rapid privilege escalation.",
+  "Verify gateway exposure and investigate VMware ESXi hosts for signs of data-wiping malware."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "AI agent",
-   "explainer": "An AI agent is software designed to carry out tasks with some degree of automation. Here, an agent processes invoices, and a malicious email could manipulate it into changing vendor bank details.",
-   "from_id": "db3fd3a5ad",
-   "from": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities Catalog",
+   "explainer": "A CISA catalog of known exploited vulnerabilities. Its entries can help defenders identify vulnerabilities that warrant attention in their environments.",
+   "from_id": "1671c4ae2d",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "mine-hunting drone mothership",
-   "explainer": "A mine-hunting drone mothership is a vessel intended to serve as a platform for mine-hunting drones. The UK plans to buy three under an agreement with Norway.",
-   "from_id": "f9e4840206",
-   "from": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement/",
+   "term": "space tracking",
+   "explainer": "Monitoring activity in space. The Commerce Department effort is described as supporting space monitoring as commercial space traffic grows.",
+   "from_id": "40e2fb538f",
+   "from": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
    "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "defense industrial cooperation",
-   "explainer": "Defense industrial cooperation means countries working together in defense-related industry. The article argues that expanding it could help defend U.S. alliances.",
-   "from_id": "c834fdc599",
-   "from": "https://foreignpolicy.com/2026/11/13/congress-alliances-nato-europe-china-defense-tariffs/",
-   "fromSource": "Foreign Policy"
+   "term": "mutual defence pact",
+   "explainer": "An agreement between parties to support one another in defence. Qatar and Turkiye signed such a pact, deepening their partnership.",
+   "from_id": "00376a232e",
+   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Trust, access and resilience across systems and alliances",
+  "headline": "Exposure, response time, and operational awareness",
   "paragraphs": [
-   "The top stories connect questions of trust and control across different settings. An invoice-processing AI agent could be manipulated through a malicious email, while the TSMC investigation links employee information to a cloud provider without finding TSMC systems compromised. ActiveCloud’s encrypted infrastructure, meanwhile, left customers without key services for days.",
-   "For defenders, these accounts suggest that security boundaries extend beyond an organization’s own systems: automated workflows, third-party data stores and cloud services all matter. Check how sensitive changes are verified, what information providers hold, and how continuity plans work when services are inaccessible. The reports do not establish that these incidents share a cause.",
-   "The other top stories point to strategic coordination and operational capability: a proposed UK purchase of mine-hunting drone motherships under a Norway agreement, and an argument for stronger U.S. alliance cooperation. Eisenkot’s task of forming a government adds a leadership dimension. Analysts should watch how these stated plans and political positions develop, without treating proposals or arguments as outcomes."
+   "CISA's catalog update and the FBI's warning about Artex both focus attention on attacker speed and the time defenders have to respond. The FBI says some intrusions reached privileged access in under three hours. Together, these stories suggest that vulnerability management and rapid detection deserve close attention.",
+   "Other stories put security in operational settings. Suspected drones prompted a response at RAF Lakenheath, while the Commerce space tracking effort addresses pressure on Defense Department monitoring resources as commercial space traffic grows. These are different domains, but both involve observing activity and deciding when it warrants action.",
+   "The submarine maintenance story adds a readiness dimension: an official described roughly 780 days of delay in FY26, alongside significant improvement. For analysts, the reports underscore the value of separating confirmed details from open questions. Watch for further specifics on the catalog entries, the pace of attack activity, and the needs of space monitoring and operational readiness."
   ],
   "takeaways": [
-   "Treat AI workflows and cloud providers as part of the security boundary.",
-   "Plan for critical services to become inaccessible, not only for data loss.",
-   "Track alliance proposals and leadership developments separately from confirmed outcomes."
+   "Prioritize known exploited vulnerabilities and test response to fast-moving attacks.",
+   "Monitoring challenges span cyber incidents, suspected drones, and commercial space traffic.",
+   "Distinguish confirmed reporting from unanswered questions when assessing risk."
   ]
  },
  "health": [
@@ -770,7 +746,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Krebs on Security",
@@ -788,7 +764,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 23
+   "n": 20
   },
   {
    "name": "The Record",
@@ -842,19 +818,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 9
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 12
   },
   {
    "name": "Defense One",
@@ -866,13 +842,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 8
   },
   {
    "name": "Bellingcat",
@@ -914,7 +890,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "SpaceNews",
@@ -932,25 +908,25 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 8
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 7
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 11
   },
   {
    "name": "DW",
