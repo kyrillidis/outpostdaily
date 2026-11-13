@@ -1,35 +1,20 @@
 {
- "updated": "2026-11-13T01:38:08.285Z",
+ "updated": "2026-11-13T08:44:06.325Z",
  "health": [
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 10
+   "n": 1
   },
   {
    "name": "BBC World",
@@ -42,24 +27,44 @@
    "n": 0
   },
   {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -68,11 +73,6 @@
   },
   {
    "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,127 @@
   }
  ],
  "items": [
+  {
+   "id": "n3ff055feac",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "published": "2026-11-13T08:34:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc0eea23782",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+   "published": "2026-11-13T08:05:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd9f7469060",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+   "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "published": "2026-11-13T07:39:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf1ba5df7cf",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+   "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+   "published": "2026-11-13T07:20:50.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n3dbe4f88fe",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "The Gulf must build security that can outlast this war",
+   "url": "https://www.aljazeera.com/opinions/2026/11/13/the-gulf-must-build-security-that-can-outlast-this-war?traffic_source=rss",
+   "published": "2026-11-13T07:08:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9e0cc84d06",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "published": "2026-11-13T05:43:28.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9b4e43af3f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+   "url": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
+   "published": "2026-11-13T04:51:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nec73f91601",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+   "url": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+   "published": "2026-11-13T04:48:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n89ded08b17",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+   "published": "2026-11-13T04:46:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n37d46f642e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-13T03:57:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n523ffc3299",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+   "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-13T02:48:29.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n21ce3fe249",
    "kind": "news",
@@ -2792,17 +2913,6 @@
    "verified": true
   },
   {
-   "id": "n7921f55723",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Stocks fall as the 10-year Treasury yield reclaims 5%",
-   "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-   "published": "2026-11-10T17:34:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "naf3e566756",
    "kind": "news",
    "group": "darkweb",
@@ -3218,116 +3328,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
    "published": "2026-11-10T08:51:25.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n29de32f274",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "What powers does Netanyahu have as Israel’s interim PM?",
-   "url": "https://www.aljazeera.com/news/2026/11/10/what-powers-does-netanyahu-have-as-israels-interim-pm?traffic_source=rss",
-   "published": "2026-11-10T08:38:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3085af022d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US moves aircraft from second UK base over ‘threat from Iran’",
-   "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
-   "published": "2026-11-10T08:08:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7d2482c885",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Fireworks AI discloses new breach after cloud provider hack",
-   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-   "published": "2026-11-10T07:49:58.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nf91bbf3404",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Palestine Weekly: West Bank on fire – and Gaza’s tents under water",
-   "url": "https://www.aljazeera.com/news/2026/11/10/palestine-weekly-west-bank-on-fire-and-gazas-tents-under?traffic_source=rss",
-   "published": "2026-11-10T06:37:13.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2cbe70caa8",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Iris Ohyama data breach may expose personal information of 7.7 million people",
-   "url": "https://securityaffairs.com/202740/data-breach/iris-ohyama-data-breach-may-expose-personal-information-of-7-7-million-people.html",
-   "published": "2026-11-10T06:28:06.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n005d7d1308",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-   "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-10T05:22:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na04fd7adeb",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
-   "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss",
-   "published": "2026-11-10T02:45:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n68b9aafc5a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s Shin Bet finds no evidence of foreign election interference",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/israels-shin-bet-finds-no-evidence-of-foreign-election-interference?traffic_source=rss",
-   "published": "2026-11-10T01:59:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb8309b7ae7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Poll finds Americans less likely to back pro-war candidates by 3-1 margin",
-   "url": "https://www.aljazeera.com/news/2026/11/10/poll-finds-voters-preferred-candidates-who-opposed-iran-war-by-3-1-margin?traffic_source=rss",
-   "published": "2026-11-10T01:56:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd75bfe326c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-10T01:44:53.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
