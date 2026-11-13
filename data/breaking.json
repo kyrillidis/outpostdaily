@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:45:01.045Z",
+ "updated": "2026-11-13T22:13:12.233Z",
  "health": [
   {
    "name": "BleepingComputer",
@@ -7,7 +7,12 @@
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -22,24 +27,14 @@
    "n": 1
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 6
+   "n": 10
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 7
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
+   "n": 4
   },
   {
    "name": "The DFIR Report",
@@ -47,19 +42,24 @@
    "n": 0
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Dark Reading",
+   "name": "The Hacker News",
    "ok": true,
    "n": 1
   },
   {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 5
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Hackread",
@@ -72,19 +72,19 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "SOCRadar blog",
    "ok": true,
-   "n": 5
+   "n": 0
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,248 @@
   }
  ],
  "items": [
+  {
+   "id": "n0cc207e01d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+   "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+   "published": "2026-11-13T22:10:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1fb504df86",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+   "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+   "published": "2026-11-13T22:04:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n11d7cc1619",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+   "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+   "published": "2026-11-13T21:33:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf0f23fdb08",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+   "published": "2026-11-13T21:32:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n22e25ab090",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
+   "url": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
+   "published": "2026-11-13T21:26:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf5a4242735",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "North Korea ‘s Crypto Theft Operations: DOJ Seizes $1.2 Billion and Disrupts Hacker Infrastructure",
+   "url": "https://securityaffairs.com/203012/cyber-crime/north-korea-crypto-theft-operations-doj-seizes-1-2-billion-and-disrupts-hacker-infrastructure.html",
+   "published": "2026-11-13T21:19:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naf22ab90f6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+   "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+   "published": "2026-11-13T21:10:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5a17e111c7",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The trillion-dollar mistake corporate America is making about retirement",
+   "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+   "published": "2026-11-13T21:09:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb2acc15232",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
+   "url": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
+   "published": "2026-11-13T20:58:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb368eb0c87",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Jensen Huang was a ‘China salesman’ for Nvidia. His exit is weighing on Chinese tech stocks.",
+   "url": "https://www.marketwatch.com/story/jensen-huang-was-a-china-salesman-for-nvidia-his-exit-is-weighing-on-chinese-tech-stocks-e46351e4?mod=mw_rss_topstories",
+   "published": "2026-11-13T20:19:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2a290d2648",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
+   "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+   "published": "2026-11-13T20:02:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n810ecd44c3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+   "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+   "published": "2026-11-13T19:43:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nee27420161",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "published": "2026-11-13T19:38:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n40d9765070",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least 10 killed in Guinea clashes over gold mining ban",
+   "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
+   "published": "2026-11-13T18:44:45.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncf42b36aeb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+   "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+   "published": "2026-11-13T18:35:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncbe9c64b77",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
+   "published": "2026-11-13T18:28:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n882b360e73",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+   "published": "2026-11-13T18:09:05.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n2d49a6ce39",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+   "url": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
+   "published": "2026-11-13T18:04:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf6f4a6d64a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "German military drone operations disrupted by cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "published": "2026-11-13T17:31:56.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4c8fe02bd0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "University of Texas at Arlington warns personal information stolen during cyberattack",
+   "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+   "published": "2026-11-13T17:26:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ne05f7a78ce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "published": "2026-11-13T16:53:08.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nea2b835d17",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-13T16:40:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nf6d06bee47",
    "kind": "news",
@@ -2308,17 +2550,6 @@
    "verified": true
   },
   {
-   "id": "n328e7c7a70",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "From living in his car to a 756 credit score: How one veteran rebuilt his finances",
-   "url": "https://www.marketwatch.com/story/from-living-in-his-car-to-a-756-credit-score-how-one-veteran-rebuilt-his-finances-026c3336?mod=mw_rss_topstories",
-   "published": "2026-11-11T15:08:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nd1431677a2",
    "kind": "news",
    "group": "crisis",
@@ -2547,28 +2778,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
    "published": "2026-11-11T10:12:08.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n9f2d02b2f5",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Tiger Woods has another private, 18-hole golf destination in the works — this one for Long Island’s Gold Coast",
-   "url": "https://www.marketwatch.com/story/tiger-woods-has-another-private-18-hole-golf-destination-in-the-works-this-one-for-long-islands-gold-coast-7e8e669c?mod=mw_rss_topstories",
-   "published": "2026-11-11T10:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6c5dc96205",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Among full-size SUVs, the 2027 Ford Expedition is worth a look for its spacious seating and mighty engine",
-   "url": "https://www.marketwatch.com/story/among-full-size-suvs-the-2027-ford-expedition-is-worth-a-look-for-its-spacious-seating-and-mighty-engine-2c169852?mod=mw_rss_topstories",
-   "published": "2026-11-11T09:59:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2869,17 +3078,6 @@
    "verified": true
   },
   {
-   "id": "n22aea30bc7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
-   "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-   "published": "2026-11-11T01:12:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nfbe0abc159",
    "kind": "news",
    "group": "crisis",
@@ -2935,17 +3133,6 @@
    "verified": true
   },
   {
-   "id": "ndb42120148",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
-   "url": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
-   "published": "2026-11-10T22:56:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n48fa490968",
    "kind": "news",
    "group": "crisis",
@@ -2964,28 +3151,6 @@
    "title": "Russia expels Moldovan diplomat in tit-for-tat move",
    "url": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
    "published": "2026-11-10T22:41:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd428529873",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
-   "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
-   "published": "2026-11-10T22:37:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd3765f463a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
-   "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
-   "published": "2026-11-10T22:30:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3009,336 +3174,6 @@
    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
    "published": "2026-11-10T22:20:19.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n9364f9baac",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Krebs on Security",
-   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-   "published": "2026-11-10T21:55:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2acbf7b0a1",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-11-10T21:31:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n15da1f8e31",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "US Army member arrested in UK over allegations of spying for Russia",
-   "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
-   "published": "2026-11-10T21:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9d200a425",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-   "published": "2026-11-10T21:01:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n612ae5f08d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
-   "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
-   "published": "2026-11-10T20:55:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n230bcad0fa",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-   "published": "2026-11-10T20:54:55.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc85990e2dc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US soldier arrested in UK on suspicion of spying for Russia",
-   "url": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
-   "published": "2026-11-10T20:41:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6922144e7a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
-   "url": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
-   "published": "2026-11-10T20:41:45.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9adf7b740e",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Russia-Linked APT Turla Turned Exchange Servers Into Their Own Control Room",
-   "url": "https://securityaffairs.com/202800/apt/russia-linked-apt-turla-turned-exchange-servers-into-their-own-control-room.html",
-   "published": "2026-11-10T20:40:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8ec6ef10a1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
-   "url": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
-   "published": "2026-11-10T20:35:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na251563879",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iraq blocks Iranian football team’s plane from landing over US sanctions",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
-   "published": "2026-11-10T20:23:03.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n290c1b8b7e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
-   "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
-   "published": "2026-11-10T20:22:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd6fe2bb7d3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "How to Assess OT Incident Response Preparedness",
-   "url": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
-   "published": "2026-11-10T20:18:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n599182ceb8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "F1 champion Lewis Hamilton visits Gaza border",
-   "url": "https://www.aljazeera.com/news/2026/11/10/f1-champion-lewis-hamilton-visits-gaza-border?traffic_source=rss",
-   "published": "2026-11-10T20:14:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4d72459b2c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US voters want Democrats focused on ending Iran war, lowering costs: Poll",
-   "url": "https://www.aljazeera.com/news/2026/11/10/most-americans-want-democrats-focused-on-ending-iran-war-lowering-costs?traffic_source=rss",
-   "published": "2026-11-10T20:07:01.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9814f02994",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-   "published": "2026-11-10T20:04:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n09de80ae0a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-   "published": "2026-11-10T19:31:11.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb86930e183",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-   "published": "2026-11-10T19:23:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n008f66d064",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-   "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-   "published": "2026-11-10T19:19:46.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb958c22720",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "published": "2026-11-10T19:19:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n50eb1dccf4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-   "published": "2026-11-10T19:07:36.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n80496ac214",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
-   "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
-   "published": "2026-11-10T18:46:22.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n33bc3cf0f9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-   "published": "2026-11-10T18:33:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9398616ade",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-   "published": "2026-11-10T18:12:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4893b7f645",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-   "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
-   "published": "2026-11-10T18:11:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3ac35ff647",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-   "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-   "published": "2026-11-10T17:43:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n34eba12618",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran backs nuclear treaty even as hardliners raise prospect of bomb",
-   "url": "https://www.aljazeera.com/news/2026/11/10/iran-backs-nuclear-treaty-even-as-hardliners-raise-prospect-of-bomb?traffic_source=rss",
-   "published": "2026-11-10T17:35:07.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "naf3e566756",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "AI-Powered Malware Analysis Uncovers Hidden Phishing Threats and Reduces SOC Workload",
-   "url": "https://hackread.com/ai-powered-malware-analysis-phishing-threats-soc-workload/",
-   "published": "2026-11-10T17:21:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n656e4de6b3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli president warns against repeat election in new Knesset session",
-   "url": "https://www.aljazeera.com/news/2026/11/10/israeli-president-warns-against-repeat-election-in-new-knesset-session?traffic_source=rss",
-   "published": "2026-11-10T17:16:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n92c9d45839",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Israel's new parliament sworn in as leaders compete to form government",
-   "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-10T17:03:16.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
