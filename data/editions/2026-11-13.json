@@ -1,36 +1,9 @@
 {
  "date": "2026-11-13",
  "edition": 242,
- "compiled": "2026-11-13T00:36:28.986Z",
+ "compiled": "2026-11-13T07:29:46.037Z",
  "model": "gpt-6-luna",
  "items": [
-  {
-   "id": "fd416d5844",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-   "snippet": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
-   "published": "2026-11-12T20:15:16.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/"
-    }
-   ],
-   "score": 1.86,
-   "image": "/img/news/fd416d5844.webp",
-   "t": "2026-11-13",
-   "summary": "Microsoft says it is investigating a widespread outage affecting Outlook, Teams, Copilot, and other Microsoft 365 services, as users report connectivity problems worldwide.",
-   "why": "Check service status and prepare alternate communications for users who cannot connect.",
-   "tags": [
-    "Microsoft 365",
-    "outage",
-    "connectivity"
-   ],
-   "ai": true
-  },
   {
    "id": "3fc70062a2",
    "section": "cyber",
@@ -41,7 +14,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
    "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "t": "2026-11-12",
    "summary": "The Siemens Desigo and Gridscale advisory snippet mentions Node.js security updates, but does not show the full advisory details.",
    "why": "Check the advisory and affected deployments before deciding whether updates apply.",
@@ -61,7 +34,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-05.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Palo Alto Networks has published </strong><a href=\"https://security.paloaltonetworks.com/cve-2026-109618\"><strong>information</strong></a><strong> on vuln",
    "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "t": "2026-11-12",
    "summary": "The Siemens RUGGEDCOM APE1808 snippet says Palo Alto Networks published information; further details are not included.",
    "why": "Review the full advisory to determine whether any deployed systems need attention.",
@@ -81,7 +54,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Palo Alto Networks has published </strong><a href=\"https://security.paloaltonetworks.com/CVE-2026-111497\"><strong>information </strong></a><strong>on a vu",
    "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "t": "2026-11-12",
    "summary": "The Siemens RUGGEDCOM APE1808 snippet says Palo Alto Networks published information; further details are not included.",
    "why": "Review the full advisory to determine whether any deployed systems need attention.",
@@ -101,7 +74,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PH",
    "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "t": "2026-11-12",
    "summary": "The Siemens Building Automation and Energy Products snippet mentions two critical, unauthenticated issues disclosed by PHP project and security researchers.",
    "why": "Check the full advisory and identify affected building and energy products.",
@@ -122,7 +95,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - ",
    "published": "2026-11-12T12:00:00.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.49,
    "t": "2026-11-12",
    "summary": "Siemens says it is assessing the impact of Node2Shell on Industrial Edge.",
    "why": "Track Siemens’ assessment and check whether Industrial Edge is deployed in your environment.",
@@ -130,6 +103,28 @@
     "Siemens",
     "Industrial Edge",
     "Node2Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9e0cc84d06",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "snippet": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we bel",
+   "published": "2026-11-13T05:43:28.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/9e0cc84d06.webp",
+   "t": "2026-11-13",
+   "summary": "The Hacker News reports that N-able is restricting some N-central features and integrations after public disclosure of the 4EverAble2Shell and Agent2Shell flaws. The title says hackers infected 21 servers, including 19 running Hotfix 2.",
+   "why": "Check N-central exposure, affected features and integrations, and whether systems have the relevant hotfix.",
+   "tags": [
+    "N-central",
+    "4EverAble2Shell",
+    "Agent2Shell"
    ],
    "ai": true
   },
@@ -143,7 +138,7 @@
    "snippet": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
    "published": "2026-11-12T22:53:10.000Z",
    "also": [],
-   "score": 1.56,
+   "score": 1.42,
    "image": "/img/news/3b8d773246.webp",
    "t": "2026-11-13",
    "summary": "BleepingComputer reports SCKit malware was deployed in ScreenConnect attacks on MSPs and is designed to spread from customer devices to technicians’ computers and additional managed networks.",
@@ -165,7 +160,7 @@
    "snippet": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
    "published": "2026-11-12T22:25:30.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.41,
    "image": "/img/news/674c4b8508.webp",
    "t": "2026-11-13",
    "summary": "BleepingComputer reports the wfx-loot campaign used compromised GitHub accounts to probe repositories, open pull requests, and push malware that steals secrets.",
@@ -187,7 +182,7 @@
    "snippet": "The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.",
    "published": "2026-11-12T21:42:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.4,
    "image": "/img/news/e52fb1952d.webp",
    "t": "2026-11-13",
    "summary": "The Record says the Department of Justice and FBI announced separate actions responding to North Korea-linked cryptocurrency theft operations, including a seizure and a tool takedown.",
@@ -200,24 +195,46 @@
    "ai": true
   },
   {
-   "id": "1857708e01",
+   "id": "474c0fc5bb",
    "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
-   "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
-   "snippet": "Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 .",
-   "published": "2026-11-12T15:00:31.000Z",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme",
+   "url": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+   "snippet": "North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the scheme FaceStealer. It has seized more than 900 of those recordings, and on November 12 it warned cry",
+   "published": "2026-11-13T06:30:30.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/1857708e01.webp",
-   "t": "2026-11-12",
-   "summary": "Unit 42 describes attackers using the open-source Cairn AI agent framework to autonomously breach semiconductor, defense, and civic targets.",
-   "why": "Review how autonomous agents could affect monitoring and incident response in relevant environments.",
+   "score": 1.38,
+   "image": "/img/news/474c0fc5bb.webp",
+   "t": "2026-11-13",
+   "summary": "Help Net Security says North Korean state hackers used fake Zoom and Teams calls with stolen webcam clips in a cryptocurrency theft scheme. The FBI calls it FaceStealer.",
+   "why": "Verify meeting invitations and participants; treat unexpected video-call requests and cryptocurrency instructions cautiously.",
    "tags": [
-    "Cairn AI",
-    "autonomous",
-    "targets"
+    "FaceStealer",
+    "fake Zoom",
+    "webcam"
+   ],
+   "ai": true
+  },
+  {
+   "id": "777bbdab5e",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+   "url": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+   "snippet": "The Taiwan Marine Tech & Unmanned Robotics Expo (MATURE Taiwan), held from November 3 to 5, 2026, in Tainan, southern Taiwan’s second-largest city and the island’s former capital, showcased a range of emerging marine technologies and unmanned robotic systems for both civilian and military applications, including naval ",
+   "published": "2026-11-13T06:29:00.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/777bbdab5e.webp",
+   "t": "2026-11-13",
+   "summary": "Naval News says Taiwan’s Marine Tech & Unmanned Robotics Expo showcased marine technologies and unmanned robotic systems.",
+   "why": "Unmanned marine systems are relevant to understanding emerging naval technology.",
+   "tags": [
+    "Taiwan",
+    "marine technologies",
+    "unmanned robotic systems"
    ],
    "ai": true
   },
@@ -231,7 +248,7 @@
    "snippet": "Dubbed the T-19A Kestrel, the aircraft will give cadets a chance to experience acrobatic flying while also serving as a pilot recruiting tool. The post The Air Force’s Newest Trainer Is An Aerial Stunt Plane appeared first on TWZ .",
    "published": "2026-11-13T00:25:18.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.45,
    "image": "/img/news/3df1303c77.webp",
    "t": "2026-11-13",
    "summary": "The Air Force’s T-19A Kestrel trainer is intended to give cadets acrobatic flying experience and serve as a pilot recruiting tool.",
@@ -253,7 +270,7 @@
    "snippet": "The partners say they are charting a new course to bring operational very-high-speed drones to the U.S. military. The post High-Speed Aircraft Startup Hermeus Joins Forces With Northrop Grumman appeared first on TWZ .",
    "published": "2026-11-12T23:45:42.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.44,
    "image": "/img/news/cf9c9cc0e1.webp",
    "t": "2026-11-13",
    "summary": "Hermeus and Northrop Grumman say they are charting a course to bring operational very-high-speed drones to the U.S. military.",
@@ -262,28 +279,6 @@
     "drones",
     "high-speed",
     "partnership"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2c622b033d",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin",
-   "url": "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin",
-   "snippet": "SpaceX denies the Starshield system has been altered, but it is the second time in a month Ukraine has said this key satellite service has been degraded. The post Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin appeared first on TWZ .",
-   "published": "2026-11-12T21:00:40.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/2c622b033d.webp",
-   "t": "2026-11-13",
-   "summary": "Ukraine says Starshield service has been degraded again; SpaceX denies the system was altered. The report says this is Ukraine’s second such claim in a month.",
-   "why": "The dispute highlights the operational importance of satellite communications and uncertainty about service availability.",
-   "tags": [
-    "Starshield",
-    "Ukraine",
-    "satellite"
    ],
    "ai": true
   },
@@ -297,7 +292,7 @@
    "snippet": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for Submarines, said that delivering the first Columbia-class submarine in 2028 is still a ‘heavy lift.’",
    "published": "2026-11-12T21:12:00.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.39,
    "image": "/img/news/067c52a2e8.webp",
    "t": "2026-11-13",
    "summary": "Vice Adm. Rob Gaucher said delivering the first Columbia-class submarine in 2028 remains achievable but is a “heavy lift.”",
@@ -306,6 +301,28 @@
     "Columbia-class",
     "submarine",
     "delivery"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2c622b033d",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin",
+   "url": "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin",
+   "snippet": "SpaceX denies the Starshield system has been altered, but it is the second time in a month Ukraine has said this key satellite service has been degraded. The post Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin appeared first on TWZ .",
+   "published": "2026-11-12T21:00:40.000Z",
+   "also": [],
+   "score": 1.38,
+   "image": "/img/news/2c622b033d.webp",
+   "t": "2026-11-13",
+   "summary": "Ukraine says Starshield service has been degraded again; SpaceX denies the system was altered. The report says this is Ukraine’s second such claim in a month.",
+   "why": "The dispute highlights the operational importance of satellite communications and uncertainty about service availability.",
+   "tags": [
+    "Starshield",
+    "Ukraine",
+    "satellite"
    ],
    "ai": true
   },
@@ -319,7 +336,7 @@
    "snippet": "An SDA spokesperson told Breaking Defense that the new study is a first step, and thus there are a number of potential hardware and software integration pathways for consideration.",
    "published": "2026-11-12T20:23:00.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.37,
    "image": "/img/news/1a850d4359.webp",
    "t": "2026-11-13",
    "summary": "The SDA is studying possible hardware and software pathways for integrating SpaceX laser communication terminals with missile-tracking satellites.",
@@ -341,7 +358,7 @@
    "snippet": "The aircraft would offer a far cheaper alternative to using frontline fighters against Moscow’s expanding arsenal of one-way attack drones. The post L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability appeared first on TWZ .",
    "published": "2026-11-12T19:13:31.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.34,
    "image": "/img/news/afd428a893.webp",
    "t": "2026-11-12",
    "summary": "The War Zone says L-39NG Skyfox jets could offer Ukraine a cheaper alternative to frontline fighters for hunting one-way attack drones.",
@@ -363,7 +380,7 @@
    "snippet": "Since 2022, Chinese General Secretary Xi Jinping has purged at least 100 senior military officials, according to a February report from the Center for Strategic and International Studies, with more cases occurring since then. The rate of dismissals and disappearances has increased substantially in the last two years. R",
    "published": "2026-11-12T18:30:19.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.33,
    "image": "/img/news/e994c7d731.webp",
    "t": "2026-11-12",
    "summary": "War on the Rocks says Xi Jinping has purged at least 100 senior Chinese military officials since 2022 and discusses effects on readiness and Taiwan contingencies.",
@@ -376,60 +393,16 @@
    "ai": true
   },
   {
-   "id": "025d831685",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says",
-   "url": "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says/",
-   "snippet": "The USS Colorado will serve as the first submarine assigned to Submarine Rotational Force-West in support of AUKUS Pillar I.",
-   "published": "2026-11-12T18:12:43.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/025d831685.webp",
-   "t": "2026-11-12",
-   "summary": "An admiral says AUKUS is on track, and ahead of schedule for some parts; USS Colorado will be the first submarine assigned to Submarine Rotational Force-West.",
-   "why": "The submarine assignment is a concrete part of AUKUS Pillar I’s rotational force plan.",
-   "tags": [
-    "AUKUS",
-    "submarine",
-    "USS Colorado"
-   ],
-   "ai": true
-  },
-  {
-   "id": "21ce3fe249",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-   "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back.",
-   "published": "2026-11-13T00:20:24.000Z",
-   "also": [],
-   "score": 1.59,
-   "image": "/img/news/21ce3fe249.webp",
-   "t": "2026-11-13",
-   "summary": "The BBC reports that Ethiopia’s army controls most of Tigray’s main towns, while it remains unclear whether the TPLF can fight back.",
-   "why": "Control of towns and uncertainty about the TPLF’s capacity matter to assessing the conflict’s status.",
-   "tags": [
-    "Tigray",
-    "Ethiopia",
-    "TPLF"
-   ],
-   "ai": true
-  },
-  {
    "id": "37d46f642e",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+   "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
    "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
-   "published": "2026-11-12T23:34:05.000Z",
+   "snippet": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "published": "2026-11-13T03:57:01.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.53,
    "image": "/img/news/37d46f642e.webp",
    "t": "2026-11-13",
    "summary": "The BBC reports that U.S. lawmakers want to question Nvidia CEO Jensen Huang over whether an alleged relationship involved a Chinese spy; the headline says he has quit.",
@@ -438,6 +411,116 @@
     "Nvidia",
     "China",
     "lawmakers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "523ffc3299",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+   "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "More than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months.",
+   "published": "2026-11-13T02:48:29.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/523ffc3299.webp",
+   "t": "2026-11-13",
+   "summary": "The BBC reports that more than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months.",
+   "why": "The reported scale makes awareness of deceptive video calls relevant to defenders.",
+   "tags": [
+    "FaceStealer",
+    "victims",
+    "video calls"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fa7285c31f",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+   "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
+   "published": "2026-11-13T02:01:35.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/fa7285c31f.webp",
+   "t": "2026-11-13",
+   "summary": "The BBC says Zelensky welcomes European leaders joining Russia-Ukraine peace talks, and says Ukraine hopes to eventually join the EU.",
+   "why": "European participation and Ukraine’s EU aspirations are relevant to the political context of the talks.",
+   "tags": [
+    "peace talks",
+    "Europe",
+    "EU"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9b4e43af3f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+   "url": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
+   "snippet": "Funding cuts and Israel's war have left Palestinians in Lebanon in increasingly dire circumstances.",
+   "published": "2026-11-13T04:51:56.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/9b4e43af3f.webp",
+   "t": "2026-11-13",
+   "summary": "Al Jazeera says funding cuts and Israel’s war have left Palestinians in Lebanon in increasingly dire circumstances.",
+   "why": "The report highlights the humanitarian and regional context affecting Palestinian refugees in Lebanon.",
+   "tags": [
+    "funding cuts",
+    "Palestinians",
+    "Lebanon"
+   ],
+   "ai": true
+  },
+  {
+   "id": "688bbdd88a",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
+   "url": "https://www.bbc.co.uk/news/videos/cv5y1309dg3go?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "BBC's Bernd Debusmann breaks down why Defence Secretary Hegseth's group was reprimanded at Arlington National Cemetery and the history behind its strict rules of conduct.",
+   "published": "2026-11-12T23:42:52.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/688bbdd88a.webp",
+   "t": "2026-11-13",
+   "summary": "The BBC explains the history behind strict rules of conduct at Arlington National Cemetery and a group’s reprimand.",
+   "why": "The story concerns military commemorative practice and the conduct expected at a national cemetery.",
+   "tags": [
+    "Arlington National Cemetery",
+    "rules",
+    "Veterans Day"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ec73f91601",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+   "url": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+   "snippet": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
+   "published": "2026-11-13T04:48:40.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/ec73f91601.webp",
+   "t": "2026-11-13",
+   "summary": "Al Jazeera’s headline frames Netanyahu’s politics around Iranophobia; its text says some would rally behind a war with Iran despite believing it would be manufactured for his survival.",
+   "why": "The report presents claims about political rhetoric and public attitudes toward a possible war with Iran.",
+   "tags": [
+    "Iranophobia",
+    "Iran",
+    "politics"
    ],
    "ai": true
   },
@@ -451,7 +534,7 @@
    "snippet": "UTEC, the geo-services business line of Acteon, has deployed a hybrid acoustic-inertial positioning system that keeps offshore construction running when GNSS signals are... The post UTEC Puts Acoustic-Inertial Positioning to Work on Middle East Pipelay Amid GNSS Disruption appeared first on Inside GNSS - Global Navigat",
    "published": "2026-11-12T18:19:13.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.43,
    "t": "2026-11-12",
    "summary": "UTEC has deployed a hybrid acoustic-inertial positioning system for offshore construction that can keep work running during GNSS disruption.",
    "why": "The system offers an alternative positioning approach for offshore work when GNSS is disrupted.",
@@ -463,112 +546,24 @@
    "ai": true
   },
   {
-   "id": "5683e48d11",
+   "id": "1d5413ab52",
    "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Hegseth’s Troubles Are Far From Over",
-   "url": "https://foreignpolicy.com/2026/11/12/hegseth-impeachment-congress-democrats-trump/",
-   "snippet": "The Pentagon chief dodged impeachment, but his future remains uncertain.",
-   "published": "2026-11-12T22:46:38.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US envoys shuttle between Putin and Zelenskyy",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
+   "snippet": "US envoys Witkoff and Kushner have shuttled between Dublin and Moscow in efforts to broker a Russia-Ukraine peace deal.",
+   "published": "2026-11-13T04:12:01.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/5683e48d11.webp",
+   "score": 1.43,
+   "image": "/img/news/1d5413ab52.webp",
    "t": "2026-11-13",
-   "summary": "Foreign Policy says the Pentagon chief avoided impeachment but his future remains uncertain.",
-   "why": "Uncertainty around the Pentagon chief is relevant to monitoring U.S. defense leadership.",
+   "summary": "Al Jazeera says US envoys Witkoff and Kushner have traveled between Dublin and Moscow in efforts to broker a Russia-Ukraine peace deal.",
+   "why": "The envoys’ travel reflects diplomatic efforts across locations to broker a peace deal.",
    "tags": [
-    "Pentagon",
-    "impeachment",
-    "leadership"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1182f1c245",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Putin’s chief negotiator vows to return ‘every inch of Russian land’ in Ukraine",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/putins-chief-negotiator-vows-to-return-every-inch-of-russian-land-in-ukraine/",
-   "snippet": "The Kremlin’s uncompromising approach to negotiations with Ukraine was summed up by Russian delegation head Vladimir Medinsky's comment that “every inch of Russian land will be returned to Russia, one way or another,” writes Peter Dickinson. The post Putin’s chief negotiator vows to return ‘every inch of Russian land’ ",
-   "published": "2026-11-12T21:58:15.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/1182f1c245.webp",
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says Vladimir Medinsky vowed that Russia would return every inch of Russian land, describing the Kremlin’s approach to negotiations with Ukraine as uncompromising.",
-   "why": "The statement signals a hardline position in negotiations over Ukraine and territory.",
-   "tags": [
-    "Russia",
-    "Ukraine",
-    "negotiations"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5692910292",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Moldova cuts energy dependency on Russia with landmark new power line",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line/",
-   "snippet": "Five years after Russia tried to bring Moldova to its knees through energy pressure, a landmark new power line has removed one of Moscow’s last remaining levers over the country, writes Aura Sabadus. The post Moldova cuts energy dependency on Russia with landmark new power line appeared first on Atlantic Council .",
-   "published": "2026-11-12T21:37:17.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/5692910292.webp",
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says a new power line has reduced Moldova’s energy dependence on Russia and removed one of Moscow’s remaining levers over the country.",
-   "why": "The power line is presented as a change in Moldova’s energy ties and strategic dependence.",
-   "tags": [
-    "Moldova",
-    "power line",
-    "energy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ecd3605626",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "The digital yuan is only part of China’s expanding global payments network",
-   "url": "https://www.atlanticcouncil.org/blogs/econographics/the-digital-yuan-is-only-part-of-chinas-expanding-global-payments-network/",
-   "snippet": "Beijing is building multiple layers of financial infrastructure to engage more partners and expand the reach of its renminbi. The post The digital yuan is only part of China’s expanding global payments network appeared first on Atlantic Council .",
-   "published": "2026-11-12T21:37:11.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/ecd3605626.webp",
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says Beijing is building multiple layers of financial infrastructure to engage more partners and expand the renminbi’s reach.",
-   "why": "The infrastructure could broaden the reach of China’s financial network.",
-   "tags": [
-    "digital yuan",
-    "payments",
-    "renminbi"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2125dfc690",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing",
-   "url": "https://www.atlanticcouncil.org/content-series/fastthinking/what-jensen-huangs-nvidia-exit-means-for-washington-wall-street-and-beijing/",
-   "snippet": "Our experts unpack what the alleged Nvidia espionage incident means for national security, markets, and relations with Beijing. The post What Jensen Huang’s Nvidia exit means for Washington, Wall Street, and Beijing appeared first on Atlantic Council .",
-   "published": "2026-11-12T21:34:21.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/2125dfc690.webp",
-   "t": "2026-11-13",
-   "summary": "The Atlantic Council says experts are examining what the alleged Nvidia espionage incident means for national security, markets, and relations with Beijing.",
-   "why": "The incident is framed as relevant to security, markets, and U.S.-China relations.",
-   "tags": [
-    "Nvidia",
-    "espionage",
-    "Beijing"
+    "US envoys",
+    "Dublin",
+    "Moscow"
    ],
    "ai": true
   }
@@ -720,47 +715,47 @@
   }
  ],
  "run_today": [
-  "Check Microsoft service status and make alternate communications available during connectivity disruptions.",
-  "For MSP environments, review ScreenConnect activity and investigate unexpected connections between customer and technician devices.",
-  "Audit GitHub account activity, pull requests, and repositories for unexpected changes or secrets-stealing malware."
+  "Review N-central exposure and affected features or integrations following the flaw disclosures.",
+  "Check that N-central systems have the relevant hotfix and assess any exposed servers.",
+  "Remind staff to verify unexpected Zoom or Teams invitations and meeting participants."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "compromised accounts",
-   "explainer": "Compromised accounts are accounts accessed or controlled by someone unauthorized. In the GitHub report, compromised accounts were used to probe repositories and push secrets-stealing malware.",
-   "from_id": "674c4b8508",
-   "from": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "fromSource": "BleepingComputer"
+   "term": "FaceStealer",
+   "explainer": "FaceStealer is the name the FBI gives to the scheme described in the reports, which uses fake video calls and stolen webcam footage.",
+   "from_id": "474c0fc5bb",
+   "from": "https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/",
+   "fromSource": "Help Net Security"
   },
   {
    "domain": "warfare",
-   "term": "very-high-speed drones",
-   "explainer": "Very-high-speed drones are uncrewed aircraft described by their high speed. Hermeus and Northrop Grumman say they are working toward bringing operational examples to the U.S. military.",
-   "from_id": "cf9c9cc0e1",
-   "from": "https://www.twz.com/air/high-speed-aircraft-startup-hermeus-joins-forces-with-northrop-grumman",
-   "fromSource": "The War Zone"
+   "term": "unmanned robotic systems",
+   "explainer": "Unmanned robotic systems are machines that can operate without a person aboard or directly controlling them. The item says such systems were showcased at a marine technology expo.",
+   "from_id": "777bbdab5e",
+   "from": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "energy dependency",
-   "explainer": "Energy dependency is reliance on another country for energy. The report says a new power line has reduced Moldova’s dependence on Russia.",
-   "from_id": "5692910292",
-   "from": "https://www.atlanticcouncil.org/blogs/ukrainealert/moldova-cuts-energy-dependency-on-russia-with-landmark-new-power-line/",
-   "fromSource": "Atlantic Council"
+   "term": "peace talks",
+   "explainer": "Peace talks are discussions intended to help reach a peace deal. The item describes US envoys traveling between Dublin and Moscow in efforts to broker one.",
+   "from_id": "1d5413ab52",
+   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Service Disruptions and Security Exposure Across Connected Systems",
+  "headline": "Trust, Technology and Political Context",
   "paragraphs": [
-   "The Microsoft 365 outage and the Siemens security advisories in today’s top stories put service availability and system risk in focus. Microsoft says it is investigating connectivity problems across several services. The Siemens snippets point to security advisories, but provide too little detail to characterize the issues.",
-   "For defenders, the stories suggest checking both operational status and the security information available for systems in use. The outage may affect access to familiar work tools; the Siemens items call for attention to the underlying advisory details before deciding what action is appropriate. The supplied excerpts do not establish a connection between these events.",
-   "Analysts should watch for updates from Microsoft and further detail in the Siemens advisories, while keeping confirmed statements separate from open questions. The wider briefing also includes reports of malware targeting MSPs and GitHub accounts, reinforcing the value of reviewing access and unexpected changes without assuming those campaigns are linked to the top stories."
+   "The stories span digital deception, software vulnerabilities, corporate and political scrutiny, and diplomacy. The FaceStealer reports describe fake video calls using stolen webcam clips, while the N-central item describes disclosed flaws and restrictions. Together, they show why analysts should distinguish reported claims, technical details and responses.",
+   "The Siemens entries in today’s top list point to product security advisories, but their supplied snippets are truncated and do not establish the vulnerabilities or affected systems. Defenders should consult the relevant advisories and verify exposure rather than infer details. The N-central report likewise makes checking affected features and systems a practical priority.",
+   "The top stories also include a report about Huang and alleged affairs, and Zelensky’s support for European involvement in peace talks. These are different kinds of developments, but both call for careful attribution: the available text gives limited context. Watch for fuller reporting that clarifies claims, responses and the scope of technical advisories."
   ],
   "takeaways": [
-   "Verify service status and maintain alternate communication options.",
-   "Review Siemens advisory details before assessing exposure.",
-   "Keep separate incidents distinct unless evidence connects them."
+   "Verify exposure against the specific N-central details and available advisories.",
+   "Treat unexpected video calls as a trust and verification issue.",
+   "Keep reported allegations distinct from established facts."
   ]
  },
  "health": [
@@ -774,7 +769,7 @@
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BleepingComputer",
@@ -786,7 +781,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 19
+   "n": 17
   },
   {
    "name": "The Record",
@@ -797,8 +792,8 @@
   {
    "name": "SecurityWeek",
    "section": "cyber",
-   "ok": true,
-   "n": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Help Net Security",
@@ -810,13 +805,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 10
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Google Threat Intelligence",
@@ -828,7 +823,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Schneier on Security",
@@ -846,13 +841,13 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 8
   },
   {
    "name": "Defense One",
@@ -870,7 +865,7 @@
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Bellingcat",
@@ -900,7 +895,7 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Atlantic Council",
@@ -912,7 +907,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "SpaceNews",
@@ -930,25 +925,25 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 11
   },
   {
    "name": "DW",
