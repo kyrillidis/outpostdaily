@@ -1,25 +1,30 @@
 {
- "updated": "2026-11-12T20:56:16.170Z",
+ "updated": "2026-11-13T01:38:08.285Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
    "n": 4
   },
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 6
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 5
   },
   {
    "name": "MarketWatch",
@@ -27,24 +32,9 @@
    "n": 10
   },
   {
-   "name": "Krebs on Security",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "The DFIR Report",
@@ -52,9 +42,14 @@
    "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "Hackread",
    "ok": true,
-   "n": 4
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "SecurityWeek",
@@ -62,7 +57,7 @@
    "n": 1
   },
   {
-   "name": "Hackread",
+   "name": "Dark Reading",
    "ok": true,
    "n": 2
   },
@@ -74,10 +69,10 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -85,6 +80,11 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,160 @@
  ],
  "items": [
   {
+   "id": "n21ce3fe249",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+   "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-13T00:20:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5d21b1e6d1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+   "published": "2026-11-13T00:00:26.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd2e11db3e9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+   "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+   "published": "2026-11-12T23:52:38.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ndf8154f62a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russian court jails rights lawyer for 12 years on treason charge",
+   "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+   "published": "2026-11-12T23:18:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb7d1abff58",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
+   "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
+   "published": "2026-11-12T22:57:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3b8d773246",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "published": "2026-11-12T22:53:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n14a4750137",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "The School Bomb Threats Came From Accounts Already in Stolen Data",
+   "url": "https://securityaffairs.com/202941/security/the-school-bomb-threats-came-from-accounts-already-in-stolen-data.html",
+   "published": "2026-11-12T22:42:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n674c4b8508",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+   "published": "2026-11-12T22:25:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n74d1ad40b1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+   "published": "2026-11-12T22:16:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4ad9d5294d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+   "url": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
+   "published": "2026-11-12T21:55:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n34e0c6bf96",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The 10 best stocks for a year-end momentum trade",
+   "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+   "published": "2026-11-12T21:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne52fb1952d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+   "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+   "published": "2026-11-12T21:42:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n39360acccb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+   "url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+   "published": "2026-11-12T21:18:52.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf394da5f21",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+   "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+   "published": "2026-11-12T20:55:30.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "nb66f4c0115",
    "kind": "news",
    "group": "markets",
@@ -127,6 +281,17 @@
    "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
    "published": "2026-11-12T20:44:00.000Z",
    "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na4cf8f4112",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Microsoft Cloud Outage Hits Outlook, Teams, Copilot and AI Services",
+   "url": "https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html",
+   "published": "2026-11-12T20:41:47.000Z",
+   "severity": "high",
    "verified": true
   },
   {
@@ -2737,17 +2902,6 @@
    "verified": true
   },
   {
-   "id": "nd100d45bd6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Boneless couches’ are the new futons",
-   "url": "https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories",
-   "published": "2026-11-10T16:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n0eb55bf159",
    "kind": "news",
    "group": "cyber",
@@ -2825,17 +2979,6 @@
    "verified": true
   },
   {
-   "id": "n5f4bc8e24b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Elon Musk was half right in his comment last week about SoftBank backpedaling on a gas-turbine order",
-   "url": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
-   "published": "2026-11-10T15:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nf7ecc76431",
    "kind": "news",
    "group": "crisis",
@@ -2909,17 +3052,6 @@
    "title": "WhiteMatter Raises $20 Million in Series A Funding",
    "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
    "published": "2026-11-10T14:58:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n422bed9b63",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Forget happy hour. ‘Money parties’ are having a moment.",
-   "url": "https://www.marketwatch.com/story/forget-happy-hour-money-parties-are-having-a-moment-6bc6f02a?mod=mw_rss_topstories",
-   "published": "2026-11-10T14:58:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3019,17 +3151,6 @@
    "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
    "url": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
    "published": "2026-11-10T13:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9f181d606d",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments",
-   "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
-   "published": "2026-11-10T10:48:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -3206,149 +3327,6 @@
    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
    "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-10T01:44:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3cbc32ffad",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "France blames Iran for October supermarket cyberattack",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-   "published": "2026-11-10T01:01:47.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na976a69a6b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
-   "published": "2026-11-10T01:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2f5656f790",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump says FBI probing Nvidia CEO Huang’s affair with alleged spy",
-   "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
-   "published": "2026-11-10T00:44:28.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd55f38be0b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-10T00:09:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne73608bde5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Iran demands US ‘surrender’ to its conditions",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
-   "published": "2026-11-09T23:55:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n48d9ef3d98",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "published": "2026-11-09T23:52:12.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "na16190f4a4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump defends Nvidia’s Huang after calling about spy scandal",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidias-huang-after-calling-about-spy-scandal?traffic_source=rss",
-   "published": "2026-11-09T23:13:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nee6742e73a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
-   "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-   "published": "2026-11-09T22:31:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfb65eccd75",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-   "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-   "published": "2026-11-09T22:09:33.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n907718f8d4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
-   "published": "2026-11-09T21:38:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8d206c962e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-   "published": "2026-11-09T21:26:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb9b072a1ed",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "York University breach exposed personal information dating to 2007",
-   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-   "published": "2026-11-09T21:22:31.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "neae4ff98ab",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
-   "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
-   "published": "2026-11-09T21:12:24.000Z",
    "severity": "normal",
    "verified": true
   }
