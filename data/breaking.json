@@ -1,48 +1,8 @@
 {
- "updated": "2026-11-14T20:10:12.347Z",
+ "updated": "2026-11-14T23:53:05.294Z",
  "health": [
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -52,12 +12,47 @@
    "n": 0
   },
   {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -67,14 +62,24 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Dark Reading",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "SOCRadar blog",
@@ -85,11 +90,6 @@
    "name": "BreachForums",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,61 @@
   }
  ],
  "items": [
+  {
+   "id": "n194bae35f5",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+   "url": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
+   "published": "2026-11-14T23:34:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8c85dd6c8c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Netanyahu says only a unity government can guarantee Israel’s security",
+   "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss",
+   "published": "2026-11-14T23:01:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2e3019a6a5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Explosion near Syria’s capital kills father and child",
+   "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+   "published": "2026-11-14T22:43:12.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ne03b3d1d1d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
+   "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+   "published": "2026-11-14T21:31:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6333b7a2df",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
+   "published": "2026-11-14T21:10:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n2618677956",
    "kind": "news",
@@ -2403,237 +2458,6 @@
    "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
    "url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
    "published": "2026-11-12T00:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8f3c3c11cc",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
-   "url": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
-   "published": "2026-11-11T23:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n77d11504d7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
-   "published": "2026-11-11T23:08:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7f241c94ac",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Baker Tilly notifies clients of data breach at third-party provider",
-   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-   "published": "2026-11-11T23:01:31.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nccdd6c7f3f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "published": "2026-11-11T22:56:21.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n487f359ed5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli strikes hit tent camp as five killed in Gaza",
-   "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
-   "published": "2026-11-11T22:55:37.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb82478859e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-   "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-   "published": "2026-11-11T22:34:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n61292229f4",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
-   "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-   "published": "2026-11-11T21:55:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbcbd3a3cc8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
-   "url": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
-   "published": "2026-11-11T21:44:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9025751a97",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
-   "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
-   "published": "2026-11-11T21:42:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n27b573b7e6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Sandisk’s stock just staged a big gain. Here’s how it could march even higher.",
-   "url": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
-   "published": "2026-11-11T21:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb4ba65d37c",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "AI Pentest Tool AntiFox Abused To Steal AWS Credentials",
-   "url": "https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html",
-   "published": "2026-11-11T21:31:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na4a34375ee",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-   "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-   "published": "2026-11-11T21:27:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc5c797f8dc",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "AI Raises the Stakes for Cyber Resilience",
-   "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
-   "published": "2026-11-11T21:20:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2ddd214302",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-   "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-   "published": "2026-11-11T21:03:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n11b2bccee7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-   "published": "2026-11-11T21:01:42.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4555dea146",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "published": "2026-11-11T20:54:20.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nf4f4184599",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "WhiteArmor Demands $5 Million from Maersk, Claims Theft of 100GB of Data",
-   "url": "https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html",
-   "published": "2026-11-11T20:47:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ned3e67598e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Oil production nears pre-Iran war levels, OPEC says",
-   "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-   "published": "2026-11-11T20:45:30.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nbf2ebd214a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gaza goalkeeper killed in Israeli attack",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
-   "published": "2026-11-11T20:44:34.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n2bb00d0774",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents?traffic_source=rss",
-   "published": "2026-11-11T20:33:35.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd69184e718",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "F1 champion Lewis Hamilton calls on Israel to open Gaza’s Rafah border",
-   "url": "https://www.aljazeera.com/news/2026/11/11/f1-champion-lewis-hamilton-calls-on-israel-to-open-rafah-border?traffic_source=rss",
-   "published": "2026-11-11T20:24:51.000Z",
    "severity": "normal",
    "verified": true
   }
