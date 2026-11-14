@@ -1,45 +1,15 @@
 {
- "updated": "2026-11-14T15:50:36.145Z",
+ "updated": "2026-11-14T20:10:12.347Z",
  "health": [
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Al Jazeera",
@@ -49,22 +19,42 @@
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 7
+   "n": 10
   },
   {
-   "name": "BBC World",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +62,19 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -90,6 +85,11 @@
    "name": "BreachForums",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,116 @@
   }
  ],
  "items": [
+  {
+   "id": "n2618677956",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+   "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+   "published": "2026-11-14T20:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8ded58a7f4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Deadly car bomb blast kills two near Syria’s capital",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+   "published": "2026-11-14T19:46:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ned60891a05",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+   "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+   "published": "2026-11-14T18:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0fcece49c6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "published": "2026-11-14T17:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne256dd8f10",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The lonely labor of caregiving: ‘You shouldn’t have to be rich to take care of the people you love’",
+   "url": "https://www.marketwatch.com/story/if-you-could-change-one-thing-about-caregiving-what-would-it-be-8b20be29?mod=mw_rss_topstories",
+   "published": "2026-11-14T17:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n403e4bdfae",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Cursor confirms security breach led to malicious Claude Code extension",
+   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "published": "2026-11-14T17:27:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nbb8f3f72de",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+   "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+   "published": "2026-11-14T16:53:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd3fe9357b6",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Extortion Group Claims Theft of Nearly One Billion Expedia Traveler Records",
+   "url": "https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html",
+   "published": "2026-11-14T16:46:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n76a9ec4bde",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "published": "2026-11-14T16:13:43.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "naba2120133",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "EU calls for immediate humanitarian access to Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/14/eu-calls-for-immediate-humanitarian-access-to-gaza?traffic_source=rss",
+   "published": "2026-11-14T15:57:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2429,17 +2539,6 @@
    "verified": true
   },
   {
-   "id": "na2a353c597",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
-   "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
-   "published": "2026-11-11T21:21:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nc5c797f8dc",
    "kind": "news",
    "group": "cyber",
@@ -2447,17 +2546,6 @@
    "title": "AI Raises the Stakes for Cyber Resilience",
    "url": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
    "published": "2026-11-11T21:20:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfd1338efca",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Bloom Energy’s stock is rallying as data-center jitters subside",
-   "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
-   "published": "2026-11-11T21:14:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2492,17 +2580,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
    "published": "2026-11-11T20:54:20.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n583542162a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "It’s not ‘Medicare for All,’ but ‘Medicare for More.’ What this could mean for workers over 50.",
-   "url": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
-   "published": "2026-11-11T20:53:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2557,160 +2634,6 @@
    "title": "F1 champion Lewis Hamilton calls on Israel to open Gaza’s Rafah border",
    "url": "https://www.aljazeera.com/news/2026/11/11/f1-champion-lewis-hamilton-calls-on-israel-to-open-rafah-border?traffic_source=rss",
    "published": "2026-11-11T20:24:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne2b7ebdc24",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-   "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-   "published": "2026-11-11T20:05:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nccc647d43f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Three women killed in LA crash as driver arrested",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/three-women-killed-in-la-crash-as-driver-arrested?traffic_source=rss",
-   "published": "2026-11-11T20:03:45.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nfc6903ee54",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "When Market Data Can’t Be Trusted: Why Feed Integrity Matters to Order-Flow Analysis",
-   "url": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
-   "published": "2026-11-11T19:56:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8cdc4a0f74",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Krebs on Security",
-   "title": "Who Runs the Ransomware Group Qilin?",
-   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-   "published": "2026-11-11T18:06:01.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n203e12206e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Spain sees widespread disruption in first general strike for 14 years",
-   "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-11T17:44:32.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n579c837d08",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Has Nvidia flown too close to the sun? One analyst warns of major scrutiny ahead.",
-   "url": "https://www.marketwatch.com/story/has-nvidia-flown-too-close-to-the-sun-one-analyst-warns-of-major-scrutiny-ahead-a323c4dd?mod=mw_rss_topstories",
-   "published": "2026-11-11T17:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6caa14892c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia-Ukraine talks in UAE secure major prisoner exchange deal",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/russia-ukraine-talks-in-uae-secure-major-prisoner-exchange-deal?traffic_source=rss",
-   "published": "2026-11-11T16:58:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd62040292e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
-   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
-   "published": "2026-11-11T16:57:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nba272f0fc5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Palestinian American activist refused UK entry for Gaza fundraiser",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/palestinian-american-activist-refused-uk-entry-for-gaza-fundraiser?traffic_source=rss",
-   "published": "2026-11-11T16:52:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n48cbc287b0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza",
-   "url": "https://www.aljazeera.com/sports/2026/11/11/israeli-army-kills-palestinian-footballer-mahmoud-kamal-abdel-malek-in-gaza?traffic_source=rss",
-   "published": "2026-11-11T16:48:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8195051f41",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-   "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-11T16:45:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4c32248b41",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-   "published": "2026-11-11T16:24:18.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n06dbca5b3b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘It’s just too expensive’: Housing and wages at the heart of Spain’s strike",
-   "url": "https://www.aljazeera.com/news/2026/11/11/its-just-too-expensive-housing-and-wages-at-the-heart-of-spains-strike?traffic_source=rss",
-   "published": "2026-11-11T16:20:13.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n8b35f69eac",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-   "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-   "published": "2026-11-11T16:12:46.000Z",
    "severity": "normal",
    "verified": true
   }
