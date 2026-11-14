@@ -1,8 +1,13 @@
 {
- "updated": "2026-11-14T02:27:16.579Z",
+ "updated": "2026-11-14T09:14:52.652Z",
  "health": [
   {
    "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -12,17 +17,12 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "CISA Advisories",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
@@ -32,17 +32,12 @@
    "n": 2
   },
   {
-   "name": "MarketWatch",
+   "name": "BBC World",
    "ok": true,
-   "n": 10
+   "n": 1
   },
   {
    "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
    "ok": true,
    "n": 0
   },
@@ -52,12 +47,12 @@
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -67,6 +62,11 @@
    "n": 1
   },
   {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Dark Reading",
    "ok": true,
    "n": 0
@@ -74,7 +74,12 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -85,11 +90,6 @@
    "name": "DarkForums",
    "ok": true,
    "n": 7
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,50 @@
   }
  ],
  "items": [
+  {
+   "id": "n9cdb1de4d4",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+   "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+   "published": "2026-11-14T08:40:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1ff1864b46",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+   "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss",
+   "published": "2026-11-14T07:46:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n00f20d16da",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ukraine is running out of options, and Russia knows it",
+   "url": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+   "published": "2026-11-14T06:39:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6223d397b8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+   "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-14T05:52:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "na34a30b3f7",
    "kind": "news",
@@ -2812,281 +2856,6 @@
    "published": "2026-11-11T09:39:19.000Z",
    "severity": "normal",
    "verified": true
-  },
-  {
-   "id": "na714923720",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "What do Kyiv residents think about giving up territory to Russia?",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/what-do-kyiv-residents-think-about-giving-up-territory-to-russia?traffic_source=rss",
-   "published": "2026-11-11T09:07:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6cc6511153",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-   "published": "2026-11-11T09:07:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nda22cee42d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Microsoft November Patch Tuesday: one exploited Outlook bug and 30 wormable flaws",
-   "url": "https://securityaffairs.com/202839/hacking/microsoft-november-patch-tuesday-one-exploited-outlook-bug-and-30-wormable-flaws.html",
-   "published": "2026-11-11T09:03:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc5080c64e3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-   "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-   "published": "2026-11-11T09:01:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8e81e3b893",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US embassy refutes Houthis’ Yemen blockade claims, highlights siege on Taiz",
-   "url": "https://www.aljazeera.com/news/2026/11/11/us-embassy-refutes-houthis-yemen-blockade-claims-highlights-siege-on-taiz?traffic_source=rss",
-   "published": "2026-11-11T08:58:59.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6c321513c1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-   "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-   "published": "2026-11-11T08:42:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndbeaf7ae0a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why China’s $1 trillion trade surplus isn’t all good news for its economy",
-   "url": "https://www.aljazeera.com/economy/2026/11/11/why-chinas-1-trillion-trade-surplus-isnt-all-good-news-for-its-economy?traffic_source=rss",
-   "published": "2026-11-11T08:29:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf45703afa2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
-   "url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met?traffic_source=rss",
-   "published": "2026-11-11T08:21:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n44096b209c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "published": "2026-11-11T08:17:53.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n34f63dbdf4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-   "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-   "published": "2026-11-11T07:53:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n890bd5d68a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-   "published": "2026-11-11T07:49:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncf2fc6ea70",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US warns Madagascar over growing military ties with Russia",
-   "url": "https://www.bbc.co.uk/news/articles/crkgv58pknyeo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-11T07:30:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9d9b677005",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Hackers Exploit Decade-Old OpenSSH Flaw to Bypass Linux Logins",
-   "url": "https://hackread.com/hackers-exploit-old-openssh-bypass-linux-logins/",
-   "published": "2026-11-11T07:28:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n17cea48d83",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Is Washington rethinking its relationship with Israel?",
-   "url": "https://www.aljazeera.com/opinions/2026/11/11/is-washington-rethinking-its-relationship-with-israel?traffic_source=rss",
-   "published": "2026-11-11T07:26:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne23f07d99f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-   "published": "2026-11-11T07:21:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1d045e990c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "If hackers can take over a supermarket fridge, what else is at risk?",
-   "url": "https://www.aljazeera.com/news/2026/11/11/if-hackers-can-take-over-a-supermarket-fridge-what-else-is-at-risk?traffic_source=rss",
-   "published": "2026-11-11T07:20:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nddf3562d4e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-   "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
-   "published": "2026-11-11T07:00:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5f9750ce9b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Netanyahu fights to stay relevant as Israel’s opposition closes in",
-   "url": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
-   "published": "2026-11-11T06:23:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncd6455aace",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-   "published": "2026-11-11T06:04:02.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n81c3896238",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
-   "url": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
-   "published": "2026-11-11T05:39:26.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "fcbed596190",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Access to DarkForums Private Archive Telegram Channel",
-   "url": "https://darkforums.team/Thread-News-DarkForums-Archive-Telegram-Channel",
-   "published": "2026-11-11T02:56:49.436Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "fa678a403e4",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "GTA 5 SOURCE CODE",
-   "url": "https://darkforums.team/Thread-Source-Code-GTA-5-SOURCE-CODE",
-   "published": "2026-11-11T02:56:49.436Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f19f091a40e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Discord CEO Dox Leak",
-   "url": "https://darkforums.team/Thread-Discord-CEO-Dox-Leak",
-   "published": "2026-11-11T02:56:49.436Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "f72e0664177",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "вњ…пёЏ SimpleSwap API Exploit...",
-   "url": "https://darkforums.team/Thread-%E2%9C%85%EF%B8%8F-SimpleSwap-API-Exploit-%E2%AD%90-I-made-12-000-in-a-2-days--90974",
-   "published": "2026-11-11T02:56:49.436Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f21c3d90f7e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "golfcanada.ca data breach",
-   "url": "https://darkforums.team/Thread-golfcanada-ca-data-breach",
-   "published": "2026-11-11T02:56:49.436Z",
-   "severity": "high",
-   "verified": false
   }
  ]
 }
