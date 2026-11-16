@@ -1,18 +1,8 @@
 {
- "updated": "2026-11-15T22:00:37.093Z",
+ "updated": "2026-11-16T01:45:43.484Z",
  "health": [
   {
    "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -22,29 +12,19 @@
    "error": "HTTP 402"
   },
   {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
-   "n": 5
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "The Hacker News",
@@ -52,7 +32,22 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -62,14 +57,19 @@
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "Daily Dark Web",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -77,9 +77,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 7
+   "n": 1
   },
   {
    "name": "SOCRadar blog",
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "DarkForums",
    "ok": true,
-   "n": 0
+   "n": 7
   },
   {
    "name": "X redteam",
@@ -118,6 +118,17 @@
   }
  ],
  "items": [
+  {
+   "id": "n8d87100358",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "The Microsoft Outage Left 15 Hotel Guests Poisoned by Chlorine",
+   "url": "https://securityaffairs.com/203189/security/the-microsoft-outage-left-15-hotel-guests-poisoned-by-chlorine.html",
+   "published": "2026-11-15T22:38:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "ne8a69c14b0",
    "kind": "news",
@@ -193,6 +204,17 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
    "published": "2026-11-15T20:12:38.000Z",
    "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n3c4355507b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
+   "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+   "published": "2026-11-15T20:00:00.000Z",
+   "severity": "normal",
    "verified": true
   },
   {
@@ -1865,105 +1887,6 @@
    "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-13T02:48:29.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n21ce3fe249",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-   "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-13T00:20:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5d21b1e6d1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-   "published": "2026-11-13T00:00:26.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd2e11db3e9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-   "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-   "published": "2026-11-12T23:52:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndf8154f62a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russian court jails rights lawyer for 12 years on treason charge",
-   "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
-   "published": "2026-11-12T23:18:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb7d1abff58",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-   "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
-   "published": "2026-11-12T22:57:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3b8d773246",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-   "published": "2026-11-12T22:53:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n14a4750137",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "The School Bomb Threats Came From Accounts Already in Stolen Data",
-   "url": "https://securityaffairs.com/202941/security/the-school-bomb-threats-came-from-accounts-already-in-stolen-data.html",
-   "published": "2026-11-12T22:42:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n674c4b8508",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "published": "2026-11-12T22:25:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n74d1ad40b1",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-   "published": "2026-11-12T22:16:00.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
