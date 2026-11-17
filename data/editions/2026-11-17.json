@@ -1,571 +1,575 @@
 {
  "date": "2026-11-17",
  "edition": 246,
- "compiled": "2026-11-17T12:13:04.455Z",
+ "compiled": "2026-11-17T21:10:20.662Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "3ad387c63e",
+   "id": "2662cf7138",
    "section": "cyber",
-   "source": "BleepingComputer",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Dorsett Controls InfoScan",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authori",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says successful exploitation of vulnerabilities in Dorsett Controls InfoScan could allow an attacker to retrieve sensitive information; the snippet does not specify more.",
+   "why": "Check whether InfoScan is in use and review the linked CISA advisory for applicable mitigations.",
+   "tags": [
+    "Dorsett Controls",
+    "InfoScan"
+   ],
+   "ai": true
+  },
+  {
+   "id": "91c22df4b3",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Mendix Studio Pro",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-05.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remote",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says Siemens Mendix Studio Pro contains multiple MCP Server vulnerabilities that could allow an attacker to act; the snippet cuts off before specifying how.",
+   "why": "Check whether Mendix Studio Pro is deployed and consult the advisory for affected versions and mitigations.",
+   "tags": [
+    "Mendix Studio Pro",
+    "MCP Server"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f49e9f798b",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "snippet": "<p>CISA has added one new vulnerability to its&nbsp;<a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-115731\" target=\"_blank\">CVE-",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA added one vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.",
+   "why": "Review the KEV Catalog and prioritize applicable vulnerabilities in your environment.",
+   "tags": [
+    "CISA",
+    "KEV Catalog",
+    "exploitation"
+   ],
+   "ai": true
+  },
+  {
+   "id": "21dc163c1f",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens meta-iot2050",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-11.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could al",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says Siemens meta-iot2050 before V01.03.01 contains a command injection vulnerability.",
+   "why": "Check whether the affected meta-iot2050 version is in use and review the advisory.",
+   "tags": [
+    "meta-iot2050",
+    "command injection"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d4620a1144",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens SIMATIC WinCC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-09.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attack",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says SIMATIC WinCC Graphics Designer before V8.2 contains an implicit active content execution vulnerability.",
+   "why": "Check deployed WinCC versions and consult the advisory for mitigation guidance.",
+   "tags": [
+    "SIMATIC WinCC",
+    "active content"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d08071d08c",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens RUGGEDCOM APE1808",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-07.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recomme",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "The CISA advisory for Siemens RUGGEDCOM APE1808 references Fortinet information about a Double Free vulnerability in FortiOS.",
+   "why": "Review the advisory and verify whether the referenced products or vulnerability affect your environment.",
+   "tags": [
+    "RUGGEDCOM APE1808",
+    "FortiOS"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dc2d43865f",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write a",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says the .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities; the snippet does not give further details.",
+   "why": "Check whether this library is used and review the advisory for affected versions and mitigations.",
+   "tags": [
+    ".NET Client Library",
+    "SIMATIC S7"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7257208220",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Automation Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "The CISA advisory for Siemens Industrial Automation Software Products refers to Node.js security updates addressing a critical vulnerability.",
+   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
+   "tags": [
+    "Industrial Automation",
+    "Node.js"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9c3818e954",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens SIMATIC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate use",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "CISA says products listed in the Siemens SIMATIC advisory contain an authentication bypass vulnerability.",
+   "why": "Identify affected SIMATIC products and review the advisory for relevant mitigations.",
+   "tags": [
+    "Siemens SIMATIC",
+    "authentication bypass"
+   ],
+   "ai": true
+  },
+  {
+   "id": "877e907402",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.71,
+   "t": "2026-11-17",
+   "summary": "The CISA advisory for Siemens Industrial Software Products refers to Node.js security updates addressing a critical vulnerability.",
+   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
+   "tags": [
+    "Industrial Software",
+    "Node.js"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0439936852",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-   "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-   "snippet": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
-   "published": "2026-11-17T08:35:42.000Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/"
-    }
-   ],
-   "score": 1.87,
-   "image": "/img/news/3ad387c63e.webp",
+   "title": "Army kicks off ‘manufacturing rodeo’ with focus on small drones",
+   "url": "https://breakingdefense.com/2026/11/army-kicks-off-manufacturing-rodeo-with-focus-on-small-drones/",
+   "snippet": "The completed drones will compete at the Army’s third Drone Dominance Gauntlet event in March where the systems will face “complex” obstacle courses, heavy electronic jamming and “live target arrays.”",
+   "published": "2026-11-17T20:44:33.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/0439936852.webp",
    "t": "2026-11-17",
-   "summary": "Uber says attackers stole data after breaching AI infrastructure provider Fireworks; the company is notifying nearly 150,000 drivers.",
-   "why": "Check whether data shared with third-party infrastructure providers is exposed and whether affected drivers need support.",
+   "summary": "The Army’s manufacturing rodeo focuses on small drones, which will face obstacle courses, heavy electronic jamming, and live target arrays at a Drone Dominance Gauntlet event.",
+   "why": "The trials emphasize drone performance in obstacle-rich and electronically contested conditions.",
    "tags": [
-    "data breach",
-    "AI infrastructure"
+    "small drones",
+    "electronic jamming",
+    "Army"
    ],
    "ai": true
   },
   {
-   "id": "1dc4676c82",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "59d173c166",
+   "section": "warfare",
+   "source": "The War Zone",
    "weight": 0.6,
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "snippet": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
-   "published": "2026-11-17T11:19:51.000Z",
+   "title": "These Are The Weapons Ukraine Used To Drop The Kerch Bridge",
+   "url": "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge",
+   "snippet": "Ukraine brought an eclectic arsenal of homegrown and foreign drones and missiles to bear in its campaign to sever Russia’s critical logistics link to Crimea. The post These Are The Weapons Ukraine Used To Drop The Kerch Bridge appeared first on TWZ .",
+   "published": "2026-11-17T19:22:29.000Z",
    "also": [],
-   "score": 1.58,
-   "image": "/img/news/1dc4676c82.webp",
+   "score": 1.56,
+   "image": "/img/news/59d173c166.webp",
    "t": "2026-11-17",
-   "summary": "Microsoft is testing Remote Lock, a feature for enterprise IT administrators to remotely lock lost or stolen Windows devices without wiping them.",
-   "why": "Assess whether remote locking could fit device-loss response procedures.",
+   "summary": "The report says Ukraine used homegrown and foreign drones and missiles in its campaign against Russia’s logistics link to Crimea.",
+   "why": "The account highlights the operational use of mixed drone and missile capabilities against a logistics link.",
    "tags": [
-    "Remote Lock",
-    "Windows"
+    "Ukraine",
+    "drones",
+    "missiles"
    ],
    "ai": true
   },
   {
-   "id": "10eb36112f",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "24711c06a8",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-   "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-   "snippet": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
-   "published": "2026-11-17T09:44:22.000Z",
+   "title": "Biodata, AI and the future of command: Getting it right",
+   "url": "https://breakingdefense.com/2026/11/biodata-ai-and-the-future-of-command-getting-it-right/",
+   "snippet": "Fitness trackers and AI diagnostics are here to stay. They can provide valuable data for operational planning — if security and privacy are handled properly.",
+   "published": "2026-11-17T19:02:00.000Z",
    "also": [],
-   "score": 1.55,
-   "image": "/img/news/10eb36112f.webp",
+   "score": 1.56,
+   "image": "/img/news/24711c06a8.webp",
    "t": "2026-11-17",
-   "summary": "A US district judge acquitted two brothers accused of stealing $25 million in cryptocurrency through a scheme exploiting an Ethereum blockchain bug.",
-   "why": "Review how blockchain bugs can affect cryptocurrency transactions and security assumptions.",
+   "summary": "Breaking Defense says fitness trackers and AI diagnostics can provide data for operational planning if security and privacy are handled properly.",
+   "why": "The use of personal and diagnostic data in planning makes security and privacy central concerns.",
    "tags": [
-    "Ethereum",
-    "blockchain"
+    "AI",
+    "fitness trackers",
+    "privacy"
    ],
    "ai": true
   },
   {
-   "id": "d51a92f2bc",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-   "snippet": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-   "published": "2026-11-17T07:25:44.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/d51a92f2bc.webp",
-   "t": "2026-11-17",
-   "summary": "A Kazakh national has been extradited from Italy to face charges alleging ransomware attacks on US schools, hospitals, and healthcare entities.",
-   "why": "Review ransomware readiness for schools and healthcare environments.",
-   "tags": [
-    "ransomware",
-    "healthcare"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5e43b1695a",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-   "snippet": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky. The R",
-   "published": "2026-11-17T11:20:18.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/5e43b1695a.webp",
-   "t": "2026-11-17",
-   "summary": "The Hacker News reports an active intrusion campaign targeting government sectors in Asia and Africa with backdoors using SharePoint and GitHub for command-and-control.",
-   "why": "Check for unusual command-and-control activity through legitimate services such as SharePoint and GitHub.",
-   "tags": [
-    "backdoors",
-    "GitHub",
-    "SharePoint"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cb74b2746c",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-   "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-   "snippet": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control ",
-   "published": "2026-11-17T11:07:31.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/cb74b2746c.webp",
-   "t": "2026-11-17",
-   "summary": "Apple introduced more granular controls for Mac users to limit the data apps, including AI agents, can access; the changes are in a macOS beta preview.",
-   "why": "Review app data permissions, including access granted to AI agents.",
-   "tags": [
-    "app permissions",
-    "AI agents"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d70ba4ae16",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-   "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
-   "snippet": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek .",
-   "published": "2026-11-17T10:22:20.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/d70ba4ae16.webp",
-   "t": "2026-11-17",
-   "summary": "SecurityWeek reports that an Optimizely vulnerability was exploited to serve malware on major websites.",
-   "why": "Check whether affected websites rely on Optimizely and review their exposure to the reported vulnerability.",
-   "tags": [
-    "Optimizely",
-    "malware"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ccf02002c5",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-   "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
-   "snippet": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared first on Unit 42 .",
-   "published": "2026-11-16T23:00:55.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/ccf02002c5.webp",
-   "t": "2026-11-17",
-   "summary": "Unit 42 describes a Southeast Asian cyberespionage campaign using PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 command-and-control channels.",
-   "why": "Check for unusual HTTP/3 command-and-control traffic and the named malware.",
-   "tags": [
-    "HTTP/3",
-    "RAT",
-    "cyberespionage"
-   ],
-   "ai": true
-  },
-  {
-   "id": "50868e3a64",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-   "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-   "snippet": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Repor",
-   "published": "2026-11-17T07:12:13.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/50868e3a64.webp",
-   "t": "2026-11-17",
-   "summary": "Optimizely said an attacker exploited a flaw to plant malicious code in customer website scripts; visitors to sites run by at least 178 organizations were affected.",
-   "why": "Review third-party scripts and assess whether affected sites need investigation.",
-   "tags": [
-    "Optimizely",
-    "scripts",
-    "card skimmer"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f61744a14e",
-   "section": "cyber",
-   "source": "Schneier on Security",
-   "weight": 0.4,
-   "title": "Formal Verification of the Signal Protocol Using AI",
-   "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
-   "snippet": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four week",
-   "published": "2026-11-17T12:05:43.000Z",
-   "also": [],
-   "score": 1.4,
-   "t": "2026-11-17",
-   "summary": "Google DeepMind researchers used agentic AI to formally verify key cryptographic guarantees of the Signal protocol, according to Schneier on Security.",
-   "why": "Note how formal verification can help assess cryptographic guarantees.",
-   "tags": [
-    "Signal protocol",
-    "formal verification",
-    "AI"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2fbfcc2430",
+   "id": "8e76b522f8",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine",
-   "url": "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/",
-   "snippet": "In 2026, Germany is spending a record €125 billion on defense, second only to the United States among NATO allies, and its core defense budget is set to reach €170 billion by 2029. Its military strategy promises Europe’s strongest conventional army by 2039 with a technologically superior and innovative Bundeswehr, Germ",
-   "published": "2026-11-17T09:00:48.000Z",
+   "title": "Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan",
+   "url": "https://warontherocks.com/keeping-america-out-revisiting-chinas-deterrence-strategy-for-taiwan/",
+   "snippet": "In 2025, Joel Wuthnow wrote “How China Could Counter U.S. Intervention in War Over Taiwan,” arguing that Beijing’s best option might be to deter Washington from coming to Taiwan’s aid by raising the risks to the U.S. homeland. A year and a half later, we asked him to revisit that argument.Image: Lance Cpl. Victor Gurro",
+   "published": "2026-11-17T18:30:16.000Z",
    "also": [],
-   "score": 1.53,
-   "image": "/img/news/2fbfcc2430.webp",
+   "score": 1.54,
+   "image": "/img/news/8e76b522f8.webp",
    "t": "2026-11-17",
-   "summary": "The article says Germany plans major defense spending and argues that spending alone is not deterrence, highlighting procurement as an issue.",
-   "why": "Procurement is relevant to how defense spending translates into military capability.",
-   "tags": [
-    "Germany",
-    "procurement"
-   ],
-   "ai": true
-  },
-  {
-   "id": "43dd3e4eec",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "The Military Strategic Drivers Behind China’s Nuclear Expansion",
-   "url": "https://warontherocks.com/the-military-strategic-drivers-behind-chinas-nuclear-expansion/",
-   "snippet": "In June 1993, a group of Second Artillery Corps senior leaders gathered at the Jiuquan Satellite Launch Center. The organizers brought Li Xuge, recently retired commander of the Second Artillery, as a special guest for the event. Li had watched the Second Artillery develop from its infancy to this day, when China final",
-   "published": "2026-11-17T08:30:21.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/43dd3e4eec.webp",
-   "t": "2026-11-17",
-   "summary": "The article traces strategic drivers behind China’s nuclear expansion, opening with a 1993 gathering of Second Artillery Corps leaders.",
-   "why": "The history may help analysts frame discussion of China’s nuclear expansion.",
+   "summary": "The article revisits arguments about how China might deter U.S. intervention in a war over Taiwan, including by raising risks to the U.S. homeland.",
+   "why": "The discussion concerns deterrence strategy and the geographic reach of risks in a Taiwan contingency.",
    "tags": [
     "China",
-    "nuclear expansion"
+    "Taiwan",
+    "deterrence"
    ],
    "ai": true
   },
   {
-   "id": "cbb76344c5",
+   "id": "fa18a7f3f4",
    "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "Army buys hundreds more drones and electronic warfare kit in £25 million boost to strengthen Britain’s defences on NATO’s eastern flank",
-   "url": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank",
-   "snippet": "Britain’s Armed Forces will be better equipped to counter the rapidly changing threats facing the UK and its allies, following a £25 million boost in drones and cutting-edge battlefield technology.",
-   "published": "2026-11-17T11:05:22.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Russia reportedly wants Finland to leave NATO as part of Ukraine deal. History, geography explain why.",
+   "url": "https://breakingdefense.com/2026/11/russia-reportedly-wants-finland-to-leave-nato-as-part-of-ukraine-deal-history-geography-explain-why/",
+   "snippet": "Finland’s historical experience with Russia, shaped by centuries of territorial disputes, war and changing borders, is fundamentally different from that of other nations, for instance, Sweden, which joined NATO only a year after Helsinki did.",
+   "published": "2026-11-17T17:39:17.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/cbb76344c5.webp",
+   "score": 1.53,
+   "image": "/img/news/fa18a7f3f4.webp",
    "t": "2026-11-17",
-   "summary": "Britain’s Armed Forces will receive a £25 million boost for drones and battlefield technology intended to strengthen defences on NATO’s eastern flank.",
-   "why": "Drones and electronic warfare kit are relevant to battlefield capabilities and eastern-flank defence.",
+   "summary": "The report links Finland’s historical experience with Russia and territorial disputes to its distinct position in NATO discussions.",
+   "why": "Finland’s geography and history shape how regional security issues are understood.",
    "tags": [
-    "drones",
-    "electronic warfare",
+    "Finland",
+    "Russia",
     "NATO"
    ],
    "ai": true
   },
   {
-   "id": "d249f98271",
+   "id": "ff316203da",
    "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine",
-   "url": "https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
-   "snippet": "Imagery that has come after sun-up has confirmed that Ukraine has finally succeeded in dropping a major section of the Kerch Strait Bridge. The post Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine appeared first on TWZ .",
-   "published": "2026-11-17T06:03:53.000Z",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "UDT Australia 2026: Conference Discussions to be Catalyst for Converting Australian Debate on Undersea Warfare",
+   "url": "https://www.navalnews.com/naval-news/2026/11/udt-australia-2026-undersea-warfare-debate/",
+   "snippet": "Inaugural UDT Australia 2026 conference in Adelaide aims to broaden Australia’s undersea warfare debate beyond submarines to autonomy, seabed security, and AUKUS. The post UDT Australia 2026: Conference Discussions to be Catalyst for Converting Australian Debate on Undersea Warfare appeared first on Naval News .",
+   "published": "2026-11-17T20:59:30.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/d249f98271.webp",
+   "score": 1.5,
    "t": "2026-11-17",
-   "summary": "The War Zone reports a second strike on the Kerch Bridge in less than 24 hours; it says the extent of any new damage is unclear.",
-   "why": "The reported repeat targeting highlights the operational relevance of a critical crossing.",
+   "summary": "UDT Australia 2026 aims to broaden debate on undersea warfare beyond submarines to autonomy, seabed security, and AUKUS.",
+   "why": "The discussion expands undersea security to include autonomous systems and seabed concerns.",
    "tags": [
-    "Kerch Bridge",
-    "strike",
-    "Russia"
+    "undersea warfare",
+    "autonomy",
+    "seabed security"
    ],
    "ai": true
   },
   {
-   "id": "d2e1b202e8",
+   "id": "de1c70fb00",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated)",
+   "url": "https://www.twz.com/news-features/what-we-know-about-ukraines-strikes-that-cut-russias-kerch-bridge-road-vehicle-span",
+   "snippet": "New details are emerging about Ukrainian drone and missile strikes that destroyed a key section of the bridge over the Kerch Strait. The post What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated) appeared first on TWZ .",
+   "published": "2026-11-17T15:48:55.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/de1c70fb00.webp",
+   "t": "2026-11-17",
+   "summary": "The report says new details are emerging about Ukrainian drone and missile strikes that destroyed a key section of the bridge over the Kerch Strait.",
+   "why": "The strikes concern a bridge described as a key link over the Kerch Strait.",
+   "tags": [
+    "Ukraine",
+    "drones",
+    "Kerch Strait"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ab9054d177",
    "section": "warfare",
    "source": "Defense News",
    "weight": 0.5,
-   "title": "French troops operating in non-combat roles in Ukraine, broadcaster RFI reports",
-   "url": "https://www.defensenews.com/global/europe/2026/11/17/french-troops-operating-in-non-combat-roles-in-ukraine-broadcaster-rfi-reports/",
-   "snippet": "The troops are part of a structure called Volia, after a Ukrainian word that can be translated as “will” or “freedom,” the French state-owned international news radio said on Monday.",
-   "published": "2026-11-17T08:07:28.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/d2e1b202e8.webp",
-   "t": "2026-11-17",
-   "summary": "RFI reports that French troops in Ukraine are operating in non-combat roles as part of a structure called Volia.",
-   "why": "The reported non-combat role is relevant to understanding the structure of French activity in Ukraine.",
-   "tags": [
-    "French troops",
-    "Ukraine",
-    "Volia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "facb2a6beb",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)",
-   "url": "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught",
-   "snippet": "The strategic crossing that connects occupied Crimea to Russia was left with a damaged arch over one of the road spans. The post Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated) appeared first on TWZ .",
-   "published": "2026-11-17T01:11:09.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/facb2a6beb.webp",
-   "t": "2026-11-16",
-   "summary": "The Kerch Bridge, which connects occupied Crimea to Russia, was left with a damaged arch over one of its road spans after a Ukrainian drone attack.",
-   "why": "The bridge’s connection between Crimea and Russia gives damage to the crossing operational relevance.",
-   "tags": [
-    "Kerch Bridge",
-    "drone"
-   ],
-   "ai": true
-  },
-  {
-   "id": "49d4199337",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF",
-   "url": "https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf",
-   "snippet": "The arrival of combat-coded F-15EXs in Japan is the first permanent deployment of the USAF's newest fighter outside the United States. The post First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF appeared first on TWZ .",
-   "published": "2026-11-17T00:26:47.000Z",
-   "also": [],
-   "score": 1.35,
-   "image": "/img/news/49d4199337.webp",
-   "t": "2026-11-17",
-   "summary": "The War Zone reports that combat-coded F-15EXs arrived at Kadena Air Base in Japan, the fighter’s first permanent deployment outside the United States.",
-   "why": "The deployment marks a new overseas presence for the USAF’s newest fighter.",
-   "tags": [
-    "F-15EX",
-    "Kadena",
-    "deployment"
-   ],
-   "ai": true
-  },
-  {
-   "id": "98475d9484",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon",
-   "url": "https://www.twz.com/news-features/u-s-army-now-wants-concrete-bunkers-for-troops-in-israel-saudi-arabia-and-lebanon",
-   "snippet": "The Army wants to replace modified shipping containers with concrete bunkers in the latest sign that the Pentagon is finally taking hardening more seriously. The post U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon appeared first on TWZ .",
-   "published": "2026-11-16T21:15:24.000Z",
-   "also": [],
-   "score": 1.29,
-   "image": "/img/news/98475d9484.webp",
-   "t": "2026-11-17",
-   "summary": "The War Zone says the Army wants concrete bunkers to replace modified shipping containers for troops in Israel, Saudi Arabia and Lebanon.",
-   "why": "The proposed bunkers reflect a shift toward hardened troop facilities.",
-   "tags": [
-    "concrete bunkers",
-    "Army",
-    "hardening"
-   ],
-   "ai": true
-  },
-  {
-   "id": "72751a80cc",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
-   "published": "2026-11-17T10:45:55.000Z",
-   "also": [],
-   "score": 1.57,
-   "image": "/img/news/72751a80cc.webp",
-   "t": "2026-11-17",
-   "summary": "The Crimea bridge partly collapsed; Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
-   "why": "The bridge’s strategic role and the reported damage are relevant to regional transport and infrastructure analysis.",
-   "tags": [
-    "Crimea bridge",
-    "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "af89b20eee",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Will President Trump meet Kim Jong Un?",
-   "url": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "President Trump says he would be keen to meet the North Korea leader in China.",
-   "published": "2026-11-17T10:13:27.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/af89b20eee.webp",
-   "t": "2026-11-17",
-   "summary": "President Trump says he would be keen to meet North Korea’s leader in China.",
-   "why": "The stated interest in a meeting is relevant to tracking possible diplomatic engagement.",
-   "tags": [
-    "Trump",
-    "North Korea",
-    "China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d6d151e670",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-   "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-   "published": "2026-11-17T07:44:17.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/d6d151e670.webp",
-   "t": "2026-11-17",
-   "summary": "Japan sent up jets after an alleged Russian airspace incursion; Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-   "why": "Responses across three airspaces are relevant to regional air activity and monitoring.",
-   "tags": [
-    "airspace",
-    "Russian aircraft"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2fe613e248",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Ukrainian breaks world record for deepest competitive freedive",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/ukrainian-breaks-world-record-for-deepest-competitive-freedive?traffic_source=rss",
-   "snippet": "Ukrainian freediver Nataliia Zharkova has broken the world record, reaching 124 metres in constant weight.",
-   "published": "2026-11-17T11:37:13.000Z",
+   "title": "Watch a large aerial drone evacuate a wounded Ukrainian soldier from the front line",
+   "url": "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
+   "snippet": "Ukraine is expanding its use of large drones for battlefield medical evacuations. Watch as a Ukrainian team uses an aerial drone to transport a wounded soldier from a forward position to a field hospital.",
+   "published": "2026-11-17T20:31:20.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/2fe613e248.webp",
+   "image": "/img/news/ab9054d177.webp",
    "t": "2026-11-17",
-   "summary": "Al Jazeera reports that Ukrainian freediver Nataliia Zharkova reached 124 metres in constant weight, breaking the world record.",
-   "why": "No clear strategic or geospatial relevance is stated in the snippet.",
+   "summary": "Ukraine is expanding its use of large drones for battlefield medical evacuations, including transporting a wounded soldier to a field hospital.",
+   "why": "Large drones may serve an evacuation role between forward positions and medical facilities.",
    "tags": [
-    "freedive",
-    "Ukraine"
+    "Ukraine",
+    "drones",
+    "medical evacuation"
    ],
    "ai": true
   },
   {
-   "id": "3e64cb8bc0",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Vessels on fire after naval mine hit in Hormuz Strait, Iran says",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/vessels-on-fire-after-naval-mine-hit-in-hormuz-strait-iran-says?traffic_source=rss",
-   "snippet": "Two vessels have caught fire after hitting a naval mine in the Strait of Hormuz.",
-   "published": "2026-11-17T11:19:04.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/3e64cb8bc0.webp",
-   "t": "2026-11-17",
-   "summary": "Iran says two vessels caught fire after hitting a naval mine in the Strait of Hormuz.",
-   "why": "The reported incident is relevant to maritime activity in the Strait of Hormuz.",
-   "tags": [
-    "naval mine",
-    "Hormuz Strait"
-   ],
-   "ai": true
-  },
-  {
-   "id": "44b2fbcbaf",
+   "id": "e77ffd9aec",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-   "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
-   "published": "2026-11-17T05:59:01.000Z",
+   "title": "Russian military plane crashes killing all 19 on board",
+   "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+   "published": "2026-11-17T21:06:11.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/44b2fbcbaf.webp",
+   "score": 1.6,
+   "image": "/img/news/e77ffd9aec.webp",
    "t": "2026-11-17",
-   "summary": "Officials say continuing Russian strikes are hampering efforts to recover bodies after a “double-tap” attack in southern Ukraine.",
-   "why": "The reported strikes are relevant to assessing conditions for recovery operations.",
+   "summary": "Russia’s defence ministry says it preliminarily believes a technical malfunction caused a military plane crash in the Kemerovo region, killing all 19 on board.",
+   "why": "The reported crash is a military aviation incident in the Kemerovo region.",
    "tags": [
-    "Ukraine",
-    "recovery operation"
+    "Russia",
+    "military plane",
+    "Kemerovo"
    ],
    "ai": true
   },
   {
-   "id": "2bbd1e0c1b",
+   "id": "53594a30de",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Who is behind Habibi UK, an X account that targeted critics of Israel?",
-   "url": "https://www.aljazeera.com/news/2026/11/17/who-is-behind-habibi-uk-an-x-account-that-targeted-critics-of-israel?traffic_source=rss",
-   "snippet": "A former US Foreign Service officer ran a company that funded election adverts attacking Jeremy Corbyn’s Labour.",
-   "published": "2026-11-17T10:53:42.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+   "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+   "published": "2026-11-17T20:30:20.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/2bbd1e0c1b.webp",
+   "score": 1.59,
+   "image": "/img/news/53594a30de.webp",
    "t": "2026-11-17",
-   "summary": "Al Jazeera reports that a former US Foreign Service officer ran a company that funded election adverts attacking Jeremy Corbyn’s Labour.",
-   "why": "The reported funding and advertising are relevant to examining political influence activity.",
+   "summary": "Palestinians say settlers attacked in al-Duyuk al-Tahta; the Israeli military says settlers fired after being attacked. A 72-year-old woman was killed.",
+   "why": "The accounts differ, making attribution and local reporting important to follow.",
    "tags": [
-    "election adverts",
-    "funding"
+    "West Bank",
+    "settlers",
+    "al-Duyuk al-Tahta"
    ],
    "ai": true
   },
   {
-   "id": "3c31315ad5",
+   "id": "9467b2d782",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Kim Jong Un tours North Korea ski resort with daughter Ju Ae",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/kim-jong-un-tours-north-korea-ski-resort-with-daughter-ju-ae?traffic_source=rss",
-   "snippet": "Kim Jong Un toured a ski resort under development in a tourist district in Samjiyon with his daughter Ju Ae.",
-   "published": "2026-11-17T09:12:38.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+   "published": "2026-11-17T20:44:54.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/3c31315ad5.webp",
+   "score": 1.59,
+   "image": "/img/news/9467b2d782.webp",
    "t": "2026-11-17",
-   "summary": "Kim Jong Un toured a ski resort under development in Samjiyon’s tourist district with his daughter Ju Ae.",
-   "why": "The tour is relevant to monitoring development in North Korea’s tourist district.",
+   "summary": "The Metropolitan Police say an American soldier arrested in the UK on suspicion of spying has been taken into US military custody.",
+   "why": "The case involves suspected espionage allegations and custody across jurisdictions.",
    "tags": [
-    "Samjiyon",
-    "ski resort"
+    "UK",
+    "United States",
+    "espionage"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6543de669b",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
+   "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\".",
+   "published": "2026-11-17T20:25:46.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/6543de669b.webp",
+   "t": "2026-11-17",
+   "summary": "Trump is in Asia ahead of talks with Russian and Chinese presidents and said he would be open to a one-on-one meeting with Putin if available.",
+   "why": "The possible meeting is part of high-level diplomatic engagement involving Russia and China.",
+   "tags": [
+    "Trump",
+    "Putin",
+    "Asia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a02560e5fe",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "As the Nvidia scandal threatens to reignite trade tensions at Trump-Xi talks, Beijing still holds the rare earths",
+   "url": "https://www.atlanticcouncil.org/blogs/econographics/as-the-nvidia-scandal-threatens-to-reignite-trade-tensions-at-trump-xi-talks-beijing-still-holds-the-rare-earths/",
+   "snippet": "Washington’s push to close loopholes could invite renewed Chinese restrictions on rare earths, exposing a supply-chain vulnerability that the trade truce never resolved. The post As the Nvidia scandal threatens to reignite trade tensions at Trump-Xi talks, Beijing still holds the rare earths appeared first on Atlantic ",
+   "published": "2026-11-17T19:17:43.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/a02560e5fe.webp",
+   "t": "2026-11-17",
+   "summary": "The Atlantic Council says Washington’s push to close loopholes could renew Chinese restrictions on rare earths, exposing an unresolved supply-chain vulnerability.",
+   "why": "Rare earth supply dependence is a strategic vulnerability amid potential trade tensions.",
+   "tags": [
+    "rare earths",
+    "China",
+    "supply chain"
+   ],
+   "ai": true
+  },
+  {
+   "id": "924031eed6",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "UK sanctions firms over Israeli West Bank settlements",
+   "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
+   "published": "2026-11-17T18:27:27.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/924031eed6.webp",
+   "t": "2026-11-17",
+   "summary": "The UK has sanctioned firms over Israeli West Bank settlements, marking the first sanctions since it announced a tougher approach.",
+   "why": "The sanctions signal a change in the UK’s approach to actions in the territory.",
+   "tags": [
+    "UK",
+    "sanctions",
+    "West Bank"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a2dbea4956",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "What Trump, Putin, and Xi want from their meeting in Shenzhen",
+   "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/",
+   "snippet": "Atlantic Council experts answer seven pressing questions ahead of the meeting of the US, Russia, and Chinese presidents. The post What Trump, Putin, and Xi want from their meeting in Shenzhen appeared first on Atlantic Council .",
+   "published": "2026-11-17T17:37:45.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/a2dbea4956.webp",
+   "t": "2026-11-17",
+   "summary": "Atlantic Council experts address what Trump, Putin, and Xi want from a meeting in Shenzhen.",
+   "why": "The meeting brings together leaders from the United States, Russia, and China.",
+   "tags": [
+    "Trump",
+    "Putin",
+    "Xi"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b7bc9f3d56",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+   "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+   "published": "2026-11-17T17:37:04.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/b7bc9f3d56.webp",
+   "t": "2026-11-17",
+   "summary": "Trump says the US is taking any Iranian plot against Washington very seriously; Tehran rejects the suggestion of a dirty bomb plot as baseless.",
+   "why": "The opposing claims make careful attribution important when assessing this allegation.",
+   "tags": [
+    "Iran",
+    "Washington",
+    "dirty bomb"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+  },
   {
    "cve": "CVE-2026-114713",
    "vendor": "UnrealIRCd",
@@ -697,62 +701,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 9.8,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
-  },
-  {
-   "cve": "CVE-2026-123218",
-   "vendor": "IBM",
-   "product": "Aspera Faspex",
-   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
-   "added": "2026-11-09",
-   "due": "2026-11-12",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.8,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
   }
  ],
  "run_today": [
-  "Review third-party infrastructure exposure and response plans following Uber’s reported breach.",
-  "Check for unusual command-and-control activity through SharePoint and GitHub.",
-  "Inventory Optimizely use and investigate exposure to the reported vulnerability."
+  "Check whether InfoScan is deployed and review CISA’s advisory for its vulnerabilities and mitigations.",
+  "Review the KEV Catalog and identify whether its newly added vulnerability affects your environment.",
+  "Check for the listed Siemens products and consult their CISA advisories for affected versions and guidance."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Remote Lock",
-   "explainer": "Remote Lock is a feature that lets enterprise IT administrators lock a lost or stolen Windows device remotely without wiping it.",
-   "from_id": "1dc4676c82",
-   "from": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities Catalog",
+   "explainer": "A CISA catalog of vulnerabilities for which there is evidence of active exploitation. Defenders can use it to identify issues that may need prompt attention.",
+   "from_id": "f49e9f798b",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "procurement",
-   "explainer": "Procurement is the process of obtaining equipment and services. In the Germany article, it is discussed in relation to defense spending and military capability.",
-   "from_id": "2fbfcc2430",
-   "from": "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/",
-   "fromSource": "War on the Rocks"
+   "term": "electronic jamming",
+   "explainer": "Interference with electronic signals. In the Army drone trials described here, heavy jamming is one of the conditions the systems will face.",
+   "from_id": "0439936852",
+   "from": "https://breakingdefense.com/2026/11/army-kicks-off-manufacturing-rodeo-with-focus-on-small-drones/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "airspace",
-   "explainer": "Airspace is the area above a place in which aircraft operate. The report describes countries responding to Russian military aircraft near their airspaces.",
-   "from_id": "d6d151e670",
-   "from": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "supply-chain vulnerability",
+   "explainer": "A weakness in how goods are sourced or supplied. The article describes rare earth supply as a vulnerability that trade tensions could expose.",
+   "from_id": "a02560e5fe",
+   "from": "https://www.atlanticcouncil.org/blogs/econographics/as-the-nvidia-scandal-threatens-to-reignite-trade-tensions-at-trump-xi-talks-beijing-still-holds-the-rare-earths/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "analysis": {
-  "headline": "Exposure, Response and Strategic Signals",
+  "headline": "Industrial Vulnerability Advisories Put Inventory in Focus",
   "paragraphs": [
-   "The cyber stories range from stolen data at an infrastructure provider to a proposed way to lock lost devices. Together, they highlight different points in managing exposure: where data is held, how access is controlled, and how organizations respond when devices or services are compromised.",
-   "The Crimea bridge report, Germany’s procurement debate, China’s nuclear expansion, and regional airspace responses concern different strategic settings. They suggest that analysts should distinguish reported events, stated intentions, and longer-term capability questions rather than treating them as equivalent evidence.",
-   "For defenders, the immediate focus is on checking third-party services, device controls, and exposed web scripts. For analysts, watch how the reported bridge damage and airspace responses are described, alongside the stated diplomatic interest in a meeting with North Korea’s leader. The snippets do not establish what follows."
+   "Today’s top stories are concentrated on industrial and software vulnerabilities. CISA advisories name Dorsett Controls InfoScan and several Siemens products, while the available snippets describe only fragments of the issues. One reports that successful exploitation of vulnerabilities could allow sensitive information retrieval; others mention MCP Server vulnerabilities, command injection, active content execution, and authentication bypass.",
+   "The KEV Catalog item adds a distinct signal: CISA says one vulnerability was added based on evidence of active exploitation. The snippet does not identify that vulnerability, so it cannot be matched here to the other advisories. Together, the stories suggest defenders should distinguish product-specific advisory details from the separate catalog notice, then establish which systems and versions are present.",
+   "For analysts, the limited descriptions make the linked advisories and affected-product inventories important next checks. Confirming applicability before drawing connections may help avoid treating these reports as one incident or vulnerability set. Watch for fuller advisory details, remediation guidance, and whether the catalog entry can be mapped to systems in your environment."
   ],
   "takeaways": [
-   "Review third-party exposure and device-loss procedures.",
-   "Separate reported incidents from stated intentions.",
-   "Track airspace responses and strategic infrastructure reports."
+   "Inventory industrial software to establish whether the named products are present.",
+   "Review the KEV Catalog entry separately from the product advisories.",
+   "Use full advisory details to confirm applicability and mitigation steps."
   ]
  },
  "health": [
@@ -760,7 +752,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 12
   },
   {
    "name": "Krebs on Security",
@@ -778,7 +770,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 12
+   "n": 15
   },
   {
    "name": "The Record",
@@ -802,13 +794,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Google Threat Intelligence",
@@ -820,7 +812,7 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Schneier on Security",
@@ -832,37 +824,37 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 8
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 10
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 5
   },
   {
    "name": "Bellingcat",
@@ -880,7 +872,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "International Crisis Group",
@@ -898,7 +890,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 4
   },
   {
    "name": "Foreign Policy",
@@ -910,7 +902,7 @@
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "RAND",
@@ -922,31 +914,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 12
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 3
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 9
   }
  ]
 }
