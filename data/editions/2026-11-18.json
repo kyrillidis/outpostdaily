@@ -1,9 +1,74 @@
 {
  "date": "2026-11-18",
  "edition": 247,
- "compiled": "2026-11-18T02:59:46.207Z",
+ "compiled": "2026-11-18T11:21:37.638Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "4f4cc6f190",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "snippet": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+   "published": "2026-11-18T10:35:05.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/4f4cc6f190.webp",
+   "t": "2026-11-18",
+   "summary": "Apache says it has released updates for a critical Roller flaw that attackers are exploiting to execute code on vulnerable servers.",
+   "why": "Check Roller deployments and apply Apache’s security updates.",
+   "tags": [
+    "Roller",
+    "RCE",
+    "security updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4ccf67b96d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "snippet": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+   "published": "2026-11-18T09:24:31.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/4ccf67b96d.webp",
+   "t": "2026-11-18",
+   "summary": "Microsoft announced Windows Server 2028, the next major release of its server operating system, at Ignite 2026.",
+   "why": "Track the release for information about its security features and deployment planning.",
+   "tags": [
+    "Windows Server 2028",
+    "Microsoft"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0ad69605a8",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "snippet": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+   "published": "2026-11-18T08:24:18.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/0ad69605a8.webp",
+   "t": "2026-11-18",
+   "summary": "A leader of the Scattered Spider cybercrime collective was sentenced to six years in the United States for cryptocurrency theft and conspiring to hack companies.",
+   "why": "The case highlights law-enforcement consequences for cybercrime; review incident reporting and response processes.",
+   "tags": [
+    "Scattered Spider",
+    "cybercrime",
+    "sentence"
+   ],
+   "ai": true
+  },
   {
    "id": "c559964442",
    "section": "cyber",
@@ -14,7 +79,7 @@
    "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malici",
    "published": "2026-11-18T02:52:04.000Z",
    "also": [],
-   "score": 1.7,
+   "score": 1.52,
    "image": "/img/news/c559964442.webp",
    "t": "2026-11-18",
    "summary": "Krebs on Security reports that a vulnerability involving Optimizely led at least 178 top web destinations to serve malware exploits to visitors over the past 24 hours.",
@@ -26,182 +91,156 @@
    "ai": true
   },
   {
-   "id": "a0f483dd42",
+   "id": "aa9ca93e66",
    "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens ROS#",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-06.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to t",
-   "published": "2026-11-17T12:00:00.000Z",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+   "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+   "snippet": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
+   "published": "2026-11-18T11:05:39.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.49,
+   "image": "/img/news/aa9ca93e66.webp",
    "t": "2026-11-18",
-   "summary": "CISA says Siemens ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker to act.",
-   "why": "Check ROS# versions in use and update affected installations to version 2.3.1 or later.",
+   "summary": "SecurityWeek reports that versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts.",
+   "why": "Check dependency versions and assess whether affected credentials may have been exposed.",
    "tags": [
-    "ROS#",
-    "code injection"
+    "PyPI",
+    "credential stealer",
+    "Azure"
    ],
    "ai": true
   },
   {
-   "id": "2662cf7138",
+   "id": "94321d4b37",
    "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Dorsett Controls InfoScan",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authori",
-   "published": "2026-11-17T12:00:00.000Z",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+   "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+   "snippet": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
+   "published": "2026-11-18T10:37:08.000Z",
    "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "CISA says successful exploitation of vulnerabilities in Dorsett Controls InfoScan could allow an attacker to retrieve sensitive information; the snippet does not specify more.",
-   "why": "Check whether InfoScan is in use and review the linked CISA advisory for applicable mitigations.",
-   "tags": [
-    "Dorsett Controls",
-    "InfoScan"
-   ],
-   "ai": true
-  },
-  {
-   "id": "91c22df4b3",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens Mendix Studio Pro",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-05.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remote",
-   "published": "2026-11-17T12:00:00.000Z",
-   "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "CISA says Siemens Mendix Studio Pro contains multiple MCP Server vulnerabilities that could allow an attacker to act; the snippet cuts off before specifying how.",
-   "why": "Check whether Mendix Studio Pro is deployed and consult the advisory for affected versions and mitigations.",
-   "tags": [
-    "Mendix Studio Pro",
-    "MCP Server"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dc2d43865f",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write a",
-   "published": "2026-11-17T12:00:00.000Z",
-   "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "CISA says the .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities; the snippet does not give further details.",
-   "why": "Check whether this library is used and review the advisory for affected versions and mitigations.",
-   "tags": [
-    ".NET Client Library",
-    "SIMATIC S7"
-   ],
-   "ai": true
-  },
-  {
-   "id": "04fced3604",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Critical Java Vulnerability Requires Immediate Patching",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-   "snippet": "<h2><strong>Purpose</strong></h2> <p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the B",
-   "published": "2026-11-17T12:00:00.000Z",
-   "also": [],
-   "score": 1.59,
+   "score": 1.48,
+   "image": "/img/news/94321d4b37.webp",
    "t": "2026-11-18",
-   "summary": "CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938.",
-   "why": "Identify Oracle Java deployments and prioritize applying the patch CISA urges organizations to install.",
+   "summary": "SecurityWeek says CVE-2026-115731 lets a client holding any CA-signed agent certificate execute code on a Perforce Puppet server.",
+   "why": "Review Puppet access and certificates, and check for exposure to the reported flaw.",
+   "tags": [
+    "Perforce Puppet",
+    "RCE",
+    "agent certificate"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0dd01d7b39",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+   "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+   "snippet": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
+   "published": "2026-11-18T08:47:18.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/0dd01d7b39.webp",
+   "t": "2026-11-18",
+   "summary": "Oracle’s November 2026 CSPU includes 950 patches; more than 300 address unauthenticated, remotely exploitable flaws, and 62 fix critical-severity flaws.",
+   "why": "Review affected Oracle products and prioritize patches for remotely exploitable flaws.",
+   "tags": [
+    "Oracle",
+    "patches",
+    "CSPU"
+   ],
+   "ai": true
+  },
+  {
+   "id": "25f152a1b5",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+   "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnera",
+   "published": "2026-11-18T08:24:31.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/25f152a1b5.webp",
+   "t": "2026-11-18",
+   "summary": "The Hacker News reports that CISA added a critical Perforce Puppet flaw to its Known Exploited Vulnerabilities catalog.",
+   "why": "Check whether Perforce Puppet is deployed and prioritize remediation of the exploited flaw.",
+   "tags": [
+    "Perforce Puppet",
+    "CISA",
+    "KEV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1db641aaef",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote",
+   "published": "2026-11-18T08:24:23.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/1db641aaef.webp",
+   "t": "2026-11-18",
+   "summary": "CISA urged organizations to immediately patch a newly disclosed critical flaw in Oracle Java, tracked as CVE-2026-114938.",
+   "why": "Identify Oracle Java deployments and assess patch status.",
    "tags": [
     "Oracle Java",
+    "CISA",
     "patching"
    ],
    "ai": true
   },
   {
-   "id": "877e907402",
+   "id": "c5f6c87fa0",
    "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens Industrial Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
-   "published": "2026-11-17T12:00:00.000Z",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "snippet": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .",
+   "published": "2026-11-18T07:43:34.000Z",
    "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "The CISA advisory for Siemens Industrial Software Products refers to Node.js security updates addressing a critical vulnerability.",
-   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
-   "tags": [
-    "Industrial Software",
-    "Node.js"
-   ],
-   "ai": true
-  },
-  {
-   "id": "51d812581a",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens Simcenter Femap",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-10.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allo",
-   "published": "2026-11-17T12:00:00.000Z",
-   "also": [],
-   "score": 1.59,
+   "score": 1.42,
+   "image": "/img/news/c5f6c87fa0.webp",
    "t": "2026-11-18",
-   "summary": "CISA says Siemens Simcenter Femap is affected by an out-of-bounds read vulnerability that could be triggered when...",
-   "why": "Check whether Simcenter Femap is in use and consult the CISA advisory for affected conditions and remediation.",
+   "summary": "SecurityWeek reports a demonstration of Java4Shell remote code execution in Jira, Jenkins, and Keycloak; VulnCheck says real-world exploitation requires per-target work.",
+   "why": "Check affected applications and evaluate exposure to the reported Java flaw.",
    "tags": [
-    "Simcenter Femap",
-    "out-of-bounds read"
+    "Java4Shell",
+    "RCE",
+    "Jira"
    ],
    "ai": true
   },
   {
-   "id": "9c3818e954",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens SIMATIC",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate use",
-   "published": "2026-11-17T12:00:00.000Z",
+   "id": "6b79a1276c",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks",
+   "url": "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/",
+   "snippet": "U.S. President Donald Trump, who has sought nuclear arms control with Russia and China since his first term, may finally have his chance. The first-ever U.S.-Chinese-Russian leaders’ summit is set to take place in Shenzhen, with nuclear issues potentially on the agenda. Regardless of whether the summit yields substanti",
+   "published": "2026-11-18T08:30:27.000Z",
    "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "CISA says products listed in the Siemens SIMATIC advisory contain an authentication bypass vulnerability.",
-   "why": "Identify affected SIMATIC products and review the advisory for relevant mitigations.",
+   "score": 1.54,
+   "image": "/img/news/6b79a1276c.webp",
+   "t": "2026-11-18",
+   "summary": "The article says a first-ever U.S.-Chinese-Russian leaders’ summit is set to take place, with nuclear issues potentially on the agenda.",
+   "why": "The summit may offer a venue for trilateral nuclear arms-control discussion.",
    "tags": [
-    "Siemens SIMATIC",
-    "authentication bypass"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7257208220",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Siemens Industrial Automation Software Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
-   "published": "2026-11-17T12:00:00.000Z",
-   "also": [],
-   "score": 1.59,
-   "t": "2026-11-17",
-   "summary": "The CISA advisory for Siemens Industrial Automation Software Products refers to Node.js security updates addressing a critical vulnerability.",
-   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
-   "tags": [
-    "Industrial Automation",
-    "Node.js"
+    "nuclear talks",
+    "summit",
+    "U.S.-Chinese-Russian"
    ],
    "ai": true
   },
@@ -215,7 +254,7 @@
    "snippet": "Russian aircraft violated Japanese airspace and approached Taiwan before two Tu-95s and two Il-76s touched down in Da Nang. The post Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts appeared first on TWZ .",
    "published": "2026-11-17T23:39:58.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.36,
    "image": "/img/news/5fc2eb1bed.webp",
    "t": "2026-11-18",
    "summary": "The War Zone reports that two Russian Tu-95s and two Il-76s landed in Da Nang after Russian aircraft violated Japanese airspace and approached Taiwan.",
@@ -236,7 +275,7 @@
    "snippet": "Opposition is growing to Trump's call to abandon electromagnetic catapults on future Ford class carriers, which would be costly and risky. The post Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair appeared first on TWZ .",
    "published": "2026-11-17T22:16:24.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.33,
    "image": "/img/news/3bc2395a40.webp",
    "t": "2026-11-18",
    "summary": "The War Zone reports growing opposition to Trump's call to abandon electromagnetic catapults on future Ford-class carriers, describing the change as costly and risky.",
@@ -257,7 +296,7 @@
    "snippet": "The bipartisan pushback came during Acting Navy Secretary Hung Cao’s confirmation hearing, where senators questioned the cost and capability trade-offs of returning future Ford-class carriers to steam-powered catapults.",
    "published": "2026-11-17T22:01:35.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.32,
    "image": "/img/news/a724738d06.webp",
    "t": "2026-11-18",
    "summary": "Breaking Defense reports bipartisan pushback on returning future Ford-class carriers to steam catapults, with senators questioning cost and capability trade-offs.",
@@ -278,7 +317,7 @@
    "snippet": "The proposed deal comes at a time when many in Europe have grown increasingly concerned about the reliance on the US for space launch and military space capabilities.",
    "published": "2026-11-17T21:12:16.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.31,
    "image": "/img/news/64f0861e0e.webp",
    "t": "2026-11-18",
    "summary": "Breaking Defense reports that ICEYE made a $2B bid for Italian rocket firm Avio, amid European concern about reliance on the US for space launch and military space capabilities.",
@@ -299,7 +338,7 @@
    "snippet": "The completed drones will compete at the Army’s third Drone Dominance Gauntlet event in March where the systems will face “complex” obstacle courses, heavy electronic jamming and “live target arrays.”",
    "published": "2026-11-17T20:44:33.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.3,
    "image": "/img/news/0439936852.webp",
    "t": "2026-11-17",
    "summary": "The Army’s manufacturing rodeo focuses on small drones, which will face obstacle courses, heavy electronic jamming, and live target arrays at a Drone Dominance Gauntlet event.",
@@ -321,7 +360,7 @@
    "snippet": "Easing the sale and sharing of information should increase launch tempo and ward off threats, officials said.",
    "published": "2026-11-18T01:03:52.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.29,
    "image": "/img/news/6cc28b9e0a.webp",
    "t": "2026-11-18",
    "summary": "Defense One reports that NATO aims to support the space industry and militaries by joining a data marketplace; officials say sharing information should increase launch tempo and ward off threats.",
@@ -342,7 +381,7 @@
    "snippet": "NATO operators this month built and deployed AI agents in an exercise, with help from OpenAI.",
    "published": "2026-11-18T00:39:24.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.28,
    "image": "/img/news/a52d147c84.webp",
    "t": "2026-11-18",
    "summary": "Defense One reports that NATO operators built and deployed AI agents in an exercise this month with help from OpenAI.",
@@ -354,200 +393,176 @@
    "ai": true
   },
   {
-   "id": "59d173c166",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "These Are The Weapons Ukraine Used To Drop The Kerch Bridge",
-   "url": "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge",
-   "snippet": "Ukraine brought an eclectic arsenal of homegrown and foreign drones and missiles to bear in its campaign to sever Russia’s critical logistics link to Crimea. The post These Are The Weapons Ukraine Used To Drop The Kerch Bridge appeared first on TWZ .",
-   "published": "2026-11-17T19:22:29.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/59d173c166.webp",
-   "t": "2026-11-17",
-   "summary": "The report says Ukraine used homegrown and foreign drones and missiles in its campaign against Russia’s logistics link to Crimea.",
-   "why": "The account highlights the operational use of mixed drone and missile capabilities against a logistics link.",
-   "tags": [
-    "Ukraine",
-    "drones",
-    "missiles"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e77ffd9aec",
+   "id": "c182bb3c06",
    "section": "geo",
-   "source": "BBC World",
+   "source": "Foreign Policy",
    "weight": 0.6,
-   "title": "Russian military plane crashes, killing all 19 on board",
-   "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
-   "published": "2026-11-17T21:06:11.000Z",
-   "also": [
-    {
-     "source": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss"
-    }
-   ],
-   "score": 1.83,
-   "image": "/img/news/e77ffd9aec.webp",
-   "t": "2026-11-17",
-   "summary": "Russia’s defence ministry says it preliminarily believes a technical malfunction caused a military plane crash in the Kemerovo region, killing all 19 on board.",
-   "why": "The reported crash is a military aviation incident in the Kemerovo region.",
-   "tags": [
-    "Russia",
-    "military plane",
-    "Kemerovo"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a3bc5db3df",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-   "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
-   "published": "2026-11-17T23:02:12.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/a3bc5db3df.webp",
-   "t": "2026-11-18",
-   "summary": "BBC World reports that China worries the Nvidia spy scandal could increase US pressure to restrict sales of advanced chips.",
-   "why": "The issue connects chip access to US-China strategic tensions around AI.",
-   "tags": [
-    "China",
-    "advanced chips"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9467b2d782",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
-   "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
-   "published": "2026-11-17T22:46:30.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/9467b2d782.webp",
-   "t": "2026-11-17",
-   "summary": "The Metropolitan Police say an American soldier arrested in the UK on suspicion of spying has been taken into US military custody.",
-   "why": "The case involves suspected espionage allegations and custody across jurisdictions.",
-   "tags": [
-    "UK",
-    "United States",
-    "espionage"
-   ],
-   "ai": true
-  },
-  {
-   "id": "475de43f78",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Russia’s colossal losses in Ukraine will not push Putin toward peace",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-colossal-losses-in-ukraine-will-not-push-putin-toward-peace/",
-   "snippet": "Russia's heavy losses in Ukraine may hamper Putin’s invasion, but they will not push the Kremlin dictator toward the negotiating table, writes David Kirichenko. The post Russia’s colossal losses in Ukraine will not push Putin toward peace appeared first on Atlantic Council .",
-   "published": "2026-11-17T22:00:14.000Z",
+   "title": "Iran Is Heading for a Swiss-Cheese Solution",
+   "url": "https://foreignpolicy.com/2026/11/18/iran-war-trump-swiss-cheese-solution/",
+   "snippet": "The Iran war is most likely to end not with a bang, but with a whimper.",
+   "published": "2026-11-18T06:46:40.000Z",
    "also": [],
    "score": 1.5,
-   "image": "/img/news/475de43f78.webp",
+   "image": "/img/news/c182bb3c06.webp",
    "t": "2026-11-18",
-   "summary": "The Atlantic Council's David Kirichenko writes that Russia's heavy losses in Ukraine may hamper its invasion but will not push the Kremlin toward negotiations.",
-   "why": "The assessment bears on interpretations of battlefield losses and prospects for negotiation.",
+   "summary": "Foreign Policy characterizes a likely end to the Iran war as a “Swiss-cheese solution,” rather than a decisive conclusion.",
+   "why": "The framing suggests attention to an incomplete or uneven end to the conflict.",
    "tags": [
-    "Russia",
-    "Ukraine"
+    "Iran war",
+    "Swiss-Cheese Solution"
    ],
    "ai": true
   },
   {
-   "id": "324c9d2ace",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Ukraine’s Crimean Bridge attack is a very personal humiliation for Putin",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-crimean-bridge-attack-is-a-very-personal-humiliation-for-putin/",
-   "snippet": "Ukraine hit and partially destroyed the Crimean Bridge on November 17 with an unprecedented drone and missile strike that highlighted Russia's vulnerabilities and served as a very personal humiliation for Vladimir Putin, writes Peter Dickinson. The post Ukraine’s Crimean Bridge attack is a very personal humiliation for",
-   "published": "2026-11-17T21:31:58.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/324c9d2ace.webp",
-   "t": "2026-11-18",
-   "summary": "The Atlantic Council's Peter Dickinson writes that Ukraine hit and partially destroyed the Crimean Bridge with a drone and missile strike, highlighting Russian vulnerabilities.",
-   "why": "The reported strike makes the bridge's vulnerability and its strategic significance salient.",
-   "tags": [
-    "Crimean Bridge",
-    "drone"
-   ],
-   "ai": true
-  },
-  {
-   "id": "72751a80cc",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
-   "published": "2026-11-17T21:24:35.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/72751a80cc.webp",
-   "t": "2026-11-17",
-   "summary": "The Crimea bridge partly collapsed; Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
-   "why": "The bridge’s strategic role and the reported damage are relevant to regional transport and infrastructure analysis.",
-   "tags": [
-    "Crimea bridge",
-    "Ukraine"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7998baf335",
+   "id": "dc7bcd9287",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
-   "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
-   "snippet": "Daithi O'Corrain, 48, has been charged with damaging a US military C-130 aircraft while it was parked overnight.",
-   "published": "2026-11-18T01:32:52.000Z",
+   "title": "Why has an NYT report on Iran’s dams ignited fierce pushback?",
+   "url": "https://www.aljazeera.com/news/2026/11/18/why-has-an-nyt-report-on-irans-dams-ignited-fierce-pushback?traffic_source=rss",
+   "snippet": "The NYT faces backlash over report suggesting a possible link between Iranian dams and underground missile facilities.",
+   "published": "2026-11-18T10:38:13.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/7998baf335.webp",
+   "score": 1.48,
+   "image": "/img/news/dc7bcd9287.webp",
    "t": "2026-11-18",
-   "summary": "Al Jazeera reports that Daithi O'Corrain, 48, has been charged with damaging a US military C-130 aircraft parked overnight at an Irish airport.",
-   "why": "The incident concerns the security of military aircraft while parked at an airport.",
+   "summary": "Al Jazeera reports backlash over a New York Times report suggesting a possible link between Iranian dams and underground missile facilities.",
+   "why": "The dispute concerns claims about infrastructure and possible military facilities; distinguish reporting from established facts.",
    "tags": [
-    "C-130",
-    "Irish airport"
+    "Iran",
+    "dams",
+    "missile facilities"
    ],
    "ai": true
   },
   {
-   "id": "53594a30de",
+   "id": "3d44534895",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-   "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
-   "published": "2026-11-17T20:30:20.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Traumas of Sudan war lead to wave of drug addiction",
+   "url": "https://www.aljazeera.com/features/2026/11/18/traumas-of-sudan-war-is-seeing-a-wave-of-drug-addiction?traffic_source=rss",
+   "snippet": "Anguish caused by conflict sees a growing number of young people turn to drugs.",
+   "published": "2026-11-18T10:35:06.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/3d44534895.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera reports that anguish caused by the Sudan conflict is associated with more young people turning to drugs.",
+   "why": "The report highlights a social consequence of conflict in Sudan.",
+   "tags": [
+    "Sudan war",
+    "drug addiction",
+    "young people"
+   ],
+   "ai": true
+  },
+  {
+   "id": "46b240cfb1",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "What do Deutsche Bank leaks reveal about Trump, Epstein and Russia?",
+   "url": "https://www.aljazeera.com/news/2026/11/18/what-do-deutsche-bank-leaks-reveal-about-trump-epstein-and-russia?traffic_source=rss",
+   "snippet": "Deutsche Bank leaks expose ties to Trump, Epstein, and global elites amid scrutiny over past financial misconduct.",
+   "published": "2026-11-18T09:42:26.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/46b240cfb1.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera says Deutsche Bank leaks expose ties involving Trump, Epstein, and global elites amid scrutiny over past financial misconduct.",
+   "why": "The report concerns financial disclosures and scrutiny of alleged misconduct.",
+   "tags": [
+    "Deutsche Bank",
+    "leaks",
+    "financial misconduct"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f183011ed9",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Piecemeal wars: A new kind of world war is already under way",
+   "url": "https://www.aljazeera.com/opinions/2026/11/18/piecemeal-wars-a-new-kind-of-world-war-is-already-under-way?traffic_source=rss",
+   "snippet": "Separate regional conflicts are increasingly linked by the interests of rival powers.",
+   "published": "2026-11-18T09:31:18.000Z",
    "also": [],
    "score": 1.46,
-   "image": "/img/news/53594a30de.webp",
-   "t": "2026-11-17",
-   "summary": "Palestinians say settlers attacked in al-Duyuk al-Tahta; the Israeli military says settlers fired after being attacked. A 72-year-old woman was killed.",
-   "why": "The accounts differ, making attribution and local reporting important to follow.",
+   "image": "/img/news/f183011ed9.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera says separate regional conflicts are increasingly linked by the interests of rival powers.",
+   "why": "The framing emphasizes how rival powers’ interests may connect regional conflicts.",
    "tags": [
-    "West Bank",
-    "settlers",
-    "al-Duyuk al-Tahta"
+    "regional conflicts",
+    "rival powers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c5f790c60f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Photos: Thousands march in Haiti in support of Salvadoran troops",
+   "url": "https://www.aljazeera.com/gallery/2026/11/18/photos-thousands-march-in-haiti-in-support-of-salvadoran-troops?traffic_source=rss",
+   "snippet": "Haitians take to the streets to praise El Salvador’s Nayib Bukele and his soldiers for fighting gangs in their country.",
+   "published": "2026-11-18T09:23:38.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/c5f790c60f.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera reports that Haitians marched in support of El Salvador’s Nayib Bukele and his soldiers for fighting gangs in Haiti.",
+   "why": "The march signals public support for El Salvador’s troop deployment in Haiti.",
+   "tags": [
+    "Haiti",
+    "El Salvador",
+    "troops"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5bbc4d733f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Sandpapergate: Cricket Australia to open forum for players, rules out probe",
+   "url": "https://www.aljazeera.com/sports/2026/11/18/sandpapergate-cricket-australia-to-open-forum-for-players-rules-out-probe?traffic_source=rss",
+   "snippet": "Cricket Australia says it will establish a forum, likely led by a former judge, but there will be no new sanctions.",
+   "published": "2026-11-18T09:18:37.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/5bbc4d733f.webp",
+   "t": "2026-11-18",
+   "summary": "Cricket Australia says it will establish a forum, likely led by a former judge, and rules out new sanctions over Sandpapergate.",
+   "why": "The announcement concerns the planned process and the decision not to impose further sanctions.",
+   "tags": [
+    "Cricket Australia",
+    "forum",
+    "Sandpapergate"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5fb3ae69e3",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Haitians rally in celebration of El Salvador’s anti-gang troop deployment",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/haitians-rally-in-celebration-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
+   "snippet": "Hundreds of Haitians have taken to the streets, celebrating El Salvador’s anti-gang military troops.",
+   "published": "2026-11-18T08:53:15.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/5fb3ae69e3.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera reports that hundreds of Haitians celebrated El Salvador’s anti-gang military troops.",
+   "why": "The rally reflects public support for the deployment in Haiti.",
+   "tags": [
+    "Haiti",
+    "anti-gang",
+    "troops"
    ],
    "ai": true
   }
@@ -699,47 +714,47 @@
   }
  ],
  "run_today": [
-  "Check sites using Optimizely and review visitor-facing activity for evidence of malware exploit delivery.",
-  "Inventory Siemens ROS# deployments and update versions before 2.3.1.",
-  "Identify Oracle Java deployments and prioritize patching the vulnerability CISA flagged."
+  "Check Apache Roller deployments and apply the released security updates.",
+  "Audit PyPI dependencies for agent-framework versions 1.26.1 and 1.26.2; assess exposure of related credentials.",
+  "Check Perforce Puppet deployments and prioritize remediation of the exploited RCE flaw."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "code injection",
-   "explainer": "Code injection is a vulnerability in which an attacker may cause a system to process code that was not intended. CISA says affected Siemens ROS# versions contain this vulnerability.",
-   "from_id": "a0f483dd42",
-   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-   "fromSource": "CISA Advisories"
+   "term": "Remote code execution",
+   "explainer": "Remote code execution (RCE) is a flaw that can let someone run code on a system from elsewhere. The Roller and Perforce Puppet stories describe RCE vulnerabilities.",
+   "from_id": "4f4cc6f190",
+   "from": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "steam catapults",
-   "explainer": "Steam catapults are a carrier launch technology. The supplied stories describe debate over whether future Ford-class carriers should use them instead of electromagnetic catapults, with cost and capability trade-offs under discussion.",
-   "from_id": "3bc2395a40",
-   "from": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair",
-   "fromSource": "The War Zone"
+   "term": "Nuclear arms control",
+   "explainer": "Nuclear arms control refers to efforts to address or manage nuclear weapons. The summit story says nuclear issues may be discussed by U.S., Chinese, and Russian leaders.",
+   "from_id": "6b79a1276c",
+   "from": "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/",
+   "fromSource": "War on the Rocks"
   },
   {
    "domain": "geo",
-   "term": "advanced chips",
-   "explainer": "Advanced chips are high-end semiconductors. The supplied story says China worries the Nvidia spy scandal could increase US pressure to restrict their sale.",
-   "from_id": "a3bc5db3df",
-   "from": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "Regional conflicts",
+   "explainer": "Regional conflicts are conflicts centered in particular areas. The article describes separate conflicts as increasingly linked by rival powers’ interests.",
+   "from_id": "f183011ed9",
+   "from": "https://www.aljazeera.com/opinions/2026/11/18/piecemeal-wars-a-new-kind-of-world-war-is-already-under-way?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Cyber exposure and military systems in focus",
+  "headline": "Exploited flaws and shifting security priorities",
   "paragraphs": [
-   "The top stories span a reported technical malfunction behind a Russian military plane crash and cyber vulnerabilities affecting web destinations and Siemens software. These are distinct events, but together they underline how technical systems can become central to operational risk. The available snippets do not establish a connection between them.",
-   "For defenders, the cyber items offer concrete checks: assess exposure to the Optimizely vulnerability, review ROS# versions, and act on CISA's Java patching advice. For analysts, the plane-crash account is preliminary: Russia's defence ministry says it believes a technical malfunction caused the crash. That claim should remain attributed.",
-   "The stories also show why careful sourcing matters. The Optimizely report says at least 178 destinations served exploits, while the Siemens ROS# snippet identifies a code injection vulnerability but provides little detail. Watch for fuller advisory information and confirmed updates; do not treat incomplete snippets or preliminary claims as settled explanations."
+   "The cyber stories combine active exploitation, a poisoned software release, and a newly announced server platform. Together they show why defenders need to track both vulnerabilities in deployed systems and risks entering through software dependencies. The Windows Server announcement offers a security focus, but the supplied snippet gives no feature details.",
+   "The top stories also include a reported sentence for a Scattered Spider leader and a planned U.S.-Chinese-Russian summit where nuclear issues may be discussed. These are different kinds of developments: one concerns consequences for cybercrime, while the other may create a forum for nuclear arms-control talks. Neither snippet establishes what follows.",
+   "For defenders, the clearest immediate signal is the report of Roller exploitation, alongside the credential-stealing package versions. Check affected systems and dependencies, and verify credential exposure where relevant. For analysts, watch for concrete details on Windows Server 2028 and the summit’s nuclear agenda; the snippets do not say what either will deliver."
   ],
   "takeaways": [
-   "Check exposed web services and affected software against the available cyber advisories.",
-   "Keep the reported crash cause attributed to Russia's defence ministry.",
-   "Seek fuller details before drawing conclusions from truncated vulnerability summaries."
+   "Check exposed Roller systems and address the reported flaw.",
+   "Review dependencies and credentials for the affected agent-framework versions.",
+   "Treat the summit’s nuclear agenda as possible, not confirmed."
   ]
  },
  "health": [
@@ -765,7 +780,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 15
   },
   {
    "name": "The Record",
@@ -789,13 +804,13 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 4
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Google Threat Intelligence",
@@ -819,19 +834,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "Defense One",
@@ -848,8 +863,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 4
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -867,7 +882,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "International Crisis Group",
@@ -879,25 +894,25 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "RAND",
@@ -909,31 +924,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 3
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 10
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 14
+   "n": 12
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   }
  ]
 }
