@@ -1,0 +1,939 @@
+{
+ "date": "2026-11-18",
+ "edition": 247,
+ "compiled": "2026-11-18T02:59:46.207Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "c559964442",
+   "section": "cyber",
+   "source": "Krebs on Security",
+   "weight": 0.7,
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malici",
+   "published": "2026-11-18T02:52:04.000Z",
+   "also": [],
+   "score": 1.7,
+   "image": "/img/news/c559964442.webp",
+   "t": "2026-11-18",
+   "summary": "Krebs on Security reports that a vulnerability involving Optimizely led at least 178 top web destinations to serve malware exploits to visitors over the past 24 hours.",
+   "why": "Check whether your sites use Optimizely and review visitor-facing activity for signs of the reported exploit delivery.",
+   "tags": [
+    "Optimizely",
+    "malware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a0f483dd42",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens ROS#",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-06.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to t",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-18",
+   "summary": "CISA says Siemens ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker to act.",
+   "why": "Check ROS# versions in use and update affected installations to version 2.3.1 or later.",
+   "tags": [
+    "ROS#",
+    "code injection"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2662cf7138",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Dorsett Controls InfoScan",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authori",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "CISA says successful exploitation of vulnerabilities in Dorsett Controls InfoScan could allow an attacker to retrieve sensitive information; the snippet does not specify more.",
+   "why": "Check whether InfoScan is in use and review the linked CISA advisory for applicable mitigations.",
+   "tags": [
+    "Dorsett Controls",
+    "InfoScan"
+   ],
+   "ai": true
+  },
+  {
+   "id": "91c22df4b3",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Mendix Studio Pro",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-05.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remote",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "CISA says Siemens Mendix Studio Pro contains multiple MCP Server vulnerabilities that could allow an attacker to act; the snippet cuts off before specifying how.",
+   "why": "Check whether Mendix Studio Pro is deployed and consult the advisory for affected versions and mitigations.",
+   "tags": [
+    "Mendix Studio Pro",
+    "MCP Server"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dc2d43865f",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write a",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "CISA says the .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities; the snippet does not give further details.",
+   "why": "Check whether this library is used and review the advisory for affected versions and mitigations.",
+   "tags": [
+    ".NET Client Library",
+    "SIMATIC S7"
+   ],
+   "ai": true
+  },
+  {
+   "id": "04fced3604",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+   "snippet": "<h2><strong>Purpose</strong></h2> <p>CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-114938\" target=\"_blank\">CVE-2026-114938</a>. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the B",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-18",
+   "summary": "CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938.",
+   "why": "Identify Oracle Java deployments and prioritize applying the patch CISA urges organizations to install.",
+   "tags": [
+    "Oracle Java",
+    "patching"
+   ],
+   "ai": true
+  },
+  {
+   "id": "877e907402",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "The CISA advisory for Siemens Industrial Software Products refers to Node.js security updates addressing a critical vulnerability.",
+   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
+   "tags": [
+    "Industrial Software",
+    "Node.js"
+   ],
+   "ai": true
+  },
+  {
+   "id": "51d812581a",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Simcenter Femap",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-10.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allo",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-18",
+   "summary": "CISA says Siemens Simcenter Femap is affected by an out-of-bounds read vulnerability that could be triggered when...",
+   "why": "Check whether Simcenter Femap is in use and consult the CISA advisory for affected conditions and remediation.",
+   "tags": [
+    "Simcenter Femap",
+    "out-of-bounds read"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9c3818e954",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens SIMATIC",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate use",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "CISA says products listed in the Siemens SIMATIC advisory contain an authentication bypass vulnerability.",
+   "why": "Identify affected SIMATIC products and review the advisory for relevant mitigations.",
+   "tags": [
+    "Siemens SIMATIC",
+    "authentication bypass"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7257208220",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Siemens Industrial Automation Software Products",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonl",
+   "published": "2026-11-17T12:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "t": "2026-11-17",
+   "summary": "The CISA advisory for Siemens Industrial Automation Software Products refers to Node.js security updates addressing a critical vulnerability.",
+   "why": "Review the advisory to determine whether the referenced Node.js updates apply to your software.",
+   "tags": [
+    "Industrial Automation",
+    "Node.js"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5fc2eb1bed",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts",
+   "url": "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts",
+   "snippet": "Russian aircraft violated Japanese airspace and approached Taiwan before two Tu-95s and two Il-76s touched down in Da Nang. The post Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts appeared first on TWZ .",
+   "published": "2026-11-17T23:39:58.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/5fc2eb1bed.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone reports that two Russian Tu-95s and two Il-76s landed in Da Nang after Russian aircraft violated Japanese airspace and approached Taiwan.",
+   "why": "The reported flight activity is relevant to regional air operations and military signaling.",
+   "tags": [
+    "Tu-95",
+    "air alerts"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3bc2395a40",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair",
+   "url": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair",
+   "snippet": "Opposition is growing to Trump's call to abandon electromagnetic catapults on future Ford class carriers, which would be costly and risky. The post Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair appeared first on TWZ .",
+   "published": "2026-11-17T22:16:24.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/3bc2395a40.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone reports growing opposition to Trump's call to abandon electromagnetic catapults on future Ford-class carriers, describing the change as costly and risky.",
+   "why": "The debate highlights cost and risk trade-offs in carrier launch technology.",
+   "tags": [
+    "steam catapults",
+    "Ford-class"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a724738d06",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Lawmakers challenge Trump’s push to bring steam catapults back to Ford-class carriers",
+   "url": "https://breakingdefense.com/2026/11/lawmakers-challenge-trumps-push-to-bring-steam-catapults-back-to-ford-class/",
+   "snippet": "The bipartisan pushback came during Acting Navy Secretary Hung Cao’s confirmation hearing, where senators questioned the cost and capability trade-offs of returning future Ford-class carriers to steam-powered catapults.",
+   "published": "2026-11-17T22:01:35.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/a724738d06.webp",
+   "t": "2026-11-18",
+   "summary": "Breaking Defense reports bipartisan pushback on returning future Ford-class carriers to steam catapults, with senators questioning cost and capability trade-offs.",
+   "why": "The proposal puts carrier launch capability and cost trade-offs under scrutiny.",
+   "tags": [
+    "steam catapults",
+    "carriers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "64f0861e0e",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "ICEYE makes $2B bid for Italian rocket firm Avio",
+   "url": "https://breakingdefense.com/2026/11/iceye-makes-2b-bid-for-italian-rocket-firm-avio/",
+   "snippet": "The proposed deal comes at a time when many in Europe have grown increasingly concerned about the reliance on the US for space launch and military space capabilities.",
+   "published": "2026-11-17T21:12:16.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/64f0861e0e.webp",
+   "t": "2026-11-18",
+   "summary": "Breaking Defense reports that ICEYE made a $2B bid for Italian rocket firm Avio, amid European concern about reliance on the US for space launch and military space capabilities.",
+   "why": "The proposed deal is relevant to Europe's space-launch and military-space industrial reliance.",
+   "tags": [
+    "ICEYE",
+    "Avio"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0439936852",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Army kicks off ‘manufacturing rodeo’ with focus on small drones",
+   "url": "https://breakingdefense.com/2026/11/army-kicks-off-manufacturing-rodeo-with-focus-on-small-drones/",
+   "snippet": "The completed drones will compete at the Army’s third Drone Dominance Gauntlet event in March where the systems will face “complex” obstacle courses, heavy electronic jamming and “live target arrays.”",
+   "published": "2026-11-17T20:44:33.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/0439936852.webp",
+   "t": "2026-11-17",
+   "summary": "The Army’s manufacturing rodeo focuses on small drones, which will face obstacle courses, heavy electronic jamming, and live target arrays at a Drone Dominance Gauntlet event.",
+   "why": "The trials emphasize drone performance in obstacle-rich and electronically contested conditions.",
+   "tags": [
+    "small drones",
+    "electronic jamming",
+    "Army"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6cc28b9e0a",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "NATO aims to spur space industry, help militaries by joining data marketplace",
+   "url": "https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/",
+   "snippet": "Easing the sale and sharing of information should increase launch tempo and ward off threats, officials said.",
+   "published": "2026-11-18T01:03:52.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/6cc28b9e0a.webp",
+   "t": "2026-11-18",
+   "summary": "Defense One reports that NATO aims to support the space industry and militaries by joining a data marketplace; officials say sharing information should increase launch tempo and ward off threats.",
+   "why": "The marketplace links information-sharing with launch activity and threat response.",
+   "tags": [
+    "NATO",
+    "data marketplace"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a52d147c84",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
+   "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
+   "snippet": "NATO operators this month built and deployed AI agents in an exercise, with help from OpenAI.",
+   "published": "2026-11-18T00:39:24.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/a52d147c84.webp",
+   "t": "2026-11-18",
+   "summary": "Defense One reports that NATO operators built and deployed AI agents in an exercise this month with help from OpenAI.",
+   "why": "The exercise shows AI agents being used in a military cybersecurity context.",
+   "tags": [
+    "NATO",
+    "AI agents"
+   ],
+   "ai": true
+  },
+  {
+   "id": "59d173c166",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "These Are The Weapons Ukraine Used To Drop The Kerch Bridge",
+   "url": "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge",
+   "snippet": "Ukraine brought an eclectic arsenal of homegrown and foreign drones and missiles to bear in its campaign to sever Russia’s critical logistics link to Crimea. The post These Are The Weapons Ukraine Used To Drop The Kerch Bridge appeared first on TWZ .",
+   "published": "2026-11-17T19:22:29.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/59d173c166.webp",
+   "t": "2026-11-17",
+   "summary": "The report says Ukraine used homegrown and foreign drones and missiles in its campaign against Russia’s logistics link to Crimea.",
+   "why": "The account highlights the operational use of mixed drone and missile capabilities against a logistics link.",
+   "tags": [
+    "Ukraine",
+    "drones",
+    "missiles"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e77ffd9aec",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russian military plane crashes, killing all 19 on board",
+   "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+   "published": "2026-11-17T21:06:11.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss"
+    }
+   ],
+   "score": 1.83,
+   "image": "/img/news/e77ffd9aec.webp",
+   "t": "2026-11-17",
+   "summary": "Russia’s defence ministry says it preliminarily believes a technical malfunction caused a military plane crash in the Kemerovo region, killing all 19 on board.",
+   "why": "The reported crash is a military aviation incident in the Kemerovo region.",
+   "tags": [
+    "Russia",
+    "military plane",
+    "Kemerovo"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a3bc5db3df",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+   "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+   "published": "2026-11-17T23:02:12.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/a3bc5db3df.webp",
+   "t": "2026-11-18",
+   "summary": "BBC World reports that China worries the Nvidia spy scandal could increase US pressure to restrict sales of advanced chips.",
+   "why": "The issue connects chip access to US-China strategic tensions around AI.",
+   "tags": [
+    "China",
+    "advanced chips"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9467b2d782",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+   "published": "2026-11-17T22:46:30.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/9467b2d782.webp",
+   "t": "2026-11-17",
+   "summary": "The Metropolitan Police say an American soldier arrested in the UK on suspicion of spying has been taken into US military custody.",
+   "why": "The case involves suspected espionage allegations and custody across jurisdictions.",
+   "tags": [
+    "UK",
+    "United States",
+    "espionage"
+   ],
+   "ai": true
+  },
+  {
+   "id": "475de43f78",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Russia’s colossal losses in Ukraine will not push Putin toward peace",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-colossal-losses-in-ukraine-will-not-push-putin-toward-peace/",
+   "snippet": "Russia's heavy losses in Ukraine may hamper Putin’s invasion, but they will not push the Kremlin dictator toward the negotiating table, writes David Kirichenko. The post Russia’s colossal losses in Ukraine will not push Putin toward peace appeared first on Atlantic Council .",
+   "published": "2026-11-17T22:00:14.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/475de43f78.webp",
+   "t": "2026-11-18",
+   "summary": "The Atlantic Council's David Kirichenko writes that Russia's heavy losses in Ukraine may hamper its invasion but will not push the Kremlin toward negotiations.",
+   "why": "The assessment bears on interpretations of battlefield losses and prospects for negotiation.",
+   "tags": [
+    "Russia",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "324c9d2ace",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Ukraine’s Crimean Bridge attack is a very personal humiliation for Putin",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-crimean-bridge-attack-is-a-very-personal-humiliation-for-putin/",
+   "snippet": "Ukraine hit and partially destroyed the Crimean Bridge on November 17 with an unprecedented drone and missile strike that highlighted Russia's vulnerabilities and served as a very personal humiliation for Vladimir Putin, writes Peter Dickinson. The post Ukraine’s Crimean Bridge attack is a very personal humiliation for",
+   "published": "2026-11-17T21:31:58.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/324c9d2ace.webp",
+   "t": "2026-11-18",
+   "summary": "The Atlantic Council's Peter Dickinson writes that Ukraine hit and partially destroyed the Crimean Bridge with a drone and missile strike, highlighting Russian vulnerabilities.",
+   "why": "The reported strike makes the bridge's vulnerability and its strategic significance salient.",
+   "tags": [
+    "Crimean Bridge",
+    "drone"
+   ],
+   "ai": true
+  },
+  {
+   "id": "72751a80cc",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+   "published": "2026-11-17T21:24:35.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/72751a80cc.webp",
+   "t": "2026-11-17",
+   "summary": "The Crimea bridge partly collapsed; Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
+   "why": "The bridge’s strategic role and the reported damage are relevant to regional transport and infrastructure analysis.",
+   "tags": [
+    "Crimea bridge",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7998baf335",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
+   "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
+   "snippet": "Daithi O'Corrain, 48, has been charged with damaging a US military C-130 aircraft while it was parked overnight.",
+   "published": "2026-11-18T01:32:52.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/7998baf335.webp",
+   "t": "2026-11-18",
+   "summary": "Al Jazeera reports that Daithi O'Corrain, 48, has been charged with damaging a US military C-130 aircraft parked overnight at an Irish airport.",
+   "why": "The incident concerns the security of military aircraft while parked at an airport.",
+   "tags": [
+    "C-130",
+    "Irish airport"
+   ],
+   "ai": true
+  },
+  {
+   "id": "53594a30de",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+   "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+   "published": "2026-11-17T20:30:20.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/53594a30de.webp",
+   "t": "2026-11-17",
+   "summary": "Palestinians say settlers attacked in al-Duyuk al-Tahta; the Israeli military says settlers fired after being attacked. A 72-year-old woman was killed.",
+   "why": "The accounts differ, making attribution and local reporting important to follow.",
+   "tags": [
+    "West Bank",
+    "settlers",
+    "al-Duyuk al-Tahta"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+  },
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+  },
+  {
+   "cve": "CVE-2026-124194",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+  },
+  {
+   "cve": "CVE-2026-111793",
+   "vendor": "Openwave Messaging Limited",
+   "product": "Webtop Media Transcoder",
+   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 4.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+  },
+  {
+   "cve": "CVE-2026-20320",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+  },
+  {
+   "cve": "CVE-2026-111560",
+   "vendor": "Barracuda Networks",
+   "product": "Multiple Products",
+   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+  },
+  {
+   "cve": "CVE-2026-116606",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+  },
+  {
+   "cve": "CVE-2026-125350",
+   "vendor": "Google",
+   "product": "Chromium",
+   "name": "Google Chromium Use-After-Free Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+  },
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.1,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+  }
+ ],
+ "run_today": [
+  "Check sites using Optimizely and review visitor-facing activity for evidence of malware exploit delivery.",
+  "Inventory Siemens ROS# deployments and update versions before 2.3.1.",
+  "Identify Oracle Java deployments and prioritize patching the vulnerability CISA flagged."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "code injection",
+   "explainer": "Code injection is a vulnerability in which an attacker may cause a system to process code that was not intended. CISA says affected Siemens ROS# versions contain this vulnerability.",
+   "from_id": "a0f483dd42",
+   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "fromSource": "CISA Advisories"
+  },
+  {
+   "domain": "warfare",
+   "term": "steam catapults",
+   "explainer": "Steam catapults are a carrier launch technology. The supplied stories describe debate over whether future Ford-class carriers should use them instead of electromagnetic catapults, with cost and capability trade-offs under discussion.",
+   "from_id": "3bc2395a40",
+   "from": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "advanced chips",
+   "explainer": "Advanced chips are high-end semiconductors. The supplied story says China worries the Nvidia spy scandal could increase US pressure to restrict their sale.",
+   "from_id": "a3bc5db3df",
+   "from": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
+  }
+ ],
+ "analysis": {
+  "headline": "Cyber exposure and military systems in focus",
+  "paragraphs": [
+   "The top stories span a reported technical malfunction behind a Russian military plane crash and cyber vulnerabilities affecting web destinations and Siemens software. These are distinct events, but together they underline how technical systems can become central to operational risk. The available snippets do not establish a connection between them.",
+   "For defenders, the cyber items offer concrete checks: assess exposure to the Optimizely vulnerability, review ROS# versions, and act on CISA's Java patching advice. For analysts, the plane-crash account is preliminary: Russia's defence ministry says it believes a technical malfunction caused the crash. That claim should remain attributed.",
+   "The stories also show why careful sourcing matters. The Optimizely report says at least 178 destinations served exploits, while the Siemens ROS# snippet identifies a code injection vulnerability but provides little detail. Watch for fuller advisory information and confirmed updates; do not treat incomplete snippets or preliminary claims as settled explanations."
+  ],
+  "takeaways": [
+   "Check exposed web services and affected software against the available cyber advisories.",
+   "Keep the reported crash cause attributed to Russia's defence ministry.",
+   "Seek fuller details before drawing conclusions from truncated vulnerability summaries."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 13
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": false,
+   "error": "not a feed (HTML or captcha page?)"
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 14
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 10
+  }
+ ]
+}
