@@ -1,13 +1,18 @@
 {
- "updated": "2026-11-18T01:43:17.623Z",
+ "updated": "2026-11-18T09:10:17.881Z",
  "health": [
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 3
+   "n": 1
   },
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -17,9 +22,24 @@
    "error": "HTTP 402"
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "MarketWatch",
    "ok": true,
-   "n": 10
+   "n": 1
   },
   {
    "name": "The DFIR Report",
@@ -27,44 +47,24 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "BBC World",
+   "name": "Al Jazeera",
    "ok": true,
    "n": 5
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 11
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,14 +72,14 @@
    "n": 0
   },
   {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
    "n": 1
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -87,9 +87,9 @@
    "n": 0
   },
   {
-   "name": "DarkForums",
+   "name": "BreachForums",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,160 @@
   }
  ],
  "items": [
+  {
+   "id": "n3e998454ab",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The S&P 500 just broke a crucial support level. Here’s what history shows may happen now.",
+   "url": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-crucial-support-level-heres-what-history-shows-may-happen-now-776f6da2?mod=mw_rss_topstories",
+   "published": "2026-11-18T08:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0dd01d7b39",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Oracle Patches 640 Vulnerabilities With November 2026 CSPU",
+   "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+   "published": "2026-11-18T08:47:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naee4cf00ea",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "U.S. CISA adds Perforce Puppet Enterprise flaw to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/203377/hacking/u-s-cisa-adds-perforce-puppet-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+   "published": "2026-11-18T08:41:13.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0ad69605a8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "published": "2026-11-18T08:24:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n80d78c322c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "China’s Xi pitches free trade at APEC amid Trump’s global trade disruptions",
+   "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions?traffic_source=rss",
+   "published": "2026-11-18T08:05:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n33cd2694a5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Russia, China should ‘lead’ push to multipolar world, Xi tells APEC summit",
+   "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world?traffic_source=rss",
+   "published": "2026-11-18T07:50:47.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc5f6c87fa0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+   "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+   "published": "2026-11-18T07:43:34.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1df53018af",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "published": "2026-11-18T06:45:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naa4bb8c237",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "How the Houthis fund war effort and tighten grip on Yemen",
+   "url": "https://www.aljazeera.com/news/2026/11/18/how-the-houthis-fund-war-effort-and-tighten-grip-on-yemen?traffic_source=rss",
+   "published": "2026-11-18T06:19:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nee9a23761b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "published": "2026-11-18T05:58:04.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n973f9328a8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+   "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-18T04:57:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n223101d573",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "published": "2026-11-18T04:27:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n80bca039df",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Australia issues sanctions targeting Israeli settlers",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+   "published": "2026-11-18T04:12:03.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nc684295041",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Rubio rules out cyberattacks or links between tech outages",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss",
+   "published": "2026-11-18T04:01:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2359,83 +2513,6 @@
    "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
    "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-15T09:26:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n960f41318e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-   "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-   "published": "2026-11-15T08:22:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n98019b428b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-15T08:17:41.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n0eca7d7612",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jordan sentences three men to death by hanging after deadly church attack",
-   "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
-   "published": "2026-11-15T08:15:04.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ncd64ba12f3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather",
-   "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather?traffic_source=rss",
-   "published": "2026-11-15T08:07:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0631685ac3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel: Making the Holy Land burn",
-   "url": "https://www.aljazeera.com/opinions/2026/11/15/israel-making-the-holy-land-burn?traffic_source=rss",
-   "published": "2026-11-15T06:49:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n37af75b554",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
-   "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
-   "published": "2026-11-15T02:59:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1da17fe41f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold",
-   "url": "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold?traffic_source=rss",
-   "published": "2026-11-15T01:54:55.000Z",
    "severity": "normal",
    "verified": true
   }
