@@ -1,568 +1,554 @@
 {
  "date": "2026-11-18",
  "edition": 247,
- "compiled": "2026-11-18T11:21:37.638Z",
+ "compiled": "2026-11-18T19:28:18.366Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "4f4cc6f190",
+   "id": "4d21e75602",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-   "snippet": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-   "published": "2026-11-18T10:35:05.000Z",
-   "also": [],
-   "score": 1.58,
-   "image": "/img/news/4f4cc6f190.webp",
-   "t": "2026-11-18",
-   "summary": "Apache says it has released updates for a critical Roller flaw that attackers are exploiting to execute code on vulnerable servers.",
-   "why": "Check Roller deployments and apply Apache’s security updates.",
-   "tags": [
-    "Roller",
-    "RCE",
-    "security updates"
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "snippet": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+   "published": "2026-11-18T16:58:42.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    }
    ],
-   "ai": true
-  },
-  {
-   "id": "4ccf67b96d",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft announces Windows Server 2028 with hardened security",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-   "snippet": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-   "published": "2026-11-18T09:24:31.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/4ccf67b96d.webp",
+   "score": 1.9,
+   "image": "/img/news/4d21e75602.webp",
    "t": "2026-11-18",
-   "summary": "Microsoft announced Windows Server 2028, the next major release of its server operating system, at Ignite 2026.",
-   "why": "Track the release for information about its security features and deployment planning.",
-   "tags": [
-    "Windows Server 2028",
-    "Microsoft"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0ad69605a8",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-   "snippet": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-   "published": "2026-11-18T08:24:18.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/0ad69605a8.webp",
-   "t": "2026-11-18",
-   "summary": "A leader of the Scattered Spider cybercrime collective was sentenced to six years in the United States for cryptocurrency theft and conspiring to hack companies.",
-   "why": "The case highlights law-enforcement consequences for cybercrime; review incident reporting and response processes.",
-   "tags": [
-    "Scattered Spider",
-    "cybercrime",
-    "sentence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c559964442",
-   "section": "cyber",
-   "source": "Krebs on Security",
-   "weight": 0.7,
-   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
-   "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
-   "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malici",
-   "published": "2026-11-18T02:52:04.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/c559964442.webp",
-   "t": "2026-11-18",
-   "summary": "Krebs on Security reports that a vulnerability involving Optimizely led at least 178 top web destinations to serve malware exploits to visitors over the past 24 hours.",
-   "why": "Check whether your sites use Optimizely and review visitor-facing activity for signs of the reported exploit delivery.",
-   "tags": [
-    "Optimizely",
-    "malware"
-   ],
-   "ai": true
-  },
-  {
-   "id": "aa9ca93e66",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-   "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-   "snippet": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
-   "published": "2026-11-18T11:05:39.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/aa9ca93e66.webp",
-   "t": "2026-11-18",
-   "summary": "SecurityWeek reports that versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts.",
-   "why": "Check dependency versions and assess whether affected credentials may have been exposed.",
+   "summary": "BleepingComputer reports that two compromised versions of Microsoft’s official Agent Framework Python package on PyPI were designed to steal cloud credentials and other sensitive developer information.",
+   "why": "Check package versions and investigate systems where the affected package may have been installed.",
    "tags": [
     "PyPI",
-    "credential stealer",
-    "Azure"
+    "credentials"
    ],
    "ai": true
   },
   {
-   "id": "94321d4b37",
+   "id": "1336631baf",
    "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-   "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-   "snippet": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .",
-   "published": "2026-11-18T10:37:08.000Z",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+   "url": "https://therecord.media/ai-cyber-white-house",
+   "snippet": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+   "published": "2026-11-18T19:00:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/1336631baf.webp",
+   "t": "2026-11-18",
+   "summary": "The Record says two bipartisan senators urged the White House to launch a national effort against AI-enabled cyber threats.",
+   "why": "Track proposals for defensive AI systems and assess how they might affect cyber defense planning.",
+   "tags": [
+    "AI",
+    "cyber threats"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e798ab68d1",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "NSA continues response to interruptions in classified internal network",
+   "url": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+   "snippet": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+   "published": "2026-11-18T16:19:00.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/e798ab68d1.webp",
+   "t": "2026-11-18",
+   "summary": "The Record reports disruptions to the NSA Net, with staggered arrivals and logins at Fort Meade; a source said classified work continued unimpeded.",
+   "why": "The report highlights operational continuity during interruptions to a classified network.",
+   "tags": [
+    "NSA Net",
+    "disruptions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8e8debc4b2",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "snippet": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]",
+   "published": "2026-11-18T15:00:10.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/8e8debc4b2.webp",
+   "t": "2026-11-18",
+   "summary": "BleepingComputer describes attackers using deepfakes, helpdesk impersonation, and fake IT support requests to seek unauthorized corporate access; Specops Software discusses stronger identity verification.",
+   "why": "Verify identity through stronger checks, especially for helpdesk and IT support requests.",
+   "tags": [
+    "deepfakes",
+    "verification"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9611180895",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+   "url": "https://therecord.media/russia-cyber-espionage-google",
+   "snippet": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+   "published": "2026-11-18T15:15:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/9611180895.webp",
+   "t": "2026-11-18",
+   "summary": "Google says Russian state-backed hackers use information stolen from cloud accounts to impersonate trusted contacts and target victims’ professional networks.",
+   "why": "Review cloud-account security and verify unexpected requests that appear to come from trusted contacts.",
+   "tags": [
+    "cloud",
+    "espionage"
+   ],
+   "ai": true
+  },
+  {
+   "id": "69958fa42a",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "British hacker gets 6 year sentence for $11.6M crypto theft scheme",
+   "url": "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
+   "snippet": "Tyler Robert Buchanan, 24, of Dundee, Scotland, was previously described as the suspected ringleader of the hacking collective, which Microsoft called “one of the most dangerous financial criminal groups” around.",
+   "published": "2026-11-18T14:48:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/69958fa42a.webp",
+   "t": "2026-11-18",
+   "summary": "The Record reports that a British hacker received a six-year sentence for a crypto theft scheme; Microsoft had described the group as dangerous.",
+   "why": "The case concerns financial cybercrime and a crypto theft scheme.",
+   "tags": [
+    "crypto",
+    "theft"
+   ],
+   "ai": true
+  },
+  {
+   "id": "959698f193",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Ice hockey governing body website defaced amid dispute over Russia's exclusion",
+   "url": "https://therecord.media/russia-hockey-cyberattack-championships",
+   "snippet": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
+   "published": "2026-11-18T13:45:00.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/94321d4b37.webp",
+   "image": "/img/news/959698f193.webp",
    "t": "2026-11-18",
-   "summary": "SecurityWeek says CVE-2026-115731 lets a client holding any CA-signed agent certificate execute code on a Perforce Puppet server.",
-   "why": "Review Puppet access and certificates, and check for exposure to the reported flaw.",
+   "summary": "The Record says the IIHF confirmed a website cyberattack after hackers replaced its homepage with a pro-Russian message about Russia’s exclusion from competitions.",
+   "why": "The defacement shows how website compromise can carry a political message.",
    "tags": [
-    "Perforce Puppet",
-    "RCE",
-    "agent certificate"
+    "defacement",
+    "Russia"
    ],
    "ai": true
   },
   {
-   "id": "0dd01d7b39",
+   "id": "fb8b318a04",
    "section": "cyber",
-   "source": "SecurityWeek",
+   "source": "The Hacker News",
    "weight": 0.5,
-   "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
-   "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
-   "snippet": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
-   "published": "2026-11-18T08:47:18.000Z",
+   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+   "snippet": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came",
+   "published": "2026-11-18T18:31:17.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/fb8b318a04.webp",
+   "t": "2026-11-18",
+   "summary": "The Hacker News reports that a flaw in NGINX HTTP/2 support can let unauthenticated attackers execute code on servers with HTTP/2 enabled.",
+   "why": "Check whether servers use NGINX with HTTP/2 enabled and assess the relevant flaw.",
+   "tags": [
+    "NGINX",
+    "HTTP/2"
+   ],
+   "ai": true
+  },
+  {
+   "id": "11aa6bef2b",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+   "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+   "snippet": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds ",
+   "published": "2026-11-18T18:15:39.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/11aa6bef2b.webp",
+   "t": "2026-11-18",
+   "summary": "The Hacker News says six F5 BIG-IP flaws can crash the TMM without login in specific virtual-server setups, disrupting traffic until it restarts.",
+   "why": "Check affected virtual-server setups and their iRules for exposure to traffic disruption.",
+   "tags": [
+    "BIG-IP",
+    "TMM"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9c40ff9a76",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+   "snippet": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint",
+   "published": "2026-11-18T17:10:45.000Z",
    "also": [],
    "score": 1.45,
-   "image": "/img/news/0dd01d7b39.webp",
+   "image": "/img/news/9c40ff9a76.webp",
    "t": "2026-11-18",
-   "summary": "Oracle’s November 2026 CSPU includes 950 patches; more than 300 address unauthenticated, remotely exploitable flaws, and 62 fix critical-severity flaws.",
-   "why": "Review affected Oracle products and prioritize patches for remotely exploitable flaws.",
+   "summary": "The Hacker News reports that a critical Apache Roller flaw requiring no authentication is under active exploitation, according to the Apache Software Foundation.",
+   "why": "Check Apache Roller systems for exposure to the actively exploited flaw.",
    "tags": [
-    "Oracle",
-    "patches",
-    "CSPU"
+    "Apache Roller",
+    "exploitation"
    ],
    "ai": true
   },
   {
-   "id": "25f152a1b5",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-   "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnera",
-   "published": "2026-11-18T08:24:31.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/25f152a1b5.webp",
-   "t": "2026-11-18",
-   "summary": "The Hacker News reports that CISA added a critical Perforce Puppet flaw to its Known Exploited Vulnerabilities catalog.",
-   "why": "Check whether Perforce Puppet is deployed and prioritize remediation of the exploited flaw.",
-   "tags": [
-    "Perforce Puppet",
-    "CISA",
-    "KEV"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1db641aaef",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-   "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote",
-   "published": "2026-11-18T08:24:23.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/1db641aaef.webp",
-   "t": "2026-11-18",
-   "summary": "CISA urged organizations to immediately patch a newly disclosed critical flaw in Oracle Java, tracked as CVE-2026-114938.",
-   "why": "Identify Oracle Java deployments and assess patch status.",
-   "tags": [
-    "Oracle Java",
-    "CISA",
-    "patching"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c5f6c87fa0",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
-   "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
-   "snippet": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .",
-   "published": "2026-11-18T07:43:34.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/c5f6c87fa0.webp",
-   "t": "2026-11-18",
-   "summary": "SecurityWeek reports a demonstration of Java4Shell remote code execution in Jira, Jenkins, and Keycloak; VulnCheck says real-world exploitation requires per-target work.",
-   "why": "Check affected applications and evaluate exposure to the reported Java flaw.",
-   "tags": [
-    "Java4Shell",
-    "RCE",
-    "Jira"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6b79a1276c",
+   "id": "126735c088",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks",
-   "url": "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/",
-   "snippet": "U.S. President Donald Trump, who has sought nuclear arms control with Russia and China since his first term, may finally have his chance. The first-ever U.S.-Chinese-Russian leaders’ summit is set to take place in Shenzhen, with nuclear issues potentially on the agenda. Regardless of whether the summit yields substanti",
-   "published": "2026-11-18T08:30:27.000Z",
+   "title": "Is Dollar Dominance in Decline?",
+   "url": "https://warontherocks.com/is-dollar-dominance-in-decline/",
+   "snippet": "The dominance of the U.S. dollar is a crucial source of American global power. The dollar’s widespread use, strength, and reliability provide major economic advantages for the United States, enable U.S. sanctions to have real bite, and significantly boost U.S. influence abroad. For America’s adversaries — as well as fo",
+   "published": "2026-11-18T18:46:20.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/126735c088.webp",
+   "t": "2026-11-18",
+   "summary": "War on the Rocks discusses the U.S. dollar’s global role and its economic advantages, including enabling U.S. sanctions to have real bite.",
+   "why": "The dollar’s use and reliability are linked to U.S. economic and sanctions influence.",
+   "tags": [
+    "dollar",
+    "sanctions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ac91cca09a",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Flying Stripped-Down F-15 “Silver Eagles” To Their Limits",
+   "url": "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits",
+   "snippet": "F-15s in 'rocket ship' configuration get put through the ringer during flight test sorties right after they emerge from deep maintenance. The post Flying Stripped-Down F-15 “Silver Eagles” To Their Limits appeared first on TWZ .",
+   "published": "2026-11-18T19:03:37.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/ac91cca09a.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone reports that F-15s in a stripped-down “rocket ship” configuration undergo flight-test sorties after deep maintenance.",
+   "why": "The sorties concern flight testing of F-15s after deep maintenance.",
+   "tags": [
+    "F-15",
+    "flight test"
+   ],
+   "ai": true
+  },
+  {
+   "id": "594a02c485",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "U.S. Air Force’s Containerized Surface-To-Air Missile Program Comes Into Sharper Focus",
+   "url": "https://www.twz.com/land/u-s-air-forces-containerized-surface-to-air-missile-program-comes-into-sharper-focus",
+   "snippet": "The Counter-Air Missile Program is targeting lower-cost designs, and could also be a path to a new air-to-air missile. The post U.S. Air Force’s Containerized Surface-To-Air Missile Program Comes Into Sharper Focus appeared first on TWZ .",
+   "published": "2026-11-18T18:45:21.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/594a02c485.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone says the U.S. Air Force’s Counter-Air Missile Program is targeting lower-cost designs and could also lead to a new air-to-air missile.",
+   "why": "The program’s lower-cost designs and possible air-to-air application shape its operational relevance.",
+   "tags": [
+    "missile",
+    "Counter-Air"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8cd37119ba",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "This Is What Submarine HMS Vengeance Looks Like After Its Record-Setting Nuclear Deterrence Patrol",
+   "url": "https://www.twz.com/sea/this-is-what-submarine-hms-vengeance-looks-like-after-its-record-setting-nuclear-deterrance-patrol",
+   "snippet": "The Trident missile-armed submarine returned to port in Scotland after around 217 days submerged. The post This Is What Submarine HMS Vengeance Looks Like After Its Record-Setting Nuclear Deterrence Patrol appeared first on TWZ .",
+   "published": "2026-11-18T17:33:40.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/8cd37119ba.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone reports that HMS Vengeance returned to port in Scotland after a record-setting nuclear deterrence patrol.",
+   "why": "The return highlights the submarine’s role in nuclear deterrence patrols.",
+   "tags": [
+    "submarine",
+    "deterrence"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ed69b3892b",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation",
+   "url": "https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/",
+   "snippet": "For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-ha",
+   "published": "2026-11-18T16:40:05.000Z",
    "also": [],
    "score": 1.54,
-   "image": "/img/news/6b79a1276c.webp",
+   "image": "/img/news/ed69b3892b.webp",
    "t": "2026-11-18",
-   "summary": "The article says a first-ever U.S.-Chinese-Russian leaders’ summit is set to take place, with nuclear issues potentially on the agenda.",
-   "why": "The summit may offer a venue for trilateral nuclear arms-control discussion.",
+   "summary": "War on the Rocks and the Royal United Services Institute present a discussion on the future of trans-Atlantic defense cooperation after the U.S. midterm elections.",
+   "why": "The discussion concerns defense cooperation between trans-Atlantic partners.",
    "tags": [
-    "nuclear talks",
-    "summit",
-    "U.S.-Chinese-Russian"
+    "trans-Atlantic",
+    "cooperation"
    ],
    "ai": true
   },
   {
-   "id": "5fc2eb1bed",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts",
-   "url": "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts",
-   "snippet": "Russian aircraft violated Japanese airspace and approached Taiwan before two Tu-95s and two Il-76s touched down in Da Nang. The post Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts appeared first on TWZ .",
-   "published": "2026-11-17T23:39:58.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/5fc2eb1bed.webp",
-   "t": "2026-11-18",
-   "summary": "The War Zone reports that two Russian Tu-95s and two Il-76s landed in Da Nang after Russian aircraft violated Japanese airspace and approached Taiwan.",
-   "why": "The reported flight activity is relevant to regional air operations and military signaling.",
-   "tags": [
-    "Tu-95",
-    "air alerts"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3bc2395a40",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair",
-   "url": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair",
-   "snippet": "Opposition is growing to Trump's call to abandon electromagnetic catapults on future Ford class carriers, which would be costly and risky. The post Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair appeared first on TWZ .",
-   "published": "2026-11-17T22:16:24.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/3bc2395a40.webp",
-   "t": "2026-11-18",
-   "summary": "The War Zone reports growing opposition to Trump's call to abandon electromagnetic catapults on future Ford-class carriers, describing the change as costly and risky.",
-   "why": "The debate highlights cost and risk trade-offs in carrier launch technology.",
-   "tags": [
-    "steam catapults",
-    "Ford-class"
-   ],
-   "ai": true
-  },
-  {
-   "id": "a724738d06",
+   "id": "7e7a0cc2a6",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Lawmakers challenge Trump’s push to bring steam catapults back to Ford-class carriers",
-   "url": "https://breakingdefense.com/2026/11/lawmakers-challenge-trumps-push-to-bring-steam-catapults-back-to-ford-class/",
-   "snippet": "The bipartisan pushback came during Acting Navy Secretary Hung Cao’s confirmation hearing, where senators questioned the cost and capability trade-offs of returning future Ford-class carriers to steam-powered catapults.",
-   "published": "2026-11-17T22:01:35.000Z",
+   "title": "Britain has the frigate the US needs, and Americans should build it: UK minister",
+   "url": "https://breakingdefense.com/2026/11/britain-has-the-frigate-the-us-needs-and-americans-should-build-it-uk-minister/",
+   "snippet": "In a new op-ed, Britain’s Minister for Defence Readiness and Industry makes the case that the US should procure a UK frigate design and produce it in America.",
+   "published": "2026-11-18T15:15:00.000Z",
    "also": [],
-   "score": 1.32,
-   "image": "/img/news/a724738d06.webp",
+   "score": 1.51,
+   "image": "/img/news/7e7a0cc2a6.webp",
    "t": "2026-11-18",
-   "summary": "Breaking Defense reports bipartisan pushback on returning future Ford-class carriers to steam catapults, with senators questioning cost and capability trade-offs.",
-   "why": "The proposal puts carrier launch capability and cost trade-offs under scrutiny.",
+   "summary": "A UK minister argues that the U.S. should procure a UK frigate design and build it in America.",
+   "why": "The proposal connects allied ship design with domestic production.",
    "tags": [
-    "steam catapults",
-    "carriers"
+    "frigate",
+    "shipbuilding"
    ],
    "ai": true
   },
   {
-   "id": "64f0861e0e",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "ICEYE makes $2B bid for Italian rocket firm Avio",
-   "url": "https://breakingdefense.com/2026/11/iceye-makes-2b-bid-for-italian-rocket-firm-avio/",
-   "snippet": "The proposed deal comes at a time when many in Europe have grown increasingly concerned about the reliance on the US for space launch and military space capabilities.",
-   "published": "2026-11-17T21:12:16.000Z",
-   "also": [],
-   "score": 1.31,
-   "image": "/img/news/64f0861e0e.webp",
-   "t": "2026-11-18",
-   "summary": "Breaking Defense reports that ICEYE made a $2B bid for Italian rocket firm Avio, amid European concern about reliance on the US for space launch and military space capabilities.",
-   "why": "The proposed deal is relevant to Europe's space-launch and military-space industrial reliance.",
-   "tags": [
-    "ICEYE",
-    "Avio"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0439936852",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Army kicks off ‘manufacturing rodeo’ with focus on small drones",
-   "url": "https://breakingdefense.com/2026/11/army-kicks-off-manufacturing-rodeo-with-focus-on-small-drones/",
-   "snippet": "The completed drones will compete at the Army’s third Drone Dominance Gauntlet event in March where the systems will face “complex” obstacle courses, heavy electronic jamming and “live target arrays.”",
-   "published": "2026-11-17T20:44:33.000Z",
-   "also": [],
-   "score": 1.3,
-   "image": "/img/news/0439936852.webp",
-   "t": "2026-11-17",
-   "summary": "The Army’s manufacturing rodeo focuses on small drones, which will face obstacle courses, heavy electronic jamming, and live target arrays at a Drone Dominance Gauntlet event.",
-   "why": "The trials emphasize drone performance in obstacle-rich and electronically contested conditions.",
-   "tags": [
-    "small drones",
-    "electronic jamming",
-    "Army"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6cc28b9e0a",
+   "id": "1835d47730",
    "section": "warfare",
    "source": "Defense One",
    "weight": 0.5,
-   "title": "NATO aims to spur space industry, help militaries by joining data marketplace",
-   "url": "https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/",
-   "snippet": "Easing the sale and sharing of information should increase launch tempo and ward off threats, officials said.",
-   "published": "2026-11-18T01:03:52.000Z",
+   "title": "Need range time? The Army now has an online reservation system",
+   "url": "https://www.defenseone.com/defense-systems/2026/11/need-range-time-army-now-has-online-reservation-system/417309/",
+   "snippet": "Officials say industry’s wait times for weapons testing has already plunged.",
+   "published": "2026-11-18T18:03:56.000Z",
    "also": [],
-   "score": 1.29,
-   "image": "/img/news/6cc28b9e0a.webp",
+   "score": 1.47,
+   "image": "/img/news/1835d47730.webp",
    "t": "2026-11-18",
-   "summary": "Defense One reports that NATO aims to support the space industry and militaries by joining a data marketplace; officials say sharing information should increase launch tempo and ward off threats.",
-   "why": "The marketplace links information-sharing with launch activity and threat response.",
+   "summary": "Defense One reports that the Army has introduced an online reservation system for weapons testing ranges; officials say industry wait times have plunged.",
+   "why": "The system concerns access to weapons testing ranges and industry wait times.",
    "tags": [
-    "NATO",
-    "data marketplace"
+    "Army",
+    "testing"
    ],
    "ai": true
   },
   {
-   "id": "a52d147c84",
+   "id": "5353f36943",
    "section": "warfare",
    "source": "Defense One",
    "weight": 0.5,
-   "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
-   "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
-   "snippet": "NATO operators this month built and deployed AI agents in an exercise, with help from OpenAI.",
-   "published": "2026-11-18T00:39:24.000Z",
+   "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds",
+   "url": "https://www.defenseone.com/threats/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417308/",
+   "snippet": "Safety guardrails on ChatGPT, Claude, Gemini, and Grok failed to prevent federal investigators from developing detailed plans.",
+   "published": "2026-11-18T17:51:00.000Z",
    "also": [],
-   "score": 1.28,
-   "image": "/img/news/a52d147c84.webp",
+   "score": 1.47,
+   "image": "/img/news/5353f36943.webp",
    "t": "2026-11-18",
-   "summary": "Defense One reports that NATO operators built and deployed AI agents in an exercise this month with help from OpenAI.",
-   "why": "The exercise shows AI agents being used in a military cybersecurity context.",
+   "summary": "Defense One says a GAO finding showed safety guardrails on major AI platforms did not prevent investigators from developing detailed terrorist attack plans.",
+   "why": "The finding is relevant to evaluating AI platform safeguards against harmful use.",
    "tags": [
-    "NATO",
-    "AI agents"
+    "AI",
+    "guardrails"
    ],
    "ai": true
   },
   {
-   "id": "c182bb3c06",
+   "id": "3fb78a6f3d",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Eutelsat Network Solutions Adds Alternative PNT to $60 Million-Plus Space Force LEO Award",
+   "url": "https://insidegnss.com/eutelsat-network-solutions-adds-alternative-pnt-to-60-million-plus-space-force-leo-award/",
+   "snippet": "Eutelsat Network Solutions will supply U.S. military users with alternative positioning, navigation and timing (PNT) solutions alongside OneWeb low Earth orbit (LEO) satellite... The post Eutelsat Network Solutions Adds Alternative PNT to $60 Million-Plus Space Force LEO Award appeared first on Inside GNSS - Global Nav",
+   "published": "2026-11-18T17:23:11.000Z",
+   "also": [],
+   "score": 1.66,
+   "t": "2026-11-18",
+   "summary": "Inside GNSS reports that Eutelsat Network Solutions will supply U.S. military users with alternative PNT solutions alongside OneWeb low Earth orbit satellites.",
+   "why": "Alternative PNT alongside LEO satellites is relevant to military positioning, navigation, and timing.",
+   "tags": [
+    "PNT",
+    "LEO"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a37f1deee0",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Lichfield cited in a The Diplomatic Insight article on Trump’s Russian diesel deal and congressional opposition",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-quoted-in-the-new-york-times-on-us-unreliability-influencing-de-dollarization-efforts-4-9-6/",
+   "snippet": "Read the full article here The post Lichfield cited in a The Diplomatic Insight article on Trump’s Russian diesel deal and congressional opposition appeared first on Atlantic Council .",
+   "published": "2026-11-18T18:44:06.000Z",
+   "also": [],
+   "score": 1.58,
+   "t": "2026-11-18",
+   "summary": "The Atlantic Council cites an article about Trump’s Russian diesel deal and congressional opposition.",
+   "why": "The item concerns a Russian diesel deal and congressional opposition.",
+   "tags": [
+    "diesel",
+    "Russia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5cd96dcff7",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Lichfield quoted in CNN on the impact of the Russian sanctions waiver on US importers",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/lichfield-quoted-in-cnn-on-the-impact-of-the-russian-sanctions-waiver-on-us-importers/",
+   "snippet": "Read the full article here The post Lichfield quoted in CNN on the impact of the Russian sanctions waiver on US importers appeared first on Atlantic Council .",
+   "published": "2026-11-18T18:42:17.000Z",
+   "also": [],
+   "score": 1.58,
+   "t": "2026-11-18",
+   "summary": "The Atlantic Council says Lichfield was quoted on the impact of a Russian sanctions waiver on U.S. importers.",
+   "why": "The item links a sanctions waiver to its reported impact on U.S. importers.",
+   "tags": [
+    "sanctions",
+    "importers"
+   ],
+   "ai": true
+  },
+  {
+   "id": "37bd198541",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+   "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
+   "published": "2026-11-18T17:00:40.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/37bd198541.webp",
+   "t": "2026-11-18",
+   "summary": "BBC reports from an old gas pipeline where Ukrainian forces are fighting Russia underground and out of sight of Russian drones.",
+   "why": "The pipeline setting and reduced drone visibility shape the reported fighting environment.",
+   "tags": [
+    "pipeline",
+    "drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7258d8e4c2",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+   "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
+   "published": "2026-11-18T17:00:04.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/7258d8e4c2.webp",
+   "t": "2026-11-18",
+   "summary": "BBC reports that Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
+   "why": "The tunnel setting gives the fighting a distinct geospatial dimension.",
+   "tags": [
+    "tunnel",
+    "Kharkiv"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4789e282b2",
    "section": "geo",
    "source": "Foreign Policy",
    "weight": 0.6,
-   "title": "Iran Is Heading for a Swiss-Cheese Solution",
-   "url": "https://foreignpolicy.com/2026/11/18/iran-war-trump-swiss-cheese-solution/",
-   "snippet": "The Iran war is most likely to end not with a bang, but with a whimper.",
-   "published": "2026-11-18T06:46:40.000Z",
+   "title": "ICJ to Deliver Landmark Verdict on Myanmar",
+   "url": "https://foreignpolicy.com/2026/11/18/icj-myanmar-rohingya-genocide-case-landmark-verdict-israel-gaza/",
+   "snippet": "The Rohingya genocide case will have wide-ranging impacts, including for the court’s forthcoming judgment on Israel.",
+   "published": "2026-11-18T15:37:12.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/c182bb3c06.webp",
+   "score": 1.52,
+   "image": "/img/news/4789e282b2.webp",
    "t": "2026-11-18",
-   "summary": "Foreign Policy characterizes a likely end to the Iran war as a “Swiss-cheese solution,” rather than a decisive conclusion.",
-   "why": "The framing suggests attention to an incomplete or uneven end to the conflict.",
+   "summary": "Foreign Policy says the Rohingya genocide case before the ICJ will have wide-ranging impacts, including for the court’s forthcoming judgment on Israel.",
+   "why": "The case may have implications for the ICJ’s forthcoming judgment on Israel.",
    "tags": [
-    "Iran war",
-    "Swiss-Cheese Solution"
+    "ICJ",
+    "Rohingya"
    ],
    "ai": true
   },
   {
-   "id": "dc7bcd9287",
+   "id": "52121d28b6",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Cooperating With China on AI Control Is a Fantasy",
+   "url": "https://foreignpolicy.com/2026/11/18/china-ai-trump-arms-control-regulation-openai-anthropic/",
+   "snippet": "Until Beijing can be trusted, Washington should push ahead to win the AI race.",
+   "published": "2026-11-18T14:00:07.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/52121d28b6.webp",
+   "t": "2026-11-18",
+   "summary": "Foreign Policy argues that cooperation with China on AI control is a fantasy and says Washington should pursue the AI race.",
+   "why": "The argument concerns the strategic relationship between AI control and competition with China.",
+   "tags": [
+    "China",
+    "AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7512ebe45f",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Why has an NYT report on Iran’s dams ignited fierce pushback?",
-   "url": "https://www.aljazeera.com/news/2026/11/18/why-has-an-nyt-report-on-irans-dams-ignited-fierce-pushback?traffic_source=rss",
-   "snippet": "The NYT faces backlash over report suggesting a possible link between Iranian dams and underground missile facilities.",
-   "published": "2026-11-18T10:38:13.000Z",
+   "title": "Israeli court extends Gaza doctor Abu Safia’s detention without charge",
+   "url": "https://www.aljazeera.com/news/2026/11/18/israeli-court-extends-gaza-doctor-abu-safias-detention-without-charge?traffic_source=rss",
+   "snippet": "An Israeli court extended the detention of Abu Safia nearly two years after Israel's army detained him.",
+   "published": "2026-11-18T18:22:26.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/dc7bcd9287.webp",
+   "image": "/img/news/7512ebe45f.webp",
    "t": "2026-11-18",
-   "summary": "Al Jazeera reports backlash over a New York Times report suggesting a possible link between Iranian dams and underground missile facilities.",
-   "why": "The dispute concerns claims about infrastructure and possible military facilities; distinguish reporting from established facts.",
+   "summary": "Al Jazeera reports that an Israeli court extended Abu Safia’s detention without charge, nearly two years after Israel’s army detained him.",
+   "why": "The report concerns detention and court action in the Gaza context.",
    "tags": [
-    "Iran",
-    "dams",
-    "missile facilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3d44534895",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Traumas of Sudan war lead to wave of drug addiction",
-   "url": "https://www.aljazeera.com/features/2026/11/18/traumas-of-sudan-war-is-seeing-a-wave-of-drug-addiction?traffic_source=rss",
-   "snippet": "Anguish caused by conflict sees a growing number of young people turn to drugs.",
-   "published": "2026-11-18T10:35:06.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/3d44534895.webp",
-   "t": "2026-11-18",
-   "summary": "Al Jazeera reports that anguish caused by the Sudan conflict is associated with more young people turning to drugs.",
-   "why": "The report highlights a social consequence of conflict in Sudan.",
-   "tags": [
-    "Sudan war",
-    "drug addiction",
-    "young people"
-   ],
-   "ai": true
-  },
-  {
-   "id": "46b240cfb1",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What do Deutsche Bank leaks reveal about Trump, Epstein and Russia?",
-   "url": "https://www.aljazeera.com/news/2026/11/18/what-do-deutsche-bank-leaks-reveal-about-trump-epstein-and-russia?traffic_source=rss",
-   "snippet": "Deutsche Bank leaks expose ties to Trump, Epstein, and global elites amid scrutiny over past financial misconduct.",
-   "published": "2026-11-18T09:42:26.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/46b240cfb1.webp",
-   "t": "2026-11-18",
-   "summary": "Al Jazeera says Deutsche Bank leaks expose ties involving Trump, Epstein, and global elites amid scrutiny over past financial misconduct.",
-   "why": "The report concerns financial disclosures and scrutiny of alleged misconduct.",
-   "tags": [
-    "Deutsche Bank",
-    "leaks",
-    "financial misconduct"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f183011ed9",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Piecemeal wars: A new kind of world war is already under way",
-   "url": "https://www.aljazeera.com/opinions/2026/11/18/piecemeal-wars-a-new-kind-of-world-war-is-already-under-way?traffic_source=rss",
-   "snippet": "Separate regional conflicts are increasingly linked by the interests of rival powers.",
-   "published": "2026-11-18T09:31:18.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/f183011ed9.webp",
-   "t": "2026-11-18",
-   "summary": "Al Jazeera says separate regional conflicts are increasingly linked by the interests of rival powers.",
-   "why": "The framing emphasizes how rival powers’ interests may connect regional conflicts.",
-   "tags": [
-    "regional conflicts",
-    "rival powers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c5f790c60f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Photos: Thousands march in Haiti in support of Salvadoran troops",
-   "url": "https://www.aljazeera.com/gallery/2026/11/18/photos-thousands-march-in-haiti-in-support-of-salvadoran-troops?traffic_source=rss",
-   "snippet": "Haitians take to the streets to praise El Salvador’s Nayib Bukele and his soldiers for fighting gangs in their country.",
-   "published": "2026-11-18T09:23:38.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/c5f790c60f.webp",
-   "t": "2026-11-18",
-   "summary": "Al Jazeera reports that Haitians marched in support of El Salvador’s Nayib Bukele and his soldiers for fighting gangs in Haiti.",
-   "why": "The march signals public support for El Salvador’s troop deployment in Haiti.",
-   "tags": [
-    "Haiti",
-    "El Salvador",
-    "troops"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5bbc4d733f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Sandpapergate: Cricket Australia to open forum for players, rules out probe",
-   "url": "https://www.aljazeera.com/sports/2026/11/18/sandpapergate-cricket-australia-to-open-forum-for-players-rules-out-probe?traffic_source=rss",
-   "snippet": "Cricket Australia says it will establish a forum, likely led by a former judge, but there will be no new sanctions.",
-   "published": "2026-11-18T09:18:37.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/5bbc4d733f.webp",
-   "t": "2026-11-18",
-   "summary": "Cricket Australia says it will establish a forum, likely led by a former judge, and rules out new sanctions over Sandpapergate.",
-   "why": "The announcement concerns the planned process and the decision not to impose further sanctions.",
-   "tags": [
-    "Cricket Australia",
-    "forum",
-    "Sandpapergate"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5fb3ae69e3",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Haitians rally in celebration of El Salvador’s anti-gang troop deployment",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/haitians-rally-in-celebration-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
-   "snippet": "Hundreds of Haitians have taken to the streets, celebrating El Salvador’s anti-gang military troops.",
-   "published": "2026-11-18T08:53:15.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/5fb3ae69e3.webp",
-   "t": "2026-11-18",
-   "summary": "Al Jazeera reports that hundreds of Haitians celebrated El Salvador’s anti-gang military troops.",
-   "why": "The rally reflects public support for the deployment in Haiti.",
-   "tags": [
-    "Haiti",
-    "anti-gang",
-    "troops"
+    "Gaza",
+    "detention"
    ],
    "ai": true
   }
@@ -714,47 +700,47 @@
   }
  ],
  "run_today": [
-  "Check Apache Roller deployments and apply the released security updates.",
-  "Audit PyPI dependencies for agent-framework versions 1.26.1 and 1.26.2; assess exposure of related credentials.",
-  "Check Perforce Puppet deployments and prioritize remediation of the exploited RCE flaw."
+  "Check developer systems for the compromised Agent Framework package versions and review cloud credentials they could access.",
+  "Verify helpdesk and IT support requests through stronger identity checks before granting corporate access.",
+  "Review cloud-account security and independently verify requests from trusted professional contacts."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Remote code execution",
-   "explainer": "Remote code execution (RCE) is a flaw that can let someone run code on a system from elsewhere. The Roller and Perforce Puppet stories describe RCE vulnerabilities.",
-   "from_id": "4f4cc6f190",
-   "from": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "term": "PyPI",
+   "explainer": "PyPI is the package repository named in the report. Developers can obtain Python packages there; in this case, the item says compromised versions were published to steal sensitive information.",
+   "from_id": "4d21e75602",
+   "from": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Nuclear arms control",
-   "explainer": "Nuclear arms control refers to efforts to address or manage nuclear weapons. The summit story says nuclear issues may be discussed by U.S., Chinese, and Russian leaders.",
-   "from_id": "6b79a1276c",
-   "from": "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/",
-   "fromSource": "War on the Rocks"
+   "term": "Counter-Air Missile Program",
+   "explainer": "A program described as targeting lower-cost missile designs. The item says it could also provide a path to a new air-to-air missile.",
+   "from_id": "594a02c485",
+   "from": "https://www.twz.com/land/u-s-air-forces-containerized-surface-to-air-missile-program-comes-into-sharper-focus",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "Regional conflicts",
-   "explainer": "Regional conflicts are conflicts centered in particular areas. The article describes separate conflicts as increasingly linked by rival powers’ interests.",
-   "from_id": "f183011ed9",
-   "from": "https://www.aljazeera.com/opinions/2026/11/18/piecemeal-wars-a-new-kind-of-world-war-is-already-under-way?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "PNT",
+   "explainer": "PNT means positioning, navigation, and timing. These are the functions named in the report about alternative solutions for U.S. military users alongside low Earth orbit satellites.",
+   "from_id": "3fb78a6f3d",
+   "from": "https://insidegnss.com/eutelsat-network-solutions-adds-alternative-pnt-to-60-million-plus-space-force-leo-award/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Exploited flaws and shifting security priorities",
+  "headline": "Trust, Resilience, and Strategic Dependencies",
   "paragraphs": [
-   "The cyber stories combine active exploitation, a poisoned software release, and a newly announced server platform. Together they show why defenders need to track both vulnerabilities in deployed systems and risks entering through software dependencies. The Windows Server announcement offers a security focus, but the supplied snippet gives no feature details.",
-   "The top stories also include a reported sentence for a Scattered Spider leader and a planned U.S.-Chinese-Russian summit where nuclear issues may be discussed. These are different kinds of developments: one concerns consequences for cybercrime, while the other may create a forum for nuclear arms-control talks. Neither snippet establishes what follows.",
-   "For defenders, the clearest immediate signal is the report of Roller exploitation, alongside the credential-stealing package versions. Check affected systems and dependencies, and verify credential exposure where relevant. For analysts, watch for concrete details on Windows Server 2028 and the summit’s nuclear agenda; the snippets do not say what either will deliver."
+   "The cyber stories in today’s top set center on trust in software and systems: a compromised PyPI package was designed to steal credentials, while senators called for stronger defenses against AI-enabled threats. Together, they point to risks spanning both technical supply chains and broader defensive planning.",
+   "The alternative PNT award and the dollar story describe different strategic dependencies. One concerns positioning, navigation, and timing for military users; the other links the dollar’s use and reliability to U.S. economic advantages and sanctions. Both make infrastructure and networks relevant to strategic analysis.",
+   "The F-15 testing and containerized missile program add a capability-development angle. The snippets describe flight tests after maintenance and lower-cost missile designs, with a possible air-to-air path. Analysts should watch how these efforts are characterized, while defenders assess software exposure and credential risks."
   ],
   "takeaways": [
-   "Check exposed Roller systems and address the reported flaw.",
-   "Review dependencies and credentials for the affected agent-framework versions.",
-   "Treat the summit’s nuclear agenda as possible, not confirmed."
+   "Check software dependencies and cloud credentials where the compromised package may have been used.",
+   "Alternative PNT and dollar influence illustrate distinct strategic dependencies.",
+   "Separate reported program aims from demonstrated capabilities."
   ]
  },
  "health": [
@@ -780,7 +766,7 @@
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 19
   },
   {
    "name": "The Record",
@@ -804,7 +790,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "Unit 42",
@@ -822,19 +808,19 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "The War Zone",
@@ -846,13 +832,13 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 9
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "Defense News",
@@ -863,8 +849,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": false,
-   "error": "HTTP 503"
+   "ok": true,
+   "n": 7
   },
   {
    "name": "Bellingcat",
@@ -882,7 +868,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "International Crisis Group",
@@ -894,19 +880,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "SpaceNews",
@@ -918,7 +904,7 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "The Diplomat",
@@ -930,7 +916,7 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -942,7 +928,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 13
   },
   {
    "name": "DW",
