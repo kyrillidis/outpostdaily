@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-19T07:13:59.249Z",
+ "updated": "2026-11-19T16:35:14.066Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
@@ -12,24 +22,19 @@
    "error": "HTTP 402"
   },
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 1
+   "n": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
   },
   {
    "name": "The DFIR Report",
@@ -39,30 +44,25 @@
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 3
+   "n": 10
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
-   "name": "BBC World",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 2
+   "n": 7
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SecurityWeek",
+   "name": "Security Affairs",
    "ok": true,
    "n": 1
   },
@@ -72,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -87,7 +82,12 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,501 @@
   }
  ],
  "items": [
+  {
+   "id": "nc5e7bc1c42",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "published": "2026-11-19T16:28:23.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "na1e062aede",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+   "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+   "published": "2026-11-19T16:27:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n236dcf22c8",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Want to create more competition in grocery delivery? Let DoorDash and Instacart merge.",
+   "url": "https://www.marketwatch.com/story/want-to-create-more-competition-in-grocery-delivery-let-doordash-and-instacart-merge-10505ad0?mod=mw_rss_topstories",
+   "published": "2026-11-19T16:21:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6ddd580a09",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "UK court confirms British government served Apple with secret encryption notice",
+   "url": "https://therecord.media/apple-uk-encryption-notice",
+   "published": "2026-11-19T16:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na2baf74492",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
+   "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "published": "2026-11-19T16:15:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n70723a2bba",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
+   "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+   "published": "2026-11-19T16:14:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5bbd79450c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Tech outages are rattling Americans so much that they’re stockpiling cash and supplies",
+   "url": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories",
+   "published": "2026-11-19T15:57:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3049d4149a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+   "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+   "published": "2026-11-19T15:54:20.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n62e76243fd",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?",
+   "url": "https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories",
+   "published": "2026-11-19T15:51:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb7dfe4c137",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "As Burnham heads to Brussels, are new Brexit wars about to begin?",
+   "url": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss",
+   "published": "2026-11-19T15:24:51.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf92f66411a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "published": "2026-11-19T15:18:07.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n5f26a74674",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "European Commission confirms cyberattack, says hackers used AI tool",
+   "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+   "published": "2026-11-19T15:15:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7008c485fa",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+   "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+   "published": "2026-11-19T15:11:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc5387484e0",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
+   "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html",
+   "published": "2026-11-19T15:06:40.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd690caa125",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Trump says Americans should ‘relax’ as Washington scrambles to get to the bottom of outages",
+   "url": "https://www.marketwatch.com/story/washington-is-scrambling-to-get-to-the-bottom-of-the-growing-number-of-tech-outages-across-america-66fbf299?mod=mw_rss_topstories",
+   "published": "2026-11-19T15:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n75044bab3e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Five warning signs of ransomware breach before encryption or data theft",
+   "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+   "published": "2026-11-19T15:00:10.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7cc3b724b6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "published": "2026-11-19T14:57:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na566f1d619",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why Micron, Intel and other AI stocks are getting a lift on Thursday",
+   "url": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+   "published": "2026-11-19T14:52:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nadbbf08a4b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Anthropic is coming to your 401(k). Love it or hate it, AI is becoming a bigger part of your financial plan.",
+   "url": "https://www.marketwatch.com/story/anthropic-is-coming-to-your-401-k-love-it-or-hate-it-ai-is-becoming-a-bigger-part-of-your-financial-plan-2e9ae533?mod=mw_rss_topstories",
+   "published": "2026-11-19T14:48:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne8217d7fb1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Comparing Crypto Payment Processors for International Merchants",
+   "url": "https://hackread.com/crypto-payment-processors-international-merchants/",
+   "published": "2026-11-19T14:42:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naea521ed9f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Sandisk’s stock split is almost here. This is what investors need to know.",
+   "url": "https://www.marketwatch.com/story/sandisks-stock-split-is-almost-here-this-is-what-investors-need-to-know-e0a18461?mod=mw_rss_topstories",
+   "published": "2026-11-19T14:42:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6e1cc48f21",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+   "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+   "published": "2026-11-19T14:33:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nabef5657eb",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+   "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+   "published": "2026-11-19T14:17:32.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1717d6a2f4",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "How to Swap Bitcoin to Ethereum on a Decentralized Exchange",
+   "url": "https://hackread.com/swap-bitcoin-ethereum-decentralized-exchange/",
+   "published": "2026-11-19T14:16:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8ba163b7a1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
+   "url": "https://hackread.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
+   "published": "2026-11-19T14:01:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4f4f9e0dd0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Why Holiday Security Can't Wait for Black Friday",
+   "url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+   "published": "2026-11-19T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf2a006663d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘Gaza Syndrome’: Israel’s Soldiers Haunted by Genocide – Cost of War",
+   "url": "https://www.aljazeera.com/video/al-jazeera-originals/2026/11/19/gaza-syndrome-israels-soldiers-haunted-by-genocide-cost-of-war?traffic_source=rss",
+   "published": "2026-11-19T13:54:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n65034a4e4e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Canada’s beloved Tim Hortons brews ire over ‘excessive’ Israeli data deal",
+   "url": "https://www.aljazeera.com/features/2026/11/19/canadas-beloved-tim-hortons-brews-ire-over-excessive-israeli-data-deal?traffic_source=rss",
+   "published": "2026-11-19T13:49:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf1aeeda4be",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-19T13:31:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n049017878e",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Ukraine exposes ransomware network extorting US oil, healthcare firms",
+   "url": "https://therecord.media/ukraine-ransomware-arrests-cyber",
+   "published": "2026-11-19T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nce066bd08d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Mosque set on fire in Israel, politicians blame Netanyahu’s ‘incitement’",
+   "url": "https://www.aljazeera.com/news/2026/11/19/mosque-set-on-fire-in-israel-politicians-blame-netanyahus-incitement?traffic_source=rss",
+   "published": "2026-11-19T13:24:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd5b9ab49f4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "South Korean court orders retrial for ex-PM Han over martial law attempt",
+   "url": "https://www.aljazeera.com/news/2026/11/19/south-korean-court-orders-retrial-for-ex-pm-han-over-martial-law-attempt?traffic_source=rss",
+   "published": "2026-11-19T13:22:17.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5e668a3027",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+   "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+   "published": "2026-11-19T13:12:20.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndf5a560c1b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+   "published": "2026-11-19T13:08:08.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb7f6d70bce",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+   "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+   "published": "2026-11-19T12:23:34.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd02f8572d5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+   "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+   "published": "2026-11-19T12:13:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naa09e38c30",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "F5 Patches Two NGINX HTTP/2 Vulnerabilities, One Dating Back to 2015",
+   "url": "https://hackread.com/f5-patches-nginx-http-2-vulnerabilities-dating-2015/",
+   "published": "2026-11-19T12:02:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n73e981a448",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "published": "2026-11-19T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3f6682cf94",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "published": "2026-11-19T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7f8f338723",
+   "kind": "news",
+   "group": "cyber",
+   "source": "CISA Advisories",
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "published": "2026-11-19T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4fc5c33492",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+   "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+   "published": "2026-11-19T12:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n193208e890",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Everything Is a Web Application, Including Your Firewall",
+   "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+   "published": "2026-11-19T11:52:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n937f390d6b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+   "published": "2026-11-19T11:46:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n09bad12a22",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "NGINX2Root: What NGINX Admins Should Know",
+   "url": "https://socradar.io/blog/nginx2root-nginx-cve-2026-123007/",
+   "published": "2026-11-19T11:17:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2aa6fa29c7",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+   "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+   "published": "2026-11-19T10:41:05.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n2a21804416",
    "kind": "news",
@@ -2253,17 +2748,6 @@
    "verified": true
   },
   {
-   "id": "n42c697406b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
-   "url": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
-   "published": "2026-11-16T23:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n60f9919464",
    "kind": "news",
    "group": "cyber",
@@ -2271,28 +2755,6 @@
    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
    "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
    "published": "2026-11-16T22:54:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb32037c1f5",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-   "url": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-   "published": "2026-11-16T22:46:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n96dcbcfad7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-   "url": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
-   "published": "2026-11-16T22:33:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2418,28 +2880,6 @@
    "verified": true
   },
   {
-   "id": "n0371485c3a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-   "published": "2026-11-16T18:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7a1df2698c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia’s stock extends declines following harsh words from the U.S. government",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
-   "published": "2026-11-16T18:11:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n4b4b8357bb",
    "kind": "news",
    "group": "cyber",
@@ -2448,17 +2888,6 @@
    "url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
    "published": "2026-11-16T18:05:00.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n86245ac553",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out.",
-   "url": "https://www.marketwatch.com/story/how-will-ai-shake-up-the-economy-warsh-says-the-fed-is-starting-to-figure-that-out-a72f80c4?mod=mw_rss_topstories",
-   "published": "2026-11-16T17:53:00.000Z",
-   "severity": "high",
    "verified": true
   },
   {
@@ -2558,314 +2987,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
    "published": "2026-11-16T16:36:55.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nc4f1d70f6e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I am turning 18 next month and want to start investing. What do I do first?",
-   "url": "https://www.marketwatch.com/story/i-am-turning-18-next-month-and-want-to-start-investing-what-do-i-do-first-75370ff3?mod=mw_rss_topstories",
-   "published": "2026-11-16T16:20:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4141a601e0",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "SpaceX widens its lead in the space race, even as a tech selloff weighs on its stock",
-   "url": "https://www.marketwatch.com/story/spacex-widens-its-lead-in-the-space-race-even-as-a-tech-selloff-weighs-on-its-stock-975f5c1f?mod=mw_rss_topstories",
-   "published": "2026-11-16T15:59:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncb085db9c0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "UK leaves client-side scanning out of new child safety rules",
-   "url": "https://therecord.media/uk-ofcom-child-safety-rules-client-side-scanning-left-out",
-   "published": "2026-11-16T15:56:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na47076ccac",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These 13 S&P 500 stocks can rise up to 70% over the next year, according to analysts",
-   "url": "https://www.marketwatch.com/story/these-13-s-p-500-stocks-can-rise-up-to-70-over-the-next-year-according-to-analysts-21119af9?mod=mw_rss_topstories",
-   "published": "2026-11-16T15:47:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n67c2edf757",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Cursor Supply Chain Attack Started at Fireworks AI",
-   "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
-   "published": "2026-11-16T15:45:43.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd29e040f40",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Fandango says hackers stole payment card details from checkout pages",
-   "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-   "published": "2026-11-16T15:44:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neea617c7ce",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
-   "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
-   "published": "2026-11-16T15:31:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf9e5673299",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "At least 17 killed in two South Africa mass shootings",
-   "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings?traffic_source=rss",
-   "published": "2026-11-16T15:26:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0f4c5e3465",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
-   "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
-   "published": "2026-11-16T15:07:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbf44aec35e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
-   "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-   "published": "2026-11-16T15:06:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1cea142026",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-   "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-   "published": "2026-11-16T15:01:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n45d2955f57",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-   "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T14:58:12.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne062147f78",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Cognitive warfare: the new battlefield is the human mind",
-   "url": "https://securityaffairs.com/203250/cyber-warfare-2/cognitive-warfare-the-new-battlefield-is-the-human-mind.html",
-   "published": "2026-11-16T14:50:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nce996b9673",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "SeverVault: Infostealer Logs Sold as AI Victim Profiles",
-   "url": "https://socradar.io/blog/severvault-infostealer-logs-ai-profiles/",
-   "published": "2026-11-16T14:44:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8d00f369fc",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "Unpatched Danfoss AK-SM800A Flaws Allow Takeover",
-   "url": "https://socradar.io/blog/danfoss-ak-sm800a-flaw-takeover/",
-   "published": "2026-11-16T14:35:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7bfec77d3b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
-   "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T14:22:36.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n96e4cedac8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "British government ‘complacent’ on cyber threats from hostile states, peers warn",
-   "url": "https://therecord.media/british-government-complacent-foreign-cyber-threats",
-   "published": "2026-11-16T14:21:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2e40619c86",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Google warns that fully-automated AI attacks are coming soon",
-   "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-   "published": "2026-11-16T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5adf36e942",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-   "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-   "published": "2026-11-16T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf9828b7723",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "published": "2026-11-16T13:27:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0e38e3f472",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "ArcticRAT Android Malware Uses Grok AI to Analyse Stolen Banking Texts",
-   "url": "https://hackread.com/arcticrat-android-malware-grok-ai-analyse-banking-texts/",
-   "published": "2026-11-16T08:28:18.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na60b8a453d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-   "published": "2026-11-16T08:26:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n47ca43e224",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
-   "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
-   "published": "2026-11-16T08:15:12.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd8ad2d2b95",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "TSMC Leak Claim, Daxus Logs, Kazakhstan Court, Greek Ticketing, and Telegram Data",
-   "url": "https://socradar.io/blog/tsmc-kazakhstan-court-daxus-telegram-data-leaks/",
-   "published": "2026-11-16T07:56:46.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n59facec8d4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why is China resisting a nuclear treaty with the US and Russia?",
-   "url": "https://www.aljazeera.com/news/2026/11/16/why-is-china-not-keen-on-a-nuclear-treaty-with-us-and-russia?traffic_source=rss",
-   "published": "2026-11-16T07:54:09.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "na7f1a8d061",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "At least 11 killed in blaze on Thailand’s Phuket island",
-   "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
-   "published": "2026-11-16T07:42:48.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf159cf23a7",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-   "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-   "published": "2026-11-16T07:34:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n776eec00e2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
-   "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T07:23:23.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
