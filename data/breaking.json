@@ -1,33 +1,23 @@
 {
- "updated": "2026-11-19T00:05:02.728Z",
+ "updated": "2026-11-19T07:13:59.249Z",
  "health": [
   {
-   "name": "BBC World",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 2
+   "n": 0
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 3
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
+   "n": 0
   },
   {
    "name": "The Record",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -39,17 +29,7 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "SecurityWeek",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "n": 1
   },
   {
    "name": "The DFIR Report",
@@ -57,12 +37,32 @@
    "n": 0
   },
   {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 2
+  },
+  {
    "name": "Hackread",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
    "ok": true,
    "n": 1
   },
@@ -72,9 +72,14 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 3
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -83,11 +88,6 @@
   },
   {
    "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,116 @@
   }
  ],
  "items": [
+  {
+   "id": "n2a21804416",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘It’s my friend’: Moment Trump greets Putin at China summit",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/its-my-friend-moment-trump-greets-putin-at-china-summit?traffic_source=rss",
+   "published": "2026-11-19T06:44:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndc45cbc29e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Could Trump, Putin and Xi end the nuclear age?",
+   "url": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
+   "published": "2026-11-19T06:15:55.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n2c3fe24857",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Far from Trump-Putin meeting, Europe to count cost of Ukraine’s defence",
+   "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukraines-defence?traffic_source=rss",
+   "published": "2026-11-19T04:58:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n72721eae64",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump wants to talk nuclear with Putin and Xi",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-wants-to-talk-nuclear-with-putin-and-xi?traffic_source=rss",
+   "published": "2026-11-19T04:50:28.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb22ea84aec",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+   "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-19T04:42:52.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8961061d5d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Crimean Bridge attacked again, Russian official says",
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-19T04:37:17.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd1202d3392",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+   "published": "2026-11-19T04:33:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3295cab883",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "APEC Live: Ukraine, Iran, AI on table for historic Trump-Xi-Putin meeting",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit?traffic_source=rss",
+   "published": "2026-11-19T03:30:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5128ef4227",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+   "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+   "published": "2026-11-19T03:25:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n83f222c106",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "China’s Xi greets Putin and Trump at APEC before historic summit",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
+   "published": "2026-11-19T03:01:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n52a6717fa2",
    "kind": "news",
@@ -2755,61 +2865,6 @@
    "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
    "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-16T07:23:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf1db7124da",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia’s Andreeva defeats Ukraine’s Svitolina 7-5, 6-3 to win WTA Finals",
-   "url": "https://www.aljazeera.com/sports/2026/11/16/russias-andreeva-defeats-ukraines-svitolina-7-5-6-3-to-win-wta-finals?traffic_source=rss",
-   "published": "2026-11-16T07:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1b192d0ff1",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "How Russia is preparing Iran for the next escalation",
-   "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation?traffic_source=rss",
-   "published": "2026-11-16T06:57:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1a13d7025b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-   "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-   "published": "2026-11-16T06:53:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n592ead7d58",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-   "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T03:09:49.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ne1c130ec8e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "ASEAN, China fall short of agreeing on South China Sea code",
-   "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss",
-   "published": "2026-11-16T02:46:35.000Z",
    "severity": "normal",
    "verified": true
   }
