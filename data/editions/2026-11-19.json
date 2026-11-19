@@ -1,0 +1,960 @@
+{
+ "date": "2026-11-19",
+ "edition": 248,
+ "compiled": "2026-11-19T01:21:18.559Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "4d21e75602",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "snippet": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+   "published": "2026-11-18T16:58:42.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    }
+   ],
+   "score": 1.78,
+   "image": "/img/news/4d21e75602.webp",
+   "t": "2026-11-18",
+   "summary": "BleepingComputer reports that two compromised versions of Microsoft’s official Agent Framework Python package on PyPI were designed to steal cloud credentials and other sensitive developer information.",
+   "why": "Check package versions and investigate systems where the affected package may have been installed.",
+   "tags": [
+    "PyPI",
+    "credentials"
+   ],
+   "ai": true
+  },
+  {
+   "id": "122413bd84",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "snippet": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p> <ul> <li><a href=\"https://www.cve.org",
+   "published": "2026-11-18T12:00:00.000Z",
+   "also": [],
+   "score": 1.62,
+   "t": "2026-11-19",
+   "summary": "CISA added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
+   "why": "Check whether affected products are in your environment and prioritize remediation.",
+   "tags": [
+    "CISA",
+    "vulnerabilities",
+    "KEV Catalog"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b326b8531a",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "snippet": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+   "published": "2026-11-18T23:08:33.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/b326b8531a.webp",
+   "t": "2026-11-19",
+   "summary": "Ukrainian authorities and the FBI arrested four suspected ransomware organization members linked to more than $40.5 million in ransom payments from at least 28 companies.",
+   "why": "Review ransomware readiness, including incident response and recovery plans.",
+   "tags": [
+    "ransomware",
+    "FBI",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ede0adf4c5",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "snippet": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
+   "published": "2026-11-18T20:49:32.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/ede0adf4c5.webp",
+   "t": "2026-11-19",
+   "summary": "Coinbase says it blocked $4.7 million in transfers to scammers using an AI-generated Elon Musk deepfake to promote a fake giveaway.",
+   "why": "Warn users to verify giveaways and payment requests through trusted channels.",
+   "tags": [
+    "deepfake",
+    "Coinbase",
+    "scam"
+   ],
+   "ai": true
+  },
+  {
+   "id": "33f8f6aa43",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
+   "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
+   "snippet": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
+   "published": "2026-11-18T20:39:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/33f8f6aa43.webp",
+   "t": "2026-11-19",
+   "summary": "A bankruptcy judge ruled Google can take possession of Spirit Airlines' data for $10 million; Google agreed to protections as it plans to use the data in AI projects.",
+   "why": "Track how data protections apply when company data changes ownership or use.",
+   "tags": [
+    "Spirit Airlines",
+    "Google",
+    "data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "db1d82795c",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Trump administration officials size-up a bad stretch for tech",
+   "url": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+   "snippet": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
+   "published": "2026-11-18T20:00:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/db1d82795c.webp",
+   "t": "2026-11-19",
+   "summary": "Homeland Security Secretary Markwayne Mullin said officials will ask industry to share more information about major patches before they take effect.",
+   "why": "Assess whether patch coordination affects your vulnerability management process.",
+   "tags": [
+    "patches",
+    "industry",
+    "information"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9f639cd353",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+   "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "snippet": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+   "published": "2026-11-18T19:39:33.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/9f639cd353.webp",
+   "t": "2026-11-19",
+   "summary": "A reported cyberattack on Wellington IT exposed sensitive information belonging to members of 50 credit unions, most located in Ireland.",
+   "why": "Check third-party exposure, affected accounts, and provider incident notices.",
+   "tags": [
+    "Wellington IT",
+    "credit unions",
+    "data breach"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1336631baf",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+   "url": "https://therecord.media/ai-cyber-white-house",
+   "snippet": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
+   "published": "2026-11-18T19:00:00.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/1336631baf.webp",
+   "t": "2026-11-18",
+   "summary": "The Record says two bipartisan senators urged the White House to launch a national effort against AI-enabled cyber threats.",
+   "why": "Track proposals for defensive AI systems and assess how they might affect cyber defense planning.",
+   "tags": [
+    "AI",
+    "cyber threats"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e798ab68d1",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "NSA continues response to interruptions in classified internal network",
+   "url": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+   "snippet": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
+   "published": "2026-11-18T16:19:00.000Z",
+   "also": [],
+   "score": 1.41,
+   "image": "/img/news/e798ab68d1.webp",
+   "t": "2026-11-18",
+   "summary": "The Record reports disruptions to the NSA Net, with staggered arrivals and logins at Fort Meade; a source said classified work continued unimpeded.",
+   "why": "The report highlights operational continuity during interruptions to a classified network.",
+   "tags": [
+    "NSA Net",
+    "disruptions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9611180895",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+   "url": "https://therecord.media/russia-cyber-espionage-google",
+   "snippet": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+   "published": "2026-11-18T15:15:00.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/9611180895.webp",
+   "t": "2026-11-18",
+   "summary": "Google says Russian state-backed hackers use information stolen from cloud accounts to impersonate trusted contacts and target victims’ professional networks.",
+   "why": "Review cloud-account security and verify unexpected requests that appear to come from trusted contacts.",
+   "tags": [
+    "cloud",
+    "espionage"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6027ff9867",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ukraine Strikes Kerch Bridge Once Again: Crimea Governor",
+   "url": "https://www.twz.com/news-features/ukraine-strikes-kerch-bridge-once-again-crimea-governor",
+   "snippet": "This is the third attack in three days with the previous one successfully dropping the road vehicle span of the bridge, but the rail span was still left. The post Ukraine Strikes Kerch Bridge Once Again: Crimea Governor appeared first on TWZ .",
+   "published": "2026-11-19T00:49:07.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/6027ff9867.webp",
+   "t": "2026-11-19",
+   "summary": "The report says Ukraine struck the Kerch Bridge again; a previous attack dropped the road vehicle span, while the rail span remained.",
+   "why": "The bridge's separate road and rail spans highlight infrastructure and transport relevance.",
+   "tags": [
+    "Kerch Bridge",
+    "road vehicle span",
+    "rail span"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dc08dd3a9d",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
+   "url": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
+   "snippet": "The resumed Iranian attacks on Gulf states hosting American forces and ongoing reactive strikes by the U.S. are taking place amid a stalemate in peace talks. The post Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island appeared first on TWZ .",
+   "published": "2026-11-18T22:06:41.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/dc08dd3a9d.webp",
+   "t": "2026-11-19",
+   "summary": "The report says Iranian attacks on Gulf states hosting American forces have resumed alongside U.S. reactive strikes, amid stalled peace talks.",
+   "why": "The activity links host-state exposure, U.S. forces, and regional escalation.",
+   "tags": [
+    "Iranian attacks",
+    "Gulf states",
+    "peace talks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8b22781172",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Europe Is Exploring Orbital Deep Strike Weapons",
+   "url": "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons",
+   "snippet": "Launching precision strikes from orbital platforms would have huge advantages, but it would also come at a very high cost. The post Europe Is Exploring Orbital Deep Strike Weapons appeared first on TWZ .",
+   "published": "2026-11-18T21:50:08.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/8b22781172.webp",
+   "t": "2026-11-19",
+   "summary": "Europe is exploring orbital platforms for precision strikes; the report says they could offer advantages but would come at high cost.",
+   "why": "Orbital strike concepts raise questions about precision, military utility, and cost.",
+   "tags": [
+    "Europe",
+    "orbital platforms",
+    "precision strikes"
+   ],
+   "ai": true
+  },
+  {
+   "id": "047915ef7f",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "$350 billion reconciliation bill ‘not going to happen’: HASC chair",
+   "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/",
+   "snippet": "“If a reconciliation bill is still possible, it’s going to have to be skinnied down to deal with … the hole in the defense budget that Venezuela and Iran have created,” said Rep. Mike Rogers.",
+   "published": "2026-11-18T21:56:01.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/047915ef7f.webp",
+   "t": "2026-11-19",
+   "summary": "Rep. Mike Rogers said a reconciliation bill would need to be narrowed to address a defense budget shortfall he linked to Venezuela and Iran.",
+   "why": "Follow how budget constraints may shape defense priorities.",
+   "tags": [
+    "reconciliation bill",
+    "defense budget",
+    "Venezuela"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8b83b95034",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "A $1.1 trillion Pentagon budget plan sets up a fight on Capitol Hill",
+   "url": "https://breakingdefense.com/2026/11/a-1-1-trillion-pentagon-budget-sets-up-a-fight-on-capitol-hill/",
+   "snippet": "Senate appropriators are prioritizing Golden Dome, drones and munitions, but other military programs could pay the price.",
+   "published": "2026-11-18T21:48:03.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/8b83b95034.webp",
+   "t": "2026-11-19",
+   "summary": "Senate appropriators are prioritizing Golden Dome, drones, and munitions in a Pentagon budget plan; other military programs could pay the price.",
+   "why": "Budget choices indicate which capabilities may gain priority and which may face tradeoffs.",
+   "tags": [
+    "Golden Dome",
+    "drones",
+    "munitions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b73dc5784e",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Navy taps one-star admiral to advance hypersonic weapons, SLCM-N integration at Crane",
+   "url": "https://breakingdefense.com/2026/11/navy-taps-one-star-admiral-to-advance-hypersonic-weapons-slcm-n-integration-at-crane/",
+   "snippet": "Rear Adm. Patrick Finney is the first person to lead the new program management office based out of Naval Weapons Station Crane in Indiana.",
+   "published": "2026-11-18T20:41:54.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/b73dc5784e.webp",
+   "t": "2026-11-19",
+   "summary": "The Navy appointed Rear Adm. Patrick Finney to lead a new program management office advancing hypersonic weapons and SLCM-N integration at Crane.",
+   "why": "The new office connects hypersonic weapons development with SLCM-N integration.",
+   "tags": [
+    "hypersonic weapons",
+    "SLCM-N",
+    "Crane"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ac91cca09a",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Flying Stripped-Down F-15 “Silver Eagles” To Their Limits",
+   "url": "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits",
+   "snippet": "F-15s in 'rocket ship' configuration get put through the wringer during flight test sorties right after they emerge from deep maintenance. The post Flying Stripped-Down F-15 “Silver Eagles” To Their Limits appeared first on TWZ .",
+   "published": "2026-11-18T19:03:37.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/ac91cca09a.webp",
+   "t": "2026-11-18",
+   "summary": "The War Zone reports that F-15s in a stripped-down “rocket ship” configuration undergo flight-test sorties after deep maintenance.",
+   "why": "The sorties concern flight testing of F-15s after deep maintenance.",
+   "tags": [
+    "F-15",
+    "flight test"
+   ],
+   "ai": true
+  },
+  {
+   "id": "126735c088",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Is Dollar Dominance in Decline?",
+   "url": "https://warontherocks.com/is-dollar-dominance-in-decline/",
+   "snippet": "The dominance of the U.S. dollar is a crucial source of American global power. The dollar’s widespread use, strength, and reliability provide major economic advantages for the United States, enable U.S. sanctions to have real bite, and significantly boost U.S. influence abroad. For America’s adversaries — as well as fo",
+   "published": "2026-11-18T18:46:20.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/126735c088.webp",
+   "t": "2026-11-18",
+   "summary": "War on the Rocks discusses the U.S. dollar’s global role and its economic advantages, including enabling U.S. sanctions to have real bite.",
+   "why": "The dollar’s use and reliability are linked to U.S. economic and sanctions influence.",
+   "tags": [
+    "dollar",
+    "sanctions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8961061d5d",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Crimean Bridge attacked again, Russian official says",
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The head of Crimea said traffic was suspended after another attack on the link between mainland Russia and the occupied territory.",
+   "published": "2026-11-19T01:05:03.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/8961061d5d.webp",
+   "t": "2026-11-19",
+   "summary": "The head of Crimea said traffic was suspended after another attack on the bridge linking mainland Russia and the occupied territory.",
+   "why": "The bridge links mainland Russia and occupied territory, making access and traffic strategically relevant.",
+   "tags": [
+    "Crimean Bridge",
+    "traffic",
+    "attack"
+   ],
+   "ai": true
+  },
+  {
+   "id": "52a6717fa2",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+   "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+   "published": "2026-11-18T23:28:03.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/52a6717fa2.webp",
+   "t": "2026-11-19",
+   "summary": "Prosecutors say a Russian suspect followed employees of U.S. defense company Palantir and was found with fake U.S. IDs and two Russian passports.",
+   "why": "Review employee security and reporting procedures for suspicious surveillance.",
+   "tags": [
+    "Palantir",
+    "spying",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ef20159759",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+   "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+   "published": "2026-11-18T22:34:56.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/ef20159759.webp",
+   "t": "2026-11-19",
+   "summary": "The Israeli military says its ground operation beyond the Yellow Line is dismantling a terror tunnel; Hamas condemns it as a ceasefire violation.",
+   "why": "The competing claims highlight the operational and diplomatic significance of activity beyond the Yellow Line.",
+   "tags": [
+    "Gaza",
+    "Yellow Line",
+    "ceasefire"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3fb78a6f3d",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Eutelsat Network Solutions Adds Alternative PNT to $60 Million-Plus Space Force LEO Award",
+   "url": "https://insidegnss.com/eutelsat-network-solutions-adds-alternative-pnt-to-60-million-plus-space-force-leo-award/",
+   "snippet": "Eutelsat Network Solutions will supply U.S. military users with alternative positioning, navigation and timing (PNT) solutions alongside OneWeb low Earth orbit (LEO) satellite... The post Eutelsat Network Solutions Adds Alternative PNT to $60 Million-Plus Space Force LEO Award appeared first on Inside GNSS - Global Nav",
+   "published": "2026-11-18T17:23:11.000Z",
+   "also": [],
+   "score": 1.53,
+   "t": "2026-11-18",
+   "summary": "Inside GNSS reports that Eutelsat Network Solutions will supply U.S. military users with alternative PNT solutions alongside OneWeb low Earth orbit satellites.",
+   "why": "Alternative PNT alongside LEO satellites is relevant to military positioning, navigation, and timing.",
+   "tags": [
+    "PNT",
+    "LEO"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2b3e0e134c",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Dispatch from Kyiv: Let Ukraine strike Russia’s missile launchers at the source",
+   "url": "https://www.atlanticcouncil.org/dispatches/dispatch-from-kyiv-let-ukraine-strike-russias-missile-launchers-at-the-source/",
+   "snippet": "Russia's missile production vastly outpaces the output of interceptors for Ukraine and by the United States—an issue that should concern militaries around the world. The post Dispatch from Kyiv: Let Ukraine strike Russia’s missile launchers at the source appeared first on Atlantic Council .",
+   "published": "2026-11-18T21:12:04.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/2b3e0e134c.webp",
+   "t": "2026-11-19",
+   "summary": "The article says Russian missile production outpaces interceptor output for Ukraine and the United States, arguing this should concern militaries.",
+   "why": "The stated production imbalance bears on interceptor capacity and strike-defense planning.",
+   "tags": [
+    "missile production",
+    "interceptors",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7f79e1946b",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Without U.S. Military Aid, Can Israel Afford So Many Wars?",
+   "url": "https://foreignpolicy.com/2026/11/18/israel-military-aid-united-states-trump-netanyahu-wars/",
+   "snippet": "Deterioration in ties with Washington poses serious trouble.",
+   "published": "2026-11-18T20:19:30.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/7f79e1946b.webp",
+   "t": "2026-11-19",
+   "summary": "Foreign Policy asks whether Israel can afford multiple wars without U.S. military aid, citing deteriorating ties with Washington as a serious concern.",
+   "why": "The aid relationship is relevant to Israel's capacity to sustain military operations.",
+   "tags": [
+    "U.S. military aid",
+    "Israel",
+    "Washington"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c69230f311",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+   "snippet": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
+   "published": "2026-11-19T00:01:02.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/c69230f311.webp",
+   "t": "2026-11-19",
+   "summary": "A Saudi-led coalition says it destroyed a missile platform in Saada, Yemen; Iran claims three ships hit mines in Hormuz.",
+   "why": "The claims connect military activity in Yemen with reported maritime threats in Hormuz.",
+   "tags": [
+    "Yemen",
+    "missile platform",
+    "Hormuz"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6f64192690",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel uses Gaza swimming video to minimise winter hardships",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israel-uses-gaza-swimming-video-to-minimise-winter-hardships?traffic_source=rss",
+   "snippet": "Israel shared an Al Jazeera video of Palestinians swimming, to suggest winter storms in Gaza can’t be that bad.",
+   "published": "2026-11-18T23:53:21.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/6f64192690.webp",
+   "t": "2026-11-19",
+   "summary": "Israel shared an Al Jazeera video of Palestinians swimming to suggest winter storms in Gaza could not be severe.",
+   "why": "The use of a video to frame conditions makes source and context checks important for analysts.",
+   "tags": [
+    "Gaza",
+    "video",
+    "winter storms"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2024-10441",
+   "vendor": "Synology",
+   "product": "DiskStation Manager (DSM)",
+   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+  },
+  {
+   "cve": "CVE-2026-40217",
+   "vendor": "BerriAI",
+   "product": "LiteLLM",
+   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-12-02",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+  },
+  {
+   "cve": "CVE-2026-90817",
+   "vendor": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+  },
+  {
+   "cve": "CVE-2026-90436",
+   "vendor": "Apache",
+   "product": "Axis",
+   "name": "Apache Axis Unsafe Reflection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+  },
+  {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+  },
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+  },
+  {
+   "cve": "CVE-2026-124194",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+  },
+  {
+   "cve": "CVE-2026-111793",
+   "vendor": "Openwave Messaging Limited",
+   "product": "Webtop Media Transcoder",
+   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 4.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+  },
+  {
+   "cve": "CVE-2026-20320",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+  },
+  {
+   "cve": "CVE-2026-111560",
+   "vendor": "Barracuda Networks",
+   "product": "Multiple Products",
+   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+  },
+  {
+   "cve": "CVE-2026-116606",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+  }
+ ],
+ "run_today": [
+  "Check systems against CISA's Known Exploited Vulnerabilities Catalog and prioritize applicable fixes.",
+  "Review third-party incident notices and assess whether Wellington IT-related data is exposed.",
+  "Remind users to verify giveaways and payment requests before transferring funds."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "Known Exploited Vulnerabilities Catalog",
+   "explainer": "A CISA catalog that lists vulnerabilities identified as known exploited. For defenders, it can help prioritize which applicable flaws to address.",
+   "from_id": "122413bd84",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
+  },
+  {
+   "domain": "warfare",
+   "term": "orbital platforms",
+   "explainer": "Platforms in orbit that could be used to launch precision strikes. The report notes potential advantages as well as high cost.",
+   "from_id": "8b22781172",
+   "from": "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "Yellow Line",
+   "explainer": "A named line used in the report to describe where the Israeli military operation took place in Gaza. The snippet gives no further definition of the line.",
+   "from_id": "ef20159759",
+   "from": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
+  }
+ ],
+ "analysis": {
+  "headline": "Exposure, infrastructure, and contested claims",
+  "paragraphs": [
+   "Today's stories span compromise of a software package, CISA's catalog of exploited vulnerabilities, and arrests tied to ransomware. Together, they suggest that exposure can arise through software dependencies, known flaws, and criminal operations. The snippets do not establish a connection among these events, but they reinforce the value of checking both internal systems and external providers.",
+   "The Kerch Bridge reports describe another attack and suspended traffic, while the warfare report says a previous strike dropped the road span but left the rail span. These accounts point to the strategic and operational importance of transport links. For analysts, distinguishing reported claims from confirmed effects matters, particularly when accounts describe different aspects of an event.",
+   "Other top stories describe a Gaza operation disputed by Hamas and resumed Iranian attacks alongside U.S. strikes amid stalled talks. Across cyber and conflict reporting, attribution and framing remain important: identify who is making each claim, what the snippet actually establishes, and what remains uncertain. Watch for further details that clarify impacts, affected systems, and the status of infrastructure or operations."
+  ],
+  "takeaways": [
+   "Prioritize applicable vulnerabilities and review exposure through software and service providers.",
+   "Separate reported claims from established effects when assessing infrastructure incidents.",
+   "Track how regional operations and disputes are described by each source."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 11
+  }
+ ]
+}
