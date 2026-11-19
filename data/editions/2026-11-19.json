@@ -1,229 +1,318 @@
 {
  "date": "2026-11-19",
  "edition": 248,
- "compiled": "2026-11-19T08:59:42.488Z",
+ "compiled": "2026-11-19T18:04:50.322Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "4d21e75602",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-   "snippet": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-   "published": "2026-11-18T16:58:42.000Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
-    }
-   ],
-   "score": 1.62,
-   "image": "/img/news/4d21e75602.webp",
-   "t": "2026-11-18",
-   "summary": "BleepingComputer reports that two compromised versions of Microsoft’s official Agent Framework Python package on PyPI were designed to steal cloud credentials and other sensitive developer information.",
-   "why": "Check package versions and investigate systems where the affected package may have been installed.",
-   "tags": [
-    "PyPI",
-    "credentials"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ef3cecb6fd",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "snippet": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote ",
-   "published": "2026-11-19T08:42:11.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/ef3cecb6fd.webp",
-   "t": "2026-11-19",
-   "summary": "Ruby maintainers say seven memory-safety flaws affect its regular expression engine and string case-conversion code; proof-of-concept exploits demonstrate code execution for five.",
-   "why": "Check Ruby versions and prioritize applying the announced fixes.",
-   "tags": [
-    "Ruby",
-    "memory-safety",
-    "RCE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3d3c584590",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-   "snippet": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against Po",
-   "published": "2026-11-19T08:14:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/3d3c584590.webp",
-   "t": "2026-11-19",
-   "summary": "A researcher demonstrated that low-privilege PostgreSQL, MySQL, and Oracle accounts can reach memory-corruption bugs and run code on database servers.",
-   "why": "Review database engine updates and limit accounts’ access and exposure.",
-   "tags": [
-    "databases",
-    "memory-corruption",
-    "RCE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e2e32d524f",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-   "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-   "snippet": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
-   "published": "2026-11-19T07:45:17.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/e2e32d524f.webp",
-   "t": "2026-11-19",
-   "summary": "PHP is preparing critical security updates for a flaw affecting session upload progress, publicly disclosed after PHP2Shell patches landed.",
-   "why": "Monitor for PHP updates and check whether session upload progress is in use.",
-   "tags": [
-    "PHP",
-    "session upload progress",
-    "RCE"
-   ],
-   "ai": true
-  },
-  {
-   "id": "122413bd84",
+   "id": "73e981a448",
    "section": "cyber",
    "source": "CISA Advisories",
    "weight": 0.9,
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "snippet": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p> <ul> <li><a href=\"https://www.cve.org",
-   "published": "2026-11-18T12:00:00.000Z",
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brak",
+   "published": "2026-11-19T12:00:00.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.77,
    "t": "2026-11-19",
-   "summary": "CISA added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
-   "why": "Check whether affected products are in your environment and prioritize remediation.",
+   "summary": "CISA says successful exploitation of vulnerabilities in Elecbrakes EB2, VM1, and ELBC2000 could allow an attacker to gain control of something not specified in the supplied text.",
+   "why": "Check whether these products are present and review the CISA advisory for mitigation guidance.",
+   "tags": [
+    "Elecbrakes",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3f6682cf94",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.</s",
+   "published": "2026-11-19T12:00:00.000Z",
+   "also": [],
+   "score": 1.77,
+   "t": "2026-11-19",
+   "summary": "CISA says successful exploitation of a libumqtt vulnerability could allow a remote attacker to cause a denial of service.",
+   "why": "Identify systems using libumqtt and review the CISA advisory for applicable mitigations.",
+   "tags": [
+    "libumqtt",
+    "denial of service"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7f8f338723",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.</strong></p> <p>The following versions of ",
+   "published": "2026-11-19T12:00:00.000Z",
+   "also": [],
+   "score": 1.77,
+   "t": "2026-11-19",
+   "summary": "CISA says successful exploitation of a vulnerability in Autonomy Logic OpenPLC Runtime could allow several unauthenticated admin accounts.",
+   "why": "Check deployments for exposed OpenPLC Runtime and review the CISA advisory.",
+   "tags": [
+    "OpenPLC Runtime",
+    "unauthenticated"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4692e0d9ed",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+   "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+   "snippet": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+   "published": "2026-11-19T17:25:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/4692e0d9ed.webp",
+   "t": "2026-11-19",
+   "summary": "DOJ and DHS are partnering on the Threat Disruption Center to triage victim complaints, map cybercriminal networks, and connect with private-sector organizations working with victims.",
+   "why": "For defenders, the center may offer a channel for sharing victim reports and coordinating with private-sector partners.",
+   "tags": [
+    "Threat Disruption Center",
+    "cybercrime"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c0b2110866",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+   "url": "https://therecord.media/cisa-losapio-nomination-trump",
+   "snippet": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+   "published": "2026-11-19T17:00:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/c0b2110866.webp",
+   "t": "2026-11-19",
+   "summary": "CISA nominee LoSapio pledged to lawmakers to uncover organizational gaps while denying that the Capitol came under attack on January 6, 2021.",
+   "why": "Track the nominee’s stated plans for identifying gaps in cyber defenses.",
    "tags": [
     "CISA",
-    "vulnerabilities",
-    "KEV Catalog"
+    "cyber defenses"
    ],
    "ai": true
   },
   {
-   "id": "d1202d3392",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-   "snippet": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security ",
-   "published": "2026-11-19T04:33:46.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/d1202d3392.webp",
-   "t": "2026-11-19",
-   "summary": "PHP maintainers announced an upcoming security release addressing critical flaws across all supported versions, scheduled for November 19, 2026.",
-   "why": "Plan to review and apply the release when available.",
-   "tags": [
-    "PHP",
-    "security release",
-    "critical flaws"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b326b8531a",
+   "id": "c5e7bc1c42",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-   "snippet": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-   "published": "2026-11-18T23:08:33.000Z",
+   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "snippet": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+   "published": "2026-11-19T16:28:23.000Z",
    "also": [],
-   "score": 1.39,
-   "image": "/img/news/b326b8531a.webp",
+   "score": 1.57,
+   "image": "/img/news/c5e7bc1c42.webp",
    "t": "2026-11-19",
-   "summary": "Ukrainian authorities and the FBI arrested four suspected ransomware organization members linked to more than $40.5 million in ransom payments from at least 28 companies.",
-   "why": "Review ransomware readiness, including incident response and recovery plans.",
+   "summary": "The PHP development team released updates for 18 vulnerabilities, including critical flaws that could let unauthenticated attackers execute code remotely on vulnerable servers.",
+   "why": "Inventory PHP deployments and apply relevant security updates.",
+   "tags": [
+    "PHP",
+    "RCE"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6ddd580a09",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "UK court confirms British government served Apple with secret encryption notice",
+   "url": "https://therecord.media/apple-uk-encryption-notice",
+   "snippet": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely reported.",
+   "published": "2026-11-19T16:15:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/6ddd580a09.webp",
+   "t": "2026-11-19",
+   "summary": "A UK tribunal confirmed that the British government served Apple with a secret legal notice targeting cryptographic protections for iCloud accounts.",
+   "why": "Review how legal demands affecting encryption could intersect with cloud security and user communications.",
+   "tags": [
+    "Apple",
+    "encryption"
+   ],
+   "ai": true
+  },
+  {
+   "id": "75044bab3e",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Five warning signs of ransomware breach before encryption or data theft",
+   "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+   "snippet": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+   "published": "2026-11-19T15:00:10.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/75044bab3e.webp",
+   "t": "2026-11-19",
+   "summary": "Acronis describes warning signs of ransomware activity before encryption or data theft, including credential theft, lateral movement, and attempts to disable security controls.",
+   "why": "Monitor for credential theft, lateral movement, and efforts to disable security controls.",
    "tags": [
     "ransomware",
-    "FBI",
-    "Ukraine"
+    "lateral movement"
    ],
    "ai": true
   },
   {
-   "id": "1b4d43f726",
+   "id": "5f26a74674",
    "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "US enlists private firms to cut scammers off from victims’ cash",
-   "url": "https://www.helpnetsecurity.com/2026/11/19/us-threat-disruption-center-scam-sextortion-funds/",
-   "snippet": "Stopping victims’ money before it reaches foreign scam, cybercrime and sextortion networks is the goal of a new US unit launched by the Homeland Security Task Force (HSTF). The Threat Disruption Center is part of the HSTF’s National Coordination Center (NCC) in Fairfax, Virginia. The task force calls it “a shared techn",
-   "published": "2026-11-19T08:21:15.000Z",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "European Commission confirms cyberattack, says hackers used AI tool",
+   "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+   "snippet": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+   "published": "2026-11-19T15:15:00.000Z",
    "also": [],
-   "score": 1.39,
-   "image": "/img/news/1b4d43f726.webp",
+   "score": 1.54,
+   "image": "/img/news/5f26a74674.webp",
    "t": "2026-11-19",
-   "summary": "A new US unit aims to stop victims’ money before it reaches foreign scam, cybercrime, and sextortion networks.",
-   "why": "The effort focuses on disrupting the financial flows that support cybercrime.",
+   "summary": "The European Commission confirmed a cyberattack and said hackers used an AI tool. POLITICO had reported CERT-EU identified use of ARTEX, described as an open-source AI hacking platform.",
+   "why": "Review detection coverage for activity involving AI tools and open-source hacking platforms.",
    "tags": [
-    "scams",
-    "cybercrime",
-    "financial flows"
+    "AI tool",
+    "ARTEX"
    ],
    "ai": true
   },
   {
-   "id": "5128ef4227",
+   "id": "7cc3b724b6",
    "section": "cyber",
-   "source": "SecurityWeek",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "snippet": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+   "published": "2026-11-19T14:57:24.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/7cc3b724b6.webp",
+   "t": "2026-11-19",
+   "summary": "Researchers say two critical NGINX vulnerabilities allow unauthenticated remote code execution on vulnerable web servers and can be chained with a Linux kernel bug for root access.",
+   "why": "Check NGINX servers for exposure and apply relevant fixes.",
+   "tags": [
+    "NGINX",
+    "remote code execution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "845da582d1",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "The real-world missile defense lessons from Ukraine and Iran — and how they matter for China",
+   "url": "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china/",
+   "snippet": "What works in Ukraine may not be the same systems needed for a Pacific conflict, according to Breaking Defense’s video roundtable.",
+   "published": "2026-11-19T16:33:00.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/845da582d1.webp",
+   "t": "2026-11-19",
+   "summary": "A Breaking Defense roundtable says systems that work in Ukraine may not be the same systems needed for a Pacific conflict.",
+   "why": "The comparison highlights how missile defense requirements may differ across theaters.",
+   "tags": [
+    "missile defense",
+    "Pacific"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e12db1bc9e",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Warsaw shoots for the stars: MoD to buy new sats as part of major space expansion plans",
+   "url": "https://breakingdefense.com/2026/11/warsaw-shoots-for-the-stars-mod-to-buy-new-sats-as-part-of-major-space-expansion-plans/",
+   "snippet": "New military satellites are part of a wider plan for Poland to earn a seat at the table with Europe’s major space players, senior Polish defense officials exclusively told Breaking Defense.",
+   "published": "2026-11-19T15:21:04.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/e12db1bc9e.webp",
+   "t": "2026-11-19",
+   "summary": "Poland plans to buy new military satellites as part of a wider space expansion, officials told Breaking Defense.",
+   "why": "The plan signals Poland’s interest in a larger role among Europe’s space powers.",
+   "tags": [
+    "Poland",
+    "military satellites"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5284feb4da",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Training for any scenario, anywhere in the world, starting with the Pacific in Guam",
+   "url": "https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam/",
+   "snippet": "[Sponsored] AI and new training techniques are turning actual operational networks into training environments for joint forces.",
+   "published": "2026-11-19T13:43:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/5284feb4da.webp",
+   "t": "2026-11-19",
+   "summary": "A sponsored item says AI and new training techniques are turning operational networks into training environments for joint forces, starting in Guam.",
+   "why": "Using operational networks for training connects force preparation with digital infrastructure.",
+   "tags": [
+    "AI",
+    "training"
+   ],
+   "ai": true
+  },
+  {
+   "id": "be16d51b8f",
+   "section": "warfare",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-   "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-   "snippet": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek .",
-   "published": "2026-11-19T03:25:23.000Z",
+   "title": "F-35C completes first launch and recovery trials on a Ford-class carrier",
+   "url": "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
+   "snippet": "Two Navy F-35C Lightning II fighters have completed the jet’s first round of launch and recovery testing aboard the future USS John F. Kennedy.",
+   "published": "2026-11-19T17:38:00.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/5128ef4227.webp",
+   "score": 1.49,
+   "image": "/img/news/be16d51b8f.webp",
    "t": "2026-11-19",
-   "summary": "Palo Alto Networks plans to buy Applied Compute; the deal would provide a platform for fine-tuning and running open-weight AI models in public and sovereign clouds.",
-   "why": "The deal links cybersecurity products with AI model platforms and cloud environments.",
+   "summary": "Two Navy F-35C fighters completed the jet’s first launch and recovery testing aboard the future USS John F. Kennedy.",
+   "why": "The trials concern carrier-based launch and recovery operations for the F-35C.",
    "tags": [
-    "AI models",
-    "public clouds",
-    "sovereign clouds"
+    "F-35C",
+    "carrier"
    ],
    "ai": true
   },
   {
-   "id": "59d3b792db",
-   "section": "cyber",
-   "source": "Dark Reading",
-   "weight": 0.4,
-   "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
-   "url": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
-   "snippet": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top-5 most attacked countries globally.",
-   "published": "2026-11-19T08:00:00.000Z",
+   "id": "d88b9cd775",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "Defense Business Brief: Vantor’s Raptor; Hadrian’s foundry, and more",
+   "url": "https://www.defenseone.com/business/2026/11/defense-business-brief-vantors-raptor-hadrians-foundry-and-more/417327/",
+   "snippet": "<![CDATA[<p>Flying drones at <a href=\"https://www.kyivpost.com/post/80582\">lower altitudes</a> can help them <a href=\"https://www.csmonitor.com/World/Europe/2026/1109/ukraine-drone-defense-strikes-russia-kyiv-ai\">evade</a> radar detection, but what happens if the GPS is jammed? How will the drone know where it is?</p> ",
+   "published": "2026-11-19T14:00:00.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/59d3b792db.webp",
+   "score": 1.41,
+   "image": "/img/news/d88b9cd775.webp",
    "t": "2026-11-19",
-   "summary": "Nigeria faced more than double the cyber threats of the previous year; Angola and Kenya were also among the five most attacked countries globally, Dark Reading reports.",
-   "why": "Use the reported regional shift to inform threat monitoring and defensive attention.",
+   "summary": "The supplied excerpt mentions lower-altitude drone flights as a way to evade radar detection, then cuts off before describing what follows.",
+   "why": "The excerpt links drone altitude with radar detection, a relevant consideration for air defense.",
    "tags": [
-    "Nigeria",
-    "cyber threats",
-    "Africa"
+    "drones",
+    "radar"
    ],
    "ai": true
   },
@@ -237,7 +326,7 @@
    "snippet": "Commercial cloud architecture has made digital infrastructure more resilient to localized disruption. Geographic dispersion, workload migration, and failover have allowed providers to preserve access in instances of degradation or even destruction. Yet, underpinning this resiliency are interlocking dependencies on acce",
    "published": "2026-11-19T08:30:45.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.4,
    "image": "/img/news/061ac3e6e8.webp",
    "t": "2026-11-19",
    "summary": "Commercial cloud architecture can withstand localized disruption through geographic dispersion, workload migration, and failover, the article says.",
@@ -250,183 +339,171 @@
    "ai": true
   },
   {
-   "id": "010e915e0f",
+   "id": "0efb059f3a",
    "section": "warfare",
-   "source": "Defense One",
+   "source": "Defense News",
    "weight": 0.5,
-   "title": "Appropriators slash Trump’s $17B Golden Dome request in draft bill",
-   "url": "https://www.defenseone.com/policy/2026/11/appropriators-slash-trumps-17b-golden-dome-request-draft-bill/417326/",
-   "snippet": "GOP-led committee says reliance on reconciliation “threatens” the missile defense program’s success.",
-   "published": "2026-11-19T07:36:22.000Z",
+   "title": "Ukraine plans to double drone supplies, triple deep strikes",
+   "url": "https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes/",
+   "snippet": "Ukraine is forging ahead with its long-range strike campaign with support from European partners, despite Washington’s request to prioritize front-line defense and associated midrange strikes instead.",
+   "published": "2026-11-19T13:21:10.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/010e915e0f.webp",
+   "score": 1.4,
+   "image": "/img/news/0efb059f3a.webp",
    "t": "2026-11-19",
-   "summary": "A GOP-led committee says reliance on reconciliation threatens the missile defense program’s success as it cuts the Golden Dome request in a draft bill.",
-   "why": "The draft bill highlights how funding decisions may affect a missile defense program.",
+   "summary": "Ukraine plans to double drone supplies and triple deep strikes, pursuing a long-range strike campaign with European partners despite a Washington request to prioritize front-line defense and midrange strikes.",
+   "why": "The differing priorities show how drone supply and strike range shape operational choices.",
    "tags": [
-    "Golden Dome",
-    "missile defense",
-    "funding"
+    "Ukraine",
+    "drones"
    ],
    "ai": true
   },
   {
-   "id": "6027ff9867",
+   "id": "e44189a441",
    "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Ukraine Strikes Kerch Bridge Once Again: Crimea Governor",
-   "url": "https://www.twz.com/news-features/ukraine-strikes-kerch-bridge-once-again-crimea-governor",
-   "snippet": "This is the third attack in three days with the previous one successfully dropping the road vehicle span of the bridge, but the rail span was still left. The post Ukraine Strikes Kerch Bridge Once Again: Crimea Governor appeared first on TWZ .",
-   "published": "2026-11-19T00:49:07.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/6027ff9867.webp",
-   "t": "2026-11-19",
-   "summary": "The report says Ukraine struck the Kerch Bridge again; a previous attack dropped the road vehicle span, while the rail span remained.",
-   "why": "The bridge's separate road and rail spans highlight infrastructure and transport relevance.",
-   "tags": [
-    "Kerch Bridge",
-    "road vehicle span",
-    "rail span"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dc08dd3a9d",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
-   "url": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
-   "snippet": "The resumed Iranian attacks on Gulf states hosting American forces and ongoing reactive strikes by the U.S. are taking place amid a stalemate in peace talks. The post Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island appeared first on TWZ .",
-   "published": "2026-11-18T22:06:41.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/dc08dd3a9d.webp",
-   "t": "2026-11-19",
-   "summary": "The report says Iranian attacks on Gulf states hosting American forces have resumed alongside U.S. reactive strikes, amid stalled peace talks.",
-   "why": "The activity links host-state exposure, U.S. forces, and regional escalation.",
-   "tags": [
-    "Iranian attacks",
-    "Gulf states",
-    "peace talks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8b22781172",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Europe Is Exploring Orbital Deep Strike Weapons",
-   "url": "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons",
-   "snippet": "Launching precision strikes from orbital platforms would have huge advantages, but it would also come at a very high cost. The post Europe Is Exploring Orbital Deep Strike Weapons appeared first on TWZ .",
-   "published": "2026-11-18T21:50:08.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/8b22781172.webp",
-   "t": "2026-11-19",
-   "summary": "Europe is exploring orbital platforms for precision strikes; the report says they could offer advantages but would come at high cost.",
-   "why": "Orbital strike concepts raise questions about precision, military utility, and cost.",
-   "tags": [
-    "Europe",
-    "orbital platforms",
-    "precision strikes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "047915ef7f",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "$350 billion reconciliation bill ‘not going to happen’: HASC chair",
-   "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/",
-   "snippet": "“If a reconciliation bill is still possible, it’s going to have to be skinnied down to deal with … the hole in the defense budget that Venezuela and Iran have created,” said Rep. Mike Rogers.",
-   "published": "2026-11-18T21:56:01.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/047915ef7f.webp",
-   "t": "2026-11-19",
-   "summary": "Rep. Mike Rogers said a reconciliation bill would need to be narrowed to address a defense budget shortfall he linked to Venezuela and Iran.",
-   "why": "Follow how budget constraints may shape defense priorities.",
-   "tags": [
-    "reconciliation bill",
-    "defense budget",
-    "Venezuela"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8b83b95034",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "A $1.1 trillion Pentagon budget plan sets up a fight on Capitol Hill",
-   "url": "https://breakingdefense.com/2026/11/a-1-1-trillion-pentagon-budget-sets-up-a-fight-on-capitol-hill/",
-   "snippet": "Senate appropriators are prioritizing Golden Dome, drones and munitions, but other military programs could pay the price.",
-   "published": "2026-11-18T21:48:03.000Z",
-   "also": [],
-   "score": 1.37,
-   "image": "/img/news/8b83b95034.webp",
-   "t": "2026-11-19",
-   "summary": "Senate appropriators are prioritizing Golden Dome, drones, and munitions in a Pentagon budget plan; other military programs could pay the price.",
-   "why": "Budget choices indicate which capabilities may gain priority and which may face tradeoffs.",
-   "tags": [
-    "Golden Dome",
-    "drones",
-    "munitions"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b73dc5784e",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Navy taps one-star admiral to advance hypersonic weapons, SLCM-N integration at Crane",
-   "url": "https://breakingdefense.com/2026/11/navy-taps-one-star-admiral-to-advance-hypersonic-weapons-slcm-n-integration-at-crane/",
-   "snippet": "Rear Adm. Patrick Finney is the first person to lead the new program management office based out of Naval Weapons Station Crane in Indiana.",
-   "published": "2026-11-18T20:41:54.000Z",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "MBDA and German startup Atmos team up to study space-based strike weapons",
+   "url": "https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons/",
+   "snippet": "Pan-European missile maker MBDA and German startup Atmos Space Cargo are teaming up to study deploying deep-strike weapons from Earth orbit using reentry vehicles.",
+   "published": "2026-11-19T10:36:23.000Z",
    "also": [],
    "score": 1.34,
-   "image": "/img/news/b73dc5784e.webp",
+   "image": "/img/news/e44189a441.webp",
    "t": "2026-11-19",
-   "summary": "The Navy appointed Rear Adm. Patrick Finney to lead a new program management office advancing hypersonic weapons and SLCM-N integration at Crane.",
-   "why": "The new office connects hypersonic weapons development with SLCM-N integration.",
+   "summary": "MBDA and Atmos Space Cargo are studying the deployment of deep-strike weapons from Earth orbit using reentry vehicles.",
+   "why": "The study explores a space-based approach to deploying strike weapons.",
    "tags": [
-    "hypersonic weapons",
-    "SLCM-N",
-    "Crane"
+    "Earth orbit",
+    "reentry vehicles"
    ],
    "ai": true
   },
   {
-   "id": "90d8037f17",
+   "id": "73ab934ead",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "ICJ to rule on Rohingya genocide case against Myanmar",
-   "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar?traffic_source=rss",
-   "snippet": "The Gambia accuses Myanmar of genocide following a 2017 military crackdown that displaced at least 730,000 Rohingya.",
-   "published": "2026-11-19T02:10:43.000Z",
-   "also": [
-    {
-     "source": "DW",
-     "url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-all-1573-rdf"
-    }
-   ],
-   "score": 1.71,
-   "image": "/img/news/90d8037f17.webp",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Iran’s ‘Boiling Frog’ Strategy",
+   "url": "https://foreignpolicy.com/2026/11/19/iran-war-us-strikes-dirty-bomb-trump-congress-democrats-vali-nasr/",
+   "snippet": "Why Tehran believes its strategy to hurt the West is working.",
+   "published": "2026-11-19T17:55:24.000Z",
+   "also": [],
+   "score": 1.6,
+   "image": "/img/news/73ab934ead.webp",
    "t": "2026-11-19",
-   "summary": "The ICJ is to rule on the Rohingya genocide case against Myanmar. The Gambia accuses Myanmar of genocide following a 2017 military crackdown that displaced at least 730,000 Rohingya.",
-   "why": "The case puts allegations tied to displacement before the ICJ.",
+   "summary": "Foreign Policy asks why Tehran believes its strategy to hurt the West is working.",
+   "why": "The framing offers a perspective on how Iran assesses its approach toward the West.",
    "tags": [
-    "ICJ",
-    "Rohingya",
-    "Myanmar"
+    "Tehran",
+    "strategy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1c840f213c",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "The foresight brief: Chokepoints past, present, and future",
+   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future/",
+   "snippet": "Maritime straits, canals, ports, rivers, subsea cables, data centers, and cloud infrastructure are concentrated points of connection. Yet their significance is changing as supply chains evolve, geopolitical competition intensifies, and climate change reshapes the physical world. The post The foresight brief: Chokepoint",
+   "published": "2026-11-19T17:32:47.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/1c840f213c.webp",
+   "t": "2026-11-19",
+   "summary": "The Atlantic Council says maritime and digital infrastructure chokepoints concentrate connections, while their significance changes with supply chains, geopolitical competition, and climate change.",
+   "why": "Mapping concentrated physical and digital connections can clarify strategic dependencies.",
+   "tags": [
+    "chokepoints",
+    "infrastructure"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ef20159759",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+   "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+   "published": "2026-11-19T17:03:23.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/ef20159759.webp",
+   "t": "2026-11-19",
+   "summary": "The Israeli military says its ground operation beyond the Yellow Line is dismantling a terror tunnel; Hamas condemns it as a ceasefire violation.",
+   "why": "The competing claims highlight the operational and diplomatic significance of activity beyond the Yellow Line.",
+   "tags": [
+    "Gaza",
+    "Yellow Line",
+    "ceasefire"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8ccd4a4a9c",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Mercenaries, apps, and crypto: Russia’s hybrid war on Europe",
+   "url": "https://www.atlanticcouncil.org/commentary/podcast/mercenaries-apps-and-crypto-russias-hybrid-war-on-europe/",
+   "snippet": "Alia Brahimi and Alexander Kolyandr discuss the “one-shot” mercenaries Russia employs for its shadow war in Europe. The post Mercenaries, apps, and crypto: Russia’s hybrid war on Europe appeared first on Atlantic Council .",
+   "published": "2026-11-19T16:51:19.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/8ccd4a4a9c.webp",
+   "t": "2026-11-19",
+   "summary": "Alia Brahimi and Alexander Kolyandr discuss the “one-shot” mercenaries Russia employs for its shadow war in Europe.",
+   "why": "The item frames mercenaries, apps, and crypto as elements of hybrid conflict in Europe.",
+   "tags": [
+    "mercenaries",
+    "hybrid war"
+   ],
+   "ai": true
+  },
+  {
+   "id": "82738f2dcd",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Toplines: Why and how the United States and its allies should prepare for a limited nuclear attack",
+   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/toplines-why-and-how-the-united-states-and-its-allies-should-prepare-for-a-limited-nuclear-attack/",
+   "snippet": "How should the United States and its allies prepare for a limited nuclear attack, and why? An expert tabletop exercise gaming out scenarios in which North Korea might launch such an attack offered insights. The post Toplines: Why and how the United States and its allies should prepare for a limited nuclear attack appea",
+   "published": "2026-11-19T15:21:28.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/82738f2dcd.webp",
+   "t": "2026-11-19",
+   "summary": "An expert tabletop exercise on scenarios in which North Korea might launch a limited nuclear attack offered insights into preparation by the United States and its allies.",
+   "why": "The exercise focuses attention on preparation for a limited nuclear attack.",
+   "tags": [
+    "tabletop exercise",
+    "nuclear attack"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f1aeeda4be",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
+   "published": "2026-11-19T13:31:23.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/f1aeeda4be.webp",
+   "t": "2026-11-19",
+   "summary": "The US Secretary of Defence said Venezuela had gone from an aggressive regional threat to a compliant security partner after signing a military deal with the US.",
+   "why": "The statement describes a shift in the US government’s characterization of Venezuela’s security relationship.",
+   "tags": [
+    "Venezuela",
+    "military deal"
    ],
    "ai": true
   },
@@ -435,12 +512,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Crimean Bridge attacked again, Russia says",
+   "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
    "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
-   "published": "2026-11-19T07:32:06.000Z",
+   "snippet": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
+   "published": "2026-11-19T13:07:35.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.5,
    "image": "/img/news/8961061d5d.webp",
    "t": "2026-11-19",
    "summary": "The head of Crimea said traffic was suspended after another attack on the bridge linking mainland Russia and the occupied territory.",
@@ -453,134 +530,23 @@
    "ai": true
   },
   {
-   "id": "d89f452127",
+   "id": "27815f2d2e",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Trump meets Putin and Xi as trilateral US, Russia, China talks begin",
-   "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
-   "snippet": "US president calls both Putin and Xi a 'friend' in separate meetings at APEC, ahead of rare three-way talks.",
-   "published": "2026-11-19T08:32:10.000Z",
+   "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss",
+   "snippet": "Chinese President Xi urged US President Trump and Russian President Putin to work with China to safeguard world peace.",
+   "published": "2026-11-19T17:50:21.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/d89f452127.webp",
+   "image": "/img/news/27815f2d2e.webp",
    "t": "2026-11-19",
-   "summary": "The US president met Putin and Xi separately at APEC ahead of rare trilateral talks, calling both leaders a friend.",
-   "why": "The talks bring US, Russian, and Chinese leaders into a rare shared diplomatic setting.",
+   "summary": "Chinese President Xi urged the leaders of the United States and Russia to work with China to safeguard world peace.",
+   "why": "The appeal places cooperation among the three countries at the center of its diplomatic message.",
    "tags": [
-    "APEC",
-    "US",
-    "trilateral talks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "69be7e3e1e",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
-   "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
-   "snippet": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
-   "published": "2026-11-19T08:19:17.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/69be7e3e1e.webp",
-   "t": "2026-11-19",
-   "summary": "A Saudi-led coalition intercepted Houthi missiles targeting Riyadh and the south; material damage was reported after debris fell.",
-   "why": "The interception and reported debris damage are relevant to regional security and impact assessment.",
-   "tags": [
-    "missiles",
-    "Riyadh",
-    "debris"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cce6a870c6",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
-   "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela?traffic_source=rss",
-   "snippet": "Hegseth's new military deal with Venezuela raises questions about US influence, regional security and Maduro's removal.",
-   "published": "2026-11-19T07:52:30.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/cce6a870c6.webp",
-   "t": "2026-11-19",
-   "summary": "A new US military deal with Venezuela raises questions about US influence, regional security, and Maduro’s removal, Al Jazeera reports.",
-   "why": "The deal may affect military ties and regional security calculations.",
-   "tags": [
-    "Venezuela",
-    "military deal",
-    "regional security"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8fa88520ef",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
-   "url": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims?traffic_source=rss",
-   "snippet": "Israeli soldiers describe the psychological toll of the genocide in Gaza, yet many express no remorse.",
-   "published": "2026-11-19T07:51:03.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/8fa88520ef.webp",
-   "t": "2026-11-19",
-   "summary": "Israeli soldiers describe the psychological toll of the genocide in Gaza, while many express no remorse, Al Jazeera reports.",
-   "why": "The accounts address the psychological effects of conflict and how victims are viewed.",
-   "tags": [
-    "Gaza",
-    "psychological toll",
-    "Israeli soldiers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "03a269265f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-   "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-   "snippet": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
-   "published": "2026-11-19T07:08:57.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/03a269265f.webp",
-   "t": "2026-11-19",
-   "summary": "The US blockade of Iranian ports is having a crippling effect on the economy, while Tehran says its economy can survive; its impact is described as too early to determine.",
-   "why": "The economic effects and Tehran’s response are central to assessing the blockade’s strategic impact.",
-   "tags": [
-    "blockade",
-    "Iran",
-    "economy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "501bc1a449",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Netanyahu’s last stand and the dangerous politics of survival",
-   "url": "https://www.aljazeera.com/news/2026/11/19/netanyahus-last-stand-and-the-dangerous-politics-of-survival?traffic_source=rss",
-   "snippet": "Facing political oblivion, Netanyahu is playing a high-stakes game that could push Israel towards violence and chaos.",
-   "published": "2026-11-19T06:58:44.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/501bc1a449.webp",
-   "t": "2026-11-19",
-   "summary": "An analysis says Netanyahu’s political peril may lead him to take risks that could push Israel toward violence and chaos.",
-   "why": "The account links domestic political pressures with possible instability.",
-   "tags": [
-    "Netanyahu",
-    "Israel",
-    "politics"
+    "China",
+    "world peace"
    ],
    "ai": true
   }
@@ -732,47 +698,47 @@
   }
  ],
  "run_today": [
-  "Check Ruby deployments for affected versions and apply the announced fixes.",
-  "Review database engine updates and restrict low-privilege accounts to necessary access.",
-  "Track PHP security releases and prepare to patch supported versions."
+  "Inventory systems running PHP and apply relevant security updates.",
+  "Check NGINX servers for exposure to the reported vulnerabilities and apply relevant fixes.",
+  "Monitor for ransomware warning signs, including credential theft, lateral movement, and attempts to disable security controls."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "regular expression engine",
-   "explainer": "A regular expression engine processes patterns used to search or match text. Ruby’s engine is among the components its maintainers say contains memory-safety flaws.",
-   "from_id": "ef3cecb6fd",
-   "from": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "fromSource": "The Hacker News"
+   "term": "denial of service",
+   "explainer": "A denial of service is an outcome in which a remote attacker causes a service to become unavailable. CISA says successful exploitation of the libumqtt vulnerability could cause one.",
+   "from_id": "3f6682cf94",
+   "from": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "failover",
-   "explainer": "Failover is the shift to another system or route when the current one is disrupted. In the cloud article, it is described as one way providers may preserve access.",
-   "from_id": "061ac3e6e8",
-   "from": "https://warontherocks.com/the-ground-beneath-the-cloud-dispersion-and-dependency-in-the-digital-age/",
-   "fromSource": "War on the Rocks"
+   "term": "missile defense",
+   "explainer": "Missile defense refers to systems intended to defend against missiles. The supplied roundtable says systems that work in Ukraine may not be the same ones needed for a Pacific conflict.",
+   "from_id": "845da582d1",
+   "from": "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "Rohingya",
-   "explainer": "Rohingya refers to the people named in the ICJ case against Myanmar. The supplied report says a 2017 military crackdown displaced at least 730,000 Rohingya.",
-   "from_id": "90d8037f17",
-   "from": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "chokepoints",
+   "explainer": "Chokepoints are concentrated points of connection. The brief includes maritime routes and digital infrastructure, and says their significance changes as supply chains and other conditions change.",
+   "from_id": "1c840f213c",
+   "from": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "analysis": {
-  "headline": "Infrastructure, accountability, and pressure across domains",
+  "headline": "Cyber Exposure and Strategic Connections",
   "paragraphs": [
-   "The stories show how resilience and vulnerability can coexist. Commercial cloud dispersion, workload migration, and failover may preserve access through localized disruption, while the Ruby and database reports describe ways flaws can expose systems to code execution. For defenders, redundancy does not replace patching and access controls.",
-   "The Rohingya case and the report on the Crimean Bridge place legal and infrastructure questions alongside current diplomacy and conflict. The snippets offer different kinds of claims: an accusation before the ICJ, a report of suspended traffic after an attack, and accounts of intercepted missiles and debris damage. Analysts should keep those distinctions clear.",
-   "Across the stories, technology, geography, and political choices shape what can be disrupted and how events are interpreted. Watch for PHP’s announced security release, developments in the ICJ case, and what the cloud account says about dependencies as well as resilience. The supplied details do not settle the broader outcomes."
+   "The top cyber items describe vulnerabilities in Elecbrakes products, libumqtt, and OpenPLC Runtime, while the Threat Disruption Center is intended to triage victim complaints and map cybercriminal networks. Together, they highlight both technical exposure and coordination around cybercrime; the supplied advisory excerpts leave important details unspecified.",
+   "The chokepoints brief adds a wider infrastructure lens: maritime routes and digital systems such as subsea cables, data centers, and cloud infrastructure are concentrated connections. Its account says their significance is changing with supply chains, geopolitical competition, and climate change. This may help analysts connect cyber risk to wider dependencies without assuming a specific incident.",
+   "The Iran strategy headline and the CISA nominee’s pledge to uncover organizational gaps point to different kinds of uncertainty: strategic judgments and institutional readiness. For defenders, the immediate focus remains checking affected products and following advisory guidance. Analysts can watch how infrastructure dependencies and cybercrime coordination are described, while avoiding conclusions beyond the supplied snippets."
   ],
   "takeaways": [
-   "Cloud failover may improve resilience, but software flaws still require attention.",
-   "Separate reported events from allegations and attributed claims.",
-   "Track updates to vulnerabilities, legal proceedings, and infrastructure disruption."
+   "Check affected products and consult the CISA advisories for details not included in the excerpts.",
+   "The Threat Disruption Center is intended to connect complaint triage with network mapping and private-sector partners.",
+   "Chokepoints include physical routes and digital infrastructure, with their significance described as changing."
   ]
  },
  "health": [
@@ -780,25 +746,25 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 21
   },
   {
    "name": "The Record",
@@ -858,25 +824,25 @@
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "Naval News",
@@ -918,13 +884,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 8
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "SpaceNews",
@@ -936,7 +902,7 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "The Diplomat",
@@ -948,7 +914,7 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "BBC World",
@@ -960,13 +926,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 13
+   "n": 10
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 10
   }
  ]
 }
