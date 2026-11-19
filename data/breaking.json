@@ -1,18 +1,38 @@
 {
- "updated": "2026-11-19T16:35:14.066Z",
+ "updated": "2026-11-19T23:12:09.195Z",
  "health": [
   {
-   "name": "BleepingComputer",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 5
+   "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
    "ok": true,
    "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -22,47 +42,22 @@
    "error": "HTTP 402"
   },
   {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
    "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "SecurityWeek",
    "ok": true,
    "n": 7
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
-   "name": "Security Affairs",
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Hackread",
    "ok": true,
    "n": 1
   },
@@ -72,9 +67,14 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 1
+   "n": 4
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 2
   },
   {
    "name": "DarkForums",
@@ -82,9 +82,9 @@
    "n": 7
   },
   {
-   "name": "Dark Reading",
+   "name": "SOCRadar blog",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,325 @@
   }
  ],
  "items": [
+  {
+   "id": "nef315bcdbc",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "California probing whether China improperly acquired Nvidia technology",
+   "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-19T23:04:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3e40d072b1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+   "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+   "published": "2026-11-19T22:53:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5e65458c08",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+   "url": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+   "published": "2026-11-19T22:40:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndf29d71aed",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+   "published": "2026-11-19T22:25:42.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n669b5a14cd",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+   "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+   "published": "2026-11-19T22:12:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndbbd568913",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
+   "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+   "published": "2026-11-19T21:58:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8a54b85e84",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Markets are sending troubling signals about the state of the economy",
+   "url": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
+   "published": "2026-11-19T21:57:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc74256fff4",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
+   "url": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+   "published": "2026-11-19T21:45:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndb582c0dbb",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Chaotic Eclipse Releases FastUnlock, a New Windows Zero-Day Vulnerability",
+   "url": "https://securityaffairs.com/203537/hacking/chaotic-eclipse-releases-fastunlock-a-new-windows-zero-day-vulnerability.html",
+   "published": "2026-11-19T21:43:09.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb89806bc3d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Haiti police say at least 34 suspected gang members killed in raid",
+   "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
+   "published": "2026-11-19T21:39:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd681207051",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "UnitedHealth’s stock tumbles after government signals crackdown on Medicare Advantage fraud",
+   "url": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
+   "published": "2026-11-19T21:22:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2176787e20",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+   "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-19T21:21:43.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8dfce1d63a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+   "published": "2026-11-19T21:19:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3797ecb529",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+   "published": "2026-11-19T21:15:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n68e7e2546b",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why Walmart is making a bigger bet on fast-food delivery",
+   "url": "https://www.marketwatch.com/story/why-walmart-is-making-a-bigger-bet-on-fast-food-delivery-27263735?mod=mw_rss_topstories",
+   "published": "2026-11-19T21:13:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nab08836df0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ten killed in Pakistan as bus crashes into gas tanker",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker?traffic_source=rss",
+   "published": "2026-11-19T21:09:24.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n934c30345a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Jerusalem Daily: Israel launches ground offensive in Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+   "published": "2026-11-19T20:58:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd968a94025",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
+   "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
+   "published": "2026-11-19T20:54:08.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4f2872fed6",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
+   "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+   "published": "2026-11-19T20:30:54.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n150f8fb554",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Second Norwegian Energy Company Breached in Two Days",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+   "published": "2026-11-19T20:14:15.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n67df130650",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Why Most Apps Don’t Scale (and How to Fix Them)",
+   "url": "https://hackread.com/why-most-apps-do-not-scale-how-to-fix-them/",
+   "published": "2026-11-19T20:01:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7cf301393d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
+   "url": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+   "published": "2026-11-19T19:57:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ndfb731a444",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Navigating Vulnerability Hysteria in the AI Era",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+   "published": "2026-11-19T19:46:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8de921d603",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Kushner says Russia ‘comfortable’ with NATO-like guarantees for Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine?traffic_source=rss",
+   "published": "2026-11-19T19:40:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nbd29968021",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+   "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+   "published": "2026-11-19T19:21:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n53e4a59238",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+   "published": "2026-11-19T18:47:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1977168802",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+   "published": "2026-11-19T18:20:01.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4692e0d9ed",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+   "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+   "published": "2026-11-19T17:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n2af66eaeb5",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "U.S. CISA adds Apache Axis, Vanderbilt REDCap,BerriAI LiteLLM, and Synology DSM flaws to its Known Exploited Vulnerabilities catalog",
+   "url": "https://securityaffairs.com/203504/hacking/u-s-cisa-adds-apache-axis-vanderbilt-redcapberriai-litellm-and-synology-dsm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+   "published": "2026-11-19T17:14:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nc5e7bc1c42",
    "kind": "news",
@@ -2440,39 +2759,6 @@
    "verified": true
   },
   {
-   "id": "n5aca005e2c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?",
-   "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "published": "2026-11-17T10:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n91feb4e792",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Breaking Bad’ star Dean Norris is selling 11-acre California estate for $3.2 million amid divorce",
-   "url": "https://www.marketwatch.com/story/breaking-bad-star-dean-norris-is-selling-11-acre-california-estate-for-3-2-million-amid-divorce-03963997?mod=mw_rss_topstories",
-   "published": "2026-11-17T10:01:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n127642a410",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Supermodel Bella Hadid snaps up a charming Colorado compound for $5.5 million",
-   "url": "https://www.marketwatch.com/story/supermodel-bella-hadid-snaps-up-a-charming-colorado-compound-for-5-5-million-b907958c?mod=mw_rss_topstories",
-   "published": "2026-11-17T09:57:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n6b8626fc67",
    "kind": "news",
    "group": "darkweb",
@@ -2502,17 +2788,6 @@
    "title": "OPTIMJACK: BBC, CNN and Zoom Among Targets of Optimizely Script Hijacking",
    "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html",
    "published": "2026-11-17T09:38:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne647f4e0e2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents",
-   "url": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories",
-   "published": "2026-11-17T09:35:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2723,270 +2998,6 @@
    "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
    "published": "2026-11-16T23:44:32.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n56cc7801c7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "United Airlines resolves system outage that delayed flights Monday",
-   "url": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
-   "published": "2026-11-16T23:42:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n82b50ada83",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
-   "url": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
-   "published": "2026-11-16T23:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n60f9919464",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-   "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-   "published": "2026-11-16T22:54:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n99636bab8a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
-   "published": "2026-11-16T22:08:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n89894f6abc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Houthi rebel advance in Yemen may further destabilise global economy",
-   "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T21:40:07.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na9e3754443",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
-   "url": "https://therecord.media/california-sues-openai-hugging-face",
-   "published": "2026-11-16T21:40:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1c0a010584",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. Banks Struggle With Outages Amid Wider Technology Disruptions",
-   "url": "https://securityaffairs.com/203272/security/u-s-banks-struggle-with-outages-amid-wider-technology-disruptions.html",
-   "published": "2026-11-16T21:38:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6cd4bc50c4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-   "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-   "published": "2026-11-16T21:31:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n45cf407d6d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
-   "url": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss",
-   "published": "2026-11-16T21:06:19.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nf7229d9101",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-   "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-   "published": "2026-11-16T20:59:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9eb5d2604d",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Five Situations Where Crypto Sentiment Deserves a Closer Look",
-   "url": "https://hackread.com/five-situations-crypto-sentiment-closer-look/",
-   "published": "2026-11-16T20:45:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n50d002f733",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-   "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-16T20:33:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8a7e088fe9",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "From Courtroom to Boardroom: How XRP has Become a Go-To Institutional Altcoin",
-   "url": "https://hackread.com/courtroom-boardroom-xrp-institutional-altcoin/",
-   "published": "2026-11-16T20:22:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n460686b6b1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Match fined $10 million for alleged Tinder privacy violations",
-   "url": "https://therecord.media/ireland-tinder-privacy-fine",
-   "published": "2026-11-16T20:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4b4b8357bb",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Italian regulator fines Meta $886 million for violating data privacy law",
-   "url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
-   "published": "2026-11-16T18:05:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfc4e8640b7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli court upholds detention of Palestinian land activist Ghassan Najjar",
-   "url": "https://www.aljazeera.com/news/2026/11/16/israeli-court-upholds-detention-of-palestinian-land-activist-ghassan-najjar?traffic_source=rss",
-   "published": "2026-11-16T17:49:16.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n734c5ea308",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Google Spots AI Agent Turning Security Patches Into Exploits",
-   "url": "https://hackread.com/google-ai-agent-turning-security-patches-exploits/",
-   "published": "2026-11-16T17:24:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2ebc983e1e",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "King Charles opens new HQ for National Cyber Force, UK’s offensive hacking unit",
-   "url": "https://therecord.media/uk-national-cyber-force-headquarters-opens",
-   "published": "2026-11-16T17:22:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n50abd88093",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
-   "url": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
-   "published": "2026-11-16T17:18:14.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6bde6c886a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Russia denies intercepting Romanian government emails",
-   "url": "https://therecord.media/romania-russia-cyberattack-espionage",
-   "published": "2026-11-16T17:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1cbeb891f8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran braces for natural gas shortages during winter energy imbalance",
-   "url": "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
-   "published": "2026-11-16T16:58:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncb0dec79c7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces demolish the homes of two Palestinian prisoners",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/israeli-forces-demolish-the-homes-of-two-palestinian-prisoners?traffic_source=rss",
-   "published": "2026-11-16T16:56:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n18b00fe2b4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-   "published": "2026-11-16T16:43:24.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n10d373a62a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
-   "published": "2026-11-16T16:36:55.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
