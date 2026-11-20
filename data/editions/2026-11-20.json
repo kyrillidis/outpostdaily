@@ -1,176 +1,99 @@
 {
  "date": "2026-11-20",
  "edition": 249,
- "compiled": "2026-11-20T07:55:34.035Z",
+ "compiled": "2026-11-20T16:34:01.010Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "009f6643a8",
+   "id": "2be32b97a1",
    "section": "cyber",
    "source": "SecurityWeek",
    "weight": 0.5,
-   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-   "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-   "snippet": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
-   "published": "2026-11-20T07:35:46.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/009f6643a8.webp",
+   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+   "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "snippet": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
+   "published": "2026-11-20T10:51:42.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/"
+    }
+   ],
+   "score": 1.73,
+   "image": "/img/news/2be32b97a1.webp",
    "t": "2026-11-20",
-   "summary": "JPMorgan, Visa and Mastercard point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.",
-   "why": "Review third-party access and incident notifications for possible exposure of customer data.",
+   "summary": "The European Commission took some services offline to contain an AI-assisted cyberattack and says it has no evidence of a data breach.",
+   "why": "Review service-continuity plans and verify whether affected services are operating normally.",
    "tags": [
-    "third-party providers",
-    "data leak",
-    "extortion"
+    "AI-assisted",
+    "cyberattack",
+    "services"
    ],
    "ai": true
   },
   {
-   "id": "73e981a448",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Elecbrakes EB2, VM1, ELBC2000",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brak",
-   "published": "2026-11-19T12:00:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-11-19",
-   "summary": "CISA says successful exploitation of vulnerabilities in Elecbrakes EB2, VM1, and ELBC2000 could allow an attacker to gain control of something not specified in the supplied text.",
-   "why": "Check whether these products are present and review the CISA advisory for mitigation guidance.",
-   "tags": [
-    "Elecbrakes",
-    "vulnerabilities"
-   ],
-   "ai": true
-  },
-  {
-   "id": "3f6682cf94",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "libumqtt",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.</s",
-   "published": "2026-11-19T12:00:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-11-19",
-   "summary": "CISA says successful exploitation of a libumqtt vulnerability could allow a remote attacker to cause a denial of service.",
-   "why": "Identify systems using libumqtt and review the CISA advisory for applicable mitigations.",
-   "tags": [
-    "libumqtt",
-    "denial of service"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7f8f338723",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Autonomy Logic OpenPLC Runtime",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.</strong></p> <p>The following versions of ",
-   "published": "2026-11-19T12:00:00.000Z",
-   "also": [],
-   "score": 1.48,
-   "t": "2026-11-19",
-   "summary": "CISA says successful exploitation of a vulnerability in Autonomy Logic OpenPLC Runtime could allow several unauthenticated admin accounts.",
-   "why": "Check deployments for exposed OpenPLC Runtime and review the CISA advisory.",
-   "tags": [
-    "OpenPLC Runtime",
-    "unauthenticated"
-   ],
-   "ai": true
-  },
-  {
-   "id": "ba74506a96",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-   "snippet": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while re",
-   "published": "2026-11-20T07:11:39.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/ba74506a96.webp",
-   "t": "2026-11-20",
-   "summary": "The Hacker News reports that ROMULUS ClickFix has been used to deliver a previously undocumented remote access trojan with similarities to CNCMachineRMS.",
-   "why": "Check for suspicious ClickFix activity and remote-access trojans on endpoints.",
-   "tags": [
-    "ROMULUS",
-    "ClickFix",
-    "RAT"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dc6901c8a6",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-   "snippet": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in ",
-   "published": "2026-11-20T06:33:31.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/dc6901c8a6.webp",
-   "t": "2026-11-20",
-   "summary": "The Hacker News reports suspected China-linked hackers exploited a critical VMware vCenter Server zero-day to gain admin access and steal data.",
-   "why": "Review vCenter exposure, access logs and available security updates.",
-   "tags": [
-    "VMware vCenter",
-    "zero-day",
-    "admin access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fa700a4eb8",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-   "snippet": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles M",
-   "published": "2026-11-20T05:30:01.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/fa700a4eb8.webp",
-   "t": "2026-11-20",
-   "summary": "The Hacker News says the unpatched FastUnlock technique lets someone with physical access run programs on a locked Windows PC, but only with a limited account.",
-   "why": "Assess physical access controls and monitor locked devices for unexpected program execution.",
-   "tags": [
-    "FastUnlock",
-    "Windows",
-    "physical access"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c5e24a06d3",
+   "id": "bbc19bb6f9",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "VMware patches vCenter zero-day exploited in attacks since September",
-   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-   "snippet": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-   "published": "2026-11-20T00:26:25.000Z",
+   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "snippet": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+   "published": "2026-11-20T15:58:06.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/c5e24a06d3.webp",
+   "score": 1.59,
+   "image": "/img/news/bbc19bb6f9.webp",
    "t": "2026-11-20",
-   "summary": "Broadcom released updates for a critical vCenter authentication bypass vulnerability that Chinese-linked hackers exploited in zero-day attacks since September 2026.",
-   "why": "Prioritize the updates and check vCenter for signs of exploitation.",
+   "summary": "J.P. Morgan Chase warned that a cyberattack at a third-party service provider exposed customers’ personal information and marketing data.",
+   "why": "Check which customer data the provider held and review third-party incident-notification procedures.",
    "tags": [
-    "vCenter",
-    "zero-day",
-    "authentication bypass"
+    "data breach",
+    "third-party service provider",
+    "customer information"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f67114676f",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "NSA resumes normal operations following internal network disruptions",
+   "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+   "snippet": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+   "published": "2026-11-20T16:06:00.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/f67114676f.webp",
+   "t": "2026-11-20",
+   "summary": "The NSA has resumed normal operations after internal network disruptions, though some facilities remain under “Code Orange.”",
+   "why": "Confirm staff understand any remaining facility access and check-in procedures.",
+   "tags": [
+    "network disruptions",
+    "Code Orange",
+    "facilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "19cca4f145",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+   "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+   "snippet": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [",
+   "published": "2026-11-20T15:00:10.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/19cca4f145.webp",
+   "t": "2026-11-20",
+   "summary": "The article says password spreadsheets can obscure weak, reused, or compromised credentials stored or shared outside approved systems.",
+   "why": "Audit password storage and look for weak or reused credentials outside approved systems.",
+   "tags": [
+    "passwords",
+    "spreadsheets",
+    "credentials"
    ],
    "ai": true
   },
@@ -183,8 +106,13 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
    "snippet": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
    "published": "2026-11-19T22:25:42.000Z",
-   "also": [],
-   "score": 1.4,
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/"
+    }
+   ],
+   "score": 1.57,
    "image": "/img/news/df29d71aed.webp",
    "t": "2026-11-20",
    "summary": "SBC Medical Group says two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people.",
@@ -197,24 +125,138 @@
    "ai": true
   },
   {
-   "id": "3797ecb529",
+   "id": "57375f482c",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Cyber Director Cairncross out as White House resets cyber leadership",
+   "url": "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
+   "snippet": "Sean Cairncross is leaving the White House as Kirsten Davies, the Pentagon’s chief information officer, has been named the acting cyber czar.",
+   "published": "2026-11-20T14:30:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/57375f482c.webp",
+   "t": "2026-11-20",
+   "summary": "Sean Cairncross is leaving the White House; Kirsten Davies has been named acting cyber czar.",
+   "why": "Track leadership changes that may affect cyber policy responsibilities.",
+   "tags": [
+    "cyber leadership",
+    "acting cyber czar"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c21f2f095f",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+   "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+   "snippet": "Ireland’s Data Protection Commission told Recorded Future News on Thursday it had received more than 40 breach notifications from credit unions that used the Belfast-based company as a data processor.",
+   "published": "2026-11-20T14:24:00.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/c21f2f095f.webp",
+   "t": "2026-11-20",
+   "summary": "Ireland’s Data Protection Commission said it received more than 40 breach notifications from credit unions using a Belfast-based data processor; the breach went unnoticed for six weeks, according to the title.",
+   "why": "Review supplier monitoring and how quickly breaches are reported to affected organizations.",
+   "tags": [
+    "supplier breach",
+    "credit unions",
+    "data processor"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d9a3251505",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-   "snippet": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-   "published": "2026-11-19T21:15:59.000Z",
+   "title": "N-able says recent security breach led to major service outage",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+   "snippet": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+   "published": "2026-11-20T13:18:36.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/3797ecb529.webp",
+   "score": 1.53,
+   "image": "/img/news/d9a3251505.webp",
    "t": "2026-11-20",
-   "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the console and managed devices.",
-   "why": "Update Control Center Express and check who can remotely access its management console.",
+   "summary": "N-able says attackers breached one of its servers, causing a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide.",
+   "why": "Check service status and incident communications for affected hosted services.",
    "tags": [
-    "ASUS",
-    "Control Center Express",
-    "administrative control"
+    "server breach",
+    "service outage",
+    "Mail Assure"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fc7b1a32d5",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+   "snippet": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+   "published": "2026-11-20T12:14:28.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/fc7b1a32d5.webp",
+   "t": "2026-11-20",
+   "summary": "Microsoft has begun automatically upgrading eligible unmanaged devices to Windows 11 26H2, according to the snippet.",
+   "why": "Check unmanaged devices for upgrade eligibility and plan for the operating-system change.",
+   "tags": [
+    "Windows 11 26H2",
+    "unmanaged devices",
+    "automatic upgrades"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1977168802",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+   "snippet": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+   "published": "2026-11-19T18:20:01.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/"
+    }
+   ],
+   "score": 1.49,
+   "image": "/img/news/1977168802.webp",
+   "t": "2026-11-20",
+   "summary": "Transport for London says account details of around 265,000 Oyster photocard customers may have been exposed in a data breach.",
+   "why": "Check affected accounts and follow the organization’s guidance on exposed details.",
+   "tags": [
+    "TfL",
+    "Oyster",
+    "data breach"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d8ecb36fc4",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo",
+   "url": "https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/",
+   "snippet": "In conversations with law enforcement and security professionals, one view has repeatedly emerged: Aum Shinrikyo’s failed biological weapons program in the early 1990s shows that the risk of bioterrorism is overstated, despite warnings about AI-assisted bioterrorism and calls for enhanced preparedness from experts, phi",
+   "published": "2026-11-20T08:30:48.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/d8ecb36fc4.webp",
+   "t": "2026-11-20",
+   "summary": "The article discusses whether Aum Shinrikyo’s failed biological weapons program shows bioterrorism risk is overstated, despite warnings about AI-assisted bioterrorism.",
+   "why": "The debate highlights how assessments of biological weapons risk can shape security priorities.",
+   "tags": [
+    "bioterrorism",
+    "biological weapons",
+    "AI-assisted"
    ],
    "ai": true
   },
@@ -228,7 +270,7 @@
    "snippet": "The deliveries will expand the Royal Australian Navy’s MH-60R fleet to 36 aircraft by early 2028 as part of a broader effort to modernize Australia’s naval aviation capabilities.",
    "published": "2026-11-20T07:00:00.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.4,
    "image": "/img/news/a68a731b85.webp",
    "t": "2026-11-20",
    "summary": "Australia has received the first two of 13 additional Seahawk helicopters, part of an effort to modernize naval aviation.",
@@ -241,24 +283,24 @@
    "ai": true
   },
   {
-   "id": "c9cbeeb5de",
+   "id": "d07ef12621",
    "section": "warfare",
-   "source": "Naval News",
+   "source": "UK Ministry of Defence",
    "weight": 0.5,
-   "title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
-   "url": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
-   "snippet": "The Indian Navy has expressed interest in supporting the development of a Rotating Detonation Engine (RDE) - powered supersonic naval missile. The post Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile appeared first on Naval News .",
-   "published": "2026-11-20T07:41:40.000Z",
+   "title": "Grants up to £45 million boost UK growth as Ministry of Defence funds national munitions production",
+   "url": "https://www.gov.uk/government/news/grants-up-to-45-million-boost-uk-growth-as-ministry-of-defence-funds-national-munitions-production",
+   "snippet": "UK-based companies can now apply for MoD grants of up to £45 million to build new munitions factories.",
+   "published": "2026-11-20T09:00:00.000Z",
    "also": [],
-   "score": 1.5,
-   "image": "/img/news/c9cbeeb5de.webp",
+   "score": 1.34,
+   "image": "/img/news/d07ef12621.webp",
    "t": "2026-11-20",
-   "summary": "The Indian Navy has expressed interest in supporting development of a supersonic naval missile powered by a Rotating Detonation Engine.",
-   "why": "The proposal links engine development with a potential naval missile capability.",
+   "summary": "UK-based companies can apply for Ministry of Defence grants of up to £45 million to build munitions factories.",
+   "why": "The grants connect defence funding with domestic munitions production capacity.",
    "tags": [
-    "Indian Navy",
-    "Rotating Detonation Engine",
-    "missile"
+    "munitions factories",
+    "MoD grants",
+    "UK-based companies"
    ],
    "ai": true
   },
@@ -272,7 +314,7 @@
    "snippet": "The E-4B Nightwatch, a heavily modified 747, is the Pentagon's survivable airborne command post, and having one nearby is standard for POTUS visits overseas. The post The Jet That Always Shadows Air Force One When The President Travels Abroad appeared first on TWZ .",
    "published": "2026-11-20T01:01:44.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.28,
    "image": "/img/news/d5053e7c71.webp",
    "t": "2026-11-20",
    "summary": "The E-4B is a heavily modified 747 and the Pentagon's survivable airborne command post. Having one nearby is standard during presidential visits overseas.",
@@ -294,7 +336,7 @@
    "snippet": "Squire is being sent to the CENTCOM area of responsibility as the Pentagon continues to surge uncrewed systems into the region. The post Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters appeared first on TWZ .",
    "published": "2026-11-19T22:08:02.000Z",
    "also": [],
-   "score": 1.4,
+   "score": 1.22,
    "image": "/img/news/e851e33dbc.webp",
    "t": "2026-11-20",
    "summary": "Squire, a wing-in-ground-effect drone, is being sent to the CENTCOM area as the Pentagon continues to surge uncrewed systems into the region.",
@@ -316,7 +358,7 @@
    "snippet": "Foreign shipbuilding has emerged as a sticking point between Congress and the Trump administration, with the administration pushing for an expansion of the so-called “Finland model.”",
    "published": "2026-11-19T21:08:27.000Z",
    "also": [],
-   "score": 1.38,
+   "score": 1.2,
    "image": "/img/news/be2b2001be.webp",
    "t": "2026-11-20",
    "summary": "Toti is pushing for a new foreign-built US shipyard focused on frigates and large surface combatants. Foreign shipbuilding has become a point of disagreement in Washington.",
@@ -338,7 +380,7 @@
    "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***Iran Washington and Tehran are stuck in a loop, with no indication that they are engaged in talks — although Iran has continued meet",
    "published": "2026-11-19T20:17:57.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.18,
    "image": "/img/news/94745120ce.webp",
    "t": "2026-11-20",
    "summary": "The article describes Washington and Tehran as stuck in a loop, with no indication that the situation has changed.",
@@ -360,7 +402,7 @@
    "snippet": "Sean Cairncross is to be replaced by Pentagon's CIO; doubts grow about CISA nominee.",
    "published": "2026-11-20T01:00:00.000Z",
    "also": [],
-   "score": 1.36,
+   "score": 1.18,
    "image": "/img/news/72d62703b2.webp",
    "t": "2026-11-20",
    "summary": "Defense One reports that the White House is replacing its cyber director after outages; sources say the Pentagon’s CIO will take over, while doubts grow about the CISA nominee.",
@@ -373,199 +415,179 @@
    "ai": true
   },
   {
-   "id": "a4a5e6e4c5",
-   "section": "warfare",
-   "source": "The War Zone",
+   "id": "dfef8dcbfd",
+   "section": "geo",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Ukraine Wants More Mirage 2000 Fighters. Where Could They Come From?",
-   "url": "https://www.twz.com/air/ukraine-wants-more-mirage-2000-fighters-where-could-they-come-from",
-   "snippet": "Quickly obtaining more Mirage 2000s is at the top of Kyiv’s priority list, but finding them in significant numbers won’t be easy. The post Ukraine Wants More Mirage 2000 Fighters. Where Could They Come From? appeared first on TWZ .",
-   "published": "2026-11-19T18:57:09.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/a4a5e6e4c5.webp",
+   "title": "White House removes cyber-security chief after series of tech outages",
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller.",
+   "published": "2026-11-20T13:28:32.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.89,
+   "image": "/img/news/dfef8dcbfd.webp",
    "t": "2026-11-20",
-   "summary": "More Mirage 2000 fighters are a priority for Kyiv, but finding them in significant numbers will be difficult, the article says.",
-   "why": "Aircraft availability may shape Ukraine’s ability to expand its fighter fleet.",
+   "summary": "CBS reports that the White House cyber-security chief was fired after losing the confidence of White House chief of staff Stephen Miller.",
+   "why": "Leadership changes are relevant to understanding who is responsible for cyber-security coordination.",
    "tags": [
-    "Mirage 2000",
-    "Ukraine",
-    "fighters"
+    "cyber-security chief",
+    "White House",
+    "tech outages"
    ],
    "ai": true
   },
   {
-   "id": "6e98697de7",
+   "id": "cdb8dadbb5",
    "section": "geo",
-   "source": "Atlantic Council",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Putin didn’t get his Yalta, but he’s happy nonetheless",
-   "url": "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless/",
-   "snippet": "In the Shenzhen summit with Trump and Xi, Putin got the propaganda victory he wanted without having to make any concessions on Ukraine. The post Putin didn’t get his Yalta, but he’s happy nonetheless appeared first on Atlantic Council .",
-   "published": "2026-11-20T02:31:03.000Z",
+   "title": "What we know about the latest Russian missile strikes on Ukraine",
+   "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "What we know about the latest Russian missile strikes on Ukraine.",
+   "published": "2026-11-20T15:14:01.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/6e98697de7.webp",
+   "score": 1.57,
+   "image": "/img/news/cdb8dadbb5.webp",
    "t": "2026-11-20",
-   "summary": "The Atlantic Council says Putin gained a propaganda victory at the Shenzhen summit with Trump and Xi without making concessions on Ukraine.",
-   "why": "The account highlights how summit optics may matter alongside negotiations over Ukraine.",
+   "summary": "The BBC item concerns the latest Russian missile strikes on Ukraine but provides no further details in the supplied text.",
+   "why": "The title identifies a development in the ongoing Russia-Ukraine conflict, but gives no operational details.",
    "tags": [
-    "Shenzhen summit",
-    "Putin",
+    "Russian missile strikes",
     "Ukraine"
    ],
    "ai": true
   },
   {
-   "id": "2695e5ce01",
+   "id": "a1562f217c",
    "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Japan DX Antenna Unveils Sub-30 g Four-Frequency GNSS Antenna for Drones",
-   "url": "https://insidegnss.com/japan-dx-antenna-unveils-sub-30-g-four-frequency-gnss-antenna-for-drones/",
-   "snippet": "Nihon DX Antenna Co., Ltd., a group company of Elecom Co., Ltd., has developed a domestically made GNSS antenna compatible with Japan’s Michibiki... The post Japan DX Antenna Unveils Sub-30 g Four-Frequency GNSS Antenna for Drones appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, Policy, ",
-   "published": "2026-11-19T20:42:39.000Z",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Nikoladze and de Kruijf cited in Journal of Law & Cyber Warfare on US chips and Nvidia’s influence",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence/",
+   "snippet": "Read the full article here The post Nikoladze and de Kruijf cited in Journal of Law & Cyber Warfare on US chips and Nvidia’s influence appeared first on Atlantic Council .",
+   "published": "2026-11-20T14:29:25.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.56,
    "t": "2026-11-20",
-   "summary": "Nihon DX Antenna has developed a domestically made, sub-30 g four-frequency GNSS antenna for drones, compatible with Japan’s Michibiki.",
-   "why": "The antenna’s size and GNSS compatibility are relevant to drone navigation and positioning.",
+   "summary": "The Atlantic Council item says Nikoladze and de Kruijf were cited in a Journal of Law & Cyber Warfare article on US chips and Nvidia’s influence.",
+   "why": "The item points to US chips and Nvidia’s influence as subjects of geopolitical interest.",
    "tags": [
-    "GNSS",
-    "Michibiki",
-    "drones"
+    "US chips",
+    "Nvidia",
+    "cyber warfare"
    ],
    "ai": true
   },
   {
-   "id": "723cb65843",
+   "id": "72fae31737",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "‘We don’t want our future decided by the military’: Young Germans protest",
-   "url": "https://www.aljazeera.com/news/2026/11/20/we-dont-want-our-future-decided-by-the-military-young-germans-protest?traffic_source=rss",
-   "snippet": "Ahead of Friday's nationwide rallies, German teenagers explain why they are resisting conscription.",
-   "published": "2026-11-20T06:20:26.000Z",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Lipsky featured in War on the Rocks on declining widespread use of the dollar",
+   "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar/",
+   "snippet": "Read the full article here The post Lipsky featured in War on the Rocks on declining widespread use of the dollar appeared first on Atlantic Council .",
+   "published": "2026-11-20T14:24:43.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/723cb65843.webp",
+   "score": 1.56,
    "t": "2026-11-20",
-   "summary": "German teenagers explain their opposition to conscription ahead of nationwide rallies.",
-   "why": "The protests show public debate over military service in Germany.",
+   "summary": "The Atlantic Council item says Lipsky was featured in an article on the declining widespread use of the dollar.",
+   "why": "The topic concerns the dollar’s international role and its potential strategic relevance.",
    "tags": [
-    "Germany",
-    "conscription",
-    "rallies"
+    "dollar",
+    "widespread use"
    ],
    "ai": true
   },
   {
-   "id": "e780057697",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
-   "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
-   "snippet": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
-   "published": "2026-11-20T06:03:03.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/e780057697.webp",
-   "t": "2026-11-20",
-   "summary": "A US maritime agency acknowledged that a naval blockade was affecting insurance premiums and cargo capacity, according to a memo.",
-   "why": "Insurance costs and cargo capacity indicate potential effects on Gulf maritime activity.",
-   "tags": [
-    "Iran",
-    "blockade",
-    "insurance premiums"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8289ff061f",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Trump bows to pressure, replaces US cyber security director",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director?traffic_source=rss",
-   "snippet": "President Trump has removed National Cyber Director Sean Cairncross and named a Defense Department official as interim.",
-   "published": "2026-11-20T05:48:35.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/8289ff061f.webp",
-   "t": "2026-11-20",
-   "summary": "Al Jazeera reports that Trump removed National Cyber Director Sean Cairncross and named a Defense Department official as interim.",
-   "why": "The change is relevant to oversight and coordination of US cybersecurity policy.",
-   "tags": [
-    "National Cyber Director",
-    "Defense Department",
-    "interim"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2176787e20",
+   "id": "6fca891ece",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-   "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
-   "published": "2026-11-20T00:50:24.000Z",
+   "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+   "published": "2026-11-20T13:52:04.000Z",
    "also": [],
-   "score": 1.45,
-   "image": "/img/news/2176787e20.webp",
+   "score": 1.54,
+   "image": "/img/news/6fca891ece.webp",
    "t": "2026-11-20",
-   "summary": "European allies of Ukraine say they have a united negotiating position at a Berlin summit and are ready for talks with Russia on ending the war.",
-   "why": "A shared negotiating position may shape European coordination on Ukraine.",
+   "summary": "Tusk said a Russian missile hit Poland during a military exercise by Ukraine’s allies; nobody was hurt and no damage was reported. Warsaw called it a “provocation.”",
+   "why": "The reported incident links airspace and missile activity with a military exercise in the region.",
    "tags": [
-    "Europe",
-    "Ukraine",
-    "Russia"
+    "Russian missile",
+    "Poland",
+    "military exercise"
    ],
    "ai": true
   },
   {
-   "id": "385b3b7b6a",
+   "id": "f5aa2c1600",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-   "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
-   "published": "2026-11-20T00:13:21.000Z",
+   "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
+   "published": "2026-11-20T13:01:16.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/385b3b7b6a.webp",
+   "score": 1.53,
+   "image": "/img/news/f5aa2c1600.webp",
    "t": "2026-11-20",
-   "summary": "People trapped in Taiz by the Houthis spoke to the BBC about life under siege.",
-   "why": "Accounts from inside Taiz offer a view of conditions in a besieged city.",
+   "summary": "The BBC says Russia targeted Kyiv crossings days after Ukraine hit the Crimean Bridge, and launched one of its biggest air attacks yet while rejecting security guarantees for Ukraine.",
+   "why": "The item links attacks on crossings and the Crimean Bridge with the debate over Ukraine’s security guarantees.",
    "tags": [
-    "Taiz",
-    "siege",
-    "Houthis"
+    "Kyiv crossings",
+    "Crimean Bridge",
+    "security guarantees"
    ],
    "ai": true
   },
   {
-   "id": "beca203ab8",
+   "id": "f8451dcf8e",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
-   "url": "https://www.aljazeera.com/news/2026/11/20/gaza-civil-defence-struggles-to-rescue-lives-as-vehicles-fall-into-disrepair?traffic_source=rss",
-   "snippet": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
-   "published": "2026-11-20T05:01:40.000Z",
+   "title": "Jerusalem Daily: Palestinians return home to ruins",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/jerusalem-daily-palestinians-return-home-to-ruins?traffic_source=rss",
+   "snippet": "Palestinians return to find their homes reduced to rubble after Israel’s ground offensive, as attacks on Gaza continue.",
+   "published": "2026-11-20T15:42:04.000Z",
    "also": [],
-   "score": 1.44,
-   "image": "/img/news/beca203ab8.webp",
+   "score": 1.48,
+   "image": "/img/news/f8451dcf8e.webp",
    "t": "2026-11-20",
-   "summary": "Gaza Civil Defence says more than 85 percent of its vehicles are out of service, hindering crews trying to reach trapped people.",
-   "why": "Vehicle availability affects emergency response coverage and access to affected locations.",
+   "summary": "Al Jazeera reports that Palestinians returning home found their homes reduced to rubble after Israel’s ground offensive, as attacks on Gaza continue.",
+   "why": "The report describes the effects of the ground offensive on homes and returns to affected areas.",
    "tags": [
+    "Palestinians",
     "Gaza",
-    "Civil Defence",
-    "vehicles"
+    "ground offensive"
+   ],
+   "ai": true
+  },
+  {
+   "id": "804f7cffd0",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Poland condemns Russian ‘provocation’ after airspace violations",
+   "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations?traffic_source=rss",
+   "snippet": "The incidents came as European troops were taking part in a Ukraine post-war military exercise.",
+   "published": "2026-11-20T15:18:26.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/804f7cffd0.webp",
+   "t": "2026-11-20",
+   "summary": "Poland condemned Russian airspace violations; the incidents occurred as European troops took part in a Ukraine post-war military exercise.",
+   "why": "Airspace violations during a military exercise carry regional and operational significance.",
+   "tags": [
+    "airspace violations",
+    "Poland",
+    "military exercise"
    ],
    "ai": true
   }
@@ -717,47 +739,47 @@
   }
  ],
  "run_today": [
-  "Review third-party providers’ access and incident notices for possible customer-data exposure.",
-  "Check endpoints for suspicious ClickFix activity and unauthorized remote-access trojans.",
-  "Review VMware vCenter exposure and access logs, and check for available security updates."
+  "Identify customer information held by third-party providers and review breach-notification procedures.",
+  "Audit password storage for weak or reused credentials outside approved systems.",
+  "Check the status and incident communications for N-able’s affected hosted services."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Third-party providers",
-   "explainer": "Organizations that provide services to other companies. In this report, the companies point to providers after a data leak allegedly tied to their customers.",
-   "from_id": "009f6643a8",
-   "from": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-   "fromSource": "SecurityWeek"
+   "term": "Third-party service provider",
+   "explainer": "A third-party service provider is an outside organization that supplies services to another organization. In the Chase report, an attack at such a provider exposed customer information.",
+   "from_id": "bbc19bb6f9",
+   "from": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Rotating Detonation Engine",
-   "explainer": "An engine concept named in the report as the proposed power source for a supersonic naval missile. The Indian Navy has expressed interest in supporting its development.",
-   "from_id": "c9cbeeb5de",
-   "from": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
-   "fromSource": "Naval News"
+   "term": "Munitions factories",
+   "explainer": "Munitions factories are facilities that produce military ammunition or weapons. The UK Ministry of Defence item describes grants for companies to build them.",
+   "from_id": "d07ef12621",
+   "from": "https://www.gov.uk/government/news/grants-up-to-45-million-boost-uk-growth-as-ministry-of-defence-funds-national-munitions-production",
+   "fromSource": "UK Ministry of Defence"
   },
   {
    "domain": "geo",
-   "term": "Shenzhen summit",
-   "explainer": "A summit involving Trump, Xi and Putin, as described in the report. The Atlantic Council characterizes its outcome as a propaganda victory for Putin.",
-   "from_id": "6e98697de7",
-   "from": "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless/",
-   "fromSource": "Atlantic Council"
+   "term": "Airspace violations",
+   "explainer": "An airspace violation is an entry into airspace that a country treats as unauthorized. The Poland report describes airspace violations condemned by Poland.",
+   "from_id": "804f7cffd0",
+   "from": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Capabilities, exposure and the politics of security",
+  "headline": "Cyber incidents put response and responsibility in focus",
   "paragraphs": [
-   "The stories span naval modernization, a proposed missile engine and a summit’s political messaging. They show how capability is presented through both hardware and diplomacy. The helicopter deliveries are concrete, while the Indian Navy’s interest remains a development proposal.",
-   "The cyber reports add a different kind of exposure: third-party providers are cited after a data leak, and ROMULUS is described as delivering a remote access trojan. These accounts suggest defenders need to consider supplier relationships as well as activity on their own endpoints.",
-   "Together, the stories make attribution and status important for analysts: a reported incident, an expressed interest and an interpretation of summit outcomes are not the same kind of evidence. Watch for further details on provider exposure, malware behavior and how naval plans develop."
+   "The top stories describe disruption across government and service-provider environments, alongside breaches involving customer information. The European Commission says it took services offline to contain an AI-assisted attack, while Chase warned that a provider breach exposed customer data. The reports show differing impacts, not a single shared incident.",
+   "The White House cyber-security chief’s reported departure and the separate account of a cyber leadership reset place responsibility and continuity alongside technical response. The NSA has resumed normal operations, but some facilities remain under “Code Orange.” These accounts suggest analysts should distinguish service recovery, access restrictions, and confirmed data exposure.",
+   "For defenders, supplier visibility and credential hygiene are practical threads: the breach reports involve third parties, while the password item warns about blind spots in spreadsheets. The Ukraine missile-strikes item offers no details in its supplied text, so its operational implications remain unclear. Watch for updates that clarify incident scope, service status, and leadership roles."
   ],
   "takeaways": [
-   "Check supplier relationships as well as internal systems for signs of exposure.",
-   "Distinguish reported capabilities from proposals and political interpretations.",
-   "Track how naval modernization and summit narratives are presented."
+   "Separate service disruption from confirmed data exposure.",
+   "Review supplier visibility and breach-notification processes.",
+   "Track leadership and operational-status updates without assuming a shared cause."
   ]
  },
  "health": [
@@ -777,13 +799,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 14
+   "n": 17
   },
   {
    "name": "The Record",
@@ -807,7 +829,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 6
   },
   {
    "name": "Unit 42",
@@ -831,25 +853,25 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 4
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "Defense One",
@@ -861,13 +883,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 7
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 4
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -885,7 +907,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "International Crisis Group",
@@ -903,13 +925,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 11
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "SpaceNews",
@@ -927,31 +949,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 5
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 8
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 12
+   "n": 6
   }
  ]
 }
