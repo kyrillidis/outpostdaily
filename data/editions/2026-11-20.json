@@ -1,9 +1,31 @@
 {
  "date": "2026-11-20",
  "edition": 249,
- "compiled": "2026-11-20T00:45:26.998Z",
+ "compiled": "2026-11-20T07:55:34.035Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "009f6643a8",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+   "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "snippet": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .",
+   "published": "2026-11-20T07:35:46.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/009f6643a8.webp",
+   "t": "2026-11-20",
+   "summary": "JPMorgan, Visa and Mastercard point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.",
+   "why": "Review third-party access and incident notifications for possible exposure of customer data.",
+   "tags": [
+    "third-party providers",
+    "data leak",
+    "extortion"
+   ],
+   "ai": true
+  },
   {
    "id": "73e981a448",
    "section": "cyber",
@@ -14,7 +36,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brak",
    "published": "2026-11-19T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.48,
    "t": "2026-11-19",
    "summary": "CISA says successful exploitation of vulnerabilities in Elecbrakes EB2, VM1, and ELBC2000 could allow an attacker to gain control of something not specified in the supplied text.",
    "why": "Check whether these products are present and review the CISA advisory for mitigation guidance.",
@@ -34,7 +56,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.</s",
    "published": "2026-11-19T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.48,
    "t": "2026-11-19",
    "summary": "CISA says successful exploitation of a libumqtt vulnerability could allow a remote attacker to cause a denial of service.",
    "why": "Identify systems using libumqtt and review the CISA advisory for applicable mitigations.",
@@ -54,13 +76,79 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.</strong></p> <p>The following versions of ",
    "published": "2026-11-19T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.48,
    "t": "2026-11-19",
    "summary": "CISA says successful exploitation of a vulnerability in Autonomy Logic OpenPLC Runtime could allow several unauthenticated admin accounts.",
    "why": "Check deployments for exposed OpenPLC Runtime and review the CISA advisory.",
    "tags": [
     "OpenPLC Runtime",
     "unauthenticated"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ba74506a96",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+   "snippet": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while re",
+   "published": "2026-11-20T07:11:39.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/ba74506a96.webp",
+   "t": "2026-11-20",
+   "summary": "The Hacker News reports that ROMULUS ClickFix has been used to deliver a previously undocumented remote access trojan with similarities to CNCMachineRMS.",
+   "why": "Check for suspicious ClickFix activity and remote-access trojans on endpoints.",
+   "tags": [
+    "ROMULUS",
+    "ClickFix",
+    "RAT"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dc6901c8a6",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "snippet": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in ",
+   "published": "2026-11-20T06:33:31.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/dc6901c8a6.webp",
+   "t": "2026-11-20",
+   "summary": "The Hacker News reports suspected China-linked hackers exploited a critical VMware vCenter Server zero-day to gain admin access and steal data.",
+   "why": "Review vCenter exposure, access logs and available security updates.",
+   "tags": [
+    "VMware vCenter",
+    "zero-day",
+    "admin access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fa700a4eb8",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+   "snippet": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles M",
+   "published": "2026-11-20T05:30:01.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/fa700a4eb8.webp",
+   "t": "2026-11-20",
+   "summary": "The Hacker News says the unpatched FastUnlock technique lets someone with physical access run programs on a locked Windows PC, but only with a limited account.",
+   "why": "Assess physical access controls and monitor locked devices for unexpected program execution.",
+   "tags": [
+    "FastUnlock",
+    "Windows",
+    "physical access"
    ],
    "ai": true
   },
@@ -74,7 +162,7 @@
    "snippet": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
    "published": "2026-11-20T00:26:25.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.44,
    "image": "/img/news/c5e24a06d3.webp",
    "t": "2026-11-20",
    "summary": "Broadcom released updates for a critical vCenter authentication bypass vulnerability that Chinese-linked hackers exploited in zero-day attacks since September 2026.",
@@ -96,7 +184,7 @@
    "snippet": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
    "published": "2026-11-19T22:25:42.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.4,
    "image": "/img/news/df29d71aed.webp",
    "t": "2026-11-20",
    "summary": "SBC Medical Group says two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people.",
@@ -118,7 +206,7 @@
    "snippet": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
    "published": "2026-11-19T21:15:59.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.38,
    "image": "/img/news/3797ecb529.webp",
    "t": "2026-11-20",
    "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the console and managed devices.",
@@ -131,88 +219,46 @@
    "ai": true
   },
   {
-   "id": "8dfce1d63a",
-   "section": "cyber",
-   "source": "The Record",
+   "id": "a68a731b85",
+   "section": "warfare",
+   "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-   "snippet": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
-   "published": "2026-11-19T21:19:00.000Z",
+   "title": "Australia receives first 2 of 13 additional Seahawk helicopters",
+   "url": "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters/",
+   "snippet": "The deliveries will expand the Royal Australian Navy’s MH-60R fleet to 36 aircraft by early 2028 as part of a broader effort to modernize Australia’s naval aviation capabilities.",
+   "published": "2026-11-20T07:00:00.000Z",
    "also": [],
-   "score": 1.53,
-   "image": "/img/news/8dfce1d63a.webp",
+   "score": 1.58,
+   "image": "/img/news/a68a731b85.webp",
    "t": "2026-11-20",
-   "summary": "Lawmakers launched an AI safety caucus. Seven of its 26 founding members are Republicans, which the report calls notable amid White House opposition to AI regulation.",
-   "why": "Track how the caucus approaches AI safety and security concerns.",
+   "summary": "Australia has received the first two of 13 additional Seahawk helicopters, part of an effort to modernize naval aviation.",
+   "why": "The deliveries expand the Royal Australian Navy’s MH-60R fleet.",
    "tags": [
-    "AI safety",
-    "caucus",
-    "regulation"
+    "Australia",
+    "Seahawk",
+    "naval aviation"
    ],
    "ai": true
   },
   {
-   "id": "1977168802",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-   "snippet": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-   "published": "2026-11-19T18:20:01.000Z",
+   "id": "c9cbeeb5de",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile",
+   "url": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
+   "snippet": "The Indian Navy has expressed interest in supporting the development of a Rotating Detonation Engine (RDE) - powered supersonic naval missile. The post Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile appeared first on Naval News .",
+   "published": "2026-11-20T07:41:40.000Z",
    "also": [],
-   "score": 1.47,
-   "image": "/img/news/1977168802.webp",
+   "score": 1.5,
+   "image": "/img/news/c9cbeeb5de.webp",
    "t": "2026-11-20",
-   "summary": "Transport for London says account details of around 265,000 Oyster photocard customers may have been exposed in a data breach.",
-   "why": "Check affected accounts and follow the organization’s guidance on exposed details.",
+   "summary": "The Indian Navy has expressed interest in supporting development of a supersonic naval missile powered by a Rotating Detonation Engine.",
+   "why": "The proposal links engine development with a potential naval missile capability.",
    "tags": [
-    "TfL",
-    "Oyster",
-    "data breach"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4692e0d9ed",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
-   "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
-   "snippet": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
-   "published": "2026-11-19T17:25:00.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/4692e0d9ed.webp",
-   "t": "2026-11-19",
-   "summary": "DOJ and DHS are partnering on the Threat Disruption Center to triage victim complaints, map cybercriminal networks, and connect with private-sector organizations working with victims.",
-   "why": "For defenders, the center may offer a channel for sharing victim reports and coordinating with private-sector partners.",
-   "tags": [
-    "Threat Disruption Center",
-    "cybercrime"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c0b2110866",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
-   "url": "https://therecord.media/cisa-losapio-nomination-trump",
-   "snippet": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
-   "published": "2026-11-19T17:00:00.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/c0b2110866.webp",
-   "t": "2026-11-19",
-   "summary": "CISA nominee LoSapio pledged to lawmakers to uncover organizational gaps while denying that the Capitol came under attack on January 6, 2021.",
-   "why": "Track the nominee’s stated plans for identifying gaps in cyber defenses.",
-   "tags": [
-    "CISA",
-    "cyber defenses"
+    "Indian Navy",
+    "Rotating Detonation Engine",
+    "missile"
    ],
    "ai": true
   },
@@ -221,12 +267,12 @@
    "section": "warfare",
    "source": "The War Zone",
    "weight": 0.6,
-   "title": "Why The E-4B Nightwatch Always Shadows Air Force One When The President Travels Abroad",
+   "title": "The Jet That Always Shadows Air Force One When The President Travels Abroad",
    "url": "https://www.twz.com/news-features/why-the-e-4b-doomsday-plane-always-shadows-air-force-one-when-the-president-travels-abroad",
-   "snippet": "The E-4B \"doomsday plane,\" a heavily modified 747, is the Pentagon's survivable airborne command post, and having one nearby is standard for POTUS visits overseas. The post Why The E-4B Nightwatch Always Shadows Air Force One When The President Travels Abroad appeared first on TWZ .",
-   "published": "2026-11-20T00:16:51.000Z",
+   "snippet": "The E-4B Nightwatch, a heavily modified 747, is the Pentagon's survivable airborne command post, and having one nearby is standard for POTUS visits overseas. The post The Jet That Always Shadows Air Force One When The President Travels Abroad appeared first on TWZ .",
+   "published": "2026-11-20T01:01:44.000Z",
    "also": [],
-   "score": 1.59,
+   "score": 1.46,
    "image": "/img/news/d5053e7c71.webp",
    "t": "2026-11-20",
    "summary": "The E-4B is a heavily modified 747 and the Pentagon's survivable airborne command post. Having one nearby is standard during presidential visits overseas.",
@@ -248,7 +294,7 @@
    "snippet": "Squire is being sent to the CENTCOM area of responsibility as the Pentagon continues to surge uncrewed systems into the region. The post Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters appeared first on TWZ .",
    "published": "2026-11-19T22:08:02.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.4,
    "image": "/img/news/e851e33dbc.webp",
    "t": "2026-11-20",
    "summary": "Squire, a wing-in-ground-effect drone, is being sent to the CENTCOM area as the Pentagon continues to surge uncrewed systems into the region.",
@@ -270,7 +316,7 @@
    "snippet": "Foreign shipbuilding has emerged as a sticking point between Congress and the Trump administration, with the administration pushing for an expansion of the so-called “Finland model.”",
    "published": "2026-11-19T21:08:27.000Z",
    "also": [],
-   "score": 1.52,
+   "score": 1.38,
    "image": "/img/news/be2b2001be.webp",
    "t": "2026-11-20",
    "summary": "Toti is pushing for a new foreign-built US shipyard focused on frigates and large surface combatants. Foreign shipbuilding has become a point of disagreement in Washington.",
@@ -292,7 +338,7 @@
    "snippet": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***Iran Washington and Tehran are stuck in a loop, with no indication that they are engaged in talks — although Iran has continued meet",
    "published": "2026-11-19T20:17:57.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.36,
    "image": "/img/news/94745120ce.webp",
    "t": "2026-11-20",
    "summary": "The article describes Washington and Tehran as stuck in a loop, with no indication that the situation has changed.",
@@ -301,6 +347,28 @@
     "Iran",
     "Washington",
     "diplomacy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "72d62703b2",
+   "section": "warfare",
+   "source": "Defense One",
+   "weight": 0.5,
+   "title": "White House fires cyber director in wake of outages, sources say",
+   "url": "https://www.defenseone.com/policy/2026/11/pentagon-cio-replaces-white-house-cyber-director-sean-cairncross-major-shakeup/417359/",
+   "snippet": "Sean Cairncross is to be replaced by Pentagon's CIO; doubts grow about CISA nominee.",
+   "published": "2026-11-20T01:00:00.000Z",
+   "also": [],
+   "score": 1.36,
+   "image": "/img/news/72d62703b2.webp",
+   "t": "2026-11-20",
+   "summary": "Defense One reports that the White House is replacing its cyber director after outages; sources say the Pentagon’s CIO will take over, while doubts grow about the CISA nominee.",
+   "why": "Leadership changes may shape coordination across US cyber agencies.",
+   "tags": [
+    "cyber director",
+    "outages",
+    "CISA"
    ],
    "ai": true
   },
@@ -314,7 +382,7 @@
    "snippet": "Quickly obtaining more Mirage 2000s is at the top of Kyiv’s priority list, but finding them in significant numbers won’t be easy. The post Ukraine Wants More Mirage 2000 Fighters. Where Could They Come From? appeared first on TWZ .",
    "published": "2026-11-19T18:57:09.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.33,
    "image": "/img/news/a4a5e6e4c5.webp",
    "t": "2026-11-20",
    "summary": "More Mirage 2000 fighters are a priority for Kyiv, but finding them in significant numbers will be difficult, the article says.",
@@ -327,67 +395,24 @@
    "ai": true
   },
   {
-   "id": "476d47d463",
-   "section": "warfare",
-   "source": "The War Zone",
+   "id": "6e98697de7",
+   "section": "geo",
+   "source": "Atlantic Council",
    "weight": 0.6,
-   "title": "Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery",
-   "url": "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery",
-   "snippet": "The rail span is proving to be a harder nut for Ukraine to crack than the roadway one. The post Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery appeared first on TWZ .",
-   "published": "2026-11-19T18:14:45.000Z",
+   "title": "Putin didn’t get his Yalta, but he’s happy nonetheless",
+   "url": "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless/",
+   "snippet": "In the Shenzhen summit with Trump and Xi, Putin got the propaganda victory he wanted without having to make any concessions on Ukraine. The post Putin didn’t get his Yalta, but he’s happy nonetheless appeared first on Atlantic Council .",
+   "published": "2026-11-20T02:31:03.000Z",
    "also": [],
-   "score": 1.46,
-   "image": "/img/news/476d47d463.webp",
+   "score": 1.49,
+   "image": "/img/news/6e98697de7.webp",
    "t": "2026-11-20",
-   "summary": "Satellite imagery shows impacts from the latest Neptune missile strike on the Kerch Bridge. The rail span is proving harder to damage than the roadway span.",
-   "why": "Satellite imagery helps assess damage to distinct parts of a strategic bridge.",
+   "summary": "The Atlantic Council says Putin gained a propaganda victory at the Shenzhen summit with Trump and Xi without making concessions on Ukraine.",
+   "why": "The account highlights how summit optics may matter alongside negotiations over Ukraine.",
    "tags": [
-    "Neptune",
-    "Kerch Bridge",
-    "satellite imagery"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e8ce91e8bc",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "The Army wants its units to use more data, but many aren’t built to do so",
-   "url": "https://www.defenseone.com/technology/2026/11/army-wants-its-units-use-more-data-many-arent-built-do-so/417355/",
-   "snippet": "AI might help move intelligence more quickly up and down the echelons, Army and industry speakers said.",
-   "published": "2026-11-19T22:03:09.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/e8ce91e8bc.webp",
-   "t": "2026-11-20",
-   "summary": "Army and industry speakers said AI might help move intelligence more quickly through Army echelons, while many units are not built to use more data.",
-   "why": "Data-handling capacity matters to moving intelligence through military units.",
-   "tags": [
-    "Army",
-    "AI",
-    "intelligence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "845da582d1",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "The real-world missile defense lessons from Ukraine and Iran — and how they matter for China",
-   "url": "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china/",
-   "snippet": "What works in Ukraine may not be the same systems needed for a Pacific conflict, according to Breaking Defense’s video roundtable.",
-   "published": "2026-11-19T16:33:00.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/845da582d1.webp",
-   "t": "2026-11-19",
-   "summary": "A Breaking Defense roundtable says systems that work in Ukraine may not be the same systems needed for a Pacific conflict.",
-   "why": "The comparison highlights how missile defense requirements may differ across theaters.",
-   "tags": [
-    "missile defense",
-    "Pacific"
+    "Shenzhen summit",
+    "Putin",
+    "Ukraine"
    ],
    "ai": true
   },
@@ -401,7 +426,7 @@
    "snippet": "Nihon DX Antenna Co., Ltd., a group company of Elecom Co., Ltd., has developed a domestically made GNSS antenna compatible with Japan’s Michibiki... The post Japan DX Antenna Unveils Sub-30 g Four-Frequency GNSS Antenna for Drones appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, Policy, ",
    "published": "2026-11-19T20:42:39.000Z",
    "also": [],
-   "score": 1.62,
+   "score": 1.47,
    "t": "2026-11-20",
    "summary": "Nihon DX Antenna has developed a domestically made, sub-30 g four-frequency GNSS antenna for drones, compatible with Japan’s Michibiki.",
    "why": "The antenna’s size and GNSS compatibility are relevant to drone navigation and positioning.",
@@ -413,90 +438,68 @@
    "ai": true
   },
   {
-   "id": "385b3b7b6a",
+   "id": "723cb65843",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
-   "published": "2026-11-20T00:13:21.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "‘We don’t want our future decided by the military’: Young Germans protest",
+   "url": "https://www.aljazeera.com/news/2026/11/20/we-dont-want-our-future-decided-by-the-military-young-germans-protest?traffic_source=rss",
+   "snippet": "Ahead of Friday's nationwide rallies, German teenagers explain why they are resisting conscription.",
+   "published": "2026-11-20T06:20:26.000Z",
    "also": [],
-   "score": 1.59,
-   "image": "/img/news/385b3b7b6a.webp",
+   "score": 1.47,
+   "image": "/img/news/723cb65843.webp",
    "t": "2026-11-20",
-   "summary": "People trapped in Taiz by the Houthis spoke to the BBC about life under siege.",
-   "why": "Accounts from inside Taiz offer a view of conditions in a besieged city.",
+   "summary": "German teenagers explain their opposition to conscription ahead of nationwide rallies.",
+   "why": "The protests show public debate over military service in Germany.",
    "tags": [
-    "Taiz",
-    "siege",
-    "Houthis"
+    "Germany",
+    "conscription",
+    "rallies"
    ],
    "ai": true
   },
   {
-   "id": "4d0bb49698",
+   "id": "e780057697",
    "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "The US didn’t have a strong plan for the Shenzhen summit. It showed.",
-   "url": "https://www.atlanticcouncil.org/dispatches/the-us-didnt-have-a-strong-plan-for-the-shenzhen-summit-it-showed/",
-   "snippet": "The leaders’ trilateral meeting in Shenzhen ended up benefiting Beijing and Moscow at the expense of Washington. The post The US didn’t have a strong plan for the Shenzhen summit. It showed. appeared first on Atlantic Council .",
-   "published": "2026-11-19T22:46:35.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+   "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
+   "snippet": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
+   "published": "2026-11-20T06:03:03.000Z",
    "also": [],
-   "score": 1.56,
-   "image": "/img/news/4d0bb49698.webp",
+   "score": 1.46,
+   "image": "/img/news/e780057697.webp",
    "t": "2026-11-20",
-   "summary": "An Atlantic Council article says the leaders’ trilateral meeting in Shenzhen benefited Beijing and Moscow at Washington’s expense.",
-   "why": "The account frames the summit as a setback for Washington’s position relative to Beijing and Moscow.",
+   "summary": "A US maritime agency acknowledged that a naval blockade was affecting insurance premiums and cargo capacity, according to a memo.",
+   "why": "Insurance costs and cargo capacity indicate potential effects on Gulf maritime activity.",
    "tags": [
-    "Shenzhen",
-    "summit",
-    "Beijing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b2a6f621e2",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "The U.S. and Iran Are Back to Trading Strikes",
-   "url": "https://foreignpolicy.com/2026/11/19/us-iran-strikes-bahrain-kuwait-trump/",
-   "snippet": "A roughly two-month lull in the fighting is seemingly over.",
-   "published": "2026-11-19T22:39:31.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/b2a6f621e2.webp",
-   "t": "2026-11-20",
-   "summary": "The article says a roughly two-month lull in fighting between the U.S. and Iran is seemingly over.",
-   "why": "The reported return to strikes is relevant to regional security assessments.",
-   "tags": [
-    "U.S.",
     "Iran",
-    "strikes"
+    "blockade",
+    "insurance premiums"
    ],
    "ai": true
   },
   {
-   "id": "90ac66fae1",
+   "id": "8289ff061f",
    "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Dispatch from Manama: The Iran war is not over for Bahrain",
-   "url": "https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf/",
-   "snippet": "A recent visit to Bahrain offers a window into the ongoing tensions with Iran and diplomatic maneuvering among Gulf nations. The post Dispatch from Manama: The Iran war is not over for Bahrain appeared first on Atlantic Council .",
-   "published": "2026-11-19T21:47:15.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Trump bows to pressure, replaces US cyber security director",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director?traffic_source=rss",
+   "snippet": "President Trump has removed National Cyber Director Sean Cairncross and named a Defense Department official as interim.",
+   "published": "2026-11-20T05:48:35.000Z",
    "also": [],
-   "score": 1.54,
-   "image": "/img/news/90ac66fae1.webp",
+   "score": 1.46,
+   "image": "/img/news/8289ff061f.webp",
    "t": "2026-11-20",
-   "summary": "A recent visit to Bahrain offers a view of ongoing tensions with Iran and diplomatic maneuvering among Gulf nations.",
-   "why": "Bahrain provides a vantage point on Gulf tensions and regional diplomacy.",
+   "summary": "Al Jazeera reports that Trump removed National Cyber Director Sean Cairncross and named a Defense Department official as interim.",
+   "why": "The change is relevant to oversight and coordination of US cybersecurity policy.",
    "tags": [
-    "Bahrain",
-    "Iran",
-    "Gulf"
+    "National Cyber Director",
+    "Defense Department",
+    "interim"
    ],
    "ai": true
   },
@@ -508,9 +511,9 @@
    "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
    "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
-   "published": "2026-11-19T21:21:43.000Z",
+   "published": "2026-11-20T00:50:24.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.45,
    "image": "/img/news/2176787e20.webp",
    "t": "2026-11-20",
    "summary": "European allies of Ukraine say they have a united negotiating position at a Berlin summit and are ready for talks with Russia on ending the war.",
@@ -523,46 +526,46 @@
    "ai": true
   },
   {
-   "id": "c2292ca0ac",
+   "id": "385b3b7b6a",
    "section": "geo",
-   "source": "Atlantic Council",
+   "source": "BBC World",
    "weight": 0.6,
-   "title": "Kyiv’s partners should prioritize Ukraine’s domestic drone production",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/kyivs-partners-should-prioritize-ukraines-domestic-drone-production/",
-   "snippet": "Ukrainian long-range drone strikes have reduced Russian oil refining output by around 45 percent in the past few weeks, Reuters reports. Kyiv's partners should build on this success and prioritize funding for Ukraine's domestic drone industry, writes Leonid Baratz. The post Kyiv’s partners should prioritize Ukraine’s d",
-   "published": "2026-11-19T20:39:47.000Z",
+   "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+   "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
+   "published": "2026-11-20T00:13:21.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/c2292ca0ac.webp",
+   "score": 1.44,
+   "image": "/img/news/385b3b7b6a.webp",
    "t": "2026-11-20",
-   "summary": "The article says Ukrainian long-range drone strikes reduced Russian oil refining output by around 45 percent in recent weeks and urges partners to fund Ukraine’s domestic drone industry.",
-   "why": "The report links drone production capacity with effects on energy infrastructure.",
+   "summary": "People trapped in Taiz by the Houthis spoke to the BBC about life under siege.",
+   "why": "Accounts from inside Taiz offer a view of conditions in a besieged city.",
    "tags": [
-    "drones",
-    "Ukraine",
-    "oil refining"
+    "Taiz",
+    "siege",
+    "Houthis"
    ],
    "ai": true
   },
   {
-   "id": "55632aab1b",
+   "id": "beca203ab8",
    "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Five European ministers on why they won’t go back to business with Russia",
-   "url": "https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia/",
-   "snippet": "Economy and energy ministers from across Central and Eastern Europe warned at the Partnership for Transatlantic Energy Cooperation that Europe can't fall back on cheap energy that will be used as a political tool against them. The post Five European ministers on why they won’t go back to business with Russia appeared f",
-   "published": "2026-11-19T19:30:54.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
+   "url": "https://www.aljazeera.com/news/2026/11/20/gaza-civil-defence-struggles-to-rescue-lives-as-vehicles-fall-into-disrepair?traffic_source=rss",
+   "snippet": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
+   "published": "2026-11-20T05:01:40.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/55632aab1b.webp",
+   "score": 1.44,
+   "image": "/img/news/beca203ab8.webp",
    "t": "2026-11-20",
-   "summary": "Economy and energy ministers from Central and Eastern Europe warn against returning to cheap Russian energy that could be used as a political tool.",
-   "why": "The ministers’ warning highlights the strategic implications of energy dependence.",
+   "summary": "Gaza Civil Defence says more than 85 percent of its vehicles are out of service, hindering crews trying to reach trapped people.",
+   "why": "Vehicle availability affects emergency response coverage and access to affected locations.",
    "tags": [
-    "energy",
-    "Russia",
-    "Central Europe"
+    "Gaza",
+    "Civil Defence",
+    "vehicles"
    ],
    "ai": true
   }
@@ -714,47 +717,47 @@
   }
  ],
  "run_today": [
-  "Prioritize Broadcom’s vCenter security updates and check for signs of exploitation.",
-  "Update ASUS Control Center Express to v1.7.29 and review remote access to its console.",
-  "Review incident-response steps for possible exposure of customer and employee data."
+  "Review third-party providers’ access and incident notices for possible customer-data exposure.",
+  "Check endpoints for suspicious ClickFix activity and unauthorized remote-access trojans.",
+  "Review VMware vCenter exposure and access logs, and check for available security updates."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "authentication bypass",
-   "explainer": "An authentication bypass is a flaw that may let someone access a system without successfully completing its normal authentication checks.",
-   "from_id": "c5e24a06d3",
-   "from": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-   "fromSource": "BleepingComputer"
+   "term": "Third-party providers",
+   "explainer": "Organizations that provide services to other companies. In this report, the companies point to providers after a data leak allegedly tied to their customers.",
+   "from_id": "009f6643a8",
+   "from": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "fromSource": "SecurityWeek"
   },
   {
    "domain": "warfare",
-   "term": "survivable airborne command post",
-   "explainer": "An airborne command post is an aircraft equipped to support command functions. “Survivable” describes its intended ability to continue operating in difficult conditions.",
-   "from_id": "d5053e7c71",
-   "from": "https://www.twz.com/news-features/why-the-e-4b-doomsday-plane-always-shadows-air-force-one-when-the-president-travels-abroad",
-   "fromSource": "The War Zone"
+   "term": "Rotating Detonation Engine",
+   "explainer": "An engine concept named in the report as the proposed power source for a supersonic naval missile. The Indian Navy has expressed interest in supporting its development.",
+   "from_id": "c9cbeeb5de",
+   "from": "https://www.navalnews.com/naval-news/2026/11/indian-navy-exploring-development-of-rotating-detonation-engine-powered-supersonic-cruise-missile/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "Michibiki",
-   "explainer": "Michibiki is the Japanese GNSS system named in the antenna report. GNSS is satellite-based technology used for positioning and navigation.",
-   "from_id": "2695e5ce01",
-   "from": "https://insidegnss.com/japan-dx-antenna-unveils-sub-30-g-four-frequency-gnss-antenna-for-drones/",
-   "fromSource": "Inside GNSS"
+   "term": "Shenzhen summit",
+   "explainer": "A summit involving Trump, Xi and Putin, as described in the report. The Atlantic Council characterizes its outcome as a propaganda victory for Putin.",
+   "from_id": "6e98697de7",
+   "from": "https://www.atlanticcouncil.org/dispatches/putin-didnt-get-his-yalta-but-hes-happy-nonetheless/",
+   "fromSource": "Atlantic Council"
   }
  ],
  "analysis": {
-  "headline": "Exposure, Command, and Positioning",
+  "headline": "Capabilities, exposure and the politics of security",
   "paragraphs": [
-   "The top stories span exploited vulnerabilities, military command, and geospatial technology. The advisory titles report successful exploitation, while the VMware item says a vCenter authentication bypass was exploited in zero-day attacks. Together, they make patching and exposure checks an immediate concern for defenders.",
-   "The E-4B story describes a survivable airborne command post accompanying overseas presidential visits. The GNSS antenna story, meanwhile, concerns a compact four-frequency system for drones that is compatible with Japan’s Michibiki. These examples show how command continuity and positioning technology figure in operational planning, though the snippets do not establish a connection between them.",
-   "The Taiz account and Shenzhen summit assessment add human and diplomatic perspectives to the operational stories. For analysts, the mix suggests watching both technical disclosures and the contexts in which military systems operate. The available text is limited; it supports attention to vulnerabilities, positioning, and regional developments, not firm conclusions about their effects."
+   "The stories span naval modernization, a proposed missile engine and a summit’s political messaging. They show how capability is presented through both hardware and diplomacy. The helicopter deliveries are concrete, while the Indian Navy’s interest remains a development proposal.",
+   "The cyber reports add a different kind of exposure: third-party providers are cited after a data leak, and ROMULUS is described as delivering a remote access trojan. These accounts suggest defenders need to consider supplier relationships as well as activity on their own endpoints.",
+   "Together, the stories make attribution and status important for analysts: a reported incident, an expressed interest and an interpretation of summit outcomes are not the same kind of evidence. Watch for further details on provider exposure, malware behavior and how naval plans develop."
   ],
   "takeaways": [
-   "Prioritize checks for the vulnerabilities described as exploited.",
-   "The E-4B’s command-post role makes continuity an operational concern.",
-   "GNSS compatibility and regional developments merit continued attention."
+   "Check supplier relationships as well as internal systems for signs of exposure.",
+   "Distinguish reported capabilities from proposals and political interpretations.",
+   "Track how naval modernization and summit narratives are presented."
   ]
  },
  "health": [
@@ -774,13 +777,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 13
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 14
   },
   {
    "name": "The Record",
@@ -804,7 +807,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 9
   },
   {
    "name": "Unit 42",
@@ -834,13 +837,13 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 7
   },
   {
    "name": "Breaking Defense",
@@ -852,7 +855,7 @@
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "Defense News",
@@ -894,19 +897,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 10
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "SpaceNews",
@@ -924,19 +927,19 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 5
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Al Jazeera",
@@ -948,7 +951,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 13
+   "n": 12
   }
  ]
 }
