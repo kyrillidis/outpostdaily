@@ -1,38 +1,8 @@
 {
- "updated": "2026-11-19T23:12:09.195Z",
+ "updated": "2026-11-20T03:58:18.195Z",
  "health": [
   {
    "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 10
-  },
-  {
-   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -42,9 +12,19 @@
    "error": "HTTP 402"
   },
   {
-   "name": "Al Jazeera",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 7
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "BBC World",
@@ -52,14 +32,39 @@
    "n": 2
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "The DFIR Report",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "Hackread",
    "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
    "n": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -67,24 +72,19 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "DarkForums",
-   "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -119,6 +119,116 @@
  ],
  "items": [
   {
+   "id": "n5aca005e2c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "published": "2026-11-20T03:31:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n540a5b7ca6",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Thousands protest Colombia’s tax plans amid row over US military role",
+   "url": "https://www.aljazeera.com/news/2026/11/20/thousands-protest-colombias-tax-plans-amid-row-over-us-military-role?traffic_source=rss",
+   "published": "2026-11-20T03:26:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neff1e8640e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Trump nominee refuses to call Jan 6 an ‘attack’ at Senate hearing",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-nominee-refuses-to-call-jan-6-an-attack-at-senate-hearing?traffic_source=rss",
+   "published": "2026-11-20T02:25:33.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nfb0127a77d",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+   "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+   "published": "2026-11-20T01:22:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n47855d4f2f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Haiti police say 34 gang members killed in capital raid",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+   "published": "2026-11-20T00:31:02.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc5e24a06d3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "published": "2026-11-20T00:26:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n205406d555",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+   "published": "2026-11-19T23:58:40.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n260bb6773f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
+   "url": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+   "published": "2026-11-19T23:56:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n648b1fe6eb",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+   "url": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+   "published": "2026-11-19T23:11:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb444064312",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Six killed in suspected gas explosion at Georgia apartment building",
+   "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
+   "published": "2026-11-19T23:09:48.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
    "id": "nef315bcdbc",
    "kind": "news",
    "group": "crisis",
@@ -126,6 +236,17 @@
    "title": "California probing whether China improperly acquired Nvidia technology",
    "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-19T23:04:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n89cf126ce8",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Mosque torched in Israel sparks political backlash against Netanyahu",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+   "published": "2026-11-19T22:58:48.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2506,39 +2627,6 @@
    "verified": true
   },
   {
-   "id": "n677d1c2c53",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "The latest tech failure: U.S. classified national security communications network",
-   "url": "https://www.marketwatch.com/story/the-latest-tech-failure-u-s-classified-national-security-communications-network-ad271899?mod=mw_rss_topstories",
-   "published": "2026-11-17T17:12:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n752dcbf5ba",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Parents told us what it’s like to help their kids battle sports-gambling addiction: ‘There’s no handbook’",
-   "url": "https://www.marketwatch.com/story/parents-told-us-what-its-like-to-help-their-kids-battle-sports-gambling-addiction-theres-no-handbook-6e2d5bb2?mod=mw_rss_topstories",
-   "published": "2026-11-17T17:07:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n761ad9ae03",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-   "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-   "published": "2026-11-17T17:03:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nfd43296f1c",
    "kind": "news",
    "group": "crisis",
@@ -2737,17 +2825,6 @@
    "verified": true
   },
   {
-   "id": "n1c28267b47",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Tepper, Loeb among fund managers piling into Nvidia and other megacap tech on the eve of October drawdown",
-   "url": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
-   "published": "2026-11-17T10:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nd70ba4ae16",
    "kind": "news",
    "group": "cyber",
@@ -2942,61 +3019,6 @@
    "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
    "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
    "published": "2026-11-17T05:00:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n899257ebfc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
-   "published": "2026-11-17T01:38:13.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n02b6262a73",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
-   "url": "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
-   "published": "2026-11-17T01:19:56.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nae1b63a90f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ukraine holds peace talks with US, Europe as conflict escalates",
-   "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
-   "published": "2026-11-17T00:45:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4e56eb2b5b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Houthis advance in Yemen as Vance rejects ‘forever war’",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
-   "published": "2026-11-16T23:57:49.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5af00c545a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Paraguay ex-president moved to military jail amid special treatment reports",
-   "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
-   "published": "2026-11-16T23:44:32.000Z",
    "severity": "normal",
    "verified": true
   }
