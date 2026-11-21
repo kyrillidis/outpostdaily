@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-20T20:40:39.354Z",
+ "updated": "2026-11-21T01:44:24.995Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 0
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "The Record",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "X cyber",
@@ -22,29 +22,29 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 2
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Al Jazeera",
+   "name": "Krebs on Security",
    "ok": true,
-   "n": 4
+   "n": 1
   },
   {
-   "name": "The Record",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "BBC World",
    "ok": true,
-   "n": 3
+   "n": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "MarketWatch",
@@ -52,22 +52,17 @@
    "n": 10
   },
   {
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
+  },
+  {
    "name": "Dark Reading",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "SecurityWeek",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
@@ -77,14 +72,19 @@
    "n": 1
   },
   {
-   "name": "DarkForums",
+   "name": "Daily Dark Web",
    "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "DarkForums",
+   "ok": true,
+   "n": 7
   },
   {
    "name": "BreachForums",
@@ -118,6 +118,237 @@
   }
  ],
  "items": [
+  {
+   "id": "n933288238d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+   "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+   "published": "2026-11-21T01:12:48.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n93138fbb4d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Krebs on Security",
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "published": "2026-11-21T00:36:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8958d346f4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+   "published": "2026-11-21T00:00:06.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3ace204545",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
+   "published": "2026-11-20T23:20:50.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4371c6cf8e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+   "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+   "published": "2026-11-20T22:46:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6db58f120f",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+   "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+   "published": "2026-11-20T22:44:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "neadd2e9099",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+   "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+   "published": "2026-11-20T22:44:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n931f9a9053",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "4 Best XRP Lending Platforms Compared by Security, LTV, and Speed",
+   "url": "https://hackread.com/xrp-lending-platforms-compared-security-ltv-speed/",
+   "published": "2026-11-20T22:26:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0a6dc192a1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "CVE-2026-23871: WhatsApp Bug Helped Scammers Make Messages Look Legitimate",
+   "url": "https://securityaffairs.com/203622/security/cve-2026-23871-whatsapp-bug-helped-scammers-make-messages-look-legitimate.html",
+   "published": "2026-11-20T22:21:12.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6904288500",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+   "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+   "published": "2026-11-20T22:15:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na9d75b5647",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+   "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-20T21:57:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n59177037e1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
+   "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+   "published": "2026-11-20T21:39:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8c6b5225b0",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+   "url": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+   "published": "2026-11-20T21:36:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf0b8696c25",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+   "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+   "published": "2026-11-20T21:34:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n47c00bd5f7",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
+   "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
+   "published": "2026-11-20T21:34:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n69cdd0f499",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price",
+   "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+   "published": "2026-11-20T21:25:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na9aa37cedd",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+   "published": "2026-11-20T21:03:27.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nea0c7618f6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Here’s what’s been proven to help GLP-1 users from losing too much muscle from the drug",
+   "url": "https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories",
+   "published": "2026-11-20T21:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nca7b21a1b7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+   "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+   "published": "2026-11-20T20:59:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nce9ea2887c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza’s displaced children celebrate World Children’s Day",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day?traffic_source=rss",
+   "published": "2026-11-20T20:45:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd74f383a96",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Sudan’s war leaves disabled children missing out on education",
+   "url": "https://www.aljazeera.com/news/2026/11/20/sudans-war-leaves-disabled-children-missing-out-on-education?traffic_source=rss",
+   "published": "2026-11-20T20:45:08.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nb1107b8529",
    "kind": "news",
@@ -2022,17 +2253,6 @@
    "verified": true
   },
   {
-   "id": "n97c8e40bb5",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
-   "url": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
-   "published": "2026-11-18T21:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "nede0adf4c5",
    "kind": "news",
    "group": "cyber",
@@ -2176,17 +2396,6 @@
    "verified": true
   },
   {
-   "id": "n116a5f790c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Social Security should be shut down, this Republican senator says",
-   "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:46:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n0ee878b982",
    "kind": "news",
    "group": "crisis",
@@ -2194,50 +2403,6 @@
    "title": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
    "url": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
    "published": "2026-11-18T17:45:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4c105ac1f4",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Rising healthcare costs push Medicare Part B premiums higher",
-   "url": "https://www.marketwatch.com/story/medicare-part-b-premiums-rise-due-higher-healthcare-spending-f2daba13?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd8aef235ef",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "It’s not too late to add U.S. energy companies to your 401(k). They’ve been making out like bandits.",
-   "url": "https://www.marketwatch.com/story/its-not-too-late-to-add-u-s-energy-companies-to-your-401-k-theyve-been-making-out-like-bandits-e77a8d6a?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:23:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndb0c55126d",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I tried TikTok’s viral ‘corporate slop lunch hacks’ — and finally escaped the $20 desk salad",
-   "url": "https://www.marketwatch.com/story/i-tried-tiktoks-viral-corporate-slop-lunch-hacks-and-finally-escaped-the-20-desk-salad-60daf133?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:16:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ncc6dd37fa0",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nearly half of home builders are cutting prices and offering lower mortgage rates as they struggle to find buyers",
-   "url": "https://www.marketwatch.com/story/nearly-half-of-home-builders-are-cutting-prices-and-offering-lower-mortgage-rates-as-they-struggle-to-find-buyers-033351e1?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:14:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2260,17 +2425,6 @@
    "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
    "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-18T17:00:04.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4d1af77c24",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-   "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
-   "published": "2026-11-18T17:00:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2315,17 +2469,6 @@
    "title": "Crowds gather as Trump arrives in China ahead of talks with Xi and Putin",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/crowds-gather-as-trump-arrives-in-china-ahead-of-talks-with-xi-and-putin?traffic_source=rss",
    "published": "2026-11-18T16:40:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n99f535ed2e",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "CoreWeave’s stock drops as Nvidia talks up a ‘disciplined’ approach to financing",
-   "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
-   "published": "2026-11-18T16:30:00.000Z",
    "severity": "normal",
    "verified": true
   },
@@ -2701,281 +2844,6 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss",
    "published": "2026-11-18T04:01:16.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "fcbed596190",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Access to DarkForums Private Archive Telegram Channel",
-   "url": "https://darkforums.team/Thread-News-DarkForums-Archive-Telegram-Channel",
-   "published": "2026-11-18T01:43:17.623Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "fa678a403e4",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "GTA 5 SOURCE CODE",
-   "url": "https://darkforums.team/Thread-Source-Code-GTA-5-SOURCE-CODE",
-   "published": "2026-11-18T01:43:17.623Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f19f091a40e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Discord CEO Dox Leak",
-   "url": "https://darkforums.team/Thread-Discord-CEO-Dox-Leak",
-   "published": "2026-11-18T01:43:17.623Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "f72e0664177",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "вњ…пёЏ SimpleSwap API Exploit...",
-   "url": "https://darkforums.team/Thread-%E2%9C%85%EF%B8%8F-SimpleSwap-API-Exploit-%E2%AD%90-I-made-12-000-in-a-2-days--90974",
-   "published": "2026-11-18T01:43:17.623Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f21c3d90f7e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "golfcanada.ca data breach",
-   "url": "https://darkforums.team/Thread-golfcanada-ca-data-breach",
-   "published": "2026-11-18T01:43:17.623Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "naeecd4d188",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
-   "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
-   "published": "2026-11-18T01:07:01.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd02231a219",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ecuadorian fishermen sue Trump administration over drone strike",
-   "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
-   "published": "2026-11-18T01:04:43.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n60663dfc1f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Top IRGC commander in Iraq for talks amid Kataib Hezbollah tensions",
-   "url": "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions?traffic_source=rss",
-   "published": "2026-11-18T00:33:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n434df7aa57",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why China’s Shenzhen was chosen for APEC summit",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/why-chinas-shenzhen-was-chosen-for-apec-summit?traffic_source=rss",
-   "published": "2026-11-18T00:16:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2fea232f15",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Kuwait says intercepting ‘hostile’ drone attacks",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks?traffic_source=rss",
-   "published": "2026-11-18T00:00:27.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nbe875ec6f7",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-   "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
-   "published": "2026-11-17T23:38:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5fecc68cc8",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker",
-   "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
-   "published": "2026-11-17T23:28:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2465872bda",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Top spy agency suffers network outage, the latest US technical failure",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/top-spy-agency-suffers-network-outage-the-latest-us-technical-failure?traffic_source=rss",
-   "published": "2026-11-17T23:19:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9ade33180",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment",
-   "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
-   "published": "2026-11-17T23:09:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n126567e065",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-   "published": "2026-11-17T23:04:21.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9467b2d782",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
-   "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-17T22:46:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n46a6b0b05c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
-   "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
-   "published": "2026-11-17T22:34:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n554209990c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russian military plane crash in Siberia kills 19",
-   "url": "https://www.aljazeera.com/news/2026/11/17/russian-military-plane-crash-in-siberia-kills-19?traffic_source=rss",
-   "published": "2026-11-17T22:21:16.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6d887e6fa5",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "UK hands NATO-assigned US soldier accused of Russia spying to US military",
-   "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
-   "published": "2026-11-17T21:35:24.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nddec81ba80",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-   "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-   "published": "2026-11-17T21:27:17.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n8f75784be3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
-   "url": "https://therecord.media/optimizely-malicious-code-customer-sites",
-   "published": "2026-11-17T21:20:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne77ffd9aec",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Russian military plane crashes, killing all 19 on board",
-   "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-17T21:06:11.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nba36bcaaae",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
-   "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
-   "published": "2026-11-17T20:58:13.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc7731ed1bb",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Apple Services Disrupted as NSA Network Goes Down and Equinor Faces Cyberattack",
-   "url": "https://securityaffairs.com/203354/security/apple-outages-add-to-growing-concerns-over-technology-service-disruptions.html",
-   "published": "2026-11-17T20:52:24.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n1dff6dd6c9",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-   "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-   "published": "2026-11-17T20:51:21.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
