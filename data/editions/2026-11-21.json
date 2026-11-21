@@ -1,9 +1,119 @@
 {
  "date": "2026-11-21",
  "edition": 250,
- "compiled": "2026-11-21T11:55:36.647Z",
+ "compiled": "2026-11-21T18:32:01.907Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "1e1dbef95d",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+   "published": "2026-11-21T18:01:58.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/1e1dbef95d.webp",
+   "t": "2026-11-21",
+   "summary": "Microsoft says attackers exploited a vulnerability in Entra Connect Health to access administrator email addresses and tenant configuration information.",
+   "why": "Review Entra Connect Health access and tenant configuration, and investigate for unauthorized access.",
+   "tags": [
+    "Entra Connect Health",
+    "vulnerability",
+    "tenant data"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4b6021947b",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+   "published": "2026-11-21T15:17:27.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/4b6021947b.webp",
+   "t": "2026-11-21",
+   "summary": "BADBOX malware has returned to large-scale ad-fraud operations on generic Android TV boxes, BleepingComputer reports.",
+   "why": "Check Android TV devices for BADBOX malware and unusual ad-request activity.",
+   "tags": [
+    "BADBOX",
+    "Android TV",
+    "ad fraud"
+   ],
+   "ai": true
+  },
+  {
+   "id": "efef5bd50b",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+   "published": "2026-11-21T14:26:04.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/efef5bd50b.webp",
+   "t": "2026-11-21",
+   "summary": "BleepingComputer reports that FBI systems were breached again, this time targeting the National Crime Information Center, which shares law-enforcement information.",
+   "why": "Review access to shared law-enforcement information and investigate the reported breach.",
+   "tags": [
+    "FBI",
+    "NCIC",
+    "database"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6231e48f3b",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "snippet": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+   "published": "2026-11-21T12:08:50.000Z",
+   "also": [],
+   "score": 1.37,
+   "image": "/img/news/6231e48f3b.webp",
+   "t": "2026-11-21",
+   "summary": "SecurityWeek says autonomous Cairn AI agents were used to discover and exploit a critical vulnerability in MONAI Label.",
+   "why": "Check MONAI Label deployments for the vulnerability and review related access for signs of exploitation.",
+   "tags": [
+    "AI agents",
+    "MONAI Label",
+    "vulnerability"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0ad755f268",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "snippet": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstrat",
+   "published": "2026-11-21T11:53:07.000Z",
+   "also": [],
+   "score": 1.36,
+   "image": "/img/news/0ad755f268.webp",
+   "t": "2026-11-21",
+   "summary": "Researchers showed that a malicious webpage could extract Meta Muse conversations and stored memories without an approval prompt; the attack could also reach stored credentials.",
+   "why": "Avoid untrusted webpages and check assistant permissions and stored data for exposure.",
+   "tags": [
+    "malicious webpage",
+    "Meta Muse",
+    "private chats"
+   ],
+   "ai": true
+  },
   {
    "id": "761885e6c0",
    "section": "cyber",
@@ -14,7 +124,7 @@
    "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2",
    "published": "2026-11-21T11:05:53.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.35,
    "image": "/img/news/761885e6c0.webp",
    "t": "2026-11-21",
    "summary": "The GnuPG project warns that a malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME and expose application data.",
@@ -35,7 +145,7 @@
    "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storag",
    "published": "2026-11-21T11:03:17.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.34,
    "image": "/img/news/16765aea3b.webp",
    "t": "2026-11-21",
    "summary": "Amazon Threat Intelligence says suspected China-linked hackers used autonomous AI agents to find a zero-day in MONAI Label and gain root access to a university server.",
@@ -56,7 +166,7 @@
    "snippet": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key",
    "published": "2026-11-21T00:36:39.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.33,
    "image": "/img/news/93138fbb4d.webp",
    "t": "2026-11-21",
    "summary": "The chief technology officer and co-founder of RansomwareHelp has been charged with wire fraud after an FBI sting operation, the snippet says.",
@@ -77,7 +187,7 @@
    "snippet": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted mess",
    "published": "2026-11-21T08:49:20.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.3,
    "image": "/img/news/9da47b8efc.webp",
    "t": "2026-11-21",
    "summary": "Signal says it will restrict screenshots by default on Android and iOS to hinder AI agents reading private chats, while acknowledging the protection is incomplete.",
@@ -98,7 +208,7 @@
    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (",
    "published": "2026-11-21T08:49:13.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.3,
    "image": "/img/news/a3eac34b29.webp",
    "t": "2026-11-21",
    "summary": "CISA added flaws affecting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog, citing evidence of active exploitation.",
@@ -110,153 +220,67 @@
    "ai": true
   },
   {
-   "id": "ec3643e6e5",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
-   "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
-   "snippet": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Unit 42 .",
-   "published": "2026-11-20T22:00:25.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/ec3643e6e5.webp",
-   "t": "2026-11-20",
-   "summary": "Unit 42 describes Com affiliate vishing attacks, cloud data theft and extortion targeting healthcare and finance, and offers defense guidance.",
-   "why": "Review phone-based identity checks and cloud access controls; prepare for possible extortion.",
-   "tags": [
-    "vishing",
-    "cloud data theft",
-    "extortion"
-   ],
-   "ai": true
-  },
-  {
-   "id": "925f615d57",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "snippet": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.</p> <ul> <li><a class=\"Hyperlink SCXW11102993 B",
-   "published": "2026-11-20T12:00:00.000Z",
-   "also": [],
-   "score": 1.4,
-   "t": "2026-11-20",
-   "summary": "CISA says it added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
-   "why": "Check whether affected products are in use and prioritize remediation using CISA’s catalog.",
-   "tags": [
-    "vulnerabilities",
-    "KEV Catalog"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2be32b97a1",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-   "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-   "snippet": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
-   "published": "2026-11-20T10:51:42.000Z",
-   "also": [
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/"
-    }
-   ],
-   "score": 1.33,
-   "image": "/img/news/2be32b97a1.webp",
-   "t": "2026-11-20",
-   "summary": "The European Commission took some services offline to contain an AI-assisted cyberattack and says it has no evidence of a data breach.",
-   "why": "Review service-continuity plans and verify whether affected services are operating normally.",
-   "tags": [
-    "AI-assisted",
-    "cyberattack",
-    "services"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f0b8696c25",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
-   "url": "https://therecord.media/west-virginia-legislature-cyberattack",
-   "snippet": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
-   "published": "2026-11-20T21:34:36.000Z",
-   "also": [],
-   "score": 1.3,
-   "image": "/img/news/f0b8696c25.webp",
-   "t": "2026-11-20",
-   "summary": "A cyber incident affecting West Virginia Legislature IT systems was ongoing Friday; a spokesperson said it did not spread to other government entities.",
-   "why": "Check affected IT systems and verify whether related services remain disrupted.",
-   "tags": [
-    "cyber incident",
-    "IT systems"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e010061a1e",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
-   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
-   "snippet": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
-   "published": "2026-11-20T20:25:00.000Z",
-   "also": [],
-   "score": 1.28,
-   "image": "/img/news/e010061a1e.webp",
-   "t": "2026-11-20",
-   "summary": "A House Homeland Security Committee investigation focused on risks from U.S. companies using lower-cost Chinese open weight AI models for certain projects.",
-   "why": "Review where open weight AI models are used and assess associated risks.",
-   "tags": [
-    "open weight AI",
-    "investigation"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c89c825110",
+   "id": "2c7c2abfef",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service",
-   "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-   "snippet": "France’s fourth Suffren-class SSN, De Grasse, has officially entered active service with the French Navy under the Barracuda submarine program. The post French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service appeared first on Naval News .",
-   "published": "2026-11-21T10:18:51.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
+   "url": "https://www.twz.com/sea/theodore-roosevelt-strike-group-arrives-in-the-middle-east-relieving-uss-george-washington",
+   "snippet": "Where the aircraft carriers are as of November 21, 2026. The post USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington appeared first on TWZ .",
+   "published": "2026-11-21T18:11:09.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.59,
+   "image": "/img/news/2c7c2abfef.webp",
    "t": "2026-11-21",
-   "summary": "France’s fourth Suffren-class submarine, De Grasse, has entered active service under the Barracuda submarine program.",
-   "why": "Its entry into service marks an addition to France’s Suffren-class submarine fleet.",
+   "summary": "The War Zone reports that USS Theodore Roosevelt arrived in the Middle East, relieving USS George Washington.",
+   "why": "Carrier movements indicate the operational presence of naval aviation in the region.",
    "tags": [
-    "Suffren-class",
-    "Barracuda"
+    "aircraft carriers",
+    "Middle East"
    ],
    "ai": true
   },
   {
-   "id": "c5f8ee462a",
+   "id": "da97d85c04",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
-   "url": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-   "snippet": "Built in the UK, the two 30-meter Fast Attack Craft will carry advanced air defense and missile systems to help the Ukrainian Navy protect the Black Sea Grain Corridor. UK Prime Minister’s office press release Two advanced fast attack boats for Ukraine are being jointly funded by the UK and Norway to boost Ukrainian de",
-   "published": "2026-11-21T08:46:25.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Senate gearing up to investigate Ukraine’s access to Starshield",
+   "url": "https://breakingdefense.com/2026/11/senate-gearing-up-to-investigate-ukraines-access-to-starshield/",
+   "snippet": "“What the hell is happening? Why is this being done? What are the consequences and the costs? And what does it say about our reliability in the future?” Sen. Chris Coons asked.",
+   "published": "2026-11-21T15:06:51.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.53,
+   "image": "/img/news/da97d85c04.webp",
    "t": "2026-11-21",
-   "summary": "The UK and Norway committed over £100M for two fast attack craft for Ukraine. The boats are to carry air defense and missile systems to help protect the Black Sea Grain Corridor.",
-   "why": "The planned craft combine speed and defensive systems for operations around the Black Sea Grain Corridor.",
+   "summary": "Breaking Defense reports that the Senate is preparing to investigate Ukraine’s access to Starshield; Senator Chris Coons questioned the consequences and costs.",
+   "why": "The inquiry concerns access to satellite services and the reliability implications of that access.",
    "tags": [
-    "Fast Attack Craft",
-    "Black Sea Grain Corridor"
+    "Starshield",
+    "Ukraine",
+    "Senate"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ad1f44b402",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine",
+   "url": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+   "snippet": "Defence Secretary meets President Zelenskyy in Kyiv as new agreements strengthen UK industrial support for Ukraine and expand drone production",
+   "published": "2026-11-21T15:50:54.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/ad1f44b402.webp",
+   "t": "2026-11-21",
+   "summary": "The UK Ministry of Defence says new agreements deepen industrial support for Ukraine and expand drone production.",
+   "why": "Expanded drone production is relevant to the industrial capacity supporting Ukraine.",
+   "tags": [
+    "Ukraine",
+    "industrial support",
+    "drone production"
    ],
    "ai": true
   },
@@ -270,7 +294,7 @@
    "snippet": "I have a weird brass taste in my mouth, do you taste that? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-11-20T23:12:57.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.2,
    "image": "/img/news/8e15bef6f5.webp",
    "t": "2026-11-21",
    "summary": "The War Zone’s Bunker Talk post opens with a remark about a brass taste; the snippet gives no further substantive details.",
@@ -290,7 +314,7 @@
    "snippet": "The VC-25B Bridge jet raised the bar for how long Air Force One has stayed aloft on an airlift mission, but Boeing's new VC-25B jets may not be able to do the same. The post There Is More To Air Force One’s Long Flight From China Than Just Breaking Records appeared first on TWZ .",
    "published": "2026-11-20T22:39:44.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.19,
    "image": "/img/news/4de997bb38.webp",
    "t": "2026-11-20",
    "summary": "The VC-25B Bridge jet set a new bar for how long Air Force One stayed aloft on an airlift mission; Boeing’s new VC-25B jets may not match it.",
@@ -311,7 +335,7 @@
    "snippet": "Pairing a 120mm gun with a 35-ton tracked chassis, the vehicle arrives as drones increasingly complicate the case for armored vehicles of any weight. The post Oddball CFL-120 Karpat Medium Tank With A Big Gun Faces A Battlefield Increasingly Hostile To Armor appeared first on TWZ .",
    "published": "2026-11-20T21:26:26.000Z",
    "also": [],
-   "score": 1.3,
+   "score": 1.16,
    "image": "/img/news/d726961f81.webp",
    "t": "2026-11-20",
    "summary": "The CFL-120 Karpat pairs a 120mm gun with a 35-ton tracked chassis as drones increasingly complicate the case for armored vehicles.",
@@ -333,7 +357,7 @@
    "snippet": "[Sponsored] Long-range detection capabilities extend decision time for counter-UAS actions.",
    "published": "2026-11-20T20:53:46.000Z",
    "also": [],
-   "score": 1.29,
+   "score": 1.15,
    "image": "/img/news/cc7e8e7e8e.webp",
    "t": "2026-11-20",
    "summary": "A sponsored item says long-range detection capabilities extend decision time for counter-UAS actions.",
@@ -354,7 +378,7 @@
    "snippet": "Pentagon officials largely concurred with GAO’s recommendations.",
    "published": "2026-11-21T01:18:33.000Z",
    "also": [],
-   "score": 1.28,
+   "score": 1.14,
    "image": "/img/news/2cbd4a358b.webp",
    "t": "2026-11-21",
    "summary": "Defense One reports that Pentagon officials largely concurred with GAO recommendations; the headline says there is no overarching plan to improve munition stockpiles.",
@@ -366,23 +390,111 @@
    "ai": true
   },
   {
-   "id": "64c23358e0",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "Europeans, with Ukraine’s help, brace for more Russian attacks",
-   "url": "https://www.defenseone.com/threats/2026/11/europeans-ukraines-help-brace-more-russian-attacks/417389/",
-   "snippet": "Meanwhile, Trump greets Putin as “my friend” and downplays Russian missiles in Poland.",
-   "published": "2026-11-21T00:58:14.000Z",
+   "id": "07601b6002",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+   "published": "2026-11-21T16:35:15.000Z",
    "also": [],
-   "score": 1.27,
-   "image": "/img/news/64c23358e0.webp",
+   "score": 1.56,
+   "image": "/img/news/07601b6002.webp",
    "t": "2026-11-21",
-   "summary": "The headline says Europeans, with Ukraine’s help, are bracing for more Russian attacks. The snippet notes Trump greeted Putin as “my friend” and downplayed Russian missiles in Poland.",
-   "why": "The item links European preparations to Ukraine and remarks about Russian missiles in Poland.",
+   "summary": "The FBI is reportedly investigating an apparent hack of its National Crime Information Center database, which law enforcement uses to share information.",
+   "why": "The report concerns a database used to share information across federal and local law enforcement.",
    "tags": [
-    "Ukraine",
-    "Russian attacks"
+    "FBI",
+    "criminal database"
+   ],
+   "ai": true
+  },
+  {
+   "id": "930d2ebeda",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+   "published": "2026-11-21T13:17:38.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/930d2ebeda.webp",
+   "t": "2026-11-21",
+   "summary": "Zelensky says Ukraine’s strikes on the Crimean Bridge were a fair response after Russian aerial attacks on bridges in Ukraine.",
+   "why": "The claims highlight the strategic significance of bridges and transport infrastructure.",
+   "tags": [
+    "Crimean Bridge",
+    "bridges",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bfa8a23ef7",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+   "snippet": "US President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons.",
+   "published": "2026-11-21T18:05:51.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/bfa8a23ef7.webp",
+   "t": "2026-11-21",
+   "summary": "Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons.",
+   "why": "The stated goal signals the importance of nuclear negotiations in US-Iran relations.",
+   "tags": [
+    "Iran",
+    "nuclear weapons",
+    "agreement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5af29203d2",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+   "snippet": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+   "published": "2026-11-21T17:54:19.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/5af29203d2.webp",
+   "t": "2026-11-21",
+   "summary": "Al Jazeera reports that an Israeli air attack hit a vehicle carrying food aid in Gaza, killing three Palestinians.",
+   "why": "The reported strike concerns the risks to humanitarian aid movements in Gaza.",
+   "tags": [
+    "Gaza",
+    "food aid",
+    "air attack"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cf79c26c0f",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+   "snippet": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.",
+   "published": "2026-11-21T17:20:03.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/cf79c26c0f.webp",
+   "t": "2026-11-21",
+   "summary": "Al Jazeera reports that a Russian strike killed two and wounded 60 in Kryvyi Rih; the report also mentions missiles landing in Poland and uncertainty around US-led peace efforts.",
+   "why": "The report links a strike in Ukraine with wider regional security concerns and uncertain peace efforts.",
+   "tags": [
+    "Kryvyi Rih",
+    "Russian strike",
+    "Poland"
    ],
    "ai": true
   },
@@ -396,7 +508,7 @@
    "snippet": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
    "published": "2026-11-21T10:26:36.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.43,
    "image": "/img/news/a9d75b5647.webp",
    "t": "2026-11-20",
    "summary": "Denmark accused Russia of plotting to assassinate a US-Ukrainian rapper; the Russian embassy denied the allegation, and Russia’s defence attaché was expelled.",
@@ -409,149 +521,46 @@
    "ai": true
   },
   {
-   "id": "07601b6002",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "FBI reportedly investigating apparent hack of its criminal database",
-   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-   "published": "2026-11-21T09:34:20.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/07601b6002.webp",
-   "t": "2026-11-21",
-   "summary": "The FBI is reportedly investigating an apparent hack of its National Crime Information Center database, which law enforcement uses to share information.",
-   "why": "The report concerns a database used to share information across federal and local law enforcement.",
-   "tags": [
-    "FBI",
-    "criminal database"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d5f4d08731",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-   "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
-   "published": "2026-11-21T08:10:25.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/d5f4d08731.webp",
-   "t": "2026-11-21",
-   "summary": "Zelensky called Putin a “killer” after Trump called the Russian leader a friend. Trump had greeted Putin ahead of a meeting in China.",
-   "why": "The contrasting statements reflect differing public positions toward Russia.",
-   "tags": [
-    "Zelensky",
-    "Putin"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1b1444dd8e",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Trafalgar Square Christmas tree felled in Norway",
-   "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
-   "published": "2026-11-21T08:10:03.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/1b1444dd8e.webp",
-   "t": "2026-11-21",
-   "summary": "Oslo’s annual Christmas tree for Trafalgar Square was felled in Norway. The 21m tree is described as a thank you for Britain’s support during World War Two.",
-   "why": "The annual tree links a present-day public tradition with wartime support between Norway and Britain.",
-   "tags": [
-    "Trafalgar Square",
-    "Norway"
-   ],
-   "ai": true
-  },
-  {
-   "id": "42f62b2e73",
+   "id": "f39079c7c7",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
-   "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
-   "snippet": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
-   "published": "2026-11-21T11:02:49.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/42f62b2e73.webp",
-   "t": "2026-11-21",
-   "summary": "Warsaw accuses Moscow of intentional provocation over Russian missiles hitting Poland; the report says the bar for NATO’s collective defence clause remains high.",
-   "why": "The account highlights the gap between an accusation of provocation and the threshold for collective defence.",
-   "tags": [
-    "Poland",
-    "collective defence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6433155462",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Nations agree to ‘elaborate’ on rules for AI-run ‘killer robots’ by 2028",
-   "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
-   "snippet": "Members of the UN's Convention on Certain Conventional Weapons fail to agree on swift adoption of legally binding rules.",
-   "published": "2026-11-21T10:25:29.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/6433155462.webp",
-   "t": "2026-11-21",
-   "summary": "Members of the UN’s Convention on Certain Conventional Weapons did not agree on swift adoption of legally binding rules for AI-run “killer robots”; nations agreed to elaborate on rules by 2028.",
-   "why": "The outcome signals continued work on international rules for autonomous weapons.",
-   "tags": [
-    "AI-run",
-    "legally binding rules"
-   ],
-   "ai": true
-  },
-  {
-   "id": "02b26256ce",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
-   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
-   "snippet": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
-   "published": "2026-11-21T09:30:24.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/02b26256ce.webp",
-   "t": "2026-11-21",
-   "summary": "Iran says it downed US drones over Hormuz and restates conditions for reopening the strait as the bid to end the war remains stalled. The US announced sanctions on four Iranians it says acted as “oil trustees.”",
-   "why": "The report connects Hormuz’s reopening, drone claims, sanctions, and stalled efforts to end the war.",
-   "tags": [
-    "Hormuz",
-    "drones"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d0e65f19e2",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Swimmer braves tanker attacks to expose Hormuz contamination",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/swimmer-braves-tanker-attacks-to-expose-hormuz-contamination?traffic_source=rss",
-   "snippet": "As tankers burned in Hormuz, swimmer Lewis Pugh exposed another casualty of the US-Israeli war on Iran: marine life.",
-   "published": "2026-11-21T08:39:35.000Z",
+   "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+   "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+   "snippet": "British maritime agency reports two incidents near Oman, while Iran says a tanker caught fire due to naval mine.",
+   "published": "2026-11-21T15:01:18.000Z",
    "also": [],
    "score": 1.43,
-   "image": "/img/news/d0e65f19e2.webp",
+   "image": "/img/news/f39079c7c7.webp",
    "t": "2026-11-21",
-   "summary": "Lewis Pugh swam in Hormuz to expose damage to marine life as tankers burned there, according to the report.",
-   "why": "The account draws attention to marine life as a consequence of events around Hormuz.",
+   "summary": "A British maritime agency reports two incidents near Oman; Iran says a tanker caught fire due to a naval mine.",
+   "why": "Incidents near the Strait of Hormuz make shipping security and route monitoring strategically relevant.",
    "tags": [
-    "Hormuz",
-    "marine life"
+    "Strait of Hormuz",
+    "shipping",
+    "naval mine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "858ce2cb6c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
+   "snippet": "Iran's FM Araghchi says there is 'major strategic debate' about the future of Iran's nuclear doctrine.",
+   "published": "2026-11-21T14:15:36.000Z",
+   "also": [],
+   "score": 1.41,
+   "image": "/img/news/858ce2cb6c.webp",
+   "t": "2026-11-21",
+   "summary": "Iran's foreign minister says there is a major strategic debate about the future of Iran's nuclear doctrine.",
+   "why": "The debate bears on Iran’s stated nuclear policy and regional strategic calculations.",
+   "tags": [
+    "Iran",
+    "nuclear doctrine",
+    "strategic debate"
    ],
    "ai": true
   }
@@ -703,47 +712,47 @@
   }
  ],
  "run_today": [
-  "Check GPGME use and review the GnuPG project’s warning about malicious OpenPGP keys.",
-  "Check for exposed MONAI Label servers and investigate unexpected root access.",
-  "Review CISA’s KEV entries for affected products and prioritize remediation."
+  "Review Entra Connect Health access and tenant configuration for unauthorized changes.",
+  "Check Android TV devices for BADBOX malware and unusual ad-request activity.",
+  "Investigate access to shared law-enforcement information following the reported NCIC breach."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "GPGME",
-   "explainer": "GPGME is a standard library that programs use to work with GnuPG. The GnuPG project warned that a malicious OpenPGP key with an unusually long user ID can trigger a memory bug in it.",
-   "from_id": "761885e6c0",
-   "from": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-   "fromSource": "The Hacker News"
+   "term": "vulnerability",
+   "explainer": "A vulnerability is a weakness in a system or service that attackers may exploit to gain access or cause harm.",
+   "from_id": "1e1dbef95d",
+   "from": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Suffren-class SSN",
-   "explainer": "An SSN is a submarine designation used in the supplied report for France’s Suffren-class vessels. The report says De Grasse, the class’s fourth submarine, entered active service.",
-   "from_id": "c89c825110",
-   "from": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-   "fromSource": "Naval News"
+   "term": "drone production",
+   "explainer": "Drone production is the making of drones. In this item, it is described as expanding through agreements that strengthen industrial support for Ukraine.",
+   "from_id": "ad1f44b402",
+   "from": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+   "fromSource": "UK Ministry of Defence"
   },
   {
    "domain": "geo",
-   "term": "collective defence clause",
-   "explainer": "A collective defence clause concerns a shared response to an attack. The report says Warsaw accuses Moscow of provocation, while the bar for triggering NATO’s clause remains high.",
-   "from_id": "42f62b2e73",
-   "from": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+   "term": "nuclear doctrine",
+   "explainer": "Nuclear doctrine refers to a state's stated policy and approach concerning nuclear weapons. Iran's foreign minister says its future is the subject of strategic debate.",
+   "from_id": "858ce2cb6c",
+   "from": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Security, allegations, and relationships in today’s briefing",
+  "headline": "Access, Presence, and Strategic Uncertainty",
   "paragraphs": [
-   "Today’s stories span technical security and geopolitical tension. The GPGME warning describes a malicious-key route to application data, while Amazon Threat Intelligence says AI agents found a MONAI Label flaw and gained root access. Both accounts make software exposure and access controls relevant to defenders.",
-   "The reported FBI database hack concerns a system used by law enforcement to share information. Separately, Denmark’s accusation and Russia’s denial, alongside the exchange involving Zelensky, Trump, and Putin, show how allegations and public statements can shape the context analysts must assess. The supplied details do not resolve the claims.",
-   "Other stories foreground thresholds and ties: Warsaw accuses Moscow of provocation, while the account says NATO’s collective-defence bar remains high. The Norway-to-Britain tree recalls wartime support. For analysts, separating stated claims from confirmed details matters; for defenders, software warnings and reported incidents warrant careful verification."
+   "The top stories concern control of access and the consequences of its use. Microsoft says attackers accessed administrator email addresses and tenant configuration through an Entra Connect Health flaw. Separately, the reported FBI incident involves a database used to share law-enforcement information. These accounts make access governance and verification central concerns.",
+   "The BADBOX report adds a different kind of scale: malware on generic Android TV boxes has returned to ad-fraud operations. Alongside the two access-related incidents, it suggests defenders should consider both sensitive systems and less-obvious connected devices. The reports do not establish a connection between these events.",
+   "The other stories focus on strategic presence and dependence: a carrier arrives in the Middle East, while senators prepare to examine Ukraine’s access to Starshield. The bridge-strike report adds the importance of infrastructure to the picture. Analysts should watch how access, deployments, and stated responses are described, while distinguishing reported events from questions still under investigation."
   ],
   "takeaways": [
-   "Treat the GPGME warning and reported MONAI Label access as prompts to review exposure and access.",
-   "Distinguish allegations, denials, and reported facts when assessing geopolitical stories.",
-   "Watch how collective-defence thresholds and historical ties frame public accounts."
+   "Review access to sensitive systems and shared information.",
+   "Include generic connected devices in malware checks.",
+   "Track the stated terms and uncertainties around deployments and access."
   ]
  },
  "health": [
@@ -763,7 +772,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 11
   },
   {
    "name": "The Hacker News",
@@ -781,13 +790,13 @@
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 9
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 3
   },
   {
    "name": "Dark Reading",
@@ -835,13 +844,13 @@
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "Defense News",
@@ -852,8 +861,8 @@
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 5
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -871,7 +880,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "International Crisis Group",
@@ -889,7 +898,7 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "Foreign Policy",
@@ -925,19 +934,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 8
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 9
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 8
   }
  ]
 }
