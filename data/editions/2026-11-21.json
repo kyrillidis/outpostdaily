@@ -1,9 +1,51 @@
 {
  "date": "2026-11-21",
  "edition": 250,
- "compiled": "2026-11-21T03:39:36.173Z",
+ "compiled": "2026-11-21T11:55:36.647Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "761885e6c0",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2",
+   "published": "2026-11-21T11:05:53.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/761885e6c0.webp",
+   "t": "2026-11-21",
+   "summary": "The GnuPG project warns that a malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME and expose application data.",
+   "why": "Check whether applications use GPGME and review the GnuPG project’s warning.",
+   "tags": [
+    "GPGME",
+    "OpenPGP key"
+   ],
+   "ai": true
+  },
+  {
+   "id": "16765aea3b",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storag",
+   "published": "2026-11-21T11:03:17.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/16765aea3b.webp",
+   "t": "2026-11-21",
+   "summary": "Amazon Threat Intelligence says suspected China-linked hackers used autonomous AI agents to find a zero-day in MONAI Label and gain root access to a university server.",
+   "why": "Check MONAI Label exposure and investigate unexpected privileged access on medical-imaging servers.",
+   "tags": [
+    "AI agents",
+    "MONAI Label"
+   ],
+   "ai": true
+  },
   {
    "id": "93138fbb4d",
    "section": "cyber",
@@ -14,7 +56,7 @@
    "snippet": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key",
    "published": "2026-11-21T00:36:39.000Z",
    "also": [],
-   "score": 1.64,
+   "score": 1.46,
    "image": "/img/news/93138fbb4d.webp",
    "t": "2026-11-21",
    "summary": "The chief technology officer and co-founder of RansomwareHelp has been charged with wire fraud after an FBI sting operation, the snippet says.",
@@ -22,6 +64,48 @@
    "tags": [
     "ransomware",
     "wire fraud"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9da47b8efc",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+   "snippet": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted mess",
+   "published": "2026-11-21T08:49:20.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/9da47b8efc.webp",
+   "t": "2026-11-21",
+   "summary": "Signal says it will restrict screenshots by default on Android and iOS to hinder AI agents reading private chats, while acknowledging the protection is incomplete.",
+   "why": "Treat screenshot restrictions as one safeguard, not a complete defense against agents reading chats.",
+   "tags": [
+    "Signal",
+    "screenshots"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a3eac34b29",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (",
+   "published": "2026-11-21T08:49:13.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/a3eac34b29.webp",
+   "t": "2026-11-21",
+   "summary": "CISA added flaws affecting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog, citing evidence of active exploitation.",
+   "why": "Check affected products and prioritize remediation of flaws listed in CISA’s KEV catalog.",
+   "tags": [
+    "CISA",
+    "KEV"
    ],
    "ai": true
   },
@@ -35,7 +119,7 @@
    "snippet": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Unit 42 .",
    "published": "2026-11-20T22:00:25.000Z",
    "also": [],
-   "score": 1.58,
+   "score": 1.41,
    "image": "/img/news/ec3643e6e5.webp",
    "t": "2026-11-20",
    "summary": "Unit 42 describes Com affiliate vishing attacks, cloud data theft and extortion targeting healthcare and finance, and offers defense guidance.",
@@ -57,7 +141,7 @@
    "snippet": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.</p> <ul> <li><a class=\"Hyperlink SCXW11102993 B",
    "published": "2026-11-20T12:00:00.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.4,
    "t": "2026-11-20",
    "summary": "CISA says it added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, citing evidence of active exploitation.",
    "why": "Check whether affected products are in use and prioritize remediation using CISA’s catalog.",
@@ -82,7 +166,7 @@
      "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/"
     }
    ],
-   "score": 1.5,
+   "score": 1.33,
    "image": "/img/news/2be32b97a1.webp",
    "t": "2026-11-20",
    "summary": "The European Commission took some services offline to contain an AI-assisted cyberattack and says it has no evidence of a data breach.",
@@ -104,7 +188,7 @@
    "snippet": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
    "published": "2026-11-20T21:34:36.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.3,
    "image": "/img/news/f0b8696c25.webp",
    "t": "2026-11-20",
    "summary": "A cyber incident affecting West Virginia Legislature IT systems was ongoing Friday; a spokesperson said it did not spread to other government entities.",
@@ -125,7 +209,7 @@
    "snippet": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
    "published": "2026-11-20T20:25:00.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.28,
    "image": "/img/news/e010061a1e.webp",
    "t": "2026-11-20",
    "summary": "A House Homeland Security Committee investigation focused on risks from U.S. companies using lower-cost Chinese open weight AI models for certain projects.",
@@ -137,88 +221,42 @@
    "ai": true
   },
   {
-   "id": "edfeced150",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Container Store restores systems after cyberattack",
-   "url": "https://therecord.media/container-store-restores-systems-cyberattack",
-   "snippet": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
-   "published": "2026-11-20T19:32:00.000Z",
+   "id": "c89c825110",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service",
+   "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
+   "snippet": "France’s fourth Suffren-class SSN, De Grasse, has officially entered active service with the French Navy under the Barracuda submarine program. The post French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service appeared first on Naval News .",
+   "published": "2026-11-21T10:18:51.000Z",
+   "also": [],
+   "score": 1.47,
+   "t": "2026-11-21",
+   "summary": "France’s fourth Suffren-class submarine, De Grasse, has entered active service under the Barracuda submarine program.",
+   "why": "Its entry into service marks an addition to France’s Suffren-class submarine fleet.",
+   "tags": [
+    "Suffren-class",
+    "Barracuda"
+   ],
+   "ai": true
+  },
+  {
+   "id": "c5f8ee462a",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
+   "url": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
+   "snippet": "Built in the UK, the two 30-meter Fast Attack Craft will carry advanced air defense and missile systems to help the Ukrainian Navy protect the Black Sea Grain Corridor. UK Prime Minister’s office press release Two advanced fast attack boats for Ukraine are being jointly funded by the UK and Norway to boost Ukrainian de",
+   "published": "2026-11-21T08:46:25.000Z",
    "also": [],
    "score": 1.43,
-   "image": "/img/news/edfeced150.webp",
-   "t": "2026-11-20",
-   "summary": "Neighborhood Intelligence said The Container Store restored its website and systems following a cybersecurity incident.",
-   "why": "Confirm restored services are functioning and continue monitoring systems after the incident.",
+   "t": "2026-11-21",
+   "summary": "The UK and Norway committed over £100M for two fast attack craft for Ukraine. The boats are to carry air defense and missile systems to help protect the Black Sea Grain Corridor.",
+   "why": "The planned craft combine speed and defensive systems for operations around the Black Sea Grain Corridor.",
    "tags": [
-    "cyberattack",
-    "systems"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6c623452a1",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-   "snippet": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
-   "published": "2026-11-20T18:51:43.000Z",
-   "also": [],
-   "score": 1.42,
-   "image": "/img/news/6c623452a1.webp",
-   "t": "2026-11-20",
-   "summary": "Bell Canada says an “agentic” threat actor breached its systems and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits.",
-   "why": "Review access to enterprise customer data and the circuit ordering and provisioning system.",
-   "tags": [
-    "enterprise customer data",
-    "telecommunications circuits"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0abe422151",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-   "snippet": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-   "published": "2026-11-20T17:30:00.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/0abe422151.webp",
-   "t": "2026-11-20",
-   "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application.",
-   "why": "Check medical imaging applications for exposure and review security monitoring for unusual testing activity.",
-   "tags": [
-    "Cairn",
-    "zero-day",
-    "medical imaging"
-   ],
-   "ai": true
-  },
-  {
-   "id": "cd038ca0a2",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
-   "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-   "snippet": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
-   "published": "2026-11-20T17:30:00.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/cd038ca0a2.webp",
-   "t": "2026-11-20",
-   "summary": "Researchers said a China-linked threat actor used Cairn to attack two universities and possibly discover a zero-day bug in one case.",
-   "why": "Review university systems for signs of persistent activity and assess exposed applications.",
-   "tags": [
-    "Cairn",
-    "universities",
-    "zero-day"
+    "Fast Attack Craft",
+    "Black Sea Grain Corridor"
    ],
    "ai": true
   },
@@ -232,7 +270,7 @@
    "snippet": "I have a weird brass taste in my mouth, do you taste that? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
    "published": "2026-11-20T23:12:57.000Z",
    "also": [],
-   "score": 1.51,
+   "score": 1.34,
    "image": "/img/news/8e15bef6f5.webp",
    "t": "2026-11-21",
    "summary": "The War Zone’s Bunker Talk post opens with a remark about a brass taste; the snippet gives no further substantive details.",
@@ -252,7 +290,7 @@
    "snippet": "The VC-25B Bridge jet raised the bar for how long Air Force One has stayed aloft on an airlift mission, but Boeing's new VC-25B jets may not be able to do the same. The post There Is More To Air Force One’s Long Flight From China Than Just Breaking Records appeared first on TWZ .",
    "published": "2026-11-20T22:39:44.000Z",
    "also": [],
-   "score": 1.5,
+   "score": 1.32,
    "image": "/img/news/4de997bb38.webp",
    "t": "2026-11-20",
    "summary": "The VC-25B Bridge jet set a new bar for how long Air Force One stayed aloft on an airlift mission; Boeing’s new VC-25B jets may not match it.",
@@ -273,7 +311,7 @@
    "snippet": "Pairing a 120mm gun with a 35-ton tracked chassis, the vehicle arrives as drones increasingly complicate the case for armored vehicles of any weight. The post Oddball CFL-120 Karpat Medium Tank With A Big Gun Faces A Battlefield Increasingly Hostile To Armor appeared first on TWZ .",
    "published": "2026-11-20T21:26:26.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.3,
    "image": "/img/news/d726961f81.webp",
    "t": "2026-11-20",
    "summary": "The CFL-120 Karpat pairs a 120mm gun with a 35-ton tracked chassis as drones increasingly complicate the case for armored vehicles.",
@@ -295,7 +333,7 @@
    "snippet": "[Sponsored] Long-range detection capabilities extend decision time for counter-UAS actions.",
    "published": "2026-11-20T20:53:46.000Z",
    "also": [],
-   "score": 1.46,
+   "score": 1.29,
    "image": "/img/news/cc7e8e7e8e.webp",
    "t": "2026-11-20",
    "summary": "A sponsored item says long-range detection capabilities extend decision time for counter-UAS actions.",
@@ -316,7 +354,7 @@
    "snippet": "Pentagon officials largely concurred with GAO’s recommendations.",
    "published": "2026-11-21T01:18:33.000Z",
    "also": [],
-   "score": 1.45,
+   "score": 1.28,
    "image": "/img/news/2cbd4a358b.webp",
    "t": "2026-11-21",
    "summary": "Defense One reports that Pentagon officials largely concurred with GAO recommendations; the headline says there is no overarching plan to improve munition stockpiles.",
@@ -337,7 +375,7 @@
    "snippet": "Meanwhile, Trump greets Putin as “my friend” and downplays Russian missiles in Poland.",
    "published": "2026-11-21T00:58:14.000Z",
    "also": [],
-   "score": 1.44,
+   "score": 1.27,
    "image": "/img/news/64c23358e0.webp",
    "t": "2026-11-21",
    "summary": "The headline says Europeans, with Ukraine’s help, are bracing for more Russian attacks. The snippet notes Trump greeted Putin as “my friend” and downplayed Russian missiles in Poland.",
@@ -349,159 +387,6 @@
    "ai": true
   },
   {
-   "id": "be05afe0d6",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Navy CCA Plans Will Not Wait For F/A-XX Next Generation Fighter",
-   "url": "https://www.twz.com/air/navy-cca-plans-will-not-wait-for-f-a-xx-next-generation-fighter",
-   "snippet": "The Navy's Collaborative Combat Aircraft vision is solidifying and F-35s could act as the first airborne ‘quarterbacks’ for those drones. The post Navy CCA Plans Will Not Wait For F/A-XX Next Generation Fighter appeared first on TWZ .",
-   "published": "2026-11-20T19:38:25.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/be05afe0d6.webp",
-   "t": "2026-11-20",
-   "summary": "The Navy’s Collaborative Combat Aircraft plans are taking shape; the item says F-35s could act as the first airborne “quarterbacks” for those drones.",
-   "why": "The plan points to a possible role for crewed aircraft in coordinating drones.",
-   "tags": [
-    "Collaborative Combat Aircraf",
-    "F-35",
-    "drones"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c0db8d36a9",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Mysterious MQ-25 Stingray-Like Chinese Drone Emerges At Little-Known Flight Test Center",
-   "url": "https://www.twz.com/air/mysterious-mq-25-stingray-like-chinese-drone-emerges-at-little-known-flight-test-center",
-   "snippet": "Satellite imagery of the unidentified drone at an obscure Chinese flight test facility raises interesting questions. The post Mysterious MQ-25 Stingray-Like Chinese Drone Emerges At Little-Known Flight Test Center appeared first on TWZ .",
-   "published": "2026-11-20T19:16:03.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/c0db8d36a9.webp",
-   "t": "2026-11-20",
-   "summary": "Satellite imagery of an unidentified drone at a Chinese flight test facility raises questions, according to The War Zone.",
-   "why": "Imagery can inform analysis of activity at flight-test facilities, while the drone’s identity remains unclear.",
-   "tags": [
-    "satellite imagery",
-    "drone",
-    "China"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6fca891ece",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-   "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-   "published": "2026-11-21T02:09:46.000Z",
-   "also": [],
-   "score": 1.57,
-   "image": "/img/news/6fca891ece.webp",
-   "t": "2026-11-20",
-   "summary": "Tusk said a Russian missile hit Poland during a military exercise by Ukraine’s allies; nobody was hurt and no damage was reported. Warsaw called it a “provocation.”",
-   "why": "The reported incident links airspace and missile activity with a military exercise in the region.",
-   "tags": [
-    "Russian missile",
-    "Poland",
-    "military exercise"
-   ],
-   "ai": true
-  },
-  {
-   "id": "00c7a60810",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "US declassifies more UFO footage filmed in the Middle East",
-   "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The Pentagon has released an eighth tranche of UFO records, which includes three video clips recorded in 2020, 2023 and 2026.",
-   "published": "2026-11-20T23:15:20.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/00c7a60810.webp",
-   "t": "2026-11-21",
-   "summary": "The Pentagon released an eighth tranche of UFO records, including three video clips recorded in 2020, 2023 and 2026, the BBC reports.",
-   "why": "The released footage is a source of material for analysis of the recorded observations.",
-   "tags": [
-    "UFO footage",
-    "Middle East"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b672b7920a",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Will Putin achieve by guile what Stalin achieved with millions of troops?",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/will-putin-achieve-by-guile-what-stalin-achieved-with-millions-of-troops/",
-   "snippet": "When a trilateral meeting between the leaders of China, the United States, and Russia was announced, commentators with an eye for history were soon asking whether this Shenzhen summit was going to be a second Yalta allowing Vladimir Putin to advance his revisionist agenda, writes John Herbst. The post Will Putin achiev",
-   "published": "2026-11-20T22:51:01.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/b672b7920a.webp",
-   "t": "2026-11-20",
-   "summary": "The article asks whether a proposed trilateral meeting of China, the United States and Russia could allow Putin to advance his aims, drawing a comparison with Yalta.",
-   "why": "The proposed meeting raises questions about great-power diplomacy and historical analogies.",
-   "tags": [
-    "trilateral meeting",
-    "China",
-    "Russia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "2781f6bcf0",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Pennsylvania Governor Josh Shapiro outlines his vision for US leadership in the world",
-   "url": "https://www.atlanticcouncil.org/commentary/event-recap/pennsylvania-governor-josh-shapiro-outlines-his-vision-for-us-leadership-in-the-world/",
-   "snippet": "At the Atlantic Council's NATO in America conference, Shapiro said the United States has an opportunity to push forward a new foreign policy centered on security and prosperity. The post Pennsylvania Governor Josh Shapiro outlines his vision for US leadership in the world appeared first on Atlantic Council .",
-   "published": "2026-11-20T22:27:20.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/2781f6bcf0.webp",
-   "t": "2026-11-20",
-   "summary": "At the Atlantic Council’s NATO in America conference, Pennsylvania Governor Josh Shapiro said the United States could pursue foreign policy centered on security and prosperity.",
-   "why": "The remarks outline a proposed framing for U.S. foreign policy.",
-   "tags": [
-    "foreign policy",
-    "security",
-    "prosperity"
-   ],
-   "ai": true
-  },
-  {
-   "id": "385b3b7b6a",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-   "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
-   "published": "2026-11-20T22:14:17.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/385b3b7b6a.webp",
-   "t": "2026-11-20",
-   "summary": "People trapped in Taiz by the Houthis spoke to the BBC about life under siege.",
-   "why": "Accounts from inside Taiz offer a view of conditions in a besieged city.",
-   "tags": [
-    "Taiz",
-    "siege",
-    "Houthis"
-   ],
-   "ai": true
-  },
-  {
    "id": "a9d75b5647",
    "section": "geo",
    "source": "BBC World",
@@ -509,9 +394,9 @@
    "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
    "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-   "published": "2026-11-20T21:57:07.000Z",
+   "published": "2026-11-21T10:26:36.000Z",
    "also": [],
-   "score": 1.48,
+   "score": 1.57,
    "image": "/img/news/a9d75b5647.webp",
    "t": "2026-11-20",
    "summary": "Denmark accused Russia of plotting to assassinate a US-Ukrainian rapper; the Russian embassy denied the allegation, and Russia’s defence attaché was expelled.",
@@ -524,45 +409,149 @@
    "ai": true
   },
   {
-   "id": "4bef99f0e1",
+   "id": "07601b6002",
    "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
-   "snippet": "Thousands of Gen Z protesters rallied across 25 European countries over living costs, military spending and climate.",
-   "published": "2026-11-21T02:49:16.000Z",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+   "published": "2026-11-21T09:34:20.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/4bef99f0e1.webp",
+   "score": 1.55,
+   "image": "/img/news/07601b6002.webp",
    "t": "2026-11-21",
-   "summary": "Al Jazeera reports that Gen Z protesters rallied across 25 European countries over living costs, military spending and climate.",
-   "why": "The protests show public concerns spanning economic, military and climate issues across Europe.",
+   "summary": "The FBI is reportedly investigating an apparent hack of its National Crime Information Center database, which law enforcement uses to share information.",
+   "why": "The report concerns a database used to share information across federal and local law enforcement.",
    "tags": [
-    "protests",
-    "Europe"
+    "FBI",
+    "criminal database"
    ],
    "ai": true
   },
   {
-   "id": "933288238d",
+   "id": "d5f4d08731",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+   "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+   "published": "2026-11-21T08:10:25.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/d5f4d08731.webp",
+   "t": "2026-11-21",
+   "summary": "Zelensky called Putin a “killer” after Trump called the Russian leader a friend. Trump had greeted Putin ahead of a meeting in China.",
+   "why": "The contrasting statements reflect differing public positions toward Russia.",
+   "tags": [
+    "Zelensky",
+    "Putin"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1b1444dd8e",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Trafalgar Square Christmas tree felled in Norway",
+   "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
+   "published": "2026-11-21T08:10:03.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/1b1444dd8e.webp",
+   "t": "2026-11-21",
+   "summary": "Oslo’s annual Christmas tree for Trafalgar Square was felled in Norway. The 21m tree is described as a thank you for Britain’s support during World War Two.",
+   "why": "The annual tree links a present-day public tradition with wartime support between Norway and Britain.",
+   "tags": [
+    "Trafalgar Square",
+    "Norway"
+   ],
+   "ai": true
+  },
+  {
+   "id": "42f62b2e73",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
-   "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
-   "snippet": "Copenhagen accuses Moscow of planning assassination with banned local gang; Russia says no evidence for allegation.",
-   "published": "2026-11-21T01:12:48.000Z",
+   "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+   "snippet": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
+   "published": "2026-11-21T11:02:49.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/42f62b2e73.webp",
+   "t": "2026-11-21",
+   "summary": "Warsaw accuses Moscow of intentional provocation over Russian missiles hitting Poland; the report says the bar for NATO’s collective defence clause remains high.",
+   "why": "The account highlights the gap between an accusation of provocation and the threshold for collective defence.",
+   "tags": [
+    "Poland",
+    "collective defence"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6433155462",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Nations agree to ‘elaborate’ on rules for AI-run ‘killer robots’ by 2028",
+   "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
+   "snippet": "Members of the UN's Convention on Certain Conventional Weapons fail to agree on swift adoption of legally binding rules.",
+   "published": "2026-11-21T10:25:29.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/6433155462.webp",
+   "t": "2026-11-21",
+   "summary": "Members of the UN’s Convention on Certain Conventional Weapons did not agree on swift adoption of legally binding rules for AI-run “killer robots”; nations agreed to elaborate on rules by 2028.",
+   "why": "The outcome signals continued work on international rules for autonomous weapons.",
+   "tags": [
+    "AI-run",
+    "legally binding rules"
+   ],
+   "ai": true
+  },
+  {
+   "id": "02b26256ce",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
+   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+   "snippet": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
+   "published": "2026-11-21T09:30:24.000Z",
    "also": [],
    "score": 1.45,
-   "image": "/img/news/933288238d.webp",
+   "image": "/img/news/02b26256ce.webp",
    "t": "2026-11-21",
-   "summary": "Denmark accused Moscow of planning an assassination with a banned local gang; Russia said there was no evidence for the allegation, Al Jazeera reports.",
-   "why": "The competing claims are relevant to assessing tensions between Denmark and Russia.",
+   "summary": "Iran says it downed US drones over Hormuz and restates conditions for reopening the strait as the bid to end the war remains stalled. The US announced sanctions on four Iranians it says acted as “oil trustees.”",
+   "why": "The report connects Hormuz’s reopening, drone claims, sanctions, and stalled efforts to end the war.",
    "tags": [
-    "Denmark",
-    "Russia",
-    "allegation"
+    "Hormuz",
+    "drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d0e65f19e2",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Swimmer braves tanker attacks to expose Hormuz contamination",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/swimmer-braves-tanker-attacks-to-expose-hormuz-contamination?traffic_source=rss",
+   "snippet": "As tankers burned in Hormuz, swimmer Lewis Pugh exposed another casualty of the US-Israeli war on Iran: marine life.",
+   "published": "2026-11-21T08:39:35.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/d0e65f19e2.webp",
+   "t": "2026-11-21",
+   "summary": "Lewis Pugh swam in Hormuz to expose damage to marine life as tankers burned there, according to the report.",
+   "why": "The account draws attention to marine life as a consequence of events around Hormuz.",
+   "tags": [
+    "Hormuz",
+    "marine life"
    ],
    "ai": true
   }
@@ -714,47 +703,47 @@
   }
  ],
  "run_today": [
-  "Check recovery providers’ claims before engaging them.",
-  "Test restored data to confirm it is usable.",
-  "Review ransomware recovery plans for trusted-provider verification."
+  "Check GPGME use and review the GnuPG project’s warning about malicious OpenPGP keys.",
+  "Check for exposed MONAI Label servers and investigate unexpected root access.",
+  "Review CISA’s KEV entries for affected products and prioritize remediation."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "ransomware",
-   "explainer": "Ransomware is malicious software that locks data, as described in the RansomwareHelp snippet. Recovery claims should be checked rather than assumed to be reliable.",
-   "from_id": "93138fbb4d",
-   "from": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-   "fromSource": "Krebs on Security"
+   "term": "GPGME",
+   "explainer": "GPGME is a standard library that programs use to work with GnuPG. The GnuPG project warned that a malicious OpenPGP key with an unusually long user ID can trigger a memory bug in it.",
+   "from_id": "761885e6c0",
+   "from": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "munition stockpiles",
-   "explainer": "Munition stockpiles are stores of ammunition and other munitions. The headline raises the question of who is responsible for planning improvements to them.",
-   "from_id": "2cbd4a358b",
-   "from": "https://www.defenseone.com/threats/2026/11/military-lacks-munitions-plan/417390/",
-   "fromSource": "Defense One"
+   "term": "Suffren-class SSN",
+   "explainer": "An SSN is a submarine designation used in the supplied report for France’s Suffren-class vessels. The report says De Grasse, the class’s fourth submarine, entered active service.",
+   "from_id": "c89c825110",
+   "from": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "declassification",
-   "explainer": "Declassification is the release of material previously treated as classified. The Pentagon’s release of UFO records is described as another tranche of records becoming public.",
-   "from_id": "00c7a60810",
-   "from": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "collective defence clause",
+   "explainer": "A collective defence clause concerns a shared response to an attack. The report says Warsaw accuses Moscow of provocation, while the bar for triggering NATO’s clause remains high.",
+   "from_id": "42f62b2e73",
+   "from": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Evidence, response and readiness across today’s stories",
+  "headline": "Security, allegations, and relationships in today’s briefing",
   "paragraphs": [
-   "The cyber stories point to different parts of incident handling: a ransomware recovery business’s co-founder and CTO was charged with wire fraud, while other top items describe vishing, cloud data theft, extortion, exploited vulnerabilities and an AI-assisted attack. Together, they make verification and containment central concerns, though the snippets provide limited detail.",
-   "The missile report says a Russian missile hit Poland during an exercise by Ukraine’s allies, with no injuries or damage reported; Warsaw called it a provocation. Alongside the story about Europe bracing for more attacks, it underscores the importance of distinguishing reported events, official characterizations and confirmed effects.",
-   "Other top items concern released UFO footage, a long Air Force One flight, and a Bunker Talk post whose snippet offers little substance. For analysts, the level of evidence varies sharply. Watch what further detail is provided on the cyber incidents, the missile report and the records release."
+   "Today’s stories span technical security and geopolitical tension. The GPGME warning describes a malicious-key route to application data, while Amazon Threat Intelligence says AI agents found a MONAI Label flaw and gained root access. Both accounts make software exposure and access controls relevant to defenders.",
+   "The reported FBI database hack concerns a system used by law enforcement to share information. Separately, Denmark’s accusation and Russia’s denial, alongside the exchange involving Zelensky, Trump, and Putin, show how allegations and public statements can shape the context analysts must assess. The supplied details do not resolve the claims.",
+   "Other stories foreground thresholds and ties: Warsaw accuses Moscow of provocation, while the account says NATO’s collective-defence bar remains high. The Norway-to-Britain tree recalls wartime support. For analysts, separating stated claims from confirmed details matters; for defenders, software warnings and reported incidents warrant careful verification."
   ],
   "takeaways": [
-   "Verify recovery claims and check exposed systems against the exploited-vulnerabilities catalog.",
-   "Separate reported incidents from confirmed impacts and official characterizations.",
-   "Treat thin snippets as limited evidence, not a basis for broader conclusions."
+   "Treat the GPGME warning and reported MONAI Label access as prompts to review exposure and access.",
+   "Distinguish allegations, denials, and reported facts when assessing geopolitical stories.",
+   "Watch how collective-defence thresholds and historical ties frame public accounts."
   ]
  },
  "health": [
@@ -774,13 +763,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 13
+   "n": 9
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 13
   },
   {
    "name": "The Record",
@@ -792,19 +781,19 @@
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 8
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 7
+   "n": 3
   },
   {
    "name": "Unit 42",
@@ -834,31 +823,31 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 9
+   "n": 6
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 2
   },
   {
    "name": "Naval News",
@@ -894,19 +883,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 5
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "SpaceNews",
@@ -924,31 +913,31 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 4
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 7
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 6
   }
  ]
 }
