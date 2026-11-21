@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:47:38.165Z",
+ "updated": "2026-11-21T16:25:06.261Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -9,12 +9,12 @@
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
+   "name": "The Record",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Krebs on Security",
@@ -24,7 +24,12 @@
   {
    "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 3
+  },
+  {
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
   },
   {
    "name": "The DFIR Report",
@@ -34,22 +39,22 @@
   {
    "name": "BBC World",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 1
-  },
-  {
-   "name": "The Record",
-   "ok": true,
-   "n": 0
+   "n": 10
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "n": 9
+   "n": 6
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Dark Reading",
@@ -59,12 +64,7 @@
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Hackread",
-   "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -72,12 +72,12 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,204 @@
   }
  ],
  "items": [
+  {
+   "id": "n0c81e79704",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "French presidential candidate blames media for racist attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/french-presidential-candidate-blames-media-for-racist-attack?traffic_source=rss",
+   "published": "2026-11-21T15:46:18.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4b6021947b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "published": "2026-11-21T15:17:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nf39079c7c7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+   "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+   "published": "2026-11-21T15:01:18.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc3f832d5a9",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘Never too late to start’: Practical investing advice from some of the top women in finance",
+   "url": "https://www.marketwatch.com/story/never-too-late-to-start-practical-investing-advice-from-some-of-the-top-women-in-finance-e01f0755?mod=mw_rss_topstories",
+   "published": "2026-11-21T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nefef5bd50b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "published": "2026-11-21T14:26:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc58d8da5fe",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "How a brutal week for stocks almost wiped out their gains for the entire year",
+   "url": "https://www.marketwatch.com/story/how-a-brutal-week-for-stocks-almost-wiped-out-their-gains-for-the-entire-year-ae6773c3?mod=mw_rss_topstories",
+   "published": "2026-11-21T14:17:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n858ce2cb6c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
+   "published": "2026-11-21T14:15:36.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n3aae0abca4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
+   "published": "2026-11-21T14:06:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n1252cb01de",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Grocery stores have ‘staggering deals’ for Thanksgiving — but don’t get used to these lower prices just yet",
+   "url": "https://www.marketwatch.com/story/grocery-stores-have-staggering-deals-for-thanksgiving-but-dont-get-used-to-these-lower-prices-just-yet-7adfc7f5?mod=mw_rss_topstories",
+   "published": "2026-11-21T14:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nddee5709db",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock",
+   "url": "https://www.marketwatch.com/story/nvidias-nonstop-drama-is-keeping-buyers-away-from-a-historically-cheap-stock-604022da?mod=mw_rss_topstories",
+   "published": "2026-11-21T13:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n930d2ebeda",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-21T13:17:38.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4265baf9dd",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "Hackers Using Email Bombing Before Posing as IT Support on Microsoft Teams",
+   "url": "https://hackread.com/hackers-email-bombing-it-support-microsoft-teams/",
+   "published": "2026-11-21T12:54:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n623ed4ea30",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+   "published": "2026-11-21T12:45:24.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n196d1d3ecd",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli attacks on Gaza kill at least four Palestinians",
+   "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+   "published": "2026-11-21T12:29:49.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6231e48f3b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+   "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+   "published": "2026-11-21T12:08:50.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n0ad755f268",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "published": "2026-11-21T11:53:07.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n761885e6c0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "published": "2026-11-21T11:05:53.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n16765aea3b",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "published": "2026-11-21T11:03:17.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "fcbed596190",
    "kind": "forum",
@@ -2352,28 +2550,6 @@
    "verified": true
   },
   {
-   "id": "n786ee29a69",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-   "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-   "published": "2026-11-18T22:31:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n89ded08b17",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-   "published": "2026-11-18T22:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
    "id": "n84415312a0",
    "kind": "news",
    "group": "cyber",
@@ -2382,28 +2558,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
    "published": "2026-11-18T21:59:46.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nfbbc04a0dc",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-   "url": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-   "published": "2026-11-18T21:58:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc2072979ee",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "What’s next for the AI trade after Nvidia’s blowout results are met with a shrug",
-   "url": "https://www.marketwatch.com/story/whats-next-for-the-ai-trade-after-nvidias-blowout-results-are-met-with-a-shrug-853c7abe?mod=mw_rss_topstories",
-   "published": "2026-11-18T21:19:00.000Z",
-   "severity": "normal",
    "verified": true
   },
   {
@@ -2634,237 +2788,6 @@
    "title": "Crowds gather as Trump arrives in China ahead of talks with Xi and Putin",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/crowds-gather-as-trump-arrives-in-china-ahead-of-talks-with-xi-and-putin?traffic_source=rss",
    "published": "2026-11-18T16:40:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne798ab68d1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "NSA continues response to interruptions in classified internal network",
-   "url": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
-   "published": "2026-11-18T16:19:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne952daaec2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Canada’s PM calls out ‘lying’ Putin for downplaying sanctions",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/canadas-pm-calls-out-lying-putin-for-downplaying-sanctions?traffic_source=rss",
-   "published": "2026-11-18T16:16:48.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n96a7dd36a3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-   "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-18T16:10:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4a3749cdf4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russian attacks on Ukraine kill at least five people",
-   "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people?traffic_source=rss",
-   "published": "2026-11-18T15:32:01.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n4007647799",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
-   "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-   "published": "2026-11-18T15:30:42.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9611180895",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
-   "url": "https://therecord.media/russia-cyber-espionage-google",
-   "published": "2026-11-18T15:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8e8debc4b2",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-   "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-   "published": "2026-11-18T15:00:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbdaf966e02",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces demolish homes in southern Lebanon",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-demolish-homes-in-southern-lebanon?traffic_source=rss",
-   "published": "2026-11-18T14:52:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n69958fa42a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "British hacker gets 6 year sentence for $11.6M crypto theft scheme",
-   "url": "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
-   "published": "2026-11-18T14:48:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4f7936fd95",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Scattered Spider Member Gets Six Years for Phishing and SIM-Swapping Attacks",
-   "url": "https://securityaffairs.com/203408/cyber-crime/scattered-spider-member-gets-six-years-for-phishing-and-sim-swapping-attacks.html",
-   "published": "2026-11-18T14:46:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n55016e2da8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-   "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-   "published": "2026-11-18T14:11:28.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8368f98056",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Major Brazilian Signature Apps Enable RCE & Fraud",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-   "published": "2026-11-18T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n959698f193",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Ice hockey governing body website defaced amid dispute over Russia's exclusion",
-   "url": "https://therecord.media/russia-hockey-cyberattack-championships",
-   "published": "2026-11-18T13:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndfcd48a830",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-   "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-   "published": "2026-11-18T13:33:47.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n58112a1964",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
-   "url": "https://therecord.media/norway-equinor-cyberattack-energy",
-   "published": "2026-11-18T13:30:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n2c1ddb51a4",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-   "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-   "published": "2026-11-18T13:19:32.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2929d40410",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-   "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-18T13:04:48.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nfd3ae36f24",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "PHP2Shell Exploited by AI Agents from Day One: Inside a Credential-Harvesting Campaign",
-   "url": "https://socradar.io/blog/php2shell-ai-agents-credential-harvesting/",
-   "published": "2026-11-18T13:03:01.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n74d12e4423",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-   "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-   "published": "2026-11-18T12:28:30.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9f8dc26d8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-   "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-   "published": "2026-11-18T12:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nddb3ea43dd",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-   "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-   "published": "2026-11-18T12:14:23.000Z",
    "severity": "normal",
    "verified": true
   }
