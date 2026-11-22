@@ -1,9 +1,75 @@
 {
  "date": "2026-11-22",
  "edition": 251,
- "compiled": "2026-11-22T04:19:22.345Z",
+ "compiled": "2026-11-22T12:44:45.352Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "78074d39df",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. Op",
+   "published": "2026-11-22T05:06:55.000Z",
+   "also": [],
+   "score": 1.34,
+   "image": "/img/news/78074d39df.webp",
+   "t": "2026-11-22",
+   "summary": "Dragos says attackers stole data from inside three AI inference providers for months; the providers learned of the theft from researchers.",
+   "why": "Review data-retention claims and access controls at AI inference providers.",
+   "tags": [
+    "AI inference",
+    "data theft",
+    "Zero Data Retention"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0be8ff22df",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling i",
+   "published": "2026-11-22T05:03:41.000Z",
+   "also": [],
+   "score": 1.34,
+   "image": "/img/news/0be8ff22df.webp",
+   "t": "2026-11-22",
+   "summary": "Researchers demonstrated a now-patched Ghostscript flaw that let crafted files escape the sandbox and run commands on servers processing them.",
+   "why": "Check Ghostscript versions and isolate services that process uploaded files.",
+   "tags": [
+    "Ghostscript",
+    "sandbox",
+    "file uploads"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cee6ea3378",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+   "url": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+   "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websi",
+   "published": "2026-11-22T09:00:25.000Z",
+   "also": [],
+   "score": 1.32,
+   "image": "/img/news/cee6ea3378.webp",
+   "t": "2026-11-22",
+   "summary": "A weekly news review says malware spread through an Optimizely vulnerability and hit 178 organizations; it also mentions Java4Shell.",
+   "why": "Review Optimizely exposure and investigate suspicious activity associated with the vulnerability.",
+   "tags": [
+    "Optimizely",
+    "malware",
+    "Java4Shell"
+   ],
+   "ai": true
+  },
   {
    "id": "9f2af01a2a",
    "section": "cyber",
@@ -14,7 +80,7 @@
    "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
    "published": "2026-11-21T22:59:58.000Z",
    "also": [],
-   "score": 1.49,
+   "score": 1.31,
    "image": "/img/news/9f2af01a2a.webp",
    "t": "2026-11-21",
    "summary": "Rackspace warned customers that compromised credentials were used to breach Rackspace Spot, deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
@@ -36,7 +102,7 @@
    "snippet": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
    "published": "2026-11-22T00:53:02.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.25,
    "image": "/img/news/aeb7ef21f8.webp",
    "t": "2026-11-22",
    "summary": "The FBI is investigating an apparent hack of a national law enforcement database it maintains, according to the report.",
@@ -58,7 +124,7 @@
    "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
    "published": "2026-11-21T18:01:58.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.21,
    "image": "/img/news/1e1dbef95d.webp",
    "t": "2026-11-21",
    "summary": "Microsoft says attackers exploited a vulnerability in Entra Connect Health to access administrator email addresses and tenant configuration information.",
@@ -80,7 +146,7 @@
    "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
    "published": "2026-11-21T15:17:27.000Z",
    "also": [],
-   "score": 1.33,
+   "score": 1.15,
    "image": "/img/news/4b6021947b.webp",
    "t": "2026-11-21",
    "summary": "BADBOX malware has returned to large-scale ad-fraud operations on generic Android TV boxes, BleepingComputer reports.",
@@ -102,7 +168,7 @@
    "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
    "published": "2026-11-21T14:26:04.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.14,
    "image": "/img/news/efef5bd50b.webp",
    "t": "2026-11-21",
    "summary": "BleepingComputer reports that FBI systems were breached again, this time targeting the National Crime Information Center, which shares law-enforcement information.",
@@ -124,7 +190,7 @@
    "snippet": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
    "published": "2026-11-21T13:00:00.000Z",
    "also": [],
-   "score": 1.18,
+   "score": 1.01,
    "image": "/img/news/45e8d2f82c.webp",
    "t": "2026-11-22",
    "summary": "The White House says Kirsten Davies will serve as National Cyber Director and drive an America First cyber strategy.",
@@ -132,28 +198,6 @@
    "tags": [
     "cyber strategy",
     "National Cyber Director"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0ad755f268",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-   "snippet": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstrat",
-   "published": "2026-11-21T11:53:07.000Z",
-   "also": [],
-   "score": 1.16,
-   "image": "/img/news/0ad755f268.webp",
-   "t": "2026-11-21",
-   "summary": "Researchers showed that a malicious webpage could extract Meta Muse conversations and stored memories without an approval prompt; the attack could also reach stored credentials.",
-   "why": "Avoid untrusted webpages and check assistant permissions and stored data for exposure.",
-   "tags": [
-    "malicious webpage",
-    "Meta Muse",
-    "private chats"
    ],
    "ai": true
   },
@@ -167,7 +211,7 @@
    "snippet": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
    "published": "2026-11-21T12:08:50.000Z",
    "also": [],
-   "score": 1.16,
+   "score": 0.99,
    "image": "/img/news/6231e48f3b.webp",
    "t": "2026-11-21",
    "summary": "SecurityWeek says autonomous Cairn AI agents were used to discover and exploit a critical vulnerability in MONAI Label.",
@@ -176,48 +220,6 @@
     "AI agents",
     "MONAI Label",
     "vulnerability"
-   ],
-   "ai": true
-  },
-  {
-   "id": "761885e6c0",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-   "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2",
-   "published": "2026-11-21T11:05:53.000Z",
-   "also": [],
-   "score": 1.14,
-   "image": "/img/news/761885e6c0.webp",
-   "t": "2026-11-21",
-   "summary": "The GnuPG project warns that a malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME and expose application data.",
-   "why": "Check whether applications use GPGME and review the GnuPG project’s warning.",
-   "tags": [
-    "GPGME",
-    "OpenPGP key"
-   ],
-   "ai": true
-  },
-  {
-   "id": "16765aea3b",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-   "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storag",
-   "published": "2026-11-21T11:03:17.000Z",
-   "also": [],
-   "score": 1.14,
-   "image": "/img/news/16765aea3b.webp",
-   "t": "2026-11-21",
-   "summary": "Amazon Threat Intelligence says suspected China-linked hackers used autonomous AI agents to find a zero-day in MONAI Label and gain root access to a university server.",
-   "why": "Check MONAI Label exposure and investigate unexpected privileged access on medical-imaging servers.",
-   "tags": [
-    "AI agents",
-    "MONAI Label"
    ],
    "ai": true
   },
@@ -231,7 +233,7 @@
    "snippet": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
    "published": "2026-11-22T00:01:05.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.23,
    "image": "/img/news/b3203b4a86.webp",
    "t": "2026-11-22",
    "summary": "The UK has joined 10 other nations in NATO's STARLIFT initiative to create a network of flexible satellite launch services.",
@@ -253,7 +255,7 @@
    "snippet": "Where the aircraft carriers are as of November 21, 2026. The post USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington appeared first on TWZ .",
    "published": "2026-11-21T18:11:09.000Z",
    "also": [],
-   "score": 1.39,
+   "score": 1.21,
    "image": "/img/news/2c7c2abfef.webp",
    "t": "2026-11-21",
    "summary": "The War Zone reports that USS Theodore Roosevelt arrived in the Middle East, relieving USS George Washington.",
@@ -274,7 +276,7 @@
    "snippet": "“What the hell is happening? Why is this being done? What are the consequences and the costs? And what does it say about our reliability in the future?” Sen. Chris Coons asked.",
    "published": "2026-11-21T15:06:51.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.15,
    "image": "/img/news/da97d85c04.webp",
    "t": "2026-11-21",
    "summary": "Breaking Defense reports that the Senate is preparing to investigate Ukraine’s access to Starshield; Senator Chris Coons questioned the consequences and costs.",
@@ -283,28 +285,6 @@
     "Starshield",
     "Ukraine",
     "Senate"
-   ],
-   "ai": true
-  },
-  {
-   "id": "410e750ccb",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade",
-   "url": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
-   "snippet": "The U.S. Navy plans a 2028 overhaul to equip Zumwalt-class destroyer USS Michael Monsoor (DDG-1001) with Conventional Prompt Strike hypersonic missiles. The post U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade appeared first on Naval News .",
-   "published": "2026-11-21T16:14:42.000Z",
-   "also": [],
-   "score": 1.25,
-   "image": "/img/news/410e750ccb.webp",
-   "t": "2026-11-22",
-   "summary": "The U.S. Navy plans a 2028 overhaul to equip USS Michael Monsoor with Conventional Prompt Strike hypersonic missiles.",
-   "why": "The planned upgrade would add hypersonic missile capability to a Zumwalt-class destroyer.",
-   "tags": [
-    "U.S. Navy",
-    "hypersonic missiles",
-    "Zumwalt"
    ],
    "ai": true
   },
@@ -318,7 +298,7 @@
    "snippet": "Defence Secretary meets President Zelenskyy in Kyiv as new agreements strengthen UK industrial support for Ukraine and expand drone production",
    "published": "2026-11-21T15:50:54.000Z",
    "also": [],
-   "score": 1.24,
+   "score": 1.06,
    "image": "/img/news/ad1f44b402.webp",
    "t": "2026-11-21",
    "summary": "The UK Ministry of Defence says new agreements deepen industrial support for Ukraine and expand drone production.",
@@ -331,129 +311,44 @@
    "ai": true
   },
   {
-   "id": "c89c825110",
+   "id": "2cbd4a358b",
    "section": "warfare",
-   "source": "Naval News",
+   "source": "Defense One",
    "weight": 0.5,
-   "title": "French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service",
-   "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-   "snippet": "France’s fourth Suffren-class SSN, De Grasse, has officially entered active service with the French Navy under the Barracuda submarine program. The post French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service appeared first on Naval News .",
-   "published": "2026-11-21T10:18:51.000Z",
+   "title": "The military lacks an ‘overarching plan’ to improve munition stockpiles—partly because it’s no one’s job",
+   "url": "https://www.defenseone.com/threats/2026/11/military-lacks-munitions-plan/417390/",
+   "snippet": "Pentagon officials largely concurred with GAO’s recommendations.",
+   "published": "2026-11-21T01:18:33.000Z",
    "also": [],
-   "score": 1.12,
-   "image": "/img/news/c89c825110.webp",
+   "score": 0.76,
+   "image": "/img/news/2cbd4a358b.webp",
    "t": "2026-11-21",
-   "summary": "France’s fourth Suffren-class submarine, De Grasse, has entered active service under the Barracuda submarine program.",
-   "why": "Its entry into service marks an addition to France’s Suffren-class submarine fleet.",
+   "summary": "Defense One reports that Pentagon officials largely concurred with GAO recommendations; the headline says there is no overarching plan to improve munition stockpiles.",
+   "why": "The issue highlights planning and responsibility for maintaining munition stockpiles.",
    "tags": [
-    "Suffren-class",
-    "Barracuda"
+    "munition stockpiles",
+    "GAO"
    ],
    "ai": true
   },
   {
-   "id": "c5f8ee462a",
+   "id": "64c23358e0",
    "section": "warfare",
-   "source": "Naval News",
+   "source": "Defense One",
    "weight": 0.5,
-   "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
-   "url": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-   "snippet": "Built in the UK, the two 30-meter Fast Attack Craft will carry advanced air defense and missile systems to help the Ukrainian Navy protect the Black Sea Grain Corridor. UK Prime Minister’s office press release Two advanced fast attack boats for Ukraine are being jointly funded by the UK and Norway to boost Ukrainian de",
-   "published": "2026-11-21T08:46:25.000Z",
+   "title": "Europeans, with Ukraine’s help, brace for more Russian attacks",
+   "url": "https://www.defenseone.com/threats/2026/11/europeans-ukraines-help-brace-more-russian-attacks/417389/",
+   "snippet": "Meanwhile, Trump greets Putin as “my friend” and downplays Russian missiles in Poland.",
+   "published": "2026-11-21T00:58:14.000Z",
    "also": [],
-   "score": 1.09,
-   "image": "/img/news/c5f8ee462a.webp",
+   "score": 0.75,
+   "image": "/img/news/64c23358e0.webp",
    "t": "2026-11-21",
-   "summary": "The UK and Norway committed over £100M for two fast attack craft for Ukraine. The boats are to carry air defense and missile systems to help protect the Black Sea Grain Corridor.",
-   "why": "The planned craft combine speed and defensive systems for operations around the Black Sea Grain Corridor.",
+   "summary": "The headline says Europeans, with Ukraine’s help, are bracing for more Russian attacks. The snippet notes Trump greeted Putin as “my friend” and downplayed Russian missiles in Poland.",
+   "why": "The item links European preparations to Ukraine and remarks about Russian missiles in Poland.",
    "tags": [
-    "Fast Attack Craft",
-    "Black Sea Grain Corridor"
-   ],
-   "ai": true
-  },
-  {
-   "id": "8e15bef6f5",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-   "url": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-216",
-   "snippet": "I have a weird brass taste in my mouth, do you taste that? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
-   "published": "2026-11-20T23:12:57.000Z",
-   "also": [],
-   "score": 0.99,
-   "image": "/img/news/8e15bef6f5.webp",
-   "t": "2026-11-21",
-   "summary": "The War Zone’s Bunker Talk post opens with a remark about a brass taste; the snippet gives no further substantive details.",
-   "why": "The snippet offers no technology or operational detail to assess.",
-   "tags": [
-    "Bunker Talk"
-   ],
-   "ai": true
-  },
-  {
-   "id": "07601b6002",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "FBI reportedly investigating apparent hack of its criminal database",
-   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-   "published": "2026-11-22T00:10:44.000Z",
-   "also": [],
-   "score": 1.51,
-   "image": "/img/news/07601b6002.webp",
-   "t": "2026-11-21",
-   "summary": "The FBI is reportedly investigating an apparent hack of its National Crime Information Center database, which law enforcement uses to share information.",
-   "why": "The report concerns a database used to share information across federal and local law enforcement.",
-   "tags": [
-    "FBI",
-    "criminal database"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9d9658f0b2",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
-   "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
-   "snippet": "Israeli forces continue to destroy residential buildings as part of a 'gradual displacement' policy, a Gaza mayor says.",
-   "published": "2026-11-22T02:14:18.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/9d9658f0b2.webp",
-   "t": "2026-11-22",
-   "summary": "A Gaza mayor says Israeli forces continue destroying residential buildings as part of a 'gradual displacement' policy; displaced Palestinians are protesting.",
-   "why": "The report concerns displacement and damage to residential areas in Gaza.",
-   "tags": [
-    "Gaza",
-    "displacement",
-    "air strikes"
-   ],
-   "ai": true
-  },
-  {
-   "id": "50f4fac8f2",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Bessent confirms he’s living on US military base over Iran fears",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss",
-   "snippet": "US Treasury Secretary Scott Bessent says he’s still living at a US military base, two weeks after an Israeli warning.",
-   "published": "2026-11-22T02:05:50.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/50f4fac8f2.webp",
-   "t": "2026-11-22",
-   "summary": "US Treasury Secretary Scott Bessent says he is still living on a US military base, two weeks after an Israeli warning.",
-   "why": "The report links a senior official's residence to security concerns involving Iran.",
-   "tags": [
-    "US military base",
-    "Iran",
-    "security"
+    "Ukraine",
+    "Russian attacks"
    ],
    "ai": true
   },
@@ -462,12 +357,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Russia-bound ship attacked in Gulf of Finland",
+   "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-   "published": "2026-11-21T19:20:22.000Z",
+   "published": "2026-11-22T11:25:14.000Z",
    "also": [],
-   "score": 1.41,
+   "score": 1.57,
    "image": "/img/news/4d9f7e5539.webp",
    "t": "2026-11-21",
    "summary": "Finnish defence forces say Ukraine was likely behind a drone attack on a Russia-bound ship in the Gulf of Finland.",
@@ -480,89 +375,156 @@
    "ai": true
   },
   {
-   "id": "1453db92e2",
+   "id": "ce5ab375d9",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
-   "snippet": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
-   "published": "2026-11-21T23:59:03.000Z",
+   "title": "US Congress helped end the Vietnam War. Can it stop the Iran war?",
+   "url": "https://www.aljazeera.com/news/2026/11/22/us-congress-helped-end-the-vietnam-war-can-it-stop-the-iran?traffic_source=rss",
+   "snippet": "Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
+   "published": "2026-11-22T12:31:30.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/1453db92e2.webp",
+   "score": 1.5,
+   "image": "/img/news/ce5ab375d9.webp",
    "t": "2026-11-22",
-   "summary": "Bahrain condemned Iran's strikes on US military assets in the country, while Houthi strikes continue to keep Saudi Arabia on edge.",
-   "why": "The reports point to regional military activity affecting Bahrain and Saudi Arabia.",
+   "summary": "The article says Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
+   "why": "Congressional control of funding is a key factor in the history of the war.",
    "tags": [
-    "Bahrain",
-    "Iran",
-    "Houthi strikes"
+    "Congress",
+    "Vietnam War",
+    "funding"
    ],
    "ai": true
   },
   {
-   "id": "0cdc2ecf2e",
+   "id": "4153672099",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Lebanese president demands Israel withdrawal, decries Iran’s interference",
-   "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
-   "snippet": "Joseph Aoun says 'two fundamental obstacles, inseparably linked' mean Lebanon cannot fully celebrate its independence.",
-   "published": "2026-11-21T23:44:00.000Z",
+   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+   "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
+   "snippet": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
+   "published": "2026-11-22T11:46:42.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/0cdc2ecf2e.webp",
+   "score": 1.48,
+   "image": "/img/news/4153672099.webp",
    "t": "2026-11-22",
-   "summary": "Lebanese President Joseph Aoun says two linked obstacles prevent Lebanon from fully celebrating its independence, and demands Israel withdraw.",
-   "why": "The statement highlights interconnected political and territorial issues in Lebanon.",
-   "tags": [
-    "Lebanon",
-    "Israel",
-    "Iran"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e14c511a44",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Iran faces a ‘silent economic war’, says Iranian president",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
-   "snippet": "Iran faces a ‘silent economic war’, says Iranian president",
-   "published": "2026-11-21T23:18:14.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/e14c511a44.webp",
-   "t": "2026-11-22",
-   "summary": "Iran's president says the country faces a 'silent economic war'.",
-   "why": "The statement frames economic pressure as a concern in Iran.",
+   "summary": "The article says Tehran ramped up attacks as the US naval blockade and sanctions campaign hurt Iran economically.",
+   "why": "The account links Gulf attacks with economic pressure and a naval blockade.",
    "tags": [
     "Iran",
-    "economic war"
+    "Gulf",
+    "naval blockade"
    ],
    "ai": true
   },
   {
-   "id": "634fcadcb1",
+   "id": "7c0492a47a",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Bahrain says Iranian attack causes fire at industrial facility",
-   "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
-   "snippet": "Bahrain reports no injuries, as Iran's IRGC says it targeted US military positions at two bases in al-Riffa and Awali.",
-   "published": "2026-11-21T21:31:03.000Z",
+   "title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
+   "url": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss",
+   "snippet": "CWC countries agree to 'elaborate' on potential accord regulating autonomous weapons in two years, prompting criticism.",
+   "published": "2026-11-22T11:44:50.000Z",
    "also": [],
-   "score": 1.36,
-   "image": "/img/news/634fcadcb1.webp",
-   "t": "2026-11-21",
-   "summary": "Bahrain reports a fire at an industrial facility and no injuries. Iran's IRGC says it targeted US military positions at two bases.",
-   "why": "The reports link an industrial incident with claims about military targets in Bahrain.",
+   "score": 1.48,
+   "image": "/img/news/7c0492a47a.webp",
+   "t": "2026-11-22",
+   "summary": "CWC countries agreed to elaborate on a potential accord regulating autonomous weapons in two years, prompting criticism.",
+   "why": "The proposed accord concerns international rules for autonomous weapons.",
    "tags": [
-    "Bahrain",
-    "industrial facility",
-    "IRGC"
+    "CWC",
+    "autonomous weapons",
+    "accord"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bcbdc8155c",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russian ship attacked by drone in Baltic Sea off Finland",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
+   "snippet": "Russian ship attacked by drone in Baltic Sea off Finland",
+   "published": "2026-11-22T11:15:27.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/bcbdc8155c.webp",
+   "t": "2026-11-22",
+   "summary": "The article reports that a Russian ship was attacked by a drone in the Baltic Sea off Finland.",
+   "why": "The incident places drone attacks on vessels in a strategically relevant maritime area.",
+   "tags": [
+    "Russian ship",
+    "drone",
+    "Baltic Sea"
+   ],
+   "ai": true
+  },
+  {
+   "id": "06b2152cf8",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russian cargo ship still on fire off Finland after drone attack",
+   "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
+   "snippet": "The ship, bound for Russia's Kaliningrad, was damaged in international waters before drifting into Finnish territory.",
+   "published": "2026-11-22T10:39:50.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/06b2152cf8.webp",
+   "t": "2026-11-22",
+   "summary": "The article says a Russian cargo ship remained on fire after a drone attack; it was damaged in international waters before drifting into Finnish territory.",
+   "why": "The vessel’s movement connects an attack in international waters with Finnish territory.",
+   "tags": [
+    "cargo ship",
+    "drone attack",
+    "Finland"
+   ],
+   "ai": true
+  },
+  {
+   "id": "444029da75",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Restored wells bring life back to Hebron’s occupied Old City",
+   "url": "https://www.aljazeera.com/features/2026/11/22/restored-wells-bring-life-back-to-hebrons-occupied-old-city?traffic_source=rss",
+   "snippet": "Hebron's Old City has been under constant siege by Israeli settlers and the military.",
+   "published": "2026-11-22T09:33:16.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/444029da75.webp",
+   "t": "2026-11-22",
+   "summary": "The article says restored wells have brought life back to Hebron’s Old City, which it describes as under constant siege by Israeli settlers and the military.",
+   "why": "The account links access to water with conditions in Hebron’s Old City.",
+   "tags": [
+    "wells",
+    "Hebron",
+    "Old City"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d440411718",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
+   "snippet": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
+   "published": "2026-11-22T09:06:27.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/d440411718.webp",
+   "t": "2026-11-22",
+   "summary": "An analyst says Trump may have to ease the naval blockade on Iran if he wants the war to wind down.",
+   "why": "The analyst frames the blockade as relevant to a possible path toward ending the war.",
+   "tags": [
+    "Iran",
+    "naval blockade",
+    "exit strategy"
    ],
    "ai": true
   }
@@ -714,47 +676,47 @@
   }
  ],
  "run_today": [
-  "Review access logs and permissions for sensitive law enforcement databases.",
-  "Check for unfamiliar activity and unauthorized access involving critical data stores.",
-  "Confirm incident-response procedures cover suspected compromise of shared databases."
+  "Review data-retention claims and access controls for AI inference providers.",
+  "Check Ghostscript versions and isolate systems that process uploaded files.",
+  "Assess Optimizely exposure and investigate suspicious activity linked to its vulnerability."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "National Crime Information Center database",
-   "explainer": "A database used by federal and local law enforcement to share information, according to the supplied report.",
-   "from_id": "aeb7ef21f8",
-   "from": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-   "fromSource": "SecurityWeek"
+   "term": "Zero Data Retention",
+   "explainer": "Zero Data Retention is a stated policy that requests are not retained. The report says some stolen requests were flagged this way, making it useful to distinguish a retention label from whether data was accessed.",
+   "from_id": "78074d39df",
+   "from": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "fromSource": "The Hacker News"
   },
   {
    "domain": "warfare",
-   "term": "satellite launch services",
-   "explainer": "Services for launching satellites into space. The STARLIFT initiative aims to create a flexible network of these services.",
-   "from_id": "b3203b4a86",
-   "from": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
-   "fromSource": "UK Ministry of Defence"
+   "term": "autonomous weapons",
+   "explainer": "Autonomous weapons are weapons whose operation involves autonomy. The item discusses efforts to regulate them through a potential accord.",
+   "from_id": "7c0492a47a",
+   "from": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   },
   {
    "domain": "geo",
-   "term": "gradual displacement",
-   "explainer": "A phrase a Gaza mayor uses to describe the reported destruction of residential buildings and movement of people.",
-   "from_id": "9d9658f0b2",
-   "from": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
+   "term": "naval blockade",
+   "explainer": "A naval blockade is a military measure at sea. The Iran articles describe a US naval blockade and discuss its relationship to economic pressure and a possible route to winding down the war.",
+   "from_id": "4153672099",
+   "from": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
    "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Shared systems, contested security, and strategic access",
+  "headline": "Maritime pressure, attacks and rules in focus",
   "paragraphs": [
-   "The FBI database report and the Rackspace breach both concern access to systems holding sensitive information. The FBI item describes an investigation into an apparent hack; Rackspace says compromised credentials enabled unauthorized workloads and access to Kubernetes secrets. These reports suggest the value of examining access pathways and stored data.",
-   "The other stories foreground security and access in different settings: NATO's STARLIFT initiative would create flexible satellite launch services, while reports from Gaza and the Gulf describe strikes, displacement, and military-base concerns. These accounts should be kept distinct, but together they show how infrastructure and location shape the questions analysts must track.",
-   "For defenders, the immediate focus is verifying permissions, credentials, and unusual activity, especially where sensitive data or shared services are involved. For analysts, attribution and reported claims need careful qualification. Watch for confirmed details about the apparent database hack, the scope of the Rackspace breach, and further reporting on the regional incidents."
+   "The Gulf and Baltic stories describe distinct maritime pressures: the Iran article links attacks with a US naval blockade and sanctions, while the Finland reports concern a drone attack on a Russia-bound ship. Finnish defence forces say Ukraine was likely behind that attack; the supplied reports do not establish responsibility as fact.",
+   "The Iran coverage also raises the role of policy choices. One article recalls Congress forbidding Vietnam War funding; another quotes an analyst saying Trump may have to ease the blockade for the war to wind down. Together, these accounts suggest funding and blockade decisions matter to how conflicts are discussed, without establishing what will happen.",
+   "The UN story adds a regulatory dimension: CWC countries agreed to elaborate on a potential autonomous-weapons accord in two years, prompting criticism. For analysts, the stories connect operational incidents with economic pressure and debate over rules. Watch how responsibility is attributed, how blockade policy is discussed, and what elaboration on the accord entails."
   ],
   "takeaways": [
-   "Check access paths to databases and cloud services holding sensitive information.",
-   "Treat reported claims and apparent compromises as unconfirmed until details are established.",
-   "Track satellite launch plans alongside reports of regional military activity."
+   "Keep reported attribution of the Baltic attack distinct from established fact.",
+   "Track how the Iran blockade appears in accounts of attacks and war-ending options.",
+   "Watch for further detail on the proposed autonomous-weapons accord."
   ]
  },
  "health": [
@@ -768,13 +730,13 @@
    "name": "Krebs on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "The Hacker News",
@@ -786,7 +748,7 @@
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 0
   },
   {
    "name": "SecurityWeek",
@@ -798,19 +760,19 @@
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Google Threat Intelligence",
@@ -822,31 +784,31 @@
    "name": "Microsoft Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 6
+   "n": 1
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 1
   },
   {
    "name": "Defense One",
@@ -858,13 +820,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 3
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -900,13 +862,13 @@
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
    "name": "SpaceNews",
@@ -924,7 +886,7 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "SatNews",
@@ -936,19 +898,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 7
+   "n": 6
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 11
+   "n": 8
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 6
   }
  ]
 }
