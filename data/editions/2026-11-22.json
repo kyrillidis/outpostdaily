@@ -1,9 +1,75 @@
 {
  "date": "2026-11-22",
  "edition": 251,
- "compiled": "2026-11-22T12:44:45.352Z",
+ "compiled": "2026-11-22T20:04:04.068Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "e84afceb00",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "snippet": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+   "published": "2026-11-22T18:45:37.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/e84afceb00.webp",
+   "t": "2026-11-22",
+   "summary": "GL.iNet says hackers exploited a flaw in its cloud remote management services to install custom malware on customers' routers and KVM devices; some users report backdoors and reverse shells.",
+   "why": "Check GL.iNet remote management exposure and affected devices for malware, backdoors, or reverse shells.",
+   "tags": [
+    "cloud remote management",
+    "routers",
+    "malware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "855a50efe0",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "snippet": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+   "published": "2026-11-22T15:43:04.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/855a50efe0.webp",
+   "t": "2026-11-22",
+   "summary": "Cleverbridge warns that hackers breached its systems and stole customers' payment card numbers and CVV security codes.",
+   "why": "Check payment systems and breach notices, and review card data exposure and related transactions.",
+   "tags": [
+    "data breach",
+    "payment cards",
+    "CVV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2361e0929a",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "snippet": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+   "published": "2026-11-22T15:15:25.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/2361e0929a.webp",
+   "t": "2026-11-22",
+   "summary": "Signal says new protections block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
+   "why": "Review device support and privacy settings if your organization relies on Signal for sensitive conversations.",
+   "tags": [
+    "Signal",
+    "screenshots",
+    "AI assistants"
+   ],
+   "ai": true
+  },
   {
    "id": "78074d39df",
    "section": "cyber",
@@ -14,7 +80,7 @@
    "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. Op",
    "published": "2026-11-22T05:06:55.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.19,
    "image": "/img/news/78074d39df.webp",
    "t": "2026-11-22",
    "summary": "Dragos says attackers stole data from inside three AI inference providers for months; the providers learned of the theft from researchers.",
@@ -36,7 +102,7 @@
    "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling i",
    "published": "2026-11-22T05:03:41.000Z",
    "also": [],
-   "score": 1.34,
+   "score": 1.19,
    "image": "/img/news/0be8ff22df.webp",
    "t": "2026-11-22",
    "summary": "Researchers demonstrated a now-patched Ghostscript flaw that let crafted files escape the sandbox and run commands on servers processing them.",
@@ -58,7 +124,7 @@
    "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websi",
    "published": "2026-11-22T09:00:25.000Z",
    "also": [],
-   "score": 1.32,
+   "score": 1.17,
    "image": "/img/news/cee6ea3378.webp",
    "t": "2026-11-22",
    "summary": "A weekly news review says malware spread through an Optimizely vulnerability and hit 178 organizations; it also mentions Java4Shell.",
@@ -80,7 +146,7 @@
    "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
    "published": "2026-11-21T22:59:58.000Z",
    "also": [],
-   "score": 1.31,
+   "score": 1.16,
    "image": "/img/news/9f2af01a2a.webp",
    "t": "2026-11-21",
    "summary": "Rackspace warned customers that compromised credentials were used to breach Rackspace Spot, deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
@@ -102,7 +168,7 @@
    "snippet": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
    "published": "2026-11-22T00:53:02.000Z",
    "also": [],
-   "score": 1.25,
+   "score": 1.1,
    "image": "/img/news/aeb7ef21f8.webp",
    "t": "2026-11-22",
    "summary": "The FBI is investigating an apparent hack of a national law enforcement database it maintains, according to the report.",
@@ -124,7 +190,7 @@
    "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
    "published": "2026-11-21T18:01:58.000Z",
    "also": [],
-   "score": 1.21,
+   "score": 1.06,
    "image": "/img/news/1e1dbef95d.webp",
    "t": "2026-11-21",
    "summary": "Microsoft says attackers exploited a vulnerability in Entra Connect Health to access administrator email addresses and tenant configuration information.",
@@ -146,7 +212,7 @@
    "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
    "published": "2026-11-21T15:17:27.000Z",
    "also": [],
-   "score": 1.15,
+   "score": 1,
    "image": "/img/news/4b6021947b.webp",
    "t": "2026-11-21",
    "summary": "BADBOX malware has returned to large-scale ad-fraud operations on generic Android TV boxes, BleepingComputer reports.",
@@ -155,71 +221,6 @@
     "BADBOX",
     "Android TV",
     "ad fraud"
-   ],
-   "ai": true
-  },
-  {
-   "id": "efef5bd50b",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-   "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-   "published": "2026-11-21T14:26:04.000Z",
-   "also": [],
-   "score": 1.14,
-   "image": "/img/news/efef5bd50b.webp",
-   "t": "2026-11-21",
-   "summary": "BleepingComputer reports that FBI systems were breached again, this time targeting the National Crime Information Center, which shares law-enforcement information.",
-   "why": "Review access to shared law-enforcement information and investigate the reported breach.",
-   "tags": [
-    "FBI",
-    "NCIC",
-    "database"
-   ],
-   "ai": true
-  },
-  {
-   "id": "45e8d2f82c",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-   "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-   "snippet": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
-   "published": "2026-11-21T13:00:00.000Z",
-   "also": [],
-   "score": 1.01,
-   "image": "/img/news/45e8d2f82c.webp",
-   "t": "2026-11-22",
-   "summary": "The White House says Kirsten Davies will serve as National Cyber Director and drive an America First cyber strategy.",
-   "why": "Track how the stated cyber strategy may shape national cyber priorities.",
-   "tags": [
-    "cyber strategy",
-    "National Cyber Director"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6231e48f3b",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-   "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-   "snippet": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
-   "published": "2026-11-21T12:08:50.000Z",
-   "also": [],
-   "score": 0.99,
-   "image": "/img/news/6231e48f3b.webp",
-   "t": "2026-11-21",
-   "summary": "SecurityWeek says autonomous Cairn AI agents were used to discover and exploit a critical vulnerability in MONAI Label.",
-   "why": "Check MONAI Label deployments for the vulnerability and review related access for signs of exploitation.",
-   "tags": [
-    "AI agents",
-    "MONAI Label",
-    "vulnerability"
    ],
    "ai": true
   },
@@ -233,7 +234,7 @@
    "snippet": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
    "published": "2026-11-22T00:01:05.000Z",
    "also": [],
-   "score": 1.23,
+   "score": 1.08,
    "image": "/img/news/b3203b4a86.webp",
    "t": "2026-11-22",
    "summary": "The UK has joined 10 other nations in NATO's STARLIFT initiative to create a network of flexible satellite launch services.",
@@ -255,7 +256,7 @@
    "snippet": "Where the aircraft carriers are as of November 21, 2026. The post USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington appeared first on TWZ .",
    "published": "2026-11-21T18:11:09.000Z",
    "also": [],
-   "score": 1.21,
+   "score": 1.06,
    "image": "/img/news/2c7c2abfef.webp",
    "t": "2026-11-21",
    "summary": "The War Zone reports that USS Theodore Roosevelt arrived in the Middle East, relieving USS George Washington.",
@@ -276,7 +277,7 @@
    "snippet": "“What the hell is happening? Why is this being done? What are the consequences and the costs? And what does it say about our reliability in the future?” Sen. Chris Coons asked.",
    "published": "2026-11-21T15:06:51.000Z",
    "also": [],
-   "score": 1.15,
+   "score": 1,
    "image": "/img/news/da97d85c04.webp",
    "t": "2026-11-21",
    "summary": "Breaking Defense reports that the Senate is preparing to investigate Ukraine’s access to Starshield; Senator Chris Coons questioned the consequences and costs.",
@@ -298,7 +299,7 @@
    "snippet": "Defence Secretary meets President Zelenskyy in Kyiv as new agreements strengthen UK industrial support for Ukraine and expand drone production",
    "published": "2026-11-21T15:50:54.000Z",
    "also": [],
-   "score": 1.06,
+   "score": 0.91,
    "image": "/img/news/ad1f44b402.webp",
    "t": "2026-11-21",
    "summary": "The UK Ministry of Defence says new agreements deepen industrial support for Ukraine and expand drone production.",
@@ -311,44 +312,55 @@
    "ai": true
   },
   {
-   "id": "2cbd4a358b",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "The military lacks an ‘overarching plan’ to improve munition stockpiles—partly because it’s no one’s job",
-   "url": "https://www.defenseone.com/threats/2026/11/military-lacks-munitions-plan/417390/",
-   "snippet": "Pentagon officials largely concurred with GAO’s recommendations.",
-   "published": "2026-11-21T01:18:33.000Z",
-   "also": [],
-   "score": 0.76,
-   "image": "/img/news/2cbd4a358b.webp",
-   "t": "2026-11-21",
-   "summary": "Defense One reports that Pentagon officials largely concurred with GAO recommendations; the headline says there is no overarching plan to improve munition stockpiles.",
-   "why": "The issue highlights planning and responsibility for maintaining munition stockpiles.",
+   "id": "8c752d8944",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+   "published": "2026-11-22T19:52:50.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
+    },
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 2.3,
+   "image": "/img/news/8c752d8944.webp",
+   "t": "2026-11-22",
+   "summary": "Officials say an explosion on a Russian ship at a Libya port was caused by a suspected drone attack. Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+   "why": "The reported incident highlights the strategic relevance of port stops and maritime routes.",
    "tags": [
-    "munition stockpiles",
-    "GAO"
+    "drone attack",
+    "Libya",
+    "port"
    ],
    "ai": true
   },
   {
-   "id": "64c23358e0",
-   "section": "warfare",
-   "source": "Defense One",
-   "weight": 0.5,
-   "title": "Europeans, with Ukraine’s help, brace for more Russian attacks",
-   "url": "https://www.defenseone.com/threats/2026/11/europeans-ukraines-help-brace-more-russian-attacks/417389/",
-   "snippet": "Meanwhile, Trump greets Putin as “my friend” and downplays Russian missiles in Poland.",
-   "published": "2026-11-21T00:58:14.000Z",
+   "id": "249fb9406b",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
+   "published": "2026-11-22T17:57:43.000Z",
    "also": [],
-   "score": 0.75,
-   "image": "/img/news/64c23358e0.webp",
-   "t": "2026-11-21",
-   "summary": "The headline says Europeans, with Ukraine’s help, are bracing for more Russian attacks. The snippet notes Trump greeted Putin as “my friend” and downplayed Russian missiles in Poland.",
-   "why": "The item links European preparations to Ukraine and remarks about Russian missiles in Poland.",
+   "score": 1.56,
+   "image": "/img/news/249fb9406b.webp",
+   "t": "2026-11-22",
+   "summary": "The BBC reports from the scene of a collapsed residential building in Ukraine's Kyiv region as Ukrainians search for missing after Russian strikes.",
+   "why": "The report concerns the civilian impact and local consequences of strikes in the Kyiv region.",
    "tags": [
     "Ukraine",
-    "Russian attacks"
+    "Kyiv region",
+    "Russian strikes"
    ],
    "ai": true
   },
@@ -357,12 +369,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+   "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-   "published": "2026-11-22T11:25:14.000Z",
+   "snippet": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+   "published": "2026-11-22T17:18:26.000Z",
    "also": [],
-   "score": 1.57,
+   "score": 1.54,
    "image": "/img/news/4d9f7e5539.webp",
    "t": "2026-11-21",
    "summary": "Finnish defence forces say Ukraine was likely behind a drone attack on a Russia-bound ship in the Gulf of Finland.",
@@ -375,156 +387,112 @@
    "ai": true
   },
   {
-   "id": "ce5ab375d9",
+   "id": "dff33020a4",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "US Congress helped end the Vietnam War. Can it stop the Iran war?",
-   "url": "https://www.aljazeera.com/news/2026/11/22/us-congress-helped-end-the-vietnam-war-can-it-stop-the-iran?traffic_source=rss",
-   "snippet": "Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
-   "published": "2026-11-22T12:31:30.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/ce5ab375d9.webp",
-   "t": "2026-11-22",
-   "summary": "The article says Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
-   "why": "Congressional control of funding is a key factor in the history of the war.",
-   "tags": [
-    "Congress",
-    "Vietnam War",
-    "funding"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4153672099",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
-   "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
-   "snippet": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
-   "published": "2026-11-22T11:46:42.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/4153672099.webp",
-   "t": "2026-11-22",
-   "summary": "The article says Tehran ramped up attacks as the US naval blockade and sanctions campaign hurt Iran economically.",
-   "why": "The account links Gulf attacks with economic pressure and a naval blockade.",
-   "tags": [
-    "Iran",
-    "Gulf",
-    "naval blockade"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7c0492a47a",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
-   "url": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss",
-   "snippet": "CWC countries agree to 'elaborate' on potential accord regulating autonomous weapons in two years, prompting criticism.",
-   "published": "2026-11-22T11:44:50.000Z",
-   "also": [],
-   "score": 1.48,
-   "image": "/img/news/7c0492a47a.webp",
-   "t": "2026-11-22",
-   "summary": "CWC countries agreed to elaborate on a potential accord regulating autonomous weapons in two years, prompting criticism.",
-   "why": "The proposed accord concerns international rules for autonomous weapons.",
-   "tags": [
-    "CWC",
-    "autonomous weapons",
-    "accord"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bcbdc8155c",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Russian ship attacked by drone in Baltic Sea off Finland",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
-   "snippet": "Russian ship attacked by drone in Baltic Sea off Finland",
-   "published": "2026-11-22T11:15:27.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/bcbdc8155c.webp",
-   "t": "2026-11-22",
-   "summary": "The article reports that a Russian ship was attacked by a drone in the Baltic Sea off Finland.",
-   "why": "The incident places drone attacks on vessels in a strategically relevant maritime area.",
-   "tags": [
-    "Russian ship",
-    "drone",
-    "Baltic Sea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "06b2152cf8",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Russian cargo ship still on fire off Finland after drone attack",
-   "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-   "snippet": "The ship, bound for Russia's Kaliningrad, was damaged in international waters before drifting into Finnish territory.",
-   "published": "2026-11-22T10:39:50.000Z",
+   "title": "Civilians killed in RSF drone strikes in Sudan",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+   "snippet": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
+   "published": "2026-11-22T18:12:07.000Z",
    "also": [],
    "score": 1.46,
-   "image": "/img/news/06b2152cf8.webp",
+   "image": "/img/news/dff33020a4.webp",
    "t": "2026-11-22",
-   "summary": "The article says a Russian cargo ship remained on fire after a drone attack; it was damaged in international waters before drifting into Finnish territory.",
-   "why": "The vessel’s movement connects an attack in international waters with Finnish territory.",
+   "summary": "Al Jazeera reports that drone strikes by Sudan’s Rapid Support Forces killed civilians and damaged buildings.",
+   "why": "Drone use and reported harm to civilians are relevant to assessing conflict impacts.",
    "tags": [
-    "cargo ship",
-    "drone attack",
-    "Finland"
+    "Sudan",
+    "drone strikes",
+    "civilians"
    ],
    "ai": true
   },
   {
-   "id": "444029da75",
+   "id": "5dc8b441a8",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Restored wells bring life back to Hebron’s occupied Old City",
-   "url": "https://www.aljazeera.com/features/2026/11/22/restored-wells-bring-life-back-to-hebrons-occupied-old-city?traffic_source=rss",
-   "snippet": "Hebron's Old City has been under constant siege by Israeli settlers and the military.",
-   "published": "2026-11-22T09:33:16.000Z",
+   "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
+   "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+   "snippet": "There was no immediate reaction from Russia, and no one has claimed responsibility for the suspected attack.",
+   "published": "2026-11-22T17:12:48.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/444029da75.webp",
+   "score": 1.44,
+   "image": "/img/news/5dc8b441a8.webp",
    "t": "2026-11-22",
-   "summary": "The article says restored wells have brought life back to Hebron’s Old City, which it describes as under constant siege by Israeli settlers and the military.",
-   "why": "The account links access to water with conditions in Hebron’s Old City.",
+   "summary": "Al Jazeera reports that a Russian vessel was hit by a suspected Ukrainian drone at Libya’s Benghazi port. Russia did not immediately react, and no one claimed responsibility.",
+   "why": "The reported strike puts maritime activity at Benghazi port in focus, while responsibility remains unclaimed.",
    "tags": [
-    "wells",
-    "Hebron",
-    "Old City"
+    "Russian vessel",
+    "drone",
+    "Benghazi port"
    ],
    "ai": true
   },
   {
-   "id": "d440411718",
+   "id": "250aae444e",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
-   "snippet": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
-   "published": "2026-11-22T09:06:27.000Z",
+   "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
+   "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
+   "snippet": "The Rapid Support Forces are blamed as drones reportedly hit UN and government buildings, as well as Khartoum's airport.",
+   "published": "2026-11-22T15:03:38.000Z",
    "also": [],
-   "score": 1.42,
-   "image": "/img/news/d440411718.webp",
+   "score": 1.4,
+   "image": "/img/news/250aae444e.webp",
    "t": "2026-11-22",
-   "summary": "An analyst says Trump may have to ease the naval blockade on Iran if he wants the war to wind down.",
-   "why": "The analyst frames the blockade as relevant to a possible path toward ending the war.",
+   "summary": "Al Jazeera reports that drone attacks killed four near Sudan’s capital and damaged UN and government buildings, as well as Khartoum's airport. The Rapid Support Forces are blamed.",
+   "why": "The reported damage to a UN building and airport has humanitarian and operational relevance.",
    "tags": [
-    "Iran",
-    "naval blockade",
-    "exit strategy"
+    "drone attacks",
+    "Khartoum",
+    "UN building"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7772328af2",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+   "snippet": "Three Russian attacks kill at least six people near Kyiv as overnight Russian shelling kills one in Zaporizhzhia.",
+   "published": "2026-11-22T14:48:50.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/7772328af2.webp",
+   "t": "2026-11-22",
+   "summary": "Zelenskyy urges the US to release Patriot missiles. The report says Russian attacks killed at least six people near Kyiv and overnight shelling killed one in Zaporizhzhia.",
+   "why": "The missile request and reported strikes relate to air defence and civilian impacts in Ukraine.",
+   "tags": [
+    "Patriot missiles",
+    "Ukraine",
+    "Russian attacks"
+   ],
+   "ai": true
+  },
+  {
+   "id": "05cde07a86",
+   "section": "geo",
+   "source": "DW",
+   "weight": 0.4,
+   "title": "Sudan: Drones hit UN building, residential area in Khartoum",
+   "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
+   "snippet": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger.",
+   "published": "2026-11-22T19:25:00.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/05cde07a86.webp",
+   "t": "2026-11-22",
+   "summary": "DW reports that drones targeted Khartoum, damaging a UN building in a residential area. The UN agency said exposing humanitarian workers to such danger was unacceptable.",
+   "why": "The incident underscores risks to humanitarian workers and facilities in a residential area.",
+   "tags": [
+    "Khartoum",
+    "drones",
+    "UN building"
    ],
    "ai": true
   }
@@ -676,47 +644,47 @@
   }
  ],
  "run_today": [
-  "Review data-retention claims and access controls for AI inference providers.",
-  "Check Ghostscript versions and isolate systems that process uploaded files.",
-  "Assess Optimizely exposure and investigate suspicious activity linked to its vulnerability."
+  "Check GL.iNet cloud remote management exposure and investigate routers and KVM devices for malware or backdoors.",
+  "Review Cleverbridge breach notices and assess whether payment card numbers or CVVs in your environment may be affected.",
+  "Check Signal device support and privacy settings before relying on its screenshot and AI-assistant protections."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Zero Data Retention",
-   "explainer": "Zero Data Retention is a stated policy that requests are not retained. The report says some stolen requests were flagged this way, making it useful to distinguish a retention label from whether data was accessed.",
-   "from_id": "78074d39df",
-   "from": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "fromSource": "The Hacker News"
+   "term": "cloud remote management",
+   "explainer": "A service that lets users manage devices over a network. In the GL.iNet report, hackers exploited a vulnerability in this service to install malware on routers and KVM devices.",
+   "from_id": "e84afceb00",
+   "from": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "autonomous weapons",
-   "explainer": "Autonomous weapons are weapons whose operation involves autonomy. The item discusses efforts to regulate them through a potential accord.",
-   "from_id": "7c0492a47a",
-   "from": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "drone",
+   "explainer": "An uncrewed aircraft. The reports describe suspected or reported drone attacks on a ship and strikes affecting buildings and civilians.",
+   "from_id": "8c752d8944",
+   "from": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   },
   {
    "domain": "geo",
-   "term": "naval blockade",
-   "explainer": "A naval blockade is a military measure at sea. The Iran articles describe a US naval blockade and discuss its relationship to economic pressure and a possible route to winding down the war.",
-   "from_id": "4153672099",
-   "from": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
-   "fromSource": "Al Jazeera"
+   "term": "port",
+   "explainer": "A place on a coast where ships can stop. The Libya report says the vessel stopped for fuel and supplies at a port on its way back to Russia.",
+   "from_id": "8c752d8944",
+   "from": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+   "fromSource": "BBC World"
   }
  ],
  "analysis": {
-  "headline": "Maritime pressure, attacks and rules in focus",
+  "headline": "Cyber exposure and reported strikes put access and impact in focus",
   "paragraphs": [
-   "The Gulf and Baltic stories describe distinct maritime pressures: the Iran article links attacks with a US naval blockade and sanctions, while the Finland reports concern a drone attack on a Russia-bound ship. Finnish defence forces say Ukraine was likely behind that attack; the supplied reports do not establish responsibility as fact.",
-   "The Iran coverage also raises the role of policy choices. One article recalls Congress forbidding Vietnam War funding; another quotes an analyst saying Trump may have to ease the blockade for the war to wind down. Together, these accounts suggest funding and blockade decisions matter to how conflicts are discussed, without establishing what will happen.",
-   "The UN story adds a regulatory dimension: CWC countries agreed to elaborate on a potential autonomous-weapons accord in two years, prompting criticism. For analysts, the stories connect operational incidents with economic pressure and debate over rules. Watch how responsibility is attributed, how blockade policy is discussed, and what elaboration on the accord entails."
+   "The stories describe risks across digital systems and physical infrastructure. GL.iNet says hackers exploited cloud remote management to install malware, while reports from Libya describe a suspected drone attack on a Russian ship at port. Both accounts concern access to systems or assets, though the methods and settings differ.",
+   "Other reports focus on consequences: a collapsed residential building in Ukraine, civilian deaths and damaged buildings in Sudan, and a Cleverbridge breach involving payment card details. These accounts suggest defenders and analysts should distinguish confirmed statements from suspected attribution, and track both operational and civilian impacts.",
+   "For defenders, the GL.iNet report makes remote management and device checks relevant; the Cleverbridge warning makes payment data exposure worth reviewing. Analysts may watch for further reporting on the Libya ship incident and the reported strikes, while noting that some responsibility remains suspected or unclaimed."
   ],
   "takeaways": [
-   "Keep reported attribution of the Baltic attack distinct from established fact.",
-   "Track how the Iran blockade appears in accounts of attacks and war-ending options.",
-   "Watch for further detail on the proposed autonomous-weapons accord."
+   "Check remote management exposure and devices for reported malware and backdoors.",
+   "Treat reported attack attribution carefully when officials describe it as suspected.",
+   "Track both infrastructure damage and reported civilian impacts."
   ]
  },
  "health": [
@@ -736,7 +704,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 4
+   "n": 7
   },
   {
    "name": "The Hacker News",
@@ -814,7 +782,7 @@
    "name": "Defense One",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "Defense News",
@@ -898,19 +866,19 @@
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 7
   }
  ]
 }
