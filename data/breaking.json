@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:45:35.094Z",
+ "updated": "2026-11-22T01:38:40.806Z",
  "health": [
   {
    "name": "CISA Advisories",
@@ -7,17 +7,17 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "X cyber",
    "ok": false,
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -27,27 +27,27 @@
    "n": 0
   },
   {
+   "name": "BBC World",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 2
+   "n": 6
   },
   {
    "name": "Al Jazeera",
-   "ok": true,
-   "n": 5
-  },
-  {
-   "name": "MarketWatch",
    "ok": true,
    "n": 8
   },
@@ -57,27 +57,22 @@
    "n": 0
   },
   {
-   "name": "Daily Dark Web",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
-   "name": "Dark Reading",
+   "name": "Daily Dark Web",
    "ok": true,
    "n": 0
   },
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -88,6 +83,11 @@
   },
   {
    "name": "BreachForums",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,94 @@
   }
  ],
  "items": [
+  {
+   "id": "nd740827d88",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Moviegoers head for the exits as quake strikes Peru",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/moviegoers-head-for-the-exits-as-quake-strikes-peru?traffic_source=rss",
+   "published": "2026-11-22T01:07:19.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "naeb7ef21f8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "published": "2026-11-22T00:53:02.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1453db92e2",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+   "published": "2026-11-21T23:59:03.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n0cdc2ecf2e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Lebanese president demands Israel withdrawal, decries Iran’s interference",
+   "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
+   "published": "2026-11-21T23:44:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne14c511a44",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran faces a ‘silent economic war’, says Iranian president",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
+   "published": "2026-11-21T23:18:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9f2af01a2a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "published": "2026-11-21T22:59:58.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n728bf14e13",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Bahrain says Iranian attack hits industrial facility",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+   "published": "2026-11-21T22:02:03.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n634fcadcb1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Bahrain says Iranian attack causes fire at industrial facility",
+   "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+   "published": "2026-11-21T21:31:03.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "ndd194f367f",
    "kind": "news",
@@ -2624,61 +2712,6 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
    "published": "2026-11-19T03:01:27.000Z",
    "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n52a6717fa2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-18T23:28:03.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb326b8531a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-   "published": "2026-11-18T23:08:33.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "naee1125986",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US steps up pressure on Iran-backed Hezbollah with new sanctions",
-   "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
-   "published": "2026-11-18T22:56:19.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nef20159759",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-   "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-18T22:34:56.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n84415312a0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
-   "published": "2026-11-18T21:59:46.000Z",
-   "severity": "high",
    "verified": true
   }
  ]
