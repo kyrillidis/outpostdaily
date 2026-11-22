@@ -1,11 +1,6 @@
 {
- "updated": "2026-11-22T01:38:40.806Z",
+ "updated": "2026-11-22T08:48:26.911Z",
  "health": [
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
-  },
   {
    "name": "X cyber",
    "ok": false,
@@ -14,15 +9,20 @@
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
   },
@@ -32,34 +32,39 @@
    "n": 1
   },
   {
+   "name": "The Record",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "The Hacker News",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 8
+   "n": 2
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -72,7 +77,7 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -83,11 +88,6 @@
   },
   {
    "name": "BreachForums",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,72 @@
   }
  ],
  "items": [
+  {
+   "id": "n4bd1bf6c7e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
+   "published": "2026-11-22T07:59:29.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n0d05816467",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "USDA Cyber Incident Disrupts Farmer Payments",
+   "url": "https://hackread.com/usda-cyber-incident-disrupts-farmer-payments/",
+   "published": "2026-11-22T07:50:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9f1c01014b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Three killed and dozens missing after fire at Indonesian factory",
+   "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-22T06:05:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n78074d39df",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "published": "2026-11-22T05:06:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0be8ff22df",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "published": "2026-11-22T05:03:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0335f411a7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
+   "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
+   "published": "2026-11-22T03:34:02.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nd740827d88",
    "kind": "news",
@@ -2601,116 +2667,6 @@
    "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
    "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
    "published": "2026-11-19T10:41:05.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2a21804416",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘It’s my friend’: Moment Trump greets Putin at China summit",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/its-my-friend-moment-trump-greets-putin-at-china-summit?traffic_source=rss",
-   "published": "2026-11-19T06:44:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndc45cbc29e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Could Trump, Putin and Xi end the nuclear age?",
-   "url": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
-   "published": "2026-11-19T06:15:55.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n2c3fe24857",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Far from Trump-Putin meeting, Europe to count cost of Ukraine’s defence",
-   "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukraines-defence?traffic_source=rss",
-   "published": "2026-11-19T04:58:36.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n72721eae64",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Trump wants to talk nuclear with Putin and Xi",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-wants-to-talk-nuclear-with-putin-and-xi?traffic_source=rss",
-   "published": "2026-11-19T04:50:28.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb22ea84aec",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-   "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-19T04:42:52.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8961061d5d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Crimean Bridge attacked again, Russian official says",
-   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-19T04:37:17.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd1202d3392",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-   "published": "2026-11-19T04:33:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3295cab883",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "APEC Live: Ukraine, Iran, AI on table for historic Trump-Xi-Putin meeting",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit?traffic_source=rss",
-   "published": "2026-11-19T03:30:26.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5128ef4227",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-   "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-   "published": "2026-11-19T03:25:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n83f222c106",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "China’s Xi greets Putin and Trump at APEC before historic summit",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
-   "published": "2026-11-19T03:01:27.000Z",
    "severity": "normal",
    "verified": true
   }
