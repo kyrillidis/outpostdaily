@@ -1,13 +1,23 @@
 {
- "updated": "2026-11-22T16:41:12.925Z",
+ "updated": "2026-11-22T22:01:54.577Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "X cyber",
+   "ok": false,
+   "error": "HTTP 402"
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -17,39 +27,9 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "X cyber",
-   "ok": false,
-   "error": "HTTP 402"
-  },
-  {
    "name": "The DFIR Report",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 3
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 8
   },
   {
    "name": "The Hacker News",
@@ -57,14 +37,24 @@
    "n": 0
   },
   {
-   "name": "Hackread",
+   "name": "BBC World",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
-   "name": "SecurityWeek",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 0
+   "n": 3
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
   },
   {
    "name": "Daily Dark Web",
@@ -72,9 +62,19 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 3
+   "n": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "SOCRadar blog",
@@ -118,6 +118,160 @@
   }
  ],
  "items": [
+  {
+   "id": "nb36381fd75",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Ron Johnson’s Social Security gaffe buried important news",
+   "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+   "published": "2026-11-22T21:28:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n116a5f790c",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Social Security should be shut down, this Republican senator says",
+   "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+   "published": "2026-11-22T20:26:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n44650bbc04",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "On China, is Trump bucking the US national security establishment?",
+   "url": "https://www.aljazeera.com/video/the-bottom-line/2026/11/22/on-china-is-trump-bucking-the-us-national-security-establishment?traffic_source=rss",
+   "published": "2026-11-22T19:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n85c5d31f68",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+   "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+   "published": "2026-11-22T19:24:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne84afceb00",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "published": "2026-11-22T18:45:37.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n9cc2aecfef",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "When Executive Impersonation Spreads Across Multiple Platforms",
+   "url": "https://hackread.com/executive-impersonation-across-platforms/",
+   "published": "2026-11-22T18:34:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6779a17673",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+   "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-22T18:29:46.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n459286d947",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "These little-known investments could be among the best bargains in a crash",
+   "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+   "published": "2026-11-22T18:23:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ndff33020a4",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Civilians killed in RSF drone strikes in Sudan",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+   "published": "2026-11-22T18:12:07.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n87534ccd1a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+   "published": "2026-11-22T18:11:30.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6ed1dae524",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Signal Is Blocking AI Agents From Reading Your Screen",
+   "url": "https://securityaffairs.com/203742/ai/signal-is-blocking-ai-agents-from-reading-your-screen.html",
+   "published": "2026-11-22T18:01:22.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n249fb9406b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-22T17:57:43.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb15959b8a9",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Private equity has been buying up hospice centers — with striking consequences",
+   "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+   "published": "2026-11-22T17:22:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na2baf74492",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "published": "2026-11-22T16:32:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n761ad9ae03",
    "kind": "news",
@@ -2084,270 +2238,6 @@
    "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
    "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
    "published": "2026-11-19T22:12:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndbbd568913",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
-   "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
-   "published": "2026-11-19T21:58:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8a54b85e84",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Markets are sending troubling signals about the state of the economy",
-   "url": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
-   "published": "2026-11-19T21:57:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc74256fff4",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
-   "published": "2026-11-19T21:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndb582c0dbb",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Chaotic Eclipse Releases FastUnlock, a New Windows Zero-Day Vulnerability",
-   "url": "https://securityaffairs.com/203537/hacking/chaotic-eclipse-releases-fastunlock-a-new-windows-zero-day-vulnerability.html",
-   "published": "2026-11-19T21:43:09.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb89806bc3d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Haiti police say at least 34 suspected gang members killed in raid",
-   "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
-   "published": "2026-11-19T21:39:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd681207051",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "UnitedHealth’s stock tumbles after government signals crackdown on Medicare Advantage fraud",
-   "url": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
-   "published": "2026-11-19T21:22:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2176787e20",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-   "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-19T21:21:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8dfce1d63a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
-   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
-   "published": "2026-11-19T21:19:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3797ecb529",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-   "published": "2026-11-19T21:15:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n68e7e2546b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Why Walmart is making a bigger bet on fast-food delivery",
-   "url": "https://www.marketwatch.com/story/why-walmart-is-making-a-bigger-bet-on-fast-food-delivery-27263735?mod=mw_rss_topstories",
-   "published": "2026-11-19T21:13:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nab08836df0",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Ten killed in Pakistan as bus crashes into gas tanker",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker?traffic_source=rss",
-   "published": "2026-11-19T21:09:24.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n934c30345a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jerusalem Daily: Israel launches ground offensive in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
-   "published": "2026-11-19T20:58:41.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd968a94025",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
-   "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
-   "published": "2026-11-19T20:54:08.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4f2872fed6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-   "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
-   "published": "2026-11-19T20:30:54.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n150f8fb554",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Second Norwegian Energy Company Breached in Two Days",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
-   "published": "2026-11-19T20:14:15.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n67df130650",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "Why Most Apps Don’t Scale (and How to Fix Them)",
-   "url": "https://hackread.com/why-most-apps-do-not-scale-how-to-fix-them/",
-   "published": "2026-11-19T20:01:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7cf301393d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
-   "url": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
-   "published": "2026-11-19T19:57:31.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndfb731a444",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Navigating Vulnerability Hysteria in the AI Era",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
-   "published": "2026-11-19T19:46:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8de921d603",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Kushner says Russia ‘comfortable’ with NATO-like guarantees for Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine?traffic_source=rss",
-   "published": "2026-11-19T19:40:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbd29968021",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-   "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-   "published": "2026-11-19T19:21:06.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n53e4a59238",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-   "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-   "published": "2026-11-19T18:47:58.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1977168802",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-   "published": "2026-11-19T18:20:01.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n4692e0d9ed",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Record",
-   "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
-   "url": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
-   "published": "2026-11-19T17:25:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2af66eaeb5",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "U.S. CISA adds Apache Axis, Vanderbilt REDCap,BerriAI LiteLLM, and Synology DSM flaws to its Known Exploited Vulnerabilities catalog",
-   "url": "https://securityaffairs.com/203504/hacking/u-s-cisa-adds-apache-axis-vanderbilt-redcapberriai-litellm-and-synology-dsm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-   "published": "2026-11-19T17:14:39.000Z",
    "severity": "normal",
    "verified": true
   }
