@@ -1,0 +1,905 @@
+{
+ "date": "2026-11-23",
+ "edition": 252,
+ "compiled": "2026-11-23T00:59:40.738Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "e84afceb00",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "snippet": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+   "published": "2026-11-22T18:45:37.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/e84afceb00.webp",
+   "t": "2026-11-22",
+   "summary": "GL.iNet says hackers exploited a flaw in its cloud remote management services to install custom malware on customers' routers and KVM devices; some users report backdoors and reverse shells.",
+   "why": "Check GL.iNet remote management exposure and affected devices for malware, backdoors, or reverse shells.",
+   "tags": [
+    "cloud remote management",
+    "routers",
+    "malware"
+   ],
+   "ai": true
+  },
+  {
+   "id": "855a50efe0",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "snippet": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+   "published": "2026-11-22T15:43:04.000Z",
+   "also": [],
+   "score": 1.41,
+   "image": "/img/news/855a50efe0.webp",
+   "t": "2026-11-22",
+   "summary": "Cleverbridge warns that hackers breached its systems and stole customers' payment card numbers and CVV security codes.",
+   "why": "Check payment systems and breach notices, and review card data exposure and related transactions.",
+   "tags": [
+    "data breach",
+    "payment cards",
+    "CVV"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2361e0929a",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "snippet": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+   "published": "2026-11-22T15:15:25.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/2361e0929a.webp",
+   "t": "2026-11-22",
+   "summary": "Signal says new protections block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
+   "why": "Review device support and privacy settings if your organization relies on Signal for sensitive conversations.",
+   "tags": [
+    "Signal",
+    "screenshots",
+    "AI assistants"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9b531e9418",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+   "snippet": "Google lets enterprises put a checkpoint in front of an AI agent‘s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent’s model proposes and block it before it runs if the call doesn’t match the user’s request or breaks a company rule. The check sits outside the age",
+   "published": "2026-11-23T00:27:25.000Z",
+   "also": [],
+   "score": 1.39,
+   "image": "/img/news/9b531e9418.webp",
+   "t": "2026-11-23",
+   "summary": "Google says its Gemini platform’s semantic governance policies can inspect proposed AI-agent tool calls and block calls that do not match the user’s request.",
+   "why": "Test whether policies block out-of-scope tool calls before they execute.",
+   "tags": [
+    "semantic governance",
+    "AI agent",
+    "tool call"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d9d2b8e731",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+   "snippet": "The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to DSA-6",
+   "published": "2026-11-22T23:05:09.000Z",
+   "also": [],
+   "score": 1.36,
+   "image": "/img/news/d9d2b8e731.webp",
+   "t": "2026-11-23",
+   "summary": "The Debian project says Debian 13.8 includes security fixes, corrections for some serious bugs, and advisories previously published separately.",
+   "why": "If you run trixie, review the update and apply relevant security fixes.",
+   "tags": [
+    "Debian 13.8",
+    "security fixes",
+    "trixie"
+   ],
+   "ai": true
+  },
+  {
+   "id": "78074d39df",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. Op",
+   "published": "2026-11-22T05:06:55.000Z",
+   "also": [],
+   "score": 1.09,
+   "image": "/img/news/78074d39df.webp",
+   "t": "2026-11-22",
+   "summary": "Dragos says attackers stole data from inside three AI inference providers for months; the providers learned of the theft from researchers.",
+   "why": "Review data-retention claims and access controls at AI inference providers.",
+   "tags": [
+    "AI inference",
+    "data theft",
+    "Zero Data Retention"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0be8ff22df",
+   "section": "cyber",
+   "source": "The Hacker News",
+   "weight": 0.5,
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling i",
+   "published": "2026-11-22T05:03:41.000Z",
+   "also": [],
+   "score": 1.08,
+   "image": "/img/news/0be8ff22df.webp",
+   "t": "2026-11-22",
+   "summary": "Researchers demonstrated a now-patched Ghostscript flaw that let crafted files escape the sandbox and run commands on servers processing them.",
+   "why": "Check Ghostscript versions and isolate services that process uploaded files.",
+   "tags": [
+    "Ghostscript",
+    "sandbox",
+    "file uploads"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cee6ea3378",
+   "section": "cyber",
+   "source": "Help Net Security",
+   "weight": 0.4,
+   "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+   "url": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+   "snippet": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websi",
+   "published": "2026-11-22T09:00:25.000Z",
+   "also": [],
+   "score": 1.07,
+   "image": "/img/news/cee6ea3378.webp",
+   "t": "2026-11-22",
+   "summary": "A weekly news review says malware spread through an Optimizely vulnerability and hit 178 organizations; it also mentions Java4Shell.",
+   "why": "Review Optimizely exposure and investigate suspicious activity associated with the vulnerability.",
+   "tags": [
+    "Optimizely",
+    "malware",
+    "Java4Shell"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9f2af01a2a",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+   "published": "2026-11-21T22:59:58.000Z",
+   "also": [],
+   "score": 1.06,
+   "image": "/img/news/9f2af01a2a.webp",
+   "t": "2026-11-21",
+   "summary": "Rackspace warned customers that compromised credentials were used to breach Rackspace Spot, deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
+   "why": "Check cloud credentials and Kubernetes secrets for unauthorized access or workloads.",
+   "tags": [
+    "Rackspace Spot",
+    "Kubernetes secrets",
+    "compromised credentials"
+   ],
+   "ai": true
+  },
+  {
+   "id": "aeb7ef21f8",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "snippet": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
+   "published": "2026-11-22T00:53:02.000Z",
+   "also": [],
+   "score": 1,
+   "image": "/img/news/aeb7ef21f8.webp",
+   "t": "2026-11-22",
+   "summary": "The FBI is investigating an apparent hack of a national law enforcement database it maintains, according to the report.",
+   "why": "Review access controls and activity involving sensitive law enforcement data.",
+   "tags": [
+    "FBI",
+    "database",
+    "hack"
+   ],
+   "ai": true
+  },
+  {
+   "id": "224b04b8ea",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase",
+   "url": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
+   "snippet": "Ukraine successfully destroyed a new Russian corvette and has struck two other cargo ships, one in the Mediterranean and one in the Baltic, in just a day. The post Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase appeared first on TWZ .",
+   "published": "2026-11-22T22:26:09.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/224b04b8ea.webp",
+   "t": "2026-11-23",
+   "summary": "The post says Ukraine destroyed a Russian corvette and struck two cargo ships, one in the Mediterranean and one in the Baltic.",
+   "why": "The reported strikes show naval assets and cargo ships across multiple seas are operationally relevant.",
+   "tags": [
+    "corvette",
+    "cargo ships",
+    "Mediterranean"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b3203b4a86",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "UK reaches for stars with NATO space launch plan",
+   "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+   "snippet": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
+   "published": "2026-11-22T00:01:05.000Z",
+   "also": [],
+   "score": 0.98,
+   "image": "/img/news/b3203b4a86.webp",
+   "t": "2026-11-22",
+   "summary": "The UK has joined 10 other nations in NATO's STARLIFT initiative to create a network of flexible satellite launch services.",
+   "why": "The initiative concerns allied access to satellite launch services.",
+   "tags": [
+    "NATO",
+    "satellite launch",
+    "STARLIFT"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2c7c2abfef",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
+   "url": "https://www.twz.com/sea/theodore-roosevelt-strike-group-arrives-in-the-middle-east-relieving-uss-george-washington",
+   "snippet": "Where the aircraft carriers are as of November 21, 2026. The post USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington appeared first on TWZ .",
+   "published": "2026-11-21T18:11:09.000Z",
+   "also": [],
+   "score": 0.96,
+   "image": "/img/news/2c7c2abfef.webp",
+   "t": "2026-11-21",
+   "summary": "The War Zone reports that USS Theodore Roosevelt arrived in the Middle East, relieving USS George Washington.",
+   "why": "Carrier movements indicate the operational presence of naval aviation in the region.",
+   "tags": [
+    "aircraft carriers",
+    "Middle East"
+   ],
+   "ai": true
+  },
+  {
+   "id": "da97d85c04",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Senate gearing up to investigate Ukraine’s access to Starshield",
+   "url": "https://breakingdefense.com/2026/11/senate-gearing-up-to-investigate-ukraines-access-to-starshield/",
+   "snippet": "“What the hell is happening? Why is this being done? What are the consequences and the costs? And what does it say about our reliability in the future?” Sen. Chris Coons asked.",
+   "published": "2026-11-21T15:06:51.000Z",
+   "also": [],
+   "score": 0.89,
+   "image": "/img/news/da97d85c04.webp",
+   "t": "2026-11-21",
+   "summary": "Breaking Defense reports that the Senate is preparing to investigate Ukraine’s access to Starshield; Senator Chris Coons questioned the consequences and costs.",
+   "why": "The inquiry concerns access to satellite services and the reliability implications of that access.",
+   "tags": [
+    "Starshield",
+    "Ukraine",
+    "Senate"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ad1f44b402",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine",
+   "url": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+   "snippet": "Defence Secretary meets President Zelenskyy in Kyiv as new agreements strengthen UK industrial support for Ukraine and expand drone production",
+   "published": "2026-11-21T15:50:54.000Z",
+   "also": [],
+   "score": 0.81,
+   "image": "/img/news/ad1f44b402.webp",
+   "t": "2026-11-21",
+   "summary": "The UK Ministry of Defence says new agreements deepen industrial support for Ukraine and expand drone production.",
+   "why": "Expanded drone production is relevant to the industrial capacity supporting Ukraine.",
+   "tags": [
+    "Ukraine",
+    "industrial support",
+    "drone production"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8c752d8944",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+   "published": "2026-11-22T20:28:09.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
+    },
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 2.21,
+   "image": "/img/news/8c752d8944.webp",
+   "t": "2026-11-22",
+   "summary": "Officials say an explosion on a Russian ship at a Libya port was caused by a suspected drone attack. Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+   "why": "The reported incident highlights the strategic relevance of port stops and maritime routes.",
+   "tags": [
+    "drone attack",
+    "Libya",
+    "port"
+   ],
+   "ai": true
+  },
+  {
+   "id": "249fb9406b",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
+   "published": "2026-11-22T22:37:43.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/249fb9406b.webp",
+   "t": "2026-11-22",
+   "summary": "The BBC reports from the scene of a collapsed residential building in Ukraine's Kyiv region as Ukrainians search for missing after Russian strikes.",
+   "why": "The report concerns the civilian impact and local consequences of strikes in the Kyiv region.",
+   "tags": [
+    "Ukraine",
+    "Kyiv region",
+    "Russian strikes"
+   ],
+   "ai": true
+  },
+  {
+   "id": "de25ddea03",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+   "snippet": "Iran's navy claims tankers contravening its rules were set ablaze, while the IRGC said 'enemies' sought to stoke unrest.",
+   "published": "2026-11-22T23:59:22.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/de25ddea03.webp",
+   "t": "2026-11-23",
+   "summary": "Iran’s navy claims tankers that contravened its rules were set ablaze; the IRGC said ‘enemies’ sought to stoke unrest.",
+   "why": "Claims about tanker incidents and unrest matter to monitoring maritime security around Hormuz.",
+   "tags": [
+    "tankers",
+    "Hormuz",
+    "IRGC"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4d9f7e5539",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+   "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+   "published": "2026-11-22T17:18:26.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/4d9f7e5539.webp",
+   "t": "2026-11-21",
+   "summary": "Finnish defence forces say Ukraine was likely behind a drone attack on a Russia-bound ship in the Gulf of Finland.",
+   "why": "The reported attack highlights the operational reach of drones around shipping routes.",
+   "tags": [
+    "Gulf of Finland",
+    "drone attack",
+    "ship"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1ef6bba92e",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Second ship targeted in series of naval drone attacks off Libyan coast",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss",
+   "snippet": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi.",
+   "published": "2026-11-22T22:01:48.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/1ef6bba92e.webp",
+   "t": "2026-11-23",
+   "summary": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi.",
+   "why": "The report adds to the geospatial picture of risks to commercial vessels off Libya.",
+   "tags": [
+    "commercial vessel",
+    "Maltese flag",
+    "Benghazi"
+   ],
+   "ai": true
+  },
+  {
+   "id": "44bbc10064",
+   "section": "geo",
+   "source": "SatNews",
+   "weight": 0.4,
+   "title": "Scientists and Regulators Weigh 150x Emission Claims Around SpaceX’s One-Million-Satellite Data Center Proposal",
+   "url": "https://satnews.com/2026/11/22/scientists-and-regulators-weigh-150x-emission-claims-around-spacexs-one-million-satellite-data-center-proposal/",
+   "snippet": "Scientific debate over the atmospheric and orbital consequences of mega-constellations has intensified around SpaceX’s Federal Communications Commission (FCC) application for up to 1 million solar-powered orbital data center satellites, according […]",
+   "published": "2026-11-23T00:10:18.000Z",
+   "also": [],
+   "score": 1.38,
+   "image": "/img/news/44bbc10064.webp",
+   "t": "2026-11-23",
+   "summary": "Scientists and regulators are debating claimed atmospheric and orbital consequences around SpaceX’s FCC application for up to 1 million solar-powered orbital data center satellites.",
+   "why": "The proposal raises questions about the orbital and atmospheric effects of large satellite systems.",
+   "tags": [
+    "satellites",
+    "FCC",
+    "orbital data center"
+   ],
+   "ai": true
+  },
+  {
+   "id": "dff33020a4",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Civilians killed in RSF drone strikes in Sudan",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+   "snippet": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
+   "published": "2026-11-22T18:12:07.000Z",
+   "also": [],
+   "score": 1.36,
+   "image": "/img/news/dff33020a4.webp",
+   "t": "2026-11-22",
+   "summary": "Al Jazeera reports that drone strikes by Sudan’s Rapid Support Forces killed civilians and damaged buildings.",
+   "why": "Drone use and reported harm to civilians are relevant to assessing conflict impacts.",
+   "tags": [
+    "Sudan",
+    "drone strikes",
+    "civilians"
+   ],
+   "ai": true
+  },
+  {
+   "id": "05cde07a86",
+   "section": "geo",
+   "source": "DW",
+   "weight": 0.4,
+   "title": "Sudan: Drones hit UN building, residential area in Khartoum",
+   "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
+   "snippet": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger.",
+   "published": "2026-11-22T19:25:00.000Z",
+   "also": [],
+   "score": 1.28,
+   "image": "/img/news/05cde07a86.webp",
+   "t": "2026-11-22",
+   "summary": "DW reports that drones targeted Khartoum, damaging a UN building in a residential area. The UN agency said exposing humanitarian workers to such danger was unacceptable.",
+   "why": "The incident underscores risks to humanitarian workers and facilities in a residential area.",
+   "tags": [
+    "Khartoum",
+    "drones",
+    "UN building"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-129448",
+   "vendor": "Apache",
+   "product": "Roller",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+  },
+  {
+   "cve": "CVE-2026-123890",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+  },
+  {
+   "cve": "CVE-2025-42884",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+  },
+  {
+   "cve": "CVE-2026-76466",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+  },
+  {
+   "cve": "CVE-2024-10441",
+   "vendor": "Synology",
+   "product": "DiskStation Manager (DSM)",
+   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+  },
+  {
+   "cve": "CVE-2026-40217",
+   "vendor": "BerriAI",
+   "product": "LiteLLM",
+   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-12-02",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+  },
+  {
+   "cve": "CVE-2026-90817",
+   "vendor": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+  },
+  {
+   "cve": "CVE-2026-90436",
+   "vendor": "Apache",
+   "product": "Axis",
+   "name": "Apache Axis Unsafe Reflection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+  },
+  {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.4,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+  },
+  {
+   "cve": "CVE-2026-114713",
+   "vendor": "UnrealIRCd",
+   "product": "UnrealIRCd",
+   "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.6,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+  },
+  {
+   "cve": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "Multiple Products",
+   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+   "added": "2026-11-13",
+   "due": "2026-11-16",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+  },
+  {
+   "cve": "CVE-2026-124194",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+  }
+ ],
+ "run_today": [
+  "Review Gemini governance rules and confirm they match the user’s intended limits.",
+  "Test representative agent tool calls to verify that out-of-scope actions are blocked.",
+  "If you run Debian trixie, review Debian 13.8 and apply relevant security fixes."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "Semantic governance policies",
+   "explainer": "Rules that evaluate an AI agent’s proposed action against the user’s request and can block a tool call before it runs.",
+   "from_id": "9b531e9418",
+   "from": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+   "fromSource": "Help Net Security"
+  },
+  {
+   "domain": "warfare",
+   "term": "Corvette",
+   "explainer": "A type of naval vessel. The item reports that Ukraine destroyed a Russian corvette.",
+   "from_id": "224b04b8ea",
+   "from": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "Hormuz",
+   "explainer": "A maritime location named in the report about tanker claims and an IRGC warning. The item connects it to reported maritime security concerns.",
+   "from_id": "de25ddea03",
+   "from": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+   "fromSource": "Al Jazeera"
+  }
+ ],
+ "analysis": {
+  "headline": "Security and maritime activity span systems and seas",
+  "paragraphs": [
+   "The stories describe activity across distinct environments: a reported explosion involving a Russian ship at a Libyan port, attacks on ships in several seas, and claims about tankers in Hormuz. Together, they suggest analysts should track vessel incidents by location while distinguishing reported events from attributed claims.",
+   "The cyber items also concern control points: Google’s proposed checks on AI-agent actions and Debian’s bundled security fixes. For defenders, the practical focus is on validating policy behavior and keeping systems current. The GL.iNet report in today’s top stories adds the importance of checking exposed remote-management services.",
+   "For analysts, the satellite proposal shows how infrastructure plans can raise both orbital and atmospheric questions. Across the stories, the evidence is uneven: some details are claims, reports, or proposals rather than settled conclusions. Watch for further confirmation and for how these separate developments are described over time."
+  ],
+  "takeaways": [
+   "Check AI-agent controls before allowing tool calls to run.",
+   "Track maritime reports by location and attribution."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": false,
+   "error": "not a feed (HTML or captcha page?)"
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  }
+ ]
+}
