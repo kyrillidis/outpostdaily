@@ -1,10 +1,35 @@
 {
- "updated": "2026-11-23T02:29:05.356Z",
+ "updated": "2026-11-23T11:04:21.317Z",
  "health": [
   {
    "name": "CISA Advisories",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "MarketWatch",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "The DFIR Report",
    "ok": true,
    "n": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 8
   },
   {
    "name": "X cyber",
@@ -17,39 +42,9 @@
    "n": 0
   },
   {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 0
-  },
-  {
    "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 6
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
   },
   {
    "name": "Hackread",
@@ -57,12 +52,12 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "The Hacker News",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
-   "name": "Dark Reading",
+   "name": "SecurityWeek",
    "ok": true,
    "n": 0
   },
@@ -72,24 +67,29 @@
    "n": 0
   },
   {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "Security Affairs",
    "ok": true,
-   "n": 0
-  },
-  {
-   "name": "SOCRadar blog",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BreachForums",
-   "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "DarkForums",
    "ok": true,
    "n": 7
+  },
+  {
+   "name": "SOCRadar blog",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "X redteam",
@@ -118,6 +118,292 @@
   }
  ],
  "items": [
+  {
+   "id": "na07664eb5a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+   "url": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+   "published": "2026-11-23T10:57:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n559598839a",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
+   "url": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+   "published": "2026-11-23T10:56:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4b100c3be1",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "SOCRadar blog",
+   "title": "KEPCO Breach, Aeroméxico Records, Defense Contractor Leak, RCS Zero-Day, Frappe RCE, VPN Access Auction, and Eclipse RaaS",
+   "url": "https://socradar.io/blog/kepco-aeromexico-defense-leak-rcs-zero-day/",
+   "published": "2026-11-23T10:55:57.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nc631048a44",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Why is Bangladesh’s Grameen Bank under attack?",
+   "url": "https://www.aljazeera.com/news/2026/11/23/why-is-bangladeshs-grameen-bank-under-attack?traffic_source=rss",
+   "published": "2026-11-23T10:22:34.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n464e67cf4a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Occupied West Bank ‘military zones’ become de facto Israeli settler land",
+   "url": "https://www.aljazeera.com/features/2026/11/23/military-zones-in-occupied-west-bank-become-israeli-settler-outpost-lands?traffic_source=rss",
+   "published": "2026-11-23T10:20:58.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nffc9529500",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
+   "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+   "published": "2026-11-23T10:15:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nc9b7f5ff78",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "James Bond films were shot all over the world. Here are 5 properties made famous by 007.",
+   "url": "https://www.marketwatch.com/story/james-bond-films-were-shot-all-over-the-world-here-are-5-properties-made-famous-by-007-dabafbe6?mod=mw_rss_topstories",
+   "published": "2026-11-23T10:02:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n0490501e62",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Google co-founder Sergey Brin and ex-wife Nicole Shanahan list Malibu home for $33.5 million",
+   "url": "https://www.marketwatch.com/story/google-co-founder-sergey-brin-and-ex-wife-nicole-shanahan-list-malibu-home-for-33-5-million-0121adcd?mod=mw_rss_topstories",
+   "published": "2026-11-23T10:01:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na2d48fff91",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Bulgaria Discovers Massive Government Breach After Five Years of Undetected Spying",
+   "url": "https://securityaffairs.com/203794/intelligence/bulgaria-discovers-massive-government-breach-after-five-years-of-undetected-spying.html",
+   "published": "2026-11-23T09:46:56.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n8eefd73bc1",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist",
+   "url": "https://www.marketwatch.com/story/stocks-are-serving-up-a-fat-pitch-for-investors-right-now-as-morgan-stanleys-top-strategist-19abe30a?mod=mw_rss_topstories",
+   "published": "2026-11-23T09:40:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n26c5f99c70",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+   "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+   "published": "2026-11-23T09:34:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nb8202d4bc0",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Gaza turned into ‘toxic wasteland’ by Israel’s war, says new report",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-turned-into-toxic-wasteland-by-israels-war-says-new-report?traffic_source=rss",
+   "published": "2026-11-23T09:33:59.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ncf050c0107",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Zelenskyy says Ukraine behind attacks on Russian ships near Libya",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/zelenskyy-says-ukraine-behind-attacks-on-russian-ships-near-libya?traffic_source=rss",
+   "published": "2026-11-23T09:33:46.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n51efa1a754",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "‘Environmental crimes’: Israel blamed for toxic pollution in 99% of Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/23/environmental-crimes-israel-blamed-for-toxic-pollution-in-99-of-gaza?traffic_source=rss",
+   "published": "2026-11-23T09:30:16.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n31afdc96e8",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "published": "2026-11-23T09:11:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd0dd2916cf",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+   "published": "2026-11-23T09:11:15.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n791422e9c3",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+   "published": "2026-11-23T09:04:08.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7023c3c17e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Widowed amid war and displacement: Sudanese mothers struggle to survive",
+   "url": "https://www.aljazeera.com/features/2026/11/23/widowed-amid-war-and-displacement-sudanese-mothers-struggle-to-survive?traffic_source=rss",
+   "published": "2026-11-23T08:53:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n918601ad6c",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-23T08:53:01.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n253c627305",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
+   "url": "https://www.marketwatch.com/story/stock-market-slides-this-steep-and-fast-trigger-a-rebound-91-of-the-time-over-the-last-decade-798bd2c2?mod=mw_rss_topstories",
+   "published": "2026-11-23T08:37:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n80927b607c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Hacker News",
+   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "published": "2026-11-23T08:24:15.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7863bde0f0",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "BADBOX 3.0 Exposed: Massive Botnet Hides Ad Fraud Inside Android TV Boxes",
+   "url": "https://securityaffairs.com/203767/malware/badbox-3-0-exposed-massive-botnet-hides-ad-fraud-inside-android-tv-boxes.html",
+   "published": "2026-11-23T07:44:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5d81d80910",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "published": "2026-11-23T07:44:19.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n20e9d0df2d",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+   "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+   "published": "2026-11-23T07:37:09.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n7d63199dff",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Spain Stops NoName057(16) From Getting a Physical Foothold",
+   "url": "https://securityaffairs.com/203756/hacktivism/spain-stops-noname05716-from-getting-a-physical-foothold.html",
+   "published": "2026-11-23T06:30:26.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n17ffcf78e7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+   "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-23T05:33:17.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n3d18a2b584",
    "kind": "news",
@@ -1864,292 +2150,6 @@
    "title": "Apple seems to be building its own AI agent. This could be bad news for Meta’s Muse.",
    "url": "https://www.marketwatch.com/story/apple-seems-to-be-building-its-own-ai-agent-this-could-be-bad-news-for-metas-muse-8d9be2a7?mod=mw_rss_topstories",
    "published": "2026-11-20T11:05:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3a083cc0df",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-   "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-   "published": "2026-11-20T11:01:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6a744f24ea",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-   "published": "2026-11-20T10:57:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2d782991f9",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Nearly 600 women killed in South Africa within three months",
-   "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-20T10:56:02.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n2be32b97a1",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-   "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-   "published": "2026-11-20T10:51:42.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb6dced9e8b",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-   "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-   "published": "2026-11-20T10:38:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb9341d8d5d",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Drone operator removes Man United training footage and issues apology",
-   "url": "https://www.aljazeera.com/sports/2026/11/20/drone-operator-removes-man-united-training-footage-and-issues-apology?traffic_source=rss",
-   "published": "2026-11-20T10:37:20.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf5b6ed0f97",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-   "url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-   "published": "2026-11-20T10:34:10.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc9ddefa65f",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-   "published": "2026-11-20T10:32:50.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n9c0abc2d59",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "South Korea catches 111 students with new measures against exam cheating",
-   "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-20T10:16:19.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4e283f4560",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?",
-   "url": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
-   "published": "2026-11-20T10:15:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na531f0b33b",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-   "url": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
-   "published": "2026-11-20T10:08:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n24c4ccf36a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How Bear Grylls lived in the harsh conditions of his own home on an abandoned island with ‘no power, no water, no roof’",
-   "url": "https://www.marketwatch.com/story/how-bear-grylls-lived-in-the-harsh-conditions-of-his-own-home-on-an-abandoned-island-with-no-power-no-water-no-roof-8c3e17c4?mod=mw_rss_topstories",
-   "published": "2026-11-20T10:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb4d8b1b930",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-   "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-   "published": "2026-11-20T09:54:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n384152c913",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "JPMorgan Chase, Visa and Mastercard confirm vendor incidents after n0n leak claims",
-   "url": "https://hackread.com/jpmorgan-chase-visa-mastercard-vendor-incidents-n0n-leak/",
-   "published": "2026-11-20T09:50:52.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndc6901c8a6",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-   "published": "2026-11-20T09:38:15.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndfef8dcbfd",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "White House removes cyber-security chief after series of tech outages",
-   "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-20T09:37:59.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n09d3f14eaa",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-   "published": "2026-11-20T09:25:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5142390aaa",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Pakistan minister visits India for first time since 2025 war",
-   "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
-   "published": "2026-11-20T09:11:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "neeb1706d24",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "SOCRadar blog",
-   "title": "BabidiGhost: An AI-Augmented Cybercrime Operation",
-   "url": "https://socradar.io/blog/babidighost-ai-augmented-cybercrime/",
-   "published": "2026-11-20T09:10:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1842d6db44",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "N-able Blames Service Disruption on Cyberattack",
-   "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-   "published": "2026-11-20T09:08:35.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n17c3a4b45a",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Hunt.io Uncovers Russian-Speaking Credential Theft Operation Targeting US Banks and Government Accounts",
-   "url": "https://securityaffairs.com/203554/cyber-crime/hunt-io-uncovers-russian-speaking-credential-theft-operation-targeting-us-banks-and-government-accounts.html",
-   "published": "2026-11-20T09:03:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndfff6b708f",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russia’s day-long attack on Kyiv damages embassies",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-   "published": "2026-11-20T08:56:08.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n009f6643a8",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-   "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-   "published": "2026-11-20T07:35:46.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nba74506a96",
-   "kind": "news",
-   "group": "cyber",
-   "source": "The Hacker News",
-   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-   "published": "2026-11-20T07:11:39.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5aca005e2c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-   "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "published": "2026-11-20T03:31:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n540a5b7ca6",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Thousands protest Colombia’s tax plans amid row over US military role",
-   "url": "https://www.aljazeera.com/news/2026/11/20/thousands-protest-colombias-tax-plans-amid-row-over-us-military-role?traffic_source=rss",
-   "published": "2026-11-20T03:26:23.000Z",
    "severity": "normal",
    "verified": true
   }
