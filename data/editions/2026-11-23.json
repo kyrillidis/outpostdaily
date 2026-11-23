@@ -1,335 +1,502 @@
 {
  "date": "2026-11-23",
  "edition": 252,
- "compiled": "2026-11-23T08:44:16.790Z",
+ "compiled": "2026-11-23T20:44:48.380Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "5d81d80910",
+   "id": "c23cd2a7d9",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "CrowdStrike to purchase Zscaler for $43.9 billion",
+   "url": "https://therecord.media/crowdstrike-zscaler",
+   "snippet": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
+   "published": "2026-11-23T17:14:00.000Z",
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/"
+    },
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/"
+    }
+   ],
+   "score": 2.23,
+   "image": "/img/news/c23cd2a7d9.webp",
+   "t": "2026-11-23",
+   "summary": "CrowdStrike plans to purchase Zscaler for $43.9 billion. CEO George Kurtz says he sees a path to building a major AI safety and security company.",
+   "why": "Defenders should track how the proposed purchase may affect the security products and services they rely on.",
+   "tags": [
+    "AI safety",
+    "security"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ad3d2932dd",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-   "snippet": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-   "published": "2026-11-23T07:44:19.000Z",
+   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+   "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+   "snippet": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+   "published": "2026-11-23T20:00:20.000Z",
    "also": [],
    "score": 1.58,
-   "image": "/img/news/5d81d80910.webp",
+   "image": "/img/news/ad3d2932dd.webp",
    "t": "2026-11-23",
-   "summary": "CISA warned federal agencies that attackers are exploiting a recently patched critical Cisco Expressway vulnerability.",
-   "why": "Check Cisco Expressway systems for the flaw and confirm the patch is applied.",
+   "summary": "OpenRouter removed three AI providers after finding they violated stated data-handling policies and exposed sensitive data.",
+   "why": "Review provider data-handling practices and check whether sensitive prompts or secrets were exposed.",
    "tags": [
-    "Cisco Expressway",
-    "RCE",
-    "exploitation"
+    "AI providers",
+    "sensitive data"
    ],
    "ai": true
   },
   {
-   "id": "80927b607c",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-   "snippet": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at banki",
-   "published": "2026-11-23T08:24:15.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/80927b607c.webp",
-   "t": "2026-11-23",
-   "summary": "CERT-In warned that threat actors are carrying out AI-assisted cyberattacks targeting ICT assets in India. The title reports unauthorized payments at banks and fintech firms.",
-   "why": "Review payment controls and investigate suspicious activity affecting ICT assets.",
-   "tags": [
-    "AI-assisted",
-    "ICT assets",
-    "payments"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e5628202ee",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Infected TV boxes in BADBOX 3.0 rent out their owners’ home internet",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/badbox-3-0-ad-fraud-operation/",
-   "snippet": "HUMAN’s Satori Threat Intelligence and Research Team has disrupted BADBOX 3.0, an operation run mainly from infected low-cost TV boxes that generated roughly 40 billion ad bid requests a day at its peak. That was more than 4% of all connected TV (CTV) traffic HUMAN observed and more than three times the volume of VASTF",
-   "published": "2026-11-23T08:06:18.000Z",
-   "also": [],
-   "score": 1.39,
-   "image": "/img/news/e5628202ee.webp",
-   "t": "2026-11-23",
-   "summary": "HUMAN’s Satori team says it disrupted BADBOX 3.0, an operation mainly run from infected low-cost TV boxes that generated large volumes of ad bid requests.",
-   "why": "Check connected TV devices for compromise and unexpected use of home internet.",
-   "tags": [
-    "BADBOX 3.0",
-    "TV boxes",
-    "ad requests"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f38047c316",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Yes, but securely: A cancer institute’s answer to shadow IT in research",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/rocco-saviano-istituto-nazionale-tumori-int-hospital-microsegmentation/",
-   "snippet": "In this interview with Help Net Security, Rocco Saviano, Director of Digital Transformation, Istituto Nazionale Tumori (INT), talks about keeping a cancer hospital running while protecting it from cyberattacks. He explains what happens when a nurse can’t open a chemotherapy plan, how INT works with smaller partner hosp",
-   "published": "2026-11-23T07:00:33.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/f38047c316.webp",
-   "t": "2026-11-23",
-   "summary": "An interview discusses how a cancer hospital keeps research IT running while protecting it from cyberattacks, including challenges when staff cannot access systems.",
-   "why": "Consider how security controls affect access to research and clinical systems.",
-   "tags": [
-    "shadow IT",
-    "research",
-    "cyberattacks"
-   ],
-   "ai": true
-  },
-  {
-   "id": "f62ca08791",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Xalgorix: Open-source AI penetration testing tool",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/",
-   "snippet": "Xalgorix, an open-source AI penetration testing tool, checks its work before it reports anything. When its main agent finds a bug, a second agent has to exploit that bug again. If the second agent can’t prove the bug is real or rule it out, Xalgorix keeps the finding and flags it for a person to review. The check targe",
-   "published": "2026-11-23T06:30:08.000Z",
-   "also": [],
-   "score": 1.35,
-   "image": "/img/news/f62ca08791.webp",
-   "t": "2026-11-23",
-   "summary": "The Xalgorix open-source AI penetration testing tool uses a second agent to try to verify bugs found by its main agent.",
-   "why": "Understand how independent verification can help assess reported security findings.",
-   "tags": [
-    "Xalgorix",
-    "AI",
-    "penetration testing"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6971a11ad2",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Black Friday scams started earlier this year without the usual red flags",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/",
-   "snippet": "This year’s fake Black Friday deals started appearing on September 1, more than a month earlier than last year, and most of them don’t mention the holiday or use a lookalike address, according to Doppel. The company describes the lure most shoppers are likely to meet this season as “a post in a Facebook group or a page",
-   "published": "2026-11-23T06:00:16.000Z",
-   "also": [],
-   "score": 1.34,
-   "image": "/img/news/6971a11ad2.webp",
-   "t": "2026-11-23",
-   "summary": "Doppel says fake Black Friday deals appeared earlier this year and often lacked the holiday wording or lookalike addresses shoppers might expect.",
-   "why": "Train staff and shoppers to assess deals without relying on familiar scam red flags.",
-   "tags": [
-    "Black Friday",
-    "scams",
-    "lookalike address"
-   ],
-   "ai": true
-  },
-  {
-   "id": "708dbfd388",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
-   "url": "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/",
-   "snippet": "To help organizations strengthen how they govern information and technology, ISACA has released COBIT 7, the latest version of its globally recognized framework for information and technology (I&T) governance. COBIT 7 brings together trusted guidance, an intuitive digital platform, customizable resources, and practical",
-   "published": "2026-11-23T05:30:49.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/708dbfd388.webp",
-   "t": "2026-11-23",
-   "summary": "ISACA released COBIT 7, a new version of its information and technology governance framework that adds AI risk scenarios.",
-   "why": "Review whether governance guidance addresses AI-related risks in your organization.",
-   "tags": [
-    "COBIT 7",
-    "AI risk",
-    "governance"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e84afceb00",
+   "id": "53716c4432",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "snippet": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
-   "published": "2026-11-22T18:45:37.000Z",
+   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "snippet": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+   "published": "2026-11-23T19:42:20.000Z",
    "also": [],
-   "score": 1.31,
-   "image": "/img/news/e84afceb00.webp",
-   "t": "2026-11-22",
-   "summary": "GL.iNet says hackers exploited a flaw in its cloud remote management services to install custom malware on customers' routers and KVM devices; some users report backdoors and reverse shells.",
-   "why": "Check GL.iNet remote management exposure and affected devices for malware, backdoors, or reverse shells.",
+   "score": 1.58,
+   "image": "/img/news/53716c4432.webp",
+   "t": "2026-11-23",
+   "summary": "Microsoft says attackers exploited a flaw in Azure API Management Classic tiers to steal stored API credentials. Norwegian authorities linked the flaw to attacks on energy companies.",
+   "why": "Check APIM Classic deployments and stored API credentials for exposure; follow Microsoft's security guidance.",
    "tags": [
-    "cloud remote management",
-    "routers",
-    "malware"
+    "Azure",
+    "API credentials"
    ],
    "ai": true
   },
   {
-   "id": "855a50efe0",
+   "id": "f714b48247",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-   "snippet": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
-   "published": "2026-11-22T15:43:04.000Z",
+   "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+   "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+   "snippet": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+   "published": "2026-11-23T18:38:40.000Z",
    "also": [],
-   "score": 1.25,
-   "image": "/img/news/855a50efe0.webp",
-   "t": "2026-11-22",
-   "summary": "Cleverbridge warns that hackers breached its systems and stole customers' payment card numbers and CVV security codes.",
-   "why": "Check payment systems and breach notices, and review card data exposure and related transactions.",
+   "score": 1.56,
+   "image": "/img/news/f714b48247.webp",
+   "t": "2026-11-23",
+   "summary": "LaLiga disclosed a breach exposing personal information belonging to users of its services and some affiliated clubs.",
+   "why": "Organizations handling user data should review access controls and breach response procedures.",
    "tags": [
     "data breach",
-    "payment cards",
-    "CVV"
+    "personal data"
    ],
    "ai": true
   },
   {
-   "id": "2361e0929a",
+   "id": "6edcda57eb",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+   "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+   "snippet": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+   "published": "2026-11-23T18:37:00.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/6edcda57eb.webp",
+   "t": "2026-11-23",
+   "summary": "Signal blocks screenshots by Apple and Google operating systems, saying their AI features are making the environment more hostile to privacy.",
+   "why": "Assess how operating-system AI features and screenshots may expose sensitive conversations.",
+   "tags": [
+    "Signal",
+    "privacy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4ca5a6cc42",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+   "url": "https://therecord.media/fbi-cyberattack-data-breach",
+   "snippet": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
+   "published": "2026-11-23T18:30:00.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/4ca5a6cc42.webp",
+   "t": "2026-11-23",
+   "summary": "The FBI is reportedly investigating a breach involving the National Crime Information Center, which holds information on criminals, fugitives and missing people.",
+   "why": "Review protections for sensitive law-enforcement databases and their stored information.",
+   "tags": [
+    "FBI",
+    "data breach"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0af9a75101",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-   "snippet": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
-   "published": "2026-11-22T15:15:25.000Z",
+   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "snippet": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+   "published": "2026-11-23T16:50:01.000Z",
    "also": [],
-   "score": 1.24,
-   "image": "/img/news/2361e0929a.webp",
-   "t": "2026-11-22",
-   "summary": "Signal says new protections block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.",
-   "why": "Review device support and privacy settings if your organization relies on Signal for sensitive conversations.",
+   "score": 1.52,
+   "image": "/img/news/0af9a75101.webp",
+   "t": "2026-11-23",
+   "summary": "A cyberattack disrupted GlobeTopper operations and caused estimated lost revenue; the attacker also redeemed digital gift cards.",
+   "why": "Review operational resilience and controls around digital gift card redemption.",
    "tags": [
-    "Signal",
-    "screenshots",
-    "AI assistants"
+    "cyberattack",
+    "gift cards"
    ],
    "ai": true
   },
   {
-   "id": "b478381ff7",
+   "id": "bcc6ff74f5",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+   "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+   "snippet": "Norwegian energy companies Equinor and Skagerak Energi were affected by a Microsoft cloud security vulnerability that hackers have exploited to target sensitive credentials, Norway's cybersecurity authorities said.",
+   "published": "2026-11-23T15:45:00.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/bcc6ff74f5.webp",
+   "t": "2026-11-23",
+   "summary": "Norwegian cybersecurity authorities say hackers exploited a Microsoft cloud vulnerability to target sensitive credentials at Equinor and Skagerak Energi.",
+   "why": "Energy-sector defenders should check Microsoft cloud exposure and protect sensitive credentials.",
+   "tags": [
+    "Microsoft cloud",
+    "energy"
+   ],
+   "ai": true
+  },
+  {
+   "id": "594a8d6fa6",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "AI Agents Are Creating a Shared Responsibility Gap",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+   "snippet": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
+   "published": "2026-11-23T15:00:10.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/594a8d6fa6.webp",
+   "t": "2026-11-23",
+   "summary": "Token Security says AI agents working across platforms can create security gaps when no single vendor can see or control their actions.",
+   "why": "Inventory agent identities and permissions across platforms, as Token Security recommends.",
+   "tags": [
+    "AI agents",
+    "permissions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4be13f5936",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+   "snippet": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+   "published": "2026-11-23T13:28:45.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/4be13f5936.webp",
+   "t": "2026-11-23",
+   "summary": "Microsoft is working on a fix for a long-standing Windows issue causing significant Bluetooth headphone audio quality drops.",
+   "why": "Track Microsoft's fix if Bluetooth audio quality affects users.",
+   "tags": [
+    "Windows 11",
+    "Bluetooth"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8d556656e2",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Colombia races for counter-drone tech as militant groups embrace drones as frontline weapons",
+   "url": "https://breakingdefense.com/2026/11/colombia-races-for-counter-drone-tech-as-militant-groups-embrace-drones-as-frontline-weapons/",
+   "snippet": "“As knowledge of drone tactics proliferates faster than governments can deploy countermeasures, it seems likely we will begin to see them crop up in more countries in the region,” one analyst told Breaking Defense.",
+   "published": "2026-11-23T19:45:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/8d556656e2.webp",
+   "t": "2026-11-23",
+   "summary": "Colombia is pursuing counter-drone technology as militant groups use drones as frontline weapons. An analyst says drone tactics may spread faster than governments deploy countermeasures.",
+   "why": "Counter-drone capability matters as drones become frontline weapons and tactics spread.",
+   "tags": [
+    "counter-drone",
+    "drones"
+   ],
+   "ai": true
+  },
+  {
+   "id": "d6c7070cfa",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
-   "url": "https://warontherocks.com/the-double-alignment-problem-civil-military-relations-in-the-age-of-artificial-intelligence/",
-   "snippet": "Artificial intelligence poses the greatest challenge to American civil-military relations since the advent of the nuclear bomb. AI plays outside the political bounds that contain other challenges, however odious. It compounds the inherent problem of civil-military relations – aligning the state and the military – with ",
-   "published": "2026-11-23T08:30:35.000Z",
+   "title": "While Shenzhen Talked, Berlin Pulled Up a Chair: Europe’s Generational Bet on Itself and Ukraine",
+   "url": "https://warontherocks.com/while-shenzhen-talked-berlin-pulled-up-a-chair-europes-generational-bet-on-itself-and-ukraine/",
+   "snippet": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country",
+   "published": "2026-11-23T19:20:55.000Z",
    "also": [],
-   "score": 1.6,
-   "image": "/img/news/b478381ff7.webp",
+   "score": 1.57,
+   "image": "/img/news/d6c7070cfa.webp",
    "t": "2026-11-23",
-   "summary": "The article argues that AI poses a major challenge to American civil-military relations and operates outside the political bounds that contain other challenges.",
-   "why": "AI’s role in civil-military relations makes its governance and operational implications relevant.",
+   "summary": "War on the Rocks describes a weekly digest of Ukrainian commentary and analysis from across the political spectrum.",
+   "why": "The digest offers a channel for following Ukrainian political commentary and analysis.",
    "tags": [
-    "artificial intelligence",
-    "civil-military relations"
+    "Ukraine",
+    "commentary"
    ],
    "ai": true
   },
   {
-   "id": "76b1fd1cf5",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "ASELSAN’s GÖKDENIZ Destroys High-Speed Jet Drone in Live-Fire Sea Trial",
-   "url": "https://www.navalnews.com/naval-news/2026/11/aselsans-gokdeniz-destroys-high-speed-jet-drone-in-live-fire-sea-trial/",
-   "snippet": "Featuring automated target prioritization and single-button firing, ASELSAN’s GÖKDENIZ naval defense system downed a jet UAV in live-fire sea trials. The post ASELSAN’s GÖKDENIZ Destroys High-Speed Jet Drone in Live-Fire Sea Trial appeared first on Naval News .",
-   "published": "2026-11-23T08:30:22.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/76b1fd1cf5.webp",
-   "t": "2026-11-23",
-   "summary": "Naval News reports that ASELSAN’s GÖKDENIZ system used automated target prioritization and single-button firing to down a jet UAV in live-fire sea trials.",
-   "why": "The trial highlights automated target handling in naval defense against jet UAVs.",
-   "tags": [
-    "GÖKDENIZ",
-    "target prioritization",
-    "jet UAV"
-   ],
-   "ai": true
-  },
-  {
-   "id": "224b04b8ea",
+   "id": "7625c2f330",
    "section": "warfare",
    "source": "The War Zone",
    "weight": 0.6,
-   "title": "Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase",
-   "url": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
-   "snippet": "Ukraine successfully destroyed a new Russian corvette and has struck two other cargo ships, one in the Mediterranean and one in the Baltic, in just a day. The post Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase appeared first on TWZ .",
-   "published": "2026-11-22T22:26:09.000Z",
+   "title": "Marines Want Naval Strike Missiles With Double The Range",
+   "url": "https://www.twz.com/sea/marines-want-naval-strike-missiles-with-double-the-range",
+   "snippet": "Extended-range NSM cruise missiles would allow Marines to hold warships and ground targets at risk over four times more area. The post Marines Want Naval Strike Missiles With Double The Range appeared first on TWZ .",
+   "published": "2026-11-23T18:45:27.000Z",
    "also": [],
-   "score": 1.39,
-   "image": "/img/news/224b04b8ea.webp",
+   "score": 1.56,
+   "image": "/img/news/7625c2f330.webp",
    "t": "2026-11-23",
-   "summary": "The post says Ukraine destroyed a Russian corvette and struck two cargo ships, one in the Mediterranean and one in the Baltic.",
-   "why": "The reported strikes show naval assets and cargo ships across multiple seas are operationally relevant.",
+   "summary": "Marines want extended-range Naval Strike Missiles, which would allow them to hold warships and ground targets at risk over more area.",
+   "why": "Extended missile range could expand the area Marines can threaten.",
    "tags": [
-    "corvette",
-    "cargo ships",
-    "Mediterranean"
+    "Naval Strike Missiles",
+    "range"
    ],
    "ai": true
   },
   {
-   "id": "6f2c0385ed",
+   "id": "459989f8d5",
    "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Russian Warship Destroyed In Huge Explosion In Libya",
-   "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-   "snippet": "Breaking: A Russian warship explosion in Benghazi, Libya engulfed the Steregushchiy-class corvette Merkury in flames, almost certainly destroying it. A large explosion reported in the Libyan port of Benghazi indicates that a Russian missile corvette has almost certainly been destroyed. Flames engulfed the vessel althou",
-   "published": "2026-11-22T11:59:11.000Z",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "China’s Naval Developments Set For The Spotlight At Zhuhai Airshow",
+   "url": "https://www.twz.com/air/chinas-naval-developments-set-for-the-spotlight-at-zhuhai-airshow",
+   "snippet": "The upcoming exhibition will highlight Beijing’s ambitions for carrier aviation, alongside major surface combatants and emerging uncrewed systems. The post China’s Naval Developments Set For The Spotlight At Zhuhai Airshow appeared first on TWZ .",
+   "published": "2026-11-23T17:30:40.000Z",
    "also": [],
-   "score": 1.07,
-   "image": "/img/news/6f2c0385ed.webp",
+   "score": 1.53,
+   "image": "/img/news/459989f8d5.webp",
    "t": "2026-11-23",
-   "summary": "Naval News reports a large explosion engulfed the Russian corvette Merkury in Benghazi, Libya, and says it was almost certainly destroyed.",
-   "why": "The reported explosion places a Russian naval vessel’s status in focus at a Libyan port.",
+   "summary": "The Zhuhai Airshow will highlight China's ambitions for carrier aviation, major surface combatants and emerging uncrewed systems.",
+   "why": "The exhibition offers a view of China's naval ambitions and uncrewed systems.",
    "tags": [
-    "Merkury",
-    "Benghazi",
-    "explosion"
+    "China",
+    "uncrewed systems"
    ],
    "ai": true
   },
   {
-   "id": "b3203b4a86",
+   "id": "fff4696a64",
    "section": "warfare",
-   "source": "UK Ministry of Defence",
-   "weight": 0.5,
-   "title": "UK reaches for stars with NATO space launch plan",
-   "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
-   "snippet": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
-   "published": "2026-11-22T00:01:05.000Z",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Umbra, ICEYE tout higher-resolution radar imaging with new satellites",
+   "url": "https://breakingdefense.com/2026/11/umbra-iceye-tout-higher-resolution-radar-imaging-with-new-satellites/",
+   "snippet": "Both companies are now offering resolutions significantly lower than the previous industry standard of around 25 centimeters, allowing customers to see smaller ground targets with higher fidelity.",
+   "published": "2026-11-23T17:20:00.000Z",
    "also": [],
-   "score": 0.82,
-   "image": "/img/news/b3203b4a86.webp",
-   "t": "2026-11-22",
-   "summary": "The UK has joined 10 other nations in NATO's STARLIFT initiative to create a network of flexible satellite launch services.",
-   "why": "The initiative concerns allied access to satellite launch services.",
+   "score": 1.53,
+   "image": "/img/news/fff4696a64.webp",
+   "t": "2026-11-23",
+   "summary": "Umbra and ICEYE say their radar imaging offers higher resolution than the previous industry standard, allowing customers to see smaller ground targets with higher fidelity.",
+   "why": "Higher-resolution radar imaging may improve the observation of smaller ground targets.",
+   "tags": [
+    "radar imaging",
+    "resolution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "09c987da9a",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Beijing’s takeaway from the midterms: Will to fight and AI skepticism",
+   "url": "https://breakingdefense.com/2026/11/beijings-takeaway-from-the-midterms-will-to-fight-and-ai-skepticism/",
+   "snippet": "The 2026 midterms exposed vulnerabilities in American attitudes toward war, economic hardship and AI that Beijing could leverage in a future conflict.",
+   "published": "2026-11-23T16:21:11.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/09c987da9a.webp",
+   "t": "2026-11-23",
+   "summary": "Breaking Defense says the 2026 midterms exposed vulnerabilities in American attitudes toward war, economic hardship and AI that Beijing could leverage in a future conflict.",
+   "why": "The account highlights domestic attitudes as a possible consideration in conflict analysis.",
+   "tags": [
+    "midterms",
+    "AI"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b1ec09a05b",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
+   "url": "https://www.defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
+   "snippet": "While Ukrainian innovators pioneer frontline aerial drone evacuation, DARPA develops AI-assisted robots to find and assess injured troops and civilians. The race to save lives is on.",
+   "published": "2026-11-23T20:23:07.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/b1ec09a05b.webp",
+   "t": "2026-11-23",
+   "summary": "Ukrainian innovators are developing frontline aerial drone evacuation, while DARPA is developing AI-assisted robots to find and assess injured troops and civilians.",
+   "why": "Drones and robots are being developed to locate and assess people needing battlefield assistance.",
+   "tags": [
+    "battlefield drones",
+    "AI-assisted robots"
+   ],
+   "ai": true
+  },
+  {
+   "id": "df8e769b27",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Yes, no, maybe? The countries that can (or can’t) deliver Ukraine’s 40 requested F-16s",
+   "url": "https://breakingdefense.com/2026/11/yes-no-maybe-the-countries-that-can-or-cant-deliver-ukraines-40-requested-f-16s/",
+   "snippet": "“Forty F-16s is a legitimate request, and there is an urgency, but it is an ambitious, big number and definitely not easy to get them in Ukraine, especially in a short period of time,” analyst Federico Borsari told Breaking Defense.",
+   "published": "2026-11-23T15:10:53.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/df8e769b27.webp",
+   "t": "2026-11-23",
+   "summary": "An analyst says Ukraine's request for 40 F-16s is urgent but ambitious and difficult to fulfill in a short period.",
+   "why": "The story highlights the challenge of supplying requested aircraft within a short period.",
+   "tags": [
+    "Ukraine",
+    "F-16s"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2fcd746ebe",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Nvidia board reinstates Jensen Huang as CEO",
+   "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo?traffic_source=rss",
+   "snippet": "Huang stepped down earlier this month after revelations of at least two affairs, including with a suspected Chinese spy.",
+   "published": "2026-11-23T14:24:38.000Z",
+   "also": [
+    {
+     "source": "DW",
+     "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "score": 1.72,
+   "image": "/img/news/2fcd746ebe.webp",
+   "t": "2026-11-23",
+   "summary": "Al Jazeera reports that Nvidia's board reinstated Jensen Huang as CEO after he stepped down following revelations of at least two affairs, including with a suspected Chinese spy.",
+   "why": "The report places a technology-company leadership change alongside a suspected espionage matter.",
+   "tags": [
+    "Nvidia",
+    "espionage"
+   ],
+   "ai": true
+  },
+  {
+   "id": "491e4c04a6",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Belgian Defense Lays Out New Funding for Autonomous Navigation",
+   "url": "https://insidegnss.com/belgian-defense-lays-out-new-funding-for-autonomous-navigation/",
+   "snippet": "A new Belgian funding initiative is targeting two technologies intended to keep spacecraft navigating in orbit when satellite signals and other external references... The post Belgian Defense Lays Out New Funding for Autonomous Navigation appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, ",
+   "published": "2026-11-23T18:59:23.000Z",
+   "also": [],
+   "score": 1.66,
+   "t": "2026-11-23",
+   "summary": "Belgian Defense announced funding for technologies intended to help spacecraft navigate in orbit when satellite signals and other external references are unavailable.",
+   "why": "Autonomous navigation is relevant to spacecraft operating without satellite signals or external references.",
+   "tags": [
+    "autonomous navigation",
+    "spacecraft"
+   ],
+   "ai": true
+  },
+  {
+   "id": "258e1acb30",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "What NATO allies can learn from World War II partnerships about defense industrial production",
+   "url": "https://www.atlanticcouncil.org/dispatches/what-nato-allies-can-learn-from-world-war-ii-partnerships-about-defense-industrial-production/",
+   "snippet": "The industrial ingenuity of World War II allies offers a blueprint for today's NATO allies to expand defense industry and emerging technologies production. The post What NATO allies can learn from World War II partnerships about defense industrial production appeared first on Atlantic Council .",
+   "published": "2026-11-23T17:11:13.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/258e1acb30.webp",
+   "t": "2026-11-23",
+   "summary": "The Atlantic Council says World War II allies' industrial ingenuity offers NATO allies a blueprint to expand defense industry and emerging-technology production.",
+   "why": "Defense industrial production is relevant to NATO allies' capacity to expand emerging technologies.",
    "tags": [
     "NATO",
-    "satellite launch",
-    "STARLIFT"
+    "defense industry"
+   ],
+   "ai": true
+  },
+  {
+   "id": "cf7fd628fc",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Ukraine’s Energy Plan Was Too Little, Too Late",
+   "url": "https://foreignpolicy.com/2026/11/23/ukraine-winter-energy-renewables-russian-strikes-infrastructure/",
+   "snippet": "The country’s push for renewables fell short—and now it’s paying the price.",
+   "published": "2026-11-23T17:25:53.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/cf7fd628fc.webp",
+   "t": "2026-11-23",
+   "summary": "Foreign Policy says Ukraine's push for renewables fell short and that the country is paying the price.",
+   "why": "The account raises the strategic relevance of renewable energy planning in Ukraine.",
+   "tags": [
+    "Ukraine",
+    "renewables"
+   ],
+   "ai": true
+  },
+  {
+   "id": "703e15aeff",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+   "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+   "published": "2026-11-23T17:07:25.000Z",
+   "also": [],
+   "score": 1.52,
+   "image": "/img/news/703e15aeff.webp",
+   "t": "2026-11-23",
+   "summary": "Oxfam says Israeli attacks have turned Gaza into a 'toxic wasteland'; its report describes signs of possible contamination across almost all of Gaza.",
+   "why": "Possible contamination across Gaza has geographic and environmental relevance.",
+   "tags": [
+    "Gaza",
+    "contamination"
    ],
    "ai": true
   },
@@ -338,12 +505,12 @@
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia.",
-   "published": "2026-11-23T08:36:57.000Z",
+   "snippet": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
+   "published": "2026-11-23T15:41:23.000Z",
    "also": [],
-   "score": 1.6,
+   "score": 1.49,
    "image": "/img/news/8c752d8944.webp",
    "t": "2026-11-22",
    "summary": "Officials say an explosion on a Russian ship at a Libya port was caused by a suspected drone attack. Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
@@ -356,161 +523,73 @@
    "ai": true
   },
   {
-   "id": "0b6b9c70b9",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-   "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
-   "published": "2026-11-23T05:15:06.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/0b6b9c70b9.webp",
-   "t": "2026-11-23",
-   "summary": "The longest-ever UN climate talks ended without a deal. Australia’s prime minister attributed the failure to difficult geopolitical times.",
-   "why": "The outcome points to geopolitical divisions affecting international climate negotiations.",
-   "tags": [
-    "UN climate talks",
-    "geopolitical times",
-    "COP31"
-   ],
-   "ai": true
-  },
-  {
-   "id": "17ffcf78e7",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-   "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
-   "published": "2026-11-23T05:33:17.000Z",
-   "also": [],
-   "score": 1.53,
-   "image": "/img/news/17ffcf78e7.webp",
-   "t": "2026-11-23",
-   "summary": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
-   "why": "The attack and ongoing rescue efforts are relevant to civilian safety and the local situation.",
-   "tags": [
-    "Dymer",
-    "Russian strike",
-    "rescue"
-   ],
-   "tried": true,
-   "ai": false
-  },
-  {
-   "id": "c8f40f6d3f",
+   "id": "42402989af",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Ukraine claims responsiblity for drone attacks on Russian ships off Libya",
-   "url": "https://www.aljazeera.com/news/2026/11/23/ukraine-claims-responsiblity-for-drone-attacks-on-russian-ships-off-libya?traffic_source=rss",
-   "snippet": "President Zelenskyy hails \"an exemplary Ukrainian operation\" as UN calls for investigation",
-   "published": "2026-11-23T08:12:29.000Z",
+   "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+   "snippet": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
+   "published": "2026-11-23T20:26:40.000Z",
    "also": [],
    "score": 1.49,
+   "image": "/img/news/42402989af.webp",
    "t": "2026-11-23",
-   "summary": "Ukraine claimed responsibility for drone attacks on Russian ships off Libya. Zelenskyy called it an exemplary operation; the UN called for an investigation.",
-   "why": "The claims draw attention to drone operations against ships near Libya and calls for investigation.",
+   "summary": "Al Jazeera reports that Iran has ramped up attacks on US bases and civilian sites in the Gulf after a lull, amid a US naval blockade and sanctions campaign.",
+   "why": "The report concerns security dynamics around US bases and civilian sites in the Gulf.",
    "tags": [
-    "Ukraine",
-    "drone attacks",
-    "Libya"
+    "Iran",
+    "Gulf"
    ],
    "ai": true
   },
   {
-   "id": "20e9d0df2d",
+   "id": "7c23f86763",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
-   "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
-   "snippet": "President Zelenskyy says Ukrainian forces sank the Russian warship Merkury in an \"exemplary\" sea drone operation.",
-   "published": "2026-11-23T07:37:09.000Z",
+   "title": "Jensen Huang reinstated as Nvidia chief: How did we get here?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss",
+   "snippet": "Just 11 days after resigning over a suspected espionage scandal, Jensen Huang has been reinstated as Nvidia’s CEO.",
+   "published": "2026-11-23T20:22:12.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/20e9d0df2d.webp",
+   "score": 1.49,
+   "image": "/img/news/7c23f86763.webp",
    "t": "2026-11-23",
-   "summary": "Zelenskyy said Ukrainian forces sank the Russian warship Merkury in a sea drone operation near Libya.",
-   "why": "The claim highlights the operational reach of sea drone attacks near Libya.",
+   "summary": "Al Jazeera reports that Jensen Huang was reinstated as Nvidia CEO 11 days after resigning over a suspected espionage scandal.",
+   "why": "The reported leadership change links a major technology company with a suspected espionage scandal.",
    "tags": [
-    "Merkury",
-    "sea drone",
-    "Libya"
-   ],
-   "ai": true
-  },
-  {
-   "id": "42f3dcde72",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Israeli attacks on medics in occupied West Bank surge by 350%: Rights group",
-   "url": "https://www.aljazeera.com/news/2026/11/23/israeli-attacks-on-medics-in-occupied-west-bank-surge-by-350-rights-group?traffic_source=rss",
-   "snippet": "Physicians for Human Rights Israel says medics face 'dangerous escalation' in violence from soldiers and settlers.",
-   "published": "2026-11-23T05:38:01.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/42f3dcde72.webp",
-   "t": "2026-11-23",
-   "summary": "Physicians for Human Rights Israel says medics face a dangerous escalation in violence from soldiers and settlers in the occupied West Bank.",
-   "why": "The report raises concerns about the safety of medics in the occupied West Bank.",
-   "tags": [
-    "medics",
-    "West Bank",
-    "violence"
-   ],
-   "ai": true
-  },
-  {
-   "id": "af1402a273",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Child rescued in Ukraine after Russian drone attack kills 10",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
-   "snippet": "A seven-year-old boy called David was rescued after spending 14 hours trapped in the rubble of a Russian drone attack.",
-   "published": "2026-11-23T04:38:14.000Z",
-   "also": [],
-   "score": 1.41,
-   "image": "/img/news/af1402a273.webp",
-   "t": "2026-11-23",
-   "summary": "A seven-year-old boy was rescued after spending 14 hours trapped in rubble following a Russian drone attack in Ukraine. The title says the attack killed 10.",
-   "why": "The report underscores civilian harm and rescue needs after a drone attack.",
-   "tags": [
-    "Ukraine",
-    "drone attack",
-    "rescue"
-   ],
-   "ai": true
-  },
-  {
-   "id": "c80858be24",
-   "section": "geo",
-   "source": "DW",
-   "weight": 0.4,
-   "title": "Ukraine updates: Russian strikes kill several in Kyiv region",
-   "url": "https://www.dw.com/en/ukraine-updates-russian-strikes-kill-several-in-kyiv-region/live-80015859?maca=en-rss-en-all-1573-rdf",
-   "snippet": "Overnight attacks claimed the lives of civilians in the Kyiv region. Also, NATO is set to discuss Russian violations of Polish airspace. Follow live.",
-   "published": "2026-11-23T07:42:00.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/c80858be24.webp",
-   "t": "2026-11-23",
-   "summary": "DW reports that Russian strikes killed civilians in the Kyiv region and says NATO is set to discuss Russian violations of Polish airspace.",
-   "why": "The report links civilian impacts in Ukraine with airspace concerns involving Poland.",
-   "tags": [
-    "Kyiv region",
-    "Russian strikes",
-    "Polish airspace"
+    "Nvidia",
+    "espionage"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-133968",
+   "vendor": "Project MONAI",
+   "product": "MONAI Label",
+   "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "added": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+  },
+  {
+   "cve": "CVE-2026-134624",
+   "vendor": "N-able",
+   "product": "MailAssure",
+   "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+  },
   {
    "cve": "CVE-2026-129448",
    "vendor": "Apache",
@@ -566,7 +645,7 @@
    "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
    "added": "2026-11-18",
    "due": "2026-11-21",
-   "ransomware": false,
+   "ransomware": true,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 9.8,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
@@ -630,74 +709,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 8.6,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-  },
-  {
-   "cve": "CVE-2026-123039",
-   "vendor": "Check Point",
-   "product": "Multiple Products",
-   "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-   "added": "2026-11-13",
-   "due": "2026-11-16",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 7.8,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-  },
-  {
-   "cve": "CVE-2026-124194",
-   "vendor": "Microsoft",
-   "product": "Office",
-   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-   "added": "2026-11-10",
-   "due": "2026-11-24",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 6.5,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
   }
  ],
  "run_today": [
-  "Check Cisco Expressway systems and confirm the recently patched vulnerability is addressed.",
-  "Review payment controls and investigate suspicious transactions or activity in affected ICT assets.",
-  "Check connected TV devices for compromise and unexpected use of home internet."
+  "Check Azure API Management Classic deployments and stored API credentials for exposure.",
+  "Review AI provider data-handling practices and whether sensitive prompts or secrets were exposed.",
+  "Inventory AI agent identities and permissions across platforms."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "RCE",
-   "explainer": "Remote code execution (RCE) is a vulnerability that can let an attacker run code on a device or system from another location. The Cisco Expressway item describes a critical RCE flaw.",
-   "from_id": "5d81d80910",
-   "from": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "term": "API credentials",
+   "explainer": "API credentials are stored authentication details used to access an application programming interface. If exposed or stolen, they can put the systems or services they authorize at risk.",
+   "from_id": "53716c4432",
+   "from": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
    "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "automated target prioritization",
-   "explainer": "Automated target prioritization is a system’s use of automation to rank or select targets for attention. The GÖKDENIZ report says the naval defense system features this capability.",
-   "from_id": "76b1fd1cf5",
-   "from": "https://www.navalnews.com/naval-news/2026/11/aselsans-gokdeniz-destroys-high-speed-jet-drone-in-live-fire-sea-trial/",
-   "fromSource": "Naval News"
+   "term": "counter-drone technology",
+   "explainer": "Counter-drone technology refers to tools or systems intended to counter drones. The Colombia story presents it as a response to militant groups using drones as frontline weapons.",
+   "from_id": "8d556656e2",
+   "from": "https://breakingdefense.com/2026/11/colombia-races-for-counter-drone-tech-as-militant-groups-embrace-drones-as-frontline-weapons/",
+   "fromSource": "Breaking Defense"
   },
   {
    "domain": "geo",
-   "term": "geopolitical times",
-   "explainer": "Geopolitical times refers here to the international political conditions Australia’s prime minister cited when explaining why the UN climate talks ended without a deal.",
-   "from_id": "0b6b9c70b9",
-   "from": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "autonomous navigation",
+   "explainer": "Autonomous navigation is a system's ability to determine and maintain its route without relying on external references. The Belgian funding item concerns spacecraft navigating in orbit when satellite signals and other references are unavailable.",
+   "from_id": "491e4c04a6",
+   "from": "https://insidegnss.com/belgian-defense-lays-out-new-funding-for-autonomous-navigation/",
+   "fromSource": "Inside GNSS"
   }
  ],
  "analysis": {
-  "headline": "Systems, weapons and diplomacy under strain",
+  "headline": "Trust, access and autonomy across systems",
   "paragraphs": [
-   "Across today’s stories, high-consequence systems are central: AI in civil-military relations, automated naval defense, cyberattacks on ICT assets, and strikes affecting civilians. These reports differ in evidence and context, but together suggest that analysts must distinguish claims, confirmed details and unresolved questions.",
-   "For defenders, CISA’s warning about active exploitation of a patched Cisco Expressway flaw calls for attention to patch status. The CERT-In warning and BADBOX report add other areas to review: payment activity and connected devices. These cyber stories do not establish a shared campaign, so treat them as separate signals.",
-   "The reports of Ukrainian drone attacks on Russian ships near Libya include claims from Ukraine and a statement about the vessel’s stop from Libya’s eastern government. Meanwhile, the climate talks ended without agreement amid cited geopolitical divisions. Watch for further reporting that clarifies events, claims and operational implications."
+   "The cyber stories connect through questions of control and trust across complex systems. OpenRouter removed providers over exposed sensitive data, while Microsoft says attackers exploited an Azure flaw to steal stored API credentials. CrowdStrike's planned purchase of Zscaler adds a major security-company move, but the supplied details do not establish what it will mean for customers.",
+   "The other top stories widen the lens. Nvidia's board reinstated its CEO after a reported suspected espionage scandal, while Belgian Defense is funding technologies for spacecraft navigation when satellite signals and other external references are unavailable. These accounts concern different settings, but each makes governance, trust or the ability to operate without a familiar reference point relevant to analysts.",
+   "Colombia's counter-drone effort highlights the operational challenge of responding as drone tactics spread, according to an analyst. Taken together, the stories suggest defenders and analysts should distinguish reported claims from established detail, examine dependencies and access, and watch how organizations handle sensitive data and systems that operate across platforms or without external references."
   ],
   "takeaways": [
-   "Verify Cisco Expressway patch status and review payment activity.",
-   "Separate reported claims from independently established details.",
-   "Track how AI and automation shape military decision-making and defense."
+   "Check stored credentials and provider data-handling practices.",
+   "Track how organizations manage trust and access across systems.",
+   "Watch counter-drone efforts and autonomous navigation technologies."
   ]
  },
  "health": [
@@ -717,37 +772,37 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 5
+   "n": 12
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 3
+   "n": 8
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 8
   },
   {
    "name": "Help Net Security",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Unit 42",
@@ -771,25 +826,25 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 4
   },
   {
    "name": "Defense One",
@@ -801,13 +856,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 5
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 2
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "name": "Bellingcat",
@@ -837,19 +892,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
    "name": "SpaceNews",
@@ -861,7 +916,7 @@
    "name": "RAND",
    "section": "geo",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "The Diplomat",
@@ -873,7 +928,7 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "BBC World",
@@ -885,13 +940,13 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 10
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 5
   }
  ]
 }
