@@ -1,397 +1,481 @@
 {
  "date": "2026-11-24",
  "edition": 253,
- "compiled": "2026-11-24T05:05:13.814Z",
+ "compiled": "2026-11-24T16:04:14.659Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "c23cd2a7d9",
+   "id": "230a967c24",
    "section": "cyber",
-   "source": "The Record",
+   "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "CrowdStrike to purchase Zscaler for $43.9 billion",
-   "url": "https://therecord.media/crowdstrike-zscaler",
-   "snippet": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
-   "published": "2026-11-23T17:14:00.000Z",
+   "title": "McDonald's Japan data breach exposes customer location information",
+   "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+   "snippet": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+   "published": "2026-11-24T14:09:37.000Z",
    "also": [
     {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/"
-    },
-    {
-     "source": "Help Net Security",
-     "url": "https://www.helpnetsecurity.com/2026/11/23/crowdstrike-zscaler-43-9-billion-acquisition/"
+     "source": "The Record",
+     "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
     }
    ],
-   "score": 2.05,
-   "image": "/img/news/c23cd2a7d9.webp",
-   "t": "2026-11-23",
-   "summary": "CrowdStrike plans to purchase Zscaler for $43.9 billion. CEO George Kurtz says he sees a path to building a major AI safety and security company.",
-   "why": "Defenders should track how the proposed purchase may affect the security products and services they rely on.",
+   "score": 1.91,
+   "image": "/img/news/230a967c24.webp",
+   "t": "2026-11-24",
+   "summary": "McDonald's Japan disclosed a breach after attackers accessed a database containing sensitive information for users of its official smartphone app, including location information.",
+   "why": "Check what app-user location data was stored and review access to the affected database.",
    "tags": [
-    "AI safety",
-    "security"
+    "data breach",
+    "location information"
    ],
    "ai": true
   },
   {
-   "id": "12b4ad14dd",
+   "id": "e1d950e00d",
    "section": "cyber",
    "source": "CISA Advisories",
    "weight": 0.9,
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "snippet": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exp",
-   "published": "2026-11-23T12:00:00.000Z",
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or i",
+   "published": "2026-11-24T12:00:00.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.82,
    "t": "2026-11-24",
-   "summary": "CISA says it added two vulnerabilities to its Known Exploited Vulnerabilities Catalog.",
-   "why": "Check the catalog and prioritize remediation of vulnerabilities listed there.",
+   "summary": "CISA says Schneider Electric is aware of a vulnerability in EcoStruxure Power Build Rapsody software; the supplied snippet gives no further details.",
+   "why": "Check whether your environment uses the software and consult the advisory for mitigation guidance.",
    "tags": [
-    "CISA",
-    "vulnerabilities",
-    "catalog"
+    "vulnerability",
+    "software"
    ],
    "ai": true
   },
   {
-   "id": "5e4209ae37",
+   "id": "153407077d",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Danfoss AK-SM 8xxA Series",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.</strong></p> <p>The following v",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.82,
+   "t": "2026-11-24",
+   "summary": "CISA says successful exploitation of a vulnerability in the Danfoss AK-SM 8xxA Series could allow arbitrary code execution.",
+   "why": "Identify affected systems and review the advisory for recommended mitigations.",
+   "tags": [
+    "vulnerability",
+    "arbitrary code"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0e0d7bdcc4",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.82,
+   "t": "2026-11-24",
+   "summary": "CISA says successful exploitation of a vulnerability in AutomationDirect C-More EA9 Programming Software could corrupt application memory.",
+   "why": "Check for the software and consult CISA’s advisory for defensive steps.",
+   "tags": [
+    "vulnerability",
+    "application memory"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bef9cf015c",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "Recent Trends and Tactics of Agentic AI Attacks",
+   "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+   "snippet": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42 .",
+   "published": "2026-11-24T15:00:19.000Z",
+   "also": [],
+   "score": 1.68,
+   "image": "/img/news/bef9cf015c.webp",
+   "t": "2026-11-24",
+   "summary": "Unit 42 says it tracked campaigns using autonomous AI agents to automate multi-platform intrusions with standard tools and distinct operational traces.",
+   "why": "Review detections for unusual multi-platform activity and traces associated with automated use of standard tools.",
+   "tags": [
+    "AI agents",
+    "intrusions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3e9064fe72",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
-   "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
-   "snippet": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+   "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+   "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+   "snippet": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
    "published": "2026-11-24T00:00:00.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/5e4209ae37.webp",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/"
+    }
+   ],
+   "score": 1.62,
+   "image": "/img/news/3e9064fe72.webp",
    "t": "2026-11-24",
-   "summary": "Austria's Foreign Ministry said hackers breached a website and accessed employees' names and official contact information.",
-   "why": "Review exposed contact details and alert employees to suspicious messages.",
+   "summary": "The Record reports that a British cybercriminal who hacked Rockstar Games and leaked Grand Theft Auto VI footage was sentenced to seven years, then released on license because of time served.",
+   "why": "The case illustrates the legal consequences reported for a breach and data leak.",
    "tags": [
-    "breach",
-    "contact information",
-    "Austria"
+    "hacking",
+    "data leak"
    ],
    "ai": true
   },
   {
-   "id": "f1397973b7",
+   "id": "1f75de46df",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-   "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-   "snippet": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-   "published": "2026-11-23T20:54:51.000Z",
+   "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+   "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+   "snippet": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+   "published": "2026-11-24T15:10:10.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/f1397973b7.webp",
+   "score": 1.58,
+   "image": "/img/news/1f75de46df.webp",
    "t": "2026-11-24",
-   "summary": "KEPCO confirmed a breach affecting two systems with customer, employee, and contractor data.",
-   "why": "Review access to affected systems and assess exposure of personal data.",
+   "summary": "BleepingComputer reports that authorities from 11 countries disrupted 57 illegal streaming services operating hundreds of websites.",
+   "why": "The cross-border action highlights coordination in disrupting online services.",
    "tags": [
-    "KEPCO",
-    "data breach",
-    "systems"
+    "streaming services",
+    "law enforcement"
    ],
    "ai": true
   },
   {
-   "id": "ad3d2932dd",
+   "id": "a903b208e0",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-   "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-   "snippet": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-   "published": "2026-11-23T20:00:20.000Z",
+   "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+   "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+   "snippet": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve software resilience. [...]",
+   "published": "2026-11-24T15:01:11.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/ad3d2932dd.webp",
-   "t": "2026-11-23",
-   "summary": "OpenRouter removed three AI providers after finding they violated stated data-handling policies and exposed sensitive data.",
-   "why": "Review provider data-handling practices and check whether sensitive prompts or secrets were exposed.",
-   "tags": [
-    "AI providers",
-    "sensitive data"
-   ],
-   "ai": true
-  },
-  {
-   "id": "53716c4432",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-   "snippet": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
-   "published": "2026-11-23T19:42:20.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/53716c4432.webp",
-   "t": "2026-11-23",
-   "summary": "Microsoft says attackers exploited a flaw in Azure API Management Classic tiers to steal stored API credentials. Norwegian authorities linked the flaw to attacks on energy companies.",
-   "why": "Check APIM Classic deployments and stored API credentials for exposure; follow Microsoft's security guidance.",
-   "tags": [
-    "Azure",
-    "API credentials"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5d936f8990",
-   "section": "cyber",
-   "source": "Help Net Security",
-   "weight": 0.4,
-   "title": "Stalwart: Open-source Microsoft Exchange replacement",
-   "url": "https://www.helpnetsecurity.com/2026/11/24/stalwart-microsoft-exchange-replacement/",
-   "snippet": "Stalwart, an open source mail server, shipped version 1.2.0 with support for the protocols Exchange clients speak: MAPI over HTTP, Exchange Web Services (EWS), Exchange ActiveSync and Autodiscover. Outlook, Apple Mail and the built-in apps on phones connect to it as they would to an Exchange server, with mail, calendar",
-   "published": "2026-11-24T05:00:26.000Z",
-   "also": [],
-   "score": 1.4,
-   "image": "/img/news/5d936f8990.webp",
+   "score": 1.58,
+   "image": "/img/news/a903b208e0.webp",
    "t": "2026-11-24",
-   "summary": "Stalwart, an open-source mail server, released version 1.2.0 with support for protocols used by Exchange clients.",
-   "why": "Assess protocol compatibility and security requirements before adopting a mail-server alternative.",
+   "summary": "RapidFort says AI-driven development adds software supply-chain complexity and vulnerability noise; it points to runtime visibility, container hardening, and automated remediation.",
+   "why": "Prioritize visibility into running workloads and assess whether reported vulnerabilities pose practical risk.",
    "tags": [
-    "Stalwart",
-    "Exchange",
-    "mail server"
+    "supply chain",
+    "runtime visibility"
    ],
    "ai": true
   },
   {
-   "id": "f714b48247",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-   "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-   "snippet": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-   "published": "2026-11-23T18:38:40.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/f714b48247.webp",
-   "t": "2026-11-23",
-   "summary": "LaLiga disclosed a breach exposing personal information belonging to users of its services and some affiliated clubs.",
-   "why": "Organizations handling user data should review access controls and breach response procedures.",
-   "tags": [
-    "data breach",
-    "personal data"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6edcda57eb",
+   "id": "8476cf3721",
    "section": "cyber",
    "source": "The Record",
    "weight": 0.6,
-   "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
-   "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-   "snippet": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
-   "published": "2026-11-23T18:37:00.000Z",
+   "title": "CISA warns of exploited N-able bug as company restores email platform",
+   "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+   "snippet": "The U.S. cyber agency is giving government departments until Thanksgiving to patch a vulnerability impacting a critical email security platform that blocks spam, malware and other threats.",
+   "published": "2026-11-24T15:00:00.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/6edcda57eb.webp",
-   "t": "2026-11-23",
-   "summary": "Signal blocks screenshots by Apple and Google operating systems, saying their AI features are making the environment more hostile to privacy.",
-   "why": "Assess how operating-system AI features and screenshots may expose sensitive conversations.",
-   "tags": [
-    "Signal",
-    "privacy"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4ca5a6cc42",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "FBI reportedly facing second data breach involving National Crime Information Center",
-   "url": "https://therecord.media/fbi-cyberattack-data-breach",
-   "snippet": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
-   "published": "2026-11-23T18:30:00.000Z",
-   "also": [],
-   "score": 1.38,
-   "image": "/img/news/4ca5a6cc42.webp",
-   "t": "2026-11-23",
-   "summary": "The FBI is reportedly investigating a breach involving the National Crime Information Center, which holds information on criminals, fugitives and missing people.",
-   "why": "Review protections for sensitive law-enforcement databases and their stored information.",
-   "tags": [
-    "FBI",
-    "data breach"
-   ],
-   "ai": true
-  },
-  {
-   "id": "18c2a5cab4",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Did Ukraine Use A Mothership To Launch Its Sea Drone Attack On Russian Ships in Benghazi?",
-   "url": "https://www.twz.com/sea/did-ukraine-use-a-mothership-to-launch-its-sea-drone-attack-on-russian-ships-in-benghazi",
-   "snippet": "A clandestine mothership would give Ukraine the ability to expand attacks on Russian shipping far from the Black Sea. The post Did Ukraine Use A Mothership To Launch Its Sea Drone Attack On Russian Ships in Benghazi? appeared first on TWZ .",
-   "published": "2026-11-23T22:12:53.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/18c2a5cab4.webp",
+   "score": 1.58,
+   "image": "/img/news/8476cf3721.webp",
    "t": "2026-11-24",
-   "summary": "The War Zone asks whether Ukraine used a clandestine mothership in a sea-drone attack; such a vessel could extend attacks on Russian shipping beyond the Black Sea.",
-   "why": "A mothership could affect the reach and launch options of sea-drone operations.",
+   "summary": "The Record says CISA is giving government departments until Thanksgiving to patch an exploited N-able vulnerability affecting an email security platform.",
+   "why": "Check for the affected platform and prioritize patching in line with CISA’s warning.",
    "tags": [
-    "mothership",
-    "sea drone",
-    "shipping"
+    "exploited vulnerability",
+    "email security"
    ],
    "ai": true
   },
   {
-   "id": "8d556656e2",
+   "id": "e94ac3e9d5",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+   "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+   "snippet": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
+   "published": "2026-11-24T13:34:23.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/e94ac3e9d5.webp",
+   "t": "2026-11-24",
+   "summary": "BleepingComputer reports that OpenAI and Cisco launched Shirudo, an open-source tool that provides temporary runtime protections for unpatched Linux systems while administrators prepare patches.",
+   "why": "Assess whether temporary runtime protections can reduce exposure while patching is underway.",
+   "tags": [
+    "Linux",
+    "runtime protections"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2f598d3846",
    "section": "warfare",
    "source": "Breaking Defense",
    "weight": 0.6,
-   "title": "Colombia races for counter-drone tech as militant groups embrace drones as frontline weapons",
-   "url": "https://breakingdefense.com/2026/11/colombia-races-for-counter-drone-tech-as-militant-groups-embrace-drones-as-frontline-weapons/",
-   "snippet": "“As knowledge of drone tactics proliferates faster than governments can deploy countermeasures, it seems likely we will begin to see them crop up in more countries in the region,” one analyst told Breaking Defense.",
-   "published": "2026-11-23T19:45:00.000Z",
+   "title": "Rehearsing the Indo-Pacific fight with AI-enhanced simulation",
+   "url": "https://breakingdefense.com/2026/11/rehearsing-the-indo-pacific-fight-with-ai-enhanced-simulation/",
+   "snippet": "[Sponsored] Live, virtual and constructed environments help teach troops how to respond to real-world challenges.",
+   "published": "2026-11-24T15:47:26.000Z",
    "also": [],
-   "score": 1.41,
-   "image": "/img/news/8d556656e2.webp",
-   "t": "2026-11-23",
-   "summary": "Colombia is pursuing counter-drone technology as militant groups use drones as frontline weapons. An analyst says drone tactics may spread faster than governments deploy countermeasures.",
-   "why": "Counter-drone capability matters as drones become frontline weapons and tactics spread.",
+   "score": 1.59,
+   "image": "/img/news/2f598d3846.webp",
+   "t": "2026-11-24",
+   "summary": "Breaking Defense describes live, virtual, and constructed environments used to teach troops responses to real-world challenges through AI-enhanced simulation.",
+   "why": "Simulation connects AI-enabled training with rehearsal of operational responses.",
    "tags": [
-    "counter-drone",
-    "drones"
+    "AI simulation",
+    "training"
    ],
    "ai": true
   },
   {
-   "id": "d6c7070cfa",
+   "id": "f64f1e54b9",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "Trump’s carrier desire might not take flight, and a new twist for Navy shipbuilding",
+   "url": "https://breakingdefense.com/2026/11/trumps-carrier-desire-might-not-take-flight-and-a-new-twist-for-navy-shipbuilding/",
+   "snippet": "The president’s carrier-launch preferences are grounded on Capitol Hill, while the Navy’s shipbuilding strategy may be headed for a revision.",
+   "published": "2026-11-24T15:15:00.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/f64f1e54b9.webp",
+   "t": "2026-11-24",
+   "summary": "Breaking Defense says the president’s carrier-launch preferences face obstacles in Congress, while the Navy’s shipbuilding strategy may be revised.",
+   "why": "Carrier preferences and possible strategy changes are relevant to naval force planning.",
+   "tags": [
+    "carrier",
+    "shipbuilding"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b179a45086",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+   "url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+   "snippet": "Wes Streeting has become the first UK Defence Secretary to visit Kharkiv – 20km from the frontline in Eastern Ukraine – meeting troops at the forefront of Ukraine’s fight for freedom and reaffirming the UK’s unwavering commitment to stand with the Ukrainian people.",
+   "published": "2026-11-24T15:09:26.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/b179a45086.webp",
+   "t": "2026-11-24",
+   "summary": "The UK Ministry of Defence says Wes Streeting visited Kharkiv, met troops, and reaffirmed UK support for Ukraine.",
+   "why": "The visit and stated support are relevant to the UK’s engagement with Ukraine.",
+   "tags": [
+    "Kharkiv",
+    "Ukraine"
+   ],
+   "ai": true
+  },
+  {
+   "id": "895d7ed370",
    "section": "warfare",
    "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "While Shenzhen Talked, Berlin Pulled Up a Chair: Europe’s Generational Bet on Itself and Ukraine",
-   "url": "https://warontherocks.com/while-shenzhen-talked-berlin-pulled-up-a-chair-europes-generational-bet-on-itself-and-ukraine/",
-   "snippet": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country",
-   "published": "2026-11-23T19:20:55.000Z",
+   "title": "Battlefield Power Is Running Short",
+   "url": "https://warontherocks.com/cogs-of-war/battlefield-power-is-running-short/",
+   "snippet": "Drones, counter-drone systems, electronic warfare, and edge computing all run on power. Soldiers need more of it, in more places, farther from their supply lines than ever before. How will the Army get it to them? Alex Miller (U.S. Army), Ben Kesling (Chariot Defense), Julie Bush (Valinor Enterprises), and Joel Dillon ",
+   "published": "2026-11-24T09:00:06.000Z",
    "also": [],
-   "score": 1.4,
-   "image": "/img/news/d6c7070cfa.webp",
-   "t": "2026-11-23",
-   "summary": "War on the Rocks describes a weekly digest of Ukrainian commentary and analysis from across the political spectrum.",
-   "why": "The digest offers a channel for following Ukrainian political commentary and analysis.",
+   "score": 1.45,
+   "image": "/img/news/895d7ed370.webp",
+   "t": "2026-11-24",
+   "summary": "War on the Rocks says drones, counter-drone systems, electronic warfare, and edge computing all require power, including far from supply lines.",
+   "why": "Power availability is an operational constraint for distributed battlefield technologies.",
    "tags": [
-    "Ukraine",
-    "commentary"
+    "power",
+    "drones",
+    "electronic warfare"
    ],
    "ai": true
   },
   {
-   "id": "7625c2f330",
+   "id": "3daec6876d",
    "section": "warfare",
-   "source": "The War Zone",
+   "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "Marines Want Naval Strike Missiles With Double The Range",
-   "url": "https://www.twz.com/sea/marines-want-naval-strike-missiles-with-double-the-range",
-   "snippet": "Extended-range NSM cruise missiles would allow Marines to hold warships and ground targets at risk over four times more area. The post Marines Want Naval Strike Missiles With Double The Range appeared first on TWZ .",
-   "published": "2026-11-23T18:45:27.000Z",
+   "title": "The Game Is the Easy Part: Measuring Military Strategic Judgment",
+   "url": "https://warontherocks.com/the-game-is-the-easy-part-measuring-military-strategic-judgment/",
+   "snippet": "If a colonel and a Navy captain made the same decisions for the same reasons in a graded wargame, would they get the same score? This question stopped being an academic thought experiment on Nov. 9, 2026. Speaking at the Naval War College, Secretary of Defense Pete Hegseth announced that “competitive [AI] assisted warg",
+   "published": "2026-11-24T08:30:24.000Z",
    "also": [],
-   "score": 1.38,
-   "image": "/img/news/7625c2f330.webp",
-   "t": "2026-11-23",
-   "summary": "Marines want extended-range Naval Strike Missiles, which would allow them to hold warships and ground targets at risk over more area.",
-   "why": "Extended missile range could expand the area Marines can threaten.",
+   "score": 1.44,
+   "image": "/img/news/3daec6876d.webp",
+   "t": "2026-11-24",
+   "summary": "War on the Rocks raises whether officers making the same decisions for the same reasons in a graded wargame would receive the same score.",
+   "why": "The question concerns how military strategic judgment is evaluated in wargames.",
    "tags": [
-    "Naval Strike Missiles",
-    "range"
+    "wargame",
+    "strategic judgment"
    ],
    "ai": true
   },
   {
-   "id": "459989f8d5",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "China’s Naval Developments Set For The Spotlight At Zhuhai Airshow",
-   "url": "https://www.twz.com/air/chinas-naval-developments-set-for-the-spotlight-at-zhuhai-airshow",
-   "snippet": "The upcoming exhibition will highlight Beijing’s ambitions for carrier aviation, alongside major surface combatants and emerging uncrewed systems. The post China’s Naval Developments Set For The Spotlight At Zhuhai Airshow appeared first on TWZ .",
-   "published": "2026-11-23T17:30:40.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/459989f8d5.webp",
-   "t": "2026-11-23",
-   "summary": "The Zhuhai Airshow will highlight China's ambitions for carrier aviation, major surface combatants and emerging uncrewed systems.",
-   "why": "The exhibition offers a view of China's naval ambitions and uncrewed systems.",
-   "tags": [
-    "China",
-    "uncrewed systems"
-   ],
-   "ai": true
-  },
-  {
-   "id": "fff4696a64",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Umbra, ICEYE tout higher-resolution radar imaging with new satellites",
-   "url": "https://breakingdefense.com/2026/11/umbra-iceye-tout-higher-resolution-radar-imaging-with-new-satellites/",
-   "snippet": "Both companies are now offering resolutions significantly lower than the previous industry standard of around 25 centimeters, allowing customers to see smaller ground targets with higher fidelity.",
-   "published": "2026-11-23T17:20:00.000Z",
-   "also": [],
-   "score": 1.36,
-   "image": "/img/news/fff4696a64.webp",
-   "t": "2026-11-23",
-   "summary": "Umbra and ICEYE say their radar imaging offers higher resolution than the previous industry standard, allowing customers to see smaller ground targets with higher fidelity.",
-   "why": "Higher-resolution radar imaging may improve the observation of smaller ground targets.",
-   "tags": [
-    "radar imaging",
-    "resolution"
-   ],
-   "ai": true
-  },
-  {
-   "id": "09c987da9a",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "Beijing’s takeaway from the midterms: Will to fight and AI skepticism",
-   "url": "https://breakingdefense.com/2026/11/beijings-takeaway-from-the-midterms-will-to-fight-and-ai-skepticism/",
-   "snippet": "The 2026 midterms exposed vulnerabilities in American attitudes toward war, economic hardship and AI that Beijing could leverage in a future conflict.",
-   "published": "2026-11-23T16:21:11.000Z",
-   "also": [],
-   "score": 1.33,
-   "image": "/img/news/09c987da9a.webp",
-   "t": "2026-11-23",
-   "summary": "Breaking Defense says the 2026 midterms exposed vulnerabilities in American attitudes toward war, economic hardship and AI that Beijing could leverage in a future conflict.",
-   "why": "The account highlights domestic attitudes as a possible consideration in conflict analysis.",
-   "tags": [
-    "midterms",
-    "AI"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b1ec09a05b",
+   "id": "38f1695c3b",
    "section": "warfare",
    "source": "Defense News",
    "weight": 0.5,
-   "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
-   "url": "https://www.defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
-   "snippet": "While Ukrainian innovators pioneer frontline aerial drone evacuation, DARPA develops AI-assisted robots to find and assess injured troops and civilians. The race to save lives is on.",
-   "published": "2026-11-23T20:23:07.000Z",
+   "title": "Russia may launch nuke-laden satellite by year’s end, German report warns",
+   "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
+   "snippet": "Russia may place a satellite loaded with a nuclear weapon into orbit by the end of the year, German public media reported, citing intelligence sources.",
+   "published": "2026-11-24T12:50:13.000Z",
    "also": [],
-   "score": 1.32,
-   "image": "/img/news/b1ec09a05b.webp",
-   "t": "2026-11-23",
-   "summary": "Ukrainian innovators are developing frontline aerial drone evacuation, while DARPA is developing AI-assisted robots to find and assess injured troops and civilians.",
-   "why": "Drones and robots are being developed to locate and assess people needing battlefield assistance.",
+   "score": 1.43,
+   "image": "/img/news/38f1695c3b.webp",
+   "t": "2026-11-24",
+   "summary": "Defense News reports that German public media, citing intelligence sources, said Russia may place a satellite loaded with a nuclear weapon into orbit by year’s end.",
+   "why": "The report raises strategic concerns about a possible nuclear weapon in orbit.",
    "tags": [
-    "battlefield drones",
-    "AI-assisted robots"
+    "satellite",
+    "nuclear weapon"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fca1fe672f",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "CEOs from sensitive sectors receive briefings on Russia threats",
+   "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats",
+   "snippet": "Closed-door security briefings by Ministers and UK Intelligence representatives given to critical national infrastructure (CNI) and defence sector CEOs",
+   "published": "2026-11-24T12:30:08.000Z",
+   "also": [],
+   "score": 1.43,
+   "image": "/img/news/fca1fe672f.webp",
+   "t": "2026-11-24",
+   "summary": "The UK Ministry of Defence says ministers and UK Intelligence representatives gave closed-door briefings on Russia threats to CEOs from critical infrastructure and defence sectors.",
+   "why": "The briefings link threat awareness with critical infrastructure and defence-sector leadership.",
+   "tags": [
+    "Russia threats",
+    "critical infrastructure"
+   ],
+   "ai": true
+  },
+  {
+   "id": "ae241d6328",
+   "section": "warfare",
+   "source": "UK Ministry of Defence",
+   "weight": 0.5,
+   "title": "Correspondence: Nuclear Regulatory Review: joint ministerial letter to industry",
+   "url": "https://www.gov.uk/government/publications/nuclear-regulatory-review-joint-ministerial-letter-to-industry",
+   "snippet": "Joint DESNZ, MOD and HM Treasury letter to nuclear CEOs and dutyholders on progress and next steps for the Nuclear Regulatory Review.",
+   "published": "2026-11-24T11:10:54.000Z",
+   "also": [],
+   "score": 1.4,
+   "image": "/img/news/ae241d6328.webp",
+   "t": "2026-11-24",
+   "summary": "The UK Ministry of Defence published a joint ministerial letter to nuclear CEOs and dutyholders on progress and next steps for the Nuclear Regulatory Review.",
+   "why": "The letter concerns regulatory review progress and next steps for the nuclear sector.",
+   "tags": [
+    "nuclear",
+    "regulatory review"
+   ],
+   "ai": true
+  },
+  {
+   "id": "09eacbed59",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+   "published": "2026-11-24T15:35:53.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+    }
+   ],
+   "score": 1.94,
+   "image": "/img/news/09eacbed59.webp",
+   "t": "2026-11-24",
+   "summary": "BBC World reports that Naeem Abu Nahel, Hamas’s internal security chief, was among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+   "why": "The reported deaths offer a development in the conflict’s security and leadership picture.",
+   "tags": [
+    "Gaza",
+    "air strike"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a6af7600a3",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "Spinning Genocide",
+   "url": "https://foreignpolicy.com/2026/11/24/israel-gaza-genocide-biden-akbar-ahmed-assal-rad/",
+   "snippet": "Two new books explore the chasm between rhetoric and reality in Gaza.",
+   "published": "2026-11-24T15:20:55.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/a6af7600a3.webp",
+   "t": "2026-11-24",
+   "summary": "Foreign Policy says two new books explore the gap between rhetoric and reality in Gaza.",
+   "why": "The books address how Gaza is discussed and represented.",
+   "tags": [
+    "Gaza",
+    "books"
+   ],
+   "ai": true
+  },
+  {
+   "id": "20648872e0",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Land mine casualties soar in Syria, two years after war",
+   "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
+   "published": "2026-11-24T15:17:28.000Z",
+   "also": [],
+   "score": 1.58,
+   "image": "/img/news/20648872e0.webp",
+   "t": "2026-11-24",
+   "summary": "BBC World reports that figures show nearly 1,000 children were among those killed or injured by explosives left over from the conflict in Syria.",
+   "why": "Explosive remnants remain a human-security concern after conflict.",
+   "tags": [
+    "Syria",
+    "explosives"
+   ],
+   "ai": true
+  },
+  {
+   "id": "21cdf78521",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Russian governor detained in rare criminal case against regional leader",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Andrei Chibis, head of Russia's northern Murmansk region, is the first governor to be detained for five years.",
+   "published": "2026-11-24T12:45:43.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/21cdf78521.webp",
+   "t": "2026-11-24",
+   "summary": "BBC World reports that Murmansk governor Andrei Chibis was detained in a rare criminal case against a regional leader.",
+   "why": "The detention is a notable development in regional Russian politics.",
+   "tags": [
+    "Russia",
+    "governor"
    ],
    "ai": true
   },
@@ -403,9 +487,9 @@
    "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
    "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
-   "published": "2026-11-24T02:15:59.000Z",
+   "published": "2026-11-24T10:58:51.000Z",
    "also": [],
-   "score": 1.54,
+   "score": 1.49,
    "image": "/img/news/887fecd930.webp",
    "t": "2026-11-24",
    "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks; NATO's chief vowed defence against a space threat.",
@@ -418,154 +502,65 @@
    "ai": true
   },
   {
-   "id": "491e4c04a6",
-   "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Belgian Defense Lays Out New Funding for Autonomous Navigation",
-   "url": "https://insidegnss.com/belgian-defense-lays-out-new-funding-for-autonomous-navigation/",
-   "snippet": "A new Belgian funding initiative is targeting two technologies intended to keep spacecraft navigating in orbit when satellite signals and other external references... The post Belgian Defense Lays Out New Funding for Autonomous Navigation appeared first on Inside GNSS - Global Navigation Satellite Systems Engineering, ",
-   "published": "2026-11-23T18:59:23.000Z",
-   "also": [],
-   "score": 1.49,
-   "t": "2026-11-23",
-   "summary": "Belgian Defense announced funding for technologies intended to help spacecraft navigate in orbit when satellite signals and other external references are unavailable.",
-   "why": "Autonomous navigation is relevant to spacecraft operating without satellite signals or external references.",
-   "tags": [
-    "autonomous navigation",
-    "spacecraft"
-   ],
-   "ai": true
-  },
-  {
-   "id": "377bb95d9b",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "WHO chief visits Cuba as healthcare system deteriorates",
-   "url": "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
-   "snippet": "Analysts say fuel shortages blamed on US sanctions are worsening the crisis.",
-   "published": "2026-11-24T04:35:37.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/377bb95d9b.webp",
-   "t": "2026-11-24",
-   "summary": "Analysts say fuel shortages blamed on US sanctions are worsening Cuba's healthcare crisis.",
-   "why": "The report connects fuel shortages, sanctions, and pressure on healthcare in Cuba.",
-   "tags": [
-    "Cuba",
-    "fuel shortages",
-    "sanctions"
-   ],
-   "ai": true
-  },
-  {
-   "id": "9948283abb",
-   "section": "geo",
-   "source": "Al Jazeera",
-   "weight": 0.5,
-   "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
-   "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
-   "snippet": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
-   "published": "2026-11-24T03:20:55.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/9948283abb.webp",
-   "t": "2026-11-24",
-   "summary": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
-   "why": "The case involves drug trafficking, weapons charges, and a US extradition request.",
-   "tags": [
-    "Mexico",
-    "weapons",
-    "extradition"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7a4ec2f524",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Dispatch from 2032: After Chinese salvos fail to defeat Taiwan, Beijing is trapped in a war of attrition",
-   "url": "https://www.atlanticcouncil.org/dispatches/dispatch-from-2032-after-chinese-salvos-fail-to-defeat-taiwan-beijing-is-trapped-in-a-war-of-attrition/",
-   "snippet": "There are many “roads to war” that may lead Beijing to attack Taiwan. Policymakers can act now to prevent a protracted conflict. The post Dispatch from 2032: After Chinese salvos fail to defeat Taiwan, Beijing is trapped in a war of attrition appeared first on Atlantic Council .",
-   "published": "2026-11-23T21:35:00.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/7a4ec2f524.webp",
-   "t": "2026-11-24",
-   "summary": "An Atlantic Council dispatch describes possible paths to a war over Taiwan and urges policymakers to act to prevent a protracted conflict.",
-   "why": "The piece frames Taiwan conflict risks and prevention as policy concerns.",
-   "tags": [
-    "Taiwan",
-    "war",
-    "policymakers"
-   ],
-   "ai": true
-  },
-  {
-   "id": "55ed49c9de",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Introducing Dispatches from the Next War",
-   "url": "https://www.atlanticcouncil.org/dispatches/introducing-dispatches-from-the-next-war/",
-   "snippet": "In this new series, Atlantic Council experts offer insights and recommendations to help the United States and its allies prepare for a future war in the Indo-Pacific. The post Introducing Dispatches from the Next War appeared first on Atlantic Council .",
-   "published": "2026-11-23T21:27:55.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/55ed49c9de.webp",
-   "t": "2026-11-24",
-   "summary": "Atlantic Council experts introduce a series offering recommendations to prepare the United States and its allies for a future Indo-Pacific war.",
-   "why": "The series focuses on preparation for a possible Indo-Pacific conflict.",
-   "tags": [
-    "Indo-Pacific",
-    "preparation",
-    "war"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dd0bb392b4",
+   "id": "e847e33225",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-   "published": "2026-11-23T20:48:35.000Z",
+   "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+   "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+   "published": "2026-11-24T10:48:27.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/dd0bb392b4.webp",
+   "score": 1.49,
+   "image": "/img/news/e847e33225.webp",
    "t": "2026-11-24",
-   "summary": "The BBC says Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war.",
-   "why": "The report highlights the war's reach beyond the Black Sea.",
+   "summary": "BBC World reports that DR Congo said a military aircraft was missing as rebels claimed to have shot it down; a South African pilot and Ugandan officer were reportedly aboard.",
+   "why": "The competing accounts leave uncertainty about the aircraft and its occupants.",
    "tags": [
-    "Ukraine",
-    "Libya",
-    "battleship"
+    "DR Congo",
+    "military aircraft"
    ],
    "ai": true
   },
   {
-   "id": "7976e1e043",
+   "id": "dc55587fc6",
    "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-   "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide.",
-   "published": "2026-11-23T21:03:34.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "How the Iran war is reshaping the US military presence in the Middle East",
+   "url": "https://www.aljazeera.com/news/2026/11/24/how-the-iran-war-is-reshaping-the-us-military-presence-in-the-middle-east?traffic_source=rss",
+   "snippet": "Experts say fallout from the war and domestic opposition could force a smaller permanent presence in the Middle East.",
+   "published": "2026-11-24T15:10:29.000Z",
    "also": [],
-   "score": 1.43,
-   "image": "/img/news/7976e1e043.webp",
+   "score": 1.48,
+   "image": "/img/news/dc55587fc6.webp",
    "t": "2026-11-24",
-   "summary": "The UK and several other nations recognise an ICJ ruling that Myanmar carried out genocide, as the UK sanctions top military leaders.",
-   "why": "The report links international recognition of an ICJ ruling with sanctions.",
+   "summary": "Al Jazeera reports that experts say fallout from the Iran war and domestic opposition could force a smaller permanent US military presence in the Middle East.",
+   "why": "A possible change in US presence would affect the region’s strategic posture.",
    "tags": [
-    "Myanmar",
-    "sanctions",
-    "ICJ"
+    "US military",
+    "Middle East"
+   ],
+   "ai": true
+  },
+  {
+   "id": "eb41f98e05",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Russia tows it cargo ship back home after Ukrainian drone attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/russia-tows-it-cargo-ship-back-home-after-ukrainian-drone-attack?traffic_source=rss",
+   "snippet": "The Russian cargo ship Sparta II was towed back to home waters after a Ukrainian drone attack in the Gulf of Finland",
+   "published": "2026-11-24T14:56:18.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/eb41f98e05.webp",
+   "t": "2026-11-24",
+   "summary": "Al Jazeera reports that the Russian cargo ship Sparta II was towed back to home waters after a Ukrainian drone attack in the Gulf of Finland.",
+   "why": "The incident connects drone attacks with maritime activity in the Gulf of Finland.",
+   "tags": [
+    "drone attack",
+    "Gulf of Finland"
    ],
    "ai": true
   }
@@ -717,47 +712,47 @@
   }
  ],
  "run_today": [
-  "Check CISA's Known Exploited Vulnerabilities Catalog and prioritize listed vulnerabilities for remediation.",
-  "Review what employee contact information was exposed in the Austrian Foreign Ministry breach and alert affected staff.",
-  "Review access to KEPCO systems containing customer, employee, and contractor data."
+  "Check whether the McDonald's Japan breach affects app-user location data your organization handles.",
+  "Identify use of Danfoss AK-SM 8xxA Series and review CISA’s advisory for mitigation steps.",
+  "Check for the N-able email security platform and prioritize the exploited vulnerability CISA flagged."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Known Exploited Vulnerabilities Catalog",
-   "explainer": "A CISA catalog that records vulnerabilities identified as known exploited. Defenders can consult it when deciding which vulnerabilities to review and remediate.",
-   "from_id": "12b4ad14dd",
-   "from": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "fromSource": "CISA Advisories"
+   "term": "database",
+   "explainer": "A database is an organized collection of information that software can store and retrieve. In the McDonald's Japan report, attackers accessed a database containing sensitive information for app users.",
+   "from_id": "230a967c24",
+   "from": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "mothership",
-   "explainer": "A vessel that can serve as a platform for launching other systems. In this report, a clandestine mothership is discussed as a possible way to extend sea-drone attacks.",
-   "from_id": "18c2a5cab4",
-   "from": "https://www.twz.com/sea/did-ukraine-use-a-mothership-to-launch-its-sea-drone-attack-on-russian-ships-in-benghazi",
-   "fromSource": "The War Zone"
+   "term": "electronic warfare",
+   "explainer": "Electronic warfare refers to military activity involving electronic systems. The supplied item lists it alongside drones, counter-drone systems, and edge computing as technology that requires power.",
+   "from_id": "895d7ed370",
+   "from": "https://warontherocks.com/cogs-of-war/battlefield-power-is-running-short/",
+   "fromSource": "War on the Rocks"
   },
   {
    "domain": "geo",
-   "term": "satellite with a nuclear warhead",
-   "explainer": "A satellite described in the report as carrying a nuclear warhead. The snippet presents this as a plan reported by German media, not as a confirmed launch.",
-   "from_id": "887fecd930",
-   "from": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "Gulf of Finland",
+   "explainer": "The Gulf of Finland is the geographic setting named in the report about the Russian cargo ship Sparta II being towed home after a Ukrainian drone attack.",
+   "from_id": "eb41f98e05",
+   "from": "https://www.aljazeera.com/video/newsfeed/2026/11/24/russia-tows-it-cargo-ship-back-home-after-ukrainian-drone-attack?traffic_source=rss",
+   "fromSource": "Al Jazeera"
   }
  ],
  "analysis": {
-  "headline": "Security, access, and reach across connected systems",
+  "headline": "Data exposure and operational risk across the briefing",
   "paragraphs": [
-   "The top stories span cybersecurity, space, and autonomous navigation. CISA's catalog update and Austria's reported website breach put vulnerability management and exposed contact information in focus. Separately, Belgian funding for autonomous navigation targets spacecraft operating when satellite signals and other external references are unavailable.",
-   "The stories suggest that organizations and analysts must consider both access to systems and reliance on external infrastructure. CrowdStrike's proposed purchase of Zscaler is framed by its CEO as a path toward a large AI safety and security company; the report offers a corporate ambition, not evidence of what the purchase would deliver.",
-   "The space report rests on what German media said about a planned Russian satellite, while NATO's chief vows defence against a space threat. That claim and the navigation initiative make space systems a shared point of attention. Watch for further reporting on the catalog additions, breach scope, and how the navigation technologies are intended to work."
+   "The stories span a reported Gaza strike, a customer-data breach, and vulnerabilities in industrial software. They differ in setting, but each makes the value of reliable information clear: the Gaza report describes a developing security situation, while the cyber items identify exposure or software risk. The available snippets leave important details unspecified.",
+   "For defenders, the breach puts location information and database access in view. The industrial advisories point to vulnerabilities, including a reported possibility of arbitrary code execution and application-memory corruption. These are reasons to identify affected systems and consult the advisories, not grounds to assume exploitation or impact beyond what is stated.",
+   "For analysts, keep reported events separate from confirmed detail. The Gaza item says seven Palestinians were reportedly killed; the cyber disclosures give only partial context. Watch for fuller advisory guidance and further breach details. Across both areas, careful attribution and checking what is known may help prevent uncertainty from becoming an unsupported conclusion."
   ],
   "takeaways": [
-   "Use CISA's catalog to guide vulnerability review and remediation.",
-   "Treat employee contact information as sensitive after a website breach.",
-   "Track how space-threat reporting relates to autonomous navigation."
+   "Treat location information as sensitive and review access to relevant databases.",
+   "Inventory industrial software named in CISA advisories and check for mitigation guidance.",
+   "Attribute reported conflict developments and distinguish them from confirmed details."
   ]
  },
  "health": [
@@ -765,7 +760,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "Krebs on Security",
@@ -777,13 +772,13 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 14
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 17
   },
   {
    "name": "The Record",
@@ -795,7 +790,7 @@
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 10
   },
   {
    "name": "Help Net Security",
@@ -813,7 +808,7 @@
    "name": "Unit 42",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Google Threat Intelligence",
@@ -831,25 +826,25 @@
    "name": "Schneier on Security",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 5
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -861,13 +856,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 6
   },
   {
    "name": "Naval News",
    "section": "warfare",
-   "ok": true,
-   "n": 2
+   "ok": false,
+   "error": "HTTP 503"
   },
   {
    "name": "Bellingcat",
@@ -885,7 +880,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 4
   },
   {
    "name": "International Crisis Group",
@@ -909,7 +904,7 @@
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 3
   },
   {
    "name": "SpaceNews",
@@ -933,25 +928,25 @@
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "BBC World",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 9
   },
   {
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 12
   },
   {
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 7
   }
  ]
 }
