@@ -1,18 +1,33 @@
 {
- "updated": "2026-11-25T10:37:25.870Z",
+ "updated": "2026-11-25T20:09:38.105Z",
  "health": [
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 2
+  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BleepingComputer",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 3
+   "n": 0
   },
   {
-   "name": "Krebs on Security",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -22,42 +37,27 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
-   "ok": true,
-   "n": 4
-  },
-  {
-   "name": "The DFIR Report",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "BBC World",
-   "ok": true,
-   "n": 1
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 4
-  },
-  {
    "name": "Al Jazeera",
    "ok": true,
    "n": 7
   },
   {
-   "name": "The Record",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 0
+   "n": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "n": 6
   },
   {
    "name": "Hackread",
    "ok": true,
-   "n": 0
+   "n": 2
   },
   {
-   "name": "Dark Reading",
+   "name": "Security Affairs",
    "ok": true,
    "n": 0
   },
@@ -67,19 +67,14 @@
    "n": 0
   },
   {
-   "name": "Security Affairs",
-   "ok": true,
-   "n": 1
-  },
-  {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 3
+   "n": 2
   },
   {
-   "name": "BreachForums",
+   "name": "Dark Reading",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "DarkForums",
@@ -88,6 +83,11 @@
   },
   {
    "name": "SOCRadar blog",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,380 @@
   }
  ],
  "items": [
+  {
+   "id": "n4550edce8b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T19:54:52.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6e3133a092",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+   "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T19:47:39.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n542c164820",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia is heading for its first ‘death cross’ since March 2025 as stock continues to struggle",
+   "url": "https://www.marketwatch.com/story/nvidia-is-heading-for-its-first-death-cross-since-march-2025-as-stock-continues-to-struggle-a611b99c?mod=mw_rss_topstories",
+   "published": "2026-11-25T19:43:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n266eaffb49",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+   "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss",
+   "published": "2026-11-25T19:41:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1f65d7c532",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Dozens killed in Egypt vehicle fire",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
+   "published": "2026-11-25T19:41:14.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n63da0c2dc0",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "published": "2026-11-25T19:39:31.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7b6b3f78a6",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "The Fed says inflation hasn’t gotten any better ahead of its key December vote to raise rates",
+   "url": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33?mod=mw_rss_topstories",
+   "published": "2026-11-25T19:39:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n5d19c362f2",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals",
+   "url": "https://www.marketwatch.com/story/new-home-sales-just-hit-a-2026-high-as-builders-dangle-low-mortgages-and-black-friday-deals-291a3b62?mod=mw_rss_topstories",
+   "published": "2026-11-25T19:20:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n71f71d3f8f",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "North Korea expels Swiss diplomat in sanctions row",
+   "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T19:19:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4b6679d458",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ukrainian laser downs Russian jet-powered drone in world first",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
+   "published": "2026-11-25T19:16:15.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6fe3fbf4dc",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why macro investor Raoul Pal says the dollar is the signal to watch for stocks and crypto",
+   "url": "https://www.marketwatch.com/story/why-macro-investor-raoul-pal-says-the-dollar-is-the-signal-to-watch-for-stocks-and-crypto-d36f3c49?mod=mw_rss_topstories",
+   "published": "2026-11-25T19:16:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "ne4fc52f7f3",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
+   "url": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss",
+   "published": "2026-11-25T19:15:52.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n370d605f27",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+   "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
+   "published": "2026-11-25T19:15:01.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n3319d4804b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "At least 30 killed in Egypt vehicle fire, health ministry says",
+   "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says?traffic_source=rss",
+   "published": "2026-11-25T18:55:23.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n1252cb01de",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Grocery stores have ‘staggering deals’ for Thanksgiving — but don’t get used to these lower prices",
+   "url": "https://www.marketwatch.com/story/grocery-stores-have-staggering-deals-for-thanksgiving-but-dont-get-used-to-these-lower-prices-just-yet-7adfc7f5?mod=mw_rss_topstories",
+   "published": "2026-11-25T18:52:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n8ffaffb6da",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "AI Can Write Code. Engineers Still Have to Decide What Ships",
+   "url": "https://hackread.com/ai-writes-code-engineers-decide-what-ships/",
+   "published": "2026-11-25T18:35:56.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naed1679767",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "published": "2026-11-25T18:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n7cd4ff25e7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ecuador and US review joint military operations, official says",
+   "url": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says?traffic_source=rss",
+   "published": "2026-11-25T17:50:41.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n149629a9ce",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+   "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+   "published": "2026-11-25T17:39:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb10d7353b2",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates.",
+   "url": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
+   "published": "2026-11-25T17:31:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n4fcf01c313",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+   "url": "https://therecord.media/ransomware-doj-indictment-recovery",
+   "published": "2026-11-25T17:30:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "naf7e86344e",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "HP’s stock is a standout gainer in the tech rout, as an earnings beat still matters",
+   "url": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories",
+   "published": "2026-11-25T17:24:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5b24808f2e",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "FBI Helps Free Over 2,200 Trafficking Victims in Global Scam Crackdown",
+   "url": "https://hackread.com/fbi-helps-free-trafficking-victims-global-scam-crackdown/",
+   "published": "2026-11-25T17:22:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb93540ef2a",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+   "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+   "published": "2026-11-25T17:07:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n722a67ecc5",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US announces new tariffs on host of countries including China",
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T16:21:34.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n97df8d9547",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "published": "2026-11-25T16:13:40.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n75d3be5138",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+   "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+   "published": "2026-11-25T15:48:04.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nb2ec86257c",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+   "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+   "published": "2026-11-25T15:27:36.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5265d3f089",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "It's a Bot World. We're Just Living in It",
+   "url": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+   "published": "2026-11-25T15:20:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na3b682ce25",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+   "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+   "published": "2026-11-25T15:00:10.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n5d8223f882",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+   "published": "2026-11-25T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n57a9de6dd6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "Dark Reading",
+   "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+   "url": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+   "published": "2026-11-25T15:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n523b0db8fe",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T14:46:41.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "ne13089d7b5",
+   "kind": "news",
+   "group": "cyber",
+   "source": "SecurityWeek",
+   "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+   "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+   "published": "2026-11-25T14:15:25.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "nec1374253b",
    "kind": "news",
@@ -2117,292 +2491,6 @@
    "title": "Social Security should be shut down, this Republican senator says",
    "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
    "published": "2026-11-22T20:26:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n44650bbc04",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "On China, is Trump bucking the US national security establishment?",
-   "url": "https://www.aljazeera.com/video/the-bottom-line/2026/11/22/on-china-is-trump-bucking-the-us-national-security-establishment?traffic_source=rss",
-   "published": "2026-11-22T19:30:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n85c5d31f68",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
-   "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
-   "published": "2026-11-22T19:24:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne84afceb00",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "published": "2026-11-22T18:45:37.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n9cc2aecfef",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Hackread",
-   "title": "When Executive Impersonation Spreads Across Multiple Platforms",
-   "url": "https://hackread.com/executive-impersonation-across-platforms/",
-   "published": "2026-11-22T18:34:09.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6779a17673",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-   "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-22T18:29:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n459286d947",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These little-known investments could be among the best bargains in a crash",
-   "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-   "published": "2026-11-22T18:23:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndff33020a4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Civilians killed in RSF drone strikes in Sudan",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
-   "published": "2026-11-22T18:12:07.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n87534ccd1a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Suspected drone attack causes explosion on Russian ship in Libya",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
-   "published": "2026-11-22T18:11:30.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6ed1dae524",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Signal Is Blocking AI Agents From Reading Your Screen",
-   "url": "https://securityaffairs.com/203742/ai/signal-is-blocking-ai-agents-from-reading-your-screen.html",
-   "published": "2026-11-22T18:01:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n249fb9406b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-22T17:57:43.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb15959b8a9",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Private equity has been buying up hospice centers — with striking consequences",
-   "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
-   "published": "2026-11-22T17:22:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na2baf74492",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-   "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-   "published": "2026-11-22T16:32:00.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n761ad9ae03",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-   "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-   "published": "2026-11-22T16:18:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n8c752d8944",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-22T16:05:25.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n855a50efe0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-   "published": "2026-11-22T15:43:04.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n2361e0929a",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-   "published": "2026-11-22T15:15:25.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n250aae444e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
-   "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
-   "published": "2026-11-22T15:03:38.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n7c92d479be",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
-   "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
-   "published": "2026-11-22T15:01:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7772328af2",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 3 in Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
-   "published": "2026-11-22T14:48:50.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5b216973c0",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 9",
-   "url": "https://securityaffairs.com/203725/ai/security-affairs-ai-cybersecurity-newsletter-round-9.html",
-   "published": "2026-11-22T14:31:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nffb53ab489",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Jerusalem Daily: Israeli settlers set Palestinian vehicles ablaze",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/jerusalem-daily-israeli-settlers-set-palestinian-vehicles-ablaze?traffic_source=rss",
-   "published": "2026-11-22T14:30:27.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n02b9bd3afc",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
-   "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
-   "published": "2026-11-22T14:20:41.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nd6d28b06e4",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.",
-   "url": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491?mod=mw_rss_topstories",
-   "published": "2026-11-22T14:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne53b3b51e8",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 123",
-   "url": "https://securityaffairs.com/203714/malware/security-affairs-malware-newsletter-round-123-2.html",
-   "published": "2026-11-22T13:56:43.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0fac7f56c2",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "Security Affairs newsletter Round 605 by Pierluigi Paganini – INTERNATIONAL EDITION",
-   "url": "https://securityaffairs.com/203701/breaking-news/security-affairs-newsletter-round-605-by-pierluigi-paganini-international-edition.html",
-   "published": "2026-11-22T13:22:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n5846632e21",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
-   "url": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
-   "published": "2026-11-22T12:30:00.000Z",
    "severity": "normal",
    "verified": true
   }
