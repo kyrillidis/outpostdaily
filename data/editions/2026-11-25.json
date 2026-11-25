@@ -1,0 +1,958 @@
+{
+ "date": "2026-11-25",
+ "edition": 254,
+ "compiled": "2026-11-25T00:57:37.907Z",
+ "model": "gpt-6-luna",
+ "items": [
+  {
+   "id": "5a7ed17ece",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+   "snippet": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
+   "published": "2026-11-24T23:00:14.000Z",
+   "also": [],
+   "score": 1.66,
+   "image": "/img/news/5a7ed17ece.webp",
+   "t": "2026-11-25",
+   "summary": "Unit 42 analyzes an NGINX HTTP/2 use-after-free flaw and discusses affected versions, sanitizer tests, and patch guidance.",
+   "why": "Check whether your NGINX versions are affected and apply the vendor’s patch guidance.",
+   "tags": [
+    "NGINX",
+    "HTTP/2",
+    "use-after-free"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a0ae3cb09c",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "snippet": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added three new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active e",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.63,
+   "t": "2026-11-25",
+   "summary": "CISA says it added three vulnerabilities to its Known Exploited Vulnerabilities Catalog; the supplied snippet provides no further details.",
+   "why": "Review the catalog and check whether any listed vulnerabilities affect your systems.",
+   "tags": [
+    "CISA",
+    "vulnerabilities",
+    "catalog"
+   ],
+   "ai": true
+  },
+  {
+   "id": "153407077d",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Danfoss AK-SM 8xxA Series",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.</strong></p> <p>The following v",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.63,
+   "t": "2026-11-24",
+   "summary": "CISA says successful exploitation of a vulnerability in the Danfoss AK-SM 8xxA Series could allow arbitrary code execution.",
+   "why": "Identify affected systems and review the advisory for recommended mitigations.",
+   "tags": [
+    "vulnerability",
+    "arbitrary code"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e1d950e00d",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or i",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.63,
+   "t": "2026-11-24",
+   "summary": "CISA says Schneider Electric is aware of a vulnerability in EcoStruxure Power Build Rapsody software; the supplied snippet gives no further details.",
+   "why": "Check whether your environment uses the software and consult the advisory for mitigation guidance.",
+   "tags": [
+    "vulnerability",
+    "software"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0e0d7bdcc4",
+   "section": "cyber",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "AutomationDirect C-More EA9 Programming Software",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to",
+   "published": "2026-11-24T12:00:00.000Z",
+   "also": [],
+   "score": 1.63,
+   "t": "2026-11-24",
+   "summary": "CISA says successful exploitation of a vulnerability in AutomationDirect C-More EA9 Programming Software could corrupt application memory.",
+   "why": "Check for the software and consult CISA’s advisory for defensive steps.",
+   "tags": [
+    "vulnerability",
+    "application memory"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6c270107d3",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Rackspace shuts down Spot cloud platform after security breach",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+   "snippet": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+   "published": "2026-11-24T21:37:30.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/6c270107d3.webp",
+   "t": "2026-11-25",
+   "summary": "Rackspace is shutting down its Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets. Customers have until December 8 to migrate services and download data.",
+   "why": "Identify affected Spot workloads and secrets, and plan migration and data retrieval before the stated deadline.",
+   "tags": [
+    "Rackspace Spot",
+    "Kubernetes",
+    "secrets"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2f99e3ac26",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
+   "url": "https://therecord.media/mycolorado-app-down-data-breach",
+   "snippet": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
+   "published": "2026-11-24T20:52:00.000Z",
+   "also": [],
+   "score": 1.51,
+   "image": "/img/news/2f99e3ac26.webp",
+   "t": "2026-11-25",
+   "summary": "The Record reports that cybercriminals likely stole data from 150,000 myColorado users, whose app supports digital identification, document storage, and access to state services.",
+   "why": "Check whether users’ stored data or credentials require protective steps or notifications.",
+   "tags": [
+    "myColorado",
+    "data theft",
+    "digital identification"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0bc0f96921",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "New Inception extortion gang launches large-scale vishing campaign",
+   "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+   "snippet": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+   "published": "2026-11-24T20:21:20.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/0bc0f96921.webp",
+   "t": "2026-11-25",
+   "summary": "BleepingComputer reports that the newly formed Inception extortion group is linked to a large-scale vishing campaign targeting SSO credentials.",
+   "why": "Reinforce SSO phishing awareness and verify unexpected credential requests through trusted channels.",
+   "tags": [
+    "Inception",
+    "vishing",
+    "SSO"
+   ],
+   "ai": true
+  },
+  {
+   "id": "bef9cf015c",
+   "section": "cyber",
+   "source": "Unit 42",
+   "weight": 0.7,
+   "title": "Recent Trends and Tactics of Agentic AI Attacks",
+   "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+   "snippet": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42 .",
+   "published": "2026-11-24T15:00:19.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/bef9cf015c.webp",
+   "t": "2026-11-24",
+   "summary": "Unit 42 says it tracked campaigns using autonomous AI agents to automate multi-platform intrusions with standard tools and distinct operational traces.",
+   "why": "Review detections for unusual multi-platform activity and traces associated with automated use of standard tools.",
+   "tags": [
+    "AI agents",
+    "intrusions"
+   ],
+   "ai": true
+  },
+  {
+   "id": "8a279dc693",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "California privacy agency director Kemp to leave after two-year tenure",
+   "url": "https://therecord.media/california-privacy-agency-kemp",
+   "snippet": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+   "published": "2026-11-24T19:30:00.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/8a279dc693.webp",
+   "t": "2026-11-25",
+   "summary": "The California Privacy Protection Agency director announced a departure after implementation of a platform that lets consumers opt out of data sharing.",
+   "why": "Track how the leadership change may affect the agency’s consumer opt-out work.",
+   "tags": [
+    "California",
+    "privacy",
+    "opt out"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fd4b3e3d38",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Lynx KF41 Fighting Vehicles, Newly Arrived In Ukraine, Will Take On Counter-Drone Mission",
+   "url": "https://www.twz.com/land/lynx-kf41-fighting-vehicles-newly-arrived-in-ukraine-will-take-on-counter-drone-mission",
+   "snippet": "The German-made vehicles arrive in Ukraine as the role of armor has been greatly diminished, but not eliminated. The post Lynx KF41 Fighting Vehicles, Newly Arrived In Ukraine, Will Take On Counter-Drone Mission appeared first on TWZ .",
+   "published": "2026-11-24T22:39:54.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/fd4b3e3d38.webp",
+   "t": "2026-11-25",
+   "summary": "Newly arrived German-made Lynx KF41 vehicles in Ukraine are set to take on a counter-drone mission, while armor’s role is described as diminished but not eliminated.",
+   "why": "The vehicles’ planned role illustrates how armored platforms may contribute to counter-drone operations.",
+   "tags": [
+    "Lynx KF41",
+    "Ukraine",
+    "counter-drone"
+   ],
+   "ai": true
+  },
+  {
+   "id": "21e67926a4",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Seoul Scrambles F-15Ks As Russian Warplanes Come Within Seconds Of Crossing Into South Korean Airspace",
+   "url": "https://www.twz.com/air/seoul-scrambles-f-15ks-as-russian-warplanes-come-within-seconds-of-crossing-into-south-korean-airspace",
+   "snippet": "The presence of Russian Tu-160s and fighter escorts triggered a shelter order for South Korean residents. The post Seoul Scrambles F-15Ks As Russian Warplanes Come Within Seconds Of Crossing Into South Korean Airspace appeared first on TWZ .",
+   "published": "2026-11-24T21:24:50.000Z",
+   "also": [],
+   "score": 1.53,
+   "image": "/img/news/21e67926a4.webp",
+   "t": "2026-11-25",
+   "summary": "The War Zone reports that Russian Tu-160s and fighter escorts came close to South Korean airspace, prompting F-15Ks to scramble and a shelter order for residents.",
+   "why": "The report highlights airspace monitoring and the operational response to nearby military aircraft.",
+   "tags": [
+    "F-15Ks",
+    "Russian warplanes",
+    "airspace"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fac84f0b0e",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "UK’s MI5 warns local defense firms of Russian sabotage risk",
+   "url": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/",
+   "snippet": "The alert urges industry to respond immediately and “reduce opportunities for hostile actors to identify your organisation or people as targets, conduct hostile reconnaissance, and attack people, sites or operations.”",
+   "published": "2026-11-24T19:29:09.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/fac84f0b0e.webp",
+   "t": "2026-11-25",
+   "summary": "MI5 warned local defense firms of Russian sabotage risk and urged them to reduce opportunities for hostile actors to identify targets, conduct reconnaissance, and attack.",
+   "why": "Review exposure of people, sites, and operations, and reduce opportunities for hostile reconnaissance.",
+   "tags": [
+    "MI5",
+    "sabotage",
+    "defense firms"
+   ],
+   "ai": true
+  },
+  {
+   "id": "83d0f61974",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test",
+   "url": "https://www.twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test",
+   "snippet": "The Army has a clear demand for placing sensors in very hostile forward areas, and small robots like FireAnt could be a huge help. The post FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test appeared first on TWZ .",
+   "published": "2026-11-24T19:19:27.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/83d0f61974.webp",
+   "t": "2026-11-25",
+   "summary": "The U.S. Army tested FireAnt mini uncrewed ground vehicles equipped with drone-detection sensors for use in hostile forward areas.",
+   "why": "The test explores using small robots to place sensors in dangerous forward locations.",
+   "tags": [
+    "FireAnt",
+    "sensors",
+    "drone detection"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3efb8852d3",
+   "section": "warfare",
+   "source": "War on the Rocks",
+   "weight": 0.6,
+   "title": "Winners and Losers from the Shenzhen Summit",
+   "url": "https://warontherocks.com/winners-and-losers-from-the-shenzhen-summit/",
+   "snippet": "On Nov. 19, while attending the Asia-Pacific Economic Cooperation meeting, U.S. President Donald Trump, Chinese General Secretary Xi Jinping, and Russian President Vladimir Putin gathered in Shenzhen for a historic summit. The final statement from the three leaders included four points: reforming the United Nations, in",
+   "published": "2026-11-24T18:30:04.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/3efb8852d3.webp",
+   "t": "2026-11-25",
+   "summary": "War on the Rocks describes a summit in Shenzhen involving U.S., Chinese, and Russian leaders and references a final statement; the supplied snippet ends mid-sentence.",
+   "why": "The summit and its final statement are relevant to analysis of the three countries’ diplomacy.",
+   "tags": [
+    "Shenzhen",
+    "summit",
+    "final statement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "0044b84fbc",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland",
+   "url": "https://www.twz.com/air/swedens-tiny-gripen-fighter-detachment-takes-on-a-big-nato-role",
+   "snippet": "Sweden is extending its dispersed fighter operations across NATO, and a pocket-sized forward support element in Poland is writing the playbook. The post Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland appeared first on TWZ .",
+   "published": "2026-11-24T18:34:08.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/0044b84fbc.webp",
+   "t": "2026-11-25",
+   "summary": "Sweden is extending dispersed fighter operations across NATO, with a small forward support element in Poland described as developing a playbook.",
+   "why": "The report highlights dispersed operations and the support needed to sustain fighters forward.",
+   "tags": [
+    "Gripens",
+    "dispersed operations",
+    "Poland"
+   ],
+   "ai": true
+  },
+  {
+   "id": "981a1fc7f5",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Turkish Kizilelma Fighter Drone Declared Operational",
+   "url": "https://www.twz.com/air/turkish-kizilelma-fighter-drone-declared-operational",
+   "snippet": "Baykar was early to the 'fighter drone' party, with multiple air arms now pursuing similar capabilities around the globe. The post Turkish Kizilelma Fighter Drone Declared Operational appeared first on TWZ .",
+   "published": "2026-11-24T18:10:10.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/981a1fc7f5.webp",
+   "t": "2026-11-25",
+   "summary": "The War Zone reports that the Turkish Kizilelma fighter drone has been declared operational and notes similar pursuits by other air arms.",
+   "why": "The report reflects growing interest in fighter-drone capabilities among air arms.",
+   "tags": [
+    "Kizilelma",
+    "fighter drone",
+    "Turkey"
+   ],
+   "ai": true
+  },
+  {
+   "id": "09975c1c79",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "The Army has told us how it fights. We can’t do that in an analog tank.",
+   "url": "https://breakingdefense.com/2026/11/the-army-has-told-us-how-it-fights-we-cant-do-that-in-an-analog-tank/",
+   "snippet": "Decades of upgrades have pushed the Abrams tank to its limits. A generational redesign is the only way forward, a former three-star general argues.",
+   "published": "2026-11-24T17:23:00.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/09975c1c79.webp",
+   "t": "2026-11-25",
+   "summary": "A former three-star general argues that upgrades have pushed the Abrams tank to its limits and that a generational redesign is the way forward.",
+   "why": "The argument raises questions about the limits of continued upgrades to existing armor.",
+   "tags": [
+    "Abrams",
+    "tank",
+    "redesign"
+   ],
+   "ai": true
+  },
+  {
+   "id": "32b0066b1c",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
+   "published": "2026-11-24T17:04:00.000Z",
+   "also": [
+    {
+     "source": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss"
+    }
+   ],
+   "score": 1.79,
+   "image": "/img/news/32b0066b1c.webp",
+   "t": "2026-11-25",
+   "summary": "The BBC reports that a Zimbabwean was convicted in South Africa of trying to fight in Ukraine. Ukraine says people from several African countries have been recruited to fight for Russia.",
+   "why": "The report connects an individual case with Ukraine’s claim of recruitment across African countries.",
+   "tags": [
+    "Zimbabwean",
+    "South Africa",
+    "recruited"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2c2d21b254",
+   "section": "geo",
+   "source": "Inside GNSS",
+   "weight": 0.7,
+   "title": "Safran Electronics & Defense Launches MicroGEONYX™ M, Its New Compact Inertial Navigation System for Next-Gen Naval Platforms",
+   "url": "https://insidegnss.com/safran-electronics-defense-launches-microgeonyx-m-its-new-compact-inertial-navigation-system-for-next-gen-naval-platforms/",
+   "snippet": "As the deployment of autonomous naval platforms accelerates and mission requirements become more demanding, Safran Electronics & Defense is expanding its inertial navigation... The post Safran Electronics & Defense Launches MicroGEONYX™ M, Its New Compact Inertial Navigation System for Next-Gen Naval Platforms appeared",
+   "published": "2026-11-24T17:40:18.000Z",
+   "also": [],
+   "score": 1.55,
+   "t": "2026-11-25",
+   "summary": "Safran Electronics & Defense launched the MicroGEONYX M, a compact inertial navigation system for next-generation naval platforms, amid growing deployment of autonomous naval platforms.",
+   "why": "Inertial navigation is relevant to positioning and navigation on autonomous naval platforms.",
+   "tags": [
+    "inertial navigation",
+    "naval platforms",
+    "autonomous"
+   ],
+   "ai": true
+  },
+  {
+   "id": "a6c74bb2ff",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "The Coast Guard offers a model for defending US critical infrastructure against cyberattacks",
+   "url": "https://www.atlanticcouncil.org/dispatches/the-coast-guard-offers-a-model-for-defending-us-critical-infrastructure-against-cyberattacks/",
+   "snippet": "When it comes to cybersecurity, maritime transportation is arguably the most comprehensively governed of all US critical infrastructure sectors. The post The Coast Guard offers a model for defending US critical infrastructure against cyberattacks appeared first on Atlantic Council .",
+   "published": "2026-11-24T22:10:17.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/a6c74bb2ff.webp",
+   "t": "2026-11-25",
+   "summary": "The Atlantic Council argues that the Coast Guard offers a model for defending U.S. critical infrastructure, pointing to maritime transportation’s comprehensive cybersecurity governance.",
+   "why": "Compare maritime transportation’s governance approach with defenses in other critical infrastructure sectors.",
+   "tags": [
+    "Coast Guard",
+    "critical infrastructure",
+    "cybersecurity"
+   ],
+   "ai": true
+  },
+  {
+   "id": "b26aef4f66",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "Ukraine is now a drone superpower at sea, on land, and in the air",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-is-now-a-drone-superpower-at-sea-on-land-and-in-the-air/",
+   "snippet": "The recent sinking of a Russian warship by Ukrainian naval drones in the Mediterranean has underlined Ukraine's status as a world leader in drone warfare, writes Peter Dickinson. The post Ukraine is now a drone superpower at sea, on land, and in the air appeared first on Atlantic Council .",
+   "published": "2026-11-24T21:57:49.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/b26aef4f66.webp",
+   "t": "2026-11-25",
+   "summary": "The Atlantic Council says a reported sinking of a Russian warship by Ukrainian naval drones in the Mediterranean underlines Ukraine’s role in drone warfare.",
+   "why": "The report highlights the strategic reach of naval drones in maritime warfare.",
+   "tags": [
+    "Ukraine",
+    "naval drones",
+    "Mediterranean"
+   ],
+   "ai": true
+  },
+  {
+   "id": "7229f1494b",
+   "section": "geo",
+   "source": "Foreign Policy",
+   "weight": 0.6,
+   "title": "What’s Holding Up Ukraine’s Air Defense?",
+   "url": "https://foreignpolicy.com/2026/11/24/ukraine-patriot-missiles-trump-hegseth-delay-china-purge-chen-jining/",
+   "snippet": "Defense Secretary Pete Hegseth is reportedly delaying deliveries of a key weapon.",
+   "published": "2026-11-24T22:00:34.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/7229f1494b.webp",
+   "t": "2026-11-25",
+   "summary": "Foreign Policy reports that Defense Secretary Pete Hegseth is reportedly delaying deliveries of a key weapon, in a discussion of Ukraine’s air defense.",
+   "why": "Track how reported delays may affect Ukraine’s air-defense supply.",
+   "tags": [
+    "Ukraine",
+    "air defense",
+    "weapon deliveries"
+   ],
+   "ai": true
+  },
+  {
+   "id": "49947c3e9a",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "The president and Congress must forge a common US strategy on Ukraine",
+   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/president-and-congress-must-forge-a-common-us-strategy-on-ukraine/",
+   "snippet": "The Democratic party’s electoral victory on November 3 and future control of the Senate and House of Representatives create an opening to form a bipartisan strategy to end Russia’s war against Ukraine, writes Matthew H. Murray. The post The president and Congress must forge a common US strategy on Ukraine appeared firs",
+   "published": "2026-11-24T20:16:13.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/49947c3e9a.webp",
+   "t": "2026-11-25",
+   "summary": "The Atlantic Council argues that an electoral victory and future control of Congress create an opening for a bipartisan U.S. strategy to end Russia’s war against Ukraine.",
+   "why": "The piece frames congressional control as relevant to U.S. strategy on Ukraine.",
+   "tags": [
+    "U.S. strategy",
+    "Ukraine",
+    "Congress"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4671bef695",
+   "section": "geo",
+   "source": "Atlantic Council",
+   "weight": 0.6,
+   "title": "What Congress can do about China’s support for Russia’s war",
+   "url": "https://www.atlanticcouncil.org/dispatches/what-congress-can-do-about-chinas-support-for-russias-war/",
+   "snippet": "US efforts to end Russia's war require a tougher stance on the Chinese firms helping Moscow offshore dual-use production. The post What Congress can do about China’s support for Russia’s war appeared first on Atlantic Council .",
+   "published": "2026-11-24T20:07:39.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/4671bef695.webp",
+   "t": "2026-11-25",
+   "summary": "The Atlantic Council argues that U.S. efforts to end Russia’s war require a tougher stance on Chinese firms helping Moscow offshore dual-use production.",
+   "why": "The issue links dual-use production and firms in China to U.S. policy toward Russia’s war.",
+   "tags": [
+    "China",
+    "dual-use production",
+    "Russia"
+   ],
+   "ai": true
+  },
+  {
+   "id": "e847e33225",
+   "section": "geo",
+   "source": "BBC World",
+   "weight": 0.6,
+   "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+   "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
+   "published": "2026-11-24T19:27:23.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/e847e33225.webp",
+   "t": "2026-11-24",
+   "summary": "BBC World reports that DR Congo said a military aircraft was missing as rebels claimed to have shot it down; a South African pilot and Ugandan officer were reportedly aboard.",
+   "why": "The competing accounts leave uncertainty about the aircraft and its occupants.",
+   "tags": [
+    "DR Congo",
+    "military aircraft"
+   ],
+   "ai": true
+  }
+ ],
+ "kev": [
+  {
+   "cve": "CVE-2026-132224",
+   "vendor": "Optimizely",
+   "product": "Web Experimentation",
+   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 7.1,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+  },
+  {
+   "cve": "CVE-2026-131914",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
+   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+  },
+  {
+   "cve": "CVE-2026-132165",
+   "vendor": "Drupal",
+   "product": "Core",
+   "name": "Drupal Core Remote Code Execution Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": null,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+  },
+  {
+   "cve": "CVE-2026-133968",
+   "vendor": "Project MONAI",
+   "product": "MONAI Label",
+   "name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+   "added": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+  },
+  {
+   "cve": "CVE-2026-134624",
+   "vendor": "N-able",
+   "product": "MailAssure",
+   "name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-11-23",
+   "due": "2026-11-26",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.3,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+  },
+  {
+   "cve": "CVE-2026-129448",
+   "vendor": "Apache",
+   "product": "Roller",
+   "name": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+  },
+  {
+   "cve": "CVE-2026-123890",
+   "vendor": "Broadcom",
+   "product": "VMware vCenter",
+   "name": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+  },
+  {
+   "cve": "CVE-2025-42884",
+   "vendor": "SAP",
+   "product": "NetWeaver",
+   "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 6.5,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+  },
+  {
+   "cve": "CVE-2026-76466",
+   "vendor": "Cisco",
+   "product": "Expressway Series",
+   "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+   "added": "2026-11-20",
+   "due": "2026-11-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+  },
+  {
+   "cve": "CVE-2024-10441",
+   "vendor": "Synology",
+   "product": "DiskStation Manager (DSM)",
+   "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": true,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+  },
+  {
+   "cve": "CVE-2026-40217",
+   "vendor": "BerriAI",
+   "product": "LiteLLM",
+   "name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-12-02",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 8.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+  },
+  {
+   "cve": "CVE-2026-90817",
+   "vendor": "Vanderbilt University",
+   "product": "Research Electronic Data Capture (REDCap)",
+   "name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+   "added": "2026-11-18",
+   "due": "2026-11-21",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+  }
+ ],
+ "run_today": [
+  "Check NGINX versions against the affected-version guidance and apply relevant patches.",
+  "Review CISA’s Known Exploited Vulnerabilities Catalog for systems you operate.",
+  "Review SSO credential defenses and remind users to verify unexpected voice requests."
+ ],
+ "learn": [
+  {
+   "domain": "cyber",
+   "term": "Use-after-free",
+   "explainer": "A software flaw involving memory that has already been freed but is still used. Unit 42 identifies this type of flaw in NGINX HTTP/2.",
+   "from_id": "5a7ed17ece",
+   "from": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+   "fromSource": "Unit 42"
+  },
+  {
+   "domain": "warfare",
+   "term": "Counter-drone mission",
+   "explainer": "A mission focused on countering drones. The report says newly arrived Lynx KF41 vehicles in Ukraine will take on this role.",
+   "from_id": "fd4b3e3d38",
+   "from": "https://www.twz.com/land/lynx-kf41-fighting-vehicles-newly-arrived-in-ukraine-will-take-on-counter-drone-mission",
+   "fromSource": "The War Zone"
+  },
+  {
+   "domain": "geo",
+   "term": "Inertial navigation",
+   "explainer": "A way to navigate using an inertial navigation system. The item describes a compact system intended for next-generation naval platforms.",
+   "from_id": "2c2d21b254",
+   "from": "https://insidegnss.com/safran-electronics-defense-launches-microgeonyx-m-its-new-compact-inertial-navigation-system-for-next-gen-naval-platforms/",
+   "fromSource": "Inside GNSS"
+  }
+ ],
+ "analysis": {
+  "headline": "Security, recruitment, and operational readiness in focus",
+  "paragraphs": [
+   "For defenders, the practical thread is attention to exposure: check affected software against patch guidance and review CISA’s catalog for relevant systems. The NGINX snippet mentions affected versions and patch guidance, but does not provide specifics; the CISA snippet is also incomplete, so further detail should not be assumed.",
+   "The geo story reports a conviction in South Africa and says Ukraine reports recruitment of people from different African countries to fight for Russia. Together, these items call for careful distinction between a reported individual case, Ukraine’s broader claim, and technical vulnerability reporting. Analysts should watch for additional detail in the underlying advisories and reporting."
+  ],
+  "takeaways": [
+   "Check NGINX exposure and use the supplied patch guidance.",
+   "Consult CISA’s catalog for vulnerabilities relevant to your systems.",
+   "Keep reported recruitment claims distinct from confirmed case details."
+  ]
+ },
+ "health": [
+  {
+   "name": "CISA Advisories",
+   "section": "cyber",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BleepingComputer",
+   "section": "cyber",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "name": "The Hacker News",
+   "section": "cyber",
+   "ok": true,
+   "n": 13
+  },
+  {
+   "name": "The Record",
+   "section": "cyber",
+   "ok": true,
+   "n": 5
+  },
+  {
+   "name": "SecurityWeek",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Help Net Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Dark Reading",
+   "section": "cyber",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Unit 42",
+   "section": "cyber",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "section": "cyber",
+   "ok": false,
+   "error": "not a feed (HTML or captcha page?)"
+  },
+  {
+   "name": "Microsoft Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "section": "cyber",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "War on the Rocks",
+   "section": "warfare",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "The War Zone",
+   "section": "warfare",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Breaking Defense",
+   "section": "warfare",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "Defense One",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Defense News",
+   "section": "warfare",
+   "ok": true,
+   "n": 7
+  },
+  {
+   "name": "Naval News",
+   "section": "warfare",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "Bellingcat",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Oryx (visually confirmed losses)",
+   "section": "warfare",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "UK Ministry of Defence",
+   "section": "warfare",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "name": "International Crisis Group",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Inside GNSS",
+   "section": "geo",
+   "ok": true,
+   "n": 2
+  },
+  {
+   "name": "Atlantic Council",
+   "section": "geo",
+   "ok": true,
+   "n": 9
+  },
+  {
+   "name": "Foreign Policy",
+   "section": "geo",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "SpaceNews",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "RAND",
+   "section": "geo",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Diplomat",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "SatNews",
+   "section": "geo",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "name": "Al Jazeera",
+   "section": "geo",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "name": "DW",
+   "section": "geo",
+   "ok": true,
+   "n": 8
+  }
+ ]
+}
