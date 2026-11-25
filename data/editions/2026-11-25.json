@@ -1,9 +1,124 @@
 {
  "date": "2026-11-25",
  "edition": 254,
- "compiled": "2026-11-25T00:57:37.907Z",
+ "compiled": "2026-11-25T09:33:49.714Z",
  "model": "gpt-6-luna",
  "items": [
+  {
+   "id": "00f16364ac",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Microsoft confirms authentication issues after November updates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+   "snippet": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+   "published": "2026-11-25T09:02:57.000Z",
+   "also": [],
+   "score": 1.59,
+   "image": "/img/news/00f16364ac.webp",
+   "t": "2026-11-25",
+   "summary": "Microsoft says customers may experience authentication issues after installing November security updates addressing a high-severity remote code execution vulnerability.",
+   "why": "Test authentication after applying the updates and review failures.",
+   "tags": [
+    "authentication",
+    "security updates"
+   ],
+   "ai": true
+  },
+  {
+   "id": "5ba708d91b",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers compromise Check Point Servers in 22 organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+   "snippet": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+   "published": "2026-11-24T16:15:23.000Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    }
+   ],
+   "score": 1.59,
+   "image": "/img/news/5ba708d91b.webp",
+   "t": "2026-11-25",
+   "summary": "Threat actors exploited multiple vulnerabilities to compromise Check Point security management servers at 22 organizations, according to the report.",
+   "why": "Check for vulnerabilities and signs of compromise on Check Point management servers.",
+   "tags": [
+    "Check Point",
+    "vulnerabilities"
+   ],
+   "ai": true
+  },
+  {
+   "id": "1f75de46df",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+   "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+   "snippet": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+   "published": "2026-11-24T15:10:10.000Z",
+   "also": [
+    {
+     "source": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/11/25/illegal-iptv-disrupted-europol-crypto/"
+    }
+   ],
+   "score": 1.57,
+   "image": "/img/news/1f75de46df.webp",
+   "t": "2026-11-24",
+   "summary": "BleepingComputer reports that authorities from 11 countries disrupted 57 illegal streaming services operating hundreds of websites.",
+   "why": "The cross-border action highlights coordination in disrupting online services.",
+   "tags": [
+    "streaming services",
+    "law enforcement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "3bc6f96dec",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Hackers reportedly breached CIA intelligence analysis system",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+   "snippet": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+   "published": "2026-11-25T07:45:03.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/3bc6f96dec.webp",
+   "t": "2026-11-25",
+   "summary": "Unknown attackers reportedly breached an open-source intelligence analysis system at the CIA.",
+   "why": "Review access controls and monitor for unauthorized access to analysis systems.",
+   "tags": [
+    "open-source intelligence",
+    "breach"
+   ],
+   "ai": true
+  },
+  {
+   "id": "45c257ac25",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+   "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+   "snippet": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek .",
+   "published": "2026-11-25T09:05:13.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/45c257ac25.webp",
+   "t": "2026-11-25",
+   "summary": "Attackers can use a specially crafted web request to exploit a flaw in the defunct Idunno AntiCsrf library and achieve remote code execution.",
+   "why": "Check for the library and assess exposure to the described remote code execution flaw.",
+   "tags": [
+    "AntiCsrf",
+    "remote code execution"
+   ],
+   "ai": true
+  },
   {
    "id": "5a7ed17ece",
    "section": "cyber",
@@ -14,7 +129,7 @@
    "snippet": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .",
    "published": "2026-11-24T23:00:14.000Z",
    "also": [],
-   "score": 1.66,
+   "score": 1.48,
    "image": "/img/news/5a7ed17ece.webp",
    "t": "2026-11-25",
    "summary": "Unit 42 analyzes an NGINX HTTP/2 use-after-free flaw and discusses affected versions, sanitizer tests, and patch guidance.",
@@ -23,6 +138,48 @@
     "NGINX",
     "HTTP/2",
     "use-after-free"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6a20b92f56",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+   "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+   "snippet": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers. The post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek .",
+   "published": "2026-11-25T08:12:24.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/6a20b92f56.webp",
+   "t": "2026-11-25",
+   "summary": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers, SecurityWeek reports.",
+   "why": "Check firewall exposure and patch status for the Fragnesia flaw.",
+   "tags": [
+    "Fragnesia",
+    "firewalls"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f44f10d640",
+   "section": "cyber",
+   "source": "SecurityWeek",
+   "weight": 0.5,
+   "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+   "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+   "snippet": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek .",
+   "published": "2026-11-25T08:01:06.000Z",
+   "also": [],
+   "score": 1.47,
+   "image": "/img/news/f44f10d640.webp",
+   "t": "2026-11-25",
+   "summary": "CISA added an exploited Drupal vulnerability to its KEV catalog and instructed federal agencies to patch it within three days.",
+   "why": "Check Drupal systems for the flaw and prioritize patching.",
+   "tags": [
+    "Drupal",
+    "KEV"
    ],
    "ai": true
   },
@@ -36,7 +193,7 @@
    "snippet": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added three new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active e",
    "published": "2026-11-24T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.45,
    "t": "2026-11-25",
    "summary": "CISA says it added three vulnerabilities to its Known Exploited Vulnerabilities Catalog; the supplied snippet provides no further details.",
    "why": "Review the catalog and check whether any listed vulnerabilities affect your systems.",
@@ -57,7 +214,7 @@
    "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.</strong></p> <p>The following v",
    "published": "2026-11-24T12:00:00.000Z",
    "also": [],
-   "score": 1.63,
+   "score": 1.45,
    "t": "2026-11-24",
    "summary": "CISA says successful exploitation of a vulnerability in the Danfoss AK-SM 8xxA Series could allow arbitrary code execution.",
    "why": "Identify affected systems and review the advisory for recommended mitigations.",
@@ -68,151 +225,128 @@
    "ai": true
   },
   {
-   "id": "e1d950e00d",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or i",
-   "published": "2026-11-24T12:00:00.000Z",
-   "also": [],
-   "score": 1.63,
-   "t": "2026-11-24",
-   "summary": "CISA says Schneider Electric is aware of a vulnerability in EcoStruxure Power Build Rapsody software; the supplied snippet gives no further details.",
-   "why": "Check whether your environment uses the software and consult the advisory for mitigation guidance.",
-   "tags": [
-    "vulnerability",
-    "software"
-   ],
-   "ai": true
-  },
-  {
-   "id": "0e0d7bdcc4",
-   "section": "cyber",
-   "source": "CISA Advisories",
-   "weight": 0.9,
-   "title": "AutomationDirect C-More EA9 Programming Software",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
-   "snippet": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to",
-   "published": "2026-11-24T12:00:00.000Z",
-   "also": [],
-   "score": 1.63,
-   "t": "2026-11-24",
-   "summary": "CISA says successful exploitation of a vulnerability in AutomationDirect C-More EA9 Programming Software could corrupt application memory.",
-   "why": "Check for the software and consult CISA’s advisory for defensive steps.",
-   "tags": [
-    "vulnerability",
-    "application memory"
-   ],
-   "ai": true
-  },
-  {
-   "id": "6c270107d3",
-   "section": "cyber",
-   "source": "BleepingComputer",
+   "id": "80bdc67550",
+   "section": "warfare",
+   "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "Rackspace shuts down Spot cloud platform after security breach",
-   "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-   "snippet": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
-   "published": "2026-11-24T21:37:30.000Z",
+   "title": "The Contract Was the Easy Part: How Accelerator Day Put the Pentagon on the Clock",
+   "url": "https://warontherocks.com/cogs-of-war/the-contract-was-the-easy-part-how-accelerator-day-put-the-pentagon-on-the-clock/",
+   "snippet": "The Pentagon demands urgency from industry while allowing its own decisions to drift. On July 24, we ran an accelerator day to put the government under a deadline and make it responsible for what followed. We led the inaugural event for the Office of the Assistant Secretary of Defense for Special Operations and Low-Int",
+   "published": "2026-11-25T09:00:04.000Z",
    "also": [],
-   "score": 1.53,
-   "image": "/img/news/6c270107d3.webp",
+   "score": 1.59,
+   "image": "/img/news/80bdc67550.webp",
    "t": "2026-11-25",
-   "summary": "Rackspace is shutting down its Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets. Customers have until December 8 to migrate services and download data.",
-   "why": "Identify affected Spot workloads and secrets, and plan migration and data retrieval before the stated deadline.",
+   "summary": "The article says the Pentagon demands urgency from industry while its own decisions drift. An accelerator day aimed to put the government under a deadline and make it responsible for what followed.",
+   "why": "The account highlights how government decision timelines can affect defense technology efforts.",
    "tags": [
-    "Rackspace Spot",
-    "Kubernetes",
-    "secrets"
+    "Pentagon",
+    "accelerator day"
    ],
    "ai": true
   },
   {
-   "id": "2f99e3ac26",
-   "section": "cyber",
-   "source": "The Record",
+   "id": "412bbb77b2",
+   "section": "warfare",
+   "source": "War on the Rocks",
    "weight": 0.6,
-   "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen",
-   "url": "https://therecord.media/mycolorado-app-down-data-breach",
-   "snippet": "Cybercriminals likely stole data from 150,000 users of myColorado, which residents typically use for digital identification, document storage and accessing state government services.",
-   "published": "2026-11-24T20:52:00.000Z",
+   "title": "Does Congress Really Want Its War Powers Back?",
+   "url": "https://warontherocks.com/does-congress-really-want-its-war-powers-back/",
+   "snippet": "Congress wants its war powers back. At least, that is the message that the legislature has communicated to the public numerous times over the past decade. Members of Congress have forced an astonishing number of votes on resolutions challenging unauthorized presidential warmaking, with some achieving historically unpre",
+   "published": "2026-11-25T08:30:30.000Z",
    "also": [],
-   "score": 1.51,
-   "image": "/img/news/2f99e3ac26.webp",
+   "score": 1.58,
+   "image": "/img/news/412bbb77b2.webp",
    "t": "2026-11-25",
-   "summary": "The Record reports that cybercriminals likely stole data from 150,000 myColorado users, whose app supports digital identification, document storage, and access to state services.",
-   "why": "Check whether users’ stored data or credentials require protective steps or notifications.",
+   "summary": "The article says Congress has repeatedly communicated that it wants its war powers back and has forced votes on resolutions challenging unauthorized actions.",
+   "why": "The debate concerns legislative oversight of decisions about the use of force.",
    "tags": [
-    "myColorado",
-    "data theft",
-    "digital identification"
+    "Congress",
+    "war powers"
    ],
    "ai": true
   },
   {
-   "id": "0bc0f96921",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "New Inception extortion gang launches large-scale vishing campaign",
-   "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-   "snippet": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
-   "published": "2026-11-24T20:21:20.000Z",
+   "id": "3a8157dd62",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
+   "url": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+   "snippet": "Czech jet engine producer PBS Aerospace aims to expand its manufacturing capacity in the United States, targeting at least a twofold increase in its production capacity there.",
+   "published": "2026-11-25T09:33:18.000Z",
    "also": [],
    "score": 1.5,
-   "image": "/img/news/0bc0f96921.webp",
+   "image": "/img/news/3a8157dd62.webp",
    "t": "2026-11-25",
-   "summary": "BleepingComputer reports that the newly formed Inception extortion group is linked to a large-scale vishing campaign targeting SSO credentials.",
-   "why": "Reinforce SSO phishing awareness and verify unexpected credential requests through trusted channels.",
+   "summary": "Czech jet engine producer PBS Aerospace aims to expand its US manufacturing capacity, targeting at least a twofold increase for drones and missiles.",
+   "why": "The plan signals a potential expansion of US-based production for drone and missile engines.",
    "tags": [
-    "Inception",
-    "vishing",
-    "SSO"
+    "PBS Aerospace",
+    "drones"
    ],
    "ai": true
   },
   {
-   "id": "bef9cf015c",
-   "section": "cyber",
-   "source": "Unit 42",
-   "weight": 0.7,
-   "title": "Recent Trends and Tactics of Agentic AI Attacks",
-   "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
-   "snippet": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42 .",
-   "published": "2026-11-24T15:00:19.000Z",
+   "id": "fb308b2d8e",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Russia’s Grip On Crimea Much Weaker After Key Waterways Blocked",
+   "url": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+   "snippet": "Ukraine’s major attack on the Kerch Bridge, combined with a less-reported October strike on a bridge over the Don River, has effectively cut off the Sea of Azov. This makes it much harder for Russia to resupply Crimea. 8 years ago, on the 25th November 2018, Russia blocked the waterway under the Kerch Bridge to ... The",
+   "published": "2026-11-25T09:29:00.000Z",
    "also": [],
-   "score": 1.49,
-   "image": "/img/news/bef9cf015c.webp",
-   "t": "2026-11-24",
-   "summary": "Unit 42 says it tracked campaigns using autonomous AI agents to automate multi-platform intrusions with standard tools and distinct operational traces.",
-   "why": "Review detections for unusual multi-platform activity and traces associated with automated use of standard tools.",
+   "score": 1.5,
+   "image": "/img/news/fb308b2d8e.webp",
+   "t": "2026-11-25",
+   "summary": "The report says attacks on the Kerch Bridge and a bridge over the Don River have effectively cut off the Sea of Azov, making it harder for Russia to resupply Crimea.",
+   "why": "The waterways and bridges shape access and resupply routes to Crimea.",
    "tags": [
-    "AI agents",
-    "intrusions"
+    "Crimea",
+    "Sea of Azov"
    ],
    "ai": true
   },
   {
-   "id": "8a279dc693",
-   "section": "cyber",
-   "source": "The Record",
-   "weight": 0.6,
-   "title": "California privacy agency director Kemp to leave after two-year tenure",
-   "url": "https://therecord.media/california-privacy-agency-kemp",
-   "snippet": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
-   "published": "2026-11-24T19:30:00.000Z",
+   "id": "ef4e737d91",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK",
+   "url": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/",
+   "snippet": "Poland laid the keel for its third Miecznik-class frigate, ORP Huragan, in Gdynia as Warsaw and London signed an agreement to co-develop the CAMM-MR missile. The post Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK appeared first on Naval News .",
+   "published": "2026-11-25T09:06:43.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/8a279dc693.webp",
+   "image": "/img/news/ef4e737d91.webp",
    "t": "2026-11-25",
-   "summary": "The California Privacy Protection Agency director announced a departure after implementation of a platform that lets consumers opt out of data sharing.",
-   "why": "Track how the leadership change may affect the agency’s consumer opt-out work.",
+   "summary": "Poland laid the keel for its third Miecznik-class frigate as Warsaw and London signed an agreement to co-develop the CAMM-MR missile.",
+   "why": "The frigate and missile agreement link shipbuilding with bilateral weapons development.",
    "tags": [
-    "California",
-    "privacy",
-    "opt out"
+    "Miecznik",
+    "CAMM-MR"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f1f65e568b",
+   "section": "warfare",
+   "source": "Naval News",
+   "weight": 0.5,
+   "title": "Elbit to Supply Aqua Marine EW Suite for Germany’s F128 Frigates",
+   "url": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/",
+   "snippet": "Elbit Systems Deutschland will supply its Aqua Marine electronic warfare suite for TKMS’ F128 frigates. The German shipyard’s announcement follows the signing of a second batch by Germany’s defence procurement authority, BAAINBw. In a LinkedIn post, TKMS identified Aqua Marine as the integrated electronic warfare self-",
+   "published": "2026-11-25T08:36:31.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/f1f65e568b.webp",
+   "t": "2026-11-25",
+   "summary": "Elbit Systems Deutschland will supply its Aqua Marine electronic warfare suite for TKMS’ F128 frigates, following a second procurement batch.",
+   "why": "The suite adds an electronic warfare capability to the F128 frigates.",
+   "tags": [
+    "electronic warfare",
+    "F128"
    ],
    "ai": true
   },
@@ -226,7 +360,7 @@
    "snippet": "The German-made vehicles arrive in Ukraine as the role of armor has been greatly diminished, but not eliminated. The post Lynx KF41 Fighting Vehicles, Newly Arrived In Ukraine, Will Take On Counter-Drone Mission appeared first on TWZ .",
    "published": "2026-11-24T22:39:54.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.37,
    "image": "/img/news/fd4b3e3d38.webp",
    "t": "2026-11-25",
    "summary": "Newly arrived German-made Lynx KF41 vehicles in Ukraine are set to take on a counter-drone mission, while armor’s role is described as diminished but not eliminated.",
@@ -248,7 +382,7 @@
    "snippet": "The presence of Russian Tu-160s and fighter escorts triggered a shelter order for South Korean residents. The post Seoul Scrambles F-15Ks As Russian Warplanes Come Within Seconds Of Crossing Into South Korean Airspace appeared first on TWZ .",
    "published": "2026-11-24T21:24:50.000Z",
    "also": [],
-   "score": 1.53,
+   "score": 1.35,
    "image": "/img/news/21e67926a4.webp",
    "t": "2026-11-25",
    "summary": "The War Zone reports that Russian Tu-160s and fighter escorts came close to South Korean airspace, prompting F-15Ks to scramble and a shelter order for residents.",
@@ -261,313 +395,170 @@
    "ai": true
   },
   {
-   "id": "fac84f0b0e",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "UK’s MI5 warns local defense firms of Russian sabotage risk",
-   "url": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/",
-   "snippet": "The alert urges industry to respond immediately and “reduce opportunities for hostile actors to identify your organisation or people as targets, conduct hostile reconnaissance, and attack people, sites or operations.”",
-   "published": "2026-11-24T19:29:09.000Z",
+   "id": "ea9ec3a9a2",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Rising prices push families to the brink in Yemen’s Hodeidah",
+   "url": "https://www.aljazeera.com/news/2026/11/25/rising-prices-push-families-to-the-brink-in-yemens-hodeidah?traffic_source=rss",
+   "snippet": "Renewed fighting, rising fuel costs and shrinking incomes deepen the struggle to survive in the Houthi-controlled city.",
+   "published": "2026-11-25T09:00:53.000Z",
    "also": [],
    "score": 1.49,
-   "image": "/img/news/fac84f0b0e.webp",
+   "image": "/img/news/ea9ec3a9a2.webp",
    "t": "2026-11-25",
-   "summary": "MI5 warned local defense firms of Russian sabotage risk and urged them to reduce opportunities for hostile actors to identify targets, conduct reconnaissance, and attack.",
-   "why": "Review exposure of people, sites, and operations, and reduce opportunities for hostile reconnaissance.",
+   "summary": "In Hodeidah, renewed fighting, rising fuel costs and shrinking incomes are deepening families’ struggle to survive, Al Jazeera reports.",
+   "why": "The account links conflict and economic pressure to conditions in a Houthi-controlled city.",
    "tags": [
-    "MI5",
-    "sabotage",
-    "defense firms"
+    "Hodeidah",
+    "fuel costs"
    ],
    "ai": true
   },
   {
-   "id": "83d0f61974",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test",
-   "url": "https://www.twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test",
-   "snippet": "The Army has a clear demand for placing sensors in very hostile forward areas, and small robots like FireAnt could be a huge help. The post FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test appeared first on TWZ .",
-   "published": "2026-11-24T19:19:27.000Z",
+   "id": "fa5bfa1024",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Galatasaray defy Israel’s complaint to UEFA over pro-Palestine banners",
+   "url": "https://www.aljazeera.com/sports/2026/11/25/galatasaray-defy-israels-complaint-to-uefa-over-pro-palestine-banners?traffic_source=rss",
+   "snippet": "The football club’s president said UEFA had made them aware of a complaint by Israel regarding pro-Palestinian banners.",
+   "published": "2026-11-25T08:53:30.000Z",
+   "also": [],
+   "score": 1.49,
+   "image": "/img/news/fa5bfa1024.webp",
+   "t": "2026-11-25",
+   "summary": "Galatasaray’s president said UEFA had informed the club of an Israeli complaint regarding pro-Palestinian banners.",
+   "why": "The complaint highlights how political disputes can surface in international sport.",
+   "tags": [
+    "UEFA",
+    "banners"
+   ],
+   "ai": true
+  },
+  {
+   "id": "87ff37ca39",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
+   "url": "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike?traffic_source=rss",
+   "snippet": "The escalation comes after the Yemeni rebel group threatened to attack the kingdom's Red Sea ports in retaliation.",
+   "published": "2026-11-25T08:23:35.000Z",
    "also": [],
    "score": 1.48,
-   "image": "/img/news/83d0f61974.webp",
+   "image": "/img/news/87ff37ca39.webp",
    "t": "2026-11-25",
-   "summary": "The U.S. Army tested FireAnt mini uncrewed ground vehicles equipped with drone-detection sensors for use in hostile forward areas.",
-   "why": "The test explores using small robots to place sensors in dangerous forward locations.",
+   "summary": "The Saudi-led coalition intercepted Houthi attacks after a strike on Hodeidah; the group had threatened attacks on Saudi Arabia’s Red Sea ports in retaliation.",
+   "why": "The report connects escalation around Hodeidah with threats to Red Sea port access.",
    "tags": [
-    "FireAnt",
-    "sensors",
-    "drone detection"
+    "Hodeidah",
+    "Red Sea ports"
    ],
    "ai": true
   },
   {
-   "id": "3efb8852d3",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Winners and Losers from the Shenzhen Summit",
-   "url": "https://warontherocks.com/winners-and-losers-from-the-shenzhen-summit/",
-   "snippet": "On Nov. 19, while attending the Asia-Pacific Economic Cooperation meeting, U.S. President Donald Trump, Chinese General Secretary Xi Jinping, and Russian President Vladimir Putin gathered in Shenzhen for a historic summit. The final statement from the three leaders included four points: reforming the United Nations, in",
-   "published": "2026-11-24T18:30:04.000Z",
+   "id": "b0cd8d10e5",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Is Russia really aiming for a new European security architecture?",
+   "url": "https://www.aljazeera.com/opinions/2026/11/25/is-russia-really-aiming-for-a-new-european-security-architecture?traffic_source=rss",
+   "snippet": "Moscow is piling on new demands in talks with Ukraine, either as a negotiating strategy or as a diversion.",
+   "published": "2026-11-25T08:20:55.000Z",
    "also": [],
    "score": 1.47,
-   "image": "/img/news/3efb8852d3.webp",
+   "image": "/img/news/b0cd8d10e5.webp",
    "t": "2026-11-25",
-   "summary": "War on the Rocks describes a summit in Shenzhen involving U.S., Chinese, and Russian leaders and references a final statement; the supplied snippet ends mid-sentence.",
-   "why": "The summit and its final statement are relevant to analysis of the three countries’ diplomacy.",
+   "summary": "The article says Moscow is making new demands in talks with Ukraine, either as a negotiating strategy or as a diversion.",
+   "why": "The demands may shape negotiations over a European security architecture.",
    "tags": [
-    "Shenzhen",
-    "summit",
-    "final statement"
+    "Russia",
+    "security architecture"
    ],
    "ai": true
   },
   {
-   "id": "0044b84fbc",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland",
-   "url": "https://www.twz.com/air/swedens-tiny-gripen-fighter-detachment-takes-on-a-big-nato-role",
-   "snippet": "Sweden is extending its dispersed fighter operations across NATO, and a pocket-sized forward support element in Poland is writing the playbook. The post Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland appeared first on TWZ .",
-   "published": "2026-11-24T18:34:08.000Z",
-   "also": [],
-   "score": 1.47,
-   "image": "/img/news/0044b84fbc.webp",
-   "t": "2026-11-25",
-   "summary": "Sweden is extending dispersed fighter operations across NATO, with a small forward support element in Poland described as developing a playbook.",
-   "why": "The report highlights dispersed operations and the support needed to sustain fighters forward.",
-   "tags": [
-    "Gripens",
-    "dispersed operations",
-    "Poland"
-   ],
-   "ai": true
-  },
-  {
-   "id": "981a1fc7f5",
-   "section": "warfare",
-   "source": "The War Zone",
-   "weight": 0.6,
-   "title": "Turkish Kizilelma Fighter Drone Declared Operational",
-   "url": "https://www.twz.com/air/turkish-kizilelma-fighter-drone-declared-operational",
-   "snippet": "Baykar was early to the 'fighter drone' party, with multiple air arms now pursuing similar capabilities around the globe. The post Turkish Kizilelma Fighter Drone Declared Operational appeared first on TWZ .",
-   "published": "2026-11-24T18:10:10.000Z",
+   "id": "692fc913fc",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Sentences served, but Gaza prisoners remain behind Israeli bars",
+   "url": "https://www.aljazeera.com/news/2026/11/25/sentences-served-but-gaza-prisoners-remain-behind-israeli-bars?traffic_source=rss",
+   "snippet": "Palestinian families in Gaza wait for loved ones who remain in Israeli prisons despite completing their sentences.",
+   "published": "2026-11-25T07:31:44.000Z",
    "also": [],
    "score": 1.46,
-   "image": "/img/news/981a1fc7f5.webp",
+   "image": "/img/news/692fc913fc.webp",
    "t": "2026-11-25",
-   "summary": "The War Zone reports that the Turkish Kizilelma fighter drone has been declared operational and notes similar pursuits by other air arms.",
-   "why": "The report reflects growing interest in fighter-drone capabilities among air arms.",
+   "summary": "Palestinian families in Gaza are waiting for loved ones who remain in Israeli prisons despite completing their sentences, Al Jazeera reports.",
+   "why": "The report concerns detention and its effects on families in Gaza.",
    "tags": [
-    "Kizilelma",
-    "fighter drone",
-    "Turkey"
+    "Gaza",
+    "prisons"
    ],
    "ai": true
   },
   {
-   "id": "09975c1c79",
-   "section": "warfare",
-   "source": "Breaking Defense",
-   "weight": 0.6,
-   "title": "The Army has told us how it fights. We can’t do that in an analog tank.",
-   "url": "https://breakingdefense.com/2026/11/the-army-has-told-us-how-it-fights-we-cant-do-that-in-an-analog-tank/",
-   "snippet": "Decades of upgrades have pushed the Abrams tank to its limits. A generational redesign is the only way forward, a former three-star general argues.",
-   "published": "2026-11-24T17:23:00.000Z",
-   "also": [],
-   "score": 1.44,
-   "image": "/img/news/09975c1c79.webp",
-   "t": "2026-11-25",
-   "summary": "A former three-star general argues that upgrades have pushed the Abrams tank to its limits and that a generational redesign is the way forward.",
-   "why": "The argument raises questions about the limits of continued upgrades to existing armor.",
-   "tags": [
-    "Abrams",
-    "tank",
-    "redesign"
-   ],
-   "ai": true
-  },
-  {
-   "id": "32b0066b1c",
+   "id": "457f5cb6de",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
-   "published": "2026-11-24T17:04:00.000Z",
-   "also": [
-    {
-     "source": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss"
-    }
-   ],
-   "score": 1.79,
-   "image": "/img/news/32b0066b1c.webp",
+   "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
+   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+   "published": "2026-11-25T00:56:51.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/457f5cb6de.webp",
    "t": "2026-11-25",
-   "summary": "The BBC reports that a Zimbabwean was convicted in South Africa of trying to fight in Ukraine. Ukraine says people from several African countries have been recruited to fight for Russia.",
-   "why": "The report connects an individual case with Ukraine’s claim of recruitment across African countries.",
+   "summary": "Leaked data reveal changes in mortality patterns in Russia during the Ukraine war; the report says Russia’s own figures show almost 500,000 people lost.",
+   "why": "The figures offer a reported measure of the war’s impact on Russia’s population.",
    "tags": [
-    "Zimbabwean",
-    "South Africa",
-    "recruited"
+    "Russia",
+    "mortality"
    ],
    "ai": true
   },
   {
-   "id": "2c2d21b254",
+   "id": "0d5bcc1027",
    "section": "geo",
-   "source": "Inside GNSS",
-   "weight": 0.7,
-   "title": "Safran Electronics & Defense Launches MicroGEONYX™ M, Its New Compact Inertial Navigation System for Next-Gen Naval Platforms",
-   "url": "https://insidegnss.com/safran-electronics-defense-launches-microgeonyx-m-its-new-compact-inertial-navigation-system-for-next-gen-naval-platforms/",
-   "snippet": "As the deployment of autonomous naval platforms accelerates and mission requirements become more demanding, Safran Electronics & Defense is expanding its inertial navigation... The post Safran Electronics & Defense Launches MicroGEONYX™ M, Its New Compact Inertial Navigation System for Next-Gen Naval Platforms appeared",
-   "published": "2026-11-24T17:40:18.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
+   "url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+   "snippet": "The opposition Congress party calls Israel’s war on Gaza a genocide, but its leader still wants strong ties with Israel.",
+   "published": "2026-11-25T05:27:32.000Z",
    "also": [],
-   "score": 1.55,
+   "score": 1.41,
+   "image": "/img/news/0d5bcc1027.webp",
    "t": "2026-11-25",
-   "summary": "Safran Electronics & Defense launched the MicroGEONYX M, a compact inertial navigation system for next-generation naval platforms, amid growing deployment of autonomous naval platforms.",
-   "why": "Inertial navigation is relevant to positioning and navigation on autonomous naval platforms.",
+   "summary": "India’s opposition Congress party calls Israel’s war on Gaza a genocide, while its leader still wants strong ties with Israel, the article says.",
+   "why": "The account illustrates competing political positions within India-Israel relations.",
    "tags": [
-    "inertial navigation",
-    "naval platforms",
-    "autonomous"
+    "India",
+    "Israel"
    ],
    "ai": true
   },
   {
-   "id": "a6c74bb2ff",
+   "id": "b6cf518c4b",
    "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "The Coast Guard offers a model for defending US critical infrastructure against cyberattacks",
-   "url": "https://www.atlanticcouncil.org/dispatches/the-coast-guard-offers-a-model-for-defending-us-critical-infrastructure-against-cyberattacks/",
-   "snippet": "When it comes to cybersecurity, maritime transportation is arguably the most comprehensively governed of all US critical infrastructure sectors. The post The Coast Guard offers a model for defending US critical infrastructure against cyberattacks appeared first on Atlantic Council .",
-   "published": "2026-11-24T22:10:17.000Z",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "UK warns companies of potential Russian sabotage threat",
+   "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
+   "snippet": "Britain's Defence Ministry and security service warn of the threat in unusual public announcement.",
+   "published": "2026-11-25T04:48:57.000Z",
    "also": [],
-   "score": 1.54,
-   "image": "/img/news/a6c74bb2ff.webp",
+   "score": 1.4,
+   "image": "/img/news/b6cf518c4b.webp",
    "t": "2026-11-25",
-   "summary": "The Atlantic Council argues that the Coast Guard offers a model for defending U.S. critical infrastructure, pointing to maritime transportation’s comprehensive cybersecurity governance.",
-   "why": "Compare maritime transportation’s governance approach with defenses in other critical infrastructure sectors.",
+   "summary": "Britain’s Defence Ministry and security service issued an unusual public warning to companies about a potential Russian sabotage threat.",
+   "why": "Companies should review the warning and consider their exposure to the stated threat.",
    "tags": [
-    "Coast Guard",
-    "critical infrastructure",
-    "cybersecurity"
-   ],
-   "ai": true
-  },
-  {
-   "id": "b26aef4f66",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "Ukraine is now a drone superpower at sea, on land, and in the air",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraine-is-now-a-drone-superpower-at-sea-on-land-and-in-the-air/",
-   "snippet": "The recent sinking of a Russian warship by Ukrainian naval drones in the Mediterranean has underlined Ukraine's status as a world leader in drone warfare, writes Peter Dickinson. The post Ukraine is now a drone superpower at sea, on land, and in the air appeared first on Atlantic Council .",
-   "published": "2026-11-24T21:57:49.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/b26aef4f66.webp",
-   "t": "2026-11-25",
-   "summary": "The Atlantic Council says a reported sinking of a Russian warship by Ukrainian naval drones in the Mediterranean underlines Ukraine’s role in drone warfare.",
-   "why": "The report highlights the strategic reach of naval drones in maritime warfare.",
-   "tags": [
-    "Ukraine",
-    "naval drones",
-    "Mediterranean"
-   ],
-   "ai": true
-  },
-  {
-   "id": "7229f1494b",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "What’s Holding Up Ukraine’s Air Defense?",
-   "url": "https://foreignpolicy.com/2026/11/24/ukraine-patriot-missiles-trump-hegseth-delay-china-purge-chen-jining/",
-   "snippet": "Defense Secretary Pete Hegseth is reportedly delaying deliveries of a key weapon.",
-   "published": "2026-11-24T22:00:34.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/7229f1494b.webp",
-   "t": "2026-11-25",
-   "summary": "Foreign Policy reports that Defense Secretary Pete Hegseth is reportedly delaying deliveries of a key weapon, in a discussion of Ukraine’s air defense.",
-   "why": "Track how reported delays may affect Ukraine’s air-defense supply.",
-   "tags": [
-    "Ukraine",
-    "air defense",
-    "weapon deliveries"
-   ],
-   "ai": true
-  },
-  {
-   "id": "49947c3e9a",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "The president and Congress must forge a common US strategy on Ukraine",
-   "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/president-and-congress-must-forge-a-common-us-strategy-on-ukraine/",
-   "snippet": "The Democratic party’s electoral victory on November 3 and future control of the Senate and House of Representatives create an opening to form a bipartisan strategy to end Russia’s war against Ukraine, writes Matthew H. Murray. The post The president and Congress must forge a common US strategy on Ukraine appeared firs",
-   "published": "2026-11-24T20:16:13.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/49947c3e9a.webp",
-   "t": "2026-11-25",
-   "summary": "The Atlantic Council argues that an electoral victory and future control of Congress create an opening for a bipartisan U.S. strategy to end Russia’s war against Ukraine.",
-   "why": "The piece frames congressional control as relevant to U.S. strategy on Ukraine.",
-   "tags": [
-    "U.S. strategy",
-    "Ukraine",
-    "Congress"
-   ],
-   "ai": true
-  },
-  {
-   "id": "4671bef695",
-   "section": "geo",
-   "source": "Atlantic Council",
-   "weight": 0.6,
-   "title": "What Congress can do about China’s support for Russia’s war",
-   "url": "https://www.atlanticcouncil.org/dispatches/what-congress-can-do-about-chinas-support-for-russias-war/",
-   "snippet": "US efforts to end Russia's war require a tougher stance on the Chinese firms helping Moscow offshore dual-use production. The post What Congress can do about China’s support for Russia’s war appeared first on Atlantic Council .",
-   "published": "2026-11-24T20:07:39.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/4671bef695.webp",
-   "t": "2026-11-25",
-   "summary": "The Atlantic Council argues that U.S. efforts to end Russia’s war require a tougher stance on Chinese firms helping Moscow offshore dual-use production.",
-   "why": "The issue links dual-use production and firms in China to U.S. policy toward Russia’s war.",
-   "tags": [
-    "China",
-    "dual-use production",
-    "Russia"
-   ],
-   "ai": true
-  },
-  {
-   "id": "e847e33225",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-   "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-   "published": "2026-11-24T19:27:23.000Z",
-   "also": [],
-   "score": 1.49,
-   "image": "/img/news/e847e33225.webp",
-   "t": "2026-11-24",
-   "summary": "BBC World reports that DR Congo said a military aircraft was missing as rebels claimed to have shot it down; a South African pilot and Ugandan officer were reportedly aboard.",
-   "why": "The competing accounts leave uncertainty about the aircraft and its occupants.",
-   "tags": [
-    "DR Congo",
-    "military aircraft"
+    "Russian sabotage",
+    "companies"
    ],
    "ai": true
   }
@@ -719,46 +710,47 @@
   }
  ],
  "run_today": [
-  "Check NGINX versions against the affected-version guidance and apply relevant patches.",
-  "Review CISA’s Known Exploited Vulnerabilities Catalog for systems you operate.",
-  "Review SSO credential defenses and remind users to verify unexpected voice requests."
+  "Test authentication after installing the November updates and investigate failures.",
+  "Check Check Point management servers for exposure to the reported vulnerabilities and signs of compromise.",
+  "Identify Drupal systems affected by the exploited flaw and prioritize patching."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "Use-after-free",
-   "explainer": "A software flaw involving memory that has already been freed but is still used. Unit 42 identifies this type of flaw in NGINX HTTP/2.",
-   "from_id": "5a7ed17ece",
-   "from": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
-   "fromSource": "Unit 42"
+   "term": "authentication",
+   "explainer": "Authentication is the process of checking that a person or system is who it claims to be before allowing access. The Microsoft report says customers may experience authentication issues after installing updates.",
+   "from_id": "00f16364ac",
+   "from": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+   "fromSource": "BleepingComputer"
   },
   {
    "domain": "warfare",
-   "term": "Counter-drone mission",
-   "explainer": "A mission focused on countering drones. The report says newly arrived Lynx KF41 vehicles in Ukraine will take on this role.",
-   "from_id": "fd4b3e3d38",
-   "from": "https://www.twz.com/land/lynx-kf41-fighting-vehicles-newly-arrived-in-ukraine-will-take-on-counter-drone-mission",
-   "fromSource": "The War Zone"
+   "term": "electronic warfare",
+   "explainer": "Electronic warfare refers to military activity involving electronic systems. The report identifies an electronic warfare suite as equipment planned for Germany’s F128 frigates.",
+   "from_id": "f1f65e568b",
+   "from": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/",
+   "fromSource": "Naval News"
   },
   {
    "domain": "geo",
-   "term": "Inertial navigation",
-   "explainer": "A way to navigate using an inertial navigation system. The item describes a compact system intended for next-generation naval platforms.",
-   "from_id": "2c2d21b254",
-   "from": "https://insidegnss.com/safran-electronics-defense-launches-microgeonyx-m-its-new-compact-inertial-navigation-system-for-next-gen-naval-platforms/",
-   "fromSource": "Inside GNSS"
+   "term": "Sea of Azov",
+   "explainer": "The Sea of Azov is a body of water whose access and waterways matter to routes in the report. It says blocked bridges have made it harder for Russia to resupply Crimea.",
+   "from_id": "fb308b2d8e",
+   "from": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+   "fromSource": "Naval News"
   }
  ],
  "analysis": {
-  "headline": "Security, recruitment, and operational readiness in focus",
+  "headline": "Cyber risk and defense decisions share a timing challenge",
   "paragraphs": [
-   "For defenders, the practical thread is attention to exposure: check affected software against patch guidance and review CISA’s catalog for relevant systems. The NGINX snippet mentions affected versions and patch guidance, but does not provide specifics; the CISA snippet is also incomplete, so further detail should not be assumed.",
-   "The geo story reports a conviction in South Africa and says Ukraine reports recruitment of people from different African countries to fight for Russia. Together, these items call for careful distinction between a reported individual case, Ukraine’s broader claim, and technical vulnerability reporting. Analysts should watch for additional detail in the underlying advisories and reporting."
+   "The cyber stories in today’s top set show different pressures on organizations: Microsoft says security updates may bring authentication issues, while attackers reportedly exploited multiple vulnerabilities against Check Point servers. The reported CIA system breach adds another concern, though the snippet provides few details. Together, they make careful verification and response relevant.",
+   "The warfare stories turn to institutional timing and capacity. One account describes a Pentagon effort to set deadlines for government decisions; another asks whether Congress wants its war powers back. The Czech supplier’s expansion plan and the reported disruption of routes to Crimea show how production and access also matter to defense and operations.",
+   "For defenders and analysts, the connection is the need to distinguish reported claims from confirmed detail and to track dependencies: software updates, exposed management systems, procurement decisions, and transport routes. The snippets do not establish how these stories relate directly. Watch for further reporting that clarifies impact, implementation, and the decisions that follow."
   ],
   "takeaways": [
-   "Check NGINX exposure and use the supplied patch guidance.",
-   "Consult CISA’s catalog for vulnerabilities relevant to your systems.",
-   "Keep reported recruitment claims distinct from confirmed case details."
+   "Verify update effects while checking exposed management systems for vulnerabilities and compromise.",
+   "Government decision timelines and legislative oversight are part of the defense picture.",
+   "Production capacity and route access may affect military supply and operations."
   ]
  },
  "health": [
@@ -778,7 +770,7 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 15
+   "n": 13
   },
   {
    "name": "The Hacker News",
@@ -808,7 +800,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 8
+   "n": 4
   },
   {
    "name": "Unit 42",
@@ -838,19 +830,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 4
+   "n": 5
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 8
+   "n": 6
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 10
+   "n": 6
   },
   {
    "name": "Defense One",
@@ -862,13 +854,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 7
+   "n": 4
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 3
+   "n": 6
   },
   {
    "name": "Bellingcat",
@@ -898,19 +890,19 @@
    "name": "Inside GNSS",
    "section": "geo",
    "ok": true,
-   "n": 2
+   "n": 1
   },
   {
    "name": "Atlantic Council",
    "section": "geo",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Foreign Policy",
    "section": "geo",
    "ok": true,
-   "n": 4
+   "n": 3
   },
   {
    "name": "SpaceNews",
@@ -928,13 +920,13 @@
    "name": "The Diplomat",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "SatNews",
    "section": "geo",
    "ok": true,
-   "n": 6
+   "n": 4
   },
   {
    "name": "BBC World",
@@ -946,7 +938,7 @@
    "name": "Al Jazeera",
    "section": "geo",
    "ok": true,
-   "n": 10
+   "n": 13
   },
   {
    "name": "DW",
