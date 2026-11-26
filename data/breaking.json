@@ -1,25 +1,10 @@
 {
- "updated": "2026-11-25T20:09:38.105Z",
+ "updated": "2026-11-26T02:48:20.827Z",
  "health": [
   {
    "name": "BleepingComputer",
    "ok": true,
-   "n": 4
-  },
-  {
-   "name": "Krebs on Security",
-   "ok": true,
-   "n": 0
-  },
-  {
-   "name": "The Record",
-   "ok": true,
    "n": 2
-  },
-  {
-   "name": "CISA Advisories",
-   "ok": true,
-   "n": 0
   },
   {
    "name": "The DFIR Report",
@@ -27,7 +12,7 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
@@ -37,27 +22,47 @@
    "error": "HTTP 402"
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
    "name": "MarketWatch",
    "ok": true,
    "n": 10
   },
   {
+   "name": "The Hacker News",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "n": 0
+  },
+  {
    "name": "BBC World",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "name": "Al Jazeera",
    "ok": true,
    "n": 6
   },
   {
-   "name": "Hackread",
+   "name": "SecurityWeek",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
-   "name": "Security Affairs",
+   "name": "Hackread",
+   "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
    "ok": true,
    "n": 0
   },
@@ -67,14 +72,9 @@
    "n": 0
   },
   {
-   "name": "SecurityWeek",
+   "name": "Security Affairs",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Dark Reading",
-   "ok": true,
-   "n": 3
+   "n": 1
   },
   {
    "name": "DarkForums",
@@ -82,12 +82,12 @@
    "n": 7
   },
   {
-   "name": "SOCRadar blog",
+   "name": "BreachForums",
    "ok": true,
    "n": 0
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,171 @@
   }
  ],
  "items": [
+  {
+   "id": "n4b4af1f428",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+   "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+   "published": "2026-11-26T02:03:03.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n6cc600fdef",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Ukraine attacks Russian military base, says five planes struck",
+   "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
+   "published": "2026-11-26T01:39:46.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nba3664869a",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "ISIL blamed for multiple suicide attacks in Syria",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/isil-blamed-for-multiple-suicide-attacks-in-syria?traffic_source=rss",
+   "published": "2026-11-26T00:51:17.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf4b2e4965e",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Two Syrian security personnel killed in ISIL suicide attack",
+   "url": "https://www.aljazeera.com/news/2026/11/26/two-syrian-security-personnel-killed-in-isil-suicide-attack?traffic_source=rss",
+   "published": "2026-11-26T00:41:49.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n317078de0b",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
+   "published": "2026-11-26T00:00:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n6770f64a88",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+   "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+   "published": "2026-11-25T23:33:39.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf8b048f096",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-25T22:18:06.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nf98e8200ec",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+   "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+   "published": "2026-11-25T22:16:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "nd540fe45c0",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+   "url": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+   "published": "2026-11-25T22:11:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n50a53afadc",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "published": "2026-11-25T22:05:09.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n19c7121dfc",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+   "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
+   "published": "2026-11-25T21:50:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n70f66acc3d",
+   "kind": "news",
+   "group": "cyber",
+   "source": "BleepingComputer",
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "published": "2026-11-25T21:33:33.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n1a0018bfd6",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Hackread",
+   "title": "1Password Says Hacker Copied Customer Account Data, Vaults Unaffected",
+   "url": "https://hackread.com/1password-attacker-copied-customer-account-data-vaults/",
+   "published": "2026-11-25T21:19:49.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n17a805c0d6",
+   "kind": "news",
+   "group": "cyber",
+   "source": "The Record",
+   "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "published": "2026-11-25T21:18:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n14c2f279b5",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Switzerland Confirms First AI-Agent Cyberattacks on Local Organisations",
+   "url": "https://securityaffairs.com/204004/hacking/switzerland-confirms-first-ai-agent-cyberattacks-on-local-organisations.html",
+   "published": "2026-11-25T21:06:55.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n4550edce8b",
    "kind": "news",
@@ -2404,94 +2569,6 @@
    "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&amp;at_campaign=rss",
    "published": "2026-11-23T05:33:17.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n3d18a2b584",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
-   "url": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores?traffic_source=rss",
-   "published": "2026-11-23T02:09:15.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n40291a0c26",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Poland says Russia tried to assassinate Ukrainian rapper twice",
-   "url": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice?traffic_source=rss",
-   "published": "2026-11-23T01:53:23.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na33996b434",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss",
-   "published": "2026-11-23T01:51:32.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "neec6a4fa51",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli forces continue house demolitions in southern Lebanon",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-forces-continue-house-demolitions-in-southern-lebanon?traffic_source=rss",
-   "published": "2026-11-23T01:43:29.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nde25ddea03",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
-   "published": "2026-11-22T23:59:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1ef6bba92e",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Second ship targeted in series of naval drone attacks off Libyan coast",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss",
-   "published": "2026-11-22T22:01:48.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nb36381fd75",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Ron Johnson’s Social Security gaffe buried important news",
-   "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
-   "published": "2026-11-22T21:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n116a5f790c",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Social Security should be shut down, this Republican senator says",
-   "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
-   "published": "2026-11-22T20:26:00.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
