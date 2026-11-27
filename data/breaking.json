@@ -1,18 +1,13 @@
 {
- "updated": "2026-11-26T20:28:56.157Z",
+ "updated": "2026-11-27T03:06:40.976Z",
  "health": [
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 3
-  },
   {
    "name": "CISA Advisories",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
@@ -22,7 +17,7 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The DFIR Report",
+   "name": "The Record",
    "ok": true,
    "n": 0
   },
@@ -32,19 +27,14 @@
    "n": 0
   },
   {
-   "name": "The Hacker News",
+   "name": "The DFIR Report",
    "ok": true,
-   "n": 2
-  },
-  {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
+   "n": 0
   },
   {
    "name": "MarketWatch",
    "ok": true,
-   "n": 7
+   "n": 5
   },
   {
    "name": "BBC World",
@@ -52,19 +42,29 @@
    "n": 2
   },
   {
-   "name": "Hackread",
+   "name": "Al Jazeera",
    "ok": true,
-   "n": 1
+   "n": 6
   },
   {
-   "name": "Dark Reading",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
   {
    "name": "SecurityWeek",
    "ok": true,
-   "n": 1
+   "n": 0
+  },
+  {
+   "name": "Hackread",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
   },
   {
    "name": "Daily Dark Web",
@@ -74,7 +74,7 @@
   {
    "name": "Security Affairs",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "DarkForums",
@@ -118,6 +118,105 @@
   }
  ],
  "items": [
+  {
+   "id": "n1cf14ec2e9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+   "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+   "published": "2026-11-27T02:14:25.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n79bb921cb7",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
+   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
+   "published": "2026-11-27T01:07:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n63523d7218",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Inside Ukraine’s power crisis amid its war with Russia",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/inside-ukraines-power-crisis-amid-its-war-with-russia?traffic_source=rss",
+   "published": "2026-11-27T00:46:19.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n3980a4e9d9",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Iran’s Araghchi calls deadly Kuwait attack ‘suspicious’",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious?traffic_source=rss",
+   "published": "2026-11-27T00:00:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "naa11c033bf",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israeli settlers damage Palestinian family’s homes in West Bank attack",
+   "url": "https://www.aljazeera.com/news/2026/11/26/israeli-settlers-damage-palestinian-familys-homes-in-west-bank-attack?traffic_source=rss",
+   "published": "2026-11-26T23:07:36.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n9f40c2b1c2",
+   "kind": "news",
+   "group": "crisis",
+   "source": "BBC World",
+   "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss",
+   "published": "2026-11-26T22:49:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n4d1af77c24",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+   "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+   "published": "2026-11-26T22:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na2baf74492",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "published": "2026-11-26T21:45:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "na310de02a1",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+   "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+   "published": "2026-11-26T21:08:44.000Z",
+   "severity": "normal",
+   "verified": true
+  },
   {
    "id": "n2cde4a64c5",
    "kind": "news",
@@ -2294,226 +2393,6 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
    "published": "2026-11-24T04:49:31.000Z",
    "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n887fecd930",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-   "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-24T02:15:59.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6ee5d9f2ed",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Qatar PM looks to revive US-Iran talks after meeting Rubio",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio?traffic_source=rss",
-   "published": "2026-11-24T01:32:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n13e5f39baa",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israeli minister approves return of Flydubai flights to Tel Aviv",
-   "url": "https://www.aljazeera.com/news/2026/11/24/israeli-minister-approves-return-of-flydubai-flights?traffic_source=rss",
-   "published": "2026-11-24T01:09:51.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n35db16ff21",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
-   "url": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
-   "published": "2026-11-24T01:06:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n3df0fac481",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
-   "published": "2026-11-23T22:04:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6a57f5edfd",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Industrial Serial Gateways Broadcast That They're Insecure",
-   "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
-   "published": "2026-11-23T22:02:46.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n132a8126f7",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
-   "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:51:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n1273406ed2",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
-   "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:45:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ndade4541a6",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-   "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:36:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n564931ea56",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
-   "url": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:33:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n4e527fd4a3",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-   "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-   "published": "2026-11-23T21:30:40.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "nbec8b776ee",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "HPE just posted its strongest growth ever — but its stock is wavering",
-   "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:28:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne10705ac0f",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-   "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:24:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nadc0fa1468",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "CrowdStrike Makes AI Security Push With Blockbuster Zscaler Deal",
-   "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
-   "published": "2026-11-23T21:21:42.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n08469e6a41",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s southern Syria incursion triggers fear and destruction",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israels-southern-syria-incursion-triggers-fear-and-destruction?traffic_source=rss",
-   "published": "2026-11-23T21:19:17.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n0ec33f301d",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-   "url": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:19:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6c3765051a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-   "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-   "published": "2026-11-23T21:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nf1397973b7",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-   "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-   "published": "2026-11-23T20:54:51.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "ndd0bb392b4",
-   "kind": "news",
-   "group": "crisis",
-   "source": "BBC World",
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&amp;at_campaign=rss",
-   "published": "2026-11-23T20:48:35.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n5758386699",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-   "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss",
-   "published": "2026-11-23T20:41:56.000Z",
-   "severity": "normal",
    "verified": true
   }
  ]
