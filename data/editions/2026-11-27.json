@@ -1,221 +1,335 @@
 {
  "date": "2026-11-27",
  "edition": 256,
- "compiled": "2026-11-27T12:53:18.261Z",
+ "compiled": "2026-11-27T21:45:13.886Z",
  "model": "gpt-6-luna",
  "items": [
   {
-   "id": "7b714952d0",
+   "id": "e66a2e1c8c",
    "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft removes WSUS server role in Windows Server 2028",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-   "snippet": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
-   "published": "2026-11-27T11:18:36.000Z",
+   "source": "CISA Advisories",
+   "weight": 0.9,
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "snippet": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added three new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active e",
+   "published": "2026-11-27T12:00:00.000Z",
    "also": [],
-   "score": 1.57,
-   "image": "/img/news/7b714952d0.webp",
+   "score": 1.7,
    "t": "2026-11-27",
-   "summary": "Microsoft says it will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system.",
-   "why": "Review plans for managing updates as you prepare for the next Windows Server release.",
+   "summary": "CISA says it added three known exploited vulnerabilities to its catalog.",
+   "why": "Check whether your systems are affected and prioritize remediation.",
    "tags": [
-    "WSUS",
-    "Windows Server"
+    "CISA",
+    "vulnerabilities",
+    "catalog"
    ],
    "ai": true
   },
   {
-   "id": "30a43f231a",
+   "id": "c33ac200ed",
    "section": "cyber",
    "source": "BleepingComputer",
    "weight": 0.6,
-   "title": "Drupal warns of new site takeover flaw exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-   "snippet": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
-   "published": "2026-11-27T10:10:15.000Z",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "snippet": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+   "published": "2026-11-27T19:26:04.000Z",
+   "also": [],
+   "score": 1.55,
+   "image": "/img/news/c33ac200ed.webp",
+   "t": "2026-11-27",
+   "summary": "pCloud confirms a cyberattack after users reported unknown devices connecting to accounts despite two-factor authentication.",
+   "why": "Review account sessions and investigate unfamiliar logins, including accounts with 2FA enabled.",
+   "tags": [
+    "pCloud Pass",
+    "2FA",
+    "account access"
+   ],
+   "ai": true
+  },
+  {
+   "id": "72cf1a5347",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "snippet": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+   "published": "2026-11-27T18:57:42.000Z",
    "also": [],
    "score": 1.54,
-   "image": "/img/news/30a43f231a.webp",
+   "image": "/img/news/72cf1a5347.webp",
    "t": "2026-11-27",
-   "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability to breach and hijack unpatched websites.",
-   "why": "Check Drupal sites for available fixes and prioritize patching unpatched installations.",
-   "tags": [
-    "Drupal",
-    "vulnerability",
-    "site takeover"
-   ],
-   "ai": true
-  },
-  {
-   "id": "34ba075e72",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "SAP confirms security incident after suspicious GitHub activity",
-   "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-   "snippet": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
-   "published": "2026-11-27T09:56:36.000Z",
-   "also": [],
-   "score": 1.54,
-   "image": "/img/news/34ba075e72.webp",
-   "t": "2026-11-27",
-   "summary": "SAP says it took urgent action to protect customers after detecting suspicious activity in its IT environment.",
-   "why": "Review relevant security notices and monitor systems for activity related to the incident.",
-   "tags": [
-    "SAP",
-    "suspicious activity"
-   ],
-   "ai": true
-  },
-  {
-   "id": "05f4c13650",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
-   "snippet": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
-   "published": "2026-11-27T09:08:16.000Z",
-   "also": [],
-   "score": 1.52,
-   "image": "/img/news/05f4c13650.webp",
-   "t": "2026-11-27",
-   "summary": "Microsoft released an emergency hotpatch to address Windows Server 2025 crashes after installation of this month's security hotpatch update.",
-   "why": "Check whether affected servers need the emergency hotpatch and validate their stability.",
-   "tags": [
-    "hotpatch",
-    "Windows Server"
-   ],
-   "ai": true
-  },
-  {
-   "id": "15e93fc59e",
-   "section": "cyber",
-   "source": "BleepingComputer",
-   "weight": 0.6,
-   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
-   "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-   "snippet": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
-   "published": "2026-11-27T08:06:58.000Z",
-   "also": [],
-   "score": 1.5,
-   "image": "/img/news/15e93fc59e.webp",
-   "t": "2026-11-27",
-   "summary": "The report says a critical, 12-year-old Linux kernel NFS server vulnerability allows remote attackers to gain root privileges.",
-   "why": "Identify exposed NFS servers and check for fixes for the reported vulnerability.",
-   "tags": [
-    "Linux",
-    "NFS",
-    "root privileges"
-   ],
-   "ai": true
-  },
-  {
-   "id": "db4a5f90bd",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
-   "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
-   "snippet": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities appeared first on SecurityWeek .",
-   "published": "2026-11-27T11:00:00.000Z",
-   "also": [],
-   "score": 1.46,
-   "image": "/img/news/db4a5f90bd.webp",
-   "t": "2026-11-27",
-   "summary": "SecurityWeek highlights stories including accusations against RansomwareHelp, a USDA payment systems breach, and a hack of cybersecurity firm Radware.",
-   "why": "Use the stories as prompts to review payment systems and third-party security exposure.",
-   "tags": [
-    "ransomware",
-    "payment systems",
-    "Radware"
-   ],
-   "ai": true
-  },
-  {
-   "id": "415efee326",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
-   "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
-   "snippet": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together ",
-   "published": "2026-11-27T10:32:18.000Z",
-   "also": [],
-   "score": 1.45,
-   "image": "/img/news/415efee326.webp",
-   "t": "2026-11-27",
-   "summary": "The Hacker News argues that many security metrics look reassuring in reviews but do not show what is actually happening.",
-   "why": "Check whether security metrics support timely decisions, not just status reporting.",
-   "tags": [
-    "security metrics",
-    "reporting"
-   ],
-   "ai": true
-  },
-  {
-   "id": "99bc87f821",
-   "section": "cyber",
-   "source": "The Hacker News",
-   "weight": 0.5,
-   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
-   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
-   "snippet": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official",
-   "published": "2026-11-27T09:29:30.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/99bc87f821.webp",
-   "t": "2026-11-27",
-   "summary": "Researchers say tampered Q-Dir and DesktopOK installation files from the official SoftwareOK website were used to deliver remote access malware.",
-   "why": "Verify installer integrity and review use of Q-Dir and DesktopOK for signs of compromise.",
-   "tags": [
-    "supply chain",
-    "Q-Dir",
-    "malware"
-   ],
-   "ai": true
-  },
-  {
-   "id": "564b556565",
-   "section": "cyber",
-   "source": "SecurityWeek",
-   "weight": 0.5,
-   "title": "100,000 Potentially Impacted by Colorado Data Breach",
-   "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-   "snippet": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
-   "published": "2026-11-27T09:30:54.000Z",
-   "also": [],
-   "score": 1.43,
-   "image": "/img/news/564b556565.webp",
-   "t": "2026-11-27",
-   "summary": "Hackers breached myColorado, a digital identification and document storage application, and accessed user-uploaded data.",
-   "why": "Assess exposure of uploaded data and follow relevant breach guidance.",
+   "summary": "Boston Scientific is sending breach notices to individuals affected by a cyberattack, according to the company.",
+   "why": "Review incident communications and assess exposure of personal and medical information.",
    "tags": [
     "data breach",
-    "myColorado"
+    "medical info",
+    "Boston Scientific"
    ],
    "ai": true
   },
   {
-   "id": "c51ad7ce4d",
+   "id": "8b62149719",
    "section": "cyber",
-   "source": "SecurityWeek",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "snippet": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+   "published": "2026-11-27T17:06:13.000Z",
+   "also": [],
+   "score": 1.5,
+   "image": "/img/news/8b62149719.webp",
+   "t": "2026-11-27",
+   "summary": "A publicly disclosed Cacti zero-day has a proof-of-concept exploit that allows unauthenticated command execution on vulnerable servers.",
+   "why": "Check Cacti deployments for exposure and prioritize patching or other mitigations.",
+   "tags": [
+    "Cacti",
+    "zero-day",
+    "remote code execution"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2778b393e6",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "snippet": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+   "published": "2026-11-27T15:09:40.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/2778b393e6.webp",
+   "t": "2026-11-27",
+   "summary": "Hackers reportedly breached the US Air Force's Cloud One platform, amid cyberattacks affecting US government agencies.",
+   "why": "Review cloud access and monitoring for signs of unauthorized activity.",
+   "tags": [
+    "Cloud One",
+    "US Air Force",
+    "breach"
+   ],
+   "ai": true
+  },
+  {
+   "id": "96edb4ed0f",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "snippet": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+   "published": "2026-11-27T15:00:10.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/96edb4ed0f.webp",
+   "t": "2026-11-27",
+   "summary": "ISPsystem says forgotten virtual machines, unpatched servers, and excessive permissions can create security blind spots.",
+   "why": "Inventory virtual machines, check patch status, and review access permissions.",
+   "tags": [
+    "virtual machines",
+    "patching",
+    "access controls"
+   ],
+   "ai": true
+  },
+  {
+   "id": "814d32c902",
+   "section": "cyber",
+   "source": "BleepingComputer",
+   "weight": 0.6,
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "snippet": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+   "published": "2026-11-27T14:22:06.000Z",
+   "also": [],
+   "score": 1.45,
+   "image": "/img/news/814d32c902.webp",
+   "t": "2026-11-27",
+   "summary": "Malwarebytes is offering discounted security subscriptions during its 2026 Black Friday and Cyber Monday sale.",
+   "why": "Compare security tools against your needs before changing subscriptions.",
+   "tags": [
+    "Malwarebytes",
+    "subscriptions",
+    "antivirus"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4a82d37230",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Japan’s education ministry discloses breach of government procurement system",
+   "url": "https://therecord.media/japan-education-ministry-cyberattack",
+   "snippet": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+   "published": "2026-11-27T14:15:00.000Z",
+   "also": [],
+   "score": 1.44,
+   "image": "/img/news/4a82d37230.webp",
+   "t": "2026-11-27",
+   "summary": "Japan’s education ministry disclosed a breach of its government procurement system that may have exposed business information and email addresses.",
+   "why": "Check procurement-system access and assess whether exposed contact information needs protection.",
+   "tags": [
+    "Japan",
+    "procurement system",
+    "email addresses"
+   ],
+   "ai": true
+  },
+  {
+   "id": "9a79f6f175",
+   "section": "cyber",
+   "source": "The Record",
+   "weight": 0.6,
+   "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+   "url": "https://therecord.media/sap-germany-cyberattack-github",
+   "snippet": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.",
+   "published": "2026-11-27T13:15:00.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/9a79f6f175.webp",
+   "t": "2026-11-27",
+   "summary": "SAP confirmed a cyber incident following reports of intrusion into its software development infrastructure and possible source-code access.",
+   "why": "Review development-environment access and investigate possible source-code exposure.",
+   "tags": [
+    "SAP",
+    "development infrastructure",
+    "source code"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f01224df1f",
+   "section": "cyber",
+   "source": "The Hacker News",
    "weight": 0.5,
-   "title": "Hex Package Manager Warns of Potential Data Breach",
-   "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-   "snippet": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
-   "published": "2026-11-27T07:44:49.000Z",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "snippet": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveL",
+   "published": "2026-11-27T16:36:11.000Z",
    "also": [],
    "score": 1.39,
-   "image": "/img/news/c51ad7ce4d.webp",
+   "image": "/img/news/f01224df1f.webp",
    "t": "2026-11-27",
-   "summary": "SecurityWeek says a Hex package manager vulnerability let hackers run commands on web servers. No data modification evidence was found, but database reads are not logged.",
-   "why": "Review Hex web servers and consider what database access can be verified without read logs.",
+   "summary": "A suspected Vietnam-linked group is accused of targeting Southeast Asian military, government, and legislative organizations to gather intelligence on South China Sea defense agreements.",
+   "why": "Organizations in the named sectors should review targeted access and intelligence-collection risks.",
    "tags": [
-    "Hex",
-    "web servers",
-    "database"
+    "Southeast Asia",
+    "espionage",
+    "South China Sea"
+   ],
+   "ai": true
+  },
+  {
+   "id": "011a5a3bf7",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Unique AIM-9X Sidewinders Now Seen On USAF F-35As In The Middle East",
+   "url": "https://www.twz.com/air/unique-aim-9x-sidewinders-now-seen-on-usaf-f-35as-in-the-middle-east",
+   "snippet": "It's a mystery why these AIM-9Xs have emerged now, but work has continued on F-35-specific versions with reduced radar reflectivity. The post Unique AIM-9X Sidewinders Now Seen On USAF F-35As In The Middle East appeared first on TWZ .",
+   "published": "2026-11-27T20:28:44.000Z",
+   "also": [],
+   "score": 1.57,
+   "image": "/img/news/011a5a3bf7.webp",
+   "t": "2026-11-27",
+   "summary": "AIM-9X Sidewinders have appeared on USAF F-35As in the Middle East; the reason is unclear, and F-35-specific versions with reduced radar reflectivity remain in development.",
+   "why": "The reported configuration highlights ongoing work on aircraft-specific weapons and radar reflectivity.",
+   "tags": [
+    "AIM-9X",
+    "F-35A",
+    "radar reflectivity"
+   ],
+   "ai": true
+  },
+  {
+   "id": "25fc1b2a26",
+   "section": "warfare",
+   "source": "Breaking Defense",
+   "weight": 0.6,
+   "title": "BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations",
+   "url": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
+   "snippet": "The joint procurement by Finland, Lithuania, the Netherlands, Norway and Sweden is expressly linked to the threat from Russia.",
+   "published": "2026-11-27T19:57:02.000Z",
+   "also": [],
+   "score": 1.56,
+   "image": "/img/news/25fc1b2a26.webp",
+   "t": "2026-11-27",
+   "summary": "Finland, Lithuania, the Netherlands, Norway, and Sweden jointly procured CV90s in a deal linked to the threat from Russia.",
+   "why": "The joint purchase shows how allied procurement is being tied to shared threat assessments.",
+   "tags": [
+    "CV90",
+    "NATO",
+    "procurement"
+   ],
+   "ai": true
+  },
+  {
+   "id": "23e1123fa5",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Europe Bets Big On CV90 Armored Fighting Vehicle",
+   "url": "https://www.twz.com/land/europe-bets-big-on-cv90-armored-fighting-vehicle",
+   "snippet": "Five European NATO allies are ordering more than 400 CV90 infantry fighting vehicles together in a $6-billion deal. The post Europe Bets Big On CV90 Armored Fighting Vehicle appeared first on TWZ .",
+   "published": "2026-11-27T18:57:35.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/23e1123fa5.webp",
+   "t": "2026-11-27",
+   "summary": "Five European NATO allies are ordering more than 400 CV90 infantry fighting vehicles in a $6-billion deal.",
+   "why": "The order is relevant to allied plans for infantry fighting vehicles and joint procurement.",
+   "tags": [
+    "CV90",
+    "NATO",
+    "infantry fighting vehicles"
+   ],
+   "ai": true
+  },
+  {
+   "id": "fc7cb5c281",
+   "section": "warfare",
+   "source": "The War Zone",
+   "weight": 0.6,
+   "title": "Sneak Down The Chimney Undetected In This Newly Upgraded Very Stealthy Christmas Tree T-Shirt",
+   "url": "https://www.twz.com/uncategorized/sneak-down-the-chimney-undetected-in-this-newly-upgraded-very-stealthy-christmas-tree-t-shirt",
+   "snippet": "We are releasing a new variant of our hugely popular Silent Night T-shirt, along with three other reissued shirts in new colors for the holidays! The post Sneak Down The Chimney Undetected In This Newly Upgraded Very Stealthy Christmas Tree T-Shirt appeared first on TWZ .",
+   "published": "2026-11-27T18:54:01.000Z",
+   "also": [],
+   "score": 1.54,
+   "image": "/img/news/fc7cb5c281.webp",
+   "t": "2026-11-27",
+   "summary": "The publisher says it is releasing a new variant of its Silent Night T-shirt and reissuing three other shirts in new colors.",
+   "why": "No operational relevance is stated in the supplied description.",
+   "tags": [
+    "T-shirt",
+    "new variant",
+    "reissued shirts"
+   ],
+   "ai": true
+  },
+  {
+   "id": "6c9c1d7e38",
+   "section": "warfare",
+   "source": "Defense News",
+   "weight": 0.5,
+   "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
+   "url": "https://www.defensenews.com/video/2026/11/27/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
+   "snippet": "While Ukrainian innovators pioneer frontline aerial drone evacuation, DARPA develops AI-assisted robots to find and assess injured troops and civilians. The race to save lives is on.",
+   "published": "2026-11-27T14:00:00.000Z",
+   "also": [],
+   "score": 1.34,
+   "image": "/img/news/6c9c1d7e38.webp",
+   "t": "2026-11-27",
+   "summary": "Ukrainian innovators are developing frontline aerial drone evacuation, while DARPA is developing AI-assisted robots to find and assess injured troops and civilians.",
+   "why": "The examples show how drones and robots may support casualty location and assessment.",
+   "tags": [
+    "drones",
+    "AI-assisted robots",
+    "evacuation"
    ],
    "ai": true
   },
@@ -229,7 +343,7 @@
    "snippet": "The wars in Ukraine and the Middle East have been a “quite brutal reality check,” and French forces have an urgent need for counter-drone capabilities, said Alice Rufo, France’s junior minister for the armed forces.",
    "published": "2026-11-27T11:12:42.000Z",
    "also": [],
-   "score": 1.47,
+   "score": 1.28,
    "image": "/img/news/8a2bba60d4.webp",
    "t": "2026-11-27",
    "summary": "France has begun a defense-industry pact to build counter-drone capabilities. A French junior minister said recent wars showed an urgent need.",
@@ -251,7 +365,7 @@
    "snippet": "New photos from JMU’s Isogo shipyard in Yokohama show a large hull block believed to be the stern section of Japan’s second ASEV missile defense ship. The post Photos Show Apparent Stern Block of Japan’s Second ASEV appeared first on Naval News .",
    "published": "2026-11-27T09:29:05.000Z",
    "also": [],
-   "score": 1.43,
+   "score": 1.24,
    "image": "/img/news/fee7061432.webp",
    "t": "2026-11-27",
    "summary": "New photos from a shipyard in Yokohama show a large hull block believed to be the stern section of Japan's second ASEV missile defense ship.",
@@ -273,7 +387,7 @@
    "snippet": "At Euronaval 2026 in Paris, Naval News spoke with Bastien Allanot, CEO and Co-Founder of French defense startup Arsenals, about its modular autonomous underwater vehicle. The post French Startup Arsenals Unveils Modular AUV Designed for Rapid Production appeared first on Naval News .",
    "published": "2026-11-26T15:40:15.000Z",
    "also": [],
-   "score": 1.06,
+   "score": 0.87,
    "image": "/img/news/d152672a88.webp",
    "t": "2026-11-26",
    "summary": "Naval News reports that French startup Arsenals unveiled a modular autonomous underwater vehicle designed for rapid production.",
@@ -285,203 +399,24 @@
    "ai": true
   },
   {
-   "id": "de9cdf24dc",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal",
-   "url": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/",
-   "snippet": "Babcock has signed a record £8.7 billion Gateway Agreement with the UK Ministry of Defence to succeed the Future Maritime Support Programme. The post UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal appeared first on Naval News .",
-   "published": "2026-11-26T14:09:34.000Z",
-   "also": [],
-   "score": 1.03,
-   "image": "/img/news/de9cdf24dc.webp",
-   "t": "2026-11-26",
-   "summary": "Naval News reports that Babcock signed a £8.7 billion Gateway Agreement with the UK Ministry of Defence to succeed the Future Maritime Support Programme.",
-   "why": "The agreement concerns ongoing support for the UK submarine fleet.",
-   "tags": [
-    "submarine support",
-    "UK"
-   ],
-   "ai": true
-  },
-  {
-   "id": "11a219aefb",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "Where Soldiers Enjoyed Thanksgiving",
-   "url": "https://warontherocks.com/where-soldiers-enjoyed-thanksgiving/",
-   "snippet": "Today, I’m slicing turkey. Grease dots my pinks and greens. Scuffs mar my jump boots. As I serve, soldiers feast: smoked turkey, honey-glazed ham, a steamship round of beef, smoked flank steak, and a whole smoked pig. Alongside those entrees, they’re enjoying collard greens, cornbread twice over, baked mac and cheese, ",
-   "published": "2026-11-26T08:30:44.000Z",
-   "also": [],
-   "score": 1.01,
-   "image": "/img/news/11a219aefb.webp",
-   "t": "2026-11-26",
-   "summary": "The article describes soldiers sharing a Thanksgiving meal, listing dishes served alongside the gathering.",
-   "why": "The account offers a glimpse of soldiers’ shared meal and daily life.",
-   "tags": [
-    "soldiers",
-    "Thanksgiving"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d542274669",
-   "section": "warfare",
-   "source": "War on the Rocks",
-   "weight": 0.6,
-   "title": "George Washington’s Thanksgiving Proclamation",
-   "url": "https://warontherocks.com/george-washingtons-thanksgiving-proclamation-5/",
-   "snippet": "Editor’s note: Congressional representatives asked George Washington to designate a national day of thanksgiving in honor of the new United States Constitution, which had come into operation in 1789. Washington observed the day “by attending services at St. Paul’s Chapel in New York City, and by donating beer and food ",
-   "published": "2026-11-26T08:15:50.000Z",
-   "also": [],
-   "score": 1,
-   "image": "/img/news/d542274669.webp",
-   "t": "2026-11-26",
-   "summary": "The editor’s note says congressional representatives asked George Washington to designate a national day of thanksgiving in honor of the Constitution, which had come into operation in 1789.",
-   "why": "The account connects an early national observance with the Constitution.",
-   "tags": [
-    "Washington",
-    "Constitution",
-    "Thanksgiving"
-   ],
-   "ai": true
-  },
-  {
-   "id": "dfdb54bf7d",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "Lockheed Martin Unveils Weapons Suite for Gibbs & Cox’s International Class Frigate",
-   "url": "https://www.navalnews.com/naval-news/2026/11/lockheed-martin-weapons-suite-international-class-frigate/",
-   "snippet": "At Euronaval 2026, Lockheed Martin unveiled a mid-range weapons suite for Gibbs & Cox’s International Class Frigate, pairing VLS cells with JAGM launchers. The post Lockheed Martin Unveils Weapons Suite for Gibbs & Cox’s International Class Frigate appeared first on Naval News .",
-   "published": "2026-11-26T09:31:13.000Z",
-   "also": [],
-   "score": 0.93,
-   "image": "/img/news/dfdb54bf7d.webp",
-   "t": "2026-11-26",
-   "summary": "At Euronaval 2026, Lockheed Martin unveiled a mid-range weapons suite for the International Class Frigate, pairing VLS cells with JAGM launchers.",
-   "why": "The suite’s pairing of ship-based launch systems and JAGM launchers is relevant to frigate armament.",
-   "tags": [
-    "frigate",
-    "VLS",
-    "JAGM"
-   ],
-   "ai": true
-  },
-  {
-   "id": "bdfa8f2765",
-   "section": "warfare",
-   "source": "Naval News",
-   "weight": 0.5,
-   "title": "French Navy Trains with Philippine Coast Guard Ship from Taiwan",
-   "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-trains-with-philippine-coast-guard-ship-from-taiwan/",
-   "snippet": "The French Navy trained with the Philippine Coast Guard’s ex-Taiwanese patrol cutter BRP Sarangani and frigate BRP Diego Silang in the Sulu Sea. The post French Navy Trains with Philippine Coast Guard Ship from Taiwan appeared first on Naval News .",
-   "published": "2026-11-26T07:51:01.000Z",
-   "also": [],
-   "score": 0.9,
-   "image": "/img/news/bdfa8f2765.webp",
-   "t": "2026-11-26",
-   "summary": "The French Navy trained in the Sulu Sea with the Philippine Coast Guard’s ex-Taiwanese patrol cutter BRP Sarangani and frigate BRP Diego Silang.",
-   "why": "The exercise highlights naval cooperation in the Sulu Sea.",
-   "tags": [
-    "French Navy",
-    "Philippines",
-    "Sulu Sea"
-   ],
-   "ai": true
-  },
-  {
-   "id": "d77d50f6cd",
+   "id": "c832b42f44",
    "section": "geo",
    "source": "BBC World",
    "weight": 0.6,
-   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-   "published": "2026-11-26T21:17:53.000Z",
-   "also": [
-    {
-     "source": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss"
-    }
-   ],
-   "score": 1.63,
-   "image": "/img/news/d77d50f6cd.webp",
-   "t": "2026-11-26",
-   "summary": "BBC World reports that two Italians were killed in a strike in Kuwait. Italy's foreign ministry said they worked as technicians for Rheinmetall; Iran denies responsibility.",
-   "why": "The reported deaths and disputed responsibility are relevant to regional security and attribution.",
-   "tags": [
-    "Kuwait",
-    "strike",
-    "attribution"
-   ],
-   "ai": true
-  },
-  {
-   "id": "1308f74254",
-   "section": "geo",
-   "source": "Foreign Policy",
-   "weight": 0.6,
-   "title": "Latin America’s ‘Orange Wave’ Is Not Spurning China",
-   "url": "https://foreignpolicy.com/2026/11/27/latin-america-trump-china-right-wing-economics-orange-wave/",
-   "snippet": "It makes little economic sense for Trump’s right-wing allies to cut ties with Beijing.",
-   "published": "2026-11-27T11:00:22.000Z",
-   "also": [],
-   "score": 1.56,
-   "image": "/img/news/1308f74254.webp",
-   "t": "2026-11-27",
-   "summary": "Foreign Policy argues that it makes little economic sense for Trump’s right-wing allies in Latin America to cut ties with Beijing.",
-   "why": "The argument highlights economic considerations shaping Latin American ties with China.",
-   "tags": [
-    "Latin America",
-    "China",
-    "trade"
-   ],
-   "ai": true
-  },
-  {
-   "id": "5b00924ca8",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
-   "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
-   "published": "2026-11-27T10:39:31.000Z",
-   "also": [],
-   "score": 1.55,
-   "image": "/img/news/5b00924ca8.webp",
-   "t": "2026-11-27",
-   "summary": "Uganda plans to withdraw troops from a DR Congo town amid a diplomatic row. Ugandan forces are helping the Congolese military fight an Islamist militant group in the east.",
-   "why": "The withdrawal links troop presence, counter-militant operations, and diplomatic relations.",
-   "tags": [
-    "Uganda",
-    "DR Congo",
-    "troops"
-   ],
-   "ai": true
-  },
-  {
-   "id": "849497578b",
-   "section": "geo",
-   "source": "BBC World",
-   "weight": 0.6,
-   "title": "India busts cyberfraud and trafficking network rescuing 164 foreigners",
-   "url": "https://www.bbc.co.uk/news/articles/crkgvjy7q83wo?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "Lured by IT job promises, the victims were allegedly forced into cybercrime, police say.",
-   "published": "2026-11-27T10:01:07.000Z",
+   "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+   "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&amp;at_campaign=rss",
+   "snippet": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?",
+   "published": "2026-11-27T18:42:50.000Z",
    "also": [],
    "score": 1.54,
-   "image": "/img/news/849497578b.webp",
+   "image": "/img/news/c832b42f44.webp",
    "t": "2026-11-27",
-   "summary": "Indian police say foreigners allegedly lured with IT job promises were forced into cybercrime; the report says 164 were rescued.",
-   "why": "The case connects trafficking risks with coerced participation in cybercrime.",
+   "summary": "Ukraine faces another punishing winter, with the report asking how the war will end.",
+   "why": "The report highlights the continuing human and strategic pressure of the war in Ukraine.",
    "tags": [
-    "India",
-    "cybercrime",
-    "trafficking"
+    "Ukraine",
+    "winter",
+    "war"
    ],
    "ai": true
   },
@@ -493,7 +428,7 @@
    "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
    "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss",
    "snippet": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
-   "published": "2026-11-27T09:07:48.000Z",
+   "published": "2026-11-27T18:00:40.000Z",
    "also": [],
    "score": 1.52,
    "image": "/img/news/9f40c2b1c2.webp",
@@ -508,73 +443,175 @@
    "ai": true
   },
   {
-   "id": "ded997b7c5",
+   "id": "6748f6e760",
    "section": "geo",
-   "source": "BBC World",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+   "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+   "snippet": "The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
+   "published": "2026-11-27T20:39:57.000Z",
+   "also": [],
+   "score": 1.48,
+   "image": "/img/news/6748f6e760.webp",
+   "t": "2026-11-27",
+   "summary": "Putin unveiled a nuclear-powered submarine with hypersonic weapons; the Kremlin plans five new nuclear submarines by 2030.",
+   "why": "The announcement concerns planned naval expansion and weapons capability.",
+   "tags": [
+    "submarine",
+    "hypersonic weapons",
+    "naval fleet"
+   ],
+   "ai": true
+  },
+  {
+   "id": "4d1316fc75",
+   "section": "geo",
+   "source": "SpaceNews",
    "weight": 0.6,
-   "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
-   "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&amp;at_campaign=rss",
-   "snippet": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
-   "published": "2026-11-27T08:58:08.000Z",
+   "title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
+   "url": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
+   "snippet": "Paris, France | November 2026 — Novaspace’s Space Defense & Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025, reflecting […] The post Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates appeared firs",
+   "published": "2026-11-27T15:35:22.000Z",
    "also": [],
-   "score": 1.52,
-   "image": "/img/news/ded997b7c5.webp",
+   "score": 1.47,
+   "image": "/img/news/4d1316fc75.webp",
    "t": "2026-11-27",
-   "summary": "Guinea-Bissau's military leaders delayed the return to civilian rule until 2028, a year after a coup and a promise to restore civilian rule within 12 months.",
-   "why": "The delay signals a change in the stated timetable for civilian rule.",
+   "summary": "Novaspace reports that governments invested approximately $71.8 billion in global space defense and security activities in 2025.",
+   "why": "The reported investment points to the strategic importance governments place on space defense.",
    "tags": [
-    "Guinea-Bissau",
-    "military",
-    "civilian rule"
+    "space defense",
+    "security",
+    "investment"
    ],
    "ai": true
   },
   {
-   "id": "a1d836995a",
+   "id": "0527ff8c89",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
-   "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media?traffic_source=rss",
-   "snippet": "Hostilities between Iran-backed Houthis and Saudi-backed coalition continue to push Yemen into a humanitarian crisis.",
-   "published": "2026-11-27T12:00:22.000Z",
+   "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+   "snippet": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
+   "published": "2026-11-27T20:18:45.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/a1d836995a.webp",
+   "score": 1.47,
+   "image": "/img/news/0527ff8c89.webp",
    "t": "2026-11-27",
-   "summary": "Houthi media says a Saudi strike killed civilians in Yemen's Taiz. The report says hostilities continue amid a humanitarian crisis.",
-   "why": "The report highlights ongoing hostilities and their stated humanitarian context in Yemen.",
+   "summary": "Al Jazeera reports that Izzeldeen, the last surviving son of Hamas leader Khalil al-Hayya, survived an Israeli assassination attempt.",
+   "why": "The report concerns the conflict’s leadership and the effects of strikes in Gaza.",
    "tags": [
-    "Yemen",
-    "Taiz",
-    "hostilities"
+    "Gaza",
+    "Hamas",
+    "Israeli strike"
    ],
    "ai": true
   },
   {
-   "id": "f960c28894",
+   "id": "1c3cdafc43",
    "section": "geo",
    "source": "Al Jazeera",
    "weight": 0.5,
-   "title": "Russia’s hybrid war on Europe evolving, but failing: IISS",
-   "url": "https://www.aljazeera.com/news/2026/11/27/russias-hybrid-war-on-europe-evolving-but-failing-iiss?traffic_source=rss",
-   "snippet": "Growing attacks have damaged European infrastructure, but have not reduced support for Ukraine, analysis says.",
-   "published": "2026-11-27T11:44:46.000Z",
+   "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+   "snippet": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’.",
+   "published": "2026-11-27T20:10:30.000Z",
    "also": [],
-   "score": 1.48,
-   "image": "/img/news/f960c28894.webp",
+   "score": 1.47,
+   "image": "/img/news/1c3cdafc43.webp",
    "t": "2026-11-27",
-   "summary": "IISS analysis says attacks have damaged European infrastructure but have not reduced support for Ukraine, describing Russia's hybrid war as evolving but failing.",
-   "why": "The assessment links infrastructure damage with the limits of its stated political effect.",
+   "summary": "Costa Rica barred UN special rapporteur Francesca Albanese, citing alleged links to terrorist acts.",
+   "why": "The decision raises diplomatic questions about access for a UN rapporteur.",
    "tags": [
-    "hybrid war",
-    "Europe",
-    "infrastructure"
+    "Costa Rica",
+    "UN",
+    "rapporteur"
+   ],
+   "ai": true
+  },
+  {
+   "id": "f15707cb84",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
+   "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
+   "snippet": "Four of Khalil al-Hayya's other sons were previously killed by Israeli forces, according to the Palestinian group.",
+   "published": "2026-11-27T19:53:25.000Z",
+   "also": [],
+   "score": 1.46,
+   "image": "/img/news/f15707cb84.webp",
+   "t": "2026-11-27",
+   "summary": "Al Jazeera reports that four of Khalil al-Hayya's sons were previously killed by Israeli forces and that another son survived a strike.",
+   "why": "The report describes the personal and political effects of strikes in Gaza.",
+   "tags": [
+    "Gaza",
+    "Israeli forces",
+    "strike"
+   ],
+   "ai": true
+  },
+  {
+   "id": "2e463f3bfb",
+   "section": "geo",
+   "source": "Al Jazeera",
+   "weight": 0.5,
+   "title": "Spanish rescuers treat migrants as hundreds arrive in Canary Islands",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spanish-rescuers-treat-migrants-as-hundreds-arrive-in-canary-islands?traffic_source=rss",
+   "snippet": "Spain's Military Emergencies Unit has been sent to treat migrants brought ashore on the island of El Hierro",
+   "published": "2026-11-27T17:44:50.000Z",
+   "also": [],
+   "score": 1.42,
+   "image": "/img/news/2e463f3bfb.webp",
+   "t": "2026-11-27",
+   "summary": "Spain's Military Emergencies Unit was sent to treat migrants brought ashore on El Hierro as hundreds arrived in the Canary Islands.",
+   "why": "The report highlights the island’s role in migrant arrivals and emergency response.",
+   "tags": [
+    "El Hierro",
+    "migrants",
+    "emergency response"
    ],
    "ai": true
   }
  ],
  "kev": [
+  {
+   "cve": "CVE-2026-120705",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "name": "OSGeo GeoServer XML Injection Vulnerability",
+   "added": "2026-11-27",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": null,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+  },
+  {
+   "cve": "CVE-2026-129243",
+   "vendor": "OSGeo",
+   "product": "GeoServer",
+   "name": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+   "added": "2026-11-27",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": null,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+  },
+  {
+   "cve": "CVE-2026-136716",
+   "vendor": "Drupal",
+   "product": "Core",
+   "name": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "added": "2026-11-27",
+   "due": "2026-11-30",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "cvss": 9.8,
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+  },
   {
    "cve": "CVE-2026-103406",
    "vendor": "Hewlett Packard Enterprise (HPE)",
@@ -682,86 +719,50 @@
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
    "cvss": 9,
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
-  },
-  {
-   "cve": "CVE-2026-133323",
-   "vendor": "Mitel",
-   "product": "MiCollab",
-   "name": "Mitel MiCollab OS Command Injection Vulnerability",
-   "added": "2026-11-25",
-   "due": "2026-11-28",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 10,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
-  },
-  {
-   "cve": "CVE-2026-132224",
-   "vendor": "Optimizely",
-   "product": "Web Experimentation",
-   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
-   "added": "2026-11-24",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 7.1,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
-  },
-  {
-   "cve": "CVE-2026-131914",
-   "vendor": "Idunno",
-   "product": "AntiCsrf",
-   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-   "added": "2026-11-24",
-   "due": "2026-11-27",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-   "cvss": 9.3,
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
   }
  ],
  "run_today": [
-  "Prioritize patching unpatched Drupal sites and confirm their update status.",
-  "Review systems for suspicious activity relevant to SAP's reported incident.",
-  "Check server update plans and stability, including the Windows Server hotpatch issue."
+  "Check affected systems against CISA's known exploited vulnerabilities catalog and prioritize remediation.",
+  "Review pCloud Pass sessions for unfamiliar devices, even where two-factor authentication is enabled.",
+  "Check Cacti deployments for exposure to the publicly disclosed zero-day and proof-of-concept exploit."
  ],
  "learn": [
   {
    "domain": "cyber",
-   "term": "WSUS",
-   "explainer": "WSUS is the Windows Server role named in the report. Microsoft says it will remove this role from Windows Server 2028, so organizations that rely on it may need to review update-management plans.",
-   "from_id": "7b714952d0",
-   "from": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-   "fromSource": "BleepingComputer"
+   "term": "Known Exploited Vulnerabilities",
+   "explainer": "A catalog of vulnerabilities known to be exploited. CISA says it added three vulnerabilities to the catalog.",
+   "from_id": "e66a2e1c8c",
+   "from": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "fromSource": "CISA Advisories"
   },
   {
    "domain": "warfare",
-   "term": "counter-drone",
-   "explainer": "Counter-drone refers to capabilities intended to respond to drones. France’s defense-industry pact is described as an effort to build up these capabilities.",
-   "from_id": "8a2bba60d4",
-   "from": "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts/",
-   "fromSource": "Defense News"
+   "term": "CV90",
+   "explainer": "An infantry fighting vehicle. The reports describe five European NATO allies ordering CV90s together.",
+   "from_id": "23e1123fa5",
+   "from": "https://www.twz.com/land/europe-bets-big-on-cv90-armored-fighting-vehicle",
+   "fromSource": "The War Zone"
   },
   {
    "domain": "geo",
-   "term": "troop withdrawal",
-   "explainer": "A troop withdrawal is the departure of military forces from a place where they are present. Uganda plans to withdraw troops from a DR Congo town amid a diplomatic row.",
-   "from_id": "5b00924ca8",
-   "from": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&amp;at_campaign=rss",
-   "fromSource": "BBC World"
+   "term": "space defense",
+   "explainer": "Defense and security activities connected to space. The report describes government investment in this area.",
+   "from_id": "4d1316fc75",
+   "from": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
+   "fromSource": "SpaceNews"
   }
  ],
  "analysis": {
-  "headline": "Operational change, exposure, and strategic ties",
+  "headline": "Security, procurement, and pressure across domains",
   "paragraphs": [
-   "The top stories span infrastructure, software security, and state relationships. A strike in Kuwait reportedly killed two technicians for Rheinmetall, while Uganda’s planned troop withdrawal comes amid a diplomatic row. These reports show how operational and diplomatic developments can intersect, though the snippets do not establish a connection between them.",
-   "In cyber, Microsoft plans to remove the WSUS role in a future Windows Server release, while Drupal’s security team says attackers are exploiting a critical flaw. SAP also reports suspicious activity and urgent action to protect customers. Together, these stories suggest defenders need to track both immediate exposure and changes to the systems they rely on.",
-   "Latin America’s ties with China are framed through economic incentives, while India’s reported rescue links trafficking to coerced cybercrime. Analysts should distinguish stated claims from established detail and watch how policy, operations, and technology are described. For defenders, patch status and infrastructure plans remain practical points to verify."
+   "The cyber reports describe exposure across accounts, medical information, government systems, and software development infrastructure. CISA’s catalog update and the Cacti zero-day add specific reasons to review vulnerabilities and system exposure. Together, they suggest defenders need to look beyond perimeter controls and check access and patch status.",
+   "The warfare stories range from reported F-35A and AIM-9X configurations to joint CV90 procurement and efforts to locate and assess casualties using drones and robots. These accounts show different operational priorities: weapons and vehicle capability, allied purchasing, and battlefield support. The reasons behind the reported aircraft configuration remain unclear.",
+   "The geo stories describe continued pressure in Ukraine, planned submarine expansion, investment in space defense, and events in Gaza and the Canary Islands. For analysts, these reports underline the value of separating stated plans and reported events from broader conclusions. Watch how the stories develop, while treating uncertain claims cautiously."
   ],
   "takeaways": [
-   "Prioritize known exposure while planning for platform changes.",
-   "Separate attributed claims from confirmed details.",
-   "Watch how operational and diplomatic shifts affect stated priorities."
+   "Check exposure, patch status, and account access across cyber systems.",
+   "Joint procurement and battlefield support technologies are prominent in the warfare reports.",
+   "Keep plans, reported events, and uncertain explanations distinct in analysis."
   ]
  },
  "health": [
@@ -769,7 +770,7 @@
    "name": "CISA Advisories",
    "section": "cyber",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Krebs on Security",
@@ -781,25 +782,25 @@
    "name": "BleepingComputer",
    "section": "cyber",
    "ok": true,
-   "n": 10
+   "n": 15
   },
   {
    "name": "The Hacker News",
    "section": "cyber",
    "ok": true,
-   "n": 11
+   "n": 10
   },
   {
    "name": "The Record",
    "section": "cyber",
    "ok": true,
-   "n": 2
+   "n": 4
   },
   {
    "name": "SecurityWeek",
    "section": "cyber",
    "ok": true,
-   "n": 9
+   "n": 7
   },
   {
    "name": "Help Net Security",
@@ -811,7 +812,7 @@
    "name": "Dark Reading",
    "section": "cyber",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Unit 42",
@@ -841,19 +842,19 @@
    "name": "War on the Rocks",
    "section": "warfare",
    "ok": true,
-   "n": 2
+   "n": 0
   },
   {
    "name": "The War Zone",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 3
   },
   {
    "name": "Breaking Defense",
    "section": "warfare",
    "ok": true,
-   "n": 0
+   "n": 1
   },
   {
    "name": "Defense One",
@@ -865,13 +866,13 @@
    "name": "Defense News",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "Naval News",
    "section": "warfare",
    "ok": true,
-   "n": 5
+   "n": 3
   },
   {
    "name": "Bellingcat",
@@ -889,7 +890,7 @@
    "name": "UK Ministry of Defence",
    "section": "warfare",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
    "name": "International Crisis Group",
@@ -919,7 +920,7 @@
    "name": "SpaceNews",
    "section": "geo",
    "ok": true,
-   "n": 1
+   "n": 2
   },
   {
    "name": "RAND",
@@ -955,7 +956,7 @@
    "name": "DW",
    "section": "geo",
    "ok": true,
-   "n": 5
+   "n": 7
   }
  ]
 }
