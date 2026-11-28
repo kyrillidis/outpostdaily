@@ -1,15 +1,10 @@
 {
- "updated": "2026-11-27T21:03:24.834Z",
+ "updated": "2026-11-28T03:13:29.811Z",
  "health": [
   {
-   "name": "CISA Advisories",
+   "name": "Krebs on Security",
    "ok": true,
    "n": 0
-  },
-  {
-   "name": "BleepingComputer",
-   "ok": true,
-   "n": 4
   },
   {
    "name": "X cyber",
@@ -17,17 +12,22 @@
    "error": "HTTP 402"
   },
   {
-   "name": "The Hacker News",
+   "name": "MarketWatch",
    "ok": true,
-   "n": 1
+   "n": 3
   },
   {
-   "name": "Krebs on Security",
+   "name": "BleepingComputer",
    "ok": true,
    "n": 0
   },
   {
-   "name": "The Record",
+   "name": "Al Jazeera",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "name": "BBC World",
    "ok": true,
    "n": 0
   },
@@ -37,27 +37,17 @@
    "n": 0
   },
   {
-   "name": "Dark Reading",
+   "name": "The Record",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "BBC World",
+   "name": "CISA Advisories",
    "ok": true,
-   "n": 1
+   "n": 0
   },
   {
-   "name": "Al Jazeera",
-   "ok": true,
-   "n": 7
-  },
-  {
-   "name": "MarketWatch",
-   "ok": true,
-   "n": 9
-  },
-  {
-   "name": "Hackread",
+   "name": "The Hacker News",
    "ok": true,
    "n": 0
   },
@@ -67,7 +57,7 @@
    "n": 0
   },
   {
-   "name": "SOCRadar blog",
+   "name": "Hackread",
    "ok": true,
    "n": 0
   },
@@ -79,6 +69,16 @@
   {
    "name": "Security Affairs",
    "ok": true,
+   "n": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "n": 0
+  },
+  {
+   "name": "BreachForums",
+   "ok": true,
    "n": 0
   },
   {
@@ -87,7 +87,7 @@
    "n": 7
   },
   {
-   "name": "BreachForums",
+   "name": "SOCRadar blog",
    "ok": true,
    "n": 0
   },
@@ -118,6 +118,94 @@
   }
  ],
  "items": [
+  {
+   "id": "n8feb438bba",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Taiwan votes in local elections to choose mayors, other leaders",
+   "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+   "published": "2026-11-28T02:05:27.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "na89cfc6992",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Israel kills two MSF staff in targeted strike on Gaza clinic",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+   "published": "2026-11-28T01:55:03.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n9cde8bf91f",
+   "kind": "news",
+   "group": "darkweb",
+   "source": "Security Affairs",
+   "title": "Fake Government App Exposes Italy’s Expanding Spyware Surveillance Industry",
+   "url": "https://securityaffairs.com/204142/intelligence/fake-government-app-exposes-italys-expanding-spyware-surveillance-industry.html",
+   "published": "2026-11-28T00:08:30.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n828a197530",
+   "kind": "news",
+   "group": "markets",
+   "source": "MarketWatch",
+   "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+   "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+   "published": "2026-11-28T00:00:00.000Z",
+   "severity": "normal",
+   "verified": true
+  },
+  {
+   "id": "n70414c38be",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+   "published": "2026-11-28T00:00:00.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n276e911c48",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US disables ship attempting to breach Iran blockade",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+   "published": "2026-11-27T23:55:16.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "nd0f1193933",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+   "published": "2026-11-27T23:09:04.000Z",
+   "severity": "high",
+   "verified": true
+  },
+  {
+   "id": "n3aeba5acc6",
+   "kind": "news",
+   "group": "crisis",
+   "source": "Al Jazeera",
+   "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+   "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+   "published": "2026-11-27T22:22:02.000Z",
+   "severity": "high",
+   "verified": true
+  },
   {
    "id": "n6748f6e760",
    "kind": "news",
@@ -2040,303 +2128,6 @@
    "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
    "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
    "published": "2026-11-25T06:21:12.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "fcbed596190",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Access to DarkForums Private Archive Telegram Channel",
-   "url": "https://darkforums.team/Thread-News-DarkForums-Archive-Telegram-Channel",
-   "published": "2026-11-25T01:53:43.204Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "fa678a403e4",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "GTA 5 SOURCE CODE",
-   "url": "https://darkforums.team/Thread-Source-Code-GTA-5-SOURCE-CODE",
-   "published": "2026-11-25T01:53:43.204Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f19f091a40e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "Discord CEO Dox Leak",
-   "url": "https://darkforums.team/Thread-Discord-CEO-Dox-Leak",
-   "published": "2026-11-25T01:53:43.204Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "f72e0664177",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "вњ…пёЏ SimpleSwap API Exploit...",
-   "url": "https://darkforums.team/Thread-%E2%9C%85%EF%B8%8F-SimpleSwap-API-Exploit-%E2%AD%90-I-made-12-000-in-a-2-days--90974",
-   "published": "2026-11-25T01:53:43.204Z",
-   "severity": "normal",
-   "verified": false
-  },
-  {
-   "id": "f21c3d90f7e",
-   "kind": "forum",
-   "group": "darkweb",
-   "source": "DarkForums",
-   "title": "golfcanada.ca data breach",
-   "url": "https://darkforums.team/Thread-golfcanada-ca-data-breach",
-   "published": "2026-11-25T01:53:43.204Z",
-   "severity": "high",
-   "verified": false
-  },
-  {
-   "id": "necc097be75",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
-   "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government?traffic_source=rss",
-   "published": "2026-11-25T01:30:44.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "na5d555f155",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran whips singer Parastoo Ahmadi 74 times over YouTube concert",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/iran-whips-singer-parastoo-ahmadi-74-times-over-youtube-concert?traffic_source=rss",
-   "published": "2026-11-25T01:21:02.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n75d4a6c12b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Poll finds US voters want government to end Iran war regardless of terms",
-   "url": "https://www.aljazeera.com/news/2026/11/25/poll-finds-us-voters-want-government-to-end-iran-war-regardless-of-terms?traffic_source=rss",
-   "published": "2026-11-25T01:14:22.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n34784abefe",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Dell’s stock rises as the AI boom helps sales more than double",
-   "url": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
-   "published": "2026-11-25T01:11:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb7670f6d93",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Gunmen hold dozens hostage in Colombia supermarket",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-   "published": "2026-11-25T00:49:35.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nb10ed5ca21",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Iran war live: Houthis threaten Saudi ports over coalition’s Hodeidah order",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
-   "published": "2026-11-25T00:00:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nbfafb17d5c",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
-   "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
-   "published": "2026-11-24T23:29:40.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc60806ea6c",
-   "kind": "news",
-   "group": "darkweb",
-   "source": "Security Affairs",
-   "title": "VMware patches critical vCenter authentication bypass and ESX flaws",
-   "url": "https://securityaffairs.com/203931/security/vmware-patches-critical-vcenter-authentication-bypass-and-esx-flaws.html",
-   "published": "2026-11-24T23:20:02.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nd8482b1a53",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
-   "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
-   "published": "2026-11-24T23:11:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nae79bb5847",
-   "kind": "news",
-   "group": "cyber",
-   "source": "SecurityWeek",
-   "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-   "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-   "published": "2026-11-24T22:41:58.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n6a6218931c",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Satellites Have a Ground-Level Cybersecurity Problem",
-   "url": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
-   "published": "2026-11-24T22:05:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "ne1c6498f7d",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
-   "url": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
-   "published": "2026-11-24T21:53:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n7f8f5938b0",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
-   "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
-   "published": "2026-11-24T21:48:06.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nba51d92909",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Anthropic’s stock just broke below its IPO price for the first time",
-   "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
-   "published": "2026-11-24T21:46:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nc3c3df9289",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Colombian president blames ex-FARC rebels for car bomb blast",
-   "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
-   "published": "2026-11-24T21:45:42.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n97b4be0a9b",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-   "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-   "published": "2026-11-24T21:43:34.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n6c270107d3",
-   "kind": "news",
-   "group": "cyber",
-   "source": "BleepingComputer",
-   "title": "Rackspace shuts down Spot cloud platform after security breach",
-   "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-   "published": "2026-11-24T21:37:30.000Z",
-   "severity": "high",
-   "verified": true
-  },
-  {
-   "id": "n3b8d0a7e0d",
-   "kind": "news",
-   "group": "cyber",
-   "source": "Dark Reading",
-   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-   "published": "2026-11-24T21:36:11.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n15160fa00a",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
-   "url": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
-   "published": "2026-11-24T21:31:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n26c4ace1c9",
-   "kind": "news",
-   "group": "markets",
-   "source": "MarketWatch",
-   "title": "Micron’s stock falls as an analyst warns about a future supply glut",
-   "url": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories",
-   "published": "2026-11-24T21:22:00.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "nfc8579c142",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Russian jets spark air raid alert in South Korea",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_russian-jets-spark-air-raid-alert-in-south-korea-241126?traffic_source=rss",
-   "published": "2026-11-24T21:14:57.000Z",
-   "severity": "normal",
-   "verified": true
-  },
-  {
-   "id": "n28ea865f0a",
-   "kind": "news",
-   "group": "crisis",
-   "source": "Al Jazeera",
-   "title": "Hostage situation reported in Colombia as armed men flee into supermarket",
-   "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss",
-   "published": "2026-11-24T21:04:46.000Z",
    "severity": "normal",
    "verified": true
   }
